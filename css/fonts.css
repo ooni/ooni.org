@@ -18,22 +18,22 @@
   font-weight: bold; font-style: italic;
 }
 @font-face {
-  font-family: "Charter";
-  src: url("../fonts/charter-regular.woff");
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.woff");
 }
 @font-face {
-  font-family: "Charter";
-  src: url("../fonts/charter-bold.woff");
+  font-family: "Lato";
+  src: url("../fonts/Lato-Bold.woff");
   font-weight: bold;
 }
 @font-face {
-  font-family: "Charter";
-  src: url("../fonts/charter-italic.woff");
+  font-family: "Lato";
+  src: url("../fonts/Lato-Italic.woff");
   font-style: italic;
 }
 @font-face {
-  font-family: "Charter";
-  src: url("../fonts/charter-bold-italic.woff");
+  font-family: "Lato";
+  src: url("../fonts/Lato-BoldItalic.woff");
   font-weight: bold; font-style: italic;
 }
 

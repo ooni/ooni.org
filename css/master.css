@@ -10,7 +10,7 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6, nav {
-  font-family: "Concourse T4", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html {
@@ -41,7 +41,7 @@ h1 {
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
   border-top: 3px solid #0588cb;
   width: 200px;
@@ -82,7 +82,7 @@ nav {
 }
 
 nav a {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
   margin-right: 30px;
