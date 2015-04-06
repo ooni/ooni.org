@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Charter", serif;
+  line-height: 1.40;
+}
+
+h1, h2, h3, h4, h5, h6, nav {
+  font-family: "Concourse T4", sans-serif;
+}
+
+html {
+  font-size: 16px;
+  color: #1c1c1c;
+  /* background-color: #8dd8f8; */
+  background-color: #eee;
+}
+
+#container {
+  width: 760px;
+  margin: auto;
+}
+
+main {
+  background-color: #fff;
+  padding-bottom: 10px;
+  margin-bottom: 200px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0588cb;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  border-top: 3px solid #0588cb;
+  width: 200px;
+  padding-top: 4px;
+  margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #0588cb;
+}
+
+#site-name {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: right;
+}
+
+#site-name .colon {
+  font-size: 24px;
+}
+
+header {
+  color: #fff;
+  background-color: #8dd8f8;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+
+#mascot img {
+  position: relative;
+  top: 8px;
+}
+
+nav {
+}
+
+nav a {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 30px;
+  color: inherit;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+.row {
+  display: flex;
+}
+
+.row, .pad-below {
+  margin-bottom: 100px;
+}
+
+#headline {
+  align-items: baseline;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+
+.col-1 {
+  width: 200px;
+}
+
+.col-2 {
+  width: 440px;
+}
+
+.col-3 {
+  width: 680px;
+}
+
+.col-1, .col-2, .col-3 {
+  margin-left: 40px;
+} 
+
+.col-1:last-child, .col-2:last-child, .col-3 {
+  margin-right: 40px;
+}
+
+.pad-1 {
+  margin-left: 280px;
+}
+
+.figure img {
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+p {
+  margin-bottom: 1.2em;
+}
+
+a.cta:hover {
+  text-decoration: underline;
+}
+
+a.cta::after {
+  content: " →";
+}
+
+.figure-title {
+  margin-bottom: 0;
+}
+
+th, td {
+  font-weight: inherit;
+  text-align: center;
+}
+
+.measurements {
+  width: 680px;
+}
+
+.measurements th {
+  padding-bottom: 5px;
+}
+
+.measurements td:first-child {
+  width: 240px;
+  height: 30px;
+  text-align: left;
+}
+
+.measurements img {
+  display: block;
+  margin: auto;
+}
+
+.blog-summary .blog-img {
+  background-color: #0588cb;
+  height: 50px;
+  width: auto;
+  margin-bottom: 6px;
+}
+
+.blog-summary p {
+  margin-bottom: 2em;
+}
+
+li {
+  margin-left: 1em;
+  padding-left: 0.2em;
+}
+
+.friends img {
+  display: inline-block;
+  max-height: 52px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>OONI</title>
+	<link rel="stylesheet" href="css/master.css"/>
+	<link rel="stylesheet" href="css/fonts.css"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body>
+ <div id="container">
+  <header>
+    <div id="mascot" class="col-1">
+      <img src="images/ooni-header-mascot.svg" width="162" height="192"/>
+    </div>
+    <nav class="col-2">
+      <a href="">Reports</a>
+      <a href="">Docs</a>
+      <a href="">Code</a>
+      <a href="">Contribute</a>
+      <a href="">Install</a>
+    </nav>
+  </header>
+  <main>
+
+    <div id="headline" class="row">
+      <div class="col-1">
+        <h1 id="site-name">OONI<span class="colon">:</span></h1>
+      </div>
+      <div class="col-2">
+        <h1>Open Observatory of Network Interference</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="intro-text" class="col-2 pad-1">
+        <p>A global observation network for detecting censorship, surveillance
+          and traffic manipulation on the internet.</p>
+        <p>Anyone can run a probe to test their own connection and help us
+          better understand the topology of network surveillance. OONI is free
+          software and the measurements it collects are released under an open
+          license.</p>
+        <p><a href="" class="cta">Run an OONI Probe</a></p>
+      </div>
+    </div>
+
+    <div class="col-1">
+      <h2 class="figure-title">How OONI Works</h2>
+    </div>
+    <div class="col-3 figure">
+      <img src="images/how-ooni-works.svg"/>
+    </div>
+    <div class="col-2 pad-1 pad-below">
+      <p>OONI scans TCP, DNS, HTTP and TLS connections for tampering. Some tests
+        work by requesting data over an unencrypted connection and comparing
+        against a known good value. Others check for DNS spoofing, keyword
+        filtering, transparent proxying and website block lists.</p>
+      <a href="" class="cta">Testing Methodology</a></p>
+    </div>
+
+    <div class="col-1">
+      <h2>Recent Measurements</h2>
+    </div>
+    <div class="col-3 pad-below">
+      <table class="measurements">
+        <tr>
+          <th></th>
+          <th>NZ</th>
+          <th>AU</th>
+          <th>US</th>
+          <th>CN</th>
+          <th>NL</th>
+          <th>BR</th>
+          <th>CA</th>
+          <th>CH</th>
+          <th>DE</th>
+          <th>GB</th>
+        </tr>
+
+        <tr>
+          <td>DNS spoofing</td>
+          <td><img src="images/dot.svg" width="2"/></td>
+          <td><img src="images/dot.svg" width="2"/></td>
+          <td><img src="images/dot.svg" width="10"/></td>
+          <td><img src="images/dot.svg" width="25"/></td>
+          <td><img src="images/dot.svg" width="3"/></td>
+          <td><img src="images/dot.svg" width="12"/></td>
+          <td><img src="images/dot.svg" width="22"/></td>
+          <td><img src="images/dot.svg" width="12"/></td>
+          <td><img src="images/dot.svg" width="6"/></td>
+          <td><img src="images/dot.svg" width="17"/></td>
+        </tr>
+
+        <tr>
+          <td>HTTP header manipulation</td>
+          <td><img src="images/dot.svg" width="2"/></td>
+          <td><img src="images/dot.svg" width="7"/></td>
+          <td><img src="images/dot.svg" width="10"/></td>
+          <td><img src="images/dot.svg" width="17"/></td>
+          <td><img src="images/dot.svg" width="3"/></td>
+          <td><img src="images/dot.svg" width="1"/></td>
+          <td><img src="images/dot.svg" width="4"/></td>
+          <td><img src="images/dot.svg" width="2"/></td>
+          <td><img src="images/dot.svg" width="0"/></td>
+          <td><img src="images/dot.svg" width="0"/></td>
+        </tr>
+
+        <tr>
+          <td>HTTP blocking</td>
+          <td><img src="images/dot.svg" width="1"/></td>
+          <td><img src="images/dot.svg" width="4"/></td>
+          <td><img src="images/dot.svg" width="2"/></td>
+          <td><img src="images/dot.svg" width="25"/></td>
+          <td><img src="images/dot.svg" width="5"/></td>
+          <td><img src="images/dot.svg" width="13"/></td>
+          <td><img src="images/dot.svg" width="11"/></td>
+          <td><img src="images/dot.svg" width="14"/></td>
+          <td><img src="images/dot.svg" width="20"/></td>
+          <td><img src="images/dot.svg" width="10"/></td>
+        </tr>
+
+        <tr>
+          <td>Tor blocking</td>
+          <td><img src="images/dot.svg" width="10"/></td>
+          <td><img src="images/dot.svg" width="2"/></td>
+          <td><img src="images/dot.svg" width="7"/></td>
+          <td><img src="images/dot.svg" width="24"/></td>
+          <td><img src="images/dot.svg" width="9"/></td>
+          <td><img src="images/dot.svg" width="6"/></td>
+          <td><img src="images/dot.svg" width="1"/></td>
+          <td><img src="images/dot.svg" width="2"/></td>
+          <td><img src="images/dot.svg" width="3"/></td>
+          <td><img src="images/dot.svg" width="12"/></td>
+        </tr>
+
+
+      </table>
+    </div>
+
+    <div class="row">
+      <div class="col-1">
+        <h2>Blog Posts</h2>
+      </div>
+      <div class="col-2 blog-summary">
+        <div class="blog-img"></div>
+        <p>Zambia, a country under Deep Packet Inspection</p>
+        <div class="blog-img"></div>
+        <p>Tab-Tab, Come in! Bypassing Internet blocking to categorize DPI devices</p>
+        <div class="blog-img"></div>
+        <p>Hadara Palestine</p>
+        <div class="blog-img"></div>
+        <p>T-Mobile USA Web Guard</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1">
+        <h2>Getting Involved</h2>
+      </div>
+      <div class="col-2 p-list">
+        <ul>
+          <li>IRC: <a href="ircs://irc.oftc.net:6697/#ooni">#ooni</a> on <a href="http://www.oftc.net/">OFTC</a></li>
+          <li><a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-dev">Mailing list</a></li>
+          <li><a href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_information&status=needs_review&status=needs_revision&status=new&status=reopened&component=Ooni&order=priority">Issue tracker</a></li>
+          <li><a href="https://gitweb.torproject.org/ooni-probe.git">Code repo</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1">
+        <h2>Friends</h2>
+        <p>Organizations that have contributed infrastructure or helped with
+          development</p>
+      </div>
+      <div class="col-2 friends">
+        <img src="images/greenhost-logo.png"/>
+        <img src="images/openrightsgroup-logo.png"/>
+        <img src="images/bytemark-logo.png"/>
+      </div>
+    </div>
+
+  </main>
+ </div>
+</body>
+</html>
