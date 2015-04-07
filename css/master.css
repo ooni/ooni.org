@@ -6,7 +6,7 @@
 
 html {
   font-family: "Charter", serif;
-  line-height: 1.40;
+  line-height: 1.35;
 }
 
 h1, h2, h3, h4, h5, h6, nav {
@@ -16,8 +16,7 @@ h1, h2, h3, h4, h5, h6, nav {
 html {
   font-size: 16px;
   color: #1c1c1c;
-  /* background-color: #8dd8f8; */
-  background-color: #eee;
+  background-color: #fff;
 }
 
 #container {
@@ -26,9 +25,8 @@ html {
 }
 
 main {
-  background-color: #fff;
   padding-bottom: 10px;
-  margin-bottom: 200px;
+  margin-bottom: 120px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,27 +53,25 @@ a {
 }
 
 #site-name {
-  font-size: 38px;
+  font-size: 40px;
   font-weight: bold;
-  text-align: right;
-}
-
-#site-name .colon {
-  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 header {
-  color: #fff;
-  background-color: #8dd8f8;
-  height: 80px;
+  height: 40px;
   display: flex;
   align-items: center;
-  margin-top: 120px;
+  margin: 20px 0 80px;
 }
 
 #mascot img {
   position: relative;
-  top: 8px;
+  top: 0px;
+}
+
+#intro-text {
+  margin-top: 145px;
 }
 
 nav {
@@ -141,11 +137,15 @@ p {
   margin-bottom: 1.2em;
 }
 
-a.cta:hover {
+p.cta {
+  margin-bottom: 2.6em;
+}
+
+p.cta a:hover, p a:hover {
   text-decoration: underline;
 }
 
-a.cta::after {
+p.cta a::after {
   content: " →";
 }
 
@@ -179,7 +179,7 @@ th, td {
 
 .blog-summary .blog-img {
   background-color: #0588cb;
-  height: 50px;
+  height: 70px;
   width: auto;
   margin-bottom: 6px;
 }
@@ -193,9 +193,7 @@ li {
   padding-left: 0.2em;
 }
 
-.friends img {
-  display: inline-block;
-  max-height: 52px;
-  margin-right: 20px;
+.sponsors img {
+  display: block;
   margin-bottom: 20px;
 }
