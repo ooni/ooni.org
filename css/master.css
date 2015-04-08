@@ -6,7 +6,7 @@
 
 html {
   font-family: "Charter", serif;
-  line-height: 1.35;
+  line-height: 1.4;
 }
 
 h1, h2, h3, h4, h5, h6, nav {
@@ -53,8 +53,10 @@ a {
 }
 
 #site-name {
-  font-size: 40px;
+  font-size: 80px;
   font-weight: bold;
+  text-transform: lowercase;
+  color: #222;
   margin-bottom: 20px;
 }
 
@@ -62,7 +64,7 @@ header {
   height: 40px;
   display: flex;
   align-items: center;
-  margin: 20px 0 80px;
+  margin: 20px 0 40px;
 }
 
 #mascot img {
@@ -138,7 +140,7 @@ p.cta {
   margin-bottom: 2.6em;
 }
 
-p.cta:last-child {
+.col-2 p:last-child, p.cta:last-child {
   margin-bottom: 0;
 }
 
@@ -161,6 +163,7 @@ th, td {
 
 .measurements {
   width: 680px;
+  margin-bottom: 140px;
 }
 
 .measurements th {
@@ -169,8 +172,9 @@ th, td {
 
 .measurements td:first-child {
   width: 240px;
-  height: 30px;
-  text-align: left;
+  height: 40px;
+  text-align: right;
+  padding-right: 40px;
 }
 
 .measurements img {
@@ -187,6 +191,10 @@ th, td {
 
 .blog-summary p {
   margin-bottom: 2em;
+}
+
+.blog-summary p:last-child {
+  margin-bottom: 0;
 }
 
 li {
