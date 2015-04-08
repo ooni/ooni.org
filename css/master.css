@@ -74,9 +74,6 @@ header {
   margin-top: 145px;
 }
 
-nav {
-}
-
 nav a {
   font-size: 13px;
   font-weight: bold;
@@ -94,7 +91,7 @@ nav a:last-child {
 }
 
 .row, .pad-below {
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 #headline {
@@ -139,6 +136,10 @@ p {
 
 p.cta {
   margin-bottom: 2.6em;
+}
+
+p.cta:last-child {
+  margin-bottom: 0;
 }
 
 p.cta a:hover, p a:hover {
