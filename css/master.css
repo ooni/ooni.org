@@ -168,7 +168,7 @@ th, td {
 
 .measurements {
   width: 680px;
-  margin-bottom: 140px;
+  margin-bottom: 30px;
 }
 
 .measurements th {
@@ -185,6 +185,12 @@ th, td {
 .measurements img {
   display: block;
   margin: auto;
+}
+
+.table-caption {
+  margin-left: 240px;
+  font-size: 13px;
+  color: #aaa;
 }
 
 .blog-summary .blog-img {
