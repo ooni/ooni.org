@@ -7,8 +7,7 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 </head>
 <body>
- <div id="container">
-  <header>
+ <div class="container">
     <nav class="col-2 pad-1">
       <a href="">Blog</a>
       <a href="">Docs</a>
@@ -16,25 +15,22 @@
       <a href="">Contribute</a>
       <a href="">Install</a>
     </nav>
-  </header>
-  <main>
+  </div>
 
-    <div class="row">
+  <header>
+    <div class="container row">
       <div id="mascot" class="col-1">
         <img src="images/ooni-header-mascot.svg" width="200" height="200"/>
       </div>
       <div id="intro-text" class="col-2">
         <h1 id="site-name">OONI</h1>
-        <p>A global observation network for detecting censorship, surveillance
-          and traffic manipulation on the internet.</p>
-        <p>Anyone can run a probe to test their own connection and help us
-          better understand the topology of network surveillance. OONI is free
-          software and the measurements it collects are released under an open
-          license.</p>
-        <p class="cta"><a href="">Run an OONI probe</a></p>
+        <p>A free software, global observation network for detecting censorship,
+          surveillance and traffic manipulation on the internet</p>
       </div>
     </div>
+  </header>
 
+  <main class="container">
     <div class="col-1">
       <h2 class="figure-title">How OONI Works</h2>
     </div>
@@ -161,27 +157,26 @@
           Issues and future plans for OONI can be <a href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_information&status=needs_review&status=needs_revision&status=new&status=reopened&component=Ooni&order=priority">found in Trac</a>.</p>
       </div>
     </div>
+  </main>
 
-    <div class="row">
-      <div class="col-1">
+  <footer>
+    <div class="container row">
+      <div class="col-3">
         <h2>Friends and Sponsors</h2>
-        <p>Organizations that have contributed infrastructure or helped with
-          development</p>
-      </div>
-      <div class="col-2 sponsors">
-        <a href="https://www.openrightsgroup.org">
-          <img src="images/open-rights-group-logo.png" alt="Open Rights Group" width="154" height"57"/>
-        </a>
-        <a href="https://greenhost.net">
-          <img src="images/greenhost-logo.png" alt="Greenhost" width="183" height="57"/>
-        </a>
-        <a href="https://www.bytemark.co.uk">
-          <img src="images/bytemark-logo.png" alt="Bytemark" width="240" height="32"/>
-        </a>
+        <div class="sponsors">
+          <a href="https://www.openrightsgroup.org">
+            <img src="images/open-rights-group-logo.png" alt="Open Rights Group" width="154" height"57"/>
+          </a>
+          <a href="https://greenhost.net">
+            <img src="images/greenhost-logo.png" alt="Greenhost" width="183" height="57"/>
+          </a>
+          <a href="https://www.bytemark.co.uk">
+            <img src="images/bytemark-logo.png" alt="Bytemark" class="bytemark" width="240" height="30"/>
+          </a>
+        </div>
       </div>
     </div>
+  </footer>
 
-  </main>
- </div>
 </body>
 </html>
