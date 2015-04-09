@@ -36,4 +36,9 @@
   src: url("../fonts/Lato-BoldItalic.woff");
   font-weight: bold; font-style: italic;
 }
+@font-face {
+  font-family: "FF Tisa";
+  src: url("../fonts/ff-tisa-bold.woff");
+  font-weight: bold;
+}
 
