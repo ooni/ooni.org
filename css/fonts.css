@@ -18,22 +18,22 @@
   font-weight: bold; font-style: italic;
 }
 @font-face {
-  font-family: "Lato";
-  src: url("../fonts/Lato-Regular.woff");
+  font-family: "Concourse T4";
+  src: url("../fonts/concourse-t4.woff");
 }
 @font-face {
-  font-family: "Lato";
-  src: url("../fonts/Lato-Bold.woff");
+  font-family: "Concourse T4";
+  src: url("../fonts/concourse-t4-bold.woff");
   font-weight: bold;
 }
 @font-face {
-  font-family: "Lato";
-  src: url("../fonts/Lato-Italic.woff");
+  font-family: "Concourse T4";
+  src: url("../fonts/concourse-t4-italic.woff");
   font-style: italic;
 }
 @font-face {
-  font-family: "Lato";
-  src: url("../fonts/Lato-BoldItalic.woff");
+  font-family: "Concourse T4";
+  src: url("../fonts/concourse-t4-bold-italic.woff");
   font-weight: bold; font-style: italic;
 }
 @font-face {

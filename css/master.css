@@ -10,7 +10,7 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6, nav {
-  font-family: "Lato", sans-serif;
+  font-family: "Concourse T4", sans-serif;
 }
 
 #site-name {
@@ -62,7 +62,7 @@ a {
   font-weight: bold;
   text-transform: lowercase;
   color: #222;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 header {
