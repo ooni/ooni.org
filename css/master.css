@@ -1,8 +1,15 @@
+/* ================================================================== */
+/* Resets */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+
+/* ================================================================== */
+/* Font selection */
 
 html {
   font-family: "Charter", serif;
@@ -13,43 +20,19 @@ h1, h2, h3, h4, h5, h6, nav {
   font-family: "Concourse T4", sans-serif;
 }
 
-#site-name {
+header h1 {
   font-family: "FF Tisa", serif;
   line-height: 1.2;
 }
+
+
+/* ================================================================== */
+/* Document structure */
 
 html {
   font-size: 16px;
   color: #1c1c1c;
   background-color: #fff;
-}
-
-.container {
-  width: 760px;
-  margin: auto;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #0588cb;
-}
-
-h1 {
-  font-size: 20px;
-  font-weight: normal;
-}
-
-h2 {
-  font-size: 17px;
-  font-weight: bold;
-  border-top: 3px solid #0588cb;
-  width: 200px;
-  padding-top: 4px;
-  margin-bottom: 16px;
-}
-
-a {
-  text-decoration: none;
-  color: #0588cb;
 }
 
 nav {
@@ -59,16 +42,27 @@ nav {
   margin-top: 15px;
 }
 
-nav a {
-  font-size: 13px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-right: 30px;
-  color: inherit;
+main {
+  margin-bottom: 120px !important;
 }
 
-nav a:last-child {
-  margin-right: 0;
+footer {
+  color: #b4b4b4;
+  background-color: #26292c;
+  margin-top: 160px;
+}
+
+.container {
+  width: 760px;
+  margin: auto;
+}
+
+
+/* ================================================================== */
+/* Rows */
+
+.row {
+  display: flex;
 }
 
 header .row {
@@ -76,39 +70,17 @@ header .row {
   margin: 60px 0 80px;
 }
 
-#mascot img {
-  position: relative;
-  top: 0px;
-}
-
-#site-name {
-  color: #1c1c1c;
-  font-size: 80px;
-  font-weight: bold;
-  text-transform: lowercase;
-}
-
-#intro-text {
-  width: 355px;
-}
-
-main {
-  margin-bottom: 120px !important;
-}
-
-.row {
-  display: flex;
-}
-
 main .row, .pad-below {
   margin-bottom: 120px;
 }
 
-#headline {
-  align-items: baseline;
-  padding-top: 20px;
-  margin-bottom: 40px;
+footer .row {
+  padding: 60px 0 80px;
 }
+
+
+/* ================================================================== */
+/* Columns */
 
 .col-1 {
   width: 200px;
@@ -134,14 +106,49 @@ main .row, .pad-below {
   margin-left: 280px;
 }
 
-.figure img {
-  display: block;
-  margin: auto;
+
+/* ================================================================== */
+/* Generic elements */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0588cb;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: bold;
+  border-top: 3px solid #0588cb;
+  width: 200px;
+  padding-top: 4px;
+  margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #0588cb;
 }
 
 p {
   margin-bottom: 1.2em;
 }
+
+li {
+  margin-left: 1em;
+  padding-left: 0.2em;
+}
+
+th, td {
+  font-weight: inherit;
+}
+
+
+/* ================================================================== */
+/* Paragraphs */
 
 p.cta {
   margin-bottom: 2.6em;
@@ -159,6 +166,41 @@ p.cta a::after {
   content: " →";
 }
 
+
+/* ================================================================== */
+/* Navigation */
+
+nav a {
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 30px;
+  color: inherit;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+
+/* ================================================================== */
+/* Header */
+
+header h1 {
+  color: #1c1c1c;
+  font-size: 80px;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+header p {
+  width: 355px;
+}
+
+
+/* ================================================================== */
+/* How it works */
+
 .how-it-works {
   background-color: #0588cb;
   color: #fff;
@@ -169,20 +211,25 @@ p.cta a::after {
 .how-it-works h2 {
   color: #fff;
   border-color: #fff;
-}
-
-.figure-title {
   margin-bottom: 0;
 }
 
-th, td {
-  font-weight: inherit;
-  text-align: center;
+.how-it-works img {
+  display: block;
+  margin: auto;
 }
+
+
+/* ================================================================== */
+/* Recent measurements */
 
 .measurements {
   width: 680px;
   margin-bottom: 30px;
+}
+
+.measurements th, td {
+  text-align: center;
 }
 
 .measurements th {
@@ -207,6 +254,10 @@ th, td {
   color: #aaa;
 }
 
+
+/* ================================================================== */
+/* Blog */
+
 .blog-summary .blog-img {
   background-color: #0588cb;
   height: 70px;
@@ -222,26 +273,15 @@ th, td {
   margin-bottom: 0;
 }
 
-li {
-  margin-left: 1em;
-  padding-left: 0.2em;
-}
 
-footer {
-  color: #b4b4b4;
-  background-color: #26292c;
-  margin-top: 160px;
-}
+/* ================================================================== */
+/* Footer */
 
 footer h2 {
   color: #b4b4b4;
   border: none;
   font-weight: normal;
   margin-bottom: 25px;
-}
-
-footer .row {
-  padding: 60px 0 80px;
 }
 
 .sponsors {
@@ -258,3 +298,4 @@ footer .row {
 .sponsors .bytemark {
   opacity: 0.38;
 }
+
