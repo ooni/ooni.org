@@ -9,7 +9,7 @@ html {
   line-height: 1.4;
 }
 
-h1, h2, h3, h4, h5, h6, nav, #intro-text {
+h1, h2, h3, h4, h5, h6, nav {
   font-family: "Concourse T4", sans-serif;
 }
 
@@ -56,7 +56,7 @@ nav {
   height: 40px;
   display: flex;
   align-items: center;
-  margin: 15px 0 15px;
+  margin-top: 15px;
 }
 
 nav a {
@@ -71,14 +71,9 @@ nav a:last-child {
   margin-right: 0;
 }
 
-header {
-  color: #fff;
-  background-color: #0588cb;
-}
-
 header .row {
   align-items: center;
-  height: 350px;
+  margin: 60px 0 80px;
 }
 
 #mascot img {
@@ -87,20 +82,18 @@ header .row {
 }
 
 #site-name {
-  color: #fff;
+  color: #1c1c1c;
   font-size: 80px;
   font-weight: bold;
   text-transform: lowercase;
 }
 
 #intro-text {
-  font-size: 17px;
-  line-height: 1.25;
-  width: 300px;
+  width: 355px;
 }
 
 main {
-  margin: 80px auto 120px !important;
+  margin-bottom: 120px !important;
 }
 
 .row {
@@ -144,7 +137,6 @@ main .row, .pad-below {
 .figure img {
   display: block;
   margin: auto;
-  margin-bottom: 40px;
 }
 
 p {
@@ -165,6 +157,18 @@ p.cta a:hover, p a:hover {
 
 p.cta a::after {
   content: " →";
+}
+
+.how-it-works {
+  background-color: #0588cb;
+  color: #fff;
+  padding: 30px 0 30px;
+  margin-bottom: 50px;
+}
+
+.how-it-works h2 {
+  color: #fff;
+  border-color: #fff;
 }
 
 .figure-title {
