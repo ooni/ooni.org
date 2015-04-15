@@ -2,43 +2,62 @@
   font-family: "Charter";
   src: url("../fonts/charter-regular.woff");
 }
+
 @font-face {
   font-family: "Charter";
   src: url("../fonts/charter-bold.woff");
   font-weight: bold;
 }
+
 @font-face {
   font-family: "Charter";
   src: url("../fonts/charter-italic.woff");
   font-style: italic;
 }
+
 @font-face {
   font-family: "Charter";
   src: url("../fonts/charter-bold-italic.woff");
   font-weight: bold; font-style: italic;
 }
+
 @font-face {
   font-family: "Concourse T4";
   src: url("../fonts/concourse-t4-regular.woff");
 }
+
 @font-face {
   font-family: "Concourse T4";
   src: url("../fonts/concourse-t4-bold.woff");
   font-weight: bold;
 }
+
 @font-face {
   font-family: "Concourse T4";
   src: url("../fonts/concourse-t4-italic.woff");
   font-style: italic;
 }
+
 @font-face {
   font-family: "Concourse T4";
   src: url("../fonts/concourse-t4-bold-italic.woff");
   font-weight: bold; font-style: italic;
 }
+
 @font-face {
-  font-family: "FF Tisa";
-  src: url("../fonts/ff-tisa-bold.woff");
+  font-family: "Source Code Pro";
+  src: url("../fonts/source-code-pro-regular.woff");
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  src: url("../fonts/source-code-pro-bold.woff");
   font-weight: bold;
+}
+
+@font-face {
+font-family: "FF Tisa";
+src: url("../fonts/ff-tisa-bold.woff");
+font-weight: bold;
 }
 
