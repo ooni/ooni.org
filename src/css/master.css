@@ -357,11 +357,6 @@ footer h2 {
   margin-top: 4px;
 }
 
-pre.terminal {
-  color: #fff;
-  background-color: #26292c;
-}
-
 pre span.chr {
   font-size: 10px;
   color: #fff;
@@ -375,10 +370,6 @@ pre span.chr {
 pre span.explain {
   font-size: 11px;
   color: #d14;
-}
-
-pre.terminal span.explain {
-  color: #ff6388;
 }
 
 pre span.lw {
