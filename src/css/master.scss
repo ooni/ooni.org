@@ -136,7 +136,7 @@ h2 {
   font-weight: bold;
   color: #0588cb;
   border-top: 3px solid #0588cb;
-  width: 200px;
+  width: 100%;
   padding-top: 4px;
   margin: 0 0 16px;
 }
@@ -246,6 +246,10 @@ header p {
   width: 355px;
 }
 
+header img {
+  object-fit: contain;
+}
+
 
 /* ================================================================== */
 /* How it works */
@@ -298,7 +302,7 @@ header p {
 }
 
 .table-caption {
-  margin-left: 240px;
+  margin-left: $col-width + $gutter-width;
   font-size: 13px;
   color: #c1c1c1;
 }
@@ -308,10 +312,13 @@ header p {
 /* Blog */
 
 .blog-summary .blog-img {
+  display: block;
+  object-fit: contain;
   background-color: #0588cb;
   height: 70px;
-  width: auto;
+  width: 100%;
   margin-bottom: 6px;
+  text-align: center;
 }
 
 .blog-summary p {
@@ -342,6 +349,7 @@ footer h2 {
 .sponsors img {
   opacity: 0.5;
   mix-blend-mode: luminosity;
+  vertical-align: middle;
 }
 
 .sponsors .bytemark {
@@ -357,6 +365,10 @@ footer h2 {
 }
 
 .cover {
+  display: block;
+  object-fit: contain;
+  width: 100%;
+  background-color: #0588cb;
   margin-top: 4px;
 }
 
