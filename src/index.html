@@ -10,7 +10,8 @@
 <body class="homepage">
  <div class="container">
     <nav>
-      <div class="col-2 pad-1">
+      <div class="col-1"></div>
+      <div class="col-2">
         <a href="">Blog</a>
         <a href="">Docs</a>
         <a href="">Code</a>
@@ -34,8 +35,11 @@
   <main>
     <div class="how-it-works">
       <div class="container">
-        <div class="col-1">
-          <h2>How OONI Works</h2>
+        <div class="row">
+          <div class="col-1">
+            <h2>How OONI Works</h2>
+          </div>
+          <div class="col-2"></div>
         </div>
         <div class="col-3">
           <img src="images/how-ooni-works.svg"/>
@@ -43,40 +47,52 @@
       </div>
     </div>
     <div class="container">
-      <div class="col-2 pad-1 pad-below">
-        <p>OONI scans TCP, DNS, HTTP and TLS connections for tampering. Some tests
-          work by requesting data over an unencrypted connection and comparing
-          against a known good value. Others check for DNS spoofing, keyword
-          filtering, transparent proxying and website block lists.</p>
-        <p class="cta"><a href="">Testing methodology</a></p>
-        <p><strong>There are risks.</strong> Running a probe involves testing
-          connections to websites that may be banned and using tools to attempt
-          circumventing web censorship. It is not designed to protect the privacy
-          of those running probes. Measurements are published and can include IP
-          addresses or other identifying information.</p>
-        <p class="cta"><a href="">More about the risks</a></p>
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2 pad-below">
+          <p>OONI scans TCP, DNS, HTTP and TLS connections for tampering. Some tests
+            work by requesting data over an unencrypted connection and comparing
+            against a known good value. Others check for DNS spoofing, keyword
+            filtering, transparent proxying and website block lists.</p>
+          <p class="cta"><a href="">Testing methodology</a></p>
+          <p><strong>There are risks.</strong> Running a probe involves testing
+            connections to websites that may be banned and using tools to attempt
+            circumventing web censorship. It is not designed to protect the privacy
+            of those running probes. Measurements are published and can include IP
+            addresses or other identifying information.</p>
+          <p class="cta"><a href="">More about the risks</a></p>
+        </div>
       </div>
 
-      <div class="col-1">
-        <h2>Recent Measurements</h2>
+      <div class="row">
+        <div class="col-1">
+          <h2>Recent Measurements</h2>
+        </div>
+        <div class="col-2"></div>
       </div>
-      <div class="col-3 pad-below">
-        <table class="measurements">
+      <div class="row measurements pad-below">
+        <table class="col-1">
+          <tr><td></td></tr>
+          <tr><td>DNS spoofing</td></tr>
+          <tr><td>HTTP injection</td></tr>
+          <tr><td>HTTP blocking</td></tr>
+          <tr><td>Tor blocking</td></tr>
+        </table>
+        <table class="col-2">
+
           <tr>
-            <th></th>
-            <th>NZ</th>
-            <th>AU</th>
-            <th>US</th>
-            <th>CN</th>
-            <th>NL</th>
-            <th>BR</th>
-            <th>CA</th>
-            <th>CH</th>
-            <th>DE</th>
+            <td>NZ</td>
+            <td>AU</td>
+            <td>US</td>
+            <td>CN</td>
+            <td>NL</td>
+            <td>BR</td>
+            <td>CA</td>
+            <td>CH</td>
+            <td>DE</td>
           </tr>
 
           <tr>
-            <td>DNS spoofing</td>
             <td><img src="images/dot.svg" width="2"/></td>
             <td><img src="images/dot.svg" width="2"/></td>
             <td><img src="images/dot.svg" width="10"/></td>
@@ -89,7 +105,6 @@
           </tr>
 
           <tr>
-            <td>HTTP injection</td>
             <td><img src="images/dot.svg" width="2"/></td>
             <td><img src="images/dot.svg" width="7"/></td>
             <td><img src="images/dot.svg" width="10"/></td>
@@ -102,7 +117,6 @@
           </tr>
 
           <tr>
-            <td>HTTP blocking</td>
             <td><img src="images/dot.svg" width="1"/></td>
             <td><img src="images/dot.svg" width="4"/></td>
             <td><img src="images/dot.svg" width="2"/></td>
@@ -115,7 +129,6 @@
           </tr>
 
           <tr>
-            <td>Tor blocking</td>
             <td><img src="images/dot.svg" width="10"/></td>
             <td><img src="images/dot.svg" width="2"/></td>
             <td><img src="images/dot.svg" width="7"/></td>
@@ -128,12 +141,13 @@
           </tr>
 
         </table>
-        <div class="table-caption">
-          <p>Large circles indicate consistent, widespread traffic manipulation</p>
-        </div>
+      </div>
+      <div class="row pad-below">
+        <div class="col-1"></div>
+        <div class="col-2 table-caption">Large circles indicate consistent, widespread traffic manipulation</div>
       </div>
 
-      <div class="row">
+      <div class="row pad-below">
         <div class="col-1">
           <h2>Blog Posts</h2>
         </div>
