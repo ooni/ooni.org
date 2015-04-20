@@ -457,12 +457,12 @@ pre span.lw {
 }
 
 .toc h2 .closure::before {
-  content: "► ";
+  content: "►";
   font-size: 13px;
 }
 
 .toc h3 .closure::before {
-  content: "▼ ";
+  content: "▼";
   font-size: 11px;
 }
 
