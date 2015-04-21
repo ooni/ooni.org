@@ -1,2 +1,5 @@
-/.sass-cache
-/src/css/master.css.map
+/_cache
+/_site
+/site
+/site.hi
+/site.o
