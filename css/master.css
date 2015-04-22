@@ -37,6 +37,7 @@ html {
   font-size: 16px;
   color: #1c1c1c;
   background-color: #fff;
+  min-width: 320px;
 }
 
 nav {
@@ -95,12 +96,12 @@ footer .row {
 
 
 /* ================================================================== */
-/* Viewport width breakpoints */
+/* Single-column layout */
 
 @media (max-width: 699px) {
-  html { font-size: 16px; }
+  html { font-size: 14px; }
   .row { display: block; }
-  .col-1, .col-2, .col-3 { margin: 0 3rem !important; width: auto; }
+  .col-1, .col-2, .col-3 { margin: 0 2.5rem !important; }
   .container { width: auto; min-width: 20rem; }
   .homepage nav .col-1 { display: none; }
   nav { display: block; margin: 2rem 0 4rem !important; }
@@ -112,66 +113,92 @@ footer .row {
   .toc { display: none; }
   .homepage .col-1 h2 { margin: 6rem 0 2.5rem !important; width: 12rem; }
   .homepage .how-it-works .col-1 h2 { margin: 0 !important; }
-  .homepage .how-it-works img { width: 100%; margin: 0 !important; }
   .sponsors { display: block !important; }
   .sponsors a { margin-bottom: 2rem; }
-  .tcol-1 { flex-basis: 7rem !important; margin-right: 1rem; }
+  .measurements table, .homepage .how-it-works img { width: calc(100% - 3rem * 2); }
+  .tcol-1 { width: 8rem !important; padding-right: 1rem; }
 }
+
+@media (min-width: 350px) {
+  html { font-size: 15px; }
+  .col-1, .col-2, .col-3 { margin: 0 2.75rem !important; }
+}
+
+@media (min-width: 500px) {
+  html { font-size: 16px; }
+  .col-1, .col-2, .col-3 { margin: 0 3rem !important; }
+}
+
+
+
+/* ================================================================== */
+/* Viewport width breakpoints */
 
 @media (min-width: 700px) {
   html { font-size: 14px; }
   .col-1, .col-2, .col-3 { margin: 0 3rem; }
-  .tcol-1            { margin-right: 3rem; }
-  .col-1       { width: calc(12.5rem * 1 + 3rem * 0); }
-  .col-2       { width: calc(12.5rem * 2 + 3rem * 1); }
-  .col-3       { width: calc(12.5rem * 3 + 3rem * 2); }
-  .container   { width: calc(12.5rem * 3 + 3rem * 4); }
-  .tcol-1 { flex-basis: calc(12.5rem * 1 + 3rem * 0) !important; }
+  .tcol-1           { padding-right: 3rem; }
+  .col-1     { width: calc(12.5rem * 1 + 3rem * 0); }
+  .col-2     { width: calc(12.5rem * 2 + 3rem * 1); }
+  .col-3     { width: calc(12.5rem * 3 + 3rem * 2); }
+  .container { width: calc(12.5rem * 3 + 3rem * 4); }
+  .tcol-1    { width: calc(12.5rem * 1 + 3rem * 1); }
 }
 
 @media (min-width: 810px) {
   html { font-size: 15px; }
   .col-1, .col-2, .col-3 { margin: 0 4rem; }
-  .tcol-1            { margin-right: 4rem; }
-  .col-1       { width: calc(12.5rem * 1 + 4rem * 0); }
-  .col-2       { width: calc(12.5rem * 2 + 4rem * 1); }
-  .col-3       { width: calc(12.5rem * 3 + 4rem * 2); }
-  .container   { width: calc(12.5rem * 3 + 4rem * 4); }
-  .tcol-1 { flex-basis: calc(12.5rem * 1 + 4rem * 0) !important; }
+  .tcol-1           { padding-right: 4rem; }
+  .col-1     { width: calc(12.5rem * 1 + 4rem * 0); }
+  .col-2     { width: calc(12.5rem * 2 + 4rem * 1); }
+  .col-3     { width: calc(12.5rem * 3 + 4rem * 2); }
+  .container { width: calc(12.5rem * 3 + 4rem * 4); }
+  .tcol-1    { width: calc(12.5rem * 1 + 4rem * 1); }
 }
 
 @media (min-width: 920px) {
   html { font-size: 16px; }
   .col-1, .col-2, .col-3 { margin: 0 4.2rem; }
-  .tcol-1            { margin-right: 4.2rem; }
-  .col-1       { width: calc(12.5rem * 1 + 4.2rem * 0); }
-  .col-2       { width: calc(12.5rem * 2 + 4.2rem * 1); }
-  .col-3       { width: calc(12.5rem * 3 + 4.2rem * 2); }
-  .container   { width: calc(12.5rem * 3 + 4.2rem * 4); }
-  .tcol-1 { flex-basis: calc(12.5rem * 1 + 4.2rem * 0) !important; }
+  .tcol-1           { padding-right: 4.2rem; }
+  .col-1     { width: calc(12.5rem * 1 + 4.2rem * 0); }
+  .col-2     { width: calc(12.5rem * 2 + 4.2rem * 1); }
+  .col-3     { width: calc(12.5rem * 3 + 4.2rem * 2); }
+  .container { width: calc(12.5rem * 3 + 4.2rem * 4); }
+  .tcol-1    { width: calc(12.5rem * 1 + 4.2rem * 1); }
 }
 
 @media (min-width: 1030px) {
   html { font-size: 17px; }
   .col-1, .col-2, .col-3 { margin: 0 5rem; }
-  .tcol-1            { margin-right: 5rem; }
-  .col-1       { width: calc(13rem * 1 + 5rem * 0); }
-  .col-2       { width: calc(13rem * 2 + 5rem * 1); }
-  .col-3       { width: calc(13rem * 3 + 5rem * 2); }
-  .container   { width: calc(13rem * 3 + 5rem * 4); }
-  .tcol-1 { flex-basis: calc(13rem * 1 + 5rem * 0) !important; }
+  .tcol-1           { padding-right: 5rem; }
+  .col-1     { width: calc(13rem * 1 + 5rem * 0); }
+  .col-2     { width: calc(13rem * 2 + 5rem * 1); }
+  .col-3     { width: calc(13rem * 3 + 5rem * 2); }
+  .container { width: calc(13rem * 3 + 5rem * 4); }
+  .tcol-1    { width: calc(13rem * 1 + 5rem * 1); }
 }
 
 @media (min-width: 1200px) {
   html { font-size: 18px; }
   .col-1, .col-2, .col-3 { margin: 0 5.5rem; }
-  .tcol-1            { margin-right: 5.5rem; }
-  .col-1       { width: calc(14rem * 1 + 5.5rem * 0); }
-  .col-2       { width: calc(14rem * 2 + 5.5rem * 1); }
-  .col-3       { width: calc(14rem * 3 + 5.5rem * 2); }
-  .container   { width: calc(14rem * 3 + 5.5rem * 4); }
-  .tcol-1 { flex-basis: calc(14rem * 1 + 5.5rem * 0) !important; }
+  .tcol-1           { padding-right: 5.5rem; }
+  .col-1     { width: calc(14rem * 1 + 5.5rem * 0); }
+  .col-2     { width: calc(14rem * 2 + 5.5rem * 1); }
+  .col-3     { width: calc(14rem * 3 + 5.5rem * 2); }
+  .container { width: calc(14rem * 3 + 5.5rem * 4); }
+  .tcol-1    { width: calc(14rem * 1 + 5.5rem * 1); }
 }
+
+
+/* ================================================================== */
+/* Collapsable table columns */
+
+@media (max-width: 570px) { .measurements td:nth-last-child(1) { display: none; } }
+@media (max-width: 530px) { .measurements td:nth-last-child(2) { display: none; } }
+@media (max-width: 490px) { .measurements td:nth-last-child(3) { display: none; } }
+@media (max-width: 450px) { .measurements td:nth-last-child(4) { display: none; } }
+@media (max-width: 410px) { .measurements td:nth-last-child(5) { display: none; } }
+@media (max-width: 370px) { .measurements td:nth-last-child(6) { display: none; } }
 
 
 /* ================================================================== */
@@ -341,23 +368,19 @@ header img {
 }
 
 .measurements table, .measurements tbody, .measurements td {
-  display: block;
 }
 
 .measurements tr {
   height: 40px;
-  display: flex;
   align-items: center;
 }
 
 .measurements td {
   text-align: center;
-  flex: 1;
 }
 
 .measurements td.tcol-1 {
   text-align: right;
-  flex: 0;
 }
 
 .measurements img {
