@@ -1,120 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>HTTP Invalid Request Line</title>
-	<link rel="stylesheet" href="../css/master.css"/>
-	<link rel="stylesheet" href="../css/fonts.css"/>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <link rel="icon" type="image/png" href="../images/favicon.png"/>
-</head>
-<body class="article">
+---
+title: HTTP Invalid Request Line
+slug: http-invalid-request-line
+---
 
-  <div class="container">
-    <nav>
-      <div class="col-1">
-        <a href="../index">
-          <img src="../images/ooni-header-mascot.svg" width="25" height="25"/>
-          <h1>OONI</h1>
-        </a>
-      </div>
-      <div class="col-2">
-        <a href="">Blog</a>
-        <a href="">Docs</a>
-        <a href="">Code</a>
-        <a href="">Contribute</a>
-        <a href="">Install</a>
-      </div>
-    </nav>
-  </div>
+<p><em>Warning: This test is more dangerous to run than any other one.
+Only perform it if you know what you are doing.</em></p>
 
-  <main>
-    <div class="container">
-      <div class="row title">
-        <div class="col-1"></div>
-        <div class="col-2">
-          <h1>HTTP Invalid Request Line</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-1 toc">
-          <img class="cover" src="../images/tests/http-invalid-request-line.svg" width="200" height="324"/>
-          <h2><span class="closure"></span><a href="">OONI Documentation</a></h2>
-          <h3><span class="closure"></span><a href="">Network Tests</a></h3>
-          <div class="indent">
-            <h4><a href="">Bridge Reachability</a></h4>
-            <h4><a href="">DNS Consistency</a></h4>
-            <h4><a href="">HTTP Requests</a></h4>
-            <h4><a href="">TCP Connect</a></h4>
-            <h4><a href="">Captive Portal</a></h4>
-            <h4><a href="">DNS Spoofing</a></h4>
-            <h4><a href="">HTTP Header Manipulation</a></h4>
-            <h4><a href="">HTTP Host</a></h4>
-            <h4 class="active"><a href="">HTTP Invalid Request Line</a></h4>
-            <h4><a href="">Traceroute</a></h4>
-            <h4><a href="">HTTP Block Lists</a></h4>
-          </div>
-        </div>
-        <div class="col-2">
-          <p><em>Warning: This test is more dangerous to run than any other one.
-          Only perform it if you know what you are doing.</em></p>
+<p>This test does some basic fuzzing of HTTP request lines. We generate
+a series of requests with the method, version number or other fields
+tweaked so that the request is invalid.</p>
 
-          <p>This test does some basic fuzzing of HTTP request lines. We generate
-          a series of requests with the method, version number or other fields
-          tweaked so that the request is invalid.</p>
+<p>Some interception devices will attempt to parse the
+invalid request but choke in the process, revealing their presence and
+information which can be used to fingerprint them.</p>
 
-          <p>Some interception devices will attempt to parse the
-          invalid request but choke in the process, revealing their presence and
-          information which can be used to fingerprint them.</p>
+<p>The remote backend runs a TCP echo server. If the response from the
+backend does not match what was sent then we say that tampering
+is occurring.</p>
 
-          <p>The remote backend runs a TCP echo server. If the response from the
-          backend does not match what was sent then we say that tampering
-          is occurring.</p>
+<p>For reference, a properly formed HTTP request line looks like:</p>
 
-          <p>For reference, a properly formed HTTP request line looks like:</p>
+<pre><code>GET / HTTP/1.1<span class="chr">CR</span><span class="chr">LF</span></code></pre>
 
-          <pre><code>GET / HTTP/1.1<span class="chr">CR</span><span class="chr">LF</span></code></pre>
+<h2>Types of Fuzzing Performed</h2>
 
+<p><strong>Invalid method.</strong> Inserts a random 4-character
+alphanumeric string where the method would normally go. Examples:</p>
 
-          <h2>Types of Fuzzing Performed</h2>
-
-          <p><strong>Invalid method.</strong> Inserts a random 4-character
-          alphanumeric string where the method would normally go. Examples:</p>
-
-          <pre><code>9znH / HTTP/1.1<span class="chr">LF</span><span class="chr">CR</span>
+<pre><code>9znH / HTTP/1.1<span class="chr">LF</span><span class="chr">CR</span>
 MSVJ / HTTP/1.1<span class="chr">LF</span><span class="chr">CR</span>
 OjzJ / HTTP/1.1<span class="chr">LF</span><span class="chr">CR</span></code></pre>
 
-          <p><strong>Extra field.</strong> Sends four fields rather
-          than the standard three. The fields are all composed of random characters:</p>
+<p><strong>Extra field.</strong> Sends four fields rather
+than the standard three. The fields are all composed of random characters:</p>
 
-          <pre><code>WFpe6 8E496 2jrUf jMtr3<span class="chr">LF</span><span class="chr">CR</span>
+<pre><code>WFpe6 8E496 2jrUf jMtr3<span class="chr">LF</span><span class="chr">CR</span>
 4KIqA PEh2h x7HRf EdfM9<span class="chr">LF</span><span class="chr">CR</span>
 8PrHV 0qoKH Jv322 n7ogH<span class="chr">LF</span><span class="chr">CR</span></code></pre>
 
-          <p><strong>Very long method field.</strong> Sends a random method
-          string of 512 characters in length:</p>
+<p><strong>Very long method field.</strong> Sends a random method
+string of 512 characters in length:</p>
 
-          <pre><code>5pUQ9jNHCn2gH1fWEiWxjmz3fP6vD4hKvgYqjct5ya0oZt<span class="lw">↩</span>
+<pre><code>5pUQ9jNHCn2gH1fWEiWxjmz3fP6vD4hKvgYqjct5ya0oZt<span class="lw">↩</span>
 7C12nD7cmN0YWXWDCYJB88pwVL8eQU5dkLV8miHoDKIT3P<span class="lw">↩</span>
 fioxcjrw6QjF9QJ1hSnbqVTtTzGw1gaE7jXEujhESrqqf7<span class="lw">↩</span>
 GwYAak02oAtMRrouTF730Ra54K2XdQwddMngdQJ4by0Zj4<span class="lw">↩</span>
 jj6dp3LwE<span class="explain">… (512 characters total)</span> / HTTP/1.1<span class="chr">LF</span><span class="chr">CR</span></code></pre>
 
-          <p><strong>Invalid HTTP version.</strong> Inserts a random 3-character
-          alphanumeric string in place of the HTTP version:</p>
+<p><strong>Invalid HTTP version.</strong> Inserts a random 3-character
+alphanumeric string in place of the HTTP version:</p>
 
-          <pre><code>GET / HTTP/7Jn<span class="chr">LF</span><span class="chr">CR</span>
+<pre><code>GET / HTTP/7Jn<span class="chr">LF</span><span class="chr">CR</span>
 GET / HTTP/4QY<span class="chr">LF</span><span class="chr">CR</span>
 GET / HTTP/4rL<span class="chr">LF</span><span class="chr">CR</span></code></pre>
 
-          <h2>Identifying Transparent Proxies</h2>
+<h2>Identifying Transparent Proxies</h2>
 
-          <p>If a transparent proxy is present on the connection, the response
-          may help identify which software is being used and the version number.
-          This example shows how the <a href="http://www.squid-cache.org">Squid</a>
-          caching proxy responds to an invalid request.</p>
+<p>If a transparent proxy is present on the connection, the response
+may help identify which software is being used and the version number.
+This example shows how the <a href="http://www.squid-cache.org">Squid</a>
+caching proxy responds to an invalid request.</p>
 
-          <pre><code>HTTP/1.0 400 Bad Request
+<pre><code>HTTP/1.0 400 Bad Request
 Server: squid/2.6.STABLE21
 Date: Sat, 23 Jul 2011 02:22:44 GMT
 Content-Type: text/html
@@ -126,31 +73,23 @@ X-Cache-Lookup: NONE from cache_server:312
 Via: 1.0 cache_server:312 (squid/2.6.STABLE21)
 Proxy-Connection: close</code></pre>
 
+<h2>Running this Test</h2>
 
-          <h2>Running this Test</h2>
-
-          <pre><code>bin/ooniprobe<span class="lw">↩</span>
+<pre><code>bin/ooniprobe<span class="lw">↩</span>
 manipulation/http_invalid_request_line<span class="lw">↩</span>
 -b <span class="explain">&lt;address of backend&gt;</span></code></pre>
 
-          <h2>Example Reports</h2>
+<h2>Example Reports</h2>
 
-          <ul>
-            <li><a href="">No traffic manipulation detected</a></li>
-            <li><a href="">Transparent proxy detected in Indonesia</a></li>
-          </ul>
+<ul>
+  <li><a href="">No traffic manipulation detected</a></li>
+  <li><a href="">Transparent proxy detected in Indonesia</a></li>
+</ul>
 
-          <h2>Source Code</h2>
+<h2>Source Code</h2>
 
-          <ul>
-            <li><a href=""><code>http_invalid_request_line.py</code></a> (tester)</li>
-            <li><a href=""><code>tcp_helpers.py</code></a> (helper)</li>
-          </ul>
+<ul>
+  <li><a href=""><code>http_invalid_request_line.py</code></a> (tester)</li>
+  <li><a href=""><code>tcp_helpers.py</code></a> (helper)</li>
+</ul>
 
-        </div>
-      </div>
-    </div>
-  </main>
-
-</body>
-</html>
