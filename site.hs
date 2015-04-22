@@ -3,7 +3,6 @@
 import Data.Monoid (mappend)
 import Hakyll
 
-
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
@@ -15,9 +14,10 @@ main = hakyll $ do
     route   idRoute
     compile copyFileCompiler
 
-  match "tests/*.html" $ do
-    route   idRoute
-    compile $ getResourceBody
+  match "tests/*.rst" $ do
+    route   $ setExtension "html"
+    compile $ pandocCompiler
+      >>= return . fmap demoteHeaders
       >>= loadAndApplyTemplate "templates/documentation.html" defaultContext
       >>= loadAndApplyTemplate "templates/default.html"       defaultContext
 
