@@ -40,20 +40,19 @@ html {
 }
 
 nav {
-  height: 40px;
+  height: 2.5rem;
   display: flex;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 1rem;
 }
 
 main {
-  margin-bottom: 120px !important;
+  margin-bottom: 10rem !important;
 }
 
 footer {
   color: #b4b4b4;
   background-color: #26292c;
-  margin-top: 160px;
 }
 
 .container {
@@ -71,11 +70,11 @@ footer {
 
 header .row {
   align-items: center;
-  margin: 60px 0 80px;
+  margin: 3.5rem 0 4.5rem;
 }
 
 .pad-below {
-  margin-bottom: 120px !important;
+  margin-bottom: 6rem !important;
 }
 
 .row.title {
@@ -83,7 +82,7 @@ header .row {
 }
 
 footer .row {
-  padding: 60px 0 80px;
+  padding: 3.2rem 0 4.5rem;
 }
 
 
@@ -91,16 +90,7 @@ footer .row {
 /* Columns */
 
 .col-1 {
-  flex: 1 1 200px;
   margin-right: 0 !important;
-}
-
-.col-2 {
-  flex: 2 2 420px;
-}
-
-.col-3 {
-  flex: 1 1;
 }
 
 
@@ -108,23 +98,49 @@ footer .row {
 /* Viewport width breakpoints */
 
 @media (min-width: 0px) {
-  html { font-size: 16px; }
-  .container { width: 800px; }
+  html { font-size: 14px; }
   .col-1, .col-2, .col-3 { margin: 0 40px; }
+  .col-1     { width: calc(160px * 1 + 40px * 0); }
+  .col-2     { width: calc(160px * 2 + 40px * 1); }
+  .col-3     { width: calc(160px * 3 + 40px * 2); }
+  .container { width: calc(160px * 3 + 40px * 4); }
+}
+
+@media (min-width: 750px) {
+  html { font-size: 15px; }
+  .col-1, .col-2, .col-3 { margin: 0 50px; }
+  .col-1     { width: calc(180px * 1 + 50px * 0); }
+  .col-2     { width: calc(180px * 2 + 50px * 1); }
+  .col-3     { width: calc(180px * 3 + 50px * 2); }
+  .container { width: calc(180px * 3 + 50px * 4); }
+}
+
+@media (min-width: 840px) {
+  html { font-size: 16px; }
+  .col-1, .col-2, .col-3 { margin: 0 60px; }
+  .col-1     { width: calc(200px * 1 + 60px * 0); }
+  .col-2     { width: calc(200px * 2 + 60px * 1); }
+  .col-3     { width: calc(200px * 3 + 60px * 2); }
+  .container { width: calc(200px * 3 + 60px * 4); }
+}
+
+@media (min-width: 1000px) {
+  html { font-size: 17px; }
+  .col-1, .col-2, .col-3 { margin: 0 80px; }
+  .col-1     { width: calc(220px * 1 + 80px * 0); }
+  .col-2     { width: calc(220px * 2 + 80px * 1); }
+  .col-3     { width: calc(220px * 3 + 80px * 2); }
+  .container { width: calc(220px * 3 + 80px * 4); }
 }
 
 @media (min-width: 1200px) {
-  html { font-size: 17px; }
-  .container { width: 1000px; }
-  .col-1, .col-2, .col-3 { margin: 0 60px; }
-}
-
-@media (min-width: 1400px) {
   html { font-size: 18px; }
-  .container { width: 1200px; }
-  .col-1, .col-2, .col-3 { margin: 0 80px; }
+  .col-1, .col-2, .col-3 { margin: 0 100px; }
+  .col-1     { width: calc(240px * 1 + 100px * 0); }
+  .col-2     { width: calc(240px * 2 + 100px * 1); }
+  .col-3     { width: calc(240px * 3 + 100px * 2); }
+  .container { width: calc(240px * 3 + 100px * 4); }
 }
-
 
 
 /* ================================================================== */
@@ -144,9 +160,9 @@ h2 {
   font-size: 1.1rem;
   font-weight: bold;
   color: #0588cb;
-  border-top: 3px solid #0588cb;
-  padding-top: 4px;
-  margin: 0 0 16px;
+  border-top: 0.2rem solid #0588cb;
+  padding-top: 0.2rem;
+  margin: 0 0 1rem;
 }
 
 a {
@@ -171,7 +187,6 @@ pre {
   background-color: #f2f2f2;
   padding: 0.5em 1em;
   margin: 1.6em 0;
-  width: 100%;
   position: relative;
 }
 
@@ -213,10 +228,10 @@ p.cta a::after {
 }
 
 nav a {
-  font-size: 13px;
+  font-size: 0.8rem;
   font-weight: bold;
   text-transform: uppercase;
-  margin-right: 30px;
+  margin-right: 2rem;
   color: inherit;
 }
 
@@ -227,14 +242,14 @@ nav a:last-child {
 nav h1 {
   display: inline;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 1.38rem;
   text-transform: lowercase;
   margin-bottom: 0;
 }
 
 nav img {
   vertical-align: -6px;
-  margin-right: 5px;
+  margin-right: 0.32rem;
   opacity: 0.5;
 }
 
@@ -256,6 +271,7 @@ header p {
 
 header img {
   object-fit: contain;
+  height: 12.5rem;
 }
 
 
@@ -265,8 +281,8 @@ header img {
 .homepage .how-it-works {
   background-color: #0588cb;
   color: #fff;
-  padding: 30px 0 30px;
-  margin-bottom: 50px;
+  padding: 2rem 0;
+  margin-bottom: 3.5rem;
 }
 
 .homepage .how-it-works h2 {
@@ -277,7 +293,8 @@ header img {
 
 .homepage .how-it-works img {
   display: block;
-  margin: auto;
+  object-fit: contain;
+  height: 17.5rem;
 }
 
 
@@ -285,7 +302,7 @@ header img {
 /* Recent measurements */
 
 .measurements {
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 
 .measurements table, .measurements tbody, .measurements td {
@@ -323,11 +340,11 @@ header img {
 
 .blog-summary .blog-img {
   display: block;
-  object-fit: none;
+  object-fit: cover;
   background-color: #0588cb;
-  height: 70px;
+  height: 4.5rem;
   width: 100%;
-  margin-bottom: 6px;
+  margin-bottom: 0.5rem;
   text-align: center;
 }
 
@@ -348,7 +365,7 @@ footer h2 {
   border: none;
   font-size: 1.1rem;
   font-weight: normal;
-  margin: 0 0 25px;
+  margin: 0 0 1.5rem;
 }
 
 .sponsors {
@@ -372,15 +389,16 @@ footer h2 {
 /* Article pages */
 
 .article nav {
-  margin-bottom: 100px;
+  margin-bottom: 7rem;
 }
 
 .cover {
   display: block;
-  object-fit: none;
+  object-fit: cover;
   width: 100%;
+  height: 20rem;
   background-color: #0588cb;
-  margin-top: 4px;
+  margin-top: 0.24rem;
 }
 
 pre span.chr {
@@ -394,7 +412,6 @@ pre span.chr {
 }
 
 pre span.explain {
-  font-size: 11px;
   color: #d14;
 }
 
@@ -428,18 +445,18 @@ pre span.lw {
 
 .toc h2, .toc h3 {
   position: relative;
-  margin-left: 20px;
+  margin-left: 1.4rem;
 }
 
 .toc .closure {
-  margin-right: 8px;
+  margin-right: 0.5rem;
   position: absolute;
-  left: -20px; 
+  left: -1.4rem;
 }
 
 .toc .indent {
-  margin-left: 4px;
-  padding-left: 16px;
+  margin-left: 0.25rem;
+  padding-left: 1rem;
   border-left: 1px solid #f2f2f2;
 }
 
@@ -458,11 +475,11 @@ pre span.lw {
 
 .toc h2 .closure::before {
   content: "►";
-  font-size: 13px;
+  font-size: 0.8rem;
 }
 
 .toc h3 .closure::before {
   content: "▼";
-  font-size: 11px;
+  font-size: 0.7rem;
 }
 
