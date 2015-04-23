@@ -73,9 +73,7 @@ were from operators inside Zambia with the exception of MTN.
 .. figure:: zambia/pie-chart.png
    :alt: Pie chart
 
-   Pie chart
-
-Origin of the dropped connections to the webserver
+   Origin of the dropped connections to the webserver
 
 
 Who is breaking the connections?
@@ -96,7 +94,10 @@ server to look for any special patters that could help us to understand
 why most of the readers inside Zambia were experiencing connection drops
 with the exception of readers using MTN mobile network.
 
-|Wireshark| After reviewing dozen of different packet captures we saw a
+.. figure:: zambia/wireshark.png
+   :alt: Wireshark
+
+After reviewing dozen of different packet captures we saw a
 distinctive pattern
 
 The readers seemed to be able to establish the initial connection with
