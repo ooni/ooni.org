@@ -20,11 +20,11 @@ date: 2012-03-21 00:00:00
 **downloads:**
 
 -  `Full scan
-   result </media/releases/2012/T-Mobile_USA_WebGuard/t-mobile-scan.yamlooni.tar.gz>`__
+   result <t-mobile-usa-web-guard/t-mobile-scan.yamlooni.tar.gz>`__
 -  `List of censored
-   sites </media/releases/2012/T-Mobile_USA_WebGuard/t-mobile-scan-blockedsites.txt>`__
+   sites <t-mobile-usa-web-guard/t-mobile-scan-blockedsites.txt>`__
 -  `Categories of censored
-   sites </media/releases/2012/T-Mobile_USA_WebGuard/t-mobile-scan-blockedsites-categorized.txt>`__
+   sites <t-mobile-usa-web-guard/t-mobile-scan-blockedsites-categorized.txt>`__
 
 T-Mobile USA offers a "feature" to restrict access to certain kinds of
 content. This is called Web Guard. Supposedly Web Guard is supposed to
@@ -62,7 +62,7 @@ belong to any of the following categories Alcohol, Mature Content,
 Violence, Drugs, Pornography, Weapons, Gambling, Suicide, Guns, Hate,
 Tobacco, Ammunition.
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/torproject.org.png
+.. figure:: t-mobile-usa-web-guard/screenshot/torproject.org.png
    :alt: The Tor Project is dedicated to proving anonymous
    secure communication
 
@@ -72,7 +72,7 @@ Tobacco, Ammunition.
 `The Tor Project is dedicated to proving anonymous
 secure communication <http://torproject.org>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/italian-censorship.png
+.. figure:: t-mobile-usa-web-guard/screenshot/italian-censorship.png
    :alt: This is one of the most interestingly blocked website. Italy
    practices DNS based censorship for website that are related to online
    gambling. This is the block page is displayed when the IP address in
@@ -88,7 +88,7 @@ DNS based censorship for website that are related to online gambling.
 This is the block page is displayed when the IP address in the DNS
 response is spoofed. This is meta censorship! <http://217.175.53.72/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/web.archive.org.png
+.. figure:: t-mobile-usa-web-guard/screenshot/web.archive.org.png
    :alt: The internet archive Way Back Machine. The Library of
    the Internet.
 
@@ -97,7 +97,7 @@ response is spoofed. This is meta censorship! <http://217.175.53.72/>`__
 `The internet archive Way Back Machine. The Library of
 the Internet. <http://web.archive.org/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/newgrounds.com.png
+.. figure:: t-mobile-usa-web-guard/screenshot/newgrounds.com.png
    :alt: Newgrounds is an American entertainment and social media
    website.
 
@@ -106,21 +106,21 @@ the Internet. <http://web.archive.org/>`__
 `Newgrounds is an American entertainment and social media
 website. <http://newgrounds.com>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/wjunction.com.png
+.. figure:: t-mobile-usa-web-guard/screenshot/wjunction.com.png
    :alt: Webmaster Hangout
 
    Webmaster Hangout
 
 `Webmaster Hangout <http://wjunction.com/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/logicalmedia.com.png
+.. figure:: t-mobile-usa-web-guard/screenshot/logicalmedia.com.png
    :alt: Logical Media is an Affiliate Network.
 
    Logical Media is an Affiliate Network.
 
 `Logical Media is an Affiliate Network. <http://logicalmedia.com/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/cosmopolitan.com.png
+.. figure:: t-mobile-usa-web-guard/screenshot/cosmopolitan.com.png
    :alt: Cosmopolitan is an international magazine for women.
 
    Cosmopolitan is an international magazine for women.
@@ -128,7 +128,7 @@ website. <http://newgrounds.com>`__
 `Cosmopolitan is an international magazine for
 women. <http://cosmopolitan.com/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/nullrefer.com.png
+.. figure:: t-mobile-usa-web-guard/screenshot/nullrefer.com.png
    :alt: Hide Refer hides the visitors HTTP refer from being seen by
    other websites
 
@@ -138,168 +138,168 @@ women. <http://cosmopolitan.com/>`__
 `Hide Refer hides the visitors HTTP refer from being seen by
 other websites <http://nullrefer.com/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/sportscn.com.png
+.. figure:: t-mobile-usa-web-guard/screenshot/sportscn.com.png
    :alt: Chinese sports news website
 
    Chinese sports news website
 
 `Chinese sports news website <http://sportscn.com/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/programme.tv.png
+.. figure:: t-mobile-usa-web-guard/screenshot/programme.tv.png
    :alt: French TV guide website.
 
    French TV guide website.
 
 `French TV guide website. <http://programme.tv/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/nulled.cc.png
+.. figure:: t-mobile-usa-web-guard/screenshot/nulled.cc.png
    :alt: Russian programming forum
 
    Russian programming forum
 
 `Russian programming forum <http://nulled.cc/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/ir-tci.org.png
+.. figure:: t-mobile-usa-web-guard/screenshot/ir-tci.org.png
    :alt: Iranian Forum
 
    Iranian Forum
 
 `Iranian Forum <http://ir-tci.org/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/zonebourse.com.png
+.. figure:: t-mobile-usa-web-guard/screenshot/zonebourse.com.png
    :alt: French economics and financial news site
 
    French economics and financial news site
 
 `French economics and financial news site <http://zonebourse.com/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/hackbase.com.png
+.. figure:: t-mobile-usa-web-guard/screenshot/hackbase.com.png
    :alt: Chinese computer security website
 
    Chinese computer security website
 
 `Chinese computer security website <http://hackbase.com/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/whatreallyhappened.com.png
+.. figure:: t-mobile-usa-web-guard/screenshot/whatreallyhappened.com.png
    :alt: 9/11 conspiracy theory news site
 
    9/11 conspiracy theory news site
 
 `9/11 conspiracy theory news site <http://whatreallyhappened.com/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/p.tl.png
+.. figure:: t-mobile-usa-web-guard/screenshot/p.tl.png
    :alt: Japanese URL shortening service
 
    Japanese URL shortening service
 
 `Japanese URL shortening service <http://p.tl/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/10minutesaperdre.fr.png
+.. figure:: t-mobile-usa-web-guard/screenshot/10minutesaperdre.fr.png
    :alt: French funny news website
 
    French funny news website
 
 `French funny news website <http://10minutesaperdre.fr/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/statsie.com.png
+.. figure:: t-mobile-usa-web-guard/screenshot/statsie.com.png
    :alt: Website statistics collection site
 
    Website statistics collection site
 
 `Website statistics collection site <http://statsie.com/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/bbcprofit.com.png
+.. figure:: t-mobile-usa-web-guard/screenshot/bbcprofit.com.png
    :alt: Financial advice website
 
    Financial advice website
 
 `Financial advice website <http://bbcprofit.com/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/el-annuaire.com.png
+.. figure:: t-mobile-usa-web-guard/screenshot/el-annuaire.com.png
    :alt: French website index
 
    French website index
 
 `French website index <http://el-annuaire.com/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/livesports.pl.png
+.. figure:: t-mobile-usa-web-guard/screenshot/livesports.pl.png
    :alt: Polish sports news website
 
    Polish sports news website
 
 `Polish sports news website <http://livesports.pl/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/titan007.com.png
+.. figure:: t-mobile-usa-web-guard/screenshot/titan007.com.png
    :alt: Chinese sports news website
 
    Chinese sports news website
 
 `Chinese sports news website <http://titan007.com/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/girlpower.it.png
+.. figure:: t-mobile-usa-web-guard/screenshot/girlpower.it.png
    :alt: Italian women advice website
 
    Italian women advice website
 
 `Italian women advice website <http://girlpower.it/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/yusukebe.com.png
+.. figure:: t-mobile-usa-web-guard/screenshot/yusukebe.com.png
    :alt: Japanese blog
 
    Japanese blog
 
 `Japanese blog <http://yusukebe.com/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/sougouwiki.com.png
+.. figure:: t-mobile-usa-web-guard/screenshot/sougouwiki.com.png
    :alt: Japanese wiki
 
    Japanese wiki
 
 `Japanese wiki <http://sougouwiki.com/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/wiki-live.com.png
+.. figure:: t-mobile-usa-web-guard/screenshot/wiki-live.com.png
    :alt: Online Article directory
 
    Online Article directory
 
 `Online Article directory <http://wiki-live.com/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/hltv.org.png
+.. figure:: t-mobile-usa-web-guard/screenshot/hltv.org.png
    :alt: Sports news website
 
    Sports news website
 
 `Sports news website <http://hltv.org/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/elu24.ee.png
+.. figure:: t-mobile-usa-web-guard/screenshot/elu24.ee.png
    :alt: Estonian news portal
 
    Estonian news portal
 
 `Estonian news portal <http://elu24.ee/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/pitsirikos.net.png
+.. figure:: t-mobile-usa-web-guard/screenshot/pitsirikos.net.png
    :alt: Greek political blog
 
    Greek political blog
 
 `Greek political blog <http://pitsirikos.net/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/kath.net.png
+.. figure:: t-mobile-usa-web-guard/screenshot/kath.net.png
    :alt: Religious news site
 
    Religious news site
 
 `Religious news site <http://kath.net/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/hackforums.net.png
+.. figure:: t-mobile-usa-web-guard/screenshot/hackforums.net.png
    :alt: Computer security Forum
 
    Computer security Forum
 
 `Computer security Forum <http://hackforums.net/>`__
 
-.. figure:: /media/releases/2012/T-Mobile_USA_WebGuard/screenshot/echartsinfrance.net.png
+.. figure:: t-mobile-usa-web-guard/screenshot/echartsinfrance.net.png
    :alt: French pop music hit list
 
    French pop music hit list

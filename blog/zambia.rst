@@ -27,7 +27,7 @@ The connection was reset
 On Monday 24 June 15:30 GMT readers of the website Zambianwatchdog.com
 from inside Zambia were reporting error messages.
 
-.. figure:: /media/zambia/connection-rst.jpg
+.. figure:: zambia/connection-rst.jpg
    :alt: Connection RST
 
    Connection RST
@@ -41,7 +41,7 @@ gigabytes of data. It is worth mentioning here that Zambian Watchdog
 ranks 8th overall biggest website in Zambia and probably the biggest
 site after the large portals Facebook, Google or Youtube.
 
-.. figure:: /media/zambia/alexa-traffic-ranks.jpg
+.. figure:: zambia/alexa-traffic-ranks.png
    :alt: Alexa ranks
 
    Alexa ranks
@@ -71,7 +71,7 @@ We also looked into which readers were affected by this behavior and we
 concluded that the majority of the connections reporting this problem
 were from operators inside Zambia with the exception of MTN.
 
-.. figure:: /media/zambia/pie-chart.jpg
+.. figure:: zambia/pie-chart.png
    :alt: Pie chart
 
    Pie chart
@@ -291,7 +291,7 @@ connections. The Deep Packet Inspection gear seems to be monitoring the
 contains the string zambianwatchdog.com before the SSL negotiation is
 completed.
 
-.. figure:: /media/zambia/SSL-reset.png
+.. figure:: zambia/ssl-reset.png
    :alt: SSL Reset
 
    SSL Reset

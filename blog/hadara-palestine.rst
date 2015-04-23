@@ -20,9 +20,9 @@ date: 2012-04-23 02:00:00
 **downloads:**
 
 -  `Full scan
-   result </media/releases/2012/Hadara_Palestine/hadara_palestine.yamlooni.tar.gz>`__
+   result <hadara-palestine/hadara_palestine.yamlooni.tar.gz>`__
 -  `List of censored
-   sites </media/releases/2012/Hadara_Palestine/censored-sites.txt>`__
+   sites <hadara-palestine/censored-sites.txt>`__
 
 This is the technical report on the politically motivated censorship
 going on in Bethlehem, West Bank.
@@ -183,7 +183,7 @@ the software being used is Squid.
 
 We scanned more than 1 million hostnames and only detected censorship on
 8 of these. The full scan results are available in an unredacted from
-`here </media/releases/2012/Hadara_Palestine/hadara_palestine.yamlooni.tar.gz>`__
+`here <hadara-palestine/hadara_palestine.yamlooni.tar.gz>`__
 
 At a certain point we decided to go for a high level of parallelism and
 not care about timeout errors. This is because the transparent HTTP
@@ -217,49 +217,49 @@ The sites whose access is being restricted access to are:
 
 -  milad.ps
 
-.. figure:: /media/releases/2012/Hadara_Palestine/screenshot/palhome.png
+.. figure:: hadara-palestine/screenshot/palhome.png
    :alt: http://pal-home.net
 
    http://pal-home.net
 
 http://pal-home.net
 
-.. figure:: /media/releases/2012/Hadara_Palestine/screenshot/milad.png
+.. figure:: hadara-palestine/screenshot/milad.png
    :alt: http://milad.ps
 
    http://milad.ps
 
 http://milad.ps
 
-.. figure:: /media/releases/2012/Hadara_Palestine/screenshot/karamapress.png
+.. figure:: hadara-palestine/screenshot/karamapress.png
    :alt: http://karamapress.com
 
    http://karamapress.com
 
 http://karamapress.com
 
-.. figure:: /media/releases/2012/Hadara_Palestine/screenshot/inlightpress.png
+.. figure:: hadara-palestine/screenshot/inlightpress.png
    :alt: http://inlightpress.com
 
    http://inlightpress.com
 
 http://inlightpress.com
 
-.. figure:: /media/releases/2012/Hadara_Palestine/screenshot/fpnp.png
+.. figure:: hadara-palestine/screenshot/fpnp.png
    :alt: http://fpnp.net
 
    http://fpnp.net
 
 http://fpnp.net
 
-.. figure:: /media/releases/2012/Hadara_Palestine/screenshot/fateh-voice.png
+.. figure:: hadara-palestine/screenshot/fateh-voice.png
    :alt: http://fateh-voice.ps
 
    http://fateh-voice.ps
 
 http://fateh-voice.ps
 
-.. figure:: /media/releases/2012/Hadara_Palestine/screenshot/amad.png
+.. figure:: hadara-palestine/screenshot/amad.png
    :alt: http://amad.ps
 
    http://amad.ps
