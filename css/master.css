@@ -278,6 +278,28 @@ p.cta a::after {
 
 
 /* ================================================================== */
+/* Block quotes */
+
+blockquote {
+  margin: 0 0 3rem 4em;
+}
+
+blockquote p {
+  text-indent: -0.38em;
+}
+
+blockquote dl {
+  font-size: 0.8rem;
+  margin-left: 4rem;
+}
+
+blockquote dl dt {
+  text-indent: -1.7em;
+}
+
+
+
+/* ================================================================== */
 /* Navigation */
 
 .article nav {

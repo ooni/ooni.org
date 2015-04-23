@@ -4,12 +4,11 @@ author: Mr T.
 date: 2013-07-15 14:00:00
 ---
 
-::
+  “I do not have the details of the blocking of Zambianwatchdog.com, but I
+  would celebrate.”
 
-    "I do not have the details of the blocking of Zambianwatchdog.com, but I
-    would celebrate."
-                          Guy Scott 
-                          Zambian Vicepresident, Friday 28th June 2013
+  — Guy Scott, Zambian Vice President
+    Friday, 28th June 2013
 
 The following article is a guest blog post by Mr T. an independent
 researcher and provider of hosting to various grass roots organizations.
