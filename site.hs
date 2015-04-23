@@ -6,13 +6,20 @@ import Hakyll
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
-  match ("css/**" .||. "fonts/**" .||. "images/**" ) $ do
+  match ("css/**" .||. "fonts/**" .||. "images/**" .||. "blog/*/**") $ do
     route   idRoute
     compile copyFileCompiler
 
-  match "index.html" $ do
+  match "*.html" $ do
     route   idRoute
     compile copyFileCompiler
+
+  match "blog/*.rst" $ do
+    route   $ setExtension "html"
+    compile $ pandocCompiler
+      >>= return . fmap demoteHeaders
+      >>= loadAndApplyTemplate "templates/blog-post.html"     defaultContext
+      >>= loadAndApplyTemplate "templates/default.html"       defaultContext
 
   match "tests/*.rst" $ do
     route   $ setExtension "html"
