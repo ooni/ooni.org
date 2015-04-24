@@ -236,11 +236,11 @@ The 4th of July, the Zambian website reports:
 
 Further information about the case:
 
--  `Corruption worsens at zamtel emails phones being-monitored at lamya house`__
--  `Zicta suing of mobile companies aimed at mtn for refusing to block zwd`__
--  `Sata orders op to block zwd on mtn as well`__
--  `Sata signs order for op to tap phones emails`__
--  `Journalist zyambo out of jail police though he had obituary of sata`__
+-  `Corruption worsens at Zamtel, emails, phones being monitored at Lamya house`__
+-  `ZICTA’ suing of Mobile companies targeted at MTN for refusing to block ZWD`__
+-  `Sata orders OP to block ZWD on MTN as well`__
+-  `Sata signs order for OP to tap phones, emails`__
+-  `Journalist Zyambo out of jail, Police thought he had obituary of Sata`__
 
 __ http://zambianwatchdog.com/corruption-worsens-at-zamtel-emails-phones-being-monitored-at-lamya-house/
 __ http://zambianwatchdog.com/zicta-suing-of-mobile-companies-aimed-at-mtn-for-refusing-to-block-zwd/
