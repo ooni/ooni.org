@@ -436,6 +436,20 @@ header img {
   margin-bottom: 0;
 }
 
+h1.article-title {
+  margin-bottom: 0.2rem;
+}
+
+.byline {
+  color: #c1c1c1;
+  font-size: 0.8rem;
+  margin-bottom: 2.6rem;
+}
+
+.byline .author::after {
+  content: ", ";
+}
+
 
 /* ================================================================== */
 /* Footer */

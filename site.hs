@@ -18,8 +18,8 @@ main = hakyll $ do
     route   $ setExtension "html"
     compile $ pandocCompiler
       >>= return . fmap demoteHeaders
-      >>= loadAndApplyTemplate "templates/blog-post.html"     defaultContext
-      >>= loadAndApplyTemplate "templates/default.html"       defaultContext
+      >>= loadAndApplyTemplate "templates/blog-post.html"     postCtx
+      >>= loadAndApplyTemplate "templates/default.html"       postCtx
 
   match "tests/*.rst" $ do
     route   $ setExtension "html"
@@ -34,5 +34,5 @@ main = hakyll $ do
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
-  dateField "date" "%B %e, %Y" `mappend`
+  dateField "date" "%e %b %Y" `mappend`
   defaultContext
