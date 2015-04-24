@@ -12,7 +12,8 @@ main = hakyll $ do
 
   match "*.html" $ do
     route   idRoute
-    compile copyFileCompiler
+    compile $ getResourceBody
+      >>= applyAsTemplate                                     defaultContext
 
   match "blog/*.rst" $ do
     route   $ setExtension "html"
