@@ -342,7 +342,7 @@ nav h1 {
   display: inline;
   font-weight: bold;
   font-size: 1.38rem;
-  text-transform: lowercase;
+  text-transform: uppercase;
   margin-bottom: 0;
 }
 
@@ -360,7 +360,11 @@ header h1 {
   color: #1c1c1c;
   font-size: 4.5rem;
   font-weight: bold;
-  text-transform: lowercase;
+  text-transform: uppercase;
+  margin: 0 0 -10px 0;
+}
+
+header h2 {
   margin: 0;
 }
 
@@ -448,6 +452,11 @@ header img {
   width: 100%;
   margin-bottom: 0.5rem;
   text-align: center;
+}
+
+.blog-post img {
+  display: block;
+  max-width: 100%;
 }
 
 h1.article-title {

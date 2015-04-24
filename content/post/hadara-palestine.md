@@ -21,8 +21,8 @@ categories: ["report"]
 
 **downloads:**
 
-* [Full scan result]({{ .Site.BaseUrl }}/post/hadara-palestine/hadara_palestine.yamlooni.tar.gz)
-* [List of censored sites]({{ .Site.BaseUrl }}/post/hadara-palestine/censored-sites.txt)
+* [Full scan result](/post/hadara-palestine/hadara_palestine.yamlooni.tar.gz)
+* [List of censored sites](/post/hadara-palestine/censored-sites.txt)
 
 This is the technical report on the politically motivated censorship going on
 in Bethlehem, West Bank.
@@ -173,7 +173,7 @@ software being used is Squid.
 
 We scanned more than 1 million hostnames and only detected censorship on 8 of
 these.
-The full scan results are available in an unredacted from [here]({{ .Site.BaseUrl }}/post/hadara-palestine/hadara_palestine.yamlooni.tar.gz)
+The full scan results are available in an unredacted from [here](/post/hadara-palestine/hadara_palestine.yamlooni.tar.gz)
 
 At a certain point we decided to go for a high level of parallelism and not
 care about timeout errors. This is because the transparent HTTP proxy is
@@ -207,37 +207,37 @@ The sites whose access is being restricted access to are:
 * milad.ps
 
 
-![http://pal-home.net]({{ .Site.BaseUrl }}/post/hadara-palestine/screenshot/palhome.png)
+![http://pal-home.net](/post/hadara-palestine/screenshot/palhome.png)
 
 [http://pal-home.net](http://pal-home.net)
 
 
-![http://milad.ps]({{ .Site.BaseUrl }}/post/hadara-palestine/screenshot/milad.png)
+![http://milad.ps](/post/hadara-palestine/screenshot/milad.png)
 
 [http://milad.ps](http://milad.ps)
 
 
-![http://karamapress.com]({{ .Site.BaseUrl }}/post/hadara-palestine/screenshot/karamapress.png)
+![http://karamapress.com](/post/hadara-palestine/screenshot/karamapress.png)
 
 [http://karamapress.com](http://karamapress.com)
 
 
-![http://inlightpress.com]({{ .Site.BaseUrl }}/post/hadara-palestine/screenshot/inlightpress.png)
+![http://inlightpress.com](/post/hadara-palestine/screenshot/inlightpress.png)
 
 [http://inlightpress.com](http://inlightpress.com)
 
 
-![http://fpnp.net]({{ .Site.BaseUrl }}/post/hadara-palestine/screenshot/fpnp.png)
+![http://fpnp.net](/post/hadara-palestine/screenshot/fpnp.png)
 
 [http://fpnp.net](http://fpnp.net)
 
 
-![http://fateh-voice.ps]({{ .Site.BaseUrl }}/post/hadara-palestine/screenshot/fateh-voice.png)
+![http://fateh-voice.ps](/post/hadara-palestine/screenshot/fateh-voice.png)
 
 [http://fateh-voice.ps](http://fateh-voice.ps)
 
 
-![http://amad.ps]({{ .Site.BaseUrl }}/post/hadara-palestine/screenshot/amad.png)
+![http://amad.ps](/post/hadara-palestine/screenshot/amad.png)
 
 [http://amad.ps](http://amad.ps)
 

@@ -26,7 +26,7 @@ website.
 On Monday 24 June 15:30 GMT readers of the website Zambianwatchdog.com from
 inside Zambia were reporting error messages. 
 
-![Connection RST]({{ .Site.BaseUrl }}/post/zambia/connection-rst.jpg)
+![Connection RST](/post/zambia/connection-rst.jpg)
 
 
 As hosting providers of the website, we initially could not see a significant
@@ -37,7 +37,7 @@ we needed to examine several gigabytes of data. It is worth mentioning here
 that Zambian Watchdog ranks 8th overall biggest website in Zambia and probably
 the biggest site after the large portals Facebook, Google or Youtube.
 
-![Alexa ranks]({{ .Site.BaseUrl }}/post/zambia/alexa-traffic-ranks.jpg)
+![Alexa ranks](/post/zambia/alexa-traffic-ranks.png)
 
 Our first review of the logs revealed a clear increase of connections reporting
 status code 200 but with zero bytes were transmitted back to the client. 
@@ -64,7 +64,7 @@ We also looked into which readers were affected by this behavior and we
 concluded that the majority of the connections reporting this problem were from
 operators inside Zambia with the exception of MTN. 
 
-![Pie chart]({{ .Site.BaseUrl }}/post/zambia/pie-chart.jpg)
+![Pie chart](/post/zambia/pie-chart.png)
 
 Origin of the dropped connections to the webserver
 
@@ -86,7 +86,7 @@ any special patters that could help us to understand why most of the readers
 inside Zambia were experiencing connection drops with the exception of readers
 using MTN mobile network.
 
-![Wireshark]({{ .Site.BaseUrl }}/post/zambia/wireshark.jpg)
+![Wireshark](/post/zambia/wireshark.png)
 After reviewing dozen of different packet captures we saw a
 distinctive pattern
 
@@ -268,7 +268,7 @@ of the SSL negotiation. This message contains the string zambianwatchdog.com
 before the SSL negotiation is completed.
 
 
-![SSL Reset]({{ .Site.BaseUrl }}/post/zambia/SSL-reset.png)
+![SSL Reset](/post/zambia/SSL-reset.png)
 
 In order to find out if the government is actively making changes, we deployed
 a new mirror server of the site in the domain http://zwd.cums.in. After a few

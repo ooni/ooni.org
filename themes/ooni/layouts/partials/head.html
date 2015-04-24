@@ -6,5 +6,8 @@
   <title>{{ .Title }}</title>
 	<link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/master.css"/>
 	<link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/fonts.css"/>
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/highlight-default.min.css">
   <link rel="icon" type="image/png" href="{{ .Site.BaseUrl }}/images/favicon.png"/>
+  <script src="{{ .Site.BaseUrl }}/js/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </head>

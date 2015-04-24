@@ -20,7 +20,7 @@
     <div class="container blog-post">
       <div class="row title">
         <div class="col-1"></div>
-        <div class="col-2">
+        <div class="container">
           <h1 class="article-title">{{ .Title }}</h1>
           <div class="byline">
             <span class="author">{{ .Params.author }}</span>
@@ -29,9 +29,8 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-1">
-        </div>
-        <div class="col-2">
+        <div class="col-1"></div>
+        <div class="container">
           {{ .Content }}
         </div>
       </div>
