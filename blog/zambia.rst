@@ -242,11 +242,11 @@ Further information about the case:
 -  `Sata signs order for op to tap phones emails`__
 -  `Journalist zyambo out of jail police though he had obituary of sata`__
 
-__ https://zambianwatchdog.com/corruption-worsens-at-zamtel-emails-phones-being-monitored-at-lamya-house/
-__ https://zambianwatchdog.com/zicta-suing-of-mobile-companies-aimed-at-mtn-for-refusing-to-block-zwd/
-__ https://zambianwatchdog.com/sata-orders-op-to-block-zwd-on-mtn-as-well/
-__ https://zambianwatchdog.com/sata-signs-order-for-op-to-tap-phones-emails/
-__ https://zambianwatchdog.com/journalist-zyambo-out-of-jail-police-though-he-had-obituary-of-sata/
+__ http://zambianwatchdog.com/corruption-worsens-at-zamtel-emails-phones-being-monitored-at-lamya-house/
+__ http://zambianwatchdog.com/zicta-suing-of-mobile-companies-aimed-at-mtn-for-refusing-to-block-zwd/
+__ http://zambianwatchdog.com/sata-orders-op-to-block-zwd-on-mtn-as-well/
+__ http://zambianwatchdog.com/sata-signs-order-for-op-to-tap-phones-emails/
+__ http://zambianwatchdog.com/journalist-zyambo-out-of-jail-police-though-he-had-obituary-of-sata/
 
 
 And SSL got blocked…
