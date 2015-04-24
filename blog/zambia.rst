@@ -236,20 +236,17 @@ The 4th of July, the Zambian website reports:
 
 Further information about the case:
 
-`Corruption worsens at zamtel emails phones being-monitored at lamya
-house <https://zambianwatchdog.com/corruption-worsens-at-zamtel-emails-phones-being-monitored-at-lamya-house/>`__
+-  `Corruption worsens at zamtel emails phones being-monitored at lamya house`__
+-  `Zicta suing of mobile companies aimed at mtn for refusing to block zwd`__
+-  `Sata orders op to block zwd on mtn as well`__
+-  `Sata signs order for op to tap phones emails`__
+-  `Journalist zyambo out of jail police though he had obituary of sata`__
 
-`Zicta suing of mobile companies aimed at mtn for refusing to block
-zwd <https://zambianwatchdog.com/zicta-suing-of-mobile-companies-aimed-at-mtn-for-refusing-to-block-zwd/>`__
-
-`Sata orders op to block zwd on mtn as
-well <https://zambianwatchdog.com/sata-orders-op-to-block-zwd-on-mtn-as-well/>`__
-
-`Sata signs order for op to tap phones
-emails <https://zambianwatchdog.com/sata-signs-order-for-op-to-tap-phones-emails/>`__
-
-`Journalist zyambo out of jail police though he had obituary of
-sata <https://zambianwatchdog.com/journalist-zyambo-out-of-jail-police-though-he-had-obituary-of-sata/>`__
+__ https://zambianwatchdog.com/corruption-worsens-at-zamtel-emails-phones-being-monitored-at-lamya-house/
+__ https://zambianwatchdog.com/zicta-suing-of-mobile-companies-aimed-at-mtn-for-refusing-to-block-zwd/
+__ https://zambianwatchdog.com/sata-orders-op-to-block-zwd-on-mtn-as-well/
+__ https://zambianwatchdog.com/sata-signs-order-for-op-to-tap-phones-emails/
+__ https://zambianwatchdog.com/journalist-zyambo-out-of-jail-police-though-he-had-obituary-of-sata/
 
 
 And SSL got blocked…
