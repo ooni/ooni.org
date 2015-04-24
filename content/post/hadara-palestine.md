@@ -1,11 +1,13 @@
 ---
-title: Hadara Palestine
-summary: This is the technical report on the politically motivated censorship going on in Bethlehem, West Bank
-author: Arturo Filastò
-date: 2012-04-23 02:00:00
+title: "Hadara Palestine"
+summary: "This is the technical report on the politically motivated censorship going on in Bethlehem, West Bank"
+author: "Arturo Filastò"
+date: "2012-04-23"
+tags: ["palestine"]
+categories: ["report"]
 ---
 
-**ooni\_test:** HTTP Host
+**ooni_test:** HTTP Host
 
 **country:** Palestine
 
@@ -13,23 +15,19 @@ date: 2012-04-23 02:00:00
 
 **product:** Squid
 
-**product\_website:** http://www.squid-cache.org/
+**product_website:** http://www.squid-cache.org/
 
 **censorship method:** Transparent HTTP proxy
 
 **downloads:**
 
--  `Full scan
-   result <hadara-palestine/hadara_palestine.yamlooni.tar.gz>`__
--  `List of censored
-   sites <hadara-palestine/censored-sites.txt>`__
+* [Full scan result]({{ .Site.BaseUrl }}/post/hadara-palestine/hadara_palestine.yamlooni.tar.gz)
+* [List of censored sites]({{ .Site.BaseUrl }}/post/hadara-palestine/censored-sites.txt)
 
-This is the technical report on the politically motivated censorship
-going on in Bethlehem, West Bank.
+This is the technical report on the politically motivated censorship going on
+in Bethlehem, West Bank.
 
 These are the networks in question:
-
-::
 
     inetnum:         82.205.96.0 - 82.205.103.255
     netname:         GZ-HOME-BR1
@@ -51,27 +49,22 @@ These are the networks in question:
     mnt-by:          Palnet-MNT
     source:          RIPE # Filtered
 
-The technique being used to restrict access to content is a transparent
-HTTP proxy. What this does is intercept every HTTP request being made
-and process it internally. If the content is cached it will serve the
-cached version of the content. If the content is to be blocked it will
-serve a blocked page.
+The technique being used to restrict access to content is a transparent HTTP
+proxy. What this does is intercept every HTTP request being made and process it
+internally. If the content is cached it will serve the cached version of the
+content. If the content is to be blocked it will serve a blocked page.
 
 We developed a test that opens a connection on port 80 towards a known
-unrestricted host. Keep in mind that it's irrelevant to what destination
-the connection is opened because the transparent HTTP proxy will
-intercept all HTTP requests, meaning that all clients are in reality
-always only speaking to the proxy. Once we have a connection open we do
-HTTP GET requests with a changed Host header field. If the result is the
-block page then the content is restricted.
+unrestricted host. Keep in mind that it's irrelevant to what destination the
+connection is opened because the transparent HTTP proxy will intercept all HTTP
+requests, meaning that all clients are in reality always only speaking to the proxy.
+Once we have a connection open we do HTTP GET requests with a changed Host header field.
+If the result is the block page then the content is restricted.
 
 We have identified two different block pages that were interchanged at a
 certain point during our tests:
 
-First block page
-~~~~~~~~~~~~~~~~
-
-::
+### First block page
 
     HTTP/1.0 403 Forbidden
     Server: squid
@@ -82,10 +75,7 @@ First block page
 
     Sorry, Access Denied
 
-Second block page
-~~~~~~~~~~~~~~~~~
-
-::
+### Second block page
 
     HTTP/1.0 403 Forbidden
     Server: squid
@@ -178,94 +168,78 @@ Second block page
     //-->
     </body></html>
 
-From the response headers of a blocked page we are able to learn that
-the software being used is Squid.
+From the response headers of a blocked page we are able to learn that the
+software being used is Squid.
 
-We scanned more than 1 million hostnames and only detected censorship on
-8 of these. The full scan results are available in an unredacted from
-`here <hadara-palestine/hadara_palestine.yamlooni.tar.gz>`__
+We scanned more than 1 million hostnames and only detected censorship on 8 of
+these.
+The full scan results are available in an unredacted from [here]({{ .Site.BaseUrl }}/post/hadara-palestine/hadara_palestine.yamlooni.tar.gz)
 
-At a certain point we decided to go for a high level of parallelism and
-not care about timeout errors. This is because the transparent HTTP
-proxy is intercepting our request and making them for us. This means
-that if a certain hostname is to be blocked it will reply with the block
-page instantenously without processing it. If the site is in the
-blocklist a connection attempt to it will never timeout.
+At a certain point we decided to go for a high level of parallelism and not
+care about timeout errors. This is because the transparent HTTP proxy is
+intercepting our request and making them for us. This means that if a
+certain hostname is to be blocked it will reply with the block page
+instantenously without processing it. If the site is in the blocklist a
+connection attempt to it will never timeout.
 
-What this means, though, is that sites blocked with some more
-sophisticated techniques would not have been detected. Though by seeing
-the kind of setup that was deployed in this case we find it unlikely
-that access to content would be restricted with some more advanced setup
-and that they would be using a mix between squid transparent HTTP proxy
-censorship and other.
+What this means, though, is that sites blocked with some more sophisticated
+techniques would not have been detected. Though by seeing the kind of setup
+that was deployed in this case we find it unlikely that access to content
+would be restricted with some more advanced setup and that they would be
+using a mix between squid transparent HTTP proxy censorship and other.
 
 The sites whose access is being restricted access to are:
 
--  pal-home.net
+* pal-home.net
 
--  kofiapress.com
+* kofiapress.com
 
--  amad.ps
+* amad.ps
 
--  inlightpress.com
+* inlightpress.com
 
--  fpnp.net
+* fpnp.net
 
--  fateh-voice.ps
+* fateh-voice.ps
 
--  karamapress.com
+* karamapress.com
 
--  milad.ps
+* milad.ps
 
-.. figure:: hadara-palestine/screenshot/palhome.png
-   :alt: http://pal-home.net
 
-   http://pal-home.net
+![http://pal-home.net]({{ .Site.BaseUrl }}/post/hadara-palestine/screenshot/palhome.png)
 
-http://pal-home.net
+[http://pal-home.net](http://pal-home.net)
 
-.. figure:: hadara-palestine/screenshot/milad.png
-   :alt: http://milad.ps
 
-   http://milad.ps
+![http://milad.ps]({{ .Site.BaseUrl }}/post/hadara-palestine/screenshot/milad.png)
 
-http://milad.ps
+[http://milad.ps](http://milad.ps)
 
-.. figure:: hadara-palestine/screenshot/karamapress.png
-   :alt: http://karamapress.com
 
-   http://karamapress.com
+![http://karamapress.com]({{ .Site.BaseUrl }}/post/hadara-palestine/screenshot/karamapress.png)
 
-http://karamapress.com
+[http://karamapress.com](http://karamapress.com)
 
-.. figure:: hadara-palestine/screenshot/inlightpress.png
-   :alt: http://inlightpress.com
 
-   http://inlightpress.com
+![http://inlightpress.com]({{ .Site.BaseUrl }}/post/hadara-palestine/screenshot/inlightpress.png)
 
-http://inlightpress.com
+[http://inlightpress.com](http://inlightpress.com)
 
-.. figure:: hadara-palestine/screenshot/fpnp.png
-   :alt: http://fpnp.net
 
-   http://fpnp.net
+![http://fpnp.net]({{ .Site.BaseUrl }}/post/hadara-palestine/screenshot/fpnp.png)
 
-http://fpnp.net
+[http://fpnp.net](http://fpnp.net)
 
-.. figure:: hadara-palestine/screenshot/fateh-voice.png
-   :alt: http://fateh-voice.ps
 
-   http://fateh-voice.ps
+![http://fateh-voice.ps]({{ .Site.BaseUrl }}/post/hadara-palestine/screenshot/fateh-voice.png)
 
-http://fateh-voice.ps
+[http://fateh-voice.ps](http://fateh-voice.ps)
 
-.. figure:: hadara-palestine/screenshot/amad.png
-   :alt: http://amad.ps
 
-   http://amad.ps
+![http://amad.ps]({{ .Site.BaseUrl }}/post/hadara-palestine/screenshot/amad.png)
 
-http://amad.ps
+[http://amad.ps](http://amad.ps)
 
-For more details on the political implications check see the `article by
-George Hale on Ma'An
-News <http://www.maannews.net/eng/ViewDetails.aspx?ID=478726>`__
+For more details on the political implications check see the [article by George
+Hale on Ma'An News](http://www.maannews.net/eng/ViewDetails.aspx?ID=478726)

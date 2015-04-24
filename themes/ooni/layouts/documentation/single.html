@@ -2,16 +2,16 @@
   <div class="row title">
     <div class="col-1"></div>
     <div class="col-2">
-      <h1>$title$</h1>
+      <h1>{{ .Title }}</h1>
     </div>
   </div>
   <div class="row">
     <div class="col-1 toc">
-      <img class="cover" src="../images/tests/$slug$.svg" width="200" height="324"/>
-      $partial("templates/toc-tests.html")$
+      <img class="cover" src="{{ .Site.BaseUrl}}/images/tests/{{ .Slug }}.svg" width="200" height="324"/>
+      {{ partial "toc-tests.html"}}
     </div>
     <div class="col-2">
-      $body$
+      {{ .Content }}
     </div>
   </div>
 </div>
