@@ -25,7 +25,7 @@ __ http://www.zambianwatchdog.com/
 The connection was reset
 ========================
 
-On Monday 24 June 15:30 GMT readers of the website Zambianwatchdog.com
+On Monday, 24 June 15:30 GMT readers of the website Zambianwatchdog.com
 from inside Zambia were reporting error messages.
 
 .. figure:: zambia/connection-rst.jpg
@@ -99,7 +99,7 @@ After reviewing dozen of different packet captures we saw a
 distinctive pattern.
 
 The readers seemed to be able to establish the initial connection with
-the webserver but as soon as they request any content of the website we
+the web server but as soon as they request any content of the website we
 received also a request to terminate such connection.
 
 We proceed to examine our own generated connections from inside Zambia
@@ -135,7 +135,7 @@ DPI or not DPI?
 
 What it was left to determine if the filtering was looking into other
 aspects of the connection. In order to find out we run a few extra
-tests, requesting access to the webpage using other headers. We tested
+tests, requesting access to the web page using other headers. We tested
 requests using the following headers:
 
 - ``www.zambianwatchdog.COM``
@@ -153,7 +153,7 @@ behavior could only be explained by the presence of deep packet
 inspection (DPI) equipment inside Zambia.
 
 Not until we technically verified and gathered forensic evidence of the
-blocking we adviced to the website owners to inform to the general
+blocking we advised to the website owners to inform to the general
 public that such active interference was talking place and that the
 blocking was clearly targeted against the website.
 
@@ -164,11 +164,11 @@ Getting the website back online
 To ensure the public visibility of the website inside Zambia and in
 order to look for a quick solution to put the website online, we tested
 the availability of the blocking technology to interfere with encrypted
-traffic. After testing the encypted (SSL) traffic was not suffering from
+traffic. After testing the encrypted (SSL) traffic was not suffering from
 such type of interference the decided to make the site available only
 via HTTPS.
 
-To our surprise, several popular Word Press plugins of the website
+To our surprise, several popular WordPress plugins of the website
 needed some tweaks so the full content was delivered encrypted to the
 readers.
 
@@ -181,11 +181,11 @@ via HTTPS will keep doing it so without the need to specify HTTPS in
 their future requests.
 
 
-OONI Testing
+OONI testing
 ============
 
 Inspired by the work of our colleges of the Open Observatory of Network
-Interferece (OONI) we conducted another run of tests to determine if any
+Interference (OONI) we conducted another run of tests to determine if any
 of 1000 top Alexa websites was blocking. The result of the testing is
 that we could not find any other website blocked with the exception of
 the Zambian Watchdog.
@@ -254,24 +254,23 @@ __ http://zambianwatchdog.com/journalist-zyambo-out-of-jail-police-though-he-had
 And SSL got blocked…
 ====================
 
-*Update (17th July 2013)*
+*Update (17 July 2013)*
 
 On Tuesday 16th of July 2013 (14:43 GMT) just a few hours after this
 article was released, the government has moved forward in their
 determination of blocking the site and started to block the SSL
 connections. The Deep Packet Inspection gear seems to be monitoring the
 "Server Hello" message that is part of the SSL negotiation. This message
-contains the string zambianwatchdog.com before the SSL negotiation is
+contains the string ``zambianwatchdog.com`` before the SSL negotiation is
 completed.
 
 .. figure:: zambia/ssl-reset.png
-   :alt: SSL Reset
 
    SSL Reset
 
 In order to find out if the government is actively making changes, we
 deployed a new mirror server of the site in the domain
-http://zwd.cums.in. After a few hours the domain has also been blocked
+``zwd.cums.in``. After a few hours the domain has also been blocked
 and the filtering has been extended to the whole /24 network. By
 extending the filtering the Zambian government has also blocked hundreds
 of other organizations that are hosted in the same provider.
@@ -283,10 +282,11 @@ of other organizations that are hosted in the same provider.
 
 This is an example of the logs in the server side. We can see that the
 attack they are conducting leads to 0 bytes being transmitted and an
-error code 400 is generated (Error 400 (Bad Request) takes place when
-the request to a SSL is malformed.).
+error code 400 is generated ("Error 400: Bad Request" takes place when
+the request to a SSL is malformed).
 
-More information is available here
-https://zambianwatchdog.com/police-abduct-another-journalists-suspected-of-links-to-zwd-govt-blocks-zwd-futher/
+More information is available here:
 
-.. |Wireshark| image:: /media/zambia/wireshark.jpg
+-  `Police abduct another journalist suspected of links to ZWD, govt blocks ZWD futher`__
+
+__ http://zambianwatchdog.com/police-abduct-another-journalists-suspected-of-links-to-zwd-govt-blocks-zwd-futher/
