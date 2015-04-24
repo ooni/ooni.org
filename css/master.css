@@ -434,6 +434,12 @@ header img {
 /* ================================================================== */
 /* Blog */
 
+.blog-summary a {
+  display: block;
+  color: inherit;
+  margin-bottom: 2em;
+}
+
 .blog-summary .blog-img {
   display: block;
   object-fit: cover;
@@ -442,14 +448,6 @@ header img {
   width: 100%;
   margin-bottom: 0.5rem;
   text-align: center;
-}
-
-.blog-summary p {
-  margin-bottom: 2em;
-}
-
-.blog-summary p:last-child {
-  margin-bottom: 0;
 }
 
 h1.article-title {
