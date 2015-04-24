@@ -14,10 +14,12 @@ The following article is a guest blog post by Mr T. an independent
 researcher and provider of hosting to various grass roots organizations.
 
 This article summarizes how we discovered that the grass roots online
-newspaper Zambianwatchdog.com was being blocked inside Zambia. This
+newspaper `Zambianwatchdog.com`__ was being blocked inside Zambia. This
 report provides technical evidence of the unlawful presence of Deep
 Packet Inspection in the country to monitor the Internet communications
 and stop users from browsing the website.
+
+__ http://www.zambianwatchdog.com/
 
 
 The connection was reset
