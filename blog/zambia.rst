@@ -220,14 +220,14 @@ After we unveiled the blocking and network monitoring, Zambian Watchdog
 has received information from whistle blowers of the presence of such
 infrastructure.
 
-The 4th of July, the Zambian website reports
+The 4th of July, the Zambian website reports:
 
-"They have also installed equipment a Lamya (1) in order to monitor
-people blogging on a site like yours and also blocking watchdog. This is
-also affecting all the other internet service providers who are using
-Zamtel as a currier and service provider. Also the CODEX (2) which
-interconnects all ISP is based at Lamya and this has given OP (3) access
-to all the ISP in Zambia."
+  "They have also installed equipment a Lamya (1) in order to monitor
+  people blogging on a site like yours and also blocking watchdog. This is
+  also affecting all the other internet service providers who are using
+  Zamtel as a currier and service provider. Also the CODEX (2) which
+  interconnects all ISP is based at Lamya and this has given OP (3) access
+  to all the ISP in Zambia."
 
 -  Lamya is the location of the ''Zambia'' Telecommunications Company
 

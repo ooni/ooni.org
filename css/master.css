@@ -280,7 +280,7 @@ p.cta a::after {
 /* Block quotes */
 
 blockquote {
-  margin: 0 0 3rem 4em;
+  margin: 0 0 1.2rem 3em;
 }
 
 blockquote p {
@@ -289,7 +289,7 @@ blockquote p {
 
 blockquote dl {
   font-size: 0.8rem;
-  margin-left: 4rem;
+  margin-left: 3rem;
 }
 
 blockquote dl dt {
