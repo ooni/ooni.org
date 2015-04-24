@@ -297,6 +297,23 @@ blockquote dl dt {
 }
 
 
+/* ================================================================== */
+/* Figures */
+
+.figure {
+  margin: 2.6rem 0;
+}
+
+.figure img {
+  display: block;
+  margin-bottom: 1.2rem;
+}
+
+.figure .caption {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
 
 /* ================================================================== */
 /* Navigation */
