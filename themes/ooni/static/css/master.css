@@ -20,11 +20,6 @@ h1, h2, nav, .toc {
   font-family: "Concourse T4", sans-serif;
 }
 
-header h1, nav h1 {
-  font-family: "FF Tisa", serif;
-  line-height: 1.2;
-}
-
 pre, code {
   font-family: "Source Code Pro", monospace;
 }
@@ -318,12 +313,12 @@ blockquote dl dt {
 /* ================================================================== */
 /* Navigation */
 
-.article nav {
-  color: #c1c1c1;
-}
-
 nav .col-2 {
   flex: 1 1;
+}
+
+.article nav .col-2 {
+  opacity: 0.3;
 }
 
 nav a {
@@ -346,23 +341,19 @@ nav h1 {
   margin-bottom: 0;
 }
 
-nav img {
-  vertical-align: -6px;
+nav .logo {
+  vertical-align: -5px;
   margin-right: 0.32rem;
   opacity: 0.5;
+}
+
+nav .wordmark {
+  opacity: 0.3;
 }
 
 
 /* ================================================================== */
 /* Header */
-
-header h1 {
-  color: #1c1c1c;
-  font-size: 4.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 0 0 -10px 0;
-}
 
 header h2 {
   margin: 0;
@@ -372,9 +363,14 @@ header p {
   width: 21.5em;
 }
 
-header img {
+header .logo {
   object-fit: contain;
   height: 12.5rem;
+}
+
+header .wordmark {
+  height: 2.6rem;
+  margin: 1.4rem 0 1.2rem;
 }
 
 
