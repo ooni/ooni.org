@@ -17,7 +17,7 @@ html {
 }
 
 h1, h2, nav, .toc {
-  font-family: "Concourse T4", sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 pre, code {
@@ -199,17 +199,17 @@ footer .row {
 /* Generic elements */
 
 h1 {
-  font-size: 1.65rem;
+  font-size: 1.5rem;
   margin-bottom: 1.6em;
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   margin: 3em 0 1em;
 }
 
 .homepage .col-1 h2 {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: bold;
   color: #0588cb;
   border-top: 0.2rem solid #0588cb;
@@ -476,7 +476,7 @@ h1.article-title {
 footer h2 {
   color: #b4b4b4;
   border: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: normal;
   margin: 0 0 1.5rem;
 }
