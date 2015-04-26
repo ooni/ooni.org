@@ -440,19 +440,8 @@ header .wordmark {
   margin-bottom: 2em;
 }
 
-.blog-summary .blog-img {
-  display: block;
-  object-fit: cover;
-  background-color: #0588cb;
-  height: 4.5rem;
-  width: 100%;
-  margin-bottom: 0.5rem;
-  text-align: center;
-}
-
-.blog-post img {
-  display: block;
-  max-width: 100%;
+.blog-summary p.title {
+  margin-bottom: 0.2rem;
 }
 
 h1.article-title {
