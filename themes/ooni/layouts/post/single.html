@@ -2,6 +2,7 @@
 
 <body class="article">
   <div class="container">
+
     <nav>
       <div class="col-1">
         <a href="/">
@@ -13,30 +14,17 @@
         {{ partial "nav.html" }}
       </div>
     </nav>
+
+    <main class="blog-post col-3">
+      <h1 class="article-title">{{ .Title }}</h1>
+      <div class="byline">
+        <span class="author">{{ .Params.author }}</span>
+        <span class="date">{{ .Date }}</span>
+      </div>
+
+      {{ .Content }}
+    </main>
   </div>
-
-  <main>
-
-    <div class="container blog-post">
-      <div class="row title">
-        <div class="col-1"></div>
-        <div class="container">
-          <h1 class="article-title">{{ .Title }}</h1>
-          <div class="byline">
-            <span class="author">{{ .Params.author }}</span>
-            <span class="date">{{ .Date }}</span>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-1"></div>
-        <div class="container">
-          {{ .Content }}
-        </div>
-      </div>
-    </div>
-
-  </main>
 
 </body>
 </html>
