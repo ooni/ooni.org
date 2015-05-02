@@ -5,6 +5,8 @@ author: "Arturo Filastò and T."
 date: "2013-05-14"
 tags: ["uzbekistan", "turkmenistan"]
 categories: ["report"]
+aliases:
+  - /tab-tab-come-in-bypassing-internet-blocking-to-categorize-dpi-devices.html
 ---
 
 # Motivation

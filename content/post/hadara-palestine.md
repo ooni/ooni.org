@@ -5,6 +5,8 @@ author: "Arturo Filastò"
 date: "2012-04-23"
 tags: ["palestine"]
 categories: ["report"]
+aliases:
+  - /hadara-palestine.html
 ---
 
 **ooni_test:** HTTP Host

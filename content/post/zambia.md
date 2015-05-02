@@ -4,6 +4,8 @@ author: "Mr T."
 date: "2013-07-15"
 tags: ["zambia"]
 categories: ["report"]
+aliases:
+  - /zambia-a-country-under-deep-packet-inspection.html
 ---
 
     "I do not have the details of the blocking of Zambianwatchdog.com, but I
