@@ -1,3 +1,3 @@
-baseUrl = "/"
+baseurl = "https://ooni.torproject.org"
 languageCode = "en-us"
 title = "OONI: Open Observatory of Network Interference"
