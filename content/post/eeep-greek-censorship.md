@@ -7,6 +7,15 @@ categories: ["report"]
 date: "2015-06-10"
 ---
 
+**Country:** Greece
+
+**Probed ISPs:** Forthnet, Ote, Cyta, Wind, Vodafone, Cosmote, Wind mobile
+
+**Blocking methods:** DPI, DNS Hijacking
+
+**Measurement period:** June - July 2014
+
+
 The newly formed Independent Administrative Authority's Hellenic Gaming
 Commission act as the public body responsible for the control and supervision
 of gambling services in Greece and published a blacklist of websites that are
