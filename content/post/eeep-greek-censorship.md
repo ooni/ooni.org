@@ -11,7 +11,7 @@ date: "2015-06-10"
 
 **Probed ISPs:** Forthnet, Ote, Cyta, Wind, Vodafone, Cosmote, Wind mobile
 
-**Blocking methods:** DPI, DNS Hijacking
+**Blocking methods:** DPI, DNS Hijacking, HTTP proxy
 
 **Measurement period:** June - July 2014
 
