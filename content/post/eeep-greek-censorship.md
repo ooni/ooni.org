@@ -2,7 +2,7 @@
 title: "EEEP and Greek Internet censorship"
 summary: "Technical analysis of Hellenic gaming commission blacklist in Greece"
 tags: ["greece", "eeep", "DPI", "DNS Hijacking"]
-author: "Vasilis Ververis, Arturo Filastò"
+author: "Vasilis Ververis, George Kargiotakis, Arturo Filastò, Alexandros Afentoulis"
 categories: ["report"]
 date: "2015-06-10"
 ---
@@ -1150,9 +1150,6 @@ redirected to:
 ```
 http://1.2.3.50/ups/no_access_gambling.htm
 ```
-
-The process of determining
-the DPI blocking by Vodafone is presented in Appendix~\ref{Appendix:Vodafone_DPI}
 
 Another interesting case with this ISP is that for domains that it has filtered
 using DNS hijacking, subdomains of those do not even have an A record
