@@ -17,7 +17,7 @@ date: "2015-06-10"
 
 
 The newly formed Independent Administrative Authority's Hellenic Gaming
-Commission act as the public body responsible for the control and supervision
+Commission acts as the public body responsible for the control and supervision
 of gambling services in Greece and published a blacklist of websites that are
 offering unlicensed gambling and betting services to Greek internet users.
 According to article 52, law No. 4002/2011, [A180][fekA180_articel52] unlicensed
@@ -25,7 +25,8 @@ gambling and betting websites without a license in Greece is a serious criminal
 offense applying as well for users (players), companies and ISPs.
 
 Most Greek ISPs have not issued any public report that notifies their
-customers/users warning them about the content blocking of the EEEP blacklist.
+customers/users warning them about the content being blocked by the EEEP
+blacklist.
 Apart from that there is no documentation on how they have implemented the
 block/censorship, if they keep track of people trying to access these blocked
 websites, as the law orders, and so on.
@@ -54,26 +55,18 @@ the control request and the experiment request.
 
 The user agent is chosen amongst this set of possible user agents:
 
-    "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.7) Gecko/20091221
-Firefox/3.5.7",
-    "Mozilla/5.0 (iPhone; U; CPU iPhone OS 3 1 2 like Mac OS X; en-us)
-AppleWebKit/528.18 (KHTML, like Gecko) Mobile/7D11",
-    "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2) Gecko/20100115
-irefox/3.6",
-    "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2) Gecko/20100115
-Firefox/3.6",
-    "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2) Gecko/20100115
-Firefox/3.6",
-    "Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2) Gecko/20100115
-Firefox/3.6",
-    "Mozilla/5.0 (Windows; U; Windows NT 6.1; de; rv:1.9.2) Gecko/20100115
-Firefox/3.6",
-    "Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2) Gecko/20100115
-Firefox/3.6",
-    "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.7) Gecko/20091221
-Firefox/3.5.7",
-    "Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.1.7) Gecko/20091221
-Firefox/3.5.7 (.NET CLR 3.5.30729)"
+```
+"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.7) Gecko/20091221 Firefox/3.5.7",
+"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3 1 2 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Mobile/7D11",
+"Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2) Gecko/20100115 irefox/3.6",
+"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6",
+"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6",
+"Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2) Gecko/20100115 Firefox/3.6",
+"Mozilla/5.0 (Windows; U; Windows NT 6.1; de; rv:1.9.2) Gecko/20100115 Firefox/3.6",
+"Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2) Gecko/20100115 Firefox/3.6",
+"Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.7) Gecko/20091221 Firefox/3.5.7",
+"Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.1.7) Gecko/20091221 Firefox/3.5.7 (.NET CLR 3.5.30729)"
+```
 
 These user agents are taken from the ["How Unique Is Your Web
 Browser?"](https://panopticlick.eff.org/browser-uniqueness.pdf) paper as the
