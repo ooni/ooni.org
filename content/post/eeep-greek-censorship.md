@@ -48,7 +48,7 @@ length matches. In our test cases we have used a proportion with a tolerance
 factor of 80% between the two body lengths.
 
 By default the HTTP User Agent is chosen at random and is different between the
-CONTROL Request and the experiment request.
+control request and the experiment request.
 
 Since version 0.2.3 the User Agent is chosen at random, but is the same between
 the control request and the experiment request.
@@ -2285,7 +2285,6 @@ of the blocked websites. Communicating with the owner company would be impossibl
 
 <!-- # References -->
 
-[OONI]: https://ooni.torproject.org
 [ORG]: https://www.openrightsgroup.org/ourwork/reports/mobile-internet-censorship:-whats-happening-and-what-we-can-do-about-it
 [fekA180_articel52]:
 http://nomoi.info/%CE%A6%CE%95%CE%9A-%CE%91-180-2011-%CF%83%CE%B5%CE%BB-44.html
@@ -2295,5 +2294,3 @@ http://www.gamingcommission.gov.gr/images/Anakoinoseis/BlackList_EEEP_%202102201
 https://gitweb.torproject.org/ooni-probe.git/tree/ooni/nettests/blocking/http_requests.py
 [DNS consistency test]:
 https://gitweb.torproject.org/ooni-probe.git/tree/ooni/nettests/blocking/dns_consistency.py
-[DNS hijacking]: https://en.wikipedia.org/wiki/DNS_hijacking
-[Deep Packet Inspection]: https://en.wikipedia.org/wiki/Deep_packet_inspection
