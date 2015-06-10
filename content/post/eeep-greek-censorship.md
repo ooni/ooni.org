@@ -76,14 +76,16 @@ browser user agents with largest anonymity set.
 
 This test performs an A DNS query (via UDP) to the control resolver. The answer
 to such query is called the control answer. For each DNS resolver to be tested
-the test perform an A DNS query for the domain in question. This answer
+the test performs an A DNS query for the domain in question. This answer
 (experiment answer) is compared with the control answer. If the two have a
-common IPv4 address then the hostname is not considered to be tampered with the
-resolver in question (tampering: False) If they do not have commonalities the
-test does a reverse lookup of the first IPv4 address in the control answer and
-the first IPv4 address in the experiment answer. If the two reverse lookups
-match (the PTR record points to the same hostname), then censorship is probably
-not happening (tampering: "reverse_match").
+common IPv4 address then the result for the given hostname and resolver
+combination is considered consistent (or not tampered) with the control
+resolver (tampering: False).
+If they do not have commonalities the test does a reverse lookup of the first
+IPv4 address in the control answer and the first IPv4 address in the experiment
+answer. If the two reverse lookups match (the PTR record points to the same
+hostname), then censorship is probably not happening (tampering:
+"reverse_match").
 
 In any other case the result is marked as: `tampering: True`.
 
@@ -91,7 +93,7 @@ In any other case the result is marked as: `tampering: True`.
 
 Probed ISPs: ```Forthnet, Ote, Cyta, Wind, Vodafone, Cosmote, Wind mobile```
 
-All of the tested ISPs implied DNS hijacking with the exception of Vodafone
+All of the tested ISPs employed DNS hijacking with the exception of Vodafone
 that uses also Deep Packet Inspection DPI to block the resources of the blacklist.
 
 ## Probed ISP OONI reports
@@ -123,6 +125,8 @@ that uses also Deep Packet Inspection DPI to block the resources of the blacklis
   * http://api.ooni.io/reportFiles/2014-07-30/20140730T200818Z-AS15617-http_requests-v1-probe.yaml.gz
 
 ## Per ISP analysis
+
+![Blocking per ISP](/post/eeep-greek-censorship/eeep_blocking_per_isp.png)
 
 ### Forthnet
 
@@ -205,7 +209,7 @@ test_resolvers: [192.168.122.1]
 
 A screenshot from the blocked website:
 
-![Forthnet EEEP Blocked website screenshot](/post/eeep_greek_censorship/eeep_forthnetgroup_gr.png "Forthnet EEEP Blocked website screenshot")
+![Forthnet EEEP Blocked website screenshot](/post/eeep-greek-censorship/eeep_forthnetgroup_gr.png "Forthnet EEEP Blocked website screenshot")
 
 ### Ote
 
@@ -428,7 +432,7 @@ This ISP has blocked 438 entries (100%) of the published [blacklist][EEEP_blackl
 
 A screenshot from the blocked website:
 
-![Ote EEEP Blocked website screenshot](/post/eeep_greek_censorship/eeep_otenet_gr.png "Ote EEEP Blocked website screenshot")
+![Ote EEEP Blocked website screenshot](/post/eeep-greek-censorship/eeep_otenet_gr.png "Ote EEEP Blocked website screenshot")
 
 ## Cyta
 
@@ -597,7 +601,7 @@ This ISP has blocked 357 entries (81.5%) of the published [blacklist][EEEP_black
 
 A screenshot from the blocked website:
 
-![Cyta EEEP Blocked website screenshot](/post/eeep_greek_censorship/eeep_cyta_gr.png "Cyta EEEP Blocked website screenshot")
+![Cyta EEEP Blocked website screenshot](/post/eeep-greek-censorship/eeep_cyta_gr.png "Cyta EEEP Blocked website screenshot")
 
 At least 80 entries faulty responded with a 404 HTTP error
 
@@ -810,7 +814,7 @@ This ISP has blocked 325 entries (74.2%) of the published [blacklist][EEEP_black
 
 A screenshot from the blocked website:
 
-![Wind EEEP Blocked website screenshot](/post/eeep_greek_censorship/eeep_wind_gr.png "Wind EEEP Blocked website screenshot")
+![Wind EEEP Blocked website screenshot](/post/eeep-greek-censorship/eeep_wind_gr.png "Wind EEEP Blocked website screenshot")
 
 At least 65 entries falsely responded with a 404 HTTP error.
 
@@ -940,7 +944,7 @@ test_resolvers: [192.168.122.1]
 
 A screenshot from the blocked website:
 
-![HOL EEEP Blocked website screenshot](/post/eeep_greek_censorship/eeepnotice_hol_gr.png "HOL EEEP Blocked website screenshot")
+![HOL EEEP Blocked website screenshot](/post/eeep-greek-censorship/eeepnotice_hol_gr.png "HOL EEEP Blocked website screenshot")
 
 ### Cosmote
 
@@ -1086,7 +1090,7 @@ This ISP has blocked 438 entries (100%) of the published [blacklist][EEEP_blackl
 
 A screenshot from the blocked website:
 
-![Cosmote EEEP Blocked website screenshot](/post/eeep_greek_censorship/eeep_cosmote_gr.png "Cosmote EEEP Blocked website screenshot")
+![Cosmote EEEP Blocked website screenshot](/post/eeep-greek-censorship/eeep_cosmote_gr.png "Cosmote EEEP Blocked website screenshot")
 
 ### Vodafone
 
@@ -1134,7 +1138,7 @@ requests:
 
 A screenshot from the blocked website:
 
-![Vodafone mobile EEEP Blocked website screenshot](/post/eeep_greek_censorship/eeep_vodafone_gr.png "Vodafone mobile EEEP Blocked website screenshot")
+![Vodafone mobile EEEP Blocked website screenshot](/post/eeep-greek-censorship/eeep_vodafone_gr.png "Vodafone mobile EEEP Blocked website screenshot")
 
 This ISP uses DNS hijacking for 58 entries that EEEP has published either using
 HTTPS URLs on the blacklist or entries that not prefixed with 'http://' For the
@@ -1355,7 +1359,7 @@ This ISP has blocked 325 entries (74.2%) of the published [blacklist][EEEP_black
 
 A screenshot from the blocked website:
 
-![Wind mobile EEEP Blocked website screenshot](/post/eeep_greek_censorship/eeep_wind_gr.png "Wind mobile EEEP Blocked website screenshot")
+![Wind mobile EEEP Blocked website screenshot](/post/eeep-greek-censorship/eeep_wind_gr.png "Wind mobile EEEP Blocked website screenshot")
 
 At least 65 entries falsely responded with a 404 HTTP error.
 
