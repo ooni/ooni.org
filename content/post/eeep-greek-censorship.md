@@ -2,7 +2,7 @@
 title: "EEEP and Greek Internet censorship"
 summary: "Technical analysis of Hellenic gaming commission blacklist in Greece"
 tags: ["greece", "eeep", "DPI", "DNS Hijacking"]
-author: "Vasilis Ververis"
+author: "Vasilis Ververis, Arturo Filastò"
 categories: ["report"]
 date: "2015-06-10"
 ---
