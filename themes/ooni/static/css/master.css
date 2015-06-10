@@ -589,3 +589,6 @@ pre span.lw {
   font-size: 0.7rem;
 }
 
+.blog-post img {
+  max-width: 100%;
+}
