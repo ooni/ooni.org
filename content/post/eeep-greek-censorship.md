@@ -1151,9 +1151,6 @@ redirected to:
 http://1.2.3.50/ups/no_access_gambling.htm
 ```
 
-The process of determining
-the DPI blocking by Vodafone is presented in Appendix~\ref{Appendix:Vodafone_DPI}
-
 Another interesting case with this ISP is that for domains that it has filtered
 using DNS hijacking, subdomains of those do not even have an A record
 (dns_lookup_error). That means that some URLs on the blacklist that
