@@ -93,8 +93,8 @@ In any other case the result is marked as: `tampering: True`.
 
 Probed ISPs: ```Forthnet, Ote, Cyta, Wind, Vodafone, Cosmote, Wind mobile```
 
-All of the tested ISPs employed DNS hijacking with the exception of Vodafone
-that uses also Deep Packet Inspection DPI to block the resources of the blacklist.
+All of the tested ISPs employed [DNS hijacking] with the exception of Vodafone
+that uses also [Deep Packet Inspection] to block the resources of the blacklist.
 
 ## Probed ISP OONI reports
 
@@ -2294,3 +2294,5 @@ http://www.gamingcommission.gov.gr/images/Anakoinoseis/BlackList_EEEP_%202102201
 https://gitweb.torproject.org/ooni-probe.git/tree/ooni/nettests/blocking/http_requests.py
 [DNS consistency test]:
 https://gitweb.torproject.org/ooni-probe.git/tree/ooni/nettests/blocking/dns_consistency.py
+[DNS hijacking]: https://en.wikipedia.org/wiki/DNS_hijacking
+[Deep Packet Inspection]: https://en.wikipedia.org/wiki/Deep_packet_inspection
