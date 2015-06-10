@@ -95,30 +95,30 @@ that uses also Deep Packet Inspection DPI to block the resources of the blacklis
 ## Probed ISP OONI reports
 
 * Forthnet:
-  * https://ooni.torproject.org/reports/0.1/GR/http_requests-2014-07-30T221712Z-AS0-probe.yamloo.gz
-  * https://ooni.torproject.org/reports/0.1/GR/http_requests-2014-06-23T125708Z-AS1241-probe.yamloo.gz
-  * https://ooni.torproject.org/reports/0.1/GR/dns_consistency-2014-06-25T222008Z-AS1241-probe.yamloo.gz
+  * http://api.ooni.io/reportFiles/2014-07-30/20140730T221712Z-AS0-http_requests-v1-probe.yaml.gz
+  * http://api.ooni.io/reportFiles/2014-06-23/20140623T125708Z-AS1241-http_requests-v1-probe.yaml.gz
+  * http://api.ooni.io/reportFiles/2014-06-25/20140625T222008Z-AS1241-dns_consistency-v1-probe.yaml.gz
 * Ote:
-  * https://ooni.torproject.org/reports/0.1/GR/dns_consistency-2014-06-26T105437Z-AS6799-probe.yamloo.gz
-  * https://ooni.torproject.org/reports/0.1/GR/dns_consistency-2014-06-26T130619Z-AS6799-probe.yamloo.gz
-  * https://ooni.torproject.org/reports/0.1/GR/http_requests-2014-06-25T210158Z-AS0-probe.yamloo.gz
-  * https://ooni.torproject.org/reports/0.1/GR/http_requests-2014-06-25T211147Z-AS0-probe.yamloo.gz
+  * http://api.ooni.io/reportFiles/2014-06-26/20140626T105437Z-AS6799-dns_consistency-v1-probe.yaml.gz
+  * http://api.ooni.io/reportFiles/2014-06-26/20140626T130619Z-AS6799-dns_consistency-v1-probe.yaml.gz
+  * http://api.ooni.io/reportFiles/2014-06-25/20140625T210158Z-AS0-http_requests-v1-probe.yaml.gz
+  * http://api.ooni.io/reportFiles/2014-06-25/20140625T211147Z-AS0-http_requests-v1-probe.yaml.gz
 * Cyta:
-  * https://ooni.torproject.org/reports/0.1/GR/http_requests-2014-06-23T165118Z-AS0-probe.yamloo.gz
-  * https://ooni.torproject.org/reports/0.1/GR/http_requests-2014-07-30T224459Z-AS0-probe.yamloo.gz
+  * http://api.ooni.io/reportFiles/2014-06-23/20140623T165118Z-AS0-http_requests-v1-probe.yaml.gz
+  * http://api.ooni.io/reportFiles/2014-07-30/20140730T224459Z-AS0-http_requests-v1-probe.yaml.gz
 * Wind:
   * [Reports archive](ooni_reports/wind-ooni-reports.tar.bz2)
 * Hol:
-  * https://ooni.torproject.org/reports/0.1/GR/http_requests-2014-07-24T164440Z-AS3329-probe.yamloo.gz
-  * https://ooni.torproject.org/reports/0.1/GR/http_requests-2014-07-24T160923Z-AS3329-probe.yamloo.gz
-  * https://ooni.torproject.org/reports/0.1/GR/dns_consistency-2014-07-24T161705Z-AS3329-probe.yamloo.gz
+  * http://api.ooni.io/reportFiles/2014-07-24/20140724T164440Z-AS3329-http_requests-v1-probe.yaml.gz
+  * http://api.ooni.io/reportFiles/2014-07-24/20140724T160923Z-AS3329-http_requests-v1-probe.yaml.gz
+  * http://api.ooni.io/reportFiles/2014-07-24/20140724T161705Z-AS3329-dns_consistency-v1-probe.yaml.gz
 * Cosmote:
-  * https://ooni.torproject.org/reports/0.1/GR/http_requests-2014-07-03T161600Z-AS0-probe.yamloo.gz
+  * http://api.ooni.io/reportFiles/2014-07-03/20140703T161600Z-AS0-http_requests-v1-probe.yaml.gz
 * Vodafone:
   * [Reports archive](ooni_reports/vodafone-ooni-reports.tar.bz2)
 * Wind mobile:
-  * https://ooni.torproject.org/reports/0.1/GR/http_requests-2014-07-04T025958Z-AS0-probe.yamloo.gz
-  * https://ooni.torproject.org/reports/0.1/GR/http_requests-2014-07-30T200818Z-AS15617-probe.yamloo.gz
+  * http://api.ooni.io/reportFiles/2014-07-04/20140704T025958Z-AS0-http_requests-v1-probe.yaml.gz
+  * http://api.ooni.io/reportFiles/2014-07-30/20140730T200818Z-AS15617-http_requests-v1-probe.yaml.gz
 
 ## Per ISP analysis
 
