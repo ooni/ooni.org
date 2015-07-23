@@ -101,7 +101,7 @@ nav.event-navbar {
 
   width: 100%;
 
-  font-family: "Fira Sans", sans-serif;
+  font-family: "fira sans", sans-serif;
   font-weight: 500;
 
   position: absolute;
@@ -188,6 +188,28 @@ nav.event-navbar {
 
 .project-box .btn {
   background-color: #15203a;
+  color: #f2f2f2; 
+}
+
+.event-join-button-disabled {
+  font-size: 2em;
+  padding: 6px 50px;
+
+  background-color: #ccc;
+  color: #f2f2f2; 
+
+  width: 100%;
+
+  font-family: "fira sans", sans-serif;
+  font-weight: 500;
+
+  position: absolute;
+  top: -35px;
+}
+
+
+.event-join-button-disabled:hover {
+  background-color: #ccc;
   color: #f2f2f2; 
 }
 
