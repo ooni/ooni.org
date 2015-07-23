@@ -12,94 +12,185 @@ event_dates: "1-2 October 2015"
 # OONI Hackathon
 ## #ADINA15
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+Do you like playing with open data and producing some good looking graphics
+about them? 
+
+Would you fancy spending some time in the Italian Parliament in Rome hacking on
+internet censorship data and [reports](http://api.ooni.io/) gathered by
+[OONI](https://ooni.torproject.org/)? 
+
+Then submit an application to join the OONI developers from the 1st of October
+to the 2nd of October 2015 at the OONI Open Data Hackfest!
+
+All humans welcome!
+
+# OONI?
+
+OONI is a platform for conducting and publishing measurements useful to study
+censorship and surveillance on the Internet. It consists of an open data
+format, an open source software implementation for several platforms, and a
+public archive of over 15000 measurements collected from about 70 countries
+worldwide.
 
 ---
 
 # WHAT
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+Two days of collaborative hacking on visualizations and tools that utilize the
+OONI dataset to study censorship hosted at the Italian Chamber of Deputies and
+organized by the OONI project in collaboration with the Nexa Center for
+Internet & Society
+
+
+It will be in the format of a code-a-thon, where people work in groups on a
+specific project and at the end of the event the results produced by every team
+will be evaluated by a jury. It will kick off with a short presentation that
+sets the stage for the context of the event. Participants should have chosen
+beforehand the specific type of project they would like to work on during the
+event. We will be providing a list of sample projects that people can pick from
+to give an idea of what are the sort of things that are possible, but it is
+encouraged for participants to submit their own idea.
+
+
+A symbolic prize will be given to the first three teams.
+
 
 ---
 
 # WHY
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+The OONI project builds tools to study internet censorship. Now your
+contribution is needed to understand OONI data and make them more accessible to
+society.
+
+
+Got an idea? Want to build it? We want to hack with you!
+
+Making internet censorship data (and, more generally, network measurements)
+easier to understand and study is crucial to foster an informed democratic
+debate on the governance of the internet. Democratic societies sometimes need
+to restrict access to certain content to safeguard the public interest; this
+leads to interesting research and policy questions such as how to transparently
+implement such means and how to openly verify that only what should be blocked
+is blocked.
 
 ---
 
 # WHO
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+We invite all people that have a background in design and in particular
+information design or data visualization. A strong technical background is not
+needed though it is useful to have. Members of the core OONI development team
+will also be part of the event and will be iterating over the various
+participating teams to provide technical insight and help out with the needed
+coding tasks.
 
 ---
 
 # WHEN
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+The hackathon will run from October 1st to October 2nd 2015.
+
+
+### October 1st
+Day 1
+
+09:00 Start of event (Organizers should be there at 8 AM)
+
+10:00 Introduction
+
+11:00 The hackathon begins
+
+13:00 Buffet lunch[a]
+
+20:00 Wrap up for the day, you can hack more, but not here
+
+
+### October 2nd
+Day 2
+
+09:00 Venue opens
+
+11:00 The hackathon begins
+
+13:00 Buffet lunch
+
+16:00 Deadline for submissions
+
+19:00 Award ceremony
 
 ---
 
 # WHERE
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+The hackathon will be at the Chamber of Deputies of the Italian Parliament.
+
+
+This is the address of the room:
+
+
+Nuova Sala dei Gruppi Camera dei Deputati
+Via Campo Marzio 78
+Rome, Italy
+
+
+As for each event organized at the Italian Parliament, the following rules apply:
+
+* participants and their belongings will be subject to security check;
+* smoking inside is forbidden;
+* participants must be at least fourteen years old;
+* smart casual attire is required (i.e. male bodied humans must **wear a suit jacket at all times**);
+* food or beverages may not be consumed inside the room;
+* it is forbidden to request and/or to pay for participation fee within the venue.
+
+
+## Travel information
+
+Rome is served by two airports FCO (Rome Fiumicino) and CIA (Rome Ciampino).
+
+From FCO it is possible to take the train to either Termini central station or
+to various stations spread around the city (Trastevere, Ostiense, Tiburtina,
+Tuscolana).
+
+From CIA there are busses that run regularly and connect you to the Termini
+central station.
+
+The venue itself is close to the Metro A stops called Spagna and Barberini.
 
 ---
 
 # PRIZES
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+## To be announced!
 
 ---
 
 # RULES
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+the following rules must be followed when working on your project:
 
 
+1. projects must use ooni data as the main theme of the visualisation
+
+2. all data used in the project should either already be public or should be
+published before judging takes place using an open license
+
+3. collaboration is encouraged and you are expected to work as part of a team
+
+4. submissions must be free and open source software and may be featured on the
+ooni website
 
 
+The hackfest is an environment in which to hack, meet new people, get creative,
+and have a good time. in order to make sure this event is enjoyable for
+everyone involved we ask that you be excellent to each other.
 
 
+Getting something meaningful done within such a short amount of time can be
+stressful, but we'd like to encourage everyone to take a break every now and
+then to relax and enjoy the event.
 
 
+Attendees violating these rules may be asked to leave the hackfest at the sole
+discretion of the organizers. thank you for helping make this a welcoming,
+friendly event for all.
