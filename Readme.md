@@ -11,7 +11,7 @@ https://github.com/spf13/hugo/releases
 # Running locally
 
 ```
-hugo --theme=ooni server
+hugo server --theme=ooni --baseUrl=http://127.0.0.1:1313
 ```
 
 # Contributing articles
