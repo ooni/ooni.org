@@ -89,6 +89,7 @@ nav.event-navbar {
   width: 100%;
   margin-top: 100px;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .event-join-button-wrapper {
@@ -215,4 +216,9 @@ nav.event-navbar {
 
 .project-box .btn:hover {
   color: #e06b5a; 
+}
+
+.event-registrations {
+  font-size: 1.5em;
+  color: #e06b5a;
 }
