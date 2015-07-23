@@ -19,7 +19,7 @@ Would you fancy spending some time in the Italian Parliament in Rome hacking on
 internet censorship data and [reports](http://api.ooni.io/) gathered by
 [OONI](https://ooni.torproject.org/)? 
 
-Then submit an application to join the OONI developers from the 1st of October
+Then submit an application to join us from the 1st of October
 to the 2nd of October 2015 at the OONI Open Data Hackfest!
 
 All humans welcome!
@@ -37,9 +37,9 @@ worldwide.
 # WHAT
 
 Two days of collaborative hacking on visualizations and tools that utilize the
-OONI dataset to study censorship hosted at the Italian Chamber of Deputies and
-organized by the OONI project in collaboration with the Nexa Center for
-Internet & Society
+OONI dataset to study censorship hosted at the [Italian Chamber of Deputies](http://www.camera.it) and
+organized by the OONI project in collaboration with the [Nexa Center for
+Internet & Society](http://nexa.polito.it/).
 
 
 It will be in the format of a code-a-thon, where people work in groups on a
@@ -47,7 +47,7 @@ specific project and at the end of the event the results produced by every team
 will be evaluated by a jury. It will kick off with a short presentation that
 sets the stage for the context of the event. Participants should have chosen
 beforehand the specific type of project they would like to work on during the
-event. We will be providing a list of sample projects that people can pick from
+event. We will provide a list of sample projects that people can pick from
 to give an idea of what are the sort of things that are possible, but it is
 encouraged for participants to submit their own idea.
 
@@ -78,8 +78,8 @@ is blocked.
 
 # WHO
 
-We invite all people that have a background in design and in particular
-information design or data visualization. A strong technical background is not
+We invite all people that have a background in design and, in particular, in
+information design or in data visualization. A strong technical background is not
 needed though it is useful to have. Members of the core OONI development team
 will also be part of the event and will be iterating over the various
 participating teams to provide technical insight and help out with the needed
