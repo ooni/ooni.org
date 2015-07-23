@@ -1,0 +1,135 @@
+{{ partial "head.html" . }}
+
+<body class="article">
+  <div class="container">
+
+    <nav class="event-navbar">
+      <div class="col-1">
+        <a href="/">
+          <img class="logo" src="{{ .Site.BaseUrl }}/images/ooni-header-mascot.svg" width="25" height="25"/>
+          <img class="wordmark" src="{{ .Site.BaseUrl }}/images/wordmark.svg" alt="OONI" height="14" width="53"/>
+        </a>
+      </div>
+      <div class="col-2">
+        {{ partial "nav.html" }}
+      </div>
+    </nav>
+  </div>
+
+  <div class="event-header">
+    <div class="event-banner-left"></div>
+    <div class="event-banner-right"></div>
+
+    <div class="container">
+      <div class="event-dates">
+          <div class="event-dates-text">{{ .Params.event_dates }}</div>
+      </div>
+
+      <div class="event-banner">
+        <img src="{{ .Site.BaseUrl }}/{{ .Params.banner_url }}">
+      </div>
+    </div>
+
+  </div>
+  
+  <div class="container">
+    <main class="event col-3">
+      <div class="event-content">
+        {{ .Content }}
+      </div>
+      </div>
+    </main>
+  </div>
+
+  <div class="container">
+    <div class="event-join-button-wrapper">
+      <button class="btn event-join-button">Join</button>
+    </div>
+  </div>
+
+  <div class="event-join">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <div class="event-cta">
+            <span class="event-join-number">#1</span>
+            <span class="event-join-action">Join</span>
+            <span class="event-join-desc">proposed visualization projects</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+
+          <div class="project-box">
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">Project details</a>
+            <button class="btn">Join Project</button>
+          </div>
+
+          <div class="project-box">
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">Project details</a>           
+            <button class="btn">Join Project</button>
+          </div>
+
+          <div class="project-box">
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">Project details</a>
+            <button class="btn">Join Project</button>
+          </div>
+
+          <div class="project-box">
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">Project details</a>
+            <button class="btn">Join Project</button>
+          </div>
+
+          <div class="project-box">
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">Project details</a>           
+            <button class="btn">Join Project</button>
+          </div>
+
+          <div class="project-box">
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">Project details</a>
+            <button class="btn">Join Project</button>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="row">
+        <h2 class="event-or">OR</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-3">
+          <div class="event-cta">
+            <span class="event-join-number">#2</span>
+            <span class="event-join-action">Propose</span>
+            <span class="event-join-desc">something new</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
