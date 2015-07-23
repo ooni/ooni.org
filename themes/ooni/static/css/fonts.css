@@ -28,6 +28,18 @@
 }
 
 @font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/fira-sans-semi-bold.woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/fira-sans-light.woff");
+  font-weight: 300;
+}
+
+@font-face {
   font-family: "Source Code Pro";
   src: url("../fonts/source-code-pro-regular.woff");
 }

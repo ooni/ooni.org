@@ -1,0 +1,224 @@
+nav.event-navbar {
+  margin-bottom: 2em;
+}
+
+.event-header {
+  width: 100%;
+  height: 604px;
+  margin-bottom: 150px;
+}
+
+.event-header .event-banner-left {
+  background-image: url("../event/adina15-banner-left-bg.jpg");
+  background-repeat: repeat-x;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  margin-top: 100px;
+}
+
+.event-header .event-banner-right {
+  margin-top: 100px;
+  background-image: url("../event/adina15-banner-right-bg.jpg");
+  background-repeat: repeat-x;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.event-header .event-dates {
+  height: 100px;
+  margin-bottom: -100px;
+}
+
+.event-header .event-dates .event-dates-text {
+  text-align: center;
+  color: #4d86c6;
+  font-size: 1.15rem;
+  margin: 0 auto;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+}
+
+.event-header .event-dates .event-dates-text:before {
+  content: "► ";
+  font-size: 0.7em;
+}
+
+.event-header .event-banner {
+  margin-top: 100px;
+}
+
+.event-content {
+  text-align: center;
+}
+
+.event-content h1 {
+  color: #e06b5a;
+  font-size: 2em;
+  margin-bottom: 2px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+}
+
+.event-content h2 {
+  color: #a4d6f6;
+  font-size: 2em;
+  margin-top: 0px;
+}
+
+.event-content hr {
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #aaa;
+    padding: 0;
+}
+
+.event-join {
+  text-align: center;
+  background-color: #15203a;
+  color: white;
+  width: 100%;
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.event-join-button-wrapper {
+  position: relative;
+}
+
+.event-join-button {
+  font-size: 2em;
+  padding: 6px 50px;
+
+  width: 100%;
+
+  font-family: "fira sans", sans-serif;
+  font-weight: 500;
+
+  position: absolute;
+  top: -35px;
+}
+
+
+.event-join-button:hover {
+  background-color: #e06b5a;
+  color: black;
+}
+
+.event-cta {
+  padding-bottom: 1em;
+}
+
+
+.event-cta span {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+}
+
+
+.event-cta span.event-join-number {
+  font-size: 2.5em;
+  padding-right: 3em;
+
+}
+
+.event-cta span.event-join-action {
+  padding-right: 0.2em;
+}
+
+.event-cta span.event-join-desc {
+  color: #e06b5a;
+}
+
+
+.event-or {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  font-size: 4em;
+}
+
+.project-box {
+  background-color: #f2f2f2;
+  color: #4d86c6;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+
+  border: 2px solid transparent;
+  border-radius: 4px;
+
+  width: 300px;
+  margin-right: 10px;
+  float: left;
+}
+
+.project-box a {
+  color: #e06b5a;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.project-box a:hover {
+  color: #15203a;
+}
+
+
+.project-box h2 {
+  font-size: 2em;
+  margin: 0;
+  color: #15203a;
+}
+
+.project-box p {
+  font-size: 0.8em;
+}
+
+.project-box .btn {
+  background-color: #15203a;
+  color: #f2f2f2; 
+}
+
+.event-join-button-disabled {
+  font-size: 2em;
+  padding: 6px 50px;
+
+  background-color: #ccc;
+  color: #f2f2f2; 
+
+  width: 100%;
+
+  font-family: "fira sans", sans-serif;
+  font-weight: 500;
+
+  position: absolute;
+  top: -35px;
+}
+
+
+.event-join-button-disabled:hover {
+  background-color: #ccc;
+  color: #f2f2f2; 
+}
+
+.project-box .btn:hover {
+  color: #e06b5a; 
+}
+
+.event-registrations {
+  font-size: 1.5em;
+  color: #e06b5a;
+}
