@@ -12,10 +12,10 @@ event_dates: "1-2 October 2015"
 # OONI Hackathon
 ## #ADINA15
 
-Ti piace lavorare con gli open data e sviluppare visualizzazioni?
+Ti piace lavorare con gli Open Data e sviluppare visualizzazioni?
 
 Vorresti spendere qualche giorno presso la Camera dei Deputati lavorando sulle
-[misure di censura internet](http://api.ooni.io/) raccolte dal progetto
+[misure di censura su Internet](http://api.ooni.io/) raccolte dal progetto
 [OONI](https://ooni.torproject.org/)? 
 
 Allora partecipa alla OONI Open Data Hackfest che si terra'
@@ -25,20 +25,21 @@ Tutti gli esseri umani sono benvenuti!
 
 # OONI?
 
-OONI e' una piattaforma per eseguire e pubblicare misure utili per studiare
-il fenomeno della censura e della sorveglianza su Internet. OONI e' un
-software multipiattaforma, che pubblica in formato aperto le misure raccolte,
-oltre 150000 misure eseguite in circa 70 stati.
+OONI (Open Observatory of Network Interference) e' una piattaforma per
+eseguire e pubblicare misure utili per studiare il fenomeno della censura
+e della sorveglianza su Internet. OONI e' un software multipiattaforma,
+che pubblica in formato aperto le misure raccolte, oltre 150000 misure
+eseguite in circa 70 stati.
 
 ---
 
 # COSA
 
 Due giorni di hacking collaborativo per lavorare su visualizzazioni e
-strumenti che utilizzino i dati di censura internet raccolti da OONI in
+strumenti che utilizzino i dati di censura su Internet raccolti da OONI in
 una hackfest ospitata dalla [Camera dei Deputati](http://www.camera.it) e
 organizzata dal progetto OONI in collaborazione col [Centro Nexa su
-Internet & Societa'](http://nexa.polito.it/).
+Internet & Societa' del Politecnico di Torino](http://nexa.polito.it/).
 
 La hackathon sara' organizzata come una *code-a-thon* in cui gruppi di
 persone lavorano a uno specifico progetto e in cui alla fine dell'evento
@@ -56,7 +57,7 @@ Un premio simbolico verra' consegnato ai primi tre team classificati.
 
 # PERCHE'
 
-Il progetto OONI sviluppa strumenti utili a studiare la censura internet. Il tuo
+Il progetto OONI sviluppa strumenti utili a studiare la censura su Internet. Il tuo
 contributo in questa hackathon sara' utile per aiutarci a comprendere meglio i
 dati di OONI e a renderli piu' accessibili.
 
@@ -64,7 +65,7 @@ Hai un'idea? Vuoi lavorarci su? Vogliamo fare hacking con te!
 
 Rendere i dati di misura della censura (e piu' in generali dati di misure di rete)
 piu' facili da comprendere e da studiare e' cruciale per stimolare un dibattito
-informato e democratico sulla governance di internet. Le societa' democratiche possono
+informato e democratico sulla governance di Internet. Le societa' democratiche possono
 legittimamente deliberare che non sia possibile accedere a certi contenuti al fine di
 salvaguardare il pubblico interesse; questa specifica esigenza ci porta a formulare
 interessanti domande di ricerca e di policy. Per esempio, e' possibile chiedersi come
@@ -93,7 +94,7 @@ La hackathon si terra' l'1 e 2 Ottobre 2015.
 ### 1 Ottobre
 Giorno 1
 
-09:00 Inizia l'evento (gli organizzatori dovranno presentarsi per le 8:00)
+09:00 Accoglienza dei partecipanti (gli organizzatori dovranno presentarsi per le 8:00)
 
 10:00 Introduzione
 
@@ -164,7 +165,7 @@ e Barberini della Metro A.
 
 ---
 
-# RREGOLE
+# REGOLE
 
 Mentre lavorerete al vostro progetto dovrete seguire alcune regole:
 
@@ -181,10 +182,10 @@ open source e potrebbero essere menzionati sul sito di OONI.
 
 Una hackfest e' uno spazio in cui fare hacking, conoscere nuove persone, essere
 creativi, e passare piacevolmente il tempo. Per garantire che questo evento
-sia piacevole per tutti i partecipanti vi chiediamo di comportarvi in modo eccellente
+sia piacevole per tutti i partecipanti vi chiediamo di comportarvi in modo cordiale
 con gli altri partecipanti.
 
-Riuscire a realizzare un progetto funzionante in cosi' poco tempo puoi essere
+Riuscire a realizzare un progetto funzionante in cosi' poco tempo può essere
 stressante, pertanto vi incoraggiamo anche a fare una pausa di tanto in tanto, a
 rilassarvi e a godervi la vostra partecipazione all'evento.
 
