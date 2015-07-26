@@ -68,11 +68,11 @@ Got an idea? Want to build it? We want to hack with you!
 
 Making internet censorship data (and, more generally, network measurements)
 easier to understand and study is crucial to foster an informed democratic
-debate on the governance of the internet. Democratic societies sometimes need
-to restrict access to certain content to safeguard the public interest; this
-leads to interesting research and policy questions such as how to transparently
-implement such means and how to openly verify that only what should be blocked
-is blocked.
+debate on the governance of the internet. In fact, measuring content blocking
+is functional to quantify its collateral damage on citizens' digital rights and
+this information ultimately helps democratic societies to find the right
+balance between digital sovereignty, on the one hand, and fundamental rights,
+on the other end.
 
 ---
 
@@ -92,10 +92,9 @@ coding tasks.
 The hackathon will run from October 1st to October 2nd 2015.
 
 
-### October 1st
-Day 1
+### October 1st (Day 1)
 
-09:00 Start of event (Organizers should be there at 8 AM)
+09:00 Start of event (**Organizers** should be there at **08:00**)
 
 10:00 Introduction
 
@@ -103,11 +102,10 @@ Day 1
 
 13:00 Buffet lunch[a]
 
-20:00 Wrap up for the day, you can hack more, but not here
+20:00 Wrap up for the day (you can hack more, but not here)
 
 
-### October 2nd
-Day 2
+### October 2nd (Day 2)
 
 09:00 Venue opens
 
@@ -115,7 +113,7 @@ Day 2
 
 13:00 Buffet lunch
 
-16:00 Deadline for submissions
+16:00 Submissions deadline
 
 19:00 Award ceremony
 
@@ -139,9 +137,9 @@ As for each event organized at the Italian Parliament, the following rules apply
 * participants and their belongings will be subject to security check;
 * smoking inside is forbidden;
 * participants must be at least fourteen years old;
-* smart casual attire is required (i.e. male bodied humans must **wear a suit jacket at all times**);
 * food or beverages may not be consumed inside the room;
-* it is forbidden to request and/or to pay for participation fee within the venue.
+* it is forbidden to request and/or to pay for participation fee within the venue;
+* smart casual attire is required (i.e. male bodied humans must **wear a suit jacket at all times**).
 
 
 ## Travel information
@@ -152,7 +150,7 @@ From FCO it is possible to take the train to either Termini central station or
 to various stations spread around the city (Trastevere, Ostiense, Tiburtina,
 Tuscolana).
 
-From CIA there are busses that run regularly and connect you to the Termini
+From CIA there are buses that run regularly and connect you to the Termini
 central station.
 
 The venue itself is close to the Metro A stops called Spagna and Barberini.
@@ -167,22 +165,19 @@ The venue itself is close to the Metro A stops called Spagna and Barberini.
 
 # RULES
 
-the following rules must be followed when working on your project:
+The following rules must be followed when working on your project:
 
 
 1. projects must use OONI data as the main theme of the visualisation
 
-2. all data used in the project should either already be public or should be
-published before judging takes place using an open license
+2. all data and source code used in the project should either already be public
+or should be published before judging takes place using an open license
 
 3. collaboration is encouraged and you are expected to work as part of a team
 
-4. submissions must be free and open source software and may be featured on the
-OONI website
-
 
 The hackfest is an environment in which to hack, meet new people, get creative,
-and have a good time. in order to make sure this event is enjoyable for
+and have a good time. In order to make sure this event is enjoyable for
 everyone involved we ask that you be excellent to each other.
 
 
@@ -192,5 +187,5 @@ then to relax and enjoy the event.
 
 
 Attendees violating these rules may be asked to leave the hackfest at the sole
-discretion of the organizers. thank you for helping make this a welcoming,
+discretion of the organizers. Thank you for helping make this a welcoming,
 friendly event for all.
