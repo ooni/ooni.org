@@ -68,10 +68,11 @@ Got an idea? Want to build it? We want to hack with you!
 
 Making internet censorship data (and, more generally, network measurements)
 easier to understand and study is crucial to foster an informed democratic
-debate on the governance of the internet. Democratic societies sometimes need
-to restrict access to certain content to safeguard the public interest; this
-leads to interesting research and policy questions such as how to transparently
-implement such means.
+debate on the governance of the internet. In fact, measuring content blocking
+is functional to quantify its collateral damage on citizens' digital rights and
+this information ultimately helps democratic societies to find the right
+balance between digital sovereignty, on the one hand, and fundamental rights,
+on the other end.
 
 ---
 
