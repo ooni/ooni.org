@@ -63,10 +63,12 @@ Hai un'idea? Vuoi lavorarci su? Vogliamo fare hacking con te!
 
 Rendere i dati di misurazione della censura (e, più in generale, i dati di misurazione della rete)
 piu' facili da comprendere e da studiare e' un passo cruciale per stimolare un dibattito
-informato e democratico sulla governance di internet. Le societa' democratiche necessitano talvolta di limitare l'accesso a certi contenuti al fine di
-salvaguardare il pubblico interesse; questa specifica esigenza ci porta a formulare
-interessanti domande di ricerca e di policy. Per esempio, e' possibile chiedersi come
-implementare in modo trasparente queste politiche di bloccaggio di contenuti, o come accertarsi che soltanto i contenuti che dovrebbero essere bloccati lo siano.
+informato e democratico sulla governance di internet.
+Infatti, misurare le pratiche di blocco di siti e contenuti su internet
+permette di quantificare l'impatto che tali pratiche hanno sui diritti
+fondamentali e questa informazione, a sua volta, permette a una societa'
+democratica di trovare il giusto bilanciamento tra la sovranita'
+digitale, da un lato, e i diritti fondamentali, dall'altro.
 
 ---
 
@@ -86,8 +88,7 @@ il codice.
 La hackathon si terra' l'1 e il 2 Ottobre 2015.
 
 
-### 1 Ottobre
-Giorno 1
+### 1 Ottobre (Giorno 1)
 
 09:00 Accoglienza dei partecipanti (gli organizzatori dovranno presentarsi alle 8:00)
 
@@ -99,8 +100,7 @@ Giorno 1
 
 20:00 Conclusione del primo giorno di hacking: potete ancora sviluppare, ma altrove
 
-### 2 Ottobre
-Giorno 2
+### 2 Ottobre (Giorno 2)
 
 09:00 Apertura della Camera
 

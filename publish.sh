@@ -4,7 +4,7 @@
 OONI_PROBE_REPO_DIR="../ooni-probe/"
 CWD=`pwd`
 rm -rf public/*
-hugo --theme=ooni --buildDrafts
+hugo --theme=ooni --buildDrafts --baseUrl=http://ooni.io
 echo "ooni.io" > public/CNAME
 cd $OONI_PROBE_REPO_DIR/docs/
 make clean
