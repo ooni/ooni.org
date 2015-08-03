@@ -164,6 +164,8 @@ nav.event-navbar {
   width: 300px;
   margin-right: 10px;
   float: left;
+
+  height: 380px;
 }
 
 .project-box a {
