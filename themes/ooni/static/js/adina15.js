@@ -9,14 +9,28 @@ angular
 
   .controller("JoinController", ["$scope", "Oonitarian", "Team", function (
     $scope, Oonitarian, Team) {
-    console.log("Antani");
+  
+    $scope.createdTeam = false;
+    $scope.joinedTeam = false;
+    $scope.finished = false;
+
     $scope.teams = Team.listTeams();
 
-  }])
+    $scope.newTeam = {
+      name: "",
+      shortDescription: "",
+      longDescription: "",
+      membersMaximum: 10
+    };
 
-  .controller("RegisterController", ["$scope", "Oonitarian", function (
-        $scope, Oonitarian) {
-    // TODO: add more fields here
+    $scope.selectedTeam = {
+      id: undefined,
+      name: "",
+      shortDescription: "",
+      longDescription: "",
+      membersMaximum: ""
+    }
+
     $scope.oonitarian = {
       username: "",
       name: "",
@@ -25,13 +39,54 @@ angular
       email: "",
       password: ""
     };
-    $scope.submit = function () {
-      Oonitarian
-        .create($scope.oonitarian)
-        .$promise
-        .then(function (response) {
-          // TODO: once one is registered, allow to edit
-          console.log(response);
+    
+    var registerUser = function(cb) {
+     Oonitarian
+      .create($scope.oonitarian)
+      .$promise
+      .then(function (response) {
+        Oonitarian
+        .login({
+          username: $scope.oonitarian.username,
+          password: $scope.oonitarian.password
         })
-    };
+        .$promise
+        .then(function () {
+          cb(response);
+        });
+      });
+    }
+
+    $scope.joinTeam = function(idx) {
+      $scope.joinedTeam = true;
+      $scope.createdTeam = false;
+      $scope.selectedTeam = $scope.teams.teams[idx];
+    }
+    
+    $scope.createTeam = function() {
+      console.log("Created a team");
+      $scope.createdTeam = true;
+      $scope.joinedTeam = false;
+    }
+
+    $scope.register = function() {
+      registerUser(function(){
+        if ($scope.createdTeam == true) {
+          Team
+          .createJoin({id: $scope.newTeam})
+          .$promise
+          .then(function(response) {
+            $scope.success = true;
+          });
+        } else if ($scope.joinedTeam == true) {
+           Team
+          .join({id: $scope.selectedTeam.id})
+          .$promise
+          .then(function(response) {
+            $scope.success = true;
+          });
+        }
+      });
+    }
+
   }]);

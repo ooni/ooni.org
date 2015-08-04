@@ -37,7 +37,6 @@
       <div class="event-content">
         {{ .Content }}
       </div>
-      </div>
     </main>
   </div>
 
@@ -62,11 +61,11 @@
       <div class="row">
         <div class="col-3">
 
-          <div class="project-box" ng-repeat="(id, team) in teams.teams">
+          <div class="project-box" ng-repeat="(idx, team) in teams.teams">
             <h2>{{"{{"}}team.name{{"}}"}}</h2>
             <p>{{"{{"}}team.shortDescription{{"}}"}}</p>
             <a href="#">Project details</a>
-            <button class="btn">Join Project</button>
+            <button class="btn" ng-click="joinTeam(idx)">Join Project</button>
           </div>
 
         </div>
@@ -83,58 +82,140 @@
             <span class="event-join-action">Propose</span>
             <span class="event-join-desc">something new</span>
           </div>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-3">
+          <form ng-submit="createTeam()">
+            <fieldset>
+              <div>
+                <label>Project Name</label>
+                <input type="text" ng-model="newTeam.name">
+              </div>
+
+              <div>
+                <label>Short description</label>
+                <textarea ng-model="newTeam.shortDescription"></textarea>
+              </div>
+
+              <div>
+                <label>Long Description</label>
+                <textarea ng-model="newTeam.longDescription"></textarea>
+              </div>
+
+              <div>
+                <label>Maximum number of members</label>
+                <textarea ng-model="newTeam.membersMaximum"></textarea>
+              </div>
+ 
+              <div>
+                <button>Create</button>
+              </div>
+            </fieldset>
+
+          </form>
         </div>
       </div>
 
     </div>
+    <pre>
+    {{"{{"}}createdTeam{{"}}"}}
+    </pre>
+
+    <section class="join-step2" ng-show="createdTeam || joinedTeam">
+      <div class="join-step2-your-team">
+        <h2>Your project</h2>
+      </div>
+
+      <div class="join-step2-newteam" ng-show="createdTeam">
+        <fieldset>
+          <div>
+            <label>Project Name</label>
+            <input type="text" ng-model="newTeam.name">
+          </div>
+
+          <div>
+            <label>Short description</label>
+            <textarea ng-model="newTeam.shortDescription"></textarea>
+          </div>
+
+          <div>
+            <label>Long Description</label>
+            <textarea ng-model="newTeam.longDescription"></textarea>
+          </div>
+
+          <div>
+            <label>Maximum number of members</label>
+            <textarea ng-model="newTeam.membersMaximum"></textarea>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="join-step2-jointeam" ng-show="joinedTeam">
+        <fieldset>
+          <div>
+            <label>Project Name</label>
+            <span>{{"{{"}}selectedTeam.name{{"}}"}}</span>
+          </div>
+
+          <div>
+            <label>Short description</label>
+            <p>{{"{{"}}selectedTeam.shortDescription{{"}}"}}</p>
+          </div>
+
+          <div>
+            <label>Long description</label>
+            <p>{{"{{"}}selectedTeam.longDescription{{"}}"}}</p>
+          </div>
+
+          <div>
+            <label>Members</label>
+            <p>{{"{{"}}selectedTeam.members{{"}}"}}</p>
+          </div>
+        </fieldset>
+      </div>
+
+      <h2>Your registration details</h2>
+      <form ng-submit="register()">
+        <fieldset>
+          <div>
+            <label>Username</label>
+            <input type="text" ng-model="oonitarian.username">
+          </div>
+
+          <div>
+            <label>Name</label>
+            <input type="text" ng-model="oonitarian.name">
+          </div>
+
+          <div>
+            <label>Real name</label>
+            <input type="text" ng-model="oonitarian.real_name">
+          </div>
+
+          <div>
+            <label>Real surname</label>
+            <input type="text" ng-model="oonitarian.real_surname">
+          </div>
+
+          <div>
+            <label>Email</label>
+            <input type="text" ng-model="oonitarian.email">
+          </div>
+
+          <div>
+            <label>Password</label>
+            <input type="password" ng-model="oonitarian.password">
+          </div>
+
+          <div>
+            <button>Register</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
   </div>
-
-  <section>
-    <form ng-submit="submit()" ng-controller="RegisterController">
-      <fieldset>
-        <legend>Register form</legend>
-
-        <div>
-          <label>Username</label>
-          <input type="text" ng-model="oonitarian.username">
-        </div>
-
-        <div>
-          <label>Name</label>
-          <input type="text" ng-model="oonitarian.name">
-        </div>
-
-        <div>
-          <label>Real name</label>
-          <input type="text" ng-model="oonitarian.real_name">
-        </div>
-
-        <div>
-          <label>Real surname</label>
-          <input type="text" ng-model="oonitarian.real_surname">
-        </div>
-
-        <div>
-          <label>Email</label>
-          <input type="text" ng-model="oonitarian.email">
-        </div>
-
-        <div>
-          <label>Password</label>
-          <input type="password" ng-model="oonitarian.password">
-        </div>
-
-        <div>
-          <button>Register</button>
-        </div>
-        <pre>
-        {{"{{"}}oonitarian{{"}}"}}
-        </pre>
-
-      </fieldset>
-    </form>
-  <section>
 
   <script src="{{ .Site.BaseUrl }}/vendor/angular/angular.js"></script>
   <script src="{{ .Site.BaseUrl }}/vendor/angular-resource/angular-resource.js"></script>
