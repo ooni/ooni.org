@@ -60,7 +60,11 @@ angular
         .$promise
         .then(function () {
           cb(response);
+        }, function(error){
+          $scope.errorMessage = error.data.error.message;
         });
+      }, function(error){
+          $scope.errorMessage = error.data.error.message;
       });
     }
     
@@ -87,11 +91,16 @@ angular
     $scope.register = function() {
       registerUser(function(){
         if ($scope.createdTeam == true) {
+          console.log("Creating team with");
+          console.log($scope.newTeam);
           Team
-          .createJoin({id: $scope.newTeam})
+          .createJoin($scope.newTeam)
           .$promise
           .then(function(response) {
             $scope.joined = true;
+            $scope.selectedTeam = team;
+          }, function(error){
+            $scope.errorMessage = error.data.error.message;
           });
         } else if ($scope.joinedTeam == true) {
            Team
@@ -99,6 +108,8 @@ angular
           .$promise
           .then(function(response) {
             $scope.joined = true;
+          }, function(error) {
+            $scope.errorMessage = error.data.error.message;
           });
         }
       });
