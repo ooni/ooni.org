@@ -61,9 +61,11 @@ angular
         .then(function () {
           cb(response);
         }, function(error){
+          $scope.loading = false;
           $scope.errorMessage = error.data.error.message;
         });
       }, function(error){
+          $scope.loading = false;
           $scope.errorMessage = error.data.error.message;
       });
     }
@@ -89,6 +91,7 @@ angular
     }
 
     $scope.register = function() {
+      $scope.loading = true;
       registerUser(function(){
         if ($scope.createdTeam == true) {
           console.log("Creating team with");
@@ -96,10 +99,12 @@ angular
           Team
           .createJoin($scope.newTeam)
           .$promise
-          .then(function(response) {
+          .then(function(team) {
+            $scope.loading = false;
             $scope.joined = true;
-            $scope.selectedTeam = team;
+            $scope.selectedTeam = team.team;
           }, function(error){
+            $scope.loading = false;
             $scope.errorMessage = error.data.error.message;
           });
         } else if ($scope.joinedTeam == true) {
@@ -107,8 +112,10 @@ angular
           .join({id: $scope.selectedTeam.id})
           .$promise
           .then(function(response) {
+            $scope.loading = false;
             $scope.joined = true;
           }, function(error) {
+            $scope.loading = false;
             $scope.errorMessage = error.data.error.message;
           });
         }
