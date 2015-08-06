@@ -14,6 +14,7 @@ angular
     $scope.joinedTeam = false;
     $scope.finished = false;
     $scope.loading = true;
+    $scope.joined = true;
 
     $scope.teams = Team.listTeams(function() {
       $scope.loading = false;
@@ -90,14 +91,14 @@ angular
           .createJoin({id: $scope.newTeam})
           .$promise
           .then(function(response) {
-            $scope.success = true;
+            $scope.joined = true;
           });
         } else if ($scope.joinedTeam == true) {
            Team
           .join({id: $scope.selectedTeam.id})
           .$promise
           .then(function(response) {
-            $scope.success = true;
+            $scope.joined = true;
           });
         }
       });
