@@ -14,7 +14,7 @@ angular
     $scope.joinedTeam = false;
     $scope.finished = false;
     $scope.loading = true;
-    $scope.joined = true;
+    $scope.joined = false;
 
     $scope.teams = Team.listTeams(function() {
       $scope.loading = false;
