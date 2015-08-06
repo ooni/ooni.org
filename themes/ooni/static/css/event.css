@@ -354,11 +354,17 @@ nav.event-navbar {
 }
 
 .loader-box {
-  background-color: #e06b5a;
+  background-color: none;
   height: 100px;
   width: 150px;
   margin: 0 auto;
   z-index: 3001;
+}
+
+.loader-message {
+  padding: 10px;
+  background-color: grey;
+  border-radius: 4px;
 }
 
 .error-wrapper {
