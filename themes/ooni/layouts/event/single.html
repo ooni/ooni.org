@@ -2,7 +2,6 @@
 
 <body class="article" ng-app="adina15">
   <div class="container">
-
     <nav class="event-navbar">
       <div class="col-1">
         <a href="/">
@@ -41,6 +40,20 @@
   </div>
 
   <div class="event-join" ng-controller="JoinController">
+    <div class="error-wrapper" ng-click="dismissError()" ng-show="errorMessage">
+      <div class="error-box">
+        <div class="dismiss-box"></div>
+        <span class="error-message">{{"{{"}}errorMessage{{"}}"}}</span>
+      </div>
+    </div>
+
+    <div class="loader-wrapper" ng-show="loading">
+      <div class="loader-box">
+        <span class="loader-message">Loading...</span>
+      </div>
+    </div>
+
+
     <div class="container">
       <div class="row">
         <div class="col-3">
@@ -60,6 +73,9 @@
       </div>
       <div class="row">
         <div class="col-3">
+          <div class="loading-team-list" ng-show="!teams">
+            <p>Loading...</p>
+          </div>
 
           <div class="project-box" ng-repeat="(idx, team) in teams.teams">
             <h2>{{"{{"}}team.name{{"}}"}}</h2>
@@ -122,6 +138,7 @@
 
     <section class="join-step2" ng-show="createdTeam || joinedTeam">
       <div class="join-step2-container">
+        <div class="dismiss-join-button" ng-click="dismissJoin()"></div>
         <div class="join-step2-your-team">
           <h2>Your project</h2>
         </div>

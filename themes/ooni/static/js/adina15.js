@@ -13,8 +13,14 @@ angular
     $scope.createdTeam = false;
     $scope.joinedTeam = false;
     $scope.finished = false;
+    $scope.loading = true;
 
-    $scope.teams = Team.listTeams();
+    $scope.teams = Team.listTeams(function() {
+      $scope.loading = false;
+    }, function(){
+      $scope.loading = false;
+      $scope.errorMessage = "Failed to load team list";
+    });
 
     $scope.newTeam = {
       name: "",
@@ -56,6 +62,15 @@ angular
         });
       });
     }
+    
+    $scope.dismissError = function() {
+      delete $scope.errorMessage;
+    }
+
+    $scope.dismissJoin = function() {
+      $scope.createdTeam = false;
+      $scope.joinedTeam = false;
+    }
 
     $scope.joinTeam = function(idx) {
       $scope.joinedTeam = true;
@@ -64,7 +79,6 @@ angular
     }
     
     $scope.createTeam = function() {
-      console.log("Created a team");
       $scope.createdTeam = true;
       $scope.joinedTeam = false;
     }
