@@ -10,18 +10,22 @@ angular
   .controller("JoinController", ["$scope", "Oonitarian", "Team", function (
     $scope, Oonitarian, Team) {
   
-    $scope.createdTeam = false;
-    $scope.joinedTeam = false;
-    $scope.finished = false;
-    $scope.loading = true;
-    $scope.joined = false;
+    var initialise = function() {
+      $scope.createdTeam = false;
+      $scope.joinedTeam = false;
+      $scope.finished = false;
+      $scope.loading = true;
+      $scope.joined = false;
+      $scope.teamDetails = undefined;
 
-    $scope.teams = Team.listTeams(function() {
-      $scope.loading = false;
-    }, function(){
-      $scope.loading = false;
-      $scope.errorMessage = "Failed to load team list";
-    });
+      $scope.teams = Team.listTeams(function() {
+        $scope.loading = false;
+      }, function(){
+        $scope.loading = false;
+        $scope.errorMessage = "Failed to load team list";
+      });
+    }
+    initialise();
 
     $scope.newTeam = {
       name: "",
@@ -40,13 +44,23 @@ angular
 
     $scope.oonitarian = {
       username: "",
-      name: "",
-      real_name: "",
-      real_surname: "",
+      legal_name: "",
       email: "",
       password: ""
     };
     
+    $scope.showDetails = function(idx) {
+      $scope.teamDetails = $scope.teams.teams[idx];
+    };
+
+    $scope.dismissDetails = function() {
+      delete $scope.teamDetails;
+    }
+
+    $scope.dismissDone = function() {
+      initialise();
+    }
+
     var registerUser = function(cb) {
      Oonitarian
       .create($scope.oonitarian)

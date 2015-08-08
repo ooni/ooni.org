@@ -63,13 +63,8 @@
             <span class="event-join-action">Join</span>
             <span class="event-join-desc">proposed visualization projects</span>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Here are some of the visualization projects that have either been
+          created by other participants or by the OONI dev team.</p>
         </div>
       </div>
       <div class="row">
@@ -81,7 +76,8 @@
           <div class="project-box" ng-repeat="(idx, team) in teams.teams">
             <h2>{{"{{"}}team.name{{"}}"}}</h2>
             <p>{{"{{"}}team.shortDescription{{"}}"}}</p>
-            <a href="#">Project details</a>
+            <p>{{"{{"}}team.members.length{{"}}"}}/{{"{{"}}team.membersMaximum{{"}}"}} members</p>
+            <a ng-click="showDetails(idx)">Project details</a>
             <button class="btn" ng-click="joinTeam(idx)">Join Project</button>
           </div>
 
@@ -136,6 +132,23 @@
       </div>
 
     </div>
+    
+    <section class="team-details" ng-show="teamDetails">
+      <div class="team-details-container">
+        <div class="team-details-dismiss" ng-click="dismissDetails()"></div>
+        <h2>{{"{{"}}teamDetails.name{{"}}"}}</h2>
+        <p>{{"{{"}}teamDetails.longDescription{{"}}"}}</p>
+        
+        <h3>Members</h3>
+        <ul class="members-list">
+          <li class="project-box" ng-repeat="member in teamDetails.members">
+            <div ng-repeat="(key, value) in member">
+              <span>{{"{{"}}key{{"}}"}}</span>: <span>{{"{{"}}value{{"}}"}}</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
 
     <section class="join-step2" ng-show="createdTeam || joinedTeam">
       <div class="join-step2-container">
@@ -193,6 +206,13 @@
         </div>
 
         <h2>Your registration details</h2>
+        <p>Please note that due to the security requirements of the Italian
+        parliament we need to provide your real legal name and you will be
+        asked for ID upon entry.</p>
+
+        <p>The password you enter here will be used when we implement the login
+        feature to allow you to modify your registration information.</p>
+
         <form ng-submit="register()">
           <fieldset>
             <div class="field">
@@ -201,13 +221,8 @@
             </div>
 
             <div class="field">
-              <label>Display Name</label>
-              <input type="text" ng-model="oonitarian.name">
-            </div>
-
-            <div class="field">
-              <label>Real name</label>
-              <input type="text" ng-model="oonitarian.real_name">
+              <label>Legal name</label>
+              <input type="text" ng-model="oonitarian.legal_name">
             </div>
 
             <div class="field">
@@ -237,6 +252,11 @@
       <div class="join-done-wrapper">
         <div class="join-done-box">
           <h2>Your registration was successful!</h2>
+          <p>Please take note of this information. The current version of this
+          site does not support logging in, but before the event you will be
+          able to use your username and password to login and modify your
+          registration information.</p>
+          <p>If you have any questions or need to modify your registration data, send an email to art [AT] torproject [DOT] org</p>
 
             <div class="field">
               <label>Username</label>
@@ -284,6 +304,7 @@
             </div>
 
           <p>See you soon in Rome!</p>
+          <button ng-click="dismissDone()" class="btn">Ok</button>
         </div>
       </div>
     </section>
