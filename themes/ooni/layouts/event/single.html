@@ -200,7 +200,13 @@
 
             <div class="field">
               <label>Members</label>
-              <p>{{"{{"}}selectedTeam.members{{"}}"}}</p>
+              <ul class="members-list">
+                <li class="project-box" ng-repeat="member in selectedTeam.members">
+                  <div ng-repeat="(key, value) in member">
+                    <span>{{"{{"}}key{{"}}"}}</span>: <span>{{"{{"}}value{{"}}"}}</span>
+                  </div>
+                </li>
+              </ul>
             </div>
           </fieldset>
         </div>
