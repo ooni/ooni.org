@@ -164,6 +164,8 @@ nav.event-navbar {
   width: 300px;
   margin-right: 10px;
   float: left;
+
+  height: 380px;
 }
 
 .project-box a {
@@ -187,7 +189,7 @@ nav.event-navbar {
   font-size: 0.8em;
 }
 
-.project-box .btn {
+.project-box button.btn {
   background-color: #15203a;
   color: #f2f2f2; 
 }
@@ -221,4 +223,257 @@ nav.event-navbar {
 .event-registrations {
   font-size: 1.5em;
   color: #e06b5a;
+}
+
+.join-step2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: #15203a;
+  color: #4d86c6;
+
+  font-size: 0.8rem;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  padding-top: 100px;
+  z-index: 1000;
+}
+
+.join-step2-container {
+  background-color: #f2f2f2;
+  position: relative;
+  width: 800px;
+  height: 500px; 
+  margin: 0 auto;
+  border-radius: 25px;
+  padding: 10px 20px;
+  overflow-y: scroll;
+  z-index: 1005;
+}
+
+.join-step2-container button.btn {
+  background-color: #15203a;
+  color: #f2f2f2; 
+}
+
+.dismiss-join-button {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+
+.dismiss-join-button:before {
+  font-size: 1.7em;
+  content: "⨉ ";
+}
+
+.event-join fieldset {
+  border: none;
+}
+
+.event-join h2 {
+  color: #e06b5a;
+  font-size: 2em;
+  margin-top: 0px;
+}
+
+.event-join label {
+  color: #a4d6f6;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+
+.event-join input {
+  border-bottom-color: rgb(204, 204, 204);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+  box-sizing: border-box;
+  color: rgb(85, 85, 85);
+  cursor: auto;
+  height: 30px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  display: block;
+  position: relative;
+  text-align: start;
+  text-indent: 0px;
+  text-rendering: auto;
+  text-shadow: none;
+  text-transform: none;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.15s, 0.15s;
+  transition-property: border-color, box-shadow;
+  transition-timing-function: ease-in-out, ease-in-out;
+  width: 200px;
+  word-spacing: 0px;
+  writing-mode: lr-tb;
+  -webkit-writing-mode: horizontal-tb;
+}
+
+.event-join textarea {
+  display: block;
+  width: 300px;
+  height: 130px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin: 0 auto;
+}
+
+.event-join .btn {
+  background-color: #15203a;
+  color: #f2f2f2;
+}
+
+.event-join .field {
+  padding-top: 15px;
+}
+
+.join-step2-newteam {
+  padding-bottom: 30px;
+}
+
+.join-step2-jointeam {
+  padding-bottom: 30px;
+}
+
+.loader-wrapper {
+  position: fixed;
+  top: 100px;
+  width: 100%;
+  height: 300px;
+  z-index: 3000;
+}
+
+.loader-box {
+  background-color: none;
+  height: 100px;
+  width: 150px;
+  margin: 0 auto;
+  z-index: 3001;
+}
+
+.loader-message {
+  padding: 10px;
+  background-color: grey;
+  border-radius: 4px;
+}
+
+.error-wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2000;
+  background-color: #15203a;
+  padding-top: 100px;
+}
+
+.error-box {
+  width: 300px;
+  height: 100px;
+  color: #4d86c6;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  border-radius: 4px;
+  z-index: 2001;
+  padding-top: 0.9em;
+}
+
+.error-message {
+  color: #a4d6f6;
+  font-size: 1.2em;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+}
+
+.join-done h2 {
+  color: #e06b5a;
+}
+
+.join-done-wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-color: #15203a;
+  padding-top: 50px;
+}
+
+.join-done-box {
+  width: 800px;
+  height: 500px;
+  color: #4d86c6;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  border-radius: 4px;
+  z-index: 1001;
+  padding-top: 0.9em;
+  padding-bottom: 10px;
+  overflow-y: scroll;
+}
+
+.team-details {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: #15203a;
+  color: #4d86c6;
+
+  font-size: 0.8rem;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  padding-top: 100px;
+  z-index: 1000;
+}
+
+.team-details-container {
+  background-color: #f2f2f2;
+  position: relative;
+  width: 800px;
+  height: 500px; 
+  margin: 0 auto;
+  border-radius: 25px;
+  padding: 10px 20px;
+  overflow-y: scroll;
+  z-index: 1005;
+}
+
+.team-details-dismiss {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+
+.team-details-dismiss:before {
+  font-size: 1.7em;
+  content: "⨉ ";
+}
+
+.members-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team-details h3 {
+  color: #4d86c6;
 }

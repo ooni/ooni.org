@@ -1,8 +1,7 @@
 {{ partial "head.html" . }}
 
-<body class="article">
+<body class="article" ng-app="adina15">
   <div class="container">
-
     <nav class="event-navbar">
       <div class="col-1">
         <a href="/">
@@ -37,36 +36,25 @@
       <div class="event-content">
         {{ .Content }}
       </div>
-      </div>
     </main>
   </div>
 
-  <div class="container">
-    <div class="event-join-button-wrapper">
-      <button class="btn event-join-button-disabled">Join</button>
-    </div>
-  </div>
-  <div class="event-join">
-    <div class="container">
-      <div class="row">
-        <h3 class="event-registrations">
-        Registration for new teams will open in couple of weeks.
-        </h3>
-        <p>To stay informed be sure to subscribe at <a
-            href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk">the
-            ooni-talk mailing list</a> and join us in #ooni (IRC channel) on
-        OFTC. For further inquiries regarding the event use our mailing list
-        (ooni-talk) or use the following address: art@torproject.org .
-        </p>
+  <div class="event-join" ng-controller="JoinController">
+    <div class="error-wrapper" ng-click="dismissError()" ng-show="errorMessage">
+      <div class="error-box">
+        <div class="dismiss-box"></div>
+        <span class="error-message">{{"{{"}}errorMessage{{"}}"}}</span>
       </div>
     </div>
-  </div>
-  
-  <!-- BEGIN
-       XXX this will become available in the first week of August
-       BTW if you read this message you are super coool and you should join the hackathon!
 
-  <div class="event-join">
+    <div class="loader-wrapper" ng-show="loading">
+      <div class="loader-box">
+        <img src="{{ .Site.BaseUrl }}/images/adina-loader.svg">
+        <span class="loader-message">Loading...</span>
+      </div>
+    </div>
+
+
     <div class="container">
       <div class="row">
         <div class="col-3">
@@ -75,60 +63,23 @@
             <span class="event-join-action">Join</span>
             <span class="event-join-desc">proposed visualization projects</span>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Here are some of the visualization projects that have either been
+          created by other participants or by the OONI dev team.</p>
         </div>
       </div>
       <div class="row">
         <div class="col-3">
-
-          <div class="project-box">
-            <h2>Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a href="#">Project details</a>
-            <button class="btn">Join Project</button>
+          <div class="loading-team-list" ng-show="!teams">
+            <p>Loading...</p>
           </div>
 
-          <div class="project-box">
-            <h2>Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a href="#">Project details</a>           
-            <button class="btn">Join Project</button>
+          <div class="project-box" ng-repeat="(idx, team) in teams.teams">
+            <h2>{{"{{"}}team.name{{"}}"}}</h2>
+            <p>{{"{{"}}team.shortDescription{{"}}"}}</p>
+            <p>{{"{{"}}team.members.length{{"}}"}}/{{"{{"}}team.membersMaximum{{"}}"}} members</p>
+            <a ng-click="showDetails(idx)">Project details</a>
+            <button class="btn" ng-click="joinTeam(idx)">Join Project</button>
           </div>
-
-          <div class="project-box">
-            <h2>Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a href="#">Project details</a>
-            <button class="btn">Join Project</button>
-          </div>
-
-          <div class="project-box">
-            <h2>Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a href="#">Project details</a>
-            <button class="btn">Join Project</button>
-          </div>
-
-          <div class="project-box">
-            <h2>Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a href="#">Project details</a>           
-            <button class="btn">Join Project</button>
-          </div>
-
-          <div class="project-box">
-            <h2>Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a href="#">Project details</a>
-            <button class="btn">Join Project</button>
-          </div>
-
 
         </div>
       </div>
@@ -144,13 +95,221 @@
             <span class="event-join-action">Propose</span>
             <span class="event-join-desc">something new</span>
           </div>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-3">
+          <form ng-submit="createTeam()">
+            <fieldset>
+              <div class="field">
+                <label>Project Name</label>
+                <input type="text" ng-model="newTeam.name">
+              </div>
+
+              <div class="field">
+                <label>Short description</label>
+                <textarea ng-model="newTeam.shortDescription"></textarea>
+              </div>
+
+              <div class="field">
+                <label>Long Description</label>
+                <textarea ng-model="newTeam.longDescription"></textarea>
+              </div>
+
+              <div class="field">
+                <label>Maximum number of members</label>
+                <input type="number" min="3" max="10" ng-model="newTeam.membersMaximum">
+              </div>
+ 
+              <div class="field">
+                <button class="btn">Create</button>
+              </div>
+            </fieldset>
+
+          </form>
         </div>
       </div>
 
     </div>
+    
+    <section class="team-details" ng-show="teamDetails">
+      <div class="team-details-container">
+        <div class="team-details-dismiss" ng-click="dismissDetails()"></div>
+        <h2>{{"{{"}}teamDetails.name{{"}}"}}</h2>
+        <p>{{"{{"}}teamDetails.longDescription{{"}}"}}</p>
+        
+        <h3>Members</h3>
+        <ul class="members-list">
+          <li class="project-box" ng-repeat="member in teamDetails.members">
+            <div ng-repeat="(key, value) in member">
+              <span>{{"{{"}}key{{"}}"}}</span>: <span>{{"{{"}}value{{"}}"}}</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="join-step2" ng-show="createdTeam || joinedTeam">
+      <div class="join-step2-container">
+        <div class="dismiss-join-button" ng-click="dismissJoin()"></div>
+        <div class="join-step2-your-team">
+          <h2>Your project</h2>
+        </div>
+
+        <div class="join-step2-newteam" ng-show="createdTeam">
+          <fieldset>
+            <div class="field">
+              <label>Project Name</label>
+              <input type="text" ng-model="newTeam.name">
+            </div>
+
+            <div class="field">
+              <label>Short description</label>
+              <textarea ng-model="newTeam.shortDescription"></textarea>
+            </div>
+
+            <div class="field">
+              <label>Long Description</label>
+              <textarea ng-model="newTeam.longDescription"></textarea>
+            </div>
+
+            <div class="field">
+              <label>Maximum number of members</label>
+              <input type="number" min="3" max="10" ng-model="newTeam.membersMaximum">
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="join-step2-jointeam" ng-show="joinedTeam">
+          <fieldset>
+            <div class="field">
+              <label>Project Name</label>
+              <span>{{"{{"}}selectedTeam.name{{"}}"}}</span>
+            </div>
+
+            <div class="field">
+              <label>Short description</label>
+              <p>{{"{{"}}selectedTeam.shortDescription{{"}}"}}</p>
+            </div>
+
+            <div class="field">
+              <label>Long description</label>
+              <p>{{"{{"}}selectedTeam.longDescription{{"}}"}}</p>
+            </div>
+
+            <div class="field">
+              <label>Members</label>
+              <ul class="members-list">
+                <li class="project-box" ng-repeat="member in selectedTeam.members">
+                  <div ng-repeat="(key, value) in member">
+                    <span>{{"{{"}}key{{"}}"}}</span>: <span>{{"{{"}}value{{"}}"}}</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </fieldset>
+        </div>
+
+        <h2>Your registration details</h2>
+        <p>Please note that due to the security requirements of the Italian
+        parliament we need to provide your real legal name and you will be
+        asked for ID upon entry.</p>
+
+        <p>The password you enter here will be used when we implement the login
+        feature to allow you to modify your registration information.</p>
+
+        <p>The email you provide will be visible on this website, so that you
+        can be contacted by others in your team.</p>
+
+        <form ng-submit="register()">
+          <fieldset>
+            <div class="field">
+              <label>Username</label>
+              <input type="text" ng-model="oonitarian.username">
+            </div>
+
+            <div class="field">
+              <label>Legal name</label>
+              <input type="text" ng-model="oonitarian.legal_name">
+            </div>
+
+            <div class="field">
+              <label>Email</label>
+              <input type="text" ng-model="oonitarian.email">
+            </div>
+
+            <div class="field">
+              <label>Password</label>
+              <input type="password" ng-model="oonitarian.password">
+            </div>
+
+            <div class="field">
+              <button class="btn">Register</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+    <section class="join-done" ng-show="joined">
+      <div class="join-done-wrapper">
+        <div class="join-done-box">
+          <h2>Your registration was successful!</h2>
+          <p>Please take note of this information. The current version of this
+          site does not support logging in, but before the event you will be
+          able to use your username and password to login and modify your
+          registration information.</p>
+          <p>If you have any questions or need to modify your registration
+             data, send an email to art [AT] torproject [DOT] org</p>
+
+            <div class="field">
+              <label>Username</label>
+              <span>{{"{{"}}oonitarian.username{{"}}"}}</span>
+            </div>
+
+            <div class="field">
+              <label>Legal name</label>
+              <span>{{"{{"}}oonitarian.legal_name{{"}}"}}</span>
+            </div>
+
+            <div class="field">
+              <label>Email</label>
+              <span>{{"{{"}}oonitarian.email{{"}}"}}</span>
+            </div>
+
+            <div class="field">
+              <label>Password</label>
+              <span>{{"{{"}}oonitarian.password{{"}}"}}</span>
+            </div>
+
+            <div class="field">
+              <label>Project Name</label>
+              <span>{{"{{"}}selectedTeam.name{{"}}"}}</span>
+            </div>
+
+            <div class="field">
+              <label>Short description</label>
+              <p>{{"{{"}}selectedTeam.shortDescription{{"}}"}}</p>
+            </div>
+
+            <div class="field">
+              <label>Long description</label>
+              <p>{{"{{"}}selectedTeam.longDescription{{"}}"}}</p>
+            </div>
+
+          <p>See you soon in Rome!</p>
+          <button ng-click="dismissDone()" class="btn">Ok</button>
+        </div>
+      </div>
+    </section>
+
   </div>
-  END -->
+
+  <script src="{{ .Site.BaseUrl }}/vendor/angular/angular.js"></script>
+  <script src="{{ .Site.BaseUrl }}/vendor/angular-resource/angular-resource.js"></script>
+  <script src="{{ .Site.BaseUrl }}/js/lb-services.js"></script>
+  <script src="{{ .Site.BaseUrl }}/js/adina15.js"></script>
 
 </body>
 </html>
