@@ -4,7 +4,7 @@ angular
   .module('adina15', ["lbServices"])
 
   .config(["LoopBackResourceProvider", function (LoopBackResourceProvider) {
-    LoopBackResourceProvider.setUrlBase("http://127.0.0.1:3000/api");
+    LoopBackResourceProvider.setUrlBase("https://ooni-adina15.herokuapp.com/api");
   }])
 
   .controller("JoinController", ["$scope", "Oonitarian", "Team", function (
