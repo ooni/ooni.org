@@ -2,7 +2,11 @@
 
 angular
   .module('adina15', ["lbServices"])
-
+  .config(['$httpProvider', function($httpProvider) {
+        $httpProvider.defaults.useXDomain = true;
+        delete $httpProvider.defaults.headers.common['X-Requested-With'];
+    }
+  ])
   .config(["LoopBackResourceProvider", function (LoopBackResourceProvider) {
     LoopBackResourceProvider.setUrlBase("https://ooni-adina15.herokuapp.com/api");
   }])
