@@ -169,16 +169,20 @@ The venue itself is close to the Metro A stops called Spagna and Barberini.
 
 # RULES
 
-The following rules must be followed when working on your project:
+The following three rules must be followed when working on your project:
 
+1
 
-1. projects must use OONI data as the main theme of the visualisation
+projects must use OONI data as the main theme of the visualisation;
 
-2. all data and source code used in the project should either already be public
-or should be published before judging takes place using an open license
+2
 
-3. collaboration is encouraged and you are expected to work as part of a team
+all data and source code used in the project should either already be public
+or should be published before judging takes place using an open license;
 
+3
+
+collaboration is encouraged and you are expected to work as part of a team.
 
 The hackfest is an environment in which to hack, meet new people, get creative,
 and have a good time. In order to make sure this event is enjoyable for
