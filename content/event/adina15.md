@@ -134,6 +134,8 @@ Rome, Italy
 
 As for each event organized at the Italian Parliament, the following rules apply:
 
+<br>
+
 **Participants and their belongings will be subject to security check;**<br><br>
 **Smoking inside is forbidden;**<br><br>
 **Participants must be at least fourteen years old;**<br><br>
@@ -144,6 +146,8 @@ hackathon;**<br><br>
 **Food or beverages may not be consumed inside the room;**<br><br>
 **It is forbidden to request and/or to pay for participation fee
 within the venue.**
+
+<br>
 
 
 ## Travel information
@@ -171,6 +175,8 @@ The venue itself is close to the Metro A stops called Spagna and Barberini.
 
 The following three rules must be followed when working on your project:
 
+<br>
+
 1
 
 projects must use OONI data as the main theme of the visualisation;
@@ -183,6 +189,8 @@ or should be published before judging takes place using an open license;
 3
 
 collaboration is encouraged and you are expected to work as part of a team.
+
+<br>
 
 The hackfest is an environment in which to hack, meet new people, get creative,
 and have a good time. In order to make sure this event is enjoyable for
