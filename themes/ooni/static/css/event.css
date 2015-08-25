@@ -55,6 +55,8 @@ nav.event-navbar {
 
 .event-content {
   text-align: center;
+  width: 66%;
+  margin: 0 auto;
 }
 
 .event-content h1 {
