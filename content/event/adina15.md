@@ -134,16 +134,16 @@ Rome, Italy
 
 As for each event organized at the Italian Parliament, the following rules apply:
 
-* Participants and their belongings will be subject to security check;
-* Smoking inside is forbidden;
-* Participants must be at least fourteen years old;
-* Smart casual attire is required (i.e. male bodied humans must **wear a suit
-  jacket at all times**).
-  Note: this rule is actually enforced very strictly and if you show up without
-  a jacket you may not be able to attend the hackathon;
-
-* Food or beverages may not be consumed inside the room;
-* It is forbidden to request and/or to pay for participation fee within the venue.
+**Participants and their belongings will be subject to security check;**<br><br>
+**Smoking inside is forbidden;**<br><br>
+**Participants must be at least fourteen years old;**<br><br>
+**Smart casual attire is required (i.e. male bodied humans must *wear a suit
+jacket at all times*). Note: this rule is actually enforced very strictly
+and if you show up without a jacket you may not be able to attend the
+hackathon;**<br><br>
+**Food or beverages may not be consumed inside the room;**<br><br>
+**It is forbidden to request and/or to pay for participation fee
+within the venue.**
 
 
 ## Travel information
