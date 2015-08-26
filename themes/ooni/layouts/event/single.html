@@ -5,8 +5,8 @@
     <nav class="event-navbar">
       <div class="col-1">
         <a href="/">
-          <img class="logo" src="{{ .Site.BaseUrl }}/images/ooni-header-mascot.svg" width="25" height="25"/>
-          <img class="wordmark" src="{{ .Site.BaseUrl }}/images/wordmark.svg" alt="OONI" height="14" width="53"/>
+          <img class="logo" src="{{ .Site.BaseURL }}/images/ooni-header-mascot.svg" width="25" height="25"/>
+          <img class="wordmark" src="{{ .Site.BaseURL }}/images/wordmark.svg" alt="OONI" height="14" width="53"/>
         </a>
       </div>
       <div class="col-2">
@@ -25,7 +25,7 @@
       </div>
 
       <div class="event-banner">
-        <img src="{{ .Site.BaseUrl }}/{{ .Params.banner_url }}">
+        <img src="{{ .Site.BaseURL }}/{{ .Params.banner_url }}">
       </div>
     </div>
 
@@ -50,7 +50,7 @@
 
     <div class="loader-wrapper" ng-show="loading">
       <div class="loader-box">
-        <img src="{{ .Site.BaseUrl }}/images/adina-loader.svg">
+        <img src="{{ .Site.BaseURL }}/images/adina-loader.svg">
         <span class="loader-message">Loading...</span>
       </div>
     </div>
@@ -307,10 +307,10 @@
 
   </div>
 
-  <script src="{{ .Site.BaseUrl }}/vendor/angular/angular.js"></script>
-  <script src="{{ .Site.BaseUrl }}/vendor/angular-resource/angular-resource.js"></script>
-  <script src="{{ .Site.BaseUrl }}/js/lb-services.js"></script>
-  <script src="{{ .Site.BaseUrl }}/js/adina15.js"></script>
+  <script src="{{ .Site.BaseURL }}/vendor/angular/angular.js"></script>
+  <script src="{{ .Site.BaseURL }}/vendor/angular-resource/angular-resource.js"></script>
+  <script src="{{ .Site.BaseURL }}/js/lb-services.js"></script>
+  <script src="{{ .Site.BaseURL }}/js/adina15.js"></script>
 
 </body>
 </html>
