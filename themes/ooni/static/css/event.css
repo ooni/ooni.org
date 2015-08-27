@@ -335,8 +335,19 @@ nav.event-navbar {
 }
 
 .event-join .btn {
+  background-color: #E06B5A;
+  color: #f2f2f2;
+}
+.event-join .btn:hover {
+  color: #15203a;
+}
+
+.available-teams .btn {
   background-color: #15203a;
   color: #f2f2f2;
+}
+.available-teams .btn:hover {
+  color: #E06B5A;
 }
 
 .event-join .field {
