@@ -148,9 +148,26 @@ angular
         password: $scope.oonitarian.password
       })
       .$promise
-      .then(function () {
-        $scope.loading = false;
-        console.log("You have logged in successfully");
+      .then(function (response) {
+        console.log("You have logged in successfully; your info");
+        var email = response.user.email,
+            username = response.user.username,
+            teamId = response.user.teamId;
+        console.log(email);
+        console.log(username);
+        console.log(teamId);
+        console.log("Retrieving you team's info");
+        Team
+        .findById({id: teamId})
+        .$promise
+        .then(function (response) {
+          $scope.loading = false;
+          console.log("Team information retrieved successfully");
+          console.log(response);
+        }, function (error) {
+          $scope.loading = false;
+          $scope.errorMessage = error.data.error.message;
+        });
       }, function(error){
         $scope.loading = false;
         $scope.errorMessage = error.data.error.message;
