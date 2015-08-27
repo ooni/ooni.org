@@ -88,7 +88,6 @@
       <div class="row">
         <h2 class="event-or">OR</h2>
       </div>
-
       <div class="row">
         <div class="col-3">
           <div class="event-cta">
@@ -128,6 +127,39 @@
               </div>
             </fieldset>
 
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <h2 class="event-or">OR</h2>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div class="event-cta">
+            <span class="event-join-number">#3</span>
+            <span class="event-join-action">Login</span>
+            <span class="event-join-desc">and modify data</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-3">
+          <form ng-submit="loginAgain()">
+            <fieldset>
+              <div class="field">
+                <label>Username</label>
+                <input type="text" ng-model="oonitarian.username">
+              </div>
+              <div class="field">
+                <label>Password</label>
+                <input type="password" ng-model="oonitarian.password">
+              </div>
+              <div class="field">
+                <button class="btn">Login</button>
+              </div>
+            </fieldset>
           </form>
         </div>
       </div>

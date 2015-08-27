@@ -140,4 +140,21 @@ angular
       });
     }
 
+    $scope.loginAgain = function () {
+      $scope.loading = true;
+      Oonitarian
+      .login({
+        username: $scope.oonitarian.username,
+        password: $scope.oonitarian.password
+      })
+      .$promise
+      .then(function () {
+        $scope.loading = false;
+        console.log("You have logged in successfully");
+      }, function(error){
+        $scope.loading = false;
+        $scope.errorMessage = error.data.error.message;
+      });
+    }
+
   }]);
