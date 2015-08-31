@@ -3185,7 +3185,7 @@ module
 
     LoopBackAuth.prototype.save = function() {
       var self = this;
-      var storage = this.rememberMe ? localStorage : sessionStorage;
+      var storage = {}; // Avoid leaving traces on local / session storage
       props.forEach(function(name) {
         save(storage, name, self[name]);
       });
@@ -3222,7 +3222,7 @@ module
 
     function load(name) {
       var key = propsPrefix + name;
-      return localStorage[key] || sessionStorage[key] || null;
+      return null;
     }
   })
   .config(['$httpProvider', function($httpProvider) {
