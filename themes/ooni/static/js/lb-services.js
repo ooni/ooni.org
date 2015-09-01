@@ -3240,6 +3240,14 @@ module
 
           if (LoopBackAuth.accessTokenId) {
             config.headers[authHeader] = LoopBackAuth.accessTokenId;
+            // TBB removes Authentication header for security
+            // Workaround that by chaining the token to the URL
+            if (config.url.indexOf("?") < 0) {
+              config.url += "?";
+            } else {
+              config.url += "&";
+            }
+            config.url += "access_token=" + LoopBackAuth.accessTokenId;
           } else if (config.__isGetCurrentUser__) {
             // Return a stub 401 error for User.getCurrent() when
             // there is no user logged in
