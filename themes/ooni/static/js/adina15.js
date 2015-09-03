@@ -13,13 +13,14 @@ angular
 
   .controller("JoinController", ["$scope", "Oonitarian", "Team", function (
     $scope, Oonitarian, Team) {
-  
+
     var initialise = function() {
       $scope.createdTeam = false;
       $scope.joinedTeam = false;
       $scope.finished = false;
       $scope.loading = true;
       $scope.joined = false;
+      $scope.logged = false;
       $scope.teamDetails = undefined;
 
       $scope.teams = Team.listTeams(function() {
@@ -28,31 +29,34 @@ angular
         $scope.loading = false;
         $scope.errorMessage = "Failed to load team list";
       });
+
+      $scope.newTeam = {
+        name: "",
+        shortDescription: "",
+        longDescription: "",
+        membersMaximum: 10
+      };
+
+      $scope.selectedTeam = {
+        id: undefined,
+        name: "",
+        shortDescription: "",
+        longDescription: "",
+        membersMaximum: ""
+      }
+
+      $scope.oonitarian = {
+        username: "",
+        legal_name: "",
+        email: "",
+        password: "",
+        teamId: undefined,
+        oldTeamId: undefined,
+        twitter: ""
+      };
     }
     initialise();
 
-    $scope.newTeam = {
-      name: "",
-      shortDescription: "",
-      longDescription: "",
-      membersMaximum: 10
-    };
-
-    $scope.selectedTeam = {
-      id: undefined,
-      name: "",
-      shortDescription: "",
-      longDescription: "",
-      membersMaximum: ""
-    }
-
-    $scope.oonitarian = {
-      username: "",
-      legal_name: "",
-      email: "",
-      password: ""
-    };
-    
     $scope.showDetails = function(idx) {
       $scope.teamDetails = $scope.teams.teams[idx];
     };
@@ -64,6 +68,59 @@ angular
     $scope.dismissDone = function() {
       initialise();
     }
+
+    $scope.editInfo = function() {
+      $scope.loading = true
+      $scope.oonitarian.skills = $scope.oonitarian.skills.filter(Boolean);
+      var updated = {
+        email: $scope.oonitarian.email,
+        twitter: $scope.oonitarian.twitter,
+        skills: $scope.oonitarian.skills,
+        portfolio_url: $scope.oonitarian.portfolio_url
+      };
+      if ($scope.oonitarian.password &&
+          $scope.oonitarian.password.length > 0) {
+        updated.password = $scope.oonitarian.password;
+      }
+      Oonitarian
+        .prototype$updateAttributes({id: $scope.oonitarian.id}, updated)
+        .$promise
+        .then(function () {
+          if ($scope.oonitarian.teamId !== $scope.oonitarian.oldTeamId) {
+            Team
+              .leave({id: $scope.oonitarian.oldTeamId})
+              .$promise
+              .then(function () {
+                Team
+                  .join({id: $scope.oonitarian.teamId})
+                  .$promise
+                  .then(function () {
+                    $scope.loading = false;
+                    $scope.oonitarian.oldTeamId = $scope.oonitarian.teamId;
+                  }, function (error) {
+                    $scope.loading = false;
+                    $scope.errorMessage = error.data.error.message
+                  });
+              }, function (error) {
+                $scope.loading = false;
+                $scope.errorMessage = error.data.error.message
+              });
+          } else {
+            $scope.loading = false;
+          }
+        }, function(error) {
+          $scope.loading = false;
+          $scope.errorMessage = error.data.error.message
+        });
+    }
+
+    $scope.addSkill = function () {
+      $scope.oonitarian.skills.push("");
+    };
+
+    $scope.removeSkill = function (index) {
+      $scope.oonitarian.skills.splice(index, 1);
+    };
 
     var registerUser = function(cb) {
      Oonitarian
@@ -87,7 +144,7 @@ angular
           $scope.errorMessage = error.data.error.message;
       });
     }
-    
+
     $scope.dismissError = function() {
       delete $scope.errorMessage;
     }
@@ -102,7 +159,7 @@ angular
       $scope.createdTeam = false;
       $scope.selectedTeam = $scope.teams.teams[idx];
     }
-    
+
     $scope.createTeam = function() {
       $scope.createdTeam = true;
       $scope.joinedTeam = false;
@@ -149,19 +206,27 @@ angular
       })
       .$promise
       .then(function (response) {
-        console.log("You have logged in successfully; your info");
-        var email = response.user.email,
-            username = response.user.username,
-            teamId = response.user.teamId;
-        console.log(email);
-        console.log(username);
-        console.log(teamId);
+        $scope.oonitarian.id = response.user.id;
+        $scope.oonitarian.email = response.user.email;
+        $scope.oonitarian.twitter = response.user.twitter;
+        $scope.oonitarian.password = response.user.password;
+        $scope.oonitarian.skills = response.user.skills;
+        $scope.oonitarian.portfolio_url = response.user.portfolio_url;
+        $scope.oonitarian.teamId = response.user.teamId;
+        $scope.oonitarian.oldTeamId = response.user.teamId;
+        if (!$scope.oonitarian.skills) {
+          $scope.oonitarian.skills = []
+        };
+        console.log(response.user);
         console.log("Retrieving you team's info");
         Team
-        .findById({id: teamId})
+        .findById({id: response.user.teamId})
         .$promise
         .then(function (response) {
+          $scope.oonitarian.teamName = response.name;
+          $scope.oonitarian.teamDescription = response.longDescription;
           $scope.loading = false;
+          $scope.logged = true;
           console.log("Team information retrieved successfully");
           console.log(response);
         }, function (error) {

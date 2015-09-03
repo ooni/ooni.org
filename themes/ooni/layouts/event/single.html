@@ -30,7 +30,7 @@
     </div>
 
   </div>
-  
+
   <div class="container">
     <main class="event col-3">
       <div class="event-content">
@@ -121,7 +121,7 @@
                 <label>Maximum number of members</label>
                 <input type="number" min="3" max="10" ng-model="newTeam.membersMaximum">
               </div>
- 
+
               <div class="field">
                 <button class="btn">Create</button>
               </div>
@@ -165,13 +165,13 @@
       </div>
 
     </div>
-    
+
     <section class="team-details" ng-show="teamDetails">
       <div class="team-details-container">
         <div class="team-details-dismiss" ng-click="dismissDetails()"></div>
         <h2>{{"{{"}}teamDetails.name{{"}}"}}</h2>
         <p>{{"{{"}}teamDetails.longDescription{{"}}"}}</p>
-        
+
         <h3>Members</h3>
         <ul class="members-list">
           <li class="project-box" ng-repeat="member in teamDetails.members">
@@ -333,6 +333,57 @@
 
           <p>See you soon in Rome!</p>
           <button ng-click="dismissDone()" class="btn">Ok</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="login-done" ng-show="logged">
+      <div class="login-done-wrapper">
+        <div class="login-done-box">
+        <div class="login-done-dismiss" ng-click="dismissDone()"></div>
+          <h2>Logged in as `{{"{{"}}oonitarian.username{{"}}"}}`:</h2>
+
+            <div class="field">
+              <label>Email</label>
+              <input type="text" ng-model="oonitarian.email"/>
+            </div>
+
+             <div class="field">
+              <label>Twitter</label>
+              <input type="text" ng-model="oonitarian.twitter"/>
+            </div>
+
+             <div class="field">
+              <label>Portfolio Url</label>
+              <input type="text" ng-model="oonitarian.portfolio_url"/>
+            </div>
+
+            <div class="field">
+              <label>Skills</label>
+              <div ng-repeat="skill in oonitarian.skills track by $index">
+                <input type="text" ng-model="oonitarian.skills[$index]" style="display:inline">
+                <button ng-click="removeSkill($index)" class="btn">X</button>
+              </div>
+              <button ng-click="addSkill()" class="btn">Add</button>
+            </div>
+
+            <div class="field">
+              <label>Team</label>
+              <div ng-repeat="team in teams.teams">
+                <input type="radio" name="groups" ng-model="oonitarian.teamId"
+                 ng-value="team.id"> {{"{{"}}team.name{{"}}"}} </input>
+              </div>
+            </div>
+
+            <div class="field">
+              <label>Change password</label>
+              <form name="changePassword">
+                Set new password <input type="password"
+                    ng-model="oonitarian.password" ng-required/>
+              </form>
+            </div>
+
+          <button ng-click="editInfo()" class="btn">Save Changes</button>
         </div>
       </div>
     </section>
