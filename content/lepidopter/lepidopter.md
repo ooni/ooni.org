@@ -8,8 +8,8 @@ tags: [ "lepidopter", "image", "raspberry pi" ]
 
 # Lepidopter quick start guide
 
-This guide aims to provide documentation about the Lepidopter a Raspberry Image
-with OONI super powers based on Debain jessie. The code of the image as well as
+This guide aims to provide documentation about the Lepidopter, a Raspberry Image
+with OONI super powers based on Debian jessie. The code of the image as well as
 the build script can be found in the [git
 repository](https://github.com/TheTorProject/lepidopter).
 Some compact documentation on how to install, build, copy to SD card and run
@@ -18,7 +18,7 @@ Lepidopter in QEMU is described
 
 ## Download Lepidopter Raspberry Pi image
 Lepidopter Raspberry Pi image is compatible with all types of Raspberry Pi
-(tested: B+, RPi 1 model B, RPi 2 model B). [Lepidopter image download]()
+(tested: B+, RPi 1 model B, RPi 2 model B). [Lepidopter image download](XXX)
 
 ## Verify Lepidopter Raspberry Pi image
 
@@ -28,15 +28,15 @@ XXX: TODO
 
 - Raspberry Pi
 
-- SD Card
+- SD Card:
 We recommend a 4GB (minimum size) class 4 or higher SD card.
 
-- Internet access
+- Internet access:
 A standard Ethernet cable (such as a cat 5) attached to a network router or
 switch that could provide Internet connectivity. Typically the "device" that
 enables you to access the Internet!
 
-- Power supply
+- Power supply:
 Use a 5V micro USB power supply to power your Raspberry Pi. Be careful that
 whatever power supply you use outputs at least 5V; insufficient power will
 cause your Pi to behave in strange ways.
@@ -49,9 +49,9 @@ If you are using Ubuntu and hesitate to use the terminal, you can use the
 ImageWriter tool (nice graphical user interface) to write the .img file to the
 SD card.
 
-0. Assuming that you have downloaded already Lepidopter image if not you
+0. Assuming that you have downloaded already Lepidopter image if not, you
    should first [Download Lepidopter Raspberry Pi image]
-({{<ref "#Download Lepidopter Raspberry Pi image" >}})
+(#download-lepidopter-raspberry-pi-image:7565a061641bd1e599d91e306fc304d1)
 1. Right click the archive file and select "Extract here"
 2. Insert the SD card into your computer or connect the SD card reader with the
    SD card inside
@@ -73,9 +73,9 @@ Please note that the use of the "dd" tool can overwrite any partition of your
 machine. If you specify the wrong device in the instructions below you could
 delete your primary Linux partition. Please be careful.
 
-0. Assuming that you have downloaded already Lepidopter image if not you
+0. Assuming that you have downloaded already Lepidopter image if not, you
    should first [Download Lepidopter Raspberry Pi image]
-({{<ref "#Download Lepidopter Raspberry Pi image" >}})
+(#download-lepidopter-raspberry-pi-image:7565a061641bd1e599d91e306fc304d1)
 1. Extract the image, with:
    ```xz --decompress ~/lepidopter.zip```
 2. Run ```df -h``` to see what devices are currently mounted
@@ -143,11 +143,12 @@ path.
 ### Pi Filler 
 [Pi Filler](http://ivanx.com/raspberrypi) a simple tool for copying a Raspberry
 Pi operating system image file to an SD card, or restoring an SD card backup
-created by Pi Copier. Version 1.3 is about 5x faster than previous versions and
-can write a full card in 5-7 minutes. Pi Filler automatically identfies your SD
-card (and asks for confirmation to prevent any chance of the wrong disk being
-written to), and shows estimated time remaining during the copy. After it's
-done, if your Raspberry Pi is not connected to a display, you can use Pi Finder
+created by [Pi Copier](http://ivanx.com/raspberrypi). Version 1.3 is about 5x
+faster than previous versions and can write a full card in 5-7 minutes. Pi
+Filler automatically identifies your SD card (and asks for confirmation to
+prevent any chance of the wrong disk being written to), and shows estimated
+time remaining during the copy. After it's done, if your Raspberry Pi is not
+connected to a display, you can use [Pi Finder](http://ivanx.com/raspberrypi)
 to locate it on your network and log in from Terminal. These utilities are
 written in AppleScript and Bash, are compatible with OS X 10.6 Snow Leopard
 through 10.10 Yosemite, and include source code.
@@ -160,14 +161,14 @@ installing to SD card. Note: This is a closed source application which requires
 your root password.
 
 ### ApplePi-Baker
-![ApplePi-Baker window](/help/ApplePi-Baker.png)
+![ApplePi-Baker window](/lepidopter/ApplePi-Baker.png)
 
 [ApplePi-Baker]
-(http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
-A free utility that allows you to create a NOOBS SD, write an IMG file to SD
-card, or backup an SD card to IMG, with only a few simple clicks. This is also
-a closed source application and also requires your root password to write to SD
-cards. The application is written in Lazarus Pascal and supports Retina.
+(http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/) A
+free utility that allows to write an IMG file to SD card, or backup an SD card
+to IMG, with only a few simple clicks. This is also a closed source application
+and also requires your root password to write to SD cards. The application is
+written in Lazarus Pascal and supports Retina.
 
 ### PiWriter
 [PiWriter](http://sourceforge.net/projects/piwriter/) a simple wizard made
@@ -184,9 +185,9 @@ a new 'drag and drop' approach and also includes a backup feature. PiWriter
 
 ### Using system tools (mostly graphical interface)
 
-0. Assuming that you have downloaded already Lepidopter image if not you
+0. Assuming that you have downloaded already Lepidopter image if not, you
    should first [Download Lepidopter Raspberry Pi image]
-({{<ref "#Download Lepidopter Raspberry Pi image" >}})
+(#download-lepidopter-raspberry-pi-image:7565a061641bd1e599d91e306fc304d1)
 1. Extract the image by double clicking on the download file.
 2. Connect the SD card reader with the SD card inside; note: must be formatted
    in FAT32!
@@ -211,31 +212,32 @@ you to skip the previous two steps.
 # Lepidopter Image to SD Card under Windows
 
 ## Using the Win32DiskImager program
-![Win32DiskImager window](/help/Win32DiskImager.png)
-
-0. Assuming that you have downloaded already Lepidopter image if not you
+![Win32DiskImager window](/lepidopter/Win32DiskImager.png)
+0. Download the
+   [Win32DiskImager](http://sourceforge.net/projects/win32diskimager/) utility.
+1. Assuming that you have downloaded already Lepidopter image if not, you
    should first [Download Lepidopter Raspberry Pi image]
-({{<ref "#Download Lepidopter Raspberry Pi image" >}})
-1. Extract the image file from the downloaded .xz file, so you now have
+(#download-lepidopter-raspberry-pi-image:7565a061641bd1e599d91e306fc304d1)
+2. Extract the image file from the downloaded .xz file, so you now have
    "lepidopter.img".
-2. Insert the SD card into your SD card reader and check what drive letter it
+3. Insert the SD card into your SD card reader and check what drive letter it
    was assigned. You can easily see the drive letter (for example G:) by
 looking in the left column of Windows Explorer. You can use the SD Card slot
 (if you have one) or a cheap Adapter in a USB slot.
-3. Download the Win32DiskImager utility (it is also a zip file). You can run
+4. Download the Win32DiskImager utility (it is also a zip file). You can run
    this from a USB drive.  Win32DiskImager screen
-4. Extract the executable from the zip file and run the Win32DiskImager
+5. Extract the executable from the zip file and run the Win32DiskImager
    utility; you may need to run the utility as Administrator! Right-click on
 the file, and select 'Run as Administrator'
-5. Select the image file you extracted above.
-6. Select the drive letter of the SD card in the device box. **Be careful to
+6. Select the image file you extracted above.
+7. Select the drive letter of the SD card in the device box. **Be careful to
    select the correct drive**; if you get the wrong one you can destroy your
 data on the computer's hard disk! If you are using an SD Card slot in your
 computer (if you have one) and can't see the drive in the Win32DiskImager
 window, try using a cheap Adapter in a USB slot.
-7. Click Write and wait for the write to complete.
-8. Exit the imager and eject the SD card.
-9. You are now ready to plug the card into your Raspberry Pi.
+8. Click Write and wait for the write to complete.
+9. Exit the imager and eject the SD card.
+10. You are now ready to plug the card into your Raspberry Pi.
 
 **Note**:
 In Windows, the SD card will appear only to have a fairly small size once
@@ -249,9 +251,9 @@ files such as kernel.img then the copy may not have worked correctly.
 You may not be able to choose the device in Win32DiskImager on some notebooks
 so this is a different way to achieve the same thing on a Windows machine.
 
-0. Assuming that you have downloaded already Lepidopter image if not you
+0. Assuming that you have downloaded already Lepidopter image if not, you
    should first [Download Lepidopter Raspberry Pi image]
-({{<ref "#Download Lepidopter Raspberry Pi image" >}})
+(#download-lepidopter-raspberry-pi-image:7565a061641bd1e599d91e306fc304d1)
 1. Extract the image file from the downloaded .xz file, so you now have
    "lepidopter.img".
 2. Insert the SD card into your SD card reader and check what drive letter it
