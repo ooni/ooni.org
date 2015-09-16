@@ -243,8 +243,8 @@ window, try using a cheap Adapter in a USB slot.
 In Windows, the SD card will appear only to have a fairly small size once
 written - about 55 to 75 MB. This is because most of the card has a partition
 that is formatted for the Linux operating system that the Raspberry Pi uses
-which is not visible in Windows. If you don't see this small directory with
-files such as kernel.img then the copy may not have worked correctly.
+which is not visible in Windows. If you don't see a small directory with files
+such as kernel.img then the copy may not have worked correctly.
 
 ## Using flashnul (if Win32DiskImager isn't successful)
 
