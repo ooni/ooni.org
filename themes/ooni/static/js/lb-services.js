@@ -774,7 +774,7 @@ module.factory(
          *
          * @description
          *
-         * Logout a user with access token
+         * Logout a user with access token.
          *
          * @param {Object=} parameters Request parameters.
          *
@@ -816,7 +816,7 @@ module.factory(
          *
          * @description
          *
-         * Confirm a user registration with email verification token
+         * Confirm a user registration with email verification token.
          *
          * @param {Object=} parameters Request parameters.
          *
@@ -850,7 +850,7 @@ module.factory(
          *
          * @description
          *
-         * Reset password for a user with email
+         * Reset password for a user with email.
          *
          * @param {Object=} parameters Request parameters.
          *
@@ -1659,6 +1659,42 @@ module.factory(
          */
         "leave": {
           url: urlBase + "/teams/leave",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Team#changeLeader
+         * @methodOf lbServices.Team
+         *
+         * @description
+         *
+         * <em>
+         * (The remote method definition does not provide any description.)
+         * </em>
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *  - `id` – `{number=}` -
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * This method returns no data.
+         */
+        "changeLeader": {
+          url: urlBase + "/teams/change-leader",
           method: "POST"
         },
 
@@ -2650,7 +2686,7 @@ module.factory(
          *
          * @description
          *
-         * Logout a user with access token
+         * Logout a user with access token.
          *
          * @param {Object=} parameters Request parameters.
          *
@@ -2692,7 +2728,7 @@ module.factory(
          *
          * @description
          *
-         * Confirm a user registration with email verification token
+         * Confirm a user registration with email verification token.
          *
          * @param {Object=} parameters Request parameters.
          *
@@ -2726,7 +2762,7 @@ module.factory(
          *
          * @description
          *
-         * Reset password for a user with email
+         * Reset password for a user with email.
          *
          * @param {Object=} parameters Request parameters.
          *
@@ -3302,6 +3338,18 @@ module
      */
     this.setUrlBase = function(url) {
       urlBase = url;
+    };
+
+    /**
+     * @ngdoc method
+     * @name lbServices.LoopBackResourceProvider#getUrlBase
+     * @methodOf lbServices.LoopBackResourceProvider
+     * @description
+     * Get the URL of the REST API server. The URL provided
+     * to the code generator (`lb-ng` or `grunt-loopback-sdk-angular`) is used.
+     */
+    this.getUrlBase = function() {
+      return urlBase;
     };
 
     this.$get = ['$resource', function($resource) {
