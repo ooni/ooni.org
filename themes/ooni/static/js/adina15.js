@@ -1,14 +1,39 @@
 'use strict';
+var urlBase = "https://ooni-adina15.herokuapp.com/api";
 
 angular
   .module('adina15', ["lbServices"])
+
   .config(['$httpProvider', function($httpProvider) {
         $httpProvider.defaults.useXDomain = true;
         delete $httpProvider.defaults.headers.common['X-Requested-With'];
     }
   ])
   .config(["LoopBackResourceProvider", function (LoopBackResourceProvider) {
-    LoopBackResourceProvider.setUrlBase("https://ooni-adina15.herokuapp.com/api");
+    LoopBackResourceProvider.setUrlBase(urlBase);
+  }])
+
+  .factory('fixTorLoginInterceptor', ['$q', 'LoopBackAuth', function ($q, LoopBackAuth) {
+    return {
+      request: function (config) {
+        if (config.url.substr(0, urlBase.length) === urlBase) {
+          if (LoopBackAuth.accessTokenId) {
+            // TBB removes Authentication header for security
+            // Workaround that by chaining the token to the URL
+            if (config.url.indexOf("?") < 0) {
+              config.url += "?";
+            } else {
+              config.url += "&";
+            }
+            config.url += "access_token=" + LoopBackAuth.accessTokenId;
+          }
+        }
+        return config || $q.when(config);
+      }
+    };
+  }])
+  .config(['$httpProvider', function ($httpProvider) {
+    $httpProvider.interceptors.push('fixTorLoginInterceptor');
   }])
 
   .controller("JoinController", ["$scope", "Oonitarian", "Team", function (
