@@ -8,6 +8,9 @@ banner_right_bg_url: "/event/adina15-banner-right-bg.png"
 banner_left_bg_url: "/event/adina15-banner-left-bg.png"
 event_dates: "1-2 October 2015"
 ---
+[Versione in testo semplice di questa pagina]
+(https://github.com/TheTorProject/ooni-web/raw/master/content/event/adina15-it.md)
+
 
 # OONI Hackathon
 ## #ADINA15
