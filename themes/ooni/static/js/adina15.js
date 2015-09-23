@@ -99,6 +99,9 @@ angular
       $scope.oonitarian.skills = $scope.oonitarian.skills.filter(Boolean);
       var updated = {
         email: $scope.oonitarian.email,
+        birthDate: $scope.oonitarian.birthDate,
+        birthCity: $scope.oonitarian.birthCity,
+        phoneNumber: $scope.oonitarian.phoneNumber,
         twitter: $scope.oonitarian.twitter,
         skills: $scope.oonitarian.skills,
         portfolio_url: $scope.oonitarian.portfolio_url
@@ -192,36 +195,40 @@ angular
 
     $scope.register = function() {
       $scope.loading = true;
-      registerUser(function(){
-        if ($scope.createdTeam == true) {
-          console.log("Creating team with");
-          console.log($scope.newTeam);
-          Team
-          .createJoin($scope.newTeam)
-          .$promise
-          .then(function(team) {
-            $scope.loading = false;
-            $scope.joined = true;
-            $scope.selectedTeam = team.team;
-          }, function(error){
-            $scope.loading = false;
-            $scope.errorMessage = error.data.error.message;
-          });
-        } else if ($scope.joinedTeam == true) {
-           Team
-          .join({id: $scope.selectedTeam.id})
-          .$promise
-          .then(function(response) {
-            $scope.loading = false;
-            $scope.joined = true;
-          }, function(error) {
-            $scope.loading = false;
-            $scope.errorMessage = error.data.error.message;
-          });
-        }
-      });
+      if ($scope.oonitarian.birthDate == "" || $scope.oonitarian.birthCity == ""){
+        $scope.loading = false;
+        $scope.errorMessage = "Date and City of birth can not be empty!"
+      } else { 
+        registerUser(function(){
+          if ($scope.createdTeam == true) {
+            console.log("Creating team with");
+            console.log($scope.newTeam);
+            Team
+            .createJoin($scope.newTeam)
+            .$promise
+            .then(function(team) {
+              $scope.loading = false;
+              $scope.joined = true;
+              $scope.selectedTeam = team.team;
+            }, function(error){
+              $scope.loading = false;
+              $scope.errorMessage = error.data.error.message;
+            });
+          } else if ($scope.joinedTeam == true) {
+            Team
+            .join({id: $scope.selectedTeam.id})
+            .$promise
+            .then(function(response) {
+              $scope.loading = false;
+              $scope.joined = true;
+            }, function(error) {
+              $scope.loading = false;
+              $scope.errorMessage = error.data.error.message;
+            });
+          }
+        });
+      }
     }
-
     $scope.loginAgain = function () {
       $scope.loading = true;
       Oonitarian
@@ -239,6 +246,9 @@ angular
         $scope.oonitarian.portfolio_url = response.user.portfolio_url;
         $scope.oonitarian.teamId = response.user.teamId;
         $scope.oonitarian.oldTeamId = response.user.teamId;
+        $scope.oonitarian.birthDate = response.user.birthDate;
+        $scope.oonitarian.birthCity = response.user.birthCity;
+        $scope.oonitarian.phoneNumber = response.user.phoneNumber;
         if (!$scope.oonitarian.skills) {
           $scope.oonitarian.skills = []
         };
