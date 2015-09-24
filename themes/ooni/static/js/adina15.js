@@ -99,10 +99,13 @@ angular
       $scope.oonitarian.skills = $scope.oonitarian.skills.filter(Boolean);
       var updated = {
         email: $scope.oonitarian.email,
-        birthDate: $scope.oonitarian.birthDate,
-        birthCity: $scope.oonitarian.birthCity,
-        phoneNumber: $scope.oonitarian.phoneNumber,
-        twitter: $scope.oonitarian.twitter,
+        // XXX store all this information inside the Twitter field
+        twitter: JSON.stringify({
+          birthDate: $scope.oonitarian.birthDate,
+          birthCity: $scope.oonitarian.birthCity,
+          phoneNumber: $scope.oonitarian.phoneNumber,
+          twitter: $scope.oonitarian.twitter
+        }),
         skills: $scope.oonitarian.skills,
         portfolio_url: $scope.oonitarian.portfolio_url
       };
@@ -195,7 +198,8 @@ angular
 
     $scope.register = function() {
       $scope.loading = true;
-      if ($scope.oonitarian.birthDate == "" || $scope.oonitarian.birthCity == ""){
+      if ($scope.oonitarian.birthDate == "" ||
+          $scope.oonitarian.birthCity == "") {
         $scope.loading = false;
         $scope.errorMessage = "Date and City of birth can not be empty!"
       } else { 
@@ -238,17 +242,36 @@ angular
       })
       .$promise
       .then(function (response) {
+        // XXX reload information stored inside the twitter field
+        var extraData;
+        try {
+          extraData = JSON.parse(response.user.twitter);
+        } catch (err) {
+          extraData = {};
+          // Assume because it's a Twitter account not a valid JSON
+          // this is what should happen when the user is already there
+          // and you deploy this patch on the server
+          $scope.oonitarian.twitter = response.user.twitter;
+        }
         $scope.oonitarian.id = response.user.id;
         $scope.oonitarian.email = response.user.email;
-        $scope.oonitarian.twitter = response.user.twitter;
+        if (extraData && extraData.twitter) {
+          $scope.oonitarian.twitter = extraData.twitter;
+        }
         $scope.oonitarian.password = response.user.password;
         $scope.oonitarian.skills = response.user.skills;
         $scope.oonitarian.portfolio_url = response.user.portfolio_url;
         $scope.oonitarian.teamId = response.user.teamId;
         $scope.oonitarian.oldTeamId = response.user.teamId;
-        $scope.oonitarian.birthDate = response.user.birthDate;
-        $scope.oonitarian.birthCity = response.user.birthCity;
-        $scope.oonitarian.phoneNumber = response.user.phoneNumber;
+        if (extraData && extraData.birthDate) {
+          $scope.oonitarian.birthDate = extraData.birthDate;
+        }
+        if (extraData && extraData.birthCity) {
+          $scope.oonitarian.birthCity = extraData.birthCity;
+        }
+        if (extraData && extraData.phoneNumber) {
+          $scope.oonitarian.phoneNumber = extraData.phoneNumber;
+        }
         if (!$scope.oonitarian.skills) {
           $scope.oonitarian.skills = []
         };
