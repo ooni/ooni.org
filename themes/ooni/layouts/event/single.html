@@ -246,11 +246,14 @@
 
         <h2>Your registration details</h2>
         <p>Please note that due to the security requirements of the Italian
-        parliament we need to provide your real legal name and you will be
-        asked for ID upon entry.</p>
+        parliament we need to provide your real legal name, birth date, birth
+        city, and you will be asked for ID upon entry.</p>
 
-        <p>The password you enter here will be used when we implement the login
-        feature to allow you to modify your registration information.</p>
+        <p>If you don't want to enter these fields on this website, send
+        them to Arturo encrypted using PGP.</p>
+
+        <p>The password you enter here can be used to modify your
+        registration information.</p>
 
         <p>The email you provide will be visible on this website, so that you
         can be contacted by others in your team.</p>
@@ -274,12 +277,12 @@
 
             <div class="field">
               <label>Date of Birth</label>
-              <input type="text" ng-model="oonitarian.birthDate" required/>
+              <input type="text" ng-model="oonitarian.birthDate"/>
             </div>
 
             <div class="field">
               <label>City of Birth</label>
-              <input type="text" ng-model="oonitarian.birthCity" required/>
+              <input type="text" ng-model="oonitarian.birthCity"/>
             </div>
 
             <div class="field">
