@@ -77,6 +77,9 @@ angular
         password: "",
         teamId: undefined,
         oldTeamId: undefined,
+        birthDate: "",
+        birthCity: "",
+        phoneNumber: "",
         twitter: ""
       };
     }
