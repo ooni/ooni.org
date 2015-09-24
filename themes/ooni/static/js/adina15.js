@@ -77,6 +77,9 @@ angular
         password: "",
         teamId: undefined,
         oldTeamId: undefined,
+        birthDate: "",
+        birthCity: "",
+        phoneNumber: "",
         twitter: ""
       };
     }
@@ -155,7 +158,19 @@ angular
 
     var registerUser = function(cb) {
      Oonitarian
-      .create($scope.oonitarian)
+      .create({
+        username: $scope.oonitarian.username,
+        legal_name: $scope.oonitarian.legal_name,
+        email: $scope.oonitarian.email,
+        password: $scope.oonitarian.password,
+        // XXX store the data inside of the twitter field
+        twitter: JSON.stringify({
+          birthDate: $scope.oonitarian.birthDate,
+          birthCity: $scope.oonitarian.birthCity,
+          phoneNumber: $scope.oonitarian.phoneNumber,
+          twitter: $scope.oonitarian.twitter
+        })
+      })
       .$promise
       .then(function (response) {
         Oonitarian
@@ -203,7 +218,7 @@ angular
         $scope.loading = false;
         $scope.errorMessage = "Date and City of birth can not be empty!"
       } else { 
-        registerUser(function(){
+        registerUser(function() {
           if ($scope.createdTeam == true) {
             console.log("Creating team with");
             console.log($scope.newTeam);
@@ -233,6 +248,7 @@ angular
         });
       }
     }
+
     $scope.loginAgain = function () {
       $scope.loading = true;
       Oonitarian
