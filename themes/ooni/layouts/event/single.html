@@ -246,11 +246,14 @@
 
         <h2>Your registration details</h2>
         <p>Please note that due to the security requirements of the Italian
-        parliament we need to provide your real legal name and you will be
-        asked for ID upon entry.</p>
+        parliament we need to provide your real legal name, birth date, birth
+        city, and you will be asked for ID upon entry.</p>
 
-        <p>The password you enter here will be used when we implement the login
-        feature to allow you to modify your registration information.</p>
+        <p>If you don't want to enter these fields on this website, send
+        them to Arturo encrypted using PGP.</p>
+
+        <p>The password you enter here can be used to modify your
+        registration information.</p>
 
         <p>The email you provide will be visible on this website, so that you
         can be contacted by others in your team.</p>
@@ -273,12 +276,29 @@
             </div>
 
             <div class="field">
+              <label>Date of Birth</label>
+              <input type="text" ng-model="oonitarian.birthDate"/>
+            </div>
+
+            <div class="field">
+              <label>City of Birth</label>
+              <input type="text" ng-model="oonitarian.birthCity"/>
+            </div>
+
+            <div class="field">
+              <label>Phone Number</label>
+              <input type="text" ng-model="oonitarian.phoneNumber"/>
+            </div>
+
+
+            <div class="field">
               <label>Password</label>
               <input type="password" ng-model="oonitarian.password">
             </div>
 
             <div class="field">
               <button class="btn">Register</button>
+          
             </div>
           </fieldset>
         </form>
@@ -310,6 +330,22 @@
               <label>Email</label>
               <span>{{"{{"}}oonitarian.email{{"}}"}}</span>
             </div>
+
+            <div class="field">
+              <label>Date of Birth</label>
+              <span>{{"{{"}}oonitarian.birthDate{{"}}"}}</span>
+            </div>
+
+            <div class="field">
+              <label>City of Birth</label>
+              <span>{{"{{"}}oonitarian.birthCity{{"}}"}}</span>
+            </div>
+
+            <div class="field">
+              <label>Phone Number</label>
+              <span>{{"{{"}}oonitarian.phoneNumber{{"}}"}}</span>
+            </div>
+
 
             <div class="field">
               <label>Password</label>
@@ -346,6 +382,22 @@
             <div class="field">
               <label>Email</label>
               <input type="text" ng-model="oonitarian.email"/>
+            </div>
+
+
+            <div class="field">
+              <label>Date of Birth</label>
+              <input type="text" ng-model="oonitarian.birthDate"/>
+            </div>
+
+            <div class="field">
+              <label>City of Birth</label>
+              <input type="text" ng-model="oonitarian.birthCity"/>
+            </div>
+
+            <div class="field">
+              <label>Phone Number</label>
+              <input type="text" ng-model="oonitarian.phoneNumber"/>
             </div>
 
              <div class="field">

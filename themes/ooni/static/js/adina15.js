@@ -77,6 +77,9 @@ angular
         password: "",
         teamId: undefined,
         oldTeamId: undefined,
+        birthDate: "",
+        birthCity: "",
+        phoneNumber: "",
         twitter: ""
       };
     }
@@ -99,7 +102,13 @@ angular
       $scope.oonitarian.skills = $scope.oonitarian.skills.filter(Boolean);
       var updated = {
         email: $scope.oonitarian.email,
-        twitter: $scope.oonitarian.twitter,
+        // XXX store all this information inside the Twitter field
+        twitter: JSON.stringify({
+          birthDate: $scope.oonitarian.birthDate,
+          birthCity: $scope.oonitarian.birthCity,
+          phoneNumber: $scope.oonitarian.phoneNumber,
+          twitter: $scope.oonitarian.twitter
+        }),
         skills: $scope.oonitarian.skills,
         portfolio_url: $scope.oonitarian.portfolio_url
       };
@@ -149,7 +158,19 @@ angular
 
     var registerUser = function(cb) {
      Oonitarian
-      .create($scope.oonitarian)
+      .create({
+        username: $scope.oonitarian.username,
+        legal_name: $scope.oonitarian.legal_name,
+        email: $scope.oonitarian.email,
+        password: $scope.oonitarian.password,
+        // XXX store the data inside of the twitter field
+        twitter: JSON.stringify({
+          birthDate: $scope.oonitarian.birthDate,
+          birthCity: $scope.oonitarian.birthCity,
+          phoneNumber: $scope.oonitarian.phoneNumber,
+          twitter: $scope.oonitarian.twitter
+        })
+      })
       .$promise
       .then(function (response) {
         Oonitarian
@@ -192,7 +213,7 @@ angular
 
     $scope.register = function() {
       $scope.loading = true;
-      registerUser(function(){
+      registerUser(function() {
         if ($scope.createdTeam == true) {
           console.log("Creating team with");
           console.log($scope.newTeam);
@@ -208,7 +229,7 @@ angular
             $scope.errorMessage = error.data.error.message;
           });
         } else if ($scope.joinedTeam == true) {
-           Team
+          Team
           .join({id: $scope.selectedTeam.id})
           .$promise
           .then(function(response) {
@@ -231,14 +252,36 @@ angular
       })
       .$promise
       .then(function (response) {
+        // XXX reload information stored inside the twitter field
+        var extraData;
+        try {
+          extraData = JSON.parse(response.user.twitter);
+        } catch (err) {
+          extraData = {};
+          // Assume because it's a Twitter account not a valid JSON
+          // this is what should happen when the user is already there
+          // and you deploy this patch on the server
+          $scope.oonitarian.twitter = response.user.twitter;
+        }
         $scope.oonitarian.id = response.user.id;
         $scope.oonitarian.email = response.user.email;
-        $scope.oonitarian.twitter = response.user.twitter;
+        if (extraData && extraData.twitter) {
+          $scope.oonitarian.twitter = extraData.twitter;
+        }
         $scope.oonitarian.password = response.user.password;
         $scope.oonitarian.skills = response.user.skills;
         $scope.oonitarian.portfolio_url = response.user.portfolio_url;
         $scope.oonitarian.teamId = response.user.teamId;
         $scope.oonitarian.oldTeamId = response.user.teamId;
+        if (extraData && extraData.birthDate) {
+          $scope.oonitarian.birthDate = extraData.birthDate;
+        }
+        if (extraData && extraData.birthCity) {
+          $scope.oonitarian.birthCity = extraData.birthCity;
+        }
+        if (extraData && extraData.phoneNumber) {
+          $scope.oonitarian.phoneNumber = extraData.phoneNumber;
+        }
         if (!$scope.oonitarian.skills) {
           $scope.oonitarian.skills = []
         };
