@@ -1,5 +1,5 @@
 'use strict';
-var urlBase = "https://ooni-adina15.herokuapp.com/api";
+var urlBase = "https://ooni-adina15-staging.herokuapp.com/api";
 
 angular
   .module('adina15', ["lbServices"])
