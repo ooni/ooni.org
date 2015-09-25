@@ -77,6 +77,9 @@ angular
         password: "",
         teamId: undefined,
         oldTeamId: undefined,
+        birthDate: "",
+        birthCity: "",
+        phoneNumber: "",
         twitter: ""
       };
     }
@@ -99,6 +102,9 @@ angular
       $scope.oonitarian.skills = $scope.oonitarian.skills.filter(Boolean);
       var updated = {
         email: $scope.oonitarian.email,
+        birthDate: $scope.oonitarian.birthDate,
+        birthCity: $scope.oonitarian.birthCity,
+        phoneNumber: $scope.oonitarian.phoneNumber,
         twitter: $scope.oonitarian.twitter,
         skills: $scope.oonitarian.skills,
         portfolio_url: $scope.oonitarian.portfolio_url
@@ -192,7 +198,7 @@ angular
 
     $scope.register = function() {
       $scope.loading = true;
-      registerUser(function(){
+      registerUser(function() {
         if ($scope.createdTeam == true) {
           console.log("Creating team with");
           console.log($scope.newTeam);
@@ -208,7 +214,7 @@ angular
             $scope.errorMessage = error.data.error.message;
           });
         } else if ($scope.joinedTeam == true) {
-           Team
+          Team
           .join({id: $scope.selectedTeam.id})
           .$promise
           .then(function(response) {
@@ -239,6 +245,9 @@ angular
         $scope.oonitarian.portfolio_url = response.user.portfolio_url;
         $scope.oonitarian.teamId = response.user.teamId;
         $scope.oonitarian.oldTeamId = response.user.teamId;
+        $scope.oonitarian.birthDate = response.user.birthDate;
+        $scope.oonitarian.birthCity = response.user.birthCity;
+        $scope.oonitarian.phoneNumber = response.user.phoneNumber;
         if (!$scope.oonitarian.skills) {
           $scope.oonitarian.skills = []
         };
