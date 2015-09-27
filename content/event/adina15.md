@@ -6,7 +6,7 @@ tags: [ "event", "adina", "hackathon" ]
 banner_url: "/event/adina15-banner.png"
 banner_right_bg_url: "/event/adina15-banner-right-bg.png"
 banner_left_bg_url: "/event/adina15-banner-left-bg.png"
-event_dates: "1-2 October 2015"
+event_dates: "event postponed"
 ---
 [Raw text version of this page]
 (https://github.com/TheTorProject/ooni-web/raw/master/content/event/adina15.md)
@@ -21,8 +21,8 @@ Would you fancy spending some time in the Italian Parliament in Rome hacking on
 internet censorship data and [reports](http://api.ooni.io/) gathered by
 [OONI](https://ooni.torproject.org/)? 
 
-Then submit an application to join us from the 1st of October
-to the 2nd of October 2015 at the OONI Open Data Hackfest!
+Then submit an application to join us
+at the OONI Open Data Hackfest!
 
 All humans welcome!
 
@@ -91,10 +91,10 @@ coding tasks.
 
 # WHEN
 
-The hackathon will run from October 1st to October 2nd 2015.
+The hackathon will run from ... to be defined (the hackathon was postponed).
 
 
-### October 1st (Day 1)
+### Day 1
 
 09:00 Start of event (**Organizers** should be there at **08:00**)
 
@@ -107,7 +107,7 @@ The hackathon will run from October 1st to October 2nd 2015.
 20:00 Wrap up for the day (you can hack more, but not here)
 
 
-### October 2nd (Day 2)
+### Day 2
 
 09:00 Venue opens
 

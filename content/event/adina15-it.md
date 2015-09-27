@@ -6,7 +6,7 @@ tags: [ "event", "adina", "hackathon" ]
 banner_url: "/event/adina15-banner.png"
 banner_right_bg_url: "/event/adina15-banner-right-bg.png"
 banner_left_bg_url: "/event/adina15-banner-left-bg.png"
-event_dates: "1-2 October 2015"
+event_dates: "event postponed"
 ---
 [Versione in testo semplice di questa pagina]
 (https://github.com/TheTorProject/ooni-web/raw/master/content/event/adina15-it.md)
@@ -21,8 +21,7 @@ Vorresti trascorrere qualche giorno presso la Camera dei Deputati lavorando sull
 [misure di censura su internet](http://api.ooni.io/) raccolte dal progetto
 [OONI](https://ooni.torproject.org/)? 
 
-Allora partecipa alla OONI Open Data Hackfest che si terra'
-l'1 e il 2 Ottobre 2015!
+Allora partecipa alla OONI Open Data Hackfest!
 
 Sarai il benvenuto!
 
@@ -88,10 +87,10 @@ il codice.
 
 # QUANDO
 
-La hackathon si terra' l'1 e il 2 Ottobre 2015.
+La hackathon si terra' ... da definirsi (l'hackathon e' stata rinviata)
 
 
-### 1 Ottobre (Giorno 1)
+### Giorno 1
 
 09:00 Accoglienza dei partecipanti (gli organizzatori dovranno presentarsi alle 8:00)
 
@@ -103,7 +102,7 @@ La hackathon si terra' l'1 e il 2 Ottobre 2015.
 
 20:00 Conclusione del primo giorno di hacking: potete ancora sviluppare, ma altrove
 
-### 2 Ottobre (Giorno 2)
+### Giorno 2
 
 09:00 Apertura della Camera
 
