@@ -3,12 +3,6 @@ date: "2015-07-10"
 title: "ADINA15: A Dive Into Network Anomalies"
 description: "A Hackathon to analyse and visualise OONI network measurements"
 tags: [ "event", "adina", "hackathon" ]
-<!--- Comment ADINA banner
-banner_url: "/event/adina15-banner.png"
-banner_right_bg_url: "/event/adina15-banner-right-bg.png"
-banner_left_bg_url: "/event/adina15-banner-left-bg.png"
-event_dates: "event postponed"
--->
 ---
 [Raw text version of this page]
 (https://github.com/TheTorProject/ooni-web/raw/master/content/event/adina15.md)
@@ -17,7 +11,8 @@ event_dates: "event postponed"
 ## #ADINA15
 
 **The event has been postponed!**
-To be announced: new dates 
+
+**To be announced: new dates**
 
 Do you like playing with open data and producing some good looking graphics
 about them? 
