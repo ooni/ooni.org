@@ -1,3 +1,4 @@
+{{ .Scratch.Set "basePrefix" "../../" }}
 {{ partial "head.html" . }}
 
 <body class="article" ng-app="adina15">
@@ -5,12 +6,12 @@
     <nav class="event-navbar">
       <div class="col-1">
         <a href="/">
-          <img class="logo" src="{{ .Site.BaseURL }}/images/ooni-header-mascot.svg" width="25" height="25"/>
-          <img class="wordmark" src="{{ .Site.BaseURL }}/images/wordmark.svg" alt="OONI" height="14" width="53"/>
+          <img class="logo" src="../../images/ooni-header-mascot.svg" width="25" height="25"/>
+          <img class="wordmark" src="../../images/wordmark.svg" alt="OONI" height="14" width="53"/>
         </a>
       </div>
       <div class="col-2">
-        {{ partial "nav.html" }}
+        {{ partial "nav.html" . }}
       </div>
     </nav>
   </div>
@@ -25,7 +26,7 @@
       </div>
 
       <div class="event-banner">
-        <img src="{{ .Site.BaseURL }}/{{ .Params.banner_url }}">
+        <img src="../../{{ .Params.banner_url }}">
       </div>
     </div>
 
@@ -51,7 +52,7 @@
 
     <div class="loader-wrapper" ng-show="loading">
       <div class="loader-box">
-        <img src="{{ .Site.BaseURL }}/images/adina-loader.svg">
+        <img src="../../images/adina-loader.svg">
         <span class="loader-message">Loading...</span>
       </div>
     </div>
@@ -440,10 +441,10 @@
 
   </div>
 
-  <script src="{{ .Site.BaseURL }}/vendor/angular/angular.js"></script>
-  <script src="{{ .Site.BaseURL }}/vendor/angular-resource/angular-resource.js"></script>
-  <script src="{{ .Site.BaseURL }}/js/lb-services.js"></script>
-  <script src="{{ .Site.BaseURL }}/js/adina15.js"></script>
+  <script src="../../vendor/angular/angular.js"></script>
+  <script src="../../vendor/angular-resource/angular-resource.js"></script>
+  <script src="../../js/lb-services.js"></script>
+  <script src="../../js/adina15.js"></script>
 -->
 
 </body>
