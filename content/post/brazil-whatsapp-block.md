@@ -1,11 +1,12 @@
+---
 title: "OONI Data Reveals How WhatsApp Was Blocked (Again) in Brazil"
-author: "XXX"
+author: "Vasilis Ververis, Maria Xynou"
 date: "2016-05-05"
 tags: ["brazil", "whatsapp"]
 categories: ["report"]
 aliases:
   - /ooni-data-reveals-how-whatsapp-was-blocked-in-brazil.html
-------------------------------------------------------------------------------------------
+---
 
 **Country:** Brasil
 
@@ -44,16 +45,16 @@ communications.
 According to Lucas Teixeira, Chief Technologist at [Coding Rights]
 (https://www.codingrights.org/):
 
-	"People reacted to the blocking of WhatsApp with a mix of shock, revolt and
-	mockery, reflecting the fact that Whatsapp is used by pretty much everyone
-	in big and small cities - and even in the countryside - to communicate with
-	each other, replacing SMS and phone calls almost 100%. The company's
-	zero-rating partnerships with telcos has also helped a lot. Mobile Internet
-	plans with data caps but "free Whatsapp" are common. Marco Civil da
-	Internet explicitly forbids violations to net neutrality, but the legality
-	or not of zero rating will be set in its ongoing regulation process. As for
-	the legality of WhatsApp's blocking, we can't be sure because the
-	litigation is secret, but it has been reversed in court."
+> "People reacted to the blocking of WhatsApp with a mix of shock, revolt and
+> mockery, reflecting the fact that Whatsapp is used by pretty much everyone
+> in big and small cities - and even in the countryside - to communicate with
+> each other, replacing SMS and phone calls almost 100%. The company's
+> zero-rating partnerships with telcos has also helped a lot. Mobile Internet
+> plans with data caps but "free Whatsapp" are common. Marco Civil da
+> Internet explicitly forbids violations to net neutrality, but the legality
+> or not of zero rating will be set in its ongoing regulation process. As for
+> the legality of WhatsApp's blocking, we can't be sure because the
+> litigation is secret, but it has been reversed in court."
 
 Following the latest reports of WhatsApp being blocked in Brazil, the
 [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/)
@@ -81,12 +82,11 @@ WhatsApp, as illustrated below:
 
 **DNS-consistency tests**
 
+```
 ###########################################
 # OONI Probe Report for dns_consistency (0.7.0)
 # Tue May  3 06:20:40 2016
 ###########################################
-```
-```
 probe_asn: AS7738
 probe_cc: BR
 test_helpers: {backend: '213.138.109.232:57004'}
@@ -145,15 +145,13 @@ queries:
 successful: []
 test_resolvers: [192.168.122.1]
 test_runtime: 1.223766803741455
-
 ```
+
 ```
 ###########################################
 # OONI Probe Report for dns_consistency (0.7.0)
 # Tue May  3 01:39:37 2016
 ###########################################
-```
-```
 probe_asn: AS26615
 probe_cc: BR
 software_name: ooniprobe
@@ -215,6 +213,7 @@ successful: []
 test_resolvers: [192.168.122.1]
 test_runtime: 0.03604292869567871
 ```
+
 ```
 ###########################################
 # OONI Probe Report for dns_consistency (0.7.0)
@@ -272,12 +271,11 @@ test_runtime: 1.296454906463623
 
 **HTTP-request test**
 
+```
 ###########################################
 # OONI Probe Report for http_requests (0.2.5)
 # Mon May  2 23:17:02 2016
 ###########################################
-```
-```
 probe_asn: AS26615
 probe_cc: BR
 software_name: ooniprobe
@@ -341,8 +339,5 @@ through the following:
 1. [Install ooniprobe](https://github.com/TheTorProject/ooni-probe#installation)
 2. Download the [whatsapp deck]
 (https://raw.githubusercontent.com/TheTorProject/ooni-probe/0b4cea0ad99696f664cd3083df929d93f88fda43/data/decks/whatsapp.deck)
-eg.
-```
-wget https://raw.githubusercontent.com/TheTorProject/ooni-probe/0b4cea0ad99696f664cd3083df929d93f88fda43/data/decks/whatsapp.deck
-```
+(eg. `wget https://raw.githubusercontent.com/TheTorProject/ooni-probe/0b4cea0ad99696f664cd3083df929d93f88fda43/data/decks/whatsapp.deck`)
 3. Run test deck `ooniprobe -i whatsapp.deck`
