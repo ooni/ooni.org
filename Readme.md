@@ -36,6 +36,11 @@ Then run the publish script:
 ./publish.sh
 ```
 
+## Adding a new blog post
+
+When adding a new blog post and make it appear on the front page you shall edit
+`themes/ooni/layouts/index.html`.
+
 ## Python requirements
 
 ```
