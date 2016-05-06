@@ -35,3 +35,11 @@ Then run the publish script:
 ```
 ./publish.sh
 ```
+
+## Python requirements
+
+```
+ghp-import==0.4.1
+MarkupSafe==0.23
+Sphinx==1.3.1
+```
