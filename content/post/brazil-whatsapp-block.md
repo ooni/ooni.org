@@ -1,6 +1,6 @@
 ---
 title: "WhatsApp blocked in Brazil, again"
-author: "Vasilis Ververis, Maria Xynou"
+author: "Vasilis Ververis, Maria Xynou, Will Scott"
 date: "2016-05-05"
 tags: ["brazil", "whatsapp"]
 categories: ["report"]
