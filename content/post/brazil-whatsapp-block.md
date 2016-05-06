@@ -342,36 +342,36 @@ through the following:
 (eg. `wget https://raw.githubusercontent.com/TheTorProject/ooni-probe/0b4cea0ad99696f664cd3083df929d93f88fda43/data/decks/whatsapp.deck`)
 3. Run test deck `ooniprobe -i whatsapp.deck`
 
-# OONI EXplorer report links
+# OONI Explorer report links
 
 ## HTTP Requests measurements
 
 ### AS 26615
 
-https://explorer.ooni.torproject.org/measurement/20160502T211641Z_AS26615_S0P6z1jAn0ToeMtK4xvjJUKlSOw9ENcipv9pUfrVd3yPmuD7ek?input=http:%2F%2Fweb.whatsapp.com
-https://explorer.ooni.torproject.org/measurement/20160502T211641Z_AS26615_S0P6z1jAn0ToeMtK4xvjJUKlSOw9ENcipv9pUfrVd3yPmuD7ek?input=https:%2F%2Fweb.whatsapp.com
-https://explorer.ooni.torproject.org/measurement/20160502T211641Z_AS26615_S0P6z1jAn0ToeMtK4xvjJUKlSOw9ENcipv9pUfrVd3yPmuD7ek?input=http:%2F%2Fwww.whatsapp.com
-https://explorer.ooni.torproject.org/measurement/20160502T211641Z_AS26615_S0P6z1jAn0ToeMtK4xvjJUKlSOw9ENcipv9pUfrVd3yPmuD7ek?input=https:%2F%2Fwww.whatsapp.com
-https://explorer.ooni.torproject.org/measurement/20160504T214210Z_AS26615_LzBigYkP8oN1aAnI1mnFFDwZPAbUcTu2ZN6uSwosZuW8HVm7br?input=http:%2F%2Fwww.whatsapp.com%2Fcidr.txt
-https://explorer.ooni.torproject.org/measurement/20160502T211641Z_AS26615_S0P6z1jAn0ToeMtK4xvjJUKlSOw9ENcipv9pUfrVd3yPmuD7ek?input=https:%2F%2Fwww.whatsapp.com%2Fcidr.txt
+- https://explorer.ooni.torproject.org/measurement/20160502T211641Z_AS26615_S0P6z1jAn0ToeMtK4xvjJUKlSOw9ENcipv9pUfrVd3yPmuD7ek?input=http:%2F%2Fweb.whatsapp.com
+- https://explorer.ooni.torproject.org/measurement/20160502T211641Z_AS26615_S0P6z1jAn0ToeMtK4xvjJUKlSOw9ENcipv9pUfrVd3yPmuD7ek?input=https:%2F%2Fweb.whatsapp.com
+- https://explorer.ooni.torproject.org/measurement/20160502T211641Z_AS26615_S0P6z1jAn0ToeMtK4xvjJUKlSOw9ENcipv9pUfrVd3yPmuD7ek?input=http:%2F%2Fwww.whatsapp.com
+- https://explorer.ooni.torproject.org/measurement/20160502T211641Z_AS26615_S0P6z1jAn0ToeMtK4xvjJUKlSOw9ENcipv9pUfrVd3yPmuD7ek?input=https:%2F%2Fwww.whatsapp.com
+- https://explorer.ooni.torproject.org/measurement/20160504T214210Z_AS26615_LzBigYkP8oN1aAnI1mnFFDwZPAbUcTu2ZN6uSwosZuW8HVm7br?input=http:%2F%2Fwww.whatsapp.com%2Fcidr.txt
+- https://explorer.ooni.torproject.org/measurement/20160502T211641Z_AS26615_S0P6z1jAn0ToeMtK4xvjJUKlSOw9ENcipv9pUfrVd3yPmuD7ek?input=https:%2F%2Fwww.whatsapp.com%2Fcidr.txt
 
 ### AS 7738
 
-https://explorer.ooni.torproject.org/measurement/20160504T214555Z_AS7738_bCjuASU2Bx2qP7XWIarsRXUTHCRUO7AYaWgDOQowqyUgF8hEGA?input=http:%2F%2Fweb.whatsapp.com
-https://explorer.ooni.torproject.org/measurement/20160504T214555Z_AS7738_bCjuASU2Bx2qP7XWIarsRXUTHCRUO7AYaWgDOQowqyUgF8hEGA?input=https:%2F%2Fweb.whatsapp.com
-https://explorer.ooni.torproject.org/measurement/20160504T214555Z_AS7738_bCjuASU2Bx2qP7XWIarsRXUTHCRUO7AYaWgDOQowqyUgF8hEGA?input=http:%2F%2Fwww.whatsapp.com
-https://explorer.ooni.torproject.org/measurement/20160504T214555Z_AS7738_bCjuASU2Bx2qP7XWIarsRXUTHCRUO7AYaWgDOQowqyUgF8hEGA?input=https:%2F%2Fwww.whatsapp.com
-https://explorer.ooni.torproject.org/measurement/20160503T041735Z_AS7738_N5LWvuq8MtDoAP7r93EWmqurxi6pZ9pzpBsbZhXZR8VF4R484M?input=http:%2F%2Fwww.whatsapp.com%2Fcidr.txt
-https://explorer.ooni.torproject.org/measurement/20160503T041735Z_AS7738_N5LWvuq8MtDoAP7r93EWmqurxi6pZ9pzpBsbZhXZR8VF4R484M?input=https:%2F%2Fwww.whatsapp.com%2Fcidr.txt
+- https://explorer.ooni.torproject.org/measurement/20160504T214555Z_AS7738_bCjuASU2Bx2qP7XWIarsRXUTHCRUO7AYaWgDOQowqyUgF8hEGA?input=http:%2F%2Fweb.whatsapp.com
+- https://explorer.ooni.torproject.org/measurement/20160504T214555Z_AS7738_bCjuASU2Bx2qP7XWIarsRXUTHCRUO7AYaWgDOQowqyUgF8hEGA?input=https:%2F%2Fweb.whatsapp.com
+- https://explorer.ooni.torproject.org/measurement/20160504T214555Z_AS7738_bCjuASU2Bx2qP7XWIarsRXUTHCRUO7AYaWgDOQowqyUgF8hEGA?input=http:%2F%2Fwww.whatsapp.com
+- https://explorer.ooni.torproject.org/measurement/20160504T214555Z_AS7738_bCjuASU2Bx2qP7XWIarsRXUTHCRUO7AYaWgDOQowqyUgF8hEGA?input=https:%2F%2Fwww.whatsapp.com
+- https://explorer.ooni.torproject.org/measurement/20160503T041735Z_AS7738_N5LWvuq8MtDoAP7r93EWmqurxi6pZ9pzpBsbZhXZR8VF4R484M?input=http:%2F%2Fwww.whatsapp.com%2Fcidr.txt
+- https://explorer.ooni.torproject.org/measurement/20160503T041735Z_AS7738_N5LWvuq8MtDoAP7r93EWmqurxi6pZ9pzpBsbZhXZR8VF4R484M?input=https:%2F%2Fwww.whatsapp.com%2Fcidr.txt
 
 ## DNS Consistency measurements
 
 ### AS 26615
 
-https://explorer.ooni.torproject.org/measurement/20160502T233914Z_AS26615_MFMGaqdNJpa0ao1EZjVRVRkQIngry7DXMHE44SANRBBWMNB53e?input=web.whatsapp.com
-https://explorer.ooni.torproject.org/measurement/20160502T233914Z_AS26615_MFMGaqdNJpa0ao1EZjVRVRkQIngry7DXMHE44SANRBBWMNB53e?input=www.whatsapp.com
+- https://explorer.ooni.torproject.org/measurement/20160502T233914Z_AS26615_MFMGaqdNJpa0ao1EZjVRVRkQIngry7DXMHE44SANRBBWMNB53e?input=web.whatsapp.com
+- https://explorer.ooni.torproject.org/measurement/20160502T233914Z_AS26615_MFMGaqdNJpa0ao1EZjVRVRkQIngry7DXMHE44SANRBBWMNB53e?input=www.whatsapp.com
 
 ### AS 7738
 
-https://explorer.ooni.torproject.org/measurement/20160504T214811Z_AS7738_G7r7jVDGUQffeea959x5m7Fr0e4EsM5ppD3vl9fWhuM3uqkyIA?input=web.whatsapp.com
-https://explorer.ooni.torproject.org/measurement/20160503T042017Z_AS7738_OZ89SZlnKKhSFhXOGMmsFzcZ9ctLL8NZgJeEg6llwDV92JKIf8?input=www.whatsapp.com
+- https://explorer.ooni.torproject.org/measurement/20160504T214811Z_AS7738_G7r7jVDGUQffeea959x5m7Fr0e4EsM5ppD3vl9fWhuM3uqkyIA?input=web.whatsapp.com
+- https://explorer.ooni.torproject.org/measurement/20160503T042017Z_AS7738_OZ89SZlnKKhSFhXOGMmsFzcZ9ctLL8NZgJeEg6llwDV92JKIf8?input=www.whatsapp.com
