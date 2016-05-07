@@ -20,6 +20,8 @@ aliases:
 
 ----------------------------------------------------------------------------------------
 
+**19:10 UTC Saturday, 7 May 2016** Update: Add OONI Explorer measurements links
+
 Ever since [WhatsApp implemented end-to-end
 encryption](https://www.whatsapp.com/security/) to protect the privacy and
 security of its 1 billion users worldwide, several cases of censorship have
