@@ -20,6 +20,8 @@ aliases:
 
 ----------------------------------------------------------------------------------------
 
+**19:10 UTC Saturday, 7 May 2016** Update: Add OONI Explorer measurements links
+
 Ever since [WhatsApp implemented end-to-end
 encryption](https://www.whatsapp.com/security/) to protect the privacy and
 security of its 1 billion users worldwide, several cases of censorship have
@@ -341,3 +343,27 @@ through the following:
 (https://raw.githubusercontent.com/TheTorProject/ooni-probe/0b4cea0ad99696f664cd3083df929d93f88fda43/data/decks/whatsapp.deck)
 (eg. `wget https://raw.githubusercontent.com/TheTorProject/ooni-probe/0b4cea0ad99696f664cd3083df929d93f88fda43/data/decks/whatsapp.deck`)
 3. Run test deck `ooniprobe -i whatsapp.deck`
+
+# OONI Explorer report links
+
+## HTTP Requests measurements
+
+- [URL: http://web.whatsapp.com May 2, 2016 9:17:02 PM, AS 26615](https://explorer.ooni.torproject.org/measurement/20160502T211641Z_AS26615_S0P6z1jAn0ToeMtK4xvjJUKlSOw9ENcipv9pUfrVd3yPmuD7ek?input=http:%2F%2Fweb.whatsapp.com)
+- [URL: http://web.whatsapp.com May 2, 2016 9:17:02 PM, AS 26615](https://explorer.ooni.torproject.org/measurement/20160502T211641Z_AS26615_S0P6z1jAn0ToeMtK4xvjJUKlSOw9ENcipv9pUfrVd3yPmuD7ek?input=https:%2F%2Fweb.whatsapp.com)
+- [URL: http://www.whatsapp.com May 2, 2016 9:17:02 PM, AS 26615](https://explorer.ooni.torproject.org/measurement/20160502T211641Z_AS26615_S0P6z1jAn0ToeMtK4xvjJUKlSOw9ENcipv9pUfrVd3yPmuD7ek?input=http:%2F%2Fwww.whatsapp.com)
+- [URL: https://www.whatsapp.com May 2, 2016 9:17:02 PM, AS 26615](https://explorer.ooni.torproject.org/measurement/20160502T211641Z_AS26615_S0P6z1jAn0ToeMtK4xvjJUKlSOw9ENcipv9pUfrVd3yPmuD7ek?input=https:%2F%2Fwww.whatsapp.com)
+- [URL: http://www.whatsapp.com/cidr.txt May 2, 2016 11:39:18 PM, AS 26615](https://explorer.ooni.torproject.org/measurement/20160504T214210Z_AS26615_LzBigYkP8oN1aAnI1mnFFDwZPAbUcTu2ZN6uSwosZuW8HVm7br?input=http:%2F%2Fwww.whatsapp.com%2Fcidr.txt)
+- [URL: https://www.whatsapp.com/cidr.txt May 2, 2016 9:17:02 PM, AS 26615](https://explorer.ooni.torproject.org/measurement/20160502T211641Z_AS26615_S0P6z1jAn0ToeMtK4xvjJUKlSOw9ENcipv9pUfrVd3yPmuD7ek?input=https:%2F%2Fwww.whatsapp.com%2Fcidr.txt)
+- [URL: http://web.whatsapp.com May 3, 2016 4:17:57 AM, AS 7738](https://explorer.ooni.torproject.org/measurement/20160504T214555Z_AS7738_bCjuASU2Bx2qP7XWIarsRXUTHCRUO7AYaWgDOQowqyUgF8hEGA?input=http:%2F%2Fweb.whatsapp.com)
+- [URL: https://web.whatsapp.com May 3, 2016 4:17:57 AM, AS 7738](https://explorer.ooni.torproject.org/measurement/20160504T214555Z_AS7738_bCjuASU2Bx2qP7XWIarsRXUTHCRUO7AYaWgDOQowqyUgF8hEGA?input=https:%2F%2Fweb.whatsapp.com)
+- [URL: http://www.whatsapp.com May 3, 2016 4:17:57 AM, AS 7738](https://explorer.ooni.torproject.org/measurement/20160504T214555Z_AS7738_bCjuASU2Bx2qP7XWIarsRXUTHCRUO7AYaWgDOQowqyUgF8hEGA?input=http:%2F%2Fwww.whatsapp.com)
+- [URL: https://www.whatsapp.com May 3, 2016 4:17:57 AM, AS 7738](https://explorer.ooni.torproject.org/measurement/20160504T214555Z_AS7738_bCjuASU2Bx2qP7XWIarsRXUTHCRUO7AYaWgDOQowqyUgF8hEGA?input=https:%2F%2Fwww.whatsapp.com)
+- [URL: http://www.whatsapp.com/cidr.txt May 3, 2016 4:17:57 AM, AS 7738](https://explorer.ooni.torproject.org/measurement/20160503T041735Z_AS7738_N5LWvuq8MtDoAP7r93EWmqurxi6pZ9pzpBsbZhXZR8VF4R484M?input=http:%2F%2Fwww.whatsapp.com%2Fcidr.txt)
+- [URL: https://www.whatsapp.com/cidr.txt May 3, 2016 4:17:57 AM, AS 7738](https://explorer.ooni.torproject.org/measurement/20160503T041735Z_AS7738_N5LWvuq8MtDoAP7r93EWmqurxi6pZ9pzpBsbZhXZR8VF4R484M?input=https:%2F%2Fwww.whatsapp.com%2Fcidr.txt)
+
+## DNS Consistency measurements
+
+- [Website: web.whatsapp.com May 2, 2016 11:39:37 PM, AS 26615](https://explorer.ooni.torproject.org/measurement/20160502T233914Z_AS26615_MFMGaqdNJpa0ao1EZjVRVRkQIngry7DXMHE44SANRBBWMNB53e?input=web.whatsapp.com)
+- [Website: www.whatsapp.com May 2, 2016 11:39:37 PM, AS 26615](https://explorer.ooni.torproject.org/measurement/20160502T233914Z_AS26615_MFMGaqdNJpa0ao1EZjVRVRkQIngry7DXMHE44SANRBBWMNB53e?input=www.whatsapp.com)
+- [Website: web.whatsapp.com May 3, 2016 1:07:07 PM, AS 7738](https://explorer.ooni.torproject.org/measurement/20160504T214811Z_AS7738_G7r7jVDGUQffeea959x5m7Fr0e4EsM5ppD3vl9fWhuM3uqkyIA?input=web.whatsapp.com)
+- [Website: www.whatsapp.com May 3, 2016 4:20:40 AM, AS 7738](https://explorer.ooni.torproject.org/measurement/20160503T042017Z_AS7738_OZ89SZlnKKhSFhXOGMmsFzcZ9ctLL8NZgJeEg6llwDV92JKIf8?input=www.whatsapp.com)
