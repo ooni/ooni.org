@@ -8,28 +8,6 @@ nav.event-navbar {
   margin-bottom: 150px;
 }
 
-.event-header .event-banner-left {
-  background-image: url("../event/adina15-banner-left-bg.jpg");
-  background-repeat: repeat-x;
-  height: 100%;
-  width: 50%;
-  position: absolute;
-  left: 0;
-  z-index: -1;
-  margin-top: 100px;
-}
-
-.event-header .event-banner-right {
-  margin-top: 100px;
-  background-image: url("../event/adina15-banner-right-bg.jpg");
-  background-repeat: repeat-x;
-  height: 100%;
-  width: 50%;
-  position: absolute;
-  right: 0;
-  z-index: -1;
-}
-
 .event-header .event-dates {
   height: 100px;
   margin-bottom: -100px;
