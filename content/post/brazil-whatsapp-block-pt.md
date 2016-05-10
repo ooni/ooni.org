@@ -45,16 +45,19 @@ deles.
 Segundo Lucas Teixeira, técnico-chefe de [Coding Rights]
 (https://www.codingrights.org/):
 
-> "People reacted to the blocking of WhatsApp with a mix of shock, revolt and
-> mockery, reflecting the fact that Whatsapp is used by pretty much everyone in
-> big and small cities - and even in the countryside - to communicate with each
-> other, replacing SMS and phone calls almost 100%. The company’s zero-rating
-> partnerships with telcos has also helped a lot. Mobile Internet plans with
-> data caps but “free Whatsapp” are common. Marco Civil da Internet explicitly
-> forbids violations to net neutrality, but the legality or not of zero rating
-> will be set in its ongoing regulation process. As for the legality of
-> WhatsApp’s blocking, we can’t be sure because the litigation is secret, but
-> it has been reversed in court."
+
+> "As pessoas reagiram ao bloqueio do Whatsapp com um misto de choque, revolta e
+> zoeira, refletindo o fato de que o Whatsapp é usado por quase todas as pessoas
+> em cidades pequenas e grandes -- e até mesmo em áreas rurais -- para se
+> comunicarem, substituindo o SMS e chamadas telefônicas em quase 100%. As
+> parcerias de zero rating da empresa com telecoms também ajudou bastante na
+> adoção. Planos de Internet móvel com franquia de dados mas "Whatsapp de graça"
+> são comuns. O Marco Civil da Internet proíbe expressamente violações à
+> neutralidade de rede, mas a legalidade do zero rating especificamente vai ser
+> definida no seu [processo de regulamentação](http://participacao.mj.gov.br/marcocivil).
+> Já sobre a legalidade do bloqueio do Whatsapp, não há certeza pois o processo
+> corre sob sigilo, mas ele foi revertido na Justiça."
+
 
 Acompanhando as reportagens recentes sobre o bloqueio de WhatsApp no Brasil, o
 [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/)
