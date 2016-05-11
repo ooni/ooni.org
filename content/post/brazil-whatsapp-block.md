@@ -8,7 +8,7 @@ aliases:
   - /whatsapp-blocked-in-brazil-again
 ---
 
-**Country:** Brasil
+**Country:** Brazil
 
 **Probed ISPs:** Tim mobile (AS 26615), Oi landline (AS 7738)
 
@@ -17,6 +17,8 @@ aliases:
 **OONI tests:** HTTP Requests, DNS Consistency
 
 **Measurement period:** 2016-05-02 - 2016-05-03
+
+**[Portoguese Translation] (/post/brazil-whatsapp-block-pt)**
 
 ----------------------------------------------------------------------------------------
 
