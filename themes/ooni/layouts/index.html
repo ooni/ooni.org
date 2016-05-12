@@ -139,31 +139,13 @@
         <div class="col-1">
           <h2>Blog Posts</h2>
         </div>
-        <div class="col-2 blog-summary">
-          <a href="post/brazil-whatsapp-block">
-            <p class="title">OONI Data Reveals How WhatsApp Was Blocked (Again) in Brazil</p>
-            <p class="byline">6 May 2016</p>
+       <div class="col-2 blog-summary">
+          {{ range where .Data.Pages.ByPublishDate "Section" "post" }}
+          <a href="{{ .Permalink }}">
+              <p class="title">{{ .Title }}</p>
+              <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
           </a>
-          <a href="post/eeep-greek-censorship">
-            <p class="title">EEEP and Greek Internet censorship</p>
-            <p class="byline">10 Jun 2015</p>
-          </a>
-          <a href="post/zambia">
-            <p class="title">Zambia, a country under Deep Packet Inspection</p>
-            <p class="byline">15 Jul 2013</p>
-          </a>
-          <a href="post/tab-tab-come-in">
-            <p class="title">Tab-Tab, Come in! Bypassing Internet blocking to categorize DPI devices</p>
-            <p class="byline">14 May 2013</p>
-          </a>
-          <a href="post/hadara-palestine">
-            <p class="title">Hadara Palestine</p>
-            <p class="byline">23 Apr 2012</p>
-          </a>
-          <a href="post/t-mobile-usa-web-guard">
-            <p class="title">T-Mobile USA Web Guard</p>
-            <p class="byline">21 Mar 2012</p>
-          </a>
+          {{ end }}
         </div>
       </div>
 
