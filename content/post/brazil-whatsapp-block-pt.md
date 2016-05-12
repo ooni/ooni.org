@@ -1,5 +1,5 @@
 ---
-title: "WhatsApp bloqueado (outra vez) bloqueado no Brasil"
+title: "WhatsApp bloqueado (outra vez) no Brasil"
 author: "Vasilis Ververis, Maria Xynou, Will Scott"
 date: "2016-05-06"
 tags: ["brazil", "whatsapp"]
