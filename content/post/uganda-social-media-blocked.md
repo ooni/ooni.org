@@ -8,7 +8,7 @@ categories: ["report"]
 
 **Country:** Uganda
 
-**Probed ISPs:** Orange (AS36991), SMILE ( AS37122 ) 
+**Probed ISPs:** Orange (AS36991), SMILE (AS37122) 
 
 **Censorship method:** IP blocking
 
@@ -23,7 +23,7 @@ This is the *second* time that Uganda has decided to pull the plug on social med
 
 Three months ago, Ugandan ISPs were [ordered](http://www.bbc.com/news/world-africa-35601220) to block access to social media during the general elections. Following these reports, [OONI tests](https://github.com/TheTorProject/ooni-spec) were run in the country and results showed that Facebook and Twitter appeared to be blocked in specific networks. In similar fashion, OONI tests were run again in Uganda last Thursday, in an attempt to not only provide evidence of the blocking, but to also determine how censorship was implemented.   
 
-Today we are releasing [data](https://explorer.ooni.torproject.org/country/UG) which indicates that two ISPs in Uganda (Smile Telecom and Orange)  carried out *IP blocking* to censor access to major social media services. Interestingly, OONI's findings illustrate that social media is not consistently blocked across networks, and that certain cases of censorship can be easily circumvented. 
+Today we are releasing [data](https://explorer.ooni.torproject.org/country/UG) which indicates that two ISPs in Uganda (Smile Telecom and Orange) carried out *IP blocking* to censor access to major social media services. Interestingly, OONI's findings illustrate that social media is not consistently blocked across networks, and that certain cases of censorship can be easily circumvented. 
 
 **Findings**
 
