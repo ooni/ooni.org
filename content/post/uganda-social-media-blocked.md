@@ -8,7 +8,7 @@ categories: ["report"]
 
 **Country:** Uganda
 
-**Probed ISPs:** Orange (AS36991), SMILE ( AS37122 ) 
+**Probed ISPs:** Orange (AS36991), SMILE (AS37122) 
 
 **Censorship method:** IP blocking
 
