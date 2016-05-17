@@ -61,7 +61,7 @@ The table below illustrates a comparison of the censorship implemented by Smile
 Telecom (Uganda) and Orange, based on [OONI's
 measurements](https://explorer.ooni.torproject.org/country/UG):
 
-![Blocked by ISP](/post/uganda-social-media-blocked/blocked-table.png)
+![Blocked by ISP](/post/uganda-social-media/table.png)
 
 It's interesting to see that while Smile Telecom (Uganda) blocked access to
 *both* the HTTP and HTTPS endpoints of Facebook and Twitter, Orange appears to
