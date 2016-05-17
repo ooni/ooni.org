@@ -45,13 +45,13 @@ Interestingly, OONI's findings illustrate that social media is not consistently
 blocked across networks, and that certain cases of censorship can be easily
 circumvented.
 
-**Findings**
+## Findings
 
 OONI's [HTTP request
 test](https://github.com/TheTorProject/ooni-probe/blob/master/docs/source/tests/http_requests.rst),
 which is designed to examine whether websites are blocked or not based on a
 comparison of HTTP requests over [Tor](https://www.torproject.org/) and over
-the network of the user, were run from two different vantage points in Uganda
+the network of the user, was run from two different vantage points in Uganda
 last Thursday: Smile Telecom (Uganda) and Orange. As, in some cases, ISPs only
 block the *unencrypted HTTP* endpoints of websites, tests were also run against
 the *encrypted HTTPS* endpoints of social media services to examine whether
@@ -81,7 +81,7 @@ operator MTN Uganda:
 > “Dear Customer, per UCC directive all social media is temporarily blocked,
 > our other services are available. We regret any inconvenience caused.”
 
-**Circumventing censorship**
+## Circumventing censorship
 
 Social media in Uganda was censored both times this year based on *IP
 blocking*, according to [OONI's
@@ -98,9 +98,9 @@ Orbot](https://www.torproject.org/docs/android.html.en)** which enables all
 apps on their device to run through the [Tor
 network](https://www.torproject.org/).
 
-**OONI Explorer report links**
+## OONI Explorer report links
 
-Orange:
+**Orange:**
 
 HTTP Twitter (Blocked)
 https://explorer.ooni.torproject.org/measurement/BOp0pU9RHsh7qV0U1LY5wlXlLvGQAqPvyehbCppPcF6rYqHbsCMfQWL9rUrfBhCt?input=http:%2F%2Ftwitter.com
@@ -120,7 +120,7 @@ https://explorer.ooni.torproject.org/measurement/BOp0pU9RHsh7qV0U1LY5wlXlLvGQAqP
 HTTP Viber (Not blocked)
 https://explorer.ooni.torproject.org/measurement/BOp0pU9RHsh7qV0U1LY5wlXlLvGQAqPvyehbCppPcF6rYqHbsCMfQWL9rUrfBhCt?input=http:%2F%2Fwww.viber.com
 
-Smile Telecom (Uganda):
+**Smile Telecom (Uganda):**
 
 HTTPS Twitter (Blocked)
 https://explorer.ooni.torproject.org/measurement/ppXcO0JBDky6if2GtBi7zrYUoTG4gnVdwiUvEDrOkcsUbWJfj2KCvaBciBEDFzkI?input=https:%2F%2Ftwitter.com
