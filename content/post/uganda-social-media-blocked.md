@@ -24,7 +24,7 @@ President Yoweri Museveni, who has governed the country since 1986. Authorities
 argued that the blocking was ordered for “security purposes”, but the move
 directly harms political opposition, which has [relied
 on](https://advox.globalvoices.org/2016/05/11/social-media-blocked-in-uganda-ahead-of-president-musevenis-inauguration/)
-social media to organize a “defiance campaign” of protests. 
+social media to organize a “defiance campaign” of protests.
 
 This is the *second* time that Uganda has decided to pull the plug on social
 media this year.
@@ -36,27 +36,30 @@ tests](https://github.com/TheTorProject/ooni-spec) were run in the country and
 results showed that Facebook and Twitter appeared to be blocked in specific
 networks. In similar fashion, OONI tests were run again in Uganda last
 Thursday, in an attempt to not only provide evidence of the blocking, but to
-also determine how censorship was implemented.   
+also determine how censorship was implemented.
 
 Today we are releasing [data](https://explorer.ooni.torproject.org/country/UG)
-which indicates that two ISPs in Uganda (Smile Telecom and Orange)  carried out
-*IP blocking* to censor access to major social media services. Interestingly,
-OONI's findings illustrate that social media is not consistently blocked across
-networks, and that certain cases of censorship can be easily circumvented. 
+which indicates that two ISPs in Uganda (Smile Telecom (Uganda) and Orange)
+carried out *IP blocking* to censor access to major social media services.
+Interestingly, OONI's findings illustrate that social media is not consistently
+blocked across networks, and that certain cases of censorship can be easily
+circumvented.
 
 **Findings**
 
 OONI's [HTTP request
-tests](https://github.com/TheTorProject/ooni-probe/blob/master/docs/source/tests/http_requests.rst),
-which are designed to examine whether websites are blocked or not based on a
+test](https://github.com/TheTorProject/ooni-probe/blob/master/docs/source/tests/http_requests.rst),
+which is designed to examine whether websites are blocked or not based on a
 comparison of HTTP requests over [Tor](https://www.torproject.org/) and over
 the network of the user, were run from two different vantage points in Uganda
 last Thursday: Smile Telecom (Uganda) and Orange. As, in some cases, ISPs only
 block the *unencrypted HTTP* endpoints of websites, tests were also run against
 the *encrypted HTTPS* endpoints of social media services to examine whether
-those were accessible.  
+those were accessible.
 
-The table below illustrates a comparison of the censorship implemented by Smile Telecom (Uganda) and Orange, based on [OONI's measurements](https://explorer.ooni.torproject.org/country/UG):
+The table below illustrates a comparison of the censorship implemented by Smile
+Telecom (Uganda) and Orange, based on [OONI's
+measurements](https://explorer.ooni.torproject.org/country/UG):
 
 ![Blocked by ISP](/post/uganda-social-media-blocked/blocked-table.png)
 
@@ -71,8 +74,9 @@ Possibly, this difference in censorship indicates that ISPs were not ordered to
 block specific services, but were only given a vague order to “block all social
 media”, leaving each provider the flexibility to choose which services to block
 and how to block them. The ISPs don't appear to be too pleased with the UCC's
-order to block access to social media.  This is evident through MTN Uganda's
-[tweet](https://twitter.com/mtnug/status/730684160407375872):
+order to block access to social media.  This is evident through the
+[tweet](https://twitter.com/mtnug/status/730684160407375872) of the network
+operator MTN Uganda:
 
 > “Dear Customer, per UCC directive all social media is temporarily blocked,
 > our other services are available. We regret any inconvenience caused.”
@@ -116,7 +120,7 @@ https://explorer.ooni.torproject.org/measurement/BOp0pU9RHsh7qV0U1LY5wlXlLvGQAqP
 HTTP Viber (Not blocked)
 https://explorer.ooni.torproject.org/measurement/BOp0pU9RHsh7qV0U1LY5wlXlLvGQAqPvyehbCppPcF6rYqHbsCMfQWL9rUrfBhCt?input=http:%2F%2Fwww.viber.com
 
-SMILE:
+Smile Telecom (Uganda):
 
 HTTPS Twitter (Blocked)
 https://explorer.ooni.torproject.org/measurement/ppXcO0JBDky6if2GtBi7zrYUoTG4gnVdwiUvEDrOkcsUbWJfj2KCvaBciBEDFzkI?input=https:%2F%2Ftwitter.com
