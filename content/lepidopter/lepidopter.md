@@ -3,7 +3,7 @@ date: "2015-09-15"
 title: "Lepidopter Installation: Help Guides and Resources"
 description: "Helpful resources and guides for getting started with Lepidopter
 Raspberry Pi image"
-tags: [ "lepidopter", "image", "raspberry pi" ]
+tags: [ "lepidopter", "image", "raspberry pi", "distribution" ]
 ---
 
 # Lepidopter quick start guide
@@ -18,11 +18,56 @@ Lepidopter in QEMU is described
 
 ## Download Lepidopter Raspberry Pi image
 Lepidopter Raspberry Pi image is compatible with all types of Raspberry Pi
-(tested: B+, RPi 1 model B, RPi 2 model B). [Lepidopter image download](XXX)
+(tested: B+, RPi 1 model B, RPi 2 model B). [Lepidopter image download]
+(https://measurements.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.xz)
 
 ## Verify Lepidopter Raspberry Pi image
 
-XXX: TODO
+### Importing Lepidopter Signing key
+
+From OONI web server::
+
+```
+gpg --fetch-keys https://measurements.ooni.torproject.org/lepidopter/lepidopter-signing-key.asc
+```
+
+From a keyserver::
+
+`gpg --keyserver pool.sks-keyservers.net --recv-keys 0xBA56AC5A53E9C7A4`
+
+From additional security the fingeprint of Lepidopter Team (signing key) is
+published her:
+
+```
+pub   4096R/0xBA56AC5A53E9C7A4 2016-05-22
+      Key fingerprint = 6255 1196 8E24 0F24 F6CF  D0B6 BA56 AC5A 53E9 C7A4
+uid   Lepidopter Team (signing key)
+```
+
+### Verify Lepidopter image
+
+Verifying the compressed image `lepidopter-alpha-armel.img.xz` matches its
+signature `lepidopter-alpha-armel.img.xz.asc`::
+
+`gpg -v --verify lepidopter-alpha-armel.img.xz.asc`
+
+You should look for the msg `Good signature from "Lepidopter Team (signing
+key)"`::
+
+```
+gpg: assuming signed data in `lepidopter-alpha-armel.img.xz'
+gpg: Signature made Sun 22 May 2016
+gpg:                using RSA key 0xBA56AC5A53E9C7A4
+gpg: using PGP trust model
+gpg: Good signature from "Lepidopter Team (signing key)"
+gpg: binary signature, digest algorithm SHA512
+
+```
+
+If you want to learn more about digital signatures and key verification you can
+read the excellent
+[documentation](https://www.qubes-os.org/doc/verifying-signatures/) from Qubes
+OS.
 
 # Requirements
 
@@ -57,7 +102,7 @@ SD card.
    SD card inside
 3. Install the ImageWriter tool from the Ubuntu Software Center
 4. Launch the ImageWriter tool (it needs your administrative password)
-5. Select the image file (example lepidopter.img) to be written to the SD card
+5. Select the image file (example lepidopter-alpha-armel.img) to be written to the SD card
    (note: because you started ImageWriter as administrator the starting point
 when selecting the image file is the administrator's home folder so you need to
 change to your own home folder to select the image file)
@@ -77,7 +122,7 @@ delete your primary Linux partition. Please be careful.
    should first [Download Lepidopter Raspberry Pi image]
 (#download-lepidopter-raspberry-pi-image:7565a061641bd1e599d91e306fc304d1)
 1. Extract the image, with:
-   ```xz --decompress ~/lepidopter.zip```
+   `xz --decompress --verbose --no-sparse lepidopter-alpha-armel.img.xz`
 2. Run ```df -h``` to see what devices are currently mounted
 3. If your computer has a slot for SD cards, insert the card. If not, insert
    the card into an SD card reader, then connect the reader to your computer.
@@ -108,7 +153,7 @@ you get the wrong device name). Make sure the device name is the name of the
 whole SD card as described above, not just a partition of it (for example, sdd,
 not sdds1 or sddp1, or mmcblk0 not mmcblk0p1)
     ```
-    dd bs=4M if=~/lepidopter.img of=/dev/sdd
+    dd bs=4M if=~/lepidopter-alpha-armel.img of=/dev/sdd
     ```
 	Please note that block size set to 4M will work most of the time, if
 not, please try 1M, although 1M will take considerably longer.
@@ -213,18 +258,19 @@ you to skip the previous two steps.
 
 ## Using the Win32DiskImager program
 ![Win32DiskImager window](/lepidopter/Win32DiskImager.png)
+
 0. Download the
    [Win32DiskImager](http://sourceforge.net/projects/win32diskimager/) utility.
 1. Assuming that you have downloaded already Lepidopter image if not, you
    should first [Download Lepidopter Raspberry Pi image]
 (#download-lepidopter-raspberry-pi-image:7565a061641bd1e599d91e306fc304d1)
 2. Extract the image file from the downloaded .xz file, so you now have
-   "lepidopter.img".
+   "lepidopter-alpha-armel.img".
 3. Insert the SD card into your SD card reader and check what drive letter it
    was assigned. You can easily see the drive letter (for example G:) by
 looking in the left column of Windows Explorer. You can use the SD Card slot
 (if you have one) or a cheap Adapter in a USB slot.
-4. Download the Win32DiskImager utility (it is also a zip file). You can run
+4. Download the Win32DiskImager utility (it is a zip file). You can run
    this from a USB drive.  Win32DiskImager screen
 5. Extract the executable from the zip file and run the Win32DiskImager
    utility; you may need to run the utility as Administrator! Right-click on
@@ -255,7 +301,7 @@ so this is a different way to achieve the same thing on a Windows machine.
    should first [Download Lepidopter Raspberry Pi image]
 (#download-lepidopter-raspberry-pi-image:7565a061641bd1e599d91e306fc304d1)
 1. Extract the image file from the downloaded .xz file, so you now have
-   "lepidopter.img".
+   "lepidopter-alpha-armel.img".
 2. Insert the SD card into your SD card reader and check what drive letter it
    was assigned. You can easily see the drive letter (for example G:) by
 looking in the left column of Windows Explorer. You can use an SD Card slot in
@@ -287,10 +333,10 @@ with a link to instructions (also translated).
    sure that you use the correct drive letter for the SD Card as that drive
 will be overwritten!
 
-   - ```C:\flashnul\flashnul.exe E: -L C:\temp\lepidopter.img```
+   - ```C:\flashnul\flashnul.exe E: -L C:\temp\lepidopter-alpha-armel.img```
 
 10. Where ```C:\flashnul\flashnul.exe``` is the location of the flashnul
-    program; E: is the drive you want to overwrite, and C:\temp\lepidopter.img
+    program; E: is the drive you want to overwrite, and C:\temp\lepidopter-alpha-armel.img
 is the location of the .img file.
 
 11. Flashnul will give you a device summary and a caution message. Check the
@@ -300,5 +346,8 @@ explorer windows or folders open for the device, then try re-plugging the SD
 card.
 
 # Sources
+
 * [RPi Easy SD Card Setup](http://elinux.org/RPi_Easy_SD_Card_Setup)
 * [Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/)
+* [On Digital Signatures and Key Verification]
+(https://www.qubes-os.org/doc/verifying-signatures/)
