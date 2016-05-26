@@ -18,22 +18,32 @@ Lepidopter in QEMU is described
 
 ## Download Lepidopter Raspberry Pi image
 Lepidopter Raspberry Pi image is compatible with all types of Raspberry Pi
-(tested: B+, RPi 1 model B, RPi 2 model B). [Lepidopter image download]
-(https://measurements.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.xz)
+(tested: B+, RPi 1 model B, RPi 2 model B).
+
+- [Lepidopter image download]
+(https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip)
+
+Consider downloading the [xz compressed image]
+(https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.xz)
+for a significantly reduced file size (ca. 114M smaller) compared to the zip
+archive. Note that this will require an extra program to be installed depending
+on your OS.
 
 ## Verify Lepidopter Raspberry Pi image
 
 ### Importing Lepidopter Signing key
 
-From OONI web server::
+From OONI web server:
 
 ```
-gpg --fetch-keys https://measurements.ooni.torproject.org/lepidopter/lepidopter-signing-key.asc
+gpg --fetch-keys https://get.ooni.torproject.org/lepidopter/lepidopter-signing-key.asc
 ```
 
-From a keyserver::
+From a keyserver:
 
-`gpg --keyserver pool.sks-keyservers.net --recv-keys 0xBA56AC5A53E9C7A4`
+```
+gpg --keyserver pool.sks-keyservers.net --recv-keys 0xBA56AC5A53E9C7A4
+```
 
 From additional security the fingeprint of Lepidopter Team (signing key) is
 published her:
@@ -46,16 +56,18 @@ uid   Lepidopter Team (signing key)
 
 ### Verify Lepidopter image
 
-Verifying the compressed image `lepidopter-alpha-armel.img.xz` matches its
-signature `lepidopter-alpha-armel.img.xz.asc`::
-
-`gpg -v --verify lepidopter-alpha-armel.img.xz.asc`
-
-You should look for the msg `Good signature from "Lepidopter Team (signing
-key)"`::
+Verifying the compressed image `lepidopter-alpha-armel.img.zip` matches its
+signature `lepidopter-alpha-armel.img.zip.asc`:
 
 ```
-gpg: assuming signed data in `lepidopter-alpha-armel.img.xz'
+gpg -v --verify lepidopter-alpha-armel.img.zip.asc
+```
+
+You should look for the message `Good signature from "Lepidopter Team (signing
+key)"`:
+
+```
+gpg: assuming signed data in `lepidopter-alpha-armel.img.zip'
 gpg: Signature made Sun 22 May 2016
 gpg:                using RSA key 0xBA56AC5A53E9C7A4
 gpg: using PGP trust model
@@ -64,10 +76,9 @@ gpg: binary signature, digest algorithm SHA512
 
 ```
 
-If you want to learn more about digital signatures and key verification you can
-read the excellent
-[documentation](https://www.qubes-os.org/doc/verifying-signatures/) from Qubes
-OS.
+If you want to learn more about digital signatures and key verification read
+the excellent [documentation]
+(https://www.qubes-os.org/doc/verifying-signatures/) from Qubes OS.
 
 # Requirements
 
@@ -122,7 +133,14 @@ delete your primary Linux partition. Please be careful.
    should first [Download Lepidopter Raspberry Pi image]
 (#download-lepidopter-raspberry-pi-image:7565a061641bd1e599d91e306fc304d1)
 1. Extract the image, with:
-   `xz --decompress --verbose --no-sparse lepidopter-alpha-armel.img.xz`
+
+   `unzip lepidopter-alpha-armel.img.zip`
+
+If you have downloaded the [xz compressed image]
+(https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.xz):
+
+   `xz --decompress --verbose --no-sparse lepidopter-alpha-armel.img.zip`
+
 2. Run ```df -h``` to see what devices are currently mounted
 3. If your computer has a slot for SD cards, insert the card. If not, insert
    the card into an SD card reader, then connect the reader to your computer.
