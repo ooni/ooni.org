@@ -15,23 +15,10 @@
     </div>
   </nav>
 
-  <main class="col-3">
-      {{ range .Data.Pages  }}
-      {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-      <div>
-        <a href="{{ .RelPermalink }}">
-          <h2>
-            {{ $TITLE }}
-          </h2>
-        </a>
-        <p>
-        {{.Summary}}
-        <a href="{{ .RelPermalink }}">
-          Read more...
-        </a>
-        </p>
-      </div>
-      {{ end  }}
+  <main class="about col-3">
+    {{ range .Data.Pages  }}
+        {{ .Content }}
+    {{ end  }}
   </main>
 
 </div>

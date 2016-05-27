@@ -1,31 +1,28 @@
 {{ .Scratch.Set "basePrefix" "../../" }}
 {{ partial "head.html" . }}
 
-<body class="article">
-  <div class="container">
+<div class="container">
 
-    <nav>
-      <div class="col-1">
-        <a href="/">
-          <img class="logo" src="../../images/ooni-header-mascot.png" width="25" height="25"/>
-          <img class="wordmark" src="../../images/wordmark.png" alt="OONI" height="14" width="53"/>
-        </a>
-      </div>
-      <div class="col-2">
-        {{ partial "nav.html" . }}
-      </div>
-    </nav>
+  <nav>
+    <div class="col-1">
+      <a href="/">
+        <img class="logo" src="../../images/ooni-header-mascot.png" width="25" height="25"/>
+        <img class="wordmark" src="../../images/wordmark.png" alt="OONI" height="14" width="53"/>
+      </a>
+    </div>
+    <div class="col-2">
+      {{ partial "nav.html" . }}
+    </div>
+  </nav>
 
-    <main class="blog-post col-3">
-      <h1 class="article-title">{{ .Title }}</h1>
-      <div class="byline">
-        <span class="author">{{ .Params.author }}</span>
-        <span class="date">{{ .Date }}</span>
-      </div>
+  <main class="blog-post col-3">
+    <h1 class="article-title">{{ .Title }}</h1>
+    <div class="byline">
+      <span class="author">{{ .Params.author }}</span>
+      <span class="date">{{ .Date }}</span>
+    </div>
 
-      {{ .Content }}
-    </main>
-  </div>
+    {{ .Content }}
+  </main>
+</div>
 
-</body>
-</html>

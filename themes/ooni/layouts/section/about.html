@@ -1,0 +1,106 @@
+{{ .Scratch.Set "basePrefix" "../../" }}
+{{ partial "head.html" . }}
+
+<div class="container">
+
+  <nav>
+    <div class="col-1">
+      <a href="/">
+        <img class="logo" src="../../images/ooni-header-mascot.png" width="25" height="25"/>
+        <img class="wordmark" src="../../images/wordmark.png" alt="OONI" height="14" width="53"/>
+      </a>
+    </div>
+    <div class="col-2">
+      {{ partial "nav.html" . }}
+    </div>
+  </nav>
+
+  <main class="about col-3">
+    <h2>What is OONI?</h2>
+    <p>
+    The <a href="https://ooni.torproject.org/">Open Observatory of Network Interference (OONI)</a>
+    is a free software project under the <a href="https://torproject.org">Tor
+      Project</a> which collects and processes network measurements with the aim
+    of detecting network anomalies, such as censorship, surveillance and traffic
+    manipulation. Since late 2012, OONI has collected millions of measurements
+    across more than 90 countries around the world.
+    </p>
+    <h2>Contact</h2>
+    <p>
+    To contact the OONI team send an email to contact [AT] ooni.io. Encrypted
+    emails can be sent using the following PGP key:
+
+    <pre>
+pub   4096R/0CB177B7 2016-03-23 [expires: 2017-03-23]
+Key fingerprint = 4C15 DDA9 96C6 C0CF 48BD  3309 6B29 43F0 0CB1 77B7
+uid       [ultimate] OONI - Open Observatory of Network Interference
+sub   4096R/374399AB 2016-03-23 [expires: 2017-03-23]
+    </pre>
+    </p>
+
+    <h2>Friends and Sponsors</h2>
+    <div class="row sponsors">
+      <div class="sponsor">
+        <span class="vertical-align-helper"></span>
+        <a href="https://www.opentech.fund/">
+          <img src="/sponsors/otf-logo.png" alt="Open Technology Fund" width="200" height="57"/>
+        </a>
+      </div>
+
+      <div class="sponsor">
+        <span class="vertical-align-helper"></span>
+        <a href="https://www.openrightsgroup.org">
+          <img src="/sponsors/open-rights-group-logo.png" alt="Open Rights Group" width="154" height="57"/>
+        </a>
+      </div>
+
+      <div class="sponsor">
+        <span class="vertical-align-helper"></span>
+        <a href="https://greenhost.net">
+          <span class="vertical-align-helper"></span>
+          <img src="/sponsors/greenhost-logo.png" alt="Greenhost" width="183" height="57"/>
+        </a>
+       </div>
+
+    </div>
+    <div class="row sponsors">
+      <div class="sponsor">
+        <span class="vertical-align-helper"></span>
+        <a href="https://freepressunlimited.org/">
+          <span class="vertical-align-helper"></span>
+          <img src="/sponsors/fpu-logo.png" alt="Free Press Unlimited" class="fpu" width="209" height="120"/>
+        </a>
+      </div>
+
+      <div class="sponsor">
+        <span class="vertical-align-helper"></span>
+        <a href="https://www.measurementlab.net/">
+          <span class="vertical-align-helper"></span>
+          <img src="/sponsors/mlab-logo.png" alt="MLAB" class="mlab" width="183" height="63"/>
+        </a>
+      </div>
+
+      <div class="sponsor">
+        <span class="vertical-align-helper"></span>
+        <a href="https://airvpn.org">
+          <span class="vertical-align-helper"></span>
+          <img src="/sponsors/airvpn-logo.png" alt="AirVPN" class="airvpn" height="63">
+        </a>
+      </div>
+    </div>
+
+    <div class="row sponsors">
+      <div class="sponsor">
+        <span class="vertical-align-helper"></span>
+        <a href="https://www.bytemark.co.uk">
+          <span class="vertical-align-helper"></span>
+          <img src="/sponsors/bytemark-logo.png" alt="Bytemark" class="bytemark" width="240" height="30"/>
+        </a>
+        </div>
+    </div>
+
+  </main>
+
+</div>
+
+{{ partial "footer.html" . }}

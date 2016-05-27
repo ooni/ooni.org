@@ -1,0 +1,39 @@
+{{ partial "head.html" . }}
+
+<div class="container">
+
+  <nav>
+    <div class="col-1">
+      <a href="/">
+        <img class="logo" src="../../images/ooni-header-mascot.png" width="25" height="25"/>
+        <img class="wordmark" src="../../images/wordmark.png" alt="OONI" height="14" width="53"/>
+      </a>
+    </div>
+    <div class="col-2">
+      {{ partial "nav.html" . }}
+    </div>
+  </nav>
+
+  <main class="col-3">
+    <div class="row">
+      <div class="col-3">
+        <h2>Raspberry Pi</h2>
+        <img src="/install/raspberry-pi.png"/>
+        <p>
+        To install ooniprobe on Raspberry pi devices see our
+        <a href="/lepidopter/lepidopter/">lepidopter install guide</a>
+        </p>
+      </div>
+      <div class="col-3">
+        <h2>OS X and Linux</h2>
+        <img src="/install/osx-linux.png"/>
+        <p>To install ooniprobe on unix based systems 
+           <a href="https://github.com/thetorproject/ooni-probe#installation">read our installation guide</a>
+        </p>
+      </div>
+    </div>
+  </main>
+
+</div>
+
+{{ partial "footer.html" . }}

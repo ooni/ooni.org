@@ -16,22 +16,17 @@
   </nav>
 
   <main class="col-3">
-      {{ range .Data.Pages  }}
-      {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-      <div>
-        <a href="{{ .RelPermalink }}">
-          <h2>
-            {{ $TITLE }}
-          </h2>
-        </a>
-        <p>
-        {{.Summary}}
-        <a href="{{ .RelPermalink }}">
-          Read more...
-        </a>
-        </p>
+    <h2>Blog posts</h2>
+    {{ range where .Data.Pages.ByPublishDate "Section" "post" }}
+      <div class="row blog-summary">
+        <div class="col-3">
+          <a href="{{ .Permalink }}">
+              <p class="title">{{ .Title }}</p>
+              <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
+          </a>
+        </div>
       </div>
-      {{ end  }}
+    {{ end }}
   </main>
 
 </div>
