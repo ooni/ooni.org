@@ -1,0 +1,43 @@
+{{ .Scratch.Set "basePrefix" "../../" }}
+{{ partial "head.html" . }}
+
+<body class="article">
+  <div class="container">
+
+    <nav>
+      <div class="col-1">
+        <a href="/">
+          <img class="logo" src="../../images/ooni-header-mascot.png" width="25" height="25"/>
+          <img class="wordmark" src="../../images/wordmark.png" alt="OONI" height="14" width="53"/>
+        </a>
+      </div>
+      <div class="col-2">
+        {{ partial "nav.html" . }}
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="col-1 toc">
+        {{ $URL := .RelPermalink }}
+        {{ range where .Site.Pages "Section" "nettest" }}
+        <div>
+          {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
+          <a href="{{ .RelPermalink }}">
+            {{ if eq $URL .RelPermalink }}
+              <span class="active">{{ $TITLE }}</span>
+            {{ else }}
+              <span>{{ $TITLE }}</span>
+            {{end}}
+          </a>
+        </div>
+        {{ end  }}
+      </div>
+
+      <div class="col-2">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
