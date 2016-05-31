@@ -15,14 +15,25 @@
     </div>
   </nav>
 
-  <main class="blog-post col-3">
-    <h1 class="article-title">{{ .Title }}</h1>
-    <div class="byline">
-      <span class="author">{{ .Params.author }}</span>
-      <span class="date">{{ .Date }}</span>
-    </div>
-
-    {{ .Content }}
+  <main class="col-3">
+      {{ range .Data.Pages  }}
+      {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
+      <div>
+        <a href="{{ .RelPermalink }}">
+          <h2>
+            {{ $TITLE }}
+          </h2>
+        </a>
+        <p>
+        {{.Summary}}
+        <a href="{{ .RelPermalink }}">
+          Read more...
+        </a>
+        </p>
+      </div>
+      {{ end  }}
   </main>
+
 </div>
 
+{{ partial "footer.html" . }}

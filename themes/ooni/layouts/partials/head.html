@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 {{ $basePrefix := .Scratch.Get "basePrefix" }}
+{{ $baseurl := .Site.BaseURL }}
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width"/>
   <title>OONI - {{ .Title }}</title>
-	<link rel="stylesheet" href="{{ $basePrefix }}css/master.css"/>
-	<link rel="stylesheet" href="{{ $basePrefix }}css/event.css"/>
-	<link rel="stylesheet" href="{{ $basePrefix }}css/fonts.css"/>
-  <link rel="stylesheet" href="{{ $basePrefix }}css/highlight-default.min.css">
-  <link rel="icon" type="image/png" href="{{ $basePrefix }}images/favicon.png"/>
-  <script src="{{ $basePrefix }}js/highlight.min.js"></script>
+    <link rel="stylesheet" href="{{ $baseurl }}/css/master.css"/>
+    <link rel="stylesheet" href="{{ $baseurl }}/css/event.css"/>
+    <link rel="stylesheet" href="{{ $baseurl }}/css/fonts.css"/>
+  <link rel="stylesheet" href="{{ $baseurl }}/css/highlight-default.min.css">
+  <link rel="icon" type="image/png" href="{{ $baseurl }}/images/favicon.png"/>
+  <script src="{{ $baseurl }}/js/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
 </head>
+<body>

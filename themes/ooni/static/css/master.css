@@ -50,6 +50,7 @@ main {
 footer {
   color: #b4b4b4;
   background-color: #26292c;
+  text-align: center;
 }
 
 .container {
@@ -318,8 +319,12 @@ nav .col-2 {
   flex: 1 1;
 }
 
-.article nav .col-2 {
+nav .col-2 a {
   opacity: 0.3;
+}
+
+nav .col-2 a.active {
+  opacity: 1;
 }
 
 nav a {
@@ -495,7 +500,29 @@ footer h2 {
   opacity: 0.38;
 }
 
+.about .sponsor {
+  color: #b4b4b4;
+  background-color: #26292c;
+  height: 150px;
+  width: 300px;
+  text-align: center;
+  margin: 1em 0;
+  border-radius: 10px;
+}
 
+.about .sponsor a {
+    display: inline;
+}
+
+.about .sponsor img {
+  vertical-align: middle;
+}
+
+.vertical-align-helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
 /* ================================================================== */
 /* Article pages */
 

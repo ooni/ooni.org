@@ -1,7 +1,33 @@
 {{ $basePrefix := .Scratch.Get "basePrefix" }}
-<a href="{{ $basePrefix }}docs/">Docs</a>
-<a href="https://gitweb.torproject.org/ooni-probe.git">Code</a>
-<a href="https://measurements.ooni.torproject.org/">Measurements</a>
-<a href="https://github.com/thetorproject/ooni-probe#installation">Install</a>
-<a href="{{ $basePrefix }}lepidopter/lepidopter/">Lepidopter</a>
-<a href="https://explorer.ooni.torproject.org/">Explorer</a>
+{{ $baseurl := .Site.BaseURL }}
+{{ $selectedMenu := split .URL "/" }}
+<a href="{{ $baseurl }}/about/"
+  {{ if in $selectedMenu "about" }}
+   class="active"
+  {{end}}
+  >About</a>
+<a href="{{ $baseurl }}/install/"
+  {{ if in $selectedMenu "install" }}
+   class="active"
+  {{end}}
+  >Install</a>
+<a href="{{ $baseurl }}/nettest/"
+  {{ if in $selectedMenu "nettest" }}
+   class="active"
+  {{end}}
+  >Net Tests</a>
+<a href="{{ $baseurl }}/data/"
+  {{ if in $selectedMenu "data" }}
+   class="active"
+  {{end}}
+  >Data</a>
+<a href="{{ $baseurl }}/get-involved/"
+  {{ if in $selectedMenu "get-involved" }}
+   class="active"
+  {{end}}
+  >Get Involved</a>
+<a href="{{ $baseurl }}/post/"
+  {{ if in $selectedMenu "post" }}
+   class="active"
+  {{end}}
+   >Blog</a>
