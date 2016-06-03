@@ -30,7 +30,7 @@ a website is actually blocked, or if it is just (temporarily) down. Furthermore,
 collected measurements are no longer compared over Tor, because the
 discrimination of exit nodes (by CloudFlare, for example) led to many false
 positives. We now compare collected measurements over a control server which is
-less likely to be discriminated by websites.
+less likely to be discriminated.
 
 ## How web_connectivity works
 
