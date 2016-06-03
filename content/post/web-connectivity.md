@@ -112,16 +112,18 @@ http_request and dns_consistency tests (which are included in Web Connectivity
 anyway).
 
 You can run Web Connectivity by either running `oonideckgen` or by simply
-running the following command:
+running the following command with a file containing a list of URLs to test
+(this can either be 1 URL per line or a CSV from the
+[citizenlab test-lists repository](https://github.com/citizenlab/test-lists/tree/master/lists))
 
-`ooniprobe blocking/web_connectivity -f ~/.ooni/resources/citizenlab-test-
- lists/global.csv`
+`ooniprobe blocking/web_connectivity -f ~/.ooni/resources/citizenlab-test-lists/global.csv`
 
 or by testing your URL of choice:
 
 `ooniprobe blocking/web_connectivity --url http://torproject.org/`
 
 Learn more about how to run OONI tests (and their associated
-[risks](https://github.com/TheTorProject/ooni-spec/blob/master/informed-consent/risks.md)) [here](https://github.com/TheTorProject/ooni-probe#ooni-in-5-minutes).
+[risks](https://github.com/TheTorProject/ooni-spec/blob/master/informed-consent/risks.md))
+[here](https://github.com/TheTorProject/ooni-probe#ooni-in-5-minutes).
 
 Happy testing!
