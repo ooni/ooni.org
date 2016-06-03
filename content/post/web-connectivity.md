@@ -1,8 +1,16 @@
-# OONI releases new test for detecting online censorship
+---
+title: "OONI releases new Web Connectivity test for detecting online censorship"
+author: "Arturo Filastò, Maria Xynou"
+date: "2016-06-03"
+tags: ["release", "nettest"]
+categories: ["blog"]
+---
+
+# OONI releases new Web Connectivity test for detecting online censorship
 
 Today the Open Observatory of Network Interference (OONI) is excited to be
 releasing a brand new test, called
-*[web_connectivity](https://ooni.torproject.org/nettest/web-connectivity/)*,
+*[Web Connectivity](https://ooni.torproject.org/nettest/web-connectivity/)*,
 which is designed to detect three different types of censorship: *DNS
 tampering*, *TCP/IP blocking* and *HTTP blocking*.
 
@@ -17,14 +25,14 @@ then had to correlate measurements across different tests to identify whether
 and how websites were blocked. This process was not only tedious, but it also
 led to more false positives.
 
-Now with web_connectivity we can test for various aspects of censorship all
+Now with Web Connectivity we can test for various aspects of censorship all
 within one test! This not only enables us to identify which content is being
 blocked, but it also helps us pinpoint the exact reason of blocking. This is
 particularly useful because it makes the process of analyzing why a website is
 not reachable easier, faster and more accurate.
 
-The heuristics used by web_connectivity are also a bit more advanced. Contrary
-to previous tests, web_connectivity allows us to clearly distinguish between
+The heuristics used by Web Connectivity are also a bit more advanced. Contrary
+to previous tests, Web Connectivity allows us to clearly distinguish between
 censorship and accessibility, in the sense that we are able to determine whether
 a website is actually blocked, or if it is just (temporarily) down. Furthermore,
 collected measurements are no longer compared over Tor, because the
@@ -99,17 +107,21 @@ following apply:
 
 If you've ever run OONI tests before, then you're probably familiar with
 `oonideckgen`: OONI's software suite which includes multiple tests. Now
-web_connectivity has been added to oonideckgen, replacing the previous
-http_request and dns_consistency tests (which are included in web_connectivity
+Web Connectivity has been added to oonideckgen, replacing the previous
+http_request and dns_consistency tests (which are included in Web Connectivity
 anyway).
 
-You can run web_connectivity by either running `oonideckgen` or by simply
+You can run Web Connectivity by either running `oonideckgen` or by simply
 running the following command:
 
-`ooniprobe blocking/web_connectivity`
+`ooniprobe blocking/web_connectivity -f ~/.ooni/resources/citizenlab-test-
+ lists/global.csv`
+
+or by testing your URL of choice:
+
+`ooniprobe blocking/web_connectivity --url http://torproject.org/`
 
 Learn more about how to run OONI tests (and their associated
-[risks](https://github.com/TheTorProject/ooni-spec/blob/master/informed-consent/risks.md)) [here](https://github.com/TheTorProject/ooni-probe#ooni-
-in-5-minutes).
+[risks](https://github.com/TheTorProject/ooni-spec/blob/master/informed-consent/risks.md)) [here](https://github.com/TheTorProject/ooni-probe#ooni-in-5-minutes).
 
 Happy testing!
