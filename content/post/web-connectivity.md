@@ -6,15 +6,13 @@ tags: ["release", "nettest"]
 categories: ["blog"]
 ---
 
-# OONI releases new Web Connectivity test for detecting online censorship
-
 Today the Open Observatory of Network Interference (OONI) is excited to be
 releasing a brand new test, called
 *[Web Connectivity](https://ooni.torproject.org/nettest/web-connectivity/)*,
 which is designed to detect three different types of censorship: *DNS
 tampering*, *TCP/IP blocking* and *HTTP blocking*.
 
-## Advantages of running web_connectivity
+## Advantages of running Web Connectivity
 
 This test allows us to see which websites are blocked and how, more accurately
 than ever before!
@@ -40,7 +38,7 @@ discrimination of exit nodes (by CloudFlare, for example) led to many false
 positives. We now compare collected measurements over a control server which is
 less likely to be discriminated.
 
-## How web_connectivity works
+## How Web Connectivity works
 
 This test examines whether websites are blocked by performing the steps below
 *both* over a control server and over the network of the user. The collected
@@ -56,7 +54,7 @@ Providers (ISPs), amongst others, run DNS resolvers which map host names to IP
 addresses. In some circumstances though, ISPs map the requested host names to
 the wrong IP addresses, which is a form of tampering.
 
-As a first step, the web_connectivity test attempts to identify which DNS
+As a first step, the Web Connectivity test attempts to identify which DNS
 resolver is being used by the user. It does so by performing a DNS query to
 special domains (such as whoami.akamai.com) which will disclose the IP address
 of the resolver. This is an important step because it allows us to see if the
@@ -65,7 +63,7 @@ DNS), or that of a local ISP (which is more likely to perform censorship).
 
 **2. DNS lookup**
 
-Once the web_connectivity test has identified the DNS resolver of the user, it
+Once the Web Connectivity test has identified the DNS resolver of the user, it
 then attempts to identify which addresses are mapped to the tested host names by
 the resolver. It does so by performing a DNS lookup, which asks the resolver to
 disclose which IP addresses are mapped to the tested host names, as well as
@@ -77,7 +75,7 @@ control server, then there is a clear sign of DNS blocking.
 
 **3. TCP connect**
 
-The web_connectivity test will then try to connect to the tested websites by
+The Web Connectivity test will then try to connect to the tested websites by
 attempting to establish a TCP session on port 80 (or port 443 for URLs that
 begin with HTTPS) for the list of IP addresses that were identified in the
 previous step (DNS lookup).
@@ -87,7 +85,7 @@ of the user, then those websites are probably blocked.
 
 **4. HTTP GET request**
 
-As the web_connectivity test connects to tested websites (through the previous
+As the Web Connectivity test connects to tested websites (through the previous
 step), it sends requests through the HTTP protocol to the servers which are
 hosting those websites. A server normally responds to an HTTP GET request with
 the content of the webpage that is requested.
@@ -103,7 +101,7 @@ following apply:
 
 * The HTML title tags do not match
 
-## How to run web_connectivity
+## How to run Web Connectivity
 
 If you've ever run OONI tests before, then you're probably familiar with
 `oonideckgen`: OONI's software suite which includes multiple tests. Now
