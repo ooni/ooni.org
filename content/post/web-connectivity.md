@@ -112,7 +112,7 @@ anyway).
 You can run Web Connectivity by either running `oonideckgen` or by simply
 running the following command with a file containing a list of URLs to test
 (this can either be 1 URL per line or a CSV from the
-[citizenlab test-lists repository](https://github.com/citizenlab/test-lists/tree/master/lists))
+[citizenlab test-lists repository](https://github.com/citizenlab/test-lists/tree/master/lists)):
 
 `ooniprobe blocking/web_connectivity -f ~/.ooni/resources/citizenlab-test-lists/global.csv`
 
