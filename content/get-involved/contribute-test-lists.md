@@ -13,8 +13,7 @@ The global list includes a wide range of internationally relevant websites (most
 of which are in English), while each country-specific test list includes
 websites that are relevant and commonly accessed within that country (many of
 which are in local languages). The URLs included in these lists fall under **[30
-categories](https://github.com/citizenlab/test-lists/blob/master/lists/00
--proposed-category_codes.csv)**, ranging from news media, file sharing and
+categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-proposed-category_codes.csv)**, ranging from news media, file sharing and
 culture, to provocative or objectionable categories, like pornography, political
 criticism and hate speech.
 
@@ -40,14 +39,13 @@ already exist), as explained below.
 ### Reviewing test lists
 
 All test lists that ooniprobe is designed to test for censorship are hosted in
-the [Citizen Lab's test-list repository on github](https://github.com/citizenlab
-/test-lists).
+the [Citizen Lab's test-list repository on github](https://github.com/citizenlab/test-lists).
 
 To review country-specific test lists, please follow the steps below:
 
 **Step 1.** Find the *csv* file which is specific to the country that you want to
 run ooniprobe from (based on that country's code) through the following link:
-https://github.com/citizenlab/test-lists/tree/master/lists.
+**https://github.com/citizenlab/test-lists/tree/master/lists**.
 
 If you don't find a csv file for your country, that's probably because it
 doesn't exist yet. In this case, please refer to the next section on *"Creating
@@ -67,8 +65,7 @@ Some criteria for adding new URLs can include the following:
 * You have faced difficulty connecting to those URLs
 
 For further criteria, please view the categories under which URLs fall under
-through the following link: **https://github.com/citizenlab/test-
-lists/blob/master/lists/00-proposed-category_codes.csv**
+through the following link: **https://github.com/citizenlab/test-lists/blob/master/lists/00-proposed-category_codes.csv**
 
 Please try to add URLs which fall under as many (if not all) of these categories
 as possible.
