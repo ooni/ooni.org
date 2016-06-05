@@ -5,7 +5,7 @@ included in what we call "test lists". Each test list contains multiple
 categorized URLs which are tested for online censorship and they include the
 following:
 
-* [Global test list](https://github.com/citizenlab/test-[lists/blob/master/lists/global.csv)
+* [Global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)
 
 * [Country-specific test lists](https://github.com/citizenlab/test-lists/tree/master/lists) 
 
@@ -177,15 +177,3 @@ the csv file. The category descriptions can be found
  pull request. If you're *not* a github user, please send us your csv file by
  dropping us an email at contact@openobservatory.org (PGP Key Fingerprint: 4C15
  DDA9 96C6 C0CF 48BD  3309 6B29 43F0 0CB1 77B7).
-
-
-
-
-
-
-
-
-
-
-
-
