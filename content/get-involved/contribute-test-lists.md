@@ -26,7 +26,9 @@ ooniprobe, as connecting to some of these websites might be legally questionable
 
 If you are uncertain of the potential implications of connecting to and
 downloading data from the websites listed in the test lists, you can pass your
-*own* test list with the ooniprobe `-f` command line option.
+*own* test list with the following type of command line option:
+
+`ooniprobe <test-name> -f <your-test-list>` 
 
 ## Contributing to test lists 
 
@@ -43,9 +45,9 @@ the [Citizen Lab's test-list repository on github](https://github.com/citizenlab
 
 To review country-specific test lists, please follow the steps below:
 
-**Step 1.** Find the *csv* file which is specific to the country that you want to
-run ooniprobe from (based on that country's code) through the following link:
-**https://github.com/citizenlab/test-lists/tree/master/lists**.
+**Step 1.** Find the *csv* file which is specific to the country that you want
+to run ooniprobe from (based on that country's code)
+**[here](https://github.com/citizenlab/test-lists/tree/master/lists)**.
 
 If you don't find a csv file for your country, that's probably because it
 doesn't exist yet. In this case, please refer to the next section on *"Creating
@@ -64,8 +66,8 @@ Some criteria for adding new URLs can include the following:
 
 * You have faced difficulty connecting to those URLs
 
-For further criteria, please view the categories under which URLs fall under
-through the following link: **https://github.com/citizenlab/test-lists/blob/master/lists/00-proposed-category_codes.csv**
+For further criteria, please view the URL categories
+**[here](https://github.com/citizenlab/test-lists/blob/master/lists/00-proposed-category_codes.csv)**.
 
 Please try to add URLs which fall under as many (if not all) of these categories
 as possible.
@@ -92,20 +94,17 @@ the csv file. The category descriptions can be found
 * **Notes:** *Optional:* Here you can add notes for each URL under the "notes"
  column of the csv file.
 
-**Step 4.** Delete URLs (included under the "url" column of the csv file) only if:
+**Step 4.** Change the category codes and descriptions for URLs (included under
+the "category_code" and "category_description" columns of the csv file) *only
+if* you think that those URLs have been allocated to wrong category codes and
+descriptions. In this case, please replace the category codes and descriptions
+with ones (from the [recommended categories](https://github.com/citizenlab/test-
+lists/blob/master/lists/00-proposed-category_codes.csv)) that you think are more
+suitable. We would also appreciate a comment on
+[github](https://github.com/citizenlab/test-lists) or via email explaining the
+proposed changes.
 
-* Their domains have expired
-
-* Their domains are no longer serving the content that they were originally
-  designed to serve (e.g. domain parking)
-
-**Step 5.** Change the category codes and descriptions for URLS (included under
- the "category_code" and "category_description" columns of the csv file) *only
- if* you think that those URLs have been allocated to wrong category codes and
- descriptions. In this case, please replace the category codes and descriptions
- with ones (from the [recommended categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-proposed-category_codes.csv)) that you think are more suitable. We would also appreciate a comment (on [github](https://github.com/citizenlab/test-lists) or via email) explaining the proposed changes.
-
-**Step 6.** Once you have reviewed a test list based on the above, please submit
+**Step 5.** Once you have reviewed a test list based on the above, please submit
  your changes to us. If you're a github user, you can do so through a pull
  request. If you're *not* a github user, please send us a *spreadsheet*
  (including the same format as github csv files) by dropping us an email at
@@ -119,8 +118,12 @@ If you can't find a test list specific to your country
 probably does not exist yet. Please help us create a test list for your country
 through the steps below:
 
-**Step 1.** Create a csv file including the following columns (similarly the the
- csv file format included in test lists here):
+**Step 1.** Create a csv file and name it based on an ISO-3166 two-letter country
+code which is specific to the country that URLs are being added for. You can
+find a reference for international standards for country codes
+**[here](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-country_codes.csv)**. An example would include a csv file created for Andora, named *ad.csv*.
+
+**Step 2.** Include the following columns in the newly created csv file:
 
 * url
 
@@ -134,7 +137,7 @@ through the steps below:
 
 * notes
 
-**Step 2.** Add URLs under the "url" column of the csv file. 
+**Step 3.** Add URLs under the "url" column of the csv file. 
 
 Some criteria for adding new URLs can include the following:
 
@@ -147,10 +150,10 @@ Some criteria for adding new URLs can include the following:
 
 * You have faced difficulty connecting to those URLs
 
-For further criteria, please view the categories under which URLs fall under
-through the following link: **https://github.com/citizenlab/test-lists/blob/master/lists/00-proposed-category_codes.csv**
+For further criteria, please view URL categories
+**[here](https://github.com/citizenlab/test-lists/blob/master/lists/00-proposed-category_codes.csv)**.
 
-**Step 3.** Every time you add a URL, please add the following in the csv file for
+**Step 4.** Every time you add a URL, please add the following in the csv file for
  each new URL:
 
 * **Category code:** Add the code of the category that each URL falls under.
@@ -172,7 +175,7 @@ the csv file. The category descriptions can be found
 * **Notes:** *Optional:* Here you can add notes for each URL under the "notes"
  column of the csv file.
 
-**Step 4.** Once you have created a new test list based on the above, please
+**Step 5.** Once you have created a new test list based on the above, please
  submit your csv file to us. If you're a github user, you can do so through a
  pull request. If you're *not* a github user, please send us your csv file by
  dropping us an email at contact@openobservatory.org (PGP Key Fingerprint: 4C15
