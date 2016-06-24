@@ -1,5 +1,5 @@
 ---
-date: "2015-09-15"
+date: "2016-06-24"
 title: "Lepidopter Installation: Help Guides and Resources"
 description: "Helpful resources and guides for getting started with the Lepidopter Raspberry Pi image"
 aliases: ["/lepidopter/lepidopter"]
@@ -82,14 +82,13 @@ for a significantly reduced file size (ca. 114M smaller) compared to the zip
 archive. Note that this will require an extra program to be installed depending
 on your OS.
 
-## Verify the Lepidopter image
+**The default username and password of the image is**: `lepidopter`
 
-To verify that the Lepidopter image is the right one, you will need to compare
-it with the key that has been signed by us.
+## Verify Lepidopter Raspberry Pi image
 
 ### Import the Lepidopter signing key
 
-From OONI web server:
+From the OONI web server:
 
 ```
 gpg --fetch-keys https://get.ooni.torproject.org/lepidopter/lepidopter-signing-key.asc
@@ -101,8 +100,7 @@ From a keyserver:
 gpg --keyserver pool.sks-keyservers.net --recv-keys 0xBA56AC5A53E9C7A4
 ```
 
-For additional security the fingerprint of the Lepidopter Team (signing key) is
-published here:
+Lepidopter team's fingerprint (image signing key) is published here:
 
 ```
 pub   4096R/0xBA56AC5A53E9C7A4 2016-05-22
@@ -351,59 +349,30 @@ In OS X each disk may have two path references in /dev:
 On a Class 4 SD card the difference was around 20 times faster using the rdisk
 path.
 
-## Windows users
+## Run an App (Only with graphical interface)
 
-You can copy the Lepidopter image to your SD card through the following steps:
+### Pi Filler
+[Pi Filler](http://ivanx.com/raspberrypi) a simple tool for copying a Raspberry
+Pi operating system image file to an SD card, or restoring an SD card backup
+created by [Pi Copier](http://ivanx.com/raspberrypi). Version 1.3 is about 5x
+faster than previous versions and can write a full card in 5-7 minutes. Pi
+Filler automatically identifies your SD card (and asks for confirmation to
+prevent any chance of the wrong disk being written to), and shows estimated
+time remaining during the copy. After it's done, if your Raspberry Pi is not
+connected to a display, you can use [Pi Finder](http://ivanx.com/raspberrypi)
+to locate it on your network and log in from Terminal. These utilities are
+written in AppleScript and Bash, are compatible with OS X 10.6 Snow Leopard
+through 10.10 Yosemite, and include source code.
 
-**Step 1.** Download the **[Lepidopter
-image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip)**.
+### RPi-sd card builder
+The [RPi-sd
+card](http://alltheware.wordpress.com/2012/12/11/easiest-way-sd-card-setup/)
+builder utility is an application which will walk you through the process of
+installing to SD card. Note: This is a closed source application which requires
+your root password.
 
-**Step 2.** Extract the image file from the downloaded .xz file, so you now have
-"lepidopter-alpha-armel.img".
-
-**Step 3.** Download
-[Win32DiskImager](http://sourceforge.net/projects/win32diskimager/) and
-extract the file.
-
-![Win32DiskImager window](/lepidopter/Win32DiskImager.png)
-
-**Step 4.** Insert the SD card into your SD card reader and check what drive
-letter it was assigned. You can easily see the drive letter (for example G:)
-by looking in the left column of Windows Explorer.
-
-**Step 5.** Run Win32DiskImager. 
-
-You might need to run Win32DiskImager as Administrator. In this case, right-
-click on the file, and select 'Run as Administrator'.
-
-**Step 6.** Select the Lepidopter image file that you extracted above.
-
-**Step 7.** Select the drive letter of the SD card in the device box. 
-
-**Important:** Ensure you're selecting your SD card reader, as (accidentally)
-selecting your hard drive could result in its corruption. 
-
-**Step 8.** Click **[Write]**.
-
-Wait for the Lepidopter image to get copied to your SD card...
-
-**Step 9.** Exit the imager and eject the SD card.
-
-**Step 10.** Insert your SD card into the **[MICRO SD CARD]** slot of your Raspberry Pi. 
-
-**Step 11.** Connect your Raspberry Pi to power and to the internet (with an Ethernet cable). 
-
-That's all! From now on, your Raspberry Pi will automatically **run ooniprobe
-every day at 6am UTC**. The measurements will be sent directly to OONI's server,
-where they will be processed and published on **[OONI
-Explorer](https://explorer.ooni.torproject.org/world/)** (generally) within 24
-hours.
-
-**Note:** In Windows, the SD card will appear to only have a fairly small size once
-written - about 55 to 75 MB. This is because most of the card has a partition
-that is formatted for the Linux operating system that the Raspberry Pi uses
-which is not visible in Windows. If you don't see a small directory with files
-such as kernel.img then the copy may not have worked correctly.
+### ApplePi-Baker
+![ApplePi-Baker window](/lepidopter/ApplePi-Baker.png)
 
 ### Using flashnul (if Win32DiskImager isn't successful)
 
@@ -464,6 +433,28 @@ yes and press enter.
 
 If you get an access denied error, make sure to close all explorer windows or
 folders open for the device, then try re-plugging the SD card.
+
+# Community Information and Contributing
+
+## Report bugs
+
+Lepidopter bugs, feauture requests and usability issues should be filled
+[here](https://github.com/TheTorProject/lepidopter/issues).
+
+## Participate
+
+For people already running a Lepidopter probe and would like to follow up on
+operators specific discussion you are welcome to subscribe to the low volume
+[ooni-operators]
+(https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-operators) mailing
+list.
+
+## Contribute
+
+Lepidopter distribution build scripts, and code is hosted [here]
+(https://github.com/TheTorProject/lepidopter). You are welcome to contribute
+by sending up patches or pull requests. Read on how you can
+[get involved](../../get-involved/) and reach us out.
 
 # Sources
 
