@@ -98,8 +98,7 @@ the csv file. The category descriptions can be found
 the "category_code" and "category_description" columns of the csv file) *only
 if* you think that those URLs have been allocated to wrong category codes and
 descriptions. In this case, please replace the category codes and descriptions
-with ones (from the [recommended categories](https://github.com/citizenlab/test-
-lists/blob/master/lists/00-proposed-category_codes.csv)) that you think are more
+with ones (from the [recommended categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-proposed-category_codes.csv) that you think are more
 suitable. We would also appreciate a comment on
 [github](https://github.com/citizenlab/test-lists) or via email explaining the
 proposed changes.
