@@ -1,3 +1,7 @@
+---
+aliases: ["/data-policy"]
+---
+
 # OONI Data Policy
 
 **Effective:** 2016-05-05

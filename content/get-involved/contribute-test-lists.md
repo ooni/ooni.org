@@ -1,5 +1,3 @@
-# Test lists
-
 OONI tests specific websites to see if they are blocked, and such websites are
 included in what we call "test lists". Each test list contains multiple
 categorized URLs which are tested for online censorship and they include the
@@ -30,7 +28,7 @@ downloading data from the websites listed in the test lists, you can pass your
 
 `ooniprobe <test-name> -f <your-test-list>` 
 
-## Contributing to test lists 
+## Contributing to test lists
 
 The [Citizen Lab](https://citizenlab.org/) has supported OONI in the creation,
 maintenance and development of test lists and many volunteers around the world

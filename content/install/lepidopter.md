@@ -1,9 +1,10 @@
 ---
 date: "2015-09-15"
 title: "Lepidopter Installation: Help Guides and Resources"
-description: "Helpful resources and guides for getting started with Lepidopter
-Raspberry Pi image"
+description: "Helpful resources and guides for getting started with Lepidopter Raspberry Pi image"
+aliases: ["/lepidopter/lepidopter"]
 tags: [ "lepidopter", "image", "raspberry pi", "distribution" ]
+enabletoc: true
 ---
 
 # Lepidopter quick start guide

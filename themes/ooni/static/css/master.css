@@ -53,6 +53,15 @@ footer {
   text-align: center;
 }
 
+footer a {
+  color: #b4b4b4;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
 .container {
   margin: auto;
 }
@@ -523,6 +532,14 @@ footer h2 {
   height: 100%;
   vertical-align: middle;
 }
+
+/* ================================================================== */
+/* Content pages */
+
+.content {
+    padding-top: 60px;
+}
+
 /* ================================================================== */
 /* Article pages */
 
