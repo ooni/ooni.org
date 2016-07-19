@@ -25,9 +25,9 @@ scripts of the Lepidopter image are free and open source software.
 
 Since 2012 OONI has collected numerous network measurements reports that show
 evidence of internet censorship, network tampering and surveillance. OONI
-measurement data have been used in research publications, a number of technical
-[reports](https://ooni.torproject.org/post/) about how ISPs in countries filter
-and censor the internet as well as reports that include sings of network
+measurement data have been used in a number of technical
+[reports](https://ooni.torproject.org/post/) that show how ISPs in countries
+filter and censor the internet as well as reports that include sings of network
 irregularities and tampering. This wouldn't be possible without the help of
 numerous volunteers that are contributed by running consistent ooni-probe
 network measurements tests from different vantage points. Up to now mostly
