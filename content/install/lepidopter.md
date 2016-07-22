@@ -69,7 +69,7 @@ power will cause your Pi to behave in strange ways.
 
 If your laptop does not have an SD card slot, then ensure you have an SD card reader.
 
-# Downloading the verifying the Lepidopter Raspberry Pi image
+# Downloading and verifying the Lepidopter Raspberry Pi image
 
 ## Download the Lepidopter image
 
@@ -153,8 +153,8 @@ Disk Image Writer or a terminal.
 
 ### Disk Image Writer
 
-**Step 1.** **Download** the [Lepidopter
-image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip).
+**Step 1.** Download the **[Lepidopter
+image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip)**.
 
 **Step 2.** Right-click on the downloaded Lepidopter image and select **[Extract
 here]** to extract the image.
