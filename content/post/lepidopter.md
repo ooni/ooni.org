@@ -27,34 +27,22 @@ Since 2012 OONI has collected numerous network measurements reports that show
 evidence of internet censorship, network tampering and surveillance. OONI
 measurement data have been used in a number of technical
 [reports](https://ooni.torproject.org/post/) that show how ISPs in countries
-filter and censor the internet as well as reports that include sings of network
+filter and censor the internet as well as reports that include signs of network
 irregularities and tampering. This wouldn't be possible without the help of
-numerous volunteers that are contributed by running consistent ooni-probe
-network measurements tests from different vantage points. Up to now mostly
-technical savvy users needed to maintain their own probes and deal with system
-configuration, software upgrades and renewal of measurement test and relevant
-test content related to the person's country. Lepidopter makes it easier for
-people that have a Raspberry Pi and an SD card to be part of the OONI community
-and help us reveal, publish and document possible instances of network
-interference worldwide.
+numerous volunteers that are contributing by running consistent ooni-probe
+network measurements tests from different vantage points. Up to now users
+needed to be technically savvy to maintain their own probes dealing with system
+configuration, software and measurement specific updates. Lepidopter makes it
+easier for people that have a Raspberry Pi and an SD card to be part of the
+OONI community and help us reveal, publish and document possible instances of
+network interference worldwide.
 
 ## How to obtain Lepidopter
 
 Please refer to the [installation instructions]
 (https://ooni.torproject.org/install/lepidopter/) where you can find a detailed
 guide on how you can download, verify and install the latest Lepidopter image
-to a Raspberry Pi.
-
-## I don't have a Raspberry Pi how can I help?
-
-There are a number of ways that you can help with if you don't own a Raspberry
-Pi or another device were you can deploy a probe and submit dedicated reports.
-
-In many cases we are considering providing a Raspberry Pi device to interested
-parties, ease let us know if you would like to be part of the OONI operators
-[community](https://ooni.torproject.org/get-involved/partnership-program/) and
-provide regular measurements.
-
+on a Raspberry Pi.
 
 ## Keep in touch
 
