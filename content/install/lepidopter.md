@@ -18,7 +18,7 @@ Some compact documentation on how to install, build, copy to an SD card and run
 Lepidopter in QEMU is described
 [here](https://github.com/TheTorProject/lepidopter/blob/master/README.md).
 
-##About Lepidopter
+## About Lepidopter
 
 Lepidopter is an *ooniprobe distribution* for Raspberry Pis. 
 
@@ -67,7 +67,7 @@ network router or switch that could provide internet connectivity. Typically the
 Be careful that whatever power supply you use outputs at least 5V; insufficient
 power will cause your Pi to behave in strange ways.
 
-If your laptop does not have an SD card slot, then ensure you have an SD card reader.
+If your laptop does not have an SD card slot, please ensure that you have an SD card reader.
 
 # Downloading and verifying the Lepidopter Raspberry Pi image
 
@@ -145,10 +145,10 @@ Lepidopter.
 ## Linux users
 
 If you are using Ubuntu and hesitate to use the terminal, you can use **Disk
-Image Writer** (graphical interface) to burn the Lepidopter image to an SD card.
+Image Writer** (graphical interface) to copy the Lepidopter image to an SD card.
 Alternatively, you can do this through your terminal.
 
-Below we provide steps on how to burn the Lepidopter image to an SD card via
+Below we provide steps on how to copy the Lepidopter image to an SD card via
 Disk Image Writer or a terminal.
 
 ### Disk Image Writer
@@ -191,7 +191,7 @@ selecting your hard drive could result in its corruption.
 
 ![Lepidopter-ubuntu](/lepidopter/lepidopter-lin-008.png)
 
-Wait for the Lepidopter image to burn to your SD card...
+Wait for the Lepidopter image to get copied to your SD card...
 
 ![Lepidopter-ubuntu](/lepidopter/lepidopter-lin-010.png)
 
@@ -253,12 +253,13 @@ it so that files can't be read or written to the SD card while you are copying
 over the SD image. So run the command below, replacing "/dev/sdd1" with whatever
 your SD card's device name is (including the partition number):
 
-    ```     umount /dev/sdd1     ``` 
-
+```     
+umount /dev/sdd1     
+```
 If your SD card shows up more than once in the output of df due to having
 multiple partitions on the SD card, you should unmount all of these partitions.
 
-**Step 7.** In the terminal write the image to the card with this command,
+**Step 7.** In the terminal copy the image to the card with this command,
 making sure you replace the input file if= argument with the path to your .img
 file, and the "/dev/sdd" in the output file of= argument with the right device
 name (this is very **important:** you will lose all data on the hard drive on
@@ -266,7 +267,9 @@ your computer if you get the wrong device name). Make sure the device name is
 the name of the whole SD card as described above, not just a partition of it
 (for example, sdd, not sdds1 or sddp1, or mmcblk0 not mmcblk0p1).
 
-    ```     dd bs=4M if=~/lepidopter-alpha-armel.img of=/dev/sdd     ``` 
+```     
+dd bs=4M if=~/lepidopter-alpha-armel.img of=/dev/sdd
+``` 
 
 Please note that block size set to 4M will work most of the time. If not, please try
 1M, although 1M will take considerably longer.
@@ -274,7 +277,7 @@ Please note that block size set to 4M will work most of the time. If not, please
 Note that if you are not logged in as root you will need to prefix this with sudo.
     
 The dd command does not give any information of its progress and so may
-appear to have frozen. It could take more than five minutes to finish writing
+appear to have frozen. It could take more than five minutes to finish copying
 to the card. If your card reader has an LED it may blink during the write
 process. To see the progress of the copy operation you can run ```pkill -USR1
 -n -x``` dd in another terminal (prefixed with sudo if you are not logged in as
@@ -290,7 +293,7 @@ Pi, and have fun!
 
 ## Mac OS X users
 
-You can burn the Lepidopter image on your SD card through the following steps:
+You can copy the Lepidopter image to your SD card through the following steps:
 
 **Step 1.** Download the **[Lepidopter
 image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip)**.
@@ -301,7 +304,7 @@ image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip
 
 ![ApplePi-Baker window](/lepidopter/ApplePi-Baker.png)
 
-ApplePi-Baker is a free utility that allows you to write an IMG file to an SD
+ApplePi-Baker is a free utility that allows you to copy an IMG file to an SD
 card with only a few simple clicks.
 
 **Step 4.** Insert your SD card into your SD card reader, and subsequently connect
@@ -311,15 +314,15 @@ your SD card reader to your laptop/desktop.
 
 **Step 6.** Select the Lepidopter IMG file in the Restore Backup section. 
 
-**Step 7. Select your SD card reader (in the Pi-Crust section) as a location to
-burn the Lepidopter image to.
+**Step 7.** Select your SD card reader (in the Pi-Crust section) as a location to
+copy the Lepidopter image to.
 
 **Important:** Ensure you're selecting your SD card reader, as (accidentally)
 selecting your hard drive could result in its corruption.
 
 **Step 8.** Click **[Restore Backup]**. 
 
-Wait for the Lepidopter image to burn to your SD card...
+Wait for the Lepidopter image to get copied to your SD card...
 
 **Step 9.** Type in your system password to authenticate this.
 
@@ -350,7 +353,7 @@ path.
 
 ## Windows users
 
-You can burn the Lepidopter image on your SD card through the following steps:
+You can copy the Lepidopter image to your SD card through the following steps:
 
 **Step 1.** Download the **[Lepidopter
 image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip)**.
@@ -382,7 +385,7 @@ selecting your hard drive could result in its corruption.
 
 **Step 8.** Click **[Write]**.
 
-Wait for the Lepidopter image to burn to your SD card...
+Wait for the Lepidopter image to get copied to your SD card...
 
 **Step 9.** Exit the imager and eject the SD card.
 
@@ -466,5 +469,4 @@ folders open for the device, then try re-plugging the SD card.
 
 * [RPi Easy SD Card Setup](http://elinux.org/RPi_Easy_SD_Card_Setup)
 * [Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/)
-* [On Digital Signatures and Key Verification]
-(https://www.qubes-os.org/doc/verifying-signatures/)
+* [On Digital Signatures and Key Verification](https://www.qubes-os.org/doc/verifying-signatures/)
