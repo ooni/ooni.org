@@ -26,7 +26,7 @@ learn more about what each test is designed to do
 Linux and Mac OS X users can run ooniprobe. 
 
 If you're a Windows user interested in running ooniprobe, please consider
-running our ooniprobe distribution for Raspberry Pis.More information about this
+running our ooniprobe distribution for Raspberry Pis. More information about this
 can be found [here](https://ooni.torproject.org/install/lepidopter/).
 
 ### 3. How can I run ooniprobe?
