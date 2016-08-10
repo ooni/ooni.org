@@ -57,8 +57,9 @@ seems to have raised the tension in the country. The security forces response
 has been extreme, with observers
 [comparing](http://www.sudantribune.com/spip.php?article57643) it to the 2005
 post-election violence where nearly 200 people were killed. This time though,
-at least 30 people were reportedly killed in the Amhara region in one day
-alone.
+at least [30 people were reportedly
+killed](https://www.amnesty.org/en/latest/news/2016/08/ethiopia-dozens-killed-as-police-use-excessive-force-against-peaceful-protesters/?utm_source=twitter&utm_medium=quote&utm_term=The+security+forces%25u2019+response+was+heavy-handed%2c+but+unsurprising.+Ethiopian+forces+have+systematically+used+excessive+force+in+their+mistaken+attempts+to+silence+dissenting+voices&utm_campaign=social)
+in the Amhara region in one day alone.
 
 
 ## Internet shutdown
@@ -122,8 +123,9 @@ The data included in the graphs above shows that while the internet was likely
 shut down in certain regions and/or types of networks, it probably wasn’t shut
 down completely across Ethiopia. It might also have been the case that access
 to certain websites was restricted in regions and/or networks where the
-internet was accessible, though we unfortunately don’t have any recent OONI
-measurements from Ethiopia to verify this.
+internet was accessible, though we unfortunately don’t have any recent [OONI
+measurements](https://explorer.ooni.torproject.org/country/ET) from Ethiopia to
+verify this.
 
 
 ## #KeepItOn campaign
