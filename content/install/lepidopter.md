@@ -349,30 +349,64 @@ In OS X each disk may have two path references in /dev:
 On a Class 4 SD card the difference was around 20 times faster using the rdisk
 path.
 
-## Run an App (Only with graphical interface)
+## Windows users
 
-### Pi Filler
-[Pi Filler](http://ivanx.com/raspberrypi) a simple tool for copying a Raspberry
-Pi operating system image file to an SD card, or restoring an SD card backup
-created by [Pi Copier](http://ivanx.com/raspberrypi). Version 1.3 is about 5x
-faster than previous versions and can write a full card in 5-7 minutes. Pi
-Filler automatically identifies your SD card (and asks for confirmation to
-prevent any chance of the wrong disk being written to), and shows estimated
-time remaining during the copy. After it's done, if your Raspberry Pi is not
-connected to a display, you can use [Pi Finder](http://ivanx.com/raspberrypi)
-to locate it on your network and log in from Terminal. These utilities are
-written in AppleScript and Bash, are compatible with OS X 10.6 Snow Leopard
-through 10.10 Yosemite, and include source code.
+You can copy the Lepidopter image to your SD card through the following steps:
 
-### RPi-sd card builder
-The [RPi-sd
-card](http://alltheware.wordpress.com/2012/12/11/easiest-way-sd-card-setup/)
-builder utility is an application which will walk you through the process of
-installing to SD card. Note: This is a closed source application which requires
-your root password.
+**Step 1.** Download the **[Lepidopter
+image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip)**.
 
-### ApplePi-Baker
-![ApplePi-Baker window](/lepidopter/ApplePi-Baker.png)
+**Step 2.** Extract the image file from the downloaded .xz file, so you now
+have
+"lepidopter-alpha-armel.img".
+
+**Step 3.** Download
+[Win32DiskImager](http://sourceforge.net/projects/win32diskimager/) and
+extract the file.
+
+![Win32DiskImager window](/lepidopter/Win32DiskImager.png)
+
+**Step 4.** Insert the SD card into your SD card reader and check what drive
+letter it was assigned. You can easily see the drive letter (for example G:)
+by looking in the left column of Windows Explorer.
+
+**Step 5.** Run Win32DiskImager. 
+
+You might need to run Win32DiskImager as Administrator. In this case, right-
+click on the file, and select 'Run as Administrator'.
+
+**Step 6.** Select the Lepidopter image file that you extracted above.
+
+**Step 7.** Select the drive letter of the SD card in the device box. 
+
+**Important:** Ensure you're selecting your SD card reader, as (accidentally)
+selecting your hard drive could result in its corruption. 
+
+**Step 8.** Click **[Write]**.
+
+Wait for the Lepidopter image to get copied to your SD card...
+
+**Step 9.** Exit the imager and eject the SD card.
+
+**Step 10.** Insert your SD card into the **[MICRO SD CARD]** slot of your
+Raspberry Pi. 
+
+**Step 11.** Connect your Raspberry Pi to power and to the internet (with an
+Ethernet cable). 
+
+That's all! From now on, your Raspberry Pi will automatically **run ooniprobe
+every day at 6am UTC**. The measurements will be sent directly to OONI's
+server,
+where they will be processed and published on **[OONI
+Explorer](https://explorer.ooni.torproject.org/world/)** (generally) within 24
+hours.
+
+**Note:** In Windows, the SD card will appear to only have a fairly small size
+once
+written - about 55 to 75 MB. This is because most of the card has a partition
+that is formatted for the Linux operating system that the Raspberry Pi uses
+which is not visible in Windows. If you don't see a small directory with files
+such as kernel.img then the copy may not have worked correctly.
 
 ### Using flashnul (if Win32DiskImager isn't successful)
 
