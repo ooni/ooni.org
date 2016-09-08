@@ -478,7 +478,7 @@ configuration or the need to find out the IP address of lepidopter host.
 
 If you have the required dependencies you should be able to access
 ooniprobe web interface by entering the following URL to your web browser:
-(http://lepidopter.local:8842)
+[http://lepidopter.local:8842](http://lepidopter.local:8842)
 
 If you can't access ooniprobe's [web interface URL]
 (http://lepidopter.local:8842) please follow the installation [instructions]
