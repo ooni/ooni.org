@@ -468,6 +468,58 @@ yes and press enter.
 If you get an access denied error, make sure to close all explorer windows or
 folders open for the device, then try re-plugging the SD card.
 
+# Lepidopter services
+
+Lepidopter uses a mDNS (multicast DNS Service Discovery) (Avahi) to publish the
+SSH and ooniprobe web interface services on a local network with no extra
+configuration or the need to find out the IP address of lepidopter host.
+
+## Access ooniprobe's web interface
+
+If you have the required dependencies you should be able to access
+ooniprobe web interface by entering the following URL to your web browser:
+(http://lepidopter.local:8842)
+
+If you can't access ooniprobe's [web interface URL]
+(http://lepidopter.local:8842) please follow the installation [instructions]
+(#service-discovery-install-instructions) related to your operating system.
+
+## Access lepidopter SSH service
+
+You should be able to access lepidopter's SSH service under the following
+hostname: `lepidopter.local`
+
+## Service discovery install instructions
+
+### Linux
+
+By default most Linux distributions (Debian, Fedora, Ubuntu, Archlinux) use the
+Avahi daemon by default. In case that your system doesn't come with the Avahi
+daemon pre-installed you should be able to install it via the package
+management of your distribution, the name of the package is usually something
+similar to `avahi-daemon`.
+
+### Mac OSX/iOS
+
+Mac OS X and iOS operating systems have builtin support for mDNS/DNS-SD with
+the Bonjour software.
+
+### Windows
+
+By default Windows systems have no built-in support for mDNS/DNS-SD. However
+some third-party applications come bundled with the Bonjour software, service
+that supports automatic discovery of hosts in the local network.
+
+The applications that are bundled with the Bonjour software in Windows:
+
+* Bonjour Print Services for Windows
+* Skype
+* iTunes
+* Adobe's Photoshop CS3
+
+Prior to installing any application you should first try to access ooniprobe's
+[web interface URL](http://lepidopter.local:8842) from your web browser.
+
 # Community Information and Contributing
 
 ## Report bugs
