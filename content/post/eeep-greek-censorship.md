@@ -15,6 +15,8 @@ date: "2015-06-10"
 
 **Measurement period:** June - July 2014
 
+**19:40 UTC Saturday, 17 June 2016** Update: Add AS numbers of the ISPs, update
+raw measurement data URLs.
 
 The newly formed Independent Administrative Authority's Hellenic Gaming
 Commission acts as the public body responsible for the control and supervision
@@ -91,38 +93,11 @@ In any other case the result is marked as: `tampering: True`.
 
 # Probed ISPs
 
-Probed ISPs: ```Forthnet, Ote, Cyta, Wind, Vodafone, Cosmote, Wind mobile```
+Probed ISPs: `Forthnet (AS 1241), Ote (AS 6799), Cyta (AS 6866), Wind (AS
+25472), Vodafone (AS 12361), Cosmote (AS 29247), Wind mobile (AS 15617)`
 
 All of the tested ISPs employed [DNS hijacking] with the exception of Vodafone
 that uses also [Deep Packet Inspection] to block the resources of the blacklist.
-
-## Probed ISP OONI reports
-
-* Forthnet:
-  * http://api.ooni.io/reportFiles/2014-07-30/20140730T221712Z-AS0-http_requests-v1-probe.yaml.gz
-  * http://api.ooni.io/reportFiles/2014-06-23/20140623T125708Z-AS1241-http_requests-v1-probe.yaml.gz
-  * http://api.ooni.io/reportFiles/2014-06-25/20140625T222008Z-AS1241-dns_consistency-v1-probe.yaml.gz
-* Ote:
-  * http://api.ooni.io/reportFiles/2014-06-26/20140626T105437Z-AS6799-dns_consistency-v1-probe.yaml.gz
-  * http://api.ooni.io/reportFiles/2014-06-26/20140626T130619Z-AS6799-dns_consistency-v1-probe.yaml.gz
-  * http://api.ooni.io/reportFiles/2014-06-25/20140625T210158Z-AS0-http_requests-v1-probe.yaml.gz
-  * http://api.ooni.io/reportFiles/2014-06-25/20140625T211147Z-AS0-http_requests-v1-probe.yaml.gz
-* Cyta:
-  * http://api.ooni.io/reportFiles/2014-06-23/20140623T165118Z-AS0-http_requests-v1-probe.yaml.gz
-  * http://api.ooni.io/reportFiles/2014-07-30/20140730T224459Z-AS0-http_requests-v1-probe.yaml.gz
-* Wind:
-  * [Reports archive](ooni_reports/wind-ooni-reports.tar.bz2)
-* Hol:
-  * http://api.ooni.io/reportFiles/2014-07-24/20140724T164440Z-AS3329-http_requests-v1-probe.yaml.gz
-  * http://api.ooni.io/reportFiles/2014-07-24/20140724T160923Z-AS3329-http_requests-v1-probe.yaml.gz
-  * http://api.ooni.io/reportFiles/2014-07-24/20140724T161705Z-AS3329-dns_consistency-v1-probe.yaml.gz
-* Cosmote:
-  * http://api.ooni.io/reportFiles/2014-07-03/20140703T161600Z-AS0-http_requests-v1-probe.yaml.gz
-* Vodafone:
-  * [Reports archive](ooni_reports/vodafone-ooni-reports.tar.bz2)
-* Wind mobile:
-  * http://api.ooni.io/reportFiles/2014-07-04/20140704T025958Z-AS0-http_requests-v1-probe.yaml.gz
-  * http://api.ooni.io/reportFiles/2014-07-30/20140730T200818Z-AS15617-http_requests-v1-probe.yaml.gz
 
 ## Per ISP analysis
 
@@ -2279,6 +2254,34 @@ user's experience and communication.
 Disrupting users' communication with a certain entity can have various social implications
 or economic impact. Suppose a Greek resident would like to work as web developer to one
 of the blocked websites. Communicating with the owner company would be impossible.
+
+# OONI data per ISP
+
+## Raw measurement data per ISP
+
+* Forthnet:
+  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-07-30/20140730T221712Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-06-23/20140623T125708Z-GR-AS1241-http_requests-no_report_id-0.1.0-probe.json)
+  * [DNS Consistency test report](https://measurements.ooni.torproject.org/2014-06-25/20140625T222008Z-GR-AS1241-dns_consistency-no_report_id-0.1.0-probe.json)
+* Ote:
+  * [DNS Consistency test report](https://measurements.ooni.torproject.org/2014-06-26/20140626T105437Z-GR-AS6799-dns_consistency-no_report_id-0.1.0-probe.json)
+  * [DNS Consistency test report](https://measurements.ooni.torproject.org/2014-06-26/20140626T130619Z-GR-AS6799-dns_consistency-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-06-25/20140625T210158Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-06-25/20140625T211147Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
+* Cyta:
+  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-06-23/20140623T165118Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-07-30/20140730T224459Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
+* Hol:
+  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-07-24/20140724T164440Z-GR-AS3329-http_requests-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-07-24/20140724T160923Z-GR-AS3329-http_requests-no_report_id-0.1.0-probe.json)
+  * [DNS Consistency test report](https://measurements.ooni.torproject.org/2014-07-24/20140724T161705Z-GR-AS3329-dns_consistency-no_report_id-0.1.0-probe.json)
+* Cosmote:
+  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-07-03/20140703T161600Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
+* Vodafone:
+  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-07-03/20140703T083044Z-ZZ-AS0-http_requests-no_report_id-0.1.0-probe.json)
+* Wind mobile:
+  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-07-04/20140704T025958Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-07-30/20140730T200818Z-GR-AS15617-http_requests-no_report_id-0.1.0-probe.json)
 
 <!-- # References -->
 
