@@ -472,7 +472,7 @@ folders open for the device, then try re-plugging the SD card.
 
 ## Report bugs
 
-Lepidopter bugs, feauture requests and usability issues should be filled
+Lepidopter bugs, feauture requests and usability issues should be filed
 [here](https://github.com/TheTorProject/lepidopter/issues).
 
 ## Participate
@@ -488,7 +488,7 @@ list.
 Lepidopter distribution build scripts, and code is hosted [here]
 (https://github.com/TheTorProject/lepidopter). You are welcome to contribute
 by sending up patches or pull requests. Read on how you can
-[get involved](../../get-involved/) and reach us out.
+[get involved](/get-involved/) and reach out to us.
 
 # Sources
 
