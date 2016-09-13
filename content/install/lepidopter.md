@@ -548,6 +548,7 @@ connected in LAN.
 
 You may be able to access ooniprobe's web interface under the following URLs:
 
+* [http://lepidopter.local:8842](http://lepidopter.local:8842)
 * [http://lepidopter.lan:8842](http://lepidopter.lan:8842)
 * [http://lepidopter.home:8842](http://lepidopter.home:8842)
 * [http://lepidopter:8842](http://lepidopter:8842)
