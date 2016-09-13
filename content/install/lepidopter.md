@@ -472,7 +472,7 @@ folders open for the device, then try re-plugging the SD card.
 
 Lepidopter uses a mDNS (multicast DNS Service Discovery) (Avahi) to publish the
 SSH and ooniprobe web interface services on a local network with no extra
-configuration or the need to find out the IP address of lepidopter host.
+configuration or the need to find out the IP address of the Lepidopter host.
 
 ## Access ooniprobe's web interface
 
@@ -486,18 +486,26 @@ If you can't access ooniprobe's [web interface URL]
 
 ## Access lepidopter SSH service
 
-You should be able to access lepidopter's SSH service under the following
+You should be able to access Lepidopter's SSH service under the following
 hostname: `lepidopter.local`
 
 ## Service discovery install instructions
 
 ### Linux
 
-By default most Linux distributions (Debian, Fedora, Ubuntu, Archlinux) use the
-Avahi daemon by default. In case that your system doesn't come with the Avahi
-daemon pre-installed you should be able to install it via the package
-management of your distribution, the name of the package is usually something
-similar to `avahi-daemon`.
+Most Linux distributions (Debian, Fedora, Ubuntu, Archlinux) use the Avahi
+daemon by default. In case your system doesn't come with the Avahi daemon
+pre-installed you should be able to install it via the package manager of
+your distribution, the name of the package is usually something similar to
+`avahi-daemon`. You should be able to check if the service is running by using
+a command similar to:
+
+`systemctl status avahi-daemon`
+
+You should be able to see an `active (running)` service status.
+
+If the avahi service is not running try to start it with: `systemctl start
+avahi-daemon` or `service avahi-daemon start` depending on your distribution.
 
 ### Mac OSX/iOS
 
@@ -506,25 +514,65 @@ the Bonjour software.
 
 ### Windows
 
-By default Windows systems have no built-in support for mDNS/DNS-SD. However
-some third-party applications come bundled with the Bonjour software, service
-that supports automatic discovery of hosts in the local network.
+Recent Windows releases (Windows 10 and Windows 10 mobile) come with built in
+support for mDNS/DNS-SD services. However not all versions of Windows support
+these services and some third-party applications need to be installed
+(if not already installed) that come bundled with the Bonjour software; a
+service that supports automatic discovery of hosts in the local network.
 
-The applications that are bundled with the Bonjour software in Windows:
+If you have any of the following applications installed and can access
+ooniprobe's web interface you don't need to do anything, otherwise you
+will need to [download](https://support.apple.com/kb/dl999) and install
+Bonjour Print Services for Windows.
+
+Applications that are bundled with the Bonjour software in Windows:
 
 * Bonjour Print Services for Windows
 * Skype
 * iTunes
 * Adobe's Photoshop CS3
 
-Prior to installing any application you should first try to access ooniprobe's
-[web interface URL](http://lepidopter.local:8842) from your web browser.
+**Note**: Before installing any application you should first try to access
+ooniprobe's [web interface URL](http://lepidopter.local:8842) from your web
+browser.
+
+## Troubleshooting service discovery
+
+The `.local` domain extension is an officially reversed special use domain name
+and should not be resolvable by IPSs or other global DNS.
+By default avahi service is being disabled upon detection of a unicast DNS
+server running on the network that serves the top level domain `.local`.
+
+In some cases network routers use the `.lan` or `.home` domain for all devices
+connected in LAN.
+
+You may be able to access ooniprobe's web interface under the following URLs:
+
+* [http://lepidopter.lan:8842](http://lepidopter.lan:8842)
+* [http://lepidopter.home:8842](http://lepidopter.home:8842)
+* [http://lepidopter:8842](http://lepidopter:8842)
+
+If you are unable to access ooniprobe's web interface in any of the URLs above
+you should try to locate the Lepidopter's IP address in your network.
+
+### Find Lepidopter's IP address
+
+There are a number of applications and network tools that can help in finding
+out the IP address of Lepidopter in your network. You can use Adafruit's [Pi
+finder utility](https://github.com/adafruit/Adafruit-Pi-Finder/releases/latest)
+which can be installed in Linux, Mac OSX and Windows. Upon running the Pi
+finder utility you should be seeing the message `Found!` and view the detected
+IP address of Lepidopter located in the `IP Address` field.
+
+You can now use the IP address (found in the IP address field) and append the
+port number `:8842` (example: **`192.168.1.101:8842`**) to access ooniprobe's
+web interface in your web browser.
 
 # Community Information and Contributing
 
 ## Report bugs
 
-Lepidopter bugs, feauture requests and usability issues should be filed
+Lepidopter bugs, feature requests and usability issues should be filed
 [here](https://github.com/TheTorProject/lepidopter/issues).
 
 ## Participate
