@@ -478,10 +478,10 @@ configuration or the need to find out the IP address of the Lepidopter host.
 
 If you have the required dependencies you should be able to access
 ooniprobe web interface by entering the following URL to your web browser:
-[http://lepidopter.local:8842](http://lepidopter.local:8842)
+[http://lepidopter.local](http://lepidopter.local)
 
 If you can't access ooniprobe's [web interface URL]
-(http://lepidopter.local:8842) please follow the installation [instructions]
+(http://lepidopter.local) please follow the installation [instructions]
 (#service-discovery-install-instructions) related to your operating system.
 
 ## Access lepidopter SSH service
@@ -533,7 +533,7 @@ Applications that are bundled with the Bonjour software in Windows:
 * Adobe's Photoshop CS3
 
 **Note**: Before installing any application you should first try to access
-ooniprobe's [web interface URL](http://lepidopter.local:8842) from your web
+ooniprobe's [web interface URL](http://lepidopter.local) from your web
 browser.
 
 ## Troubleshooting service discovery
@@ -548,10 +548,10 @@ connected in LAN.
 
 You may be able to access ooniprobe's web interface under the following URLs:
 
-* [http://lepidopter.local:8842](http://lepidopter.local:8842)
-* [http://lepidopter.lan:8842](http://lepidopter.lan:8842)
-* [http://lepidopter.home:8842](http://lepidopter.home:8842)
-* [http://lepidopter:8842](http://lepidopter:8842)
+* [http://lepidopter.local](http://lepidopter.local)
+* [http://lepidopter.lan](http://lepidopter.lan)
+* [http://lepidopter.home](http://lepidopter.home)
+* [http://lepidopter](http://lepidopter)
 
 If you are unable to access ooniprobe's web interface in any of the URLs above
 you should try to locate the Lepidopter's IP address in your network.
@@ -565,9 +565,8 @@ which can be installed in Linux, Mac OSX and Windows. Upon running the Pi
 finder utility you should be seeing the message `Found!` and view the detected
 IP address of Lepidopter located in the `IP Address` field.
 
-You can now use the IP address (found in the IP address field) and append the
-port number `:8842` (example: **`192.168.1.101:8842`**) to access ooniprobe's
-web interface in your web browser.
+You can now use the IP address (found in the IP address field) to access
+ooniprobe's web interface in your web browser.
 
 # Community Information and Contributing
 
