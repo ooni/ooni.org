@@ -16,14 +16,20 @@ You can run and use ooniprobe by following the [installation instructions]
 
 Note that currently the pre-release is only available for Linux OSes.
 
+Upon successful installation you should be able to access ooniprobe in this
+URL: [http://localhost:8842](http://localhost:8842)
+
 If you have a Raspberry Pi device you can copy the image to an SD card, plug
 Raspberry Pi to a network and start using the ooniprobe's graphical interface
 in your favorite web browser. You can find detailed instructions on how to go
 through the installation process and access ooniprobe's graphical interface
 [here](https://ooni.torproject.org/install/lepidopter/)
 
-When you first visit ooniprobe web interface (in your web browser) you should
-be greeted by the setup wizard:
+After some minutes you should be able to access ooniprobe's web interface in
+the following URL: [http://lepidopter.local](http://lepidopter.local).
+
+When you first visit ooniprobe's web interface (in your web browser) you should
+be greeted by the setup wizard, similar to this:
 
 ![ooniprobe setup wizard]
 (/post/announcement-ooniprobe-v2/ooniprobe-setup-wizard.png)
