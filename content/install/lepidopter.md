@@ -74,13 +74,13 @@ If your laptop does not have an SD card slot, please ensure that you have an SD 
 ## Download the Lepidopter image
 
 * [Lepidopter image download]
-(https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip)
+(https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.1-beta-armel.img.zip)
 
 Consider downloading the [xz compressed image]
-(https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.xz)
-for a significantly reduced file size (ca. 114M smaller) compared to the zip
-archive. Note that this will require an extra program to be installed depending
-on your OS.
+(https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.1-beta-armel.img.xz)
+for a significantly reduced file size compared to the zip archive.
+Note that this will require an extra program to be installed depending on your
+OS.
 
 **The default username and password of the image is**: `lepidopter`
 
@@ -110,18 +110,18 @@ uid   Lepidopter Team (signing key)
 
 ### Verify the Lepidopter image
 
-Verify that the compressed image `lepidopter-alpha-armel.img.zip` matches its
-signature `lepidopter-alpha-armel.img.zip.asc` by running:
+Verify that the compressed image `lepidopter-v0.3.1-beta-armel.img.zip` matches its
+signature `lepidopter-v0.3.1-beta-armel.img.zip.asc` by running:
 
 ```
-gpg -v --verify lepidopter-alpha-armel.img.zip.asc
+gpg -v --verify lepidopter-v0.3.1-beta-armel.img.zip.asc
 ```
 
 You should look for the message `Good signature from "Lepidopter Team (signing
 key)"`:
 
 ```
-gpg: assuming signed data in `lepidopter-alpha-armel.img.zip'
+gpg: assuming signed data in `lepidopter-v0.3.1-beta-armel.img.zip'
 gpg: Signature made Sun 22 May 2016
 gpg:                using RSA key 0xBA56AC5A53E9C7A4
 gpg: using PGP trust model
@@ -152,7 +152,7 @@ Disk Image Writer or a terminal.
 ### Disk Image Writer
 
 **Step 1.** Download the **[Lepidopter
-image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip)**.
+image](https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.1-beta-armel.img.zip)**.
 
 **Step 2.** Right-click on the downloaded Lepidopter image and select **[Extract
 here]** to extract the image.
@@ -216,16 +216,16 @@ machine. If you specify the wrong device in the instructions below you could
 delete your primary Linux partition. Please be careful.
 
 **Step 1.** Download the [Lepidopter
-image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip).
+image](https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.1-beta-armel.img.zip).
 
 **Step 2.** Extract the image:
 
-   `unzip lepidopter-alpha-armel.img.zip`
+   `unzip lepidopter-v0.3.1-beta-armel.img.zip`
 
 If you have downloaded the [xz compressed image]
-(https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.xz):
+(https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.1-beta-armel.img.xz):
 
-   `xz --decompress --verbose --no-sparse lepidopter-alpha-armel.img.zip`
+   `xz --decompress --verbose --no-sparse lepidopter-v0.3.1-beta-armel.img.zip`
 
 **Step 3.** Run ```df -h``` to see which devices are currently mounted.
 
@@ -266,7 +266,7 @@ the name of the whole SD card as described above, not just a partition of it
 (for example, sdd, not sdds1 or sddp1, or mmcblk0 not mmcblk0p1).
 
 ```     
-dd bs=4M if=~/lepidopter-alpha-armel.img of=/dev/sdd
+dd bs=4M if=~/lepidopter-v0.3.1-beta-armel.img of=/dev/sdd
 ``` 
 
 Please note that block size set to 4M will work most of the time. If not, please try
@@ -294,7 +294,7 @@ Pi, and have fun!
 You can copy the Lepidopter image to your SD card through the following steps:
 
 **Step 1.** Download the **[Lepidopter
-image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip)**.
+image](https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.1-beta-armel.img.zip)**.
 
 **Step 2.** Double-click on the downloaded Lepidopter image to extract it.
 
@@ -354,11 +354,11 @@ path.
 You can copy the Lepidopter image to your SD card through the following steps:
 
 **Step 1.** Download the **[Lepidopter
-image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip)**.
+image](https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.1-beta-armel.img.zip)**.
 
 **Step 2.** Extract the image file from the downloaded .xz file, so you now
 have
-"lepidopter-alpha-armel.img".
+"lepidopter-v0.3.1-beta-armel.img".
 
 **Step 3.** Download
 [Win32DiskImager](http://sourceforge.net/projects/win32diskimager/) and
@@ -414,10 +414,10 @@ You might not be able to choose the device in Win32DiskImager on some notebooks,
 so this is a different way to achieve the same thing on a Windows machine.
 
 **Step 1.** Download the **[Lepidopter
-image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip)**.
+image](https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.1-beta-armel.img.zip)**.
 
 **Step 2.** Extract the image file from the downloaded .xz file, so you now have
-"lepidopter-alpha-armel.img".
+"lepidopter-v0.3.1-beta-armel.img".
 
 **Step 3.** Download [flashnul](http://shounen.ru/soft/flashnul/index.html).
 
@@ -455,11 +455,11 @@ right click on it and Run as Administrator.
 Make sure that you use the correct drive letter for the SD Card as that drive
 will be overwritten!
 
-   - ```C:\flashnul\flashnul.exe E: -L C:\temp\lepidopter-alpha-armel.img```
+   - ```C:\flashnul\flashnul.exe E: -L C:\temp\lepidopter-v0.3.1-beta-armel.img```
 
 **Step 10.** Where ```C:\flashnul\flashnul.exe``` is the location of the flashnul
-program; E: is the drive you want to overwrite, and C:\temp\lepidopter-alpha-
-armel.img is the location of the .img file.
+program; E: is the drive you want to overwrite, and
+`C:\temp\lepidopter-v0.3.1-beta-armel.img` is the location of the .img file.
 
 **Step 11.** Flashnul will give you a device summary and a caution message. Check
 the information to make sure you have selected the correct device, then type
