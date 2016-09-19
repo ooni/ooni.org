@@ -1,5 +1,5 @@
 ---
-date: "2015-09-15"
+date: "2016-06-24"
 title: "Lepidopter Installation: Help Guides and Resources"
 description: "Helpful resources and guides for getting started with the Lepidopter Raspberry Pi image"
 aliases: ["/lepidopter/lepidopter"]
@@ -82,14 +82,13 @@ for a significantly reduced file size (ca. 114M smaller) compared to the zip
 archive. Note that this will require an extra program to be installed depending
 on your OS.
 
-## Verify the Lepidopter image
+**The default username and password of the image is**: `lepidopter`
 
-To verify that the Lepidopter image is the right one, you will need to compare
-it with the key that has been signed by us.
+## Verify Lepidopter Raspberry Pi image
 
 ### Import the Lepidopter signing key
 
-From OONI web server:
+From the OONI web server:
 
 ```
 gpg --fetch-keys https://get.ooni.torproject.org/lepidopter/lepidopter-signing-key.asc
@@ -101,8 +100,7 @@ From a keyserver:
 gpg --keyserver pool.sks-keyservers.net --recv-keys 0xBA56AC5A53E9C7A4
 ```
 
-For additional security the fingerprint of the Lepidopter Team (signing key) is
-published here:
+Lepidopter team's fingerprint (image signing key) is published here:
 
 ```
 pub   4096R/0xBA56AC5A53E9C7A4 2016-05-22
@@ -358,7 +356,8 @@ You can copy the Lepidopter image to your SD card through the following steps:
 **Step 1.** Download the **[Lepidopter
 image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip)**.
 
-**Step 2.** Extract the image file from the downloaded .xz file, so you now have
+**Step 2.** Extract the image file from the downloaded .xz file, so you now
+have
 "lepidopter-alpha-armel.img".
 
 **Step 3.** Download
@@ -389,17 +388,21 @@ Wait for the Lepidopter image to get copied to your SD card...
 
 **Step 9.** Exit the imager and eject the SD card.
 
-**Step 10.** Insert your SD card into the **[MICRO SD CARD]** slot of your Raspberry Pi. 
+**Step 10.** Insert your SD card into the **[MICRO SD CARD]** slot of your
+Raspberry Pi. 
 
-**Step 11.** Connect your Raspberry Pi to power and to the internet (with an Ethernet cable). 
+**Step 11.** Connect your Raspberry Pi to power and to the internet (with an
+Ethernet cable). 
 
 That's all! From now on, your Raspberry Pi will automatically **run ooniprobe
-every day at 6am UTC**. The measurements will be sent directly to OONI's server,
+every day at 6am UTC**. The measurements will be sent directly to OONI's
+server,
 where they will be processed and published on **[OONI
 Explorer](https://explorer.ooni.torproject.org/world/)** (generally) within 24
 hours.
 
-**Note:** In Windows, the SD card will appear to only have a fairly small size once
+**Note:** In Windows, the SD card will appear to only have a fairly small size
+once
 written - about 55 to 75 MB. This is because most of the card has a partition
 that is formatted for the Linux operating system that the Raspberry Pi uses
 which is not visible in Windows. If you don't see a small directory with files
@@ -464,6 +467,28 @@ yes and press enter.
 
 If you get an access denied error, make sure to close all explorer windows or
 folders open for the device, then try re-plugging the SD card.
+
+# Community Information and Contributing
+
+## Report bugs
+
+Lepidopter bugs, feauture requests and usability issues should be filed
+[here](https://github.com/TheTorProject/lepidopter/issues).
+
+## Participate
+
+For people already running a Lepidopter probe and would like to follow up on
+operators specific discussion you are welcome to subscribe to the low volume
+[ooni-operators]
+(https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-operators) mailing
+list.
+
+## Contribute
+
+Lepidopter distribution build scripts, and code is hosted [here]
+(https://github.com/TheTorProject/lepidopter). You are welcome to contribute
+by sending up patches or pull requests. Read on how you can
+[get involved](/get-involved/) and reach out to us.
 
 # Sources
 
