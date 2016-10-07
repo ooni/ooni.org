@@ -253,14 +253,14 @@ share in the mobile phone market, where [*Airtel and MTN have the
 largest
 shares*](http://onlinesystems.zicta.zm:8585/statsfinal/ICT%20Indicators.html).
 
- | Network Coverage                        | 2010 | 2011 |  2012 | 2013 | 2014 | 2015 | Q1 - 2016|
- |-----------------------------------------|------|------| ------|----- | -----| -----| ---------|
- | Internet Points of Presence (Districts) |  -   |   -  |    -  |  99  |   -  |   -  |     -    |
- | PSTN Area Coverage (%)                  |  90  |   90 |    90 |  90  |   90 |   90 |     90   |
- | National Network Geographical Coverage  |      |      |       |      |      |      |          |  
- | Airtel Zambia                           |   -  |   -  |    -  | 42.7%| 42.7%| 42.7%|   42.7%  |
- | MTN Zambia                              |   -  | 36.6%|  37.5%| 39.4%| 31.7%| 45.4%|   43.5%  |
- | Zamtel                                  |   -  | 75.0%|  75.0%| 29.7%| 27.0%| 27.0%|   27.0%  |
+| Network Coverage                        | 2010 | 2011 |  2012 | 2013 | 2014 | 2015 | Q1 - 2016|
+|-----------------------------------------|------|------| ------|----- | -----| -----| ---------|
+| Internet Points of Presence (Districts) |  -   |   -  |    -  |  99  |   -  |   -  |     -    |
+| PSTN Area Coverage (%)                  |  90  |   90 |    90 |  90  |   90 |   90 |     90   |
+| National Network Geographical Coverage  |      |      |       |      |      |      |          |  
+| Airtel Zambia                           |   -  |   -  |    -  | 42.7%| 42.7%| 42.7%|   42.7%  |
+| MTN Zambia                              |   -  | 36.6%|  37.5%| 39.4%| 31.7%| 45.4%|   43.5%  |
+| Zamtel                                  |   -  | 75.0%|  75.0%| 29.7%| 27.0%| 27.0%|   27.0%  |
 
 *Source: Zambia Information and Communications Technology Authority,
 [*http://onlinesystems.zicta.zm:8585/statsfinal/ICT%20Indicators.html*](http://onlinesystems.zicta.zm:8585/statsfinal/ICT%20Indicators.html)*
@@ -302,12 +302,12 @@ subscriptions.
 [*35.6%*](http://onlinesystems.zicta.zm:8585/statsfinal/) of Zambia’s
 mobile phone subscribers use the internet in 2016, as illustrated below:
 
- | Indicator                   |  Number    |   Penetration Rate |
- | ----------------------------| -----------| -------------------|
- | Mobile Subscription         | 11,309,494 |   70.50%           |
- | Fixed Line Subscription     |  115,423   |   0.72%            |
- | Mobile Internet Users       |  5,715,493 |   35.60%           |
- | Fixed Internet Subscription |  35,960    |   0.22%            |
+| Indicator                   |  Number    |   Penetration Rate |
+| ----------------------------| -----------| -------------------|
+| Mobile Subscription         | 11,309,494 |   70.50%           |
+| Fixed Line Subscription     |  115,423   |   0.72%            |
+| Mobile Internet Users       |  5,715,493 |   35.60%           |
+| Fixed Internet Subscription |  35,960    |   0.22%            |
 
 *Source: Zambia Information and Communications Technology Authority,
 [*http://onlinesystems.zicta.zm:8585/statsfinal/*](http://onlinesystems.zicta.zm:8585/statsfinal/)
@@ -1369,19 +1369,19 @@ testing period based on DNS tampering, TCP/IP blocking, and various
 forms of HTTP blocking. These findings are summarized in the table
 below:
 
- | **Tested site**   | **DNS** | **HTTP-diff** | **HTTP-failure** | **TCP/IP blocking** | **CTRL failure rate** |
- | ------------------| --------|  -------------|  ----------------|   ------------------|   --------------------|
- | drugs-forum.com   |  0.0    |   0.0         |    0.0           |     12.0            |      0.0%             |
- | wzo.org.il        |  0.0    |   0.0         |    0.0           |     12.0            |      0.0%             |            
- | wzo.org.il        |  0.0    |   0.0         |    0.0           |     12.0            |      0.0%             |
- | cidh.org          |  0.0    |   0.0         |    0.0           |     12.0            |      0.06%            |
- | pof.com           |  0.0    |   0.0         |    0.0           |     12.0            |      0.36%            |
- | gayromeo.com      |  0.0    |   0.0         |    11.0          |     0.0             |      2.9%             |
- | pinterest.com     |  0.0    |   0.0         |    12.0          |     0.0             |      7.12%            |
- | weforum.org       |  1.0    |   0.0         |    11.0          |     0.0             |      7.11%            |
- | pornhub.com       |  0.0    |   0.0         |    12.0          |     0.0             |      13.9%            |
- | online-dating.org |  12.0   |   0.0         |    0.0           |     0.0             |      17.57%           |
- | proxyweb.net      |  0.0    |   0.0         |    0.0           |     12.0            |      65.3%            |
+| **Tested site**   | **DNS** | **HTTP-diff** | **HTTP-failure** | **TCP/IP blocking** | **CTRL failure rate** |
+| ------------------| --------|  -------------|  ----------------|   ------------------|   --------------------|
+| drugs-forum.com   |  0.0    |   0.0         |    0.0           |     12.0            |      0.0%             |
+| wzo.org.il        |  0.0    |   0.0         |    0.0           |     12.0            |      0.0%             |            
+| wzo.org.il        |  0.0    |   0.0         |    0.0           |     12.0            |      0.0%             |
+| cidh.org          |  0.0    |   0.0         |    0.0           |     12.0            |      0.06%            |
+| pof.com           |  0.0    |   0.0         |    0.0           |     12.0            |      0.36%            |
+| gayromeo.com      |  0.0    |   0.0         |    11.0          |     0.0             |      2.9%             |
+| pinterest.com     |  0.0    |   0.0         |    12.0          |     0.0             |      7.12%            |
+| weforum.org       |  1.0    |   0.0         |    11.0          |     0.0             |      7.11%            |
+| pornhub.com       |  0.0    |   0.0         |    12.0          |     0.0             |      13.9%            |
+| online-dating.org |  12.0   |   0.0         |    0.0           |     0.0             |      17.57%           |
+| proxyweb.net      |  0.0    |   0.0         |    0.0           |     12.0            |      65.3%            |
 
 The failure rate column in the table above shows the percentage of
 failed requests to the sites in question from OONI’s control vantage
