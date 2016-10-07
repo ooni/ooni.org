@@ -1,6 +1,6 @@
 ---
 title: "Zambia: Internet censorship during the 2016 general elections?"
-author: "Maria Xynou (OONI), Arturo Filasto (OONI), Moses Karanja (CIPIT), Arthur Gwagwa (CIPIT)"
+author: "Maria Xynou (OONI), Arturo Filastò (OONI), Moses Karanja (CIPIT), Arthur Gwagwa (CIPIT)"
 date: "2016-10-10"
 tags: ["zambia"]
 categories: ["report"]
@@ -98,7 +98,7 @@ general elections.
 
 The [*network measurement
 data*](https://explorer.ooni.torproject.org/country/ZM) collected as
-part of this study strongly indicates the presence of censorship
+part of this study indicates the presence of censorship
 equipment in Zambia’s MTN network, but such equipment was *not*
 identified based on the software tests run in the country.
 
@@ -238,12 +238,12 @@ with the exception of Zamtel, which is state-owned. Overall, Zambia has
 16 different Internet Service Providers (ISPs), and 3 mobile operators:
 Airtel, MTN and Zamtel.
 
-                               2010         2011         2012         2013         2014         2015         2016 Q1      2016 Q2
-  ---------------------------- ------------ ------------ ------------ ------------ ------------ ------------ ------------ ------------
-  Population-CSO Estimate      13,092,666   13,721,498   14,156,468   14,605,555   15,068,792   15,545,778   16,037,474   16,037,474
-  Number of Mobile Operators   3            3            3            3            3            3            3            3
-  Number of PSTN Operators     1            1            1            1            1            1            1            1
-  Number of Active ISPs        -            -            -            16           16           16           16           16
+|   | 2010 | 2011  | 2012 |  2013  | 2014 | 2015  | 2016 Q1 | 2016 Q2 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Population-CSO Estimate   | 13,092,666  | 13,721,498  | 14,156,468  | 14,605,555  | 15,068,792  | 15,545,778  | 16,037,474  | 16,037,474  |
+| Number of Mobile Operators   | 3  | 3  | 3  | 3  | 3  | 3  | 3  | 3  |
+| Number of PSTN Operators   | 1  | 1  | 1  | 1  | 1  | 1  | 1  | 1  |
+| Number of Active ISPs   | -  | -  | -  | 16  | 16  | 16  | 16  | 16  |
 
 *Source: Zambia Information and Communications Technology Authority,
 [*http://onlinesystems.zicta.zm:8585/statsfinal/ICT%20Indicators.html*](http://onlinesystems.zicta.zm:8585/statsfinal/ICT%20Indicators.html)*
@@ -253,14 +253,14 @@ share in the mobile phone market, where [*Airtel and MTN have the
 largest
 shares*](http://onlinesystems.zicta.zm:8585/statsfinal/ICT%20Indicators.html).
 
-  Network Coverage                          2010   2011    2012    2013    2014    2015    Q1 - 2016
-  ----------------------------------------- ------ ------- ------- ------- ------- ------- -----------
-  Internet Points of Presence (Districts)   -      -       -       99      -       -       -
-  PSTN Area Coverage (%)                    90     90      90      90      90      90      90
-  National Network Geographical Coverage                                                   
-  Airtel Zambia                                    -       -       42.7%   42.7%   42.7%   42.7%
-  MTN Zambia                                       36.6%   37.5%   39.4%   31.7%   45.4%   43.5%
-  Zamtel                                           75.0%   75.0%   29.7%   27.0%   27.0%   27.0%
+ | Network Coverage                        | 2010 | 2011 |  2012 | 2013 | 2014 | 2015 | Q1 - 2016|
+  ----------------------------------------- ------ ------  ------ ------  ------ -----  ---------
+ | Internet Points of Presence (Districts) |  -   |   -  |    -  |  99  |   -  |   -  |     -    |
+ | PSTN Area Coverage (%)                  |  90  |   90 |    90 |  90  |   90 |   90 |     90   |
+ | National Network Geographical Coverage  |      |      |       |      |      |      |          |  
+ | Airtel Zambia                           |   -  |   -  |    -  | 42.7%| 42.7%| 42.7%|   42.7%  |
+ | MTN Zambia                              |   -  | 36.6%|  37.5%| 39.4%| 31.7%| 45.4%|   43.5%  |
+ | Zamtel                                  |   -  | 75.0%|  75.0%| 29.7%| 27.0%| 27.0%|   27.0%  |
 
 *Source: Zambia Information and Communications Technology Authority,
 [*http://onlinesystems.zicta.zm:8585/statsfinal/ICT%20Indicators.html*](http://onlinesystems.zicta.zm:8585/statsfinal/ICT%20Indicators.html)*
@@ -302,12 +302,12 @@ subscriptions.
 [*35.6%*](http://onlinesystems.zicta.zm:8585/statsfinal/) of Zambia’s
 mobile phone subscribers use the internet in 2016, as illustrated below:
 
-  Indicator                     Number       Penetration Rate
-  ----------------------------- ------------ ------------------
-  Mobile Subscription           11,309,494   70.50%
-  Fixed Line Subscription       115,423      0.72%
-  Mobile Internet Users         5,715,493    35.60%
-  Fixed Internet Subscription   35,960       0.22%
+ | Indicator                   |  Number    |   Penetration Rate |
+  ----------------------------- ------------ --------------------
+ | Mobile Subscription         | 11,309,494 |   70.50%           |
+ | Fixed Line Subscription     |  115,423   |   0.72%            |
+ | Mobile Internet Users       |  5,715,493 |   35.60%           |
+ | Fixed Internet Subscription |  35,960    |   0.22%            |
 
 *Source: Zambia Information and Communications Technology Authority,
 [*http://onlinesystems.zicta.zm:8585/statsfinal/*](http://onlinesystems.zicta.zm:8585/statsfinal/)
@@ -902,8 +902,8 @@ to test lists include the following:
 -   The URLs cover topics of socio-political interest within the country
 
 -   The URLs are likely to be blocked because they include sensitive
-    > content (i.e. they touch upon sensitive issues or express
-    > political criticism)
+    content (i.e. they touch upon sensitive issues or express
+    political criticism)
 
 -   The URLs have been blocked in the past
 
@@ -928,8 +928,8 @@ to the Zambian context, and include a number of websites that express
 political criticism towards the PF party and report on human rights
 violations. Overall, [*90 different
 websites*](https://github.com/citizenlab/test-lists/blob/master/lists/zm.csv)
-- mostly grouped under the “political criticism” and “human rights”
-categories - are included in the Zambian test list, and were tested for
+, mostly grouped under the “political criticism” and “human rights”
+categories, are included in the Zambian test list, and were tested for
 censorship.
 
 A core limitation to the study is the *bias* in terms of the URLs that
@@ -937,14 +937,14 @@ were selected for testing. As the testing period covered Zambia’s 2016
 general elections, the URL selection criteria included the following:
 
 -   Websites that were more likely to be blocked, because their content
-    > expressed political criticism towards the ruling PF party.
+     expressed political criticism towards the ruling PF party.
 
 -   Websites of organizations that were known to have previously been
-    > blocked (such as zambiawatchdog.com) and were thus likely to be
-    > blocked again.
+     blocked (such as zambiawatchdog.com) and were thus likely to be
+     blocked again.
 
 -   Websites reporting on human rights restrictions and violations,
-    > reflecting criticism towards the ruling PF party.
+     reflecting criticism towards the ruling PF party.
 
 The above criteria reflect bias in terms of which URLs were selected for
 testing, as one of the core aims of this study was to examine whether
@@ -969,24 +969,21 @@ examine the following:
 -   Blocking of websites.
 
 -   Detection of systems responsible for censorship and
-    > traffic manipulation.
+     traffic manipulation.
 
 -   Reachability of circumvention tools (such as Tor, Psiphon,
-    > and Lantern) and sensitive domains.
+     and Lantern) and sensitive domains.
 
 As part of this study, OONI’s [*distribution for embedded
 devices*](https://ooni.torproject.org/install/lepidopter/) (called
 *Lepidopter*) was run from a local vantage point in Zambia, including
 the following software tests:
 
--   [*Web
-    > connectivity*](https://ooni.torproject.org/nettest/web-connectivity/)
+-   [*Web connectivity*](https://ooni.torproject.org/nettest/web-connectivity/)
 
--   [*HTTP invalid request
-    > line*](https://ooni.torproject.org/nettest/http-invalid-request-line/)
+-   [*HTTP invalid request line*](https://ooni.torproject.org/nettest/http-invalid-request-line/)
 
--   [*HTTP header field
-    > manipulation*](https://ooni.torproject.org/nettest/http-header-field-manipulation/)
+-   [*HTTP header field manipulation*](https://ooni.torproject.org/nettest/http-header-field-manipulation/)
 
 The web connectivity test was run with the aim of examining whether a
 set of URLs (included in both the “[*global test
@@ -1089,14 +1086,14 @@ Below are the conditions under which the following types of blocking are
 identified:
 
 -   **DNS blocking:** If the DNS responses (such as the IP addresses
-    > mapped to host names) do *not* match.
+     mapped to host names) do *not* match.
 
 -   **TCP/IP blocking:** If a TCP session to connect to websites was
-    > *not* established over the network of the user.
+     *not* established over the network of the user.
 
 -   **HTTP blocking:** If the HTTP request over the user’s network
-    > failed, or the HTTP status codes don’t match, or all of the
-    > following apply:
+     failed, or the HTTP status codes don’t match, or all of the
+     following apply:
 
     -   The body length of compared websites (over the control server
         > and the network of the user) differs by some percentage
@@ -1284,20 +1281,20 @@ The initial processing of network measurements enables the following:
 -   Attributing measurements to a specific network within a country.
 
 -   Distinguishing measurements based on the specific tests that were
-    > run for their collection.
+     run for their collection.
 
 -   Distinguishing between “normal” and “anomalous” measurements (the
-    > latter indicating that a form of network tampering is
-    > likely present).
+     latter indicating that a form of network tampering is
+     likely present).
 
 -   Identifying the type of network interference based on a set of
-    > heuristics for DNS tampering, TCP/IP blocking, and HTTP blocking.
+     heuristics for DNS tampering, TCP/IP blocking, and HTTP blocking.
 
 -   Identifying block pages based on a set of heuristics for
-    > HTTP blocking.
+     HTTP blocking.
 
 -   Identifying the presence of “middle boxes” (such as Blue Coat)
-    > within tested networks.
+     within tested networks.
 
 However, false positives and false negatives emerge within the processed
 data due to a number of reasons. As explained previously (section on
@@ -1372,18 +1369,19 @@ testing period based on DNS tampering, TCP/IP blocking, and various
 forms of HTTP blocking. These findings are summarized in the table
 below:
 
-  **Tested site**     **DNS**   **HTTP-diff**   **HTTP-failure**   **TCP/IP blocking**   **CTRL failure rate**
-  ------------------- --------- --------------- ------------------ --------------------- -----------------------
-  drugs-forum.com     0.0       0.0             0.0                12.0                  0.0%
-  wzo.org.il          0.0       0.0             0.0                12.0                  0.0%
-  cidh.org            0.0       0.0             0.0                12.0                  0.06%
-  pof.com             0.0       0.0             0.0                12.0                  0.36%
-  gayromeo.com        0.0       0.0             11.0               0.0                   2.9%
-  pinterest.com       0.0       0.0             12.0               0.0                   7.12%
-  weforum.org         1.0       0.0             11.0               0.0                   7.11%
-  pornhub.com         0.0       0.0             12.0               0.0                   13.9%
-  online-dating.org   12.0      0.0             0.0                0.0                   17.57%
-  proxyweb.net        0.0       0.0             0.0                12.0                  65.3%
+ | **Tested site**   | **DNS** | **HTTP-diff** | **HTTP-failure** | **TCP/IP blocking** | **CTRL failure rate** |
+  ------------------- ---------  --------------  -----------------   ------------------   ----------------------
+ | drugs-forum.com   |  0.0    |   0.0         |    0.0           |     12.0            |      0.0%             |
+ | wzo.org.il        |  0.0    |   0.0         |    0.0           |     12.0            |      0.0%             |            
+ | wzo.org.il        |  0.0    |   0.0         |    0.0           |     12.0            |      0.0%             |
+ | cidh.org          |  0.0    |   0.0         |    0.0           |     12.0            |      0.06%            |
+ | pof.com           |  0.0    |   0.0         |    0.0           |     12.0            |      0.36%            |
+ | gayromeo.com      |  0.0    |   0.0         |    11.0          |     0.0             |      2.9%             |
+ | pinterest.com     |  0.0    |   0.0         |    12.0          |     0.0             |      7.12%            |
+ | weforum.org       |  1.0    |   0.0         |    11.0          |     0.0             |      7.11%            |
+ | pornhub.com       |  0.0    |   0.0         |    12.0          |     0.0             |      13.9%            |
+ | online-dating.org |  12.0   |   0.0         |    0.0           |     0.0             |      17.57%           |
+ | proxyweb.net      |  0.0    |   0.0         |    0.0           |     12.0            |      65.3%            |
 
 The failure rate column in the table above shows the percentage of
 failed requests to the sites in question from OONI’s control vantage
