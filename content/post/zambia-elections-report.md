@@ -254,7 +254,7 @@ largest
 shares*](http://onlinesystems.zicta.zm:8585/statsfinal/ICT%20Indicators.html).
 
  | Network Coverage                        | 2010 | 2011 |  2012 | 2013 | 2014 | 2015 | Q1 - 2016|
-  ----------------------------------------- ------ ------  ------ ------  ------ -----  ---------
+ |-----------------------------------------|------|------| ------|----- | -----| -----| ---------|
  | Internet Points of Presence (Districts) |  -   |   -  |    -  |  99  |   -  |   -  |     -    |
  | PSTN Area Coverage (%)                  |  90  |   90 |    90 |  90  |   90 |   90 |     90   |
  | National Network Geographical Coverage  |      |      |       |      |      |      |          |  
@@ -303,7 +303,7 @@ subscriptions.
 mobile phone subscribers use the internet in 2016, as illustrated below:
 
  | Indicator                   |  Number    |   Penetration Rate |
-  ----------------------------- ------------ --------------------
+ | ----------------------------| -----------| -------------------|
  | Mobile Subscription         | 11,309,494 |   70.50%           |
  | Fixed Line Subscription     |  115,423   |   0.72%            |
  | Mobile Internet Users       |  5,715,493 |   35.60%           |
@@ -1370,7 +1370,7 @@ forms of HTTP blocking. These findings are summarized in the table
 below:
 
  | **Tested site**   | **DNS** | **HTTP-diff** | **HTTP-failure** | **TCP/IP blocking** | **CTRL failure rate** |
-  ------------------- ---------  --------------  -----------------   ------------------   ----------------------
+ | ------------------| --------|  -------------|  ----------------|   ------------------|   --------------------|
  | drugs-forum.com   |  0.0    |   0.0         |    0.0           |     12.0            |      0.0%             |
  | wzo.org.il        |  0.0    |   0.0         |    0.0           |     12.0            |      0.0%             |            
  | wzo.org.il        |  0.0    |   0.0         |    0.0           |     12.0            |      0.0%             |
