@@ -6,7 +6,6 @@ tags: ["zambia"]
 categories: ["report"]
 ---
 
-
 ![Zambia flag](/post/zambia-elections/zambia-flag.png)
 
 A research study by the Open Observatory of Network Interference
