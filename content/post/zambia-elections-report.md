@@ -1096,7 +1096,7 @@ identified:
      following apply:
 
     -   The body length of compared websites (over the control server
-        > and the network of the user) differs by some percentage
+        and the network of the user) differs by some percentage
 
     -   The HTTP headers names do not match
 
