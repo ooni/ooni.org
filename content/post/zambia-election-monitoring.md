@@ -95,11 +95,12 @@ However, it remains unclear why connections to other websites, such as
 that of Pinterest, may have been tampered with during Zambia’s 2016
 general elections.
 
-The [*network measurement
-data*](https://explorer.ooni.torproject.org/country/ZM) collected as
-part of this study indicates the presence of censorship
-equipment in Zambia’s MTN network, but such equipment was *not*
-identified based on the software tests run in the country.
+The [*network tests run in Zambia*](https://explorer.ooni.torproject.org/country/ZM)
+aimed at identifying "middle boxes" capable of performing internet censorship,
+did not reveal the presence of censorship equipment.
+However, this does not mean that censorship equipment is not present in the
+country, but just that these particular tests were not able to highlight it's
+presence.
 
 Introduction
 ============
@@ -141,7 +142,7 @@ from a local vantage point in Zambia, based on a set of [*OONI software
 tests*](https://github.com/TheTorProject/ooni-spec) designed to examine
 whether a set of websites were blocked, and whether systems that could
 be responsible for internet censorship and surveillance were present in
-the tested network (MTN Zambia).
+the tested network ([MTN Zambia](https://en.wikipedia.org/wiki/MTN_Group)).
 
 The aim of this study is to increase transparency about potential
 internet controls in Zambia which might have interfered with the
@@ -201,8 +202,8 @@ population is
 [*Protestant*](https://www.cia.gov/library/publications/the-world-factbook/geos/za.html),
 while [*smaller
 percentages*](https://www.cia.gov/library/publications/the-world-factbook/geos/za.html)
-of the population are Roman Catholic, Muslim, Buddhist, Hindu and Bahá'í
-. Despite the presence of diverse ethnic and religious groups, civil war
+of the population are Roman Catholic, Muslim, Buddhist, Hindu and Bahá'í.
+Despite the presence of diverse ethnic and religious groups, civil war
 has been prevented in the country. Xenophobic violence however has been
 an issue, recently resulting in the [*death of
 Rwandans*](http://www.bbc.com/news/world-africa-36092917) who were
@@ -229,7 +230,7 @@ University of Zambia in the early 1990s. Today, three operators provide
 Zambia’s national fiber backbone: [*Zambia Telecommunications Ltd
 (Zamtel)*](http://www.zamtel.zm/) and [*Zambia Electricity Supply
 Corporation Ltd (ZESCO)*](http://www.zesco.co.zm/) - both of which are
-state-owned, as well as [*Copperbelt Energy Corporation
+state-owned - as well as [*Copperbelt Energy Corporation
 (CEC)*](http://cecinvestor.com/), which is privately-owned.
 
 All internet and mobile service providers in Zambia are privately-owned,
@@ -635,7 +636,7 @@ Zambia’s 2016 general elections and constitutional referendum
 
 Zambia has a [*reputation for political
 stability*](http://www.bbc.com/news/world-africa-14112449), especially
-in comparison to its neighbours, governed by a unitary presidential
+in comparison to its neighbours, being governed by a unitary presidential
 republic.
 
 The 2011 elections
@@ -829,7 +830,7 @@ URLs - along with [*other
 URLs*](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)
 that are commonly accessed around the world - were tested for blocking
 based on OONI’s free software tests. Such tests were run from a local
-vantage point (MTN) in Zambia (AS 36962), and they also examined whether
+vantage point (the ISP MTN) in Zambia (AS 36962), and they also examined whether
 systems that are responsible for censorship, surveillance and traffic
 manipulation were present in the tested network. Once network
 measurement data was collected from these tests, the data was
@@ -917,8 +918,8 @@ containing URLs to be tested for blocking. The added URLs are specific
 to the Zambian context, and include a number of websites that express
 political criticism towards the PF party and report on human rights
 violations. Overall, [*90 different
-websites*](https://github.com/citizenlab/test-lists/blob/master/lists/zm.csv)
-, mostly grouped under the “political criticism” and “human rights”
+websites*](https://github.com/citizenlab/test-lists/blob/master/lists/zm.csv),
+mostly grouped under the “political criticism” and “human rights”
 categories, are included in the Zambian test list, and were tested for
 censorship.
 
@@ -1240,8 +1241,8 @@ Explorer*](https://explorer.ooni.torproject.org/world/) or through
 OONI’s [*public list of
 measurements*](https://measurements.ooni.torproject.org/).
 
-OONI processes the above types of data with the aim of deriving meaning
-from the collected measurements and, specifically, in an attempt to
+The OONI pipeline processes the above types of data with the aim of deriving
+meaning from the collected measurements and, specifically, in an attempt to
 answer the following types of questions:
 
 -   Which types of OONI tests were run?
