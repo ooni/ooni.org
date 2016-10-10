@@ -7,7 +7,7 @@ categories: ["report"]
 ---
 
 
-![Zambia flag](/post/zambia/alexa-traffic-ranks.png)
+![Zambia flag](/post/zambia-elections/zambia-flag.png)
 
 A research study by the Open Observatory of Network Interference
 (OONI) and Strathmore University’s Centre for Intellectual Property
@@ -538,7 +538,7 @@ packets were being injected by DPI device to terminate connections to
 [*www.zambiawatchdog.com*](http://www.zambiawatchdog.com), leading to
 the site being inaccessible.
 
-![](media/image04.png){width="6.5in" height="4.888888888888889in"}
+![Zambia report data](/post/zambia-elections/old-report-data.png)
 
 *Source: Open Observatory of Network Interference (OONI), “Zambia, a
 country under Deep Packet Inspection”,
@@ -616,7 +616,7 @@ methods and tools to identify instances of Blue Coat ProxySG and
 PacketShaper devices around the world. The research findings show the
 presence of Blue Coat PacketShaper in Zambia, as illustrated below:
 
-![](media/image08.png){width="6.5in" height="4.5in"}
+![BlueCoat](/post/zambia-elections/blue-coat.png)
 
 *Source: Citizen Lab, “Some Devices Wander By Mistake: PLANET BLUE COAT
 REDUX”,
@@ -712,7 +712,7 @@ as “calm and peaceful”, while including a tight competition between the
 PF and the UPND. A total of nine candidates registered to run for the
 presidency, as illustrated below:
 
-![](media/image06.png){width="6.5in" height="3.4166666666666665in"}
+![Zambia elections](/post/zambia-elections/election-results.png)
 
 *Source: Electoral Commission of Zambia, General Election of 2016,
 [*https://www.elections.org.zm/general\_election\_2016.php*](https://www.elections.org.zm/general_election_2016.php)*
@@ -722,7 +722,7 @@ five-year term, beating the UPND again with a very close margin. The
 chart below illustrates that the PF and UPND acquired the vast majority
 of votes within Zambia:
 
-![](media/image09.png){width="6.5in" height="4.182292213473316in"}
+![Zambia elections graph](/post/zambia-elections/election-graph.png)
 
 *Source: Electoral Commission of Zambia, General Election 2016,
 [*https://www.elections.org.zm/general\_election\_2016.php*](https://www.elections.org.zm/general_election_2016.php)*
