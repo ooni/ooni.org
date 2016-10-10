@@ -6,7 +6,7 @@ tags: ["zambia"]
 categories: ["report"]
 ---
 
-![Zambia flag](/post/zambia-elections/zambia-flag.png)
+![Zambia flag](/post/zambia-election-monitoring/zambia-flag.png)
 
 A research study by the Open Observatory of Network Interference
 (OONI) and Strathmore University’s Centre for Intellectual Property
@@ -14,55 +14,55 @@ and Information Technology Law (CIPIT).
 
 **Table of contents**
 
- [*Key Findings*](#key-findings)
+* [*Key Findings*](#key-findings)
 
- [*Introduction*](#introduction)
+* [*Introduction*](#introduction)
 
- [*Background*](#background)
+* [*Background*](#background)
 
- [*Network landscape and internet
+* [*Network landscape and internet
  penetration*](#network-landscape-and-internet-penetration)
 
- [*Legal environment*](#legal-environment)
+* [*Legal environment*](#legal-environment)
 
- [*Freedom of expression*](#freedom-of-expression)
+    * [*Freedom of expression*](#freedom-of-expression)
 
- [*Press freedom*](#press-freedom)
+    * [*Press freedom*](#press-freedom)
 
- [*Access to information*](#access-to-information)
+    * [*Access to information*](#access-to-information)
 
- [*Privacy*](#privacy)
+    * [*Privacy*](#privacy)
 
- [*Censorship and surveillance*](#censorship-and-surveillance)
+    * [*Censorship and surveillance*](#censorship-and-surveillance)
 
- [*Previous cases of internet censorship and
+* [*Previous cases of internet censorship and
  surveillance*](#previous-cases-of-internet-censorship-and-surveillance)
 
- [*Zambia’s 2016 general elections and constitutional
+* [*Zambia’s 2016 general elections and constitutional
  referendum*](#zambias-2016-general-elections-and-constitutional-referendum)
 
- [*Examining internet censorship during Zambia’s 2016 general
+* [*Examining internet censorship during Zambia’s 2016 general
  elections*](#examining-internet-censorship-during-zambias-2016-general-elections)
 
- [*Methodology*](#methodology)
+    * [*Methodology*](#methodology)
 
- [*Creation of a Zambian test list*](#creation-of-a-zambian-test-list)
+        * [*Creation of a Zambian test list*](#creation-of-a-zambian-test-list)
 
- [*OONI network measurements*](#ooni-network-measurements)
+        * [*OONI network measurements*](#ooni-network-measurements)
 
- [*Web connectivity*](#web-connectivity)
+          * [*Web connectivity*](#web-connectivity)
 
- [*HTTP invalid request line*](#http-invalid-request-line)
+          * [*HTTP invalid request line*](#http-invalid-request-line)
 
- [*HTTP header field manipulation*](#http-header-field-manipulation)
+          * [*HTTP header field manipulation*](#http-header-field-manipulation)
 
- [*Data analysis*](#data-analysis)
+        * [*Data analysis*](#data-analysis)
 
- [*Findings*](#findings)
+* [*Findings*](#findings)
 
- [*Acknowledgement of limitations*](#acknowledgement-of-limitations)
+    * [*Acknowledgement of limitations*](#acknowledgement-of-limitations)
 
- [*Conclusion*](#conclusion)
+* [*Conclusion*](#conclusion)
 
 Key Findings
 ============
@@ -237,22 +237,21 @@ with the exception of Zamtel, which is state-owned. Overall, Zambia has
 16 different Internet Service Providers (ISPs), and 3 mobile operators:
 Airtel, MTN and Zamtel.
 
-|   | 2010 | 2011  | 2012 |  2013  | 2014 | 2015  | 2016 Q1 | 2016 Q2 |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Population-CSO Estimate   | 13,092,666  | 13,721,498  | 14,156,468  | 14,605,555  | 15,068,792  | 15,545,778  | 16,037,474  | 16,037,474  |
-| Number of Mobile Operators   | 3  | 3  | 3  | 3  | 3  | 3  | 3  | 3  |
-| Number of PSTN Operators   | 1  | 1  | 1  | 1  | 1  | 1  | 1  | 1  |
-| Number of Active ISPs   | -  | -  | -  | 16  | 16  | 16  | 16  | 16  |
+|   | 2010 | 2011  | 2012 |  2013  | 2014 | 2015  | 2016 Q1-2 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Population-CSO Estimate   | 13,092,666  | 13,721,498  | 14,156,468  | 14,605,555  | 15,068,792  | 15,545,778  | 16,037,474  |
+| Number of Mobile Operators   | 3  | 3  | 3  | 3  | 3  | 3  | 3  |
+| Number of PSTN Operators   | 1  | 1  | 1  | 1  | 1  | 1  | 1  |
+| Number of Active ISPs   | -  | -  | -  | 16  | 16  | 16  | 16  |
 
-*Source: Zambia Information and Communications Technology Authority,
-[*http://onlinesystems.zicta.zm:8585/statsfinal/ICT%20Indicators.html*](http://onlinesystems.zicta.zm:8585/statsfinal/ICT%20Indicators.html)*
+Source: [Zambia Information and Communications Technology Authority](http://onlinesystems.zicta.zm:8585/statsfinal/ICT%20Indicators.html)
 
 Zamtel has the largest share of internet subscriptions, but the smallest
 share in the mobile phone market, where [*Airtel and MTN have the
 largest
 shares*](http://onlinesystems.zicta.zm:8585/statsfinal/ICT%20Indicators.html).
 
-| Network Coverage                        | 2010 | 2011 |  2012 | 2013 | 2014 | 2015 | Q1 - 2016|
+| Network Coverage                        | 2010 | 2011 |  2012 | 2013 | 2014 | 2015 | 2016 Q1 |
 |-----------------------------------------|------|------| ------|----- | -----| -----| ---------|
 | Internet Points of Presence (Districts) |  -   |   -  |    -  |  99  |   -  |   -  |     -    |
 | PSTN Area Coverage (%)                  |  90  |   90 |    90 |  90  |   90 |   90 |     90   |
@@ -261,8 +260,7 @@ shares*](http://onlinesystems.zicta.zm:8585/statsfinal/ICT%20Indicators.html).
 | MTN Zambia                              |   -  | 36.6%|  37.5%| 39.4%| 31.7%| 45.4%|   43.5%  |
 | Zamtel                                  |   -  | 75.0%|  75.0%| 29.7%| 27.0%| 27.0%|   27.0%  |
 
-*Source: Zambia Information and Communications Technology Authority,
-[*http://onlinesystems.zicta.zm:8585/statsfinal/ICT%20Indicators.html*](http://onlinesystems.zicta.zm:8585/statsfinal/ICT%20Indicators.html)*
+Source: [Zambia Information and Communications Technology Authority](http://onlinesystems.zicta.zm:8585/statsfinal/ICT%20Indicators.html)
 
 Internet penetration in Zambia is currently limited to about
 [*21%*](http://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx)
@@ -308,12 +306,9 @@ mobile phone subscribers use the internet in 2016, as illustrated below:
 | Mobile Internet Users       |  5,715,493 |   35.60%           |
 | Fixed Internet Subscription |  35,960    |   0.22%            |
 
-*Source: Zambia Information and Communications Technology Authority,
-[*http://onlinesystems.zicta.zm:8585/statsfinal/*](http://onlinesystems.zicta.zm:8585/statsfinal/)
-*
+Source: [Zambia Information and Communications Technology Authority](http://onlinesystems.zicta.zm:8585/statsfinal/)
 
-[*Blackberry devices appear to be used the
-most*](https://freedomhouse.org/sites/default/files/resources/FOTN%202015_Zambia.pdf)
+[*Blackberry devices appear to be used the most*](https://freedomhouse.org/sites/default/files/resources/FOTN%202015_Zambia.pdf)
 due to their cheap subscription fees, while the increasing number of
 mobile internet users and [*government cybercafe
 regulations*](https://www.lusakatimes.com/2012/02/24/government-clamp-illegal-internet-cafs-zambia/)
@@ -342,31 +337,32 @@ Rights*](https://www.elections.org.zm/media/the-referendum-question-mobileversio
 which is included in Part III of Zambia’s Constitution. According to
 Article 21 of the Bill of Rights:
 
-*“(1) A person has the right to freedom of expression which includes --*
-
-(a) *freedom to hold an opinion;*
-
-(b) *freedom to receive or impart information or ideas;*
-
-(c) *freedom of artistic creativity;*
-
-(d) *academic freedom; and*
-
-(e) *freedom of scientific and technological research, as prescribed.”*
+> (1) A person has the right to freedom of expression which includes --
+>
+> (a) freedom to hold an opinion;
+>
+> (b) freedom to receive or impart information or ideas;
+>
+> (c) freedom of artistic creativity;
+>
+> (d) academic freedom; and
+>
+> (e) freedom of scientific and technological research, as prescribed.
 
 Clause 2 of Article 21 of the Bill of Rights specifies the conditions
 under which freedom of expression is restricted:
 
-*“(2) Clause (1) does not extend to --*
-
-(a) *conduct or statements which incite war, genocide, crimes against
-    > humanity or other forms of violence; or*
-
-(b) *statements which --*
-
-*(i) vilify or disparage others; or*
-
-*(ii) incite hatred.”*
+> *(2) Clause (1) does not extend to --*
+>
+> (a) conduct or statements which incite war, genocide, crimes against
+>
+>    > humanity or other forms of violence; or
+>
+> (b) *statements which --*
+>
+> (i) vilify or disparage others; or
+>
+> (ii) incite hatred.
 
 While freedom of expression is guaranteed under Zambia’s Constitution,
 in practice this right can be limited by broad interpretations of laws
@@ -401,7 +397,7 @@ various statutes. Zambia’s [*Penal
 Code*](http://www.parliament.gov.zm/sites/default/files/documents/acts/Penal%20Code%20Act.pdf),
 for example, includes clauses that criminalize the defamation of the
 president and allow the president to ban publications that are
-considered to be “*contrary to the public interest*”.
+considered to be “contrary to the public interest”.
 
 Access to information
 ---------------------
@@ -472,15 +468,15 @@ Monitoring and Coordination Centre.
 
 Part XIV (“Cyber Inspectors”) of the Act details the appointment and
 powers of cyber inspectors. According to Article 94, a cyber inspector
-may “*monitor and inspect any website or activity on an information
+may “monitor and inspect any website or activity on an information
 system in the public domain and report any unlawful activity to the
-appropriate authority*”.
+appropriate authority”.
 
 Pornography is prohibited under Article 102 of Part XV (“Cyber crime”)
 of the Act, according to which a fine and/or imprisonment can be imposed
-on any person that “ *procures any pornography through a computer system
-for oneself or for another person*”, or “*possesses any pornography in a
-computer system or on a computer data storage medium*”.
+on any person that “procures any pornography through a computer system
+for oneself or for another person”, or “possesses any pornography in a
+computer system or on a computer data storage medium”.
 
 Previous cases of internet censorship and surveillance
 ======================================================
@@ -537,12 +533,10 @@ packets were being injected by DPI device to terminate connections to
 [*www.zambiawatchdog.com*](http://www.zambiawatchdog.com), leading to
 the site being inaccessible.
 
-![Zambia report data](/post/zambia-elections/old-report-data.png)
+![Zambia report data](/post/zambia-election-monitoring/old-report-data.png)
 
-*Source: Open Observatory of Network Interference (OONI), “Zambia, a
-country under Deep Packet Inspection”,
-[*https://ooni.torproject.org/post/zambia/*](https://ooni.torproject.org/post/zambia/)
-*
+Source: Open Observatory of Network Interference (OONI), [“Zambia, a
+country under Deep Packet Inspection”](https://ooni.torproject.org/post/zambia/)
 
 Initially, only unencrypted connections to Zambian Watchdog’s website
 were found to be blocked, but further
@@ -615,11 +609,10 @@ methods and tools to identify instances of Blue Coat ProxySG and
 PacketShaper devices around the world. The research findings show the
 presence of Blue Coat PacketShaper in Zambia, as illustrated below:
 
-![BlueCoat](/post/zambia-elections/blue-coat.png)
+![BlueCoat](/post/zambia-election-monitoring/blue-coat.png)
 
-*Source: Citizen Lab, “Some Devices Wander By Mistake: PLANET BLUE COAT
-REDUX”,
-[*https://citizenlab.org/storage/bluecoat/CitLab-PlanetBlueCoatRedux-FINAL.pdf*](https://citizenlab.org/storage/bluecoat/CitLab-PlanetBlueCoatRedux-FINAL.pdf)*
+Source: Citizen Lab, [“Some Devices Wander By Mistake: PLANET BLUE COAT
+REDUX”](https://citizenlab.org/storage/bluecoat/CitLab-PlanetBlueCoatRedux-FINAL.pdf)
 
 Numerous
 [*reports*](http://techpresident.com/news/wegov/24434/zambian-president-admits-spying-fellow-officials)
@@ -711,20 +704,18 @@ as “calm and peaceful”, while including a tight competition between the
 PF and the UPND. A total of nine candidates registered to run for the
 presidency, as illustrated below:
 
-![Zambia elections](/post/zambia-elections/election-results.png)
+![Zambia elections](/post/zambia-election-monitoring/election-results.png)
 
-*Source: Electoral Commission of Zambia, General Election of 2016,
-[*https://www.elections.org.zm/general\_election\_2016.php*](https://www.elections.org.zm/general_election_2016.php)*
+Source: [Electoral Commission of Zambia, General Election of 2016](https://www.elections.org.zm/general_election_2016.php)
 
 Edgar Lungu of the PF won the 2016 elections and was re-elected for a
 five-year term, beating the UPND again with a very close margin. The
 chart below illustrates that the PF and UPND acquired the vast majority
 of votes within Zambia:
 
-![Zambia elections graph](/post/zambia-elections/election-graph.png)
+![Zambia elections graph](/post/zambia-election-monitoring/election-graph.png)
 
-*Source: Electoral Commission of Zambia, General Election 2016,
-[*https://www.elections.org.zm/general\_election\_2016.php*](https://www.elections.org.zm/general_election_2016.php)*
+Source: [Electoral Commission of Zambia, General Election 2016](https://www.elections.org.zm/general_election_2016.php)
 
 While the PF and UPND each acquired a similar share of the total votes
 in the presidential elections, the PF
@@ -778,7 +769,7 @@ dictates the process of future amendments. Specifically, the
 Bill of Rights would include amendments to the “Civil and Political
 Rights” section, and the addition of the “Economic, Social, Cultural and
 Environmental Rights” and “Further and Special Rights” sections. For the
-referendum to pass, a majority ‘*yes*’ vote was required, along with a
+referendum to pass, a majority ‘yes’ vote was required, along with a
 turnout of *at least* 50% eligible voters.
 
 The referendum was criticised in advance by media organizations, who
@@ -1398,7 +1389,7 @@ more likely to have been blocked during the testing period than other
 sites, such as proxyweb.net, which present higher failure rates.
 
 The
-i[*naccessibility*](https://explorer.ooni.torproject.org/measurement/20160824T063105Z_AS36962_xgPga384HayLGE1UZO4nqEFOGyDRgbSDcAIHlRSVg2NKArocym?input=http:%2F%2Fgayromeo.com)
+[*inaccessibility*](https://explorer.ooni.torproject.org/measurement/20160824T063105Z_AS36962_xgPga384HayLGE1UZO4nqEFOGyDRgbSDcAIHlRSVg2NKArocym?input=http:%2F%2Fgayromeo.com)
 of gayromeo.com, an online dating website for Lesbian, Gay, Bisexual,
 and Transgender (LGBT) communities around the world, might potentially
 be attributed to the prohibition of same-sex activity in Zambia.
@@ -1530,15 +1521,15 @@ and [*Electronic Communications and Transactions Act
 the blocking of such sites can potentially be legally justified.
 
 Pinterest was also
-[*found*](https://explorer.ooni.torproject.org/country/ZM) to be
-inaccessible, as well as the websites of the World Economic Forum, the
-Organization of American States (OAS) and the World Zionist
-Organization. However, the motivation and legal justification behind
-these possible censorship events remains unclear. On a positive note,
-the websites of Zambia’s opposition members and the news outlets that
-were previously censored between 2013 and 2014 were *not* found to be
-blocked during this testing period.
+[*found*](http://explorer.ooni.torproject.org/measurement/20160813T063121Z_AS36962_mM85nQxBrOZgZd6A5Y0nP1WlglXJXt56GxnGsbDd0AicF56tpO?input=https:%2F%2Fpinterest.com)
+to be inaccessible, as well as the websites of the World Economic Forum, the
+Organization of American States (OAS) and the World Zionist Organization.
+However, the motivation and legal justification behind these possible
+censorship events remains unclear. On a positive note, the websites of Zambia’s
+opposition members and the news outlets that were previously censored between
+2013 and 2014 were *not* found to be blocked during this testing period.
 
-OONI and the CIPIT encourage transparency around internet
-controls, particularly during election periods, to help enhance the
-safeguard of human rights and democratic processes.
+[OONI](https://ooni.torproject.org/) and the [CIPIT](https://www.cipit.org/)
+encourage transparency around internet controls, particularly during election
+periods, to help enhance the safeguard of human rights and democratic
+processes.
