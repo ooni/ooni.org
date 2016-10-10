@@ -1397,7 +1397,7 @@ be attributed to the prohibition of same-sex activity in Zambia.
 Sections 155 through 157 of Zambia’s [*Penal
 Code*](http://www.parliament.gov.zm/sites/default/files/documents/acts/Penal%20Code%20Act.pdf)
 prohibit homosexual activity and impose a penalty of up to fourteen
-years of imprisonment. Similarly, both online-dating.org and pof.com/
+years of imprisonment. Similarly, both online-dating.org and pof.com
 may have been blocked for supporting homosexual dating, though
 online-dating.org also presents a high level of global failures.
 
