@@ -39,10 +39,10 @@ and Information Technology Law (CIPIT).
  surveillance*](#previous-cases-of-internet-censorship-and-surveillance)
 
 * [*Zambia’s 2016 general elections and constitutional
- referendum*](#zambias-2016-general-elections-and-constitutional-referendum)
+ referendum*](#zambia-s-2016-general-elections-and-constitutional-referendum)
 
 * [*Examining internet censorship during Zambia’s 2016 general
- elections*](#examining-internet-censorship-during-zambias-2016-general-elections)
+ elections*](#examining-internet-censorship-during-zambia-s-2016-general-elections)
 
     * [*Methodology*](#methodology)
 
