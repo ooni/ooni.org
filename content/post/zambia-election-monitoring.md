@@ -1376,7 +1376,7 @@ below:
 
 The failure rate column in the table above shows the percentage of
 failed requests to the sites in question from OONI’s control vantage
-point from 2016-07-1 to 2016-09-01. Since no block pages were found in
+point from 2016-07-01 to 2016-09-01. Since no block pages were found in
 testing the accessibility of sites in Zambia, OONI extended its
 methodology to take into account the failure rate of sites during the
 testing period compared to the overall failure rate from control vantage
