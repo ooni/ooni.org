@@ -34,6 +34,12 @@ html {
   color: #1c1c1c;
   background-color: #fff;
   min-width: 320px;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 120px;
 }
 
 nav {
@@ -43,14 +49,16 @@ nav {
   margin-top: 1rem;
 }
 
-main {
-  margin-bottom: 10rem !important;
-}
-
 footer {
   color: #b4b4b4;
   background-color: #26292c;
   text-align: center;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
 }
 
 footer a {
@@ -61,6 +69,13 @@ footer a:hover {
   text-decoration: underline;
 }
 
+footer a::after {
+  content: " →";
+}
+
+footer .row {
+  padding: 1.2rem 0 1.5rem;
+}
 
 .container {
   margin: auto;
@@ -87,11 +102,6 @@ header .row {
 .row.title {
   margin-bottom: 0;
 }
-
-footer .row {
-  padding: 3.2rem 0 4.5rem;
-}
-
 
 /* ================================================================== */
 /* Columns */
@@ -320,6 +330,86 @@ blockquote dl dt {
   font-style: italic;
 }
 
+
+/* ================================================================== */
+/* Tables */
+
+table {
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 3px;
+    border-collapse: collapse;
+    padding: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
+}
+
+th {
+  color: #fff;
+  background: #0588CB;
+  border-bottom: 4px solid #fff;
+  border-right: 1px solid #fff;
+  font-size: 1em;
+  font-weight: 100;
+  padding: 1em;
+  text-align: left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align: middle;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+
+tr {
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  color: #000;
+  font-size: 1em;
+  font-weight: normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+
+tr:nth-child(odd) td {
+  background: #EBEBEB;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+
+td {
+  background: #FFFFFF;
+  padding: 20px;
+  text-align: right;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+  border-right: 0px;
+}
 
 /* ================================================================== */
 /* Navigation */
