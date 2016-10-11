@@ -34,6 +34,12 @@ html {
   color: #1c1c1c;
   background-color: #fff;
   min-width: 320px;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 120px;
 }
 
 nav {
@@ -43,14 +49,16 @@ nav {
   margin-top: 1rem;
 }
 
-main {
-  margin-bottom: 10rem !important;
-}
-
 footer {
   color: #b4b4b4;
   background-color: #26292c;
   text-align: center;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
 }
 
 footer a {
@@ -61,6 +69,13 @@ footer a:hover {
   text-decoration: underline;
 }
 
+footer a::after {
+  content: " →";
+}
+
+footer .row {
+  padding: 1.2rem 0 1.5rem;
+}
 
 .container {
   margin: auto;
@@ -87,11 +102,6 @@ header .row {
 .row.title {
   margin-bottom: 0;
 }
-
-footer .row {
-  padding: 3.2rem 0 4.5rem;
-}
-
 
 /* ================================================================== */
 /* Columns */
