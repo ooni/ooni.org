@@ -8,11 +8,11 @@ categories: ["report"]
 
 Interested in exploring (and exposing) internet censorship? Join the [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) hackathon in Berlin!
 
-* **When?** Friday, 11th November & Saturday, 12th November 2016 
+* **When?** Friday, **11th November** & Saturday, **12th November** 2016 
 
-* **Where?** The OnionSpace (Gottschedstraße 4, 13357 Berlin, Germany) 
+* **Where?** The **OnionSpace** (Gottschedstraße 4, 13357 Berlin, Germany) 
 
-* **What time?** All day, both days (10am onwards) 
+* **What time?** 10am onwards 
 
 * **Who?** Everyone is welcome! And by “everyone”, we mean **everyone**: software
 developers, data analysts, academics, journalists, bloggers, lawyers, activists,
@@ -71,9 +71,9 @@ That’s where data analysts can play an important role! Join us to:
 * Improve [OONI’s data processing pipeline](https://github.com/TheTorProject/ooni-pipeline) 
 
 * Analyze [existing measurements](https://explorer.ooni.torproject.org/world/)
-  and find potentially hidden cases of censorship
+  to potentially find hidden cases of censorship
 
-* Propose new data analysis methodologies and techniques
+* Share data analysis methodologies and techniques
 
 You can dig into OONI’s data through [OONI Explorer](https://explorer.ooni.torproject.org/world/) and [OONI’s list of measurements](https://measurements.ooni.torproject.org/).
 
@@ -98,7 +98,7 @@ can help uncover the covert presence of censorship and surveillance equipment,
 such as BlueCoat (which we [detected](https://explorer.ooni.torproject.org/highlights/) in various countries around the world in the
 past).
 
-Join us to learn how to dig into OONI’s data and find the evidence that you
+Join us to learn how to dig into OONI’s data and find evidence that you
 might need for your next story!
 
 
