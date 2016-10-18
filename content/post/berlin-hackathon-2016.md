@@ -24,7 +24,7 @@ internet censorship around the world. Since 2012, OONI has [collected](https://e
 network measurements across more than 100 countries, shedding light on multiple
 cases of censorship and network interference around the world.
 
-![OONI Explorer](/post/zambia-election-monitoring/zambia-flag.png)
+![OONI Explorer](/post/berlin-hackathon/explorer.png)
 
 But our work is far from done and we need your help! Below you can learn about
 *some* of the ways that you can contribute to the fight against internet
