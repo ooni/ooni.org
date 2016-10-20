@@ -80,8 +80,9 @@ terminal:
 ooniprobe-agent start 
 ``` 
 
-This should present you with a URL. By clicking on it, you will be directed to
-OONI’s web UI Setup Wizard:
+This should present you with the following URL: **127.0.0.1:8842** 
+
+By clicking on it, you will be directed to OONI’s web UI Setup Wizard:
 
 ![Screenshot](/post/wui-screenshots/wui-02.png)
 
@@ -308,4 +309,4 @@ measurement is a confirmed case of censorship. Unless a measurement presents a
 block page in the HTTP response body, data should be cross-correlated across
 time to reach more accurate conclusions.
 
-Feedback? Contact us at contact@openobservatory.org, we’d love to hear from you!
+Feedback? [Contact](https://ooni.torproject.org/about/) us, we’d love to hear from you!
