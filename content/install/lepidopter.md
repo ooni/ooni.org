@@ -79,8 +79,8 @@ If your laptop does not have an SD card slot, please ensure that you have an SD 
 Consider downloading the [xz compressed image]
 (https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.5-beta-armel.img.xz)
 for a significantly reduced file size compared to the zip archive.
-Note that this will require an extra program to be installed depending on your
-OS.
+Note that this will require an [extra program](http://tukaani.org/xz/) to be
+installed depending on your OS.
 
 **The default username and password of the image is**: `lepidopter`
 
@@ -97,7 +97,7 @@ gpg --fetch-keys https://get.ooni.torproject.org/lepidopter/lepidopter-signing-k
 From a keyserver:
 
 ```
-gpg --keyserver pool.sks-keyservers.net --recv-keys 0xBA56AC5A53E9C7A4
+gpg --keyserver pool.sks-keyservers.net --recv-keys 625511968E240F24F6CFD0B6BA56AC5A53E9C7A4
 ```
 
 Lepidopter team's fingerprint (image signing key) is published here:
@@ -122,12 +122,11 @@ key)"`:
 
 ```
 gpg: assuming signed data in `lepidopter-v0.3.5-beta-armel.img.zip'
-gpg: Signature made Sun 22 May 2016
+gpg: Signature made Mon 17 Oct 2016
 gpg:                using RSA key 0xBA56AC5A53E9C7A4
 gpg: using PGP trust model
 gpg: Good signature from "Lepidopter Team (signing key)"
 gpg: binary signature, digest algorithm SHA512
-
 ```
 
 If you want to learn more about digital signatures and key verification read
@@ -225,7 +224,7 @@ image](https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.5-beta-armel.i
 If you have downloaded the [xz compressed image]
 (https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.5-beta-armel.img.xz):
 
-   `xz --decompress --verbose --no-sparse lepidopter-v0.3.5-beta-armel.img.zip`
+   `xz --decompress --verbose --no-sparse lepidopter-v0.3.5-beta-armel.img.xz`
 
 **Step 3.** Run ```df -h``` to see which devices are currently mounted.
 
