@@ -114,7 +114,7 @@ ooniprobe, click **Next**.
 
 ![Screenshot](/post/wui-screenshots/wui-04.png)
 
-## Quiz: How well do you understand potential risks associated to ooniprobe?
+## Quiz: How well do you understand potential risks?
 
 You didn’t read the somewhat long Risks documentation for nothing. To make
 things fun, you will be presented with a quiz including a set of questions that
