@@ -267,7 +267,7 @@ show the results pertaining to the various URLs that you tested for censorship.
 
 ![Screenshot](/post/wui-screenshots/wui-14.png)
 
-To view *only* the results for the URLs that presented network
+To *only* view the results for the URLs that presented network
 anomalies, click **Toggle anomalous**.
 
 ![Screenshot](/post/wui-screenshots/wui-15.png)
@@ -309,5 +309,3 @@ block page in the HTTP response body, data should be cross-correlated across
 time to reach more accurate conclusions.
 
 Feedback? Contact us at contact@openobservatory.org, we’d love to hear from you!
-
-Happy testing!
