@@ -1,9 +1,9 @@
 ---
 title: "OONI Hackathon: Join us to explore internet censorship!"
 author: "Maria Xynou"
-date: "2016-10-18"
+date: "2016-10-25"
 tags: ["hackathon"]
-categories: ["report"]
+categories: []
 ---
 
 Interested in exploring (and exposing) internet censorship? Join the [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) hackathon in Berlin!
@@ -14,10 +14,10 @@ Interested in exploring (and exposing) internet censorship? Join the [Open Obser
 
 * **What time?** 10am onwards 
 
-* **Who?** Everyone is welcome! And by “everyone”, we mean **everyone**: software
-developers, data analysts, academics, journalists, bloggers, lawyers, activists,
-and all those who don’t go by any particular label, but are curious enough to
-join! We only have one rule: **Be excellent to each other**.
+* **Who?** Software developers, data analysts, academics, journalists, 
+bloggers, lawyers, activists, and all those who don’t go by any 
+particular label, but are curious enough to join! We only have one rule:
+**Be excellent to each other**.
 
 OONI is a *free software* project under The Tor Project which aims to uncover
 internet censorship around the world. Since 2012, OONI has [collected](https://explorer.ooni.torproject.org/world/) millions of
@@ -94,8 +94,7 @@ By collecting network measurements, OONI can provide you with *evidence* of
 internet censorship. This can include the blocking of various websites and
 instant messaging (IM) apps (such as WhatsApp and Facebook Messenger), as well
 as the blocking of circumvention tools, such as Tor. Furthermore, OONI’s data
-can help uncover the covert presence of censorship and surveillance equipment,
-such as BlueCoat (which we [detected](https://explorer.ooni.torproject.org/highlights/) in various countries around the world in the
+can help uncover the covert presence of censorship and surveillance equipment (which we [detected(https://explorer.ooni.torproject.org/highlights/) in various countries around the world in the
 past).
 
 Join us to learn how to dig into OONI’s data and find evidence that you
