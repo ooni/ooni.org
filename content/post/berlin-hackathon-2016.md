@@ -94,7 +94,7 @@ By collecting network measurements, OONI can provide you with *evidence* of
 internet censorship. This can include the blocking of various websites and
 instant messaging (IM) apps (such as WhatsApp and Facebook Messenger), as well
 as the blocking of circumvention tools, such as Tor. Furthermore, OONI’s data
-can help uncover the covert presence of censorship and surveillance equipment (which we [detected(https://explorer.ooni.torproject.org/highlights/) in various countries around the world in the
+can help uncover the covert presence of censorship and surveillance equipment (which we [detected](https://explorer.ooni.torproject.org/highlights/) in various countries around the world in the
 past).
 
 Join us to learn how to dig into OONI’s data and find evidence that you
