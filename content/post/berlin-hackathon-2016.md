@@ -6,6 +6,8 @@ tags: ["hackathon"]
 categories: []
 ---
 
+![HACKOONI16](/post/berlin-hackathon/ooni-berlin-hackathon.png)
+
 Interested in exploring (and exposing) internet censorship? Join the [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) hackathon in Berlin!
 
 * **When?** Friday, **11th November** & Saturday, **12th November** 2016 
@@ -23,8 +25,6 @@ OONI is a *free software* project under The Tor Project which aims to uncover
 internet censorship around the world. Since 2012, OONI has [collected](https://explorer.ooni.torproject.org/world/) millions of
 network measurements across more than 100 countries, shedding light on multiple
 cases of censorship and network interference around the world.
-
-![OONI Explorer](/post/berlin-hackathon/explorer.png)
 
 But our work is far from done and we need your help! Below you can learn about
 *some* of the ways that you can contribute to the fight against internet
