@@ -100,5 +100,7 @@ past).
 Join us to learn how to dig into OONI’s data and find evidence that you
 might need for your next story!
 
-
 Hope to see you all soon!
+
+---
+Thanks to the [Ford Foundation](https://www.fordfound.org/) for supporting the OONI team's travel costs.
