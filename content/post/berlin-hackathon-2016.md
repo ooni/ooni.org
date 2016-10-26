@@ -10,7 +10,7 @@ Interested in exploring (and exposing) internet censorship? Join the [Open Obser
 
 * **When?** Friday, **11th November** & Saturday, **12th November** 2016 
 
-* **Where?** The **OnionSpace** (Gottschedstraße 4, 13357 Berlin, Germany) 
+* **Where?** The **OnionSpace** ([Gottschedstraße 4, 13357 Berlin, Germany](http://www.openstreetmap.org/?mlat=52.54965&mlon=13.3700#map=19/52.54974/13.37001))
 
 * **What time?** 10am onwards 
 
