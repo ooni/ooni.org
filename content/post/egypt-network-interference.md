@@ -57,42 +57,38 @@ the last two months.
 
 The New Arab website [www.alaraby.co.uk]
 (https://explorer.ooni.torproject.org/measurement/20161025T230118Z_AS36935_N4hRIq4Ya5raRq0yRrW7dRu9yxeg8m7fgbyNrOd9ugt07uQGK0?input=http:%2F%2Fwww.alaraby.co.uk)
-and the mirror website `www.alarabyaljadeed.co.uk`
+and its mirror website `www.alarabyaljadeed.co.uk`
 has been blocked in Egypt since 2016-01-05 according to the [Guardian]
 (https://www.theguardian.com/media/2016/jan/05/saudi-arabia-uae-egypt-block-access-qatari-news-website)
-news outlet. Similarly, the domain [www.alarabyaljadeed.co.uk]
-(https://explorer.ooni.torproject.org/measurement/20161025T231508Z_AS36935_Cvza90GziUHIFTeK7F5rBLFVIa5nkFKi3X9i3gZ2dpNymzbn69?input=http:%2F%2Fwww.alarabyaljadeed.co.uk)
-pointing to the same website (`www.alaraby.co.uk`) has also been blocked.  The
+news outlet. Similarly, the domain
+[www.alarabyaljadeed.co.uk](https://explorer.ooni.torproject.org/measurement/20161025T231508Z_AS36935_Cvza90GziUHIFTeK7F5rBLFVIa5nkFKi3X9i3gZ2dpNymzbn69?input=http:%2F%2Fwww.alarabyaljadeed.co.uk)
+pointing to the same website (`www.alaraby.co.uk`) has also been blocked. The
 ISPs have not redirected the visitors to any block page or any resource that
-explains the reason of the block.  Instead, they appear to have used Deep
-Packet Inspection (DPI) to censor the content of the website.  When requesting
-the HTTP version of the websites `http://www.alaraby.co.uk` and
+explains the reason of the block. Instead, they appear to have used Deep
+Packet Inspection (DPI) equipment to censor the content of the website. When
+requesting the HTTP version of the websites `http://www.alaraby.co.uk` and
 `http://www.alarabyaljadeed.co.uk` a response from the middlebox is triggered
 containing a blank webpage as is shown by the following two OONI measurements
 collected on 25th of October 2016:
 
-* [Blocking of www.alaraby.co.uk via HTTP]
-(https://explorer.ooni.torproject.org/measurement/20161025T220457Z_AS36935_PqOJazEa6I8BzYZ3NrFVEILGKUaVq6fQ4pM9asTMWaQ3MWzqSz?input=http:%2F%2Fwww.alaraby.co.uk)
+* [Blocking of www.alaraby.co.uk via
+  HTTP](https://explorer.ooni.torproject.org/measurement/20161025T220457Z_AS36935_PqOJazEa6I8BzYZ3NrFVEILGKUaVq6fQ4pM9asTMWaQ3MWzqSz?input=http:%2F%2Fwww.alaraby.co.uk)
 
-* [Blocking of www.alarabyaljadeed.co.uk via HTTP]
-(https://explorer.ooni.torproject.org/measurement/20161025T231508Z_AS36935_Cvza90GziUHIFTeK7F5rBLFVIa5nkFKi3X9i3gZ2dpNymzbn69?input=http:%2F%2Fwww.alarabyaljadeed.co.uk)
+* [Blocking of www.alarabyaljadeed.co.uk via
+  HTTP](https://explorer.ooni.torproject.org/measurement/20161025T231508Z_AS36935_Cvza90GziUHIFTeK7F5rBLFVIa5nkFKi3X9i3gZ2dpNymzbn69?input=http:%2F%2Fwww.alarabyaljadeed.co.uk)
 
 The request for the HTTPS version of the websites (`https://www.alaraby.co.uk`,
 `https://www.alarabyaljadeed.co.uk`) times out and no response is received, as
 shown in the following measurement:
 
-* [Timing out of requests to www.alaraby.co.uk via HTTPS]
-(https://explorer.ooni.torproject.org/measurement/20161025T225008Z_AS36935_3RV6eZcQFuo4GncFinLXtrb1jlMfTSXZPG8xpWOCgWCPf9DreU?input=https:%2F%2Fwww.alaraby.co.uk)
+* [Timing out of requests to www.alaraby.co.uk via
+  HTTPS](https://explorer.ooni.torproject.org/measurement/20161025T225008Z_AS36935_3RV6eZcQFuo4GncFinLXtrb1jlMfTSXZPG8xpWOCgWCPf9DreU?input=https:%2F%2Fwww.alaraby.co.uk)
 
 ## Collateral damage
 
 In addition to the censorship of the media website The New Arab, this blocking
 has caused some collateral damage to other websites hosted on the same Content
-Delivery Network (CDN), as discussed in the following section.
-
-Due to DPI blocking of the CDN's IP address where The New Arab website is
-hosted, a number of other websites were affected, including ADI e-shop,
-megapixl and viagogo.
+Delivery Network (CDN).
 
 The screenshots below illustrate how these websites appeared from an Egyptian
 vantage point (right-side) and when accessed via Tor Browser (left-side):
@@ -113,7 +109,7 @@ As part of our research we found that one way to consistently reproduce a
 network interference is by sending HTTPS requests to the network sub-nets
 belonging to DigitalOcean's Frankfurt data center (including, but not limited
 to `46.101.128.0/24`, `46.101.172.0/24`, `46.101.179.0/24` —
-[AS201229](https://stat.ripe.net/AS201229)).  Our experiment showed consistent
+[AS201229](https://stat.ripe.net/AS201229)). Our experiment showed consistent
 and heavy throttling of HTTPS services located in the network: only 3% of TCP
 connection attempts succeeded.
 
@@ -131,7 +127,7 @@ Frankfurt data centre were successful.
 Based on our tests, the last sample of throttling that we observed occurred on
 2016-09-01 12:30 UTC.
 
-The complete and detailed technical analysis can be found in
+The complete and detailed technical analysis can be found
 [here](/notebooks/eg-vs-digitalocean.html).
 
 ## Inaccessible URLs
@@ -139,28 +135,30 @@ The complete and detailed technical analysis can be found in
 The HTTPS throttling of services hosted by DigitalOcean's Frankfurt data centre
 led to the inaccessibility of various URLs. These include the following:
 
-* [Blocking of https://050media.nl]
-(https://explorer.ooni.torproject.org/measurement/20160829T135335Z_AS20928_j3cqNiI8kwkJxby5R3LyH2PnTPgnBJ0rZ3Qx2RClxkQWc9WmOg?input=https:%2F%2F050media.nl)
-* [Blocking of https://33-km.ru]
-(https://explorer.ooni.torproject.org/measurement/20160829T134302Z_AS20928_I5cYSYTKoHbYLyKtnogYNPLNcdF7T5PkcmxVs4cfR46ifNiq7z?input=https:%2F%2F33-km.ru)
-* [Blocking of https://laracasts.com]
-(https://explorer.ooni.torproject.org/measurement/20160821T211424Z_AS8452_cZllOWSUFhF2WYmiz0KSH54J1mzkeDIqC5hrClLQ593FGGE3M1?input=https:%2F%2Flaracasts.com)
+* [Blocking of
+  https://050media.nl](https://explorer.ooni.torproject.org/measurement/20160829T135335Z_AS20928_j3cqNiI8kwkJxby5R3LyH2PnTPgnBJ0rZ3Qx2RClxkQWc9WmOg?input=https:%2F%2F050media.nl)
+
+* [Blocking of
+  https://33-km.ru](https://explorer.ooni.torproject.org/measurement/20160829T134302Z_AS20928_I5cYSYTKoHbYLyKtnogYNPLNcdF7T5PkcmxVs4cfR46ifNiq7z?input=https:%2F%2F33-km.ru)
+
+* [Blocking of
+  https://laracasts.com](https://explorer.ooni.torproject.org/measurement/20160821T211424Z_AS8452_cZllOWSUFhF2WYmiz0KSH54J1mzkeDIqC5hrClLQ593FGGE3M1?input=https:%2F%2Flaracasts.com)
 
 As well as the following URLs: `https://antoniomarques.eu`,
 `https://akombakom.net`, `https://anadoluefessk.org`, `https://alexmerkel.com`,
 `https://alexmerkel.me`, `https://alexmerkel.xyz` Raw JSON OONI measurements
-(25Mb file size) can be found [here]
-(https://measurements.ooni.torproject.org/2016-08-31/20160830T125839Z-EG-AS20928-web_connectivity-no_report_id-0.2.0-probe.json)
+(25Mb file size) can be found
+[here](https://measurements.ooni.torproject.org/2016-08-31/20160830T125839Z-EG-AS20928-web_connectivity-no_report_id-0.2.0-probe.json)
 
-The above list however is *not* exhaustive and more websites may have been
+The above lists however are *not* exhaustive and more websites may have been
 affected which are not listed here.
 
 # Attempts to block Tor
 
 Two days ago, tests were run to examine the reachability of the
 [Tor](https://torproject.org/) anonymity network. The collected measurement
-data indicates that the Tor process bootstrap was [disrupted]
-(https://explorer.ooni.torproject.org/measurement/20161026T162218Z_AS36935_kTY80ArJx4baKS9FIss3oPEYfqpzEp0bubESO1T0aEc3Njl3QU)
+data indicates that the Tor process bootstrap was
+[disrupted](https://explorer.ooni.torproject.org/measurement/20161026T162218Z_AS36935_kTY80ArJx4baKS9FIss3oPEYfqpzEp0bubESO1T0aEc3Njl3QU)
 by blocking requests to directory authorities, which are designed to help Tor
 clients learn the list of relays that make up the Tor network.
 
@@ -176,38 +174,37 @@ the request.
 The injected RST packets share the same static [IP identification (IP ID)]
 (https://en.wikipedia.org/wiki/IPv4#Identification) value of `0x3412` as the
 injected RST packets used to block other websites that we have found to be
-blocked.  Usage of the same IP ID implies that the blocking infrastructure used
+blocked. Usage of the same IP ID implies that the blocking infrastructure used
 to censor Tor is the same (or similar) to that used to block other websites
 (see the in depth [technical analysis](/notebooks/eg-serving-malware.html) of
 in-band TCP content injections).
 
-In our testing we found 7 out of 9 directory authority consensus file requests
+In our testing we found **7 out of 9 directory authority** consensus file requests
 to be blocked:
 
-* [Blocking of consensus document requests to the moria1 directory authority]
-(https://explorer.ooni.torproject.org/measurement/20161026T205703Z_AS36935_OyfZ1mzzY4xuh8S3abKAfvxcwWGh5JVHUCk55e8cInkOyRmw5U?input=http:%2F%2F128.31.0.39:9131%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
+* [Blocking of consensus document requests to the moria1 directory
+  authority](https://explorer.ooni.torproject.org/measurement/20161026T205703Z_AS36935_OyfZ1mzzY4xuh8S3abKAfvxcwWGh5JVHUCk55e8cInkOyRmw5U?input=http:%2F%2F128.31.0.39:9131%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
 
-* [Blocking of consensus document requests to the maatuska directory authority]
-(https://explorer.ooni.torproject.org/measurement/20161026T210514Z_AS36935_3tNJySRXLDwSXijucIltcrFYoKt8KzfrYc2eYdSyO2cxTBs3k5?input=http:%2F%2F171.25.193.9:443%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
+* [Blocking of consensus document requests to the maatuska directory
+  authority](https://explorer.ooni.torproject.org/measurement/20161026T210514Z_AS36935_3tNJySRXLDwSXijucIltcrFYoKt8KzfrYc2eYdSyO2cxTBs3k5?input=http:%2F%2F171.25.193.9:443%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
 
-* [Blocking of consensus document requests to the tor26 directory authority]
-(https://explorer.ooni.torproject.org/measurement/20161026T210714Z_AS36935_w88LJ82yd0rKPiaEFJymNZt3kdusHPnMTuWHMHPWDlGxFQLPde?input=http:%2F%2F86.59.21.38:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
+* [Blocking of consensus document requests to the tor26 directory
+  authority](https://explorer.ooni.torproject.org/measurement/20161026T210714Z_AS36935_w88LJ82yd0rKPiaEFJymNZt3kdusHPnMTuWHMHPWDlGxFQLPde?input=http:%2F%2F86.59.21.38:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
 
-* [Blocking of consensus document requests to the dizum directory authority]
-(https://explorer.ooni.torproject.org/measurement/20161026T210218Z_AS36935_L18ktGixOxdLtxr9LYxIO0jGwkKkLjvsLDZ1YPOJ2eQL7EhDx4?input=http:%2F%2F194.109.206.212:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
+* [Blocking of consensus document requests to the dizum directory
+  authority](https://explorer.ooni.torproject.org/measurement/20161026T210218Z_AS36935_L18ktGixOxdLtxr9LYxIO0jGwkKkLjvsLDZ1YPOJ2eQL7EhDx4?input=http:%2F%2F194.109.206.212:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
 
-* [Blocking of consensus document requests to the gabelmoo directory authority]
-(https://explorer.ooni.torproject.org/measurement/20161026T210811Z_AS36935_Co624cXxizzgIzXOEV1Cx44SCElOMjLHrGML838zycImudosLR?input=http:%2F%2F131.188.40.189:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
+* [Blocking of consensus document requests to the gabelmoo directory
+  authority](https://explorer.ooni.torproject.org/measurement/20161026T210811Z_AS36935_Co624cXxizzgIzXOEV1Cx44SCElOMjLHrGML838zycImudosLR?input=http:%2F%2F131.188.40.189:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
 
-* [Blocking of consensus document requests to the dannenberg directory authority]
-(https://explorer.ooni.torproject.org/measurement/20161026T210434Z_AS36935_so2ZaGOjUdgGNJM7gjyALCyycGDS3v3r5SWoVgPdna7GstFit5?input=http:%2F%2F193.23.244.244:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
+* [Blocking of consensus document requests to the dannenberg directory
+  authority](https://explorer.ooni.torproject.org/measurement/20161026T210434Z_AS36935_so2ZaGOjUdgGNJM7gjyALCyycGDS3v3r5SWoVgPdna7GstFit5?input=http:%2F%2F193.23.244.244:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
 
-* [Blocking of consensus document requests to the Faravahar directory authority]
-(https://explorer.ooni.torproject.org/measurement/20161026T210524Z_AS36935_OfwC8F4e16wN6RjbZCSl6dveF0XRL2UnsygTeXSMFlDBRwB3bw?input=http:%2F%2F154.35.175.225:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
+* [Blocking of consensus document requests to the Faravahar directory
+  authority](https://explorer.ooni.torproject.org/measurement/20161026T210524Z_AS36935_OfwC8F4e16wN6RjbZCSl6dveF0XRL2UnsygTeXSMFlDBRwB3bw?input=http:%2F%2F154.35.175.225:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
 
 We also found access to the now discontinued Tor [directory authority urras to
-be blocked]
-(https://explorer.ooni.torproject.org/measurement/20161026T210826Z_AS36935_Y1ON5xUx0alU1OMrDIMwix8FpjyFs5OUXsbPZWaK6PrCqKpMpW?input=http:%2F%2F208.83.223.34:443%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
+be blocked](https://explorer.ooni.torproject.org/measurement/20161026T210826Z_AS36935_Y1ON5xUx0alU1OMrDIMwix8FpjyFs5OUXsbPZWaK6PrCqKpMpW?input=http:%2F%2F208.83.223.34:443%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
 .We did not test the accessibility of the recently added `Bitfroest` Tor
 directory authority, nor do we have samples regarding the potential blocking of
 `longclaw`.
@@ -240,10 +237,10 @@ publication of this report.
 But this is not the first time we noticed interference with the Tor network in
 Egypt. Earlier this month, users reported that they couldn't connect directly
 to Tor from Egypt and had to use bridges to access it. Tor Metrics statistics
-illustrate that [direct connections]
-(https://metrics.torproject.org/userstats-relay-country.html?start=2016-09-19&end=2016-10-26&country=eg&events=points)
-to Tor were reduced on 2nd and 25th October 2016, while the use of [bridges]
-(https://metrics.torproject.org/userstats-bridge-country.html?start=2016-09-19&end=2016-10-26&country=eg)
+illustrate that [direct
+connections](https://metrics.torproject.org/userstats-relay-country.html?start=2016-09-19&end=2016-10-26&country=eg&events=points)
+to Tor were reduced on 2nd and 25th October 2016, while the use of
+[bridges](https://metrics.torproject.org/userstats-bridge-country.html?start=2016-09-19&end=2016-10-26&country=eg)
 increased, indicating that Tor might have been blocked. It's probably worth
 noting though that only around 30% of Tor users appear to have used bridges to
 circumvent potential censorship.
@@ -259,8 +256,8 @@ bridges.
 
 Through our research we found false content deliberately injected by at least
 one ISP in Egypt: [TE Data] (https://en.wikipedia.org/wiki/TE_Data). This ISP
-accounts for 65% of the [market share]
-(https://www.igmena.org/Indicators-of-Internet-Penetration-in-Egypt) and
+accounts for 65% of the [market
+share](https://www.igmena.org/Indicators-of-Internet-Penetration-in-Egypt) and
 controls over 70% of the Egyptian internet bandwidth TE Data appears to be
 using DPI or similar network equipment to conduct a man-in-the-middle attack
 and transparently inject content for gaining profit (affiliate advertising) or
@@ -278,8 +275,8 @@ gain revenue.
 During our October 2016 investigation the injector was mostly targeting mobile
 [User-Agents] (https://en.wikipedia.org/wiki/User_agent). It was not limited to
 iPhone and Android platforms, but also targeted BlackBerry and Symbian devices.
-In August 2016 ooniprobe also [captured a similar injection]
-(https://explorer.ooni.torproject.org/measurement/20160827T153815Z_AS8452_gAU19jWom21aUc0hwieYQymbvcuTTTYULW8k1W1UXOlEYmhDPq?input=http:%2F%2Fxnxx.com)
+In August 2016 ooniprobe also [captured a similar
+injection](https://explorer.ooni.torproject.org/measurement/20160827T153815Z_AS8452_gAU19jWom21aUc0hwieYQymbvcuTTTYULW8k1W1UXOlEYmhDPq?input=http:%2F%2Fxnxx.com)
 in the TE Data network. The injection was redirecting the user to
 `http://go.ad2upapp.com/afu.php?id=723454` that further redirects to
 `http://go.deliverymodo.com/afu.php?id=723454`, a different advertising website
@@ -289,8 +286,8 @@ similar injections in transit traffic of Vodafone 3G
 ([AS20928](https://stat.ripe.net/AS20928)) pointing to the
 `http://adf.ly/1cqbTY`, `marketing-sv.com` and `infinitiads.com` domains.
 
-We also discovered at least one [malware sample]
-(https://virustotal.com/en/file/988f3b1079b7badb27442bd1439f1b7b51c9f812a27fbab7e4d60a37c97f3d64/analysis/)
+We also discovered at least one [malware
+sample](https://virustotal.com/en/file/988f3b1079b7badb27442bd1439f1b7b51c9f812a27fbab7e4d60a37c97f3d64/analysis/)
 served by the chain of web redirects starting with the aforementioned link
 during our research. Our IP TTL and network packet latency analysis confirms
 that the injection is done in-band using a DPI or similar network equipment to
@@ -365,12 +362,13 @@ block resources, censor websites and serve advertisements and malware to
 internet users.
 
 You can bypass such censorship through the use of
-[Tor](https://www.torproject.org/) and the [Tor Browser]
-(https://www.torproject.org/projects/torbrowser.html.en). Users in mobile
-networks can use [Orbot](https://www.torproject.org/docs/android.html.en) (Tor
-on Android) to access the web or other mobile applications by using the VPN
-mode of Orbot which enables all apps on the device to run through the
-[Tor network](https://www.torproject.org/).
+[Tor](https://www.torproject.org/) and the [Tor
+Browser](https://www.torproject.org/projects/torbrowser.html.en). Users in
+mobile networks can use
+[Orbot](https://www.torproject.org/docs/android.html.en) (Tor on Android) to
+access the web or other mobile applications by using the VPN mode of Orbot
+which enables all apps on the device to run through the [Tor
+network](https://www.torproject.org/).
 
 # Acknowledgements
 
