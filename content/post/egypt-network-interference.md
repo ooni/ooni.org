@@ -42,7 +42,7 @@ the last two months.
 
 * [*Attempts to block Tor*](#attempts-to-block-tor)
 
- * [*Advertisement and malware injection*](#advertisement-and-malware-injection)
+* [*Advertisement and malware injection*](#advertisement-and-malware-injection)
 
     * [*Third party tools (curl) showing injected content*](#third-party-tools-curl-showing-injected-content)
 
@@ -156,7 +156,7 @@ affected which are not listed here.
 # Attempts to block Tor
 
 Two days ago, tests were run to examine the reachability of the
-[Tor](https://torproject.org/) anonymity network. The collected measurement
+[Tor](https://www.torproject.org/) anonymity network. The collected measurement
 data indicates that the Tor process bootstrap was
 [disrupted](https://explorer.ooni.torproject.org/measurement/20161026T162218Z_AS36935_kTY80ArJx4baKS9FIss3oPEYfqpzEp0bubESO1T0aEc3Njl3QU)
 by blocking requests to directory authorities, which are designed to help Tor
