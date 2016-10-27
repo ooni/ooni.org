@@ -97,18 +97,17 @@ megapixl and viagogo.
 The screenshots below illustrate how these websites appeared from an Egyptian
 vantage point (right-side) and when accessed via Tor Browser (left-side):
 
-![http://www.viagogo.com](/post/egypt/viagogo-2016-10-21.png)
-![https://www.megapixl.com](/post/egypt/megapixl-2016-10-21.png)
-![https://uk-eshop.adiglobal.com/Pages/default.aspx]
-(/post/egypt/adiglobal-2016-10-21.png)
+![http://www.viagogo.com](/post/egypt-network-interference/viagogo-2016-10-21.png)
+![https://www.megapixl.com](/post/egypt-network-interference/megapixl-2016-10-21.png)
+![https://uk-eshop.adiglobal.com/Pages/default.aspx](/post/egypt-network-interference/adiglobal-2016-10-21.png)
 
 # HTTPS throttling
 
 Throughout August 2016 we noticed that HTTPS connections to a number of
 services using DigitalOcean's Frankfurt data centre appeared to be presenting
 network connectivity issues from two Egyptian vantage points: Noor ADSL
-([AS20928](https://stat.ripe.net/AS20928)) and Vodafone Egypt ((ex-RAYA
-Telecom,[AS24835](https://stat.ripe.net/AS24835)).
+([AS20928](https://stat.ripe.net/AS20928)) and Vodafone Egypt (ex-RAYA
+Telecom, [AS24835](https://stat.ripe.net/AS24835)).
 
 As part of our research we found that one way to consistently reproduce a
 network interference is by sending HTTPS requests to the network sub-nets
@@ -119,8 +118,8 @@ and heavy throttling of HTTPS services located in the network: only 3% of TCP
 connection attempts succeeded.
 
 Our latency analysis suggests that all the packets that the client was
-receiving were [timeout-based TCP re-transmissions]
-(https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Timeout_based_retransmission)
+receiving were [timeout-based TCP
+re-transmissions](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Timeout_based_retransmission)
 and that a network device was consistently dropping the first occurrence of
 each TCP packet.
 
@@ -256,7 +255,6 @@ bridges.
 ![Directly connecting users from Egypt](/post/egypt/userstats-relay-country-eg-2016-09-19-2016-10-26-points.png)
 ![Bridge users from Egypt](/post/egypt/userstats-bridge-country-eg-2016-09-19-2016-10-26.png)
 
-
 # Advertisement and malware injection
 
 Through our research we found false content deliberately injected by at least
@@ -380,16 +378,15 @@ OONI would like to thank anonymous contributors that reported and shared
 evidence to document these incidents including, but not limited to, the
 cypherpunk who asked to be identified by the following hashsum:
 ```
-'KCB3XJW2ZVGS2A6MQKIE4NQCMJNFKIXI4KGK6CW4J2OFXFZE6RB5VB35LTLJKMM6ZQ654W57C7JLFWJBHMFH6UNO4CXIK7APUD3H33Y='.
+KCB3XJW2ZVGS2A6MQKIE4NQCMJNFKIXI4KGK6CW4J2OFXFZE6RB5VB35LTLJKMM6ZQ654W57C7JLFWJBHMFH6UNO4CXIK7APUD3H33Y=
 ```
-
 
 # Appendix
 
 Detailed technical analysis:
 
-* Egypt vs DigitalOcean ([HTML](/notebooks/eg-vs-digitalocean.html),
-[ipynb](/notebooks/eg-vs-digitalocean.ipynb)).
+* [Egypt vs DigitalOcean](/notebooks/eg-vs-digitalocean.html) ([download ipynb
+  notebook](/notebooks/eg-vs-digitalocean.ipynb))
 
-* Egypt serving malware ([HTML](/notebooks/eg-serving-malware.html),
-[ipynb](/notebooks/eg-serving-malware.ipynb)).
+* [Egypt serving malware](/notebooks/eg-serving-malware.html) ([download ipynb
+  notebook](/notebooks/eg-serving-malware.ipynb))
