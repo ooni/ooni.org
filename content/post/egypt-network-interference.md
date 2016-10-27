@@ -146,9 +146,9 @@ led to the inaccessibility of various URLs. These include the following:
 
 As well as the following URLs: `https://antoniomarques.eu`,
 `https://akombakom.net`, `https://anadoluefessk.org`, `https://alexmerkel.com`,
-`https://alexmerkel.me`, `https://alexmerkel.xyz` Raw JSON OONI measurements
-(25Mb file size) can be found
-[here](https://measurements.ooni.torproject.org/2016-08-31/20160830T125839Z-EG-AS20928-web_connectivity-no_report_id-0.2.0-probe.json)
+`https://alexmerkel.me`, `https://alexmerkel.xyz`. The raw JSON OONI
+measurements file (25Mb size) of these URLs can be found
+[here](https://measurements.ooni.torproject.org/2016-08-31/20160830T125839Z-EG-AS20928-web_connectivity-no_report_id-0.2.0-probe.json).
 
 The above lists however are *not* exhaustive and more websites may have been
 affected which are not listed here.
@@ -164,8 +164,8 @@ clients learn the list of relays that make up the Tor network.
 
 One of the requests that were found to be blocked is a request to download a
 "consensus" document from Tor directory authorities. That request is a plain
-HTTP request to the URL
-`http://154.35.175.225/tor/status-vote/current/consensus.z` from the networking
+HTTP request to the URL:
+`http://154.35.175.225/tor/status-vote/current/consensus.z` from a networking
 point of view. Connections to directory authorities are intercepted and
 blocking is performed by injecting a packet that terminates the connection
 abruptly (a TCP RST packet). This happens right after the server acknowledges
@@ -173,7 +173,7 @@ the request.
 
 The injected RST packets share the same static [IP identification (IP ID)]
 (https://en.wikipedia.org/wiki/IPv4#Identification) value of `0x3412` as the
-injected RST packets used to block other websites that we have found to be
+injected RST packets used to block aforementioned websites that we have found to be
 blocked. Usage of the same IP ID implies that the blocking infrastructure used
 to censor Tor is the same (or similar) to that used to block other websites
 (see the in depth [technical analysis](/notebooks/eg-serving-malware.html) of
@@ -225,7 +225,7 @@ means that it's possible to easily circumvent such censorship by using any
 [Tor Bridge](https://bridges.torproject.org/), including non-obfuscated ones.
 Given the fact that the blocking of connections doesn't happen all the time, a
 client should be able to bootstrap a Tor connection successfully with enough
-retries.  This however can, in some cases, take up to a half an hour.
+retries. This however can, in some cases, take up to a half an hour.
 Moreover, OR connections are only blocked to some subset of the public Tor
 network, meaning that if a client has already bootstrapped and has a cached
 version of the consensus and descriptors it is likely to work properly. The
@@ -249,8 +249,8 @@ The following graphs below illustrate the estimated number of
 directly-connecting clients and the estimated number of clients connecting via
 bridges.
 
-![Directly connecting users from Egypt](/post/egypt/userstats-relay-country-eg-2016-09-19-2016-10-26-points.png)
-![Bridge users from Egypt](/post/egypt/userstats-bridge-country-eg-2016-09-19-2016-10-26.png)
+![Directly connecting users from Egypt](/post/egypt-network-interference/userstats-relay-country-eg-2016-09-19-2016-10-26-points.png)
+![Bridge users from Egypt](/post/egypt-network-interference/userstats-bridge-country-eg-2016-09-19-2016-10-26.png)
 
 # <a name="advertisement-and-malware-injection"></a> Advertisement and malware injection
 
@@ -355,7 +355,7 @@ advertisements in TCP connections can be found
 
 # <a name="circumventing-censorship"></a> Circumventing censorship
 
-OONI findings in Egypt revealed censorship of a media website, blocking of
+OONI findings in Egypt revealed the censorship of a media website, blocking of
 services and malicious TCP injections of advertisements and malware content.
 ISPs in Egypt appear to be using DPI, TCP injections and network throttling to
 block resources, censor websites and serve advertisements and malware to
