@@ -44,7 +44,7 @@ the last two months.
 
  * [*Advertisement and malware injection*](#advertisement-and-malware-injection)
 
-    * [*Third party tools showing injected content*](#third-party-tools-showing-injected-content)
+    * [*Third party tools (curl) showing injected content*](#third-party-tools-curl-showing-injected-content)
 
 * [*Circumventing censorship*](#circumventing-censorship)
 
