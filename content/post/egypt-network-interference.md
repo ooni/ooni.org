@@ -53,7 +53,7 @@ the last two months.
 * [*Appendix*](#appendix)
 
 
-# Media censorship
+# <a name="media-censorship"></a> Media censorship
 
 The New Arab website [www.alaraby.co.uk]
 (https://explorer.ooni.torproject.org/measurement/20161025T230118Z_AS36935_N4hRIq4Ya5raRq0yRrW7dRu9yxeg8m7fgbyNrOd9ugt07uQGK0?input=http:%2F%2Fwww.alaraby.co.uk)
@@ -84,7 +84,7 @@ shown in the following measurement:
 * [Timing out of requests to www.alaraby.co.uk via
   HTTPS](https://explorer.ooni.torproject.org/measurement/20161025T225008Z_AS36935_3RV6eZcQFuo4GncFinLXtrb1jlMfTSXZPG8xpWOCgWCPf9DreU?input=https:%2F%2Fwww.alaraby.co.uk)
 
-## Collateral damage
+## <a name="collateral-damage"></a> Collateral damage
 
 In addition to the censorship of the media website The New Arab, this blocking
 has caused some collateral damage to other websites hosted on the same Content
@@ -97,7 +97,7 @@ vantage point (right-side) and when accessed via Tor Browser (left-side):
 ![https://www.megapixl.com](/post/egypt-network-interference/megapixl-2016-10-21.png)
 ![https://uk-eshop.adiglobal.com/Pages/default.aspx](/post/egypt-network-interference/adiglobal-2016-10-21.png)
 
-# HTTPS throttling
+# <a name="https-throttling"></a> HTTPS throttling
 
 Throughout August 2016 we noticed that HTTPS connections to a number of
 services using DigitalOcean's Frankfurt data centre appeared to be presenting
@@ -130,7 +130,7 @@ Based on our tests, the last sample of throttling that we observed occurred on
 The complete and detailed technical analysis can be found
 [here](/notebooks/eg-vs-digitalocean.html).
 
-## Inaccessible URLs
+## <a name="inaccessible-urls"></a> Inaccessible URLs
 
 The HTTPS throttling of services hosted by DigitalOcean's Frankfurt data centre
 led to the inaccessibility of various URLs. These include the following:
@@ -153,7 +153,7 @@ As well as the following URLs: `https://antoniomarques.eu`,
 The above lists however are *not* exhaustive and more websites may have been
 affected which are not listed here.
 
-# Attempts to block Tor
+# <a name="attempts-to-block-tor"></a> Attempts to block Tor
 
 Two days ago, tests were run to examine the reachability of the
 [Tor](https://www.torproject.org/) anonymity network. The collected measurement
@@ -252,7 +252,7 @@ bridges.
 ![Directly connecting users from Egypt](/post/egypt/userstats-relay-country-eg-2016-09-19-2016-10-26-points.png)
 ![Bridge users from Egypt](/post/egypt/userstats-bridge-country-eg-2016-09-19-2016-10-26.png)
 
-# Advertisement and malware injection
+# <a name="advertisement-and-malware-injection"></a> Advertisement and malware injection
 
 Through our research we found false content deliberately injected by at least
 one ISP in Egypt: [TE Data] (https://en.wikipedia.org/wiki/TE_Data). This ISP
@@ -299,7 +299,7 @@ for gaining profit via affiliate advertising.
 
 `Client <--(forged packet)-- ISP's middle box <--(valid packet)-- Web server`
 
-## Third party tools (curl) showing injected content
+## <a name="third-party-tools-curl-showing-injected-content"></a> Third party tools (curl) showing injected content
 
 The curl output excerpts below illustrate how TE Data and Noor ISP redirected
 users' connections to porn websites through the injection of ads. It's
@@ -353,7 +353,7 @@ The complete and detailed technical analysis of the injected malware and
 advertisements in TCP connections can be found
 [here](/notebooks/eg-serving-malware.html).
 
-# Circumventing censorship
+# <a name="circumventing-censorship"></a> Circumventing censorship
 
 OONI findings in Egypt revealed censorship of a media website, blocking of
 services and malicious TCP injections of advertisements and malware content.
@@ -370,7 +370,7 @@ access the web or other mobile applications by using the VPN mode of Orbot
 which enables all apps on the device to run through the [Tor
 network](https://www.torproject.org/).
 
-# Acknowledgements
+# <a name="acknowledgements"></a> Acknowledgements
 
 OONI would like to thank anonymous contributors that reported and shared
 evidence to document these incidents including, but not limited to, the
@@ -379,7 +379,7 @@ cypherpunk who asked to be identified by the following hashsum:
 KCB3XJW2ZVGS2A6MQKIE4NQCMJNFKIXI4KGK6CW4J2OFXFZE6RB5VB35LTLJKMM6ZQ654W57C7JLFWJBHMFH6UNO4CXIK7APUD3H33Y=
 ```
 
-# Appendix
+# <a name="appendix"></a> Appendix
 
 Detailed technical analysis:
 
