@@ -1,6 +1,6 @@
 ---
 title: "Egypt: Media censorship, Tor interference, HTTPS throttling and ads injections?"
-author: "Leonid Endokimov, Vasilis Ververis"
+author: "Leonid Evdokimov, Vasilis Ververis"
 date: "2016-10-27"
 tags: ["egypt", "DPI", "TCP injections", "network throttling"]
 categories: ["report"]
