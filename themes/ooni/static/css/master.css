@@ -61,6 +61,10 @@ footer {
   width: 100%;
 }
 
+footer.footer-home {
+  height: auto;
+}
+
 footer a {
   color: #b4b4b4;
 }
