@@ -74,13 +74,13 @@ If your laptop does not have an SD card slot, please ensure that you have an SD 
 ## Download the Lepidopter image
 
 * [Lepidopter image download]
-(https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip)
+(https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.5-beta-armel.img.zip)
 
 Consider downloading the [xz compressed image]
-(https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.xz)
-for a significantly reduced file size (ca. 114M smaller) compared to the zip
-archive. Note that this will require an extra program to be installed depending
-on your OS.
+(https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.5-beta-armel.img.xz)
+for a significantly reduced file size compared to the zip archive.
+Note that this will require an [extra program](http://tukaani.org/xz/) to be
+installed depending on your OS.
 
 **The default username and password of the image is**: `lepidopter`
 
@@ -97,7 +97,7 @@ gpg --fetch-keys https://get.ooni.torproject.org/lepidopter/lepidopter-signing-k
 From a keyserver:
 
 ```
-gpg --keyserver pool.sks-keyservers.net --recv-keys 0xBA56AC5A53E9C7A4
+gpg --keyserver pool.sks-keyservers.net --recv-keys 625511968E240F24F6CFD0B6BA56AC5A53E9C7A4
 ```
 
 Lepidopter team's fingerprint (image signing key) is published here:
@@ -110,24 +110,23 @@ uid   Lepidopter Team (signing key)
 
 ### Verify the Lepidopter image
 
-Verify that the compressed image `lepidopter-alpha-armel.img.zip` matches its
-signature `lepidopter-alpha-armel.img.zip.asc` by running:
+Verify that the compressed image `lepidopter-v0.3.5-beta-armel.img.zip` matches its
+signature `lepidopter-v0.3.5-beta-armel.img.zip.asc` by running:
 
 ```
-gpg -v --verify lepidopter-alpha-armel.img.zip.asc
+gpg -v --verify lepidopter-v0.3.5-beta-armel.img.zip.asc
 ```
 
 You should look for the message `Good signature from "Lepidopter Team (signing
 key)"`:
 
 ```
-gpg: assuming signed data in `lepidopter-alpha-armel.img.zip'
-gpg: Signature made Sun 22 May 2016
+gpg: assuming signed data in `lepidopter-v0.3.5-beta-armel.img.zip'
+gpg: Signature made Mon 17 Oct 2016
 gpg:                using RSA key 0xBA56AC5A53E9C7A4
 gpg: using PGP trust model
 gpg: Good signature from "Lepidopter Team (signing key)"
 gpg: binary signature, digest algorithm SHA512
-
 ```
 
 If you want to learn more about digital signatures and key verification read
@@ -152,7 +151,7 @@ Disk Image Writer or a terminal.
 ### Disk Image Writer
 
 **Step 1.** Download the **[Lepidopter
-image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip)**.
+image](https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.5-beta-armel.img.zip)**.
 
 **Step 2.** Right-click on the downloaded Lepidopter image and select **[Extract
 here]** to extract the image.
@@ -216,16 +215,16 @@ machine. If you specify the wrong device in the instructions below you could
 delete your primary Linux partition. Please be careful.
 
 **Step 1.** Download the [Lepidopter
-image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip).
+image](https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.5-beta-armel.img.zip).
 
 **Step 2.** Extract the image:
 
-   `unzip lepidopter-alpha-armel.img.zip`
+   `unzip lepidopter-v0.3.5-beta-armel.img.zip`
 
 If you have downloaded the [xz compressed image]
-(https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.xz):
+(https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.5-beta-armel.img.xz):
 
-   `xz --decompress --verbose --no-sparse lepidopter-alpha-armel.img.zip`
+   `xz --decompress --verbose --no-sparse lepidopter-v0.3.5-beta-armel.img.xz`
 
 **Step 3.** Run ```df -h``` to see which devices are currently mounted.
 
@@ -266,7 +265,7 @@ the name of the whole SD card as described above, not just a partition of it
 (for example, sdd, not sdds1 or sddp1, or mmcblk0 not mmcblk0p1).
 
 ```     
-dd bs=4M if=~/lepidopter-alpha-armel.img of=/dev/sdd
+dd bs=4M if=~/lepidopter-v0.3.5-beta-armel.img of=/dev/sdd
 ``` 
 
 Please note that block size set to 4M will work most of the time. If not, please try
@@ -294,7 +293,7 @@ Pi, and have fun!
 You can copy the Lepidopter image to your SD card through the following steps:
 
 **Step 1.** Download the **[Lepidopter
-image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip)**.
+image](https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.5-beta-armel.img.zip)**.
 
 **Step 2.** Double-click on the downloaded Lepidopter image to extract it.
 
@@ -354,11 +353,11 @@ path.
 You can copy the Lepidopter image to your SD card through the following steps:
 
 **Step 1.** Download the **[Lepidopter
-image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip)**.
+image](https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.5-beta-armel.img.zip)**.
 
 **Step 2.** Extract the image file from the downloaded .xz file, so you now
 have
-"lepidopter-alpha-armel.img".
+"lepidopter-v0.3.5-beta-armel.img".
 
 **Step 3.** Download
 [Win32DiskImager](http://sourceforge.net/projects/win32diskimager/) and
@@ -414,10 +413,10 @@ You might not be able to choose the device in Win32DiskImager on some notebooks,
 so this is a different way to achieve the same thing on a Windows machine.
 
 **Step 1.** Download the **[Lepidopter
-image](https://get.ooni.torproject.org/lepidopter/lepidopter-alpha-armel.img.zip)**.
+image](https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.5-beta-armel.img.zip)**.
 
 **Step 2.** Extract the image file from the downloaded .xz file, so you now have
-"lepidopter-alpha-armel.img".
+"lepidopter-v0.3.5-beta-armel.img".
 
 **Step 3.** Download [flashnul](http://shounen.ru/soft/flashnul/index.html).
 
@@ -455,11 +454,11 @@ right click on it and Run as Administrator.
 Make sure that you use the correct drive letter for the SD Card as that drive
 will be overwritten!
 
-   - ```C:\flashnul\flashnul.exe E: -L C:\temp\lepidopter-alpha-armel.img```
+   - ```C:\flashnul\flashnul.exe E: -L C:\temp\lepidopter-v0.3.5-beta-armel.img```
 
 **Step 10.** Where ```C:\flashnul\flashnul.exe``` is the location of the flashnul
-program; E: is the drive you want to overwrite, and C:\temp\lepidopter-alpha-
-armel.img is the location of the .img file.
+program; E: is the drive you want to overwrite, and
+`C:\temp\lepidopter-v0.3.5-beta-armel.img` is the location of the .img file.
 
 **Step 11.** Flashnul will give you a device summary and a caution message. Check
 the information to make sure you have selected the correct device, then type
@@ -468,11 +467,111 @@ yes and press enter.
 If you get an access denied error, make sure to close all explorer windows or
 folders open for the device, then try re-plugging the SD card.
 
+# Lepidopter services
+
+Lepidopter uses a mDNS (multicast DNS Service Discovery) (Avahi) to publish the
+SSH and ooniprobe web interface services on a local network with no extra
+configuration or the need to find out the IP address of the Lepidopter host.
+
+## Access ooniprobe's web interface
+
+If you have the required dependencies you should be able to access
+ooniprobe web interface by entering the following URL to your web browser:
+[http://lepidopter.local](http://lepidopter.local)
+
+If you can't access ooniprobe's [web interface URL]
+(http://lepidopter.local) please follow the installation [instructions]
+(#service-discovery-install-instructions) related to your operating system.
+
+## Access lepidopter SSH service
+
+You should be able to access Lepidopter's SSH service under the following
+hostname: `lepidopter.local`
+
+## Service discovery install instructions
+
+### Linux
+
+Most Linux distributions (Debian, Fedora, Ubuntu, Archlinux) use the Avahi
+daemon by default. In case your system doesn't come with the Avahi daemon
+pre-installed you should be able to install it via the package manager of
+your distribution, the name of the package is usually something similar to
+`avahi-daemon`. You should be able to check if the service is running by using
+a command similar to:
+
+`systemctl status avahi-daemon`
+
+You should be able to see an `active (running)` service status.
+
+If the avahi service is not running try to start it with: `systemctl start
+avahi-daemon` or `service avahi-daemon start` depending on your distribution.
+
+### Mac OSX/iOS
+
+Mac OS X and iOS operating systems have builtin support for mDNS/DNS-SD with
+the Bonjour software.
+
+### Windows
+
+Recent Windows releases (Windows 10 and Windows 10 mobile) come with built in
+support for mDNS/DNS-SD services. However not all versions of Windows support
+these services and some third-party applications need to be installed
+(if not already installed) that come bundled with the Bonjour software; a
+service that supports automatic discovery of hosts in the local network.
+
+If you have any of the following applications installed and can access
+ooniprobe's web interface you don't need to do anything, otherwise you
+will need to [download](https://support.apple.com/kb/dl999) and install
+Bonjour Print Services for Windows.
+
+Applications that are bundled with the Bonjour software in Windows:
+
+* Bonjour Print Services for Windows
+* Skype
+* iTunes
+* Adobe's Photoshop CS3
+
+**Note**: Before installing any application you should first try to access
+ooniprobe's [web interface URL](http://lepidopter.local) from your web
+browser.
+
+## Troubleshooting service discovery
+
+The `.local` domain extension is an officially reversed special use domain name
+and should not be resolvable by IPSs or other global DNS.
+By default avahi service is being disabled upon detection of a unicast DNS
+server running on the network that serves the top level domain `.local`.
+
+In some cases network routers use the `.lan` or `.home` domain for all devices
+connected in LAN.
+
+You may be able to access ooniprobe's web interface under the following URLs:
+
+* [http://lepidopter.local](http://lepidopter.local)
+* [http://lepidopter.lan](http://lepidopter.lan)
+* [http://lepidopter.home](http://lepidopter.home)
+* [http://lepidopter](http://lepidopter)
+
+If you are unable to access ooniprobe's web interface in any of the URLs above
+you should try to locate the Lepidopter's IP address in your network.
+
+### Find Lepidopter's IP address
+
+There are a number of applications and network tools that can help in finding
+out the IP address of Lepidopter in your network. You can use Adafruit's [Pi
+finder utility](https://github.com/adafruit/Adafruit-Pi-Finder/releases/latest)
+which can be installed in Linux, Mac OSX and Windows. Upon running the Pi
+finder utility you should be seeing the message `Found!` and view the detected
+IP address of Lepidopter located in the `IP Address` field.
+
+You can now use the IP address (found in the IP address field) to access
+ooniprobe's web interface in your web browser.
+
 # Community Information and Contributing
 
 ## Report bugs
 
-Lepidopter bugs, feauture requests and usability issues should be filed
+Lepidopter bugs, feature requests and usability issues should be filed
 [here](https://github.com/TheTorProject/lepidopter/issues).
 
 ## Participate
