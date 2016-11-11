@@ -65,6 +65,11 @@ footer.footer-home {
   height: auto;
 }
 
+footer.footer-home a::after {
+  content: none;
+}
+
+
 footer a {
   color: #b4b4b4;
 }
