@@ -17,18 +17,18 @@
 
   <main class="col-3">
     <p class="test-intro">
-        Interested in running OONI's software tests to collect evidence of internet censorship? Below we include descriptions for all of OONI's tests. For more detailed descriptions, click below on the tests of your choice!
+        Interested in running OONI's software tests to collect evidence of internet censorship? Below we explain what each OONI test is designed to do. Click on the tests below to learn more!
     </p>
 
     <ul class="test-overivew">
-      <a href="#websites"><li>Which websites are blocked?</li></a>
-      <a href="#im"><li>Which Instant Messaging Apps are blocked?</li></a>
-      <a href="#boxes"><li>Which censorship technologies are in my network?</li></a>
-      <a href="#tor"><li>Is Tor blocked?</li></a>
-      <a href="#proxies"><li>Are proxies blocked?</li></a>
+      <a href="#websites" class="test-link"><li>Which websites are blocked?</li></a>
+      <a href="#im" class="test-link"><li>Which Instant Messaging Apps are blocked?</li></a>
+      <a href="#boxes" class="test-link"><li>Which censorship technologies are in my network?</li></a>
+      <a href="#tor" class="test-link"><li>Is Tor blocked?</li></a>
+      <a href="#proxies" class="test-link"><li>Are proxies blocked?</li></a>
     </ul>
 
-    <h1 id="websites" class="test-header">Wich websites are blocked?</h1>
+    <h1 id="websites" class="test-header">Which websites are blocked?</h1>
     <div class="row question-container">
       {{ range .Data.Pages.ByDate }}
         {{ if in .Params.groups "website" }}
@@ -75,7 +75,7 @@
 
     <h1 id="tor" class="test-header">Is Tor blocked?</h1>
     <div class="row question-container">
-      {{ range .Data.Pages }}
+      {{ range .Data.Pages.ByDate }}
         {{ if in .Params.groups "tor" }}
           {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
           <a href="{{ .RelPermalink }}" class="col-3">

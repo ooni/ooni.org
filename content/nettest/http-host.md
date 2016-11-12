@@ -1,6 +1,6 @@
 ---
 title: "HTTP Host"
-short_description: "This test examine whether the domain names of websites are blocked."
+short_description: "This test examines whether the domain names of websites are blocked."
 groups: ["website"]
 date: "0002-01-01"
 ---

@@ -3,6 +3,7 @@ title: "Tor Bridge Reachability"
 short_description: "This test examines whether Tor bridges
 work in tested networks."
 groups: ["tor"]
+date: "0001-01-01"
 ---
 
 # Tor Bridge Reachability

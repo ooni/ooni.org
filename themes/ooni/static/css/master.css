@@ -812,3 +812,7 @@ p.test-paragraph {
   cursor: pointer;
   transition: .1s;
 }
+
+.toc a {
+  color: #0588cb;
+}

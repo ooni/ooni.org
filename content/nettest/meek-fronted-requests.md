@@ -3,6 +3,7 @@ title: "Meek Fronted Requests"
 short_description: "This test examines whether the domains used by Meek (a type of Tor
 bridge) work in tested networks."
 groups: ["tor"]
+date: "0002-01-01"
 ---
 
 # Meek Fronted Requests
