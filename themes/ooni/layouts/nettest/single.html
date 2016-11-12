@@ -18,19 +18,9 @@
 
     <div class="row">
       <div class="col-1 toc">
-        {{ $URL := .RelPermalink }}
-        {{ range where .Site.Pages "Section" "nettest" }}
-        <div>
-          {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-          <a href="{{ .RelPermalink }}">
-            {{ if eq $URL .RelPermalink }}
-              <span class="active">{{ $TITLE }}</span>
-            {{ else }}
-              <span>{{ $TITLE }}</span>
-            {{end}}
+          <a href="{{ .Site.BaseURL }}/nettest/">
+            &#x2190; back to Test-Overview
           </a>
-        </div>
-        {{ end  }}
       </div>
 
       <div class="col-2">
