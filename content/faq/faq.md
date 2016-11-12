@@ -1,15 +1,75 @@
 # Frequently Asked Questions 
 
-Below we include some of the questions that we are quite frequently asked. Hope
+Below we include some questions that we are quite frequently asked. Hope
 this helps!
+
+* [*OONI*](#ooni)
+
+    * [*1. What does OONI's software do?*](#what-does-oonis-software-do)
+  
+    * [*2. Who can run ooniprobe?*](#who-can-run-ooniprobe)
+  
+    * [*3. How can I run ooniprobe?*](#how-can-i-run-ooniprobe)
+  
+    * [*4. What does the default set of ooniprobe tests include?*](#what-does-the-default-set-of-ooniprobe-tests-include)
+  
+    * [*5. How can I choose which ooniprobe tests to run from the terminal?*](#how-can-i-choose-which-ooniprobe-tests-to-run-from-the-terminal)
+  
+    * [*6. What are the risks of running ooniprobe?*](#what-are-the-risks-of-running-ooniprobe)
+  
+    * [*7. Can OONI protect my privacy?*](#can-ooni-protect-my-privacy)
+  
+    * [*8. What types of data does OONI collect?*](#what-types-of-data-does-ooni-collect)
+  
+    * [*9. Once ooniprobe has run, should I send the results to you?*](#once-ooniprobe-has-run-should-i-send-the-results-to-you)
+  
+    * [*10. How can I opt-out from sending OONI specific types of data?*](#how-can-i-opt-out-from-sending-ooni-specific-types-of-data)
+  
+    * [*11. Where are the measurements published?*](#where-are-the-measurements-published)
+  
+    * [*12. How can I opt-out from having my measurements published by default?*](#how-can-i-opt-out-from-having-my-measurements-published-by-default)
+  
+    * [*13. Why doesn't my country have any measurements on OONI Explorer?*](#why-doesnt-my-country-have-any-measurements-on-ooni-explorer)
+  
+* [*Lepidopter: OONI's Raspberry Pi distribution*](#lepidopter-oonis-raspberry-pi-distribution)
+
+    * [*1. Running the software seems too technical/complicated. How else can I contribute to measurements?*](#running-the- software-seems-too-technical-complicated-how-else-can-i-contribute-to-measurements)
+  
+    * [*2. How often will ooniprobe run tests through my Raspberry Pi?*](#how-often-will-ooniprobe-run-tests-through-my- raspberry-pi)
+  
+    * [*3. How are the measurements collected from the tests run via my Raspberry Pi?*](#how-are-the-measurements-collected- from-the-tests-run-via-my-raspberry-pi)
+  
+    * [*4. How can I view the results of the tests run via my Raspberry Pi?*](#how-can-i-view-the-results-of-the-tests-run-via-my-raspberry-pi)
+  
+    * [*5. How much time does it take for my measurements to get published on OONI Explorer?*](#how-much-time-does-it-take-for-my-measurements-to-get-published-on-ooni-explorer)
+  
+    * [*6. How can I update ooniprobe on my Raspberry Pi?*](#how-can-i-update-ooniprobe-on-my-raspberry-pi)
+  
+    * [*7. What are the risks of running ooniprobe via a Raspberry Pi?*](#what-are-the-risks-of-running-ooniprobe-via-a- raspberry-pi)
+
+* [*Testing URLs for censorship*](#testing-urls-for-censorship)
+
+    * [*1. What are test lists?*](#what-are-test-lists)
+    
+    * [*2. What types of test lists does OONI examine?*](#what-types-of-test-lists-does-ooni-examine)
+    
+    * [*3. Which list of URLs will I test if I run ooniprobe?*](#which-list-of-urls-will-i-test-if-i-run-ooniprobe)
+    
+    * [*4. How can I choose which URLs to test for censorship?*](#how-can-i-choose-which-urls-to-test-for-censorship)
+    
+    * [*5. How can I contribute to test lists?*](#how-can-i-contribute-to-test-lists)
+    
+    * [*6. I'm not a github user, but I'd still like to submit URLs for testing. How can I do so?*](#im-not-a-github-user- but-id-still-like-to-submit-urls-for-testing-how-can-i-do-so)
 
 ## OONI
 
-### 1. What does OONI's software (ooniprobe) do?
+### 1. What does OONI's software do?
 
-OONI's software tests are designed to:
+OONI's software tests (called ooniprobe) are designed to:
 
 * Detect the blocking of websites
+
+* Detect the blocking of instant messaging apps
 
 * Detect the presence of systems which could potentially be responsible for
 censorship, surveillance and traffic manipulation
@@ -18,7 +78,7 @@ censorship, surveillance and traffic manipulation
 
 OONI has many software tests, each of which has different functions. You can
 learn more about what each test is designed to do
-[here](https://ooni.torproject.org//nettest/), and you can review the code
+[here](https://ooni.torproject.org/test/), and you can review the code
 [here](https://github.com/TheTorProject/ooni-spec).
 
 ### 2. Who can run ooniprobe?
@@ -27,25 +87,37 @@ Linux and Mac OS X users can run ooniprobe.
 
 If you're a Windows user interested in running ooniprobe, please consider
 running our ooniprobe distribution for Raspberry Pis. More information about this
-can be found [here](https://ooni.torproject.org/install/lepidopter/).
+can be found [here](https://ooni.torproject.org/install/lepidopter/). Alternatively, you can run ooniprobe via a virtual machine. 
 
 ### 3. How can I run ooniprobe?
+
+You can run ooniprobe from one of the following:
+
+* Terminal
+
+* Web user interface
+
+* Raspberry Pi
 
 You can learn how to run ooniprobe through our [installation
 guide](https://ooni.torproject.org/install/ooniprobe/).
 
 ### 4. What does the default set of ooniprobe tests include?
 
-By running ooniprobe, you will by default run the following tests:
+By running ooniprobe from the terminal, you will by default run the following tests:
 
 * [Web connectivity](https://ooni.torproject.org/nettest/web-connectivity/):
-Designed to examine whether URLs are blocked (and if so, how)
+Designed to examine whether and how websites are blocked.
 
-* [HTTP invalid request line](https://ooni.torproject.org/nettest/http-invalid-request-line/): Designed to examine whether systems which could potentially be responsible for censorship, surveillance and traffic manipulation are present in tested networks
+* [HTTP invalid request line](https://ooni.torproject.org/nettest/http-invalid-request-line/): Designed to examine whether systems which could potentially be responsible for censorship, surveillance and traffic manipulation are present in tested networks.
 
-* [HTTP header field manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/): Similarly to the HTTP invalid request line test, it's designed to detect the presence of systems in tested networks
+* [HTTP header field manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/): Similarly to the HTTP invalid request line test, it's designed to detect the presence of systems in tested networks.
 
-### 5. How can I choose which tests to run?
+* [Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/): Designed to examine the reachability of the Tor network in tested networks.
+
+If you run ooniprobe from a web user interface, you can choose each test you run. 
+
+### 5. How can I choose which tests to run from the terminal?
 
 If you don’t want to run OONI's default tests or if you would prefer to run
 entirely different OONI tests, you can do so by typing `ooniprobe -s` in your
@@ -97,14 +169,14 @@ monitoring your internet activity (such as your local ISP, government or
 employer) will be able to see that you are running ooniprobe. We therefore
 encourage you to seek legal advice prior to running ooniprobe.
 
-Please learn more about potential risks [here](https://ooni.torproject.org/about/risks/).
+Learn more about potential risks [here](https://ooni.torproject.org/about/risks/).
 
 ### 7. Can OONI protect my privacy?
 
 OONI's software is *not* designed to protect your privacy, as anyone monitoring
 your internet activity (such as you local ISP, government or employer) will be
 able to see that you are running ooniprobe. OONI though does *care* about the
-right to privacy, which is why efforts are made to remove IP addresses before
+right to privacy, which is why IP addresses are removed before
 publishing data.
 
 ### 8. What types of data does OONI collect?
@@ -142,7 +214,9 @@ Once OONI receives measurements, it automatically processes them and publishes
 them on [OONI Explorer](https://explorer.ooni.torproject.org/world/): a global
 data map which provides an interface to explore the measurements.
 
-### 12. How can I opt-out from having my measurements by default sent to OONI and published on OONI Explorer?
+OONI also publishes measurements in json files **[here](https://measurements.ooni.torproject.org/)**.
+
+### 12. How can I opt-out from having my measurements published by default?
 
 You can opt-out from from sending OONI any data at all, by running ooniprobe
 with the `-n` command line option.
@@ -163,10 +237,10 @@ You can learn how to run ooniprobe [here](https://ooni.torproject.org/install/oo
 ### 1. Running the software seems too technical/complicated. How else can I contribute to measurements?
 
 If you're a Windows user or generally find running ooniprobe from the command
-line too complicated, you could try out **Lepidopter:** an ooniprobe
+line too complicated, you can try out **Lepidopter:** an ooniprobe
 distribution for Raspberry Pis.
 
-A Raspberry Pi is a small single-board computer. You can ooniprobe from a
+A Raspberry Pi is a small single-board computer. You can run ooniprobe from a
 Raspberry Pi through the following steps:
 
 1. Copy the ooniprobe distribution (Lepidopter) onto an SD card
@@ -177,13 +251,13 @@ Raspberry Pi through the following steps:
 
 4. Connect your Raspberry Pi to the internet (via an Ethernet cable)
 
-You can learn how to copy the ooniprobe distribution onto an SD card through the
+Learn how to copy the ooniprobe distribution onto an SD card through the
 guide [here](https://ooni.torproject.org/install/lepidopter/).
 
 ### 2. How often will ooniprobe run tests through my Raspberry Pi?
 
 The ooniprobe distribution for Raspberry Pis is configured to run tests once a
-day, every day, at 6am UTC.
+day, every day.
 
 ### 3. How are the measurements collected from the tests run via my Raspberry Pi?
 
@@ -193,18 +267,18 @@ all measurements to OONI by default.
 ### 4. How can I view the results of the tests run via my Raspberry Pi?
 
 You can view all measurements - including the ones collected via your Raspberry
-Pi ooniprobe distribution - through [OONI
-Explorer](https://explorer.ooni.torproject.org/world/).
+Pi ooniprobe distribution - through **[OONI
+Explorer](https://explorer.ooni.torproject.org/world/)**.
 
 ### 5. How much time does it take for my measurements to get published on OONI Explorer?
 
-Measurements are published on OONI Explorer within 24 hours after each set of
+Measurements are published on OONI Explorer around 24 hours after each set of
 tests are run.
 
 ### 6. How can I update ooniprobe on my Raspberry Pi?
 
 The ooniprobe distribution for Raspberry Pis is configured to automatically
-update to the latest versions of ooniprobe.
+update to the latest ooniprobe version.
 
 ### 7. What are the risks of running ooniprobe via a Raspberry Pi?
 
@@ -216,7 +290,7 @@ monitoring your internet activity (such as your local ISP, government or
 employer) will be able to see that ooniprobe is run from your network.
 
 The advantage of running ooniprobe from a Raspberry Pi, rather than from your
-personal laptop, is that this activity will not be linked to your personal IP
+personal laptop, is that this activity will *not* be linked to your personal IP
 address.
 
 We encourage you to seek legal advice prior to running ooniprobe. Please learn
@@ -227,7 +301,7 @@ more about potential risks [here](https://ooni.torproject.org/about/risks/).
 ### 1. What are test lists?
 
 OONI tests specific websites to see if they are blocked, and such websites are
-included in lists. Such lists are called "test lists".
+included in lists. These lists are called "test lists".
 
 ### 2. What types of test lists does OONI examine?
 
