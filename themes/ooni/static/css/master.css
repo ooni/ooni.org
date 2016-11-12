@@ -39,7 +39,7 @@ html {
 }
 
 body {
-  margin: 0 0 120px;
+ /* margin: 0 0 120px; */
 }
 
 nav {
@@ -53,7 +53,6 @@ footer {
   color: #b4b4b4;
   background-color: #26292c;
   text-align: center;
-
   position: absolute;
   left: 0;
   bottom: 0;
@@ -63,6 +62,8 @@ footer {
 
 footer.footer-home {
   height: auto;
+  position:relative;
+  margin-top:30px;
 }
 
 footer.footer-home a::after {
@@ -128,8 +129,9 @@ header .row {
   .row { display: block; }
   .col-1, .col-2, .col-3 { margin: 0 2.5rem !important; }
   .container { width: auto; min-width: 20rem; }
+  .fork-me {top:-14px!important; left:-14px!important;}
   .homepage nav .col-1 { display: none; }
-  nav { display: block; margin: 2rem 0 4rem !important; }
+  nav { display: block; margin: 2rem 0 4rem 1rem !important; }
   nav .col-2 { margin-top: 1rem !important; line-height: 2; }
   .homepage nav a { margin: 0 1rem !important; }
   .homepage header, .homepage nav, .homepage footer { text-align: center; }
@@ -263,6 +265,12 @@ li {
 
 th, td {
   font-weight: inherit;
+}
+
+.fingerprint{
+  background-color: #f2f2f2;
+  padding: 0.5rem 1rem;
+  position: relative;
 }
 
 pre {
