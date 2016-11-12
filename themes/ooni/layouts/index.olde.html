@@ -31,29 +31,36 @@
         <div class="row">
           <div class="col-1">
             <h2>OONI Explorer</h2>
-              <p class="subtext">OONI has been monitoring internet censorship around the world since 2012</p>
-              <p class="subtext"><a href=""
+                        <p style="margin-top:100px">OONI has been monitoring internet censorship around the world since 2012</p>
           </div>
           
         <div class="col-2">
-        <img src="images/ooni-explorer-map.png" srcset="images/ooni-explorer-map-2x.png 699w"  />
+        <img src="images/ooni-explorer-map-2x.png" srcset="images/ooni-explorer-map-2x.png 2x"  />
       </div>
     </div>
     </div>
     </div>
+    
+    <div class="how-it-works">
+      <div class="container">
+        <div class="row">
+          <div class="col-1">
+            <h2>How OONI Works</h2>
+          </div>
+          <div class="col-2"></div>
+        </div>
+        <img class="col-3" src="images/how-ooni-works.png" srcset="images/how-ooni-works-2x.png 2x" width="680" height="280" />
+      </div>
+    </div>
     <div class="container">
       <div class="row">
-        <div class="col-1"><h2>What OONI does</h2></div>
+        <div class="col-1"></div>
         <div class="col-2 pad-below">
-          <h3>OONI develops free software tests designed to examine the following:</h3>
-          <br>
-          <ul>
-          <li>Blocking of websites
-          <li>Blocking of instant messaging apps
-          <li>Blocking of Tor and other circumvention tools
-          <li>Detection of systems that could be responsible for censorship and/or surveillance
-
-          <p class="cta"><a href="/nettest/">Testing methodology</a></p>
+          <p>OONI scans TCP, DNS, HTTP and TLS connections for tampering. Some tests
+            work by requesting data over an unencrypted connection and comparing
+            against a known good value. Others check for DNS spoofing, keyword
+            filtering, transparent proxying and website block lists.</p>
+          <p class="cta"><a href="https://github.com/TheTorProject/ooni-spec">Testing methodology</a></p>
           <p><strong>There are risks.</strong> Running a probe involves testing
             connections to websites that may be banned and using tools to attempt
             circumventing web censorship. It is not designed to protect the privacy
@@ -62,28 +69,6 @@
           <p class="cta"><a href="/about/risks">More about the risks</a></p>
         </div>
       </div>
-      </div>
-
-    <div class="how-it-works">
-      <div class="container">
-        <div class="row">
-          <div class="col-1">
-            <h2>How OONI Works</h2>
-            <p class="subtext">OONI scans TCP, DNS, HTTP and TLS connections for tampering. Some tests
-            work by requesting data over an unencrypted connection and comparing
-            against a known good value. Others check for DNS spoofing, keyword
-            filtering, transparent proxying and website block lists.</p>
-          </div>
-          <div class="col-2">
-                    <img src="images/how-ooni-works.png" srcset="images/how-ooni-works-2x.png 2x" width="680" height="280" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container"> <!-- Container Wrap till the end -->
-
 
       <!-- div class="row">
         <div class="col-1">
@@ -209,9 +194,11 @@
             <p>To contact the OONI team send an email to <strong>contact@openobservatory.org</strong>
             Encrypted emails can be sent using the following PGP key:</p>
             <p class="fingerprint">
-            Key ID: 0CB177B7<br>
-            Fingerprint: 4C15 DDA9 96C6 C0CF 48BD 3309 6B29 43F0 0CB1 77B7
-            </p>
+Key ID:
+    0CB177B7
+Fingerprint:
+    4C15 DDA9 96C6 C0CF 48BD 3309 6B29 43F0 0CB1 77B7
+            </pre>
         </div>
       </div>
 
