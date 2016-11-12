@@ -216,7 +216,7 @@ might be illegal or viewed as controversial in some countries.
 The installation of [Tor](https://www.torproject.org/) software, which is
 designed for online anonymity, is a *prerequisite* for using ooniprobe.
 
-Furthermore, OONI's **[Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/) test is designed to examine the
+Furthermore, OONI's **[Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/)** test is designed to examine the
 reachability of the Tor network, while OONI's **[bridge-reachability](https://ooni.torproject.org/nettest/tor-bridge-reachability/)**
 test is designed to check whether [Tor bridges](https://bridges.torproject.org/)
 are blocked or not.
