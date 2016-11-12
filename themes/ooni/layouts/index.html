@@ -140,12 +140,13 @@
           <h2>Blog Posts</h2>
         </div>
        <div class="col-2 blog-summary">
-          {{ range where .Data.Pages.ByPublishDate "Section" "post" }}
+          {{ range first  5 (where .Data.Pages "Section" "post") }}
           <a href="{{ .Permalink }}">
               <p class="title">{{ .Title }}</p>
               <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
           </a>
           {{ end }}
+          <a class="read-more" href="/post/">Read More</a>
         </div>
       </div>
 
