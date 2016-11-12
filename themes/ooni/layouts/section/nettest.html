@@ -16,24 +16,75 @@
   </nav>
 
   <main class="col-3">
-      {{ range .Data.Pages  }}
-      {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-      <div>
-        <a href="{{ .RelPermalink }}">
-          <h2>
-            {{ $TITLE }}
-          </h2>
-        </a>
-        <p>
-        {{.Summary}}
-        <a href="{{ .RelPermalink }}">
-          Read more...
-        </a>
-        </p>
-      </div>
-      {{ end  }}
-  </main>
+    <ul class="test-overivew">
+      <a href="#websites" class="test-link"><li>Which websites are blocked?</li></a>
+      <a href="#boxes" class="test-link"><li>Which censorship technologies are in my network?</li></a>
+      <a href="#tor" class="test-link"><li>Is Tor blocked?</li></a>
+      <a href="#proxies" class="test-link"><li>Are proxies blocked?</li></a>
+    </ul>
 
+    <h1 id="websites" class="test-header">Wich websites are blocked?</h1>
+    <div class="row question-container">
+      {{ range .Data.Pages.ByDate }}
+        {{ if in .Params.groups "website" }}
+        {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
+        <a href="{{ .RelPermalink }}" class="col-3">
+          <h2 class="test-header">{{ $TITLE }}</h2>
+          <p class="test-paragraph">
+            {{ .Params.short_description }}
+          </p>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <h1 id="websites" class="test-header">Which Instant Messaging Apps are blocked?</h1>
+
+    <h1 id="boxes" class="test-header">Which censorship technologies are in my network?</h1>
+    <div class="row question-container">
+      {{ range .Data.Pages }}
+        {{ if in .Params.groups "boxes" }}
+        {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
+        <a href="{{ .RelPermalink }}" class="col-3">
+            <h2 class="test-header">{{ $TITLE }}</h2>
+            <p class="test-paragraph">
+              {{ .Params.short_description }}
+            </p>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <h1 id="tor" class="test-header">Is Tor blocked?</h1>
+    <div class="row question-container">
+      {{ range .Data.Pages }}
+        {{ if in .Params.groups "tor" }}
+          {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
+          <a href="{{ .RelPermalink }}" class="col-3">
+            <h2 class="test-header">{{ $TITLE }}</h2>
+            <p class="test-paragraph">
+              {{ .Params.short_description }}
+            </p>
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <h1 id="proxies" class="test-header">Are proxies blocked?</h1>
+    <div class="row question-container">
+      {{ range .Data.Pages }}
+        {{ if in .Params.groups "proxies" }}
+          {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
+          <a href="{{ .RelPermalink }}" class="col-3">
+            <h2 class="test-header">{{ $TITLE }}</h2>
+            <p class="test-paragraph">
+              {{ .Params.short_description }}
+            </p>
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </main>
 </div>
 
 {{ partial "footer.html" . }}

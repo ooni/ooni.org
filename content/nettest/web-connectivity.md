@@ -1,3 +1,12 @@
+---
+title: "Web connectivity"
+short_description: "This test examines whether access to websites
+is blocked through DNS tampering,
+TCP connection RST/IP blocking or by a transparent HTTP proxy."
+groups: ["website"]
+date: "0000-01-01"
+---
+
 # Web connectivity
 
 This test examines whether websites are reachable and if they are not, it

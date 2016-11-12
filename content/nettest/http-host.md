@@ -1,3 +1,10 @@
+---
+title: "HTTP Host"
+short_description: "This test examine whether the domain names of websites are blocked."
+groups: ["website"]
+date: "0002-01-01"
+---
+
 # HTTP Host
 
 This test attempts to:
