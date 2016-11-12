@@ -5,61 +5,61 @@ this helps!
 
 * [*OONI*](#ooni)
 
-    * [*1. What does OONI's software do?*](#what-does-oonis-software-do)
+   * [*1. What does OONI's software do?*](#what-does-oonis-software-do)
   
-    * [*2. Who can run ooniprobe?*](#who-can-run-ooniprobe)
+   * [*2. Who can run ooniprobe?*](#who-can-run-ooniprobe)
   
-    * [*3. How can I run ooniprobe?*](#how-can-i-run-ooniprobe)
+   * [*3. How can I run ooniprobe?*](#how-can-i-run-ooniprobe)
   
-    * [*4. What does the default set of ooniprobe tests include?*](#what-does-the-default-set-of-ooniprobe-tests-include)
+   * [*4. What does the default set of ooniprobe tests include?*](#what-does-the-default-set-of-ooniprobe-tests-include)
   
-    * [*5. How can I choose which ooniprobe tests to run from the terminal?*](#how-can-i-choose-which-ooniprobe-tests-to-run-from-the-terminal)
+   * [*5. How can I choose which ooniprobe tests to run from the terminal?*](#how-can-i-choose-which-ooniprobe-tests-to-run-from-the-terminal)
   
-    * [*6. What are the risks of running ooniprobe?*](#what-are-the-risks-of-running-ooniprobe)
+   * [*6. What are the risks of running ooniprobe?*](#what-are-the-risks-of-running-ooniprobe)
   
-    * [*7. Can OONI protect my privacy?*](#can-ooni-protect-my-privacy)
+   * [*7. Can OONI protect my privacy?*](#can-ooni-protect-my-privacy)
   
-    * [*8. What types of data does OONI collect?*](#what-types-of-data-does-ooni-collect)
+   * [*8. What types of data does OONI collect?*](#what-types-of-data-does-ooni-collect)
   
-    * [*9. Once ooniprobe has run, should I send the results to you?*](#once-ooniprobe-has-run-should-i-send-the-results-to-you)
+   * [*9. Once ooniprobe has run, should I send the results to you?*](#once-ooniprobe-has-run-should-i-send-the-results-to-you)
   
-    * [*10. How can I opt-out from sending OONI specific types of data?*](#how-can-i-opt-out-from-sending-ooni-specific-types-of-data)
+   * [*10. How can I opt-out from sending OONI specific types of data?*](#how-can-i-opt-out-from-sending-ooni-specific-types-of-data)
   
-    * [*11. Where are the measurements published?*](#where-are-the-measurements-published)
+   * [*11. Where are the measurements published?*](#where-are-the-measurements-published)
   
-    * [*12. How can I opt-out from having my measurements published by default?*](#how-can-i-opt-out-from-having-my-measurements-published-by-default)
+   * [*12. How can I opt-out from having my measurements published by default?*](#how-can-i-opt-out-from-having-my-measurements-published-by-default)
   
-    * [*13. Why doesn't my country have any measurements on OONI Explorer?*](#why-doesnt-my-country-have-any-measurements-on-ooni-explorer)
+   * [*13. Why doesn't my country have any measurements on OONI Explorer?*](#why-doesnt-my-country-have-any-measurements-on-ooni-explorer)
   
 * [*Lepidopter: OONI's Raspberry Pi distribution*](#lepidopter-oonis-raspberry-pi-distribution)
 
-    * [*1. Running the software seems too technical/complicated. How else can I contribute to measurements?*](#running-the- software-seems-too-technical-complicated-how-else-can-i-contribute-to-measurements)
+   * [*1. Running the software seems too technical/complicated. How else can I contribute to measurements?*](#running-the- software-seems-too-technical-complicated-how-else-can-i-contribute-to-measurements)
   
-    * [*2. How often will ooniprobe run tests through my Raspberry Pi?*](#how-often-will-ooniprobe-run-tests-through-my- raspberry-pi)
+   * [*2. How often will ooniprobe run tests through my Raspberry Pi?*](#how-often-will-ooniprobe-run-tests-through-my- raspberry-pi)
   
-    * [*3. How are the measurements collected from the tests run via my Raspberry Pi?*](#how-are-the-measurements-collected- from-the-tests-run-via-my-raspberry-pi)
+   * [*3. How are the measurements collected from the tests run via my Raspberry Pi?*](#how-are-the-measurements-collected- from-the-tests-run-via-my-raspberry-pi)
   
-    * [*4. How can I view the results of the tests run via my Raspberry Pi?*](#how-can-i-view-the-results-of-the-tests-run-via-my-raspberry-pi)
+   * [*4. How can I view the results of the tests run via my Raspberry Pi?*](#how-can-i-view-the-results-of-the-tests-run-via-my-raspberry-pi)
   
-    * [*5. How much time does it take for my measurements to get published on OONI Explorer?*](#how-much-time-does-it-take-for-my-measurements-to-get-published-on-ooni-explorer)
+   * [*5. How much time does it take for my measurements to get published on OONI Explorer?*](#how-much-time-does-it-take-for-my-measurements-to-get-published-on-ooni-explorer)
   
-    * [*6. How can I update ooniprobe on my Raspberry Pi?*](#how-can-i-update-ooniprobe-on-my-raspberry-pi)
+   * [*6. How can I update ooniprobe on my Raspberry Pi?*](#how-can-i-update-ooniprobe-on-my-raspberry-pi)
   
-    * [*7. What are the risks of running ooniprobe via a Raspberry Pi?*](#what-are-the-risks-of-running-ooniprobe-via-a- raspberry-pi)
+   * [*7. What are the risks of running ooniprobe via a Raspberry Pi?*](#what-are-the-risks-of-running-ooniprobe-via-a- raspberry-pi)
 
 * [*Testing URLs for censorship*](#testing-urls-for-censorship)
 
-    * [*1. What are test lists?*](#what-are-test-lists)
+   * [*1. What are test lists?*](#what-are-test-lists)
     
-    * [*2. What types of test lists does OONI examine?*](#what-types-of-test-lists-does-ooni-examine)
+   * [*2. What types of test lists does OONI examine?*](#what-types-of-test-lists-does-ooni-examine)
     
-    * [*3. Which list of URLs will I test if I run ooniprobe?*](#which-list-of-urls-will-i-test-if-i-run-ooniprobe)
+   * [*3. Which list of URLs will I test if I run ooniprobe?*](#which-list-of-urls-will-i-test-if-i-run-ooniprobe)
     
-    * [*4. How can I choose which URLs to test for censorship?*](#how-can-i-choose-which-urls-to-test-for-censorship)
+   * [*4. How can I choose which URLs to test for censorship?*](#how-can-i-choose-which-urls-to-test-for-censorship)
     
-    * [*5. How can I contribute to test lists?*](#how-can-i-contribute-to-test-lists)
+   * [*5. How can I contribute to test lists?*](#how-can-i-contribute-to-test-lists)
     
-    * [*6. I'm not a github user, but I'd still like to submit URLs for testing. How can I do so?*](#im-not-a-github-user- but-id-still-like-to-submit-urls-for-testing-how-can-i-do-so)
+   * [*6. I'm not a github user, but I'd still like to submit URLs for testing. How can I do so?*](#im-not-a-github-user- but-id-still-like-to-submit-urls-for-testing-how-can-i-do-so)
 
 ## OONI
 
