@@ -5,7 +5,7 @@ this helps!
 
 * [*OONI*](#ooni)
 
-   * [*1. What does OONI's software do?*](#what-does-oonis-software-do)
+   * [*What does OONI's software do?*](#what-does-oonis-software-do)
   
    * [*2. Who can run ooniprobe?*](#who-can-run-ooniprobe)
   
