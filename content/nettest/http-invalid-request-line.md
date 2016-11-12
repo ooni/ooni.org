@@ -1,3 +1,10 @@
+---
+title: "HTTP invalid request line"
+short_description: "This test tries to detect the presence of network components (“middle box”)
+which could be responsible for censorship and/or traffic manipulation."
+groups: ["boxes"]
+---
+
 # HTTP invalid request line
 
 This test tries to detect the presence of network components (“middle box”)
@@ -32,4 +39,3 @@ that is specifically designed to not trigger errors when receiving invalid HTTP
 request lines like the ones of this test. Furthermore, the presence of a middle
 box is not necessarily indicative of traffic manipulation, as they are often
 used in networks for caching purposes.
-

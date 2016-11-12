@@ -1,3 +1,10 @@
+---
+title: "Psiphon"
+short_description: "This test provides an automated way of examining whether Psiphon works in a
+tested network."
+groups: ["proxies"]
+---
+
 # Psiphon
 
 This test provides an automated way of examining whether Psiphon works in a

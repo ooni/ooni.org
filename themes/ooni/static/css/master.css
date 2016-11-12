@@ -767,3 +767,48 @@ pre span.lw {
   border-radius: 4px;
   padding: 6px 20px;
 }
+
+/*  Tests section */
+p.test-intro {
+  margin-top: 1.6em;
+}
+
+ul.test-overivew {
+    margin: 1.3em;
+    float: left;
+}
+
+.test-link:hover {
+  text-decoration: underline;
+}
+
+h1.test-header {
+  margin: 35px 0 15px 0;
+  clear: both;
+}
+h2.test-header {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+p.test-paragraph {
+  margin: 0;
+}
+
+.question-container .col-3 {
+  margin: 0px 15px 0px 0px;
+  border: #0588cb solid 1px;
+  border-radius: 10px;
+  padding: 15px;
+  background: #0588cb;
+  color: white;
+  transition: .1s;
+}
+
+.question-container .col-3:hover {
+  border: #0588cb solid 1px;
+  background: white;
+  color: #0588cb;
+  cursor: pointer;
+  transition: .1s;
+}

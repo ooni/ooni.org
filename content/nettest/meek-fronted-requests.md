@@ -1,3 +1,10 @@
+---
+title: "Meek Fronted Requests"
+short_description: "This test examines whether the domains used by Meek (a type of Tor
+bridge) work in tested networks."
+groups: ["tor"]
+---
+
 # Meek Fronted Requests
 
 This test examines whether the domains used by Meek (a type of [Tor

@@ -1,3 +1,10 @@
+---
+title: "Tor Bridge Reachability"
+short_description: "This test examines whether Tor bridges
+work in tested networks."
+groups: ["tor"]
+---
+
 # Tor Bridge Reachability
 
 This test examines whether **[Tor bridges](https://bridges.torproject.org/)**
