@@ -5,6 +5,9 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width"/>
+  {{ if .RSSlink }}
+  <link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{ end }}
   <title>OONI - {{ .Title }}</title>
     <link rel="stylesheet" href="{{ $baseurl }}/css/master.css"/>
     <link rel="stylesheet" href="{{ $baseurl }}/css/event.css"/>
