@@ -5,7 +5,7 @@ this helps!
 
 * [*OONI*](#ooni)
 
-   * [*What does OONI's software do?*](#what-does-oonis-software-do)
+   * [*1. What does OONI's software do?*](#what-does-oonis-software-do)
   
    * [*2. Who can run ooniprobe?*](#who-can-run-ooniprobe)
   
@@ -63,7 +63,7 @@ this helps!
 
 ## OONI
 
-### 1. What does OONI's software do?
+## 1. What does OONI's software do?
 
 OONI's software tests (called ooniprobe) are designed to:
 
