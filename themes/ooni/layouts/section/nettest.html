@@ -16,15 +16,16 @@
   </nav>
 
   <main class="col-3">
-    <p>
+    <p class="test-intro">
         Interested in running OONI's software tests to collect evidence of internet censorship? Below we include descriptions for all of OONI's tests. For more detailed descriptions, click below on the tests of your choice!
     </p>
 
     <ul class="test-overivew">
-      <a href="#websites" class="test-link"><li>Which websites are blocked?</li></a>
-      <a href="#boxes" class="test-link"><li>Which censorship technologies are in my network?</li></a>
-      <a href="#tor" class="test-link"><li>Is Tor blocked?</li></a>
-      <a href="#proxies" class="test-link"><li>Are proxies blocked?</li></a>
+      <a href="#websites"><li>Which websites are blocked?</li></a>
+      <a href="#im"><li>Which Instant Messaging Apps are blocked?</li></a>
+      <a href="#boxes"><li>Which censorship technologies are in my network?</li></a>
+      <a href="#tor"><li>Is Tor blocked?</li></a>
+      <a href="#proxies"><li>Are proxies blocked?</li></a>
     </ul>
 
     <h1 id="websites" class="test-header">Wich websites are blocked?</h1>
@@ -42,7 +43,20 @@
       {{ end }}
     </div>
 
-    <h1 id="websites" class="test-header">Which Instant Messaging Apps are blocked?</h1>
+    <h1 id="im" class="test-header">Which Instant Messaging Apps are blocked?</h1>
+    <div class="row question-container">
+      {{ range .Data.Pages }}
+        {{ if in .Params.groups "im" }}
+        {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
+        <a href="{{ .RelPermalink }}" class="col-3">
+            <h2 class="test-header">{{ $TITLE }}</h2>
+            <p class="test-paragraph">
+              {{ .Params.short_description }}
+            </p>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
 
     <h1 id="boxes" class="test-header">Which censorship technologies are in my network?</h1>
     <div class="row question-container">

@@ -769,6 +769,10 @@ pre span.lw {
 }
 
 /*  Tests section */
+p.test-intro {
+  margin-top: 1.6em;
+}
+
 ul.test-overivew {
     margin: 1.3em;
     float: left;
@@ -808,8 +812,3 @@ p.test-paragraph {
   cursor: pointer;
   transition: .1s;
 }
-
-/*a.test-link:hover li {
-  background-color: #0588cb;
-  color: white;
-}*/

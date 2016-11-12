@@ -1,3 +1,10 @@
+---
+title: "WhatsApp test"
+short_description: "This test is designed to examine the reachability of both WhatsApp's app and
+the WhatsApp web version within a tested network."
+groups: ["im"]
+---
+
 # WhatsApp test
 
 This test is designed to examine the reachability of both WhatsApp's app and

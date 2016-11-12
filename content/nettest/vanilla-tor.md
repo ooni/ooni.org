@@ -1,3 +1,10 @@
+---
+title: "Vanilla Tor"
+short_description: "This test examines the reachability of the Tor network (which is designed for online anonymity
+and censorship circumvention)."
+groups: ["tor"]
+---
+
 # Vanilla Tor
 
 This test examines the reachability of the [Tor network](https://www.torproject.org/) (which is designed for online anonymity
