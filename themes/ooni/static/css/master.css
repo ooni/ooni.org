@@ -63,7 +63,6 @@ footer {
 footer.footer-home {
   height: auto;
   position:relative;
-  margin-top:30px;
 }
 
 footer.footer-home a::after {
