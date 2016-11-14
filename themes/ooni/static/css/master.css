@@ -53,7 +53,8 @@ footer {
   color: #b4b4b4;
   background-color: #26292c;
   text-align: center;
-  margin-top:5%;
+  position:absolute;
+  bottom:0;
   height: 100px;
   width: 100%;
 }
@@ -83,6 +84,10 @@ footer a::after {
 
 footer .row {
   padding: 1.2rem 0 1.5rem;
+}
+
+main {
+    padding-bottom:150px;
 }
 
 .container {
@@ -138,6 +143,7 @@ header .row {
   .toc { display: none; }
   .homepage .col-1 h2 { margin: 6rem 0 2.5rem !important; width: 12rem; }
   .homepage .how-it-works .col-1 h2 { margin: 0 !important; }
+  .homepage .ooni-explorer .col-1 h2 { margin: 0 !important; }
   .sponsors { display: block !important; }
   .sponsors a { margin-bottom: 2rem; }
   .measurements table, .homepage .how-it-works img { width: calc(100% - 3rem * 2); }
@@ -269,6 +275,21 @@ th, td {
   background-color: #f2f2f2;
   padding: 0.5rem 1rem;
   position: relative;
+  font-family: "Source Code Pro", monospace;
+}
+
+.explorer-button {
+  color:#FFF;
+  border: 2px solid #FFF;
+  border-width:2px;
+  border-radius: 4px;
+  padding: 7px 20px;
+}
+
+.explorer-button:hover {
+  text-decoration: none;
+  color:#8dd8f8;
+  border-color:#8dd8f8;
 }
 
 pre {
@@ -489,6 +510,7 @@ header p {
 header .logo {
   object-fit: contain;
   height: 12.5rem;
+  width: 12.5rem;
 }
 
 header .wordmark {
@@ -500,14 +522,14 @@ header .wordmark {
 /* ================================================================== */
 /* How it works */
 
-.homepage .how-it-works {
+.homepage .how-it-works, .homepage .ooni-explorer {
   background-color: #0588cb;
   color: #fff;
   padding: 2rem 0;
   margin-bottom: 3.5rem;
 }
 
-.homepage .how-it-works h2 {
+.homepage .how-it-works h2, .homepage .ooni-explorer h2 {
   color: #fff;
   border-color: #fff;
   margin-bottom: 0;
@@ -517,6 +539,11 @@ header .wordmark {
   display: block;
   object-fit: contain;
   height: 17.5rem;
+}
+
+.homepage .ooni-explorer img {
+  display:block;
+  max-width:100%;
 }
 
 
