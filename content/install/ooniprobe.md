@@ -44,21 +44,27 @@ as your employer, ISP or government). Please read our relevant
 ```
 brew install ooniprobe
 ```
-If you would like to contribute measurements to OONI daily you can also add this to your crontab:
-
-```
-@daily ooniprobe $THE_OONI_COMMAND
-```
-Run this command to automatically update your crontab:
-
-```
-(crontab -l 2>/dev/null; echo "@daily ooniprobe $THE_OONI_COMMAND") | crontab -
-```
-
 
 ### Linux: Debian
 
-**On Debian testing and unstable:**
+**On Debian stable (jessie):**
+
+**Step 1.** Configure the torproject repository by typing the following in your terminal:
+
+```
+gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
+gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
+echo 'deb http://deb.torproject.org/torproject.org jessie main' | sudo tee -a /etc/apt/sources.list
+sudo apt-get update
+```
+
+**Step 2.** Type the following in your terminal:
+
+```
+sudo apt-get install ooniprobe deb.torproject.org-keyring
+```
+
+**On Debian (contrib) testing and unstable:**
 
 **Step 1.** Type the following in your terminal:
 
@@ -66,22 +72,24 @@ Run this command to automatically update your crontab:
 sudo apt-get install ooniprobe
 ```
 
-**On Debian stable (jessie):**
+### Linux: Ubuntu
 
-**Step 1.** Configure debian backports by typing the following in your terminal:
+**On Ubuntu 16.10 (yakkety):**
+
+**Step 1.** Configure the torproject repository by typing the following in your terminal:
 
 ```
-echo 'deb http://ftp.debian.org/debian jessie-backports main' | sudo tee -a /etc/apt/sources.list
+gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
+gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
+echo 'deb http://deb.torproject.org/torproject.org yakkety main' | sudo tee -a /etc/apt/sources.list
 sudo apt-get update
 ```
 
 **Step 2.** Type the following in your terminal:
 
 ```
-sudo apt-get install ooniprobe
+sudo apt-get install ooniprobe deb.torproject.org-keyring
 ```
-
-### Linux: Ubuntu
 
 **On Ubuntu 16.04 (xenial):**
 
@@ -161,7 +169,7 @@ On other unix systems ensure that you have installed the following dependencies:
 
 * virtualenv
 
-Then you can install ooniprobe inside a virtualenvironment with pip by typing
+Then you can install ooniprobe inside a virtual environment with pip by typing
 the following in your terminal:
 
 ```
@@ -180,130 +188,28 @@ To install from master:
 ```
 pip install https://github.com/TheTorProject/ooni-probe/archive/master.zip
 ``` 
-If you're using the Debian package, you will be asked when installing
-whether you would like to run ooniprobe daily. On other platforms, if you would
-like to contribute measurements to OONI daily you can also add this to your
-crontab:
-
-```
-@daily ooniprobe $THE_OONI_COMMAND
-```
-Run this command to automatically update your crontab:
-
-```
-(crontab -l 2>/dev/null; echo "@daily ooniprobe $THE_OONI_COMMAND") | crontab -
-```
 
 ## Running ooniprobe
 
-You can run ooniprobe through the following steps:
+### Debian/Ubuntu
 
-**Step 1.** Type `ooniprobe` in your terminal to view all of your options.
+Access ooniprobe's web UI in you web's browser at
+[http://localhost:8842](http://localhost:8842) and go through the setup wizard
+process to initialize and use ooniprobe.
 
-**Step 2.** Type `oonideckgen` in your terminal. This will generate an OONI deck
-that includes a set of tests and a global list of URLs, as well as a country-
-specific list of URLs based on your IP address.
+### Pip and other Linux versions
 
-**Step 3.** Type `ooniprobe -i /home/user/deck/default-user.deck` in your
-terminal, where "user" is your system's username.
+Type `ooniprobe-agent start` in your terminal to start ooniprobe agent. You
+should be presented with the following URL: [http://127.0.0.1:8842]
+(http://127.0.0.1:8842).
 
-Now ooniprobe should be running on your computer. 
+By opening this URL [http://127.0.0.1:8842](http://127.0.0.1:8842) in your web
+browser you will be directed to ooniprobe's web UI setup wizard. Upon
+completion of the setup wizard process ooniprobe will be successfully
+initialized and ready to use.
 
-**What ooniprobe runs and tests by default**
-
-If you follow the steps above, then it will *by default* do the following:
-
-1. Run the **[web_connectivity test](https://ooni.torproject.org/nettest/web-connectivity/)** which will test the following lists of websites for censorship:
-
-   * **[Global list of websites](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)**
-
-   * **[Country-specific list of websites](https://github.com/citizenlab/test-lists/tree/master/lists)** (if it exists for the country that you are running ooniprobe from)
-
-2. Run the **[http-invalid-request-line test](https://ooni.torproject.org/nettest/http-invalid-request-line/)** to
-examine whether a proxy technology (which could potentially be used for the
-purpose of censorship and surveillance) is present in the network you are
-testing.
-
-3. Run the **[http-header-field-manipulation test](https://ooni.torproject.org/nettest/http-header-field-manipulation/)** to
-examine whether a proxy technology (which could potentially be used for the
-purpose of censorship and surveillance) is present in the network you are
-testing.
-
-4. Send the measurements to OONI's measurement collector.
-
-5. Publish the measurements (once they have been processed by OONI) on **[OONI
-Explorer](https://explorer.ooni.torproject.org/world/)**.
-
-## Opt-out
-
-If you don't feel comfortable with the above, you have the following choices:
-
-1. **Specify which test(s) you want to run:** You can do this by typing
-`ooniprobe -s` in your terminal to view the different commands for each test.
-
-2. **Specify which URLs you want to test:** You can do this by creating your own
-list of URLs that you want to test, and by subsequently passing that list with
-the `ooniprobe -f` command line option. For example: `ooniprobe
-blocking/web_connectivity -f mylist.txt`.
-
-3. Opt-out from sending OONI your (a) country code and/or (b) Autonomous System
-Number (ASN) by **[editing the ooniprobe configuration
-file](https://github.com/TheTorProject/ooni-probe#configuring-ooniprobe)**
-inside of `~/.ooni/ooniprobe.conf`. This option though is *not* recommended, as
-we would not be able to attribute measurements to a specific country or network.
-
-4. Opt-out from sending OONI any measurements at all (which will prevent them
-from being published), by running ooniprobe with the `-n` option.
-
-## Choosing which OONI tests to run
-
-ooniprobe is designed to run the following tests by default:
-
-* **[Web-Connectivity](https://ooni.torproject.org/nettest/web-connectivity/)**
-
-* **[HTTP-invalid-request-line](https://ooni.torproject.org/nettest/http-invalid-request-line/)**
-
-* **[HTTP-header-field-manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/)**
-
-If you don't want to run all of these tests or if you would prefer to run
-entirely different OONI tests, you can do so by typing `ooniprobe -s` in your
-terminal to view which commands to run for each test. This will present you with
-the following that can be run for each test:
-
-* **Web_connectivity:** `ooniprobe blocking/web_connectivity`
-
-* **HTTP_invalid-request-line:** `ooniprobe manipulation/http_invalid_request_line`
-
-* **TCP_connect:** `ooniprobe blocking/tcp_connect`
-
-* **Traceroute:** `ooniprobe manipulation/traceroute`
-
-* **DNS_consistency:** `ooniprobe blocking/dns_consistency`
-
-* **Bridge_reachability:** `ooniprobe blocking/bridge_reachability`
-
-* **HTTP_header_field_manipulation:** `ooniprobe manipulation/http_header_field_manipulation`
-
-* **Meek_fronted_requests:** `ooniprobe blocking/meek_fronted_requests`
-
-* **HTTP_requests:** `ooniprobe blocking/http_requests`
-
-* **Captive_portal:** `ooniprobe manipulation/captiveportal`
-
-* **DNS_spoof:** `ooniprobe manipulation/dns_spoof`
-
-* **OpenVPN:** `ooniprobe third_party/openvpn`
-
-* **HTTP_host:** `ooniprobe manipulation/http_host`
-
-* **Lantern:** `ooniprobe third_party/lantern`
-
-* **Psiphon:** `ooniprobe third_party/psiphon`
-
-**Note:** Third party applications (such as the OpenVPN, Lantern and Psiphon
-tests) require the installation of external applications to run properly. For
-example, to run the Lantern test, installing the Lantern software is a
-prerequisite.
+Further documentation on how to use ooniprobe's web UI can be found [here]
+(/post/web-ui-post/).
 
 ## Advanced users
 
@@ -335,7 +241,6 @@ sudo apt-get install git
 
 ```
 git clone https://github.com/TheTorProject/ooni-probe.git
-git clone https://github.com/TheTorProject/ooni-backend.git
 cd ooni-probe/
 vagrant up
 ```
@@ -343,17 +248,17 @@ vagrant up
 **Step 5.** Access your virtual machine with:
 
 ```
-vagrant ssh probe
+vagrant ssh
 ```
 
-ooniprobe will be installed in /data/ooni-probe. 
-
-**Step 6.** You can run ooniprobe with:
+**Step 6.** Start the ooniprobe agent:
 
 ```
-oonideckgen
-ooniprobe -i deck/default-user.deck
+ooniprobe-agent start
 ```
+
+**Step 7.** Connect to the web UI on your host machine at:
+[http://localhost:8842/](http://localhost:8842/)
 
 #### Setting capabilities on your virtualenv python binary
 
