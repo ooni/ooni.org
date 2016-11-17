@@ -54,7 +54,7 @@ brew install ooniprobe
 ```
 gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
 gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
-echo 'deb http://deb.torproject.org/torproject.org jessie main' | sudo tee -a /etc/apt/sources.list
+echo 'deb http://deb.torproject.org/torproject.org jessie main' | sudo tee /etc/apt/sources.list.d/ooniprobe.list
 sudo apt-get update
 ```
 
@@ -62,14 +62,6 @@ sudo apt-get update
 
 ```
 sudo apt-get install ooniprobe deb.torproject.org-keyring
-```
-
-**On Debian (contrib) testing and unstable:**
-
-**Step 1.** Type the following in your terminal:
-
-```
-sudo apt-get install ooniprobe
 ```
 
 ### Linux: Ubuntu
@@ -81,7 +73,7 @@ sudo apt-get install ooniprobe
 ```
 gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
 gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
-echo 'deb http://deb.torproject.org/torproject.org yakkety main' | sudo tee -a /etc/apt/sources.list
+echo 'deb http://deb.torproject.org/torproject.org yakkety main' | sudo tee /etc/apt/sources.list.d/ooniprobe.list
 sudo apt-get update
 ```
 
@@ -98,7 +90,7 @@ sudo apt-get install ooniprobe deb.torproject.org-keyring
 ```
 gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
 gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
-echo 'deb http://deb.torproject.org/torproject.org xenial main' | sudo tee -a /etc/apt/sources.list
+echo 'deb http://deb.torproject.org/torproject.org xenial main' | sudo tee /etc/apt/sources.list.d/ooniprobe.list
 sudo apt-get update
 ```
 
@@ -115,7 +107,7 @@ sudo apt-get install ooniprobe deb.torproject.org-keyring
 ```
 gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
 gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
-echo 'deb http://deb.torproject.org/torproject.org wily main' | sudo tee -a /etc/apt/sources.list
+echo 'deb http://deb.torproject.org/torproject.org wily main' | sudo tee /etc/apt/sources.list.d/ooniprobe.list
 sudo apt-get update
 ```
 
@@ -133,7 +125,7 @@ sudo apt-get install ooniprobe deb.torproject.org-keyring
 ```
 gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
 gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
-echo 'deb http://deb.torproject.org/torproject.org trusty main' | sudo tee -a /etc/apt/sources.list
+echo 'deb http://deb.torproject.org/torproject.org trusty main' | sudo tee /etc/apt/sources.list.d/ooniprobe.list
 sudo apt-get update
 ```
 
@@ -248,7 +240,7 @@ vagrant up
 **Step 5.** Access your virtual machine with:
 
 ```
-vagrant ssh
+vagrant ssh probe
 ```
 
 **Step 6.** Start the ooniprobe agent:
