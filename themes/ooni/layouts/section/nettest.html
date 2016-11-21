@@ -33,12 +33,14 @@
       {{ range .Data.Pages.ByDate }}
         {{ if in .Params.groups "website" }}
         {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-        <a href="{{ .RelPermalink }}" class="col-3">
+        <div class="col-3">
+        <a href="{{ .RelPermalink }}">
           <h2 class="test-header">{{ $TITLE }}</h2>
           <p class="test-paragraph">
             {{ .Params.short_description }}
           </p>
         </a>
+        </div>
         {{ end }}
       {{ end }}
     </div>
@@ -48,12 +50,14 @@
       {{ range .Data.Pages }}
         {{ if in .Params.groups "im" }}
         {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-        <a href="{{ .RelPermalink }}" class="col-3">
+        <div class="col-3">
+        <a href="{{ .RelPermalink }}">
             <h2 class="test-header">{{ $TITLE }}</h2>
             <p class="test-paragraph">
               {{ .Params.short_description }}
             </p>
         </a>
+        </div>
         {{ end }}
       {{ end }}
     </div>
@@ -63,12 +67,14 @@
       {{ range .Data.Pages }}
         {{ if in .Params.groups "boxes" }}
         {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-        <a href="{{ .RelPermalink }}" class="col-3">
+        <div class="col-3">
+        <a href="{{ .RelPermalink }}">
             <h2 class="test-header">{{ $TITLE }}</h2>
             <p class="test-paragraph">
               {{ .Params.short_description }}
             </p>
         </a>
+        </div>
         {{ end }}
       {{ end }}
     </div>
@@ -78,12 +84,14 @@
       {{ range .Data.Pages }}
         {{ if in .Params.groups "tor" }}
           {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-          <a href="{{ .RelPermalink }}" class="col-3">
+          <div class="col-3">
+          <a href="{{ .RelPermalink }}" >
             <h2 class="test-header">{{ $TITLE }}</h2>
             <p class="test-paragraph">
               {{ .Params.short_description }}
             </p>
           </a>
+          </div>
         {{ end }}
       {{ end }}
     </div>
@@ -93,12 +101,14 @@
       {{ range .Data.Pages }}
         {{ if in .Params.groups "proxies" }}
           {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-          <a href="{{ .RelPermalink }}" class="col-3">
+          <div class="col-3">
+          <a href="{{ .RelPermalink }}">
             <h2 class="test-header">{{ $TITLE }}</h2>
             <p class="test-paragraph">
               {{ .Params.short_description }}
             </p>
           </a>
+          </div>
         {{ end }}
       {{ end }}
     </div>

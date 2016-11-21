@@ -834,14 +834,28 @@ p.test-paragraph {
   border-radius: 10px;
   padding: 15px;
   background: #0588cb;
-  color: white;
+  transition: .1s;
+}
+
+.question-container .col-3 a {
+  color:#FFF;
   transition: .1s;
 }
 
 .question-container .col-3:hover {
   border: #0588cb solid 1px;
   background: white;
-  color: #0588cb;
   cursor: pointer;
   transition: .1s;
+}
+
+.question-container .col-3:hover > a {
+  color: #0588cb;
+  transition: .1s;
+}
+
+@media (max-width:48em) {
+  .question-container .col-3 {
+    margin-bottom:20px!important;
+  }
 }
