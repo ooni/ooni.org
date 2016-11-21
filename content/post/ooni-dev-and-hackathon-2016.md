@@ -80,11 +80,11 @@ hackathon.
 ### Data analysis
 
 [OONI Explorer](https://explorer.ooni.torproject.org/) provides a web interface
-[to explore all of OONI’s network measurements. However, OONI’s data processing
+to explore all of OONI’s network measurements. However, OONI’s data processing
 [pipeline](https://github.com/TheTorProject/ooni-pipeline) still needs some
-[improvement to make OONI’s data more accessible and easier to navigate. As
-[such, we were thrilled to have data scientists join the hackathon and offer
-[suggestions on how to improve our data analysis techniques.
+improvement to make OONI’s data more accessible and easier to navigate. As
+such, we were thrilled to have data scientists join the hackathon and offer
+suggestions on how to improve our data analysis techniques.
 
 We discussed and defined queries for data analysis that can help improve the
 next iteration of OONI’s pipeline. This included:
@@ -110,7 +110,7 @@ across time, and across countries, and filtering them as false positives.
 
 In addition to [OONI Explorer](https://explorer.ooni.torproject.org/world/),
 OONI’s network measurements are published in [JSON format](https://measurements.ooni.torproject.org/). One of our priorities though
-is to also build an API to the measurements to enable data analysis, allowing
+is to also build an API to the measurements that enables data analysis, allowing
 users to query the API to retrieve measurements based on certain characteristics
 (to query, for example, all anomalous measurements).
 
@@ -167,10 +167,12 @@ design of [OONI’s mobile app](https://github.com/measurement-kit/ooniprobe-ios
 
 Here’s a sneak peak of OONI’s upcoming mobile app:
 
-<ADD SCREENSHOT 1>
+![OONI mobile](/post/berlin-hackathon/ooni-mobile.png)
+
 *Screenshot: OONI mobile*
 
-<ADD SCREENSHOT 2>
+![OONI mobile testing a site](/post/berlin-hackathon/ooni-mobile-2.png)
+
 *Screenshot: OONI mobile testing http://neubot.org*
 
 ### Test lists
@@ -181,26 +183,27 @@ examine for blocking.
 OONI bases its testing on the [Citizen Lab’s test list Github repository](https://github.com/citizenlab/test-lists) which includes a wide
 range of country-specific lists of URLs. These lists constantly need to be
 updated with new URLs and, in many cases, new lists need to be created for
-countries that don’t have their own test lists.
+countries that don’t already have their own test lists.
 
 We were happy to see that various participants joined the hackathon to help
 contribute to existing test lists and to learn how to create new ones. As part
-of the hackathon, participants worked on updating the [Palestinian test list](https://github.com/citizenlab/test-lists/pull/102) to include a many new
+of the hackathon, participants worked on updating the [Palestinian test list](https://github.com/citizenlab/test-lists/pull/102) to include many new
 URLs. We also prioritized on updating test lists for countries with upcoming
 elections, such as the [test list for Gambia](https://github.com/citizenlab/test-lists/pull/99).
 
 ###  Running ooniprobe
 
 Amongst the new faces that joined us at the hackathon, we were also happy to
-meet people curious to learn about OONI and how to run ooniprobe. As part of the
-hackathon, we discussed OONI’s approaches and methodologies, and taught
-participants how to run various [ooniprobe](https://github.com/TheTorProject/ooni-probe) software tests. As an outcome, we hope that participants will share
-the skills and knowledge they acquired through the hackathon with others too,
-and help increase transparency on internet censorship around the world.
+meet people curious to learn about OONI and how to run ooniprobe. We discussed
+OONI’s approaches and methodologies, and taught participants how to run various
+[ooniprobe](https://github.com/TheTorProject/ooni-probe) software tests. As an
+outcome, we hope that participants will share the skills and knowledge they
+acquired through the hackathon with others too, and help increase transparency
+on internet censorship around the world.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
 The OONI team would like to send a warm **thank you** to all the **participants** who
 joined the hackathon, to the **OnionSpace** for sharing its space with us for a
 week, and to the **Ford Foundation** for covering some of the OONI team’s travel
-costs that made this meeting and hackathon possible.
+costs, thus making this meeting and hackathon possible.
