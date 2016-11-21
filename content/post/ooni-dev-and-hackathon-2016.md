@@ -1,4 +1,10 @@
-# OONI-dev Meeting and Hackathon 2016
+---
+title: "OONI-dev meeting and hackathon 2016"
+author: "Maria Xynou"
+date: "2016-11-21"
+tags: ["hackathon"]
+categories: []
+---
 
 Oonitarians are spread out across the globe, and OONI’s core team is no
 exception. We recently met in Berlin to hack on [OONI’s software](https://github.com/TheTorProject/ooni-probe), work on our
@@ -26,7 +32,7 @@ meeting and hackathon.
 
     * [Running ooniprobe](#running-ooniprobe)
 
-## OONI-dev meeting
+# OONI-dev meeting
 
 OONI’s internal meeting was an opportunity for the project’s core team members
 to meet in person, discuss priorities over the next months, and to adjust the
@@ -37,8 +43,6 @@ We started off by mapping all of the ideas, questions, and problems that we
 wanted to collaboratively discuss and work on as part of the meeting. We then
 proceeded with voting amongst us on the ones that we believed were of highest
 priority, and subsequently creating sessions out of them.
-
-<ADD IMAGE>
 
 As a result, we spent the first two days of the OONI-dev meeting having
 discussions as part of the following **[six sessions](https://github.com/OpenObs
@@ -65,7 +69,7 @@ fit into any of the six core sessions of the first two days. We also spent the
 last day of the internal meeting hacking on [ooniprobe](https://github.com/TheTorProject/ooni-probe) and [measurement-kit](https://github.com/measurement-kit/measurement-kit) (a
 network measurement library that ooniprobe is being integrated in).
 
-## OONI Hackathon
+# OONI Hackathon
 
 The [OONI hackathon](https://ooni.torproject.org/post/berlin-hackathon-2016/),
 held at Berlin’s OnionSpace on 11th and 12th November, was an opportunity for us
@@ -77,7 +81,7 @@ from various countries around the world.
 Below is a summary of the things that we worked on as part of the two-day
 hackathon.
 
-### Data analysis
+## Data analysis
 
 [OONI Explorer](https://explorer.ooni.torproject.org/) provides a web interface
 to explore all of OONI’s network measurements. However, OONI’s data processing
@@ -106,7 +110,7 @@ better identifying block pages within measurements. We also discussed a
 methodology for detecting URLs that fail in the same way across measurements,
 across time, and across countries, and filtering them as false positives.
 
-### OONI's measurement API
+## OONI's measurement API
 
 In addition to [OONI Explorer](https://explorer.ooni.torproject.org/world/),
 OONI’s network measurements are published in [JSON format](https://measurements.ooni.torproject.org/). One of our priorities though
@@ -117,7 +121,7 @@ users to query the API to retrieve measurements based on certain characteristics
 As part of the hackathon, we continued our work on OONI’s new measurement API
 and created a staging version of it.
 
-### Web development
+## Web development
 
 Several web developers joined the hackathon and we worked with them on the
 following:
@@ -139,7 +143,7 @@ get asked by community members is important. As part of the hackathon, we [worke
 on creating a FAQ section for OONI’s website. If any important questions are
 missing in there, please don’t hesitate to [contact](https://ooni.torproject.org//about/) us.
 
-### Measurement-kit
+## Measurement-kit
 
 [Measurement-kit](https://github.com/measurement-kit/measurement-kit) is a
 network measurement library that ooniprobe is gradually being integrated in. As
@@ -159,7 +163,7 @@ that they are communicating with OONI servers. We also committed enhancements
 and fixes to support the development of mobile applications based on
 measurement-kit.
 
-### OONI mobile
+## OONI mobile
 
 **Spoiler:** Over the next few months we will be releasing a mobile app (for Android
 and iOS) for running ooniprobe! During the hackathon, we worked on improving the
@@ -175,7 +179,7 @@ Here’s a sneak peak of OONI’s upcoming mobile app:
 
 *Screenshot: OONI mobile testing http://neubot.org*
 
-### Test lists
+## Test lists
 
 An important part of identifying censorship is determining *which* websites to
 examine for blocking.
@@ -191,7 +195,7 @@ of the hackathon, participants worked on updating the [Palestinian test list](ht
 URLs. We also prioritized on updating test lists for countries with upcoming
 elections, such as the [test list for Gambia](https://github.com/citizenlab/test-lists/pull/99).
 
-###  Running ooniprobe
+##  Running ooniprobe
 
 Amongst the new faces that joined us at the hackathon, we were also happy to
 meet people curious to learn about OONI and how to run ooniprobe. We discussed
