@@ -274,18 +274,15 @@ th, td {
   font-family: "Source Code Pro", monospace;
 }
 
-.explorer-button {
-  color:#FFF;
-  border: 2px solid #FFF;
-  border-width:2px;
-  border-radius: 4px;
-  padding: 7px 20px;
+a.explorer-button {
+  border: 2px solid #ffffff;
+  background-color: #0588cb;
 }
 
-.explorer-button:hover {
+a.explorer-button:hover {
   text-decoration: none;
-  color:#8dd8f8;
-  border-color:#8dd8f8;
+  color: #0588cb;
+  background-color: #ffffff;
 }
 
 pre {
