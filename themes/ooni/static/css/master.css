@@ -38,10 +38,6 @@ html {
   min-height: 100%;
 }
 
-body {
- /* margin: 0 0 120px; */
-}
-
 nav {
   min-height: 2.5rem;
   display: flex;
@@ -63,7 +59,6 @@ footer {
 footer.footer-home {
   height: auto;
   position:relative;
-  margin-top:30px;
 }
 
 footer.footer-home a::after {
@@ -279,23 +274,21 @@ th, td {
   font-family: "Source Code Pro", monospace;
 }
 
-.explorer-button {
-  color:#FFF;
-  border: 2px solid #FFF;
-  border-width:2px;
-  border-radius: 4px;
-  padding: 7px 20px;
+a.explorer-button {
+  border: 2px solid #ffffff;
+  background-color: #0588cb;
 }
 
-.explorer-button:hover {
+a.explorer-button:hover {
   text-decoration: none;
-  color:#8dd8f8;
-  border-color:#8dd8f8;
+  color: #0588cb;
+  background-color: #ffffff;
 }
 
 pre {
   background-color: #f2f2f2;
   padding: 0.5rem 1rem;
+  margin: 1.6rem 0;
   position: relative;
 }
 
