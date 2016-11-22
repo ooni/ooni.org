@@ -126,7 +126,7 @@ and created a staging version of it.
 Several web developers joined the hackathon and we worked with them on the
 following:
 
-* **Restructuring the “[Tests](https://ooni.torproject.org//nettest/)” section of the website.** OONI has developed multiple
+* **Restructuring the “[Tests](https://ooni.torproject.org/nettest/)” section of the website.** OONI has developed multiple
 free software tests and this section of the website was created to not only list
 them, but to also provide descriptions explaining what each test is designed to
 do. As part of the hackathon, one of the participants [worked](https://github.com/TheTorProject/ooni-web/pull/87) on restructuring
