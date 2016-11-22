@@ -20,7 +20,7 @@ meeting and hackathon.
 
     * [Data analysis](#data-analysis)
 
-    * [OONI's measurement API](#oonis-measurement-api)
+    * [OONI's measurement API](#ooni-s-measurement-api)
 
     * [Web development](#web-development)
 
