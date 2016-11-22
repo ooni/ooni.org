@@ -854,7 +854,7 @@ p.test-paragraph {
   transition: .1s;
 }
 
-@media (max-width:48em) {
+@media (max-width:699px) {
   .question-container .col-3 {
     margin-bottom:20px!important;
   }
