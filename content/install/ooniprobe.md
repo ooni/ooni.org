@@ -224,8 +224,9 @@ sudo apt-get install ooniprobe deb.torproject.org-keyring
 
 {{% md %}}
 
-On other unix systems ensure that you have installed the following
-dependencies:
+**On other unix systems**
+
+Ensure that you have installed the following dependencies:
 
 * build-essential
 
