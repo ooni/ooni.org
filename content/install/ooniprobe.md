@@ -33,9 +33,35 @@ as your employer, ISP or government). Please read our relevant
 
  The desktop version of ooniprobe is currently designed for **Linux** and **Mac OS X** systems.
 
- To install ooniprobe follow the steps below:
+To install ooniprobe follow the steps below:
 
-### Mac OS X
+<div class="install-selector">
+
+<select id="os-selector">
+<option value="linux">Linux</option>
+<option value="macos">macOS</option>
+<option value="unix">Unix</option>
+<option value="unsupported">Windows</option>
+<option value="unsupported">Other</option>
+</select>
+
+<select id="distro-selector">
+<option value="unknown">-- what version? --</option>
+<option value="debian-stable">Debian stable (jessie)</option>
+<option value="debian-testing">Debian testing</option>
+<option value="debian-unstable">Debian unstable</option>
+
+<option value="ubuntu-yakkety">Ubuntu 16.10 (yakkety)</option>
+<option value="ubuntu-xenial">Ubuntu 16.04 (xenial)</option>
+<option value="ubuntu-trusty">Ubuntu 14.04 (trusty)</option>
+</select>
+
+</div>
+
+<div class="os-instructions os-macos">
+
+{{% md %}}
+**On macOS**
 
 **Step 1.** Install **[homebrew](http://brew.sh)**.
 
@@ -44,9 +70,21 @@ as your employer, ISP or government). Please read our relevant
 ```
 brew install ooniprobe
 ```
+{{% /md %}}
 
-### Linux: Debian
+</div>
 
+<div class="os-instructions os-linux-unknown">
+
+{{% md %}}
+Please choose your linux version
+{{% /md %}}
+
+</div>
+
+<div class="os-instructions os-linux-debian-stable">
+
+{{% md %}}
 **On Debian stable (jessie):**
 
 **Step 1.** Configure the torproject repository by typing the following in your terminal:
@@ -63,7 +101,13 @@ sudo apt-get update
 ```
 sudo apt-get install ooniprobe deb.torproject.org-keyring
 ```
+{{% /md %}}
 
+</div>
+
+<div class="os-instructions os-linux-debian-testing">
+
+{{% md %}}
 **On Debian testing:**
 
 **Step 1.** Configure the torproject repository by typing the following in your terminal:
@@ -80,7 +124,13 @@ sudo apt-get update
 ```
 sudo apt-get install ooniprobe deb.torproject.org-keyring
 ```
+{{% /md %}}
 
+</div>
+
+<div class="os-instructions os-linux-debian-unstable">
+
+{{% md %}}
 **On Debian unstable:**
 
 **Step 1.** Configure the torproject repository by typing the following in your terminal:
@@ -97,9 +147,13 @@ sudo apt-get update
 ```
 sudo apt-get install ooniprobe deb.torproject.org-keyring
 ```
+{{% /md %}}
 
-### Linux: Ubuntu
+</div>
 
+<div class="os-instructions os-linux-ubuntu-yakkety">
+
+{{% md %}}
 **On Ubuntu 16.10 (yakkety):**
 
 **Step 1.** Configure the torproject repository by typing the following in your terminal:
@@ -116,7 +170,13 @@ sudo apt-get update
 ```
 sudo apt-get install ooniprobe deb.torproject.org-keyring
 ```
+{{% /md %}}
 
+</div>
+
+<div class="os-instructions os-linux-ubuntu-xenial">
+
+{{% md %}}
 **On Ubuntu 16.04 (xenial):**
 
 **Step 1.** Configure the torproject repository by typing the following in your terminal:
@@ -133,9 +193,14 @@ sudo apt-get update
 ```
 sudo apt-get install ooniprobe deb.torproject.org-keyring
 ```
+{{% /md %}}
 
+</div>
+
+<div class="os-instructions os-linux-ubuntu-trusty">
+
+{{% md %}}
 **On Ubuntu 14.04 (trusty):**
-
 
 **Step 1.** Configure the torproject repository by typing the following in your terminal:
 
@@ -151,10 +216,16 @@ sudo apt-get update
 ```
 sudo apt-get install ooniprobe deb.torproject.org-keyring
 ```
+{{% /md %}}
 
-### Unsupported UNIX (with pip)
+</div>
 
-On other unix systems ensure that you have installed the following dependencies:
+<div class="os-instructions os-unix">
+
+{{% md %}}
+
+On other unix systems ensure that you have installed the following
+dependencies:
 
 * build-essential
 
@@ -197,6 +268,18 @@ To install from master:
 ```
 pip install https://github.com/TheTorProject/ooni-probe/archive/master.zip
 ``` 
+{{% /md %}}
+
+</div>
+
+<div class="os-instructions os-unsupported">
+
+{{% md %}}
+Your operating system is currently unsupported. You may want to try setting
+it up inside of a virtual machine.
+{{% /md %}}
+
+</div>
 
 ## Running ooniprobe
 
@@ -360,3 +443,51 @@ tor:
        - "obfs4 154.35.22.10:41835 8FB9F4319E89E5C6223052AA525A192AFBC85D55 cert=GGGS1TX4R81m3r0HBl79wKy1OtPPNR2CZUIrHjkRg65Vc2VR8fOyo64f9kmT1UAFG7j0HQ iat-mode=0"
        ClientTransportPlugin: "obfs4 exec /usr/bin/obfs4proxy"
 ```
+
+<style type="text/css">
+.install-selector {
+    display: none;
+    margin-bottom: 10px;
+}
+
+.os-linux-unknown {
+    display: none;
+}
+
+</style>
+
+<script type="text/javascript">
+var OSName = "unknown";
+if (window.navigator.userAgent.indexOf("Windows NT 6.2") != -1) OSName="unsupported";
+if (window.navigator.userAgent.indexOf("Windows NT 6.1") != -1) OSName="unsupported";
+if (window.navigator.userAgent.indexOf("Windows NT 6.0") != -1) OSName="unsupported";
+if (window.navigator.userAgent.indexOf("Windows NT 5.1") != -1) OSName="unsupported";
+if (window.navigator.userAgent.indexOf("Windows NT 5.0") != -1) OSName="unsupported";
+if (window.navigator.userAgent.indexOf("Mac") != -1) OSName="macos";
+if (window.navigator.userAgent.indexOf("X11") != -1) OSName="unix";
+if (window.navigator.userAgent.indexOf("Linux") != -1) OSName="linux";
+
+var selectedOSChanged = function() {
+    var os_value = $("#os-selector").val();
+    var distro_value = $("#distro-selector").val();
+    var target_element = ".os-";
+    if (os_value == "linux") {
+        $("#distro-selector").show();
+        target_element += "linux-" + distro_value;
+    } else {
+        $("#distro-selector").hide();
+        target_element += os_value;
+    }
+    $(".os-instructions").hide();
+    $(target_element).show();
+}
+
+$(".install-selector").show();
+
+$(".os-instructions").hide();
+$("#os-selector").val(OSName);
+$("#os-selector").change(selectedOSChanged);
+$("#distro-selector").change(selectedOSChanged);
+
+selectedOSChanged();
+</script>
