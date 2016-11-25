@@ -1,17 +1,7 @@
-OONI_SPEC_REPO=../ooni-spec
 OONI_PROBE_REPO_DIR=../ooni-probe
 
 setup:
 	git remote add ghpage git@github.com:ooni/ooni.github.io.git
-
-spec-update:
-	cd ${OONI_SPEC_REPO}; git checkout master; git pull
-	cp ${OONI_SPEC_REPO}/test-descriptions/*.md content/nettest/
-	echo "---" > content/about/data-policy.md
-	echo "aliases: [\"/data-policy\"]" >> content/about/data-policy.md
-	echo "---" >> content/about/data-policy.md
-	cat ${OONI_SPEC_REPO}/informed-consent/data-policy.md >> content/about/data-policy.md
-	cp ${OONI_SPEC_REPO}/informed-consent/risks.md content/about/risks.md
 
 update-site:
 	echo "Updating the website on ooni.torproject.org"
