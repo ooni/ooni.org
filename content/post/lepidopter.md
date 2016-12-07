@@ -1,14 +1,13 @@
 ---
 title: "OONI releases Lepidopter Raspberry Pi distribution"
 author: "Vasilis Ververis"
-date: "2016-07-07"
+date: "2016-12-07"
 tags: ["release", "raspberry pi", "distribution", "image", "lepidopter"]
 categories: ["blog"]
 ---
 
 The Open Observatory of Network Interference (OONI) team is pleased to announce
-the release of an ooni-probe distribution for embedded devices such as
-Raspberry Pis "Lepidopter".
+the release of an ooni-probe distribution for Raspberry Pi **Lepidopter**.
 
 ## What is Lepidopter
 
@@ -26,7 +25,7 @@ scripts of the Lepidopter image are free and open source software.
 Since 2012 OONI has collected numerous network measurements reports that show
 evidence of internet censorship, network tampering and surveillance. OONI
 measurement data have been used in a number of technical
-[reports](https://ooni.torproject.org/post/) that show how ISPs in countries
+[reports](/post/) that show how ISPs in countries
 filter and censor the internet as well as reports that include signs of network
 irregularities and tampering. This wouldn't be possible without the help of
 numerous volunteers that are contributing by running consistent ooni-probe
@@ -40,7 +39,7 @@ network interference worldwide.
 ## How to obtain Lepidopter
 
 Please refer to the [installation instructions]
-(https://ooni.torproject.org/install/lepidopter/) where you can find a detailed
+(/install/lepidopter/) where you can find a detailed
 guide on how you can download, verify and install the latest Lepidopter image
 on a Raspberry Pi.
 
