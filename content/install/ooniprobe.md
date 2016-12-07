@@ -37,15 +37,14 @@ To install ooniprobe follow the steps below:
 
 <div class="install-selector">
 
-<select id="os-selector">
+<select class="os-selector">
 <option value="linux">Linux</option>
 <option value="macos">macOS</option>
 <option value="unix">Unix</option>
-<option value="unsupported">Windows</option>
-<option value="unsupported">Other</option>
+<option value="unsupported">Windows/Other</option>
 </select>
 
-<select id="distro-selector">
+<select class="distro-selector">
 <option value="unknown">-- what version? --</option>
 <option value="debian-stable">Debian stable (jessie)</option>
 <option value="debian-testing">Debian testing</option>
@@ -284,13 +283,61 @@ it up inside of a virtual machine.
 
 ## Running ooniprobe
 
-### Debian/Ubuntu
+
+<div class="install-selector">
+
+<select class="os-selector">
+<option value="linux">Linux</option>
+<option value="macos">macOS</option>
+<option value="unix">Unix</option>
+<option value="unsupported">Windows/Other</option>
+</select>
+
+</div>
+
+<div class="os-instructions os-macos">
+
+{{% md %}}
+**On macOS**
+
+To collect measurements daily you should enable the service with:
+
+```
+brew services restart ooniprobe
+```
+
+You will then be able to access the web UI by opening in your web browser
+[http://localhost:8842](http://localhost:8842).
+
+{{% /md %}}
+
+</div>
+
+<div class="os-instructions
+            os-linux-unknown
+            os-linux-ubuntu-trusty
+            os-linux-ubuntu-xenial
+            os-linux-ubuntu-yakkety
+            os-linux-debian-stable
+            os-linux-debian-testing
+            os-linux-debian-unstable">
+
+{{% md %}}
+**On Debian/Ubuntu:**
 
 Access ooniprobe's web UI in you web's browser at
 [http://localhost:8842](http://localhost:8842) and go through the setup wizard
 process to initialize and use ooniprobe.
 
-### Pip and other Linux versions
+{{% /md %}}
+
+</div>
+
+<div class="os-instructions os-unix">
+
+{{% md %}}
+
+**On other unix systems**
 
 Type `ooniprobe-agent start` in your terminal to start ooniprobe agent. You
 should be presented with the following URL: [http://127.0.0.1:8842]
@@ -303,6 +350,19 @@ initialized and ready to use.
 
 Further documentation on how to use ooniprobe's web UI can be found [here]
 (/post/web-ui-post/).
+
+{{% /md %}}
+
+</div>
+
+<div class="os-instructions os-unsupported">
+
+{{% md %}}
+Your operating system is currently unsupported. You may want to try setting
+it up inside of a virtual machine.
+{{% /md %}}
+
+</div>
 
 ## Advanced users
 
@@ -469,14 +529,20 @@ if (window.navigator.userAgent.indexOf("X11") != -1) OSName="unix";
 if (window.navigator.userAgent.indexOf("Linux") != -1) OSName="linux";
 
 var selectedOSChanged = function() {
-    var os_value = $("#os-selector").val();
-    var distro_value = $("#distro-selector").val();
+    var os_value;
+    if ($(this).attr('class') == 'os-selector') {
+        os_value = $(this).val();
+        $(".os-selector").val(os_value);
+    } else {
+        os_value = $(".os-selector").val();
+    }
+    var distro_value = $(".distro-selector").val();
     var target_element = ".os-";
     if (os_value == "linux") {
-        $("#distro-selector").show();
+        $(".distro-selector").show();
         target_element += "linux-" + distro_value;
     } else {
-        $("#distro-selector").hide();
+        $(".distro-selector").hide();
         target_element += os_value;
     }
     $(".os-instructions").hide();
@@ -486,9 +552,9 @@ var selectedOSChanged = function() {
 $(".install-selector").show();
 
 $(".os-instructions").hide();
-$("#os-selector").val(OSName);
-$("#os-selector").change(selectedOSChanged);
-$("#distro-selector").change(selectedOSChanged);
+$(".os-selector").val(OSName);
+$(".os-selector").change(selectedOSChanged);
+$(".distro-selector").change(selectedOSChanged);
 
 selectedOSChanged();
 </script>
