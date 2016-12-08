@@ -18,20 +18,20 @@ declared that Tor should be blocked [since February 2015](https://meduza.io/en/
 
 ![Directly connected users from Belarus](/post/belarus-fries-onion/userstats-relay-country-by-2016-09-07-2016-12-06-points.png)
 
-Anonymous cypherpunk has helped to gather some evidence regarding Tor
+An anonymous cypherpunk has helped to gather some evidence regarding Tor
 being blocked in Belarus. It's neither a complete study nor an in-depth
 research and it's unclear if any other further evidence will be gathered, so we
 decided to share current knowledge as-is:
 
 1. Tor directory authorities are not blocked
-1. *Public* onion routers have their ORPort blocked by TCP RST injection
-1. The onion routers' DirPort is **not** blocked
-1. Plain-old non-obfuscated Tor Bridges from [BridgeDB](https://bridges.torproject.org/) circumvent the interference
-1. Beltelecom (or its upstream) has strange configuration of the networking gear injecting reset packets
+2. *Public* onion routers have their ORPort blocked by TCP RST injection
+3. The onion routers' DirPort is **not** blocked
+4. Plain-old non-obfuscated Tor Bridges from [BridgeDB](https://bridges.torproject.org/) circumvent the interference
+5. Beltelecom (or its upstream) has strange configuration of the networking gear injecting reset packets
 
-The strangeness in equipment is following. The first injected RST packet does
+The strangeness in equipment is the following. The first injected RST packet does
 not have have proper SEQ/ACK numbers. These packet fields are just filled with
-zeroes. So this packet is dropped by client's TCP/IP stack per
+zeroes. So this packet is dropped by the client's TCP/IP stack per
 [RFC5961](https://tools.ietf.org/html/rfc5961) and does not actually terminate
 the client's connection:
 
