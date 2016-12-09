@@ -44,7 +44,7 @@ Lepidopter image for a Raspberry Pi.
 ## Keep in touch
 
 We have recently created a mailing list for future and current probe operators
-to get it touch with us and receive regular updates regarding Lepidopter and
+to get in touch with us and receive regular updates regarding Lepidopter and
 other probe specific operations. You can subscribe to the mailing list by
 registering
 [here](https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-operators).
