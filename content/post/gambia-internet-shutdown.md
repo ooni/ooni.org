@@ -1,6 +1,6 @@
 ---
 title: "The Gambia: Internet Shutdown during 2016 Presidential Election"
-author: "Arturo Filasto (OONI), Arthur Gwagwa (CIPIT), Maria Xynou (OONI)"
+author: "Arturo Filastò (OONI), Arthur Gwagwa (CIPIT), Maria Xynou (OONI)"
 date: "2016-12-09"
 tags: ["gambia", "elections", "shutdown"]
 categories: []
