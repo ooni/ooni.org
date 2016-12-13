@@ -1,15 +1,15 @@
 ---
 title: "OONI releases new web UI: Run censorship tests from your web browser!"
 author: "Maria Xynou, Arturo Filastò, Vasilis Ververis"
-date: "2016-10-24"
+date: "2016-12-13"
 tags: ["wui"]
 categories: ["report"]
 ---
 
 ![Image](/post/wui-screenshots/wui-01.png)
 
-Today we are excited to announce the release of our *new* web-based user interface
-(UI) that enables ooniprobe users to run censorship tests from a web browser!
+Today we are excited to announce the beta release of our *new* web-based user interface
+(WUI) that enables ooniprobe users to run censorship tests from a web browser!
 
 Whether you’re running ooniprobe from your desktop or a Raspberry Pi, you can
 now easily choose which tests you want to run through OONI’s web UI and run them
