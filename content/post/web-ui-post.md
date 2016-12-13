@@ -269,13 +269,13 @@ show the results pertaining to the various URLs that you tested for censorship.
 ![Screenshot](/post/wui-screenshots/wui-14.png)
 
 To *only* view the results for the URLs that presented network
-anomalies, click **Toggle anomalous**.
+anomalies, click **Hide normal**.
 
 ![Screenshot](/post/wui-screenshots/wui-15.png)
 
 To view the collected data illustrating how and why the testing of a specific
 URL presented network anomalies, click **View measurements**. Below we illustrate an
-example where pornhub.com appeared to be censored.
+example where casino.com appeared to be censored.
 
 ![Screenshot](/post/wui-screenshots/wui-16.png)
 
