@@ -56,7 +56,7 @@ line, HTTP header field manipulation, HTTP Host
 
             * [Political opposition and armed groups](#political-opposition-and-armed-groups)
 
-            * [LGBTI websites](#legbti-websites)
+            * [LGBTI websites](#lgbti-websites)
 
             * [Human rights websites](#human-rights-websites)
 
@@ -932,14 +932,16 @@ there is no strong indication of an internet shutdown along the lines of that
 observed in early August.
 
 ![Google data](/post/ethiopia-report/et-01.png)
-Google Transparency Report, Ethiopia, Google Search traffic between July and November 2016.
+
+*Google Transparency Report, Ethiopia, Google Search traffic between July and November 2016.*
 
 As Google Maps is another Google service that is commonly used via mobile
 phones, we also looked at Google Maps traffic originating from Ethiopia between
 July and November 2016.
 
 ![Google data](/post/ethiopia-report/et-02.png)
-Google Transparency Report, Ethiopia, Google Maps traffic between July and November 2016.
+
+*Google Transparency Report, Ethiopia, Google Maps traffic between July and November 2016.*
 
 Similar to Google Search traffic, Google Maps traffic appears to be disrupted in
 August but not in October. The above graphs indicate that if an internet
