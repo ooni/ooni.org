@@ -7,15 +7,16 @@ categories: ["report"]
 ---
 
 ![Ethiopia image](/post/ethiopia-report/et-05.png)
-Youth in Addis trying to get Wi-Fi Connection. Credit Addis Fortune Newspaper
+
+*Youth in Addis trying to get Wi-Fi Connection. Credit Addis Fortune Newspaper*
 
 Recently we published a [post](https://ooni.torproject.org/post/ethiopia-internet-shutdown-amidst-recent-protests/) about what appeared to be a possible internet
 shutdown in Ethiopia during a wave of ongoing protests by ethnic groups. Today,
-in collaboration with [Amnesty International](https://www.amnesty.org/en/) we are releasing a report that
+in collaboration with [Amnesty International](https://www.amnesty.org/) we are releasing a report that
 includes evidence of recent censorship events during Ethiopia’s political
 upheaval.
 
-View the **pdf** version of the report **here**.
+View the **pdf** version of the report [here](/documents/Ethiopia-Offline-evidence-of.pdf).
 
 **Country:** Ethiopia
 
@@ -140,7 +141,8 @@ in internet traffic during October, there is no strong indication of an internet
 shutdown along the lines of that observed in early August.
 
 ![Google data](/post/ethiopia-report/et-01.png)
-Google Transparency Report, Ethiopia, Google Search traffic between July and November 2016.
+
+*Google Transparency Report, Ethiopia, Google Search traffic between July and November 2016.*
 
 The findings suggest that if an internet shutdown did occur in October, it only
 occurred in some networks in certain locations, rather than nationwide.
