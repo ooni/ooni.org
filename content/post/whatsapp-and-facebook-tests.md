@@ -20,12 +20,12 @@ of WhatsApp, especially in light of it being [blocked](https://ooni.torproject.o
 around the world during elections, protests, and other political events.
 
 In response, OONI developed a [test](https://github.com/TheTorProject/ooni-spec/blob/master/test-specs/ts-018-whatsapp.md) that examines the reachability of both
-WhatsApp’s app and web.whatsapp.com within a network. In doing so, our new test
+WhatsApp’s app and web interface (web.whatsapp.com) within a network. In doing so, our new test
 not only examines whether WhatsApp is blocked, but also collects data which
 shows how censorship is implemented.
 
-This test, in particular, attempts to perform an HTTP GET request, TCP
-connection and DNS lookup to WhatsApp’s endpoints, registration service, and web
+This test, in particular, attempts to perform an HTTP GET request, to establish a TCP
+connection and to perform a DNS lookup to WhatsApp’s endpoints, registration service, and web
 version over the vantage point of the user. According to our methodology,
 WhatsApp’s *app* is likely blocked if any of the following apply:
 
@@ -33,7 +33,7 @@ WhatsApp’s *app* is likely blocked if any of the following apply:
 
 * TCP/IP connections to WhatsApp’s registration service fail;
 
-* DNS lookup illustrates that different IP addresses have been allocated to
+* DNS lookup illustrates that unexpected IP addresses have been allocated to
  WhatsApp’s endpoints;
 
 * HTTP requests to WhatsApp’s registration service do not send back a response
@@ -44,13 +44,13 @@ blocked if any of the following apply:
 
 * TCP/IP connections to web.whatsapp.com fail; 
 
-* DNS lookup illustrates that a different IP address has been allocated to
+* DNS lookup illustrates that an unexpected IP address has been allocated to
  web.whatsapp.com;
 
 * HTTP requests to web.whatsapp.com do not send back a consistent response to
  OONI’s servers.
 
-If you’re a Mac OS or Linux user, you can run this test through the following
+If you’re a macOS or Linux user, you can run this test through the following
 steps:
 
 1. [Install](https://ooni.torproject.org/install/ooniprobe/) ooniprobe.
@@ -92,7 +92,7 @@ following apply:
 * DNS lookups to domains associated to Facebook do not resolve to IP addresses
  allocated to Facebook.
 
-If you’re a Mac OS or Linux user, you can run this test through the following
+If you’re a macOS or Linux user, you can run this test through the following
 steps:
 
 1. [Install](https://ooni.torproject.org/install/ooniprobe/) ooniprobe.
