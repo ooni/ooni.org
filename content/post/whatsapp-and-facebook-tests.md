@@ -1,7 +1,7 @@
 ---
 title: "New OONI tests examine the blocking of WhatsApp and Facebook Messenger"
 author: "Maria Xynou"
-date: "2016-12-09"
+date: "2016-12-15"
 tags: ["whatsapp", "facebook", "censorship"]
 categories: []
 ---
