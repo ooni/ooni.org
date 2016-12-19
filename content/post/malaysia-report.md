@@ -65,7 +65,7 @@ Sinar Project.
 
     * [Religion](#religion)
 
-    * [Hosting & Blogging platforms](#hosting-blogging-platforms)
+    * [Hosting and Blogging platforms](#hosting-and-blogging-platforms)
 
     * [File-sharing](#file-sharing)
 
@@ -1267,7 +1267,7 @@ towards Islam and its blocking can therefore be justified under the
 [*1948 Sedition Act*](http://www.commonlii.org/my/legis/consol_act/sa19481969183/),
 which prohibits the incitement of hatred towards any religion.
 
-### Hosting & Blogging platforms
+### Hosting and Blogging platforms
 
 Once the [*Sarawak Report*](http://www.sarawakreport.org/) was [*blocked for covering the 1MDB scandal*](https://www.theguardian.com/world/2015/jul/20/sarawak-report-whistleblowing-website-blocked-by-malaysia-over-pm-allegations),
 it subsequently attempted to have its articles published on medium.com,
