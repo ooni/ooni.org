@@ -1197,8 +1197,6 @@ completely, despite having gained popularity in the country. And
 according to our testing, both sites *remain* blocked in Malaysia to
 date.
 
-![News media](/post/malaysia-report/my-01.png)
-
 Similarly, we also found the website of Asia Sentinel, another news
 outlet that heavily
 [*covered*](http://www.asiasentinel.com/politics/malaysia-1mdb-default-what-were-they-thinking/)
@@ -1215,13 +1213,18 @@ The Malaysian Communications and Multimedia Commission (MCMC) has
 the blocking of these sites on the grounds of national security under
 Section 233 of the [*1998 Communications and Multimedia Act (CMA)*](https://www.unodc.org/res/cld/document/mys/communications_and_multimedia_act_html/Malaysia_Communications_and_Multimedia_Act_1998.pdf).
 
+**Blocked news websites**
+
+* http://www.asiasentinel.com
+* http://www.sarawakreport.org
+* http://www.sarawakreport.org/2016/04/the-simple-silver-bullet-solution-to-1mdb-malaysias-financial-woes-sack-najib/
+* http://www.sarawakreport.org/tag/1mdb
+* http://www.themalaysianinsider.com
+
+
 ### Political Criticism
 
-Several political blogs were found to be blocked as part of our study.
-
-![Political criticism](/post/malaysia-report/my-02.png)
-
-Amongst them, a [*satirical photo blog that specializes in Malaysian politics*](http://jinggo-fotopages.blogspot.my/) and which [*covered the 1MDB scandal*](https://jinggo-fotopages.blogspot.gr/2016/09/pelancaran-siri-jelajah-penerangan-1mdb.html)
+Several political blogs were found to be blocked as part of our study. Amongst them, a [*satirical photo blog that specializes in Malaysian politics*](http://jinggo-fotopages.blogspot.my/) and which [*covered the 1MDB scandal*](https://jinggo-fotopages.blogspot.gr/2016/09/pelancaran-siri-jelajah-penerangan-1mdb.html)
 returned block pages every time we tested it. Similarly, a
 [*blog*](http://syedsoutsidethebox.blogspot.my/) that serves as a
 publishing platform for short articles, information, and thoughts that
@@ -1246,6 +1249,13 @@ criticism and according to our findings, this site remained
 [*blocked*](https://explorer.ooni.torproject.org/measurement/20161111T222216Z_AS4788_CdgH2h69js5DX9sP5aW5liauAsrOAwhgj5XljqrNRImLNXptqG?input=http:%2F%2Fmalaysia-chronicle.com)
 throughout the testing period.
 
+**Blocked sites expressing political criticism**
+
+* http://jinggo-fotopages.blogspot.my/
+* http://malaysia-chronicle.com
+* http://syedsoutsidethebox.blogspot.my/
+* http://tabunginsider.blogspot.my/
+
 ### Religion
 
 While Malaysia’s constitution guarantees freedom of religion, Islam is
@@ -1254,8 +1264,6 @@ the country’s state religion. As part of this study, we found a
 towards Islam to be
 [*blocked*](https://explorer.ooni.torproject.org/measurement/20161111T004856Z_AS4788_qVtleJJvdqT7CVk2tX0NPzcYftL4FPm6d41wzHE9blYzoswg7h?input=http:%2F%2Ftabunginsider.blogspot.my%2F)
 in Malaysia.
-
-![Religion](/post/malaysia-report/my-03.png)
 
 This site keeps track of and enumerates the amount of terror attacks,
 suicide blasts, and deaths and injuries worldwide. It also publishes
@@ -1267,6 +1275,10 @@ towards Islam and its blocking can therefore be justified under the
 [*1948 Sedition Act*](http://www.commonlii.org/my/legis/consol_act/sa19481969183/),
 which prohibits the incitement of hatred towards any religion.
 
+**Blocked site criticising Islam**
+
+* http://www.thereligionofpeace.com
+
 ### Hosting and Blogging platforms
 
 Once the [*Sarawak Report*](http://www.sarawakreport.org/) was [*blocked for covering the 1MDB scandal*](https://www.theguardian.com/world/2015/jul/20/sarawak-report-whistleblowing-website-blocked-by-malaysia-over-pm-allegations),
@@ -1275,11 +1287,13 @@ one of the world’s most popular online publishing platforms. However,
 this resulted in the [*blocking of medium.com*](http://www.sarawakreport.org/2016/01/1mdb-reporting-has-all-been-vindicated-so-how-come-the-growing-media-crackdown-in-malaysia/)
 for hosting stories by Sarawak Report.
 
-![medium](/post/malaysia-report/my-04.png)
-
 OONI data collected as part of this study shows that medium.com was
 [*blocked*](https://explorer.ooni.torproject.org/measurement/20161111T222216Z_AS4788_CdgH2h69js5DX9sP5aW5liauAsrOAwhgj5XljqrNRImLNXptqG?input=https:%2F%2Fmedium.com)
 throughout the testing period.
+
+**Blocked blogging platform**
+
+* https://medium.com
 
 ### File-sharing
 
@@ -1291,11 +1305,16 @@ as part of our study. Similarly, two other torrenting sites were also
 found to be
 [*blocked*](https://explorer.ooni.torproject.org/measurement/20161110T235705Z_AS4788_hXivqWX3IUXsTX6bTcpHYkFCvM82YFJKUXUvHScbsoMTfmWa0I?input=http:%2F%2Fextratorrent.cc).
 
-![torrenting](/post/malaysia-report/my-06.png)
-
 These sites might be part of the thousands of websites that were
 recently [*announced to be blocked by the MCMC*](http://english.astroawani.com/malaysia-news/mcmc-blocks-over-5-000-websites-various-offences-jailani-125528)
 for enabling piracy, which is viewed as an offense under [*Malaysia’s 1998 Communications and Multimedia Act (CMA)*](https://www.unodc.org/res/cld/document/mys/communications_and_multimedia_act_html/Malaysia_Communications_and_Multimedia_Act_1998.pdf).
+
+**Blocked torrenting sites**
+
+* http://extratorrent.cc
+* http://thepiratebay.org
+* https://thepiratebay.se
+* https://torrentz.eu
 
 ### Online Dating
 
@@ -1306,7 +1325,9 @@ as part of this study. It remains unclear though what the motivation was
 behind the blocking of this particular site, and not other popular
 dating sites.
 
-![online dating](/post/malaysia-report/my-07.png)
+**Blocked online dating site**
+
+* http://adultfriendfinder.com
 
 ### Pornography
 
@@ -1317,7 +1338,22 @@ under the [*Communications and Multimedia Act 1998*](https://www.unodc.org/res/c
 As part of this study, the following pornographic websites were found to
 be blocked.
 
-![porn](/post/malaysia-report/my-08.png)
+**Blocked porn websites**
+
+* http://beeg.com
+* http://pornhub.com
+* http://redtube.com
+* http://www.89.com
+* http://www.ashemaletube.com
+* http://www.hustler.com
+* http://www.livejasmin.com
+* http://www.sex.com
+* http://www.wetplace.com
+* http://www.worldsex.com
+* http://xhamster.com
+* http://xvideos.com
+* http://youjizz.com
+* http://youporn.com
 
 ### Gambling
 
@@ -1329,7 +1365,18 @@ Under Sharia Law, online gambling is considered a serious crime. As part
 of this study, we found the following gambling sites to be blocked in
 the country.
 
-![gambling](/post/malaysia-report/my-09.png)
+**Blocked gambling sites**
+
+* http://www.888casino.com
+* http://www.belmont.ag
+* http://www.betfair.com
+* http://www.carnivalcasino.com
+* http://www.casinotropez.com
+* http://www.clubdicecasino.com
+* http://www.europacasino.com
+* http://www.goldenrivieracasino.com
+* http://www.roxypalace.com
+* http://www.spinpalace.com
 
 ## Acknowledgement of limitations
 
