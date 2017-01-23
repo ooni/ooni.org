@@ -158,6 +158,7 @@ sudo apt-get install ooniprobe deb.torproject.org-keyring
 **Step 1.** Configure the torproject repository by typing the following in your terminal:
 
 ```
+echo 'deb http://archive.ubuntu.com/ubuntu yakkety universe' | sudo tee /etc/apt/sources.list.d/universe.list
 gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
 gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
 echo 'deb http://deb.torproject.org/torproject.org yakkety main' | sudo tee /etc/apt/sources.list.d/ooniprobe.list
@@ -181,6 +182,7 @@ sudo apt-get install ooniprobe deb.torproject.org-keyring
 **Step 1.** Configure the torproject repository by typing the following in your terminal:
 
 ```
+echo 'deb http://archive.ubuntu.com/ubuntu xenial universe' | sudo tee /etc/apt/sources.list.d/universe.list
 gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
 gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
 echo 'deb http://deb.torproject.org/torproject.org xenial main' | sudo tee /etc/apt/sources.list.d/ooniprobe.list
@@ -204,6 +206,7 @@ sudo apt-get install ooniprobe deb.torproject.org-keyring
 **Step 1.** Configure the torproject repository by typing the following in your terminal:
 
 ```
+echo 'deb http://archive.ubuntu.com/ubuntu trusty universe' | sudo tee /etc/apt/sources.list.d/universe.list
 gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
 gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
 echo 'deb http://deb.torproject.org/torproject.org trusty main' | sudo tee /etc/apt/sources.list.d/ooniprobe.list
