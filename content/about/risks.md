@@ -1,14 +1,25 @@
 # Risks: Things you should know before using ooniprobe
 
-OONI's software tests (called ooniprobe) are designed to test networks for
-symptoms of censorship, surveillance and traffic manipulation and, in some
-countries around the world, **legal** and/or **extra-legal risks** could emerge.
-We therefore strongly urge you to consult with lawyers *prior* to downloading,
-installing and running ooniprobe, and to carefully read the documentation below.
+OONI's [software tests](https://github.com/TheTorProject/ooni-probe) (called
+ooniprobe) are designed to test networks for signs of censorship, surveillance
+and traffic manipulation. In some countries around the world using ooniprobe may
+result in criminal prosecution, fines, or even imprisonment. We therefore
+strongly urge you to consult with a lawyer licensed to practice in your country
+*prior* to downloading, installing and running ooniprobe, and to carefully read
+the documentation below.
 
-* [*Legal and extra-legal risks*](#legal-and-extra-legal-risks)
+Users run ooniprobe at their own risk. By installing ooniprobe, users agree to
+comply with OONI's software
+[license](https://github.com/TheTorProject/ooni-%20probe/blob/master/LICENSE)
+and [Data Policy](https://ooni.torproject.org/about/data-policy). Neither the
+[OONI project](https://ooni.torproject.org/) nor its parent organization, [The Tor Project](https://www.torproject.org/), can be held liable, jointly or
+severally, at law or at equity, to ooniprobe users and other third parties, for
+any risks or damages resulting from the use of ooniprobe under any tort,
+contract, or other causes of action.
 
-* [*Detection of ooniprobe usage*](#detection-of-ooniprobe-usage)
+* [*Potential Penalties and Sanctions*](#potential-penalties-and-sanctions)
+
+* [*Risks: Detection of ooniprobe*](#risks-detection-of-ooniprobe)
 
     * [*Surveillance*](#surveillance)
 
@@ -18,7 +29,7 @@ installing and running ooniprobe, and to carefully read the documentation below.
 
     * [*Publication of measurements*](#publication-of-measurements)
 
-* [*ooniprobe software tests*](#ooniprobe-software-tests)
+* [*Risks: ooniprobe tests*](#risks-ooniprobe-tests)
 
     * [*Legality of tested websites*](#legality-of-tested-websites)
 
@@ -26,24 +37,22 @@ installing and running ooniprobe, and to carefully read the documentation below.
 
     * [*Legality of anonymity software*](#legality-of-anonymity-software)
 
-* [*Legal advice*](#legal-advice)
+* [*Seeking Legal advice*](#seeking-legal-advice)
 
 **Note:** The risks described below are quite speculative. To our
 knowledge, no ooniprobe user has ever faced consequences from the risks
 described below. Nonetheless, we strongly encourage you to read the following
 information regarding potential risks associated with the use of ooniprobe.
 
-## Legal and extra-legal risks
+## Potential Penalties and Sanctions
 
-The legal risks of downloading, installing and running ooniprobe can vary from
-country to country, which is why we advise you to consult with local lawyers. In
-extreme cases, any form of active network measurement could be illegal, or even
-considered a form of espionage.
+In some countries, any form of active network measurement may be illegal, or
+even considered a form of espionage.
 
-Many countries have a lengthy history of subjecting digital rights activists to
-various forms of abuse that could make it dangerous for individuals in these
-countries to run ooniprobe. The use of ooniprobe might therefore subject users
-to severe civil, criminal, or extra-judicial penalties, and such sanctions can
+Many governments have a lengthy history of subjecting digital rights activists to
+various forms of abuse that may make it dangerous for individuals in these
+countries to run ooniprobe. The use of ooniprobe may therefore subject users
+to severe civil, criminal, or extra-judicial penalties. Such sanctions can
 potentially include:
 
 * Imprisonment
@@ -52,124 +61,89 @@ potentially include:
 
 * Large fines
 
-* Receiving threats
+* Threats
 
-* Being placed on government watchlists
+* Placement on government watch lists
 
-* Targeted for surveillance
+* Targeting for surveillance
 
-While most countries don't have laws which specifically prohibit the use of
-network measurement software, it's important to note that the use of ooniprobe
-can *still* potentially be criminalized in certain countries under other,
-broader laws if, for example, its use is viewed as an illegal or anti-government
-activity. ooniprobe users might also face the risk of being criminalized on the
-grounds of *national security* if the data obtained and published by running
-ooniprobe is viewed as jeopardizing the country's external or internal security.
+In view of these threats, we strongly encourage you to consult with a lawyer and
+to understand the legal risks prior to using ooniprobe. Potential risks of using
+ooniprobe are detailed below.
 
-We strongly encourage you to consult with lawyers and understand legal risks
-*prior* to running ooniprobe. Some questions you can ask lawyers related to the
-use of ooniprobe can include the following:
+## Risks: Detection of ooniprobe
 
-* Does country X have laws in force that restrict or prohibit the use of:
+Certain users may face severe penalties if these users are detected by third
+parties (such as governments) who view ooniprobe as a threat.
 
-  * **network measurement software**?
-
-  * **censorship detection software**?
-
-  * **censorship circumvention software**?
-
-* Does country X have laws in force that restrict or prohibit certain types
-  of **internet access**? (for example, is it illegal to access certain
-  websites?)
-
-* Does country X have laws in force or ISP License Agreements that require
-  Internet Service Providers (ISPs) to track users' online activities and to
-  retain such records?
-
-* Have laws or rules in country X ever been used to criminalize groups or
-  individuals based on their internet activity? (this does not necessarily need
-  to be specific to network measurements)
-
-## Detection of ooniprobe usage
-
-Various legal and extra-legal risks (as explained in the previous section) might
-potentially emerge if third parties (such as governments and ISPs) who view the
-use of ooniprobe as an illegal or generally "suspicious" activity detect an
-ooniprobe user.
-
-The use of ooniprobe can potentially be detected by third parties through the
-following:
+The use of ooniprobe may be detected by third parties through the following:
 
 ### Surveillance
 
-Third parties (such as your government, ISP and/or employer) monitoring your
-internet activity will be able to see all web traffic generated by ooniprobe,
-including your IP address, and might be able to link it to you personally.
+Third parties (such as your government, your internet service provider, or your
+employer) may be monitoring some or all of your internet activity. This may
+allow them to detect the web traffic generated by your use of ooniprobe and to
+link it back to you personally.
 
 Many countries employ sophisticated surveillance measures that allow governments
-to track individuals' online activities – even if they are using a VPN or a
-proxy server to protect their privacy. In such countries, governments might be
-able to identify you as an ooniprobe user regardless of what measures you take to
-protect your online privacy. 
+to track individuals' online activities – even if they are using privacy-
+preserving services such as Tor, Psiphon, virtual private networks (VPNs), or
+proxy servers. In such countries, governments or third parties may be able to
+identify you as an ooniprobe user regardless of what measures you take to
+protect your online privacy.
 
 ### Tested services
 
-Services connected to by ooniprobe will be able to see your IP address and might be
+The services ooniprobe connects to will be able to see your IP address and may be
 able to detect that you are using ooniprobe. You can view which services ooniprobe tests
 [here](https://github.com/citizenlab/test-lists/tree/master/lists).
 
 ### Physical or remote access to a user's device
 
 As with any other software, the usage of ooniprobe can leave traces. As such,
-anyone with physical or remote access to your computer might be able to see
+anyone with physical or remote access to your computer may be able to see
 that you have downloaded, installed or run ooniprobe.
-
-To remove traces of ooniprobe usage, you can re-install your operating system or
-wipe your computer and remove everything (operating system, programs and files)
-from your hard drive.
 
 ### Publication of measurements
 
-The public (including third parties who view the usage of ooniprobe as illegal or
-"suspicious") will be able to see the information collected by ooniprobe once it's
-published through:
+By default, all measurements generated through ooniprobe are sent to OONI's
+measurement collector and automatically published through:
 
 * [OONI Explorer](https://explorer.ooni.torproject.org/world/)
 
-* [OONI's list of measurements](https://measurements.ooni.torproject.org/)
+* [OONI's measurements interface](https://measurements.ooni.torproject.org/)
 
-Unless users **[opt-out](https://ooni.torproject.org/about/data-policy/)**, all
-measurements that are generated through ooniprobe tests are by default sent to
-OONI's measurement collector and automatically published through the above
-resources.
+Consequently, the public - including third parties who view the usage of
+ooniprobe as a threat - will be able to see all user measurements, unless users
+**[opt out](https://ooni.torproject.org/about/data-policy/)**.
 
 Published data will include your approximate location, the network (ASN) you are
-connecting from, and when you ran ooniprobe. Other identifying information, such
-as your IP address, is *not* deliberately collected, but might be included in
-HTTP headers or other metadata. The full page content downloaded by ooniprobe
-could potentially include further information if, for example, a website
-includes tracking codes or custom content based on your network location. Such
+connecting from, and the time when you ran ooniprobe. Other identifying
+information, such as your IP address, is *not* deliberately collected, but may
+be included in HTTP headers or other metadata. The full page content downloaded
+by ooniprobe may include such information if, for example, a website includes
+tracking codes or custom content based on your network location. Identifying
 information could potentially aid third parties in detecting you as an ooniprobe
 user.
 
-## ooniprobe software tests
+## Risks: ooniprobe tests
 
 OONI has developed multiple free software tests, each one of which is designed
-to perform a different function and can therefore potentially entail different
-types of legal and/or extra-legal risks.
+to perform a different function. Therefore these tests potentially entail different
+types of risks to the user.
 
-In summary, OONI's tests are designed to:
+Generally, ooniprobe is designed to:
 
-* Examine whether websites are blocked
+* Examine whether websites are blocked;
 
-* Examine whether instant messaging (IM) apps (such as WhatsApp or Facebook Messenger) are blocked
+* Examine whether instant messaging (IM) apps (such as WhatsApp or Facebook Messenger) are blocked;
 
-* Detect the presence of systems which might be responsible for censorship,
-  surveillance and traffic manipulation
+* Detect the presence of systems which may be responsible for censorship,
+  surveillance and traffic manipulation;
 
 * Examine whether censorship circumvention tools, such as [Tor
 bridges](https://bridges.torproject.org/), [Psiphon](https://psiphon.ca/) and
-[Lantern](https://getlantern.org/), are blocked
+[Lantern](https://getlantern.org/), are blocked.
 
 We urge you to review the
 **[specifications](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs)**
@@ -186,40 +160,38 @@ which are included in the following two lists:
 * **[Global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)** 
   (including a list of globally accessed websites)
 
-Many websites included in the above lists will likely be controversial and can
-include pornography or hate speech, which might be illegal to access in your
-country. We therefore recommend that you examine carefully whether you are
-willing to take the risk of accessing and downloading data from such websites
-through ooniprobe tests.
+Many websites included in the above lists are controversial and may include
+pornography or hate speech. This content may be illegal to access in your
+country. In some countries, accessing illegal content has severe consequences,
+such as imprisonment. We therefore recommend that you carefully examine whether
+you are willing to take the risk of accessing and downloading data from such
+websites through ooniprobe tests.
 
 If you are uncertain of the potential implications of connecting to and
-downloading data from the websites listed in the above lists, you can pass your
-*own* test list with the ooniprobe `-f` command line option.
+downloading data from the websites listed in the above lists, you can choose
+which websites to test through the ooniprobe `-f` command line option.
 
 ### Legality of ooniprobe tests
 
-While network measurements or the use of censorship detection software might not
-be illegal per se, some network tests that ooniprobe does might be against the *terms
-of service of your Internet Service Provider (ISP)* or legally questionable in
-your country.
+Some network tests performed by ooniprobe may violate your country's computer
+misuse laws or terms of service of your internet provider.
 
-OONI's **[HTTP-invalid-request-line](https://ooni.torproject.org/nettest/http-invalid-request-line/)** test, for example, *might* trigger the suspicion of
-your ISP when sending out-of-spec messages to an echo service. Some ooniprobe
-tests are designed to connect to and download data from potentially legally
-questionable websites (as mentioned in the previous section), while others
-examine the reachability of instant messaging apps and circumvention tools (such
-as [Psiphon](https://psiphon.ca/) and [Lantern](https://getlantern.org/)) which
-might be illegal or viewed as controversial in some countries.
+Specifically, the operators of network components affected by ooniprobe tests
+may view these tests as attacks. OONI's **[HTTP-invalid-request-line](https://ooni.torproject.org/nettest/http-invalid-request-line/)** test,
+for example, *might* trigger suspicion when sending out-of-spec messages to an
+echo service and could be viewed as a form of "hacking". If network components
+affected by this test view these out-of-spec messages as attacks, you may face
+severe consequences, such as prosecution under computer misuse laws.
 
 ### Legality of anonymity software
 
-The installation of [Tor](https://www.torproject.org/) software, which is
-designed for online anonymity, is a *prerequisite* for using ooniprobe.
+By default, ooniprobe network measurements are sent to OONI's measurement
+collector through the use of [Tor hidden services](https://www.torproject.org/docs/hidden-services) which are designed
+for online anonymity.
 
-Furthermore, OONI's **[Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/)** test is designed to examine the
-reachability of the Tor network, while OONI's **[bridge-reachability](https://ooni.torproject.org/nettest/tor-bridge-reachability/)**
-test is designed to check whether [Tor bridges](https://bridges.torproject.org/)
-are blocked or not.
+Furthermore, OONI's **[Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/)** test is designed to examine the reachability of the Tor network, while
+OONI's **[bridge-reachability](https://ooni.torproject.org/nettest/tor-bridge-reachability/)** test is designed to check whether [Tor bridges](https://bridges.torproject.org/) are blocked or not. Both tests require
+the installation of [Tor software](https://www.torproject.org/).
 
 Similarly, the following OONI tests require the installation of circumvention
 software:
@@ -229,14 +201,56 @@ software:
 * **[Lantern](https://ooni.torproject.org/nettest/lantern/)**
 
 We therefore encourage you to consult with a lawyer on the legality of anonymity
-software (such as Tor, a VPN or a proxy) *prior* to using ooniprobe.
+software (such as Tor, a VPN or a proxy) in your country *prior* to running the
+above tests and to consider uploading your measurements via HTTPS collectors or
+cloud-fronting (instead of Tor hidden services).
 
-## Legal advice
+## Seeking legal advice
 
-In addition to consulting with laywers, you can also reach out to us with
-specific inquiries at **contact@openobservatory.org**. Please note though that we
-are *not* lawyers, but we might be able to seek legal advice for you or to put
-you in touch with lawyers who could address your questions and/or concerns.
+The legal risks of downloading, installing and running ooniprobe can vary from
+country to country, which is why we advise you to consult with lawyers who are
+licensed to practice in your country.
+
+Some questions you may want to ask your lawyers relating to the use of ooniprobe
+include:
+
+* Does my country prohibit me from using:
+
+  * **network measurement software**?
+
+  * **censorship detection software**?
+
+  * **censorship circumvention software**?
+
+  * **anonymity software**?
+
+* Is it illegal for me to access certain websites?
+
+* Are there laws in my country that require Internet Service Providers (ISPs) to
+ track my online activity?
+
+* Has anyone in my country ever been criminalized based on their internet
+activity? (This does not necessarily need to be specific to network
+measurements)
+
+Note, this is not an exhaustive list of questions to ask your lawyers.
+
+Additionally, while many countries do not have laws specifically prohibiting the
+use of network measurement software, the use of ooniprobe may still be
+criminalized in certain countries under other, broader laws. For example, using
+ooniprobe may be viewed as illegal or anti-government activity. ooniprobe users
+may also face the risk of being criminalized on the grounds of **national security**
+if the data obtained and published by running ooniprobe is viewed as
+"jeopardizing" the country's external or internal security. You may want to
+consult with a lawyer about these matters as well.
+
+In addition to consulting with a lawyer, you can also reach out to us with
+specific inquiries at **contact@openobservatory.org**. Please note that we are
+*not* lawyers, and any information we give you does not constitute legal advice.
+Additionally, your communication with us is not protected by any legal privilege
+so law enforcement may subpoena and obtain any information you give us. However,
+we may be able to put you in touch with lawyers who are capable of addressing
+your questions and/or concerns.
 
 Some relevant resources include:
 
@@ -244,8 +258,14 @@ Some relevant resources include:
 
 * [EFF Know Your Rights](https://www.eff.org/issues/know-your-rights)
 
+**Note:** These resources do *not* constitute legal advice and may be out of date.
+Please confirm you are reading the latest version before relying on any advice.
 
-**Note:** The use of ooniprobe is at your *own risk* in accordance to OONI's software
-[license](https://github.com/TheTorProject/ooni- probe/blob/master/LICENSE) and
-neither the OONI project nor its parent organization, the Tor Project, can be
-held liable.
+Again, users run ooniprobe at their own risk. By installing ooniprobe, users agree to
+comply with OONI's software
+[license](https://github.com/TheTorProject/ooni-%20probe/blob/master/LICENSE)
+and [Data Policy](https://ooni.torproject.org/about/data-policy). Neither the
+[OONI project](https://ooni.torproject.org/) nor its parent organization, [The Tor Project](https://www.torproject.org/), can be held liable, jointly or
+severally, at law or at equity, to ooniprobe users and other third parties, for
+any risks or damages resulting from the use of ooniprobe under any tort,
+contract, or other causes of action.
