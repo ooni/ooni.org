@@ -3,12 +3,10 @@ title: "ooniprobe: Installation guide"
 enabletoc: true
 ---
 
-The **[Open Observatory of Network Interference
-(OONI)](https://ooni.torproject.org)** is a *free software* project under the [Tor
-Project](https://torproject.org/) which aims to detect internet censorship,
+The **[Open Observatory of Network Interference (OONI)](https://ooni.torproject.org)** is a *free software* project under the [Tor Project](https://torproject.org/) which aims to detect internet censorship,
 traffic manipulation and signs of surveillance around the world through the
 collection and processing of network measurements. Since late 2012, OONI has
-collected millions of network measurements across more than 90 countries around
+collected millions of network measurements across more than 100 countries around
 the world, shedding light on multiple cases of network interference.
 
 ooniprobe is a program that users can run to probe their network and to collect
@@ -19,19 +17,36 @@ read this document to learn how to install and run ooniprobe.
 
 ## Risks of running ooniprobe
 
-**WARNING:** Running ooniprobe might be against the terms of service of your ISP
-or legally questionable in your country. By running ooniprobe you will connect
-to web services which might be banned, and use web censorship circumvention
-methods such as Tor. The OONI project will publish data submitted by probes,
-possibly including your IP address or other identifying information. In
-addition, your use of ooniprobe will be clear to anybody who has access to
-your computer, and to anybody who can monitor your internet connection (such
-as your employer, ISP or government). Please read our relevant
-**[documentation](https://ooni.torproject.org/about/risks)** to learn more about potential risks.
+**WARNING:** Running ooniprobe carries risks.
+
+In some countries, using active network measurement tools like ooniprobe may be
+illegal, or even considered espionage. Potential penalties and sanctions include
+imprisonment, physical assaults, large fines, threats, placement of government
+watch lists, and targeting for surveillance.
+
+Some ooniprobe tests may connect to websites that are illegal in your country,
+and the tests themselves may violate your country's computer misuse laws. OONI
+publishes all collected measurement data, which may include personally
+identifying information. Accordingly, sophisticated third parties, including
+internet service providers and website owners, may be able to detect your use of
+ooniprobe and report you to the authorities. We encourage you to consult with a
+lawyer licensed to practice in your jurisdiction prior to downloading and using
+ooniprobe.
+
+**Users run ooniprobe at their own risk.** By installing ooniprobe, users agree to
+comply with OONI's software [license](https://github.com/TheTorProject/ooni-%20probe/blob/master/LICENSE) and [Data Policy](https://ooni.torproject.org/about/data-policy). Neither the [OONI project](https://ooni.torproject.org/)
+nor its parent organization, [The Tor Project](https://www.torproject.org/), will be held liable, jointly or
+severally, at law or at equity, to ooniprobe users and other third parties for
+any risks or damages resulting from the use of ooniprobe under any tort,
+conract, or other causes of action.
+
+Please read our relevant
+[documentation](https://ooni.torproject.org/about/risks/) to learn more about
+potential risks.
 
 ## Installing ooniprobe
 
- The desktop version of ooniprobe is currently designed for **Linux** and **Mac OS X** systems.
+The desktop version of ooniprobe is currently designed for **Linux** and **Mac OS X** systems.
 
 To install ooniprobe follow the steps below:
 
