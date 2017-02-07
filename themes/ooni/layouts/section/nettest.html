@@ -26,6 +26,7 @@
       <a href="#boxes"><li>Which censorship technologies are in my network?</li></a>
       <a href="#tor"><li>Is Tor blocked?</li></a>
       <a href="#proxies"><li>Are proxies blocked?</li></a>
+      <a href="#performance"><li>What is the speed and performance of my network?</li></a>
     </ul>
 
     <h1 id="websites" class="test-header">Which websites are blocked?</h1>
@@ -104,6 +105,22 @@
           <div class="col-3">
           <a href="{{ .RelPermalink }}">
             <h2 class="test-header">{{ $TITLE }}</h2>
+            <p class="test-paragraph">
+              {{ .Params.short_description }}
+            </p>
+          </a>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <h1 id="performance" class="test-header">What is the speed and performance of my network?</h1>
+    <div class="row question-container">
+      {{ range .Data.Pages }}
+        {{ if in .Params.groups "performance" }}
+          <div class="col-3">
+          <a href="{{ .RelPermalink }}">
+            <h2 class="test-header">{{ .Title }}</h2>
             <p class="test-paragraph">
               {{ .Params.short_description }}
             </p>
