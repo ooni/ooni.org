@@ -6,7 +6,7 @@ tags: ["censorship", "speed", "performance"]
 categories: []
 ---
 
-![OONI mobile app](/post/ooni-mobile-app/xxx.png)
+![OONI mobile app](/post/ooni-mobile-app/ooni-mobile-app.jpg)
 
 Today the [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) project is thrilled to
 announce the release of a new mobile app (“**ooniprobe - Measure Internet
@@ -63,7 +63,7 @@ interference. All data is published on [OONI Explorer](https://explorer.ooni.tor
 Once you have run each test, you should be able to view the results of your
 tests directly in the app, as illustrated below:
 
-![Test results](/post/ooni-mobile-app/xxx.png)
+![Test results](/post/ooni-mobile-app/app-results.jpg)
 
 # Free software
 
