@@ -70,9 +70,9 @@ tests directly in the app, as illustrated below:
 All OONI tests, as well as its NDT implementation, are based on free and open
 source software. You can find the source code through the following links:
 
-* https://github.com/measurement-kit/ooniprobe-ios
+* https://github.com/TheTorProject/ooniprobe-ios
 
-* https://github.com/measurement-kit/ooniprobe-android
+* https://github.com/TheTorProject/ooniprobe-android
 
 # Next steps
 
