@@ -1,7 +1,7 @@
 ---
 title: "New ooniprobe Mobile App: Measure Internet Censorship & Performance"
 author: "Maria Xynou, Lorenzo Primiterra, Simone Basso, Arturo Filastò"
-date: "2017-02-13"
+date: "2017-02-09"
 tags: ["censorship", "speed", "performance"]
 categories: []
 ---
