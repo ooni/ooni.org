@@ -27,12 +27,12 @@ transparency of internet censorship and network interference around the world.
 
 OONI's [Web Connectivity test](https://ooni.torproject.org/nettest/web-connectivity/) is designed to examine whether websites are blocked
 and if so, how. This test, in particular, attempts to determine whether access
-to sites is blocked through DNS tampering, TCP connection RST/IP blocking, or by
-a transparent HTTP proxy. By knowing how access to sites is interfered with, you
-can more easily evaluate how to circumvent that specific type of censorship. As
-OONI is committed to transparency through the publication of all network
-measurement data, you can use it as evidence of any censorship events that you
-come across.
+to sites is blocked through DNS tampering, TCP/IP blocking, or by a
+transparent HTTP proxy. By knowing how access to sites is interfered with,
+you can more easily evaluate how to circumvent that specific type of
+censorship. As OONI is committed to transparency through the publication of
+all network measurement data, you can use it as evidence of any censorship
+events that you come across.
 
 # Detecting systems responsible for censorship and surveillance
 
