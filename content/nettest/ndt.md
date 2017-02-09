@@ -23,7 +23,11 @@ OONI utilizes an *[implementation of
 NDT](https://github.com/measurement-kit/measurement-kit/tree/master/src/libmeasurement_kit/ndt)*
 for [measurement-kit](https://github.com/measurement-kit/measurement-kit),
 which is a network measurement library for running both desktop and mobile
-network measurement tests. This NDT implementation, for example, is included as
-a test that can be run via OONI's mobile app. Running NDT can be useful as the
+network measurement tests. This NDT implementation is included as
+a test that can be run via **OONI's mobile app**. Running NDT can be useful as the
 type of information that it collects can potentially be used to examine cases
 of throttling.
+
+**Disclaimer:** This is a third-party performance test based on third-party servers,
+and we cannot guarantee that your IP address will not be collected and
+published.
