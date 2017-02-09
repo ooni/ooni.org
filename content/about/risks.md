@@ -36,6 +36,8 @@ contract, or other causes of action.
     * [*Legality of ooniprobe tests*](#legality-of-ooniprobe-tests)
 
     * [*Legality of anonymity software*](#legality-of-anonymity-software)
+    
+    * [Third-party services](#third-party-services)
 
 * [*Seeking Legal advice*](#seeking-legal-advice)
 
@@ -204,6 +206,12 @@ We therefore encourage you to consult with a lawyer on the legality of anonymity
 software (such as Tor, a VPN or a proxy) in your country *prior* to running the
 above tests and to consider uploading your measurements via HTTPS collectors or
 cloud-fronting (instead of Tor hidden services).
+
+### Third-party services
+
+Our [Network Diagnostic Test (NDT)](https://ooni.torproject.org/nettest/ndt/) is designed to measure the speed and performance of networks by connecting to [M-Lab](https://www.measurementlab.net/) servers close to the user, and by collecting TCP/IP low level information that is useful to examining and characterizing the quality of the network path between the user and the M-Lab server.
+
+As NDT is a third-party performance test based on third-party servers, we cannot guarantee that your IP address will not be collected, processed, and published.
 
 ## Seeking legal advice
 
