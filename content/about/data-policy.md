@@ -75,7 +75,19 @@ You can opt out of sending us your country code by [editing the ooniprobe config
 out of sending us this information through the setup settings of OONI's web user
 interface or OONI's mobile app.
 
-**2.1.3. Autonomous System Number (ASN)**
+**2.1.3. Network measurements**
+
+We collect different types of network measurements when you run different types
+of tests. You can view the specifications about each ooniprobe test
+[here](https://github.com/TheTorProject/ooni-spec), and the details about the
+collected network measurements on [OONI Explorer](https://explorer.ooni.torproject.org/world/) or through our
+[measurements interface](https://measurements.ooni.torproject.org/).
+
+You can opt out of sending us your measurements by running ooniprobe with the -n
+command line option. Alternatively, you can choose *not* to have your
+measurements uploaded via OONI's web user interface or OONI's mobile app.
+
+**2.1.4. Autonomous System Number (ASN)**
 
 By default, we collect your corresponding network Autonomous System Number (ASN)
 when you run ooniprobe. Collecting ASNs helps our work by revealing the identity
@@ -86,7 +98,7 @@ You can opt out of sending us your network's ASN by [editing the ooniprobe confi
 out of sending us this information through the setup settings of OONI's web user
 interface or OONI's mobile app.
 
-**2.1.4. IP addresses and other information**
+**2.1.5. IP addresses and other information**
 
 We do *not* aim to collect or store your IP addresses. In face, we take measures
 to remove them from our database of collected measurements to reduce the risk to
@@ -102,18 +114,6 @@ provide your individual IP address (to enhance the accuracy of information) by
 [editing the ooniprobe  configuration](https://github.com/TheTorProject/ooni-probe#configuring-ooniprobe) file inside of `~/.ooni/ooniprobe.conf`.
 Alternatively, you can opt-in to send us this information through the setup
 settings of OONI's web user interface or OONI's mobile app.
-
-**2.1.5. Network measurements**
-
-We collect different types of network measurements when you run different types
-of tests. You can view the specifications about each ooniprobe test
-[here](https://github.com/TheTorProject/ooni-spec), and the details about the
-collected network measurements on [OONI Explorer](https://explorer.ooni.torproject.org/world/) or through our
-[measurements interface](https://measurements.ooni.torproject.org/).
-
-You can opt out of sending us your measurements by running ooniprobe with the -n
-command line option. Alternatively, you can choose *not* to have your
-measurements uploaded via OONI's web user interface or OONI's mobile app.
 
 ### 2.2. Data We Process
 
@@ -165,16 +165,14 @@ answer other research questions.
 Currently, we publish all measurement data both through our [measurements interface](https://measurements.ooni.torproject.org/)and through an interactive
 visualization called [OONI Explorer](https://explorer.ooni.torproject.org/world/).
 
-For questions and comments on this Data Policy, please contact:
-**contact@openobservatory.org**.
-
 ### 2.5. Third-party services
 
 Our [Network Diagnostic Test (NDT)](https://ooni.torproject.org/nettest/ndt/) is designed to measure the speed and performance of networks by connecting to [M-Lab](https://www.measurementlab.net/) servers close to the user, and by collecting TCP/IP low level information that is useful to examining and characterizing the quality of the network path between the user and the M-Lab server.
 
-As NDT is a third-party performance test based on third-party servers, we cannot guarantee that your IP address will not be collected, processed, and published.
+As NDT is based on third-party servers, we cannot guarantee that your IP address will not be collected, processed, and published by third-parties.
 
-Please contact the OONI team with feedback or questions on this Data Policy at **contact@openobservatory.org**.
+For questions and comments on this Data Policy, please contact:
+**contact@openobservatory.org**.
 
 ```
 Key ID:
