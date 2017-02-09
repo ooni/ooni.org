@@ -46,7 +46,7 @@ of tests. You can view the specifications about each ooniprobe test
 collected network measurements on [OONI Explorer](https://explorer.ooni.torproject.org/world/) or through our
 [measurements interface](https://measurements.ooni.torproject.org/).
 
-You can opt out of sending us your measurements by running ooniprobe with the -n
+You can opt out of sending us your measurements by running ooniprobe with the `-n`
 command line option. Alternatively, you can choose *not* to have your
 measurements uploaded through the setup settings of OONI's web user interface or
 OONI's mobile app.
@@ -83,7 +83,7 @@ of tests. You can view the specifications about each ooniprobe test
 collected network measurements on [OONI Explorer](https://explorer.ooni.torproject.org/world/) or through our
 [measurements interface](https://measurements.ooni.torproject.org/).
 
-You can opt out of sending us your measurements by running ooniprobe with the -n
+You can opt out of sending us your measurements by running ooniprobe with the `-n`
 command line option. Alternatively, you can choose *not* to have your
 measurements uploaded via OONI's web user interface or OONI's mobile app.
 
@@ -139,7 +139,7 @@ try to make sense of the data and to find answers to the following questions:
 
 * How did network interference occur?
 
-You can opt out of sending us your measurements by running ooniprobe with the -n
+You can opt out of sending us your measurements by running ooniprobe with the `-n`
 command line option. Alternatively, you can choose *not* to have your
 measurements uploaded through the setup settings of OONI's web user interface or
 OONI's mobile app.
@@ -152,7 +152,7 @@ such as your IP address or other information contained in the HTTP headers.
 
 You can opt out of sending specific types of data to our measurement collector
 as described in Section 2.1. You can opt out of sending us any measurements by
-running ooniprobe with the -n command line option, or by choosing *not* to have
+running ooniprobe with the `-n` command line option, or by choosing *not* to have
 your measurements uploaded through the setup settings of OONI's web user
 interface or OONI's mobile app.
 
@@ -162,7 +162,7 @@ We publish ALL of the network measurement data that we have collected and stored
 to allow third parties to conduct independent studies, verify our findings, and
 answer other research questions.
 
-Currently, we publish all measurement data both through our [measurements interface](https://measurements.ooni.torproject.org/)and through an interactive
+Currently, we publish all measurement data both through our [measurements interface](https://measurements.ooni.torproject.org/) and through an interactive
 visualization called [OONI Explorer](https://explorer.ooni.torproject.org/world/).
 
 ### 2.5. Third-party services
