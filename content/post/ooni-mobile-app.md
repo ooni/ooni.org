@@ -30,8 +30,8 @@ and if so, how. This test, in particular, attempts to determine whether access
 to sites is blocked through DNS tampering, TCP/IP blocking, or by a
 transparent HTTP proxy. By knowing how access to sites is interfered with,
 you can more easily evaluate how to circumvent that specific type of
-censorship. As OONI is committed to transparency through the publication of
-all network measurement data, you can use it as evidence of any censorship
+censorship. As OONI is committed to transparency through the [publication of
+all network measurement data](https://measurements.ooni.torproject.org/), you can use it as evidence of any censorship
 events that you come across.
 
 # Detecting systems responsible for censorship and surveillance
