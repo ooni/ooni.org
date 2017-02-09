@@ -88,3 +88,11 @@ including - but not limited to - our new
 the meanwhile, learn about [potential risks](https://ooni.torproject.org/about/risks/) associated to running
 ooniprobe. If you feel comfortable with them, install OONI’s mobile app and test
 every network you connect to!
+
+-----------------------------------------------------------------------------------------------------------
+
+The OONI team thanks the [Open Technology Fund](https://www.opentech.fund/) for
+sponsoring the development of OONI's mobile app, and
+[M-Lab](https://www.measurementlab.net/) for sponsoring the development of
+[Measurement-Kit](https://github.com/measurement-kit/measurement-kit) at the
+[Nexa Center for Internet &amp; Society](https://nexa.polito.it/).
