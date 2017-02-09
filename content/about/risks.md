@@ -171,7 +171,7 @@ websites through ooniprobe tests.
 
 If you are uncertain of the potential implications of connecting to and
 downloading data from the websites listed in the above lists, you can choose
-which websites to test through the ooniprobe `-f` command line option.
+which websites to test by running `ooniprobe web_connectivity -u <url>`.
 
 ### Legality of ooniprobe tests
 
