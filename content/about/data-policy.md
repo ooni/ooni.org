@@ -174,6 +174,8 @@ Our [Network Diagnostic Test (NDT)](https://ooni.torproject.org/nettest/ndt/) is
 
 As NDT is a third-party performance test based on third-party servers, we cannot guarantee that your IP address will not be collected, processed, and published.
 
+Please contact the OONI team with feedback or questions on this Data Policy at **contact@openobservatory.org**.
+
 ```
 Key ID:
     0CB177B7
