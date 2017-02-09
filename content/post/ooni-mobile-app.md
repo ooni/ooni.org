@@ -68,11 +68,15 @@ tests directly in the app, as illustrated below:
 # Free software
 
 All OONI tests, as well as its NDT implementation, are based on free and open
-source software. You can find the source code through the following links:
+source software (the [network measurement library
+MeasurementKit](https://measurement-kit.github.io)). You can find the source
+code through the following links:
 
 * https://github.com/TheTorProject/ooniprobe-ios
 
 * https://github.com/TheTorProject/ooniprobe-android
+
+* https://github.com/measurement-kit/measurement-kit
 
 # Next steps
 
