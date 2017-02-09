@@ -13,6 +13,8 @@ announce the release of a new mobile app (“**ooniprobe - Measure Internet
 Censorship & Performance**”) that can now be installed on **Android** and **iOS** for
 testing Internet censorship and network performance.
 
+{{<app-stores app-name="ooniprobe" play-store-link="https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe" app-store-link="https://itunes.apple.com/US/app/id1199566366">}}
+
 By running the tests included in OONI’s mobile app, you can monitor:
 
 * Blocking of websites; 
