@@ -167,9 +167,11 @@ visualization called [OONI Explorer](https://explorer.ooni.torproject.org/world/
 
 ### 2.5. Third-party services
 
-Our [Network Diagnostic Test (NDT)](https://ooni.torproject.org/nettest/ndt/) is designed to measure the speed and performance of networks by connecting to [M-Lab](https://www.measurementlab.net/) servers close to the user, and by collecting TCP/IP low level information that is useful to examining and characterizing the quality of the network path between the user and the M-Lab server.
-
-As NDT is based on third-party servers, we cannot guarantee that your IP address will not be collected, processed, and published by third-parties.
+Our [Network Diagnostic Test (NDT)](https://ooni.torproject.org/nettest/ndt/) is
+a general-purpose performance test conducted against third-party servers
+provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). M-Lab's
+NDT services require the retention and disclosure of IP addresses for research
+purposes. For more about M-Lab's data governance, see its [privacy statement](https://www.measurementlab.net/privacy/).
 
 For questions and comments on this Data Policy, please contact:
 **contact@openobservatory.org**.
