@@ -859,3 +859,12 @@ p.test-paragraph {
     margin-bottom:20px!important;
   }
 }
+
+.store-downloads {
+    text-align: center;
+    width: 100%;
+}
+.store-downloads a.badge img {
+    height: 49px;
+    max-width: 100%;
+}
