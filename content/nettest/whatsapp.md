@@ -15,21 +15,21 @@ connection and DNS lookup to WhatsApp’s endpoints, registration service and we
 version over the vantage point of the user. Based on this methodology,
 WhatsApp’s *app* is likely blocked if any of the following apply:
 
-* TCP connections to WhatsApp's endpoints fail
+* TCP connections to WhatsApp's endpoints fail;
 
-* TCP connection to WhatsApp's registration service fail
+* TCP connections to WhatsApp's registration service fail;
 
-* DNS lookups resolve to IP address allocated to WhatsApp
+* DNS lookups resolve to IP addresses that are *not* allocated to WhatsApp;
 
 * HTTP requests to WhatsApp's registration service do *not* send back a response
-to OONI's servers
+to OONI's servers.
 
 WhatsApp's *web interface* is likely blocked if any of the following apply:
 
-* TCP connection to web.whatsapp.com fail
+* TCP connections to web.whatsapp.com fail;
 
 * DNS lookup illustrates that a different IP addresses has been allocated to
-web.whatsapp.com
+web.whatsapp.com;
 
 * HTTP requests to web.whatsapp.com do *not* send back a consistent response to OONI's
-servers
+servers.
