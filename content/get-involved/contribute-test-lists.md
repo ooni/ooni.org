@@ -10,8 +10,8 @@ following:
 The global list includes a wide range of internationally relevant websites (most
 of which are in English), while each country-specific test list includes
 websites that are relevant and commonly accessed within that country (many of
-which are in local languages). The URLs included in these lists fall under **[30
-categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-proposed-category_codes.csv)**, ranging from news media, file sharing and
+which are in local languages). The URLs included in these lists fall under **[31
+categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv)**, ranging from news media, file sharing and
 culture, to provocative or objectionable categories, like pornography, political
 criticism and hate speech.
 
@@ -30,11 +30,11 @@ downloading data from the websites listed in the test lists, you can pass your
 
 ## Contributing to test lists
 
-The [Citizen Lab](https://citizenlab.org/) has supported OONI in the creation,
-maintenance and development of test lists and many volunteers around the world
-have contributed to their country's test lists over the last years. You can also
-contribute to the review or creation of your country's test list (if it doesn't
-already exist), as explained below.
+The [Citizen Lab](https://citizenlab.org/) has supported network measurement
+projects (like OONI) in the creation, maintenance and development of test lists
+and many volunteers around the world have contributed to their country's test
+lists over the last years. You can also contribute to the review or creation of
+your country's test list (if it doesn't already exist), as explained below.
 
 ### Reviewing test lists
 
@@ -55,17 +55,17 @@ test lists"*.
 
 Some criteria for adding new URLs can include the following:
 
-* The URLs cover topics of socio-political interest within the country
+* The URLs cover topics of socio-political interest within the country;
 
 * The URLs are likely to be blocked because they include sensitive content (for
-  example, they touch upon sensitive issues or express political criticism)
+  example, they touch upon sensitive issues or express political criticism);
 
-* The URLs have been blocked in the past
+* The URLs have been blocked in the past;
 
-* You have faced difficulty connecting to those URLs
+* You have faced difficulty connecting to those URLs.
 
 For further criteria, please view the URL categories
-**[here](https://github.com/citizenlab/test-lists/blob/master/lists/00-proposed-category_codes.csv)**.
+**[here](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv)**.
 
 Please try to add URLs which fall under as many (if not all) of these categories
 as possible.
@@ -75,12 +75,12 @@ as possible.
 
 * **Category code:** Add the code of the category that each URL falls under.
 This can be added under the "category_code" column of the csv file. The
-category codes can be found **[here](https://github.com/citizenlab/test-lists/blob/master/lists/00-proposed-category_codes.csv)**.
+category codes can be found **[here](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv)**.
 
 * **Category description:** Add the description of the category that each URL
 falls under. This can be added under the "category_description" column of
 the csv file. The category descriptions can be found
-**[here](https://github.com/citizenlab/test-lists/blob/master/lists/00-proposed-category_codes.csv)**.
+**[here](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv)**.
 
 * **Date:** Add the date of when you added each URL. This can be added under the
 "date_added" column of the csv file.
@@ -96,7 +96,7 @@ the csv file. The category descriptions can be found
 the "category_code" and "category_description" columns of the csv file) *only
 if* you think that those URLs have been allocated to wrong category codes and
 descriptions. In this case, please replace the category codes and descriptions
-with ones (from the [recommended categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-proposed-category_codes.csv) that you think are more
+with ones (from the [recommended categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv) that you think are more
 suitable. We would also appreciate a comment on
 [github](https://github.com/citizenlab/test-lists) or via email explaining the
 proposed changes.
@@ -138,29 +138,29 @@ find a reference for international standards for country codes
 
 Some criteria for adding new URLs can include the following:
 
-* The URLs cover topics of socio-political interest within the country
+* The URLs cover topics of socio-political interest within the country;
 
 * The URLs are likely to be blocked because they include sensitive content (for
-  example, they touch upon sensitive issues or express political criticism)
+  example, they touch upon sensitive issues or express political criticism);
 
-* The URLs have been blocked in the past
+* The URLs have been blocked in the past;
 
-* You have faced difficulty connecting to those URLs
+* You have faced difficulty connecting to those URLs.
 
 For further criteria, please view URL categories
-**[here](https://github.com/citizenlab/test-lists/blob/master/lists/00-proposed-category_codes.csv)**.
+**[here](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv)**.
 
 **Step 4.** Every time you add a URL, please add the following in the csv file for
  each new URL:
 
 * **Category code:** Add the code of the category that each URL falls under.
 This can be added under the "category_code" column of the csv file. The
-category codes can be found **[here](https://github.com/citizenlab/test-lists/blob/master/lists/00-proposed-category_codes.csv)**.
+category codes can be found **[here](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv)**.
 
 * **Category description:** Add the description of the category that each URL
 falls under. This can be added under the "category_description" column of
 the csv file. The category descriptions can be found
-**[here](https://github.com/citizenlab/test-lists/blob/master/lists/00-proposed-category_codes.csv)**.
+**[here](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv)**.
 
 * **Date:** Add the date of when you added each URL. This can be added under the
 "date_added" column of the csv file.
