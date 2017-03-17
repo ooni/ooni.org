@@ -183,7 +183,7 @@ shutdown has occurred or not.
 
 Nonetheless, the publicly available data sources mentioned in this post can help
 gain some insight into the flow of internet traffic in most countries around the
-world, and they can help provide signs of internet shutdowns.
+world, and they can help provide *signs* of internet shutdowns.
 
 We encourage more companies (such as [Akamai](https://www.akamai.com/),
 [CloudFlare](https://www.cloudflare.com/) and [Fastly](https://www.fastly.com/))
