@@ -23,4 +23,4 @@ publish:
 publish-update: publish update-site
 
 server:
-	hugo server --theme=ooni --baseUrl=http://127.0.0.1:1313
+	hugo server --theme=ooni --baseUrl=http://127.0.0.1:1313 --buildDrafts

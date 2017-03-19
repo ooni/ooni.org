@@ -90,7 +90,7 @@ Manipulation, Vanilla Tor, WhatsApp, Facebook Messenger.
 
 **Testing period:** 6th November 2016 - 27th February 2017.
 
-**Censorship method:** HTTP transparent proxies (delivering block pages).
+**Censorship method:** DNS hijacking, HTTP transparent proxies (delivering block pages).
 
 # Key Findings
 
