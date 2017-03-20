@@ -8,7 +8,7 @@ categories: ["report"]
 
 ![Thailand block page](/post/thailand/thai-blockpage.png)
 
-*Block page in Thailand*
+*Image: Block page in Thailand*
 
 A research study by the Open Observatory of Network Interference (OONI), Sinar
 Project, and the Thai Netizen Network.
@@ -1196,3 +1196,6 @@ We thank the [Open Technology Fund (OTF)](https://www.opentech.fund/) and
 [Access Now](https://www.accessnow.org/) for funding this research. We also
 thank all the anonymous and brave volunteers in Thailand who have run and
 continue to run ooniprobe, thus making this research possible.
+
+
+*Note: This report was updated on 20th March 2017, following its publication.*
