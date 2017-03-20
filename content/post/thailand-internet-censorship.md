@@ -218,7 +218,7 @@ DTAC, and TrueMove.
 | 3BB                                                             | X              |                 |
 | Telephone Organization of Thailand Public Company Limited (TOT) | X              | X               |
 | Advanced Info Service Public Company Limited (AIS)              | X              | X               |
-| DTAC                                                            |                | X               |
+| DTAC                                                            | X              | X               |
 | CAT Telecom                                                     | X              | X               |
 | TT&T Public Company Limited                                     | X              | X               |
 
