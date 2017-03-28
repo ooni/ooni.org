@@ -112,6 +112,16 @@ election. In fact, Gambian prefixes were
 30th November to 2nd December, which is consistent with the hypothesis that the
 internet blackout occurred during that period, as inferred through [Google traffic data](https://www.google.com/transparencyreport/traffic/explorer/?r=GM&l=WEBSEARCH&csd=1479483000000&ced=1480692600000).
 
+OONI has been working on a methodology to automatically identify and
+investigate cases of internet blackouts. So for this is something very
+experimental and will require more work to have it be production ready.
+
+This [ipython notebook](/notebooks/internet-blackouts-google-traffic.ipynb)([view](/notebooks/internet-blackouts-google-traffic.html))
+contains some of the result of the experiments we have been doing.
+The same methodology can be easily appied to other data sets other than the
+google traffic data. It would have been useful, and much easier, if the google
+transparency report provided an easy to use HTTP API for obtaining the data.
+
 # Cross-referencing data sources
 
 Internet blackout might not always occur across all networks on a country-wide
