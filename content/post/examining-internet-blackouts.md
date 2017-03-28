@@ -1,7 +1,7 @@
 ---
 title: "Examining internet blackouts through public data sources"
 author: "Maria Xynou, Arturo Filastò"
-date: "2017-03-17"
+date: "2017-03-28T16:39:00"
 tags: ["blackout", "shutdown"]
 categories: []
 ---
@@ -116,11 +116,11 @@ OONI has been working on a methodology to automatically identify and
 investigate cases of internet blackouts. So for this is something very
 experimental and will require more work to have it be production ready.
 
-This [ipython notebook](/notebooks/internet-blackouts-google-traffic.ipynb)([view](/notebooks/internet-blackouts-google-traffic.html))
-contains some of the result of the experiments we have been doing.
-The same methodology can be easily appied to other data sets other than the
-google traffic data. It would have been useful, and much easier, if the google
-transparency report provided an easy to use HTTP API for obtaining the data.
+This [ipython notebook](/notebooks/internet-blackouts-google-traffic.ipynb) ([view](/notebooks/internet-blackouts-google-traffic.html))
+contains some of the results of the experiments we have been doing.
+The same methodology can easily be applied to other datasets other than the
+Google traffic data. It would have been useful, and much easier, if Google
+Transparency Reports provided an easy to use HTTP API for obtaining the data.
 
 # Cross-referencing data sources
 
