@@ -1035,7 +1035,7 @@ part of our testing, indicating that connections to them might have been
 tampered with. The findings pertaining to these sites are summarized in
 the table below.
 
-| Sites                      | TCP/IP blocking | HTTP failure | HTTP diff | DNS blocking | Unknown | Not blocked |
+| Sites                      | TCP/IP blocking | HTTP failure | HTTP diff | DNS blocking | Control failure | Not blocked |
 |----------------------------|-----------------|--------------|-----------|--------------|---------|-------------|
 | http://burma.usembassy.gov | 0               | 9            | 0         | 0            | 32      | 0           |
 | http://realdoll.com        | 0               | 41           | 0         | 0            | 0       | 0           |
