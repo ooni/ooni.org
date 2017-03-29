@@ -1,7 +1,7 @@
 ---
 title: "The State of Internet Censorship in Myanmar"
 author: "Kay Yen Wong (Sinar Project), Maria Xynou (OONI), Arturo Filastò (OONI), Khairil Yusof (Sinar Project),Tan Sze Ming (Sinar Project), Myanmar ICT for Development Organization (MIDO)"
-date: "2017-03-29"
+date: "2017-03-29T13:31:00"
 tags: ["myanmar", "censorship"]
 categories: ["report"]
 ---
