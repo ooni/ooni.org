@@ -1043,18 +1043,18 @@ the table below.
 | http://www.cidh.org        | 9               | 0            | 0         | 0            | 32      | 0           |
 | http://www.vibe.com        | 0               | 0            | 7         | 0            | 32      | 2           |
 
-The values under the “Unknown” column in the table above pertain to
-measurements where we are unable to determine whether access to those
-sites was blocked or not. It’s useful to cross-reference this
-information with whether connections to the site in question were
-confirmed to *not* be blocked. The fact that connections to vibe.com,
-for example, were *not* blocked twice indicates that the site is *least
-likely* to have been tampered with, in comparison to the other sites
-included in the table above. Access to realdoll.com, on the other hand,
-which presented HTTP failures every time it was tested is more likely to
-have been blocked. Similarly, gambling site sportingbet.com which
-presented signs of TCP/IP blocking almost every time it was tested is
-also likely to have been censored.
+The values under the “Control failure” column in the table above pertain to
+measurements where we are unable to determine whether access to those sites
+was blocked or not, because the control request failed. It’s useful to
+cross-reference this information with whether connections to the site in
+question were confirmed to *not* be blocked. The fact that connections to
+vibe.com, for example, were *not* blocked twice indicates that the site is
+*least likely* to have been tampered with, in comparison to the other sites
+included in the table above. Access to realdoll.com, on the other hand, which
+presented HTTP failures every time it was tested is more likely to have been
+blocked. Similarly, gambling site sportingbet.com which presented signs of
+TCP/IP blocking almost every time it was tested is also likely to have been
+censored.
 
 The [website](http://www.cidh.org/) of the Organization of American
 States (OAS), which is responsible for the promotion and protection of
