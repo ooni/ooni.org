@@ -4,7 +4,7 @@
   "homepage": "https://github.com/TheTorProject/ooni-web",
   "description": "Web interface to OONI website",
   "main": "public/index.html",
-  "license": "MIT",
+  "license": "CC-BY-3.0",
   "ignore": [
     "**/.*",
     "node_modules",
