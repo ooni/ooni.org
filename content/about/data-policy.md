@@ -178,7 +178,7 @@ For questions and comments on this Data Policy, please contact:
 
 ```
 Key ID:
-    0CB177B7
+    6B2943F00CB177B7
 Fingerprint:
 4C15 DDA9 96C6 C0CF 48BD 3309 6B29 43F0 0CB1 77B7
 ```
