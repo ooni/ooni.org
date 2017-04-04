@@ -34,9 +34,9 @@ Below we list the sessions that we (co-) facilitated as part of these events.
 
 ## Internet Freedom Festival (IFF)
 
-[Investigating Internet Controls with OONI](https://internetfreedomfestival.org/wiki/index.php/Investigating_internet_controls_with_OONI) ([slides](/documents/iff17-presentation.pdf))
+* [Investigating Internet Controls with OONI](https://internetfreedomfestival.org/wiki/index.php/Investigating_internet_controls_with_OONI) ([slides](/documents/iff17-presentation.pdf))
 
-[Building Community Resources for Censorship Measurement Research](https://internetfreedomfestival.org/wiki/index.php/Building_Community_Resources_for_Censorship_Measurement_Research) (co-facilitated with the [Citizen Lab](https://citizenlab.org/))
+* [Building Community Resources for Censorship Measurement Research](https://internetfreedomfestival.org/wiki/index.php/Building_Community_Resources_for_Censorship_Measurement_Research) (co-facilitated with the [Citizen Lab](https://citizenlab.org/))
 
 ## Iran Cyber Dialogue (ICD)
 
