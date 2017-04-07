@@ -42,6 +42,30 @@ Designed to examine whether URLs are blocked or not (and if so, how)
 
 * **[HTTP header field manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/):** Similar to the previous test (HTTP invalid request line)
 
+* **[Meek Fronted Requests]
+(https://ooni.torproject.org/nettest/meek-fronted-requests/):** Designed to
+examine whether the domains used by Meek (a type of Tor bridge) work in tested
+networks
+
+* **[Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/):** Designed
+to examine the reachability of the Tor network
+
+* **[Tor Bridges test]
+(https://ooni.torproject.org/nettest/tor-bridge-reachability/):** Designed to
+examine the reachability of Tor bridges in your network
+
+* **[WhatsApp test](https://ooni.torproject.org/nettest/whatsapp/):** Designed
+to examine the reachability of both WhatsApp and WhatsApp's web interface
+(web.whatsapp.com) in your network
+
+* **[Facebook Messenger test]
+(https://ooni.torproject.org/nettest/facebook-messenger/):** Designed to
+examine the reachability of Facebook Messenger in your network
+
+* **[Telegram test](https://ooni.torproject.org/nettest/telegram/):** Designed
+to examine the reachability of Telegram messenger and Telegram's web
+version in your network
+
 The main advantages of collecting measurements through Raspberry Pis include the following:
 
 * Stable and continuous daily measurements across extended periods of time
@@ -55,7 +79,12 @@ The main advantages of collecting measurements through Raspberry Pis include the
 The following include a list of requirements to get started:
 
 * **Raspberry Pi:** The Lepidopter Raspberry Pi image is compatible with all
-types of Raspberry Pis (tested: B+, RPi 1 model B, RPi 2 model B).
+types of Raspberry Pis (tested):
+
+    - Raspberry Pi 1 Model B
+    - Raspberry Pi 1 Model B+
+    - Raspberry Pi 2 Model B
+    - Raspberry Pi 3 Model B
 
 * **SD Card:** We recommend a 4GB (minimum size) class 4 or higher SD card.
 
@@ -74,11 +103,15 @@ If your laptop does not have an SD card slot, please ensure that you have an SD 
 ## Download the Lepidopter image
 
 * [Lepidopter image download]
-(https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.5-beta-armel.img.zip)
+(https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.5-beta-armel.img.zip),
+[(lepidopter image signature download)]
+(https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.5-beta-armel.img.zip.asc)
 
 Consider downloading the [xz compressed image]
 (https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.5-beta-armel.img.xz)
-for a significantly reduced file size compared to the zip archive.
+for a significantly reduced file size compared to the zip archive. The
+signature to the xz compressed image can be found [here]
+(https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.5-beta-armel.img.xz.asc).
 Note that this will require an [extra program](http://tukaani.org/xz/) to be
 installed depending on your OS.
 
@@ -108,7 +141,63 @@ pub   4096R/0xBA56AC5A53E9C7A4 2016-05-22
 uid   Lepidopter Team (signing key)
 ```
 
+### Set the trust level of the Lepidopter signing key (optional)
+
+Once you have obtained the lepidopter signing key, you should verify the
+fingerprint of this key very carefully by obtaining copies of the fingerprint
+from trustworthy independent sources and comparing them to the downloaded key’s
+fingerprint to ensure they match. You could hen set the key's trust level to
+“ultimate” (if you are satisfied with the verification process), so that you
+are not getting any warnings about untrusted signatures:
+
+```
+gpg --edit-key 0xBA56AC5A53E9C7A4
+```
+
+```
+pub  4096R/0xBA56AC5A53E9C7A4  created: 2016-05-22  expires: never       usage: SC
+                               trust: unknown      validity: unknown
+
+gpg> fpr
+pub   4096R/0xBA56AC5A53E9C7A4 2016-05-22 Lepidopter Team (signing key)
+ Primary key fingerprint: 6255 1196 8E24 0F24 F6CF  D0B6 BA56 AC5A 53E9 C7A4
+
+gpg> trust
+pub  4096R/0xBA56AC5A53E9C7A4  created: 2016-05-22  expires: never       usage: SC
+                               trust: unknown      validity: unknown
+sub  4096R/0x566AA65E9738B6C8  created: 2016-05-22  expires: never       usage: E
+[unknown] (1). Lepidopter Team (signing key)
+
+Please decide how far you trust this user to correctly verify other users' keys
+(by looking at passports, checking fingerprints from different sources, etc.)
+
+  1 = I don't know or won't say
+  2 = I do NOT trust
+  3 = I trust marginally
+  4 = I trust fully
+  5 = I trust ultimately
+  m = back to the main menu
+
+Your decision? 5
+Do you really want to set this key to ultimate trust? (y/N) y
+
+pub  4096R/0xBA56AC5A53E9C7A4  created: 2016-05-22  expires: never       usage: SC
+                               trust: ultimate      validity: ultimate
+sub  4096R/0x566AA65E9738B6C8  created: 2016-05-22  expires: never       usage: E
+[ultimate] (1). Lepidopter Team (signing key)
+
+gpg> quit
+```
+
+### Get the Lepidopter image signature
+
+Download the [lepidopter image signature]
+(https://get.ooni.torproject.org/lepidopter/lepidopter-v0.3.5-beta-armel.img.zip.asc).
+
 ### Verify the Lepidopter image
+
+In order to verify the lepidopter image both the image archive (`.zip` or
+`.asc`) and the signature file (`.asc`) should be within the same directory.
 
 Verify that the compressed image `lepidopter-v0.3.5-beta-armel.img.zip` matches its
 signature `lepidopter-v0.3.5-beta-armel.img.zip.asc` by running:
