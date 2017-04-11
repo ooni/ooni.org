@@ -1,27 +1,32 @@
 ---
 title: "Telegram test"
-short_description: "This test is designed to examine the reachability of both Telegram's app and
-the Telegram web version within a tested network."
+short_description: "This test is designed to examine the reachability of
+Telegram's app and web version within a tested network."
 groups: ["im"]
 ---
 
 # Telegram test
 
-This test is designed to examine the reachability of both Telegram's app and
-the Telegram web version within a tested network.
+This test is designed to examine the reachability of Telegram's app and web
+version within a tested network.
 
-OONI's Telegram test attempts to perform an HTTP GET request, TCP connection to
-Telegram’s access points, and web version over the vantage point of the user.
-Based on this methodology, Telegram’s *app* or Telegram's web version is likely
-blocked if any of the following apply:
+More specifically, this test attempts to perform an HTTP POST request, and
+establish a TCP connection to Telegram’s access points (DCs), as well as an
+HTTP GET request to Telegram's web version (`web.telegram.org`) over the
+vantage point of the user. The test is triggered as blocking when connections
+to *all* access points defined in the [test]
+(https://github.com/TheTorProject/ooni-probe/blob/master/ooni/nettests/blocking/telegram.py#L16-L22)
+fail.
 
-* TCP connections on ports `80` and `443` to Telegram's access points fail;
+Based on this methodology Telegram’s *app* is likely blocked if any of the
+following apply:
 
-* HTTP requests on ports `80` and `443` to Telegram's access points do *not*
-send back a response to OONI's servers.
+* TCP connections to Telegram's access points fail;
 
+* HTTP(S) POST requests to Telegram's access points do *not* send back a
+response to OONI's servers.
 
 Telegram's *web version* is likely blocked if any of the following apply:
 
-* HTTP requests on ports `80` and `443` to `web.telegram.org` do *not* send
-back a consistent response to OONI's servers.
+* HTTP(S) GET requests to `web.telegram.org` do *not* send back a consistent
+response to OONI's servers.
