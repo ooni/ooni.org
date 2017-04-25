@@ -23,7 +23,7 @@ following apply:
 
 * TCP connections to Telegram's access points fail;
 
-* HTTP(S) POST requests to Telegram's access points do *not* send back a
+* HTTP POST requests to Telegram's access points do *not* send back a
 response to OONI's servers.
 
 Telegram's *web version* is likely blocked if any of the following apply:
