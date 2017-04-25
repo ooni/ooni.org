@@ -24,3 +24,14 @@ publish-update: publish update-site
 
 server:
 	hugo server --theme=ooni --baseUrl=http://127.0.0.1:1313 --buildDrafts
+
+docker-build:
+	docker build --no-cache --rm -t ooni-web .
+
+docker-run: docker-build
+	docker run -p 1313:1313 --rm ooni-web
+
+test-site: docker-build
+test-site: docker-run
+
+.PHONY: setup update-site publish publish-update server docker-build docker-run test-site
