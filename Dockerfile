@@ -13,10 +13,10 @@ RUN wget https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_$
   mv hugo /usr/bin/hugo
 
 # Clone required OONI repositories
-RUN git clone https://github.com/TheTorProject/ooni-web ${OONI_WEB_REPO_DIR} && \
-  git clone https://github.com/TheTorProject/ooni-probe ${OONI_PROBE_REPO_DIR}
+RUN git clone https://github.com/TheTorProject/ooni-probe ${OONI_PROBE_REPO_DIR}
 
 # Generate OONI website
+COPY . ${OONI_WEB_REPO_DIR}
 WORKDIR ${OONI_WEB_REPO_DIR}
 RUN cp ${OONI_PROBE_REPO_DIR}/requirements-docs.txt .
 RUN pip install -r requirements-docs.txt
