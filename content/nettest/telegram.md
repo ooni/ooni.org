@@ -21,7 +21,7 @@ fail.
 Based on this methodology Telegram’s *app* is likely blocked if any of the
 following apply:
 
-* TCP connections to Telegram's access points fail;
+* TCP connections to all the tested Telegram access points fail
 
 * HTTP POST requests to Telegram's access points do *not* send back a
 response to OONI's servers.
