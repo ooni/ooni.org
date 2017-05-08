@@ -6,7 +6,7 @@ tags: ["events"]
 categories: ["blog"]
 ---
 
-Last month the [OONI](https://ooni.torproject.org/) team joined the internet
+Over the last month the [OONI](https://ooni.torproject.org/) team joined the internet
 freedom community at the following events:
 
 * [Vietnam Cyber Dialogue (VCD)](https://internetfreedomfestival.org/vietnam-cyber-dialogue/)
@@ -16,6 +16,8 @@ freedom community at the following events:
 * [Iran Cyber Dialogue (ICD)](https://www.accessnow.org/iran-cyber-dialogue-rightscon-brussels-2017-timely-impactful/)
 
 * [RightsCon 2017](https://www.rightscon.org/)
+
+* [International Journalism Festival (IJF)](http://www.journalismfestival.com/)
 
 These events provided us with the opportunity to engage with community members,
 create new friendships, learn about new projects, and to share skills and
@@ -52,9 +54,17 @@ facilitated with [Sinar Project](http://sinarproject.org/)), ([slides](/document
 * Telling Data Driven Narratives About Internet Regulation and Access (facilitated
 by the [Measurement Lab](https://www.measurementlab.net/), joined by OONI)
 
+## International Journalism Festival (IJF)
+
+* [Uncovering Internet Censorship](http://www.journalismfestival.com/programme/2017/uncovering-internet-censorship-right-around-your-corner)([slides](/documents/ijf17-presentation.pdf))
+
 If you have any questions that we failed to adequately address in person or
 through our sessions, please don’t hesitate to
 [contact](https://ooni.torproject.org/about/) us.
 
 Warm thanks from the OONI team to the organizers and participants of these
 events!
+
+
+*Note: This post was updated on 11th April 2017 to include OONI's presentation at
+the International Journalism Festival (IJF).*
