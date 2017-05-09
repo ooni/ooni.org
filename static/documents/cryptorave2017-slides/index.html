@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>OONI (Open Observatory of Network Interference)</title>
+
+		<meta name="description" content="A presentation of OONI (Open Observatory of Network Interference) at CryptoRave 2017">
+		<meta name="author" content="Vasilis Ververis">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+                    <section data-background="images/ooni-header-mascot.svg" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                            <h2>Open Observatory of Network Interference (OONI)</h2>
+				    		<p>
+		                            <small><a href="mailto:andz@torproject.org">Vasilis Ververis (andz@torproject.org)</a></small>
+				    		</p>
+                            <p><small>Language: English, <a href="index-pt.html">Portuguese</a></small></p>
+                    </section>
+                    <section data-background="images/ooni-header-mascot.svg" data-background-size="100vh">
+                    </section>
+				    <section>
+                            <p>
+                                    Since 2012, OONI has collected millions of network measurements across more than
+                                    190 countries around the world, shedding light on various instances of network
+                                    interference.
+                            </p>
+                    </section>
+                </section>
+                <section>
+                    <section data-background="images/ooni-mine.png" data-background-size="100vh">
+                    </section>
+                    <section data-background="images/ooni-mine.png" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                            <h2>What is OONI ?</h2>
+                    </section>
+				    <section>
+                            <p>Detect censorship and signs of network tampering</p>
+                            <p>
+                                    Shares observations and data about the nature, methods, and prevalence of
+                                    censorship and network tampering around the world, through the use of 
+                                    open methodologies and FLOSS tools
+                            </p>
+                    </section>
+                </section>
+                <section>
+				    <section data-background="images/raw-data.png">
+                            <h2>Open Data model</h2>
+                            <ul>
+                                <li>Network measurement data (reports) submitted by volunteers</li>
+                                <li><a href="https://measurements.ooni.torproject.org"> Complete dataset</a> (from 2012) available to use/download</li>
+                            <ul>
+                    </section>
+				    <section data-background="images/raw-data.png">
+                            <h3>Evidence of internet censorship</h3>
+                            <li>Transparency: What is blocked, where and how?  What is the <q>health</q> of the network that we are using?</li>
+                            <li>Legality: Can the blocking of specific types of sites and services be legally justified?</li>
+                            <li>Story-telling & Advocacy: What is the impact of censorship on human rights?</li>
+                    </section>
+                </section>
+                <section>
+				    <section data-background="images/explorer-logo.png" data-background-size="50vh">
+                    </section>
+				    <section data-background="images/explorer-logo.png" style="background-color:rgba(0,0,0,0.8);" data-background-size="50vh">
+                            <h2>Data representation</h2>
+                            <a href="https://explorer.ooni.torproject.org/">OONI explorer</a>
+                    </section>
+				    <section data-background="images/ooni-explorer-04052017.png" data-background-size="180vh">
+                    </section>
+                </section>
+                <section>
+				    <section data-background="images/how-ooni-works.svg" data-background-size="180vh">
+                    </section>
+				    <section data-background="images/how-ooni-works.svg" style="background-color:rgba(0,0,0,0.8);" data-background-size="180vh">
+                        <h2>OONI testing methodology</h2>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Blocking of websites</li>
+                            <li>Blocking of instant messaging apps</li>
+                            <li>Blocking of censorship circumvention tools (Tor, VPN, Psiphon, Lantern)</li>
+                            <li>Detection of <q>middle boxes</q> proxy technologies that could be responsible for censorship and/or surveillance</li>
+                            <li>Speed and network performance tests (NDT)</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+				    <section data-background="images/http-invalid-request-line.svg" data-background-size="85vh">
+                    </section>
+				    <section data-background="images/http-invalid-request-line.svg" style="background-color:rgba(0,0,0,0.8);" data-background-size="85vh">
+                        <h2>OONI measurements in LatAm</h2>
+                    </section>
+				    <section data-background="images/http-invalid-request-line.svg" style="background-color:rgba(0,0,0,0.8);" data-background-size="85vh">
+                        <h2>PirateBay blocked in Argentina</h2>
+                    </section>
+				    <section data-background="images/ar_web_ct_piratebay_UYQj7sql3cX8qzQXjRGZ4QCHf6lCnALEmLqcOjoFxpyIshSmI4.png" data-background-size="150vh">
+                    </section>
+				    <section data-background="images/http-invalid-request-line.svg" style="background-color:rgba(0,0,0,0.8);" data-background-size="85vh">
+                        <h2>News website ntn24 blocked in Venezuela</h2>
+                    </section>
+				    <section data-background="images/ve_web_ct_3ndo86P4sVdRgJ7N9CPMX5ft97YeHCbpCkofTTKol42forLpfN.png" data-background-size="150vh">
+                    </section>
+                    <section>
+                        <h2>WhatsApp blocked in Brazil</h2>
+                        <p>
+                            <pre><code data-trim>
+    ###########################################
+    # OONI Probe Report for http_requests (0.2.5)
+    # Mon May  2 23:17:02 2016
+    ###########################################
+    probe_asn: AS26615
+    probe_cc: BR
+    software_name: ooniprobe
+    software_version: 1.4.2
+    test_helpers: {}
+    test_name: http_requests
+    test_start_time: '2016-05-02 21:17:02'
+    test_version: 0.2.5
+    ...
+    agent: agent
+    body_length_match: null
+    body_proportion: null
+    control_cloudflare: null
+    control_failure: null
+    experiment_failure: dns_lookup_error
+    factor: 0.8
+    headers_diff: null
+    headers_match: null
+    input: https://www.whatsapp.com
+    measurement_start_time: '2016-05-02 21:17:07'
+    requests:
+    - failure: dns_lookup_error
+      request:
+        body: null
+        headers: {User-Agent: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2)
+            Gecko/20100115 Firefox/3.6'}
+        method: GET
+        tor: {exit_ip: null, exit_name: null, is_tor: false}
+        url: https://www.whatsapp.com
+      response: null
+                            </code></pre>
+                        </p>
+                    </section>
+                    <section>
+                        <h2>OONI results (1/4)</h2>
+                        <li>March 2017: Thailand blocked news and censorship circumvention tool websites</li>
+                        <li>December 2016: Malaysia block pages and censorship </li>
+                        <li>December 2016: Ethiopia DPI used to block media websites during major political protests </li>
+                    </section>
+                    <section>
+                        <h2>OONI results (2/4)</h2>
+                        <li>December 2016: Belarus blocked Tor</li>
+                        <li>October 2016: Zambia blocked websites during general elections</li>
+                        <li>May 2016: Uganda blocking of social media</li>
+                    </section>
+                    <section>
+                        <h2>OONI results (3/4)</h2>
+                        <li>May 2016: Brazil blocked WhatsApp</li>
+                        <li>June 2015: Greece and EEEP blocklists</li>
+                        <li>July 2013: Zambia, a country under Deep Packet Inspection</li>
+                    </section>
+                    <section>
+                        <h2>OONI results (4/4)</h2>
+                        <li>May 2013: Uzbekistan and Turkmenistan Internet filtering and DPI</li>
+                        <li>April 2012: Hadara Palestine Internet agency Hadara restricts access to certain content for users in Bethlehem</li>
+                        <li>March 2012: T-Mobile USA Web Guard <q>Parental controls</q> blocked number of websites (Newgrounds, Cosmopolitan Magazine, and the Tor Project</li>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h2>OONI statistics</h2>
+				    </section>
+                    <section data-transition="fade-in">
+						<a href="https://measurements.ooni.torproject.org/files/by_country?view=flag"><img src="images/reports_by_country_flags.png"></a>
+				    </section>
+                    <section data-transition="fade-in">
+						<a href="https://measurements.ooni.torproject.org/stats"> <img src="images/ooni-measurements-05052017.png"> </a>
+                        <ul class="fragment">
+                            <li>Millions of network measurements collected from 190+ countries</li>
+                            <li>2766+ unique ASNs</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h2>Help reveal internet censorship</h2>
+                    </section>
+                    <section>
+						<a href="https://ooni.torproject.org/install/">Install ooniprobe<img src="images/ooni-install-05052017.png" class="stretch"/></a>
+                    </section>
+                    <section>
+                        <ul>
+                                <li>Available for: Linux, Mac OS, Raspberry Pi, IOS, Android</li>
+                                <li>Source code: <a href="https://github.com/TheTorProject/ooni-probe">https://github.com/TheTorProject/ooni-probe</a></li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                        <h2>Get involved</h2>
+                        <ul>
+                            <li>IRC: <a href="ircs://irc.oftc.net:6697/#ooni">#ooni on OFTC</a></p>
+                            <li>Mailing lists:
+                                <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-dev">ooni-dev</a>,
+                                <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talks">ooni-talk</a>,
+                                <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-operators">ooni-operators</a>
+                                <br>
+                            <li>Code: <a href="https://github.com/TheTorProject/ooni-probe">https://github.com/TheTorProject/ooni-probe</a></li>
+                                <small>(Mirror: <a href="https://gitweb.torproject.org/ooni-probe.git">https://gitweb.torproject.org/ooni-probe.git</a>)</small>
+                            <li>Submit URLs for testing: <a href="https://ooni.torproject.org/get-involved/contribute-test-lists">https://ooni.torproject.org/get-involved/contribute-test-lists</a></li>
+                            <li>Partnerships: <a href="https://ooni.torproject.org/get-involved/partnership-program">https://ooni.torproject.org/get-involved/partnership-program/</a></li>
+                        </ul>
+                </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
