@@ -26,7 +26,9 @@ Below we provide the OONI presentation slides in English and Portuguese.
 
 ## OONI presentation slides
 
-* [Slides in English language](/documents/cryptorave2017-slides/index.html)
-* [Slides in Portuguese language](/documents/cryptorave2017-slides/index-pt.html)
+* [Slides in English language]
+(/documents/cryptorave2017-slides/OONI-CryptoRave-2017-EN.pdf)
+* [Slides in Portuguese language]
+(/documents/cryptorave2017-slides/OONI-CryptoRave-2017-PT.pdf)
 
 Thanks everyone for your attendance!
