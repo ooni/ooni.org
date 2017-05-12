@@ -1,7 +1,7 @@
 ---
 title: "OONI at the CryptoRave 2017"
 author: "Vasilis Ververis"
-date: "2017-05-09"
+date: "2017-05-12"
 tags: ["events"]
 categories: ["blog"]
 ---
