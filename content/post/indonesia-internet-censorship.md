@@ -155,7 +155,7 @@ Interestingly enough, we also found sites (web forums and e-commerce sites) that
 
 Many of these censorship events indicate that their implementation was influenced by **_social and cultural norms_** , especially since the legal justification behind the blocking of many of these sites remains unclear. This raises the **_need for transparency and accountability_** to ensure that the implementation of internet censorship is legally proportionate. 
 
-Network tampering was [detected](https://gist.github.com/hellais/7a54e1f765022eb7820aa5989c876675) across 10 different Indonesian ISPs, possibly indicating the presence of middleboxes that could be responsible for internet censorship, surveillance, and traffic manipulation. A middle box was ** [detecte** d](https://explorer.ooni.torproject.org/measurement/20161219T000049Z_AS17974_VIUyHiQj5rKlMP1hTxg0IYVU6tkX8ovozq2JHHaA7Wjy9ZXbwz) in the Telekomunikasi Indonesia (AS17974) network. While it’s unclear if this specific system was used to implement internet censorship, it’s worth emphasizing that most measurements collected from this network presented signs of network tampering, and that this ISP served block pages for many of the sites that were tested as part of this study.
+Network tampering was [detected](https://gist.github.com/hellais/7a54e1f765022eb7820aa5989c876675) across 10 different Indonesian ISPs, possibly indicating the presence of middleboxes that could be responsible for internet censorship, surveillance, and traffic manipulation. A middle box was [detected](https://explorer.ooni.torproject.org/measurement/20161219T000049Z_AS17974_VIUyHiQj5rKlMP1hTxg0IYVU6tkX8ovozq2JHHaA7Wjy9ZXbwz) in the Telekomunikasi Indonesia (AS17974) network. While it’s unclear if this specific system was used to implement internet censorship, it’s worth emphasizing that most measurements collected from this network presented signs of network tampering, and that this ISP served block pages for many of the sites that were tested as part of this study.
 
 On a positive note, the [Tor network](http://torproject.org/), Facebook Messenger and WhatsApp appear to have mostly been accessible in Indonesia throughout the testing period. 
 
@@ -337,7 +337,7 @@ As part of this study, the following [OONI software tests](https://github.com/Th
 * [WhatsApp test](https://ooni.torproject.org/nettest/whatsapp/)
 * [Facebook Messenger test](https://ooni.torproject.org/nettest/facebook-messenger/)
 
-The Web Connectivity test was run with the aim of examining whether a set of URLs (included in both the “[global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)”, and the “[Indonesian test list](https://github.com/citizenlab/test-lists/blob/master/lists/id.csv)”) were blocked during the testing period and if so, how. The Vanilla Tor test was run to examine the reachability of the [Tor network](https://www.torproject.org/), while the Facebook Messenger and WhatsApp tests were run to examine the reachability of these instant messaging apps in Indonesia during the testing period.
+The Web Connectivity test was run with the aim of examining whether a set of URLs (included in both the [global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv), and the [Indonesian test list](https://github.com/citizenlab/test-lists/blob/master/lists/id.csv)) were blocked during the testing period and if so, how. The Vanilla Tor test was run to examine the reachability of the [Tor network](https://www.torproject.org/), while the Facebook Messenger and WhatsApp tests were run to examine the reachability of these instant messaging apps in Indonesia during the testing period.
 
 The HTTP Invalid Request Line and HTTP Header Field Manipulation tests were run with the aim of examining whether “middleboxes” (systems placed in the network between the user and a control server) that could potentially be responsible for censorship and/or surveillance were present in the tested networks.
 
@@ -391,7 +391,7 @@ Once the above steps of the web connectivity test are performed *both* over a co
 Below are the conditions under which the following types of blocking are identified:
 
 * **DNS blocking:** If the DNS responses (such as the IP addresses mapped to host names) do *not* match.
-* **TCP/IP blocking:** If a TCP session to connect to websites was *not * established over the network of the user.
+* **TCP/IP blocking:** If a TCP session to connect to websites was *not* established over the network of the user.
 * **HTTP blocking:** If the HTTP request over the user’s network failed, or the HTTP status codes don’t match, or all of the following apply:
   * The body length of compared websites (over the control server and the network of the user) differs by some percentage;
   * The HTTP headers names do not match;
@@ -513,7 +513,7 @@ OONI continues to develop its data analysis heuristics to identify internet cens
 
 ## Findings
 
-As part of this study, [network measurements](https://explorer.ooni.torproject.org/country/ID) were collected through [ooniprobe software tests](https://github.com/TheTorProject/ooni-probe) performed across *21* * different local vantage points* in Indonesia between 22nd June 2016 and 1st March 2017. 
+As part of this study, [network measurements](https://explorer.ooni.torproject.org/country/ID) were collected through [ooniprobe software tests](https://github.com/TheTorProject/ooni-probe) performed across 21 different local vantage points in Indonesia between 22nd June 2016 and 1st March 2017. 
 
 Upon analysis of the collected network measurements, the findings confirm the **_blocking of 161 websites_** in Indonesia, and [reveal the presence of a middle box](https://explorer.ooni.torproject.org/measurement/20161219T000049Z_AS17974_VIUyHiQj5rKlMP1hTxg0IYVU6tkX8ovozq2JHHaA7Wjy9ZXbwz) in the Telekomunikasi Indonesia network. Network tampering was [detected](https://gist.github.com/hellais/7a54e1f765022eb7820aa5989c876675) across 10 different ISPs, possibly indicating the presence of middleboxes that could be responsible for internet censorship, surveillance, and traffic manipulation.
 
@@ -711,7 +711,7 @@ Many of the sites included in the table above express criticism or hatred toward
 
 #### Human Rights Issues
 
-The Free Speech Coalition (FSC) is the trade association of the adult entertainment industry based in the United States. According to the organization, its [mission](https://www.freespeechcoalition.com/about-fsc/) involves *“fighting to alleviate the social stigma, misinformation, and discriminatory policies that affect those who work in and adjacent to the adult industry”* . Its site was found to be [blocked](https://explorer.ooni.torproject.org/measurement/20170226T210055Z_AS17974_LGZMSnxLVNa1ONZxLGDx2Q3jrg7VqC1Tc6iXeCN2yXJRzJeYme?input=http:%2F%2Fwww.freespeechcoalition.com) in Indonesia, as illustrated in the table below.
+The Free Speech Coalition (FSC) is the trade association of the adult entertainment industry based in the United States. According to the organization, its [mission](https://www.freespeechcoalition.com/about-fsc/) involves *“fighting to alleviate the social stigma, misinformation, and discriminatory policies that affect those who work in and adjacent to the adult industry”*. Its site was found to be [blocked](https://explorer.ooni.torproject.org/measurement/20170226T210055Z_AS17974_LGZMSnxLVNa1ONZxLGDx2Q3jrg7VqC1Tc6iXeCN2yXJRzJeYme?input=http:%2F%2Fwww.freespeechcoalition.com) in Indonesia, as illustrated in the table below.
 
 | **Blocked websites**                                                     | **Block pages**                                                          | **HTTP-diff, TCP_IP, HTTP-fail**                                         | **Control fail**                                                         | **Not blocked**                                                           |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------------------|
@@ -721,7 +721,7 @@ The Free Speech Coalition (FSC) is the trade association of the adult entertainm
 
 Pornography is [prohibited](http://www.abc.net.au/news/2008-10-31/indonesia-passes-tough-new-anti-porn-laws/188804) in Indonesia according to Law No. 44 of 2008. While the FSC does not distribute pornography, its site may have been blocked for supporting and defending those who work in the adult entertainment industry.
 
-The Guerilla Girls, on the other hand, are [female activist artists](https://www.guerrillagirls.com/#open) who wear gorilla masks in public and *“use facts, humor and outrageous visuals to expose gender and ethnic bias, as well as corruption in politics, art, film, and pop culture”* . They maintain anonymity while carrying out projects around the world that fight discrimination and support human rights for all people and genders. Their [site](https://www.guerrillagirls.com/) was found to be [blocked](https://explorer.ooni.torproject.org/measurement/20170226T231634Z_AS17974_tkXwaoCjToxrJTPZ7bhDU4v6BzFiAy9urx3l7Ipfd9T7YTC7O1?input=http:%2F%2Fguerrillagirls.com) in Indonesia during the testing period of this study.
+The Guerilla Girls, on the other hand, are [female activist artists](https://www.guerrillagirls.com/#open) who wear gorilla masks in public and *“use facts, humor and outrageous visuals to expose gender and ethnic bias, as well as corruption in politics, art, film, and pop culture”*. They maintain anonymity while carrying out projects around the world that fight discrimination and support human rights for all people and genders. Their [site](https://www.guerrillagirls.com/) was found to be [blocked](https://explorer.ooni.torproject.org/measurement/20170226T231634Z_AS17974_tkXwaoCjToxrJTPZ7bhDU4v6BzFiAy9urx3l7Ipfd9T7YTC7O1?input=http:%2F%2Fguerrillagirls.com) in Indonesia during the testing period of this study.
 
 #### Animal Rights
 
