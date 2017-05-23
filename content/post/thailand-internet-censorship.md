@@ -1002,19 +1002,19 @@ across ISPs as part of our testing and data analysis.
 
 | Internet Service Providers (ISPs)              | Blocked websites             | Categories                             | Date of blocking |
 |------------------------------------------------|------------------------------|----------------------------------------|------------------|
-| DTAC (AS24378)                                 | http://www.nypost.com        | News media                             | 2/23/2017        |
-| DTAC (AS24378)                                 | http://xhamster.com          | Pornography                            | 2/10/2017        |
-| TOT 3BB (AS23969)                              | http://www.dailymail.co.uk   | News media                             | 2/20/2017        |
-| TOT 3BB (AS23969)                              | http://www.hotspotshield.com | Anonymity and censorship circumvention | 2/20/2017        |
-| Realmove Company Limited (AS132061)            | http://www.wikileaks.org     | News media                             | 2/14/2017        |
-| Realmove Company Limited (AS132061)            | http://anonymouse.org        | Anonymity and censorship circumvention | 2/14/2017        |
-| Triple-T Internet Co., Ldt (AS45758)           | http://ultrasurf.us          | Anonymity and censorship circumvention | 2/22/2017        |
-| Triple-T Internet Co., Ldt (AS45758)           | http://pridetube.com         | Pornography                            | 2/14/2017        |
-| Triple-T Internet Co., Ldt (AS45758)           | http://www.naughty.com       | Pornography                            | 2/22/2017        |
-| Triple-T Internet Co., Ldt (AS45758)           | http://www.livejasmin.com    | Pornography                            | 2/24/2017        |
-| True Internet CO., LDT (AS17552)               | http://redtube.com           | Pornography                            | 2/22/2017        |
-| True Internet CO., LDT (AS17552)               | http://xhamster.com          | Pornography                            | 2/16/2017        |
-| JasTel Network International Gateway (AS45629) | http://youjizz.com           | Pornography                            | 2/14/2017        |
+| DTAC (AS24378)                                 | `http://www.nypost.com`        | News media                             | 2/23/2017        |
+| DTAC (AS24378)                                 | `http://xhamster.com`          | Pornography                            | 2/10/2017        |
+| TOT 3BB (AS23969)                              | `http://www.dailymail.co.uk`   | News media                             | 2/20/2017        |
+| TOT 3BB (AS23969)                              | `http://www.hotspotshield.com` | Anonymity and censorship circumvention | 2/20/2017        |
+| Realmove Company Limited (AS132061)            | `http://www.wikileaks.org`     | News media                             | 2/14/2017        |
+| Realmove Company Limited (AS132061)            | `http://anonymouse.org`        | Anonymity and censorship circumvention | 2/14/2017        |
+| Triple-T Internet Co., Ldt (AS45758)           | `http://ultrasurf.us`          | Anonymity and censorship circumvention | 2/22/2017        |
+| Triple-T Internet Co., Ldt (AS45758)           | `http://pridetube.com`         | Pornography                            | 2/14/2017        |
+| Triple-T Internet Co., Ldt (AS45758)           | `http://www.naughty.com`       | Pornography                            | 2/22/2017        |
+| Triple-T Internet Co., Ldt (AS45758)           | `http://www.livejasmin.com`    | Pornography                            | 2/24/2017        |
+| True Internet CO., LDT (AS17552)               | `http://redtube.com`           | Pornography                            | 2/22/2017        |
+| True Internet CO., LDT (AS17552)               | `http://xhamster.com`          | Pornography                            | 2/16/2017        |
+| JasTel Network International Gateway (AS45629) | `http://youjizz.com`           | Pornography                            | 2/14/2017        |
 
 Following a meeting in early 2015 between Thailand’s National Broadcasting and
 Telecommunications Commission (NBTC), various Internet Service Providers (ISPs),
@@ -1054,9 +1054,9 @@ page, dailymail.co.uk was found to be blocked based on DNS censorship.
 
 | Internet Service Providers (ISPs)   | Blocked media sites        | Date of blocking |
 |-------------------------------------|----------------------------|------------------|
-| DTAC (AS24378)                      | http://www.nypost.com      | 2/23/2017        |
-| TOT 3BB (AS23969)                   | http://www.dailymail.co.uk | 2/20/2017        |
-| Realmove Company Limited (AS132061) | http://www.wikileaks.org   | 2/14/2017        |
+| DTAC (AS24378)                      | `http://www.nypost.com`      | 2/23/2017        |
+| TOT 3BB (AS23969)                   | `http://www.dailymail.co.uk` | 2/20/2017        |
+| Realmove Company Limited (AS132061) | `http://www.wikileaks.org`   | 2/14/2017        |
 
 WikiLeaks is a multi-national media organization that is known for publishing
 large datasets of restricted official materials involving war, spying, and
@@ -1079,9 +1079,9 @@ illustrated in the table below.
 
 | Internet Service Providers (ISPs)    | Blocked anonymity & circumvention sites | Date of blocking |
 |--------------------------------------|-----------------------------------------|------------------|
-| TOT 3BB (AS23969)                    | http://www.hotspotshield.com            | 2/20/2017        |
-| Realmove Company Limited (AS132061)  | http://anonymouse.org                   | 2/14/2017        |
-| Triple-T Internet Co., Ldt (AS45758) | http://ultrasurf.us                     | 2/22/2017        |
+| TOT 3BB (AS23969)                    | `http://www.hotspotshield.com`            | 2/20/2017        |
+| Realmove Company Limited (AS132061)  | `http://anonymouse.org`                   | 2/14/2017        |
+| Triple-T Internet Co., Ldt (AS45758) | `http://ultrasurf.us`                     | 2/22/2017        |
 
 HotSpot Shield is a free Virtual Private Network (VPN) that enables its users to
 enhance their online privacy and to circumvent online censorship. The testing of
@@ -1098,13 +1098,13 @@ to be blocked in Thailand.
 
 | Internet Service Providers (ISPs)              | Blocked porn sites        | Date of blocking |
 |------------------------------------------------|---------------------------|------------------|
-| Triple-T Internet Co., Ldt (AS45758)           | http://pridetube.com      | 2/14/2017        |
-| Triple-T Internet Co., Ldt (AS45758)           | http://www.naughty.com    | 2/22/2017        |
-| Triple-T Internet Co., Ldt (AS45758)           | http://www.livejasmin.com | 2/24/2017        |
-| True Internet CO., LDT (AS17552)               | http://redtube.com        | 2/22/2017        |
-| True Internet CO., LDT (AS17552)               | http://xhamster.com       | 2/16/2017        |
-| JasTel Network International Gateway (AS45629) | http://youjizz.com        | 2/14/2017        |
-| DTAC (AS24378)                                 | http://xhamster.com       | 2/10/201         |
+| Triple-T Internet Co., Ldt (AS45758)           | `http://pridetube.com`      | 2/14/2017        |
+| Triple-T Internet Co., Ldt (AS45758)           | `http://www.naughty.com`    | 2/22/2017        |
+| Triple-T Internet Co., Ldt (AS45758)           | `http://www.livejasmin.com` | 2/24/2017        |
+| True Internet CO., LDT (AS17552)               | `http://redtube.com`        | 2/22/2017        |
+| True Internet CO., LDT (AS17552)               | `http://xhamster.com`       | 2/16/2017        |
+| JasTel Network International Gateway (AS45629) | `http://youjizz.com`        | 2/14/2017        |
+| DTAC (AS24378)                                 | `http://xhamster.com`       | 2/10/201         |
 
 ## Acknowledgement of limitations
 

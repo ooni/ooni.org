@@ -51,7 +51,7 @@ failed, indicating the possibility of TCP/IP blocking.
 
 | URL                        | FALSE | cloudflare | dns | http-diff | http-failure | tcp_ip | anomalies |
 |----------------------------|-------|------------|-----|-----------|--------------|--------|-----------|
-| http://www.sportingbet.com | 0     | 0          | 0   | 1         | 1            | 46     | 48        |
+| `http://www.sportingbet.com` | 0     | 0          | 0   | 1         | 1            | 46     | 48        |
 
 The inaccessibility of http://www.sportingbet.com was also confirmed by our
 local partner in Kenya. Given though that this site was only one of hundreds of

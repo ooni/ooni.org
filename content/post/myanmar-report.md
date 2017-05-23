@@ -1037,11 +1037,11 @@ the table below.
 
 | Sites                      | TCP/IP blocking | HTTP failure | HTTP diff | DNS blocking | Control failure | Not blocked |
 |----------------------------|-----------------|--------------|-----------|--------------|---------|-------------|
-| http://burma.usembassy.gov | 0               | 9            | 0         | 0            | 32      | 0           |
-| http://realdoll.com        | 0               | 41           | 0         | 0            | 0       | 0           |
-| http://www.sportingbet.com | 40              | 0            | 0         | 0            | 1       | 0           |
-| http://www.cidh.org        | 9               | 0            | 0         | 0            | 32      | 0           |
-| http://www.vibe.com        | 0               | 0            | 7         | 0            | 32      | 2           |
+| `http://burma.usembassy.gov` | 0               | 9            | 0         | 0            | 32      | 0           |
+| `http://realdoll.com`        | 0               | 41           | 0         | 0            | 0       | 0           |
+| `http://www.sportingbet.com` | 40              | 0            | 0         | 0            | 1       | 0           |
+| `http://www.cidh.org`        | 9               | 0            | 0         | 0            | 32      | 0           |
+| `http://www.vibe.com`        | 0               | 0            | 7         | 0            | 32      | 2           |
 
 The values under the “Control failure” column in the table above pertain to
 measurements where we are unable to determine whether access to those sites

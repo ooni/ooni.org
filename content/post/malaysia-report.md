@@ -1099,52 +1099,52 @@ based on DNS injections of block pages.
 
 | Blocked websites                                                                                                    | Categories                     | First measured     | First blocked       | Last blocked        | Last measured       |
 |---------------------------------------------------------------------------------------------------------------------|--------------------------------|--------------------|---------------------|---------------------|---------------------|
-| http://adultfriendfinder.com                                                                                        | Online Dating                  | 2016-09-24 3:55:08 | 2016-09-24 3:55:08  | 2016-11-13 22:39:44 | 2016-11-13 22:39:44 |
-| http://beeg.com                                                                                                     | Pornography                    | 2016-09-24 3:55:26 | 2016-09-24 3:55:26  | 2016-11-13 22:39:53 | 2016-11-13 22:39:53 |
-| http://extratorrent.cc                                                                                              | File-sharing                   | 2016-11-10 0:02:37 | 2016-11-10 0:03:42  | 2016-11-13 0:03:34  | 2016-11-13 0:03:34  |
-| http://jinggo-fotopages.blogspot.my/                                                                                | Political Criticism            | 2016-11-10 1:11:18 | 2016-11-10 1:11:18  | 2016-11-13 1:18:17  | 2016-11-13 1:18:17  |
-| http://malaysia-chronicle.com                                                                                       | Political Criticism            | 2016-09-24 3:32:58 | 2016-09-24 3:32:58  | 2016-11-13 22:26:26 | 2016-11-13 22:26:26 |
-| http://manhub.com                                                                                                   | Pornography                    | 2016-09-24 3:59:53 | 2016-09-24 3:59:53  | 2016-11-13 22:41:46 | 2016-11-13 22:41:46 |
-| http://pornhub.com                                                                                                  | Pornography                    | 2016-09-24 4:01:41 | 2016-09-24 4:01:41  | 2016-11-12 22:42:19 | 2016-11-13 22:42:16 |
-| http://redtube.com                                                                                                  | Pornography                    | 2016-09-24 4:02:06 | 2016-09-24 4:02:06  | 2016-11-13 22:42:28 | 2016-11-13 22:42:28 |
-| http://syedsoutsidethebox.blogspot.my/                                                                              | Political Criticism            | 2016-11-10 1:11:16 | 2016-11-10 1:11:16  | 2016-11-13 1:18:14  | 2016-11-13 1:18:14  |
-| http://tabunginsider.blogspot.my/                                                                                   | Political Criticism            | 2016-11-10 1:11:13 | 2016-11-10 1:11:13  | 2016-11-13 1:18:13  | 2016-11-13 1:18:13  |
-| http://thepiratebay.org                                                                                             | File-sharing                   | 2016-09-24 4:03:00 | 2016-09-24 4:03:00  | 2016-11-13 22:42:44 | 2016-11-13 22:42:44 |
-| http://www.888casino.com                                                                                            | Gambling                       | 2016-09-24 4:05:18 | 2016-09-24 4:05:18  | 2016-11-13 0:08:58  | 2016-11-13 22:43:49 |
-| http://www.89.com                                                                                                   | Pornography                    | 2016-09-24 4:05:19 | 2016-09-25 4:05:11  | 2016-11-13 22:43:49 | 2016-11-13 22:43:49 |
-| http://www.ashemaletube.com                                                                                         | Pornography                    | 2016-09-24 4:07:28 | 2016-09-24 4:07:28  | 2016-11-13 22:44:57 | 2016-11-13 22:44:57 |
-| http://www.asiasentinel.com                                                                                         | News Media                     | 2016-09-24 3:49:08 | 2016-09-24 3:49:08  | 2016-11-13 22:33:31 | 2016-11-13 22:33:31 |
-| http://www.belmont.ag                                                                                               | Gambling                       | 2016-09-24 4:10:13 | 2016-09-24 4:10:13  | 2016-11-13 22:45:27 | 2016-11-13 22:45:27 |
-| http://www.betfair.com                                                                                              | Gambling                       | 2016-09-24 4:10:23 | 2016-09-24 4:10:23  | 2016-11-13 22:45:29 | 2016-11-13 22:45:29 |
-| http://www.carnivalcasino.com                                                                                       | Gambling                       | 2016-09-24 4:13:39 | 2016-09-24 4:13:39  | 2016-11-12 22:46:31 | 2016-11-13 22:46:36 |
-| http://www.casinotropez.com                                                                                         | Gambling                       | 2016-09-24 4:13:41 | 2016-09-24 4:13:41  | 2016-11-13 22:46:41 | 2016-11-13 22:46:41 |
-| http://www.clubdicecasino.com                                                                                       | Gambling                       | 2016-09-24 4:14:34 | 2016-09-24 4:14:34  | 2016-11-13 22:47:19 | 2016-11-13 22:47:19 |
-| http://www.europacasino.com                                                                                         | Gambling                       | 2016-09-24 4:17:45 | 2016-09-24 4:17:45  | 2016-11-13 22:49:53 | 2016-11-13 22:49:53 |
-| http://www.goldenrivieracasino.com                                                                                  | Gambling                       | 2016-09-24 4:20:34 | 2016-09-24 4:20:34  | 2016-11-13 22:52:00 | 2016-11-13 22:52:00 |
-| http://www.hustler.com                                                                                              | Pornography                    | 2016-09-24 4:21:36 | 2016-09-24 4:21:36  | 2016-11-13 22:52:34 | 2016-11-13 22:52:34 |
-| http://www.livejasmin.com                                                                                           | Pornography                    | 2016-09-24 4:32:04 | 2016-09-24 4:32:04  | 2016-11-13 22:55:28 | 2016-11-13 22:55:28 |
-| http://www.roxypalace.com                                                                                           | Gambling                       | 2016-09-24 4:41:19 | 2016-09-24 4:41:19  | 2016-11-13 23:01:30 | 2016-11-13 23:01:30 |
-| http://www.sarawakreport.org                                                                                        | News Media                     | 2016-09-24 3:49:15 | 2016-09-24 3:49:15  | 2016-11-13 22:33:33 | 2016-11-13 22:33:33 |
-| http://www.sarawakreport.org/2016/04/the-simple-silver-bullet-solution-to-1mdb-malaysias-financial-woes-sack-najib/ | News Media                     | 2016-09-24 3:51:03 | 2016-09-24 3:51:03  | 2016-11-13 1:15:58  | 2016-11-13 1:15:58  |
-| http://www.sarawakreport.org/tag/1mdb                                                                               | News Media                     | 2016-09-24 3:51:00 | 2016-09-24 3:51:00  | 2016-11-13 1:15:57  | 2016-11-13 1:15:57  |
-| http://www.sex.com                                                                                                  | Pornography                    | 2016-09-24 4:42:12 | 2016-09-24 4:42:12  | 2016-11-13 23:02:11 | 2016-11-13 23:02:11 |
-| http://www.spinpalace.com                                                                                           | Gambling                       | 2016-09-24 4:43:02 | 2016-09-24 23:02:44 | 2016-11-13 23:02:49 | 2016-11-13 23:02:49 |
-| http://www.themalaysianinsider.com                                                                                  | News Media                     | 2016-09-24 3:47:22 | 2016-09-24 3:47:22  | 2016-11-13 22:32:39 | 2016-11-13 22:32:39 |
-| http://www.thereligionofpeace.com                                                                                   | Religion                       | 2016-09-24 3:49:29 | 2016-09-24 3:49:29  | 2016-11-13 1:14:02  | 2016-11-13 1:14:02  |
-| http://www.wetplace.com                                                                                             | Pornography                    | 2016-09-24 4:48:34 | 2016-09-24 4:48:34  | 2016-11-13 23:05:43 | 2016-11-13 23:05:43 |
-| http://www.worldsex.com                                                                                             | Pornography                    | 2016-09-24 4:49:57 | 2016-09-24 4:49:57  | 2016-11-13 23:06:26 | 2016-11-13 23:06:26 |
-| http://xhamster.com                                                                                                 | Pornography                    | 2016-09-24 4:50:56 | 2016-09-24 4:50:56  | 2016-11-13 23:06:59 | 2016-11-13 23:06:59 |
-| http://xvideos.com                                                                                                  | Pornography                    | 2016-09-24 4:50:56 | 2016-09-24 23:06:57 | 2016-11-13 0:49:33  | 2016-11-13 23:06:59 |
-| http://youjizz.com                                                                                                  | Pornography                    | 2016-09-24 4:51:03 | 2016-09-24 4:51:03  | 2016-11-13 23:07:06 | 2016-11-13 23:07:06 |
-| http://youporn.com                                                                                                  | Pornography                    | 2016-09-24 4:51:07 | 2016-09-24 4:51:07  | 2016-11-13 23:07:07 | 2016-11-13 23:07:07 |
-| https://medium.com                                                                                                  | Hosting and Blogging platforms | 2016-09-24 3:49:13 | 2016-09-24 3:49:13  | 2016-11-13 22:33:33 | 2016-11-13 22:33:33 |
-| https://thepiratebay.se                                                                                             | File-sharing                   | 2016-09-24 4:51:47 | 2016-09-24 23:07:17 | 2016-11-13 23:07:28 | 2016-11-13 23:07:28 |
-| https://torrentz.eu                                                                                                 | File-sharing                   | 2016-09-24 4:51:49 | 2016-09-25 6:06:53  | 2016-11-12 23:07:42 | 2016-11-13 23:07:29 |
+| `http://adultfriendfinder.com`                                                                                        | Online Dating                  | 2016-09-24 3:55:08 | 2016-09-24 3:55:08  | 2016-11-13 22:39:44 | 2016-11-13 22:39:44 |
+| `http://beeg.com`                                                                                                     | Pornography                    | 2016-09-24 3:55:26 | 2016-09-24 3:55:26  | 2016-11-13 22:39:53 | 2016-11-13 22:39:53 |
+| `http://extratorrent.cc`                                                                                              | File-sharing                   | 2016-11-10 0:02:37 | 2016-11-10 0:03:42  | 2016-11-13 0:03:34  | 2016-11-13 0:03:34  |
+| `http://jinggo-fotopages.blogspot.my/`                                                                                | Political Criticism            | 2016-11-10 1:11:18 | 2016-11-10 1:11:18  | 2016-11-13 1:18:17  | 2016-11-13 1:18:17  |
+| `http://malaysia-chronicle.com`                                                                                       | Political Criticism            | 2016-09-24 3:32:58 | 2016-09-24 3:32:58  | 2016-11-13 22:26:26 | 2016-11-13 22:26:26 |
+| `http://manhub.com`                                                                                                   | Pornography                    | 2016-09-24 3:59:53 | 2016-09-24 3:59:53  | 2016-11-13 22:41:46 | 2016-11-13 22:41:46 |
+| `http://pornhub.com`                                                                                                  | Pornography                    | 2016-09-24 4:01:41 | 2016-09-24 4:01:41  | 2016-11-12 22:42:19 | 2016-11-13 22:42:16 |
+| `http://redtube.com`                                                                                                  | Pornography                    | 2016-09-24 4:02:06 | 2016-09-24 4:02:06  | 2016-11-13 22:42:28 | 2016-11-13 22:42:28 |
+| `http://syedsoutsidethebox.blogspot.my/`                                                                              | Political Criticism            | 2016-11-10 1:11:16 | 2016-11-10 1:11:16  | 2016-11-13 1:18:14  | 2016-11-13 1:18:14  |
+| `http://tabunginsider.blogspot.my/`                                                                                   | Political Criticism            | 2016-11-10 1:11:13 | 2016-11-10 1:11:13  | 2016-11-13 1:18:13  | 2016-11-13 1:18:13  |
+| `http://thepiratebay.org`                                                                                             | File-sharing                   | 2016-09-24 4:03:00 | 2016-09-24 4:03:00  | 2016-11-13 22:42:44 | 2016-11-13 22:42:44 |
+| `http://www.888casino.com`                                                                                            | Gambling                       | 2016-09-24 4:05:18 | 2016-09-24 4:05:18  | 2016-11-13 0:08:58  | 2016-11-13 22:43:49 |
+| `http://www.89.com`                                                                                                   | Pornography                    | 2016-09-24 4:05:19 | 2016-09-25 4:05:11  | 2016-11-13 22:43:49 | 2016-11-13 22:43:49 |
+| `http://www.ashemaletube.com`                                                                                         | Pornography                    | 2016-09-24 4:07:28 | 2016-09-24 4:07:28  | 2016-11-13 22:44:57 | 2016-11-13 22:44:57 |
+| `http://www.asiasentinel.com`                                                                                         | News Media                     | 2016-09-24 3:49:08 | 2016-09-24 3:49:08  | 2016-11-13 22:33:31 | 2016-11-13 22:33:31 |
+| `http://www.belmont.ag`                                                                                               | Gambling                       | 2016-09-24 4:10:13 | 2016-09-24 4:10:13  | 2016-11-13 22:45:27 | 2016-11-13 22:45:27 |
+| `http://www.betfair.com`                                                                                              | Gambling                       | 2016-09-24 4:10:23 | 2016-09-24 4:10:23  | 2016-11-13 22:45:29 | 2016-11-13 22:45:29 |
+| `http://www.carnivalcasino.com`                                                                                       | Gambling                       | 2016-09-24 4:13:39 | 2016-09-24 4:13:39  | 2016-11-12 22:46:31 | 2016-11-13 22:46:36 |
+| `http://www.casinotropez.com`                                                                                         | Gambling                       | 2016-09-24 4:13:41 | 2016-09-24 4:13:41  | 2016-11-13 22:46:41 | 2016-11-13 22:46:41 |
+| `http://www.clubdicecasino.com`                                                                                       | Gambling                       | 2016-09-24 4:14:34 | 2016-09-24 4:14:34  | 2016-11-13 22:47:19 | 2016-11-13 22:47:19 |
+| `http://www.europacasino.com`                                                                                         | Gambling                       | 2016-09-24 4:17:45 | 2016-09-24 4:17:45  | 2016-11-13 22:49:53 | 2016-11-13 22:49:53 |
+| `http://www.goldenrivieracasino.com`                                                                                  | Gambling                       | 2016-09-24 4:20:34 | 2016-09-24 4:20:34  | 2016-11-13 22:52:00 | 2016-11-13 22:52:00 |
+| `http://www.hustler.com`                                                                                              | Pornography                    | 2016-09-24 4:21:36 | 2016-09-24 4:21:36  | 2016-11-13 22:52:34 | 2016-11-13 22:52:34 |
+| `http://www.livejasmin.com`                                                                                           | Pornography                    | 2016-09-24 4:32:04 | 2016-09-24 4:32:04  | 2016-11-13 22:55:28 | 2016-11-13 22:55:28 |
+| `http://www.roxypalace.com`                                                                                           | Gambling                       | 2016-09-24 4:41:19 | 2016-09-24 4:41:19  | 2016-11-13 23:01:30 | 2016-11-13 23:01:30 |
+| `http://www.sarawakreport.org`                                                                                        | News Media                     | 2016-09-24 3:49:15 | 2016-09-24 3:49:15  | 2016-11-13 22:33:33 | 2016-11-13 22:33:33 |
+| `http://www.sarawakreport.org/2016/04/the-simple-silver-bullet-solution-to-1mdb-malaysias-financial-woes-sack-najib/` | News Media                     | 2016-09-24 3:51:03 | 2016-09-24 3:51:03  | 2016-11-13 1:15:58  | 2016-11-13 1:15:58  |
+| `http://www.sarawakreport.org/tag/1mdb`                                                                               | News Media                     | 2016-09-24 3:51:00 | 2016-09-24 3:51:00  | 2016-11-13 1:15:57  | 2016-11-13 1:15:57  |
+| `http://www.sex.com`                                                                                                  | Pornography                    | 2016-09-24 4:42:12 | 2016-09-24 4:42:12  | 2016-11-13 23:02:11 | 2016-11-13 23:02:11 |
+| `http://www.spinpalace.com`                                                                                           | Gambling                       | 2016-09-24 4:43:02 | 2016-09-24 23:02:44 | 2016-11-13 23:02:49 | 2016-11-13 23:02:49 |
+| `http://www.themalaysianinsider.com`                                                                                  | News Media                     | 2016-09-24 3:47:22 | 2016-09-24 3:47:22  | 2016-11-13 22:32:39 | 2016-11-13 22:32:39 |
+| `http://www.thereligionofpeace.com`                                                                                   | Religion                       | 2016-09-24 3:49:29 | 2016-09-24 3:49:29  | 2016-11-13 1:14:02  | 2016-11-13 1:14:02  |
+| `http://www.wetplace.com`                                                                                             | Pornography                    | 2016-09-24 4:48:34 | 2016-09-24 4:48:34  | 2016-11-13 23:05:43 | 2016-11-13 23:05:43 |
+| `http://www.worldsex.com`                                                                                             | Pornography                    | 2016-09-24 4:49:57 | 2016-09-24 4:49:57  | 2016-11-13 23:06:26 | 2016-11-13 23:06:26 |
+| `http://xhamster.com`                                                                                                 | Pornography                    | 2016-09-24 4:50:56 | 2016-09-24 4:50:56  | 2016-11-13 23:06:59 | 2016-11-13 23:06:59 |
+| `http://xvideos.com`                                                                                                  | Pornography                    | 2016-09-24 4:50:56 | 2016-09-24 23:06:57 | 2016-11-13 0:49:33  | 2016-11-13 23:06:59 |
+| `http://youjizz.com`                                                                                                  | Pornography                    | 2016-09-24 4:51:03 | 2016-09-24 4:51:03  | 2016-11-13 23:07:06 | 2016-11-13 23:07:06 |
+| `http://youporn.com`                                                                                                  | Pornography                    | 2016-09-24 4:51:07 | 2016-09-24 4:51:07  | 2016-11-13 23:07:07 | 2016-11-13 23:07:07 |
+| `https://medium.com`                                                                                                  | Hosting and Blogging platforms | 2016-09-24 3:49:13 | 2016-09-24 3:49:13  | 2016-11-13 22:33:33 | 2016-11-13 22:33:33 |
+| `https://thepiratebay.se`                                                                                             | File-sharing                   | 2016-09-24 4:51:47 | 2016-09-24 23:07:17 | 2016-11-13 23:07:28 | 2016-11-13 23:07:28 |
+| `https://torrentz.eu`                                                                                                 | File-sharing                   | 2016-09-24 4:51:49 | 2016-09-25 6:06:53  | 2016-11-12 23:07:42 | 2016-11-13 23:07:29 |
  
 The chart below illustrates that porn, gambling and news websites were
 found to be blocked the most. Similarly, torrenting sites and websites
 expressing political criticism also presented relatively high
-percentages of blocking from the sites that were found to be blocked.
+percentages `of` blocking from the sites that were found to be blocked.
 
 ![Malaysia chart](/post/malaysia-report/malaysia-chart.png)
 
@@ -1215,11 +1215,11 @@ Section 233 of the [*1998 Communications and Multimedia Act (CMA)*](https://www.
 
 **Blocked news websites**
 
-* http://www.asiasentinel.com
-* http://www.sarawakreport.org
-* http://www.sarawakreport.org/2016/04/the-simple-silver-bullet-solution-to-1mdb-malaysias-financial-woes-sack-najib/
-* http://www.sarawakreport.org/tag/1mdb
-* http://www.themalaysianinsider.com
+* `http://www.asiasentinel.com`
+* `http://www.sarawakreport.org`
+* `http://www.sarawakreport.org/2016/04/the-simple-silver-bullet-solution-to-1mdb-malaysias-financial-woes-sack-najib/`
+* `http://www.sarawakreport.org/tag/1mdb`
+* `http://www.themalaysianinsider.com`
 
 
 ### Political Criticism
@@ -1251,10 +1251,10 @@ throughout the testing period.
 
 **Blocked sites expressing political criticism**
 
-* http://jinggo-fotopages.blogspot.my/
-* http://malaysia-chronicle.com
-* http://syedsoutsidethebox.blogspot.my/
-* http://tabunginsider.blogspot.my/
+* `http://jinggo-fotopages.blogspot.my/`
+* `http://malaysia-chronicle.com`
+* `http://syedsoutsidethebox.blogspot.my/`
+* `http://tabunginsider.blogspot.my/`
 
 ### Religion
 
@@ -1293,7 +1293,7 @@ throughout the testing period.
 
 **Blocked blogging platform**
 
-* https://medium.com
+* `https://medium.com`
 
 ### File-sharing
 
@@ -1311,10 +1311,10 @@ for enabling piracy, which is viewed as an offense under [*Malaysia’s 1998 Com
 
 **Blocked torrenting sites**
 
-* http://extratorrent.cc
-* http://thepiratebay.org
-* https://thepiratebay.se
-* https://torrentz.eu
+* `http://extratorrent.cc`
+* `http://thepiratebay.org`
+* `https://thepiratebay.se`
+* `https://torrentz.eu`
 
 ### Online Dating
 
@@ -1340,20 +1340,20 @@ be blocked.
 
 **Blocked porn websites**
 
-* http://beeg.com
-* http://pornhub.com
-* http://redtube.com
-* http://www.89.com
-* http://www.ashemaletube.com
-* http://www.hustler.com
-* http://www.livejasmin.com
-* http://www.sex.com
-* http://www.wetplace.com
-* http://www.worldsex.com
-* http://xhamster.com
-* http://xvideos.com
-* http://youjizz.com
-* http://youporn.com
+* `http://beeg.com`
+* `http://pornhub.com`
+* `http://redtube.com`
+* `http://www.89.com`
+* `http://www.ashemaletube.com`
+* `http://www.hustler.com`
+* `http://www.livejasmin.com`
+* `http://www.sex.com`
+* `http://www.wetplace.com`
+* `http://www.worldsex.com`
+* `http://xhamster.com`
+* `http://xvideos.com`
+* `http://youjizz.com`
+* `http://youporn.com`
 
 ### Gambling
 
@@ -1367,16 +1367,16 @@ the country.
 
 **Blocked gambling sites**
 
-* http://www.888casino.com
-* http://www.belmont.ag
-* http://www.betfair.com
-* http://www.carnivalcasino.com
-* http://www.casinotropez.com
-* http://www.clubdicecasino.com
-* http://www.europacasino.com
-* http://www.goldenrivieracasino.com
-* http://www.roxypalace.com
-* http://www.spinpalace.com
+* `http://www.888casino.com`
+* `http://www.belmont.ag`
+* `http://www.betfair.com`
+* `http://www.carnivalcasino.com`
+* `http://www.casinotropez.com`
+* `http://www.clubdicecasino.com`
+* `http://www.europacasino.com`
+* `http://www.goldenrivieracasino.com`
+* `http://www.roxypalace.com`
+* `http://www.spinpalace.com`
 
 ## Acknowledgement of limitations
 
