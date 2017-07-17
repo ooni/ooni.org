@@ -4,9 +4,9 @@ aliases: ["/data-policy"]
 
 # OONI Data Policy
 
-**Last modified:** February 09, 2017
+**Last modified:** July 17, 2017
 
-**Version:** 1.0.1
+**Version:** 1.1.0
 
 This Data Policy discloses and explains what data the [Open Observatory of Network Interference (OONI) project](https://ooni.torproject.org/) ("we", "us",
 or "our") collects, processes, stores and publishes relating to users of its
@@ -25,13 +25,14 @@ discretion.
 
 ## 1. Website Visitors
 
-We do *not* collect any information about visitors to our
-[website](https://ooni.torproject.org/). We do *not* use analytics, tracking
-cookies, or any other tracking technologies on our website.
+We collect some information about visitors to our [website](https://ooni.torproject.org/) using
+the free and open source tool [piwik](https://piwik.org). We do not record the
+full IP address of users (which is "anonymised" to the first 3 octets, ex.
+123.45.67.0).
 
-Our website access logs store only the date (up to 2 weeks), but not the time,
-when you requested access to our webpages. Our website does *not* log your IP
-addresses.
+Our analytics site is also respectful of ["Do not
+track"](https://en.wikipedia.org/wiki/Do_Not_Track) allowing you to opt out of
+analytics all-together.
 
 We will notify you of any future changes to our website visitor policy through
 this Data Policy.
