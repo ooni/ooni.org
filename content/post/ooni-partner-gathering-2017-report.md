@@ -20,9 +20,9 @@ View the **pdf** version of the report [here](/documents/ooni-partner-gathering-
 
 * [Sessions](#sessions)
 
-  * [Day 1 - Monday, 10th July 2017](#day-1-monday-10th-july-2017)
+  * [Day 1 - 10th July 2017](#day-1-10th-july-2017)
 
-  * [Day 2 - Tuesday, 11th July 2017](#day-2-tuesday-11th-july-2017)
+  * [Day 2 - 11th July 2017](#day-2-11th-july-2017)
 
 * [Inclusiveness](#inclusiveness)
 
@@ -97,7 +97,7 @@ The event’s agenda and all session notes can be found
 Throughout the two-day event, we (the OONI team and many partners)
 facilitated the following sessions.
 
-## Day 1 - Monday, 10th July 2017
+## Day 1 - 10th July 2017
 
 **1. Information Controls Around the World**
 
@@ -188,7 +188,7 @@ network measurement data. The aim of this session was to enable partners
 to analyze data that they collect through the use of
 [ooniprobe](https://github.com/TheTorProject/ooni-probe).
 
-## Day 2 - Tuesday, 11th July 2017
+## Day 2 - 11th July 2017
 
 **1. Sharing Partner Knowledge and Experience**
 
