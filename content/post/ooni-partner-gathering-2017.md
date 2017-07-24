@@ -6,7 +6,7 @@ tags: ["event", "partners"]
 categories: ["report"]
 ---
 
-![OONI Partner Gathering](/post/ooni-partner-gathering-2017/01.png)
+![OONI Partner Gathering](/post/ooni-partner-gathering-2017/01.jpg)
 
 Two weeks ago we hosted the *first OONI Partner Gathering* in Toronto,
 Canada. This report provides an overview of the event, partner needs and
@@ -121,7 +121,7 @@ View session notes
 
 **2. Across the OONI-verse**
 
-![OONI Partner Gathering](/post/ooni-partner-gathering-2017/02.png)
+![OONI Partner Gathering](/post/ooni-partner-gathering-2017/02.jpg)
 
 What’s OONI up to these days? What’s OONI working on next? How can OONI
 support your work?
@@ -165,7 +165,7 @@ and taught participants how to use it to contribute to [test lists](https://gith
 
 **4. Measuring Internet Censorship**
 
-![OONI Partner Gathering](/post/ooni-partner-gathering-2017/03.png)
+![OONI Partner Gathering](/post/ooni-partner-gathering-2017/03.jpg)
 
 Parallel sessions:
 
@@ -211,7 +211,7 @@ View session notes
 
 **2. Strategic Planning**
 
-![OONI Partner Gathering](/post/ooni-partner-gathering-2017/04.png)
+![OONI Partner Gathering](/post/ooni-partner-gathering-2017/04.jpg)
 
 This session consisted of the following stations:
 
@@ -240,7 +240,7 @@ View session notes
 
 **3. Community Engagement**
 
-![OONI Partner Gathering](/post/ooni-partner-gathering-2017/05.png)
+![OONI Partner Gathering](/post/ooni-partner-gathering-2017/05.jpg)
 
 Parallel sessions:
 
@@ -256,7 +256,7 @@ View session notes
 
 **4. Using OONI data for Research and Advocacy**
 
-![OONI Partner Gathering](/post/ooni-partner-gathering-2017/06.png)
+![OONI Partner Gathering](/post/ooni-partner-gathering-2017/06.jpg)
 
 Parallel sessions:
 
@@ -302,7 +302,7 @@ participants came from a diverse set of backgrounds (including lawyers,
 policy researchers, and human rights advocates), we set up a glossary
 that was populated with terms during both days of the event.
 
-![OONI Partner Gathering](/post/ooni-partner-gathering-2017/07.png)
+![OONI Partner Gathering](/post/ooni-partner-gathering-2017/07.jpg)
 
 We encouraged participants to write terms in the glossary whose meaning
 they weren’t sure of. We plan to create an online glossary on our
@@ -539,4 +539,4 @@ daily basis. The world needs more people like you.
 Finally, we would like to thank the [Open Technology Fund (OTF)](https://www.opentech.fund/), the [Ford Foundation](https://www.fordfoundation.org/), and the [Media Democracy Fund (MDF)](http://mediademocracyfund.org/) for supporting the event.
 Thank you for making the first OONI Partner Gathering possible.
 
-![OONI Partner Gathering](/post/ooni-partner-gathering-2017/08.png)
+![OONI Partner Gathering](/post/ooni-partner-gathering-2017/08.jpg)
