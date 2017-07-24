@@ -28,10 +28,10 @@
 	<script>
 
 	var disqus_config = function () {
-		this.page.url = "{{ .BaseURL }}";
+		this.page.url = "{{ .Site.BaseURL }}";
 		this.page.identifier = "{{ .RelPermalink }}";
 	};
-	*/
+
 	(function() {
 		// Don't ever inject Disqus on localhost--it creates unwanted
 		// discussions from 'localhost:1313' on your Disqus account...
