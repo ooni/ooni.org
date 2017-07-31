@@ -29,5 +29,5 @@ type of information that it collects can potentially be used to examine cases
 of throttling.
 
 **Disclaimer:** NDT is a general-purpose performance test conducted against third-party servers provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). M-Lab's NDT services require the
-retention and disclosure of IP addresses for research purposes. For more about
+retention and disclosure of IP addresses for research purposes. Learn more about
 M-Lab's data governance, see its [privacy statement](https://www.measurementlab.net/privacy/).
