@@ -6,9 +6,7 @@ tags: ["cuba", "censorship"]
 categories: ["report"]
 ---
 
-![Cuba](/post/cuba-internet-censorship-2017/cu-01.png)
-
-Image by Arturo Filastò (CC-BY-SA-3.0)
+{{< imgcap title="Image by Arturo Filastò (CC-BY-SA-3.0)" src="/post/cuba-internet-censorship-2017/cu-01.jpg" src2x="/post/cuba-internet-censorship-2017/cu-01@2x.jpg" >}}
 
 A research study by the Open Observatory of Network Interference (OONI)
 
@@ -183,9 +181,7 @@ report documents the methodology and findings of this research study.
 
 # Background
 
-![Havana](/post/cuba-internet-censorship-2017/cu-02.png)
-
-Image by Arturo Filastò (CC-BY-SA-3.0)
+{{< imgcap title="Image by Arturo Filastò (CC-BY-SA-3.0)" src="/post/cuba-internet-censorship-2017/cu-02.jpg" src2x="/post/cuba-internet-censorship-2017/cu-02@2x.jpg" >}}
 
 The Republic of Cuba is a Central American archipelago of islands
 located in the northern Caribbean sea. Its population is multi-ethnic
@@ -260,9 +256,7 @@ an overview of Cuba’s unique internet landscape.
 
 ## ETECSA
 
-![ETECSA](/post/cuba-internet-censorship-2017/cu-03.png)
-
-Image by Arturo Filastò (CC-BY-SA-3.0)
+{{< imgcap title="Image by Arturo Filastò (CC-BY-SA-3.0)" src="/post/cuba-internet-censorship-2017/cu-03.jpg" src2x="/post/cuba-internet-censorship-2017/cu-03@2x.jpg" >}}
 
 As of 2013, Cubans can sign up with [Empresa de Telecommunicaciones de Cuba S.A. (ETECSA)](http://www.etecsa.cu/), the country’s *only*
 telecom company, which is state-owned.
@@ -281,7 +275,7 @@ access. Once connected to a wifi, browsers present the Nauta captive
 portal, which is where users are required to enter the login code and
 password from their ETECSA cards.
 
-![Nauta captive portal](/post/cuba-internet-censorship-2017/cu-04.png)
+![Nauta captive portal](/post/cuba-internet-censorship-2017/cu-04.jpg)
 
 Image: Nauta captive portal
 
@@ -304,7 +298,7 @@ are mostly used by tourists. In addition to internet and/or intranet
 access, permanent accounts also provide Cubans with an @nauta.cu email
 address.
 
-![ETECSA accounts](/post/cuba-internet-censorship-2017/cu-05.png)
+![ETECSA accounts](/post/cuba-internet-censorship-2017/cu-05.jpg)
 
 Source: ETECSA, http://www.etecsa.cu/internet\_conectividad/internet/
 
@@ -370,9 +364,7 @@ public wifi hotspots.
 
 ## ParkNets
 
-![ParkNet](/post/cuba-internet-censorship-2017/cu-07.png)
-
-Image by Arturo Filastò (CC-BY-SA-3.0)
+{{< imgcap title="Image by Arturo Filastò (CC-BY-SA-3.0)" src="/post/cuba-internet-censorship-2017/cu-07.jpg" src2x="/post/cuba-internet-censorship-2017/cu-07@2x.jpg" >}}
 
 Cubans cannot access the internet from the comfort of their homes.
 Rather, they must visit [public wifi hotspots](http://www.etecsa.cu/internet_conectividad/areas_wifi/).
@@ -436,7 +428,7 @@ While browsing Cuba’s intranet, we came across
 [EcuRed](https://www.ecured.cu/), which could be viewed as Cuba’s
 version of Wikipedia.
 
-![EcuRed](/post/cuba-internet-censorship-2017/cu-08.png)
+![EcuRed](/post/cuba-internet-censorship-2017/cu-08.jpg)
 
 Image: Accessing EcuRed via a computer at Joven Club
 
@@ -451,7 +443,7 @@ illustrated below.
 
 ![EcuRed content categories](/post/cuba-internet-censorship-2017/cu-09.png)
 
-Source: EcuRed, https://www.ecured.cu/index.php/EcuRed:%C3%81rbol\_de\_Categor%C3%ADas*
+Source: EcuRed, `https://www.ecured.cu/index.php/EcuRed:%C3%81rbol\_de\_Categor%C3%ADas`
 
 It’s worth noting though that most of its content is written from a
 Cuban lens.
@@ -536,9 +528,7 @@ be the most effective form of censorship in Cuba, even within StreetNets.
 
 ## El Paquete
 
-![El Paquete](/post/cuba-internet-censorship-2017/cu-12.png)
-
-Image by Arturo Filastò (CC-BY-SA-3.0)
+{{< imgcap title="Image by Arturo Filastò (CC-BY-SA-3.0)" src="/post/cuba-internet-censorship-2017/cu-12.jpg" src2x="/post/cuba-internet-censorship-2017/cu-12@2x.jpg" >}}
 
 Cuba’s underground internet is not restricted to StreetNets. As of 2008,
 Cuba’s underground market has been distributing digital materials, known
@@ -1266,7 +1256,7 @@ blocked do not support HTTPS.
 Below we illustrate the types of sites we found to be blocked in
 Cuba as part of this study.
 
-![Graph: Types of sites blocked in Cuba](/post/cuba-internet-censorship-2017/cu-13.png)
+{{< imgcap title="Source: OONI data" src="/post/cuba-internet-censorship-2017/cu-13.jpg" src2x="/post/cuba-internet-censorship-2017/cu-13@2x.jpg" >}}
 
 Through the above graph, it is evident that news outlets and sites
 expressing political criticism were found to be blocked the most.
@@ -1918,6 +1908,4 @@ It is therefore important to continue to measure networks. Software like
 [ooniprobe](https://ooni.torproject.org/install/) allows users in Cuba
 and beyond to collect data that sheds light on information controls.
 
-![Santiago de Cuba](/post/cuba-internet-censorship-2017/cu-20.png)
-
-Image by Arturo Filastò (CC-BY-SA-3.0)
+{{< imgcap title="Image by Arturo Filastò (CC-BY-SA-3.0)" src="/post/cuba-internet-censorship-2017/cu-20.jpg" src2x="/post/cuba-internet-censorship-2017/cu-20@2x.jpg" >}}
