@@ -149,9 +149,7 @@ infrastructure. While it is clear that Cuba is using Huawei’s access
 points, it remains unclear whether and to what extent Huawei equipment
 is actually being used to implement internet censorship in the country.
 
-It was clear though that Google was blocking IP addresses originating
-from Cuba from accessing Google App Engine, at least during the testing
-period of this study.
+Apart from government censorship, a major source of content blocking originated from external publishers. During the testing period, we found that Google disallowed access to its App Engine service from Cuban users.
 
 The [high cost of the internet](http://www.etecsa.cu/internet_conectividad/internet/)
 (especially in comparison to [local salaries](https://www.forbes.com/sites/kenrapoza/2016/04/26/guess-how-much-cubans-earn-per-month/))
@@ -288,13 +286,7 @@ aware that they should be doing so).
 Permanent accounts don’t require ETECSA cards. Rather, Cubans are issued
 usernames and passwords when they purchase permanent accounts from
 ETECSA, which they can charge and recharge for up to a year at a time.
-Interestingly enough, Cubans can top up their permanent accounts to
-solely gain [access to the national web (intranet) at 0.10 CUC per hour](http://www.etecsa.cu/internet_conectividad/internet/), while
-accessing the international web (internet) is more than ten times more
-expensive, at [1.5 CUC per hour](http://www.etecsa.cu/internet_conectividad/internet/). This
-separation of the national and international web is not provided as an
-option for temporary accounts, perhaps because it is assumed that they
-are mostly used by tourists. In addition to internet and/or intranet
+Access to the national web (intranet) is available for only [0.10 CUC per hour](http://www.etecsa.cu/internet_conectividad/internet/), while accessing the international web (internet) is more than ten times more expensive, at [1.5 CUC per hour](http://www.etecsa.cu/internet_conectividad/internet/). In addition to internet and/or intranet
 access, permanent accounts also provide Cubans with an @nauta.cu email
 address.
 
@@ -302,15 +294,7 @@ address.
 
 Source: ETECSA, http://www.etecsa.cu/internet\_conectividad/internet/
 
-When we visited ETECSA offices in Cuba to purchase temporary accounts,
-we were requested to provide our passports. Similarly, all other
-tourists and residents appeared to be providing their IDs when
-purchasing accounts. ETECSA employees though didn’t appear to be linking
-our IDs to the specific accounts that we were issued. Rather, it seemed
-that identification was requested merely to track how many ETECSA cards
-were issued per person. In total, we could only buy up to three cards
-each. This might be a strategy in an attempt to limit the reselling of
-ETECSA internet cards.
+The ETECSA offices in Cuba require a passport to purchase temporary accounts. All foreigners and residents were required to present ID, although they were not linked to the account numbers being issued. Rather, IDs are likely noted to track the volume of purchases, potentially allowing identification of resellers.
 
 While accounts should officially be purchased from the ETECSA offices,
 many temporary accounts are resold on the streets at higher prices. Some
@@ -349,8 +333,7 @@ to businesses at a fixed monthly rate. According to ETECSA, full-time
 connection is guaranteed with a maximum transmission speed of up to 2
 Mbps. Similarly, ETECSA enables businesses to access and use the
 internet via [ATM and Ethernet](http://www.etecsa.cu/internet_conectividad/conectividad/#ATM).
-All such services, however, cannot be used by the Cuban public, mainly
-due to their high cost.
+These services are priced such that they will not become widely available, purported due to limited total network capacity.
 
 Previously, Cubans could only access the internet via [computer centres](http://www.telcomatraining.com/list-of-mobile-network-operators-of-cuba/)
 across the country. Many of these centres are called “[Joven
@@ -395,7 +378,7 @@ almost all Cubans accessed the internet via their mobile phones. We also
 noticed that they appeared to be using the internet primarily for
 communications. When talking to locals, they mentioned that - in their
 view, at least - most Cubans use the internet to connect with their
-family and friends (many of whom are abroad), and that [Facebook Messenger is extremely popular](https://www.economist.com/news/americas/21716099-ingenious-answer-digital-deprivation-cuba-app-stores-pay-rent).
+family and friends (many of whom are abroad). [Facebook Messenger is extremely popular](https://www.economist.com/news/americas/21716099-ingenious-answer-digital-deprivation-cuba-app-stores-pay-rent) in Cuba, and so is the [IMO app](http://www.havanatimes.org/?p=112977).
 Given the high cost of accessing the internet, it’s probably no wonder
 why Cubans optimize for using the internet primarily for communications
 purposes.
@@ -541,8 +524,8 @@ websites, software manuals, classifieds, and advertisements. Every week,
 the El Paquete package contains different materials. Cubans can purchase
 these packages by having the materials copied onto CDs or USB drives.
 
-Interestingly enough, these materials [do not include pornography or any other prohibited materials](http://www.cbc.ca/news/world/cuba-el-paquete-internet-wifi-havana-1.3527274),
-nor do they include content that expresses criticism towards Cuba’s
+These materials [do not include pornography or other prohibited materials](http://www.cbc.ca/news/world/cuba-el-paquete-internet-wifi-havana-1.3527274),
+nor do they include content expressing criticism towards the Cuban
 government. This has led some to
 [speculate](http://www.cbc.ca/news/world/cuba-el-paquete-internet-wifi-havana-1.3527274)
 that the Cuban government might be involved in its production.
@@ -551,12 +534,6 @@ In a way, El Paquete emerged as a sort of substitute for broadband
 internet, serving as Cuba’s “[offline internet](https://www.theguardian.com/world/2014/dec/23/cuba-offline-internet-weekly-packet-external-hard-drives)”.
 It enables Cubans to gain access to online content, without being
 online.
-
-While in Cuba, we asked where we could go to buy the weekly El Paquete.
-Locals directed us to a rundown building. Upon entering a family’s
-apartment, we were guided to a room with a computer, where we could
-choose which digital materials we wanted to have copied onto our USB
-drives.
 
 ## Summary
 
