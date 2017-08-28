@@ -426,7 +426,7 @@ illustrated below.
 
 ![EcuRed content categories](/post/cuba-internet-censorship-2017/cu-09.png)
 
-Source: EcuRed, `https://www.ecured.cu/index.php/EcuRed:%C3%81rbol\_de\_Categor%C3%ADas`
+Source: EcuRed, `https://www.ecured.cu/index.php/EcuRed:%C3%81rbol_de_Categor%C3%ADas`
 
 It’s worth noting though that most of its content is written from a
 Cuban lens.
