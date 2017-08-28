@@ -1,7 +1,7 @@
 OONI_PROBE_REPO_DIR=../ooni-probe
 
 setup:
-	git remote add ghpage git@github.com:ooni/ooni.github.io.git
+	git remote add ghpage git@github.com:OpenObservatory/ooni.github.io.git
 
 update-site:
 	echo "Updating the website on ooni.torproject.org"
