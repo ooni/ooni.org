@@ -1,6 +1,4 @@
---
-title: "Test lists"
----
+# Contributing Test Lists
 
 Censorship findings are only as interesting as the sites and services that you test.
 
@@ -20,7 +18,7 @@ Please read the documentation below to contribute to community resources for cen
 
 * [Important tips](#important-tips)
 
-# What are test lists?
+## What are test lists?
 
 Test lists are lists that include URLs that are tested for censorship. 
 
@@ -40,7 +38,7 @@ The URLs included in these lists fall under **[30
 categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv)**, ranging from news media, file sharing and
 culture, to provocative or objectionable categories, like pornography, political criticism and hate speech.
 
-# Why contribute to test lists?
+## Why contribute to test lists?
 
 **1. You can provide local expertise**
 
@@ -224,4 +222,4 @@ the csv file. The category descriptions can be found
 
 4. **Please do not scrape and add "the top 1,000 Alexa sites".** Community contributions are more useful when they include URLs that (a) fall under these [30 diverse categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv) and (b) reflect local insight. Given that many ooniprobe users around the world have bandwidth constraints, we favour *quality* over quantity in terms of what is tested.
 
-Thanks for contributing! 
+Thanks for contributing!
