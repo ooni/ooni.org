@@ -1,26 +1,64 @@
-OONI tests specific websites to see if they are blocked, and such websites are
-included in what we call "test lists". Each test list contains multiple
-categorized URLs which are tested for online censorship and they include the
-following:
+--
+title: "Test lists"
+---
+
+Censorship findings are only as interesting as the sites and services that you test.
+
+We encourage you to suggest sites and services to test for censorship.
+
+Please read the documentation below to contribute to community resources for censorship measurement research.
+
+* [What are test lists?](#what-are-test-lists)
+
+* [Why contribute to test lists?](#why-contribute-to-test-lists)
+
+* [Contributing to test lists](#contributing-to-test-lists)
+
+	* [Reviewing test lists](#reviewing-test-lists)
+
+	* [Creating new test lists](#creating-new-test-lists)
+
+* [Important tips](#important-tips)
+
+# What are test lists?
+
+Test lists are lists that include URLs that are tested for censorship. 
+
+The [Citizen Lab](https://citizenlab.ca/) supports OONI and other censorship measurement projects with a public resource that includes the following:
 
 * [Global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)
 
 * [Country-specific test lists](https://github.com/citizenlab/test-lists/tree/master/lists) 
 
-The global list includes a wide range of internationally relevant websites (most
-of which are in English), while each country-specific test list includes
-websites that are relevant and commonly accessed within that country (many of
-which are in local languages). The URLs included in these lists fall under **[31
+The global list includes a wide range of internationally relevant websites, most of which are in English.
+
+Each country-specific test list includes
+websites that are relevant and commonly accessed within that country, many of
+which are in local languages. 
+
+The URLs included in these lists fall under **[30
 categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv)**, ranging from news media, file sharing and
-culture, to provocative or objectionable categories, like pornography, political
-criticism and hate speech.
+culture, to provocative or objectionable categories, like pornography, political criticism and hate speech.
+
+# Why contribute to test lists?
+
+**1. You can provide local expertise**
+
+Examining internet censorship in a country requires local expertise, an understanding of:
+
+* which sites and services are commonly accessed;
+* which sites and services are more likely to be blocked;
+* which sites and services would be interesting to test in light of the country's social and political environment.
+
+To ensure that test lists include a variety of different types of URLs that are updated on an ongoing basis, we need community contributions from around the world.
+
+**2. Potential risks**
 
 When running ooniprobe, you will connect to and download data from the websites
 included in the global test list and in the test list which is specific to the
-country that you are running ooniprobe from. We therefore encourage you to
-review all of the URLs included in these lists carefully, prior to running
-ooniprobe, as connecting to some of these websites might be legally questionable
-(or illegal) in some jurisdictions around the world.
+country that you are running ooniprobe from. 
+
+We therefore encourage you to review all of the URLs included in these lists carefully, prior to running ooniprobe, as connecting to some of these websites might be legally questionable (or illegal) in some jurisdictions.
 
 If you are uncertain of the potential implications of connecting to and
 downloading data from the websites listed in the test lists, you can pass your
@@ -30,11 +68,11 @@ downloading data from the websites listed in the test lists, you can pass your
 
 ## Contributing to test lists
 
-The [Citizen Lab](https://citizenlab.org/) has supported network measurement
-projects (like OONI) in the creation, maintenance and development of test lists
-and many volunteers around the world have contributed to their country's test
-lists over the last years. You can also contribute to the review or creation of
-your country's test list (if it doesn't already exist), as explained below.
+You can contribute to test lists in 2 ways:
+
+* Review *existing* test lists;
+
+* Create *new* test lists for countries that don't have test lists yet.
 
 ### Reviewing test lists
 
@@ -48,8 +86,7 @@ to run ooniprobe from (based on that country's code)
 **[here](https://github.com/citizenlab/test-lists/tree/master/lists)**.
 
 If you don't find a csv file for your country, that's probably because it
-doesn't exist yet. In this case, please refer to the next section on *"Creating
-test lists"*.
+doesn't exist yet. In this case, please refer to the next section on *"Creating new test lists"*.
 
 **Step 2.** Add *new* URLs to the csv file under the "url" column.  
 
@@ -67,8 +104,7 @@ Some criteria for adding new URLs can include the following:
 For further criteria, please view the URL categories
 **[here](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv)**.
 
-Please try to add URLs which fall under as many (if not all) of these categories
-as possible.
+Please try to add URLs which fall under as many (if not all) of these categories as possible.
 
 **Step 3.** Every time you add a URL, please add the following in the csv file for
   each new URL:
@@ -108,7 +144,7 @@ proposed changes.
  contact@openobservatory.org (PGP Key Fingerprint: 4C15 DDA9 96C6 C0CF 48BD
  3309 6B29 43F0 0CB1 77B7).
 
-### Creating test lists
+### Creating new test lists
 
 If you can't find a test list specific to your country
 [here](https://github.com/citizenlab/test-lists/tree/master/lists), then it
@@ -177,3 +213,15 @@ the csv file. The category descriptions can be found
  pull request. If you're *not* a github user, please send us your csv file by
  dropping us an email at contact@openobservatory.org (PGP Key Fingerprint: 4C15
  DDA9 96C6 C0CF 48BD  3309 6B29 43F0 0CB1 77B7).
+
+ # Important tips
+
+ 1. **Always include the full URL, including the HTTP or HTTPS prefix, exactly as it appears when you type it into a browser.** If you include `example.com` in a test list, ooniprobe won't be able to test it. Rather, it should be included as `http://www.example.com`, if that is what it looks like in a browser.
+
+ 2. **Always use the format described in the sections above.** The test lists are meant to be machine-readable, and ooniprobe will not parse test lists that don't strictly follow the prescribed format.
+
+ 3. **Please stick to the categories included [here](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv), and refrain from adding your own categories.** The categories may not be perfect, and we welcome your suggestions for additional/alternative categories. But if you don't use the prescribed category codes, ooniprobe will not be able to test those URLs, since test lists are meant to be machine-readable.
+
+4. **Please do not scrape and add "the top 1,000 Alexa sites".** Community contributions are more useful when they include URLs that (a) fall under these [30 diverse categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv) and (b) reflect local insight. Given that many ooniprobe users around the world have bandwidth constraints, we favour *quality* over quantity in terms of what is tested.
+
+Thanks for contributing! 
