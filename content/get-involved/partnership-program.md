@@ -1,6 +1,5 @@
 ---
 title: "OONI Partnership Program"
-enabletoc: true
 ---
 
 * [What is the OONI Partnership Program?](#what-is-the-ooni-partnership-program)

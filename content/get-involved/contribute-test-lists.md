@@ -1,4 +1,4 @@
-# Contributing Test Lists
+# Contributing to Test Lists
 
 Censorship findings are only as interesting as the sites and services that you test.
 
@@ -212,7 +212,7 @@ the csv file. The category descriptions can be found
  dropping us an email at contact@openobservatory.org (PGP Key Fingerprint: 4C15
  DDA9 96C6 C0CF 48BD  3309 6B29 43F0 0CB1 77B7).
 
- # Important tips
+ ## Important tips
 
  1. **Always include the full URL, including the HTTP or HTTPS prefix, exactly as it appears when you type it into a browser.** If you include `example.com` in a test list, ooniprobe won't be able to test it. Rather, it should be included as `http://www.example.com`, if that is what it looks like in a browser.
 

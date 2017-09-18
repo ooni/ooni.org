@@ -16,9 +16,9 @@ Therefore the potential risks associated to running ooniprobe depend on:
 
 2. **The laws and regulations in the country that you are running ooniprobe from.** Best to consult with local lawyers, and to learn whether that country has a record in prosecuting individuals engaging in similar types of activities. 
 
-3. **The types of ooniprobe tests run.** Not all ooniprobe tests carry the same weight in terms of potential risk. OONI's [WhatsApp test](https://ooni.torproject.org/nettest/whatsapp/), for example, merely attempts to connect to servers that are already connected to by more than a billion people around the world.  
+3. **The types of ooniprobe tests run.** Not all ooniprobe tests carry the same weight in terms of potential risk. OONI's [WhatsApp test](https://ooni.torproject.org/nettest/whatsapp/), for example, merely attempts to connect to servers that are already connected by more than a billion people around the world. You can opt-out from having ooniprobe run automatically, and you can choose which tests to run through OONI's web user interface. 
 
-4. **The types of sites that you test.** You can opt-out from having ooniprobe run automatically, and you can choose the sites that you want to test through OONI's web user interface. You can also test your own list of sites through the `-f` command line option.
+4. **The types of sites that you test.** You can test your own list of sites through the following command line option: `ooniprobe <test-name> -f <your-test-list>`. You can also [contribute to test lists](https://ooni.torproject.org/get-involved/contribute-test-lists/) and suggest URLs to be added or removed. 
 
 5. **Whether you have ooniprobe data published.** You can opt-out from having your data published through ooniprobe settings. 
 
