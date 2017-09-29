@@ -1233,7 +1233,7 @@ blocked do not support HTTPS.
 Below we illustrate the types of sites we found to be blocked in
 Cuba as part of this study.
 
-{{< imgcap title="Source: OONI data" src="/post/cuba-internet-censorship-2017/cu-13.jpg" src2x="/post/cuba-internet-censorship-2017/cu-13@2x.jpg" >}}
+{{< imgcap title="Source: OONI data" src="/post/cuba-internet-censorship-2017/cu-13.png" src2x="/post/cuba-internet-censorship-2017/cu-13@2x.png" >}}
 
 Through the above graph, it is evident that news outlets and sites
 expressing political criticism were found to be blocked the most.
