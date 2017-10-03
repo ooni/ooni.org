@@ -162,9 +162,9 @@ and .party).
 
 [OONI data](https://explorer.ooni.torproject.org/country/ES) shows
 that these mirrors were blocked by means of DNS tampering and through
-block pages served by HTTP transparent proxies. Lluís Montabes, a
+block pages served by HTTP transparent proxies. Daniel Morales, a
 freedom of expression activist who worked on the scripts to mirror the
-blocked sites, was [called to appear in court on 23rd September](http://www.ara.cat/politica/creador-marianorajoycat-citat-declarar-desobediencia_0_1875412620.html)
+blocked sites, was called to appear in court on 22nd September
 and [accused of being supported by Russian hackers](https://elpais.com/elpais/2017/09/28/inenglish/1506588970_026442.html)
 by El Pais, one of Spain’s largest media outlets.
 
