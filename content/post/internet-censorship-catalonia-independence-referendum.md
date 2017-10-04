@@ -10,6 +10,8 @@ categories: ["report"]
 
 Image: Catalan Independence Referendum site seized
 
+Read the Catalan translation of the article [here](https://cripto.cat/censura-internet-referendum.html).
+
 Two days ago, Catalonia held a
 [referendum](http://time.com/4951665/catalan-referendum-2017/) seeking
 independence from Spain. As the world awaits to see what happens next,
@@ -297,11 +299,12 @@ DNS tampering and HTTP blocking.
 
 The future of Catalonia remains quite unclear. What is clear is that
 it’s important to keep those in power to account, even in “Western
-democracies”. One way of doing so is by [*measuring
-networks*](https://ooni.torproject.org/install/) and increasing
+democracies”. One way of doing so is by [measuring networks](https://ooni.torproject.org/install/) and increasing
 transparency of information controls.
 
 Evidence is necessary for informed public debate.
+
+**Update (2017-01-04 16:00 UTC)** Qurium / Virtual Road have published data showing the mechanisms used to block websites associated to the referendum of 1-O of Catalonia. View their findings **[here](https://www.qurium.org/alerts/spain/blocking-techniques-catalunya/)**.
 
 **Update (2017-10-03 20:38 UTC):**  Courtesy of our friends from [Security Without
 Borders](https://securitywithoutborders.org/blog/2017/09/27/catalonia.html),
