@@ -306,4 +306,4 @@ Evidence is necessary for informed public debate.
 
 # Updates
 
-* **4th October 2017:** Qurium / Virtual Road have published data showing the mechanisms used to block websites associated to the referendum of 1-O of Catalonia. View their findingers **[here](https://www.qurium.org/alerts/spain/blocking-techniques-catalunya/)**.
+* **4th October 2017:** Qurium / Virtual Road have published data showing the mechanisms used to block websites associated to the referendum of 1-O of Catalonia. View their findings **[here](https://www.qurium.org/alerts/spain/blocking-techniques-catalunya/)**.
