@@ -10,8 +10,6 @@ categories: ["report"]
 
 Image: Catalan Independence Referendum site seized
 
-Read the Catalan translation of the article [here](https://cripto.cat/censura-internet-referendum.html).
-
 Two days ago, Catalonia held a
 [referendum](http://time.com/4951665/catalan-referendum-2017/) seeking
 independence from Spain. As the world awaits to see what happens next,
