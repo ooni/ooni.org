@@ -304,7 +304,9 @@ transparency of information controls.
 
 Evidence is necessary for informed public debate.
 
-**Update (2017-01-04 16:00 UTC)** Qurium / Virtual Road have published data showing the mechanisms used to block websites associated to the referendum of 1-O of Catalonia. View their findings **[here](https://www.qurium.org/alerts/spain/blocking-techniques-catalunya/)**.
+**Update (2017-10-05 16:30 UTC):** As community members in Spain and Catalonia come across more blocked sites, they are added to this list [here](https://www.nodo50.cat/lista.txt).
+
+**Update (2017-10-04 16:00 UTC):** Qurium / Virtual Road have published data showing the mechanisms used to block websites associated to the referendum of 1-O of Catalonia. View their findings **[here](https://www.qurium.org/alerts/spain/blocking-techniques-catalunya/)**.
 
 **Update (2017-10-03 20:38 UTC):**  Courtesy of our friends from [Security Without
 Borders](https://securitywithoutborders.org/blog/2017/09/27/catalonia.html),
