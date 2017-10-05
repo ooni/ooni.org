@@ -577,10 +577,13 @@ header .wordmark {
 /* ================================================================== */
 /* Blog */
 
+.blog-summary {
+  margin-bottom: 2rem;
+}
+
 .blog-summary a {
   display: block;
   color: inherit;
-  margin-bottom: 2em;
 }
 
 .blog-summary p.title {
@@ -594,7 +597,6 @@ h1.article-title {
 .byline {
   color: #c1c1c1;
   font-size: 0.8rem;
-  margin-bottom: 2.6rem;
 }
 
 .byline .author::after {
