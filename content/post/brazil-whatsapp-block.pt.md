@@ -6,6 +6,7 @@ tags: ["brazil", "whatsapp"]
 categories: ["report"]
 aliases:
   - /whatsapp-blocked-in-brazil-again-pt
+  - /post/brazil-whatsapp-block-pt
 ---
 
 **Pais:** Brasil
@@ -19,8 +20,6 @@ aliases:
 **Periodo da medição:** 2016-05-02 - 2016-05-03
 
 **Translation by:** Kornelia Friesch
-
-**[Post in original language](/post/brazil-whatsapp-block)**
 
 ----------------------------------------------------------------------------------------
 

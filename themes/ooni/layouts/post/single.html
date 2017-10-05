@@ -21,7 +21,17 @@
       <span class="author">{{ .Params.author }}</span>
       <span class="date">{{ .Date }}</span>
     </div>
-
+    {{ if .IsTranslated }}
+    <h4>Translation(s):</h4>
+    <ul>
+      {{ range .Translations }}
+      <li>
+        {{/* FIXME: convert that to language params, I've not managed to do that quicly */}}
+        <a href="{{ .Permalink }}">{{ if eq .Lang "en" }}English{{ else if eq .Lang "pt" }}Portuguese{{ else if eq .Lang "fr" }}French{{ else if eq .Lang "es"  }}Spanish{{ else }}{{ .Lang }}{{ end }}: {{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
     {{ .Content }}
   </main>
 </div>
