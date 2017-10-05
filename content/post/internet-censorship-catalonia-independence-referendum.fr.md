@@ -6,13 +6,14 @@ tags: ["catalonia", "censorship"]
 categories: ["report"]
 aliases:
   - /internet-censure-catalogne
+  - /post/internet-censure-catalogne
 ---
 
 ![Seized referendum site](/post/catalonia/seized.png)
 
 Image: Catalan Independence Referendum site seized
 
-**Note:** This post was originally published [here](https://ooni.torproject.org/post/internet-censorship-catalonia-independence-referendum/) on 3rd October 2017. Below we provide a French translation by [Tomàs](https://twitter.com/ersikoo).
+**Note:** This post was originally published [here](/post/internet-censorship-catalonia-independence-referendum/) on 3rd October 2017. Below we provide a French translation by [Tomàs](https://twitter.com/ersikoo).
 
 
 Il y a deux jours, la Catalogne a tenu un [référendum](http://time.com/4951665/catalan-referendum-2017/) en vue de l'indépendance de l'Espagne. Alors que le monde attend à voir ce qui va se passer ensuite, on publique cette post afin de partager les preuves des récents [événements de censure](https://api.ooni.io/files/by_country/ES) qui se sont déroulés pendant et avant le référendum.
