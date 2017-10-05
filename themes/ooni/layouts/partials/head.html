@@ -33,5 +33,11 @@
 		})();
 	</script>
 	<!-- End Piwik Code -->
+  {{ if .Params.MetaRedirectTo }}{{/* hugo does not support beautiful way to do that for external links */}}
+  <link rel="canonical" href="{{ .Params.MetaRedirectTo }}"/>
+  <meta name="robots" content="noindex">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="refresh" content="0; url={{ .Params.MetaRedirectTo }}" />
+  {{ end }}
 </head>
 <body>
