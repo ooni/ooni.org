@@ -24,6 +24,16 @@
               <p class="title">{{ .Title }}</p>
               <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
           </a>
+        {{ if .IsTranslated }}
+          {{/* FIXME: looks rather ugly because of bad margins */}}
+          {{ range .Translations }}
+          <ul>
+              {{/* FIXME: convert that to language params, I've not managed to do that quicly */}}
+              <a href="{{ .Permalink }}"><li><p class="title">{{ if eq .Lang "en" }}English{{ else if eq .Lang "pt" }}Portuguese{{ else if eq .Lang "fr" }}French{{ else if eq .Lang "es"  }}Spanish{{ else }}{{ .Lang }}{{ end }}: {{ .Title }}</p></li></a>
+          </ul>
+          {{ end }}
+        {{ else }}
+        {{ end }}
         </div>
       </div>
     {{ end }}
