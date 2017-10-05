@@ -18,8 +18,6 @@ aliases:
 
 **Measurement period:** 2016-05-02 - 2016-05-03
 
-**[Portoguese Translation] (/post/brazil-whatsapp-block-pt)**
-
 ----------------------------------------------------------------------------------------
 
 **19:10 UTC Saturday, 7 May 2016** Update: Add OONI Explorer measurements links
