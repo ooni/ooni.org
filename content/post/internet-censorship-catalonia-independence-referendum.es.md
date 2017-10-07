@@ -1,5 +1,5 @@
 ---
-title: "Evidence of Internet Censorship during Catalonia's Independence Referendum"
+title: "Evidencia de censura en Internet durante el referéndum de independencia de Cataluña"
 author: "Tord Lundström (Virtual Road), Maria Xynou (OONI)"
 date: "2017-10-03"
 tags: ["catalonia", "censorship"]
@@ -10,116 +10,40 @@ categories: ["report"]
 
 Image: Catalan Independence Referendum site seized
 
-Two days ago, Catalonia held a
-[referendum](http://time.com/4951665/catalan-referendum-2017/) seeking
-independence from Spain. As the world awaits to see what happens next,
-we publish this post to share
-[evidence](https://api.ooni.io/files/by_country/ES) of recent
-censorship events that occurred during and leading up to the referendum.
+**Note:** This post was originally published [here](/post/internet-censorship-catalonia-independence-referendum/) on 3rd October 2017. Below we provide a Spanish translation from the community.
 
-We **confirm the blocking of at least 25 sites related to the Catalan
-referendum** by means of DNS tampering and HTTP blocking, based on
-[OONI Probe network measurements](https://explorer.ooni.torproject.org/country/ES)
-collected from three local networks. OONI data shows that these sites
-were blocked every day from (at least) 25th September 2017 (when the
-testing started) leading up to the referendum day, on 1st October 2017.
 
-# Catalan Independence Referendum
+Hace dos días, Cataluña celebró un [referéndum de independencia](http://time.com/4951665/catalan-referendum-2017/) de España. Mientras el mundo espera a ver qué ocurre a continuación, publicamos este artículo para compartir [evidencias](https://api.ooni.io/files/by_country/ES) de eventos recientes de censura que ocurrieron poco antes y durante el referéndum.
 
-Catalans have their own language and cultural identity, despite being
-part of Spain. Their president Carles Puigdemont
-[argues](https://www.theguardian.com/world/2017/sep/21/why-do-some-catalans-want-independence-and-what-is-spains-view)
-that they have a moral, cultural, economic, and political right to
-self-determination. In recent years, the Catalan independence movement
-has strengthened, particularly in light of Spain’s economic crisis. Many
-independence supporters
-[argue](https://www.economist.com/news/leaders/21729438-there-are-better-ways-referendum-address-regions-legitimate-grievances-catalonias)
-that Catalonia has long been oppressed under the Spanish central
-government that does not acknowledge their “right to decide”.
+Confirmamos el bloqueo de al menos 25 sitios web relacionados con el referéndum catalán mediante las técnicas de "DNS tampering" (manipulación de DNS) y "HTTP blocking" (bloqueo de HTTP), basado en medidas recogidas por "[OONI Probe network](https://explorer.ooni.torproject.org/country/ES)" (red de sondas de OONI) desde tres redes locales. Los datos de OONI muestran que estos sitios fueron bloqueados cada día desde (al menos) el 25 de septiembre de 2017 (cuando la prueba comenzó) hasta el día del referéndum, el 1 de octubre de 2017.
 
-Catalonia has seeked more autonomy and independence from Spain in
-various occasions. In 2006, Catalonia held a [referendum amending the Statute of Autonomy of Catalonia](https://www.theatlantic.com/international/archive/2017/10/catalonia-referendum/541611/),
-expanding its regional government’s authority. But four years later,
-Spain’s Constitutional Court reviewed the law upon request from the
-Spanish government led by the Popular Party (PP), re-writing and
-dictating the interpretation of many of its articles, and leading to a
-[massive demonstration](http://www.bbc.com/news/10588494) in
-Barcelona.
+# Referéndum catalán de independencia
 
-On 9th November 2014 (9N), Catalonia held a non-binding
-[self-determination referendum](http://www.bbc.com/news/world-europe-29982960), where
-voters were asked whether they wanted Catalonia to be a state and
-whether they wanted that state to be independent. Even though [80% of ballots were cast in favour](http://www.bbc.com/news/world-europe-29982960) of both
-questions (though the voter turnout was quite low), Spain’s
-Constitutional Court ruled the referendum “unconstitutional and null.”
-Such events paved the way for Catalonia’s latest referendum, but this
-time the Spanish government showed less tolerance.
+Los catalanes tienen su propia lengua e identidad cultural, a pesar de ser parte de España. Su presidente, Carles Puigdemont, [argumenta](https://www.theguardian.com/world/2017/sep/21/why-do-some-catalans-want-independence-and-what-is-spains-view) que tienen un derecho moral, cultural, económico y político a la autodeterminación. En los últimos años, el movimiento por la independencia catalán se ha reforzado, en particular en el contexto de la crisis económica de España. Muchos partidarios de la independencia [argumentan](https://www.economist.com/news/leaders/21729438-there-are-better-ways-referendum-address-regions-legitimate-grievances-catalonias) que Cataluña ha sido oprimida desde hace tiempo por el gobierno central español, que no les reconoce su "derecho a decidir".
 
-Leading up to the referendum, Spanish police [raided Catalan regional government offices and arrested senior officials](https://www.theguardian.com/world/2017/sep/20/spain-guardia-civil-raid-catalan-government-hq-referendum-row).
-They also [raided the offices of the .cat internet registry](https://www.theregister.co.uk/2017/09/23/spanish_government_criticized_over_catalan_internet_registry_raid/).
-Domains associated to the referendum, like
-[referendum.cat](http://referendum.cat/) and [ref1oct.cat](http://ref1oct.cat/), have been seized. But censorship
-events were not limited to .cat domains. Many in Catalonia
-[reported](https://www.theguardian.com/world/2017/sep/27/catalans-compare-spain-to-north-korea-after-referendum-sites-blocked)
-that access to various other domains (mirrors) related to the Catalan
-referendum were being blocked as well.
+Cataluña ha buscado más autonomía e independencia de España en varias ocasiones. En 2006, Cataluña celebró un [referéndum para enmendar el Estatuto de Autonomía de Cataluña](https://www.theatlantic.com/international/archive/2017/10/catalonia-referendum/541611/), expandiendo la autoridad de su gobierno regional. Pero cuatro años después, el Tribunal Constitucional español revisó la ley debido a un recurso de inconstitucionalidad interpuesto por el Partido Popular, y sentenció que 14 de sus artículos son inconstitucionales, entre los que se encontraban la catalogación de Cataluña como nación y la obligación de España a invertir en infraestructuras catalanas teniendo en cuenta su contribución al PIB (producto interior bruto) de todo el estado, lo cual dio lugar a una [gran manifestación](http://www.bbc.com/news/10588494) en Barcelona.
 
-To ensure that voters could participate even if their appointed voting
-stations were [shut down](http://cadenaser.com/ser/2017/09/30/politica/1506775623_785036.html)
-by the police, the Catalan government announced the “open census” in the
-morning of the referendum (1-O). Voters were offered the opportunity to
-choose any voting station in the country. However, the central system
-that validated that the voters were in the census was [taken down by Amazon](https://www.elgrupoinformatico.com/amazon-recibio-una-peticion-para-bloquear-los-servidores-del-referendum-t38919.html)
-during the first hours of the day. [Google was also previously ordered to take down a voting app](https://www.thespainreport.com/articles/1166-170929190146-google-removes-catalan-referendum-app-from-google-play-after-catalan-high-court-issues-take-down-order)
-that provides information about the polling stations for the Catalan
-independence referendum.
+El 9 de noviembre de 2014 (9N), Cataluña celebró un [referéndum de autodeterminación](http://www.bbc.com/news/world-europe-29982960) no vinculante, en el que se preguntó a los votantes si querían que Cataluña fuera un estado y si querían que dicho estado fuese independiente. A pesar de que el [80%](http://www.bbc.com/news/world-europe-29982960) de los votos fueron afirmativos para ambas preguntas (aunque la participación fue bastante baja), el Tribunal Constitucional dictaminó que el referéndum era "inconstitucional y nulo". Dichos eventos allanaron el camino para el último referéndum en Cataluña, pero esta vez el gobierno español mostró menos tolerancia.
 
-Despite all the attempts to block the process, alternative servers to
-count votes were deployed and the referendum (1-O) was held last Sunday.
-Locals reported that they had difficulty accessing the internet at the
-polling stations, but we don’t have data to confirm whether throttling
-or an internet blackout took place.
+Unos días antes del referéndum, la policía española realizó una [redada en las oficinas del gobierno regional catalán](https://www.theguardian.com/world/2017/sep/20/spain-guardia-civil-raid-catalan-government-hq-referendum-row) y arrestó a altos cargos. También hicieron redadas en las [oficinas del registro del dominio .cat](https://www.theregister.co.uk/2017/09/23/spanish_government_criticized_over_catalan_internet_registry_raid/). Los dominios asociados con el referéndum, como [referendum.cat](http://referendum.cat/) y [ref1oct.cat](http://ref1oct.cat/), han sido incautados. Pero la censura no se limitó a los dominios .cat. Muchos en Cataluña informaron que el acceso a otros dominios ("mirrors", es decir, clones de las webs originales), relacionados con el referéndum catalán [también estaban siendo bloqueados](https://www.theguardian.com/world/2017/sep/27/catalans-compare-spain-to-north-korea-after-referendum-sites-blocked).
 
-According to Catalan officials, [90% of more than 2.2 million ballots were cast in favour of independence](https://www.theguardian.com/world/live/2017/oct/01/catalan-independence-referendum-spain-catalonia-vote-live).
-However, the referendum was far from peaceful, as heavy police violence
-resulted in [hundreds of voters injured](http://www.bbc.com/news/world-europe-41461032). Today,
-[thousands are protesting](http://www.bbc.com/news/av/world-europe-41478754/catalonia-referendum-thousands-protest-spanish-police-violence)
-against Spanish police violence on the streets of Barcelona, in response
-to the crackdown during the referendum.
+Para asegurar que los votantes pudieran participar incluso si sus colegios electorales [fueran cerrados por la policía](http://cadenaser.com/ser/2017/09/30/politica/1506775623_785036.html), el gobierno catalán anunció el "censo abierto" en la mañana del referéndum (1-O). Se ofreció a los votantes la oportunidad de escoger cualquier colegio electoral en el país. De todas formas, el sistema central que validaba que los votantes estaban en el censo fue [desconectado por Amazon](https://www.elgrupoinformatico.com/amazon-recibio-una-peticion-para-bloquear-los-servidores-del-referendum-t38919.html) durante las primeras horas del día. Previamente a [Google también se le ordenó desconectar una aplicación](https://www.thespainreport.com/articles/1166-170929190146-google-removes-catalan-referendum-app-from-google-play-after-catalan-high-court-issues-take-down-order) que proporcionaba información actualizada sobre los colegios electorales abiertos para votar en el referéndum de independencia.
 
-Catalonia’s president [asked the European Commission to encourage international mediation](https://www.theguardian.com/world/2017/oct/02/catalan-government-emergency-meeting-spain-independence)
-with Spain over the region’s independence. Madrid maintains that the
-referendum was
-[illegal](https://www.theguardian.com/commentisfree/2017/oct/01/the-guardian-view-on-catalonias-referendum-the-spanish-state-has-lost)
-and its outcome therefore null. Spain is currently experiencing [one of its biggest political crises](http://www.bbc.com/news/world-europe-41466619) in decades. Even
-Catalan society is quite
-[divided](https://www.theguardian.com/world/2017/sep/19/temperature-climbs-in-spain-as-catalan-question-comes-to-a-head)
-on the question of independence.
+A pesar de los intentos de bloquear el proceso, servidores alternativos de recuento de votos fueron puestos a disposición de los participantes y el referéndum (1-O) se celebró el domingo pasado. Los ciudadanos informaron que tuvieron dificultades en el acceso a Internet en los colegios electorales, pero no tenemos datos para confirmar si un limitació (throttling) o desconexión de Internet tuvo lugar.
 
-We recognize the sensitivity of the current political situation. Through
-[empirical data](https://api.ooni.io/files/by_country/ES) collected by
-[OONI Probe](https://ooni.torproject.org/install/) community members
-in Spain and Catalonia, we aim to support public debate.
+Según los dirigentes catalanes, el [90%](https://www.theguardian.com/world/live/2017/oct/01/catalan-independence-referendum-spain-catalonia-vote-live), más de 2,2 millones de papeletas, fueron a favor de la independencia. De todas formas, el referéndum estuvo lejos de ser pacífico, ya que la dura [violencia policial](http://www.bbc.com/news/world-europe-41461032) resultó en cerca de 900 votantes heridos. Hoy, miles están [protestando contra la violencia de la policía española](http://www.bbc.com/news/av/world-europe-41478754/catalonia-referendum-thousands-protest-spanish-police-violence) en las calles de Barcelona, enviada para dar respuesta a la campaña en contra del referéndum.
 
-# Blocking of Catalan referendum sites
+El presidente de Cataluña [pidió a la Comisión Europea que fomentara la mediación internacional](https://www.theguardian.com/world/2017/oct/02/catalan-government-emergency-meeting-spain-independence) con España sobre la independencia de la región. Madrid sostiene que el referéndum era [ilegal](https://www.theguardian.com/commentisfree/2017/oct/01/the-guardian-view-on-catalonias-referendum-the-spanish-state-has-lost) y que su resultado fue por lo tanto nulo. España está sufriendo actualmente una de sus [mayores crisis políticas](http://www.bbc.com/news/world-europe-41466619) en décadas. Incluso la sociedad catalana está bastante [dividida](https://www.theguardian.com/world/2017/sep/19/temperature-climbs-in-spain-as-catalan-question-comes-to-a-head) en la cuestión de la independencia.
 
-To collect evidence showing whether and how sites associated to the
-Catalan referendum were blocked, [OONI Probe tests](https://ooni.torproject.org/install/) were run in Catalonia over
-the last week. OONI Probe is [free and open software](https://github.com/TheTorProject/ooni-probe) that anyone can
-[run](https://ooni.torproject.org/install/) to measure the blocking of
-websites. All network measurement data collected by OONI Probe is
-automatically [published](https://explorer.ooni.torproject.org/world/)
-to increase transparency of internet censorship worldwide.
+Reconocemos la sensibilidad de la situación política actual. A través de [datos empíricos](https://api.ooni.io/files/by_country/ES) recogidos por miembros de la comunidad "[OONI Probe](https://ooni.torproject.org/install/)" en España y Cataluña, nuestro objetivo es apoyar el debate público. 
 
-[OONI data](https://explorer.ooni.torproject.org/country/ES) confirms
-that, as of 25th September 2017 (when OONI Probe testing started), local
-ISPs have been blocking access to (at least) 25 Catalan referendum sites
-and continued to enforce the blocks on the referendum day.
+# Bloqueo de las páginas del referéndum Catalán
 
-The table below links to network measurements collected from three local
-ISPs and shows how and which sites were **blocked on 1st October 2017**,
-when the Catalan independence referendum was held.
+Para recopilar evidencias que demuestran si y cómo los sitios asociados al referéndum catalán fueron bloqueados, las [pruebas OONI Probe](https://ooni.torproject.org/install/) se llevaron a cabo en Cataluña durante la última semana. OONI Probe es un [software gratuito](https://github.com/TheTorProject/ooni-probe) y abierto que cualquiera puede [ejecutar](https://ooni.torproject.org/install/) para medir el bloqueo de sitios web. Todos los datos de medición de red recopilados por OONI Probe se [publican](https://explorer.ooni.torproject.org/world/) automáticamente para aumentar la transparencia de la censura en Internet en todo el mundo.  
 
+[Los datos de OONI](https://explorer.ooni.torproject.org/country/ES) confirman que, a partir del 25 de septiembre de 2017 (cuando se inició la prueba OONI Probe), los ISP locales han estado bloqueando el acceso a (por lo menos) 25 referendos catalanes y continuaron reforzando los bloques en el día del referéndum. 
+
+En la tabla siguiente se relacionan las mediciones de la red de tres ISPs locales y se muestra cómo y qué sitios fueron **bloqueados el 1 de Octubre de 2017**, cuando se celebró el referéndum de independencia de Cataluña. 
 
 |**Domain** | **AS12479** | **AS3352** | **AS12338**|
 |---|---|---|---|
@@ -152,163 +76,109 @@ when the Catalan independence referendum was held.
 |  referendum.clash.cat |         [*Not blocked*](https://explorer.ooni.torproject.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=https:%2F%2Freferendum.clash.cat)/Seized |     [*Not blocked*](https://explorer.ooni.torproject.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=https:%2F%2Freferendum.clash.cat)/Seized |     [*Not blocked*](https://explorer.ooni.torproject.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=https:%2F%2Freferendum.clash.cat)/Seized|
 |  marianorajoy.clash.cat |       [*Not blocked*](https://explorer.ooni.torproject.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=https:%2F%2Fmarianorajoy.clash.cat)/Seized |   [*Not blocked*](https://explorer.ooni.torproject.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=https:%2F%2Fmarianorajoy.clash.cat)/Seized |   [*Not blocked*](https://explorer.ooni.torproject.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=https:%2F%2Fmarianorajoy.clash.cat)/Seized|
 
-Many of the blocked domains (such as referendum.lol and
-referendum.ninja) in the table above are mirrors of referendum.cat,
-which was
-[seized](https://www.theregister.co.uk/2017/09/23/spanish_government_criticized_over_catalan_internet_registry_raid/)
-more than a week ago. The [mirrors of blocked websites](https://github.com/GrenderG/referendum_cat_mirror) have been
-run by volunteers using other top level domains (such as as .ninja .lol,
-and .party).
+Muchos de los dominios bloqueados (como referendum.lol y referendum.ninja) en la tabla anterior son mirrors (espejos) de la web referendum.cat, que fue [incautado](https://www.theregister.co.uk/2017/09/23/spanish_government_criticized_over_catalan_internet_registry_raid/) hace más de una semana. [Los espejos de sitios web bloqueados](https://github.com/GrenderG/referendum_cat_mirror) han sido gestionados por voluntarios que utilizan otros dominios de nivel superior (como .ninja .lol y .party).
 
-[OONI data](https://explorer.ooni.torproject.org/country/ES) shows
-that these mirrors were blocked by means of DNS tampering and through
-block pages served by HTTP transparent proxies. Daniel Morales, a
-freedom of expression activist who worked on the scripts to mirror the
-blocked sites, was called to appear in court on 22nd September
-and [accused of being supported by Russian hackers](https://elpais.com/elpais/2017/09/28/inenglish/1506588970_026442.html)
-by El Pais, one of Spain’s largest media outlets.
+[Los datos de OONI](https://explorer.ooni.torproject.org/country/ES) muestran que estos espejos fueron bloqueados mediante la manipulación de DNS y a través de páginas de bloque servidas por proxies transparentes de HTTP. Daniel Morales, activista de la libertad de expresión que trabajó en los guiones para reflejar los sitios bloqueados, fue llamado a comparecer ante el tribunal el 22 de Septiembre y [acusado](https://elpais.com/elpais/2017/09/28/inenglish/1506588970_026442.html) de ser apoyado por hackers rusos por El País, uno de los mayores medios de comunicación de España.
 
-France Telecom Espanya (AS12479) and Euskaltel (AS12338) blocked access
-to sites by means of DNS tampering, while Telefonica de Espanya (AS3352)
-served block pages through the use of HTTP transparent proxies. It’s
-worth noting that France Telecom Espanya (AS12479) and Euskaltel
-(AS12338) didn’t block certain .cat domains (referendum.cat and
-ref1oct.cat), likely because those sites had already been seized.
-Telefonica de Espanya (AS3352), on the other hand, reinforced the
-censorship by serving block pages for seized domains as well.
+France Telecom Espanña (AS12479) y Euskaltel (AS12338) bloquearon el acceso a sitios mediante la manipulación de DNS, mientras que Telefónica de España (AS3352) sirvió páginas de bloque mediante el uso de proxies transparentes HTTP.  Conviene señalar que France Telecom España (AS12479) y Euskaltel (AS12338) no bloquearon ciertos dominios .cat (referendum.cat y ref1oct.cat), probablemente porque estos sitios ya habían sido incautados. Telefónica de España (AS3352), por otro lado, reforzó la censura al servir páginas de bloque para dominios incautados.
 
-OONI data shows the blocking of the above sites leading up to the
-referendum, between 25th September 2017 to 1st October 2017. Such data
-can be accessed through the following steps:
+Los datos de OONI muestran el bloqueo de los sitios anteriores que llevaron al referéndum, entre el 25 de Septiembre de 2017 y el 1 de octubre de 2017. A estos datos se puede acceder a través de los siguientes pasos:  
+    
+1. Acceda a [la página en español de OONI Explorer](https://explorer.ooni.torproject.org/country/ES) 
 
-1.  Access the [Spanish page of OONI Explorer](https://explorer.ooni.torproject.org/country/ES)
+2. Haga clic en "Filter results" 
 
-2.  Click “Filter Results”
+3. Agregue uno de los dominios (de la tabla anterior) en la sección "Test Input" 
 
-3.  Add one of the domains (from the table above) in the “Test Input” section
+4. Opcional: Filtre las mediciones por fecha a través de la sección "Date Range" 
 
-4.  Optional: Filter the measurements by date through the “Date Range” section
+5. Haga clic en "Apply Filter" 
 
-5.  Click “Apply Filter”
+6. Haga clic en una de las mediciones filtradas 
 
-6.  Click on one of the filtered measurements
+7. Desplácese hasta el final de la página de medición 
 
-7.  Scroll to the end of the measurement page
+8. Haga clic en "Object" para ver los datos de medición de la red  
 
-8.  Click “Object” to view the network measurement data
-
-Alternatively, the data can be download and analyzed through json files
-included in [OONI’s API](https://api.ooni.io/files/by_country/ES).
-
-Other measurements collected from sensors that provide DNS historical
-values show that referendum.cat was redirected to the domain
-paginaintervenida.edgesuite.net hosted by Akamai on 13th September.
+Alternativamente, los datos pueden ser descargados y analizados a través de archivos JSON incluidos en OONI.  
+    
+Otras mediciones obtenidas de sensores que proporcionan valores históricos de DNS muestran que referendum.cat fue redirigido al dominio paginaintervenida.edgesuite.net alojado por Akamai el 13 de septiembre.
 
 ```
 
-2017-09-13 16:30:46 -0000 IN CNAME paginaintervenida.edgesuite.net.
+2017-09-13 16:30:46 -0000 EN CNAME paginaintervenida.edgesuite.net. 
 
 ```
 
-As of 3rd October 2017, the following domain names are redirected to
-paginaintervenida.edgesuite.net:
+A partir del 3 de octubre de 2017, los siguientes nombres de dominio son redirigidos a paginaintervenida.edgesuite.net:  
 
-* iolin.cat
+* piolin.cat
 
-* Ref1oct.cat
+* ref1oct.cat
 
-* Webdelsi.cat
+* webdelsi.cat
 
-* Empaperem.cat
+* empaperem.cat
 
-* Garanties.cat
+* garanties.cat
 
-* Joconvoco.cat
+* joconvoco.cat
 
-* Vullvotar.cat
+* vullvotar.cat
 
-* Prenpartit.cat
+* prenpartit.cat
 
-* Referendum.cat
+* referendum.cat
 
-* Votaras1-o.cat
+* votaras1-o.cat
 
 * 7democracia.cat
 
-* Sorayasaenz.cat
+* sorayasaenz.cat
 
-* Marianorajoy.cat
+* marianorajoy.cat
 
-* Referendumcat.cat
+* referendumcat.cat
 
 * 1octreferendum.cat
 
-* Holademocracia.cat
+* holademocracia.cat
 
-* Referendumoct1.cat
+* referendumoct1.cat
 
-* Cridademocracia.cat
+* cridademocracia.cat
 
-* Referendumoctubre1.cat
+* referendumoctubre1.cat
+        
+Todos los dominios .cat han sido retirados como resultado de la [orden judicial](http://fundacio.cat/es/noticias/liberacion-del-director-de-innovacion-y-sistemas-de-informacion-de-la-fundacio-puntcat) recibida por Fundacio .cat el 15 de septiembre del Tribunal Superior de Justicia de Cataluña. El director de investigación e información de la organización que dirige el dominio catalán de nivel superior .cat, Pep Oliver, fue detenido el 20 de septiembre y mantenido bajo custodia durante 60 horas.
 
-All the .cat domains have been taken down as the result of the [court order](http://fundacio.cat/es/noticias/liberacion-del-director-de-innovacion-y-sistemas-de-informacion-de-la-fundacio-puntcat)
-that Fundacio .cat received on 15th September from the Tribunal
-Superior de Justicia de Cataluña (TSJC). The director of research and
-information of the organization that runs the Catalan top level domain
-.cat, Pep Oliver, was detained on 20th September and retained under
-custody for 60 hours.
+# Conclusión
 
-# Conclusion
-
-In summary, three main techniques have been used to censor Catalan
-referendum sites:
+En resumen, tres técnicas principales han sido usadas para censurar sitios web del referéndum catalán.
 
 **DNS tampering**
 
-The DNS resolvers of the operators are configured to return bogus DNS
-responses to block the domain names. This technique can be applied for
-any domain but can be bypassed by changing the DNS resolvers of the
-devices (by using Google 8.8.8.8, for example, instead of the operator
-DNS server).
+Los sensores analógicos DNS de los operadores están configurados para devolver respuestas DNS falsas para bloquear los nombres de dominio. Esta técnica se puede aplicar para cualquier dominio, pero se puede omitir cambiando estos sensores analógicos DNS de los dispositivos (utilizando Google 8.8.8.8, por ejemplo, en lugar del servidor DNS del operador).
 
-[OONI data](https://explorer.ooni.torproject.org/country/ES) shows
-that France Telecom Espanya (AS12479) and Euskaltel (AS12338) adopted
-this technique to block sites related to the Catalan referendum.
+[Los datos de OONI](https://explorer.ooni.torproject.org/country/ES) muestran que  France Telecom Espanya (AS12479) y Euskaltel (AS12338) utilzaron esta técnica para bloquear sitios web relacioneados con el referendum catalán.
 
-**HTTP(S) blocking**
+**Bloqueo de HTTP(S)**
 
-This technique inspects, intercepts and alters web traffic so that HTTP
-and/or HTTPS requests to URLs are replaced by a new page (“block page”)
-indicating that they have been blocked.
+Esta técnica inspecciona, intercepta y altera el tráfico en la red por lo que las peticiones HTTP y/o HTTPS a URLs son reemplazadas por una nueva página (“página bloqueada”) indicando que éstas han sido bloqueadas.
 
-[OONI data](https://explorer.ooni.torproject.org/country/ES) shows
-that Telefonica de Espanya (AS3352) adopted this technique to block
-sites related to the Catalan referendum. Traffic recordings and analysis
-of the blocking indicate that Telefonica might be using Israeli
-technology from [Allot Communications](https://www.allot.com/press-release/telefonica-partners-with-allot-communications-to-establish-a-multi-service-platform-for-improved-security-and-user-experience/).
+[Los datos de OONI](https://explorer.ooni.torproject.org/country/ES), en este caso muestran que Telefonica de España (AS3352) usó esta técnica para bloquear páginas relacionadas con el referendum catalá. Registros de tráfico web y análisis de los bloqueos indicaron que Telefonica puede estar usando tecnología israelí de la empresa [Allot Communications](https://www.allot.com/press-release/telefonica-partners-with-allot-communications-to-establish-a-multi-service-platform-for-improved-security-and-user-experience/).
 
-**.CAT domain seizure**
+**Apropiación del dominio .CAT** 
 
-Once Fundacio .CAT implemented the court order, the domains have been
-redirected by means of DNS to the domain paginaintervenida.edgesuite.net
-hosted on Akamai. Many .cat domains though were also blocked by means of
-DNS tampering and HTTP blocking.
+Una vez que Fundacio .CAT acató la orden judicial, los dominios han sido redirigidos por medio de DNS al dominio paginaintervenida.edgesuite.net alojado en Akamai. Muchos dominios .cat, sin embargo, también fueron bloqueados por medio de la manipulación de DNS y el bloqueo de HTTP. 
 
 
-The future of Catalonia remains quite unclear. What is clear is that
-it’s important to keep those in power to account, even in “Western
-democracies”. One way of doing so is by [measuring networks](https://ooni.torproject.org/install/) and increasing
-transparency of information controls.
+El futuro de Cataluña sigue siendo poco claro. Lo que está claro es que es importante mantener a la gente poderosa rindiendo cuentas, incluso en las "democracias occidentales". Una forma de hacerlo es [midiendo las redes](https://ooni.torproject.org/install/) y aumentando la transparencia de los controles de la información.
 
-Evidence is necessary for informed public debate.
+La evidencia es necesaria para un debate público informado.
 
-**Update (2017-10-05 16:30 UTC):** As community members in Spain and Catalonia come across more blocked sites, they are added to this list [here](https://www.nodo50.cat/lista.txt).
+**Actualización (2017-10-04 16:00 UTC):** Qurium/Virtual Road han publicado datos mostrando los mecanismos usados para bloquear sitios web associados al referéndum del 1 de octubre en Catalunya. Los podéis leer [aquí](https://www.qurium.org/alerts/spain/blocking-techniques-catalunya/).
 
-**Update (2017-10-04 16:00 UTC):** Qurium / Virtual Road have published data showing the mechanisms used to block websites associated to the referendum of 1-O of Catalonia. View their findings **[here](https://www.qurium.org/alerts/spain/blocking-techniques-catalunya/)**.
-
-**Update (2017-10-03 20:38 UTC):**  Courtesy of our friends from [Security Without
-Borders](https://securitywithoutborders.org/blog/2017/09/27/catalonia.html),
-you can run [OONI Probe](https://ooni.torproject.org/install) to test
-Catalan websites for censorship by clicking on the "Run OONI" button below:
+**Actualización (2017-10-03 20:38 UTC):** Por cortesía de nuestros amigos de [Security Without Borders](https://securitywithoutborders.org/blog/2017/09/27/catalonia.html), ahora puedes [ejecutar OONI Probe](https://ooni.torproject.org/install) para probar la censura a sitios web catalanes haciendo clic en el botón "Run OONI" aquí.
 
 {{<ooni-run-banner link="https://run.ooni.io/nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22gateway.ipfs.io%22%2C%22cat.referendum.barcelona%22%2C%22referendum.enricpineda.cat%22%2C%22www.referendum.legal%22%2C%22www.referendum.party%22%2C%22www.referendum.ninja%22%2C%22www.referendum.love%22%2C%22www.referendum.fyi%22%2C%22www.referendum.rip%22%2C%22www.referendum.soy%22%2C%22www.referendum.lol%22%2C%22www.referendum.voto%22%2C%22www.referendum.works%22%2C%22www.referendum.observer%22%2C%22www.referendum.fun%22%2C%22alerta.cat%22%2C%22referendum.pirata.cat%22%2C%22referendum.pau.fm%22%2C%22www.referendumcat.eu%22%2C%22nigeon.github.io%22%2C%22www.ref1oct.eu%22%2C%22www.ref1oct.cat%22%2C%22ref1oct.net%22%2C%22ref1oct.org%22%2C%22referendum.zalo.nyc%22%2C%22aniol.github.io%22%2C%22referendum.cat%22%2C%22ref1oct.cat%22%2C%22www.marianorajoy.cat%22%2C%22garantiespelreferendum.com%22%2C%22referendum.clash.cat%22%2C%22marianorajoy.clash.cat%22%5D%7D&mv=1.2.0" text="Test Catalan referendum sites" >}}

@@ -5,5 +5,7 @@ DefaultContentLanguage = "en"
 
 [Languages]
 [Languages.en]
+[Languages.es]
+[Languages.ca]
 [Languages.fr]
 [Languages.pt]

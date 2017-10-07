@@ -25,7 +25,7 @@
           </a>
           <p class="byline" style="margin-bottom: 0">{{ .Date.Format "2 Jan 2006" }}</p>
           {{ if .IsTranslated }}
-            <p>Translated: {{ range .Translations }}<a style="display: inline-block;margin-bottom: 0;" href="{{ .Permalink }}">{{ .Lang }}</a>{{ end }}
+            <p>Translated: {{ range .Translations }}<a style="display: inline-block;margin-bottom: 0;" href="{{ .Permalink }}">{{ if eq .Lang "en" }}English{{ else if eq .Lang "pt" }}Portuguese{{ else if eq .Lang "fr" }}French{{ else if eq .Lang "es"  }}Spanish{{ else if eq .Lang "ca"  }}Catalan{{ else }}{{ .Lang }}{{ end }}</a>{{ end }}
             </p>
           {{ else }}
           {{ end }}

@@ -1,4 +1,5 @@
 OONI_PROBE_REPO_DIR=../ooni-probe
+-include make.conf
 
 setup:
 	git remote add ghpage git@github.com:OpenObservatory/ooni.github.io.git
@@ -12,7 +13,7 @@ publish:
 	rm -rf public/*
 	hugo --theme=ooni --buildDrafts --baseUrl=https://ooni.torproject.org
 	echo "ooni.io" > public/CNAME
-	cd ${OONI_PROBE_REPO_DIR}/docs/; make clean; make html
+	cd ${OONI_PROBE_REPO_DIR}/docs/ && make clean && make html
 	cp -R ${OONI_PROBE_REPO_DIR}/docs/build/html/ public/docs/
 	touch public/.nojekyll
 	ghp-import public
