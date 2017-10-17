@@ -60,28 +60,39 @@ You can monitor the accessibility of your site through the following simple step
 
 You can embed a nice widget on your website by including the widget source like this:
 
-`<script async src='https://cdn.jsdelivr.net/npm/ooni-run/dist/widgets.js'></script>`
+```
+<script async src="https://cdn.jsdelivr.net/npm/ooni-run/dist/widgets.js"></script>
+```
 
 You can then add buttons to your website by adding this element:
 
-`<a href='https://run.ooni.io/nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%3A%2F%2Fwww.wikipedia.org%22%5D%7D&mv=1.2.0' class='ooni-run-button'>Run OONI!</a>`
+```
+<a href="https://run.ooni.io/nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%3A%2F%2Fwww.wikipedia.org%22%5D%7D&mv=1.2.0"
+  class="ooni-run-button">
+Run OONI!
+</a>
+```
 
 The button will look like this on your website:
 
-<OONI button>
+{{<ooni-run-button link="https://run.ooni.io/nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%3A%2F%2Fwww.wikipedia.org%22%5D%7D&mv=1.2.0" text="Run OONI!" >}}
 
 Otherwise, if you would like a bigger widget, you can add (and tailor) the following element to your website:
 
-`<div data-link='https://run.ooni.io/nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%3A%2F%2Fwikipedia.org%22%5D%7D&mv=1.2.0' class='ooni-run-banner'>
-      Test Wikipedia
-    </div>`
+```
+<div data-link="https://run.ooni.io/nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%3A%2F%2Fwikipedia.org%22%5D%7D&mv=1.2.0"
+     class='ooni-run-banner'>
+Test Wikipedia
+</div>
+```
 
- It can look like this:
+It can look like this:
 
- <Big OONI widget>
+{{<ooni-run-banner link="https://run.ooni.io/nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%3A%2F%2Fwikipedia.org%22%5D%7D&mv=1.2.0" text="Test Wikipedia" >}}
 
 Going forward, more [OONI Probe tests](https://ooni.torproject.org/nettest/) will be added to [OONI Run](https://run.ooni.io/). Together, we can coordinate on fighting internet censorship around the world.
 
+*Note:* OONI Run is now available on Android and within 24-48 hours (depending
+on Apple) it will be available on iOS too.
 
-*Note: OONI Run is now available on Android and within 24-48 hours (depending
-on Apple) it will be available on iOS too.*
+
