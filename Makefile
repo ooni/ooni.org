@@ -4,12 +4,14 @@ OONI_PROBE_REPO_DIR=../ooni-probe
 setup:
 	git remote add ghpage git@github.com:OpenObservatory/ooni.github.io.git
 
-update-site: publish
-	echo "Updating the website on ooni.torproject.org"
-	ssh -t staticiforme.torproject.org 'sudo -u ooni /home/ooni/update-website.sh'
+update-site: # publish
+	echo "Updating the website on ooni.torproject.org from openobservatory.github.io"
+	scp update-site.sh staticiforme.torproject.org:
+	ssh -t staticiforme.torproject.org sudo -u ooni sh ./update-site.sh
 	echo "The website is now live at https://ooni.torproject.org/"
 
 publish:
+	exit 1 # temporary broken
 	rm -rf public/*
 	hugo --theme=ooni --buildDrafts --baseUrl=https://ooni.torproject.org
 	echo "ooni.io" > public/CNAME
