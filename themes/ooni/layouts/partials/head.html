@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 {{ $basePrefix := .Scratch.Get "basePrefix" }}
-{{ $baseurl := .Site.BaseURL }}
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
@@ -9,13 +8,13 @@
   <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
   {{ end }}
   <title>OONI - {{ .Title }}</title>
-    <link rel="stylesheet" href="{{ $baseurl }}/css/master.css"/>
-    <link rel="stylesheet" href="{{ $baseurl }}/css/event.css"/>
-    <link rel="stylesheet" href="{{ $baseurl }}/css/fonts.css"/>
-  <link rel="stylesheet" href="{{ $baseurl }}/css/highlight-default.min.css">
-  <link rel="icon" type="image/png" href="{{ $baseurl }}/images/favicon.png"/>
-  <script src="{{ $baseurl }}/js/highlight.min.js"></script>
-  <script src="{{ $baseurl }}/js/zepto.min.js"></script>
+    <link rel="stylesheet" href="/css/master.css"/>
+    <link rel="stylesheet" href="/css/event.css"/>
+    <link rel="stylesheet" href="/css/fonts.css"/>
+  <link rel="stylesheet" href="/css/highlight-default.min.css">
+  <link rel="icon" type="image/png" href="/images/favicon.png"/>
+  <script src="/js/highlight.min.js"></script>
+  <script src="/js/zepto.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/ooni-run/dist/widgets.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
 	<!-- Piwik -->

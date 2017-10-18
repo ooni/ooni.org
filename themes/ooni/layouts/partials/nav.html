@@ -1,32 +1,31 @@
 {{ $basePrefix := .Scratch.Get "basePrefix" }}
-{{ $baseurl := .Site.BaseURL }}
 {{ $selectedMenu := split .URL "/" }}
-<a href="{{ $baseurl }}/about/"
+<a href="/about/"
   {{ if in $selectedMenu "about" }}
    class="active"
   {{end}}
   >About</a>
-<a href="{{ $baseurl }}/install/"
+<a href="/install/"
   {{ if in $selectedMenu "install" }}
    class="active"
   {{end}}
   >Install</a>
-<a href="{{ $baseurl }}/nettest/"
+<a href="/nettest/"
   {{ if in $selectedMenu "nettest" }}
    class="active"
   {{end}}
   >Tests</a>
-<a href="{{ $baseurl }}/data/"
+<a href="/data/"
   {{ if in $selectedMenu "data" }}
    class="active"
   {{end}}
   >Data</a>
-<a href="{{ $baseurl }}/get-involved/"
+<a href="/get-involved/"
   {{ if in $selectedMenu "get-involved" }}
    class="active"
   {{end}}
   >Get Involved</a>
-<a href="{{ $baseurl }}/post/"
+<a href="/post/"
   {{ if in $selectedMenu "post" }}
    class="active"
   {{end}}
