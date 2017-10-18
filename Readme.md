@@ -63,8 +63,8 @@ make publish-update
 
 ## Adding a new blog post
 
-When adding a new blog post and make it appear on the front page you shall edit
-`themes/ooni/layouts/index.html`.
+![ooni-web workflow](.assets/ooni.io.png)
+
 
 ## Python requirements
 
