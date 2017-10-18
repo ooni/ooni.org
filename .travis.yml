@@ -3,6 +3,9 @@ branches:
   only:
     - master # that's unreasonable to have N versions of gh-pages website :)
 
+git:
+  depth: 3 # https://docs.travis-ci.com/user/customizing-the-build/#Git-Clone-Depth
+
 dist: trusty # more "modern" stuff, that's default on 2017-10-18
 sudo: false # speedup, that's default on 2017-10-18
 
@@ -21,10 +24,11 @@ python:
 install:
   - mkdir bin contrib
 
-  - wget https://github.com/gohugoio/hugo/releases/download/v0.30/hugo_0.30_Linux-64bit.tar.gz -O /tmp/hugo_0.30_Linux-64bit.tar.gz
-  - echo '1c4dbbc4fb38577e7100129ded51984ea1795294370fded876b71698f64f8eae  /tmp/hugo_0.30_Linux-64bit.tar.gz' >/tmp/hugo_0.30_checksums.txt
-  - sha256sum --check /tmp/hugo_0.30_checksums.txt
-  - tar -xf /tmp/hugo_0.30_Linux-64bit.tar.gz -C bin/
+  # FIXME: 0.30 causes https://openobservatory.github.io/post/ to appear in wrong order
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.29/hugo_0.29_Linux-64bit.tar.gz -O /tmp/hugo_0.29_Linux-64bit.tar.gz
+  - echo '80011b40b64781a5adfbf882fe3ab3b3c526e9ba8583fb532cd2331ffbe44a9e  /tmp/hugo_0.29_Linux-64bit.tar.gz' >/tmp/hugo_0.29_checksums.txt
+  - sha256sum --check /tmp/hugo_0.29_checksums.txt
+  - tar -xf /tmp/hugo_0.29_Linux-64bit.tar.gz -C bin/
 
   - pip install sphinx sphinx_rtd_theme # Should I specify sphinx versions?
   - git clone --depth 1 --branch master https://github.com/TheTorProject/ooni-probe.git/ contrib/ooni-probe
