@@ -1,0 +1,55 @@
+---
+branches:
+  only:
+    - master # that's unreasonable to have N versions of gh-pages website :)
+
+dist: trusty # more "modern" stuff, that's default on 2017-10-18
+sudo: false # speedup, that's default on 2017-10-18
+
+language: python # speedup
+python:
+  - 2.7
+
+# addons:
+#   apt:
+#     packages:
+#       - git
+#       - make
+#       - python-sphinx
+#       - python-sphinx-rtd-theme
+
+install:
+  - mkdir bin contrib
+
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.30/hugo_0.30_Linux-64bit.tar.gz -O /tmp/hugo_0.30_Linux-64bit.tar.gz
+  - echo '1c4dbbc4fb38577e7100129ded51984ea1795294370fded876b71698f64f8eae  /tmp/hugo_0.30_Linux-64bit.tar.gz' >/tmp/hugo_0.30_checksums.txt
+  - sha256sum --check /tmp/hugo_0.30_checksums.txt
+  - tar -xf /tmp/hugo_0.30_Linux-64bit.tar.gz -C bin/
+
+  - pip install sphinx sphinx_rtd_theme # Should I specify sphinx versions?
+  - git clone --depth 1 --branch master https://github.com/TheTorProject/ooni-probe.git/ contrib/ooni-probe
+
+script:
+  - rm -rf public
+  - bin/hugo --theme=ooni --buildDrafts --baseUrl=https://ooni.torproject.org
+  - cd contrib/ooni-probe/docs make clean && make html
+  - pwd
+  - cd $TRAVIS_BUILD_DIR
+  - cp -R contrib/ooni-probe/docs/build/html/ public/docs/
+  - touch public/.nojekyll
+
+env:
+  # GITHUB_TOKEN=... for @OONIWebPusher see ooni-sysadmin/scripts/mk-travis-vault-env for example
+  - secure: "c9wPMEIZ6qWZi2uQl8RvDq9bVnOhxwDlZPJLyT4m+5WBJau36pBVfZdG8Wxp20dV778jzTrwE1TzFAD80+E95XN0dzQtG2TZASJ/q0IXi7qR4xEnuUi0kDkLAqcvyS1PxQi1W0aUp0t4jYIiqLBDfPol0rJYwTIbsECMv3Rhvyo="
+
+deploy:
+  on:
+    branch: master # XXX: wtf does it mean?
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: public
+  repo: OpenObservatory/OpenObservatory.github.io
+  target_branch: master
+  name: OONI Web Pusher
+...
