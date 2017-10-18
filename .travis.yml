@@ -32,9 +32,8 @@ install:
 script:
   - rm -rf public
   - bin/hugo --theme=ooni --buildDrafts --baseUrl=https://ooni.torproject.org
-  - cd contrib/ooni-probe/docs make clean && make html
-  - pwd
-  - cd $TRAVIS_BUILD_DIR
+  - make -C contrib/ooni-probe/docs clean
+  - make -C contrib/ooni-probe/docs html
   - cp -R contrib/ooni-probe/docs/build/html/ public/docs/
   - touch public/.nojekyll
 
