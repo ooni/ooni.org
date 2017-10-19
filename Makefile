@@ -5,10 +5,10 @@ setup:
 	git remote add ghpage git@github.com:OpenObservatory/ooni.github.io.git
 
 update-site: # publish
-	echo "Updating the website on ooni.torproject.org from openobservatory.github.io"
+	@echo "Updating the website on ooni.torproject.org from openobservatory.github.io"
 	scp update-site.sh staticiforme.torproject.org:
 	ssh -t staticiforme.torproject.org sudo -u ooni sh ./update-site.sh
-	echo "The website is now live at https://ooni.torproject.org/"
+	@echo "The website is now live at https://ooni.torproject.org/"
 
 publish:
 	exit 1 # temporary broken

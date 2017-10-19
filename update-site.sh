@@ -9,7 +9,7 @@ cd openobservatory.github.io
 git fetch --all
 rm -rf ../website~new # to clean possible temporary files
 mkdir ../website~new
-git archive --format tar master | tar x -C ../website~new
+git archive --format tar FETCH_HEAD | tar x -C ../website~new
 cd ../website~new
 find . -type d -exec chmod 755 '{}' +
 find . -type f -exec chmod 644 '{}' +
