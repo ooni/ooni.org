@@ -121,12 +121,6 @@ installed depending on your OS.
 
 ### Import the Lepidopter signing key
 
-From the OONI web server:
-
-```
-gpg --fetch-keys https://get.ooni.torproject.org/lepidopter/lepidopter-signing-key.asc
-```
-
 From a keyserver:
 
 ```
