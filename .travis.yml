@@ -13,14 +13,6 @@ language: python # speedup
 python:
   - 2.7
 
-# addons:
-#   apt:
-#     packages:
-#       - git
-#       - make
-#       - python-sphinx
-#       - python-sphinx-rtd-theme
-
 install:
   - mkdir bin contrib
 
