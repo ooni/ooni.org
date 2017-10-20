@@ -1,0 +1,14 @@
+{
+Editor --> "GH:ooni-web" [label = "Open PR"];
+Editor --> Reviewers [label = "Request for comments"];
+Editor <-- Reviewers [label = "Got ACK"];
+Editor --> "GH:ooni-web" [label = "[Merge] PR to `master`"];
+
+"GH:ooni-web" --> "Travis" [label = "Trigger build"];
+Travis --> "openobservatory\n.github.io" [label = "Upload built website"];
+Travis --> "Editor" [label = "Email build status"];
+
+Editor --> "openobservatory\n.github.io" [label = "Preview at\nopenobservatory.github.io"];
+Editor --> "ooni\n.torproject.org" [label = "Run `make update-site` to\nupdate ooni.torproject.org"];
+"ooni\n.torproject.org" --> "openobservatory\n.github.io" [label = "Fetch from GH"];
+}
