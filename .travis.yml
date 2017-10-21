@@ -26,6 +26,7 @@ install:
   - git clone --depth 1 --branch master https://github.com/TheTorProject/ooni-probe.git/ contrib/ooni-probe
 
 script:
+  # keep this in-sync with `Makefile`, this copy-pasta is here to track execution time of each step at Travis CI
   - rm -rf public
   - bin/hugo --theme=ooni --buildDrafts --baseUrl=https://ooni.torproject.org
   - make -C contrib/ooni-probe/docs clean
@@ -35,6 +36,8 @@ script:
 
 env:
   # GITHUB_TOKEN=... for @OONIWebPusher see ooni-sysadmin/scripts/mk-travis-vault-env for example
+  # Travis `pages` deploy provides requires "personal access token", that's why it's not a deploy key, see https://docs.travis-ci.com/user/deployment/pages/ for details
+  # Password for the @OONIWebPusher is maintained by leonid@openobservatory.org, password reset email address is admin@openobservatory.org
   - secure: "c9wPMEIZ6qWZi2uQl8RvDq9bVnOhxwDlZPJLyT4m+5WBJau36pBVfZdG8Wxp20dV778jzTrwE1TzFAD80+E95XN0dzQtG2TZASJ/q0IXi7qR4xEnuUi0kDkLAqcvyS1PxQi1W0aUp0t4jYIiqLBDfPol0rJYwTIbsECMv3Rhvyo="
 
 deploy:
