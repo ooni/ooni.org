@@ -1,75 +1,37 @@
-# Setup
+# Contributing articles
 
-On OSX:
-```
-brew install hugo
-```
+* Fork this repository if you're not a collaborator
+* Add your post to `content/post/` directory
+* Submit a pull request
+* Wait for pull request to be reviewed and merged to `master` or merge it yourself :)
+* Wait for [Travis CI](https://travis-ci.org/TheTorProject/ooni-web/) to build [Github mirror](https://openobservatory.github.io/)
+* Update your local copy using `git checkout master && git pull --ff-only`
+* Publish GH mirror to https://ooni.torproject.org using `make update-site`
 
-For other platforms download the hugo release for your system here:
-https://github.com/spf13/hugo/releases
+![ooni-web workflow](.assets/ooni.io.png)
 
-# Running locally
+# Local build
+
+## Setup
+
+Dependencies to build the website **manually** are
+[hugo](https://github.com/spf13/hugo/),
+[ooni-probe](https://github.com/TheTorProject/ooni-probe), and
+[sphinx](http://www.sphinx-doc.org/en/stable/) to build ooni-probe docs. Exact
+versions are codified in "canonical" build procedure in
+[travis.yml](./travis.yml).
+
+
+## Running locally
+
+If you want to preview the website while editing styles and posts you can do it running following command:
 
 ```
 make server
 ```
 
-Which is the equivalent of:
-
-```
-hugo server --theme=ooni --baseUrl=http://127.0.0.1:1313
-```
-
-# Contributing articles
-
-* Fork this repository
-
-* Add your post to `content/post/` directory
-
-* Submit a pull request
-
-# Publishing
-
-Make sure you have the ghpage remote setup with:
-
-```
-make setup
-```
-
-That runs:
-
-```
-git remote add ghpage git@github.com:ooni/ooni.github.io.git
-```
-
-You can publish the website to github by running:
+If you want to publish to [Github mirror](https://openobservatory.github.io/), you should run:
 
 ```
 make publish
-```
-
-Once this is done you can then update the site on the torproject server by
-doing:
-
-```
-make update-site
-```
-
-If you want to do both at the same time run:
-
-```
-make publish-update
-```
-
-## Adding a new blog post
-
-![ooni-web workflow](.assets/ooni.io.png)
-
-
-## Python requirements
-
-```
-ghp-import==0.4.1
-MarkupSafe==0.23
-Sphinx==1.3.1
 ```
