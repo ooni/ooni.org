@@ -16,6 +16,8 @@ in collaboration with [Amnesty International](https://www.amnesty.org/) we are r
 includes evidence of recent censorship events during Ethiopia’s political
 upheaval.
 
+See the [Amharic translation](/post/ethiopia-report/amharic-translation.pdf) of the report. Translated by Wolete Mariam.
+
 View the **pdf** version of the report [here](/documents/Ethiopia-Offline-evidence-of.pdf).
 
 **Country:** Ethiopia
