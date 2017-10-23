@@ -52,4 +52,5 @@ deploy:
   repo: OpenObservatory/OpenObservatory.github.io
   target_branch: master
   name: OONI Web Pusher
+  email: admin@openobservatory.org # publishing OONI with deploy@travis-ci.org is ugly
 ...
