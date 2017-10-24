@@ -27,7 +27,9 @@ install:
 
 script:
   # keep this in-sync with `Makefile`, this copy-pasta is here to track execution time of each step at Travis CI
-  - rm -rf public
+  # `public` directory is a scratchpad for website generator
+  # `design` directory is http://openobservatory.github.io/design/ website for https://github.com/openobservatory/design repo
+  - rm -rf public design
   - bin/hugo --theme=ooni --buildDrafts --baseUrl=https://ooni.torproject.org
   - make -C contrib/ooni-probe/docs clean
   - make -C contrib/ooni-probe/docs html
@@ -50,4 +52,5 @@ deploy:
   repo: OpenObservatory/OpenObservatory.github.io
   target_branch: master
   name: OONI Web Pusher
+  email: admin@openobservatory.org # publishing OONI with deploy@travis-ci.org is ugly
 ...

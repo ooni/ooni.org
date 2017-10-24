@@ -9,8 +9,9 @@ update-site:
 
 # NB: `make publish` is slow as it downloads whole website and re-uploads it back,
 # you should not use it in your daily life, it's a disaster recovery procedure.
+# keep this in-sync with `.travis.yml`
 publish:
-	rm -rf public
+	rm -rf public design
 	hugo --theme=ooni --buildDrafts --baseUrl=https://ooni.torproject.org
 	make -C ${OONI_PROBE_REPO_DIR}/docs clean
 	make -C ${OONI_PROBE_REPO_DIR}/docs html
