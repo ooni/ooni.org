@@ -1,6 +1,6 @@
-# Writing a modern cross platform desktop app
+# Writing a modern cross-platform desktop app
 
-The goal of this article it to outline some of the architecture & design considerations, made while thinking about how we would implement the OONI Probe desktop apps. This is the result of research and experimentation with a variety of different libraries and approaches. For each part of the technological stack we will be outlining the rationale and trade-offs for each decision.
+The goal of this article is to outline some of the architecture & design considerations made while thinking about how we would implement the OONI Probe desktop apps. This is the result of research and experimentation with a variety of different libraries and approaches. For each part of the technological stack we will be outlining the rationale and trade-offs for each decision.
 
 # Requirements & design goals
 
@@ -21,7 +21,7 @@ These are **must haves**. If any of the proposed solutions do not satisfy one of
 
 ## D) Desiderata
 
-Below we listfeatures or use cases that we **would like to** support, but they should not be the reason for excluding an approach or technology.
+Below we list features or use cases that we **would like to** support, but they should not be the reason for excluding an approach or technology.
 
 1.  **Linux** desktop support
 2.  **Command Line Interface (CLI)** support
@@ -35,11 +35,11 @@ Below we listfeatures or use cases that we **would like to** support, but they s
 
 # Technological selection
 
-In this section we provide an overview of the technologies that have been taken into consideration and we list the pros and cons for each of them.Finally, we will list what we have chosen as our technological stack for this project.
+In this section we provide an overview of the technologies that have been taken into consideration and we list the pros and cons for each of them. Finally, we list what we have chosen as our technological stack for this project.
 
 The possible combinations of software stacks pivot around two main approaches:
 
-**1\. Everything is implemented using some cross platform GUI toolkit (electron, QT, etc.)**
+**1\. Everything is implemented using some cross-platform GUI toolkit (electron, QT, etc.)**
 
 Less duplication of code (**D8**) and likely less costly to maintain in the long run (one code base for all platforms).
 
@@ -119,9 +119,9 @@ Even though it’s unclear how open source it is, we decided to look into it no
 
 [https://developer.apple.com/macos/](https://developer.apple.com/macos/)
 
-The mainbenefit of using [Cocoa](https://developer.apple.com/macos/) is that we could maybe re-use some of the code from the iOS app.In looking into this option we realized that a lot of the code would change to support the desktop use-case and that in fact, not much would be preserved, moreover the benefit of having identical code-bases for Windows and macOS outweighs the benefit of reusing some iOS code.
+The main benefit of using [Cocoa](https://developer.apple.com/macos/) is that we could maybe re-use some of the code from the iOS app.In looking into this option we realized that a lot of the code would change to support the desktop use-case and that in fact, not much would be preserved, moreover the benefit of having identical code-bases for Windows and macOS outweighs the benefit of re-using some iOS code.
 
-Since we only have one developer on our team with Cocoa experience it made moresense to opt for another solution (also given the fact that we didn’t find a satisfactory native option for Windows).
+Since we only have one developer on our team with Cocoa experience it made more sense to opt for another solution (also given the fact that we didn’t find a satisfactory native option for Windows).
 
 ## Electron
 
