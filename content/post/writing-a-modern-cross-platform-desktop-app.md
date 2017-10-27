@@ -4,7 +4,7 @@ The goal of this article it to outline some of the architecture & design conside
 
 # Requirements & design goals
 
-Our primary goal with the OONI Probe desktop apps is to enable **Windows**and **macOS**desktop users to run [OONI Probe](https://github.com/TheTorProject/ooni-probe)network measurement tests. These tests will be run in the **[Measurement Kit](https://github.com/measurement-kit)** implementation of OONI tests.
+Our primary goal with the OONI Probe desktop apps is to enable **Windows**and **macOS**desktop users to run [OONI Probe](https://github.com/TheTorProject/ooni-probe) network measurement tests. These tests will be run in the **[Measurement Kit](https://github.com/measurement-kit)** implementation of OONI tests.
 
 ## R) Requirements
 
@@ -27,7 +27,7 @@ Below we listfeatures or use cases that we **would like to** support, but they s
 2.  **Command Line Interface (CLI)** support
 3.  Support **older versions of Windows**
 4.  **Web browser** support (for IoT type deployments)
-5.  Easy to **integrate**our existing [ooni-components](https://github.com/openobservatory/design)that are [styled-components](https://github.com/styled-components/styled-components)
+5.  Easy to **integrate**our existing [ooni-components](https://github.com/openobservatory/design) that are [styled-components](https://github.com/styled-components/styled-components)
 6.  The **learning curve** of the technologies in question should not be too steep
 7.  The technologies should be ones that we are already **familiar with**
 8.  **Minimal code duplication** between the various platforms
@@ -152,9 +152,9 @@ Based on the considerations made above in the **Technological selection**, w
 
 The stack we decided to use based upon it includes:
 
-*   [React](https://reactjs.org/): We alreadyhave experience using it and we have started implementing all our [UI components](https://github.com/OpenObservatory/design)using [styled-components](https://github.com/styled-components/styled-components).
+*   [React](https://reactjs.org/): We alreadyhave experience using it and we have started implementing all our [UI components](https://github.com/OpenObservatory/design) using [styled-components](https://github.com/styled-components/styled-components).
 *   [Next-electron](https://github.com/leo/electron-next): We are already familiar with next.js and has some real world use cases (example: [now-desktop](https://github.com/zeit/now-desktop)).
-*   The logical choice for auto-update support in the Electron ecosystem is [Squirrel](https://github.com/Squirrel/Squirrel.Windows), which [works out of the box for macOS](https://github.com/electron/electron/blob/master/docs/api/auto-updater.md#macos)and can be made to work on [Windows with not too much effort](https://github.com/electron/electron/blob/master/docs/api/auto-updater.md#windows).
+*   The logical choice for auto-update support in the Electron ecosystem is [Squirrel](https://github.com/Squirrel/Squirrel.Windows), which [works out of the box for macOS](https://github.com/electron/electron/blob/master/docs/api/auto-updater.md#macos) and can be made to work on [Windows with not too much effort](https://github.com/electron/electron/blob/master/docs/api/auto-updater.md#windows).
 *   [Pkg](https://github.com/zeit/pkg) for building cross platform node.js executables.
 
 # Architecture
