@@ -6,15 +6,15 @@ tags: ["technology", "software engineering"]
 categories: ["blog"]
 ---
 
-The goal of this article is to outline some of the architecture & design considerations made while thinking about how we would implement the OONI Probe desktop apps. This is the result of research and experimentation with a variety of different libraries and approaches. For each part of the technological stack we will be outlining the rationale and trade-offs for each decision.
+The goal of this article is to outline some of the architecture & design considerations made while thinking about how we would implement the OONI Probe desktop apps. This is the result of research and experimentation with a variety of different libraries and approaches. For each part of the technical stack we will outline the rationale leading to our choices.
 
 # Requirements & design goals
 
-Our primary goal with the OONI Probe desktop apps is to enable **Windows**and **macOS**desktop users to run [OONI Probe](https://github.com/TheTorProject/ooni-probe) network measurement tests. These tests will be run in the **[Measurement Kit](https://github.com/measurement-kit)** implementation of OONI tests.
+Our primary goal with the OONI Probe desktop apps is to enable **Windows**and **macOS**desktop users to run [OONI Probe](https://github.com/TheTorProject/ooni-probe) network measurement tests without knowledge of the command line. These tests will use the **[Measurement Kit](https://github.com/measurement-kit)** implementation of OONI tests.
 
 ## R) Requirements
 
-These are **must haves**. If any of the proposed solutions do not satisfy one of the following requirements, it is not going to be considered.
+These are **must haves**. We will not consider options which do not meet these criteria.
 
 1.  **Windows** support
 2.  **macOS** support
@@ -41,7 +41,7 @@ Below we list features or use cases that we **would like to** support, but they 
 
 # Technological selection
 
-In this section we provide an overview of the technologies that have been taken into consideration and we list the pros and cons for each of them. Finally, we list what we have chosen as our technological stack for this project.
+In this section we provide an overview of the technologies we considered and list the pros and cons for each of them. Finally, we explain our choice of technical stack for this project.
 
 The possible combinations of software stacks pivot around two main approaches:
 
@@ -49,9 +49,9 @@ The possible combinations of software stacks pivot around two main approaches:
 
 Less duplication of code (**D8**) and likely less costly to maintain in the long run (one code base for all platforms).
 
-**2\. We use the best solution available for implementing the UI layer native to the target platform (react-native-window or WPF on windows, gtk on linux, cocoa on macOS)**
+**2\. Use the best solution available for implementing the UI layer for each platform (react-native-window or WPF on windows, gtk on linux, cocoa on macOS)**
 
-More native feel and depending on the technological choice we can maybe re-use some code from the mobile apps (for example the iOS code for macOS).
+More native feel (**D9**) and depending on the technological choice we can maybe re-use some code from the mobile apps (for example the iOS code for macOS).
 
 ## React Native Windows
 
@@ -67,7 +67,7 @@ More native feel and depending on the technological choice we can maybe re-use s
 **Meh:**
 
 *   **R6** - It appears to have a fairly active community, is backed by microsoft and has some real world use cases of apps using it. That said, no high profile desktop app is using it.
-*   **R1**- Kind of supports up to Windows 7, but if you do follow this approach you have a much more limited API, as WPF support is behind UWD (Window 10 only). See: [https://github.com/Microsoft/react-native-windows/blob/master/docs/CoreParityStatus.md](https://github.com/Microsoft/react-native-windows/blob/master/docs/CoreParityStatus.md) 
+*   **R1**- Partial support for Windows 7, but only with a much more limited API, as WPF support is behind UWD (Window 10 only). See: [https://github.com/Microsoft/react-native-windows/blob/master/docs/CoreParityStatus.md](https://github.com/Microsoft/react-native-windows/blob/master/docs/CoreParityStatus.md) 
 
 **Cons:**
 
@@ -78,7 +78,7 @@ More native feel and depending on the technological choice we can maybe re-use s
 
 [https://github.com/ptmt/react-native-macos](https://github.com/ptmt/react-native-macos)
 
-We excluded [this](https://github.com/ptmt/react-native-macos) fairly on in our analysis as the quality of the software is fairly alpha and doesn’t seem to have any real world use case (**R6**).
+Excluded [this](https://github.com/ptmt/react-native-macos) fairly early on in our analysis as the quality of the software is not stable and doesn't have real world use (**R6**).
 
 The Readme used to say:
 
@@ -119,42 +119,42 @@ Even though it’s unclear how open source it is, we decided to look into it no
 
 [https://docs.microsoft.com/en-gb/windows/uwp/get-started/universal-application-platform-guide](https://docs.microsoft.com/en-gb/windows/uwp/get-started/universal-application-platform-guide)
 
-[This](https://docs.microsoft.com/en-gb/windows/uwp/get-started/universal-application-platform-guide)has very similar pros and cons to WPF, except that it only supports Window 10+ (**D3**). It seems like the learning curve for it may be a bit less steep than WPF upon a cursory look at it, but since it doesn’t support Window 7 (the mostly highly used windows version as of date), we didn’t look much into it.
+[This](https://docs.microsoft.com/en-gb/windows/uwp/get-started/universal-application-platform-guide) has very similar pros and cons to WPF, except that it only supports Window 10+ (**D3**). It seems like the learning curve for it may be a bit less steep than WPF upon a cursory look at it, but since it doesn’t support Window 7 (the mostly highly used windows version as of date), we didn’t consider it.
 
 ## Cocoa
 
 [https://developer.apple.com/macos/](https://developer.apple.com/macos/)
 
-The main benefit of using [Cocoa](https://developer.apple.com/macos/) is that we could maybe re-use some of the code from the iOS app.In looking into this option we realized that a lot of the code would change to support the desktop use-case and that in fact, not much would be preserved, moreover the benefit of having identical code-bases for Windows and macOS outweighs the benefit of re-using some iOS code.
+The main benefit of using [Cocoa](https://developer.apple.com/macos/) is that we could re-use some of the code from the iOS app. In looking into this option we realized that a lot of the code would need to change to support the desktop use-case and could not be easily translated. Moreover, the benefit of having identical code-bases for Windows and macOS outweighs the benefit of re-using iOS code.
 
-Since we only have one developer on our team with Cocoa experience it made more sense to opt for another solution (also given the fact that we didn’t find a satisfactory native option for Windows).
+Since we only have one developer on our team with Cocoa experience, it made more sense to opt for another solution (also given the fact that we didn’t find a satisfactory native option for Windows).
 
 ## Electron
 
 [https://electron.atom.io/](https://electron.atom.io/)
 
-The latest trend in the desktop app development world is to [use electron to build cross-platform desktop apps](https://github.com/sindresorhus/awesome-electron#apps).
+The most successful current non-native stack for desktop app development world is to [use electron to build cross-platform desktop apps](https://github.com/sindresorhus/awesome-electron#apps).
 
 **Pros:**
 
-*   **D6** - The learning curve is not too steep as you are writing javascript/node.js code.
+*   **D6** - The learning curve is not too steep as you are using javascript/node.js for most logic.
 *   **D7** - Javascript is a technology that we are already familiar with.
-*   **R6** - It has a **very**active community, is backed by GiHhub and has **many** real world, high profile, stories of apps using it (such as Slack, github desktop, atom, Brave).
+*   **R6** - It has a **very** active community, is backed by GiHhub and has **many** real world, high profile, stories of apps using it (such as Slack, github desktop, atom, Brave).
 *   **R1, R2, R3, R4, R5, R7, R8**
 *   **D8, D1** - This approach will work for Windows, macOS and Linux. The javascript code base, if written carefully, can maybe be adapted to a browser use-case as well.
 *   **D3**- Older versions of Windows are supported.
 
 **Meh:**
 
-*   **D9** - The look and feel is not super native, but you can style it in a way that doesn’t look as horrible. In my experiments I found that it was possible to achieve an almost comparable look and feel to a native app with not too much effort.
+*   **D9** - The look and feel is not particularly native, but you can style it in a way that doesn’t look horrible. In my experiments I found that it was possible to achieve an almost comparable look and feel to a native app without too much effort.
 
 **Cons:**
 
-*   Although not explicitly stated as a requirement, the size of the app is quite large. However, we do not consider this a good enough reason to discard this option (OONI Probe usersare already using a lot of bandwidth to run tests).
+*   Although not explicitly stated as a requirement, the size of the app is quite large. However, we do not consider this a good enough reason to discard this option (OONI Probe users already using a lot of bandwidth to run tests).
 
 # Stack
 
-Based on the considerations made above in the **Technological selection**, we concluded that, for our use-case,the optimal based technology is **[Electron](https://electron.atom.io/)**.
+Based on the considerations above in the **Technological selection**, we concluded that, for our use-case, the **[Electron](https://electron.atom.io/)** architecture makes the most sense.
 
 The stack we decided to use based upon it includes:
 
@@ -174,4 +174,4 @@ The basic idea is that we are in the process of building [node.js bindings for M
 The desktop app itself will be a react.js app (built with next.js) that will be
 packaged with Electron.
 
-Hope you have found this post useful, if you would like to further discuss this subscribe to the [ooni-dev mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-dev).
+We hope you have found this post useful, if you have further questions or suggestions on our development choices, we encourage you to subscribe to the [ooni-dev mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-dev).
