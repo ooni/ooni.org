@@ -10,7 +10,7 @@ The goal of this article is to outline some of the architecture & design conside
 
 # Requirements & design goals
 
-Our primary goal with the OONI Probe desktop apps is to enable **Windows**and **macOS**desktop users to run [OONI Probe](https://github.com/TheTorProject/ooni-probe) network measurement tests without knowledge of the command line. These tests will use the **[Measurement Kit](https://github.com/measurement-kit)** implementation of OONI tests.
+Our primary goal with the OONI Probe desktop apps is to enable **Windows** and **macOS** desktop users to run [OONI Probe](https://github.com/TheTorProject/ooni-probe) network measurement tests without knowledge of the command line. These tests will use the **[Measurement Kit](https://github.com/measurement-kit)** implementation of OONI tests.
 
 ## R) Requirements
 
@@ -19,7 +19,7 @@ These are **must haves**. We will not consider options which do not meet these c
 1.  **Windows** support
 2.  **macOS** support
 3.  **Auto-update** of the application
-4.  **Must not**require a **web browser** for using the application
+4.  **Must not** require a **web browser** for using the application
 5.  **One-click** installation, whatever that means on the target platform
 6.  **Mature technologies** that have an established community and a history of production applications using them
 7.  Ability to link to a C++ library ([Measurement Kit](https://github.com/measurement-kit))
@@ -33,7 +33,7 @@ Below we list features or use cases that we **would like to** support, but they 
 2.  **Command Line Interface (CLI)** support
 3.  Support **older versions of Windows**
 4.  **Web browser** support (for IoT type deployments)
-5.  Easy to **integrate**our existing [ooni-components](https://github.com/openobservatory/design) that are [styled-components](https://github.com/styled-components/styled-components)
+5.  Easy to **integrate** our existing [ooni-components](https://github.com/openobservatory/design) that are [styled-components](https://github.com/styled-components/styled-components)
 6.  The **learning curve** of the technologies in question should not be too steep
 7.  The technologies should be ones that we are already **familiar with**
 8.  **Minimal code duplication** between the various platforms
@@ -67,12 +67,12 @@ More native feel (**D9**) and depending on the technological choice we can maybe
 **Meh:**
 
 *   **R6** - It appears to have a fairly active community, is backed by microsoft and has some real world use cases of apps using it. That said, no high profile desktop app is using it.
-*   **R1**- Partial support for Windows 7, but only with a much more limited API, as WPF support is behind UWD (Window 10 only). See: [https://github.com/Microsoft/react-native-windows/blob/master/docs/CoreParityStatus.md](https://github.com/Microsoft/react-native-windows/blob/master/docs/CoreParityStatus.md) 
+*   **R1** - Partial support for Windows 7, but only with a much more limited API, as WPF support is behind UWD (Window 10 only). See: [https://github.com/Microsoft/react-native-windows/blob/master/docs/CoreParityStatus.md](https://github.com/Microsoft/react-native-windows/blob/master/docs/CoreParityStatus.md) 
 
 **Cons:**
 
 *   **D8** - This approach will only work for Windows, so we would have to come up with another solution for macOS, Linux and browsers.
-*   **D3**- Older versions of Windows are only supported with WPF, which is much less comprehensive than UWD support. See: [https://github.com/infinitered/react-native-windows/blob/ebc512df2afb5b87d62ffd569c2ae8d3f822e7f7/docs/CoreParityStatusWPF.md](https://github.com/infinitered/react-native-windows/blob/ebc512df2afb5b87d62ffd569c2ae8d3f822e7f7/docs/CoreParityStatusWPF.md) 
+*   **D3** - Older versions of Windows are only supported with WPF, which is much less comprehensive than UWD support. See: [https://github.com/infinitered/react-native-windows/blob/ebc512df2afb5b87d62ffd569c2ae8d3f822e7f7/docs/CoreParityStatusWPF.md](https://github.com/infinitered/react-native-windows/blob/ebc512df2afb5b87d62ffd569c2ae8d3f822e7f7/docs/CoreParityStatusWPF.md) 
 
 ## React native macOS
 
@@ -142,7 +142,7 @@ The most successful current non-native stack for desktop app development world i
 *   **R6** - It has a **very** active community, is backed by GiHhub and has **many** real world, high profile, stories of apps using it (such as Slack, github desktop, atom, Brave).
 *   **R1, R2, R3, R4, R5, R7, R8**
 *   **D8, D1** - This approach will work for Windows, macOS and Linux. The javascript code base, if written carefully, can maybe be adapted to a browser use-case as well.
-*   **D3**- Older versions of Windows are supported.
+*   **D3** - Older versions of Windows are supported.
 
 **Meh:**
 
