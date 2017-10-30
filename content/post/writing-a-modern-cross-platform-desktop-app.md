@@ -1,4 +1,10 @@
-# Writing a modern cross-platform desktop app
+---
+title: "Writing a modern cross-platform desktop app"
+author: "Arturo Filastò"
+date: "2017-10-30"
+tags: ["technology", "software engineering"]
+categories: ["blog"]
+---
 
 The goal of this article is to outline some of the architecture & design considerations made while thinking about how we would implement the OONI Probe desktop apps. This is the result of research and experimentation with a variety of different libraries and approaches. For each part of the technological stack we will be outlining the rationale and trade-offs for each decision.
 
