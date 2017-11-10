@@ -195,6 +195,10 @@ publishing measurements)
 * Network measurements (you can view the specifics by reviewing each of the
 [tests](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs))
 
+OONI does not modify the information in the data after publication (including
+scrubbing unintentionally collected PII or other private information) as soon
+as the data is public and is known to be replicated by other entities.
+
 Learn more about the above through [OONI's Data
 Policy](https://ooni.torproject.org/about/data-policy/).
 
