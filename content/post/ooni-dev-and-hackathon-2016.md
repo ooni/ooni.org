@@ -2,7 +2,7 @@
 title: "OONI-dev meeting and hackathon 2016"
 author: "Maria Xynou"
 date: "2016-11-22"
-tags: ["hackathon"]
+tags: ["events", "hackathon"]
 categories: []
 ---
 
