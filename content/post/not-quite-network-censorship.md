@@ -30,11 +30,11 @@ regional news portal in Brazil that is not reachable from several networks and
 ISPs in Brazil [for quite a long
 time](https://people.torproject.org/~andz/pe/measurements.br.pernambuco.pdf).
 Looking at the [OONI data](https://people.torproject.org/~andz/pe/measurements.br.pernambuco.csv) we found that the website was not reachable
-and it seemed like a [DNS-based
+and it presented signs of [DNS-based
 blocking](https://explorer.ooni.torproject.org/measurement/s3YPvS70pxtUQXG5qLv8z2wfafZ98eUzCmxcbYkvSRELpYS2mBWksZCacvAr5GqS?input=http:%2F%2Fwww.pernambuco.com%2Fdiario)
-due to empty DNS responses that is usually a sign of possible internet censorship
+due to empty DNS responses that is usually a symptom of possible internet censorship
 or network blocking. Upon further analysis we detected a number of DNS
-misconfigurations of the content delivery network DNS servers where the
+misconfigurations of the content delivery networks DNS servers where the
 nameservers of the domain in question are hosted. A
 [nameserver](https://en.wikipedia.org/wiki/Name_server) is a necessary
 component and the most important function of a DNS server that implements a
@@ -46,12 +46,12 @@ affected websites to be inaccessible in Brazil and other networks worldwide.
 
 (FIXME: what version of assets in people/~andz should we store in static/post/xxxx?)
 
-OONI tries hard to apply Hanlon's razor to every statement about network
+OONI tries hard to apply [Hanlon's razor](https://en.wikipedia.org/wiki/Hanlon%27s_razor) to every statement about network
 interference: *never attribute to censorship that which is adequately explained
 by misconfiguration*. Thanks to Lucas from [CodingRights](https://www.codingrights.org/) who gave us access to
 his networks, the numerous OONI measurements reports that were submitted by
-volunteers and RIPE Atlas measurements we were able to investigate the DNS
-interference issues that made not possible to access the regional news portal
+volunteers and RIPE Atlas measurements, we were able to investigate the DNS
+interference issues that made it impossible to access the regional news portal
 [pernambuco.com](http://pernambuco.com) from within various ISPs and networks
 in Brazil as well as worldwide.
 
