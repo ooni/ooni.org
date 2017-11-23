@@ -67,24 +67,23 @@ Below the output of the DNS lookup utility `dig` querying the domain name
 `pernambuco.com`:
 
 <details><summary>`$ dig pernambuco.com`</summary>
-```
+<pre><code>
 ; <<>> DiG 9.9.5-9+deb8u12-Debian <<>> pernambuco.com
 ;; global options: +cmd
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 17644
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
-
+&nbsp;
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 4096
 ;; QUESTION SECTION:
 ;pernambuco.com.                        IN      A
-
+&nbsp;
 ;; Query time: 14 msec
 ;; SERVER: 181.213.132.2#53(181.213.132.2)
 ;; WHEN: Tue Nov 14 16:27:07 UTC 2017
 ;; MSG SIZE  rcvd: 43
-```
-</details>
+</code></pre></details>
 
 One of the ways to check if the domain is blocked by some local DNS policy is
 to attempt resolving it directly through an [authoritative nameserver](https://en.wikipedia.org/wiki/Domain_Name_System#Authoritative_name_server).
@@ -93,7 +92,7 @@ misconfiguration and not a DNS-based filtering. And `pernambuco.com` domain was
 passing the test:
 
 <details><summary>`$ dig +trace pernambuco.com`</summary>
-```
+<pre><code>
 ; <<>> DiG 9.9.5-9+deb8u12-Debian <<>> +trace pernambuco.com
 ;; global options: +cmd
 .                       369185  IN      NS      h.root-servers.net.
@@ -110,7 +109,7 @@ passing the test:
 .                       369185  IN      NS      l.root-servers.net.
 .                       369185  IN      NS      g.root-servers.net.
 ;; Received 811 bytes from 181.213.132.2#53(181.213.132.2) in 2116 ms
-
+&nbsp;
 com.                    172800  IN      NS      a.gtld-servers.net.
 com.                    172800  IN      NS      l.gtld-servers.net.
 com.                    172800  IN      NS      c.gtld-servers.net.
@@ -127,7 +126,7 @@ com.                    172800  IN      NS      h.gtld-servers.net.
 com.                    86400   IN      DS      30909 8 2 E2D3C916F6DEEAC73294E8268FB5885044A833FC5459588F4A9184CF C41A5766
 com.                    86400   IN      RRSIG   DS 8 1 86400 20171127050000 20171114040000 46809 . QSfUCjfWB2/Ulx1L/6BmpR3glCR6vAvtK+N9E332aJ9luPLQ9hycjiZp 4PoEWaDTDt4vQgL6pzgKNt+sGgr3lmbtJAnFEHAKPy/TBv/T8KhcApv8 Ceuwv/yUB1Oo5sUtppNVtNHQKm+jqUQ+MWQe9YNMPTrOi5dT2A3qYktg zhI9fk9gcqNfJkn/Vd/Ol1o+zLqP+yy9MY+xBjky2MPaXY4EaGnZWSQn UCyYH95k0WOuvHl6Q0EYe4jEAqQGQnMjGR/dFHF7WbARoqR92/Ahfsvr 2eAF2CcuIi5/cRKJr10Us3v3QvytZqvhwA6bzu292NYQIS0talFlATDF JRw9vQ==
 ;; Received 1174 bytes from 192.33.4.12#53(c.root-servers.net) in 3656 ms
-
+&nbsp;
 pernambuco.com.         172800  IN      NS      americalatina.upx.com.br.
 pernambuco.com.         172800  IN      NS      americadonorte.upx.com.br.
 CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN NSEC3 1 1 0 - CK0Q1GIN43N1ARRC9OSM6QPQR81H5M9A NS SOA RRSIG DNSKEY NSEC3PARAM
@@ -135,13 +134,12 @@ CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN RRSIG NSEC3 8 2 86400 20171121054
 CIP56NHTT7TEO7BIRQFIOVC1GSDSNFD0.com. 86400 IN NSEC3 1 1 0 - CIP5L6DBFHE9UAL3LG0PVN426ILSC3GJ NS DS RRSIG
 CIP56NHTT7TEO7BIRQFIOVC1GSDSNFD0.com. 86400 IN RRSIG NSEC3 8 2 86400 20171120055405 20171113044405 11324 com. bLisStF5rB/gXGaHOMV9it6Qg4JcERGbaBlvP7KRDyj7d1LlTyjZHWmt V3B2LS0vdjCMlEDxqqwPsO3mL/1GF8WX0z7qrsWf5qYxuegxikhLDamK s9qOIIdFsdNDhnloPa9+e7p9PwM5B0jR07I778+2E7PRIUXZP7D3BSLF K4w=
 ;; Received 595 bytes from 192.42.93.30#53(g.gtld-servers.net) in 534 ms
-
+&nbsp;
 pernambuco.com.         14400   IN      A       45.79.193.247
 pernambuco.com.         86400   IN      NS      ns2.upx.com.br.
 pernambuco.com.         86400   IN      NS      ns1.upx.com.br.
 ;; Received 193 bytes from 2804:2870:2:1::31#53(americalatina.upx.com.br) in 132 ms
-```
-</details>
+</code></pre></details>
 
 While checking various resolution paths we discovered that `ns2.upx.com.br`,
 resolving to the IPv6 address `2001:19f0:ac01:b3:5400:ff:fe46:4676`, was not
@@ -213,7 +211,7 @@ A proof of concept to verify this issue in the most widely used DNS server,
 [BIND](https://en.wikipedia.org/wiki/BIND) follows:
 
 <details><summary>BIND DNS server in an Ubuntu 16.04 docker container:</summary>
-```
+<pre><code>
 root@dom0 # docker run -ti --rm ubuntu:16.04 bash
 root@4017200da4e2:~# apt-get update && apt-get -y install bind9 dnsutils
 root@4017200da4e2:~# echo 'logging { channel errchan {stderr; severity debug; print-severity yes; print-time yes;}; category default {errchan;}; };' >> /etc/bind/named.conf.local
@@ -223,14 +221,13 @@ root@4017200da4e2:~# dig pernambuco.com @127.0.0.1
 22-Nov-2017 18:50:41.413 info: skipping nameserver 'americalatina.upx.com.br' because it is a CNAME, while resolving 'pernambuco.com/A'
 22-Nov-2017 18:50:41.413 info: skipping nameserver 'americadonorte.upx.com.br' because it is a CNAME, while resolving 'pernambuco.com/A'
 22-Nov-2017 18:50:41.413 debug 1: client 127.0.0.1#45827 (pernambuco.com): query failed (SERVFAIL) for pernambuco.com/IN/A at ../../../bin/named/query.c:7773
-
+&nbsp;
 ; <<>> DiG 9.10.3-P4-Ubuntu <<>> pernambuco.com @127.0.0.1
 ;; global options: +cmd
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 23719
 ...
-```
-</details>
+</code></pre></details>
 
 ## Workaround
 
