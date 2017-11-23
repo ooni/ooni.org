@@ -1,7 +1,7 @@
 ---
 title: "urandom.pcap: when DDoS shield is confused with censor; case of pernambuco.com"
 author: "Leonid Evdokimov, Vasilis Ververis"
-date: "2017-11-22"
+date: "2017-11-23"
 tags: ["brazil", "CDN", "DNS"]
 categories: ["blog"]
 ---
@@ -193,6 +193,8 @@ domains](https://atlas.ripe.net/measurements/10204294/#!probes) as well as
 the resource `upx.com.br` hosted on the same nameservers have [no issues related
 to the  DNS resolving](https://atlas.ripe.net/measurements/10203916/#!general)
 from the same vantage points.
+Most of affected domains in this list look like stale, dead websites hosting
+no valuable content, only two of them look like "living" domain.
 What is common amongst the failing domains (SERVFAIL response code) is the
 difference between the `NS` records at the top-level domain nameserver and the
 authoritative nameserver that was clearly visible in the trace of the
@@ -231,18 +233,30 @@ root@4017200da4e2:~# dig pernambuco.com @127.0.0.1
 
 ## Workaround
 
-A list of possible ways to fix this issue:
+We propose a list of possible ways to fix this issue:
 
-- UPX may expand americalatina.upx.com.br and americadonorte.upx.com.br CNAMEs to a `A` and `AAAA` records
-- The administrator of the affected website may change americalatina.upx.com.br to ns1.upx.com.br and ns2.upx.com.br in corresponding TLD registry control panel
+- The user wanting to get access to affected website may use any of [public recursive name servers](https://en.wikipedia.org/wiki/Public_recursive_name_server)
+  besides OpenNIC.  OpenNIC announces usage of BIND 9.10.x via `version.bind/CH/TXT` DNS resource record and can't resolve the affected domain names;
+- UPX may expand americalatina.upx.com.br and americadonorte.upx.com.br CNAMEs to a `A` and `AAAA` records;
+- The administrator of the affected website may apply following changes in TLD registry control panel
+  - `americalatina.upx.com.br` should be replaced with `ns1.upx.com.br`,
+  - `americadonorte.upx.com.br` → `ns2.upx.com.br`,
+  - `asia.upx.com.br` → `ns3.upx.com.br`.
 
 ## Responsible disclosure
 
 On the 15th of November 2017 we have reported to UPX the issue along with a way
-to reproduce it and have still not received any reply on a possible resolution.
-Our intention is for UPX to solve the issue for all UPX customers instead of
-customers manually changing the NS records of their domains in the top-level
-domain registry.
+to reproduce it. IPv6 incident was resolved quickly. CNAME incident was
+explained to be a fix for some operational issues and it was known to UPX that
+it may break backward compatibility.  UPX assured us that affected customers
+were notified about the migration to new NS names long time ago.
+
+UPX advised us to notify the administrators of the affected websites once again
+pointing them to UPX customer service to avoid possible trust issues.  We also
+notified administrators of "living" affected websites on the 23rd of November.
+Some of these email notifications [bounced back](https://en.wikipedia.org/wiki/Bounce_message).
+
+`¯\_(ツ)_/¯`
 
 We believe that the issue is indeed a misconfiguration and not an intention
 network interference from network filtering policy. We hope that our report may
