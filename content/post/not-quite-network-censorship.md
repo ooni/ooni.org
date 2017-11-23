@@ -202,7 +202,7 @@ delegation path from the root name servers; `dig +trace`.
 
 The `NS` records of the affected domains are `americadonorte.upx.com.br` and
 `americalatina.upx.com.br`. These records are `CNAME` records in the
-`upx.com.br` zone and according to [RFC's 1996 common DNS errors
+`upx.com.br` zone and according to [RFC's 1912 common DNS errors
 section](https://tools.ietf.org/html/rfc1912#section-2.4) (dating back around
 11 years ago): "*Having NS records pointing to a CNAME is bad and may conflict
 badly with current BIND servers. In fact, current BIND implementations will
