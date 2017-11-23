@@ -59,7 +59,7 @@ in Brazil as well as worldwide.
 
 The basic issue we have identified was the [recursive DNS nameserver](https://en.wikipedia.org/wiki/Domain_Name_System#Recursive_and_caching_name_server)
 provided by [Virtua ISP](https://stat.ripe.net/AS28573) failed to resolve the
-domain responding with <tt>SERVFAIL</tt> (Server failure) that means the name
+domain responding with <tt>SERVFAIL</tt> (Server failure) that means that the name
 server was unable to process the query due to a problem with the name
 server (Source: [RFC1035](https://tools.ietf.org/html/rfc1035))
 
@@ -87,8 +87,8 @@ Below the output of the DNS lookup utility `dig` querying the domain name
 </details>
 
 One of the ways to check if the domain is blocked by some local DNS policy is
-an attempt to resolve it directly through [authoritative nameserver](https://en.wikipedia.org/wiki/Domain_Name_System#Authoritative_name_server).
-If DNS name resolution works that way it suggests that the case could be some
+to attempt resolving it directly through an [authoritative nameserver](https://en.wikipedia.org/wiki/Domain_Name_System#Authoritative_name_server).
+If DNS name resolution works that way, it suggests that the case could be some
 misconfiguration and not a DNS-based filtering. And `pernambuco.com` domain was
 passing the test:
 
@@ -143,18 +143,18 @@ pernambuco.com.         86400   IN      NS      ns1.upx.com.br.
 ```
 </details>
 
-While checking various resolution paths we discovered that `ns2.upx.com.br`
-resolving to the IPv6 address `2001:19f0:ac01:b3:5400:ff:fe46:4676` was not
+While checking various resolution paths we discovered that `ns2.upx.com.br`,
+resolving to the IPv6 address `2001:19f0:ac01:b3:5400:ff:fe46:4676`, was not
 responding to DNS queries. The first assumption we made was that the recursive
-DNS nameserver has a strong preference to IPv6 over IPv4 and fails fast if the
-IPv6 endpoint  is not reachable. However the resource `ns1.upx.com.br` had an
+DNS nameserver has a strong preference for IPv6 over IPv4 and fails fast if the
+IPv6 endpoint is not reachable. However the resource `ns1.upx.com.br` had an
 IPv6 address, so we assumed that there is something special about the resource
 `ns2.upx.com.br` and found out that it was the only authoritative nameserver
 having an IPv6
 [glue record](https://en.wikipedia.org/wiki/Domain_Name_System#Circular_dependencies_and_glue_records)
 in the top-level domain zone.
 
-We verified through RIPE Atlas measurements that `ns2.upx.com.br` works without
+We verified through [RIPE Atlas](https://atlas.ripe.net) measurements that `ns2.upx.com.br` works without
 errors through IPv4 via
 [DNS/TCP](https://atlas.ripe.net/measurements/10197953/#!probes), but is broken
 through IPv6 both via
@@ -191,13 +191,13 @@ as is unlikely that IP routing is the root cause. In addition to the domain
 [`wakeworld.com.br`](https://atlas.ripe.net/measurements/10294532/#!probes) presenting the same
 failure and symptoms. But some other domains "hosted" by UPX Technologies were
 not affected, and [`dpnet.com.br` was one of properly working
-domains](https://atlas.ripe.net/measurements/10204294/#!probes).  as well as
-the resource `upx.com.br` hosted on the same nameservers has [no issues related
+domains](https://atlas.ripe.net/measurements/10204294/#!probes) as well as
+the resource `upx.com.br` hosted on the same nameservers have [no issues related
 to the  DNS resolving](https://atlas.ripe.net/measurements/10203916/#!general)
 from the same vantage points.
-What is common between the failing domains (SERVFAIL response code) is the
+What is common amongst the failing domains (SERVFAIL response code) is the
 difference between the `NS` records at the top-level domain nameserver and the
-authoritative nameserver that was clearly visible in the tracing of the
+authoritative nameserver that was clearly visible in the trace of the
 delegation path from the root name servers; `dig +trace`.
 
 ## NS records pointing to a CNAME is a bad practice
