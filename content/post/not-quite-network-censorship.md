@@ -203,7 +203,7 @@ delegation path from the root name servers; `dig +trace`.
 ## NS records pointing to a CNAME is a bad practice
 
 The `NS` records of the affected domains are `americadonorte.upx.com.br` and
-`americalatina.upx.com.br` were these records are `CNAME` records in the
+`americalatina.upx.com.br`. These records are `CNAME` records in the
 `upx.com.br` zone and according to [RFC's 1996 common DNS errors
 section](https://tools.ietf.org/html/rfc1912#section-2.4) (dating back around
 11 years ago): "*Having NS records pointing to a CNAME is bad and may conflict
@@ -236,7 +236,7 @@ root@4017200da4e2:~# dig pernambuco.com @127.0.0.1
 
 A list of possible ways to fix this issue:
 
-- UPX may expand americalatina.upx.com.br and americadonorte.upx.com.br CNAMEs to usual `A` and `AAAA` records
+- UPX may expand americalatina.upx.com.br and americadonorte.upx.com.br CNAMEs to a `A` and `AAAA` records
 - The administrator of the affected website may change americalatina.upx.com.br to ns1.upx.com.br and ns2.upx.com.br in corresponding TLD registry control panel
 
 ## Responsible disclosure
