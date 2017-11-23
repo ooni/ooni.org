@@ -11,41 +11,44 @@ categories: ["blog"]
 **OONI tests:** [Web Connectivity](https://ooni.torproject.org/nettest/web-connectivity/),
 [HTTP requests](https://ooni.torproject.org/nettest/http-requests/)
 
-**Probed ISPs:** AS1916 (Associação Rede Nacional de Ensino e Pesquisa),
-AS262650 (Kyatera Informatica Ltda), AS2715 (Fundacao de Amparo a Pesquisa/RJ),
-AS27699 (TELEFÔNICA BRASIL S.A), AS28573 (CLARO S.A.), AS52873 (SOFTDADOS
-CONECTIVIDADE), AS7738 (Telemar Norte Leste S.A.), AS8167 (Brasil Telecom S/A -
-Filial Distrito Federal)
+**Probed ISPs:** [AS1916](https://stat.ripe.net/AS1916) (Associação Rede Nacional de Ensino e Pesquisa),
+[AS262650](https://stat.ripe.net/AS262650) (Kyatera Informatica Ltda),
+[AS2715](https://stat.ripe.net/AS2715) (Fundacao de Amparo a Pesquisa/RJ),
+[AS27699](https://stat.ripe.net/AS27699) (TELEFÔNICA BRASIL S.A),
+[AS28573](https://stat.ripe.net/AS28573) (CLARO S.A.),
+[AS52873](https://stat.ripe.net/AS52873) (SOFTDADOS CONECTIVIDADE),
+[AS7738](https://stat.ripe.net/AS7738) (Telemar Norte Leste S.A.),
+[AS8167](https://stat.ripe.net/AS8167) (Brasil Telecom S/A - Filial Distrito Federal)
 
 **Measurement period:** July 2016 — November 2017
 
-**Website inaccessibility reasons:** IPv6 or DNSSEC misconfiguration
+**Website inaccessibility reasons:** IPv6 or DNS misconfiguration
 
-We ecently identifyed DNS based networking interferences after
+We recently identified DNS based networking interferences after
 inaccessibility of the website [pernambuco.com](http://pernambuco.com); a
 regional news portal in Brazil that is not reachable from several networks and
 ISPs in Brazil [for quite a long
 time](https://people.torproject.org/~andz/pe/measurements.br.pernambuco.pdf).
-Looking at the OONI data we found that the website was not reachable
-and it seemed as a [DNS-based
-blocking](https://explorer.ooni.torproject.org/measurement/s3YPvS70pxtUQXG5qLv8z2wfafZ98eUzCmxcbYkvSRELpYS2mBWksZCacvAr5GqS?input=http:%2F%2Fwww.pernambuco.com%2Fdiario).
+Looking at the [OONI data](https://people.torproject.org/~andz/pe/measurements.br.pernambuco.csv) we found that the website was not reachable
+and it seemed like a [DNS-based
+blocking](https://explorer.ooni.torproject.org/measurement/s3YPvS70pxtUQXG5qLv8z2wfafZ98eUzCmxcbYkvSRELpYS2mBWksZCacvAr5GqS?input=http:%2F%2Fwww.pernambuco.com%2Fdiario)
 due to empty DNS responses that is usually a sign of possible internet censorship
 or network blocking. Upon further analysis we detected a number of DNS
-misconfigurations of the upstream's provider (UPX) DNS servers were the
+misconfigurations of the content delivery network DNS servers where the
 nameservers of the domain in question are hosted. A
 [nameserver](https://en.wikipedia.org/wiki/Name_server) is a necessary
 component and the most important function of a DNS server that implements a
 network service for providing responses to queries against a directory service.
 In this article we present an analysis of possible DNS misconfigurations that
 may have caused the website to be inaccessible and provide some possible
-solution to resolve DNS misconfiguration that cause `pernambuco.com` and other
+solution to resolve DNS misconfiguration that causes `pernambuco.com` and other
 affected websites to be inaccessible in Brazil and other networks worldwide.
 
 (FIXME: what version of assets in people/~andz should we store in static/post/xxxx?)
 
 OONI tries hard to apply Hanlon's razor to every statement about network
 interference: *never attribute to censorship that which is adequately explained
-by misconfiguration*. Thanks to Lucas from CodingRights that gave us access to
+by misconfiguration*. Thanks to Lucas from [CodingRights](https://www.codingrights.org/) who gave us access to
 his networks, the numerous OONI measurements reports that were submitted by
 volunteers and RIPE Atlas measurements we were able to investigate the DNS
 interference issues that made not possible to access the regional news portal
@@ -57,7 +60,7 @@ in Brazil as well as worldwide.
 The basic issue we have identified was the [recursive DNS nameserver](https://en.wikipedia.org/wiki/Domain_Name_System#Recursive_and_caching_name_server)
 provided by [Virtua ISP](https://stat.ripe.net/AS28573) failed to resolve the
 domain responding with <tt>SERVFAIL</tt> (Server failure) that means the name
-server was unable to process the query due to a problem with the name
+server was unable to process the query due to a problem with the name
 server (Source: [RFC1035](https://tools.ietf.org/html/rfc1035))
 
 Below the output of the DNS lookup utility `dig` querying the domain name
@@ -167,7 +170,7 @@ IPv6 connectivity for
 the level of cooperation and support from the UPX team, even if we are not
 their customers.
 
-Unfortunately the recursive DNS nameserver still responds with the
+Unfortunately, the recursive DNS nameserver still responds with the
 <tt>SERVFAIL</tt> error code and the issue [affects lots of Brazilian
 networks](https://atlas.ripe.net/measurements/10203306/#!probes), although not
 all of them: and this is an indicator that it *may* be a possible
@@ -177,8 +180,15 @@ issue is affecting a number of
 the [failure was cached](https://atlas.ripe.net/measurements/10204036/#!probes)
 according to consequent resolution latency. The issue seems to be "persistent"
 as is unlikely that IP routing is the root cause. In addition to the domain
-`pernambuco.com` there are other affected domains such as [`aquipe.com.br`]
-(https://atlas.ripe.net/measurements/10204359/#!probes) presenting the same
+`pernambuco.com` there are other affected domains such as
+[`aquipe.com.br`](https://atlas.ripe.net/measurements/10204359/#!probes),
+[`assineodiario.com.br`](https://atlas.ripe.net/measurements/10294525/#!probes),
+[`brunoprado.com.br`](https://atlas.ripe.net/measurements/10294526/#!probes),
+[`clubediario.com.br`](https://atlas.ripe.net/measurements/10294527/#!probes),
+[`espacodaprevidencia.com.br`](https://atlas.ripe.net/measurements/10294528/#!probes),
+[`radiogloborecife.com.br`](https://atlas.ripe.net/measurements/10294529/#!probes),
+[`tvonorte.com.br`](https://atlas.ripe.net/measurements/10294531/#!probes) and
+[`wakeworld.com.br`](https://atlas.ripe.net/measurements/10294532/#!probes) presenting the same
 failure and symptoms. But some other domains "hosted" by UPX Technologies were
 not affected, and [`dpnet.com.br` was one of properly working
 domains](https://atlas.ripe.net/measurements/10204294/#!probes).  as well as
