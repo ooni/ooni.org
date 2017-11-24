@@ -166,8 +166,7 @@ misconfiguration issue, rather than a network filtering policy. In addition to B
 issue also appears to be affecting a number of other
 [networks worldwide](https://atlas.ripe.net/measurements/10203314/?filter=&diversity-picker=5&aggregator=&show_only=SERVFAIL#!map) and
 the [failure was cached](https://atlas.ripe.net/measurements/10204036/#!probes)
-according to consequent resolution latency. The issue seems to be "persistent"
-so it's unlikely that IP routing is the root cause.
+according to consequent resolution latency.
 
 ![RIPE Atlas measurement showing worldwide failures](/post/not-quite-network-censorship/ripe-atlas-10203314.png)
 
