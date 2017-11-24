@@ -1,7 +1,7 @@
 ---
-title: "urandom.pcap: when DDoS shield is confused with censor; case of pernambuco.com"
+title: "Identifying cases of DNS misconfiguration: Not quite censorship"
 author: "Leonid Evdokimov, Vasilis Ververis"
-date: "2017-11-23"
+date: "2017-11-24"
 tags: ["brazil", "CDN", "DNS"]
 categories: ["blog"]
 ---
@@ -24,46 +24,37 @@ categories: ["blog"]
 
 **Website inaccessibility reasons:** IPv6 or DNS misconfiguration
 
-We recently identified DNS based networking interferences after
-inaccessibility of the website [pernambuco.com](http://pernambuco.com); a
-regional news portal in Brazil that is not reachable from several networks and
-ISPs in Brazil [for quite a long
+We recently noticed that [pernambuco.com](http://pernambuco.com), a
+regional news portal, has not been reachable from several networks in Brazil [for quite some
 time](https://people.torproject.org/~andz/pe/measurements.br.pernambuco.pdf).
-Looking at the [OONI data](https://people.torproject.org/~andz/pe/measurements.br.pernambuco.csv) we found that the website was not reachable
-and it presented signs of [DNS-based
+By looking at [OONI data](https://people.torproject.org/~andz/pe/measurements.br.pernambuco.csv), we found that the site was not reachable and that it presented signs of [DNS-based
 blocking](https://explorer.ooni.torproject.org/measurement/s3YPvS70pxtUQXG5qLv8z2wfafZ98eUzCmxcbYkvSRELpYS2mBWksZCacvAr5GqS?input=http:%2F%2Fwww.pernambuco.com%2Fdiario)
-due to empty DNS responses that is usually a symptom of possible internet censorship
-or network blocking. Upon further analysis we detected a number of DNS
-misconfigurations of the content delivery networks DNS servers where the
+due to empty DNS responses that is usually a symptom of potential internet censorship. But upon further analysis, we found a number of DNS
+misconfigurations of the content delivery networks where the
 nameservers of the domain in question are hosted. A
-[nameserver](https://en.wikipedia.org/wiki/Name_server) is a necessary
-component and the most important function of a DNS server that implements a
+[nameserver](https://en.wikipedia.org/wiki/Name_server) is a function of a DNS server that implements a
 network service for providing responses to queries against a directory service.
 In this article we present an analysis of possible DNS misconfigurations that
-may have caused the website to be inaccessible and provide some possible
-solution to resolve DNS misconfiguration that causes `pernambuco.com` and other
-affected websites to be inaccessible in Brazil and other networks worldwide.
+may have caused `pernambuco.com` to be inaccessible. We also provide some
+solutions to resolve DNS misconfiguration for `pernambuco.com` and other sites potentially affected in Brazil and worldwide.
 
 (FIXME: what version of assets in people/~andz should we store in static/post/xxxx?)
 
 OONI tries hard to apply [Hanlon's razor](https://en.wikipedia.org/wiki/Hanlon%27s_razor) to every statement about network
 interference: *never attribute to censorship that which is adequately explained
 by misconfiguration*. Thanks to Lucas from [CodingRights](https://www.codingrights.org/) who gave us access to
-his networks, the numerous OONI measurements reports that were submitted by
-volunteers and RIPE Atlas measurements, we were able to investigate the DNS
-interference issues that made it impossible to access the regional news portal
-[pernambuco.com](http://pernambuco.com) from within various ISPs and networks
-in Brazil as well as worldwide.
+his networks, the numerous [OONI measurements](https://api.ooni.io/files/by_country/BR) submitted by
+volunteers and RIPE Atlas measurements, we were able to investigate the inaccessibility of
+[pernambuco.com](http://pernambuco.com) in Brazil.
 
 ## DNS resolution failures
 
-The basic issue we have identified was the [recursive DNS nameserver](https://en.wikipedia.org/wiki/Domain_Name_System#Recursive_and_caching_name_server)
+The basic issue that we identified is that the [recursive DNS nameserver](https://en.wikipedia.org/wiki/Domain_Name_System#Recursive_and_caching_name_server)
 provided by [Virtua ISP](https://stat.ripe.net/AS28573) failed to resolve the
-domain responding with <tt>SERVFAIL</tt> (Server failure) that means that the name
-server was unable to process the query due to a problem with the name
-server (Source: [RFC1035](https://tools.ietf.org/html/rfc1035))
+domain, responding with <tt>SERVFAIL</tt> (Server failure). As a result, the name
+server was unable to process the query (Source: [RFC1035](https://tools.ietf.org/html/rfc1035)).
 
-Below the output of the DNS lookup utility `dig` querying the domain name
+Below we include the output of the DNS lookup utility `dig` querying the domain name
 `pernambuco.com`:
 
 <details><summary>`$ dig pernambuco.com`</summary>
@@ -86,10 +77,10 @@ Below the output of the DNS lookup utility `dig` querying the domain name
 </code></pre></details>
 
 One of the ways to check if the domain is blocked by some local DNS policy is
-to attempt resolving it directly through an [authoritative nameserver](https://en.wikipedia.org/wiki/Domain_Name_System#Authoritative_name_server).
+to attempt to resolve it directly through an [authoritative nameserver](https://en.wikipedia.org/wiki/Domain_Name_System#Authoritative_name_server).
 If DNS name resolution works that way, it suggests that the case could be some
-misconfiguration and not a DNS-based filtering. And `pernambuco.com` domain was
-passing the test:
+misconfiguration and not a case of DNS-based filtering. And `pernambuco.com`
+passed the test:
 
 <details><summary>`$ dig +trace pernambuco.com`</summary>
 <pre><code>
@@ -145,40 +136,41 @@ While checking various resolution paths we discovered that `ns2.upx.com.br`,
 resolving to the IPv6 address `2001:19f0:ac01:b3:5400:ff:fe46:4676`, was not
 responding to DNS queries. The first assumption we made was that the recursive
 DNS nameserver has a strong preference for IPv6 over IPv4 and fails fast if the
-IPv6 endpoint is not reachable. However the resource `ns1.upx.com.br` had an
+IPv6 endpoint is not reachable. However, the resource `ns1.upx.com.br` had an
 IPv6 address, so we assumed that there is something special about the resource
-`ns2.upx.com.br` and found out that it was the only authoritative nameserver
-having an IPv6
+`ns2.upx.com.br` and found that it was the only authoritative nameserver
+with an IPv6
 [glue record](https://en.wikipedia.org/wiki/Domain_Name_System#Circular_dependencies_and_glue_records)
 in the top-level domain zone.
 
-We verified through [RIPE Atlas](https://atlas.ripe.net) measurements that `ns2.upx.com.br` works without
+Through [RIPE Atlas](https://atlas.ripe.net) measurements, we verified that `ns2.upx.com.br` works without
 errors through IPv4 via
 [DNS/TCP](https://atlas.ripe.net/measurements/10197953/#!probes), but is broken
 through IPv6 both via
 [DNS/UDP](https://atlas.ripe.net/measurements/10197871/#!probes) and
 [DNS/TCP](https://atlas.ripe.net/measurements/10197872/#!probes).
 
-We got in contact with the service provider of the aforementioned DNS
-nameserver [UPX Technologies](https://www.upx.com/) and reported the issue. The
-technical support team was very prompt and quickly resolved the issue of the
+We got in touch with [UPX Technologies](https://www.upx.com/), the service provider of the aforementioned DNS
+nameserver, and reported the issue. The
+technical support team was very collaborative and quickly resolved the issue of
 IPv6 connectivity for
 [DNS/TCP](https://atlas.ripe.net/measurements/10199076/#!probes) and
 [DNS/UDP](https://atlas.ripe.net/measurements/10199080/#!probes). We appreciate
-the level of cooperation and support from the UPX team, even if we are not
+the amount of cooperation and support that we received from the UPX team, even though we are not
 their customers.
 
-Unfortunately, the recursive DNS nameserver still responds with the
-<tt>SERVFAIL</tt> error code and the issue [affects lots of Brazilian
-networks](https://atlas.ripe.net/measurements/10203306/#!probes), although not
-all of them: and this is an indicator that it *may* be a possible
-misconfiguration and not a network filtering policy. In point of fact, the
-issue is affecting a number of
-[networks worldwide](https://atlas.ripe.net/measurements/10203314/#!probes) and
+Unfortunately though, the recursive DNS nameserver still responds with the
+<tt>SERVFAIL</tt> error code and the issue [affects many Brazilian
+networks](https://atlas.ripe.net/measurements/10203306/#!probes), but not
+all of them. This strongly suggests that it *may* be a
+misconfiguration issue, rather than a network filtering policy. In addition to `pernambuco.com`, this
+issue also appears to be affecting a number of other
+[domains worldwide](https://atlas.ripe.net/measurements/10203314/#!probes) and
 the [failure was cached](https://atlas.ripe.net/measurements/10204036/#!probes)
 according to consequent resolution latency. The issue seems to be "persistent"
-as is unlikely that IP routing is the root cause. In addition to the domain
-`pernambuco.com` there are other affected domains such as
+since it's unlikely that IP routing is the root cause. 
+
+Other affected domains include
 [`aquipe.com.br`](https://atlas.ripe.net/measurements/10204359/#!probes),
 [`assineodiario.com.br`](https://atlas.ripe.net/measurements/10294525/#!probes),
 [`brunoprado.com.br`](https://atlas.ripe.net/measurements/10294526/#!probes),
@@ -186,15 +178,12 @@ as is unlikely that IP routing is the root cause. In addition to the domain
 [`espacodaprevidencia.com.br`](https://atlas.ripe.net/measurements/10294528/#!probes),
 [`radiogloborecife.com.br`](https://atlas.ripe.net/measurements/10294529/#!probes),
 [`tvonorte.com.br`](https://atlas.ripe.net/measurements/10294531/#!probes) and
-[`wakeworld.com.br`](https://atlas.ripe.net/measurements/10294532/#!probes) presenting the same
+[`wakeworld.com.br`](https://atlas.ripe.net/measurements/10294532/#!probes). All of these domains present the same
 failure and symptoms. But some other domains "hosted" by UPX Technologies were
-not affected, and [`dpnet.com.br` was one of properly working
-domains](https://atlas.ripe.net/measurements/10204294/#!probes) as well as
-the resource `upx.com.br` hosted on the same nameservers have [no issues related
-to the  DNS resolving](https://atlas.ripe.net/measurements/10203916/#!general)
-from the same vantage points.
-Most of affected domains in this list look like stale, dead websites hosting
-no valuable content, only two of them look like "living" domain.
+not affected, such as [`dpnet.com.br`](https://atlas.ripe.net/measurements/10204294/#!probes) and
+the resource [`upx.com.br`](https://atlas.ripe.net/measurements/10203916/#!general).
+
+Most of the affected domains listed above look like stale, "dead" websites, while only two of them seem "active". 
 What is common amongst the failing domains (SERVFAIL response code) is the
 difference between the `NS` records at the top-level domain nameserver and the
 authoritative nameserver that was clearly visible in the trace of the
@@ -209,8 +198,8 @@ section](https://tools.ietf.org/html/rfc1912#section-2.4) (dating back around
 11 years ago): "*Having NS records pointing to a CNAME is bad and may conflict
 badly with current BIND servers. In fact, current BIND implementations will
 ignore such records, possibly leading to a lame delegation*".
-A proof of concept to verify this issue in the most widely used DNS server,
-[BIND](https://en.wikipedia.org/wiki/BIND) follows:
+
+Below we include a proof of concept to verify this issue in [BIND](https://en.wikipedia.org/wiki/BIND), the most widely used DNS server:
 
 <details><summary>BIND DNS server in an Ubuntu 16.04 docker container:</summary>
 <pre><code>
@@ -233,32 +222,28 @@ root@4017200da4e2:~# dig pernambuco.com @127.0.0.1
 
 ## Workaround
 
-We propose a list of possible ways to fix this issue:
+We propose the following possible solutions to fix this issue:
 
-- The user wanting to get access to affected website may use any of [public recursive name servers](https://en.wikipedia.org/wiki/Public_recursive_name_server)
-  besides OpenNIC.  OpenNIC announces usage of BIND 9.10.x via `version.bind/CH/TXT` DNS resource record and can't resolve the affected domain names;
-- UPX may expand americalatina.upx.com.br and americadonorte.upx.com.br CNAMEs to a `A` and `AAAA` records;
-- The administrator of the affected website may apply following changes in TLD registry control panel
-  - `americalatina.upx.com.br` should be replaced with `ns1.upx.com.br`,
-  - `americadonorte.upx.com.br` → `ns2.upx.com.br`,
-  - `asia.upx.com.br` → `ns3.upx.com.br`.
+* To access an affected site, use any of the [public recursive name servers](https://en.wikipedia.org/wiki/Public_recursive_name_server), except for OpenNIC (which announces the usage of BIND 9.10.x via `version.bind/CH/TXT` DNS resource record and can't resolve the affected domain names);
+
+* UPX may expand `americalatina.upx.com.br` and `americadonorte.upx.com.br` CNAMEs to `A` and `AAAA` records;
+
+* The administrators of the affected sites can apply the following changes in the TLD registry control panel:
+
+  * `americalatina.upx.com.br` should be replaced with `ns1.upx.com.br`;
+  * `americadonorte.upx.com.br` → `ns2.upx.com.br`;
+  * `asia.upx.com.br` → `ns3.upx.com.br`.
 
 ## Responsible disclosure
 
-On the 15th of November 2017 we have reported to UPX the issue along with a way
-to reproduce it. IPv6 incident was resolved quickly. CNAME incident was
-explained to be a fix for some operational issues and it was known to UPX that
-it may break backward compatibility.  UPX assured us that affected customers
-were notified about the migration to new NS names long time ago.
+On 15th November 2017 we reported the issue to UPX. As a result, they quickly resolved the IPv6 issue. They also explained that the CNAME incident was a fix for some operational issues and that they were aware that this could potentially break backward compatibility.  UPX assured us that the affected customers
+were notified about the migration to new NS names a long time ago.
 
-UPX advised us to notify the administrators of the affected websites once again
-pointing them to UPX customer service to avoid possible trust issues.  We also
-notified administrators of "living" affected websites on the 23rd of November.
-Some of these email notifications [bounced back](https://en.wikipedia.org/wiki/Bounce_message).
+UPX also advised us to notify the administrators of the affected websites,
+pointing them to UPX customer service to avoid potential trust issues. We
+notified the administrators of the affected "active" websites on 23rd November 2017, but
+some of these email notifications [bounced back](https://en.wikipedia.org/wiki/Bounce_message).
 
 `¯\_(ツ)_/¯`
 
-We believe that the issue is indeed a misconfiguration and not an intention
-network interference from network filtering policy. We hope that our report may
-help other people or entities to troubleshoot and fix DNS misconfiguration that
-may affect the accessibility of a website.
+We believe that the issue is indeed a misconfiguration and *not* an intentional, network filtering policy. We hope that this report will help others to troubleshoot and fix DNS misconfiguration affecting the accessibility of sites around the world.
