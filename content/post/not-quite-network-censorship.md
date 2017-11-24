@@ -25,20 +25,18 @@ categories: ["blog"]
 **Website inaccessibility reasons:** IPv6 or DNS misconfiguration
 
 We recently noticed that [pernambuco.com](http://pernambuco.com), a
-regional news portal, has not been reachable from several networks in Brazil [for quite some
-time](https://people.torproject.org/~andz/pe/measurements.br.pernambuco.pdf).
-By looking at [OONI data](https://people.torproject.org/~andz/pe/measurements.br.pernambuco.csv), we found that the site was not reachable and that it presented signs of [DNS-based
+regional news portal, has not been reachable from several networks in Brazil for quite some
+time. By looking at [OONI data](/post/not-quite-network-censorship/measurements.br.pernambuco.csv), we found that the site was not reachable and that it presented signs of [DNS-based
 blocking](https://explorer.ooni.torproject.org/measurement/s3YPvS70pxtUQXG5qLv8z2wfafZ98eUzCmxcbYkvSRELpYS2mBWksZCacvAr5GqS?input=http:%2F%2Fwww.pernambuco.com%2Fdiario)
 due to empty DNS responses that is usually a symptom of potential internet censorship. But upon further analysis, we found a number of DNS
-misconfigurations of the content delivery networks where the
-nameservers of the domain in question are hosted. A
+misconfigurations of the nameservers hosting the domain in question. A
 [nameserver](https://en.wikipedia.org/wiki/Name_server) is a function of a DNS server that implements a
 network service for providing responses to queries against a directory service.
 In this article we present an analysis of possible DNS misconfigurations that
 may have caused `pernambuco.com` to be inaccessible. We also provide some
 solutions to resolve DNS misconfiguration for `pernambuco.com` and other sites potentially affected in Brazil and worldwide.
 
-(FIXME: what version of assets in people/~andz should we store in static/post/xxxx?)
+![OONI web_connectivity tests](/post/not-quite-network-censorship/measurements.br.pernambuco.png)
 
 OONI tries hard to apply [Hanlon's razor](https://en.wikipedia.org/wiki/Hanlon%27s_razor) to every statement about network
 interference: *never attribute to censorship that which is adequately explained
@@ -51,8 +49,9 @@ volunteers and RIPE Atlas measurements, we were able to investigate the inaccess
 
 The basic issue that we identified is that the [recursive DNS nameserver](https://en.wikipedia.org/wiki/Domain_Name_System#Recursive_and_caching_name_server)
 provided by [Virtua ISP](https://stat.ripe.net/AS28573) failed to resolve the
-domain, responding with <tt>SERVFAIL</tt> (Server failure). As a result, the name
-server was unable to process the query (Source: [RFC1035](https://tools.ietf.org/html/rfc1035)).
+domain, responding with `SERVFAIL` (`Server failure`) meaning that "*the name
+server was unable to process this query due to a problem with the name
+server*" according to [RFC1035](https://tools.ietf.org/html/rfc1035).
 
 Below we include the output of the DNS lookup utility `dig` querying the domain name
 `pernambuco.com`:
@@ -161,14 +160,16 @@ their customers.
 
 Unfortunately though, the recursive DNS nameserver still responds with the
 <tt>SERVFAIL</tt> error code and the issue [affects many Brazilian
-networks](https://atlas.ripe.net/measurements/10203306/#!probes), but not
+networks](https://atlas.ripe.net/measurements/10203306/?filter=&diversity-picker=5&aggregator=&show_only=SERVFAIL#!map), but not
 all of them. This strongly suggests that it *may* be a
-misconfiguration issue, rather than a network filtering policy. In addition to `pernambuco.com`, this
+misconfiguration issue, rather than a network filtering policy. In addition to Brazilian networks, this
 issue also appears to be affecting a number of other
-[domains worldwide](https://atlas.ripe.net/measurements/10203314/#!probes) and
+[networks worldwide](https://atlas.ripe.net/measurements/10203314/?filter=&diversity-picker=5&aggregator=&show_only=SERVFAIL#!map) and
 the [failure was cached](https://atlas.ripe.net/measurements/10204036/#!probes)
 according to consequent resolution latency. The issue seems to be "persistent"
-since it's unlikely that IP routing is the root cause. 
+so it's unlikely that IP routing is the root cause.
+
+![RIPE Atlas measurement showing worldwide failures](/post/not-quite-network-censorship/ripe-atlas-10203314.png)
 
 Other affected domains include
 [`aquipe.com.br`](https://atlas.ripe.net/measurements/10204359/#!probes),
