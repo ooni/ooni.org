@@ -2,7 +2,7 @@
 title: "OONI Team Meeting: Montreal 2017"
 author: "Will Scott, Maria Xynou"
 date: "2017-10-20"
-tags: ["meeting"]
+tags: ["events", "meeting"]
 categories: ["blog"]
 ---
 

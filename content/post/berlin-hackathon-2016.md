@@ -2,7 +2,7 @@
 title: "OONI Hackathon: Join us to explore internet censorship!"
 author: "Maria Xynou"
 date: "2016-10-25"
-tags: ["hackathon"]
+tags: ["events", "hackathon"]
 categories: []
 ---
 
