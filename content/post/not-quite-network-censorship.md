@@ -236,7 +236,7 @@ We propose the following possible solutions to fix this issue:
 
 ## Responsible disclosure
 
-On 15th November 2017 we reported the issue to UPX. As a result, they quickly resolved the IPv6 issue. They also explained that the CNAME incident was a fix for some operational issues and that they were aware that this could potentially break backward compatibility.  UPX assured us that the affected customers
+On 15th November 2017 we reported the issue to UPX. As a result, they quickly resolved the IPv6 issue. They also explained that the CNAME incident was a fix for some operational issues and that they were aware that this could potentially break backward compatibility. UPX assured us that the affected customers
 were notified about the migration to new NS names a long time ago.
 
 UPX also advised us to notify the administrators of the affected websites,
