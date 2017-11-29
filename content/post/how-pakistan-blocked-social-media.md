@@ -97,9 +97,11 @@ controversial “Draw Muhammad Day” (these webpages remain blocked
 today). This indicated that Pakistani ISPs applied “smart filters”, with
 targeted censorship of specific webpages.
 
-Last weekend, however, these sites were entirely blocked. Rather than
-filtering specific webpages, ISPs blocked access to the encrypted HTTPS
-versions of facebook.com, twitter.com, youtube.com, and instagram.com by
+Last weekend, however, these sites were entirely blocked. This was also
+reported in a [press release by the Digital Rights Foundation (DRF) and
+NetBlocks](https://digitalrightsfoundation.pk/press-release-drf-and-netblocks-find-blanket-and-nation-wide-ban-on-social-media-in-pakistan-and-demand-it-to-be-lifted-immediately/).
+Rather than filtering specific webpages, ISPs blocked access to the encrypted
+HTTPS versions of facebook.com, twitter.com, youtube.com, and instagram.com by
 means of DNS tampering, rendering them inaccessible.
 
 # Blocking of instant messaging apps
