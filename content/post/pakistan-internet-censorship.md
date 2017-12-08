@@ -1421,7 +1421,7 @@ A list of all other observed blocked sites in Pakistan is available
 The findings of this study present limitations.
 
 The first limitation is associated with the testing period. This study
-includes an analysis of [thousands of network measurements](https://measurements.ooni.torproject.org/files/by_country/PK)
+includes an analysis of [thousands of network measurements](https://api.ooni.io/files/by_country/PK)
 collected from 22 networks in Pakistan over the last three years,
 between 5th October 2014 to 22nd September 2017. Censorship events that
 may have occurred before and/or after the testing period are not

@@ -1082,7 +1082,7 @@ The types of network measurements that OONI collects depend on the types
 of tests that are run. Specifications about each OONI test can be viewed
 through its [git repository](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs),
 and details about what collected network measurements entail can be
-viewed through [OONI Explorer](https://explorer.ooni.torproject.org/world/) or [OONI’s measurement API](https://measurements.ooni.torproject.org/).
+viewed through [OONI Explorer](https://explorer.ooni.torproject.org/world/) or [OONI’s measurement API](https://api.ooni.io/).
 
 OONI processes the above types of data with the aim of deriving meaning
 from the collected measurements and, specifically, in an attempt to
@@ -1784,7 +1784,7 @@ directly connect to test servers instead.
 
 The findings of this study present various limitations.
 
-While [OONI network measurements](https://measurements.ooni.torproject.org/files/by_country/CU)
+While [OONI network measurements](https://api.ooni.io/files/by_country/CU)
 have been collected from Cuba since January 2016, this study only
 analyzes recent network measurements collected between 29th May 2017 to
 10th June 2017. As such, censorship events which may have occurred

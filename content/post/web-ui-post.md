@@ -181,7 +181,7 @@ your IP address can help improve the analysis of measurements.
 
 We also enable users to choose whether they would like their measurements to be
 uploaded to OONI’s measurement collector by default or not. If your measurements
-are collected by OONI, they will be processed and published on [OONI Explorer](https://explorer.ooni.torproject.org/) and on [OONI’s list of measurements](https://measurements.ooni.torproject.org/).
+are collected by OONI, they will be processed and published on [OONI Explorer](https://explorer.ooni.torproject.org/) and on [OONI’s list of measurements](https://api.ooni.io/).
 
 OONI publishes all network measurement data that it collects and
 processes because open data allows third parties to conduct independent studies,

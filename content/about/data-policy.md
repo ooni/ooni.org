@@ -45,7 +45,7 @@ We collect different types of network measurements when you run different types
 of tests. You can view the specifications about each ooniprobe test
 [here](https://github.com/TheTorProject/ooni-spec), and the details about the
 collected network measurements on [OONI Explorer](https://explorer.ooni.torproject.org/world/) or through our
-[measurements interface](https://measurements.ooni.torproject.org/).
+[measurements interface](https://api.ooni.io/).
 
 You can opt out of sending us your measurements by running ooniprobe with the `-n`
 command line option. Alternatively, you can choose *not* to have your
@@ -82,7 +82,7 @@ We collect different types of network measurements when you run different types
 of tests. You can view the specifications about each ooniprobe test
 [here](https://github.com/TheTorProject/ooni-spec), and the details about the
 collected network measurements on [OONI Explorer](https://explorer.ooni.torproject.org/world/) or through our
-[measurements interface](https://measurements.ooni.torproject.org/).
+[measurements interface](https://api.ooni.io/).
 
 You can opt out of sending us your measurements by running ooniprobe with the `-n`
 command line option. Alternatively, you can choose *not* to have your
@@ -163,7 +163,7 @@ We publish ALL of the network measurement data that we have collected and stored
 to allow third parties to conduct independent studies, verify our findings, and
 answer other research questions.
 
-Currently, we publish all measurement data both through our [measurements interface](https://measurements.ooni.torproject.org/) and through an interactive
+Currently, we publish all measurement data both through our [measurements interface](https://api.ooni.io/) and through an interactive
 visualization called [OONI Explorer](https://explorer.ooni.torproject.org/world/).
 
 ### 2.5. Third-party services
