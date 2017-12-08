@@ -1239,7 +1239,7 @@ and details about what collected network measurements entail can be
 viewed through [*OONI
 Explorer*](https://explorer.ooni.torproject.org/world/) or through
 OONI’s [*public list of
-measurements*](https://api.ooni.io/).
+measurements*](https://measurements.ooni.torproject.org/).
 
 The OONI pipeline processes the above types of data with the aim of deriving
 meaning from the collected measurements and, specifically, in an attempt to

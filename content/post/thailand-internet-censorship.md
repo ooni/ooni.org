@@ -94,7 +94,7 @@ Manipulation, Vanilla Tor, WhatsApp, Facebook Messenger.
 
 # Key Findings
 
-New [OONI data](https://api.ooni.io/files/by_country/TH)
+New [OONI data](https://measurements.ooni.torproject.org/files/by_country/TH)
 reveals the blocking of **13 websites** in Thailand across 6 different ISPs, between
 6th November 2016 and 27th February 2017. Thai ISPs appear to primarily be
 implementing censorship through DNS hijacking and through the use of middle boxes (HTTP transparent
@@ -116,7 +116,7 @@ content at their own discretion.
 
 WhatsApp, Facebook Messenger, and the [Tor network](https://www.torproject.org/)
 appear to have been
-[accessible](https://api.ooni.io/files/by_country/TH)
+[accessible](https://measurements.ooni.torproject.org/files/by_country/TH)
 across all tested networks throughout the testing period. Previously blocked
 sites, such as prachatai.com, were also found to be [accessible](https://explorer.ooni.torproject.org/measurement/20170223T005210Z_AS45758_CCQCtyEmEwYl3Q2TikmZVaLlzr3Y4XpTjy4wyWMsQfSB3d90yT?input=http:%2F%2Fprachatai.com%2Fenglish%2F).
 
@@ -889,7 +889,7 @@ The types of network measurements that OONI collects depend on the types of
 tests that are run. Specifications about each OONI test can be viewed through
 its [git repository](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs), and details about what collected network measurements entail can
 be viewed through [OONI Explorer](https://explorer.ooni.torproject.org/world/)
-or through [OONI’s measurement API](https://api.ooni.io/).
+or through [OONI’s measurement API](https://measurements.ooni.torproject.org/).
 
 OONI processes the above types of data with the aim of deriving meaning from the
 collected measurements and, specifically, in an attempt to answer the following
@@ -979,14 +979,14 @@ performed across 16 different local vantage points in Thailand between 6th
 November 2016 to 27th February 2017.
 
 Upon analysis of the collected data, the
-[findings](https://api.ooni.io/files/by_country/TH)
+[findings](https://measurements.ooni.torproject.org/files/by_country/TH)
 illustrate that ISPs in Thailand are primarily implementing censorship through DNS hijacking and through
 the use of middle boxes (HTTP transparent proxies) which serve block pages.
 OONI’s [HTTP invalid request line test](https://ooni.torproject.org/nettest/http-invalid-request-line/), in particular,
-[revealed](https://api.ooni.io/files/by_country/TH) the
+[revealed](https://measurements.ooni.torproject.org/files/by_country/TH) the
 presence of middle boxes in many networks, which intercepted the HTTP requests
 that were sent to echo servers. OONI’s [Web Connectivity test](https://ooni.torproject.org/nettest/web-connectivity/), on the other hand,
-[revealed](https://api.ooni.io/files/by_country/TH) that
+[revealed](https://measurements.ooni.torproject.org/files/by_country/TH) that
 many ISPs served block pages for *13 different sites*. 
 
 The types of sites that were found to be blocked as part of this study include:
@@ -1032,7 +1032,7 @@ but rather that one provider likely chose to block the site at its own
 discretion.
 
 Anonymouse.org was [found to be blocked](https://explorer.ooni.torproject.org/measurement/20170214T071323Z_AS132061_NAhYzN5e108gx29cwCcF90v3hyepWKTMYZO0G6G37rUQ3JVNyu?input=http:%2F%2Fanonymouse.org) twice, while the rest of the sites in
-the table above were [found to be blocked](https://api.ooni.io/files/by_country/TH) only
+the table above were [found to be blocked](https://measurements.ooni.torproject.org/files/by_country/TH) only
 once. However, as the measurements were run quite sporadically across different
 networks, it remains quite unclear whether and to what extent some of these
 sites remain blocked.
@@ -1074,7 +1074,7 @@ our testing, it was recently found to be [blocked](https://explorer.ooni.torproj
 On a positive note, the [Tor network](https://www.torproject.org/) appeared to
 be accessible across all ISPs in Thailand where [OONI tests](https://ooni.torproject.org/nettest/vanilla-tor/) were run as part of this study.
 
-Other sites, however, for anonymity and censorship circumvention were [found to be blocked](https://api.ooni.io/files/by_country/TH), as
+Other sites, however, for anonymity and censorship circumvention were [found to be blocked](https://measurements.ooni.torproject.org/files/by_country/TH), as
 illustrated in the table below.
 
 | Internet Service Providers (ISPs)    | Blocked anonymity & circumvention sites | Date of blocking |
@@ -1112,7 +1112,7 @@ The findings of this study present various limitations and do not necessarily
 reflect a comprehensive view of internet censorship in Thailand.
 
 The first limitation is associated with the testing period. While OONI network
-measurements have been [collected from Thailand since 2014](https://api.ooni.io/files/by_country/TH) and continue
+measurements have been [collected from Thailand since 2014](https://measurements.ooni.torproject.org/files/by_country/TH) and continue
 to be collected on the day of the publication of this report, this study only
 takes into account and analyzes network measurements that were collected between
 6th November 2016 and 27th February 2017. This study is limited to this time
@@ -1159,10 +1159,10 @@ messaging apps, and censorship circumvention tools were blocked. Some of the
 examine whether systems (“middle boxes”) that could be responsible for
 censorship, surveillance, and traffic manipulation were present in the tested
 networks. Overall, the accessibility of [1,525 sites](https://github.com/citizenlab/test-lists/tree/master/lists) was tested,
-and the [network measurement data](https://api.ooni.io/files/by_country/TH) collected
+and the [network measurement data](https://measurements.ooni.torproject.org/files/by_country/TH) collected
 between 6th November 2016 to 27th February 2017 was analyzed.
 
-The key [findings](https://api.ooni.io/files/by_country/TH)
+The key [findings](https://measurements.ooni.torproject.org/files/by_country/TH)
 of this study show that Thai ISPs appear to primarily be implementing censorship
 through DNS hijacking and through the use of middle boxes (HTTP transparent proxies) which serve block
 pages, while in fewer cases, ISPs appear to be implementing DNS-based censorship
@@ -1180,14 +1180,14 @@ service providers may be filtering content based on broad government orders to
 block content that is deemed to violate lese majeste rules. On a positive note,
 WhatsApp, Facebook Messenger, and the [Tor network](https://www.torproject.org/)
 appeared to be
-[accessible](https://api.ooni.io/files/by_country/TH)
+[accessible](https://measurements.ooni.torproject.org/files/by_country/TH)
 across 16 networks throughout the testing period.
 
 Given the limited transparency around information controls in Thailand and the
 potential implications they may have on human rights, we encourage ISPs to
 disclose their motivation and justification behind the blocking of sites and
 services. We also encourage public debate based on the
-[findings](https://api.ooni.io/files/by_country/TH) of this
+[findings](https://measurements.ooni.torproject.org/files/by_country/TH) of this
 study around the necessity and proportionality of information controls.
 
 # Acknowledgements

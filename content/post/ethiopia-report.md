@@ -1509,7 +1509,7 @@ based on a user’s network location.
 The types of network measurements that OONI collects depend on the types of
 tests that are run. Specifications about each OONI test can be viewed through
 its [git repository](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs), and details about what collected network measurements entail
-can be viewed through [OONI Explorer](https://explorer.ooni.torproject.org/world/) or through OONI’s [list of measurements](https://api.ooni.io/).
+can be viewed through [OONI Explorer](https://explorer.ooni.torproject.org/world/) or through OONI’s [list of measurements](https://measurements.ooni.torproject.org/).
 
 OONI processes the above types of data with the aim of deriving meaning from the
 collected measurements and, specifically, in an attempt to answer the following

@@ -84,7 +84,7 @@ test.
 
 Out of [1,927 sites](https://github.com/citizenlab/test-lists/tree/master/lists) that
 were tested for censorship in six local vantage points in Myanmar, only
-five sites [presented signs of TCP/IP and HTTP blocking](https://api.ooni.io/files/by_country/MM),
+five sites [presented signs of TCP/IP and HTTP blocking](https://measurements.ooni.torproject.org/files/by_country/MM),
 including the sites of the [U.S. embassy in Myanmar](http://burma.usembassy.gov) and of the [Organization of American States (OAS)](http://www.cidh.org/). The motivation and
 justification behind the potential blocking of these sites remains
 unclear. No block pages were detected as part of this study that can
@@ -100,7 +100,7 @@ appear to be present during the testing period (25th October 2016 to
 28th February 2017), indicating that it may have been removed.
 
 WhatsApp, Facebook Messenger, and the [Tor network](https://www.torproject.org/) appeared to be
-[accessible](https://api.ooni.io/files/by_country/MM)
+[accessible](https://measurements.ooni.torproject.org/files/by_country/MM)
 across all six networks in Myanmar where OONI tests were run.
 
 # Introduction
@@ -924,7 +924,7 @@ of tests that are run. Specifications about each OONI test can be viewed
 through its [git repository](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs),
 and details about what collected network measurements entail can be
 viewed through [OONI Explorer](https://explorer.ooni.torproject.org/world/) or through
-OONI’s [measurement API](https://api.ooni.io/).
+OONI’s [measurement API](https://measurements.ooni.torproject.org/).
 
 OONI processes the above types of data with the aim of deriving meaning
 from the collected measurements and, specifically, in an attempt to
@@ -1013,7 +1013,7 @@ identify censorship events.
 
 ## Findings
 
-As part of this study, [network measurements](https://api.ooni.io/files/by_country/MM)
+As part of this study, [network measurements](https://measurements.ooni.torproject.org/files/by_country/MM)
 were collected through [ooniprobe software tests](https://github.com/TheTorProject/ooni-probe) performed across
 six local vantage points in Myanmar between 25th October 2016 to 28th
 February 2017.
@@ -1021,7 +1021,7 @@ February 2017.
 Upon analysis of the collected data, no block pages were detected that
 could confirm cases of censorship. WhatsApp, Facebook Messenger, and the
 [Tor network](https://www.torproject.org/) appeared to be
-[accessible](https://api.ooni.io/files/by_country/MM)
+[accessible](https://measurements.ooni.torproject.org/files/by_country/MM)
 in all networks where tests were run. While [OONI tests](https://ooni.torproject.org/nettest/http-invalid-request-line/)
 had [*previously detected the presence of Blue Coat
 software*](https://explorer.ooni.torproject.org/highlights/) (some types
@@ -1079,7 +1079,7 @@ necessarily reflect a comprehensive view of internet censorship in
 Myanmar.
 
 The first limitation is associated with the testing period. While OONI
-network measurements have been [collected from Myanmar since 2012](https://api.ooni.io/files/by_country/MM) and
+network measurements have been [collected from Myanmar since 2012](https://measurements.ooni.torproject.org/files/by_country/MM) and
 continue to be collected on the day of the publication of this report,
 this study only takes into account and analyzes network measurements
 that were collected between 25th October 2016 to 28th February 2017.
@@ -1119,7 +1119,7 @@ evaluate whether censorship cases were persistent was limited.
 Signs of TCP/IP and HTTP blocking pertaining to fives sites, including
 the sites of the [U.S. embassy in Myanmar](http://burma.usembassy.gov)
 and of the [Organization of American States (OAS)](http://www.cidh.org/), were
-[detected](https://api.ooni.io/files/by_country/MM)
+[detected](https://measurements.ooni.torproject.org/files/by_country/MM)
 as part of this study. It remains unclear though why those sites might
 be blocked. Overall, 1,927 URLs were tested for censorship. No block
 pages were detected that could confirm cases of internet censorship.
@@ -1137,7 +1137,7 @@ additional networks, does *not* show the presence of Blue Coat software
 in tested networks.
 
 WhatsApp, Facebook Messenger, and the [Tor network](https://www.torproject.org/) appeared to be
-[accessible](https://api.ooni.io/files/by_country/MM)
+[accessible](https://measurements.ooni.torproject.org/files/by_country/MM)
 across all six networks in Myanmar where OONI tests were run.
 
 # Acknowledgements

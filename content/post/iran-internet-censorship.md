@@ -106,7 +106,7 @@ proxies serving blockpages
 
 # Key Findings
 
-Thousands of [ooniprobe network measurements](https://api.ooni.io/files/by_country/IR)
+Thousands of [ooniprobe network measurements](https://measurements.ooni.torproject.org/files/by_country/IR)
 collected from 60 local networks across Iran over the last three years
 **have confirmed the blocking of 886 domains** (and [1,019 URLs](/post/iran/ir-blocked-urls.csv) in
 total), listed [here](/post/iran/ir-blocked-domains.csv).
@@ -188,7 +188,7 @@ collected from 60 networks in Iran over the last three years.
 
 The aim of this study is to increase the transparency of information
 controls in Iran through the interpretation of empirical
-[data](https://api.ooni.io/files/by_country/IR).
+[data](https://measurements.ooni.torproject.org/files/by_country/IR).
 
 The following sections of this report provide information about Iran’s
 network landscape and internet use, its legal environment with respect
@@ -1098,7 +1098,7 @@ The types of network measurements that OONI collects depend on the types
 of tests that are run. Specifications about each OONI test can be viewed
 through its [git repository](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs),
 and collected network measurements can be viewed through [OONI Explorer](https://explorer.ooni.torproject.org/world/) or through
-OONI’s [measurement API](https://api.ooni.io/).
+OONI’s [measurement API](https://measurements.ooni.torproject.org/).
 
 OONI processes reports with the aim of deriving meaning from data and,
 specifically, to answer the following types of questions:
@@ -1185,7 +1185,7 @@ identify censorship events.
 # Findings
 
 Thousands of network measurements
-[collected](https://api.ooni.io/files/by_country/IR)
+[collected](https://measurements.ooni.torproject.org/files/by_country/IR)
 from 60 local networks over the last three years reveal *pervasive*
 levels of internet censorship in Iran.
 
@@ -1259,7 +1259,7 @@ because it uses Google App Engine, access to which is blocked by Google.
 These censorship cases appear to be due to U.S. export laws.
 
 Below, we provide more information on *some* of the findings of this
-study. We encourage researchers to explore the [published data](https://api.ooni.io/files/by_country/IR) for
+study. We encourage researchers to explore the [published data](https://measurements.ooni.torproject.org/files/by_country/IR) for
 additional analysis on interesting findings that we have not highlighted
 in the following sections.
 
@@ -2147,7 +2147,7 @@ from Iran in compliance with U.S. export laws.
 The findings of this study present various limitations.
 
 The first limitation is associated to the testing period. This study
-includes an analysis of [thousands of network measurements](https://api.ooni.io/files/by_country/IR)
+includes an analysis of [thousands of network measurements](https://measurements.ooni.torproject.org/files/by_country/IR)
 that were collected from 60 vantage points in Iran over the last three
 years, between 22nd September 2014 to 4th September 2017. Censorship
 events that may have occurred before and/or after the testing period are
@@ -2177,7 +2177,7 @@ points.
 # Conclusion
 
 This study reveals and confirms censorship events in Iran through the
-analysis of [thousands of network measurements](https://api.ooni.io/files/by_country/IR)
+analysis of [thousands of network measurements](https://measurements.ooni.torproject.org/files/by_country/IR)
 that were collected from 60 local vantage points in Iran over the last
 three years. The network measurement data clearly shows how ISPs blocked
 sites and services and can therefore serve as **evidence of information

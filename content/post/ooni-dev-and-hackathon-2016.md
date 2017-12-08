@@ -113,7 +113,7 @@ across time, and across countries, and filtering them as false positives.
 ## OONI's measurement API
 
 In addition to [OONI Explorer](https://explorer.ooni.torproject.org/world/),
-OONI’s network measurements are published in [JSON format](https://api.ooni.io/). One of our priorities though
+OONI’s network measurements are published in [JSON format](https://measurements.ooni.torproject.org/). One of our priorities though
 is to also build an API to the measurements that enables data analysis, allowing
 users to query the API to retrieve measurements based on certain characteristics
 (to query, for example, all anomalous measurements).

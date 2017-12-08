@@ -42,7 +42,7 @@ appears to currently be accessible from the Telecom Egypt (TE) and
 Vodafone networks. We also found torproject.org, the [Tor bridges website](https://bridges.torproject.org/), and even [our own site](https://ooni.torproject.org/) (which enables users to measure
 internet censorship) to be blocked in some networks.
 
-Through the collection and analysis of [network measurement data](https://api.ooni.io/files/by_country/EG) we
+Through the collection and analysis of [network measurement data](https://measurements.ooni.torproject.org/files/by_country/EG) we
 were able to determine that Egyptian ISPs are using Deep Packet
 Inspection (DPI) technology to RESET connections to sites.
 
@@ -296,7 +296,7 @@ to contribute to such lists can be found
 [here](https://ooni.torproject.org/get-involved/contribute-test-lists/).
 
 If you’re a data analyst, you may be interested in analyzing the
-[network measurement data](https://api.ooni.io/)
+[network measurement data](https://measurements.ooni.torproject.org/)
 collected by ooniprobe. If you’re a journalist, you may be interested in
 telling stories based on the
 [data](https://explorer.ooni.torproject.org/world/). If you’re a
