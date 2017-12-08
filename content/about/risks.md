@@ -137,7 +137,7 @@ measurement collector and automatically published through:
 
 * [OONI Explorer](https://explorer.ooni.torproject.org/world/)
 
-* [OONI's measurements interface](https://measurements.ooni.torproject.org/)
+* [OONI API](https://api.ooni.io/)
 
 Consequently, the public - including third parties who view the usage of
 ooniprobe as a threat - will be able to see all user measurements, unless users

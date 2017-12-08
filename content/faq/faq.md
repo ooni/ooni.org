@@ -218,7 +218,7 @@ Once OONI receives measurements, it automatically processes them and publishes
 them on [OONI Explorer](https://explorer.ooni.torproject.org/world/): a global
 data map which provides an interface to explore the measurements.
 
-OONI also publishes measurements in json files **[here](https://measurements.ooni.torproject.org/)**.
+OONI also publishes measurements in json files **[here](https://api.ooni.io/)**.
 
 ### 12. How can I opt-out from having my measurements published by default?
 
