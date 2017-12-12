@@ -8,7 +8,7 @@ Please read the documentation below to contribute to community resources for cen
 
 * [What are test lists?](#what-are-test-lists)
 
-* [What aren't test lists?](#what-arent-test-lists)
+* [What aren't test lists?](#what-aren-t-test-lists)
 
 * [Why contribute to test lists?](#why-contribute-to-test-lists)
 
@@ -167,6 +167,7 @@ This requires a bit of research. We provide some recommended research practices 
 compiling (or contributing to existing) test lists in the following section.
 
 ### Test list research
+
 
 #### Background research
 
