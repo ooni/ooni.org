@@ -1,4 +1,4 @@
-# Contributing to Test Lists
+# The test list methodology
 
 Censorship findings are only as interesting as the sites and services that you test.
 
@@ -8,9 +8,19 @@ Please read the documentation below to contribute to community resources for cen
 
 * [What are test lists?](#what-are-test-lists)
 
+* [What aren't test lists?](#what-arent-test-lists)
+
 * [Why contribute to test lists?](#why-contribute-to-test-lists)
 
 * [Contributing to test lists](#contributing-to-test-lists)
+
+	* [Test list research](#test-list-research)
+
+		* [Background research](#background-research)
+
+		* [Drawing inspiration from 30 categories](#drawing-inspiration-from-30-categories)
+
+		* [Research on previous cases of reported censorship](#research-on-previous-cases-of-reported-censorship)
 
 	* [Reviewing test lists](#reviewing-test-lists)
 
@@ -20,36 +30,85 @@ Please read the documentation below to contribute to community resources for cen
 
 ## What are test lists?
 
-Test lists are machine-readable CSV files that include URLs that are tested for censorship. 
+Test lists are machine-readable CSV files that include URLs that are tested for
+censorship.
 
-The [Citizen Lab](https://citizenlab.ca/) supports OONI and other censorship measurement projects with a public resource that includes the following:
+Censorship measurement projects like [OONI](https://ooni.torproject.org/) rely on a global community of
+volunteers who run censorship detection tests from local vantage points. In
+light of bandwidth constraints, testing most websites available on the internet
+is not practical (nor possible in many cases). Instead, our measurements focus
+on a *sample* of websites provided in “test lists”: machine-readable CSV files
+with a set of curated, interesting domains. There are two types of test lists:
 
-* [Global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)
+* [Global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv): Includes a wide range of internationally relevant websites (e.g. facebook.com), most of which are in English
 
-* [Country-specific test lists](https://github.com/citizenlab/test-lists/tree/master/lists) 
+* [Country-specific test lists](https://github.com/citizenlab/test-lists/tree/master/lists): Include websites that are only relevant to a
+specific country (e.g. Brazilian media websites), many of which are in local languages
 
-The global list includes a wide range of internationally relevant websites, most of which are in English.
+To maximize the breadth of coverage while reducing research bias, test list URLs
+are broken down into [30 diverse categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv). These categories range from news
+media, culture, and human rights issues to more provocative or objectionable
+categories, like pornography (the latter are included because they are more
+likely to be blocked, enabling the detection of censorship techniques adopted by
+ISPs).
 
-Each country-specific test list includes
-websites that are relevant and commonly accessed within that country, many of
-which are in local languages. 
+Creating test lists requires local knowledge, an understanding of which sites
+are commonly accessed and more likely to be blocked in light of a country’s
+social and political environment. The [Citizen Lab](https://citizenlab.ca/) (which manages the test list
+project) has, therefore, made the lists publicly available on [GitHub](https://github.com/citizenlab/test-lists),
+encouraging community contributions.
 
-The URLs included in these lists fall under [30 categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv), ranging from news media, file sharing and
-culture, to provocative or objectionable categories, like pornography, political criticism and hate speech.
+## What aren't test lists?
+
+**1. A list of thousands of sites scraped from Alexa**
+
+Creating (or contributing to existing) test lists is not a question of scraping
+“the top 1,000 sites” from Alexa. Rather, it requires *research*, an understanding
+of a country’s social and political environment, and how that may motivate
+information controls.
+
+**2. Blocklists**
+
+Some governments occasionally publish official blocklists (or they get leaked)
+which contain lists of websites that are legally prohibited in a country.
+Internet Service Providers (ISPs) are then ordered to block access to all
+websites included in such blocklists, commonly involving hundreds (or thousands)
+of URLs that contain illegal content (such as pornography, gambling, etc.).
+
+Test lists, on the other hand, are *not* meant to be limited to blocked websites.
+Rather, they serve the purpose of monitoring when policies change - what's most
+likely to be blocked or unblocked. While test lists may include *some* websites
+that are known to be blocked (and that is useful for detecting censorship
+techniques adopted by ISPs), most sites are not censored locally when they are
+added to test lists. The aim of using the test list methodology is to not only
+identify censorship, but to also confirm the accessibility of sites. Unlike
+blocklists (which can include thousands of URLs), each test list is usually
+limited to up to 1,000 sites (due to the aforementioned bandwidth constraints).
 
 ## Why contribute to test lists?
 
-**1. You can provide local insight**
+**1. Censorship findings are only as interesting as the sites you test**
+
+When measuring censorship through the use of software like [OONI Probe](https://ooni.torproject.org/install/),
+censorship findings are only as interesting as the sites that are tested. If
+bbc.com, for example, is blocked in China, OONI Probe is only likely to detect
+that if bbc.com was included in the Chinese test list to begin with.
+
+It’s therefore important to ensure that test lists are representative of many
+types of online content and reflect the country’s social, economic, and
+political environment. 
+
+**2. You can provide local insight**
 
 Examining internet censorship in a country requires local knowledge, an understanding of which sites and services are:
 
 * commonly accessed;
 * more likely to be blocked;
-* interesting to test in light of the country's social and political environment.
+* interesting to test in light of a country's social and political environment.
 
-To ensure that test lists include a variety of different types of URLs that are updated on an ongoing basis, we need community contributions from around the world.
+To ensure that test lists include a variety of different types of URLs that are updated on an ongoing basis, we encourage community contributions from around the world.
 
-**2. Potential risks**
+**3. Potential risks**
 
 When running OONI Probe, you will connect to and download data from the websites
 included in the global test list and in the test list which is specific to the
@@ -70,6 +129,93 @@ You can contribute to test lists in 2 ways:
 * Review *existing* test lists;
 
 * Create *new* test lists for countries that don't have test lists yet.
+
+This requires a bit of research. We provide some recommended research practices for
+compiling (or contributing to existing) test lists in the following section.
+
+### Test list research
+
+#### Background research
+
+Understanding information controls in a country requires an understanding of the
+country itself. Some background research on the country in question is therefore
+essential to identifying websites that are worth testing for censorship.
+
+In-depth PhD style research is not required. In fact, many online resources with
+country profiles that you can refer to already exist, such as [The World Factbook](https://www.cia.gov/library/publications/the-world-factbook/), [UN Data](http://data.un.org/), the [OpenNet Initiative](https://opennet.net/research/profiles), and [Freedom House](https://freedomhouse.org/), among others. Your
+background research probably shouldn’t be limited to such resources. Rather,
+these resources can serve as a *starting point* for identifying sites to add to
+test lists (in which case, you can even refer to a country’s Wikipedia page).
+
+Knowing that a country has many ethnic minorities, for example, is a starting
+point for subsequently exploring which sites represent the voices of those
+groups. Due to their sensitive nature, such sites might be more likely to get
+blocked (now or in the future), and so it might make sense to add them to your
+test list. By reading news websites from that country, you may come across the
+names of political activists. Similarly, it may be worth exploring whether those
+activists have websites and adding them to your test list.
+
+By researching the main economic, political, and social issues of a country, you
+can search for a variety of different types of sites that address them and
+present different opinions. Those are the types of sites that are worth adding
+to test lists to monitor their accessibility over time. The process of
+identifying sites to add to your test list can also be guided by the [30 categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv) of the test list methodology.
+
+#### Drawing inspiration from 30 categories
+
+The Citizen Lab’s test list methodology relies on [30 diverse categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv) for
+URLs. These categories serve the following main purposes:
+
+* Ensuring that the testing sample of URLs is as diverse as possible 
+
+* Enabling the characterization of information controls
+
+The more diverse the testing sample, the more likely researchers are to identify
+different forms of internet censorship. By categorizing URLs, researchers can
+more easily characterize internet censorship depending on what is blocked. In
+Iran, for example, the breadth and scale of internet censorship appears to be
+pervasive since many [different types of websites](https://ooni.torproject.org/post/iran-internet-censorship/#key-findings) were found to be [blocked](https://ooni.torproject.org/post/iran-internet-censorship/).
+
+When working on a test list, you can refer to the [30 categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv) and search for
+local websites that fall under each one. Ideally, a test list includes multiple
+URLs for each of the 30 categories, though we recognize that this is not always
+possible.
+
+#### Research on previous cases of reported censorship
+
+Has censorship been reported in the country that you’re compiling a test list
+for? If so, which websites were reportedly blocked?
+
+As part of your research for identifying sites to add to a test list, it’s
+important to explore whether previous censorship events have been reported in
+the country. Those sites might *still* be blocked, even if their ban has been
+lifted. We quite recently, for example, found [Vimeo and Reddit to be blocked in Indonesia](https://ooni.torproject.org/post/indonesia-internet-censorship/), even though their ban was lifted more than two years ago.
+Furthermore, certain sites might only be blocked in certain networks, rather
+than on a nationwide level. By adding sites that have reportedly been blocked to
+your test list, OONI Probe users can collect network measurement data examining
+the accessibility of those sites over time (and may even be able to corroborate
+media reports).
+
+Previous censorship cases can also help with identifying:
+
+* The **types of information** that the country’s government censors (for example, if
+political opposition sites were blocked in the past, it might be worth adding
+them to test lists to examine if they’re blocked in the present or future); 
+
+* The **motivations** behind censorship (for example, if a government has previously
+blocked sites for political reasons, it may be worth searching for other sites
+that could trigger politically-motivated censorship).
+
+To identify censorship cases, you can start off by searching for relevant media
+articles (where you’re likely to find the most recent cases). In addition to
+international news websites, it’s important to search for censorship reports
+through local media outlets as well. You can then refer to a variety of research
+reports published by a number of digital rights organizations, including (but
+not limited to) [Citizen Lab](https://citizenlab.ca/category/research/), [Freedom on the Net (Freedom House)](https://freedomhouse.org/reports), [OpenNet Initiative](https://opennet.net/research/profiles), [Reporters Without Borders](https://rsf.org/en/ranking), and [ARTICLE 19](https://www.article19.org/).
+
+Given that economic, social, and political systems change over time (and the
+motivations of governments change along with them), it’s important to update
+test lists on an ongoing basis through the above recommended practices.
 
 ### Reviewing test lists
 
