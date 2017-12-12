@@ -175,7 +175,7 @@ country itself. Some background research on the country in question is therefore
 essential to identifying websites that are worth testing for censorship.
 
 In-depth PhD style research is not required. In fact, many online resources with
-country profiles that you can refer to already exist, such as [The World Factbook](https://www.cia.gov/library/publications/the-world-factbook/), [UN Data](http://data.un.org/), the [OpenNet Initiative](https://opennet.net/research/profiles), and [Freedom House](https://freedomhouse.org/), among others. Your
+country profiles that you can refer to already exist, such as [The World Factbook](https://www.cia.gov/library/publications/the-world-factbook/), the [OpenNet Initiative](https://opennet.net/research/profiles), and [Freedom House](https://freedomhouse.org/), among others. Your
 background research probably shouldn’t be limited to such resources. Rather,
 these resources can serve as a *starting point* for identifying sites to add to
 test lists (in which case, you can even refer to a country’s [Wikipedia](https://en.wikipedia.org/wiki/Lists_of_countries_and_territories) page).
