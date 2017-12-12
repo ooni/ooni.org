@@ -26,9 +26,7 @@ surveillance*. We also facilitated OONI and Tor workshops.
 
 The 5th version of [Primavera Hacker](https://phacker.org/), an event bringing together hackers, activists, technologists,
 and feminists, took place in Santiago, Chile on 2nd and 3rd
-December 2017. We [presented OONI]
-(https://www.phacker.org/programa.html#charla_ooni) and facilitated OONI and Tor [workshops]
-(https://www.phacker.org/programa.html#actividad_tor_meetup) for Latin American communities.
+December 2017. We [presented OONI](https://www.phacker.org/programa.html#charla_ooni) and facilitated OONI and Tor [workshops](https://www.phacker.org/programa.html#actividad_tor_meetup) for Latin American communities.
 
 The OONI presentation is available
 [here](/documents/ooni-lavits-phacker-2017.pdf).
