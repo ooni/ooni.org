@@ -189,7 +189,7 @@ for? If so, which websites were reportedly blocked?
 As part of your research for identifying sites to add to a test list, it’s
 important to explore whether previous censorship events have been reported in
 the country. Those sites might *still* be blocked, even if their ban has been
-lifted. We quite recently, for example, found [Vimeo and Reddit to be blocked in Indonesia](https://ooni.torproject.org/post/indonesia-internet-censorship/), even though their ban was lifted more than two years ago.
+lifted. We, for example, found [Vimeo and Reddit to be blocked in Indonesia](https://ooni.torproject.org/post/indonesia-internet-censorship/), even though their ban was lifted more than two years ago.
 Furthermore, certain sites might only be blocked in certain networks, rather
 than on a nationwide level. By adding sites that have reportedly been blocked to
 your test list, OONI Probe users can collect network measurement data examining
