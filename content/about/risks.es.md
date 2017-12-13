@@ -1,6 +1,6 @@
 # Riesgos: Lo que debes saber antes de ejecutar OONI Probe
 
-**Note:** This document was translated by [Derechos Digitales](https://www.derechosdigitales.org/).
+**Note:** This document was translated by [Derechos Digitales](https://www.derechosdigitales.org/) ([view the english version](/about/risks)).
 
 Según nuestro conocimiento, ningún usuario de ooniprobe ha sufrido consecuencias
 como resultado del uso de nuestro software. Por lo tanto, los riesgos
