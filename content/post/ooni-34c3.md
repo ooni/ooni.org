@@ -38,9 +38,10 @@ tools and may offer workshops upon request.
 You can also just drop by to say hi and collect some OONI stickers:
 
 image-stickers
+![OONI Stickers](/post/ooni-34c3/OONI-Stickers.jpg)
 
 Or get an OONI t-shirt:
 
-ooni-t-shirt
+![OONI T-Shirts](/post/ooni-34c3/OONI-T-Shirts.jpg)
 
 See you soon in Leipzig!
