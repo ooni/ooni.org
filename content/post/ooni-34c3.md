@@ -13,14 +13,14 @@ Are you going? We hope to see you there!
 
 # OONI lecture
 
-OONI’s co-founder and project lead, Arturo Filastò, will be presenting
-OONI at 34C3.
+OONI's founder and project lead, Arturo Filastò, will be [presenting
+OONI at 34C3](https://events.ccc.de/congress/2017/Fahrplan/events/8923.html).
 
-| Lecture | [OONI: Lets Fight Internet Censorship Together!](https://events.ccc.de/congress/2017/Fahrplan/events/8923.html) |
+| Lecture | OONI: Lets Fight Internet Censorship Together! |
 |---------|------------------------------------------------|
-| Day     | 29th December 2017                             |
-| Time    | 14:30                                          |
-| Room    | Saal Borg                                      |
+| Day     | [29th December 2017](https://events.ccc.de/congress/2017/Fahrplan/events/8923.html)                             |
+| Time    | [14:30](https://events.ccc.de/congress/2017/Fahrplan/events/8923.html)                                          |
+| Room    | [Saal Borg](https://events.ccc.de/congress/2017/Fahrplan/events/8923.html)                                      |
 
 Attend the lecture to learn all about OONI, recent censorship findings
 from around the world, and how you can join the fight against internet
