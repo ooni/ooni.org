@@ -74,17 +74,18 @@ Interested in knowing whether *your* site is blocked? With [OONI Run](https://ru
 monitor the accessibility of the sites you care about! We provide widget code
 that you can embed to have your site tested by the global OONI Probe community.
 
-We’re particularly excited about OONI Run because it can help support evidence-
-based monitoring of global censorship events and rapid response by the internet
-freedom community.
+We’re particularly excited about OONI Run because it can help support
+evidence-based monitoring of global censorship events and rapid response by the
+internet freedom community.
 
 # OONI API
 
 ![OONI API](/post/ooni-2017/04.jpg)
 
-Open data is at the heart of the OONI project. Following a year of re-
-engineering and improving upon our [data processing pipeline](https://github.com/TheTorProject/ooni-pipeline), we recently
-launched the [OONI API](https://api.ooni.io/).
+Open data is at the heart of the OONI project. Following a year of re-engineering
+and improving upon our [data processing
+pipeline](https://github.com/TheTorProject/ooni-pipeline), we recently launched
+the [OONI API](https://api.ooni.io/).
 
 Dynamically updated everyday with measurements collected from all across the
 globe (and consisting of millions of measurements collected since 2012), the
@@ -162,4 +163,4 @@ encouraging feedback for some of the upcoming things we’ll be working on in
 
 * **Research reports:** We’re eager to form more partnerships with digital rights organizations around the world and to publish more research reports on internet censorship.
 
-Happy new year, and stay tuned! 
+Happy new year, and stay tuned!
