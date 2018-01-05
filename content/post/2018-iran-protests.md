@@ -59,7 +59,6 @@ data collected from this test shows the DNS blocking of Instagram in Iran.
 
 The table below summarizes OONI findings.
 
-
 Date | ASN | Instagram status
 ---- | --- | ----------------
 2018-01-02 | AS43754 | [BLOCKED](https://explorer.ooni.io/measurement/20180102T160319Z_AS43754_K6whakITvTdP9z0cewb2H7rpq06ukASYsNbvSHdFnG9TdCWyGE?input=https:%2F%2Fwww.instagram.com%2F)
@@ -96,7 +95,6 @@ through OONI’s [Facebook Messenger test](/nettest/facebook-messenger/).
 
 More recent measurements, collected during Iran’s protests, show that Facebook
 Messenger remains blocked in (at least) three networks.
-
 
 Date | ASN | Facebook Messenger status
 ---- | --- | -------------------------
