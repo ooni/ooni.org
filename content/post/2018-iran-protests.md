@@ -166,6 +166,24 @@ To circumvent the blocking of mobile applications, like Telegram or Facebook
 Messenger, Android users can try enabling bridges and the [VPN mode of Orbot](https://www.torproject.org/docs/android.html.en)
 which enables all apps on their device to run through the Tor network.
 
+## Reproducible research
+
+To measure the blocking of Telegram, Facebook Messenger, or WhatsApp, [run OONI Probe on Linux, macOS](https://ooni.torproject.org/install/ooniprobe/), or on a [Raspberry Pi](https://ooni.torproject.org/install/lepidopter/).
+
+To measure the blocking of specific websites:
+
+1. Install the [OONI Probe mobile app](https://ooni.torproject.org/install/)
+
+2. Add those websites (e.g.`https://www.instagram.com`) to [OONI Run](https://run.ooni.io/)
+
+3. Generate an OONI Run link to test those sites
+
+All network measurement data based on your testing will be published via the following resources:
+
+* [OONI API](https://api.ooni.io/)
+
+* [OONI Explorer](https://explorer.ooni.torproject.org/world/)
+
 ## Acknowledgements
 
 We thank all the anonymous volunteers in Iran who have run and continue
