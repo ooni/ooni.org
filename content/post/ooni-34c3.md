@@ -2,7 +2,7 @@
 title: "OONI at the 34th Chaos Communication Congress (34C3)"
 author: "Maria Xynou"
 date: "2017-12-23"
-tags: ["CCC"]
+tags: ["events", "CCC"]
 categories: ["blog"]
 ---
 

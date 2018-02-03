@@ -24,3 +24,9 @@ publish:
 
 server:
 	hugo server --theme=ooni --baseUrl=http://127.0.0.1:1313 --buildDrafts
+
+known-publishers:
+	ssh perdulce.torproject.org getent group ooni
+
+known-tags:
+	git grep -h ^tags: | sed 's/^tags: *//' | jq .[] | sort | uniq -c | sort -nr
