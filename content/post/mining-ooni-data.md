@@ -7,18 +7,22 @@ categories: ["blog"]
 ---
 
 [OONI Explorer](https://explorer.ooni.io/) and [OONI API](https://api.ooni.io/)
-provide some access too [the data OONI gathers](/data/), but these two tools do
-not currently provide reasonable methods for a researcher wanting to dig
-through entire OONI dataset or some big slice of it.
+provide access to [the data OONI gathers](/data/), but these two tools are currently
+not the best ones for a researcher wanting to dig through the entire OONI
+dataset or access some big slice of it.
 
-This post describes other options that are currently available or may be
-made available upon request.
+This post describes other options that are either currently available or can be
+made available [upon request](/about/#contact).
 
 ## Raw data
 
 First of all, whole OONI dataset can be fetched from
-[`ooni-data` Amazon S3 bucket](https://ooni-data.s3.amazonaws.com/),
-thanks to Amazon Open Data program.
+the [`ooni-data` Amazon S3 bucket](https://ooni-data.s3.amazonaws.com/),
+thanks to the [Amazon Open Data program](https://aws.amazon.com/government-education/open-data/).
+
+To access the S3 buckets we recommend you use either the [AWS Command Line
+Interface](https://aws.amazon.com/cli/) or the [AWS SDK for Python
+(boto)](https://aws.amazon.com/sdk-for-python/).
 
 There are two prefixes available within the bucket:
 
@@ -43,13 +47,13 @@ _Debian 9 (stretch)_ and _Ubuntu 16.04 (xenial)_, older version may fail with
 
 ## Metadata as PostgreSQL dump
 
-If you don't need whole dataset, you may get dump of PostgreSQL (9.6) database
-that hold some metadata about every measurement collected and run SQL queries
-on it.  That may be times faster if you need some aggregate statistics or you
-need to know some subset of measurements to download for further processing.
+If you don't need the whole dataset, you may get a PostgreSQL (9.6) database dump
+that holds some metadata about every measurement collected and you can run SQL queries
+on it. That may be much faster if you need some aggregate statistics or you
+need to know which subset of measurements you need to download for further processing.
 
-The most sizable data that is removed is bodies of web pages.  Uncompressed
-database size is ~230 gigabytes including some indexes growing at ~0.75
+The most sizable data that is removed is the response body of web pages. Uncompressed
+database size is ~230 gigabytes (as of 2018-02-03) including some indexes growing at ~0.75
 gigabytes per day. The dump compressed for data transfer is ~three times
 smaller. [Tell us](/about/#contact) if that's useful for you!
 
@@ -62,14 +66,14 @@ OONI metadata DB instance.
 
 ## OONI API
 
-OONI API is nice for cursory analysis or some integrations with other systems
+The [OONI API](https://api.ooni.io/api/) is nice for cursory analysis or some integrations with other systems
 (e.g. OONI Explorer relies on it), but it's currently not possible to run any
-dataset scan that runs for more than a minute using OONI API. So the API is not
+dataset scan that runs for more than a minute using the OONI API. So the API is not
 the best option if the query does heavy scanning of metadata. Also,
-implementation of pagination in OONI API (`next_url`) is far from perfect and
-may fail with non-zero offsets.
+implementation of pagination in the OONI API `next_url` is far from perfect and
+may fail with greater than zero offsets.
 
-Rule of thumb: if OONI API is slow for you (your request takes more than half a
+Rule of thumb: if the OONI API is slow for you (your request takes more than half a
 minute) or you need more than a couple thousands of API requests to achieve
 your goal, you should consider sending SQL queries directly to some instance of
 metadata DB as you'll likely be able to achieve your goal significantly faster
