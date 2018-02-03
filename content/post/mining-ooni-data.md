@@ -16,8 +16,9 @@ made available upon request.
 
 ## Raw data
 
-First of all, whole OONI dataset can be fetched from Amazon S3 from
-[`ooni-data` bucket](https://ooni-data.s3.amazonaws.com/), thanks to Amazon Open Data program.
+First of all, whole OONI dataset can be fetched from
+[`ooni-data` Amazon S3 bucket](https://ooni-data.s3.amazonaws.com/),
+thanks to Amazon Open Data program.
 
 There are two prefixes available within the bucket:
 
@@ -25,7 +26,7 @@ There are two prefixes available within the bucket:
   [tar](https://en.wikipedia.org/wiki/Tar_(computing)) and [LZ4](http://www.lz4.org),
   growing at ~5.5 gigabytes per day
 - `autoclaved/jsonl/` containing uncompressed data, ~7.4 terabytes, having one file
-  per report with median file size around 4kb that makes unsuitable for speedy
+  per report with median file size around 4kb that makes it unsuitable for speedy
   data transfers
 
 There is also `sanitised/` prefix in the bucket, it's legacy one, it's not
