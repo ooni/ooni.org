@@ -74,12 +74,12 @@ Example:
 You can list the files related to a particular date using the [AWS CLI](https://aws.amazon.com/cli/):
 
 ```
-aws s3 ls s3://ooni-data/autoclaved/jsonl.tar.lz4/2017-11-23/
+aws s3 ls s3://ooni-data/autoclaved/jsonl/2017-11-23/
 ```
 
 ### jsonl.tar.lz4
 
-The `jsonl.tar.lz4` "daily buckets" contain one or more lz4 compressed
+The `jsonl.tar.lz4` "daily buckets" contain one or more LZ4 compressed
 files for every
 [OONI Probe test type](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs).
 
@@ -114,12 +114,15 @@ Example:
 You can list the files related to a particular date using the [AWS CLI](https://aws.amazon.com/cli/):
 
 ```
-aws s3 ls s3://ooni-data/autoclaved/jsonl/2017-11-23/
+aws s3 ls s3://ooni-data/autoclaved/jsonl.tar.lz4/2017-11-23/
 ```
 
 A `gzip` compressed newline separated JSON index file (`index.json.gz`) is also
 available in every "daily bucket" root (example:
 `s3://ooni-data/autoclaved/jsonl.tar.lz4/2017-11-23/index.json.gz`).
+The file stores metadata to make the tarballs seekable. You don't have
+to parse information on LZ4 frames unless you want to `seek()` to the specific
+measurement, as decompressing tarballs with `tar -I lz4 --extract …` should work.
 
 Every row of the index file contains a JSON document with metadata that is
 useful to find the measurements you care about inside of a given daily bucket.
@@ -130,19 +133,17 @@ Each document has a `type` key that can be one of:
 
 * `file`, is used to indicate the beginning of metadata pertaining to a particular compressed file. It will have the `filename` key which tells you what file it's related to (example: `2017-11-23/web_connectivity.02.tar.lz4`)
 
-* `/file`, is used to indicate the end of metadata pertaining to a particular file (it will be followed by another `file` document`)
+* `/file`, is used to indicate the end of metadata pertaining to a particular file (it will be followed by another `file` document)
 
-* `frame`, is used to indicate the beginning of a lz4 frame. A document of this type will also have the following keys `file_off` (the offset into the compressed file to the beginning of this frame), `file_size` (the total compressed size of this frame), `text_off` (the uncompressed offset to the beginning of the frame), `text_size` (the total uncompressed size of this frame).
+* `frame`, is used to indicate the beginning of a LZ4 frame. A document of this type will also have the following keys `file_off` (the offset into the compressed file to the beginning of this frame), `file_size` (the total compressed size of this frame), `text_off` (the uncompressed offset to the beginning of the tar file), `text_size` (the total uncompressed size of this frame)
 
-* `/frame`, is used to indicate the end of a lz4 frame
+* `/frame`, is used to indicate the end of a LZ4 frame
 
-* `report`, is used to indicate the beginning of a particular report file (what you would find as a distinct file in the `jsonl` prefix). It also has the following keys: `textname` the path to the jsonl report file (example: `2017-11-23/20171122T00
-3814Z-RU-AS8427-web_connectivity-20171122T003815Z_AS8427_V52os5wKkSAWHvoXDPJ5aRTmcLPSFcgg3HOfDPrMG9OKZ1
-HcWd-0.2.0-probe.json`), `orig_sha1` a base64 encoded sha1 hash of the report file for integrity checking purposes, `src_size` the uncompressed filesize in bytes.
+* `report`, is used to indicate the beginning of a particular report file (what you would find as a distinct file in the `autoclaved/jsonl` prefix). It also has the following keys: `textname` the path to the jsonl report file (example: `2017-11-23/20171122T003814Z-RU-AS8427-web_connectivity-20171122T003815Z_AS8427_V52os5wKkSAWHvoXDPJ5aRTmcLPSFcgg3HOfDPrMG9OKZ1HcWd-0.2.0-probe.json`), `orig_sha1` a base64 encoded sha1 hash of the _incomming_ report file, `src_size` the uncompressed filesize in bytes
 
 * `/report`, is used to indicate the end of the previously "open" report file
 
-* `datum`, is used to indicate the presence of an individual measurement. The other keys present are: ``text_off` (is the offset into the uncompressed lz4 frame to the beginning of this measurement), `text_size` (is the overall uncompressed size of this measurement), `orig_sha1` a base64 encoded sha1 hash of the measurement data for integrity checking purposes.
+* `datum`, is used to indicate the presence of an individual measurement. The other keys present are: `text_off` (is the offset into the uncompressed tar file to the beginning of this measurement), `text_size` (is the overall uncompressed size of this measurement), `orig_sha1` a base64 encoded sha1 hash of the _incomming_ measurement
 
 
 ## Metadata as PostgreSQL dump
