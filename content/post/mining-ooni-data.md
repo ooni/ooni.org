@@ -14,6 +14,10 @@ dataset or access some big slice of it.
 This post describes other options that are either currently available or can be
 made available [upon request](/about/#contact).
 
+There is another important caveat: the data uploaded by OONI Probes is made
+available in daily batches, so it may take up to 48 hours for the measurement
+to become available in OONI Explorer, OONI API and other sources of OONI data.
+
 ## Raw data
 
 First of all, whole OONI dataset can be fetched from
