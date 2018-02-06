@@ -7,14 +7,9 @@ categories: ["blog"]
 ---
 
 [OONI Explorer](https://explorer.ooni.io/) and the [OONI API](https://api.ooni.io/)
-provide access to [the data OONI gathers](/data/), but these two tools are currently
-not the best ones for a researcher wanting to dig through the entire OONI
-dataset or access some big slice of it.
+provide access to [the data OONI gathers](/data/). As these tools currently present some limitations, we publish this post to share other options for researchers interested in digging through OONI data. These options are either currently available or can be made available [upon request](/about/#contact).
 
-This post describes other options that are either currently available or can be
-made available [upon request](/about/#contact).
-
-There is another important caveat: the data uploaded by OONI Probes is made
+There is another important caveat: The data uploaded by OONI Probes is made
 available in daily batches, so it may take up to 48 hours for the measurement
 to become available in OONI Explorer, OONI API and other sources of OONI data.
 
