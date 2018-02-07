@@ -1,7 +1,7 @@
 ---
 title: "I have hands, how can I mine OONI data?"
 author: "Leonid Evdokimov"
-date: "2018-02-02"
+date: "2018-02-07"
 tags: ["technology"]
 categories: ["blog"]
 ---
@@ -10,7 +10,7 @@ categories: ["blog"]
 provide access to [the data OONI gathers](/data/). As these tools currently present some limitations, we publish this post to share other options for researchers interested in digging through OONI data. These options are either currently available or can be made available [upon request](/about/#contact).
 
 There is another important caveat: The data uploaded by OONI Probes is made
-available in daily batches, so it may take up to 48 hours for the measurement
+available in daily batches, so it may take up to 48 hours for the measurements
 to become available in OONI Explorer, OONI API and other sources of OONI data.
 
 ## Raw data
@@ -46,9 +46,7 @@ Note: The JSON schema is not entirely enforced on data ingestion, so there may
 be some slight difference between the schema specification and the actual data.
 
 The command-line `lz4` tool supporting LZ4 format is packaged as `liblz4-tool` for
-_Debian 9 (stretch)_ and _Ubuntu 16.04 (xenial)_, older versions may fail with
-`Error 64 : Does not support stream size` error message.
-
+_Debian 9 (stretch)_ and _Ubuntu 16.04 (xenial)_, older versions may fail with the following error message: `Error 64 : Does not support stream size`.
 
 ### jsonl
 
