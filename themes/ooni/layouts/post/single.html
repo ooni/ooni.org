@@ -19,7 +19,11 @@
     <h1 class="article-title">{{ .Title }}</h1>
     <div class="byline">
       <span class="author">{{ .Params.author }}</span>
-      <span class="date">{{ .Date }}</span>
+      {{ if and (eq .Date.Hour 0) (eq .Date.Minute 0) }}
+      <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+      {{ else }}
+      <span class="date">{{ .Date.Format "2006-01-02 15:04" }} UTC</span>
+      {{ end }}
     </div>
     {{ if .IsTranslated }}
     <h4>Translation(s):</h4>
