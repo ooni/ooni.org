@@ -6,9 +6,13 @@ tags: ["technology", "iran", "DNS", "DNS Hijacking", "TCP injections", "DPI"]
 categories: ["blog"]
 ---
 
-![You'll drop jigsaw, won't you?](/post/2018-iran-protests/jigsaw-800px.png)
-
-In early January 2018, OONI published a [post](/post/2018-iran-protests/) reporting on the blocking of Telegram and Instagram amidst protests in Iran. We have since been analyzing RIPE data and other network measurements collected from Iran in an attempt to better understand the blockages. Upon further analysis, we found that Instagram was in fact blocked (during the Iran protests) through the use of Deep Packet Inspection (DPI) technology which targeted the TLS protocol. And it was configured in an interesting way.
+In early January 2018, OONI published a [post](/post/2018-iran-protests/)
+reporting on the blocking of Telegram and Instagram amidst protests in Iran. We
+have since been analyzing RIPE data and other network measurements collected
+from Iran in an attempt to better understand the blockages. Upon further
+analysis, we found that Instagram was in fact blocked (during the Iran
+protests) through the use of Deep Packet Inspection (DPI) technology which
+targeted the TLS protocol. And it was configured in an interesting way.
 
 ## TLS is fun
 
