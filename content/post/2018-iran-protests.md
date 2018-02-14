@@ -1,5 +1,5 @@
 ---
-title: "Iran Protests: OONI data confirms censorship events"
+title: "Iran Protests: OONI data confirms censorship events (Part 1)"
 author: "Maria Xynou, Arturo Filastò"
 date: "2018-01-05"
 tags: ["iran", "censorship"]
@@ -55,7 +55,7 @@ measurements) if the block started earlier.
 
 OONI’s [Web Connectivity test](/nettest/web-connectivity/) is designed to
 measure the DNS, HTTP, and TCP/IP blocking of websites. Network measurement
-data collected from this test shows the DNS blocking of Instagram in Iran.
+data collected from this test shows the blocking of Instagram in Iran.
 
 The table below summarizes OONI findings.
 
@@ -83,6 +83,10 @@ started blocking access on 2nd January 2018. ParsOnline Tehran (AS16322)
 clearly started blocking access to Instagram on 31st December 2017, while
 network measurements collected from 7 different ISPs in total show the blocking
 of the site on 1st and 2nd January 2018.
+
+Further findings are available in [Part 2](https://ooni.torproject.org/post/2018-iran-protests-pt2/) of this research. The latest findings show that Instagram
+was blocked through the use of Deep Packet Inspection (DPI) technology which
+targeted the TLS protocol.
 
 ## Blocking of Facebook Messenger
 
@@ -186,3 +190,5 @@ All network measurement data based on your testing will be published via the fol
 
 We thank all the anonymous volunteers in Iran who have run and continue
 to run [OONI Probe](/install/), thus making this research possible.
+
+**This post has been updated on 14th February 2018 following the [publication of further research](https://ooni.torproject.org/post/2018-iran-protests-pt2/).**
