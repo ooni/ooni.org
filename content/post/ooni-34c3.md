@@ -26,6 +26,8 @@ Attend the lecture to learn all about OONI, recent censorship findings
 from around the world, and how you can join the fight against internet
 censorship.
 
+*UPD:* video of the lecture is available at [media.ccc.de](https://media.ccc.de/v/34c3-8923-ooni_let_s_fight_internet_censorship_together).
+
 # OONI assembly
 
 To engage with 34C3 participants, we’ll be hosting an assembly called
