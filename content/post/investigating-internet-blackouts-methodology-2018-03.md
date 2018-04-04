@@ -29,9 +29,9 @@ region.**
 
 Often, these internet blackouts occur alongside political events
 (such as elections and protests). Last weekend, [network disruptions occurred in Sierra Leone](http://www.africanews.com/2018/04/01/why-sierra-leone-temporarily-shutdown-internet-after-runoff-vote/) amid the runoff elections. In The Gambia, the
-internet was completely [shut down on the day of their 2016 general elections](https://ooni.torproject.org/post/gambia-internet-shutdown/).
+internet was completely [shut down on the day of their 2016 general elections](/post/gambia-internet-shutdown/).
 In Ethiopia, internet blackouts have been
-[reported](https://ooni.torproject.org/post/ethiopia-internet-shutdown-amidst-recent-protests/)
+[reported](/post/ethiopia-internet-shutdown-amidst-recent-protests/)
 during a wave of political protests.
 
 But internet blackouts are not limited to African countries. Most
@@ -64,7 +64,7 @@ The OONI team aims to address this problem through the creation of a new
 methodology that investigates internet blackouts from the edge of the
 network.
 
-Thanks to our global community, [OONI Probe](https://ooni.torproject.org/install/) is run on a daily basis in [around 200 countries](https://api.ooni.io/stats). Future versions of the OONI Probe
+Thanks to our global community, [OONI Probe](/install/) is run on a daily basis in [around 200 countries](https://api.ooni.io/stats). Future versions of the OONI Probe
 mobile apps will allow users to participate in internet blackout investigations.
 More detailed information regarding the implementation of this methodology is
 available in our **[Investigating Internet Blackouts document](/documents/Investigating-Internet-Blackouts-Methodology-2018-03.pdf)**, which we
