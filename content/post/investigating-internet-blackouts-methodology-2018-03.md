@@ -50,7 +50,7 @@ accuracy, whether and how an internet blackout has actually occurred.**
 Some internet blackouts may be politically-motivated, as a result of
 government orders. Other internet blackouts may be accidental, as a
 result of undersea cable cuts or network glitches. Maybe you can’t
-access the internet due to a broken LAN switch, CPE failure, or because
+access the internet due to a broken LAN switch or because
 the network is simply overloaded. There are many reasons why you may not
 be able to access the internet, and many of them probably have nothing
 to do with governments intentionally shutting down the internet to serve
