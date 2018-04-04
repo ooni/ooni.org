@@ -1,6 +1,6 @@
 ---
-title: "Investigating Internet Blackouts from the Edge: OONI's new upcoming methodology"
-author: "Maria Xynou, Leonid Evdokimov, Arturo Filastò"
+title: "Investigating Internet Blackouts from the Edge of the network: OONI's new upcoming methodology"
+author: "Maria Xynou"
 date: "2018-04-04"
 tags: ["blackouts"]
 categories: ["blog"]
@@ -67,7 +67,7 @@ network.
 Thanks to our global community, [OONI Probe](/install/) is run on a daily basis in [around 200 countries](https://api.ooni.io/stats). Future versions of the OONI Probe
 mobile apps will allow users to participate in internet blackout investigations.
 More detailed information regarding the implementation of this methodology is
-available in our **[Investigating Internet Blackouts document](/documents/Investigating-Internet-Blackouts-Methodology-2018-03.pdf)**, which we
+available in our **[Investigating Internet Blackouts document](/post/investigating-internet-blackouts/Investigating-Internet-Blackouts-Methodology-2018-03.pdf)**, which we
 encourage you to read.
 
 Given that this would probably be the first methodology to attempt to
