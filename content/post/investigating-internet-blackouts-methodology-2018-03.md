@@ -25,7 +25,7 @@ sense, and there’s no clear justification for it either.
 
 **This is the type of reality that millions of people around the world
 experience every year, when an internet blackout takes place in their
-region. **
+region.**
 
 Often, these internet blackouts occur alongside political events
 (such as elections and protests). Last weekend, [network disruptions occurred in Sierra Leone](http://www.africanews.com/2018/04/01/why-sierra-leone-temporarily-shutdown-internet-after-runoff-vote/) amid the runoff elections. In The Gambia, the
