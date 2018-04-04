@@ -4,7 +4,10 @@ set -o xtrace
 cd $HOME # should be ~ooni
 python - <<'EOF'
 TIMEOUT, STEP = 180, 5
-import urllib2, json, time
+import urllib2, json, time, sys
+# XXX hotfix
+sys.exit(0)
+
 for i in xrange(0, TIMEOUT, STEP):
     try:
         state = json.load(urllib2.urlopen('https://api.github.com/repos/thetorproject/ooni-web/commits/master/status'))['state']
