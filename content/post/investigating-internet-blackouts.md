@@ -8,7 +8,7 @@ categories: ["blog"]
 
 **The OONI team is creating a new methodology aimed at automatically
 detecting and examining internet blackouts.** Learn all about our
-methodology **[here](/documents/Investigating-Internet-Blackouts-Methodology-2018-03.pdf)**.
+methodology **[here](/post/investigating-internet-blackouts/Investigating-Internet-Blackouts-Methodology-2018-03.pdf)**.
 
 ---------------------------------------------------------------------------------------------------------------------
 
