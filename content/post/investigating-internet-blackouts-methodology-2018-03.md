@@ -8,7 +8,7 @@ categories: ["blog"]
 
 **The OONI team is creating a new methodology aimed at automatically
 detecting and examining internet blackouts.** Learn all about our
-methodology **[here](/documents/ooni-investigating-internet-blackouts-methodology.pdf)**.
+methodology **[here](/documents/Investigating-Internet-Blackouts-Methodology-2018-03.pdf)**.
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -67,7 +67,7 @@ network.
 Thanks to our global community, [OONI Probe](https://ooni.torproject.org/install/) is run on a daily basis in [around 200 countries](https://api.ooni.io/stats). Future versions of the OONI Probe
 mobile apps will allow users to participate in internet blackout investigations.
 More detailed information regarding the implementation of this methodology is
-available in our **[Investigating Internet Blackouts document](/documents/ooni-investigating-internet-blackouts-methodology.pdf)**, which we
+available in our **[Investigating Internet Blackouts document](/documents/Investigating-Internet-Blackouts-Methodology-2018-03.pdf)**, which we
 encourage you to read.
 
 Given that this would probably be the first methodology to attempt to
