@@ -44,7 +44,7 @@ sites and services.
 
 Network measurement
 [data](https://explorer.ooni.torproject.org/country/SL) collected via
-[OONI Probe](https://ooni.torproject.org/install/) (OONI’s software
+[OONI Probe](/install/) (OONI’s software
 designed to measure internet censorship) shows that local and
 international sites and services were accessible. [OONI data](https://explorer.ooni.torproject.org/country/SL) shows no signs
 of internet censorship throughout Sierra Leone’s 2018 election period,
