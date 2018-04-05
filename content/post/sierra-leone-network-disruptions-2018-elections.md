@@ -15,7 +15,7 @@ local
 
 It seems that the network disruptions were caused by an ACE submarine
 cable cut. [Google traffic](https://transparencyreport.google.com/traffic/overview?fraction_traffic=start:1520294400000;end:1522886400000;product:19;region:SL&lu=fraction_traffic)
-and BGP data suggest that the second disruption, following the runoff
+and [BGP data](https://stat.ripe.net/widget/country-routing-stats#w.resource=sl&w.zoom_start=1522368000000&w.zoom_end=1522627200000&w.comparison=no) suggest that the second disruption, following the runoff
 elections, could be an internet blackout.
 
 # 2018 general elections
