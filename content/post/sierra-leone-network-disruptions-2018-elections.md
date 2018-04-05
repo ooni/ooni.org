@@ -75,7 +75,7 @@ an internet blackout has occurred or not.
 The following graph illustrates [internet traffic from Sierra Leone to Google Search](https://transparencyreport.google.com/traffic/overview?fraction_traffic=start:1520294400000;end:1522886400000;product:19;region:SL&lu=fraction_traffic)
 throughout March 2018.
 
-![Google traffic data](/post/sierra-leone/XXX.png)
+![Google traffic data](/post/sierra-leone/google-traffic.png)
 
 Source: [Google Transparency Reports: Traffic and disruptions to Google](https://transparencyreport.google.com/traffic/overview?fraction_traffic=start:1520294400000;end:1522886400000;product:19;region:SL&lu=fraction_traffic)
 
@@ -106,17 +106,23 @@ Both Google traffic and BGP announcement data show network disruptions
 in Sierra Leone during the same dates and time, and both show that
 internet access was restored by noon on 1st April 2018.
 
-In our attempt to understand how and why these network disruptions
-occurred, we referred to data published for other neighbouring
-countries. BGP announcement data published by RIPE shows that network
-disruptions also occurred in neighbouring
-[Guinea](https://stat.ripe.net/widget/country-routing-stats#w.resource=gn&w.zoom_start=1522368000000&w.zoom_end=1522627200000&w.comparison=no)
-and
-[Liberia](https://stat.ripe.net/widget/country-routing-stats#w.resource=lr&w.zoom_start=1522368000000&w.zoom_end=1522627200000&w.comparison=no),
-but only on 30th March 2018. Sierra Leone Cable Company (SALCAB)
-released a public statement, arguing that the network disruption was
-caused by an ACE submarine cable cut and confirming that it affected
-other countries in the region as well.
+In our attempt to understand how and why these network disruptions occurred, we
+referred to data published for other neighbouring countries. BGP announcement
+data published by RIPE shows that network disruptions also occurred in
+neighbouring [Guinea](https://stat.ripe.net/widget/country-routing-stats#w.resource=gn&w.zoom_start=1522368000000&w.zoom_end=1522627200000&w.comparison=no) and
+[Liberia](https://stat.ripe.net/widget/country-routing-stats#w.resource=lr&w.zoom_start=1522368000000&w.zoom_end=1522627200000&w.comparison=no), but only on
+30th March 2018. Sierra Leone Cable Company (SALCAB) - which manages Sierra
+Leone’s connection to the ACE submarine cable - [reportedly stated](http://www.itwebafrica.com/telecommunications/891-sierra-leone/243740-internet-shutdown-as-sierra-leone-votes) ([archived](https://web.archive.org/web/20180404181143/http://www.itwebafrica.com/telecommunications/891-sierra-leone/243740-internet-shutdown-as-sierra-leone-votes))
+that the network disruption ahead of the elections was caused by a submarine
+cable issue between Nouakchott (Mauritania) and Dakar (Senegal).
+
+![ACE Submarine Cable Cut](/post/sierra-leone/cable-cut.png)
+
+Source: [ACE Submarine Cable Map](https://www.submarinecablemap.com/#/submarine-cable/africa-coast-to-europe-ace)
+
+SALCAB released a public statement confirming that the network disruption was
+caused by an ACE submarine cable cut and that it affected other countries in the
+region as well.
 
 ![SALCAB public notice](/post/sierra-leone/salcab.png)
 
