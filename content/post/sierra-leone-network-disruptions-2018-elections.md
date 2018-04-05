@@ -77,8 +77,7 @@ throughout March 2018.
 
 ![Google traffic data](/post/sierra-leone/XXX.png)
 
-Source: Google Transparency Reports: Traffic and disruptions to
-Google, https://transparencyreport.google.com/traffic/overview?fraction_traffic=start:1520294400000;end:1522886400000;product:19;region:SL&lu=fraction_traffic
+Source: [Google Transparency Reports: Traffic and disruptions to Google](https://transparencyreport.google.com/traffic/overview?fraction_traffic=start:1520294400000;end:1522886400000;product:19;region:SL&lu=fraction_traffic)
 
 Most internet traffic was uninterrupted, but towards the end of the
 month there are two noticeable network disruptions. The first occurred
@@ -97,7 +96,7 @@ the early hours of 1st April 2018.
 
 ![BGP announcement data published by RIPE](/post/sierra-leone/ripe.png)
 
-Source: RIPE, https://stat.ripe.net/widget/country-routing-stats#w.resource=sl&w.zoom_start=1522368000000&w.zoom_end=1522627200000&w.comparison=no
+Source: [BGP announcement data published by RIPE](https://stat.ripe.net/widget/country-routing-stats#w.resource=sl&w.zoom_start=1522368000000&w.zoom_end=1522627200000&w.comparison=no)
 
 Similarly to Google traffic data, BGP data from the above graph shows
 that a partial network disruption (only affecting a few ASNs and
