@@ -2,7 +2,7 @@
 title: "OONI's recent participation at events in Africa, India, and Europe"
 author: "Maria Xynou, Leonid Evdokimov"
 date: "2018-04-11"
-tags: ["conferences"]
+tags: ["events"]
 categories: ["blog"]
 ---
 
