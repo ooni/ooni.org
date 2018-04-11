@@ -54,7 +54,7 @@ After South Africa, OONI’s Arturo and Maria traveled to Uganda to
 participate in the “[Internet Policy in Africa: Research Methods for Advocacy](http://globalnetpolicy.org/event/research-methods-africa/)”
 workshop in Kampala between 26th February 2018 to 3rd March 2018.
 
-Organized by the [Internet Policy Observatory (IPO)](http://globalnetpolicy.org/), this week-long workshop brought
+Organized by the [Internet Policy Observatory (IPO)](http://globalnetpolicy.org/) and Uganda's [CIPESA](https://cipesa.org/), this week-long workshop brought
 together lawyers, policy makers, academic researchers, human rights
 activists and technologists from multiple African countries. It
 therefore provided us a unique opportunity to engage directly with a
