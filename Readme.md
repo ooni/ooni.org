@@ -1,4 +1,15 @@
-# Contributing articles
+# OONI Web
+
+This is the canonical website for OONI, that you can access via:
+
+* https://ooni.io
+* https://ooni.torproject.org
+* https://openobservatory.github.io
+* https://ooni.netlify.com
+
+If you are having trouble accessing our website, please contact us at contact [at] openobservatory.org.
+
+## Contributing articles
 
 * Fork this repository if you're not a collaborator
 * Add your post to `content/post/` directory
@@ -10,9 +21,9 @@
 
 ![ooni-web workflow](.assets/ooni.io.png)
 
-# Local build
+## Local build
 
-## Setup
+### Setup
 
 Dependencies to build the website **manually** are
 [hugo](https://github.com/spf13/hugo/),
@@ -22,7 +33,7 @@ versions are codified in "canonical" build procedure in
 [travis.yml](./travis.yml).
 
 
-## Running locally
+### Running locally
 
 If you want to preview the website while editing styles and posts you can do it running following command:
 
