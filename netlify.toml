@@ -1,0 +1,8 @@
+[build]
+publish = "public"
+command = "make netlify"
+
+[context.production.environment]
+HUGO_VERSION = "0.29"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
