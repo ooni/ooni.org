@@ -22,6 +22,16 @@ publish:
 	cd public && git push --force pages master
 	@echo "You can now view the website at: https://openobservatory.github.io/"
 
+netlify:
+	mkdir contrib
+	pip install sphinx sphinx_rtd_theme
+	git clone --depth 1 --branch master https://github.com/TheTorProject/ooni-probe.git/ contrib/ooni-probe
+	rm -rf public design
+	hugo --theme=ooni --buildDrafts --baseUrl=https://ooni.io
+	make -C contrib/ooni-probe/docs clean
+	make -C contrib/ooni-probe/docs html
+	cp -R contrib/ooni-probe/docs/build/html/ public/docs/
+
 server:
 	hugo server --theme=ooni --baseUrl=http://127.0.0.1:1313 --buildDrafts
 
