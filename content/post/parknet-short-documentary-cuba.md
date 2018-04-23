@@ -14,7 +14,7 @@ might remember that we published a [research report](https://ooni.torproject.org
 Today we publish a **short documentary (“ParkNet”)** on our study of internet
 censorship in Cuba.
 
-XXX
+{{< youtube vid="QslsL84jx4E" >}}
 
 “ParkNet” is a term that we coined to refer to parks that serve as public WiFi
 hotspots in Cuba. You can also access the internet from many other public
