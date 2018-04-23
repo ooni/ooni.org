@@ -25,4 +25,4 @@ The aim of this documentary is to share some of our keys findings and to provide
 a feel of Cuba’s unique internet landscape. We also wanted to experiment with
 the idea of presenting censorship findings with video.
 
-If you’re interested in more in-depth findings, please refer to our [research report](https://ooni.torproject.org/post/cuba-internet-censorship-2017/).
+Our [OONI YouTube channel](https://www.youtube.com/channel/UCQhDgj9wBf4_w5bWFvLlq-w) will feature new and exciting content over the next months. [Subscribe to receive updates](https://www.youtube.com/channel/UCQhDgj9wBf4_w5bWFvLlq-w?sub_confirmation=1)!
