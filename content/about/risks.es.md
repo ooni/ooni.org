@@ -72,8 +72,8 @@ OONI Probe, y leer cuidadosamente la documentación a continuación.
 Los usuarios que ejecutan OONI Probe lo hacen bajo su propio riesgo. Al instalar
 OONI Probe, los usuarios están de acuerdo con cumplir con la
 [licencia](https://github.com/TheTorProject/ooni-%20probe/blob/master/LICENSE) y
-[Política de Datos](https://ooni.torproject.org/about/data-policy) de OONI. Ni
-el [Proyecto OONI](https://ooni.torproject.org/) ni su organización matriz, [El Proyecto Tor](https://www.torproject.org/), se hacen responsables, de forma
+[Política de Datos](/about/data-policy) de OONI. Ni
+el [Proyecto OONI](https://ooni.io/) ni su organización matriz, [El Proyecto Tor](https://www.torproject.org/), se hacen responsables, de forma
 conjunta o solidaria, ante la ley o en equidad, ante usuarios de OONI Probe y
 terceros por cualquier daño resultante del uso de OONI Probe bajo cualquier
 agravio, contrato u otras causas de acción.
@@ -180,7 +180,7 @@ al recolector de mediciones de OONI y automáticamente publicadas en:
 
 Por lo tanto, el público - incluyendo terceras entidades que ven el uso de OONI
 Probe como una amenaza - será capaz de ver todas las mediciones de usuarios,
-excepto si los usuarios [optan por no hacerlo](https://ooni.torproject.org/about/data-policy/).
+excepto si los usuarios [optan por no hacerlo](/about/data-policy/).
 
 Los datos publicados incluyen tu ubicación aproximada, la red (ASN) desde la que
 te conectas, y la hora en que ejecutaste OONI Probe. Otro tipo de información
