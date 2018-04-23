@@ -23,9 +23,9 @@ publish:
 	@echo "You can now view the website at: https://openobservatory.github.io/"
 
 netlify:
-	mkdir contrib
+	mkdir contrib || echo 'contrib already there'
 	pip install sphinx sphinx_rtd_theme
-	git clone --depth 1 --branch master https://github.com/TheTorProject/ooni-probe.git/ contrib/ooni-probe
+	git clone --depth 1 --branch master https://github.com/TheTorProject/ooni-probe.git/ contrib/ooni-probe || cd contrib/ooni-probe && git pull && cd ../../
 	rm -rf public design
 	hugo --theme=ooni --buildDrafts --baseUrl=https://ooni.io
 	make -C contrib/ooni-probe/docs clean
