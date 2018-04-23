@@ -39,7 +39,7 @@ the documentation below.
 Users run ooniprobe at their own risk. By installing ooniprobe, users agree to
 comply with OONI's software
 [license](https://github.com/TheTorProject/ooni-%20probe/blob/master/LICENSE)
-and [Data Policy](https://ooni.torproject.org/about/data-policy). Neither the
+and [Data Policy](/about/data-policy). Neither the
 [OONI project](https://ooni.torproject.org/) nor its parent organization, [The Tor Project](https://www.torproject.org/), can be held liable, jointly or
 severally, at law or at equity, to ooniprobe users and other third parties, for
 any risks or damages resulting from the use of ooniprobe under any tort,
@@ -145,7 +145,7 @@ measurement collector and automatically published through:
 
 Consequently, the public - including third parties who view the usage of
 ooniprobe as a threat - will be able to see all user measurements, unless users
-**[opt out](https://ooni.torproject.org/about/data-policy/)**.
+**[opt out](/about/data-policy/)**.
 
 Published data will include your approximate location, the network (ASN) you are
 connecting from, and the time when you ran ooniprobe. Other identifying
@@ -302,7 +302,7 @@ Please confirm you are reading the latest version before relying on any advice.
 Again, users run ooniprobe at their own risk. By installing ooniprobe, users agree to
 comply with OONI's software
 [license](https://github.com/TheTorProject/ooni-%20probe/blob/master/LICENSE)
-and [Data Policy](https://ooni.torproject.org/about/data-policy). Neither the
+and [Data Policy](/about/data-policy). Neither the
 [OONI project](https://ooni.torproject.org/) nor its parent organization, [The Tor Project](https://www.torproject.org/), can be held liable, jointly or
 severally, at law or at equity, to ooniprobe users and other third parties, for
 any risks or damages resulting from the use of ooniprobe under any tort,
