@@ -4,9 +4,9 @@ aliases: ["/data-policy"]
 
 # OONI Data Policy
 
-**Last modified:** July 17, 2017
+**Last modified:** April 23, 2018
 
-**Version:** 1.1.0
+**Version:** 1.2.0
 
 This Data Policy discloses and explains what data the [Open Observatory of Network Interference (OONI) project](https://ooni.torproject.org/) ("we", "us",
 or "our") collects, processes, stores and publishes relating to users of its
@@ -165,6 +165,9 @@ answer other research questions.
 
 Currently, we publish all measurement data both through our [OONI API](https://api.ooni.io/) and through an interactive
 visualization called [OONI Explorer](https://explorer.ooni.torproject.org/world/).
+
+For more information on the license under which the data is released, see
+[github.com/ooni/license/data](https://github.com/ooni/license/tree/master/data).
 
 ### 2.5. Third-party services
 
