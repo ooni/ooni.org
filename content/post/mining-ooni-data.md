@@ -1,6 +1,6 @@
 ---
 title: "I have hands, how can I mine OONI data?"
-author: "Leonid Evdokimov"
+author: "Leonid Evdokimov, Arturo Filastò"
 date: "2018-02-07"
 tags: ["technology"]
 categories: ["blog"]
@@ -107,6 +107,9 @@ You can list the files related to a particular date using the [AWS CLI](https://
 ```
 aws s3 ls s3://ooni-data/autoclaved/jsonl.tar.lz4/2017-11-23/
 ```
+
+You should run the `aws` command with the `--no-sign-request` option, to
+disable signing of requests (ex. `aws --no-sign-request s3 ls s3://ooni-data/autoclaved/jsonl.tar.lz4/2017-11-23/`).
 
 A `gzip` compressed newline separated JSON index file (`index.json.gz`) is also
 available in every "daily bucket" root (example:
