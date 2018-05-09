@@ -23,7 +23,7 @@ defending a free and open internet.
 Today we publish an interview with Moses so that you can have a chance
 to meet him too and learn more about his work.
 
-EMBED VIDEO
+{{< youtube vid="Pam2UQoZ1qM" >}}
 
 This is the first interview of a series of interviews with community
 members that we’ll be publishing over the next weeks/months. [Subscribe to our YouTube channel](https://www.youtube.com/channel/UCQhDgj9wBf4_w5bWFvLlq-w?sub_confirmation=1)
