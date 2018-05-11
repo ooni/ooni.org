@@ -22,7 +22,7 @@ meet many new faces!
 Below we list the sessions we’ll be speaking at and moderating. We hope
 you can join us!
 
-1. **[Enforcing Net Neutrality with Evidence Based Policy Making](https://rightscon2018.sched.com/event/EHoY/enforcing-net-neutrality-with-evidenced-based-policy-making)**
+1 **[Enforcing Net Neutrality with Evidence Based Policy Making](https://rightscon2018.sched.com/event/EHoY/enforcing-net-neutrality-with-evidenced-based-policy-making)**
 
 **Moderator:** Georgia Bullen
 
@@ -47,7 +47,7 @@ about working with measurement tools as part of advocacy and campaigns
 and overall be a conversation on strategic thinking with data in pursuit
 of evidence based policy making.
 
-2. **[Shedding Light on Internet Blackouts](https://rightscon2018.sched.com/event/EHmS/shedding-light-on-internet-blackouts)**
+2 **[Shedding Light on Internet Blackouts](https://rightscon2018.sched.com/event/EHmS/shedding-light-on-internet-blackouts)**
 
 **Moderator:** Maria Xynou
 
@@ -71,7 +71,7 @@ sound methodology for measuring blackouts when they occur.
 We will give an overview of the state of the art and present some of the
 findings from the past years.
 
-3. **[Defending Minority Voices on a Censored Internet](https://rightscon2018.sched.com/event/EHmO/defending-minority-voices-on-a-censored-internet)**
+3 **[Defending Minority Voices on a Censored Internet](https://rightscon2018.sched.com/event/EHmO/defending-minority-voices-on-a-censored-internet)**
 
 **Moderator:** Jessica Anderson
 
@@ -95,7 +95,7 @@ will also discuss cases involving the blocking of minority websites
 around the world, as well as techniques for measuring their
 accessibility over time.
 
-4. **[When Repressive Authorities #KeepItOn](https://rightscon2018.sched.com/event/EHlH/when-repressive-authorities-keepiton)**
+4 **[When Repressive Authorities #KeepItOn](https://rightscon2018.sched.com/event/EHlH/when-repressive-authorities-keepiton)**
 
 **Moderator:** Arturo Filastò
 
