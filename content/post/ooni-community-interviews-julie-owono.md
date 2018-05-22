@@ -10,7 +10,7 @@ If you’ve met [Julie Owono](https://twitter.com/JulieOwono), you’ll probably
 determination for defending digital rights is one of the things that
 stands out about her.
 
-In her capacity as the Executive Director of [Internet Sans Frontieres](https://internetwithoutborders.org/) (Internet Without
+In her capacity as the Executive Director of [Internet Sans Frontières](https://internetwithoutborders.org/) (Internet Without
 Borders), Julie has spearheaded advocacy efforts in defense of online
 freedoms in many West African countries. Notably, Julie led campaigns
 against internet shutdowns in Cameroon, as well as in Togo and Chad.
