@@ -20,7 +20,7 @@ in West Africa and used OONI data as part of campaigns.
 Today we publish an interview with Julie Owono so that you can learn
 more about her work. Meet Julie!
 
-EMBED VIDEO
+{{< youtube vid="t842clfakt0" >}}
 
 We’ll be publishing more interviews with community members over the next
 months. [Subscribe to our YouTube channel](https://www.youtube.com/channel/UCQhDgj9wBf4_w5bWFvLlq-w?sub_confirmation=1)
