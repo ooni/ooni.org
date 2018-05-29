@@ -2,6 +2,7 @@ baseURL = "https://ooni.torproject.org"
 languageCode = "en-us"
 title = "OONI: Open Observatory of Network Interference"
 DefaultContentLanguage = "en"
+pluralizeListTitles = false
 
 [Languages]
 [Languages.en]
