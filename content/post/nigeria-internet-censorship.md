@@ -13,10 +13,11 @@ the blocking of 21 websites. In response, we collaborated with Nigeria’s
 and collect network measurement data that can shed light on whether and
 how they’re blocked.
 
-Our findings are included in a joint research report that we published
-today with Paradigm Initiative. The full report, titled **“Tightening the
-Noose on Freedom of Expression: Status of Internet Freedom in Nigeria
-2018”**, can be **downloaded here**. A summary of the report is available **here**.
+Our findings are included in a joint research report that we published today
+with Paradigm Initiative. The full report, titled **“Tightening the Noose on
+Freedom of Expression: Status of Internet Freedom in Nigeria 2018”**, can be
+**[downloaded here](/documents/nigeria-report.pdf)**. A summary of the report
+is available **[here](/documents/nigeria-report-summary.pdf)**.
 
 This post summarizes OONI findings pertaining to these websites, as well
 as our analysis of all other [OONI measurements collected from Nigeria](https://api.ooni.io/files/by_country/NG) over the last year.
