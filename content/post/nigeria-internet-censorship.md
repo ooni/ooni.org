@@ -16,7 +16,7 @@ how they’re blocked.
 Our findings are included in a joint research report that we published
 today with Paradigm Initiative. The full report, titled **“Tightening the
 Noose on Freedom of Expression: Status of Internet Freedom in Nigeria
-2018”**, can be **downloaded here**.
+2018”**, can be **downloaded here**. A summary of the report is available **here**.
 
 This post summarizes OONI findings pertaining to these websites, as well
 as our analysis of all other [OONI measurements collected from Nigeria](https://api.ooni.io/files/by_country/NG) over the last year.
@@ -246,13 +246,13 @@ Source: [Tor Metrics](https://metrics.torproject.org/userstats-relay-country.htm
 
 # Reproducing this study
 
-OONI is based on [free and open source software](https://github.com/TheTorProject/ooni-probe), [open methodologies](https://ooni.torproject.org/nettest/), and [open data](https://ooni.torproject.org/data/), enabling the independent
+OONI is based on [free and open source software](https://github.com/TheTorProject/ooni-probe), [open methodologies](https://ooni.torproject.org/docs/), and [open data](https://api.ooni.io/), enabling the independent
 verification of findings and the reproducibility of this study.
 
 To measure internet censorship based on OONI’s methodologies:
 
 1.  Determine which websites you want to test (either by [contributing](https://ooni.torproject.org/get-involved/contribute-test-lists/)
-to your country’s [test list](https://github.com/citizenlab/test-lists/tree/master/lists), or by [testing URLs](https://ooni.torproject.org/post/ooni-run/)directly via [OONI Run](https://run.ooni.io/))
+to your country’s [test list](https://github.com/citizenlab/test-lists/tree/master/lists), or by [testing URLs](https://ooni.torproject.org/post/ooni-run/) directly via [OONI Run](https://run.ooni.io/))
 
 2.  Run OONI Probe [tests](https://ooni.torproject.org/nettest/) (available for
 [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe), [iOS](https://itunes.apple.com/us/app/id1199566366),
