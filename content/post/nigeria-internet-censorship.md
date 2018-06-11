@@ -28,10 +28,10 @@ OONI’s [Web Connectivity test](https://ooni.torproject.org/nettest/web-connect
 designed to measure whether access to websites is blocked by means of
 DNS tampering, TCP/IP blocking, or by a transparent HTTP proxy.
 
-Most Web Connectivity [measurements](https://explorer.ooni.torproject.org/country/NG) in
+Most Web Connectivity [measurements](https://explorer.ooni.io/country/NG) in
 Nigeria have been collected from mobile networks, primarily testing the
 websites included in the [Citizen Lab’s global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv).
-OONI [data](https://explorer.ooni.torproject.org/country/NG)
+OONI [data](https://explorer.ooni.io/country/NG)
 shows that most websites tested in Nigeria over the last year have been
 accessible. The *accessible* sites include popular media websites, human
 rights sites, communications platforms, circumvention tool sites, and
@@ -46,41 +46,41 @@ Paradigm Initiative reported to be blocked, only 17 of them were tested
 (excluding biafra.net, biafra.com, biafra.club, and
 restoringbiafranationhood.info).
 
-Biafraforum.com was found to be [accessible](https://explorer.ooni.torproject.org/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.biafraforum.com),
+Biafraforum.com was found to be [accessible](https://explorer.ooni.io/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.biafraforum.com),
 while the following 16 sites were found to be blocked by means of DNS
 tampering in November 2017:
 
-* [Naij.com](https://explorer.ooni.torproject.org/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.naij.com)
+* [Naij.com](https://explorer.ooni.io/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.naij.com)
 
-* [Igbofocus.co.uk](https://explorer.ooni.torproject.org/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.igbofocus.co.uk)
+* [Igbofocus.co.uk](https://explorer.ooni.io/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.igbofocus.co.uk)
 
-* [Ipobgovernment.org](https://explorer.ooni.torproject.org/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.ipobgovernment.org)
+* [Ipobgovernment.org](https://explorer.ooni.io/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.ipobgovernment.org)
 
-* [Biafraland.com](https://explorer.ooni.torproject.org/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.biafraland.com%2F)
+* [Biafraland.com](https://explorer.ooni.io/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.biafraland.com%2F)
 
-* [Biafraradio.com](https://explorer.ooni.torproject.org/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fbiafraradio.com%2F)
+* [Biafraradio.com](https://explorer.ooni.io/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fbiafraradio.com%2F)
 
-* [Biafranet.com](https://explorer.ooni.torproject.org/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fbiafranet.com%2F)
+* [Biafranet.com](https://explorer.ooni.io/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fbiafranet.com%2F)
 
-* [Biafrastars.co](https://explorer.ooni.torproject.org/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.thebiafrastars.co)
+* [Biafrastars.co](https://explorer.ooni.io/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.thebiafrastars.co)
 
-* [Biafrainc.com](https://explorer.ooni.torproject.org/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.biafrainc.com)
+* [Biafrainc.com](https://explorer.ooni.io/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.biafrainc.com)
 
-* [Gobiafra.com](https://explorer.ooni.torproject.org/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.gobiafra.com)
+* [Gobiafra.com](https://explorer.ooni.io/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.gobiafra.com)
 
-* [Biafra.info](https://explorer.ooni.torproject.org/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.biafra.info)
+* [Biafra.info](https://explorer.ooni.io/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.biafra.info)
 
-* [Biafranigeriaworld.com](https://explorer.ooni.torproject.org/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.biafranigeriaworld.com)
+* [Biafranigeriaworld.com](https://explorer.ooni.io/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.biafranigeriaworld.com)
 
-* [Ekwenche.org](https://explorer.ooni.torproject.org/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.ekwenche.org)
+* [Ekwenche.org](https://explorer.ooni.io/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.ekwenche.org)
 
-* [Ustream.tv/channel/biafra-television](https://explorer.ooni.torproject.org/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.ustream.tv%2Fchannel%2Fbiafra-television)
+* [Ustream.tv/channel/biafra-television](https://explorer.ooni.io/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.ustream.tv%2Fchannel%2Fbiafra-television)
 
-* [Biafrasay.com](https://explorer.ooni.torproject.org/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.biafrasay.com)
+* [Biafrasay.com](https://explorer.ooni.io/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.biafrasay.com)
 
-* [Bafmembers.com](https://explorer.ooni.torproject.org/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.bafmembers.com%2F)
+* [Bafmembers.com](https://explorer.ooni.io/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.bafmembers.com%2F)
 
-* [Thebiafrapost.com](https://explorer.ooni.torproject.org/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.thebiafrapost.com)
+* [Thebiafrapost.com](https://explorer.ooni.io/measurement/20171122T123014Z_AS29465_W4CebDsIwMop4zEqGXeaMFdNhwuxMu1hKSaiMzsUdnDfiVTfrq?input=http:%2F%2Fwww.thebiafrapost.com)
 
 OONI data (linked above) corroborates Paradigm Initiative’s [report](https://pinigeria.org/president-buharis-secret-war-on-free-speech/)
 on the blocking of those websites. It’s worth highlighting though that
@@ -152,9 +152,9 @@ that appear to have been blocked by Globacom and MTN.
 Another interesting pattern that we see in the measurements is that
 Nigerian ISPs appear to be using reserved (and historically unrouted) IP
 addresses, such as 192.0.0.1 and 1.1.1.1, as the spoofed DNS response.
-This technique seems to be used [by MTN](https://explorer.ooni.torproject.org/measurement/20180425T034226Z_AS29465_eoSDut18KoFZptz0bFoquV8l7FngjphC0ZdMQ65eyNzJwz5tmn?input=http:%2F%2Fwww.thebiafraherald.co%2F),
+This technique seems to be used [by MTN](https://explorer.ooni.io/measurement/20180425T034226Z_AS29465_eoSDut18KoFZptz0bFoquV8l7FngjphC0ZdMQ65eyNzJwz5tmn?input=http:%2F%2Fwww.thebiafraherald.co%2F),
 which resolves blocked domains to 192.0.0.1, and by
-[Airtel](https://explorer.ooni.torproject.org/measurement/20180425T142807Z_AS36873_3AfmnzK7JeJyfqebOQEnRI1pl2i2FewkqxVNafzGukCKj4iS84?input=http:%2F%2Fwww.thebiafraherald.co%2F),
+[Airtel](https://explorer.ooni.io/measurement/20180425T142807Z_AS36873_3AfmnzK7JeJyfqebOQEnRI1pl2i2FewkqxVNafzGukCKj4iS84?input=http:%2F%2Fwww.thebiafraherald.co%2F),
 which resolves blocked domains to 1.1.1.1. This could be due to the fact
 that resolving blocked domains with unrouted IP addresses leads to
 clients not generating any extra traffic (and potentially overloading
@@ -213,12 +213,12 @@ collected through OONI’s [WhatsApp](https://ooni.torproject.org/nettest/whatsa
 tests which measure the reachability of these apps.
 
 All **WhatsApp** measurements show that the app has been accessible in the
-following networks in Nigeria: [Swift Networks Limited (AS36923)](https://explorer.ooni.torproject.org/measurement/20180319T083752Z_AS36923_FFQVwFHx3BoM3WRxZrmnzEEhi3aMDkK5Gdzanf0YBvW670VWZd), [Globacom Limited (AS37148)](https://explorer.ooni.torproject.org/measurement/20180305T000440Z_AS37148_bgnlV4rJst9jd3oJrh86zAIoqeStCTdPGl0p9pSbJXsNSM2Jq3), [MTN (AS29465)](https://explorer.ooni.torproject.org/measurement/20180302T230819Z_AS29465_9N1gbcwZGJEfKZLa0A8NR1vPrzDXIF2apehZ1txrkUKoZbUMDc), [Airtel (AS36873)](https://explorer.ooni.torproject.org/measurement/20180301T134935Z_AS36873_vXfYR6uo8xi2PDQ3h9iIsjsVXTytfSRUcL1nGJoaUxn9MegniS), [Spectranet Limited (AS37340)](https://explorer.ooni.torproject.org/measurement/20180214T064847Z_AS37340_5V5K2GyEPGEEbOQT4FNMb52hwfUH30DUtzUlKSYGDrdT6c23J9), [Natcom (AS327952)](https://explorer.ooni.torproject.org/measurement/20180131T100447Z_AS327952_G928Pan6acZDFjGytXZrcBlAZPl9rkxrARvupUZTZW2YazTq4n), [Futurecom Limited (AS37377)](https://explorer.ooni.torproject.org/measurement/20180123T065917Z_AS37377_zK6uBim3C7gssqz7syPmSIHNVKNoBzYgh6oWoyYnIEvzp0wwyh).
+following networks in Nigeria: [Swift Networks Limited (AS36923)](https://explorer.ooni.io/measurement/20180319T083752Z_AS36923_FFQVwFHx3BoM3WRxZrmnzEEhi3aMDkK5Gdzanf0YBvW670VWZd), [Globacom Limited (AS37148)](https://explorer.ooni.io/measurement/20180305T000440Z_AS37148_bgnlV4rJst9jd3oJrh86zAIoqeStCTdPGl0p9pSbJXsNSM2Jq3), [MTN (AS29465)](https://explorer.ooni.io/measurement/20180302T230819Z_AS29465_9N1gbcwZGJEfKZLa0A8NR1vPrzDXIF2apehZ1txrkUKoZbUMDc), [Airtel (AS36873)](https://explorer.ooni.io/measurement/20180301T134935Z_AS36873_vXfYR6uo8xi2PDQ3h9iIsjsVXTytfSRUcL1nGJoaUxn9MegniS), [Spectranet Limited (AS37340)](https://explorer.ooni.io/measurement/20180214T064847Z_AS37340_5V5K2GyEPGEEbOQT4FNMb52hwfUH30DUtzUlKSYGDrdT6c23J9), [Natcom (AS327952)](https://explorer.ooni.io/measurement/20180131T100447Z_AS327952_G928Pan6acZDFjGytXZrcBlAZPl9rkxrARvupUZTZW2YazTq4n), [Futurecom Limited (AS37377)](https://explorer.ooni.io/measurement/20180123T065917Z_AS37377_zK6uBim3C7gssqz7syPmSIHNVKNoBzYgh6oWoyYnIEvzp0wwyh).
 
 Similarly, all **Facebook Messenger** measurements show that the app has
-been accessible in the following networks: [Swift Networks Limited (AS36923)](https://explorer.ooni.torproject.org/measurement/20180319T083746Z_AS36923_c5PNBD0IWQjeEZpBuXLpgZw1eOYNM9lsS4obge2UxmE99kVBmK), [Airtel (AS36873)](https://explorer.ooni.torproject.org/measurement/20180318T122918Z_AS36873_4I0fIg3Byguzj68TbIA5SOj8hEE13c1xAqVaR9FMAaMCqtkei0), [MTN (AS29465)](https://explorer.ooni.torproject.org/measurement/20180302T230839Z_AS29465_46hzKMHJEMfEBYYY6pj360ghlML3eWUkSrrse7LlIp6kxY3VWE), [Spectranet Limited (AS37340)](https://explorer.ooni.torproject.org/measurement/20180214T064928Z_AS37340_onEegzwhFbWUe1EaJQWguGSuCE48QeYk5EYRmh9WxbkPy4yVQl), [Natcom (AS327952)](https://explorer.ooni.torproject.org/measurement/20180131T100317Z_AS327952_dzqCO2ZdjOmcnKqoCHmAUlKND727sPwwy1ro6dLYrdUreRPW7K), [Globacom Limited (AS37148)](https://explorer.ooni.torproject.org/measurement/20180130T083252Z_AS37148_yEZdD2d6cJh8V6BQgYWfF6qMqrOijrzQlGhk33GeRoU8P6u35b), [Futurecom Limited (AS37377)](https://explorer.ooni.torproject.org/measurement/20180123T065940Z_AS37377_hJjmUNZXtkRB88znclB9X1bWQuGMVOnoUkXzGD7AsZYuzRe3LI).
+been accessible in the following networks: [Swift Networks Limited (AS36923)](https://explorer.ooni.io/measurement/20180319T083746Z_AS36923_c5PNBD0IWQjeEZpBuXLpgZw1eOYNM9lsS4obge2UxmE99kVBmK), [Airtel (AS36873)](https://explorer.ooni.io/measurement/20180318T122918Z_AS36873_4I0fIg3Byguzj68TbIA5SOj8hEE13c1xAqVaR9FMAaMCqtkei0), [MTN (AS29465)](https://explorer.ooni.io/measurement/20180302T230839Z_AS29465_46hzKMHJEMfEBYYY6pj360ghlML3eWUkSrrse7LlIp6kxY3VWE), [Spectranet Limited (AS37340)](https://explorer.ooni.io/measurement/20180214T064928Z_AS37340_onEegzwhFbWUe1EaJQWguGSuCE48QeYk5EYRmh9WxbkPy4yVQl), [Natcom (AS327952)](https://explorer.ooni.io/measurement/20180131T100317Z_AS327952_dzqCO2ZdjOmcnKqoCHmAUlKND727sPwwy1ro6dLYrdUreRPW7K), [Globacom Limited (AS37148)](https://explorer.ooni.io/measurement/20180130T083252Z_AS37148_yEZdD2d6cJh8V6BQgYWfF6qMqrOijrzQlGhk33GeRoU8P6u35b), [Futurecom Limited (AS37377)](https://explorer.ooni.io/measurement/20180123T065940Z_AS37377_hJjmUNZXtkRB88znclB9X1bWQuGMVOnoUkXzGD7AsZYuzRe3LI).
 
-**Telegram** was also found to be accessible in the following networks: [Airtel (AS36873)](https://explorer.ooni.torproject.org/measurement/20180318T130638Z_AS36873_8468HEZNxRTxdIsiWxfpcVn8DejpMBIyuwBs6O0IB3E1bSfRXW), [MTN (AS29465)](https://explorer.ooni.torproject.org/measurement/20180302T230827Z_AS29465_MKOxoQuXB4g17cojMLhA5eMJt223tDzUfDoMKqa3QyaLWhw7uU), [Spectranet Limited (AS37340)](https://explorer.ooni.torproject.org/measurement/20180214T064912Z_AS37340_RMg5qshSe9t3P2Uk2r6jR8TvioJuHwGBpKxEzoEBD2iMwdVIsT), [Natcom (AS327952)](https://explorer.ooni.torproject.org/measurement/20180131T100341Z_AS327952_4zvEiTScQJQamTrs7XkIV9tJeJUkhZ4zrFZslS37U7towyyedq), [Globacom Limited (AS37148)](https://explorer.ooni.torproject.org/measurement/20180130T083231Z_AS37148_LcVIDrbPuuCm9aUcqmgmnFrZAAKRCxYz3lokspICnKDdt3VRHr), [EMTS (AS37076)](https://explorer.ooni.torproject.org/measurement/20180114T051737Z_AS37076_7sczUGvGH11vBmIHW03NvPa8nEGq3MvxK02VoA7JDeS2t2Un8A).
+**Telegram** was also found to be accessible in the following networks: [Airtel (AS36873)](https://explorer.ooni.io/measurement/20180318T130638Z_AS36873_8468HEZNxRTxdIsiWxfpcVn8DejpMBIyuwBs6O0IB3E1bSfRXW), [MTN (AS29465)](https://explorer.ooni.io/measurement/20180302T230827Z_AS29465_MKOxoQuXB4g17cojMLhA5eMJt223tDzUfDoMKqa3QyaLWhw7uU), [Spectranet Limited (AS37340)](https://explorer.ooni.io/measurement/20180214T064912Z_AS37340_RMg5qshSe9t3P2Uk2r6jR8TvioJuHwGBpKxEzoEBD2iMwdVIsT), [Natcom (AS327952)](https://explorer.ooni.io/measurement/20180131T100341Z_AS327952_4zvEiTScQJQamTrs7XkIV9tJeJUkhZ4zrFZslS37U7towyyedq), [Globacom Limited (AS37148)](https://explorer.ooni.io/measurement/20180130T083231Z_AS37148_LcVIDrbPuuCm9aUcqmgmnFrZAAKRCxYz3lokspICnKDdt3VRHr), [EMTS (AS37076)](https://explorer.ooni.io/measurement/20180114T051737Z_AS37076_7sczUGvGH11vBmIHW03NvPa8nEGq3MvxK02VoA7JDeS2t2Un8A).
 
 It’s worth noting that these findings are limited to the specific
 networks where tests were run, as well as to the dates and time of
@@ -228,13 +228,13 @@ were blocked in different moments in time when tests weren’t run.
 
 # Testing circumvention tools
 
-Popular circumvention tool sites (such as [ultrasurf.us](https://explorer.ooni.torproject.org/measurement/20180211T170056Z_AS37148_6jCMl9ORG996hSFEG3uCsRIIvt5RkzbwMk8cO1bYMWvyNV35r7?input=http:%2F%2Fultrasurf.us), [hotspotshield.com](https://explorer.ooni.torproject.org/measurement/20170401T201717Z_AS29465_5RXDSDNYTEeiwNTJsrwFzFssDKxhMM1isfVpfFXy6lk4sSgXyh?input=https:%2F%2Fwww.hotspotshield.com%2F),
-and [torproject.org](https://explorer.ooni.torproject.org/measurement/20170928T205407Z_AS327952_xbg91jJseCINOgPPg2uUlFETAnVFPmyWJ6fkyklT0WuhEyZsIq?input=https:%2F%2Fwww.torproject.org))
+Popular circumvention tool sites (such as [ultrasurf.us](https://explorer.ooni.io/measurement/20180211T170056Z_AS37148_6jCMl9ORG996hSFEG3uCsRIIvt5RkzbwMk8cO1bYMWvyNV35r7?input=http:%2F%2Fultrasurf.us), [hotspotshield.com](https://explorer.ooni.io/measurement/20170401T201717Z_AS29465_5RXDSDNYTEeiwNTJsrwFzFssDKxhMM1isfVpfFXy6lk4sSgXyh?input=https:%2F%2Fwww.hotspotshield.com%2F),
+and [torproject.org](https://explorer.ooni.io/measurement/20170928T205407Z_AS327952_xbg91jJseCINOgPPg2uUlFETAnVFPmyWJ6fkyklT0WuhEyZsIq?input=https:%2F%2Fwww.torproject.org))
 were found to be accessible in Nigeria throughout the testing period.
 
 OONI’s [Vanila Tor](https://ooni.torproject.org/nettest/vanilla-tor/) test is designed
 to measure the blocking of the [Tor network](https://www.torproject.org/). This test has only been run once
-in Nigeria (in June 2017) and the collected [data](https://explorer.ooni.torproject.org/measurement/20170606T015510Z_AS327952_fav7V5D6A3KPuTOCrHV30GBFblPhGM2d3zjumBaOc8GO9ZGfUS)
+in Nigeria (in June 2017) and the collected [data](https://explorer.ooni.io/measurement/20170606T015510Z_AS327952_fav7V5D6A3KPuTOCrHV30GBFblPhGM2d3zjumBaOc8GO9ZGfUS)
 shows that the Tor network was accessible in the country. This is also
 suggested through Tor Metrics which
 [show](https://metrics.torproject.org/userstats-relay-country.html?start=2017-05-08&end=2018-05-08&country=ng&events=off)
