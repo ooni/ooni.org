@@ -1,6 +1,6 @@
 ---
-title: "Ethiopia⁚ Verifying the unblocking of websites"
-author: "Berhan Taye (Access Now), Maria Xynou (OONI), Leonid Evdokimov (OONI), Moses Karanja (PhD, University of Toronto)"
+title: "Ethiopia: Verifying the unblocking of websites"
+author: "Berhan Taye (Access Now), Maria Xynou (OONI), Leonid Evdokimov (OONI), Moses Karanja (University of Toronto)"
 date: "2018-06-29T19:49:00"
 tags: ["ethiopia", "unblocking"]
 categories: []
@@ -10,7 +10,7 @@ categories: []
 Pro PM Abiy Ahmed Rally at Meskel Square, June 2018 - Photo by Berhan Taye
 
 
-On 22 June 2018, the Ethiopian government <a href="http://www.africanews.com/2018/06/23/ethiopia-unblocks-264-websites-and-tv-channels//">reported</a>  that it had unblocked 264 websites. This (great) news was also <a href="https://ethsat.com/2018/06/ethiopia-unblocks-264-websites-including-esat/">reported by ESAT</a>, a major Ethiopian media website that was <a href="https://explorer.ooni.io/measurement/20160817T192345Z_AS24757_vkmTFvmkOUzdotRJrOUrieRB5bqhrEUjem5G2ZnQqDbfRByV2U?input=http:%2F%2Fethsat.com">blocked</a> over the last years.
+On 22nd June 2018, the Ethiopian government <a href="http://www.africanews.com/2018/06/23/ethiopia-unblocks-264-websites-and-tv-channels//">reported</a>  that it had unblocked 264 websites. This (great) news was also <a href="https://ethsat.com/2018/06/ethiopia-unblocks-264-websites-including-esat/">reported by ESAT</a>, a major Ethiopian media website that was <a href="https://explorer.ooni.io/measurement/20160817T192345Z_AS24757_vkmTFvmkOUzdotRJrOUrieRB5bqhrEUjem5G2ZnQqDbfRByV2U?input=http:%2F%2Fethsat.com">blocked</a> over the last years.
 
 Today, <a href="https://ooni.torproject.org/">OONI</a> and <a href="https://www.accessnow.org/">Access Now</a> publish new research based on the testing of sites that were previously <a href="https://ooni.torproject.org/post/ethiopia-report/#websites-blocked">found to be blocked</a>, in an attempt to examine whether they have in fact been unblocked in recent days.
 
