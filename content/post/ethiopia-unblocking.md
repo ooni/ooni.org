@@ -467,7 +467,7 @@ Most media sites seem to have been unblocked from April 2018 onwards (most likel
 
 It’s worth noting though that while the HTTPS version of oromiamedia.org seems to be <a href="https://explorer.ooni.io/measurement/20180626T102649Z_AS24757_dclIeZaa5e75c3gN7rVZWluzecAEpFAs6DaL3sxR3R48VpOe8u?input=https:%2F%2Fwww.oromiamedia.org%2F">accessible</a> from (at least) 26th June 2018, the HTTP version of the site was <a href="https://explorer.ooni.io/measurement/20180623T151119Z_AS24757_pnkzXHeUDMlWefsKvJ2xIOr3aXCXIQ0uwzypXghMFPbgLMC8wQ?input=http:%2F%2Foromiamedia.org%2F">blocked on 23rd June 2018</a> and hasn’t been tested since. Furthermore, it remains unclear if zehabesha.com has been unblocked, since the site <a href="https://explorer.ooni.io/measurement/20160912T112136Z_AS24757_b8C5V1dP3DlBSVTWBFZ3HEZ4RyzJzyyBEmhx1k5jiVTnITtcIr?input=http:%2F%2Fzehabesha.com%2F">hasn’t been tested since September 2016</a>.OONI Probe mobile app users can test both sites via <a href="https://run.ooni.io/nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22http%3A%2F%2Fzehabesha.com%2F%22%2C%22http%3A%2F%2Foromiamedia.org%2F%22%5D%7D&mv=1.2.0">OONI Run</a>.
 
-**Instagram**
+## Instagram
 
 Most popular social networking sites and services seem to be accessible in Ethiopia. Instagram, however, is <a href="https://explorer.ooni.io/measurement/20180625T060311Z_AS24757_eSjxSSELTTMYZhwJKLYYmV8HUJ8IEIiQnboLxGms7K4oOcGPVm?input=https:%2F%2Finstagram.com">blocked</a> on mobile data (connections to https://instagram.com are reset), but <a href="https://explorer.ooni.io/measurement/20180625T034722Z_AS24757_XKdZRcT9FE2VaYZFEINvWwBJOlzgmLLxGRaClVMzFB8yiYALVv?input=https:%2F%2Finstagram.com">accessible</a> over WiFi (according to measurements collected on 25th June 2018).
 
