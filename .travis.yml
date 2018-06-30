@@ -34,8 +34,7 @@ script:
   - make -C contrib/ooni-probe/docs clean
   - make -C contrib/ooni-probe/docs html
   - cp -R contrib/ooni-probe/docs/build/html/ public/docs/
-  - echo -en '# HELP ooni_web_mtime UNIX Time of the commit used to build website.\n# TYPE ooni_web_mtime gauge\nooni_web_mtime ' >public/_web.mtime.txt
-  - git show HEAD '--format=format:%at%n%ct' | sort -n | tail -1 >>public/_web.mtime.txt
+  - git show HEAD -q '--format=# HELP ooni_web_mtime UNIX Time of the commit used to build website.%n# TYPE ooni_web_mtime gauge%nooni_web_mtime %ct' >public/_web.mtime.txt
   - touch public/.nojekyll
 
 env:
