@@ -12,29 +12,29 @@ Pro PM Abiy Ahmed Rally at Meskel Square, June 2018 - Photo by Berhan Taye
 
 On 22nd June 2018, the Ethiopian government <a href="http://www.africanews.com/2018/06/23/ethiopia-unblocks-264-websites-and-tv-channels//">reported</a>  that it had unblocked 264 websites. This (great) news was also <a href="https://ethsat.com/2018/06/ethiopia-unblocks-264-websites-including-esat/">reported by ESAT</a>, a major Ethiopian media website that was <a href="https://explorer.ooni.io/measurement/20160817T192345Z_AS24757_vkmTFvmkOUzdotRJrOUrieRB5bqhrEUjem5G2ZnQqDbfRByV2U?input=http:%2F%2Fethsat.com">blocked</a> over the last years.
 
-Today, <a href="https://ooni.torproject.org/">OONI</a> and <a href="https://www.accessnow.org/">Access Now</a> publish new research based on the testing of sites that were previously <a href="https://ooni.torproject.org/post/ethiopia-report/#websites-blocked">found to be blocked</a>, in an attempt to examine whether they have in fact been unblocked in recent days.
+Today, <a href="/">OONI</a> and <a href="https://www.accessnow.org/">Access Now</a> publish new research based on the testing of sites that were previously <a href="/post/ethiopia-report/#websites-blocked">found to be blocked</a>, in an attempt to examine whether they have in fact been unblocked in recent days.
 
 # Why this matters
 
-We quite rarely hear of governments unblocking hundreds of websites in one go. This is also an important event given Ethiopia’s political climate and the conditions that led to <a href="https://ooni.torproject.org/post/ethiopia-report/">pervasive levels of internet censorship</a>. In addition to internet censorship, the Ethiopian government has <a href="https://freedomhouse.org/report/freedom-net/2017/ethiopia">prosecuted</a> many for their online activities and repeatedly <a href="https://ooni.torproject.org/post/ethiopia-internet-shutdown-amidst-recent-protests/">shutdown the internet</a>.  
+We quite rarely hear of governments unblocking hundreds of websites in one go. This is also an important event given Ethiopia’s political climate and the conditions that led to <a href="/post/ethiopia-report/">pervasive levels of internet censorship</a>. In addition to internet censorship, the Ethiopian government has <a href="https://freedomhouse.org/report/freedom-net/2017/ethiopia">prosecuted</a> many for their online activities and repeatedly <a href="/post/ethiopia-internet-shutdown-amidst-recent-protests/">shutdown the internet</a>.  
 
 Under a <a href="https://edition.cnn.com/2018/04/02/africa/ethiopia-new-pm-abiy-ahmed/index.html">new Prime Minister</a> who’s from the Oromia region - that has been <a href="https://www.bbc.com/news/world-africa-36940906">protesting</a> against marginalization and persecution by authorities over the last years - many reforms have taken place over the last months. These include the <a href="https://www.aljazeera.com/indepth/opinion/abiy-ahmed-transforming-ethiopia-face-adversity-180622112645741.html">release of thousands of political prisoners</a>, the <a href="https://qz.com/1295834/ethiopias-prime-minister-abiy-ahmed-ends-the-countrys-state-of-emergency-early/">termination of the State of Emergency</a>, <a href="https://www.nytimes.com/2018/06/05/world/africa/ethiopia-eritrea-peace-deal.html">peace-building efforts with Eritrea</a> and, more recently, the <a href="http://www.africanews.com/2018/06/23/ethiopia-unblocks-264-websites-and-tv-channels//">reported unblocking</a> of websites.  
 
 But to our knowledge, an official list detailing the 264 websites that are reportedly unblocked has not been published yet. As a result, confirming that all of these sites are indeed accessible is quite challenging, since it remains unclear which sites have been unblocked.
 
-Nonetheless, we decided to start off by having a look at sites that were previously known to be blocked based on <a href="https://explorer.ooni.io/country/ET">OONI’s network measurement data</a>. About two years ago, OONI collaborated with Amnesty International on a joint <a href="https://ooni.torproject.org/post/ethiopia-report/">research report</a> examining internet censorship in Ethiopia. Through network measurement tests, this research found numerous news outlets, human rights, LGBTQI, political opposition, and circumvention tool sites to be blocked through the use of Deep Packet Inspection (DPI) technology. Previous censorship research conducted by <a href="https://opennet.net/research/profiles/ethiopia">The Open Net Initiative (ONI)</a> between 2006-2012 also documented extensive blocking of websites, especially political blogs hosting opposition content.
+Nonetheless, we decided to start off by having a look at sites that were previously known to be blocked based on <a href="https://explorer.ooni.io/country/ET">OONI’s network measurement data</a>. About two years ago, OONI collaborated with Amnesty International on a joint <a href="/post/ethiopia-report/">research report</a> examining internet censorship in Ethiopia. Through network measurement tests, this research found numerous news outlets, human rights, LGBTQI, political opposition, and circumvention tool sites to be blocked through the use of Deep Packet Inspection (DPI) technology. Previous censorship research conducted by <a href="https://opennet.net/research/profiles/ethiopia">The Open Net Initiative (ONI)</a> between 2006-2012 also documented extensive blocking of websites, especially political blogs hosting opposition content.
 
 By lifting the lid on said 264 websites, the Ethiopian government may be closing a decade-long sustained internet censorship. While this is a positive move, there is need for continuous vigilance on monitoring information controls in Ethiopia, as such controls may potentially mutate from overt forms, like website blocking and internet shutdowns, to more covert controls, like targeted surveillance and social media manipulation.
 
 # Findings
 
-Almost all of the websites previously<a href="https://ooni.torproject.org/post/ethiopia-report/#websites-blocked"> found to be blocked</a> seem to have been unblocked over the last month. Our data analysis - providing a timeline of recent blocking and unblocking - is available **<a href="/post/ethiopia-unblocking/2018-06-ethiopia-unblocking.csv">here</a>**
+Almost all of the websites previously<a href="/post/ethiopia-report/#websites-blocked"> found to be blocked</a> seem to have been unblocked over the last month. Our data analysis - providing a timeline of recent blocking and unblocking - is available **<a href="/post/ethiopia-unblocking/2018-06-ethiopia-unblocking.csv">here</a>**
 
-The following sections list the <a href="https://ooni.torproject.org/post/ethiopia-report/#websites-blocked">previously known to be blocked sites</a> and share <a href="https://explorer.ooni.io/country/ET">OONI measurements</a> showing their recent unblocking. The tables that will follow provide dates pertaining to the last OONI measurements showing the blocking of sites, and the first OONI measurements showing their unblocking. It can therefore be inferred that the sites in question were probably unblocked between these dates, though the precise dates of unblocking are unknown due to the limited availability of relevant network measurements.
+The following sections list the <a href="/post/ethiopia-report/#websites-blocked">previously known to be blocked sites</a> and share <a href="https://explorer.ooni.io/country/ET">OONI measurements</a> showing their recent unblocking. The tables that will follow provide dates pertaining to the last OONI measurements showing the blocking of sites, and the first OONI measurements showing their unblocking. It can therefore be inferred that the sites in question were probably unblocked between these dates, though the precise dates of unblocking are unknown due to the limited availability of relevant network measurements.
 
 ## Media outlets
 
-Two years ago, <a href="https://ooni.torproject.org/post/ethiopia-report/#media-outlets">more than 15 Ethiopian media websites</a> were blocked amidst a <a href="https://ooni.torproject.org/post/ethiopia-report/#internet-censorship-during-protests">wave of deadly protests</a>. Now, under a <a href="https://edition.cnn.com/2018/04/02/africa/ethiopia-new-pm-abiy-ahmed/index.html">new government</a>, almost all of these sites seem to be accessible, as illustrated in the following table.
+Two years ago, <a href="/post/ethiopia-report/#media-outlets">more than 15 Ethiopian media websites</a> were blocked amidst a <a href="/post/ethiopia-report/#internet-censorship-during-protests">wave of deadly protests</a>. Now, under a <a href="https://edition.cnn.com/2018/04/02/africa/ethiopia-new-pm-abiy-ahmed/index.html">new government</a>, almost all of these sites seem to be accessible, as illustrated in the following table.
 
 
 <table style="margin-left:-37.5pt;border-spacing:0;border-collapse:collapse;margin-right:auto">
@@ -473,7 +473,7 @@ Most popular social networking sites and services seem to be accessible in Ethio
 
 ## Human rights and LGBTQI
 
-Several human rights and LGBTQI site were <a href="https://ooni.torproject.org/post/ethiopia-report/#human-rights-websites">previously found to be blocked</a> in Ethiopia. Recent measurements suggest that these sites have been unblocked, as illustrated in the following table.
+Several human rights and LGBTQI site were <a href="/post/ethiopia-report/#human-rights-websites">previously found to be blocked</a> in Ethiopia. Recent measurements suggest that these sites have been unblocked, as illustrated in the following table.
 
 
 <table style="margin-left:-42.8pt;border-spacing:0;border-collapse:collapse;margin-right:auto">
@@ -891,11 +891,11 @@ Psiphon and Ultrasurf, on the other hand, appear to be accessible. Recent <a hre
 
 # Reproduce this study
 
-OONI and Access Now carried out this study through the use of <a href="https://github.com/TheTorProject/ooni-probe">free and open source software</a>, <a href="https://ooni.torproject.org/docs/">open methodologies</a> and <a href="https://api.ooni.io/files/by_country/ET">open data</a>. This means that you can reproduce this study and independently verify our findings.
+OONI and Access Now carried out this study through the use of <a href="https://github.com/TheTorProject/ooni-probe">free and open source software</a>, <a href="/docs/">open methodologies</a> and <a href="https://api.ooni.io/files/by_country/ET">open data</a>. This means that you can reproduce this study and independently verify our findings.
 
 If you’re interesting in testing the potential unblocking of more sites in Ethiopia, you can do so via the following steps:
 
-1.  <a href="https://ooni.torproject.org/install/">Install</a> the OONI Probe mobile app (Android, F-Droid, iOS)
+1.  <a href="/install/">Install</a> the OONI Probe mobile app (Android, F-Droid, iOS)
 2.  Add the sites you want to test to <a href="https://run.ooni.io/">OONI Run</a> and generate a link
 3.  Open your OONI Run link with your OONI Probe mobile app
 4.  Tap “Run”
@@ -914,4 +914,4 @@ To view the details of each measurement, tap on “View” next to each tested s
 
 Please note though that false positives may emerge. If you’re unsure how to interpret the data, please feel encouraged to reach out to the OONI team: contact@openobservatory.org.
 
-To run more OONI Probe tests and to schedule daily testing, consider running OONI Probe on <a href="https://ooni.torproject.org/install/ooniprobe">Linux</a>, <a href="https://ooni.torproject.org/install/ooniprobe">macOS</a>, or on a <a href="https://ooni.torproject.org/install/lepidopter/">Raspberry Pi</a>. All network measurement data will be published on <a href="https://explorer.ooni.io/">OONI Explorer</a> and on the <a href="https://api.ooni.io/">OONI API</a>, increasing transparency of internet censorship.
+To run more OONI Probe tests and to schedule daily testing, consider running OONI Probe on <a href="/install/ooniprobe">Linux</a>, <a href="/install/ooniprobe">macOS</a>, or on a <a href="/install/lepidopter/">Raspberry Pi</a>. All network measurement data will be published on <a href="https://explorer.ooni.io/">OONI Explorer</a> and on the <a href="https://api.ooni.io/">OONI API</a>, increasing transparency of internet censorship.
