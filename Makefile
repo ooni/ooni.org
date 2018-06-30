@@ -16,7 +16,7 @@ publish:
 	make -C ${OONI_PROBE_REPO_DIR}/docs clean
 	make -C ${OONI_PROBE_REPO_DIR}/docs html
 	cp -R ${OONI_PROBE_REPO_DIR}/docs/build/html/ public/docs/
-	echo -n '# HELP ooni_web_mtime UNIX Time of the commit used to build website.\n# TYPE ooni_web_mtime gauge\nooni_web_mtime ' >public/.web.mtime
+	echo -en '# HELP ooni_web_mtime UNIX Time of the commit used to build website.\n# TYPE ooni_web_mtime gauge\nooni_web_mtime ' >public/.web.mtime
 	git show HEAD '--format=format:%at%n%ct' | sort -n | tail -1 >>public/.web.mtime
 	touch public/.nojekyll
 	cd public && git init && git remote add pages git@github.com:OpenObservatory/openobservatory.github.io.git
@@ -33,7 +33,7 @@ netlify:
 	make -C contrib/ooni-probe/docs clean
 	make -C contrib/ooni-probe/docs html
 	cp -R contrib/ooni-probe/docs/build/html/ public/docs/
-	echo -n '# HELP ooni_web_mtime UNIX Time of the commit used to build website.\n# TYPE ooni_web_mtime gauge\nooni_web_mtime ' >public/.web.mtime
+	echo -en '# HELP ooni_web_mtime UNIX Time of the commit used to build website.\n# TYPE ooni_web_mtime gauge\nooni_web_mtime ' >public/.web.mtime
 	git show HEAD '--format=format:%at%n%ct' | sort -n | tail -1 >>public/.web.mtime
 
 server:
