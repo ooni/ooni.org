@@ -6,16 +6,16 @@ tags: ["egypt", "censorship"]
 categories: ["report"]
 ---
 
-![Egypt report cover](/post/egypt-internet-censorship/eg-image.jpg)
+{{< coverimg src="/post/egypt-internet-censorship/EgyptCover.png" src2x="/post/egypt-internet-censorship/EgyptCover@2x.png" >}}
 
 ***The report uncovers anomalies on Egyptian networks, including
 censorship and the hijacking of unencrypted HTTP connections for
 advertising and cryptocurrency mining.***
 
 
-* **[Read the full report in English](/documents/egypt-internet-censorship.pdf)**
+* **[Read the full report in English](/documents/Egypt-Internet-Censorship-AFTE-OONI-2018-07.pdf)**
 
-* **[Read the full report in Arabic](/documents/egypt-internet-censorship-arabic.pdf)**
+* **[Read the full report in Arabic](/documents/Egypt-Internet-Censorship-AFTE-OONI-2018-07.AR.pdf)**
 
 * **[Read the summary of the report in Arabic](/documents/summary-egypt-internet-censorship-arabic.pdf)**
 
@@ -37,7 +37,7 @@ on internet censorship in Egypt, based on our analysis of [OONI network measurem
 between January 2017 to May 2018.
 
 Our research report is available
-**[here](/documents/egypt-internet-censorship.pdf)**. 
+**[here](/documents/Egypt-Internet-Censorship-AFTE-OONI-2018-07.pdf)**.
 
 Below we share some of the key findings.
 
@@ -69,7 +69,7 @@ The chart below illustrates the types of sites that presented the
 highest amount of network anomalies and are therefore considered to more
 likely have been blocked.
 
-![Egypt: Blocked sites](/post/egypt-internet-censorship/eg-chart.png)
+{{< imgcap title="" src="/post/egypt-internet-censorship/EgyptWebsitesBlockedChart.png" src2x="/post/egypt-internet-censorship/EgyptWebsitesBlockedChart@2x.png" >}}
 
 [More than](https://ooni.io/post/egypt-internet-censorship/eg-blocked-news.csv)[100 URLs](https://ooni.io/post/egypt-internet-censorship/eg-blocked-news.csv)
 that belong to media organizations appear to have been blocked, even
@@ -206,4 +206,5 @@ But censorship findings are only as interesting as the types of sites
 and services that are tested. We therefore encourage you to [contribute to the review and creation of test lists](https://ooni.torproject.org/get-involved/contribute-test-lists/),
 to help advance future research in Egypt and beyond.
 
-*To learn more about this study, read the full report [here](/documents/egypt-internet-censorship.pdf).*
+*To learn more about this study, read the full report [here](/documents/Egypt-Internet-Censorship-AFTE-OONI-2018-07.pdf).*
+
