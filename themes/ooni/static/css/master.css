@@ -324,8 +324,9 @@ code {
 }
 
 .ooni-btn:hover {
-    border: 1px solid #5db8fe;
-    background-color: #5db8fe;
+    color: white;
+    border: 1px solid #0588cb;
+    background-color: #0588cb;
 }
 
 /* ================================================================== */
