@@ -301,6 +301,33 @@ code {
 }
 
 
+.ooni-btn {
+  font-size: 16px;
+  border-radius: 24px;
+  display: inline-block;
+  height: 32px;
+  line-height: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-transform: uppercase;
+  outline: 0;
+  font-family: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0588cb;
+  background-color: white;
+  border: 1px solid #0588cb;
+  text-align: center;
+  letter-spacing: .5px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.ooni-btn:hover {
+    border: 1px solid #5db8fe;
+    background-color: #5db8fe;
+}
+
 /* ================================================================== */
 /* Paragraphs */
 

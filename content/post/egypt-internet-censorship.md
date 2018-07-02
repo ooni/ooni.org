@@ -6,19 +6,17 @@ tags: ["egypt", "censorship"]
 categories: ["report"]
 ---
 
-{{< coverimg src="/post/egypt-internet-censorship/EgyptCover.png" src2x="/post/egypt-internet-censorship/EgyptCover@2x.png" >}}
+{{< coverimg src="/post/egypt-internet-censorship/EgyptCover.png" src2x="/post/egypt-internet-censorship/EgyptCover@2x.png"  >}}
 
 ***The report uncovers anomalies on Egyptian networks, including
 censorship and the hijacking of unencrypted HTTP connections for
 advertising and cryptocurrency mining.***
 
+{{< oonibtn href="/documents/Egypt-Internet-Censorship-AFTE-OONI-2018-07.pdf" text="Read full report in English" >}}
 
-* **[Read the full report in English](/documents/Egypt-Internet-Censorship-AFTE-OONI-2018-07.pdf)**
+{{< oonibtn href="/documents/Egypt-Internet-Censorship-AFTE-OONI-2018-07.AR.pdf" text="Read full report in Arabic" >}}
 
-* **[Read the full report in Arabic](/documents/Egypt-Internet-Censorship-AFTE-OONI-2018-07.AR.pdf)**
-
-* **[Read the summary of the report in Arabic](/documents/summary-egypt-internet-censorship-arabic.pdf)**
-
+**[Read the summary of the report in Arabic](/documents/summary-egypt-internet-censorship-arabic.pdf)**
 
 Last year, Egypt [ordered the blocking of 21 news websites](https://cpj.org/2017/05/egypt-blocks-access-to-21-news-websites.php).
 [OONI](https://ooni.torproject.org/), a censorship measurement project
