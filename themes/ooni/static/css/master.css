@@ -671,6 +671,9 @@ footer h2 {
   opacity: 0.38;
 }
 
+/* ================================================================== */
+/* About pages */
+
 .about .sponsor {
   color: #b4b4b4;
   background-color: #26292c;
@@ -687,6 +690,20 @@ footer h2 {
 
 .about .sponsor img {
   vertical-align: middle;
+}
+
+div.ooni-team-member {
+  padding-bottom: 1em;
+  margin: 0;
+}
+
+.ooni-team-member a {
+  display: block;
+}
+
+.ooni-team-member .pgp-fingerprint:before {
+  content: "🔒";
+  margin-right: 6px;
 }
 
 .vertical-align-helper {
