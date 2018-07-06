@@ -303,7 +303,12 @@ the csv file. The category descriptions can be found
  added under the "source" column of the csv file.
 
 * **Notes:** *Optional:* Here you can add notes for each URL under the "notes"
- column of the csv file.
+column of the csv file. This column, in particular, can be useful for describing
+the type of URL added, particularly since the standardized categories are quite
+broad. As an example, you can write "Site of the political opposition, reported
+to be blocked during 2016 elections" in the "notes" column, to provide more
+meaning than the standardized POLR category (and to provide context that may be
+useful to researchers).
 
 **Step 4.** Change the category codes and descriptions for URLs (included under
 the "category_code" and "category_description" columns of the csv file) *only
@@ -383,7 +388,12 @@ the csv file. The category descriptions can be found
  added under the "source" column of the csv file.
 
 * **Notes:** *Optional:* Here you can add notes for each URL under the "notes"
- column of the csv file.
+ column of the csv file. This column, in particular, can be useful for describing
+the type of URL added, particularly since the standardized categories are quite
+broad. As an example, you can write "Site of the political opposition, reported
+to be blocked during 2016 elections" in the "notes" column, to provide more
+meaning than the standardized POLR category (and to provide context that may be
+useful to researchers).
 
 **Step 5.** Once you have created a new test list based on the above, please
  submit your csv file to us. If you're a GitHub user, you can do so through a
