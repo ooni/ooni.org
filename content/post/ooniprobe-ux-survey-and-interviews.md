@@ -9,7 +9,7 @@ categories: ["blog"]
 **[Survey](https://ooniuxteam.typeform.com/to/a1P0cn)** (self-hosted [mirror](https://storm.torproject.org/shared/VpAFK13fdAozTGTolFd2EsT1CkLY8-YlBLbRERy5EwI))
 
 Since last year’s [launch of the OONI Probe mobile apps](https://ooni.torproject.org/post/ooni-mobile-app/), tens of
-thousands of people have been [measuring internet censorship in more than 200 countries](https://api.ooni.io/stats) every month. But [OONI Probe](https://ooni.torproject.org/install/) is far from perfect.
+thousands of people have been [measuring internet censorship in around 200 countries](https://api.ooni.io/stats) every month. But [OONI Probe](https://ooni.torproject.org/install/) is far from perfect.
 
 We’re excited to hear more about your experience with the apps so that
 we can improve them.
