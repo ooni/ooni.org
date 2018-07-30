@@ -13,8 +13,7 @@ categories: ["report"]
 Established in July 2011, South Sudan is the youngest country in the
 world. But the transition to independence from Sudan has been far from
 smooth, as the country experiences an ongoing civil war. Even though
-[internet penetration levels remain quite low ](http://www.intgovforum.org/multilingual/es/system/files/filedepot/78/paradigmhq-digital_rights_in_africa_report_2017.pdf),
-two media websites and two independent blogs were [reportedly blocked](https://cpj.org/2017/07/south-sudan-authorities-block-access-to-at-least-f.php)
+[internet penetration levels remain quite low](http://www.intgovforum.org/multilingual/es/system/files/filedepot/78/paradigmhq-digital_rights_in_africa_report_2017.pdf), two media websites and two independent blogs were [reportedly blocked](https://cpj.org/2017/07/south-sudan-authorities-block-access-to-at-least-f.php)
 last year.
 
 This report is a joint research effort by the [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) and South
@@ -33,6 +32,16 @@ suggesting that these sites have been blocked for a year. MTN appears to
 block TCP/IP connections to these sites, while IPTEC appears to block
 access by means of DNS tampering. Measurements collected in 2017
 highlight the [presence of the Mikrotik HTTP transparent proxy](https://explorer.ooni.torproject.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fdeoxy.org).
+
+* [Background](#background)
+
+* [Measuring internet censorship](#measuring-internet-censorship)
+
+	* [Blocked websites](#blocked-websites)
+
+	* [HTTP proxy](#http-proxy)
+
+* [Conclusion](#conclusion)
 
 # Background
 
@@ -141,7 +150,7 @@ As part of our testing, we measured the blocking of URLs included in the
 the aim of identifying network anomalies that could serve as signs of
 internet censorship.
 
-# Blocked websites
+## Blocked websites
 
 Last year, media outlets [Sudan Tribune](http://www.sudantribune.com/)
 and [Radio Tamazuj](http://radiotamazuj.org/en), and independent blogs
@@ -163,7 +172,7 @@ recent testing of each of these sites across two ISPs.
 Our findings suggest that MTN (AS37594) blocks TCP/IP connections to
 these sites, while IPTEC (AS36892) blocks access by means of DNS
 tampering. It’s worth noting that both MTN and IPTEC block access to
-both http://sudantribune.com and http://www.sudantribune.com.
+both ``http://sudantribune.com`` and ``http://www.sudantribune.com``.
 
 South Sudanese authorities blocked these sites for publishing
 “subversive content” and
@@ -203,12 +212,12 @@ Sudan during this study. These include sites related to conflict
 resolution and peacekeeping, such as the [United Nations Mission in South Sudan (UNMISS)](https://explorer.ooni.torproject.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=https:%2F%2Funmiss.unmissions.org%2Fradio-miraya-news)
 site.
 
-# HTTP proxy
+## HTTP proxy
 
 Measurements previously [collected in 2017](https://explorer.ooni.torproject.org/country/SS) highlight the
 presence of an HTTP transparent proxy (Mikrotik).
 
-![South Sudan flag](/post/south-sudan/mikrotik.png)
+![Miktrotik HTTP proxy in OONI data](/post/south-sudan/mikrotik.png)
 
 This proxy is revealed in the HTTP response body in OONI Probe
 measurements (linked below) pertaining to the testing of the following
