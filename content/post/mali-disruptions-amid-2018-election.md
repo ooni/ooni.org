@@ -24,7 +24,7 @@ Mali’s 2018 presidential election.
 ## Measuring internet censorship in Mali
 
 Daily [OONI network measurements](https://api.ooni.io/files/by_country/ML)
-have been collected from Mali for more than a year. These measurements,
+have been collected from Mali for more than a year, thanks to our local partners. These measurements,
 collected mainly from Orange Mali (AS30985), show that most of the
 ([internationally relevant](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)
 and [local](https://github.com/citizenlab/test-lists/blob/master/lists/ml.csv))
