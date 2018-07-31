@@ -1,6 +1,6 @@
 ---
 title: "Mali: Social media disruptions amid 2018 presidential election?"
-author: "Maria Xynou"
+author: "Maria Xynou (OONI), Julie Owono (Internet Sans Frontieres)"
 date: "2018-07-31"
 tags: ["mali", "censorship", "whatsapp", "socialmedia"]
 categories: ["report"]
@@ -17,7 +17,7 @@ that social media was disrupted in Mali, following a violent police crackdown
 on banned opposition protests calling for transparency and accountability in
 the 2018 presidential elections.
 
-In this post we share [OONI network measurement data](https://explorer.ooni.torproject.org/country/ML),
+In this post, OONI and [Internet Sans Frontieres](https://internetwithoutborders.org/) share [OONI network measurement data](https://explorer.ooni.torproject.org/country/ML),
 corroborating local reports on the blocking of WhatsApp and Twitter during
 Mali’s 2018 presidential election.
 
