@@ -40,7 +40,7 @@ guardianproject.info and anonymizer.ru.
 
 OONI’s [WhatsApp test](/nettest/whatsapp/) is designed to measure the blocking
 of WhatsApp’s app and web version. The test attempts to establish TCP
-connections to WhatsApp’s registration server and endpoints, and DNS lookups
+connections to WhatsApp’s registration server and endpoints, and performs DNS lookups
 and HTTP requests to web.whatsapp.com. Over the last year, this test has been
 run on a daily basis from Orange Mali (AS30985), with most (if not all)
 measurements confirming the app’s accessibility in the country.
