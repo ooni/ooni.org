@@ -6,7 +6,7 @@ tags: ["mali", "censorship", "whatsapp", "socialmedia"]
 categories: ["report"]
 ---
 
-Two days ago, Malians went to the polls to vote in [presidential elections](http://www.africanews.com/2018/07/26/mali-2018-presidential-election-top-10-facts/)
+Two days ago, on 29th July 2018, Malians went to the polls to vote in [presidential elections](http://www.africanews.com/2018/07/26/mali-2018-presidential-election-top-10-facts/)
 and [reported](https://twitter.com/Internet_SF/status/1023883426208915456) that social media was inaccessible.
 
 This is _not_ the first time that social media is reportedly blocked in Mali.
@@ -100,7 +100,7 @@ censorship circumvention harder. The blocking of the [Guardian Project](https://
 (which develops various censorship circumvention tools) and anonymizer.ru could
 potentially be an attempt to reinforce the blocking of social media in Mali.
 
-The blocking of certain social media comes at a [highly tense political period](https://abcnews.go.com/International/wireStory/mali-votes-presidential-election-amid-insecurity-56895791) for the country. The west African country has been in
+The blocking of certain social media comes at a [highly tense political period](https://abcnews.go.com/International/wireStory/mali-votes-presidential-election-amid-insecurity-56895791). The west African country has been in
 [turmoil](https://www.aljazeera.com/news/africa/2012/03/2012322111037483270.html)
 since 2012, when ethnic and Islamist insurgents seized the northern region of
 Mali. According to UN figures,
