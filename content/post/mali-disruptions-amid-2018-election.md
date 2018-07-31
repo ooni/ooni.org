@@ -100,9 +100,7 @@ censorship circumvention harder. The blocking of the [Guardian Project](https://
 (which develops various censorship circumvention tools) and anonymizer.ru could
 potentially be an attempt to reinforce the blocking of social media in Mali.
 
-[Security concerns](https://abcnews.go.com/International/wireStory/mali-votes-presidential-election-amid-insecurity-56895791)
-may have motivated the blocking of social media during Mali’s latest elections.
-The west African country has been in
+The blocking of certain social media comes at a [highly tense political period](https://abcnews.go.com/International/wireStory/mali-votes-presidential-election-amid-insecurity-56895791) for the country. The west African country has been in
 [turmoil](https://www.aljazeera.com/news/africa/2012/03/2012322111037483270.html)
 since 2012, when ethnic and Islamist insurgents seized the northern region of
 Mali. According to UN figures,
@@ -115,7 +113,9 @@ of violence, warning that they would try to disrupt the elections, particularly
 in the country’s northern region. While no major incidents were reported in the
 south and the [voting “went smoothly” in the capital](https://www.aljazeera.com/news/2018/07/mali-votes-presidential-polls-dominated-security-concerns-180729091749445.html),
 several violent incidents were [reported](http://www.france24.com/en/20180730-low-turnout-mali-election-violence-presidential-keita-cisse-mopti)
-in northern and central Mali, limiting voter turnout. If no candidate gains
+in northern and central Mali, limiting voter turnout. 
+
+In addition, a [controversy on the existence of a parallel voter list](https://www.washingtonpost.com/news/monkey-cage/wp/2018/07/28/mali-has-an-important-election-on-sunday-will-it-be-peaceful/) emerged a few weeks before the election, casting doubts in the opposition on whether the election would be free and fair. If no candidate gains
 more than 50% of the vote, a second round of elections will take place on 12th
 August 2018.
 
