@@ -61,11 +61,11 @@ To install ooniprobe follow the steps below:
 
 <select class="distro-selector">
 <option value="unknown">-- what version? --</option>
-<option value="debian-stable">Debian stable (jessie)</option>
+<option value="debian-jessie">Debian 8 "jessie"</option>
+<option value="debian-stretch">Debian 9 "stretch"</option>
 <option value="debian-testing">Debian testing</option>
 <option value="debian-unstable">Debian unstable</option>
 
-<option value="ubuntu-yakkety">Ubuntu 16.10 (yakkety)</option>
 <option value="ubuntu-xenial">Ubuntu 16.04 (xenial)</option>
 <option value="ubuntu-trusty">Ubuntu 14.04 (trusty)</option>
 </select>
@@ -96,10 +96,10 @@ Please choose your linux version
 
 </div>
 
-<div class="os-instructions os-linux-debian-stable">
+<div class="os-instructions os-linux-debian-jessie">
 
 {{% md %}}
-**On Debian stable (jessie):**
+**On Debian 8 "jessie":**
 
 **Step 1.** Configure the torproject repository by typing the following in your terminal:
 
@@ -107,6 +107,29 @@ Please choose your linux version
 gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
 gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
 echo 'deb http://deb.torproject.org/torproject.org jessie main' | sudo tee /etc/apt/sources.list.d/ooniprobe.list
+sudo apt-get update
+```
+
+**Step 2.** Type the following in your terminal:
+
+```
+sudo apt-get install ooniprobe deb.torproject.org-keyring
+```
+{{% /md %}}
+
+</div>
+
+<div class="os-instructions os-linux-debian-stretch">
+
+{{% md %}}
+**On Debian 9 "stretch":**
+
+**Step 1.** Configure the torproject repository by typing the following in your terminal:
+
+```
+gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
+gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
+echo 'deb http://deb.torproject.org/torproject.org stretch main' | sudo tee /etc/apt/sources.list.d/ooniprobe.list
 sudo apt-get update
 ```
 
@@ -153,30 +176,6 @@ sudo apt-get install ooniprobe deb.torproject.org-keyring
 gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
 gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
 echo 'deb http://deb.torproject.org/torproject.org unstable main' | sudo tee /etc/apt/sources.list.d/ooniprobe.list
-sudo apt-get update
-```
-
-**Step 2.** Type the following in your terminal:
-
-```
-sudo apt-get install ooniprobe deb.torproject.org-keyring
-```
-{{% /md %}}
-
-</div>
-
-<div class="os-instructions os-linux-ubuntu-yakkety">
-
-{{% md %}}
-**On Ubuntu 16.10 (yakkety):**
-
-**Step 1.** Configure the torproject repository by typing the following in your terminal:
-
-```
-echo 'deb http://archive.ubuntu.com/ubuntu yakkety universe' | sudo tee /etc/apt/sources.list.d/universe.list
-gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
-gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
-echo 'deb http://deb.torproject.org/torproject.org yakkety main' | sudo tee /etc/apt/sources.list.d/ooniprobe.list
 sudo apt-get update
 ```
 
