@@ -2,7 +2,7 @@
 title: "Ethiopia: Evidence of social media blocking and internet censorship"
 author: "Maria Xynou (OONI), Arturo Filastò (OONI), Amnesty International, Girma Walabuma"
 date: "2016-12-14"
-tags: ["ethiopia", "DPI", "protests", "whatsapp", "censorship"]
+tags: ["ethiopia", "DPI", "protests", "whatsapp", "censorship", "research-report", "country-et"]
 categories: ["report"]
 ---
 

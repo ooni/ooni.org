@@ -2,8 +2,8 @@
 title: "The Gambia: Internet Shutdown during 2016 Presidential Election"
 author: "Arturo Filastò (OONI), Arthur Gwagwa (CIPIT), Maria Xynou (OONI)"
 date: "2016-12-09"
-tags: ["gambia", "elections", "shutdown"]
-categories: []
+tags: ["gambia", "elections", "shutdown", "country-gm"]
+categories: ["report"]
 ---
 
 Last week we attempted to perform [OONI network measurement tests](https://github.com/TheTorProject/ooni-probe) in the Gambia

@@ -2,7 +2,7 @@
 title: "Zambia, a country under Deep Packet Inspection"
 author: "Mr T."
 date: "2013-07-15"
-tags: ["zambia"]
+tags: ["zambia", "country-zm"]
 categories: ["report"]
 aliases:
   - /zambia-a-country-under-deep-packet-inspection.html

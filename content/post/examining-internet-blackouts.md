@@ -3,7 +3,7 @@ title: "Examining internet blackouts through public data sources"
 author: "Maria Xynou, Arturo Filastò"
 date: "2017-03-28T16:39:00"
 tags: ["blackout", "shutdown"]
-categories: []
+categories: ["blog"]
 ---
 
 Pulling the plug on the internet is one of the ways that governments around the

@@ -2,7 +2,7 @@
 title: "Evidence of Internet Censorship during Catalonia's Independence Referendum"
 author: "Tord Lundström (Virtual Road), Maria Xynou (OONI)"
 date: "2017-10-03"
-tags: ["catalonia", "censorship"]
+tags: ["catalonia", "censorship", "country-es"]
 categories: ["report"]
 ---
 

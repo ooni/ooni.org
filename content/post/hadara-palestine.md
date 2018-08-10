@@ -3,7 +3,7 @@ title: "Hadara Palestine"
 summary: "This is the technical report on the politically motivated censorship going on in Bethlehem, West Bank"
 author: "Arturo Filastò"
 date: "2012-04-23"
-tags: ["palestine"]
+tags: ["palestine", "country-ps"]
 categories: ["report"]
 aliases:
   - /hadara-palestine.html

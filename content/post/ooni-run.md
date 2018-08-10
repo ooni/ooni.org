@@ -3,7 +3,7 @@ title: "OONI Run: Let's fight internet censorship together!"
 author: "Maria Xynou"
 date: "2017-09-27"
 tags: ["internet censorship", "net neutrality"]
-categories: []
+categories: ["blog"]
 ---
 
 ![OONI Run](/post/ooni-run/ooni-run.png)

@@ -2,7 +2,7 @@
 title: "Ethiopia: Internet Shutdown Amidst Recent Protests?"
 author: "Moses Karanja (CIPIT), Maria Xynou, Arturo Filastò"
 date: "2016-08-10"
-tags: ["ethiopia", "shutdown", "protests"]
+tags: ["ethiopia", "shutdown", "protests", "country-et"]
 categories: ["report"]
 ---
 

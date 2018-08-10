@@ -3,7 +3,7 @@ title: "OONI Hackathon: Join us to explore internet censorship!"
 author: "Maria Xynou"
 date: "2016-10-25"
 tags: ["events", "hackathon"]
-categories: []
+categories: ["blog"]
 ---
 
 ![HACKOONI16](/post/berlin-hackathon/ooni-berlin-hackathon.png)

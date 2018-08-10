@@ -3,7 +3,7 @@ title: "OONI-dev meeting and hackathon 2016"
 author: "Maria Xynou"
 date: "2016-11-22"
 tags: ["events", "hackathon"]
-categories: []
+categories: ["blog"]
 ---
 
 Oonitarians are spread out across the globe, and OONI’s core team is no

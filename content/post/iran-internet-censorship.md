@@ -2,7 +2,7 @@
 title: "Internet Censorship in Iran: Network Measurement Findings from 2014-2017"
 author: "Maria Xynou (OONI), Arturo Filastò (OONI), Mahsa Alimardani (ARTICLE 19), Sina Kouhi (ASL19), Kyle Bowen (ASL19), Vmon (ASL19), Amin Sabeti (Small Media)"
 date: "2017-09-28"
-tags: ["iran", "censorship"]
+tags: ["iran", "censorship", "research-report", "country-ir"]
 categories: ["report"]
 ---
 
