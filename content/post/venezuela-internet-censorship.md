@@ -50,14 +50,14 @@ Observatory of Network Interference (OONI).
 **Probed ISPs:** Most recent measurements collected from Digitel
 (AS264731), CANTV (AS8048), Movistar (AS6306) and Movilnet (AS27889).
 
-**OONI tests:** [Web Connectivity](https://ooni.torproject.org/nettest/web-connectivity/)
-test, [HTTP Invalid Request Line](https://ooni.torproject.org/nettest/http-invalid-request-line/)
-test, [HTTP Header Field Manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/)
-test, [WhatsApp](https://ooni.torproject.org/nettest/whatsapp/) test,
-[Facebook Messenger](https://ooni.torproject.org/nettest/facebook-messenger/)
-test, [Telegram](https://ooni.torproject.org/nettest/telegram/) test,
-[Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/) test,
-[Tor Bridge Reachability](https://ooni.torproject.org/nettest/tor-bridge-reachability/)
+**OONI tests:** [Web Connectivity](/nettest/web-connectivity/)
+test, [HTTP Invalid Request Line](/nettest/http-invalid-request-line/)
+test, [HTTP Header Field Manipulation](/nettest/http-header-field-manipulation/)
+test, [WhatsApp](/nettest/whatsapp/) test,
+[Facebook Messenger](/nettest/facebook-messenger/)
+test, [Telegram](/nettest/telegram/) test,
+[Vanilla Tor](/nettest/vanilla-tor/) test,
+[Tor Bridge Reachability](/nettest/tor-bridge-reachability/)
 test
 
 **Testing/analysis period:** 20th February 2014 to 10th August 2018
@@ -94,14 +94,14 @@ Media censorship was
 [reported](https://ipysvenezuela.org/navegarconlibertad/tag/ipys-venezuela/)
 by Venezuelan civil society groups, [IPYS Venezuela](https://ipysvenezuela.org/) and [Venezuela Inteligente](http://veinteligente.org/), back in early 2016. At the
 time, they measured the blocking of websites across four states in
-Venezuela through the use of [OONI Probe](https://ooni.torproject.org/install/), which is [free and open source software](https://github.com/TheTorProject/ooni-probe) designed
+Venezuela through the use of [OONI Probe](/install/), which is [free and open source software](https://github.com/TheTorProject/ooni-probe) designed
 to measure internet censorship. They collected network measurement data
 showing the [DNS blocking](https://ipysvenezuela.org/navegarconlibertad/tag/ipys-venezuela/)
 of numerous local media sites and other types of websites during
 Venezuela’s 2015 parliamentary elections. Now, OONI has joined forces
 with IPYS Venezuela and Venezuela Inteligente.
 
-The [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/), [IPYS Venezuela](https://ipysvenezuela.org/) and [Venezuela Inteligente](http://veinteligente.org/) collaborated on a joint
+The [Open Observatory of Network Interference (OONI)](/), [IPYS Venezuela](https://ipysvenezuela.org/) and [Venezuela Inteligente](http://veinteligente.org/) collaborated on a joint
 research study to examine internet censorship in Venezuela. Our study
 involves the analysis of [hundreds of thousands of network measurements](https://api.ooni.io/files/by_country/VE) collected from
 multiple local vantage points over the last four years.
@@ -152,8 +152,8 @@ Internet blackouts in Venezuela have been documented by the [Press and Society I
 rural, suburban and urban areas of the country without internet
 connectivity. According to IPYS Venezuela, these internet blackouts have
 harmed citizens’ rights to access information and freedom of expression.
-Freedom House [scores Venezuela 19/25 in obstacles to access the internet](https://freedomhouse.org/report/freedom-net/2017/venezuela)(where a
-larger ranking is worse).
+Freedom House [scores Venezuela 19/25 in obstacles to access the internet](https://freedomhouse.org/report/freedom-net/2017/venezuela)
+(where a larger ranking is worse).
 
 Research conducted by Mariengracia Chirinos in terms of public policies
 on internet access reveals that, between 2007 to 2017, a vision of
@@ -285,29 +285,29 @@ regarding recent internet censorship events.
 # Methodology: Measuring internet censorship in Venezuela
 
 To measure internet censorship in Venezuela, we ran OONI’s network
-measurement software ([OONI Probe](https://ooni.torproject.org/install/)) on a daily basis across
+measurement software ([OONI Probe](/install/)) on a daily basis across
 multiple local vantage points. OONI Probe is [free and open source software](https://github.com/TheTorProject/ooni-probe) designed to
 measure various forms of network interference.
 
 The main OONI Probe tests that we ran as part of this study include:
 
-* [Web Connectivity](https://ooni.torproject.org/nettest/web-connectivity/)
+* [Web Connectivity](/nettest/web-connectivity/)
 
-* [HTTP Invalid Request Line](https://ooni.torproject.org/nettest/http-invalid-request-line/)
+* [HTTP Invalid Request Line](/nettest/http-invalid-request-line/)
 
-* [HTTP Header Field Manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/)
+* [HTTP Header Field Manipulation](/nettest/http-header-field-manipulation/)
 
-* [Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/)
+* [Vanilla Tor](/nettest/vanilla-tor/)
 
-* [Tor Bridge Reachability](https://ooni.torproject.org/nettest/tor-bridge-reachability/)
+* [Tor Bridge Reachability](/nettest/tor-bridge-reachability/)
 
-* [WhatsApp](https://ooni.torproject.org/nettest/whatsapp/)
+* [WhatsApp](/nettest/whatsapp/)
 
-* [Facebook Messenger](https://ooni.torproject.org/nettest/facebook-messenger/)
+* [Facebook Messenger](/nettest/facebook-messenger/)
 
-* [Telegram](https://ooni.torproject.org/nettest/telegram/)
+* [Telegram](/nettest/telegram/)
 
-OONI’s [Web Connectivity test](https://ooni.torproject.org/nettest/web-connectivity/) is
+OONI’s [Web Connectivity test](/nettest/web-connectivity/) is
 designed to measure whether websites are blocked by means of DNS
 tampering, TCP/IP blocking, or by an HTTP transparent proxy. This test
 is automatically performed both over the vantage point of the user and
@@ -337,8 +337,8 @@ and
 test lists, were measured as part of this study.
 
 In an attempt to identify which equipment was used to implement internet
-censorship in Venezuela, we ran OONI’s [HTTP Invalid Request Line](https://ooni.torproject.org/nettest/http-invalid-request-line/)
-and [HTTP Header Field Manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/)
+censorship in Venezuela, we ran OONI’s [HTTP Invalid Request Line](/nettest/http-invalid-request-line/)
+and [HTTP Header Field Manipulation](/nettest/http-header-field-manipulation/)
 tests. Both tests are designed to measure networks with the aim of
 identifying the presence of middleboxes.
 
@@ -358,8 +358,8 @@ Raspberry Pi deployments in Venezuela.
 
 To monitor the accessibility of popular instant messaging platforms over
 time, we ran OONI’s
-[WhatsApp](https://ooni.torproject.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.torproject.org/nettest/facebook-messenger/),
-and [Telegram](https://ooni.torproject.org/nettest/telegram/) tests.
+[WhatsApp](/nettest/whatsapp/), [Facebook Messenger](/nettest/facebook-messenger/),
+and [Telegram](/nettest/telegram/) tests.
 These tests are designed to measure the reachability of the WhatsApp,
 Facebook Messenger, and Telegram apps and web interfaces through DNS
 lookups and by attempting to establish TCP connections to their
@@ -369,8 +369,8 @@ In light of increased censorship events over the last years, we decided
 to monitor the accessibility of censorship circumvention tools as well.
 Many circumvention tool sites were included in the Citizen Lab’s
 [global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv),
-which we measured via OONI’s [Web Connectivity test](https://ooni.torproject.org/nettest/web-connectivity/). But we
-also ran OONI’s [Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/) and [Tor Bridge Reachability](https://ooni.torproject.org/nettest/tor-bridge-reachability/)
+which we measured via OONI’s [Web Connectivity test](/nettest/web-connectivity/). But we
+also ran OONI’s [Vanilla Tor](/nettest/vanilla-tor/) and [Tor Bridge Reachability](/nettest/tor-bridge-reachability/)
 tests, which are designed to measure the blocking of the [Tor network](https://www.torproject.org/) and [Tor bridges](https://bridges.torproject.org/).
 
 Once network measurement data was collected from all of these tests,
@@ -398,14 +398,14 @@ that may have occurred before and/or after the analysis period are not
 examined as part of this study.
 
 Another limitation to this study is associated to the amount and types
-of URLs that were tested for censorship. OONI’s [Web Connectivity test](https://ooni.torproject.org/nettest/web-connectivity/) was run to
+of URLs that were tested for censorship. OONI’s [Web Connectivity test](/nettest/web-connectivity/) was run to
 measure the accessibility of [287 URLs](https://github.com/citizenlab/test-lists/blob/master/lists/ve.csv)
 that are more relevant to the Venezuelan context and [1,123 internationally relevant sites](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv).
 All of these URLs were selected in collaboration with community members
 over the last years. We acknowledge the URL selection bias and that the
 testing sample of URLs might exclude many other sites that are blocked
 in Venezuela. We therefore encourage researchers and community members
-to continue [reviewing and contributing to these test lists](https://ooni.torproject.org/get-involved/contribute-test-lists/)
+to continue [reviewing and contributing to these test lists](/get-involved/contribute-test-lists/)
 to help improve future research and analysis.
 
 Since block pages weren’t detected in Venezuela (at least for none of
@@ -435,7 +435,7 @@ by state-owned CANTV.
 Following Venezuela’s 2015 elections, civil society groups IPYS
 Venezuela and Venezuela Inteligente
 [reported](https://advox.globalvoices.org/2016/05/23/venezuela-research-confirms-censorship-of-news-platforms-currency-websites/)
-(through the use of [OONI Probe](https://ooni.torproject.org/install/)) on the blocking of a
+(through the use of [OONI Probe](/install/)) on the blocking of a
 number of websites, including currency exchange websites, blogs
 expressing political criticism and media-related sites.
 
@@ -753,9 +753,9 @@ countries).
 
 As a result, the Tor network has become a target of censorship in
 several countries around the world (such as
-[Egypt](https://ooni.torproject.org/post/egypt-internet-censorship/)
+[Egypt](/post/egypt-internet-censorship/)
 and
-[Iran](https://ooni.torproject.org/post/iran-internet-censorship/#anonymity-and-circumvention-tools)),
+[Iran](/post/iran-internet-censorship/#anonymity-and-circumvention-tools)),
 where governments attempt to make circumvention harder and improve their
 online surveillance capabilities. To bypass Tor censorship, [Tor bridges](https://bridges.torproject.org/) have been built to enable
 users to connect to the Tor network in censored environments. Tor
@@ -773,11 +773,11 @@ of increased censorship, particularly targeting media websites.
 
 ### Testing
 
-OONI’s [Vanilla Tor test](https://ooni.torproject.org/nettest/vanilla-tor/) is designed to
+OONI’s [Vanilla Tor test](/nettest/vanilla-tor/) is designed to
 measure the reachability of the [Tor network](https://www.torproject.org/) from the local vantage point of
 the user. If the test does *not* manage to bootstrap a connection within
 300 seconds, access to the Tor network is likely blocked. Similarly,
-OONI’s [Bridge Reachability test](https://ooni.torproject.org/nettest/tor-bridge-reachability/)
+OONI’s [Bridge Reachability test](/nettest/tor-bridge-reachability/)
 measures the reachability of (public) [Tor bridges](https://bridges.torproject.org/) by attempting to successfully
 bootstrap a connection to them. To confirm the potential blocking with
 more confidence (and rule out false positives), it’s useful to examine
@@ -843,7 +843,7 @@ In addition to Tor blocking, Venezuela Inteligente also
 [reported](https://twitter.com/vesinfiltro/status/1009595373462151173)
 that access to a large amount of obfs3 and obfs4 bridges (i.e. [Tor bridges](https://bridges.torproject.org/) enabling Tor censorship
 circumvention) was blocked as well, making it practically impossible to
-circumvent Tor blocking with built-in bridges. OONI’s [bridge reachability](https://ooni.torproject.org/nettest/tor-bridge-reachability/)
+circumvent Tor blocking with built-in bridges. OONI’s [bridge reachability](/nettest/tor-bridge-reachability/)
 measurements corroborate these reports, showing the [blocking of many Tor endpoints](https://gist.github.com/hellais/ec4915246641a9f96ff0c9539ba9fe1d).
 
 Bridge reachability tests run from CANTV (AS8048) in late June 2018 show
@@ -912,4 +912,4 @@ they relate to human rights.
 Venezuela’s political and economic environment is fragile and as events
 unfold, its internet censorship apparatus may evolve. Continuing to
 monitor censorship events in Venezuela is therefore essential. This
-study can be reproduced and expanded upon through the use of [OONI Probe](https://ooni.torproject.org/install/) and [OONI data](https://api.ooni.io/files/by_country/VE).
+study can be reproduced and expanded upon through the use of [OONI Probe](/install/) and [OONI data](https://api.ooni.io/files/by_country/VE).
