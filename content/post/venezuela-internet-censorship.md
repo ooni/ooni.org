@@ -15,7 +15,7 @@ Observatory of Network Interference (OONI).
 
 * [Introduction](#introduction)
 
-* [Background](background)
+* [Background](#background)
 
 	* [Political environment](#political-environment)
 
@@ -39,7 +39,7 @@ Observatory of Network Interference (OONI).
 
 		* [Currency exchange](#currency-exchange)
 
-	* [Blocking of Tor](blocking-of-tor)
+	* [Blocking of Tor](#blocking-of-tor)
 
 		* [About Tor](#about-tor)
 
@@ -483,7 +483,7 @@ issues of community complaints, conflicts, and acts of corruption that
 affect citizens and are of public interest.
 
 A few months ago (in April 2018), Venezuela Inteligente and IPYS
-Venezuela [reported](https://twitter.com/vesinfiltro/status/984156584845692928)that [two of El Pitazo’s domains](https://ipysvenezuela.org/alerta/dos-medidas-de-censura-han-afectado-a-el-pitazo/)
+Venezuela [reported](https://twitter.com/vesinfiltro/status/984156584845692928) that [two of El Pitazo’s domains](https://ipysvenezuela.org/alerta/dos-medidas-de-censura-han-afectado-a-el-pitazo/)
 (elpitazo.com and elpitazo.info) were blocked by CANTV, Digitel,
 Movistar, Movilnet and Intercable by means of DNS. Recent OONI data not
 only shows that these domains remain blocked across ISPs, but that a
