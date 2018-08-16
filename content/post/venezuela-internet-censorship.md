@@ -813,7 +813,17 @@ To investigate further, OONI ran tests from a Raspberry Pi connected to
 CANTV (AS8048) and performed some experiments examining the blocking of
 Tor relays. Based on the following, we were able to successfully confirm
 that connections to 74% of well-known IP:Port entities of the Tor
-network were blocked. The blocking was implemented on the reverse path,
+network were blocked (data:
+[1](/post/venezuela/torping-consensus.1534370063.tsv),
+[2](/post/venezuela/torping-consensus.1534373973.tsv),
+[3](/post/venezuela/torping-consensus.1534377862.tsv),
+[4](/post/venezuela/torping-consensus.1534381698.tsv),
+[5](/post/venezuela/torping-consensus.1534385620.tsv),
+[6](/post/venezuela/torping-consensus.1534389587.tsv),
+[7](/post/venezuela/torping-consensus.1534393558.tsv),
+[8](/post/venezuela/torping-consensus.1534397534.tsv),
+[9](/post/venezuela/torping-consensus.1534401504.tsv)).
+The blocking was implemented on the reverse path,
 so it was hard for the client to distinguish it from server-side
 blocking:
 
@@ -829,9 +839,10 @@ blocking:
 
 The “parasitic reverse traceroute” experiment was designed in the
 following way: a) the client tried to establish 1000+ connections to the
-TCP port of Tor relay, b) both “blocked” and “non-blocked” relays were
+TCP port of Tor relay, b) both [“blocked”](/post/venezuela/sa-traceroute-from-filtered.tsv)
+and [“non-blocked”](/post/venezuela/sa-traceroute-from-open.tsv) relays were
 tested, c) the relay was replying with a batch of marked SYN-ACKs with
-varying TTL fields. 
+varying TTL fields.
 
 The following chart summarizes the percentage of
 replies from specific routers and latency to them. It highlights that
@@ -854,6 +865,9 @@ connection failures though is highly indicative of blocking targeted to
 well-known bridges. Repeated testing in mid-August 2018 showed a similar
 percentage: 88% of *running* bridges were unreachable from a CANTV
 vantage point.
+The data for this scans is available: [1](/post/venezuela/torping-bridge.1534407846.tsv),
+[2](/post/venezuela/torping-bridge.1534407911.tsv), [3](/post/venezuela/torping-bridge.1534407977.tsv),
+[control](/post/venezuela/torping-bridges-control.1534407588.tsv).
 
 Venezuela Inteligente tested a random sample of unlisted, publicly
 available bridges from [BridgeDB](https://bridges.torproject.org/),
