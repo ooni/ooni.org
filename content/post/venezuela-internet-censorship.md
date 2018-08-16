@@ -68,22 +68,22 @@ test
 
 Media censorship appears to be quite pervasive, as a number of
 independent media websites were found to be blocked in Venezuela
-(primarily) by means of DNS tampering. Blocked news outlets include [El Pitazo](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Felpitazo.com)
-and [El Nacional](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fel-nacional.com),
-while La Patilla was [temporarily blocked](https://explorer.ooni.torproject.org/measurement/20180606T212129Z_AS8048_PpN50F7H35GboisZ8JXLx8Qwzwg8tisIelPw70JkvM1Z490lw9?input=http:%2F%2Fwww.lapatilla.com)
+(primarily) by means of DNS tampering. Blocked news outlets include [El Pitazo](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Felpitazo.com)
+and [El Nacional](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fel-nacional.com),
+while La Patilla was [temporarily blocked](https://explorer.ooni.io/measurement/20180606T212129Z_AS8048_PpN50F7H35GboisZ8JXLx8Qwzwg8tisIelPw70JkvM1Z490lw9?input=http:%2F%2Fwww.lapatilla.com)
 in June 2018.
 
 Walkie-talkie app Zello was [reportedly blocked](https://www.infobae.com/2014/03/06/1548288-zello-la-aplicacion-terrorista-los-estudiantes-venezolanos/)
 during Venezuela’s 2014 protests and recent measurements suggest that
-the service [remains blocked](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fcontent.zello.com)
-by state-owned CANTV. Other blocked sites include a number of [currency exchange sites](https://explorer.ooni.torproject.org/measurement/20180627T013502Z_AS8048_TKmrzeqqVwdn2t9IKtzF95ptVafOtf2tAsM4csctpiVcI9AH8m?input=http:%2F%2Fdolartoday.com),
+the service [remains blocked](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fcontent.zello.com)
+by state-owned CANTV. Other blocked sites include a number of [currency exchange sites](https://explorer.ooni.io/measurement/20180627T013502Z_AS8048_TKmrzeqqVwdn2t9IKtzF95ptVafOtf2tAsM4csctpiVcI9AH8m?input=http:%2F%2Fdolartoday.com),
 as well as
-[blogs](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fvdebate.blogspot.com)
+[blogs](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fvdebate.blogspot.com)
 expressing political criticism.
 
 Censorship circumvention has (possibly) become harder in Venezuela, as
 CANTV
-[blocked](https://explorer.ooni.torproject.org/measurement/20180811T001818Z_AS8048_WD5wpEvGX4XaG6Y6MczK8eLOsYFSgzStVkTMnvz1u36l8HMPxf)
+[blocked](https://explorer.ooni.io/measurement/20180811T001818Z_AS8048_WD5wpEvGX4XaG6Y6MczK8eLOsYFSgzStVkTMnvz1u36l8HMPxf)
 access to the [Tor network](https://www.torproject.org/) and to public
 [obfs4](https://gist.github.com/hellais/ec4915246641a9f96ff0c9539ba9fe1d)
 bridges two months ago.
@@ -347,7 +347,7 @@ HTTP request line to an echo server listening on the standard HTTP port.
 If a middlebox is present, the invalid HTTP request line will be
 intercepted by the middlebox, potentially triggering an error that will
 be sent back to OONI servers. In the past, this has enabled the
-[identification of censorship equipment](https://explorer.ooni.torproject.org/highlights/) in various
+[identification of censorship equipment](https://explorer.ooni.io/highlights/) in various
 countries around the world. OONI’s HTTP Header Field Manipulation test,
 on the other hand, attempts to identify middleboxes by sending HTTP
 requests with non-canonical HTTP headers. If a middlebox is present, it
@@ -427,7 +427,7 @@ Movistar (AS6306) and Movilnet (AS27889).
 Recent [OONI measurements](https://api.ooni.io/files/by_country/VE)
 show the DNS blocking of local news outlets, sites expressing political
 criticism, zello.com and currency exchange websites by (at least) four
-Venezuelan ISPs. We also confirm the [blocking of the Tor network](https://explorer.ooni.torproject.org/measurement/20180811T001818Z_AS8048_WD5wpEvGX4XaG6Y6MczK8eLOsYFSgzStVkTMnvz1u36l8HMPxf)
+Venezuelan ISPs. We also confirm the [blocking of the Tor network](https://explorer.ooni.io/measurement/20180811T001818Z_AS8048_WD5wpEvGX4XaG6Y6MczK8eLOsYFSgzStVkTMnvz1u36l8HMPxf)
 by state-owned CANTV.
 
 ## Blocked websites
@@ -459,17 +459,17 @@ recent OONI measurements).
 
 | URL                      | Digitel (AS264731) | CANTV (AS8048) | Movistar (AS6306) | Movilnet (AS27889) |
 |--------------------------|--------------------|----------------|-------------------|--------------------|
-| http://elpitazo.com/     | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Felpitazo.com)      | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Felpitazo.com)  | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T144120Z_AS6306_B5lbKz5EW3Ukpi6KXyye75mCKzosaBOpAQJKeUqm0LQx2v7PKh?input=http:%2F%2Felpitazo.com)     | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Felpitazo.com)      |
-| http://elpitazo.info/    | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Felpitazo.info)      | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Felpitazo.info)  | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Felpitazo.info)     | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Felpitazo.info)      |
-| http://elpitazo.ml/      | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Felpitazo.ml)      | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Felpitazo.ml)  | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Felpitazo.ml)     | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Felpitazo.ml)      |
-| http://el-nacional.com/  | [Accessible](https://explorer.ooni.torproject.org/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Fel-nacional.com)         | [HTTP failure](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fel-nacional.com)   | [Accessible](https://explorer.ooni.torproject.org/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Fel-nacional.com)        | [HTTP failure](https://explorer.ooni.torproject.org/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Fel-nacional.com)       |
-| http://www.infobae.com/  | N/A                | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T024406Z_AS8048_GxLMU1Y4WYhmJldyTKetLGsq0FyPFuQJw7TWcYuT1NFpDtVZ7y?input=http:%2F%2Fwww.infobae.com)  | [DNS tampering](https://explorer.ooni.torproject.org/measurement/qPkC0JBOZ02G6YD5RCITsOXGcUp216B2Q8b5R2NEGRMjgDdfun4LWhL8XsojQXDC?input=http:%2F%2Fwww.infobae.com)     | N/A                |
-| http://maduradas.com/    | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180806T122611Z_AS264731_5QGumiX9hg9NHgpIRX27ulvOiyJvSSKEpJJCrH0rDaf7l2Nx74?input=http:%2F%2Fmaduradas.com)      | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180806T122529Z_AS8048_Ims6SAXvYZMzF0kCI6heWTlPuGER17ARxjBXckYIPHOsZAJZJR?input=http:%2F%2Fmaduradas.com)  | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180806T124248Z_AS6306_l3LxW6yYpkJpqIgZFqrSPBrIuFvsITy7aG9rma4xg4jSeTFpv3?input=http:%2F%2Fmaduradas.com)     | [Accessible](https://explorer.ooni.torproject.org/measurement/20180806T114208Z_AS27889_UNyXFgUh262Nq1LFaGPuBGpYzF47U6hEBCQAy5yxxmZf1waRmu?input=http:%2F%2Fmaduradas.com)         |
-| http://minuto30.com/     | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180806T122611Z_AS264731_5QGumiX9hg9NHgpIRX27ulvOiyJvSSKEpJJCrH0rDaf7l2Nx74?input=http:%2F%2Fminuto30.com)      | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180806T120523Z_AS8048_QZFVtAx6xyVRYbqaHKqVlcstfUeq4Ev9XHq6Rws4xWB97oWjml?input=http:%2F%2Fminuto30.com)  | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180806T124248Z_AS6306_l3LxW6yYpkJpqIgZFqrSPBrIuFvsITy7aG9rma4xg4jSeTFpv3?input=http:%2F%2Fminuto30.com)     | [Accessible](https://explorer.ooni.torproject.org/measurement/20180806T114208Z_AS27889_UNyXFgUh262Nq1LFaGPuBGpYzF47U6hEBCQAy5yxxmZf1waRmu?input=http:%2F%2Fminuto30.com)         |
-| http://noticiaaldia.com/ | N/A                | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180405T025325Z_AS8048_zHRXY2AxlvwXTtUYmA4pQKJwo42UsLl3Hs1ffioON6Zwt3o1O1?input=http:%2F%2Fnoticiaaldia.com)  | N/A               | N/A                |
-| http://noticias.com/     | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180719T180315Z_AS264731_X0r1s85WEziWdCc6cGXReVTTYWLL4RaEna8Y3YsxKSy9hzU3Ph?input=http:%2F%2Fnoticias.com)      | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180719T180006Z_AS8048_HLGzZWAvpEmL2AankRtIhTiVkxCvLQDLvZ15ptdBrNJc2b6XBR?input=http:%2F%2Fnoticias.com)  | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180719T180025Z_AS6306_ph9f3EY0DvPQyYbgDqCt0v1q2KsW00rWiL5Wtqk1Y53flpPGZo?input=http:%2F%2Fnoticias.com)     | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Fnoticias.com)      |
-| http://ntn24.com/        | N/A                | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T024406Z_AS8048_GxLMU1Y4WYhmJldyTKetLGsq0FyPFuQJw7TWcYuT1NFpDtVZ7y?input=http:%2F%2Fntn24.com)  | N/A               | N/A                |
-| http://armando.info      | N/A                | [HTTP failure](https://explorer.ooni.torproject.org/measurement/20180813T223843Z_AS8048_XsMtNp6XzoS2otdCYdznzZ43U2TxAtpH4ETiKTEqBbGfhH8Rev?input=http:%2F%2Fwww.armando.info)   | [Accessible](https://explorer.ooni.torproject.org/measurement/20180813T223816Z_AS6306_xfdvcNktQis2kD5IxMHdEFKrhcfBZDJCHUW31BaRuCbtCIzQQD?input=http:%2F%2Fwww.armando.info)        | N/A                |
+| http://elpitazo.com/     | [DNS tampering](https://explorer.ooni.io/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Felpitazo.com)      | [DNS tampering](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Felpitazo.com)  | [DNS tampering](https://explorer.ooni.io/measurement/20180810T144120Z_AS6306_B5lbKz5EW3Ukpi6KXyye75mCKzosaBOpAQJKeUqm0LQx2v7PKh?input=http:%2F%2Felpitazo.com)     | [DNS tampering](https://explorer.ooni.io/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Felpitazo.com)      |
+| http://elpitazo.info/    | [DNS tampering](https://explorer.ooni.io/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Felpitazo.info)      | [DNS tampering](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Felpitazo.info)  | [DNS tampering](https://explorer.ooni.io/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Felpitazo.info)     | [DNS tampering](https://explorer.ooni.io/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Felpitazo.info)      |
+| http://elpitazo.ml/      | [DNS tampering](https://explorer.ooni.io/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Felpitazo.ml)      | [DNS tampering](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Felpitazo.ml)  | [DNS tampering](https://explorer.ooni.io/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Felpitazo.ml)     | [DNS tampering](https://explorer.ooni.io/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Felpitazo.ml)      |
+| http://el-nacional.com/  | [Accessible](https://explorer.ooni.io/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Fel-nacional.com)         | [HTTP failure](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fel-nacional.com)   | [Accessible](https://explorer.ooni.io/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Fel-nacional.com)        | [HTTP failure](https://explorer.ooni.io/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Fel-nacional.com)       |
+| http://www.infobae.com/  | N/A                | [DNS tampering](https://explorer.ooni.io/measurement/20180810T024406Z_AS8048_GxLMU1Y4WYhmJldyTKetLGsq0FyPFuQJw7TWcYuT1NFpDtVZ7y?input=http:%2F%2Fwww.infobae.com)  | [DNS tampering](https://explorer.ooni.io/measurement/qPkC0JBOZ02G6YD5RCITsOXGcUp216B2Q8b5R2NEGRMjgDdfun4LWhL8XsojQXDC?input=http:%2F%2Fwww.infobae.com)     | N/A                |
+| http://maduradas.com/    | [DNS tampering](https://explorer.ooni.io/measurement/20180806T122611Z_AS264731_5QGumiX9hg9NHgpIRX27ulvOiyJvSSKEpJJCrH0rDaf7l2Nx74?input=http:%2F%2Fmaduradas.com)      | [DNS tampering](https://explorer.ooni.io/measurement/20180806T122529Z_AS8048_Ims6SAXvYZMzF0kCI6heWTlPuGER17ARxjBXckYIPHOsZAJZJR?input=http:%2F%2Fmaduradas.com)  | [DNS tampering](https://explorer.ooni.io/measurement/20180806T124248Z_AS6306_l3LxW6yYpkJpqIgZFqrSPBrIuFvsITy7aG9rma4xg4jSeTFpv3?input=http:%2F%2Fmaduradas.com)     | [Accessible](https://explorer.ooni.io/measurement/20180806T114208Z_AS27889_UNyXFgUh262Nq1LFaGPuBGpYzF47U6hEBCQAy5yxxmZf1waRmu?input=http:%2F%2Fmaduradas.com)         |
+| http://minuto30.com/     | [DNS tampering](https://explorer.ooni.io/measurement/20180806T122611Z_AS264731_5QGumiX9hg9NHgpIRX27ulvOiyJvSSKEpJJCrH0rDaf7l2Nx74?input=http:%2F%2Fminuto30.com)      | [DNS tampering](https://explorer.ooni.io/measurement/20180806T120523Z_AS8048_QZFVtAx6xyVRYbqaHKqVlcstfUeq4Ev9XHq6Rws4xWB97oWjml?input=http:%2F%2Fminuto30.com)  | [DNS tampering](https://explorer.ooni.io/measurement/20180806T124248Z_AS6306_l3LxW6yYpkJpqIgZFqrSPBrIuFvsITy7aG9rma4xg4jSeTFpv3?input=http:%2F%2Fminuto30.com)     | [Accessible](https://explorer.ooni.io/measurement/20180806T114208Z_AS27889_UNyXFgUh262Nq1LFaGPuBGpYzF47U6hEBCQAy5yxxmZf1waRmu?input=http:%2F%2Fminuto30.com)         |
+| http://noticiaaldia.com/ | N/A                | [DNS tampering](https://explorer.ooni.io/measurement/20180405T025325Z_AS8048_zHRXY2AxlvwXTtUYmA4pQKJwo42UsLl3Hs1ffioON6Zwt3o1O1?input=http:%2F%2Fnoticiaaldia.com)  | N/A               | N/A                |
+| http://noticias.com/     | [DNS tampering](https://explorer.ooni.io/measurement/20180719T180315Z_AS264731_X0r1s85WEziWdCc6cGXReVTTYWLL4RaEna8Y3YsxKSy9hzU3Ph?input=http:%2F%2Fnoticias.com)      | [DNS tampering](https://explorer.ooni.io/measurement/20180719T180006Z_AS8048_HLGzZWAvpEmL2AankRtIhTiVkxCvLQDLvZ15ptdBrNJc2b6XBR?input=http:%2F%2Fnoticias.com)  | [DNS tampering](https://explorer.ooni.io/measurement/20180719T180025Z_AS6306_ph9f3EY0DvPQyYbgDqCt0v1q2KsW00rWiL5Wtqk1Y53flpPGZo?input=http:%2F%2Fnoticias.com)     | [DNS tampering](https://explorer.ooni.io/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Fnoticias.com)      |
+| http://ntn24.com/        | N/A                | [DNS tampering](https://explorer.ooni.io/measurement/20180810T024406Z_AS8048_GxLMU1Y4WYhmJldyTKetLGsq0FyPFuQJw7TWcYuT1NFpDtVZ7y?input=http:%2F%2Fntn24.com)  | N/A               | N/A                |
+| http://armando.info      | N/A                | [HTTP failure](https://explorer.ooni.io/measurement/20180813T223843Z_AS8048_XsMtNp6XzoS2otdCYdznzZ43U2TxAtpH4ETiKTEqBbGfhH8Rev?input=http:%2F%2Fwww.armando.info)   | [Accessible](https://explorer.ooni.io/measurement/20180813T223816Z_AS6306_xfdvcNktQis2kD5IxMHdEFKrhcfBZDJCHUW31BaRuCbtCIzQQD?input=http:%2F%2Fwww.armando.info)        | N/A                |
                                                                                                                                                                        
 El Pitazo is an independent news outlet run by Venezuelans that
 [started off](https://elpitazo.com/quienes-somos/) as a YouTube
@@ -534,18 +534,18 @@ former CEO of Globovision (private Venezuelan TV channel) and is
 [ranked](https://www.alexa.com/topsites/countries;0/VE) as one of the
 most visited websites in Venezuela (ahead of other major news websites).
 Currently, lapatilla.com is
-[accessible](https://explorer.ooni.torproject.org/measurement/20180810T024406Z_AS8048_GxLMU1Y4WYhmJldyTKetLGsq0FyPFuQJw7TWcYuT1NFpDtVZ7y?input=http:%2F%2Fwww.lapatilla.com),
-but was [temporarily blocked](https://explorer.ooni.torproject.org/measurement/20180606T212129Z_AS8048_PpN50F7H35GboisZ8JXLx8Qwzwg8tisIelPw70JkvM1Z490lw9?input=http:%2F%2Fwww.lapatilla.com)
+[accessible](https://explorer.ooni.io/measurement/20180810T024406Z_AS8048_GxLMU1Y4WYhmJldyTKetLGsq0FyPFuQJw7TWcYuT1NFpDtVZ7y?input=http:%2F%2Fwww.lapatilla.com),
+but was [temporarily blocked](https://explorer.ooni.io/measurement/20180606T212129Z_AS8048_PpN50F7H35GboisZ8JXLx8Qwzwg8tisIelPw70JkvM1Z490lw9?input=http:%2F%2Fwww.lapatilla.com)
 between 6th to 10th June 2018. OONI data collected on 6th June 2018
 shows that the site was
-[accessible](https://explorer.ooni.torproject.org/measurement/20180606T135026Z_AS6306_nlCjR1zxn2yWxKXiKhNU8kceTSjYpc0PRMIS7mvc4bwzAazCoR?input=http:%2F%2Fwww.lapatilla.com)
+[accessible](https://explorer.ooni.io/measurement/20180606T135026Z_AS6306_nlCjR1zxn2yWxKXiKhNU8kceTSjYpc0PRMIS7mvc4bwzAazCoR?input=http:%2F%2Fwww.lapatilla.com)
 on Movistar (AS6306), but
-[blocked](https://explorer.ooni.torproject.org/measurement/20180606T212129Z_AS8048_PpN50F7H35GboisZ8JXLx8Qwzwg8tisIelPw70JkvM1Z490lw9?input=http:%2F%2Fwww.lapatilla.com)
+[blocked](https://explorer.ooni.io/measurement/20180606T212129Z_AS8048_PpN50F7H35GboisZ8JXLx8Qwzwg8tisIelPw70JkvM1Z490lw9?input=http:%2F%2Fwww.lapatilla.com)
 by state-owned CANTV (AS8048). Lapatilla.com was tested multiple times
 on CANTV and all measurements presented the same HTTP failures and
 “generic timeout errors”, suggesting HTTP blocking. CANTV though appears
 to have
-[unblocked](https://explorer.ooni.torproject.org/measurement/20180611T195842Z_AS8048_mdI1VLXYpPTwaL6C0rOIybhWiWivU5ItIZcpVmiBrUZ6OWALYU?input=http:%2F%2Fwww.lapatilla.com)
+[unblocked](https://explorer.ooni.io/measurement/20180611T195842Z_AS8048_mdI1VLXYpPTwaL6C0rOIybhWiWivU5ItIZcpVmiBrUZ6OWALYU?input=http:%2F%2Fwww.lapatilla.com)
 the site by 11th June 2018, as corroborated by all subsequent
 measurements.
 
@@ -556,12 +556,12 @@ significant government pressure over the last months. Similarly to La
 Patilla, el-nacional.com primarily appears to be censored by means of
 HTTP blocking, as suggested by HTTP failures (and “generic timeout
 errors”) presented in recent OONI measurements. OONI data suggests that
-the site’s [blocked by CANTV](https://explorer.ooni.torproject.org/measurement/20180810T222728Z_AS8048_EJ8BJ6MxVJRTaYrgh8zdMYrzq5aFwq8H9x0wsG8GsJzUlVDOkJ?input=http:%2F%2Fel-nacional.com)
+the site’s [blocked by CANTV](https://explorer.ooni.io/measurement/20180810T222728Z_AS8048_EJ8BJ6MxVJRTaYrgh8zdMYrzq5aFwq8H9x0wsG8GsJzUlVDOkJ?input=http:%2F%2Fel-nacional.com)
 and
-[Movilnet](https://explorer.ooni.torproject.org/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Fel-nacional.com),
-but [accessible on Digitel](https://explorer.ooni.torproject.org/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Fel-nacional.com)
+[Movilnet](https://explorer.ooni.io/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Fel-nacional.com),
+but [accessible on Digitel](https://explorer.ooni.io/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Fel-nacional.com)
 and
-[Movistar](https://explorer.ooni.torproject.org/measurement/20180811T111705Z_AS6306_Oob0CZvOVwStTemivOHGzrkprDI3h7YgWVu40APYeQPCLEK53v?input=http:%2F%2Fel-nacional.com).
+[Movistar](https://explorer.ooni.io/measurement/20180811T111705Z_AS6306_Oob0CZvOVwStTemivOHGzrkprDI3h7YgWVu40APYeQPCLEK53v?input=http:%2F%2Fel-nacional.com).
 
 HTTP failures indicative of blocking have been inconsistent or even
 intermittent at times. This may suggest that internet censorship is not
@@ -572,13 +572,13 @@ A few days ago, [Venezuela Inteligente](https://twitter.com/vesinfiltro/status/1
 and [IPYS Venezuela](https://twitter.com/ipysvenezuela/status/1029165159535849472)
 reported that investigative journalism site armando.info was
 inaccessible as well. This site is known for its critical and extensive
-reporting on corruption and has been [tested fairly regularly](https://explorer.ooni.torproject.org/country/VE) across ISPs
+reporting on corruption and has been [tested fairly regularly](https://explorer.ooni.io/country/VE) across ISPs
 over the last two years. Most OONI measurements collected up until 12th
 August 2018 suggested that the site was
-[accessible](https://explorer.ooni.torproject.org/measurement/20180812T064426Z_AS8048_FgzMuq4W7meAL9Mzn318FsQCx5hav7d0tbxtjO8rskEUyOduSM?input=http:%2F%2Farmando.info).
+[accessible](https://explorer.ooni.io/measurement/20180812T064426Z_AS8048_FgzMuq4W7meAL9Mzn318FsQCx5hav7d0tbxtjO8rskEUyOduSM?input=http:%2F%2Farmando.info).
 But on 13th August 2018, OONI Probe testing revealed that the site was
 suddenly
-[inaccessible](https://explorer.ooni.torproject.org/measurement/20180813T221705Z_AS8048_YaFF69k3LE9Uzf4xEYV4naxo4hoSMGrnpqoH9nUiPdmCm2QSy1?input=http:%2F%2Fwww.armando.info)
+[inaccessible](https://explorer.ooni.io/measurement/20180813T221705Z_AS8048_YaFF69k3LE9Uzf4xEYV4naxo4hoSMGrnpqoH9nUiPdmCm2QSy1?input=http:%2F%2Fwww.armando.info)
 on CANTV, presenting HTTP failures.
 
 To investigate further, IPYS Venezuela and Venezuela Inteligente
@@ -593,29 +593,29 @@ The table below summarizes the results of their testing.
 
 | Time of testing (local time) | ISPs              | Results      |
 |------------------------------|-------------------|--------------|
-| 5:54 pm                      | CANTV (AS8048)    | [HTTP failure](https://explorer.ooni.torproject.org/measurement/20180813T215415Z_AS8048_XVq7RVS2chMLNCL5797zlBKBTZYw29e03rlO1T30G8yahvjsYe?input=http:%2F%2Fwww.armando.info) |
-| 5:57 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.torproject.org/measurement/20180813T215707Z_AS6306_AdEBkS5NW1ljF0U8XOq3ipAtxDKMRdy3AVWjf841VK3Xi1unyW?input=http:%2F%2Fwww.armando.info)   |
-| 6:07 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.torproject.org/measurement/20180813T220727Z_AS6306_rlN6FVKmywaREaOMpRb3w2VdANwMD7eG6Ekpjl2OvDkEbBq8EU?input=http:%2F%2Fwww.armando.info)   |
-| 6:10 pm                      | CANTV (AS8048)    | [HTTP failure](https://explorer.ooni.torproject.org/measurement/20180813T221021Z_AS8048_r6TrGGGrbAGqRIETPyS1xDcogKqIn5VxZTfpGH9fItIFQvJLw0?input=http:%2F%2Fwww.armando.info) |
-| 6:13 pm                      | CANTV (AS8048)    | [HTTP failure](https://explorer.ooni.torproject.org/measurement/20180813T221318Z_AS8048_A2sdDZH3Yi2p3puNubYqnYoIlJERnJGeVwUNfP3NMQDKoOc6bz?input=http:%2F%2Fwww.armando.info) |
-| 6:13 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.torproject.org/measurement/20180813T221331Z_AS6306_2XHd7rVThcIKKI0E2yueI9onzOokksSayj7GcptppGqfaxfHxn?input=http:%2F%2Fwww.armando.info)   |
-| 6:16 pm                      | CANTV (AS8048)    | [Accessible](https://explorer.ooni.torproject.org/measurement/20180813T221626Z_AS8048_zOHUDdLilIqcj031YigJDgV1PZ6pHULj42ebnQv7vVzI6cDep6?input=http:%2F%2Fwww.armando.info)   |
-| 6:17 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.torproject.org/measurement/20180813T221706Z_AS6306_XMqQa7B90W1Feo9DTQ2YXVg0aMEMmjMz3FdEq69ITDYrKQpi22?input=http:%2F%2Fwww.armando.info)   |
-| 6:24 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.torproject.org/measurement/20180813T222432Z_AS6306_3xggZOvnwXZ8Tv8sL64uDNX5up1SWIEfGiIu7CzSvfI68Sio45?input=http:%2F%2Fwww.armando.info)   |
-| 6:28 pm                      | CANTV (AS8048)    | [HTTP failure](https://explorer.ooni.torproject.org/measurement/20180813T222810Z_AS8048_nEJFbAV0lqGSEksFhrpP024SSYjyY9IPDKvOb0UIZJKXwLd5my?input=http:%2F%2Fwww.armando.info) |
-| 6:30 pm                      | CANTV (AS8048)    | [HTTP failure](https://explorer.ooni.torproject.org/measurement/20180813T223023Z_AS8048_qkZmghbj91nPS2KS1Mm9lgJIQ7N9U41sotAfQUf45KMZ6kAzd7?input=http:%2F%2Fwww.armando.info) |
-| 6:32 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.torproject.org/measurement/20180813T223044Z_AS6306_2vDXl7NWV1M5imFOl8DlN8y6QFUPABnWqKcH5mKy68khITkM6M?input=http:%2F%2Fwww.armando.info)   |
-| 6:34 pm                      | CANTV (AS8048)    | [HTTP failure](https://explorer.ooni.torproject.org/measurement/20180813T223415Z_AS8048_M7VkLUkfPLhw4SLgjeIBr3z7OtV0HxUdxgn1YD0Oh118Zf9SBY?input=http:%2F%2Fwww.armando.info) |
-| 6:37 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.torproject.org/measurement/20180813T223705Z_AS6306_oAzIMF3CGCB3UGbydxOdq3ORCVEniy22daLPZqJoOr6nFoh47T?input=http:%2F%2Fwww.armando.info)   |
-| 6:37 pm                      | Inter (AS21826)   | [Accessible](https://explorer.ooni.torproject.org/measurement/20180813T223711Z_AS21826_LosGDpFBfDnIenPTvurRcy4zlqMeVqsaq7qrk7rTWU2FLYWCGr?input=http:%2F%2Fwww.armando.info)   |
-| 6:38 pm                      | CANTV (AS8048)    | [HTTP failure](https://explorer.ooni.torproject.org/measurement/20180813T223843Z_AS8048_XsMtNp6XzoS2otdCYdznzZ43U2TxAtpH4ETiKTEqBbGfhH8Rev?input=http:%2F%2Fwww.armando.info) |
-| 6:50 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.torproject.org/measurement/20180813T225224Z_AS6306_YrfBlZQbpfh55BvIpqoPxANj6BQl4NSqYcqx9z67CCglwMdVI4?input=http:%2F%2Fwww.armando.info)   |
-| 7:13 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.torproject.org/measurement/20180813T223816Z_AS6306_xfdvcNktQis2kD5IxMHdEFKrhcfBZDJCHUW31BaRuCbtCIzQQD?input=http:%2F%2Fwww.armando.info)   |
-| 8:01 pm                      | CIX (AS265641)    | [Accessible](https://explorer.ooni.torproject.org/measurement/20180814T000151Z_AS265641_WLC0qT9K2FQWaLpFV6AlOE42s5bBBJiy1dKBi6jP2pFR5MpJ9i?input=http:%2F%2Fwww.armando.info)   |
-| 8:16 pm                      | CANTV (AS8048)    | [Accessible](https://explorer.ooni.torproject.org/measurement/20180814T001610Z_AS8048_zR3MHe1CanwhrYiJa1FpCkXqCKvfrfPilcmXdSdKtFR51rq10x?input=http:%2F%2Fwww.armando.info)   |
-| 8:18 pm                      | CANTV (AS8048)    | [Accessible](https://explorer.ooni.torproject.org/measurement/20180814T001652Z_AS8048_yK8D6bON8XhBj9J2LkcFPf1Gf5m1kJhvpAyIEzFmfVEYn1Gssk?input=http:%2F%2Fwww.armando.info)   |
+| 5:54 pm                      | CANTV (AS8048)    | [HTTP failure](https://explorer.ooni.io/measurement/20180813T215415Z_AS8048_XVq7RVS2chMLNCL5797zlBKBTZYw29e03rlO1T30G8yahvjsYe?input=http:%2F%2Fwww.armando.info) |
+| 5:57 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.io/measurement/20180813T215707Z_AS6306_AdEBkS5NW1ljF0U8XOq3ipAtxDKMRdy3AVWjf841VK3Xi1unyW?input=http:%2F%2Fwww.armando.info)   |
+| 6:07 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.io/measurement/20180813T220727Z_AS6306_rlN6FVKmywaREaOMpRb3w2VdANwMD7eG6Ekpjl2OvDkEbBq8EU?input=http:%2F%2Fwww.armando.info)   |
+| 6:10 pm                      | CANTV (AS8048)    | [HTTP failure](https://explorer.ooni.io/measurement/20180813T221021Z_AS8048_r6TrGGGrbAGqRIETPyS1xDcogKqIn5VxZTfpGH9fItIFQvJLw0?input=http:%2F%2Fwww.armando.info) |
+| 6:13 pm                      | CANTV (AS8048)    | [HTTP failure](https://explorer.ooni.io/measurement/20180813T221318Z_AS8048_A2sdDZH3Yi2p3puNubYqnYoIlJERnJGeVwUNfP3NMQDKoOc6bz?input=http:%2F%2Fwww.armando.info) |
+| 6:13 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.io/measurement/20180813T221331Z_AS6306_2XHd7rVThcIKKI0E2yueI9onzOokksSayj7GcptppGqfaxfHxn?input=http:%2F%2Fwww.armando.info)   |
+| 6:16 pm                      | CANTV (AS8048)    | [Accessible](https://explorer.ooni.io/measurement/20180813T221626Z_AS8048_zOHUDdLilIqcj031YigJDgV1PZ6pHULj42ebnQv7vVzI6cDep6?input=http:%2F%2Fwww.armando.info)   |
+| 6:17 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.io/measurement/20180813T221706Z_AS6306_XMqQa7B90W1Feo9DTQ2YXVg0aMEMmjMz3FdEq69ITDYrKQpi22?input=http:%2F%2Fwww.armando.info)   |
+| 6:24 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.io/measurement/20180813T222432Z_AS6306_3xggZOvnwXZ8Tv8sL64uDNX5up1SWIEfGiIu7CzSvfI68Sio45?input=http:%2F%2Fwww.armando.info)   |
+| 6:28 pm                      | CANTV (AS8048)    | [HTTP failure](https://explorer.ooni.io/measurement/20180813T222810Z_AS8048_nEJFbAV0lqGSEksFhrpP024SSYjyY9IPDKvOb0UIZJKXwLd5my?input=http:%2F%2Fwww.armando.info) |
+| 6:30 pm                      | CANTV (AS8048)    | [HTTP failure](https://explorer.ooni.io/measurement/20180813T223023Z_AS8048_qkZmghbj91nPS2KS1Mm9lgJIQ7N9U41sotAfQUf45KMZ6kAzd7?input=http:%2F%2Fwww.armando.info) |
+| 6:32 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.io/measurement/20180813T223044Z_AS6306_2vDXl7NWV1M5imFOl8DlN8y6QFUPABnWqKcH5mKy68khITkM6M?input=http:%2F%2Fwww.armando.info)   |
+| 6:34 pm                      | CANTV (AS8048)    | [HTTP failure](https://explorer.ooni.io/measurement/20180813T223415Z_AS8048_M7VkLUkfPLhw4SLgjeIBr3z7OtV0HxUdxgn1YD0Oh118Zf9SBY?input=http:%2F%2Fwww.armando.info) |
+| 6:37 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.io/measurement/20180813T223705Z_AS6306_oAzIMF3CGCB3UGbydxOdq3ORCVEniy22daLPZqJoOr6nFoh47T?input=http:%2F%2Fwww.armando.info)   |
+| 6:37 pm                      | Inter (AS21826)   | [Accessible](https://explorer.ooni.io/measurement/20180813T223711Z_AS21826_LosGDpFBfDnIenPTvurRcy4zlqMeVqsaq7qrk7rTWU2FLYWCGr?input=http:%2F%2Fwww.armando.info)   |
+| 6:38 pm                      | CANTV (AS8048)    | [HTTP failure](https://explorer.ooni.io/measurement/20180813T223843Z_AS8048_XsMtNp6XzoS2otdCYdznzZ43U2TxAtpH4ETiKTEqBbGfhH8Rev?input=http:%2F%2Fwww.armando.info) |
+| 6:50 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.io/measurement/20180813T225224Z_AS6306_YrfBlZQbpfh55BvIpqoPxANj6BQl4NSqYcqx9z67CCglwMdVI4?input=http:%2F%2Fwww.armando.info)   |
+| 7:13 pm                      | Movistar (AS6306) | [Accessible](https://explorer.ooni.io/measurement/20180813T223816Z_AS6306_xfdvcNktQis2kD5IxMHdEFKrhcfBZDJCHUW31BaRuCbtCIzQQD?input=http:%2F%2Fwww.armando.info)   |
+| 8:01 pm                      | CIX (AS265641)    | [Accessible](https://explorer.ooni.io/measurement/20180814T000151Z_AS265641_WLC0qT9K2FQWaLpFV6AlOE42s5bBBJiy1dKBi6jP2pFR5MpJ9i?input=http:%2F%2Fwww.armando.info)   |
+| 8:16 pm                      | CANTV (AS8048)    | [Accessible](https://explorer.ooni.io/measurement/20180814T001610Z_AS8048_zR3MHe1CanwhrYiJa1FpCkXqCKvfrfPilcmXdSdKtFR51rq10x?input=http:%2F%2Fwww.armando.info)   |
+| 8:18 pm                      | CANTV (AS8048)    | [Accessible](https://explorer.ooni.io/measurement/20180814T001652Z_AS8048_yK8D6bON8XhBj9J2LkcFPf1Gf5m1kJhvpAyIEzFmfVEYn1Gssk?input=http:%2F%2Fwww.armando.info)   |
 
-What’s clear from recent [OONI Probe measurements](https://explorer.ooni.torproject.org/country/VE)
+What’s clear from recent [OONI Probe measurements](https://explorer.ooni.io/country/VE)
 (collected on 13th August 2018) is that the potential blocking of
 armando.info is certainly inconsistent. We can see from the above table,
 for example, that measurements collected from CANTV alternated between
@@ -626,7 +626,7 @@ The first CANTV measurements (presenting HTTP failures) in the early
 evening of 13th August 2018 were collected from Caracas, while the last
 CANTV measurements presented in the table (showing accessibility) were
 collected from Táchira. The other
-[accessible](https://explorer.ooni.torproject.org/measurement/20180813T221626Z_AS8048_zOHUDdLilIqcj031YigJDgV1PZ6pHULj42ebnQv7vVzI6cDep6?input=http:%2F%2Fwww.armando.info)
+[accessible](https://explorer.ooni.io/measurement/20180813T221626Z_AS8048_zOHUDdLilIqcj031YigJDgV1PZ6pHULj42ebnQv7vVzI6cDep6?input=http:%2F%2Fwww.armando.info)
 CANTV measurement at 6:16 pm was collected from Carabobo. This is
 particularly interesting, as it may suggest that CANTV doesn’t roll out
 the same censorship across its network, or that network or configuration
@@ -637,7 +637,7 @@ report that their experience in attempting to access armando.info (on
 CANTV, Movistar and Digitel) is also inconsistent. As of 13th August
 2018, there are moments when they can access the site and there are
 moments when they can’t. While the armando.info site was
-[inaccessible](https://explorer.ooni.torproject.org/measurement/20180813T215415Z_AS8048_XVq7RVS2chMLNCL5797zlBKBTZYw29e03rlO1T30G8yahvjsYe?input=http:%2F%2Fwww.armando.info),
+[inaccessible](https://explorer.ooni.io/measurement/20180813T215415Z_AS8048_XVq7RVS2chMLNCL5797zlBKBTZYw29e03rlO1T30G8yahvjsYe?input=http:%2F%2Fwww.armando.info),
 as documented by OONI Web Connectivity tests, the server was reachable
 and accepted TCP connections even as the HTTP exchange failed.
 
@@ -659,8 +659,8 @@ across ISPs, primarily by means of DNS tampering.
 
 | URL                          | Digitel (AS264731) | CANTV (AS8048) | Movistar (AS6306) | Movilnet (AS27889) |
 |------------------------------|--------------------|----------------|-------------------|--------------------|
-| http://vdebate.blogspot.com/ | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Fvdebate.blogspot.com)      | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fvdebate.blogspot.com)  | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Fvdebate.blogspot.com)     | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Fvdebate.blogspot.com)      |
-| http://ovario2.com/          | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Fovario2.com)      | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fovario2.com)  | [HTTP failure](https://explorer.ooni.torproject.org/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Fovario2.com)      | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Fovario2.com)      |
+| http://vdebate.blogspot.com/ | [DNS tampering](https://explorer.ooni.io/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Fvdebate.blogspot.com)      | [DNS tampering](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fvdebate.blogspot.com)  | [DNS tampering](https://explorer.ooni.io/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Fvdebate.blogspot.com)     | [DNS tampering](https://explorer.ooni.io/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Fvdebate.blogspot.com)      |
+| http://ovario2.com/          | [DNS tampering](https://explorer.ooni.io/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Fovario2.com)      | [DNS tampering](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fovario2.com)  | [HTTP failure](https://explorer.ooni.io/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Fovario2.com)      | [DNS tampering](https://explorer.ooni.io/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Fovario2.com)      |
 
 The first site listed in the table above (vdebate.blogpost.com) is the
 blog of an organization whose [mission](https://vdebate.blogspot.com/)
@@ -673,10 +673,10 @@ above (ovario2.com) is a blog that covers Venezuelan issues,
 Previous measurements collected from CANTV show that
 alekboyd.blogspot.co.uk (a blog covering corruption and other political
 issues) was
-[blocked](https://explorer.ooni.torproject.org/measurement/20180405T025325Z_AS8048_zHRXY2AxlvwXTtUYmA4pQKJwo42UsLl3Hs1ffioON6Zwt3o1O1?input=https:%2F%2Falekboyd.blogspot.com)
+[blocked](https://explorer.ooni.io/measurement/20180405T025325Z_AS8048_zHRXY2AxlvwXTtUYmA4pQKJwo42UsLl3Hs1ffioON6Zwt3o1O1?input=https:%2F%2Falekboyd.blogspot.com)
 by CANTV by means of DNS tampering, up until (at least) 5th April 2018.
 The blog though has since been unblocked and is currently
-[accessible](https://explorer.ooni.torproject.org/measurement/20180810T024406Z_AS8048_GxLMU1Y4WYhmJldyTKetLGsq0FyPFuQJw7TWcYuT1NFpDtVZ7y?input=https:%2F%2Falekboyd.blogspot.com).
+[accessible](https://explorer.ooni.io/measurement/20180810T024406Z_AS8048_GxLMU1Y4WYhmJldyTKetLGsq0FyPFuQJw7TWcYuT1NFpDtVZ7y?input=https:%2F%2Falekboyd.blogspot.com).
 
 ### Zello
 
@@ -693,7 +693,7 @@ least) three ISPs, as illustrated below.
 
 | URL                       | Digitel (AS264731) | CANTV (AS8048) | Movistar (AS6306) | Movilnet (AS27889) |
 |---------------------------|--------------------|----------------|-------------------|--------------------|
-| http://content.zello.com/ | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Fcontent.zello.com)      | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fcontent.zello.com)  | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180719T164056Z_AS6306_nRIVvm84Q6nmvdrguzVz7JvNomzYM2ymbisMODbkmtVEh8391v?input=http:%2F%2Fcontent.zello.com)     | N/A                |
+| http://content.zello.com/ | [DNS tampering](https://explorer.ooni.io/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Fcontent.zello.com)      | [DNS tampering](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fcontent.zello.com)  | [DNS tampering](https://explorer.ooni.io/measurement/20180719T164056Z_AS6306_nRIVvm84Q6nmvdrguzVz7JvNomzYM2ymbisMODbkmtVEh8391v?input=http:%2F%2Fcontent.zello.com)     | N/A                |
 
 ### Currency exchange
 
@@ -722,13 +722,13 @@ reveals the blocking of the following currency exchange sites.
 
 | URL                                     | Digitel (AS264731) | CANTV (AS8048) | Movistar (AS6306) | Movilnet (AS27889) |
 |-----------------------------------------|--------------------|----------------|-------------------|--------------------|
-| http://dolartoday.com/                  | N/A                | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180627T013502Z_AS8048_TKmrzeqqVwdn2t9IKtzF95ptVafOtf2tAsM4csctpiVcI9AH8m?input=http:%2F%2Fdolartoday.com)  | N/A               | N/A                |
-| http://dollar.nu/                       | N/A                | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T024406Z_AS8048_GxLMU1Y4WYhmJldyTKetLGsq0FyPFuQJw7TWcYuT1NFpDtVZ7y?input=http:%2F%2Fdollar.nu)  | N/A               | N/A                |
-| http://dollarparalelovenezuela.com/     | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Fdollarparalelovenezuela.com)      | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fdollarparalelovenezuela.com)  | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Fdollarparalelovenezuela.com)     | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Fdollarparalelovenezuela.com)      |
-| http://eldolarparalelo.info/            | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Feldolarparalelo.info)      | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Feldolarparalelo.info)  | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Feldolarparalelo.info)     | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Feldolarparalelo.info)      |
-| http://aguacateverde1.blogspot.com      | N/A                | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180718T212149Z_AS8048_LHNE0Aq5Kvq3bb8qOvXJ1pJ1ly7wCp8OrVuqHHZzcxClcbSfUz?input=http:%2F%2Faguacateverde1.blogspot.com)  | N/A               | N/A                |
-| http://liberal-venezolano.blogspot.com/ | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Fliberal-venezolano.blogspot.com)      | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fliberal-venezolano.blogspot.com)  | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Fliberal-venezolano.blogspot.com)     | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Fliberal-venezolano.blogspot.com)      |
-| http://tucadivi.com/                    | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Ftucadivi.com)      | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Ftucadivi.com)  | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Ftucadivi.com)     | [Accessible](https://explorer.ooni.torproject.org/measurement/20180806T175450Z_AS27889_bUEUX6wglcFYiY8OFwX3xbLgAd9GV6tnclw8UtJtc2DJVzWimE?input=http:%2F%2Ftucadivi.com)         |
+| http://dolartoday.com/                  | N/A                | [DNS tampering](https://explorer.ooni.io/measurement/20180627T013502Z_AS8048_TKmrzeqqVwdn2t9IKtzF95ptVafOtf2tAsM4csctpiVcI9AH8m?input=http:%2F%2Fdolartoday.com)  | N/A               | N/A                |
+| http://dollar.nu/                       | N/A                | [DNS tampering](https://explorer.ooni.io/measurement/20180810T024406Z_AS8048_GxLMU1Y4WYhmJldyTKetLGsq0FyPFuQJw7TWcYuT1NFpDtVZ7y?input=http:%2F%2Fdollar.nu)  | N/A               | N/A                |
+| http://dollarparalelovenezuela.com/     | [DNS tampering](https://explorer.ooni.io/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Fdollarparalelovenezuela.com)      | [DNS tampering](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fdollarparalelovenezuela.com)  | [DNS tampering](https://explorer.ooni.io/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Fdollarparalelovenezuela.com)     | [DNS tampering](https://explorer.ooni.io/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Fdollarparalelovenezuela.com)      |
+| http://eldolarparalelo.info/            | [DNS tampering](https://explorer.ooni.io/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Feldolarparalelo.info)      | [DNS tampering](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Feldolarparalelo.info)  | [DNS tampering](https://explorer.ooni.io/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Feldolarparalelo.info)     | [DNS tampering](https://explorer.ooni.io/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Feldolarparalelo.info)      |
+| http://aguacateverde1.blogspot.com      | N/A                | [DNS tampering](https://explorer.ooni.io/measurement/20180718T212149Z_AS8048_LHNE0Aq5Kvq3bb8qOvXJ1pJ1ly7wCp8OrVuqHHZzcxClcbSfUz?input=http:%2F%2Faguacateverde1.blogspot.com)  | N/A               | N/A                |
+| http://liberal-venezolano.blogspot.com/ | [DNS tampering](https://explorer.ooni.io/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Fliberal-venezolano.blogspot.com)      | [DNS tampering](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fliberal-venezolano.blogspot.com)  | [DNS tampering](https://explorer.ooni.io/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Fliberal-venezolano.blogspot.com)     | [DNS tampering](https://explorer.ooni.io/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Fliberal-venezolano.blogspot.com)      |
+| http://tucadivi.com/                    | [DNS tampering](https://explorer.ooni.io/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Ftucadivi.com)      | [DNS tampering](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Ftucadivi.com)  | [DNS tampering](https://explorer.ooni.io/measurement/20180810T145701Z_AS6306_w5ymvkIGCw4svF0JyCbi39g3cW2R7QhQlOTT6c3WPjLtKkhLIk?input=http:%2F%2Ftucadivi.com)     | [Accessible](https://explorer.ooni.io/measurement/20180806T175450Z_AS27889_bUEUX6wglcFYiY8OFwX3xbLgAd9GV6tnclw8UtJtc2DJVzWimE?input=http:%2F%2Ftucadivi.com)         |
 
 Miami-based DolarToday is run by the Venezuelan diaspora and is widely
 used to track the plummeting black market value of the bolivar. It was
@@ -736,7 +736,7 @@ first [reportedly blocked](https://cpj.org/blog/2013/12/venezuela-forces-isps-to
 in 2013. In late 2015, Venezuela’s central bank [filed suit](https://www.theguardian.com/world/2015/oct/23/venezuela-sues-dolartoday-currency-website-cyberterrorism)
 in the US against dolartoday.com, alleging that the site’s managers
 “committed cyberterrorism” and “sowed economic chaos” in Venezuela.
-According to recent OONI measurements, dollartoday.com [remains blocked](https://explorer.ooni.torproject.org/measurement/20180627T013502Z_AS8048_TKmrzeqqVwdn2t9IKtzF95ptVafOtf2tAsM4csctpiVcI9AH8m?input=http:%2F%2Fdolartoday.com)
+According to recent OONI measurements, dollartoday.com [remains blocked](https://explorer.ooni.io/measurement/20180627T013502Z_AS8048_TKmrzeqqVwdn2t9IKtzF95ptVafOtf2tAsM4csctpiVcI9AH8m?input=http:%2F%2Fdolartoday.com)
 on CANTV.
 
 ## Blocking of Tor
@@ -765,7 +765,7 @@ bridges are blocked, users can
 bridges.
 
 According to our recent testing and analysis, Venezuela now also
-[blocks](https://explorer.ooni.torproject.org/measurement/20180811T001818Z_AS8048_WD5wpEvGX4XaG6Y6MczK8eLOsYFSgzStVkTMnvz1u36l8HMPxf)
+[blocks](https://explorer.ooni.io/measurement/20180811T001818Z_AS8048_WD5wpEvGX4XaG6Y6MczK8eLOsYFSgzStVkTMnvz1u36l8HMPxf)
 access to the major part of the Tor network and to many public obfs3 and
 obfs4 Tor bridges. State-owned CANTV (AS8048) appears to have started
 blocking the anonymity network around 20th June 2018, following months
@@ -785,9 +785,9 @@ measurements collected from the same network over time.
 
 All measurements collected up until 6th June 2018 were successful,
 showing that the Tor network was
-[accessible](https://explorer.ooni.torproject.org/measurement/20180606T191742Z_AS8048_KEG9dh8bT91bQ5WQt522pWTc9fFKMM34BeogNEelPWrL8c2XkU)
+[accessible](https://explorer.ooni.io/measurement/20180606T191742Z_AS8048_KEG9dh8bT91bQ5WQt522pWTc9fFKMM34BeogNEelPWrL8c2XkU)
 in Venezuela. On 20th June 2018, however, Tor testing started to
-[fail](https://explorer.ooni.torproject.org/measurement/20180620T185351Z_AS8048_Au99GuLkM5KdIJESmiwduZdUb6eqnJBY4Iv3v1IngPAVEa3EVj)
+[fail](https://explorer.ooni.io/measurement/20180620T185351Z_AS8048_Au99GuLkM5KdIJESmiwduZdUb6eqnJBY4Iv3v1IngPAVEa3EVj)
 and civil society group [Venezuela Inteligente](http://veinteligente.org/) reported the blocking of the
 [Tor network](https://www.torproject.org/) and [Tor bridges](https://bridges.torproject.org/) by CANTV.
 
@@ -796,7 +796,7 @@ and civil society group [Venezuela Inteligente](http://veinteligente.org/) repor
 Most other measurements collected from 20th June 2018 onwards (from the
 same network on an almost daily basis) have failed as well, strongly
 suggesting that state-owned CANTV (AS8048) has been
-[blocking](https://explorer.ooni.torproject.org/measurement/20180809T001818Z_AS8048_MUWnFBk13Pb64ctdl8UPCxc3Vj0RIXwiNav5HtxcTdxT4pSG36)
+[blocking](https://explorer.ooni.io/measurement/20180809T001818Z_AS8048_MUWnFBk13Pb64ctdl8UPCxc3Vj0RIXwiNav5HtxcTdxT4pSG36)
 access to the Tor network over the last two months. According to our
 recent mid-August scans from CANTV, around 75% of the Tor network
 appears to be blocked.
@@ -866,23 +866,23 @@ blocking depends on uplink (assuming that forward and reverse paths
 match).
 
 It’s worth highlighting that Tor’s website (torproject.org) has remained
-[accessible](https://explorer.ooni.torproject.org/measurement/20180810T222728Z_AS8048_EJ8BJ6MxVJRTaYrgh8zdMYrzq5aFwq8H9x0wsG8GsJzUlVDOkJ?input=http:%2F%2Ftorproject.org)
-in CANTV (and [other networks](https://explorer.ooni.torproject.org/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Ftorproject.org)),
+[accessible](https://explorer.ooni.io/measurement/20180810T222728Z_AS8048_EJ8BJ6MxVJRTaYrgh8zdMYrzq5aFwq8H9x0wsG8GsJzUlVDOkJ?input=http:%2F%2Ftorproject.org)
+in CANTV (and [other networks](https://explorer.ooni.io/measurement/20180810T233912Z_AS264731_7OIxxNxrImB1KLGA0CzqUU0FqFa5o0q313RPVTtc7Xer4tQLt1?input=http:%2F%2Ftorproject.org)),
 even though access to the Tor network and obfs4 is blocked.
 
 # Conclusion
 
 Censorship in Venezuela appears to be a symptom of its deep economic and
 political crisis, which is considered the [most severe crisis](https://www.aljazeera.com/indepth/features/2017/05/venezuela-worst-economic-crisis-wrong-170501063130120.html)
-in the country’s history. This is strongly suggested by the [blocking of numerous currency exchange websites](https://explorer.ooni.torproject.org/measurement/20180627T013502Z_AS8048_TKmrzeqqVwdn2t9IKtzF95ptVafOtf2tAsM4csctpiVcI9AH8m?input=http:%2F%2Fdolartoday.com),
-as well as by the blocking of [independent news outlets](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Felpitazo.com)
+in the country’s history. This is strongly suggested by the [blocking of numerous currency exchange websites](https://explorer.ooni.io/measurement/20180627T013502Z_AS8048_TKmrzeqqVwdn2t9IKtzF95ptVafOtf2tAsM4csctpiVcI9AH8m?input=http:%2F%2Fdolartoday.com),
+as well as by the blocking of [independent news outlets](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Felpitazo.com)
 and
-[blogs](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fvdebate.blogspot.com)
+[blogs](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fvdebate.blogspot.com)
 that discuss corruption and express political criticism.
 
-The [recent blocking of the Tor network](https://explorer.ooni.torproject.org/measurement/20180811T001818Z_AS8048_WD5wpEvGX4XaG6Y6MczK8eLOsYFSgzStVkTMnvz1u36l8HMPxf)
-(which followed the blocking of news websites [El Pitazo](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Felpitazo.com)
-and [El Nacional](https://explorer.ooni.torproject.org/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fel-nacional.com))
+The [recent blocking of the Tor network](https://explorer.ooni.io/measurement/20180811T001818Z_AS8048_WD5wpEvGX4XaG6Y6MczK8eLOsYFSgzStVkTMnvz1u36l8HMPxf)
+(which followed the blocking of news websites [El Pitazo](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Felpitazo.com)
+and [El Nacional](https://explorer.ooni.io/measurement/20180810T215359Z_AS8048_drib9FofDh0sq3NjRVwbVPshPdfow0rb4wrhcghZYb163Zxltb?input=http:%2F%2Fel-nacional.com))
 may signify that internet censorship is becoming more dynamic in
 Venezuela, as ISPs are taking extra steps to reinforce censorship and
 make circumvention harder. The blocking of the [Tor network](https://www.torproject.org/) - which offers *online
