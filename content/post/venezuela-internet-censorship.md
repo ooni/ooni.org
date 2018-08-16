@@ -865,7 +865,8 @@ connection failures though is highly indicative of blocking targeted to
 well-known bridges. Repeated testing in mid-August 2018 showed a similar
 percentage: 88% of *running* bridges were unreachable from a CANTV
 vantage point.
-The data for this scans is available: [1](/post/venezuela/torping-bridge.1534407846.tsv),
+
+The data from our scans is available via the following files: [1](/post/venezuela/torping-bridge.1534407846.tsv),
 [2](/post/venezuela/torping-bridge.1534407911.tsv), [3](/post/venezuela/torping-bridge.1534407977.tsv),
 [control](/post/venezuela/torping-bridges-control.1534407588.tsv).
 
