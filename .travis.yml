@@ -23,7 +23,7 @@ install:
   - tar -xf /tmp/hugo_0.29_Linux-64bit.tar.gz -C bin/
 
   - pip install sphinx sphinx_rtd_theme # Should I specify sphinx versions?
-  - git clone --depth 1 --branch master https://github.com/TheTorProject/ooni-probe.git/ contrib/ooni-probe
+  - git clone --depth 1 --branch master https://github.com/ooni/probe-legacy.git contrib/ooni-probe
 
 script:
   # keep this in-sync with `Makefile`, this copy-pasta is here to track execution time of each step at Travis CI
