@@ -14,7 +14,7 @@ python:
   - 2.7
 
 install:
-  - mkdir bin contrib
+  - mkdir -p bin contrib
 
   # FIXME: 0.30 causes https://openobservatory.github.io/post/ to appear in wrong order
   - wget https://github.com/gohugoio/hugo/releases/download/v0.29/hugo_0.29_Linux-64bit.tar.gz -O /tmp/hugo_0.29_Linux-64bit.tar.gz
@@ -23,7 +23,7 @@ install:
   - tar -xf /tmp/hugo_0.29_Linux-64bit.tar.gz -C bin/
 
   - pip install sphinx sphinx_rtd_theme # Should I specify sphinx versions?
-  - git clone --depth 1 --branch master https://github.com/ooni/probe-legacy.git contrib/ooni-probe
+  - if [ ! -d contrib/ooni-probe ]; then git clone --depth 1 --branch master https://github.com/ooni/probe-legacy.git contrib/ooni-probe; else cd contrib/ooni-probe && git pull --ff-only origin master; fi
 
 script:
   # keep this in-sync with `Makefile`, this copy-pasta is here to track execution time of each step at Travis CI
