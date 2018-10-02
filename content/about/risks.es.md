@@ -71,9 +71,9 @@ OONI Probe, y leer cuidadosamente la documentación a continuación.
 
 Los usuarios que ejecutan OONI Probe lo hacen bajo su propio riesgo. Al instalar
 OONI Probe, los usuarios están de acuerdo con cumplir con la
-[licencia](https://github.com/TheTorProject/ooni-%20probe/blob/master/LICENSE) y
+[licencia](https://github.com/TheTorProject/ooni-probe/blob/master/LICENSE) y
 [Política de Datos](/about/data-policy) de OONI. Ni
-el [Proyecto OONI](https://ooni.io/) ni su organización matriz, [El Proyecto Tor](https://www.torproject.org/), se hacen responsables, de forma
+el [Proyecto OONI](/) ni su organización matriz, [El Proyecto Tor](https://www.torproject.org/), se hacen responsables, de forma
 conjunta o solidaria, ante la ley o en equidad, ante usuarios de OONI Probe y
 terceros por cualquier daño resultante del uso de OONI Probe bajo cualquier
 agravio, contrato u otras causas de acción.
@@ -344,7 +344,7 @@ de confiar en algún consejo.
 
 Nuevamente, Los usuarios que ejecutan OONI Probe lo hacen bajo su propio riesgo.
 Al instalar OONI Probe, los usuarios están de acuerdo con cumplir con la
-[licencia](https://github.com/TheTorProject/ooni-%20probe/blob/master/LICENSE) y
+[licencia](https://github.com/TheTorProject/ooni-probe/blob/master/LICENSE) y
 [Política de Datos](https://ooni.torproject.org/about/data-policy) de OONI. Ni
 el [Proyecto OONI](https://ooni.torproject.org/) ni su organización matriz, [El Proyecto Tor](https://www.torproject.org/), se hacen responsables, de forma
 conjunta o solidaria, ante la ley o en equidad, ante usuarios de OONI Probe y

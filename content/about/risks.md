@@ -38,7 +38,7 @@ the documentation below.
 
 Users run ooniprobe at their own risk. By installing ooniprobe, users agree to
 comply with OONI's software
-[license](https://github.com/TheTorProject/ooni-%20probe/blob/master/LICENSE)
+[license](https://github.com/TheTorProject/ooni-probe/blob/master/LICENSE)
 and [Data Policy](/about/data-policy). Neither the
 [OONI project](https://ooni.torproject.org/) nor its parent organization, [The Tor Project](https://www.torproject.org/), can be held liable, jointly or
 severally, at law or at equity, to ooniprobe users and other third parties, for
@@ -301,7 +301,7 @@ Please confirm you are reading the latest version before relying on any advice.
 
 Again, users run ooniprobe at their own risk. By installing ooniprobe, users agree to
 comply with OONI's software
-[license](https://github.com/TheTorProject/ooni-%20probe/blob/master/LICENSE)
+[license](https://github.com/TheTorProject/ooni-probe/blob/master/LICENSE)
 and [Data Policy](/about/data-policy). Neither the
 [OONI project](https://ooni.torproject.org/) nor its parent organization, [The Tor Project](https://www.torproject.org/), can be held liable, jointly or
 severally, at law or at equity, to ooniprobe users and other third parties, for

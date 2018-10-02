@@ -126,7 +126,7 @@ on the blocking of websites and to examine South Sudan’s internet
 landscape more broadly, we ran [OONI Probe](https://github.com/TheTorProject/ooni-probe) network measurement
 tests in South Sudan.
 
-OONI Probe consists of a number of [software tests](https://ooni.io/nettest/) that scan TCP, DNS, HTTP and TLS
+OONI Probe consists of a number of [software tests](/nettest/) that scan TCP, DNS, HTTP and TLS
 connections for signs of network tampering. Some tests request data over
 an unencrypted connection and compare against a known good value. Others
 check for HTTP transparent proxies, DNS spoofing, and network speed and

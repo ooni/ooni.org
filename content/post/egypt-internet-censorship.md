@@ -41,9 +41,9 @@ Below we share some of the key findings.
 
 # Pervasive media censorship
 
-[More than 1,000 URLs](https://ooni.io/post/egypt-internet-censorship/eg-anomalous-urls.csv)
+[More than 1,000 URLs](/post/egypt-internet-censorship/eg-anomalous-urls.csv)
 presented network anomalies throughout the testing period,
-[178](https://ooni.io/post/egypt-internet-censorship/eg-blocked-sites.csv)
+[178](/post/egypt-internet-censorship/eg-blocked-sites.csv)
 of which consistently presented a high ratio of HTTP failures, strongly
 suggesting that they were blocked. Rather than serving block pages
 (which would have provided a notification of the blocking), Egyptian
@@ -51,7 +51,7 @@ ISPs appear to primarily block sites through the use of Deep Packet
 Inspection (DPI) technology that resets connections.
 
 In some cases, instead of RST injection, ISPs drop packets, suggesting a
-variance in filtering rules. In other cases, ISPs [interfere with the SSL encrypted traffic](https://ooni.io/post/egypt-internet-censorship/eg-ssl-interference-cloudflare.csv)
+variance in filtering rules. In other cases, ISPs [interfere with the SSL encrypted traffic](/post/egypt-internet-censorship/eg-ssl-interference-cloudflare.csv)
 between Cloudflare’s Point-of-Presence in Cairo and the backend servers
 of sites
 ([psiphon.ca](https://explorer.ooni.torproject.org/measurement/20180326T100410Z_AS8452_gn91NHg6tJwnsfwGML6PDsOErBReeB02oh9isOrkRIRgKs30R7?input=https:%2F%2Fpsiphon.ca),
@@ -69,7 +69,7 @@ likely have been blocked.
 
 {{< imgcap title="" src="/post/egypt-internet-censorship/EgyptWebsitesBlockedChart.png" src2x="/post/egypt-internet-censorship/EgyptWebsitesBlockedChart@2x.png" >}}
 
-[More than](https://ooni.io/post/egypt-internet-censorship/eg-blocked-news.csv)[100 URLs](https://ooni.io/post/egypt-internet-censorship/eg-blocked-news.csv)
+[More than 100 URLs](/post/egypt-internet-censorship/eg-blocked-news.csv)
 that belong to media organizations appear to have been blocked, even
 though Egyptian authorities only [ordered the blocking of 21 news websites](https://cpj.org/2017/05/egypt-blocks-access-to-21-news-websites.php)
 last year. These include Egyptian news outlets (such as [Mada Masr](https://explorer.ooni.torproject.org/measurement/20170524T220659Z_AS36935_KOMTdBwGsyVovBhs8tYihdTP4ucPSWA5iMH4PqXEfX5TU1ZWK3?input=https:%2F%2Fwww.madamasr.com),
@@ -170,7 +170,7 @@ the use of Sandvine PacketLogic devices and redirects being injected by
 
 Over the last year, hundreds of [OONI Probe network measurements](https://api.ooni.io/files/by_country/EG) (collected from
 multiple ASNs)
-[show](https://ooni.io/post/egypt-internet-censorship/eg-ad-campaign.csv)
+[show](/post/egypt-internet-censorship/eg-ad-campaign.csv)
 the hijacking of unencrypted HTTP connections and the injection of
 redirects to affiliate ads and cryptocurrency mining scripts. A wide
 range of different types of URLs were affected, including the sites of
