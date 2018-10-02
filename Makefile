@@ -24,9 +24,11 @@ publish:
 	@echo "You can now view the website at: https://openobservatory.github.io/"
 
 netlify:
-	mkdir contrib || echo 'contrib already there'
+	mkdir -p bin contrib
+	# wget hugo is not needed, netlify already has it
 	pip install sphinx sphinx_rtd_theme
-	git clone --depth 1 --branch master https://github.com/ooni/probe-legacy.git contrib/ooni-probe || cd contrib/ooni-probe && git pull && cd ../../
+	# netlify may cache contrib/ooni-probe from previous build
+	if [ ! -d contrib/ooni-probe ]; then git clone --depth 1 --branch master https://github.com/ooni/probe-legacy.git contrib/ooni-probe; else cd contrib/ooni-probe && git pull --ff-only origin master; fi
 	rm -rf public design
 	hugo --theme=ooni --buildDrafts --baseUrl=https://ooni.io
 	make -C contrib/ooni-probe/docs clean
