@@ -11,7 +11,7 @@ categories: ["report"]
 A study by IPYS Venezuela, Venezuela Inteligente, and the Open
 Observatory of Network Interference (OONI).
 
-**Update (2018-10-02):** section on [Tor becoming accessible](#tor-unblocking) was added.
+**Update (2018-10-02):** The section on [Tor becoming accessible](#tor-unblocking) was added.
 
 * [Key Findings](#key-findings)
 
@@ -889,15 +889,10 @@ even though access to the Tor network and obfs4 is blocked.
 
 ### Tor unblocking
 
-Further testing on the 2nd of October during [Tor Meeting](https://trac.torproject.org/projects/tor/wiki/org/meetings/2018MexicoCity)
-revealed that ~97% of public Tor nodes were reachable with TLS handshake from
-the vantage point in CANTV ISP.  That confirms anecdotal evidence from people
-"on the ground" that Tor has been working for them lately.
+Further testing on 2nd October 2018 revealed that around 97% of public Tor nodes were reachable with TLS handshake from
+the vantage point of CANTV. This corroborates local reports on Tor being accessible again. 
 
-It's not crystal clear when unblocking happened and if Tor is going to be blocked back or not,
-but [Tor Metrics statistics](https://metrics.torproject.org/userstats-relay-country.html?start=2018-05-01&end=2018-10-01&country=ve&events=off)
-suggest that a number of Tor users coming from Venezuela started to recover
-on the 30th of August:
+While the precise date of unblocking is quite unclear, [Tor Metrics](https://metrics.torproject.org/userstats-relay-country.html?start=2018-05-01&end=2018-10-01&country=ve&events=off) suggest that Tor may have been unblocked on 30th August 2018, since we observe a spike in Tor usage, as illustrated below. 
 
 ![Tor Metrics stats](/post/venezuela/userstats-relay-country-ve-2018-05-01-2018-10-01-off.png)
 
