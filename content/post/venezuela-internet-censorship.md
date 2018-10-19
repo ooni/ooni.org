@@ -11,7 +11,7 @@ categories: ["report"]
 A study by IPYS Venezuela, Venezuela Inteligente, and the Open
 Observatory of Network Interference (OONI).
 
-**Update (2018-10-18):** The section on [Tor becoming accessible](#tor-unblocking) was added.
+**Update (2018-10-19):** The section on [Tor becoming accessible](#tor-unblocking) was added.
 
 * [Key Findings](#key-findings)
 
