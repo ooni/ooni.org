@@ -18,6 +18,34 @@ Image by @neemascribbles.
 
 **Censorship methods:** HTTP blocking (resetting connections) and TCP/IP blocking
 
+* [Key Findings](#key-findings)
+
+* [Introduction](#introduction)
+
+* [Social Media Tax](#social-media-tax)
+
+* [Methodology](#methodology)
+
+* [Findings](#findings)
+
+  * [Blocking of social media](#blocking-of-social-media)
+  
+    * [WhatsApp](#whatsapp)
+    
+    * [Facebook Messenger](#facebook-messenger)
+    
+    * [Telegram](#telegram)
+    
+  * [Blocking of circumvention tools](#blocking-of-circumvention-tools)
+  
+    * [VPN blocking](#vpn-blocking)
+    
+  * [Blocking of adult websites](#blocking-of-adult-websites)
+  
+* [Conclusion](#conclusion)
+
+* [Acknowledgements](#acknowledgements)
+
 ## Key Findings
 
 *   Ugandan ISPs primarily implement internet censorship by means of HTTP blocking, resetting connections to taxed and banned sites;
