@@ -378,7 +378,7 @@ Adult websites [listed on the UCC letter](https://www.sautitech.com/telecom/full
 
 The findings reveal that adult websites are blocked in the same way social media and circumvention tool sites are blocked. The same HTTP failures and “connection reset” errors are present in most measurements testing adult websites, similarly to the measurements testing social media and circumvention tool sites. In some cases, Ugandan ISPs may also block adult sites by means of TCP/IP blocking (which was also observed in the testing of social media and circumvention tool sites). The consistency in terms of the types of anomalies identified in measurements across ASNs strongly suggests that most Ugandan ISPs are resetting connections to block access to banned (and OTT taxed) sites.
 
-The analysis, containing all measurements showing the blocking of banned adult sites across ASNs (from 1st July 2018 to 19th October 2018), is available via this CSV file<sup>[[au]](about:blank#cmnt47)</sup>. It’s worth noting that even corporate networks - which were formerly completely unfiltered - now block access to the sites banned by Uganda’s Pornography Control Committee.
+The analysis, containing all measurements showing the blocking of banned adult sites across ASNs (from 1st July 2018 to 19th October 2018), is available via this [CSV file](/post/uganda-social-media-tax/ug-porn.csv). It’s worth noting that even corporate networks - which were formerly completely unfiltered - now block access to the sites banned by Uganda’s Pornography Control Committee.
 
 # Conclusion
 
