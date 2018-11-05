@@ -314,13 +314,45 @@ Even though MTN blocks access to torproject.org, the [Tor network](https://www.t
 
 The accessibility of the Tor network from Uganda is also suggested by Tor Metrics which [show](https://metrics.torproject.org/userstats-relay-country.html?start=2018-05-01&end=2018-10-19&country=ug&events=off) a huge spike in Tor usage on 1st July 2018, following the rollout of the OTT tax.
 
-![Uganda Tor Metrics](/post/uganda-2018/ug-tor-metrics.png)
+![Tor Metrics for Uganda](./userstats-relay-country-ug-2018-05-01-2018-10-19-off.png)
 
 Tor usage gradually declined - possibly as a result of torproject.org being blocked in some networks (limiting the ability to download Tor Browser) - but the fact that there have been subsequent spikes in usage suggests that it has been accessible (at least from some local ASNs).
 
-TODO maybe add VPN testing section.
+### Blocking of VPN
 
-To better understand VPN blocking, a series of experiments were run from an MTN vantage point in Uganda.
+To better understand VPN blocking, a series of experiments were run from an MTN vantage point in Uganda on October the 23rd.
+The goal was to understand if protocol-specific blocking was used or not, if VPN-in-a-box solutions like [Streisand](https://github.com/StreisandEffect/streisand/), [Algo](https://github.com/trailofbits/algo) and [Outline](https://www.getoutline.org/) work or not.
+Testing methodology was to deploy a VPN-in-a-box server, connect to it from MTN vantage point and download a 10-megabyte file from the RFC1918 IP of a VPN server.
+It turned out that OpenConnect, OpenVPN/TCP, OpenVPN/UDP, Wireguard just work. IPsec and shadowsocks-based Outline also face no problems according to our sources.
+However, OpenVPN deployed with _Streisand_ uses feature `tls-crypt` available since OpenVPN 2.4. `tls-crypt` is used to both authenticate and encrypt _most_ of metadata available on the wire with a pre-shared key. If `tls-crypt` feature is disabled either completely or replaced with authentication-only `tls-auth` then attempt to block OpenVPN is clearly observed.
+
+MTN (AS20294) NAT does not preserve source port, but preserves [IP ID](https://en.wikipedia.org/wiki/IPv4#Identification) field, so this field can be used to correlate packets sent from the Raspberry Pi and arriving to Streisand server. Following Wireshark screenshots show that UDP traffic is blocked as soon as the MITM sees initial OpenVPN/UDP handshake packet from the server:
+
+![OpenVPN/UDP, client side](./openvpn-udp-plain-client.png)
+
+The client part of the connection above does not get any reply from the server. The server below does not see any retries coming from the client (IP ID 6184, 6372, 6842, 7058) using same 5-tuple (combination of client's and server's IP address, used port and protocol).
+
+![OpenVPN/UDP, server side](./openvpn-udp-plain-server.png)
+
+While OpenVPN/UDP packets are just dropped OpenVPN/TCP connections observe slightly different pattern: connections are reset actively in both directions, RTT difference and echoed IP ID of client-side RST packet suggests that it's injected:
+
+![OpenVPN/UDP, client side](./openvpn-tcp-tls-auth-client.png)
+
+Initial `P_CONTROL_HARD_RESET_CLIENT_V2` packet from the client is likely dropped by the middlebox (unlike UDP case), so the server does not get it at all. The RST packet the server gets has "usual" TTL and IP ID fields:
+
+![OpenVPN/UDP, server side](./openvpn-tcp-tls-auth-server.png)
+
+There are options besides `tls-crypt` to circumvent MTN OpenVPN blocking useful when it's hard to upgrade the clients or the server to OpenVPN 2.4.
+First, [brdgrd](https://github.com/NullHypothesis/brdgrd) can be used to enforce `P_CONTROL_HARD_RESET_CLIENT_V2` packet fragmentation from the server-side.
+It successfully circumvents the block (note `Win=3` in the SYN-ACK packet coming from the server):
+
+![OpenVPN/TCP + brdgrd, client side](./openvpn-tcp-brdgrd-client.png)
+
+The downside of `brdgrd` method is that low TCP flow-control window is a network anomaly and this fingerprint may be used to block traffic as well.
+Enforcing client-side TCP segmentation is also possible with patched OpenVPN client or tooling like [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) and it also circumvents the filter (note `Len=2` in the first data packet from the client).
+
+![OpenVPN/TCP + segmentation, client side](./openvpn-tcp-segmentation-client.png)
+
 
 ## Blocking of adult websites
 
