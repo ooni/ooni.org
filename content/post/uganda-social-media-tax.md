@@ -6,7 +6,7 @@ tags: ["uganda"]
 categories: ["report"]
 ---
 
-![Cover image](/post/uganda-2018/ug.png)
+![Cover image](/post/uganda-social-media-tax/ug.png)
 
 Image by @neemascribbles.
 
@@ -242,7 +242,6 @@ OONI’s [WhatsApp test](/nettest/whatsapp/) is designed to measure the reachab
 
 The following table summarizes our findings on the testing of WhatsApp across ISPs from 1st July 2018 to 19th October 2018.
 
-
 | **ASNs** | **Endpoints** | **Registration server** | **web.whatsapp.com** |
 |---|---|---|---|
 |[MTN (AS20294)](https://explorer.ooni.io/measurement/20181019T000058Z_AS20294_VVDvGKGAGkyCmW3sgI52ooC0LbC7wiqbWhYbgsjnvHE97DNX1O)|Blocked|Blocked|Blocked|
@@ -257,7 +256,7 @@ Africell also appears to block access to both WhatsApp’s app and web version, 
 
 Smile Communications and Uganda Telecom, on the other hand, do not block WhatsApp. All measurements suggest that both the app and its web version are accessible in these two networks. In July 2018,Smile Communications announced that they would [pay the OTT tax on behalf of their customers](https://observer.ug/news/headlines/58078-smile-telecom-to-pay-social-media-tax-for-customers.html) for at least three months.
 
-### **Facebook Messenger**
+### Facebook Messenger
 
 OONI’s [Facebook Messenger test](/nettest/facebook-messenger/) is designed to measure the reachability of Facebook Messenger by attempting to perform TCP connections and DNS lookups to Facebook’s endpoints. If TCP connections fail or DNS lookups do not resolve to IP addresses allocated to Facebook, then access to the app is likely blocked.
 
@@ -273,7 +272,7 @@ The following table summarizes findings on the testing of Facebook Messenger acr
 
 Only MTN appears to block access to Facebook Messenger. Most measurements collected from MTN show that TCP connections to Facebook’s endpoints failed. Recent measurements suggest that Facebook Messenger is accessible on (at least) Africell, Smile Communications, Airtel and Uganda Telecom.
 
-### **Telegram**
+### Telegram
 
 OONI’s [Telegram test](/nettest/telegram/) is designed to measure the reachability of Telegram’s app and web version by attempting to perform an HTTP POST request and establish a TCP connection to Telegram’s access points, as well as an HTTP GET request to web.telegram.org. If these methods fail, Telegram’s app and/or web version are likely blocked.
 
@@ -353,12 +352,11 @@ Enforcing client-side TCP segmentation is also possible with a patched OpenVPN c
 
 ![OpenVPN/TCP + segmentation, client side](./openvpn-tcp-segmentation-client.png)
 
-
 ## Blocking of adult websites
 
 On 6th July 2018, following the rollout of the OTT tax, the Uganda Communications Commission (UCC) instructed all telecom operators and ISPs in Uganda to block a list of adult websites. According to Uganda’s Pornography Control Committee, these sites stream pornographic content in breach of section 13 of the [Anti-Pornography Act (2014](http://chapterfouruganda.com/sites/default/files/downloads/The%20Anti%20Pornography%20Act%202014.pdf)).
 
-![UCC letter banning adult sites](/post/uganda-2018/ug-porn-ban.jpg)
+![UCC letter banning adult sites](/post/uganda-social-media-tax/ug-porn-ban.jpg)
 
 Adult websites [listed on the UCC letter](https://www.sautitech.com/telecom/full-list-of-porn-sites-banned-in-uganda/) were tested with OONI Probe (as well as several other, internationally popular adult sites included in the Citizen Lab’s [global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)).
 
