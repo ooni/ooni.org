@@ -6,7 +6,9 @@ tags: ["uganda"]
 categories: ["report"]
 ---
 
-![TODO high resolution cover picture]()
+![Cover image](/post/uganda-2018/ug.png)
+
+Image by @neemascribbles.
 
 **Probed ISPs:** MTN (AS20294), Africell (AS36991), Airtel (AS37075), Smile Telecom (AS37122), Africa Online Uganda (AS29039), DATANET (AS29032), Sombha Solutions (AS328015), Roke (AS37063), Airtel (AS36977), Uganda Telecom (AS21491)
 
@@ -22,7 +24,7 @@ categories: ["report"]
 *   MTN appears to block Twitter, Facebook, WhatsApp, Instagram and Snapchat by means of TCP/IP blocking;
 *   The TCP/IP blocking of Snapchat by MTN has likely caused collateral damage, possibly affecting thousands of sites hosted on the same CDN;
 *   Social media censorship varies across ASNs: Africell, for example, attempts to block Telegram, while MTN doesn’t;
-*   Some Ugandan ISPs (such as Uganda Telecom) don’t block access to social media sites (and Smile Communications has [paidthe OTT tax](https://www.busiweek.com/smile-telecom-to-pay-social-media-tax-for-its-customers/) for its customers);
+*   Some Ugandan ISPs don’t block access to social media sites (such as Uganda Telecom, or Smile Communications who has [paid the OTT tax](https://www.busiweek.com/smile-telecom-to-pay-social-media-tax-for-its-customers/) for its customers);
 *   The blocking of circumvention tools also varies across ASNs;
 *   MTN blocks access to torproject.org, but not to the Tor network.
 
