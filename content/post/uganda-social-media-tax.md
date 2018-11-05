@@ -1,24 +1,20 @@
 ---
-title: "Uganda Social Media Tax"
-author: "Maria Xynou (OONI), Leonid Evdokimov (OONI), DefendDefenders, POLLICY"
+title: "Uganda's Social Media Tax through the lens of network measurements"
+author: "DefendDefenders, POLLICY, Maria Xynou (OONI), Leonid Evdokimov (OONI), Arturo Filastò (OONI)"
 date: "2018-11-07"
 tags: ["uganda"]
 categories: ["report"]
 ---
 
-
 ![TODO high resolution cover picture]()
-
-## Measuring the blocking of social media and circumvention tools
-
 
 **Probed ISPs:** MTN (AS20294), Africell (AS36991), Airtel (AS37075), Smile Telecom (AS37122), Africa Online Uganda (AS29039), DATANET (AS29032), Sombha Solutions (AS328015), Roke (AS37063), Airtel (AS36977), Uganda Telecom (AS21491)
 
 **OONI tests:** [Web Connectivity](/nettest/web-connectivity/) , [HTTP Invalid Request Line](/nettest/http-invalid-request-line/) , [HTTP Header Field Manipulation](/nettest/http-header-field-manipulation/) , [WhatsApp](/nettest/whatsapp/) , [Facebook Messenger](/nettest/facebook-messenger/), [Telegram](/nettest/telegram/) , [Vanilla Tor](/nettest/vanilla-tor/) . 
 
-**Testing/analysis period:**1st July 2018 to 24th October 2018
+**Testing/analysis period:** 1st July 2018 to 24th October 2018
 
-**Censorship methods:**HTTP blocking (resetting connections) and TCP/IP blocking
+**Censorship methods:** HTTP blocking (resetting connections) and TCP/IP blocking
 
 ## Key Findings
 
@@ -301,7 +297,6 @@ Some censorship circumvention tools have been [blocked](https://www.mtn.co.ug/en
 Through the use of OONI’s [Web Connectivity test](/nettest/web-connectivity/), multiple circumvention tool sites included in the [Citizen Lab’s global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) were measured. The analysis was subsequently narrowed to (a) the ASNs from which most measurements have been collected over the last months (MTN and Africell), and to (b) the sites presenting consistent anomalies in these two networks. These measurements were compared with those collected from Uganda Telecom, since most of them show that circumvention tools are accessible.
 
 The following table summarizes findings on the testing of circumvention tool sites.
-
 
 | **URLs** | **MTN (AS20294)** | **Africell (AS36991)** | **Uganda Telecom (AS21491)** | **Airtel (AS37075)** |
 |---|---|---|---|---|
