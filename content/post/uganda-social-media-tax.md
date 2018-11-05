@@ -1,6 +1,6 @@
 ---
 title: "Uganda's Social Media Tax through the lens of network measurements"
-author: "DefendDefenders, POLLICY, Maria Xynou (OONI), Leonid Evdokimov (OONI), Arturo Filastò (OONI)"
+author: "Maria Xynou (OONI), Leonid Evdokimov (OONI), Arturo Filastò (OONI), DefendDefenders, with artworks and contributions from POLLICY"
 date: "2018-11-07"
 tags: ["uganda"]
 categories: ["report"]
