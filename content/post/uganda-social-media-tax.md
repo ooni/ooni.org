@@ -314,7 +314,7 @@ Even though MTN blocks access to torproject.org, the [Tor network](https://www.t
 
 The accessibility of the Tor network from Uganda is also suggested by Tor Metrics which [show](https://metrics.torproject.org/userstats-relay-country.html?start=2018-05-01&end=2018-10-19&country=ug&events=off) a huge spike in Tor usage on 1st July 2018, following the rollout of the OTT tax.
 
-![](https://lh6.googleusercontent.com/uOg3EwIgB0OwxxA1Df7tvpgj5UFYCzTDsS_uOQo3TnaNlehlU9CywVzoeWN3wC0WIuZVBDOtibme9j6xY4OC-eka02YItA44RO9jfUEsYzzgukdz7zKN0WWj6_RrjPlSNqC4dR4R)
+![Uganda Tor Metrics](/post/uganda-2018/ug-tor-metrics.png)
 
 Tor usage gradually declined - possibly as a result of torproject.org being blocked in some networks (limiting the ability to download Tor Browser) - but the fact that there have been subsequent spikes in usage suggests that it has been accessible (at least from some local ASNs).
 
@@ -326,7 +326,7 @@ To better understand VPN blocking, a series of experiments were run from an MTN 
 
 On 6th July 2018, following the rollout of the OTT tax, the Uganda Communications Commission (UCC) instructed all telecom operators and ISPs in Uganda to block a list of adult websites. According to Uganda’s Pornography Control Committee, these sites stream pornographic content in breach of section 13 of the [Anti-Pornography Act (2014](http://chapterfouruganda.com/sites/default/files/downloads/The%20Anti%20Pornography%20Act%202014.pdf)).
 
-![TODO export image]()
+![UCC letter banning adult sites](/post/uganda-2018/ug-porn-ban.jpg)
 
 Adult websites [listed on the UCC letter](https://www.sautitech.com/telecom/full-list-of-porn-sites-banned-in-uganda/) were tested with OONI Probe (as well as several other, internationally popular adult sites included in the Citizen Lab’s [global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)).
 
