@@ -46,7 +46,7 @@ Image by @neemascribbles.
 
 * [Acknowledgements](#acknowledgements)
 
-## Key Findings
+# Key Findings
 
 *   Ugandan ISPs primarily implement internet censorship by means of HTTP blocking, resetting connections to taxed and banned sites;
 *   MTN appears to block Twitter, Facebook, WhatsApp, Instagram and Snapchat by means of TCP/IP blocking;
@@ -56,7 +56,7 @@ Image by @neemascribbles.
 *   The blocking of circumvention tools also varies across ASNs;
 *   MTN blocks access to torproject.org, but not to the Tor network.
 
-## Introduction
+# Introduction
 
 This study is part of an ongoing effort to examine internet censorship in Uganda and in [more than 200 other countries](https://explorer.ooni.io/world/) around the world.
 
@@ -64,7 +64,7 @@ The [Open Observatory of Network Interference (OONI)](/) and [DefendDefenders](h
 
 The following sections provide information about Uganda’s [new social media tax](https://www.wired.com/story/uganda-social-media-tax-stays-for-now/). We also document our methodology and present the findings from our analysis.
 
-## Social Media Tax
+# Social Media Tax
 
 Since 1st July 2018, people in Uganda are required to [pay taxes](https://cipesa.org/2018/07/uganda-blocks-access-to-social-media-vpns-and-dating-sites-as-new-tax-takes-effect/) to the Ugandan government in order to access several online social media platforms. Unless this levy is paid, access to these specific platforms is blocked. The tax is commonly referred to as the Social Media Tax or the OTT (over the top) Tax.
 
@@ -143,7 +143,7 @@ In response to the OTT tax, [protests](https://www.bbc.com/news/world-africa-447
 
 Internet taxes are not unique to Uganda. Zambia plans to [tax calls made over social media apps](https://qz.com/africa/1370717/zambia-to-tax-calls-made-on-whatsapp-facebook-messenger-viber-and-others/), while Tanzania has rolled out a “[blogger tax](https://advox.globalvoices.org/2018/04/12/will-tanzanian-bloggers-pay-up-or-push-back-against-blogger-tax/)”. According to [ARTICLE 19](https://www.article19.org/wp-content/uploads/2018/05/Tanzania-Online-Content-Regulations-2018-Final.pdf), Tanzania’s Electronic and Postal Communications (Online Content) Regulations 2018 prohibit online content in broad terms and impose registration or licensing requirements which are in breach of international standards on freedom of expression. Benin previously had plans to tax social media use, but it was [repealed](https://internetwithoutborders.org/benin-government-repeals-social-media-tax/) following public backlash.
 
-## Methodology
+# Methodology
 
 To measure internet censorship in Uganda, OONI’s network measurement software (called [OONI Probe](/install/)) was run across multiple local vantage points. OONI Probe is [free and open source software](https://github.com/TheTorProject/ooni-probe) designed to measure various forms of network interference.
 
@@ -169,13 +169,13 @@ Since censorship circumvention tools were [reportedly blocked](https://observer.
 
 Once network measurement data was collected from all of these tests, [OONI data](https://api.ooni.io/files/by_country/UG) was subsequently [processed](https://github.com/ooni/pipeline) and analyzed based on a standardized set of heuristics for detecting internet censorship and traffic manipulation. All OONI Probe network measurements collected from Uganda between 1st July 2018 to 24th October 2018 were analyzed as part of this study.
 
-## Findings
+# Findings
 
 Ugandan ISPs don’t appear to serve block pages. Confirming censorship events can therefore be quite challenging, particularly in light of false positives that (almost) inevitably emerge (due to transient network failures, for example). The findings have therefore been limited to network anomalies that are consistent and persistent in the same ASNs over time.
 
 While a [directive](https://www.dignited.com/32755/uganda-tax-on-ott-services-effective-1st-july-2018/) has been issued for the OTT tax, the blocking of certain adult websites is [legally required](http://chapterfouruganda.com/sites/default/files/downloads/The%20Anti%20Pornography%20Act%202014.pdf) of all ISPs in Uganda. Banned adult websites ([listed on the UCC letter](https://www.sautitech.com/telecom/full-list-of-porn-sites-banned-in-uganda/)) were therefore tested to detect the censorship techniques adopted by different ISPs and to compare them with measurements testing the blocking of social media and circumvention tool sites.
 
-### Blocking of social media
+## Blocking of social media
 
 Since [2014](https://api.ooni.io/files/by_country/UG?order_by=test_start_time&order=asc) - and particularly since the OTT tax was rolled out in July 2018 - the accessibility of social media sites has been measured across multiple ASNs in Uganda through the use of [OONI Probe](/install/).
 
@@ -382,7 +382,7 @@ The findings reveal that adult websites are blocked in the same way social media
 
 The analysis, containing all measurements showing the blocking of banned adult sites across ASNs (from 1st July 2018 to 19th October 2018), is available via this CSV file<sup>[[au]](about:blank#cmnt47)</sup>. It’s worth noting that even corporate networks - which were formerly completely unfiltered - now block access to the sites banned by Uganda’s Pornography Control Committee.
 
-## Conclusion
+# Conclusion
 
 Leading up to the 2016 general elections and during President Museveni’s inauguration, access to social media was [blocked](https://edition.cnn.com/2016/02/18/world/uganda-election-social-media-shutdown/index.html) in Uganda. At the time, OONI [reported](/post/uganda-social-media-blocked/) that Smile Telecom and Orange carried out IP blocking and that Orange only blocked the HTTP version of facebook.com and twitter.com, while Smile blocked both the HTTP and HTTPS versions of facebook.com, twitter.com, whatsapp.com and viber.com.
 
@@ -396,6 +396,6 @@ Following the rollout of the OTT tax, various circumvention tools siteswere [blo
 
 TODO Add a nice paragraph to conclude the report...
 
-## Acknowledgements
+# Acknowledgements
 
 We thank all the volunteers in Uganda who have run OONI Probe, making this research possible.
