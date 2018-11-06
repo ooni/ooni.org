@@ -70,60 +70,23 @@ Since 1st July 2018, people in Uganda are required to [pay taxes](https://cipesa
 
 According to [MTN](https://www.mtn.co.ug/en/products/internet/Pages/OTT-Services-.aspx), the taxed online platforms include:
 
-*   WhatsApp
-*   Facebook
-*   Twitter
-*   TrueCaller
-*   Google Hangouts
-*   Google Allo
-*   Viber
-*   Snapchat
-*   LINE
-*   Phone+
-*   Call Free
-*   Signal
-*   StealthChat
-*   Tinder
-*   MeetMe
-*   Telegram
-*   IM+
-*   IMessenger
-*   Yahoo Messenger
-*   Facetime
-*   Android Messages
-*   New Messenger
-*   Textra
-*   Instagram
-*   WiCall
-*   WeChat
-*   InMessage
-*   Hi5
-*   Freevideo - Mail.ru
-*   TextMe
-*   LOVOO
-*   Drupe
-*   Imo
-*   Hangouts Dialer
-*   CallerID
-*   magicApp
-*   Skype
-*   Badoo
-*   Hitwe
-*   SayHi
-*   iPair-Meet
-*   Tumblr
-*   Kik
-*   Chatouts
-*   Grindr
-*   LiveTalk
-*   Zalo
-*   Kakao Talk
-*   Mood
-*   Google Plus
-*   Linkedin
-*   BBM-Free
-*   Voxer Walkie Talkie
-*   Hike
+<table>
+<tr><td>WhatsApp       </td><td>Telegram          </td><td>Freevideo - Mail.ru</td><td>Tumblr             </td></tr>
+<tr><td>Facebook       </td><td>IM+               </td><td>TextMe             </td><td>Kik                </td></tr>
+<tr><td>Twitter        </td><td>IMessenger        </td><td>TalkU              </td><td>Chatouts           </td></tr>
+<tr><td>Truecaller     </td><td>Yahoo Messenger   </td><td>LOVOO              </td><td>Grindr             </td></tr>
+<tr><td>Google Hangouts</td><td>Facetime          </td><td>Drupe              </td><td>LiveTalk           </td></tr>
+<tr><td>Google Allo    </td><td>Android Messages  </td><td>Imo                </td><td>Zalo               </td></tr>
+<tr><td>Viber          </td><td>New Messenger     </td><td>Hangouts Dialer    </td><td>Kakao Talk         </td></tr>
+<tr><td>Snapchat       </td><td>Textra            </td><td>CallerID           </td><td>Mood               </td></tr>
+<tr><td>LINE           </td><td>Instagram         </td><td>magicApp           </td><td>Google Plus        </td></tr>
+<tr><td>Phone+         </td><td>WiCall            </td><td>Skype              </td><td>Linkedin           </td></tr>
+<tr><td>Call Free      </td><td>WeChat            </td><td>Badoo              </td><td>BBM-Free           </td></tr>
+<tr><td>Signal         </td><td>InMessage         </td><td>Hitwe              </td><td>Voxer Walkie Talkie</td></tr>
+<tr><td>StealthChat    </td><td>TrueCaller <em>(sic!)</em></td><td>SayHi              </td><td>Hike               </td></tr>
+<tr><td>Tinder         </td><td>Hi5               </td><td>iPair-Meet         </td><td>Moments            </td></tr>
+<tr><td>MeetMe         </td><td>                  </td><td>                   </td><td>                   </td></tr>
+</table>
 
 To access platforms like Facebook, WhatsApp and Twitter, users of Ugandan ISPs are now required to [pay a tax of UGX 200 (USD 0.05) per day](https://qz.com/africa/1321756/uganda-social-media-tax-is-not-about-raising-revenues-on-whatsapp-facebook-twitter/).This was introduced through a [new set of taxes](http://parliamentwatch.ug/wp-content/uploads/2018/05/FPED3-18-Report-on-the-Excise-Duty-Amendment-Bill-2018.pdf) in the Excise Duty Act (Amended) on OTT services and mobile money transactions. For mobile money, a 0.5% levy applies to withdrawals, and 1% is levied on transfers and deposits on top of a revised excise duty of 15% up from 10% on transfers.
 
