@@ -197,7 +197,7 @@ The following table shows results collected between 1st July 2018 to 24th Octobe
 |`https://badoo.com`|[HTTP failure](https://explorer.ooni.io/measurement/20181001T105931Z_AS20294_BkFsGHeXn61WcnWX8eVm7uCvnNpKPomPZBM277XId3i0qipr6k?input=https:%2F%2Fbadoo.com)|CONNECT fail|[HTTP failure](https://explorer.ooni.io/measurement/20181003T052433Z_AS36991_q5KVbFxFyox4pGiZvUp3KyQH6dCz8fwsUKE6eKTtyzM0S4GhfJ?input=https:%2F%2Fbadoo.com)| [HTTP failure](https://explorer.ooni.io/measurement/20181024T144136Z_AS0_TD9AA71S7zvc9717nWFiFI7OJYPaIdNDavekfd4EAx4WFsQfAj?input=https:%2F%2Fbadoo.com%2F) |
 |`https://go-text.me`|[HTTP failure](https://explorer.ooni.io/measurement/20181001T111406Z_AS20294_tgQ7URHzX2aSrExyrDCQWjpdvDuIfXbVJ6Lz8ZB9Y8BnIhXYsz?input=https:%2F%2Fgo-text.me)|OK|[Accessible](https://explorer.ooni.io/measurement/20181003T052433Z_AS36991_q5KVbFxFyox4pGiZvUp3KyQH6dCz8fwsUKE6eKTtyzM0S4GhfJ?input=https:%2F%2Fgo-text.me)| [HTTP failure](https://explorer.ooni.io/measurement/20181024T184154Z_AS0_zYxE6RvxgbU7iA3cCoPLz8XnhUxyHQK8P6ab9FVhAIHdWeOWhZ?input=https:%2F%2Fgo-text.me) |
 |`https://hangouts.google.com`|[HTTP failure](https://explorer.ooni.io/measurement/20181001T061057Z_AS20294_5QfjAZlWsywwLcATq2mK71PGV3EXP2OpentBhIV0rccUL11uJe?input=https:%2F%2Fhangouts.google.com)|OK|[HTTP failure](https://explorer.ooni.io/measurement/20181001T074629Z_AS36991_Bv85jp5hZ6ZpklZaqDcXOBFkpfEVxBggA5eFIEL4eEcgflCwk0?input=https:%2F%2Fhangouts.google.com)| [HTTP failure](https://explorer.ooni.io/measurement/20181024T184154Z_AS0_zYxE6RvxgbU7iA3cCoPLz8XnhUxyHQK8P6ab9FVhAIHdWeOWhZ?input=https:%2F%2Fhangouts.google.com) |
-|`https://hitwe.com`|[Accessible](https://explorer.ooni.io/measurement/20181001T111406Z_AS20294_tgQ7URHzX2aSrExyrDCQWjpdvDuIfXbVJ6Lz8ZB9Y8BnIhXYsz?input=https:%2F%2Fhitwe.com)|OK|[Accessible](https://explorer.ooni.io/measurement/20181003T052433Z_AS36991_q5KVbFxFyox4pGiZvUp3KyQH6dCz8fwsUKE6eKTtyzM0S4GhfJ?input=https:%2F%2Fhitwe.com)| [Accessible](https://explorer.ooni.io/measurement/20181024T184154Z_AS0_zYxE6RvxgbU7iA3cCoPLz8XnhUxyHQK8P6ab9FVhAIHdWeOWhZ?input=https:%2F%2Fhitwe.com) |
+|`https://hitwe.com`|[Accessible](https://explorer.ooni.io/measurement/20181001T111406Z_AS20294_tgQ7URHzX2aSrExyrDCQWjpdvDuIfXbVJ6Lz8ZB9Y8BnIhXYsz?input=https:%2F%2Fhitwe.com)|CONNECT: 502 error|[Accessible](https://explorer.ooni.io/measurement/20181003T052433Z_AS36991_q5KVbFxFyox4pGiZvUp3KyQH6dCz8fwsUKE6eKTtyzM0S4GhfJ?input=https:%2F%2Fhitwe.com)| [Accessible](https://explorer.ooni.io/measurement/20181024T184154Z_AS0_zYxE6RvxgbU7iA3cCoPLz8XnhUxyHQK8P6ab9FVhAIHdWeOWhZ?input=https:%2F%2Fhitwe.com) |
 |`https://line.me`|[Accessible](https://explorer.ooni.io/measurement/20181018T181638Z_AS20294_C5jNUOmZxUar2iheDEkMd85GnvKFAiVIqy0yTpfQCPTYL72DRD?input=https:%2F%2Fline.me)|OK|[HTTP failure](https://explorer.ooni.io/measurement/20181001T074629Z_AS36991_Bv85jp5hZ6ZpklZaqDcXOBFkpfEVxBggA5eFIEL4eEcgflCwk0?input=https://line.me)| [Accessible](https://explorer.ooni.io/measurement/20181024T184154Z_AS0_zYxE6RvxgbU7iA3cCoPLz8XnhUxyHQK8P6ab9FVhAIHdWeOWhZ?input=https:%2F%2Fline.me) |
 |`https://mail.ru/`|[Accessible](https://explorer.ooni.io/measurement/20181001T111406Z_AS20294_tgQ7URHzX2aSrExyrDCQWjpdvDuIfXbVJ6Lz8ZB9Y8BnIhXYsz?input=https:%2F%2Fmail.ru)|OK|N/A| [Accessible](https://explorer.ooni.io/measurement/20181024T184154Z_AS0_zYxE6RvxgbU7iA3cCoPLz8XnhUxyHQK8P6ab9FVhAIHdWeOWhZ?input=https:%2F%2Fmail.ru) |
 |`https://secure.hi5.com`|[HTTP failure](https://explorer.ooni.io/measurement/20181001T105931Z_AS20294_BkFsGHeXn61WcnWX8eVm7uCvnNpKPomPZBM277XId3i0qipr6k?input=https:%2F%2Fsecure.hi5.com)|OK|[HTTP failure](https://explorer.ooni.io/measurement/20181003T052433Z_AS36991_q5KVbFxFyox4pGiZvUp3KyQH6dCz8fwsUKE6eKTtyzM0S4GhfJ?input=https:%2F%2Fsecure.hi5.com)| [HTTP failure](https://explorer.ooni.io/measurement/20181024T184154Z_AS0_zYxE6RvxgbU7iA3cCoPLz8XnhUxyHQK8P6ab9FVhAIHdWeOWhZ?input=https:%2F%2Fsecure.hi5.com) |
@@ -225,11 +225,39 @@ What is evident is that not all social media sites are blocked across ISPs. Afri
 
 In relation to the tests run using the MTN proxy:
 
-* “CONNECT fail” means that the connection was aborted when sending the HTTP proxy CONNECT example.com:80 instruction.
-* “SSL fail” means that it was possible to establish a connection to the endpoint (via the CONNECT command), but the connection was terminated during the TLS handshake phase.
-* “CONNECT: 503” means that the HTTP proxy returned an error when attempting to establish a connection to the remote host.
+* “OK” means that the request was successfull. Note behavior of the proxy "flooding" the client with series of TCP ACKs.
 
-These connections were likely aborted by MTN’s blocking equipment, rather than by the MTN HTTP proxy itself. If that is the case, then the proxy delivers errors, rather than resetting connections.
+![OK via proxy](./proxy-ok-mail.png)
+
+* “CONNECT fail” means that the connection was aborted right after sending the HTTP proxy `CONNECT example.com:443` instruction. Note anomalous `TTL=62` of `RST` packet suggesting that the packet is injected.
+
+![CONNECT fail](./proxy-connect-fail-badoo.png)
+
+* “SSL fail” means that it was possible to establish a connection to the endpoint (via the CONNECT command), but the connection was terminated during the TLS handshake phase. Note that TTL is not anomalous in this case.
+
+![SSL fail](./proxy-ssl-fail-kik.png)
+
+* “CONNECT: 502” refers to “502 Bad Gateway” error meaning that [the HTTP proxy returned an error](./proxy-502-textra.txt) when attempting to establish a connection to the remote host and failing to do it for half a minute.
+
+![Bad Gateway](./proxy-502-textra.png)
+
+* “CONNECT: 503” refers to “503 Service Unavailable” error meaning that [the proxy was unavailable](./proxy-503-hitwe.txt) during the query.
+
+![Proxy Service Unavailable”](./proxy-503-hitwe.png)
+
+“CONNECT fail” connections were likely aborted by MTN’s blocking equipment, rather than by the MTN HTTP proxy itself. If the proxy fails to establish a connection, then the proxy delivers errors, rather than resetting connections.
+
+```
+### traceroute to the port of the proxy shipped as the APN setting for MTN
+$ mtr --report-wide --show-ips --aslookup --tcp --port=8080 10.120.0.138
+Start: Fri Oct 19 16:24:17 2018
+HOST: raspberrypi            Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. AS???    192.168.1.1     0.0%    10    2.1   2.9   1.6   4.9   1.1
+  2. AS???    192.168.225.1   0.0%    10    7.0   6.7   3.7   8.8   1.3
+  3. AS???    10.120.20.21    0.0%    10   39.4  37.8  27.7  52.6   7.0
+  4. AS???    ???            100.0    10    0.0   0.0   0.0   0.0   0.0
+  5. AS???    10.120.0.138    0.0%    10  404.0 221.0 149.3 404.0  66.8
+```
 
 MTN, Africell and Airtel primarily appear to block access to social media sites by means of HTTP blocking. Most measurements collected from these three ISPs present the same HTTP failures and “connection reset” errors, which means that they reset connections to block access to those sites. A few of those [measurements](https://explorer.ooni.io/measurement/20181003T052433Z_AS36991_q5KVbFxFyox4pGiZvUp3KyQH6dCz8fwsUKE6eKTtyzM0S4GhfJ?input=https:%2F%2Ftinder.com) are annotated by OONI Probe as DNS failures due to geoDNS-based load balancing, but they are actually HTTP failures too. The fact that HTTP failures and “connection reset” errors consistently occur in most anomalous measurements (expanding beyond the above social media sites) leads to the conclusion that Ugandan ISPs primarily block access by resetting connections.
 
@@ -237,21 +265,96 @@ In some cases though, MTN appears to block access to sites by means of [TCP/IP b
 
 When testing twitter.com, we observed the same pattern with TCP connect timeout errors. TCP traceroutes to port 443 terminated at the third hop, while TCP traceroutes to port 22 or another host in same /25 subnet went further. We also observed the same patterns and the same TCP connect timeout errors when testing web.whatsapp.com, facebook.com and instagram.com. RIPE Atlas measurements show the same errors for [web.whatsapp.com](https://atlas.ripe.net/measurements/16558010/#!probes), [facebook.com](https://atlas.ripe.net/measurements/16548953/#!probes) and [instagram.com](https://atlas.ripe.net/measurements/16556134/#!probes) from local vantage points.
 
-[TODO twitter traceroute snippets go here ]
+```
+### traceroute to HTTPS port of IP for twitter.com
+$ mtr --report-wide --show-ips --aslookup --tcp --port=443 104.244.42.193
+Start: Fri Oct 19 10:16:01 2018
+HOST: raspberrypi            Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. AS???    192.168.1.1     0.0%    10    3.0   3.4   2.0   4.8   0.7
+  2. AS???    192.168.225.1   0.0%    10    7.7   6.2   3.4   7.7   1.2
+  3. AS???    ???            100.0    10    0.0   0.0   0.0   0.0   0.0
+
+### traceroute to nearby IP in same /24 using same TCP port
+$ mtr --report-wide --show-ips --aslookup --tcp --port=443 104.244.42.192
+Start: Fri Oct 19 10:16:25 2018
+HOST: raspberrypi                                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. AS???    192.168.1.1                               0.0%    10    2.3   3.7   0.9  11.4   2.9
+  2. AS???    192.168.225.1                             0.0%    10    3.3   6.9   3.3   8.8   1.5
+  3. AS???    10.120.20.21                              0.0%    10   36.1  33.5  27.4  38.1   3.2
+  4. AS???    10.120.22.33                              0.0%    10   36.8  33.2  24.7  46.5   7.6
+  5. AS20294  h903.n1.ips.mtn.co.ug (41.210.137.3)      0.0%    10   25.0  33.2  25.0  44.4   6.1
+  6. AS20294  h3ecc.n1.ips.mtn.co.ug (41.210.190.204)   0.0%    10   25.5  34.8  25.0  46.2   7.5
+  7. AS20294  h3ee8.n1.ips.mtn.co.ug (41.210.190.232)   0.0%    10   26.3  32.4  22.7  49.1   8.2
+  8. AS16637  41.181.247.38                             0.0%    10  227.2 236.7 226.5 253.4   8.2
+  9. AS16637  41.181.245.178                            0.0%    10  239.3 246.4 229.1 280.4  18.6
+     AS16637  41.181.245.250
+ 10. AS16637  41.181.190.197                            0.0%    10  239.3 240.7 229.1 287.1  16.9
+ 11. AS16637  41.181.245.187                            0.0%    10  238.9 235.5 225.5 251.8   7.2
+ 12. AS???    ???                                      100.0    10    0.0   0.0   0.0   0.0   0.0
+
+### traceroute to same IP using different TCP port 104.244.42.193
+$ mtr --report-wide --show-ips --aslookup --tcp --port=22
+Start: Fri Oct 19 10:17:24 2018
+HOST: raspberrypi                                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. AS???    192.168.1.1                               0.0%    10    3.7   3.3   2.3   4.1   0.3
+  2. AS???    192.168.225.1                             0.0%    10    8.7   6.4   1.9   8.7   2.2
+  3. AS???    10.120.20.21                              0.0%    10   41.2  33.8  21.1  52.4   9.0
+  4. AS???    10.120.22.33                              0.0%    10   33.9  32.3  26.0  42.8   4.7
+  5. AS20294  h903.n1.ips.mtn.co.ug (41.210.137.3)      0.0%    10   90.5  39.2  23.3  90.5  18.9
+  6. AS20294  h3ecc.n1.ips.mtn.co.ug (41.210.190.204)   0.0%    10   78.9  39.5  24.5  78.9  15.1
+  7. AS20294  h3ee8.n1.ips.mtn.co.ug (41.210.190.232)   0.0%    10   71.6  38.3  25.1  71.6  14.1
+  8. AS16637  41.181.247.38                             0.0%    10  228.0 241.9 228.0 273.8  15.3
+  9. AS16637  41.181.245.250                            0.0%    10  236.5 250.9 226.5 331.9  34.2
+     AS16637  41.181.245.178
+ 10. AS16637  41.181.190.197                            0.0%    10  236.0 253.5 230.7 373.9  43.0
+ 11. AS16637  41.181.245.187                            0.0%    10  229.5 234.3 223.0 266.4  12.5
+ 12. AS???    ???                                      100.0    10    0.0   0.0   0.0   0.0   0.0
+
+### traceroute to HTTPS port of IP for web.whatsapp.com
+$  mtr --report-wide --show-ips --aslookup --tcp --port=443 31.13.64.51
+Start: Fri Oct 19 10:19:51 2018
+HOST: raspberrypi            Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. AS???    192.168.1.1     0.0%    10    3.6   2.8   1.1   4.8   1.1
+  2. AS???    192.168.225.1   0.0%    10    5.1   6.0   2.6   8.6   1.6
+  3. AS???    ???            100.0    10    0.0   0.0   0.0   0.0   0.0
+```
 
 In testing the reachability of www.snapchat.com, without the MTN proxy, we noticed that this site appeared to be blocked by IP rather than by hostname. Since www.snapchat.com is hosted on the Google Cloud, the blocking of the IPs associated to ghs.googlehosted.com may have resulted in the blocking of many other unrelated sites. According to the [Rapid7 Forward-DNS dataset](https://opendata.rapid7.com/sonar.fdns_v2/), around 300,000 domains use the ghs.googlehosted.com endpoint.
 
-To examine whether these sites were indeed blocked on the MTN network without the proxy, we tested a sample of high profile sites using that network endpoint as an entry point for their website. We also tested a random sample of hosted sites. OONI [measurements](https://explorer.ooni.io/country/UG) presented TCP anomalies for all those sites, suggesting that they may have been affected by the blocking of www.snapchat.com. MTN may, therefore, have blocked access to www.snapchat.com by means of TCP/IP, unintentionally causing collateral damage and possibly affecting thousands of other sites. 
+To examine whether these sites were indeed blocked on the MTN network without the proxy, we tested a sample of high profile sites using that network endpoint as an entry point for their website. We also tested a random sample of hosted sites. OONI [measurements](https://explorer.ooni.io/country/UG) presented TCP anomalies for all those sites, suggesting that they may have been affected by the blocking of www.snapchat.com. MTN may, therefore, have blocked access to www.snapchat.com by means of TCP/IP, unintentionally causing collateral damage and possibly affecting thousands of other sites.
 
 Most MTN users, though, probably won’t experience any of this collateral damage, since the MTN proxy appears to circumvent IP level blocking by issuing CONNECT requests by hostname, instead of IP. This would explain why MTN users, with the proxy enabled and without having paid the OTT tax, can access sites that are blocked by IP (such as facebook.com). However, they cannot access social media sites that are [blocked](https://explorer.ooni.io/measurement/20181001T061057Z_AS20294_5QfjAZlWsywwLcATq2mK71PGV3EXP2OpentBhIV0rccUL11uJe?input=https:%2F%2Fwww.skype.com) by means of HTTP (such as skype.com). This also explains why they can access many of the other potentially affected domains hosted on the same cloud load balancer as www.snapchat.com. One of these sites is www.chickentonight.ug, which presents [TCP anomalies](https://explorer.ooni.io/measurement/20181019T151858Z_AS20294_jyozFIq1o2l5WkDFh8s0FOjDvRmxsQyaFxgg6Q6vpa3vjXa4Jj?input=http:%2F%2Fwww.chickentonight.ug%2F) in OONI testing (likely as a result of collateral damage), but which is accessible from a mobile browser connected to MTN (using its HTTP proxy).
-
-[TODO snippet: tcp traceroute to the proxy]
 
 Overall, the TCP anomalies for twitter.com, web.whatsapp.com, facebook.com, instagram.com and snapchat.com highlight inconsistencies in the configuration of the MTN HTTP proxy. This could potentially be explained as an attempt by MTN to block applications, without distinguishing the website traffic from the application traffic. Perhaps their blocking equipment was misconfigured, or perhaps their blocking equipment was configured with cached IP addresses.
 
 Finally, OONI measurements show that www.textra.me is inaccessible on the TCP/IP level, but this appears to be due to server-side issues. The site also presents reachability issues from global vantage points, as illustrated by [RIPE Atlas measurements](https://atlas.ripe.net/measurements/16547519/?filter=&show_only=Failed#!map) (15% of vantage points can’t do a TLS handshake). TCP traceroutes towards www.textra.me from a vantage point in MTN differ significantly from TCP traceroutes towards other websites that are inaccessible on the TCP level (such as twitter.com), while attempts to connect to the website via MTN's auto-provisioned proxy are not blocked (unlike twitter.com or instagram.com), but produce a proxy-level error. All of this suggests that www.textra.me is inaccessible due to server-side issues, which is further implied by the 503 error that appears when attempting to access the site via MTN’s proxy.
 
-[TODO snippets of TCP traceroute to textra, twitter and twitter port/22]
+```
+$ mtr --report-wide --show-ips --aslookup --tcp --port=443 www.textra.me
+Start: Fri Oct 19 10:45:59 2018
+HOST: raspberrypi                                                   Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. AS???    192.168.1.1                                            0.0%    10    1.9   2.8   1.0   6.1   1.6
+  2. AS???    192.168.225.1                                          0.0%    10    4.9   5.8   2.7   8.0   1.3
+  3. AS???    10.120.20.21                                           0.0%    10   37.2  32.1  18.2  43.4   6.7
+  4. AS???    10.120.22.33                                           0.0%    10   44.7  39.4  26.5  47.9   6.2
+  5. AS20294  h903.n1.ips.mtn.co.ug (41.210.137.3)                   0.0%    10   28.8  34.8  25.6  44.8   5.4
+  6. AS20294  h3ecc.n1.ips.mtn.co.ug (41.210.190.204)                0.0%    10   25.2  34.0  21.8  57.8   9.8
+  7. AS20294  h3ee8.n1.ips.mtn.co.ug (41.210.190.232)                0.0%    10   33.7  36.5  24.4  46.7   7.2
+  8. AS16637  41.181.247.38                                          0.0%    10  229.4 239.0 225.3 275.9  15.0
+  9. AS???    ???                                                   100.0    10    0.0   0.0   0.0   0.0   0.0
+ 10. AS???    ???                                                   100.0    10    0.0   0.0   0.0   0.0   0.0
+ 11. AS3356   lag-106.ear1.London15.Level3.net (212.187.167.65)      0.0%    10  229.2 234.8 227.7 244.6   5.2
+ 12. AS3356   ae-1-3114.edge5.London1.Level3.net (4.69.148.218)      0.0%    10  233.1 235.8 229.7 240.1   3.2
+ 13. AS2914   ae-3.r00.londen10.uk.bb.gin.ntt.net (129.250.9.125)    0.0%    10  233.2 236.9 233.2 246.1   4.0
+ 14. AS2914   ae-13.r24.londen12.uk.bb.gin.ntt.net (129.250.4.25)    0.0%    10  229.3 233.2 221.2 244.0   6.9
+ 15. AS2914   ae-5.r24.nycmny01.us.bb.gin.ntt.net (129.250.2.18)     0.0%    10  307.6 305.0 293.9 312.9   6.4
+ 16. AS2914   ae-4.r22.sttlwa01.us.bb.gin.ntt.net (129.250.4.13)    10.0%    10  369.2 1067. 369.2 3517. 1377.5
+ 17. AS2914   ae-0.r23.sttlwa01.us.bb.gin.ntt.net (129.250.6.30)     0.0%    10  365.7 681.6 363.2 3467. 978.8
+ 18. AS2914   ae-3.r23.snjsca04.us.bb.gin.ntt.net (129.250.3.124)    0.0%    10  378.2 380.1 370.6 391.8   7.5
+ 19. AS2914   ae-45.r01.snjsca04.us.bb.gin.ntt.net (129.250.3.175)   0.0%    10  382.4 383.1 370.9 400.6   7.8
+ 20. AS2914   ae-4.r05.plalca01.us.bb.gin.ntt.net (129.250.5.32)     0.0%    10  382.8 387.6 376.9 400.7   8.8
+ 21. AS???    ???                                                   100.0    10    0.0   0.0   0.0   0.0   0.0
+```
 
 ### WhatsApp
 
