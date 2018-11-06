@@ -38,7 +38,7 @@ netlify:
 	git show HEAD -q '--format=# HELP ooni_web_mtime UNIX Time of the commit used to build website.%n# TYPE ooni_web_mtime gauge%nooni_web_mtime %ct' >public/_web.mtime.txt
 
 server:
-	hugo server --theme=ooni --baseUrl=http://127.0.0.1:1313 --buildDrafts
+	hugo server --theme=ooni --baseUrl=http://127.0.0.1:1313 --buildDrafts --buildFuture
 
 known-publishers:
 	ssh perdulce.torproject.org getent group ooni
