@@ -229,7 +229,7 @@ In relation to the tests run using the MTN proxy:
 
 ![OK via proxy](./proxy-ok-mail.png)
 
-* “CONNECT fail” means that the connection was aborted right after sending the HTTP proxy `CONNECT example.com:443` instruction. Note anomalous `TTL=62` of `RST` packet suggesting that the packet is injected.
+* “CONNECT fail” means that the connection was aborted right after sending the HTTP proxy `CONNECT example.com:443` instruction. Note anomalous `TTL=62` and echoed `IP ID` of `RST` packet suggesting that the packet is injected.
 
 ![CONNECT fail](./proxy-connect-fail-badoo.png)
 
