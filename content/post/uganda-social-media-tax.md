@@ -8,7 +8,7 @@ categories: ["report"]
 
 ![Cover image](/post/uganda-social-media-tax/ug.jpg)
 
-Image by @neemascribbles.
+Image by [@neemascribbles](https://www.instagram.com/neemascribbles/).
 
 **Probed ISPs:** MTN (AS20294), Africell (AS36991), Airtel (AS37075), Smile Telecom (AS37122), Africa Online Uganda (AS29039), DATANET (AS29032), Sombha Solutions (AS328015), Roke (AS37063), Airtel (AS36977), Uganda Telecom (AS21491)
 
@@ -54,7 +54,7 @@ Image by @neemascribbles.
 
 * **Variance in blocking:** Social media censorship varies across ASNs. Africell, for example, attempts to block Telegram, while MTN doesn’t. Some Ugandan ISPs don’t block access to social media sites at all (such as Uganda Telecom, or Smile Communications who has [paid the OTT tax](https://www.busiweek.com/smile-telecom-to-pay-social-media-tax-for-its-customers/) for its customers). 
 
-* **Circumvention tools blocked to prevent untaxed access to social media:** The blocking of circumvention tool sites also varies across ASNs. MTN blocks access to OpenVPN and to torproject.org, but not to the Tor network.
+* **Circumvention tools blocked to prevent untaxed access to social media:** The blocking of circumvention tool sites also varies across ASNs. MTN blocks access to VPN servers using the OpenVPN protocol and to torproject.org, but not to the Tor network.
 
 # Introduction
 
@@ -249,7 +249,7 @@ Most MTN users, though, probably won’t experience any of this collateral damag
 
 Overall, the TCP anomalies for twitter.com, web.whatsapp.com, facebook.com, instagram.com and snapchat.com highlight inconsistencies in the configuration of the MTN HTTP proxy. This could potentially be explained as an attempt by MTN to block applications, without distinguishing the website traffic from the application traffic. Perhaps their blocking equipment was misconfigured, or perhaps their blocking equipment was configured with cached IP addresses.
 
-Finally, OONI measurements show that www.textra.me is inaccessible on the TCP/IP level, but this appears to be a case of server-side blocking. The site also presents reachability issues from global vantage points, as illustrated by [RIPE Atlas measurements](https://atlas.ripe.net/measurements/16547519/?filter=&show_only=Failed#!map) (15% of vantage points can’t do a TLS handshake). TCP traceroutes towards www.textra.me from a vantage point in MTN differ significantly from TCP traceroutes towards other websites that are inaccessible on the TCP level (such as twitter.com), while attempts to connect to the website via MTN's auto-provisioned proxy are not blocked (unlike twitter.com or instagram.com), but produce a proxy-level error. All of this suggests that www.textra.me is inaccessible due to server-side blocking, which is further implied by the 503 error that appears when attempting to access the site via MTN’s proxy.
+Finally, OONI measurements show that www.textra.me is inaccessible on the TCP/IP level, but this appears to be due to server-side issues. The site also presents reachability issues from global vantage points, as illustrated by [RIPE Atlas measurements](https://atlas.ripe.net/measurements/16547519/?filter=&show_only=Failed#!map) (15% of vantage points can’t do a TLS handshake). TCP traceroutes towards www.textra.me from a vantage point in MTN differ significantly from TCP traceroutes towards other websites that are inaccessible on the TCP level (such as twitter.com), while attempts to connect to the website via MTN's auto-provisioned proxy are not blocked (unlike twitter.com or instagram.com), but produce a proxy-level error. All of this suggests that www.textra.me is inaccessible due to server-side issues, which is further implied by the 503 error that appears when attempting to access the site via MTN’s proxy.
 
 [TODO snippets of TCP traceroute to textra, twitter and twitter port/22]
 
