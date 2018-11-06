@@ -6,7 +6,7 @@ tags: ["uganda"]
 categories: ["report"]
 ---
 
-![Cover image](/post/uganda-social-media-tax/ug.png)
+![Cover image](/post/uganda-social-media-tax/ug.jpg)
 
 Image by @neemascribbles.
 
