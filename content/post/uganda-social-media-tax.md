@@ -12,7 +12,7 @@ Image by [@neemascribbles](https://www.instagram.com/neemascribbles/).
 
 **Probed ISPs:** MTN (AS20294), Africell (AS36991), Airtel (AS37075), Smile Telecom (AS37122), Africa Online Uganda (AS29039), DATANET (AS29032), Sombha Solutions (AS328015), Roke (AS37063), Airtel (AS36977), Uganda Telecom (AS21491)
 
-**OONI tests:** [Web Connectivity](/nettest/web-connectivity/) , [HTTP Invalid Request Line](/nettest/http-invalid-request-line/) , [HTTP Header Field Manipulation](/nettest/http-header-field-manipulation/) , [WhatsApp](/nettest/whatsapp/) , [Facebook Messenger](/nettest/facebook-messenger/), [Telegram](/nettest/telegram/) , [Vanilla Tor](/nettest/vanilla-tor/). 
+**OONI tests:** [Web Connectivity](/nettest/web-connectivity/), [HTTP Invalid Request Line](/nettest/http-invalid-request-line/), [HTTP Header Field Manipulation](/nettest/http-header-field-manipulation/), [WhatsApp](/nettest/whatsapp/), [Facebook Messenger](/nettest/facebook-messenger/), [Telegram](/nettest/telegram/), [Vanilla Tor](/nettest/vanilla-tor/). 
 
 **Testing/analysis period:** 1st July 2018 to 24th October 2018
 
