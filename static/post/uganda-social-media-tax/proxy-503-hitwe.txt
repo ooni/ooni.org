@@ -1,0 +1,22 @@
+CONNECT hitwe.com:443 HTTP/1.1
+Host: hitwe.com:443
+User-Agent: curl/7.52.1
+Proxy-Connection: Keep-Alive
+
+HTTP/1.1 503 Service Unavailable
+Content-Type: text/html; charset=UTF-8
+Content-Length: 223
+Connection: Close
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>503</title>
+<meta http-equiv="Cache-Control" content="no-cache"/>
+</head>
+<body>
+<p>
+Service Unavailable 
+</p>
+</body>
+</html>
