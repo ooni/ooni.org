@@ -29,7 +29,7 @@ identify macroscopic Internet outages, affecting the edge of the network
 (i.e. significantly impacting an AS or a large fraction of a country).
 IODA does so via:
 
-* **Global Internet routing (BPG):** Using data from ~500 monitors
+* **Global Internet routing (BGP):** Using data from ~500 monitors
 participating in the RouteViews and RIPE RIS projects to establish
 which network blocks are reachable based on the Internet
 control plane.
