@@ -93,9 +93,9 @@ Delivery Network (CDN).
 The screenshots below illustrate how these websites appeared from an Egyptian
 vantage point (right-side) and when accessed via Tor Browser (left-side):
 
-![http://www.viagogo.com](/post/egypt-network-interference/viagogo-2016-10-21.png)
-![https://www.megapixl.com](/post/egypt-network-interference/megapixl-2016-10-21.png)
-![https://uk-eshop.adiglobal.com/Pages/default.aspx](/post/egypt-network-interference/adiglobal-2016-10-21.png)
+![Screenshort of http://www.viagogo.com](/post/egypt-network-interference/viagogo-2016-10-21.png)
+![Screenshort of https://www.megapixl.com](/post/egypt-network-interference/megapixl-2016-10-21.png)
+![Screenshort of https://uk-eshop.adiglobal.com/Pages/default.aspx](/post/egypt-network-interference/adiglobal-2016-10-21.png)
 
 # <a name="https-throttling"></a> HTTPS throttling
 

@@ -209,37 +209,37 @@ The sites whose access is being restricted access to are:
 * milad.ps
 
 
-![http://pal-home.net](/post/hadara-palestine/screenshot/palhome.png)
+![Screenshort of http://pal-home.net](/post/hadara-palestine/screenshot/palhome.png)
 
 [http://pal-home.net](http://pal-home.net)
 
 
-![http://milad.ps](/post/hadara-palestine/screenshot/milad.png)
+![Screenshort of http://milad.ps](/post/hadara-palestine/screenshot/milad.png)
 
 [http://milad.ps](http://milad.ps)
 
 
-![http://karamapress.com](/post/hadara-palestine/screenshot/karamapress.png)
+![Screenshort of http://karamapress.com](/post/hadara-palestine/screenshot/karamapress.png)
 
 [http://karamapress.com](http://karamapress.com)
 
 
-![http://inlightpress.com](/post/hadara-palestine/screenshot/inlightpress.png)
+![Screenshort of http://inlightpress.com](/post/hadara-palestine/screenshot/inlightpress.png)
 
 [http://inlightpress.com](http://inlightpress.com)
 
 
-![http://fpnp.net](/post/hadara-palestine/screenshot/fpnp.png)
+![Screenshort of http://fpnp.net](/post/hadara-palestine/screenshot/fpnp.png)
 
 [http://fpnp.net](http://fpnp.net)
 
 
-![http://fateh-voice.ps](/post/hadara-palestine/screenshot/fateh-voice.png)
+![Screenshort of http://fateh-voice.ps](/post/hadara-palestine/screenshot/fateh-voice.png)
 
 [http://fateh-voice.ps](http://fateh-voice.ps)
 
 
-![http://amad.ps](/post/hadara-palestine/screenshot/amad.png)
+![Screenshort of http://amad.ps](/post/hadara-palestine/screenshot/amad.png)
 
 [http://amad.ps](http://amad.ps)
 
