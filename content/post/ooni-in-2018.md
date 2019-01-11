@@ -202,7 +202,7 @@ facilitated workshops and presented OONI at the following conferences
 and events around the world:
 
 * **University of Cape Town (South Africa)**, Seminar: “[Internet Censorship Measurements](http://www.students.uct.ac.za/event/internet-censorship-measurements)”
-    > (16th February 2018)
+(16th February 2018)
 
 * **Internet Policy in Africa: Research Methods Workshop for
 Advocacy (Uganda)**, “Network Measurement Research” and “OONI data
@@ -260,7 +260,7 @@ where we published the following:
 * **[ParkNet: Exploring Internet Censorship in Cuba](https://www.youtube.com/watch?v=QslsL84jx4E&t=2s)** (short
 documentary on our [research](https://ooni.torproject.org/post/cuba-internet-censorship-2017/) in Cuba)
 
-* **[Interview with Julie Owono](https://www.youtube.com/watch?v=t842clfakt0) (OONI Community Interview series)
+* **[Interview with Julie Owono](https://www.youtube.com/watch?v=t842clfakt0)** (OONI Community Interview series)
 
 * **[Interview with Moses Karanja](https://www.youtube.com/watch?v=Pam2UQoZ1qM)** (OONI Community Interview series)
 
