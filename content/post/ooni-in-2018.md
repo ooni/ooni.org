@@ -1,7 +1,7 @@
 ---
 title: "Year in Review: OONI in 2018"
 author: "Maria Xynou"
-date: "2019-01-11"
+date: "2019-01-17"
 tags: ["ooni"]
 categories: ["blog"]
 ---
@@ -107,6 +107,13 @@ launch in 2019!
 
 ## Revamped OONI Probe mobile apps
 
+Earlier this week, we launched a new and improved version of the OONI Probe mobile apps!
+
+Since “a picture is worth a thousand words”, here’s a comparison of the
+old vs. new apps:
+
+![OONI Probe Mobile: Old vs. New](/post/ooni-2018/ooni-app-comparison.png)
+
 We spent most of 2018 revamping the OONI Probe mobile apps to improve
 their usability and include new features.
 
@@ -128,15 +135,9 @@ more than 20 community members from around the world
 The feedback that we collected and analyzed from the usability studies
 informed the design and development of the OONI Probe mobile apps. In
 November 2018, we released the [public beta](https://github.com/ooni/translations/blob/master/Guidelines.md#install-the-ooni-probe-public-beta)
-of the revamped apps.
+of the revamped apps. 
 
-Since “a picture is worth a thousand words”, here’s a comparison of the
-old vs. new apps:
-
-![OONI Probe Mobile: Old vs. New](/post/ooni-2018/ooni-app-comparison.png)
-
-We plan to launch the new OONI Probe mobile apps next week… so stay
-tuned!
+You can now [install the stable version](https://ooni.torproject.org/install/).
 
 ## Revamped OONI Explorer
 
@@ -152,38 +153,24 @@ this over the years).
 
 To this end, we started working on revamping OONI Explorer entirely.
 
-We are excited to have onboarded **Sarath M S**, who joined the OONI team in
-2018 and who has been developing the new and improved OONI Explorer ever
-since.
+We are excited to have **Sarath M S** join the OONI team in
+2018! He has since been developing the new and improved OONI Explorer.
 
-We expect to launch the revamped version of OONI Explorer by mid-2019.
+We expect to launch the revamped version of OONI Explorer by mid-2019... so stay tuned!
 
 ## New OONI Probe desktop apps
 
-If you’ve been an Oonitarian long enough, you probably remember the days
-when OONI Probe was a python script that only Linux users could run from
-their terminal. We have since released a [web UI for running OONI Probe on Linux and macOS](https://ooni.torproject.org/post/web-ui-post/), as
-well as a [Raspberry Pi distribution](https://ooni.torproject.org/install/lepidopter/) and the
-[OONI Probe mobile apps](https://ooni.torproject.org/post/ooni-mobile-app/). Most desktop
-users though are on
-[Windows](http://gs.statcounter.com/os-market-share/), while accessing
-the OONI web UI is not super straightforward (it still requires some
-terminal usage).
+In 2018, we started building OONI Probe desktop apps. 
 
-We therefore started building native OONI Probe desktop apps for
-Windows, macOS and Linux.
+These apps are a big step forward compared to the previously released [macOS and Linux web UI](https://ooni.torproject.org/post/web-ui-post/), as they feature a more native platform integration and will be supporting Windows computers as well.
 
-Our aim is to ensure that OONI Probe is not only available on more
-platforms, but that it is also as easy to install and use as most
-popular software.
+Our aim is to ensure that OONI Probe is not only available on more platforms, but that it is also as easy to install and use as possible. 
 
-In 2018, we released a [beta version](https://github.com/ooni/probe-desktop/releases) of the OONI
-Probe desktop apps for Windows and macOS. All three apps will be
-launched in 2019.
+We released a [beta version](https://github.com/ooni/probe-desktop/releases) of the OONI Probe desktop apps for Windows and macOS in 2018, and plan to launch the apps in 2019. 
 
 ## Probe Orchestration
 
-Over the last few years, we have been working on creating the [OONI Probe Orchestration System](https://github.com/ooni/orchestra) to
+We have been working on creating the [OONI Probe Orchestration System](https://github.com/ooni/orchestra) to
 dynamically instrument the collection of OONI Probe measurements around
 the world, particularly in response to emergent censorship events.
 
