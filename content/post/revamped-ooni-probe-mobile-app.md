@@ -6,7 +6,7 @@ tags: ["ooniprobe", "mobile", "launch"]
 categories: ["blog"]
 ---
 
-![OONI Probe: Dashboard](/post/revamped-ooni-probe-mobile-app/dashboard.png)
+![OONI Probe: old vs. new](/post/revamped-ooni-probe-mobile-app/old-vs-new-app.png)
 
 Today the [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) project is thrilled to announce
 the release of a major, new OONI Probe mobile app version!
@@ -80,9 +80,7 @@ advocates tracking internet censorship around the world.
 If you’ve used OONI Probe before, you’ll notice that the new apps have
 improved design and UX!
 
-They say that a picture is worth a thousand words:
-
-![OONI Probe: old vs. new](/post/revamped-ooni-probe-mobile-app/old-vs-new-app.png)
+![OONI Probe: Dashboard](/post/revamped-ooni-probe-mobile-app/dashboard.png)
 
 We have simplified navigation, improved how the results are presented to
 you, and otherwise enabled you to run sophisticated network measurement
