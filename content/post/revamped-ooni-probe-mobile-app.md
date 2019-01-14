@@ -21,7 +21,7 @@ out!
 
 * [Why run OONI Probe?](#why-run-ooni-probe)
 
-* [OONI Probe 2.0 Highlights](#ooni-probe-20-highlights)
+* [OONI Probe 2.0 Highlights](#ooni-probe-2-0-highlights)
 
 	* [Major UI overhaul](#major-ui-overhaul)
 
