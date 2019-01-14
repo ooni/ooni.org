@@ -6,7 +6,7 @@ tags: ["ooniprobe", "mobile", "launch"]
 categories: ["blog"]
 ---
 
-![OONI Probe: Dashboard](/post/ooni-mobile-app/dashboard.png)
+![OONI Probe: Dashboard](/post/revamped-ooni-probe-mobile-app/dashboard.png)
 
 Today the [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) project is thrilled to announce
 the release of a major, new OONI Probe mobile app version!
@@ -82,7 +82,7 @@ improved design and UX!
 
 They say that a picture is worth a thousand words:
 
-![OONI Probe: old vs. new](/post/ooni-mobile-app/old-vs-new-app.png)
+![OONI Probe: old vs. new](/post/revamped-ooni-probe-mobile-app/old-vs-new-app.png)
 
 We have simplified navigation, improved how the results are presented to
 you, and otherwise enabled you to run sophisticated network measurement
@@ -98,7 +98,7 @@ test, enabling immediate censorship detection.
 One of the major new features of the revamped apps is that you can now
 have a bird’s-eye view of all test results.
 
-![OONI Probe: Overview of Test Results](/post/ooni-mobile-app/test-results.png)
+![OONI Probe: Overview of Test Results](/post/revamped-ooni-probe-mobile-app/test-results.png)
 
 By having an overview of results, you can:
 
@@ -124,7 +124,7 @@ research or just out of curiosity)?
 You can now easily test the sites of your choice via the revamped OONI
 Probe mobile apps!
 
-![OONI Probe: Test URLs](/post/ooni-mobile-app/test-websites.png)
+![OONI Probe: Test URLs](/post/revamped-ooni-probe-mobile-app/test-websites.png)
 
 As soon as you test each website, you can immediately find the results
 in the app.
@@ -164,7 +164,7 @@ you test, we have included a new feature in the OONI Probe mobile apps
 that allows you to **enable and disable** [website categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv),
 depending on what you feel comfortable with.
 
-![OONI Probe categories](/post/ooni-mobile-app/web-categories.jpg)
+![OONI Probe categories](/post/revamped-ooni-probe-mobile-app/web-categories.jpg)
 
 You can find this feature via the settings of the Websites card of the
 app.
