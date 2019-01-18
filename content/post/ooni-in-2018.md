@@ -1,7 +1,7 @@
 ---
 title: "Year in Review: OONI in 2018"
 author: "Maria Xynou"
-date: "2019-01-17"
+date: "2019-01-18"
 tags: ["ooni"]
 categories: ["blog"]
 ---
@@ -105,19 +105,19 @@ existing software projects, in addition to creating new ones.
 Below we list some of the exciting new software projects we expect to
 launch in 2019!
 
-## Revamped OONI Probe mobile apps
+## Revamped OONI Probe mobile app
 
-Earlier this week, we launched a new and improved version of the OONI Probe mobile apps!
+Earlier this week, we [launched a revamped version of the OONI Probe mobile app](https://ooni.io/post/revamped-ooni-probe-mobile-app/)!
 
 Since “a picture is worth a thousand words”, here’s a comparison of the
-old vs. new apps:
+old vs. new app:
 
 ![OONI Probe Mobile: Old vs. New](/post/ooni-2018/ooni-app-comparison.png)
 
-We spent most of 2018 revamping the OONI Probe mobile apps to improve
-their usability and include new features.
+We spent most of 2018 revamping the OONI Probe mobile app to improve
+its usability and include new features.
 
-Ever since we [first launched the OONI Probe mobile apps](https://ooni.torproject.org/post/ooni-mobile-app/) (back in
+Ever since we [first launched the OONI Probe mobile app](https://ooni.torproject.org/post/ooni-mobile-app/) (back in
 February 2017), we have been collecting community feedback on an ongoing
 basis (through monthly community meetings, workshops, daily interactions
 with partners, etc). To collect community feedback in a more structured
@@ -133,15 +133,15 @@ way, we:
 more than 20 community members from around the world
 
 The feedback that we collected and analyzed from the usability studies
-informed the design and development of the OONI Probe mobile apps. In
+informed the design and development of the OONI Probe mobile app. In
 November 2018, we released the [public beta](https://github.com/ooni/translations/blob/master/Guidelines.md#install-the-ooni-probe-public-beta)
-of the revamped apps. 
+of the revamped app. 
 
 You can now [install the stable version](https://ooni.torproject.org/install/).
 
 ## Revamped OONI Explorer
 
-[OONI Explorer](https://explorer.ooni.torproject.org/) is likely the
+[OONI Explorer](https://explorer.ooni.io/) is likely the
 largest, publicly-available, dataset on internet censorship to date.
 
 Consisting of millions of network measurements collected from thousands
@@ -153,7 +153,7 @@ this over the years).
 
 To this end, we started working on revamping OONI Explorer entirely.
 
-We are excited to have **Sarath M S** join the OONI team in
+We are excited that **Sarath M S** joined the OONI team in
 2018! He has since been developing the new and improved OONI Explorer.
 
 We expect to launch the revamped version of OONI Explorer by mid-2019... so stay tuned!
@@ -259,7 +259,7 @@ their interviews on our YouTube channel in 2019.
 The OONI-verse expands beyond the projects that the core OONI team works
 on.
 
-For starters, projects like [OONI Explorer](https://explorer.ooni.torproject.org/) would not be possible without
+For starters, projects like [OONI Explorer](https://explorer.ooni.io/) would not be possible without
 the tens of thousands of community members who run OONI Probe every day,
 contributing measurements to us and to the world.
 
