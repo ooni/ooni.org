@@ -16,7 +16,7 @@ we’ll be launching in 2019!
 
 * [Dev work behind the scenes](#dev-work-behind-the-scenes)
 
-    * [Revamped OONI Probe mobile apps](#revamped-ooni-probe-mobile-apps)
+    * [Revamped OONI Probe mobile app](#revamped-ooni-probe-mobile-app)
 
     * [Revamped OONI Explorer](#revamped-ooni-explorer)
 
