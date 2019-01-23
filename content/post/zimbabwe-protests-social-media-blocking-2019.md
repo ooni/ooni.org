@@ -25,7 +25,7 @@ while hundreds of protesters were
 by the police.
 
 Amid the violent crackdown of protests, access to [social media was blocked](https://www.bbc.com/news/world-africa-46917259) and the
-internet was temporarily [shut down](https://www.independent.co.uk/news/world/africa/zimbabwe-internet-shutdown-fuel-protests-evan-mawarire-court-case-trial-arrest-a8734196.html)
+internet was temporarily [shut down](https://netblocks.org/reports/zimbabwe-internet-shutdowns-amid-fuel-price-protests-OxAGDdBz)
 completely (possibly in an attempt to prevent censorship circumvention,
 particularly in light of [increased VPN usage](https://qz.com/africa/1528663/zimbabwe-intnerent-shutdown-leads-to-vpn-use/)).
 
