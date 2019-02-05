@@ -1,6 +1,6 @@
 ---
 title: "From the blocking of Wikipedia to Social Media: Venezuela's Political Crisis"
-author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro), Mariengracia Chirinos (IPYS Venezuela), Arturo Filastò (OONI), Maria Xynou (OONI), Simone Basso (OONI), Kanishk Karan (Digital Forensic Research Lab)"
+author: "Alp Toker, Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro), Mariengracia Chirinos (IPYS Venezuela), Arturo Filastò (OONI), Maria Xynou (OONI), Simone Basso (OONI), Kanishk Karan (Digital Forensic Research Lab)"
 date: "2019-01-29"
 tags: ["venezuela", "censorship"]
 categories: ["report"]
@@ -397,3 +397,15 @@ events. The situation remains tense and as political events unfold, the
 public can monitor censorship events through the use of [OONI Probe](https://ooni.io/install/) and [OONI data](https://api.ooni.io/).
 
 We thank all OONI Probe users in Venezuela who made this study possible.
+
+As previously also reported by netblocks:
+
+https://netblocks.org/reports/wikipedia-blocked-in-venezuela-as-internet-controls-tighten-XaAwR08M
+
+https://netblocks.org/reports/venezuela-social-media-restricted-amid-caracas-incident-zgBLoXA4
+
+https://netblocks.org/reports/major-internet-disruptions-in-venezuela-amid-protests-4JBQ2kyo
+
+https://netblocks.org/reports/venezuela-total-internet-blackouts-qr8VeYy5
+
+https://netblocks.org/reports/venezuela-national-assembly-live-streams-disrupted-4M8JQvy0
