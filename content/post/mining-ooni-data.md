@@ -65,7 +65,7 @@ Example:
 You can list the files related to a particular date using the [AWS CLI](https://aws.amazon.com/cli/):
 
 ```
-aws s3 ls s3://ooni-data/autoclaved/jsonl/2017-11-23/
+aws s3 --no-sign-request ls s3://ooni-data/autoclaved/jsonl/2017-11-23/
 ```
 
 ### jsonl.tar.lz4
@@ -105,7 +105,7 @@ Example:
 You can list the files related to a particular date using the [AWS CLI](https://aws.amazon.com/cli/):
 
 ```
-aws s3 ls s3://ooni-data/autoclaved/jsonl.tar.lz4/2017-11-23/
+aws s3 --no-sign-request ls s3://ooni-data/autoclaved/jsonl.tar.lz4/2017-11-23/
 ```
 
 You should run the `aws` command with the `--no-sign-request` option, to
