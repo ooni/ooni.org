@@ -28,7 +28,7 @@ We will soon release another version of OONI Probe (2.1.0) which will allow you 
 
 To limit the possibility of such bugs recurring in the future, we are working on improving our development practices. To this end, we are:
 
-* Improving how we do **testing of our apps** (both in terms of unit tests, but also end-to-end integration tests
+* Improving how we do **testing of our apps** (both in terms of unit tests, but also end-to-end integration tests)
 * Strengthening our **quality assurance and release management workflow**
 * Being more thorough and rigorous in how we do **code review** for all our software
 * Ensuring that OONI developers follow the software development practices outlined in a [new document that we wrote](/post/ooni-software-development-guidelines) (following the incident)

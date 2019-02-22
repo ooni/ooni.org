@@ -10,7 +10,7 @@ categories: ["blog"]
 
 The goal of this document is to explain and explicit some of the best practices relevant to software development that we follow at the Open Observatory of Network Interference (OONI).
 
-By following these development guidelines we aim to produce **higher quality code**, which contains **less defects**and allows us to iterate more quickly **delivering greater value**to our end **users is a shorter amount of time**!
+By following these development guidelines we aim to produce **higher quality code**, which contains **less defects** and allows us to iterate more quickly **delivering greater value** to our end **users is a shorter amount of time**!
 
 ## Version control
 
@@ -18,9 +18,9 @@ Also known as: “How I Learned to Stop Worrying and Love the **Git**!”
 
 Reasons to love git and version control include:
 
-*   **History**. You have a complete long-term change history of every file in your source tree.
-*   **Branching & Merging.** This means that team members can work on the same codebase at the same time, without losing sanity (well for the most part, read on to learn what you can do to prevent insanity).
-*   **Transparency**. We are an open source project and as such, it’s important that our community can see what we are up to and that they can trace back to when and why some changes were done on our software.
+* **History**. You have a complete long-term change history of every file in your source tree.
+* **Branching & Merging.** This means that team members can work on the same codebase at the same time, without losing sanity (well for the most part, read on to learn what you can do to prevent insanity).
+* **Transparency**. We are an open source project and as such, it’s important that our community can see what we are up to and that they can trace back to when and why some changes were done on our software.
 
 Each of the OONI products may follow slightly different git patterns and workflows, but the guidelines and rules documented here will apply for the most part to all of them.
 
@@ -36,14 +36,14 @@ When creating a new feature, bugfix or release branch, always do so from the tip
 
 It’s good to include an indication of the github issue the branch is implementing (and create an issue if it does not exist), example of good branch names:
 
-*   bugfix/113 (113 is the issue number of a bug this branch is fixing)
-*   release/2.0.2 (2.0.2 is the version for this release branch)
-*   feature/reupload (this is about a feature that has to do with reuploading)
+* bugfix/113 (113 is the issue number of a bug this branch is fixing)
+* release/2.0.2 (2.0.2 is the version for this release branch)
+* feature/reupload (this is about a feature that has to do with reuploading)
 
 Examples of not so great branch names are:
 
-*   bugfix (it does not mention which bug it’s fixing)
-*   andrea (this is a great name for a human, but not so much for a branch)
+* bugfix (it does not mention which bug it’s fixing)
+* andrea (this is a great name for a human, but not so much for a branch)
 
 Once you have finished working on the feature or bugfix and are ready to have it be merged into master, **open a pull request,** check that all the tests are passing and request that somebody does a review of it (see Code Review section).
 
@@ -79,7 +79,7 @@ Testing is the most popular quality-improvement activity—a practice supported 
 
 From the perspective of OONI, **we generally focus our testing efforts on Unit testing & Integration testing**.
 
-As part of Integration testing, we will sometimes speak about **end-to-end testing**or **UI testing**, when we are speaking about various software services running and speaking to each other or testing by means of controlling the application UI respectively. These subtypes still fit under the broad **integration testing** label.
+As part of Integration testing, we will sometimes speak about **end-to-end testing** or **UI testing**, when we are speaking about various software services running and speaking to each other or testing by means of controlling the application UI respectively. These subtypes still fit under the broad **integration testing** label.
 
 One thing to keep in mind, as part of developing a solid testing strategy for a new software component, is that it’s normal and natural that in the beginning it will take significantly more time to set up scaffolding for testing. This initial effort, though, will pay off in the long run as it will then be easier to implement new tests in the future and it will be easier to debug and identify bugs quicker!
 
