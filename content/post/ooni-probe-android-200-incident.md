@@ -24,7 +24,7 @@ As soon as we noticed the bug, we swiftly worked on resolving the incident. Spec
 
 For a full timeline of the incident, see this [incident ticket](https://github.com/ooni/sysadmin/issues/281). The reason why we are only disclosing this incident publicly now is because we were still working on ensuring that all the affected data had been deleted and that people who had copies of the data had done the same.
 
-We will soon release another version of OONI Probe (2.1.0) which will allow you to manually upload measurements. This means that if you were an OONI Probe Android 2.0.0 user and you wanted to share your data, you will be able to re-upload your measurements by enabling the** “Manual measurement upload”** feature in the Sharing Settings.
+We will soon release another version of OONI Probe (2.1.0) which will allow you to manually upload measurements. This means that if you were an OONI Probe Android 2.0.0 user and you wanted to share your data, you will be able to re-upload your measurements by enabling the **“Manual measurement upload”** feature in the Sharing Settings.
 
 To limit the possibility of such bugs recurring in the future, we are working on improving our development practices. To this end, we are:
 
