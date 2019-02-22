@@ -5,8 +5,6 @@ tags: ["incident"]
 categories: ["blog"]
 ---
 
-# OONI Probe Android 2.0.0 Incident Report
-
 The first public release of OONI Probe Android 2.0.0 (since 2.0.0-alpha.7) included a very serious bug: we lost measurements and collected measurements that we shouldn’t have. As soon as the problem was identified, we quickly released a fix (OONI Probe Android 2.0.1). All measurements that should not have been uploaded have been deleted and we are working on a new OONI Probe release (OONI Probe Mobile 2.1.0) that will allow you to manually re-upload measurements. No other OONI Probe platforms ([iOS](https://itunes.apple.com/us/app/id1199566366), [macOS](https://ooni.io/install/ooniprobe), [Linux](https://ooni.io/install/ooniprobe), [Lepidopter](https://ooni.io/install/lepidopter/)) were affected.
 
 As part of our [commitment to transparency](https://blog.torproject.org/tor-social-contract), we are publishing this report to share details about the bug, what we did to fix it, and what we are doing to reduce the possibility of similar bugs recurring in the future.

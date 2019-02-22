@@ -6,9 +6,7 @@ tags: ["technology", "software engineering"]
 categories: ["blog"]
 ---
 
-![](/post/ooni-software-development-guidlines/QuattroEngineer.png)
-
-# OONI Software Development Guidelines
+![](/post/ooni-software-development-guidelines/QuattroEngineer.png)
 
 The goal of this document is to explain and explicit some of the best practices relevant to software development that we follow at the Open Observatory of Network Interference (OONI).
 
@@ -63,7 +61,7 @@ Out of sync branches and conflicts are one of the most frustrating occurrences i
 
 ## Testing
 
-![](/post/ooni-software-development-guidlines/TestingPyramid.png)
+![](/post/ooni-software-development-guidelines/TestingPyramid.png)
 
 The [TestPyramid](https://martinfowler.com/bliki/TestPyramid.html), popularized by Martini Fowler, says that to have a balanced portfolio of tests you should have much more low level unit tests, than end to end integration or UI tests.
 
