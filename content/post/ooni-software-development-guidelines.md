@@ -139,7 +139,7 @@ By reviewing the code of someone else, you are being a hero!
 
 ## In-depth reading
 
-* **The Pragmatic Programmer:**. Good book to read cover to cover (or just skim through) and is quite light.
-* **Code complete:**. This book is a great book to have on your shelf and refer to from time to time by reading through the relevant section.
-* **Clean code:**. Similar type of book as Code Complete.
-* **The Mythical Man Month:**. Not really focussed on software development, it’s old, but it’s a classic and has some anecdotes that are still relevant in this day and age.
+* **The Pragmatic Programmer:** Good book to read cover to cover (or just skim through) and is quite light.
+* **Code complete:** This book is a great book to have on your shelf and refer to from time to time by reading through the relevant section.
+* **Clean code:** Similar type of book as Code Complete.
+* **The Mythical Man Month:** Not really focussed on software development, it’s old, but it’s a classic and has some anecdotes that are still relevant in this day and age.
