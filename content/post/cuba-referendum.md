@@ -8,7 +8,7 @@ categories: ["report"]
 
 On 24th February 2019, Cubans voted on a new constitution for the first time in decades.
 
-But a few hours before the referendum, independent news outlet Tremenda Nota [reported](https://twitter.com/TremendaNota_cu/status/1099465370585518080?s=19)that their [website](https://www.tremendanota.com/) got blocked in Cuba.
+But a few hours before the referendum, independent news outlet Tremenda Nota [reported](https://twitter.com/TremendaNota_cu/status/1099465370585518080?s=19) that their [website](https://www.tremendanota.com/) got blocked in Cuba.
 
 In this post, we share [OONI network measurement data](https://explorer.ooni.io/country/CU) that confirms the blocking of tremendanota.com, as well as the blocking of several other independent media websites during the referendum.
 
@@ -16,9 +16,9 @@ We also found that ETECSA, Cuba’s only telecommunications company, has changed
 
 # Constitutional Referendum
 
-During the referendum, Cubans were asked to [vote](https://www.aljazeera.com/news/2019/02/cuba-constitutional-referendum-190222174420643.html)whether they approve of the new constitution [passed](https://www.bbc.com/news/world-latin-america-44971445) by the National Assembly of People’s Power in July 2018\.
+During the referendum, Cubans were asked to [vote](https://www.aljazeera.com/news/2019/02/cuba-constitutional-referendum-190222174420643.html) whether they approve of the new constitution [passed](https://www.bbc.com/news/world-latin-america-44971445) by the National Assembly of People’s Power in July 2018\.
 
-An update to the 1976 constitution, the [new charter](http://www.parlamentocubano.cu/wp-content/uploads/Tabloide-Constituci%C3%B3n.pdf)recognizes private property and foreign investment; limits the president to serving two consecutive five-year terms; restores a presumption of innocence in the judicial system; creates the position of Prime Minister to oversee state affairs; extends a ban on discrimination based on gender, ethnic origin, sexual orientation, gender identity or disability (among other proposed constitutional changes).
+An update to the 1976 constitution, the [new charter](http://www.parlamentocubano.cu/wp-content/uploads/Tabloide-Constituci%C3%B3n.pdf) recognizes private property and foreign investment; limits the president to serving two consecutive five-year terms; restores a presumption of innocence in the judicial system; creates the position of Prime Minister to oversee state affairs; extends a ban on discrimination based on gender, ethnic origin, sexual orientation, gender identity or disability (among other proposed constitutional changes).
 
 Critics [argue](https://www.aljazeera.com/news/2019/02/cuba-constitutional-referendum-190222174420643.html) that the new constitution does not restructure political power, as the one-party system is kept intact and the possibility for a direct vote to elect the president is not introduced. According to Andres Pertierra, a Cuban-American historian, the vote not only serves as a referendum on the new constitution, but also on the government of President Miguel Diaz-Canel (who took office last year), providing a measure of legitimacy.
 
@@ -32,7 +32,7 @@ Right before the referendum, [Tremenda Nota](https://www.tremendanota.com/), an 
 
 Their editor [shared the text](https://www.facebook.com/abel.invernal/posts/2466998813373922) that they believe motivated the blocking of their website, which criticizes Cuba’s National Assembly for ignoring survey results favourable to LGBTI rights and for not supporting equal marriage in the new constitution.
 
-[OONI Probe](https://ooni.torproject.org/install/)tests - which are designed to measure the blocking of websites - were run in Cuba, [confirming the blocking of tremendanota.com](https://explorer.ooni.io/measurement/20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j?input=http:%2F%2Fwww.tremendanota.com%2F). But tremendanota.com is not the only independent media website blocked in Cuba.
+[OONI Probe](https://ooni.torproject.org/install/) tests - which are designed to measure the blocking of websites - were run in Cuba, [confirming the blocking of tremendanota.com](https://explorer.ooni.io/measurement/20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j?input=http:%2F%2Fwww.tremendanota.com%2F). But tremendanota.com is not the only independent media website blocked in Cuba.
 
 Through the analysis of recent [OONI measurements](https://explorer.ooni.io/country/CU), we found several other independent media websites blocked in Cuba as well on 24th February 2019, during the referendum.
 
@@ -47,7 +47,7 @@ Previously, Cuba’s telecommunications company (ETECSA) [mainly blocked the HTT
 Now, we observe that ETECSA has **changed its censorship techniques**, blocking both the HTTP and HTTPS version of sites by means of **IP blocking**. More specifically, ETECSA:
 
 * Has **shifted from serving blank block pages to implementing IP-based blocking** (for sites that support HTTPS, such as 14ymedio.com).
-* Continues to serve blank block pagesfor sites that have not added HTTPS support (such as diariodecuba.com).
+* Continues to serve blank block pages for sites that have not added HTTPS support (such as diariodecuba.com).
 * Has shifted to IP-based blocking for sites (such as cibercuba.com and cubanet.org) that previously appeared to be blocked by means of DPI.
 
 Both cibercuba.com and cubanet.org appear to have temporarily been unblocked (as demonstrated by the accessible measurements from January and early February 2019), suggesting that ETECSA may have made some changes to their censorship equipment around that time.
