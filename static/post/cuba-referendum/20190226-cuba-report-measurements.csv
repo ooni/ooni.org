@@ -1,0 +1,204 @@
+,input,measurement_start_time,http_experiment_failure,blocking,report_id,probe_cc,probe_asn,input_name
+14,http://www.therealcuba.com/,2017-05-31 00:43:43,,http-diff,20170531T004025Z_AS27725_hxX2uLGCA4NngoDcAlsNSTjnXZlA3Q5qtejSucNF2gJxz6Kjua,CU,27725,therealcuba.com
+20,https://www.cubanet.org/,2017-05-31 00:47:48,response_never_received,http-failure,20170531T004745Z_AS27725_32tEB17Lm9JjVq2xr6jwlEA9LYSbOg7LjuGZZVqzgf0QBi6d8C,CU,27725,cubanet.org (https)
+17,http://www.therealcuba.com/,2017-05-31 00:47:58,,http-diff,20170531T004745Z_AS27725_32tEB17Lm9JjVq2xr6jwlEA9LYSbOg7LjuGZZVqzgf0QBi6d8C,CU,27725,therealcuba.com
+18,http://www.14ymedio.com/,2017-05-31 00:52:20,,http-diff,20170531T004745Z_AS27725_32tEB17Lm9JjVq2xr6jwlEA9LYSbOg7LjuGZZVqzgf0QBi6d8C,CU,27725,14ymedio.com
+19,https://www.cibercuba.com/,2017-05-31 00:53:42,response_never_received,http-failure,20170531T004745Z_AS27725_32tEB17Lm9JjVq2xr6jwlEA9LYSbOg7LjuGZZVqzgf0QBi6d8C,CU,27725,cibercuba.com (https)
+21,https://www.cibercuba.com/,2017-05-31 01:08:14,response_never_received,http-failure,20170531T010234Z_AS27725_dV4bZ2xBDfifCNXmXBk4ef4gDjuYmOe0jZtkpoGP9KJtu4Fa69,CU,27725,cibercuba.com (https)
+16,https://www.cubanet.org/,2017-05-31 01:10:11,response_never_received,http-failure,20170531T004025Z_AS27725_hxX2uLGCA4NngoDcAlsNSTjnXZlA3Q5qtejSucNF2gJxz6Kjua,CU,27725,cubanet.org (https)
+15,https://www.cibercuba.com/,2017-05-31 01:11:06,response_never_received,http-failure,20170531T004025Z_AS27725_hxX2uLGCA4NngoDcAlsNSTjnXZlA3Q5qtejSucNF2gJxz6Kjua,CU,27725,cibercuba.com (https)
+13,http://www.14ymedio.com/,2017-05-31 01:23:21,,http-diff,20170531T004025Z_AS27725_hxX2uLGCA4NngoDcAlsNSTjnXZlA3Q5qtejSucNF2gJxz6Kjua,CU,27725,14ymedio.com
+10,http://www.therealcuba.com/,2017-05-31 05:19:11,,http-diff,20170531T051245Z_AS27725_E7upVhhdmAHCCfxPaDDPJwKpnlk2Qm2rfzCoID6XnVaPZJaGbN,CU,27725,therealcuba.com
+12,https://www.cubanet.org/,2017-05-31 05:24:03,response_never_received,http-failure,20170531T051245Z_AS27725_E7upVhhdmAHCCfxPaDDPJwKpnlk2Qm2rfzCoID6XnVaPZJaGbN,CU,27725,cubanet.org (https)
+11,https://www.cibercuba.com/,2017-05-31 05:26:31,response_never_received,http-failure,20170531T051245Z_AS27725_E7upVhhdmAHCCfxPaDDPJwKpnlk2Qm2rfzCoID6XnVaPZJaGbN,CU,27725,cibercuba.com (https)
+7,http://www.14ymedio.com/,2017-05-31 20:27:57,,http-diff,20170531T200929Z_AS27725_VZIet0FOYxvpbUO5p6tkAEvmCmpmUu3vvjzHcuAHawrRNWyeu5,CU,27725,14ymedio.com
+9,https://www.cubanet.org/,2017-05-31 20:29:43,response_never_received,http-failure,20170531T200929Z_AS27725_VZIet0FOYxvpbUO5p6tkAEvmCmpmUu3vvjzHcuAHawrRNWyeu5,CU,27725,cubanet.org (https)
+6,http://www.therealcuba.com/,2017-05-31 20:30:10,,http-diff,20170531T200929Z_AS27725_VZIet0FOYxvpbUO5p6tkAEvmCmpmUu3vvjzHcuAHawrRNWyeu5,CU,27725,therealcuba.com
+8,https://www.cibercuba.com/,2017-05-31 20:32:27,response_never_received,http-failure,20170531T200929Z_AS27725_VZIet0FOYxvpbUO5p6tkAEvmCmpmUu3vvjzHcuAHawrRNWyeu5,CU,27725,cibercuba.com (https)
+26,http://www.14ymedio.com/,2017-06-01 00:12:20,,http-diff,20170601T001158Z_AS27725_hKDJaHRDQVJUKb5KX6lVtfE05KAPB68bQYwJXN3Db8Y3qo5exS,CU,27725,14ymedio.com
+27,http://www.cubanet.org/,2017-06-01 00:13:40,response_never_received,http-failure,20170601T001158Z_AS27725_hKDJaHRDQVJUKb5KX6lVtfE05KAPB68bQYwJXN3Db8Y3qo5exS,CU,27725,cubanet.org
+29,https://www.cubanet.org/,2017-06-01 00:13:40,response_never_received,http-failure,20170601T001158Z_AS27725_hKDJaHRDQVJUKb5KX6lVtfE05KAPB68bQYwJXN3Db8Y3qo5exS,CU,27725,cubanet.org (https)
+25,http://www.therealcuba.com/,2017-06-01 00:21:57,,http-diff,20170601T001158Z_AS27725_hKDJaHRDQVJUKb5KX6lVtfE05KAPB68bQYwJXN3Db8Y3qo5exS,CU,27725,therealcuba.com
+30,http://www.cibercuba.com/,2017-06-01 00:28:55,response_never_received,http-failure,20170601T001158Z_AS27725_hKDJaHRDQVJUKb5KX6lVtfE05KAPB68bQYwJXN3Db8Y3qo5exS,CU,27725,cibercuba.com
+28,https://www.cibercuba.com/,2017-06-01 00:29:05,response_never_received,http-failure,20170601T001158Z_AS27725_hKDJaHRDQVJUKb5KX6lVtfE05KAPB68bQYwJXN3Db8Y3qo5exS,CU,27725,cibercuba.com (https)
+24,https://www.cubanet.org/,2017-06-01 15:09:57,response_never_received,http-failure,20170601T150920Z_AS27725_2eiKwzBHKwyacjcSZa9WKbUp29cJsoSjsrYq2IAhM9M46WiusM,CU,27725,cubanet.org (https)
+23,http://www.therealcuba.com/,2017-06-01 15:10:58,,http-diff,20170601T150920Z_AS27725_2eiKwzBHKwyacjcSZa9WKbUp29cJsoSjsrYq2IAhM9M46WiusM,CU,27725,therealcuba.com
+22,http://www.14ymedio.com/,2017-06-01 15:20:50,,http-diff,20170601T150920Z_AS27725_2eiKwzBHKwyacjcSZa9WKbUp29cJsoSjsrYq2IAhM9M46WiusM,CU,27725,14ymedio.com
+31,http://www.therealcuba.com/,2017-06-01 15:53:29,,http-diff,20170601T150925Z_AS27725_XBsBbiP3nXLxDZc8EyYnSCMa33DX61hBkgMBMWNiHjbTeJ0iZe,CU,27725,therealcuba.com
+33,http://www.therealcuba.com/,2017-06-01 21:16:04,,http-diff,20170601T211105Z_AS27725_NDH7yxlj7DifbtW9TfD8Z4qTenOc6QCVUcOdQmGWwqGJi0bAjk,CU,27725,therealcuba.com
+35,https://www.cubanet.org/,2017-06-01 21:17:07,response_never_received,http-failure,20170601T211105Z_AS27725_NDH7yxlj7DifbtW9TfD8Z4qTenOc6QCVUcOdQmGWwqGJi0bAjk,CU,27725,cubanet.org (https)
+32,http://www.14ymedio.com/,2017-06-01 21:23:02,,tcp_ip,20170601T211105Z_AS27725_NDH7yxlj7DifbtW9TfD8Z4qTenOc6QCVUcOdQmGWwqGJi0bAjk,CU,27725,14ymedio.com
+34,https://www.cibercuba.com/,2017-06-01 21:23:02,response_never_received,http-failure,20170601T211105Z_AS27725_NDH7yxlj7DifbtW9TfD8Z4qTenOc6QCVUcOdQmGWwqGJi0bAjk,CU,27725,cibercuba.com (https)
+38,http://www.cubanet.org/,2017-06-01 21:32:38,response_never_received,http-failure,20170601T212748Z_AS27725_XaWVQ2Gb8ihfna4m9vn4bktsHDB0sJNni1qt30lHQ5sALVpRYl,CU,27725,cubanet.org
+37,http://www.14ymedio.com/,2017-06-01 21:34:39,,ok,20170601T212748Z_AS27725_XaWVQ2Gb8ihfna4m9vn4bktsHDB0sJNni1qt30lHQ5sALVpRYl,CU,27725,14ymedio.com
+36,http://www.14ymedio.com/,2017-06-01 21:37:08,,http-diff,20170601T212748Z_AS27725_XaWVQ2Gb8ihfna4m9vn4bktsHDB0sJNni1qt30lHQ5sALVpRYl,CU,27725,14ymedio.com
+39,https://www.cibercuba.com/,2017-06-01 21:37:21,response_never_received,http-failure,20170601T212748Z_AS27725_XaWVQ2Gb8ihfna4m9vn4bktsHDB0sJNni1qt30lHQ5sALVpRYl,CU,27725,cibercuba.com (https)
+42,http://www.14ymedio.com/,2017-06-01 23:12:51,,http-diff,20170601T231223Z_AS27725_ygIsEMfMEK55ILBkcvkJ4mMt647xFCgDJWJeoUoiIxEX6d9A5W,CU,27725,14ymedio.com
+40,http://www.14ymedio.com/,2017-06-01 23:18:14,,http-diff,20170601T231223Z_AS27725_ygIsEMfMEK55ILBkcvkJ4mMt647xFCgDJWJeoUoiIxEX6d9A5W,CU,27725,14ymedio.com
+43,http://www.therealcuba.com/,2017-06-01 23:20:02,,http-diff,20170601T231223Z_AS27725_ygIsEMfMEK55ILBkcvkJ4mMt647xFCgDJWJeoUoiIxEX6d9A5W,CU,27725,therealcuba.com
+45,https://www.cibercuba.com/,2017-06-01 23:20:43,response_never_received,http-failure,20170601T231223Z_AS27725_ygIsEMfMEK55ILBkcvkJ4mMt647xFCgDJWJeoUoiIxEX6d9A5W,CU,27725,cibercuba.com (https)
+44,http://www.cubanet.org/,2017-06-01 23:25:23,response_never_received,http-failure,20170601T231223Z_AS27725_ygIsEMfMEK55ILBkcvkJ4mMt647xFCgDJWJeoUoiIxEX6d9A5W,CU,27725,cubanet.org
+41,http://www.therealcuba.com/,2017-06-01 23:35:37,,http-diff,20170601T231223Z_AS27725_ygIsEMfMEK55ILBkcvkJ4mMt647xFCgDJWJeoUoiIxEX6d9A5W,CU,27725,therealcuba.com
+47,http://www.cibercuba.com/,2017-06-01 23:35:47,response_never_received,http-failure,20170601T231223Z_AS27725_ygIsEMfMEK55ILBkcvkJ4mMt647xFCgDJWJeoUoiIxEX6d9A5W,CU,27725,cibercuba.com
+46,https://www.cubanet.org/,2017-06-01 23:42:40,response_never_received,http-failure,20170601T231223Z_AS27725_ygIsEMfMEK55ILBkcvkJ4mMt647xFCgDJWJeoUoiIxEX6d9A5W,CU,27725,cubanet.org (https)
+51,http://www.cibercuba.com/,2017-06-01 23:57:10,connection_reset,http-failure,20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe,CU,27725,cibercuba.com
+50,https://www.cubanet.org/,2017-06-02 00:02:30,connection_reset,http-failure,20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe,CU,27725,cubanet.org (https)
+49,http://www.cubanet.org/,2017-06-02 00:04:23,connection_reset,http-failure,20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe,CU,27725,cubanet.org
+55,http://www.14ymedio.com/,2017-06-02 00:05:27,,http-diff,20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe,CU,27725,14ymedio.com
+52,http://www.therealcuba.com/,2017-06-02 00:06:11,,http-diff,20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe,CU,27725,therealcuba.com
+48,https://www.cibercuba.com/,2017-06-02 00:06:59,connection_reset,http-failure,20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe,CU,27725,cibercuba.com (https)
+53,http://www.14ymedio.com/,2017-06-02 00:16:39,,http-diff,20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe,CU,27725,14ymedio.com
+54,http://www.therealcuba.com/,2017-06-02 00:17:46,,http-diff,20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe,CU,27725,therealcuba.com
+58,http://www.therealcuba.com/,2017-06-02 19:53:46,,http-diff,20170602T195339Z_AS27725_fWjbhhBLMRYa59Yjy4ShDFdYGTEC4olMNL70rBt3SKhzqarOBm,CU,27725,therealcuba.com
+61,https://www.cibercuba.com/,2017-06-02 19:55:15,response_never_received,http-failure,20170602T195339Z_AS27725_fWjbhhBLMRYa59Yjy4ShDFdYGTEC4olMNL70rBt3SKhzqarOBm,CU,27725,cibercuba.com (https)
+63,http://www.cibercuba.com/,2017-06-02 19:59:18,response_never_received,http-failure,20170602T195339Z_AS27725_fWjbhhBLMRYa59Yjy4ShDFdYGTEC4olMNL70rBt3SKhzqarOBm,CU,27725,cibercuba.com
+60,http://www.cubanet.org/,2017-06-02 20:07:02,response_never_received,http-failure,20170602T195339Z_AS27725_fWjbhhBLMRYa59Yjy4ShDFdYGTEC4olMNL70rBt3SKhzqarOBm,CU,27725,cubanet.org
+56,http://www.therealcuba.com/,2017-06-02 20:11:46,,http-diff,20170602T195339Z_AS27725_fWjbhhBLMRYa59Yjy4ShDFdYGTEC4olMNL70rBt3SKhzqarOBm,CU,27725,therealcuba.com
+57,http://www.14ymedio.com/,2017-06-02 20:12:35,,http-diff,20170602T195339Z_AS27725_fWjbhhBLMRYa59Yjy4ShDFdYGTEC4olMNL70rBt3SKhzqarOBm,CU,27725,14ymedio.com
+59,http://www.14ymedio.com/,2017-06-02 20:12:48,,http-diff,20170602T195339Z_AS27725_fWjbhhBLMRYa59Yjy4ShDFdYGTEC4olMNL70rBt3SKhzqarOBm,CU,27725,14ymedio.com
+62,https://www.cubanet.org/,2017-06-02 20:18:05,response_never_received,http-failure,20170602T195339Z_AS27725_fWjbhhBLMRYa59Yjy4ShDFdYGTEC4olMNL70rBt3SKhzqarOBm,CU,27725,cubanet.org (https)
+64,http://www.therealcuba.com/,2017-06-02 20:44:23,,http-diff,20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT,CU,27725,therealcuba.com
+65,http://www.14ymedio.com/,2017-06-02 20:47:25,,http-diff,20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT,CU,27725,14ymedio.com
+66,https://www.cibercuba.com/,2017-06-02 20:50:01,response_never_received,http-failure,20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT,CU,27725,cibercuba.com (https)
+0,https://www.cibercuba.com/,2019-01-24 05:06:03,,ok,20190124T050603Z_AS27725_6szhk0NRrmSNAgpQCOujQyQxABt1A5mGXCLCoHrOrsiWlId83d,CU,27725,cibercuba.com (https)
+1,http://www.cibercuba.com/,2019-01-24 05:07:57,,ok,20190124T050757Z_AS27725_wf5PUlzKiA77nJKJ3M0IhfCnzfI89zlz4djGyQ2M5pruGysoOg,CU,27725,cibercuba.com
+2,https://www.cubanet.org/,2019-01-24 05:09:28,,ok,20190124T050928Z_AS27725_5DnEjJZf82Cm6MLaoABsDdWOdZIizRF5hxcN9oSl61WYio8EMg,CU,27725,cubanet.org (https)
+4,https://www.revistaelestornudo.com/,2019-01-24 05:13:50,,ok,20190124T051350Z_AS27725_UIlFkztUXmnEYxZQu6PeRbTwflNnuQRVdLoFLH8xsAZIytaqPC,CU,27725,revistaelestornudo.com (https)
+3,http://www.revistaelestornudo.com/,2019-01-24 05:13:50,,ok,20190124T051350Z_AS27725_UIlFkztUXmnEYxZQu6PeRbTwflNnuQRVdLoFLH8xsAZIytaqPC,CU,27725,revistaelestornudo.com
+5,https://www.cubanet.org/,2019-02-05 01:08:36,,ok,20190205T030825Z_AS27725_EyYjqaMdBYgjE4DGQiOBTMRA55V71BGSuw5hL4k5dOtrErz06q,CU,27725,cubanet.org (https)
+56,http://www.tremendanota.com/,2019-02-24 22:34:35,generic_timeout_error,tcp_ip,20190224T223442Z_AS27725_Kpg6enTila9hdtmcqxeXlkTdk75kSTOmVYzPmjznq7j9YStwQj,CU,AS27725,tremendanota.com
+57,https://www.tremendanota.com/,2019-02-24 22:34:35,generic_timeout_error,tcp_ip,20190224T223442Z_AS27725_Kpg6enTila9hdtmcqxeXlkTdk75kSTOmVYzPmjznq7j9YStwQj,CU,AS27725,tremendanota.com (https)
+79,http://www.tremendanota.com/,2019-02-24 22:34:41,generic_timeout_error,tcp_ip,20190224T223442Z_AS27725_Kpg6enTila9hdtmcqxeXlkTdk75kSTOmVYzPmjznq7j9YStwQj,CU,27725,tremendanota.com
+78,https://www.tremendanota.com/,2019-02-24 22:34:41,generic_timeout_error,tcp_ip,20190224T223442Z_AS27725_Kpg6enTila9hdtmcqxeXlkTdk75kSTOmVYzPmjznq7j9YStwQj,CU,27725,tremendanota.com (https)
+277,https://www.cibercuba.com/,2019-02-24 23:20:17,connect_error,tcp_ip,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,AS27725,cibercuba.com (https)
+269,http://www.diariodecuba.com/,2019-02-24 23:20:17,,http-diff,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,AS27725,diariodecuba.com
+271,https://www.tremendanota.com/,2019-02-24 23:20:17,generic_timeout_error,tcp_ip,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,AS27725,tremendanota.com (https)
+273,https://www.revistaelestornudo.com/,2019-02-24 23:20:17,generic_timeout_error,http-failure,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,AS27725,revistaelestornudo.com (https)
+280,http://www.therealcuba.com/,2019-02-24 23:20:17,,http-diff,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,AS27725,therealcuba.com
+490,http://www.cubanet.org/,2019-02-24 23:20:17,generic_timeout_error,tcp_ip,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,AS27725,cubanet.org
+441,https://www.14ymedio.com/,2019-02-24 23:20:17,connect_error,tcp_ip,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,AS27725,14ymedio.com (https)
+430,http://www.14ymedio.com/,2019-02-24 23:20:17,connect_error,tcp_ip,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,AS27725,14ymedio.com
+289,http://www.tremendanota.com/,2019-02-24 23:20:17,generic_timeout_error,tcp_ip,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,AS27725,tremendanota.com
+410,http://therealcuba.com/,2019-02-24 23:20:17,,http-diff,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,AS27725,therealcuba.com
+491,https://www.cubanet.org/,2019-02-24 23:20:17,generic_timeout_error,tcp_ip,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,AS27725,cubanet.org (https)
+76,https://www.tremendanota.com/,2019-02-24 23:20:20,generic_timeout_error,tcp_ip,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,27725,tremendanota.com (https)
+77,http://www.diariodecuba.com/,2019-02-24 23:20:20,,http-diff,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,27725,diariodecuba.com
+74,https://www.cibercuba.com/,2019-02-24 23:20:20,connect_error,tcp_ip,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,27725,cibercuba.com (https)
+75,https://www.revistaelestornudo.com/,2019-02-24 23:20:29,generic_timeout_error,http-failure,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,27725,revistaelestornudo.com (https)
+72,http://www.tremendanota.com/,2019-02-24 23:21:46,generic_timeout_error,tcp_ip,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,27725,tremendanota.com
+73,http://www.therealcuba.com/,2019-02-24 23:21:52,,http-diff,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,27725,therealcuba.com
+71,http://therealcuba.com/,2019-02-24 23:27:12,,http-diff,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,27725,therealcuba.com
+70,http://www.14ymedio.com/,2019-02-24 23:27:35,connect_error,tcp_ip,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,27725,14ymedio.com
+69,https://www.14ymedio.com/,2019-02-24 23:28:33,connect_error,tcp_ip,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,27725,14ymedio.com (https)
+68,http://www.cubanet.org/,2019-02-24 23:33:14,generic_timeout_error,tcp_ip,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,27725,cubanet.org
+67,https://www.cubanet.org/,2019-02-24 23:33:17,generic_timeout_error,tcp_ip,20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j,CU,27725,cubanet.org (https)
+145,http://www.cubanet.org/,2019-02-25 00:36:04,generic_timeout_error,tcp_ip,20190225T003615Z_AS27725_aAspL0TowqmWe91bpGm84tCfnxYmTT9H4mXesCPAHK0W0ITdXX,CU,AS27725,cubanet.org
+137,https://www.14ymedio.com/,2019-02-25 00:36:04,connect_error,tcp_ip,20190225T003615Z_AS27725_aAspL0TowqmWe91bpGm84tCfnxYmTT9H4mXesCPAHK0W0ITdXX,CU,AS27725,14ymedio.com (https)
+135,http://www.14ymedio.com/,2019-02-25 00:36:04,connect_error,tcp_ip,20190225T003615Z_AS27725_aAspL0TowqmWe91bpGm84tCfnxYmTT9H4mXesCPAHK0W0ITdXX,CU,AS27725,14ymedio.com
+121,http://therealcuba.com/,2019-02-25 00:36:04,,http-diff,20190225T003615Z_AS27725_aAspL0TowqmWe91bpGm84tCfnxYmTT9H4mXesCPAHK0W0ITdXX,CU,AS27725,therealcuba.com
+113,http://www.therealcuba.com/,2019-02-25 00:36:04,generic_timeout_error,tcp_ip,20190225T003615Z_AS27725_aAspL0TowqmWe91bpGm84tCfnxYmTT9H4mXesCPAHK0W0ITdXX,CU,AS27725,therealcuba.com
+112,https://www.tremendanota.com/,2019-02-25 00:36:04,generic_timeout_error,tcp_ip,20190225T003615Z_AS27725_aAspL0TowqmWe91bpGm84tCfnxYmTT9H4mXesCPAHK0W0ITdXX,CU,AS27725,tremendanota.com (https)
+111,http://www.tremendanota.com/,2019-02-25 00:36:04,generic_timeout_error,tcp_ip,20190225T003615Z_AS27725_aAspL0TowqmWe91bpGm84tCfnxYmTT9H4mXesCPAHK0W0ITdXX,CU,AS27725,tremendanota.com
+146,https://www.cubanet.org/,2019-02-25 00:36:04,generic_timeout_error,tcp_ip,20190225T003615Z_AS27725_aAspL0TowqmWe91bpGm84tCfnxYmTT9H4mXesCPAHK0W0ITdXX,CU,AS27725,cubanet.org (https)
+110,http://www.diariodecuba.com/,2019-02-25 00:36:04,,http-diff,20190225T003615Z_AS27725_aAspL0TowqmWe91bpGm84tCfnxYmTT9H4mXesCPAHK0W0ITdXX,CU,AS27725,diariodecuba.com
+782,http://www.therealcuba.com/,2019-02-25 02:46:43,,http-diff,20190225T024651Z_AS27725_jCRTzes7fjxS1xHLa1LWLmu9sHUZkDGpykbWQXBEmFCN9TpgI0,CU,AS27725,therealcuba.com
+786,https://www.cibercuba.com/,2019-02-25 02:46:43,connect_error,tcp_ip,20190225T024651Z_AS27725_jCRTzes7fjxS1xHLa1LWLmu9sHUZkDGpykbWQXBEmFCN9TpgI0,CU,AS27725,cibercuba.com (https)
+780,https://www.tremendanota.com/,2019-02-25 02:46:43,generic_timeout_error,tcp_ip,20190225T024651Z_AS27725_jCRTzes7fjxS1xHLa1LWLmu9sHUZkDGpykbWQXBEmFCN9TpgI0,CU,AS27725,tremendanota.com (https)
+779,http://www.tremendanota.com/,2019-02-25 02:46:43,generic_timeout_error,tcp_ip,20190225T024651Z_AS27725_jCRTzes7fjxS1xHLa1LWLmu9sHUZkDGpykbWQXBEmFCN9TpgI0,CU,AS27725,tremendanota.com
+805,https://www.14ymedio.com/,2019-02-25 02:46:43,connect_error,tcp_ip,20190225T024651Z_AS27725_jCRTzes7fjxS1xHLa1LWLmu9sHUZkDGpykbWQXBEmFCN9TpgI0,CU,AS27725,14ymedio.com (https)
+804,http://www.14ymedio.com/,2019-02-25 02:46:43,connect_error,tcp_ip,20190225T024651Z_AS27725_jCRTzes7fjxS1xHLa1LWLmu9sHUZkDGpykbWQXBEmFCN9TpgI0,CU,AS27725,14ymedio.com
+787,http://www.cibercuba.com/,2019-02-25 02:46:43,connect_error,tcp_ip,20190225T024651Z_AS27725_jCRTzes7fjxS1xHLa1LWLmu9sHUZkDGpykbWQXBEmFCN9TpgI0,CU,AS27725,cibercuba.com
+815,http://www.cubanet.org/,2019-02-25 02:46:43,generic_timeout_error,tcp_ip,20190225T024651Z_AS27725_jCRTzes7fjxS1xHLa1LWLmu9sHUZkDGpykbWQXBEmFCN9TpgI0,CU,AS27725,cubanet.org
+816,https://www.cubanet.org/,2019-02-25 02:46:43,generic_timeout_error,tcp_ip,20190225T024651Z_AS27725_jCRTzes7fjxS1xHLa1LWLmu9sHUZkDGpykbWQXBEmFCN9TpgI0,CU,AS27725,cubanet.org (https)
+778,http://www.diariodecuba.com/,2019-02-25 02:46:43,,http-diff,20190225T024651Z_AS27725_jCRTzes7fjxS1xHLa1LWLmu9sHUZkDGpykbWQXBEmFCN9TpgI0,CU,AS27725,diariodecuba.com
+791,http://therealcuba.com/,2019-02-25 02:46:43,,http-diff,20190225T024651Z_AS27725_jCRTzes7fjxS1xHLa1LWLmu9sHUZkDGpykbWQXBEmFCN9TpgI0,CU,AS27725,therealcuba.com
+60,http://www.diariodecuba.com/,2019-02-25 05:28:13,,http-diff,20190225T052822Z_AS27725_4tOkn44FrS6JGjZWI4Yups76i3iDRuwQKnPrCs3Qm2Cz9vv3Lh,CU,AS27725,diariodecuba.com
+97,http://www.cubanet.org/,2019-02-25 05:28:13,dns_lookup_error,tcp_ip,20190225T052822Z_AS27725_4tOkn44FrS6JGjZWI4Yups76i3iDRuwQKnPrCs3Qm2Cz9vv3Lh,CU,AS27725,cubanet.org
+89,https://www.14ymedio.com/,2019-02-25 05:28:13,connect_error,tcp_ip,20190225T052822Z_AS27725_4tOkn44FrS6JGjZWI4Yups76i3iDRuwQKnPrCs3Qm2Cz9vv3Lh,CU,AS27725,14ymedio.com (https)
+88,http://www.14ymedio.com/,2019-02-25 05:28:13,connect_error,tcp_ip,20190225T052822Z_AS27725_4tOkn44FrS6JGjZWI4Yups76i3iDRuwQKnPrCs3Qm2Cz9vv3Lh,CU,AS27725,14ymedio.com
+74,http://therealcuba.com/,2019-02-25 05:28:13,,http-diff,20190225T052822Z_AS27725_4tOkn44FrS6JGjZWI4Yups76i3iDRuwQKnPrCs3Qm2Cz9vv3Lh,CU,AS27725,therealcuba.com
+70,http://www.cibercuba.com/,2019-02-25 05:28:13,connect_error,tcp_ip,20190225T052822Z_AS27725_4tOkn44FrS6JGjZWI4Yups76i3iDRuwQKnPrCs3Qm2Cz9vv3Lh,CU,AS27725,cibercuba.com
+67,https://www.cibercuba.com/,2019-02-25 05:28:13,connect_error,tcp_ip,20190225T052822Z_AS27725_4tOkn44FrS6JGjZWI4Yups76i3iDRuwQKnPrCs3Qm2Cz9vv3Lh,CU,AS27725,cibercuba.com (https)
+66,http://cafefuerte.com/,2019-02-25 05:28:13,,http-diff,20190225T052822Z_AS27725_4tOkn44FrS6JGjZWI4Yups76i3iDRuwQKnPrCs3Qm2Cz9vv3Lh,CU,AS27725,cafefuerte.com
+64,http://www.therealcuba.com/,2019-02-25 05:28:13,,http-diff,20190225T052822Z_AS27725_4tOkn44FrS6JGjZWI4Yups76i3iDRuwQKnPrCs3Qm2Cz9vv3Lh,CU,AS27725,therealcuba.com
+61,https://www.tremendanota.com/,2019-02-25 05:28:13,generic_timeout_error,tcp_ip,20190225T052822Z_AS27725_4tOkn44FrS6JGjZWI4Yups76i3iDRuwQKnPrCs3Qm2Cz9vv3Lh,CU,AS27725,tremendanota.com (https)
+99,https://www.cubanet.org/,2019-02-25 05:28:13,dns_lookup_error,tcp_ip,20190225T052822Z_AS27725_4tOkn44FrS6JGjZWI4Yups76i3iDRuwQKnPrCs3Qm2Cz9vv3Lh,CU,AS27725,cubanet.org (https)
+58,http://www.tremendanota.com/,2019-02-25 05:28:13,generic_timeout_error,tcp_ip,20190225T052822Z_AS27725_4tOkn44FrS6JGjZWI4Yups76i3iDRuwQKnPrCs3Qm2Cz9vv3Lh,CU,AS27725,tremendanota.com
+738,http://therealcuba.com/,2019-02-25 05:46:22,,http-diff,20190225T054633Z_AS27725_ZTSQgUwqZZJwTsZPrvHFTR0id6D7tgwTM0RO4axaFtAtUoBiVT,CU,AS27725,therealcuba.com
+730,https://www.cibercuba.com/,2019-02-25 05:46:22,connect_error,tcp_ip,20190225T054633Z_AS27725_ZTSQgUwqZZJwTsZPrvHFTR0id6D7tgwTM0RO4axaFtAtUoBiVT,CU,AS27725,cibercuba.com (https)
+764,https://www.cubanet.org/,2019-02-25 05:46:22,generic_timeout_error,tcp_ip,20190225T054633Z_AS27725_ZTSQgUwqZZJwTsZPrvHFTR0id6D7tgwTM0RO4axaFtAtUoBiVT,CU,AS27725,cubanet.org (https)
+763,http://www.cubanet.org/,2019-02-25 05:46:22,generic_timeout_error,tcp_ip,20190225T054633Z_AS27725_ZTSQgUwqZZJwTsZPrvHFTR0id6D7tgwTM0RO4axaFtAtUoBiVT,CU,AS27725,cubanet.org
+755,https://www.14ymedio.com/,2019-02-25 05:46:22,connect_error,tcp_ip,20190225T054633Z_AS27725_ZTSQgUwqZZJwTsZPrvHFTR0id6D7tgwTM0RO4axaFtAtUoBiVT,CU,AS27725,14ymedio.com (https)
+753,http://www.14ymedio.com/,2019-02-25 05:46:22,connect_error,tcp_ip,20190225T054633Z_AS27725_ZTSQgUwqZZJwTsZPrvHFTR0id6D7tgwTM0RO4axaFtAtUoBiVT,CU,AS27725,14ymedio.com
+736,http://www.cibercuba.com/,2019-02-25 05:46:22,connect_error,tcp_ip,20190225T054633Z_AS27725_ZTSQgUwqZZJwTsZPrvHFTR0id6D7tgwTM0RO4axaFtAtUoBiVT,CU,AS27725,cibercuba.com
+731,http://cafefuerte.com/,2019-02-25 05:46:22,,http-diff,20190225T054633Z_AS27725_ZTSQgUwqZZJwTsZPrvHFTR0id6D7tgwTM0RO4axaFtAtUoBiVT,CU,AS27725,cafefuerte.com
+728,http://www.therealcuba.com/,2019-02-25 05:46:22,,http-diff,20190225T054633Z_AS27725_ZTSQgUwqZZJwTsZPrvHFTR0id6D7tgwTM0RO4axaFtAtUoBiVT,CU,AS27725,therealcuba.com
+726,https://www.tremendanota.com/,2019-02-25 05:46:22,generic_timeout_error,tcp_ip,20190225T054633Z_AS27725_ZTSQgUwqZZJwTsZPrvHFTR0id6D7tgwTM0RO4axaFtAtUoBiVT,CU,AS27725,tremendanota.com (https)
+724,http://www.diariodecuba.com/,2019-02-25 05:46:22,,http-diff,20190225T054633Z_AS27725_ZTSQgUwqZZJwTsZPrvHFTR0id6D7tgwTM0RO4axaFtAtUoBiVT,CU,AS27725,diariodecuba.com
+722,http://www.tremendanota.com/,2019-02-25 05:46:22,generic_timeout_error,tcp_ip,20190225T054633Z_AS27725_ZTSQgUwqZZJwTsZPrvHFTR0id6D7tgwTM0RO4axaFtAtUoBiVT,CU,AS27725,tremendanota.com
+217,https://www.tremendanota.com/,2019-02-25 06:10:16,generic_timeout_error,tcp_ip,20190225T061029Z_AS27725_nfHT5SBpFkAjolLaSxb6ZSFWxrZp12CFbhVNaxu68tVmr8sZmQ,CU,AS27725,tremendanota.com (https)
+218,https://www.revistaelestornudo.com/,2019-02-25 06:10:16,,ok,20190225T061029Z_AS27725_nfHT5SBpFkAjolLaSxb6ZSFWxrZp12CFbhVNaxu68tVmr8sZmQ,CU,AS27725,revistaelestornudo.com (https)
+219,http://www.revistaelestornudo.com/,2019-02-25 06:10:16,,ok,20190225T061029Z_AS27725_nfHT5SBpFkAjolLaSxb6ZSFWxrZp12CFbhVNaxu68tVmr8sZmQ,CU,AS27725,revistaelestornudo.com
+221,http://www.therealcuba.com/,2019-02-25 06:10:16,,http-diff,20190225T061029Z_AS27725_nfHT5SBpFkAjolLaSxb6ZSFWxrZp12CFbhVNaxu68tVmr8sZmQ,CU,AS27725,therealcuba.com
+223,http://cafefuerte.com/,2019-02-25 06:10:16,,http-diff,20190225T061029Z_AS27725_nfHT5SBpFkAjolLaSxb6ZSFWxrZp12CFbhVNaxu68tVmr8sZmQ,CU,AS27725,cafefuerte.com
+231,http://therealcuba.com/,2019-02-25 06:10:16,,http-diff,20190225T061029Z_AS27725_nfHT5SBpFkAjolLaSxb6ZSFWxrZp12CFbhVNaxu68tVmr8sZmQ,CU,AS27725,therealcuba.com
+225,https://www.cibercuba.com/,2019-02-25 06:10:16,connect_error,tcp_ip,20190225T061029Z_AS27725_nfHT5SBpFkAjolLaSxb6ZSFWxrZp12CFbhVNaxu68tVmr8sZmQ,CU,AS27725,cibercuba.com (https)
+228,http://www.cibercuba.com/,2019-02-25 06:10:16,connect_error,tcp_ip,20190225T061029Z_AS27725_nfHT5SBpFkAjolLaSxb6ZSFWxrZp12CFbhVNaxu68tVmr8sZmQ,CU,AS27725,cibercuba.com
+256,http://www.cubanet.org/,2019-02-25 06:10:16,generic_timeout_error,tcp_ip,20190225T061029Z_AS27725_nfHT5SBpFkAjolLaSxb6ZSFWxrZp12CFbhVNaxu68tVmr8sZmQ,CU,AS27725,cubanet.org
+255,https://www.cubanet.org/,2019-02-25 06:10:16,generic_timeout_error,tcp_ip,20190225T061029Z_AS27725_nfHT5SBpFkAjolLaSxb6ZSFWxrZp12CFbhVNaxu68tVmr8sZmQ,CU,AS27725,cubanet.org (https)
+215,http://www.diariodecuba.com/,2019-02-25 06:10:16,,http-diff,20190225T061029Z_AS27725_nfHT5SBpFkAjolLaSxb6ZSFWxrZp12CFbhVNaxu68tVmr8sZmQ,CU,AS27725,diariodecuba.com
+213,http://www.tremendanota.com/,2019-02-25 06:10:16,generic_timeout_error,tcp_ip,20190225T061029Z_AS27725_nfHT5SBpFkAjolLaSxb6ZSFWxrZp12CFbhVNaxu68tVmr8sZmQ,CU,AS27725,tremendanota.com
+245,http://www.14ymedio.com/,2019-02-25 06:10:16,connect_error,tcp_ip,20190225T061029Z_AS27725_nfHT5SBpFkAjolLaSxb6ZSFWxrZp12CFbhVNaxu68tVmr8sZmQ,CU,AS27725,14ymedio.com
+247,https://www.14ymedio.com/,2019-02-25 06:10:16,connect_error,tcp_ip,20190225T061029Z_AS27725_nfHT5SBpFkAjolLaSxb6ZSFWxrZp12CFbhVNaxu68tVmr8sZmQ,CU,AS27725,14ymedio.com (https)
+44,https://www.cubanet.org/,2019-02-25 20:35:36,generic_timeout_error,tcp_ip,20190225T203548Z_AS27725_0wFUPBhBEyS2X3VB7MAcLV2FSfc1IFNBHP6btyiW6gsQSvHyQq,CU,AS27725,cubanet.org (https)
+37,https://www.14ymedio.com/,2019-02-25 20:35:36,connect_error,tcp_ip,20190225T203548Z_AS27725_0wFUPBhBEyS2X3VB7MAcLV2FSfc1IFNBHP6btyiW6gsQSvHyQq,CU,AS27725,14ymedio.com (https)
+33,http://www.14ymedio.com/,2019-02-25 20:35:36,connect_error,tcp_ip,20190225T203548Z_AS27725_0wFUPBhBEyS2X3VB7MAcLV2FSfc1IFNBHP6btyiW6gsQSvHyQq,CU,AS27725,14ymedio.com
+18,http://therealcuba.com/,2019-02-25 20:35:36,,http-diff,20190225T203548Z_AS27725_0wFUPBhBEyS2X3VB7MAcLV2FSfc1IFNBHP6btyiW6gsQSvHyQq,CU,AS27725,therealcuba.com
+14,http://www.cibercuba.com/,2019-02-25 20:35:36,connect_error,tcp_ip,20190225T203548Z_AS27725_0wFUPBhBEyS2X3VB7MAcLV2FSfc1IFNBHP6btyiW6gsQSvHyQq,CU,AS27725,cibercuba.com
+9,http://www.therealcuba.com/,2019-02-25 20:35:36,,http-diff,20190225T203548Z_AS27725_0wFUPBhBEyS2X3VB7MAcLV2FSfc1IFNBHP6btyiW6gsQSvHyQq,CU,AS27725,therealcuba.com
+8,https://www.cibercuba.com/,2019-02-25 20:35:36,connect_error,tcp_ip,20190225T203548Z_AS27725_0wFUPBhBEyS2X3VB7MAcLV2FSfc1IFNBHP6btyiW6gsQSvHyQq,CU,AS27725,cibercuba.com (https)
+7,http://www.revistaelestornudo.com/,2019-02-25 20:35:36,generic_timeout_error,http-failure,20190225T203548Z_AS27725_0wFUPBhBEyS2X3VB7MAcLV2FSfc1IFNBHP6btyiW6gsQSvHyQq,CU,AS27725,revistaelestornudo.com
+6,https://www.revistaelestornudo.com/,2019-02-25 20:35:36,generic_timeout_error,http-failure,20190225T203548Z_AS27725_0wFUPBhBEyS2X3VB7MAcLV2FSfc1IFNBHP6btyiW6gsQSvHyQq,CU,AS27725,revistaelestornudo.com (https)
+4,http://www.diariodecuba.com/,2019-02-25 20:35:36,,http-diff,20190225T203548Z_AS27725_0wFUPBhBEyS2X3VB7MAcLV2FSfc1IFNBHP6btyiW6gsQSvHyQq,CU,AS27725,diariodecuba.com
+2,https://www.tremendanota.com/,2019-02-25 20:35:36,generic_timeout_error,tcp_ip,20190225T203548Z_AS27725_0wFUPBhBEyS2X3VB7MAcLV2FSfc1IFNBHP6btyiW6gsQSvHyQq,CU,AS27725,tremendanota.com (https)
+42,http://www.cubanet.org/,2019-02-25 20:35:36,generic_timeout_error,tcp_ip,20190225T203548Z_AS27725_0wFUPBhBEyS2X3VB7MAcLV2FSfc1IFNBHP6btyiW6gsQSvHyQq,CU,AS27725,cubanet.org
+12,http://cafefuerte.com/,2019-02-25 20:35:36,,http-diff,20190225T203548Z_AS27725_0wFUPBhBEyS2X3VB7MAcLV2FSfc1IFNBHP6btyiW6gsQSvHyQq,CU,AS27725,cafefuerte.com
+1,http://www.tremendanota.com/,2019-02-25 20:35:36,generic_timeout_error,tcp_ip,20190225T203548Z_AS27725_0wFUPBhBEyS2X3VB7MAcLV2FSfc1IFNBHP6btyiW6gsQSvHyQq,CU,AS27725,tremendanota.com
+631,http://www.tremendanota.com/,2019-02-25 23:14:55,generic_timeout_error,tcp_ip,20190225T231511Z_AS27725_7P2hhC2L7wxQZQeqgw8XIuYqFXsSI7ffhkl2wNrhZ3fJXUE6yV,CU,AS27725,tremendanota.com
+672,http://www.cubanet.org/,2019-02-25 23:14:55,generic_timeout_error,tcp_ip,20190225T231511Z_AS27725_7P2hhC2L7wxQZQeqgw8XIuYqFXsSI7ffhkl2wNrhZ3fJXUE6yV,CU,AS27725,cubanet.org
+673,https://www.cubanet.org/,2019-02-25 23:14:55,generic_timeout_error,tcp_ip,20190225T231511Z_AS27725_7P2hhC2L7wxQZQeqgw8XIuYqFXsSI7ffhkl2wNrhZ3fJXUE6yV,CU,AS27725,cubanet.org (https)
+660,https://www.14ymedio.com/,2019-02-25 23:14:55,dns_lookup_error,tcp_ip,20190225T231511Z_AS27725_7P2hhC2L7wxQZQeqgw8XIuYqFXsSI7ffhkl2wNrhZ3fJXUE6yV,CU,AS27725,14ymedio.com (https)
+647,http://therealcuba.com/,2019-02-25 23:14:55,,http-diff,20190225T231511Z_AS27725_7P2hhC2L7wxQZQeqgw8XIuYqFXsSI7ffhkl2wNrhZ3fJXUE6yV,CU,AS27725,therealcuba.com
+643,http://www.cibercuba.com/,2019-02-25 23:14:55,connect_error,tcp_ip,20190225T231511Z_AS27725_7P2hhC2L7wxQZQeqgw8XIuYqFXsSI7ffhkl2wNrhZ3fJXUE6yV,CU,AS27725,cibercuba.com
+659,http://www.14ymedio.com/,2019-02-25 23:14:55,dns_lookup_error,tcp_ip,20190225T231511Z_AS27725_7P2hhC2L7wxQZQeqgw8XIuYqFXsSI7ffhkl2wNrhZ3fJXUE6yV,CU,AS27725,14ymedio.com
+637,http://www.therealcuba.com/,2019-02-25 23:14:55,,http-diff,20190225T231511Z_AS27725_7P2hhC2L7wxQZQeqgw8XIuYqFXsSI7ffhkl2wNrhZ3fJXUE6yV,CU,AS27725,therealcuba.com
+636,https://www.cibercuba.com/,2019-02-25 23:14:55,connect_error,tcp_ip,20190225T231511Z_AS27725_7P2hhC2L7wxQZQeqgw8XIuYqFXsSI7ffhkl2wNrhZ3fJXUE6yV,CU,AS27725,cibercuba.com (https)
+633,http://www.diariodecuba.com/,2019-02-25 23:14:55,,http-diff,20190225T231511Z_AS27725_7P2hhC2L7wxQZQeqgw8XIuYqFXsSI7ffhkl2wNrhZ3fJXUE6yV,CU,AS27725,diariodecuba.com
+632,https://www.tremendanota.com/,2019-02-25 23:14:55,generic_timeout_error,tcp_ip,20190225T231511Z_AS27725_7P2hhC2L7wxQZQeqgw8XIuYqFXsSI7ffhkl2wNrhZ3fJXUE6yV,CU,AS27725,tremendanota.com (https)
+640,http://cafefuerte.com/,2019-02-25 23:14:55,,http-diff,20190225T231511Z_AS27725_7P2hhC2L7wxQZQeqgw8XIuYqFXsSI7ffhkl2wNrhZ3fJXUE6yV,CU,AS27725,cafefuerte.com
+882,https://www.cibercuba.com/,2019-02-25 23:34:36,dns_lookup_error,tcp_ip,20190225T233443Z_AS27725_oxotLOFd2f7sMx8T9hhQ1pnTtQwjUH7o4F00qEuDrp1jWMzO7v,CU,AS27725,cibercuba.com (https)
+881,https://www.tremendanota.com/,2019-02-25 23:34:36,generic_timeout_error,tcp_ip,20190225T233443Z_AS27725_oxotLOFd2f7sMx8T9hhQ1pnTtQwjUH7o4F00qEuDrp1jWMzO7v,CU,AS27725,tremendanota.com (https)
+880,http://www.diariodecuba.com/,2019-02-25 23:34:36,,http-diff,20190225T233443Z_AS27725_oxotLOFd2f7sMx8T9hhQ1pnTtQwjUH7o4F00qEuDrp1jWMzO7v,CU,AS27725,diariodecuba.com
+877,http://www.tremendanota.com/,2019-02-25 23:34:36,generic_timeout_error,tcp_ip,20190225T233443Z_AS27725_oxotLOFd2f7sMx8T9hhQ1pnTtQwjUH7o4F00qEuDrp1jWMzO7v,CU,AS27725,tremendanota.com
+885,http://cafefuerte.com/,2019-02-25 23:34:36,,http-diff,20190225T233443Z_AS27725_oxotLOFd2f7sMx8T9hhQ1pnTtQwjUH7o4F00qEuDrp1jWMzO7v,CU,AS27725,cafefuerte.com
+883,http://www.therealcuba.com/,2019-02-25 23:34:36,,http-diff,20190225T233443Z_AS27725_oxotLOFd2f7sMx8T9hhQ1pnTtQwjUH7o4F00qEuDrp1jWMzO7v,CU,AS27725,therealcuba.com
+687,http://www.diariodecuba.com/,2019-02-26 00:16:35,,http-diff,20190226T001655Z_AS27725_ik38loeCZFuMCpRTIv89050PuFyR2MU9UROnShKXbhZKdzdPEB,CU,AS27725,diariodecuba.com
+692,http://www.therealcuba.com/,2019-02-26 00:16:35,,http-diff,20190226T001655Z_AS27725_ik38loeCZFuMCpRTIv89050PuFyR2MU9UROnShKXbhZKdzdPEB,CU,AS27725,therealcuba.com
+691,https://www.cibercuba.com/,2019-02-26 00:16:35,connect_error,tcp_ip,20190226T001655Z_AS27725_ik38loeCZFuMCpRTIv89050PuFyR2MU9UROnShKXbhZKdzdPEB,CU,AS27725,cibercuba.com (https)
+690,http://www.cibercuba.com/,2019-02-26 00:16:35,connect_error,tcp_ip,20190226T001655Z_AS27725_ik38loeCZFuMCpRTIv89050PuFyR2MU9UROnShKXbhZKdzdPEB,CU,AS27725,cibercuba.com
+685,http://www.tremendanota.com/,2019-02-26 00:16:35,generic_timeout_error,tcp_ip,20190226T001655Z_AS27725_ik38loeCZFuMCpRTIv89050PuFyR2MU9UROnShKXbhZKdzdPEB,CU,AS27725,tremendanota.com
+688,https://www.tremendanota.com/,2019-02-26 00:16:35,generic_timeout_error,tcp_ip,20190226T001655Z_AS27725_ik38loeCZFuMCpRTIv89050PuFyR2MU9UROnShKXbhZKdzdPEB,CU,AS27725,tremendanota.com (https)
+200,https://www.cubanet.org/,2019-02-26 02:04:59,generic_timeout_error,tcp_ip,20190226T020511Z_AS27725_Iz9kwdd5NgF3jVSdIVVAokJkMyVo01UGMHqnhvxHuY3dBu8Cie,CU,AS27725,cubanet.org (https)
+199,http://www.cubanet.org/,2019-02-26 02:04:59,generic_timeout_error,tcp_ip,20190226T020511Z_AS27725_Iz9kwdd5NgF3jVSdIVVAokJkMyVo01UGMHqnhvxHuY3dBu8Cie,CU,AS27725,cubanet.org
+191,https://www.14ymedio.com/,2019-02-26 02:04:59,connect_error,tcp_ip,20190226T020511Z_AS27725_Iz9kwdd5NgF3jVSdIVVAokJkMyVo01UGMHqnhvxHuY3dBu8Cie,CU,AS27725,14ymedio.com (https)
+189,http://www.14ymedio.com/,2019-02-26 02:04:59,connect_error,tcp_ip,20190226T020511Z_AS27725_Iz9kwdd5NgF3jVSdIVVAokJkMyVo01UGMHqnhvxHuY3dBu8Cie,CU,AS27725,14ymedio.com
+165,http://www.cibercuba.com/,2019-02-26 02:04:59,connect_error,tcp_ip,20190226T020511Z_AS27725_Iz9kwdd5NgF3jVSdIVVAokJkMyVo01UGMHqnhvxHuY3dBu8Cie,CU,AS27725,cibercuba.com
+174,http://therealcuba.com/,2019-02-26 02:04:59,,http-diff,20190226T020511Z_AS27725_Iz9kwdd5NgF3jVSdIVVAokJkMyVo01UGMHqnhvxHuY3dBu8Cie,CU,AS27725,therealcuba.com
+169,http://cafefuerte.com/,2019-02-26 02:04:59,,http-diff,20190226T020511Z_AS27725_Iz9kwdd5NgF3jVSdIVVAokJkMyVo01UGMHqnhvxHuY3dBu8Cie,CU,AS27725,cafefuerte.com
+167,https://www.therealcuba.com/,2019-02-26 02:04:59,http_parser_error,http-failure,20190226T020511Z_AS27725_Iz9kwdd5NgF3jVSdIVVAokJkMyVo01UGMHqnhvxHuY3dBu8Cie,CU,AS27725,therealcuba.com (https)
+157,http://www.tremendanota.com/,2019-02-26 02:04:59,generic_timeout_error,tcp_ip,20190226T020511Z_AS27725_Iz9kwdd5NgF3jVSdIVVAokJkMyVo01UGMHqnhvxHuY3dBu8Cie,CU,AS27725,tremendanota.com
+159,http://www.diariodecuba.com/,2019-02-26 02:04:59,,http-diff,20190226T020511Z_AS27725_Iz9kwdd5NgF3jVSdIVVAokJkMyVo01UGMHqnhvxHuY3dBu8Cie,CU,AS27725,diariodecuba.com
+161,https://www.tremendanota.com/,2019-02-26 02:04:59,generic_timeout_error,tcp_ip,20190226T020511Z_AS27725_Iz9kwdd5NgF3jVSdIVVAokJkMyVo01UGMHqnhvxHuY3dBu8Cie,CU,AS27725,tremendanota.com (https)
+162,http://www.cibercuba.com/,2019-02-26 02:04:59,connect_error,tcp_ip,20190226T020511Z_AS27725_Iz9kwdd5NgF3jVSdIVVAokJkMyVo01UGMHqnhvxHuY3dBu8Cie,CU,AS27725,cibercuba.com
+164,http://www.therealcuba.com/,2019-02-26 02:04:59,,http-diff,20190226T020511Z_AS27725_Iz9kwdd5NgF3jVSdIVVAokJkMyVo01UGMHqnhvxHuY3dBu8Cie,CU,AS27725,therealcuba.com
+163,https://www.cibercuba.com/,2019-02-26 02:04:59,connect_error,tcp_ip,20190226T020511Z_AS27725_Iz9kwdd5NgF3jVSdIVVAokJkMyVo01UGMHqnhvxHuY3dBu8Cie,CU,AS27725,cibercuba.com (https)
