@@ -38,7 +38,7 @@ Through the analysis of recent [OONI measurements](https://explorer.ooni.io/coun
 
 ![](/post/cuba-referendum/CubaMediaBlocking.png)
 
-**Source:**Open Observatory of Network Interference (OONI) measurements: Cuba, [https://explorer.ooni.io/country/CU](https://explorer.ooni.io/country/CU) 
+**Source:** Open Observatory of Network Interference (OONI) measurements: Cuba, [https://explorer.ooni.io/country/CU](https://explorer.ooni.io/country/CU) 
 
 The above graph shows how the blocking of media websites in Cuba changed over time (since May 2017).
 
@@ -46,14 +46,14 @@ Previously, Cuba’s telecommunications company (ETECSA) [mainly blocked the HTT
 
 Now, we observe that ETECSA has **changed its censorship techniques**, blocking both the HTTP and HTTPS version of sites by means of **IP blocking**. More specifically, ETECSA:
 
-*   Has** shifted from serving blank block pages to implementing IP-based blocking** (for sites that support HTTPS, such as 14ymedio.com).
-*   Continues to serve blank block pagesfor sites that have not added HTTPS support (such as diariodecuba.com).
-*   Has shifted to IP-based blocking for sites (such as cibercuba.com and cubanet.org) that previously appeared to be blocked by means of DPI.
+* Has **shifted from serving blank block pages to implementing IP-based blocking** (for sites that support HTTPS, such as 14ymedio.com).
+* Continues to serve blank block pagesfor sites that have not added HTTPS support (such as diariodecuba.com).
+* Has shifted to IP-based blocking for sites (such as cibercuba.com and cubanet.org) that previously appeared to be blocked by means of DPI.
 
 Both cibercuba.com and cubanet.org appear to have temporarily been unblocked (as demonstrated by the accessible measurements from January and early February 2019), suggesting that ETECSA may have made some changes to their censorship equipment around that time.
 
 Our analysis of [OONI measurements](https://explorer.ooni.io/country/CU), used to produce the above chart, is available [here](/post/cuba-referendum/20190226-cuba-report-measurements.csv).
 
-The OONI website (ooni.io) has been [blocked](https://explorer.ooni.io/measurement/20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j?input=https:%2F%2Fooni.io%2F)in Cuba as well by means of IP blocking, yet ooni.torproject.org is still [accessible](https://explorer.ooni.io/measurement/20190225T233901Z_AS27725_WPUkyBF7sttLnVLyPkXngqI2lSIa4Q7kCTDaTcMhyOO3Bi7FEi?input=https:%2F%2Fooni.torproject.org%2F).
+The OONI website (ooni.io) has been [blocked](https://explorer.ooni.io/measurement/20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j?input=https:%2F%2Fooni.io%2F) in Cuba as well by means of IP blocking, yet ooni.torproject.org is still [accessible](https://explorer.ooni.io/measurement/20190225T233901Z_AS27725_WPUkyBF7sttLnVLyPkXngqI2lSIa4Q7kCTDaTcMhyOO3Bi7FEi?input=https:%2F%2Fooni.torproject.org%2F).
 
 We thank all the OONI Probe users in Cuba who made this study possible.
