@@ -1,0 +1,1 @@
+<a class="ooni-btn" href="https://run.ooni.io/nettest?tn=web_connectivity&mv=1.2.0&{{ dict "urls" (split (trim .Inner "\n") "\n") | jsonify | querify "ta" }}">{{ .Get "text" }}</a>
