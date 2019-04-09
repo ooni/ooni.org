@@ -9,6 +9,22 @@ To measure the blocking of websites:
 Note: These tests require turning off VPNs.
 
 {{<oonirunurls text="Test Social Media (13 urls)">}}
+https://www.skype.com/
+https://www.linkedin.com/
+https://twitter.com/
+https://web.whatsapp.com/
+https://www.facebook.com/
+https://hangouts.google.com/
+https://www.snapchat.com/
+https://www.instagram.com/
+https://www.truecaller.com/
+https://www.viber.com/
+https://line.me/
+https://www.tumblr.com/
+https://www.youtube.com/
+{{</oonirunurls>}}
+
+{{<oonirunurls text="Test VPNs (11 urls)">}}
 https://www.torproject.org/
 https://psiphon.ca/
 https://getlantern.org/
