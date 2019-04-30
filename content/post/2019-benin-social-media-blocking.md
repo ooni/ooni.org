@@ -12,7 +12,7 @@ In this report, the [Open Observatory of Network Interference (OONI)](https://oo
 
 * [Background](#background)
 
-* [Social media blocking)(#social-media-blocking)
+* [Social media blocking](#social-media-blocking)
 
   * [OONI measurements](#ooni-measurements)
   
