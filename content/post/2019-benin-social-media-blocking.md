@@ -82,19 +82,11 @@ As of 29th April 2019, the [RIPE Atlas measurements platform](https://atlas.ripe
 
 Since HTTP queries are only enabled on RIPE Atlas anchors (none of which are hosted in Benin), we launched traceroutes from all online RIPE Atlas probes in the country towards the landing webpages of social media, such as [whatsapp.com](https://www.whatsapp.com/), [instagram.com](https://www.instagram.com/), [wechat.com](https://www.wechat.com/), [messenger.com](https://www.messenger.com/), [facebook.com](https://facebook.com/). The measurements cover the period April 28, 2019 at 07:04 UTC to April 30, 2019 at 05:19 UTC. The results of these measurements reflect the connectivity on the IP/network layer (and not on the application layer) from the host Autonomous System (AS).
 
-For whatsapp.com, we could not collect any successful measurement outputs from Probe 32381 (Figure 5A) until the end of that period (name resolution failed on the node). By contrast, the results from Probe 11944 hosted in [AS37090](http://as-rank.caida.org/asns/?name=37090&type=search) exhibit a median of 113.45 ms to the destination from April 28, 2019 at 7:12 to 10:11 UTC. From 10:11 UTC to 12:04 UTC, all traceroutes did not reach the target, suggesting that the blocking affected the network layer.
+For whatsapp.com, we could not collect any successful measurement outputs from Probe 32381 (top graph in Figure 5) until the end of that period (name resolution failed on the node). By contrast, the results from Probe 11944, hosted in [AS37090](http://as-rank.caida.org/asns/?name=37090&type=search), were successful (with a median of 113.45 ms) from April 28, 2019 at 7:12 to 10:11 UTC but stopped reaching the target from 10:11 UTC to 12:04 UTC, suggesting that the blocking affected the network layer.
 
-Then followed a period (12:04 UTC to 15:13 UTC) during which RTTs to the same destination decreased from 107.72 ms to 0 ms, depicting a short period where packets could be transmitted: as less and less wired clients can reach the destination, packets sent by the probes move faster through the physical links and thus, the destination look closer until it is unreachable again. From April 28, 2019 at 15:13 UTC to April 29, 2019 at 05: 04 UTC, the probe could not reach the destination IP or was fully disconnected again on the IP layer. This corresponds to the biggest period of the blackout (presented in the following Internet blackout section).  
+Then followed a period (12:04 UTC to 15:13 UTC) during which RTTs to the same destination gradually decreased from 107.72 ms to 0 ms, indicating that during a short period packets could be transmitted. From April 28, 2019 at 15:13 UTC to April 29, 2019 at 05: 04 UTC, the probe could not reach the destination IP or was fully disconnected again on the IP layer. This corresponds to the biggest period of the blackout (presented in the following Internet blackout section). Traceroutes were only successful again starting from April 29, 2019 at 05:04 UTC.
 
-Traceroutes were only successful again starting from April 29, 2019 at 05:04 UTC with:
-
-* Fluctuations between a median RTT of 0ms to 108.22ms / 103.67ms (till 11:22 UTC)
-* A median of 108.3ms - 107.04ms showing that the destination is reachable again
-* A slight period of packet loss during which 3 out of 4 packets were received by the destination IP (April 29, 2019 22:41 to April 29, 2019 23:57 UTC).
-
-Interestingly, the patterns registered for probe 11944 when it comes to traceroutes towards the landing webpages of instagram.com, wechat.com, www.messenger.com, www.google.com, Google DNS, showing that the Internet outage is experienced by the source AS (ISOCEL).  
-
-Legend
+Interestingly, the patterns registered for Probe 11944 when it comes to traceroutes towards the landing webpages of instagram.com (Figure 6), wechat.com (Figure 7), www.messenger.com (Figure 8), www.google.com (Figure 9), Google DNS (Figure 10 and 11), show that the Internet outage is experienced by the source AS (ISOCEL).
 
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-1.png)
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-2.png)
@@ -116,7 +108,7 @@ Legend
 
 **Figure 9:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to [www.google.com](http://www.wechat.com), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21083844](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
 
-Compared to those of probe 32381, they are mostly consistent except for the interval of time between ~12:00 UTC - 00:00 UTC, which is the time during which there was an Internet outage. These results are confirmed by in-depth inspections carried out on AS paths inferred from the traceroute outputs. They suggest that ASes ISOCEL on one side, JENY-AS and Spacetel experience the shutdown differently.
+Compared to those of Probe 32381, they are mostly consistent, except for the interval of time between ~12:00 UTC - 00:00 UTC, which is the time during which there was an Internet outage. These results are confirmed by in-depth inspection carried out on AS paths inferred from the traceroute outputs. They suggest that ASes ISOCEL on one side, JENY-AS and Spacetel experience the shutdown differently.
 
 Measurements from Probe 11944, which are gathered from AS37090, are consistent with OONI Probe measurements in the previous section, confirming the accessibility of these services on ISOCEL Telecom.
 
@@ -132,13 +124,13 @@ Measurements from Probe 11944, which are gathered from AS37090, are consistent w
 
 **Figure 12:** RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to 1.1.1.1 (Quad9) depicting that BENIN-IX was mostly UP on election day and that the shutdown did not occur there and proving that each network implemented/suffered from the blackout differently.  [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21084227](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
 
-Below some conclusions from the comparison of these results:
+We can deduce the following from comparing these figures:
 
 1. ISOCEL end-users clearly suffer a shutdown on election day, because its network did.
 2. Meanwhile, the destinations of our measurements were all reachable from JENY-AS and Spacetel: The sibling of Spacetel AS16637 was reachable from both ASes on the IP layer, while landing webpages from social media were not.
 3. There was a period (00:00 UTC to 06:00 UTC) where ISOCEL was experiencing a blackout on the IP layer, while Spacetel was not.
 4. Both networks are again connected to the Internet since early April 29, 2019 roughly at 06:00.
-5. The Internet Exchange point switch was UP during the whole period of the blocking campaign.
+5. The Internet Exchange point switch was UP during the whole period of the blocking campaign (Figure 12).
 
 ## Internet blackout
 
@@ -158,7 +150,7 @@ Data from IODA provides insight into Internet disruptions affecting entire count
 
 IODA data shows that an Internet blackout occurred in Benin during the elections, on 28th April 2019.
 
-The following figures show the time series for the three data sources that IODA monitors for IP addresses belonging to different aggregates of addresses in Benin. Figure 13, below, shows the time series curves for the three data sources for all addresses in Benin.
+The following figures show the time series for the three data sources that IODA monitors for IP addresses belonging to different aggregates of addresses in Benin.
 
 ![](/post/2019-benin-social-media-blocking/ioda-1.png)
 
@@ -166,7 +158,7 @@ The following figures show the time series for the three data sources that IODA 
 
 [https://ioda.caida.org/ioda/dashboard#view=inspect&entity=country/BJ&lastView=overview&from=1556385008&until=1556557928](https://ioda.caida.org/ioda/dashboard#view=inspect&entity=country/BJ&lastView=overview&from=1556385008&until=1556557928)
 
-All three time series indicate the occurrence of a significant Internet blackout. The figure shows that the outage began at around 10 AM UTC on 28th April 2019 (the day of the election). By around 6 AM UTC on the next day, 29th April 2019, the time series for all data sources suggest that the Internet blackout in Benin ended.
+In Figure 13, all three time series indicate the occurrence of a significant Internet blackout. The figure shows that the outage began at around 10 AM UTC on 28th April 2019 (the day of the election). By around 6 AM UTC on the next day, 29th April 2019, the time series for all data sources suggest that the Internet blackout in Benin ended.
 
 Figures 14, 15, 16 and 17 below show the occurrences of Internet blackout events in four large ASes in Benin.
 
@@ -194,14 +186,14 @@ Figures 14, 15, 16 and 17 below show the occurrences of Internet blackout events
 
 [https://ioda.caida.org/ioda/dashboard#lastView=overview&view=inspect&entity=asn/328098&from=1556385000&until=1556558400](https://ioda.caida.org/ioda/dashboard#lastView=overview&view=inspect&entity=asn/328098&from=1556385000&until=1556558400)
 
-The figures show that the blackout events began at roughly the same time (around 10 AM UTC) in all the ASes. However, the Internet blackouts ended at different times, suggesting that individual ASes implemented shutdowns in their networks independently of each other.
+The figures show that the blackout events began at roughly the same time (around 10 AM UTC) in all the four ASes. However, one of them seems to have recovered connectivity few hours later than the others, suggesting that individual ASes might have implemented shutdowns in their networks independently of each other.
 
-Figures 15 and 16 show that the blackout ended in AS28683 and AS37424 before midnight UTC on 29th April 2019, whereas the blackout ended in AS37090 at around 6 AM UTC. We also observe differences in how the blackout events manifest in IODA’s data sources. AS37090 and AS37424 see a significant drop in BGP-visible /24 blocks at the beginning of the outage. However, AS37090’s visible /24 blocks curve briefly reattains prior values before dropping again. AS28683, on the other hand, observes only a drop in its active-probing curve initially.
+Figures 11 and 12 show that the blackout ended in AS28683 and AS37424 before midnight UTC on 29th April 2019, whereas the blackout ended in AS37090 at around 6 AM UTC. We also observe differences in how the blackout events manifest in IODA’s data sources. AS37090 and AS37424 see a significant drop in BGP-visible /24 blocks at the beginning of the outage. However, AS37090’s visible /24 blocks curve briefly reattains prior values before dropping again. AS28683, on the other hand, experiences only a drop in its active-probing curve initially.
 
 In summary: 
 
-* Four different large ASes in Benin had blackouts. These blackouts were not limited to a single AS; instead, many large ASes in Benin experienced blackouts.
-* The blackouts begin at more or less the same time, but end at different times for each ISP, suggesting that ASes implemented the blackout using different techniques.
-* Each ISP's blackout has a different signature in IODA's data sources; for some, the blackout is visible in the BGP data source first whereas for others, the blackout is visible in the active probing data source first. This again suggests that ASes implemented the blackout using different techniques. If ISPs are implementing blackouts differently, there could be opportunities for circumvention. For example, since the blackout ended in AS37424 around 6 hours before it ended in AS37090, the latter's customers may have been able to use a VPN to access the Internet via the former.
+* Four different large ASes in Benin had blackouts.  These blackouts were not limited to a single AS; instead, many large ASes in Benin experienced blackouts.
+* The blackouts begin at roughly the same time, but end at different times, it’s therefore possible that ASes implemented the blackout independently.
+* Each AS’s blackout has a different signature in IODA's data sources; for some, the blackout is visible in the BGP data source first whereas for others, the blackout is visible in the active probing data source first.
 
 MTN Benin (AS37424) [acknowledged the Internet disruptions](https://beninwebtv.com/2019/04/coupure-dinternet-au-benin-mtn-sort-de-sa-reserve-des-remboursements-annonces/) on 28th April 2019, but declined all responsibility, promising to reimburse its clients.
