@@ -118,17 +118,19 @@ Measurement from Probe 11944, which are gathered from AS37090 are consistent wit
 
 **Figure 12:** RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to 1.1.1.1 (Quad9) depicting that BENIN-IX was mostly UP on election day and that the shutdown did not occur there and proving that each network implemented/suffered from the blackout differently.  [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21084227](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
 
-Below the conclusions from the comparison these results:
+Below the conclusions from the comparison of these results:
 
-1.  ISOCEL end-users clearly suffer a shutdown on election day, because its network did.
-2.  Meanwhile, the destinations of our measurements were all reachable from JENY-AS and Spacetel: The sibling of Spacetel AS16637 was reachable from both ASes.
-3.  There was a period () where ISOCEL was suffering a blackout on the IP layer and MTN was not.
-4.  Both networks are again connected to the Internet since early April 29, 2019
-5.  The Internet Exchange point switch was UP during the whole period of the campaign.
+1. ISOCEL end-users clearly suffer a shutdown on election day, because its network did.
+2. Meanwhile, the destinations of our measurements were all reachable from JENY-AS and Spacetel: The sibling of Spacetel AS16637 was reachable from both ASes on the IP layer, while landing webpages from social media were not.
+3. There was a period (00:00 UTC to 06:00 UTC) where ISOCEL was experiencing a blackout on the IP layer while Spacetel was not.
+4. Both networks are again connected to the Internet since early April 29, 2019 roughly at 06:00
+5. The Internet Exchange point switch was UP during the whole period of the campaign.
+
+## Internet blackout
 
 IODA detected significant Internet blackouts affecting Benin on 28th and 29th April 2019\. IODA’s data sources further show that these blackouts were not limited to a single AS; instead, many large ASes in Benin experienced blackouts.
 
-## About IODA
+### About IODA
 
 The [Center for Applied Internet Data Analysis (CAIDA)](https://www.caida.org/home/)runs a project called [IODA](https://ioda.caida.org/) (short for Internet Outage Detection and Analysis), which monitors the Internet, in near-realtime, to identify macroscopic Internet outages, affecting the edge of the network (i.e. significantly impacting an AS or a large fraction of a country). IODA does so using three complementary data sources:
 
@@ -138,7 +140,7 @@ The [Center for Applied Internet Data Analysis (CAIDA)](https://www.caida.org/ho
 
 Data from IODA provides insight into Internet disruptions affecting entire countries, as well as the granularity required for identifying disruptions only affecting certain networks or regions within countries.
 
-## Internet blackout in Benin
+### Internet blackout in Benin
 
 IODA data shows that an Internet blackout occurred in Benin during the elections, on 28th April 2019\.
 
