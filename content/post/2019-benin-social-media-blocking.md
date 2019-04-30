@@ -8,23 +8,37 @@ categories: ["report"]
 
 Two days ago, social media was [reportedly](https://netblocks.org/reports/internet-blocked-in-benin-on-election-day-aAwqknyM) blocked and access to the Internet was shutdown in Benin during its 2019 parliamentary elections.
 
-In this report, the [Open Observatory of Network Interference (OONI)](https://ooni.io/)and the [Center for Applied Internet Data Analysis (CAIDA)](https://www.caida.org/)teams share [OONI](https://api.ooni.io/files/by_country/BJ), [IODA](https://ioda.caida.org/ioda/dashboard#view=inspect&entity=country/BJ&lastView=overview&from=1556385008&until=1556557928), and [Ripe Atlas](https://atlas.ripe.net/) network measurement data that corroborate and provide insight into these recent censorship events in Benin.
+In this report, the [Open Observatory of Network Interference (OONI)](https://ooni.io/)and the [Center for Applied Internet Data Analysis (CAIDA)](https://www.caida.org/) teams share [OONI](https://api.ooni.io/files/by_country/BJ), [IODA](https://ioda.caida.org/ioda/dashboard#view=inspect&entity=country/BJ&lastView=overview&from=1556385008&until=1556557928), and [Ripe Atlas](https://atlas.ripe.net/) network measurement data that corroborate and provide insight into these recent censorship events in Benin.
 
-## Background
+* [Background](#background)
+
+* [Social media blocking)(#social-media-blocking)
+
+  * [OONI measurements](#ooni-measurements)
+  
+  * [RIPE Atlas measurements](#ripe-atlas-measurements)
+
+* [Internet blackout](#internet-blackout)
+
+  * [About IODA](#about-ioda)
+  
+  * [Internet blackout in Benin](#internet-blackout-in-benin)
+
+# Background
 
 On 28th April 2019, the West African country [Republic of Benin](https://en.wikipedia.org/wiki/Benin), although [known as one of Africa’s most stable democracies](https://www.bbc.com/news/world-africa-13037572) since 1990, had [parliamentary elections with no opposition candidates](https://www.aljazeera.com/news/2019/04/opposition-candidates-benin-votes-general-election-190428080718093.html).
 
-Last month, the electoral authorities, namely the Autonomous National Electoral Commission ([CENA](https://www.cena.bj/en/)), [ruled](https://www.bbc.com/news/world-africa-48084124)that only two parties out of seven (Le Bloc Republicain - BR - and Union Progressiste - UP) were eligible - both loyal to President Talon. Despite [several attempts for dialogue](https://www.youtube.com/watch?v=Tofb2QeoACQ), [a crackdown on protests (followed by a wave of arrests)](https://www.amnesty.org/en/latest/news/2019/04/benin-crackdown-on-protests-and-wave-of-arrests-fuel-tense-election-period/) and [calls to stop the electoral process](https://www.banouto.info/article/politique/20190422-bnin-lgislatives-2019-nouvel-appel-des-ex-prsidents-soglo-et-yayi--talon/), electoral authorities moved forward ([with the support of the government](https://www.youtube.com/watch?v=yn0SpmLB-4s) and that of [the presidents of local institutions](https://www.beninespoir.com/benin-rencontre-du-chef-de-letat-avec-les-presidents-des-institutions/)) and [Benin voters went to the polls in an election with only one choice.](https://www.dw.com/en/benin-goes-to-the-polls-in-an-election-with-only-one-choice/a-48520955) 
+Last month, the electoral authorities, namely the Autonomous National Electoral Commission ([CENA](https://www.cena.bj/en/)), [ruled](https://www.bbc.com/news/world-africa-48084124) that only two parties out of seven (Le Bloc Republicain - BR - and Union Progressiste - UP) were eligible - both loyal to President Talon. Despite [several attempts for dialogue](https://www.youtube.com/watch?v=Tofb2QeoACQ), [a crackdown on protests (followed by a wave of arrests)](https://www.amnesty.org/en/latest/news/2019/04/benin-crackdown-on-protests-and-wave-of-arrests-fuel-tense-election-period/) and [calls to stop the electoral process](https://www.banouto.info/article/politique/20190422-bnin-lgislatives-2019-nouvel-appel-des-ex-prsidents-soglo-et-yayi--talon/), electoral authorities moved forward ([with the support of the government](https://www.youtube.com/watch?v=yn0SpmLB-4s) and that of [the presidents of local institutions](https://www.beninespoir.com/benin-rencontre-du-chef-de-letat-avec-les-presidents-des-institutions/)) and [Benin voters went to the polls in an election with only one choice.](https://www.dw.com/en/benin-goes-to-the-polls-in-an-election-with-only-one-choice/a-48520955) 
 
-In the early hours of the election day, on 28th April 2019, access to social media was [reportedly](https://qz.com/africa/1606670/benin-shuts-internet-blocks-whatsapp-facebook-ahead-of-election/)blocked in the country. A few hours later, there was [reportedly](https://netblocks.org/reports/internet-blocked-in-benin-on-election-day-aAwqknyM) a complete internet blackout. Benin thus joined the [group of African countries in which the Internet was reportedly shutdown on an election day](https://qz.com/africa/696552/more-african-countries-are-blocking-internet-access-during-elections/) (such as [Uganda](https://ooni.io/post/uganda-social-media-blocked/) and [The Gambia](https://ooni.io/post/gambia-internet-shutdown/)).
+In the early hours of the election day, on 28th April 2019, access to social media was [reportedly](https://qz.com/africa/1606670/benin-shuts-internet-blocks-whatsapp-facebook-ahead-of-election/) blocked in the country. A few hours later, there was [reportedly](https://netblocks.org/reports/internet-blocked-in-benin-on-election-day-aAwqknyM) a complete internet blackout. Benin thus joined the [group of African countries in which the Internet was reportedly shutdown on an election day](https://qz.com/africa/696552/more-african-countries-are-blocking-internet-access-during-elections/) (such as [Uganda](https://ooni.io/post/uganda-social-media-blocked/) and [The Gambia](https://ooni.io/post/gambia-internet-shutdown/)).
 
-In the following sections of this report, we share [OONI](https://api.ooni.io/files/by_country/BJ) and [IODA](https://ioda.caida.org/ioda/dashboard#view=inspect&entity=country/BJ&lastView=overview&from=1556385008&until=1556557928) network measurement data on the blocking of social media in Benin and the subsequent internet outage. We augment these timely results with those of publicly available [RIPE Atlas](https://atlas.ripe.net/) measurements launched during the first hours of the election day and continuously conducted by RIPE Atlas probes previously hosted in local networks. We also exhibit the outputs of active measurements run by the only [Archipelago (Ark) probe](https://www.caida.org/projects/ark/)deployed in a local network in the context of the [Measurement and ANalysis of Internet Congestion project (MANIC)](https://manic.caida.org), as well as other Internet measurement results that validate these reports.
+In the following sections of this report, we share [OONI](https://api.ooni.io/files/by_country/BJ) and [IODA](https://ioda.caida.org/ioda/dashboard#view=inspect&entity=country/BJ&lastView=overview&from=1556385008&until=1556557928) network measurement data on the blocking of social media in Benin and the subsequent internet outage. We augment these timely results with those of publicly available [RIPE Atlas](https://atlas.ripe.net/) measurements launched during the first hours of the election day and continuously conducted by RIPE Atlas probes previously hosted in local networks. 
 
-## Social media blocking
+# Social media blocking
 
-### OONI measurements
+## OONI measurements
 
-OONI [measurements](https://api.ooni.io/files/by_country/BJ), testing the accessibility of websites and apps, have been collected from multiple networks in Benin since 2017\. OONI’s [Web Connectivity test](https://ooni.io/nettest/web-connectivity/) is designed to measure the TCP/IP, HTTP, and DNS blocking of websites, while OONI’s [WhatsApp](https://ooni.io/nettest/whatsapp/), [Facebook Messenger](https://ooni.io/nettest/facebook-messenger/), and [Telegram](https://ooni.io/nettest/telegram/) tests are designed to measure the reachability of those apps from local vantage points.
+OONI [measurements](https://api.ooni.io/files/by_country/BJ), testing the accessibility of websites and apps, have been collected from multiple networks in Benin since 2017. OONI’s [Web Connectivity test](https://ooni.io/nettest/web-connectivity/) is designed to measure the TCP/IP, HTTP, and DNS blocking of websites, while OONI’s [WhatsApp](https://ooni.io/nettest/whatsapp/), [Facebook Messenger](https://ooni.io/nettest/facebook-messenger/), and [Telegram](https://ooni.io/nettest/telegram/) tests are designed to measure the reachability of those apps from local vantage points.
 
 The following chart, based on [OONI data collected from Benin](https://api.ooni.io/files/by_country/BJ), illustrates the blocking of social media sites on 28th April 2019, amid Benin’s 2019 parliamentary elections.
 
@@ -64,21 +78,21 @@ Several circumvention tool sites, such as [purevpn.fr](https://explorer.ooni.io/
 
 ## RIPE Atlas measurements
 
-As of 29th April 2019, the [RIPE Atlas measurements platform](https://atlas.ripe.net/about/) contains [10,458 probes](https://atlas.ripe.net/results/maps/network-coverage/)deployed worldwide for the purpose of measuring the internet. The [RIPE Atlas probes](https://atlas.ripe.net/landing/probes-and-anchors/)can run pings, traceroutes, DNS, HTTP, SSL measurements, etc. Five of them were previously deployed within local networks in Benin. Among them, two were online on 28th April 2019, hosted on [JENY-SAS-AS (AS328098)](http://as-rank.caida.org/asns/?name=328098&type=search)(whose provider is Spacetel, [AS37424](http://as-rank.caida.org/asns/?name=37424&type=search)) and [ISOCEL Telecom (AS37090)](https://stat.ripe.net/AS37090#tabId=at-a-glance).
+As of 29th April 2019, the [RIPE Atlas measurements platform](https://atlas.ripe.net/about/) contains [10,458 probes](https://atlas.ripe.net/results/maps/network-coverage/) deployed worldwide for the purpose of measuring the internet. The [RIPE Atlas probes](https://atlas.ripe.net/landing/probes-and-anchors/) can run pings, traceroutes, DNS, HTTP, SSL measurements, etc. Five of them were previously deployed within local networks in Benin. Among them, two were online on 28th April 2019, hosted on [JENY-SAS-AS (AS328098)](http://as-rank.caida.org/asns/?name=328098&type=search)(whose provider is Spacetel, [AS37424](http://as-rank.caida.org/asns/?name=37424&type=search)) and [ISOCEL Telecom (AS37090)](https://stat.ripe.net/AS37090#tabId=at-a-glance).
 
-Since HTTP queries are only enabled on RIPE Atlas anchors (none of which are hosted in Benin), we launched traceroutes from all RIPE Atlas probes online in the country towards the landing webpage of social media, such as [whatsapp.com](https://www.whatsapp.com/), [instagram.com](https://www.instagram.com/), [wechat.com](https://www.wechat.com/), [messenger.com](https://www.messenger.com/), [facebook.com](https://facebook.com/). The measurements cover the period April 28, 2019 at 07:04 UTC to April 30, 2019 at 05:19 UTC. The results of these measurements reflect the connectivity on the IP/network layer (and not on the application layer) from the host Autonomous System (AS) and the good functioning of the former is required for that of the latter.
+Since HTTP queries are only enabled on RIPE Atlas anchors (none of which are hosted in Benin), we launched traceroutes from all RIPE Atlas probes online in the country towards the landing webpages of social media, such as [whatsapp.com](https://www.whatsapp.com/), [instagram.com](https://www.instagram.com/), [wechat.com](https://www.wechat.com/), [messenger.com](https://www.messenger.com/), [facebook.com](https://facebook.com/). The measurements cover the period April 28, 2019 at 07:04 UTC to April 30, 2019 at 05:19 UTC. The results of these measurements reflect the connectivity on the IP/network layer (and not on the application layer) from the host Autonomous System (AS) and the good functioning of the former is required for that of the latter.
 
 For whatsapp.com, we could not collect any successful measurement outputs from Probe 32381 (Figure 5A) until the end of that period (name resolution failed on the node). By contrast, the results from Probe 11944 hosted in [AS37090](http://as-rank.caida.org/asns/?name=37090&type=search) exhibit a median of 113.45 ms to the destination from April 28, 2019 at 7:12 to 10:11 UTC. From 10:11 UTC to 12:04 UTC, all traceroutes did not reach the target, suggesting that the blocking affected the network layer.
 
 Then followed a period (12:04 UTC to 15:13 UTC) during which RTTs to the same destination decreased from 107.72 ms to 0 ms, depicting a short period where packets could be transmitted: as less and less wired clients can reach the destination, packets sent by the probes move faster through the physical links and thus, the destination look closer until it is unreachable again. From April 28, 2019 at 15:13 UTC to April 29, 2019 at 05: 04 UTC, the probe could not reach the destination IP or was fully disconnected again on the IP layer. This corresponds to the biggest period of the blackout (presented in the following Internet blackout section).  
 
-Traceroutes were only successful again starting from April 29, 2019 at 05:04 UTC with :
+Traceroutes were only successful again starting from April 29, 2019 at 05:04 UTC with:
 
-1.  Fluctuations between a median RTT of 0ms to 108.22ms / 103.67ms (till 11:22 UTC)
-2.  A median of 108.3ms - 107.04ms showing that the destination is reachable again
-3.  A slight period of packet loss during which 3 out of 4 packets were received by the destination IP (April 29, 2019 22:41 to April 29, 2019 23:57 UTC).
+* Fluctuations between a median RTT of 0ms to 108.22ms / 103.67ms (till 11:22 UTC)
+* A median of 108.3ms - 107.04ms showing that the destination is reachable again
+* A slight period of packet loss during which 3 out of 4 packets were received by the destination IP (April 29, 2019 22:41 to April 29, 2019 23:57 UTC).
 
-Interestingly, the patterns registered for probe 11944 when it comes to traceroutes towards the landing webpages of instagram.com (Figure 6), wechat.com (Figure 7), [www.messenger.com](http://www.messenger.com)(Figure 8), [www.google.com](http://www.google.com)(Figure 9), Google DNS (Figure 10), showing that the Internet outage is experienced by the source AS (ISOCEL).  
+Interestingly, the patterns registered for probe 11944 when it comes to traceroutes towards the landing webpages of instagram.com, wechat.com, www.messenger.com, www.google.com, Google DNS, showing that the Internet outage is experienced by the source AS (ISOCEL).  
 
 Legend
 
@@ -102,9 +116,9 @@ Legend
 
 **Figure 9:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to [www.google.com](http://www.wechat.com), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21083844](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
 
-Compared to those of probe 32381, they are mostly consistent except for the interval of time between ~12:00 UTC - 00:00 UTC, which is the time during which there was an Internet outage. These results are confirmed by in-depth inspections carried out on AS paths inferred  from the traceroutes outputs. They suggest that ASes ISOCEL on one side, JENY-AS and Spacetel experience the shutdown differently.
+Compared to those of probe 32381, they are mostly consistent except for the interval of time between ~12:00 UTC - 00:00 UTC, which is the time during which there was an Internet outage. These results are confirmed by in-depth inspections carried out on AS paths inferred from the traceroute outputs. They suggest that ASes ISOCEL on one side, JENY-AS and Spacetel experience the shutdown differently.
 
-Measurement from Probe 11944, which are gathered from AS37090 are consistent with measurements OONI Probe measurements in the previous section, confirming the accessibility of these services on ISOCEL Telecom.
+Measurements from Probe 11944, which are gathered from AS37090, are consistent with OONI Probe measurements in the previous section, confirming the accessibility of these services on ISOCEL Telecom.
 
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-7.png)
 
@@ -118,19 +132,19 @@ Measurement from Probe 11944, which are gathered from AS37090 are consistent wit
 
 **Figure 12:** RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to 1.1.1.1 (Quad9) depicting that BENIN-IX was mostly UP on election day and that the shutdown did not occur there and proving that each network implemented/suffered from the blackout differently.  [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21084227](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
 
-Below the conclusions from the comparison of these results:
+Below some conclusions from the comparison of these results:
 
 1. ISOCEL end-users clearly suffer a shutdown on election day, because its network did.
 2. Meanwhile, the destinations of our measurements were all reachable from JENY-AS and Spacetel: The sibling of Spacetel AS16637 was reachable from both ASes on the IP layer, while landing webpages from social media were not.
-3. There was a period (00:00 UTC to 06:00 UTC) where ISOCEL was experiencing a blackout on the IP layer while Spacetel was not.
-4. Both networks are again connected to the Internet since early April 29, 2019 roughly at 06:00
-5. The Internet Exchange point switch was UP during the whole period of the campaign.
+3. There was a period (00:00 UTC to 06:00 UTC) where ISOCEL was experiencing a blackout on the IP layer, while Spacetel was not.
+4. Both networks are again connected to the Internet since early April 29, 2019 roughly at 06:00.
+5. The Internet Exchange point switch was UP during the whole period of the blocking campaign.
 
-## Internet blackout
+# Internet blackout
 
-IODA detected significant Internet blackouts affecting Benin on 28th and 29th April 2019\. IODA’s data sources further show that these blackouts were not limited to a single AS; instead, many large ASes in Benin experienced blackouts.
+IODA detected significant Internet blackouts affecting Benin on 28th and 29th April 2019. IODA’s data sources further show that these blackouts were not limited to a single AS; instead, many large ASes in Benin experienced blackouts.
 
-### About IODA
+## About IODA
 
 The [Center for Applied Internet Data Analysis (CAIDA)](https://www.caida.org/home/) runs a project called [IODA](https://ioda.caida.org/) (short for Internet Outage Detection and Analysis), which monitors the Internet, in near-realtime, to identify macroscopic Internet outages, affecting the edge of the network (i.e. significantly impacting an AS or a large fraction of a country). IODA does so using three complementary data sources:
 
@@ -140,9 +154,9 @@ The [Center for Applied Internet Data Analysis (CAIDA)](https://www.caida.org/ho
 
 Data from IODA provides insight into Internet disruptions affecting entire countries, as well as the granularity required for identifying disruptions only affecting certain networks or regions within countries.
 
-### Internet blackout in Benin
+## Internet blackout in Benin
 
-IODA data shows that an Internet blackout occurred in Benin during the elections, on 28th April 2019\.
+IODA data shows that an Internet blackout occurred in Benin during the elections, on 28th April 2019.
 
 The following figures show the time series for the three data sources that IODA monitors for IP addresses belonging to different aggregates of addresses in Benin. Figure 13, below, shows the time series curves for the three data sources for all addresses in Benin.
 
@@ -152,7 +166,7 @@ The following figures show the time series for the three data sources that IODA 
 
 [https://ioda.caida.org/ioda/dashboard#view=inspect&entity=country/BJ&lastView=overview&from=1556385008&until=1556557928](https://ioda.caida.org/ioda/dashboard#view=inspect&entity=country/BJ&lastView=overview&from=1556385008&until=1556557928)
 
-All three time series indicate the occurrence of a significant Internet blackout. The figure shows that the outage began at around 10 AM UTC on 28th April 2019 (the day of the election). By  around 6 AM UTC on the next day, 29th April 2019, the time series for all data sources suggest that the Internet blackout in Benin ended.
+All three time series indicate the occurrence of a significant Internet blackout. The figure shows that the outage began at around 10 AM UTC on 28th April 2019 (the day of the election). By around 6 AM UTC on the next day, 29th April 2019, the time series for all data sources suggest that the Internet blackout in Benin ended.
 
 Figures 14, 15, 16 and 17 below show the occurrences of Internet blackout events in four large ASes in Benin.
 
