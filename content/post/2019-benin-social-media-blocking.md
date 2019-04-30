@@ -24,7 +24,7 @@ In this report, the [Open Observatory of Network Interference (OONI)](https://oo
   
   * [Internet blackout in Benin](#internet-blackout-in-benin)
 
-# Background
+## Background
 
 On 28th April 2019, the West African country [Republic of Benin](https://en.wikipedia.org/wiki/Benin), although [known as one of Africa’s most stable democracies](https://www.bbc.com/news/world-africa-13037572) since 1990, had [parliamentary elections with no opposition candidates](https://www.aljazeera.com/news/2019/04/opposition-candidates-benin-votes-general-election-190428080718093.html).
 
@@ -34,9 +34,9 @@ In the early hours of the election day, on 28th April 2019, access to social med
 
 In the following sections of this report, we share [OONI](https://api.ooni.io/files/by_country/BJ) and [IODA](https://ioda.caida.org/ioda/dashboard#view=inspect&entity=country/BJ&lastView=overview&from=1556385008&until=1556557928) network measurement data on the blocking of social media in Benin and the subsequent internet outage. We augment these timely results with those of publicly available [RIPE Atlas](https://atlas.ripe.net/) measurements launched during the first hours of the election day and continuously conducted by RIPE Atlas probes previously hosted in local networks. 
 
-# Social media blocking
+## Social media blocking
 
-## OONI measurements
+### OONI measurements
 
 OONI [measurements](https://api.ooni.io/files/by_country/BJ), testing the accessibility of websites and apps, have been collected from multiple networks in Benin since 2017. OONI’s [Web Connectivity test](https://ooni.io/nettest/web-connectivity/) is designed to measure the TCP/IP, HTTP, and DNS blocking of websites, while OONI’s [WhatsApp](https://ooni.io/nettest/whatsapp/), [Facebook Messenger](https://ooni.io/nettest/facebook-messenger/), and [Telegram](https://ooni.io/nettest/telegram/) tests are designed to measure the reachability of those apps from local vantage points.
 
@@ -76,7 +76,7 @@ Quite similarly, measurements collected through [OONI’s Telegram test](https:/
 
 Several circumvention tool sites, such as [purevpn.fr](https://explorer.ooni.io/measurement/20190428T053237Z_AS37424_n2LS7jvw22xZWsiJgaV5FRdkRU8QvaxHgjT6rxMtfplUYLua5D?input=https:%2F%2Fwww.purevpn.fr), [betternet.co](https://explorer.ooni.io/measurement/20190428T052542Z_AS37424_SzAPN1eapTf9KNvmS3KnmsPIYau4Nk5QDZTHr34fhNeTeqNDJH?input=https:%2F%2Fwww.betternet.co%2F), and [tigervpn.com](https://explorer.ooni.io/measurement/20190428T053237Z_AS37424_n2LS7jvw22xZWsiJgaV5FRdkRU8QvaxHgjT6rxMtfplUYLua5D?input=https:%2F%2Fwww.tigervpn.com), presented HTTP failures. However, these failures are likely false positives, particularly given the fact that more popular circumvention tool sites, such as psiphon.ca, were [accessible](https://explorer.ooni.io/measurement/20190428T061116Z_AS37424_aHLn8cXXrPVYF4oeHd2DXZpwZACWcrhik7an5k2LaiU9OIiAuY?input=https:%2F%2Fpsiphon.ca%2F). The testing of openvpn.com presented an [anomaly](https://explorer.ooni.io/measurement/20190428T053237Z_AS37424_n2LS7jvw22xZWsiJgaV5FRdkRU8QvaxHgjT6rxMtfplUYLua5D?input=https:%2F%2Fopenvpn.net), but this was triggered by a cloudflare captcha page (i.e. the site was accessible in Benin during the elections).
 
-## RIPE Atlas measurements
+### RIPE Atlas measurements
 
 As of 29th April 2019, the [RIPE Atlas measurements platform](https://atlas.ripe.net/about/) contains [10,458 probes](https://atlas.ripe.net/results/maps/network-coverage/) deployed worldwide for the purpose of measuring the internet. The [RIPE Atlas probes](https://atlas.ripe.net/landing/probes-and-anchors/) can run pings, traceroutes, DNS, HTTP, SSL measurements, etc. Five of them were previously deployed within local networks in Benin. Among them, two were online on 28th April 2019, hosted on [JENY-SAS-AS (AS328098)](http://as-rank.caida.org/asns/?name=328098&type=search)(whose provider is Spacetel, [AS37424](http://as-rank.caida.org/asns/?name=37424&type=search)) and [ISOCEL Telecom (AS37090)](https://stat.ripe.net/AS37090#tabId=at-a-glance).
 
@@ -140,11 +140,11 @@ Below some conclusions from the comparison of these results:
 4. Both networks are again connected to the Internet since early April 29, 2019 roughly at 06:00.
 5. The Internet Exchange point switch was UP during the whole period of the blocking campaign.
 
-# Internet blackout
+## Internet blackout
 
 IODA detected significant Internet blackouts affecting Benin on 28th and 29th April 2019. IODA’s data sources further show that these blackouts were not limited to a single AS; instead, many large ASes in Benin experienced blackouts.
 
-## About IODA
+### About IODA
 
 The [Center for Applied Internet Data Analysis (CAIDA)](https://www.caida.org/home/) runs a project called [IODA](https://ioda.caida.org/) (short for Internet Outage Detection and Analysis), which monitors the Internet, in near-realtime, to identify macroscopic Internet outages, affecting the edge of the network (i.e. significantly impacting an AS or a large fraction of a country). IODA does so using three complementary data sources:
 
@@ -154,7 +154,7 @@ The [Center for Applied Internet Data Analysis (CAIDA)](https://www.caida.org/ho
 
 Data from IODA provides insight into Internet disruptions affecting entire countries, as well as the granularity required for identifying disruptions only affecting certain networks or regions within countries.
 
-## Internet blackout in Benin
+### Internet blackout in Benin
 
 IODA data shows that an Internet blackout occurred in Benin during the elections, on 28th April 2019.
 
