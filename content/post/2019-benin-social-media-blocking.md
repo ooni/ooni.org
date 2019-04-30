@@ -132,7 +132,7 @@ IODA detected significant Internet blackouts affecting Benin on 28th and 29th Ap
 
 ### About IODA
 
-The [Center for Applied Internet Data Analysis (CAIDA)](https://www.caida.org/home/)runs a project called [IODA](https://ioda.caida.org/) (short for Internet Outage Detection and Analysis), which monitors the Internet, in near-realtime, to identify macroscopic Internet outages, affecting the edge of the network (i.e. significantly impacting an AS or a large fraction of a country). IODA does so using three complementary data sources:
+The [Center for Applied Internet Data Analysis (CAIDA)](https://www.caida.org/home/) runs a project called [IODA](https://ioda.caida.org/) (short for Internet Outage Detection and Analysis), which monitors the Internet, in near-realtime, to identify macroscopic Internet outages, affecting the edge of the network (i.e. significantly impacting an AS or a large fraction of a country). IODA does so using three complementary data sources:
 
 *   **Global Internet routing (BGP):** Using data from ~500 monitors participating in the RouteViews and RIPE RIS projects to establish which network blocks are reachable based on the Internet control plane.
 *   **Active probing:**Continuously probing a large fraction of the (routable) IPv4 address space using [a methodology developed by the University of Southern California](https://www.isi.edu/~johnh/PAPERS/Quan13c.html) to infer when a /24 block is affected by a network outage.
