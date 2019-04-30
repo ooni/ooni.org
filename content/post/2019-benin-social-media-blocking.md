@@ -186,7 +186,7 @@ Figures 15 and 16 show that the blackout ended in AS28683 and AS37424 before mid
 
 In summary: 
 
-* Four different large ASes in Benin had blackouts. Thus, the blackout wasn't a result of a single AS's actions but required coordination from multiple ASes.
+* Four different large ASes in Benin had blackouts. These blackouts were not limited to a single AS; instead, many large ASes in Benin experienced blackouts.
 * The blackouts begin at more or less the same time, but end at different times for each ISP, suggesting that ASes implemented the blackout using different techniques.
 * Each ISP's blackout has a different signature in IODA's data sources; for some, the blackout is visible in the BGP data source first whereas for others, the blackout is visible in the active probing data source first. This again suggests that ASes implemented the blackout using different techniques. If ISPs are implementing blackouts differently, there could be opportunities for circumvention. For example, since the blackout ended in AS37424 around 6 hours before it ended in AS37090, the latter's customers may have been able to use a VPN to access the Internet via the former.
 
