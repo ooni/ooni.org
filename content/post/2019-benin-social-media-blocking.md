@@ -8,7 +8,7 @@ categories: ["report"]
 
 Two days ago, social media was [reportedly](https://netblocks.org/reports/internet-blocked-in-benin-on-election-day-aAwqknyM) blocked and access to the Internet was shutdown in Benin during its 2019 parliamentary elections.
 
-In this report, the [Open Observatory of Network Interference (OONI)](https://ooni.io/)and the [Center for Applied Internet Data Analysis (CAIDA)](https://www.caida.org/) teams share [OONI](https://api.ooni.io/files/by_country/BJ), [IODA](https://ioda.caida.org/ioda/dashboard#view=inspect&entity=country/BJ&lastView=overview&from=1556385008&until=1556557928), and [RIPE Atlas](https://atlas.ripe.net/) network measurement data that corroborate and provide insight into these recent censorship events in Benin.
+In this report, the [Open Observatory of Network Interference (OONI)](https://ooni.io/) and the [Center for Applied Internet Data Analysis (CAIDA)](https://www.caida.org/) teams share [OONI](https://api.ooni.io/files/by_country/BJ), [IODA](https://ioda.caida.org/ioda/dashboard#view=inspect&entity=country/BJ&lastView=overview&from=1556385008&until=1556557928), and [RIPE Atlas](https://atlas.ripe.net/) network measurement data that corroborate and provide insight into these recent censorship events in Benin.
 
 * [Background](#background)
 
