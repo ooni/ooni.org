@@ -78,9 +78,11 @@ Several circumvention tool sites, such as [purevpn.fr](https://explorer.ooni.io/
 
 ### RIPE Atlas measurements
 
-As of 29th April 2019, the [RIPE Atlas measurements platform](https://atlas.ripe.net/about/) contains [10,458 probes](https://atlas.ripe.net/results/maps/network-coverage/) deployed worldwide for the purpose of measuring the Internet. The [RIPE Atlas probes](https://atlas.ripe.net/landing/probes-and-anchors/) can run pings, traceroutes, DNS, HTTP, SSL measurements, etc. Five of them were previously deployed within local networks in Benin. Among them, two were online on 28th April 2019, hosted on [JENY-SAS-AS (AS328098)](http://as-rank.caida.org/asns/?name=328098&type=search)(whose provider is Spacetel, [AS37424](http://as-rank.caida.org/asns/?name=37424&type=search)) and [ISOCEL Telecom (AS37090)](https://stat.ripe.net/AS37090#tabId=at-a-glance).
+As of 29th April 2019, the [RIPE Atlas measurements platform](https://atlas.ripe.net/about/) contains [10,458 probes](https://atlas.ripe.net/results/maps/network-coverage/) deployed worldwide for the purpose of measuring the Internet. The [RIPE Atlas probes](https://atlas.ripe.net/landing/probes-and-anchors/) can run pings, traceroutes, DNS, HTTP, SSL measurements, etc. Five of them were previously deployed within local networks in Benin. Among them, two were online on 28th April 2019, hosted in [JENY-SAS-AS (AS328098)](http://as-rank.caida.org/asns/?name=328098&type=search)(whose provider is Spacetel, [AS37424](http://as-rank.caida.org/asns/?name=37424&type=search)) and [ISOCEL Telecom (AS37090)](https://stat.ripe.net/AS37090#tabId=at-a-glance).
 
 Since HTTP queries are only enabled on RIPE Atlas anchors (none of which are hosted in Benin), we launched traceroutes from all online RIPE Atlas probes in the country towards the landing webpages of social media, such as [whatsapp.com](https://www.whatsapp.com/), [instagram.com](https://www.instagram.com/), [wechat.com](https://www.wechat.com/), [messenger.com](https://www.messenger.com/), [facebook.com](https://facebook.com/). The measurements cover the period April 28, 2019 at 07:04 UTC to April 30, 2019 at 05:19 UTC. The results of these measurements reflect the connectivity on the IP/network layer (and not on the application layer) from the host Autonomous System (AS).
+
+Figures 5, 6, 7, 8, and 9 display for each probe the evolution of the RTT from the source IP to their different destination IPs (y-axis) over the period of the measurements campaign (x-axis). Figure 10, 11, and 12 present not only the RTTs to the destination IPs, but also the inferred AS paths at key moments of the said campaign. We analyze and compare those figures in the next paragraphs, highlighting the insights they provide.
 
 For whatsapp.com, we could not collect any successful measurement outputs from Probe 32381 (top graph in Figure 5) until the end of that period (name resolution failed on the node). By contrast, the results from Probe 11944, hosted in [AS37090](http://as-rank.caida.org/asns/?name=37090&type=search), were successful (with a median of 113.45 ms) from April 28, 2019 at 7:12 to 10:11 UTC but stopped reaching the target from 10:11 UTC to 12:04 UTC, suggesting that the blocking affected the network layer.
 
@@ -102,6 +104,7 @@ Interestingly, the patterns registered for Probe 11944 when it comes to tracerou
 **Figure 7:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to [www.wechat.com](http://www.wechat.com), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21084197](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
 
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-5.png)
+
 **Figure 8:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to [www.messenger.com](http://www.wechat.com), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21084200](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
 
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-6.png)
@@ -126,10 +129,10 @@ Measurements from Probe 11944, which are gathered from AS37090, are consistent w
 
 We can deduce the following from comparing these figures:
 
-1. ISOCEL end-users clearly suffer a shutdown on election day, because its network did.
-2. Meanwhile, the destinations of our measurements were all reachable from JENY-AS and Spacetel: The sibling of Spacetel AS16637 was reachable from both ASes on the IP layer, while landing webpages from social media were not.
-3. There was a period (00:00 UTC to 06:00 UTC) where ISOCEL was experiencing a blackout on the IP layer, while Spacetel was not.
-4. Both networks are again connected to the Internet since early April 29, 2019 roughly at 06:00.
+1. ISOCEL end-users clearly suffered a shutdown on election day, because its network did.
+2. Meanwhile, the destinations of our measurements were all reachable from JENY-AS and Spacetel Benin: MTNNS-AS (AS16637), the sibling of Spacetel was reachable from both ASes on the IP layer, while landing webpages from social media were not.
+3. There was a period (00:00 UTC to 06:00 UTC) during which ISOCEL was experiencing a blackout on the IP layer, while Spacetel was not.
+4. Both networks have been reconnected to the Internet since early April 29, 2019 roughly at 06:00 UTC.
 5. The Internet Exchange point switch was UP during the whole period of the blocking campaign (Figure 12).
 
 ## Internet blackout
@@ -141,7 +144,7 @@ IODA detected significant Internet blackouts affecting Benin on 28th and 29th Ap
 The [Center for Applied Internet Data Analysis (CAIDA)](https://www.caida.org/home/) runs a project called [IODA](https://ioda.caida.org/) (short for Internet Outage Detection and Analysis), which monitors the Internet, in near-realtime, to identify macroscopic Internet outages, affecting the edge of the network (i.e. significantly impacting an AS or a large fraction of a country). IODA does so using three complementary data sources:
 
 *   **Global Internet routing (BGP):** Using data from ~500 monitors participating in the RouteViews and RIPE RIS projects to establish which network blocks are reachable based on the Internet control plane.
-*   **Active probing:**Continuously probing a large fraction of the (routable) IPv4 address space using [a methodology developed by the University of Southern California](https://www.isi.edu/~johnh/PAPERS/Quan13c.html) to infer when a /24 block is affected by a network outage.
+*   **Active probing:** Continuously probing a large fraction of the (routable) IPv4 address space using [a methodology developed by the University of Southern California](https://www.isi.edu/~johnh/PAPERS/Quan13c.html) to infer when a /24 block is affected by a network outage.
 *   **Internet Background Radiation:** Processing unsolicited traffic reaching the UCSD Network Telescope monitoring an unutilized /8 address block.
 
 Data from IODA provides insight into Internet disruptions affecting entire countries, as well as the granularity required for identifying disruptions only affecting certain networks or regions within countries.
@@ -193,7 +196,7 @@ Figures 11 and 12 show that the blackout ended in AS28683 and AS37424 before mid
 In summary: 
 
 * Four different large ASes in Benin had blackouts.  These blackouts were not limited to a single AS; instead, many large ASes in Benin experienced blackouts.
-* The blackouts begin at roughly the same time, but end at different times, it’s therefore possible that ASes implemented the blackout independently.
+* The blackouts begin at roughly the same time, but end at different times; it is, therefore, possible that ASes implemented  them independently.
 * Each AS’s blackout has a different signature in IODA's data sources; for some, the blackout is visible in the BGP data source first whereas for others, the blackout is visible in the active probing data source first.
 
 MTN Benin (AS37424) [acknowledged the Internet disruptions](https://beninwebtv.com/2019/04/coupure-dinternet-au-benin-mtn-sort-de-sa-reserve-des-remboursements-annonces/) on 28th April 2019, but declined all responsibility, promising to reimburse its clients.
