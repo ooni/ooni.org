@@ -125,7 +125,7 @@ Measurements from Probe 11944, which are gathered from AS37090, are consistent w
 
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-9.png)
 
-**Figure 12:** RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to 1.1.1.1 (Quad9) depicting that BENIN-IX was mostly UP on election day and that the shutdown did not occur there and proving that each network implemented/suffered from the blackout differently.  [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21084227](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
+**Figure 12:** RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to 9.9.9.9 (Quad9) depicting that BENIN-IX was mostly UP on election day and that the shutdown did not occur there and proving that each network implemented/suffered from the blackout differently.  [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21084227](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
 
 We can deduce the following from comparing these figures:
 
