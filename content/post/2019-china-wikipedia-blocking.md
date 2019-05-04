@@ -1,6 +1,6 @@
 ---
 title: "China is now blocking all language editions of Wikipedia"
-author: "youport.org, Arturo Filastò (OONI), Maria Xynou (OONI)"
+author: "iyouport.org, Arturo Filastò (OONI), Maria Xynou (OONI)"
 date: "2019-05-04"
 tags: ["china", "wikipedia"]
 categories: ["report"]
