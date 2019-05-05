@@ -18,8 +18,6 @@ OONI的[Web连通性测试](https://ooni.io/nettest/web-connectivity/)（在OONI
 
 OONI数据显示中国电信（AS4134）[至少从2016年11月10日开始封锁zh.wikipedia.org](https://explorer.ooni.io/measurement/20161110T035949Z_AS4134_oAjg1SM4bjI5yI2D9yhu8Rfq830QL5avcxPg8LmhEAN1u0pvYq?input=http:%2F%2Fzh.wikipedia.org%2Fwiki%2Fwikipedia:%25e9%25a6%2596%25e9%25a1%25b5)（之前的OONI测试表明[2015年3月zh.wikipedia.org是可访问的](http://api.ooni.io/files/download/2015-03-04/20150304T232111Z-CN-AS4808-http_requests-no_report_id-0.1.0-probe.yaml)）。
 
-The following chart, based on [OONI data](https://api.ooni.io/files/by_country/CN), illustrates that multiple language editions of Wikipedia have been blocked in China as of April 2019.
-
 下图基于[OONI数据](https://api.ooni.io/files/by_country/CN)，说明在2019年4月，多种语言版本的维基百科在中国被封锁。
 
 ![](/post/2019-china-wikipedia-blocking/ooni-china-blocks-wikipedia.png)
