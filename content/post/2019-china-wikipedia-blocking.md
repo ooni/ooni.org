@@ -6,6 +6,8 @@ tags: ["china", "wikipedia"]
 categories: ["report"]
 ---
 
+[translation: 中国封锁了所有语言版本的维基百科](/post/2019-china-wikipedia-blocking.zh/)
+
 China recently started blocking all language editions of Wikipedia. Previously, the blocking was limited to the Chinese language edition of Wikipedia (zh.wikipedia.org), but has now expanded to include all `*.wikipedia.org` language editions.
 
 In this post, we share [OONI network measurement data](https://api.ooni.io/files/by_country/CN) on the blocking of Wikipedia in China. We found that all wikipedia.org sub-domains are blocked in China by means of DNS injection and SNI filtering.
