@@ -255,8 +255,8 @@ HOST: raspberrypi                                      Loss%   Snt   Last   Avg 
  11. AS16637  41.181.245.187                            0.0%    10  238.9 235.5 225.5 251.8   7.2
  12. AS???    ???                                      100.0    10    0.0   0.0   0.0   0.0   0.0
 
-### traceroute to same IP using different TCP port 104.244.42.193
-$ mtr --report-wide --show-ips --aslookup --tcp --port=22
+### traceroute to same twitter.com IP using TCP port 22/ssh
+$ mtr --report-wide --show-ips --aslookup --tcp --port=22 104.244.42.193
 Start: Fri Oct 19 10:17:24 2018
 HOST: raspberrypi                                      Loss%   Snt   Last   Avg  Best  Wrst StDev
   1. AS???    192.168.1.1                               0.0%    10    3.7   3.3   2.3   4.1   0.3
@@ -272,6 +272,15 @@ HOST: raspberrypi                                      Loss%   Snt   Last   Avg 
  10. AS16637  41.181.190.197                            0.0%    10  236.0 253.5 230.7 373.9  43.0
  11. AS16637  41.181.245.187                            0.0%    10  229.5 234.3 223.0 266.4  12.5
  12. AS???    ???                                      100.0    10    0.0   0.0   0.0   0.0   0.0
+
+### traceroute to same IP using TCP port 25/SMTP
+$ mtr --report-wide --show-ips --aslookup --tcp --port=25 104.244.42.193
+Start: Fri Oct 19 10:23:42 2018
+HOST: raspberrypi            Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. AS???    192.168.1.1     0.0%    10    3.4   3.1   1.3   4.8   1.1
+  2. AS???    192.168.225.1   0.0%    10    8.0   6.9   5.4   8.5   1.1
+  3. AS???    10.120.20.21    0.0%    10   44.1  35.7  23.2  44.1   6.1
+  4. AS???    ???            100.0    10    0.0   0.0   0.0   0.0   0.0
 
 ### traceroute to HTTPS port of IP for web.whatsapp.com
 $  mtr --report-wide --show-ips --aslookup --tcp --port=443 31.13.64.51
