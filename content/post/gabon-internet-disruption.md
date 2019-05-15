@@ -2,7 +2,7 @@
 title: "Internet disruption in Gabon amid coup attempt"
 author: "Philipp Winter, Maria Xynou"
 date: "2019-01-09"
-tags: ["gabon", "blackout"]
+tags: ["gabon", "blackout", "country-ga"]
 categories: ["report"]
 ---
 

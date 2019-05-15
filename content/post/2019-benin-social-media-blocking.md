@@ -2,7 +2,7 @@
 title: "Benin: Social media blocking and Internet blackout amid 2019 elections"
 author: "Roderick Fanou (CAIDA, UC San Diego), Ramakrishna Padmanabhan (CAIDA, UC San Diego), Arturo Filastò (OONI), Maria Xynou (OONI)"
 date: "2019-04-30"
-tags: ["benin", "censorship"]
+tags: ["benin", "censorship", "country-bj"]
 categories: ["report"]
 ---
 
