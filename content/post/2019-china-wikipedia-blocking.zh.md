@@ -1,6 +1,6 @@
 ---
 title: "中国封锁了所有语言版本的维基百科"
-author: "iyouport.org, Sukhbir Singh (Open Web Fellow, Mozilla Foundation), Arturo Filastò (OONI), Maria Xynou (OONI)"
+author: "iyouport.org, Open Culture Foundation (OCF), Sukhbir Singh (Open Web Fellow, Mozilla Foundation), Arturo Filastò (OONI), Maria Xynou (OONI)"
 date: "2019-05-04"
 tags: ["china", "wikipedia"]
 categories: ["report"]
