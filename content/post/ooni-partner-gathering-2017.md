@@ -3,7 +3,7 @@ title: "OONI Partner Gathering 2017"
 author: "Maria Xynou"
 date: "2017-07-24"
 tags: ["events", "partners"]
-categories: ["report"]
+categories: ["blog"]
 ---
 
 ![OONI Partner Gathering](/post/ooni-partner-gathering-2017/01.jpg)

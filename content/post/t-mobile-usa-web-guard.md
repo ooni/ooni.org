@@ -3,7 +3,7 @@ title: "T-Mobile USA Web Guard"
 summary: "Measuring censorship on T-Mobile USA"
 author: "Arturo Filastò"
 date: "2012-03-21"
-tags: ["usa"]
+tags: ["usa", "country-us"]
 categories: ["report"]
 aliases:
   - /t-mobile-usa-web-guard.html

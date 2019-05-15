@@ -1,0 +1,9 @@
+{{- $.Scratch.Add "pageindex" slice -}}
+
+{{- range $index, $element := (where .Site.Pages "Kind" "page") -}}
+
+  {{- $.Scratch.Add "pageindex" (dict "id" $index "title" $element.Title "href" $element.RelPermalink "tags" $element.Params.tags "categories" $element.Params.categories "date" ($element.Date.Format "2006-01-02")) -}}
+
+{{- end -}}
+
+{{- $.Scratch.Get "pageindex" | jsonify -}}

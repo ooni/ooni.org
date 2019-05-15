@@ -2,7 +2,7 @@
 title: "Kenya: Censorship-free internet?"
 author: "Maria Xynou (OONI), Arturo Filastò (OONI), Moses Karanja (CIPIT)"
 date: "2016-12-27"
-tags: ["kenya", "censorship"]
+tags: ["kenya", "censorship", "country-ke"]
 categories: ["report"]
 ---
 

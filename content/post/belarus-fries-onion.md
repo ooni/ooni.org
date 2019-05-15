@@ -2,8 +2,8 @@
 title: "urandom.pcap: Belarus (finally) bans Tor"
 author: "Leonid Evdokimov"
 date: "2016-12-08"
-tags: ["belarus", "TCP injections"]
-categories: ["blog"]
+tags: ["belarus", "TCP injections", "country-by"]
+categories: ["report"]
 ---
 
 **Country:** Belarus

@@ -1,9 +1,9 @@
 ---
-title: "OONI releases new web UI: Run censorship tests from your web browser!"
+title: "OONI releases new Web UI: Run censorship tests from your web browser!"
 author: "Maria Xynou, Arturo Filastò, Vasilis Ververis"
 date: "2016-12-13"
 tags: ["wui"]
-categories: ["report"]
+categories: ["blog"]
 ---
 
 ![Image](/post/wui-screenshots/wui-01.png)

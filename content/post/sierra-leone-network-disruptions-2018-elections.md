@@ -2,7 +2,7 @@
 title: "Sierra Leone: Network disruptions amid 2018 runoff elections"
 author: "Maria Xynou (OONI), Leonid Evdokimov (OONI), Arturo Filastò (OONI), Abdul Fatoma (Campaign for Human Rights and Development International)"
 date: "2018-04-05"
-tags: ["sierra leone", "censorship"]
+tags: ["sierra leone", "censorship", "country-sl"]
 categories: ["report"]
 ---
 

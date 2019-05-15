@@ -2,7 +2,7 @@
 title: "Internet Access Disruption in Turkey - July 2016"
 author: "Emile Aben, Leonid Evdokimov, Maria Xynou"
 date: "2016-07-19"
-tags: ["turkey", "socialmedia"]
+tags: ["turkey", "socialmedia", "country-tr"]
 categories: ["report"]
 ---
 

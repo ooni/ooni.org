@@ -2,8 +2,8 @@
 title: "Iran Protests: DPI blocking of Instagram (Part 2)"
 author: "Leonid Evdokimov"
 date: "2018-02-14"
-tags: ["technology", "iran", "DNS", "DNS Hijacking", "TCP injections", "DPI"]
-categories: ["blog"]
+tags: ["technology", "iran", "DNS", "DNS Hijacking", "TCP injections", "DPI", "country-ir"]
+categories: ["report"]
 ---
 
 In early January 2018, OONI published a [post](/post/2018-iran-protests/)

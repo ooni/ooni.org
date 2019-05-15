@@ -2,7 +2,7 @@
 title: "Zambia: Internet censorship during the 2016 general elections?"
 author: "Maria Xynou (OONI), Arturo Filastò (OONI), Moses Karanja (CIPIT), Arthur Gwagwa (CIPIT), Isaac Rutenberg (CIPIT)"
 date: "2016-10-11T10:52:00Z"
-tags: ["zambia"]
+tags: ["zambia", "research-report", "country-zm"]
 categories: ["report"]
 ---
 

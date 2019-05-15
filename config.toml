@@ -10,3 +10,14 @@ pluralizeListTitles = false
 [Languages.ca]
 [Languages.fr]
 [Languages.pt]
+[Languages.zh]
+
+[outputFormats]
+[outputFormats.PageIndex]
+mediaType = "application/json"
+baseName = "pageindex"
+isPlainText = true
+notAlternative = true
+
+[outputs]
+  home = ["HTML", "PageIndex", "RSS"]

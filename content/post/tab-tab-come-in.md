@@ -3,7 +3,7 @@ title: "Tab-Tab, Come in! Bypassing Internet blocking to categorize DPI devices"
 summary: "Analysis of censorship in Turkmenistan and Uzbekistan"
 author: "Arturo Filastò and T."
 date: "2013-05-14"
-tags: ["uzbekistan", "turkmenistan"]
+tags: ["uzbekistan", "turkmenistan", "country-tm", "country-uz"]
 categories: ["report"]
 aliases:
   - /tab-tab-come-in-bypassing-internet-blocking-to-categorize-dpi-devices.html

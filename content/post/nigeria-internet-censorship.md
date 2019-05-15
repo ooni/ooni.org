@@ -2,7 +2,7 @@
 title: "Nigeria: Measuring Internet Censorship"
 author: "Maria Xynou, Leonid Evdokimov"
 date: "2018-06-11"
-tags: ["censorship"]
+tags: ["censorship", "research-report", "country-ng"]
 categories: ["report"]
 ---
 
