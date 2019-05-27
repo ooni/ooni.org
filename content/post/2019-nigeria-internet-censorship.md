@@ -280,7 +280,7 @@ consistently presented HTTP failures throughout the testing period.
 
 ![Airtel graph](/post/nigeria/airtel.png)
 
-Source: OONI measurements collected from Nigeria, [https://explorer.ooni.io/country/NG**](https://explorer.ooni.io/country/NG)
+Source: OONI measurements collected from Nigeria, [https://explorer.ooni.io/country/NG](https://explorer.ooni.io/country/NG)
 
 Exceptions include www.biafra.club and restoringbiafranationhood.info,
 neither of which are operational (and, similarly to MTN, Airtel appears
@@ -304,7 +304,7 @@ sites associated to Biafra primarily by means of TCP/IP blocking.
 
 ![Globacom graph](/post/nigeria/globacom.png)
 
-Source: OONI measurements collected from Nigeria, [https://explorer.ooni.io/country/NG**](https://explorer.ooni.io/country/NG)
+Source: OONI measurements collected from Nigeria, [https://explorer.ooni.io/country/NG](https://explorer.ooni.io/country/NG)
 
 The results, illustrated in the chart above, include three Biafra sites
 (biafraland.com, biafraradio.com, biafra.net) that were not tested last
