@@ -201,7 +201,7 @@ This connection-reset-by-peer error is also generated when a TCP peer wants to c
 
 From the logs presented so far, we cannot say directly that the reset segment was the result of an attack. Certainly, it is telling that the reset is received after sending the HTTP request, which contains the video cache host header in plaintext (`Host: video.famm2-2.fna.fbcdn.net`, as shown in the CURL logs). However, we cannot exclude that high load caused by people accessing the video cache may be causing the server application to misbehave in some weird way and reset the connection. We will continue discussing this topic more in detail later, when we analyse the packet captures.
 
-We also tried using [HTTPS](https://en.wikipedia.org/wiki/HTTPS) , obtaining the following logs:
+We also tried using [HTTPS](https://en.wikipedia.org/wiki/HTTPS), obtaining the following logs:
 
 ```
 $ curl -v https://video.famm2-2.fna.fbcdn.net
