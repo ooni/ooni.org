@@ -168,7 +168,7 @@ What’s more, we noticed network anomalies not only with Amman cache servers, b
 The testing of Facebook video cache servers didn’t always present anomalies. In fact, most measurements established successful connections and DNS lookups. The graph below illustrates the normal and anomalous measurements collected from local vantage points when Facebook video cache servers were tested between 30th November 2018 to 20th December 2018.
 
 ![](/post/jordan-measuring-facebook-interference/ooni-jordan-facebook.png)
-**Source:**OONI measurements: Jordan, [https://explorer.ooni.io/country/JO](https://explorer.ooni.io/country/JO)  
+**Source:** OONI measurements: Jordan, [https://explorer.ooni.io/country/JO](https://explorer.ooni.io/country/JO)  
 
 It’s worth highlighting though that the anomalies were observed (on several networks) more frequently during protests, rather than before and after the protests. This led us to speculate that perhaps the anomalies were caused by network overload, rather than by deliberate interference. To understand whether this hypothesis was sound, we investigated further through custom experiments.
 
