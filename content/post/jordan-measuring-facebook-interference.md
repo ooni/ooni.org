@@ -172,7 +172,7 @@ The testing of Facebook video cache servers didn’t always present anomalies. I
 ![](/post/jordan-measuring-facebook-interference/ooni-jordan-facebook.png)
 **Source:** OONI measurements: Jordan, [https://explorer.ooni.io/country/JO](https://explorer.ooni.io/country/JO)
 
-The measurements used to generate the above chart are available via this [CSV](/post/jordan-measuring-facebook-interference/jo-fb-analysis.csv).  
+The measurements used to generate the above chart are available via this [CSV](/post/jordan-measuring-facebook-interference/201906-JO-facebook-ooni-measurements.csv).
 
 It’s worth highlighting though that the anomalies were observed (on several networks) more frequently during protests, rather than before and after the protests. This led us to speculate that perhaps the anomalies were caused by network overload, rather than by deliberate interference. To understand whether this hypothesis was sound, we investigated further through custom experiments.
 
