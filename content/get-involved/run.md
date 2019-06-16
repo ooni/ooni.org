@@ -8,11 +8,14 @@ To measure the blocking of websites:
 
 Note: These tests require turning off VPNs.
 
-{{<oonirunurls text="Test Social Media (13 urls)">}}
+{{<oonirunurls text="Test Social Media (16 urls)">}}
 https://www.skype.com/
 https://www.linkedin.com/
 https://twitter.com/
+https://whatsapp.com/
 https://web.whatsapp.com/
+https://web.telegram.org/
+https://telegram.org/
 https://www.facebook.com/
 https://hangouts.google.com/
 https://www.snapchat.com/
