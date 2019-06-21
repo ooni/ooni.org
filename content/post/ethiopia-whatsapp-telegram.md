@@ -335,7 +335,7 @@ curl: (7) Failed to connect to telegram.org port 443: Operation timed out
 
 In addition to the mobile app, Telegram Web (web.telegram.org) appears to have been [blocked](https://explorer.ooni.io/measurement/20190617T090551Z_AS24757_IyJ0cA4JuMWA1ReiFLI5jGWvJTN9chgpHAkDuIwT0ngx5s1grR) too, since its testing presented timeout errors. If it was blocked intentionally though, Ethio Telecom would have likely added web.telegram.org to their SNI filtering list (similarly to how they blocked access to web.whatsapp.com) to obtain much higher blocking accuracy (in comparison to the IP blocking of the site).
 
-Our experiments therefore suggest that Telegram Web (web.telegram.org) was probably not blocked intentionally. Rather, the blocking of web.telegram.org was likely the *collateral damage* of the blocking of Telegram’s endpoints.
+Our experiments therefore suggest that Telegram Web (web.telegram.org) was probably not blocked intentionally. Rather, the blocking of web.telegram.org was likely the collateral damage of the blocking of Telegram’s endpoints.
 
 # Conclusion
 
