@@ -1,17 +1,17 @@
 ---
-title: "Web connectivity"
-short_description: "This test examines whether access to websites
-is blocked through DNS tampering,
-TCP connection RST/IP blocking or by a transparent HTTP proxy."
+title: "Web Connectivity"
+short_description: "This test checks whether access to websites
+is blocked by means of DNS tampering,
+TCP/IP blocking or by a transparent HTTP proxy."
 groups: ["website"]
 date: "0000-01-01"
 ---
 
-# Web connectivity
+# Web Connectivity
 
 This test examines whether websites are reachable and if they are not, it
-attempts to determine whether access to them is blocked through DNS tampering,
-TCP connection RST/IP blocking or by a transparent HTTP proxy.
+attempts to determine whether access to them is blocked by means of DNS tampering,
+TCP/IP blocking or by a transparent HTTP proxy.
 
 Specifically, this test is designed to perform the following:
 
@@ -27,10 +27,10 @@ By default, this test performs the above (excluding the first step, which is
 performed only over the network of the user) both over a control server and over
 the network of the user. If the results from both networks match, then there is
 no clear sign of network interference; but if the results are different, then
-the websites that the user is testing are likely censored.
+the website that the user is testing is likely censored.
 
-Below we provide information about how each step performed under the web
-connectivity test works.
+Below we provide information about how each step performed under the Web
+Connectivity test works.
 
 ## 1. Resolver identification
 
