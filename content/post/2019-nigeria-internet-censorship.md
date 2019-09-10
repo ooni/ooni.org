@@ -1,6 +1,6 @@
 ---
 title: "Nigeria’s 2019 elections through the lens of network measurements"
-author: "Babatunde Okunoye (Paradigm Initiative), Maria Xynou (OONI), Arturo Filastò (OONI), Gabreal Odunsi (Paradigm Initiative)"
+author: "Babatunde Okunoye (Paradigm Initiative), Maria Xynou (OONI), Arturo Filastò (OONI)"
 date: "2019-05-29"
 tags: ["censorship", "research-report", "country-ng"]
 categories: ["report"]
@@ -17,11 +17,11 @@ Leading up to and during Nigeria’s 2019 general elections, we
 collaborated with our local partner, [Paradigm Initiative](https://paradigmhq.org/), on measuring networks in the
 country to monitor potential censorship events.
 
-Our findings are included in a joint research report published today with
+Our findings are included in a joint research report published today by
 Paradigm Initiative. The full report, titled **“The 2019 Nigerian
-Elections through the lens of digital rights”**, can be **[downloaded here](https://paradigmhq.org/download/the-2019-nigerian-elections-through-the-lens-of-digital-rights/)**.
+Elections through the lens of digital rights”**, can be **[downloaded here]()**.
 
-This post explains OONI findings based on the analysis of all
+This post summarizes OONI findings based on the analysis of all
 [network measurements](https://explorer.ooni.io/country/NG) collected
 during Nigeria’s 2019 general election period.
 
