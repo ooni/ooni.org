@@ -21,7 +21,7 @@ measurements collected from 233 countries since 2012.
 
     * [Who is OONI Explorer for?](#who-is-ooni-explorer-for)
 
-* [What's new in OONI Explorer 2.0?](#what-s-new-in-ooni-explorer-2-0)
+* [OONI Explorer 2.0](#ooni-explorer-2-0)
 
     * [Revamped country pages](#revamped-country-pages)
 
