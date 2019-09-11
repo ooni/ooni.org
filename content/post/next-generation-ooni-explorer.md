@@ -53,8 +53,8 @@ measurements collected from 233 countries since 2012.
 
 **OONI Explorer is likely the largest, publicly available network
 measurement resource on internet censorship to date.** Thanks to [OONI Probe](https://ooni.io/install/) users around the world (who run
-censorship measurement software every day), 272 million network
-measurements have been collected from 17 thousand networks in 233
+censorship measurement software every day), 280 million network
+measurements have been collected from more than 17,000 networks in 233
 countries since 2012. All of these measurements are openly available on
 [OONI Explorer](https://explorer.ooni.io/).
 
