@@ -1,7 +1,7 @@
 ---
 title: "Next Generation OONI Explorer Launched!"
 author: "Maria Xynou"
-date: "2019-09-10"
+date: "2019-09-12"
 tags: ["ooni-explorer", "launch"]
 categories: ["blog"]
 ---
