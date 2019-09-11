@@ -1,7 +1,7 @@
 ---
 title: "Next Generation OONI Explorer Launched!"
 author: "Maria Xynou"
-date: "2019-09-10"
+date: "2019-09-12"
 tags: ["ooni-explorer", "launch"]
 categories: ["blog"]
 ---
@@ -317,6 +317,8 @@ data in JSON format**.
 ## Censorship Highlights
 
 So what can you learn from OONI Explorer?
+
+![Censorship Highlights](/post/2019-explorer-revamp/highlights.png)
 
 Through the Highlights section on the landing page of the revamped OONI
 Explorer, we share a few examples (based on OONI data) of:
