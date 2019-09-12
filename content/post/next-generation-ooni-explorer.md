@@ -9,7 +9,7 @@ categories: ["blog"]
 ![Next Generation OONI Explorer](/post/2019-explorer-revamp/explorer-revamped.png)
 
 Today the Open Observatory of Network Interference (OONI) team is
-thrilled to announce the public launch of the revamped, **[next generation OONI Explorer](https://explorer.ooni.io/)**!
+thrilled to announce the public launch of the revamped, **[next generation OONI Explorer](https://explorer.ooni.org/)**!
 
 **OONI Explorer is an open data resource on internet censorship around
 the world.** This new platform offers access to millions of censorship
@@ -56,7 +56,7 @@ measurement resource on internet censorship to date.** Thanks to [OONI Probe](ht
 censorship measurement software every day), 280 million network
 measurements have been collected from 18,000 networks in 233
 countries since 2012. All of these measurements are openly available on
-[OONI Explorer](https://explorer.ooni.io/).
+[OONI Explorer](https://explorer.ooni.org/).
 
 **You can use OONI Explorer to uncover evidence of internet
 censorship worldwide.** Every day, hundreds of thousands of new
@@ -129,7 +129,7 @@ Below we share some highlights from OONI Explorer 2.0.
 
 ![OONI Explorer country pages](/post/2019-explorer-revamp/country-pages.png)
 
-The OONI Explorer country pages have been completely revamped!
+The [OONI Explorer country pages](https://explorer.ooni.org/countries) have been completely revamped!
 Previously, the main functionality of the OONI Explorer country pages
 was the search tool for filtering individual measurements.
 
@@ -147,7 +147,7 @@ in each country via OONI Explorer.
 
 ![OONI Explorer: Blocked URLs](/post/2019-explorer-revamp/ir-blocked-urls.png)
 
-OONI Explorer country pages provide an overview of the most recently
+[OONI Explorer country pages](https://explorer.ooni.org/countries) provide an overview of the most recently
 blocked websites (when block pages are served), but you can also dig
 deeper and explore the measurements pertaining to each tested URL (by
 clicking on “Explore more measurements”). These results will
@@ -181,7 +181,7 @@ is what the new OONI Explorer country pages aim to enable.
 
 ![Measurement coverage](/post/2019-explorer-revamp/measurement-coverage.png)
 
-The new OONI Explorer country pages share a greater amount of
+The new [OONI Explorer country pages](https://explorer.ooni.org/countries) share a greater amount of
 granularity in terms of measurement coverage (in comparison to the old
 OONI Explorer). Specifically:
 
@@ -244,7 +244,7 @@ performance across different ISPs** in each country.
 ## Search Tool
 
 With the new OONI Explorer, you can now explore all measurements with a
-powerful search tool.
+[powerful search tool](https://explorer.ooni.org/search).
 
 ![Search Tool: OONI Explorer](/post/2019-explorer-revamp/search-tool.png)
 
