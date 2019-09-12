@@ -21,7 +21,7 @@ Our findings are included in a joint research report published today with
 Paradigm Initiative. The full report, titled **“The 2019 Nigerian
 Elections through the lens of digital rights”**, can be **[downloaded here](https://paradigmhq.org/download/the-2019-nigerian-elections-through-the-lens-of-digital-rights/)**.
 
-This post explains OONI findings based on the analysis of all
+This post summarizes OONI findings based on the analysis of all
 [network measurements](https://explorer.ooni.io/country/NG) collected
 during Nigeria’s 2019 general election period.
 
