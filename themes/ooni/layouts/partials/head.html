@@ -3,14 +3,21 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width"/>
+  <meta name='viewport' content='initial-scale=1.0, width=device-width'/>
   {{ if .RSSLink }}
   <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
   {{ end }}
   <title>OONI - {{ .Title }}</title>
-    <link rel="stylesheet" href="/css/master.css"/>
-    <link rel="stylesheet" href="/css/event.css"/>
-    <link rel="stylesheet" href="/css/fonts.css"/>
+
+  <link rel="canonical" href="https://ooni.org/" />
+  <meta name='description' content="Open Observatory of Network Interference (OONI). A free software, global observation network for detecting censorship, surveillance and traffic manipulation on the internet" />
+  <meta name='og:title' property='og:title' content='OONI - Open Observatory of Network Interference' />
+  <meta property="og:description" content="Open Observatory of Network Interference (OONI). A free software, global observation network for detecting censorship, surveillance and traffic manipulation on the internet" />
+  <meta property='og:type' content='website' />
+
+  <link rel="stylesheet" href="/css/master.css"/>
+  <link rel="stylesheet" href="/css/event.css"/>
+  <link rel="stylesheet" href="/css/fonts.css"/>
   <link rel="stylesheet" href="/css/highlight-default.min.css">
   <link rel="icon" type="image/png" href="/images/favicon.png"/>
   <script src="/js/highlight.min.js"></script>
