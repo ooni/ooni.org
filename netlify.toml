@@ -3,6 +3,6 @@ publish = "public"
 command = "make netlify"
 
 [context.production.environment]
-HUGO_VERSION = "0.24.1"
+HUGO_VERSION = "0.58.2"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
