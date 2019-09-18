@@ -24,7 +24,7 @@ script:
   # `public` directory is a scratchpad for website generator
   # `design` directory is http://openobservatory.github.io/design/ website for https://github.com/openobservatory/design repo
   - rm -rf public design
-  - bin/hugo --buildDrafts --baseUrl=https://ooni.torproject.org
+  - bin/hugo --buildDrafts --baseUrl=https://ooni.org
   - make -C contrib/ooni-probe/docs clean
   - make -C contrib/ooni-probe/docs html
   - cp -R contrib/ooni-probe/docs/build/html/ public/docs/
