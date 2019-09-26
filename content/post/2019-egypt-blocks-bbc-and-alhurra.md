@@ -288,8 +288,8 @@ curl testing.
 During previous investigations, we
 [found](https://ooni.io/documents/Egypt-Internet-Censorship-AFTE-OONI-2018-07.pdf)
 that Egyptian ISPs reset connections through the use of Deep Packet
-Inspection (DPI) equipment. Based on manual testing performed for
-bbc.com and alhurra.com, it’s most likely the case (at least on TEData)
+Inspection (DPI) equipment. Manual testing performed for
+bbc.com and alhurra.com suggests that it’s most likely the case (at least on TEData)
 that censorship is implemented by means of DPI.
 
 Based on the results we gathered, it appears that bbc.com & allhurra.com
