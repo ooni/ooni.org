@@ -15,13 +15,7 @@ python:
 
 install:
   - mkdir -p bin contrib
-
-  # FIXME: 0.30 causes https://openobservatory.github.io/post/ to appear in wrong order
-  - wget https://github.com/gohugoio/hugo/releases/download/v0.29/hugo_0.29_Linux-64bit.tar.gz -O /tmp/hugo_0.29_Linux-64bit.tar.gz
-  - echo '80011b40b64781a5adfbf882fe3ab3b3c526e9ba8583fb532cd2331ffbe44a9e  /tmp/hugo_0.29_Linux-64bit.tar.gz' >/tmp/hugo_0.29_checksums.txt
-  - sha256sum --check /tmp/hugo_0.29_checksums.txt
-  - tar -xf /tmp/hugo_0.29_Linux-64bit.tar.gz -C bin/
-
+  - ./scripts/install_hugo.sh
   - pip install sphinx sphinx_rtd_theme # Should I specify sphinx versions?
   - if [ ! -d contrib/ooni-probe ]; then git clone --depth 1 --branch master https://github.com/ooni/probe-legacy.git contrib/ooni-probe; else cd contrib/ooni-probe && git pull --ff-only origin master; fi
 
@@ -30,7 +24,7 @@ script:
   # `public` directory is a scratchpad for website generator
   # `design` directory is http://openobservatory.github.io/design/ website for https://github.com/openobservatory/design repo
   - rm -rf public design
-  - bin/hugo --theme=ooni --buildDrafts --baseUrl=https://ooni.torproject.org
+  - bin/hugo --buildDrafts --baseUrl=https://ooni.org
   - make -C contrib/ooni-probe/docs clean
   - make -C contrib/ooni-probe/docs html
   - cp -R contrib/ooni-probe/docs/build/html/ public/docs/

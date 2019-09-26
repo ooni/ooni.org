@@ -12,7 +12,7 @@ update-site:
 # keep this in-sync with `.travis.yml`
 publish:
 	rm -rf public design
-	hugo --theme=ooni --buildDrafts --baseUrl=https://ooni.torproject.org
+	hugo --buildDrafts --baseUrl=https://ooni.torproject.org
 	make -C ${OONI_PROBE_REPO_DIR}/docs clean
 	make -C ${OONI_PROBE_REPO_DIR}/docs html
 	cp -R ${OONI_PROBE_REPO_DIR}/docs/build/html/ public/docs/
@@ -30,7 +30,7 @@ netlify:
 	# netlify may cache contrib/ooni-probe from previous build
 	if [ ! -d contrib/ooni-probe ]; then git clone --depth 1 --branch master https://github.com/ooni/probe-legacy.git contrib/ooni-probe; else cd contrib/ooni-probe && git pull --ff-only origin master; fi
 	rm -rf public design
-	hugo --theme=ooni --buildDrafts --baseUrl=https://ooni.io
+	hugo --buildDrafts --baseUrl=https://ooni.org
 	make -C contrib/ooni-probe/docs clean
 	make -C contrib/ooni-probe/docs html
 	cp -R contrib/ooni-probe/docs/build/html/ public/docs/
@@ -38,7 +38,7 @@ netlify:
 	git show HEAD -q '--format=# HELP ooni_web_mtime UNIX Time of the commit used to build website.%n# TYPE ooni_web_mtime gauge%nooni_web_mtime %ct' >public/_web.mtime.txt
 
 server:
-	hugo server --theme=ooni --baseUrl=http://127.0.0.1:1313 --buildDrafts --buildFuture
+	hugo server --baseUrl=http://127.0.0.1:1313 --buildDrafts --buildFuture
 
 known-publishers:
 	ssh perdulce.torproject.org getent group ooni

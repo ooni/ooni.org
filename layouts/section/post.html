@@ -17,7 +17,8 @@
 
   <main class="col-3">
     <h2>Blog posts</h2>
-    {{ range where .Data.Pages.ByPublishDate "Section" "post" }}
+    {{ range where .Data.Pages.ByDate.Reverse "Section" "post" }}
+
       <div class="row blog-summary">
         <div>
           <a href="{{ .RelPermalink }}" style="margin-bottom: 0">
@@ -31,6 +32,7 @@
           {{ end }}
         </div>
       </div>
+
     {{ end }}
   </main>
 
