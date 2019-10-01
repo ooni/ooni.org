@@ -6,6 +6,12 @@ tags: ["egypt", "censorship", "country-eg"]
 categories: ["report"]
 ---
 
+---------------------------------------------------------------------------------------------------------------------
+
+Read the **[Arabic translation of the report here](https://moeltaher.net/2019/09/26/مصر-تحجب-بي-بي-سي-والحرة-التوسع-في-الرق/)**.
+
+---------------------------------------------------------------------------------------------------------------------
+
 Last weekend, [protests erupted in Egypt](https://www.bbc.com/news/world-middle-east-49786367) in response
 to corruption allegations against President Abdul Fattah al-Sisi’s
 government.
