@@ -5,6 +5,7 @@ DefaultContentLanguage = "en"
 pluralizeListTitles = false
 
 [Languages]
+[Languages.ar]
 [Languages.en]
 [Languages.es]
 [Languages.ca]
