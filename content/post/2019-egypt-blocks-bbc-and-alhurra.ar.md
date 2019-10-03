@@ -5,38 +5,31 @@ date: "2019-09-26"
 tags: ["egypt", "censorship", "country-eg"]
 categories: ["report"]
 ---
-<p dir="rtl">
-في نهاية الأسبوع الماضي ،<a href="https://www.bbc.com/news/world-middle-east-49786367"> اندلعت الاحتجاجات في مصر رداً</a> على مزاعم الفساد ضد حكومة الرئيس عبد الفتاح السيسي.</p>
-<p dir="rtl">
-كانت الاحتجاجات نادرة منذ تولي الرئيس السيسي السلطة في عام 2014 ، ولكن وسط سياسات التقشف الاقتصادي وادعاءات الفساد الأخيرة ، خرج مئات المصريين إلى الشوارع. <a href="https://netblocks.org/reports/facebook-messenger-social-media-and-news-sites-disrupted-in-egypt-amid-protests-eA1Jd7Bp">أفيد لاحقًا</a> أن موقع بي بي سي و موقع الحرة الإخباري الذي تموله الولايات المتحدة كانا من بين الخدمات التي حُجبت. <a href="https://cpj.org/2019/09/egypt-authorities-arrest-3-journalists-block-websi.php">وذكر رئيس المجلس الأعلى لتنظيم الإعلام والصحافة </a>في مصر أن بي بي سي ومواقع الأخبار الأخرى ربما حُجبت بسبب تغطيتها "غير الدقيقة" للاحتجاجات.<p/>
-<p dir="rtl">
-كجزء من حملة على الاحتجاجات (<a href="https://www.theguardian.com/world/2019/sep/26/over-1900-arrested-as-egypt-braces-for-more-protests">يُتوقع حدوث المزيد </a>من الاحتجاجات غدًا ، 27 سبتمبر 2019) ،<a href="https://www.amnesty.org/en/latest/news/2019/09/egypt-world-leaders-must-act-to-stop-president-al-sisis-repressive-crackdown/"> ذُكر أن قوات الأمن المصرية اعتقلت ما لا يقل عن 59 متظاهراً</a> (أفاد المركز المصري للحقوق الاقتصادية والاجتماعية بأن مئات الأفراد الذين لهم صلة بالاحتجاجات قد اعتُقلوا خلال الأسبوع الماضي).</p>
-<p dir="rtl">
-لسوء الحظ ، فإن الرقابة على الإعلام منتشرة في مصر ، كما وُثّقت <a href="https://ooni.io/documents/Egypt-Internet-Censorship-AFTE-OONI-2018-07.pdf"> من خلال دراساتنا السابق</a>ة. تمكنّا من فحص القياسات الخاصة<a href="https://explorer.ooni.org/search?until=2019-09-26&amp;domain=www.bbc.com&amp;probe_cc=EG"> باختبار bbc.com </a>و <a href="https://explorer.ooni.org/search?until=2019-09-26&amp;domain=www.alhurra.com&amp;probe_cc=EG">alhurra.com</a>، ذلك بفضل اختبار<a href="https://ooni.io/install/"> OONI Probe</a> المستمر في مصر. كما دعمنا نتائج OONI من خلال اختبارات curl يدوي أُجري في مصر على شبكة  المصرية للاتصالات (AS8452) بمساعدة شركائنا المحليين.</p>
-<p dir="rtl">
+
+في نهاية الأسبوع الماضي ،<a href="https://www.bbc.com/news/world-middle-east-49786367"> اندلعت الاحتجاجات في مصر رداً</a> على مزاعم الفساد ضد حكومة الرئيس عبد الفتاح السيسي.
+
+كانت الاحتجاجات نادرة منذ تولي الرئيس السيسي السلطة في عام 2014 ، ولكن وسط سياسات التقشف الاقتصادي وادعاءات الفساد الأخيرة ، خرج مئات المصريين إلى الشوارع. <a href="https://netblocks.org/reports/facebook-messenger-social-media-and-news-sites-disrupted-in-egypt-amid-protests-eA1Jd7Bp">أفيد لاحقًا</a> أن موقع بي بي سي و موقع الحرة الإخباري الذي تموله الولايات المتحدة كانا من بين الخدمات التي حُجبت. <a href="https://cpj.org/2019/09/egypt-authorities-arrest-3-journalists-block-websi.php">وذكر رئيس المجلس الأعلى لتنظيم الإعلام والصحافة </a>في مصر أن بي بي سي ومواقع الأخبار الأخرى ربما حُجبت بسبب تغطيتها "غير الدقيقة" للاحتجاجات.
+
+كجزء من حملة على الاحتجاجات (<a href="https://www.theguardian.com/world/2019/sep/26/over-1900-arrested-as-egypt-braces-for-more-protests">يُتوقع حدوث المزيد </a>من الاحتجاجات غدًا ، 27 سبتمبر 2019) ،<a href="https://www.amnesty.org/en/latest/news/2019/09/egypt-world-leaders-must-act-to-stop-president-al-sisis-repressive-crackdown/"> ذُكر أن قوات الأمن المصرية اعتقلت ما لا يقل عن 59 متظاهراً</a> (أفاد المركز المصري للحقوق الاقتصادية والاجتماعية بأن مئات الأفراد الذين لهم صلة بالاحتجاجات قد اعتُقلوا خلال الأسبوع الماضي).
+
+لسوء الحظ ، فإن الرقابة على الإعلام منتشرة في مصر ، كما وُثّقت <a href="https://ooni.io/documents/Egypt-Internet-Censorship-AFTE-OONI-2018-07.pdf"> من خلال دراساتنا السابق</a>ة. تمكنّا من فحص القياسات الخاصة<a href="https://explorer.ooni.org/search?until=2019-09-26&amp;domain=www.bbc.com&amp;probe_cc=EG"> باختبار bbc.com </a>و <a href="https://explorer.ooni.org/search?until=2019-09-26&amp;domain=www.alhurra.com&amp;probe_cc=EG">alhurra.com</a>، ذلك بفضل اختبار<a href="https://ooni.io/install/"> OONI Probe</a> المستمر في مصر. كما دعمنا نتائج OONI من خلال اختبارات curl يدوي أُجري في مصر على شبكة  المصرية للاتصالات (AS8452) بمساعدة شركائنا المحليين.
+
 في هذا التقرير ، <a href="https://explorer.ooni.org/search?until=2019-09-26&amp;domain=www.bbc.com&amp;probe_cc=EG">نشارك بيانات قياسات OONI  لاختبارات bbc.com و alhurra.com </a>، ونشرح كيف تم تنفيذ الحجب على المستوى التقني. نشارك أيضًا بعض التوصيات حول ما يمكن لمالكي مواقع الويب القيام به لتحسين مقاومة مواقعهم للرقابة على الإنترنت.
-</p>
-<p dir="rtl">  
 ## الفهرس
 
 * بي بي سي
 * قناة الحرة
 * خاتمة
-</p>
-<p dir="rtl">
+
 ## بي بي سي
 <a href="https://explorer.ooni.org/search?until=2019-09-26&amp;probe_cc=EG&amp;test_name=web_connectivity">تُجمع قياسات</a> بي بي سي ومئات المواقع الإعلامية الأخرى المُعرّضة للرقابة في مصر بانتظام ،إلى حد ما، من خلال استخدام<a href="https://ooni.io/install/"> OONI Probe</a>. على وجه التحديد ، يتضمن OONI Probe اختبارًا يسمى <a href="https://ooni.io/nettest/web-connectivity/">Web Connectivity</a> - مصممًا لقياس حظر DNS و TCP / IP و HTTP لمواقع الويب. كشف هذا الاختبار <a href="https://ooni.io/documents/Egypt-Internet-Censorship-AFTE-OONI-2018-07.pdf">من قبل عن حجب مئات المواقع الإعلامية في مصر</a>.
-</p>
-<p dir="rtl">
+
 اعتبارًا من 22 سبتمبر 2019 (بالتزامن مع احتجاجات مصر في نهاية الأسبوع الماضي) ، بدأت قياسات OONI<a href="https://explorer.ooni.org/search?until=2019-09-26&amp;domain=www.bbc.com&amp;probe_cc=EG"> تُظهر علامات تشويش عند اختبار موقع bbc.com في مصر.</a>
-</p>
-<p dir="rtl">
+
 على وجه الخصوص ، نلاحظ أن العديد من القياسات أسفرت عن أخطاء TLS على<a href="https://explorer.ooni.org/measurement/20190925T123505Z_AS8452_AengvAPQR19gEwSJlbI6QNIr2tgysRD5Apb8nCxXlHtuyHh0aF?input=http%3A%2F%2Fwww.bbc.com%2Fnews"> المصرية للاتصالات (AS8452)</a> و <a href="https://explorer.ooni.org/measurement/20190922T172806Z_AS37069_7bnh3ifWTQXLc1XBrgp9HuqnEW5OplnWMbjQ0I5h8iVZiLdPoc?input=https%3A%2F%2Fwww.bbc.com%2Fnews">أورانج مصر (AS37069)</a>. القياسات الأخرى التي جُمعت من<a href="https://explorer.ooni.org/measurement/20190922T105606Z_AS36935_hRGq3a52FYoCY423rzA0QxLZ5EWfKYcvPBkFf363IoX4u1dvyZ?input=https://www.bbc.com"> شركة فودافون مصر (AS36935)</a> أظهرت timeout error  عند محاولة جلب محتوى الموقع.
-</p>
-<p dir="rtl">
+
 لدعم هذه النتائج بشكل أكبر ، قمنا بالتنسيق مع مجموعات في مصر لجمع المزيد من البيانات عبر الاختبارات اليدوية (التي أجريت على المصرية للاتصالات).
-</p>
-<p dir="ltr">
+
 ```
 curl -v --connect-to ::www.kernel.org: https://www.bbc.com/arabic
 * Connecting to hostname: www.kernel.org
@@ -53,14 +46,10 @@ CApath: none
 curl: (35) Encountered end of file
 ```
 
-</p>
-<p dir="rtl">
+
 يمكننا أن نرى أنه حتى عند الاتصال بخادم غير ذي صلة (www.kernel.org) ، ولكن عند محاولة مصافحة TLS لـ www.bbc.com ، قُطع الاتصال أثناء المصافحة.
-</p>
-<p dir="rtl">
+
 من ناحية أخرى ، عندما نتصل بـ bbc.com مباشرة ، لكننا نستخدم www.kernel.org في مصافحة TLS ، يمر الاتصال ، كما هو واضح في المقتطف التالي من curl request:
-</p>
-<p dir="ltr">
 
 ```
 curl -v --connect-to :: www.bbc.com: https://www.kernel.org
@@ -141,29 +130,20 @@ curl -v --connect-to :: www.bbc.com: https://www.kernel.org
 <head>
 [ SNIP ]
 ```
-</p>
-<p dir="rtl">
+
 يعد هذا مؤشراً قوياً على وجود شكل من أشكال تقنية فحص الحزم العميقة (DPI) التي تستشم TLS والتي من المرجح أن تكون بصمة حقل SNI الخاص بمصافحة TLS.
-  </p>
-  <p dir="rtl">
 ## قناة الحرة
 في حالة Alhurra ، نلاحظ أيضًا أنه اعتبارًا من 22 سبتمبر 2019 ، فشلت محاولات الاتصال بالموقع بشكل ثابت ، كما هو موضح في الرسم البياني التالي.
-</p>
-<p dir="rtl">
 
 ![Chart: Blocking of BBC and Alhurra in Egypt](/post/egypt-internet-censorship/eg-bbc-alhurra-2019.png)
 
-المصدر: قياسات OONI: مصر ، <a href="https://explorer.ooni.org/search%D8%9Funtil=2019-09-26&amp;probe_cc=EG">https://explorer.ooni.org/search؟until=2019-09-26&amp;probe_cc=EG</a></p>
-
-<p dir="rtl">
+المصدر: قياسات OONI: مصر ، <a href="https://explorer.ooni.org/search%D8%9Funtil=2019-09-26&amp;probe_cc=EG">https://explorer.ooni.org/search؟until=2019-09-26&amp;probe_cc=EG</a>
 
 تعرض جميع قياسات OONI التي جُمعت في 22 سبتمبر 2019 نفس النوع من http_experiment_failure (connection_reset) ، مما يشير بقوة إلى أن موقع alhurra.com قد حُجب. نلاحظ هذه الحالات الشاذة على شبكتين تم اختبارهما:<a href="https://explorer.ooni.org/search?until=2019-09-26&amp;domain=www.alhurra.com&amp;probe_cc=EG&amp;probe_asn=AS36935&amp;test_name=web_connectivity"> فودافون مصر (AS36935)</a> و <a href="https://explorer.ooni.org/search?until=2019-09-26&amp;domain=www.alhurra.com&amp;probe_cc=EG&amp;probe_asn=AS8452&amp;test_name=web_connectivity">المصرية للاتصالات (AS8452).</a>
 
 لتأكيد نتائج قياس OONI وفحصها أكثر ، أجرينا أيضًا اختبارات يدوية من شبكة المصرية للاتصالات (AS8452) وتوصلنا إلى استنتاجات مشابهة جدًا لتلك الخاصة بموقع bbc.com.
 
 يؤدي الاتصال بخادم غير ذي صلة ، ولكن باستخدام نطاق www.alhurra.com في مصافحة TLS ، إلى اتصال غير ناجح ، كما هو موضح أدناه.
-</p>
-<p dir="ltr">
 
 
 ```
@@ -181,12 +161,10 @@ curl -v --connect-to ::www.kernel.org: https://www.alhurra.com/
 * Closing connection 0
 curl: (35) Encountered end of file
 ```
-</p>
-<p dir="rtl">
+
 
 على العكس ، نحن قادرون على إنشاء اتصال بـ www.alhurra.com إذا استخدمنا نطاقا مختلفًا في مصافحة TLS.
-</p>
-<p dir="ltr">
+
 
 
 ```
@@ -240,13 +218,8 @@ curl: (56) Recv failure: Connection reset by peer
 <head>
         <title>The Linux Kernel Archives</title>
 ```
-</p>
-<p dir="rtl">
 
 تقدم هذه النتائج مؤشرا قويا على أن الحجب يحدث عن طريق تصفية SNI.
-</p>
-<p dir="rtl">
-
 ## خاتمة
 وسط الاحتجاجات ، حُجب كل من bbc.com و alhurra.com في مصر في 22 سبتمبر 2019 ، وذلك طبقا لقياسات OONI واختبار curl اليدوي.
 
@@ -257,4 +230,3 @@ curl: (56) Recv failure: Connection reset by peer
 نظرً<a href="https://www.theguardian.com/world/2019/sep/26/over-1900-arrested-as-egypt-braces-for-more-protests">ا للتخطيط لمزيد من الاحتجاجات غدًا</a> ، 27 سبتمبر 2019 ، هناك خطر من احتمال حدوث المزيد من الرقابة في مصر. يمكن التوسع في هذه الدراسة من خلال استخدام<a href="https://ooni.io/install/"> OONI Probe</a> لمزيد من الاختبارات. و يمكن استخدام <a href="https://run.ooni.io/">OONI Run</a> لإنشاء روابط قابلة للمشاركة تتيح الاختبار المنسق لمواقع محددة. تُنشر <a href="https://ooni.io/data/">جميع قياسات شبكة OONI</a> بشكل مفتوح يوميًا.
 
 نشكر جميع مستخدمي OONI Probe في مصر الذين جعلوا هذه الدراسة ممكنة.
-</p>
