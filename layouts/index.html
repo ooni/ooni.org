@@ -172,7 +172,7 @@
           <h2>Blog Posts</h2>
         </div>
        <div class="col-2 blog-summary">
-          {{ range first 5 (where .Site.RegularPages "Section" "post").ByDate.Reverse }}
+          {{ range first 5 (where (where .Site.Pages.ByDate.Reverse "Section" "post") "Kind" "page") }}
           <a href="{{ .RelPermalink }}">
               <p class="title">{{ .Title }}</p>
               <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
