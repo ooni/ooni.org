@@ -1,0 +1,26 @@
+html {
+  direction: rtl;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: normal;
+}
+
+code {
+  direction: ltr;
+  text-align: left;
+}
+
+code::before {
+  display: inline;
+  content: '\200e';
+}
+
+code::after {
+  content: '\200e';
+  display: inline;
+}
+
+.hljs-comment {
+  direction: reset;
+}
