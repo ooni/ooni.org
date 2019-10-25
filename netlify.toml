@@ -7,8 +7,6 @@ HUGO_VERSION = "0.58.2"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
-https://msg.ooni.io/en/messages/2017-09-06-togo
-
 [[redirects]]
   from = "https://msg.ooni.io/en/messages/*"
   to = "https://ooni.org/msg/:splat"
