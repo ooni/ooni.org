@@ -6,3 +6,13 @@ command = "make netlify"
 HUGO_VERSION = "0.58.2"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "https://msg.ooni.io/en/messages/*"
+  to = "https://ooni.org/msg/:splat"
+  status = 301
+
+[[redirects]]
+  from = "https://msg.ooni.io/fr/messages/*"
+  to = "https://ooni.org/fr/msg/:splat"
+  status = 301
