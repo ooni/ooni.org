@@ -1,10 +1,8 @@
-# Rapid Response
+# Thematic OONI Probe testing
 
 Social media, news websites, and VPNs often get blocked during political events (such as elections or protests) around the world.
 
 To support **rapid response** to emergent censorship events, we share the following [OONI Run](https://run.ooni.io) buttons to enable the testing of specific types of websites.
-
-## Thematic OONI Probe testing
 
 To measure the blocking of websites:
 
