@@ -48,7 +48,7 @@ glossary.
 
 * [DPI](#dpi)
 
-* [False positive](#false positive)
+* [False positive](#false-positive)
 
 * [HTTP](#http)
 
@@ -282,7 +282,7 @@ DNS stands for "Domain Name System" and it maps domain names to IP addresses.
 
 A domain is a name that we attribute to websites (when we create them), so that
 we can more easily remember and access them. For example, twitter.com is the
-domain of the Twitter website (https://twitter.com/).
+domain of the Twitter website (`https://twitter.com/`).
 
 However, computers can't connect to internet services through domain names, but
 based on IP addresses: the digital address of each service on the internet.
@@ -312,8 +312,8 @@ deliberately been blocked.
 exist or has been misspelled.
 
 When Internet Service Providers (ISPs) receive government orders to block
-specific websites, they sometimes adopt this technique. In these cases, **it may
-be possible to circumvent the censorship by merely changing your DNS resolver**.
+specific websites, they sometimes adopt this technique. In these cases, it may
+be possible to circumvent the censorship by merely changing your DNS resolver.
 
 ### DNS lookup
 
@@ -396,8 +396,8 @@ The [OONI Probe apps](https://ooni.org/install/) measure the [DNS tampering of w
 A domain is a name that we attribute to websites (when we create them), so that
 we can more easily remember and access them.
 
-For example, twitter.com is the domain of the Twitter website
-(https://twitter.com/).
+For example, **twitter.com** is the domain of the Twitter website
+(`https://twitter.com/`).
 
 ### DPI
 
@@ -461,7 +461,7 @@ The HTTP protocol allows communication between a client and a server. It does so
 by handling a client’s request to connect to a server, and a server’s response
 to a client’s request.
 
-All websites include an HTTP (or HTTPS) prefix (such as http://example.com/) so
+All websites include an HTTP (or HTTPS) prefix (such as `http://example.com/`) so
 that your computer (the client) can request and receive the content of a website
 (hosted on a server).
 
@@ -473,7 +473,7 @@ Hypertext Transfer Protocol Secure (HTTPS) -- also known as HTTP over TLS, or
 HTTP over SSL --  is the **encrypted version of the HTTP protocol**.
 
 Over the last years, many websites on the internet started supporting HTTPS
-(such as https://www.facebook.com/) so that the transmission of data (such as
+(such as `https://www.facebook.com/`) so that the transmission of data (such as
 passwords to login to websites) over the HTTP protocol is encrypted.
 
 ### HTTP blocking
@@ -563,20 +563,20 @@ HTTP response.
 
 Common HTTP status codes include:
 
-* HTTP Error **500*(Internal Server Error): General-purpose error message when a
+* HTTP Error *500*(Internal Server Error): General-purpose error message when a
 web server encounters some form of internal error.
 
-* HTTP Error **403*(Forbidden): When you try to access a forbidden directory on
+* HTTP Error *403*(Forbidden): When you try to access a forbidden directory on
 a website.
 
-* HTTP Error **404*(Not Found): When you try to access a resource on a web
+* HTTP Error *404*(Not Found): When you try to access a resource on a web
 server (usually a web page) that doesn’t exist (because, for example, you have
 mistyped a URL).
 
-* HTTP Error **400*(Bad Request): When the application you are using (such as
+* HTTP Error *400*(Bad Request): When the application you are using (such as
 your web browser) accesses a server incorrectly or the request was corrupted.
 
-* HTTP Error **401*(Unauthorized): When you try to access a restricted web page
+* HTTP Error *401*(Unauthorized): When you try to access a restricted web page
 but aren't authorized to do so (usually because of a failed login attempt).
 
 When measuring the blocking of websites, the OONI Probe [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) compares the HTTP status codes
@@ -634,8 +634,7 @@ case, it constitutes a form of internet censorship -- or it may have been caused
 Since [OONI Probe](https://ooni.org/install/) requires internet connectivity in order to perform tests,
 measuring internet blackouts is currently out of scope.
 
-Several [public data sources](https://ooni.org/post/examining-internet-
-blackouts/) are available for monitoring internet blackouts, such as
+Several [public data sources](https://ooni.org/post/examining-internet-blackouts/) are available for monitoring internet blackouts, such as
 [IODA](https://ioda.caida.org/).
 
 ### Internet censorship
@@ -687,8 +686,7 @@ Each [OONI Probe test](https://ooni.org/nettest/) is designed to measure
 different forms of network interference. Depending on the test, each OONI
 measurement contains a different result.
 
-Here is an example of an OONI measurement: https://explorer.ooni.org/measurement/20191024T090549Z_AS42668_D8RVKYKWbqzaTopEcH3K6qy8yzOHVe1QgNeyzn686G1CbEveKU?inp
-ut=http://kavkaznews.com/
+Here is an example of an OONI measurement: https://explorer.ooni.org/measurement/20191024T090549Z_AS42668_D8RVKYKWbqzaTopEcH3K6qy8yzOHVe1QgNeyzn686G1CbEveKU?input=http://kavkaznews.com/
 
 ### Metadata
 
@@ -772,8 +770,8 @@ increased privacy and security benefits.
 Websites, for example, can be placed in an anonymous network location through
 the use of onion services, which allow them to hide their IP address and provide
 more privacy to their visitors. You can distinguish such websites through their
-.onion addresses, such as https://facebookcorewwwi.onion/ or
-http://www.nytimes3xbfgragh.onion/.
+.onion addresses, such as `https://facebookcorewwwi.onion/` or
+`http://www.nytimes3xbfgragh.onion/`.
 
 Over the last years, the [OONI Probe version for Linux and macOS](https://ooni.org/install/ooniprobe/) used onion services to upload
 measurements to OONI servers.
@@ -938,7 +936,7 @@ cryptographic protocol that allows you to maintain a secure, encrypted
 connection between your computer and an internet service.
 
 When you connect to a website though TLS, the address of the website will begin
-with HTTPS (such as https://www.facebook.com/), instead of HTTP.
+with HTTPS (such as `https://www.facebook.com/`), instead of HTTP.
 
 ### Tor
 
@@ -961,7 +959,7 @@ manipulate internet traffic.
 
 A URL is the address of a World Wide Web page.
 
-For example, https://twitter.com/ is a URL, while twitter.com is a domain.
+For example, `https://twitter.com/` is a URL, while twitter.com is a domain.
 
 ### VPN
 
