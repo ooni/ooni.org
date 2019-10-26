@@ -72,6 +72,8 @@ glossary.
 
 * [Internet](#internet)
 
+* [Internet blackout](#internet-blackout)
+
 * [Internet censorship](#internet-censorship)
 
 * [IP address](#ip-address)
@@ -619,15 +621,32 @@ through electronic, wireless and optical networking technologies.
 
 Multiple interconnected networks form the internet.
 
+### Internet blackout
+
+An internet blackout (also referred to as "internet outage") occurs when the
+internet is completely turned-off in a country or region. The area or network
+affected by the internet blackout has no internet access at all.
+
+An internet blackout may be *intentional* (ordered by a government) -- in which
+case, it constitutes a form of internet censorship -- or it may have been caused
+*unintentionally* (for example, due to disruption of cables).
+
+Since [OONI Probe](https://ooni.org/install/) requires internet connectivity in order to perform tests,
+measuring internet blackouts is currently out of scope.
+
+Several [public data sources](https://ooni.org/post/examining-internet-
+blackouts/) are available for monitoring internet blackouts, such as
+[IODA](https://ioda.caida.org/).
+
 ### Internet censorship
 
-Internet censorship is the control or suppression of what can be accessed,
+Internet censorship is the *intentional* control or suppression of what can be accessed,
 published, or viewed on the internet.
 
 Internet Service Providers (ISPs) usually implement internet censorship based on
 government orders and/or in compliance with national legislation. This involves
 blocking access to specific websites and/or applications, preventing users of
-that specific network from accessing those specific internet services.
+that specific network from accessing specific internet services.
 
 As internet censorship is implemented on the network level, it may differ from
 network to network, and from country to country.
