@@ -8,7 +8,7 @@ categories: ["report"]
 
 ![Cover image](/post/WoW/wow-cover-image.png)
 
-**Image:** By Clara Juliano (Coding Rights)
+**Image:** By Clarote (Coding Rights)
 
 As abortion remains partially or totally
 [criminalized](https://reproductiverights.org/worldabortionlaws) in
@@ -203,7 +203,7 @@ several countries, as illustrated below.
 
 ![Chart: Blocking of WoW worldwide](/post/WoW/wow-global-blocking-chart.png)
 
-**Source:** OONI measurements, https://explorer.ooni.org/
+**Source:** OONI measurements from 2019, https://explorer.ooni.org/
 
 Our analysis is available **[here](ADD-LINK)**.
 
@@ -328,7 +328,7 @@ access to womeonwaves.org appears to be blocked.
 
 ![Chart: Testing WoW in Brazil](/post/WoW/br-chart.png)
 
-**Source:** [OONI measurements: Brazil](https://explorer.ooni.org/country/BR)
+**Source:** [OONI measurements: Brazil 2019](https://explorer.ooni.org/country/BR)
 
 Almost all measurements collected from the testing of womenonweb.org on
 many different networks across Brazil consistently showed that the site
@@ -344,7 +344,7 @@ demonstrated in the following chart.
 
 ![Chart: Testing WoW across networks in Brazil](/post/WoW/br-network-chart.png)
 
-**Source:** [OONI measurements: Brazil](https://explorer.ooni.org/country/BR)
+**Source:** [OONI measurements: Brazil 2018-2019](https://explorer.ooni.org/country/BR)
 
 Most testing was performed on Claro (AS28573), where multiple
 measurements consistently presented TCP/IP anomalies (since at least
