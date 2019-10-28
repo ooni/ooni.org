@@ -346,7 +346,7 @@ demonstrated in the following chart.
 
 **Source:** [OONI measurements: Brazil](https://explorer.ooni.org/country/BR)
 
-Most testing was performed on Claro (AS28573), where hundreds of
+Most testing was performed on Claro (AS28573), where multiple
 measurements consistently presented TCP/IP anomalies (since at least
 January 2018), strongly suggesting that this ISP blocked access to
 womenonwaves.org. Many anomalies were also detected on Telefônica Brasil
