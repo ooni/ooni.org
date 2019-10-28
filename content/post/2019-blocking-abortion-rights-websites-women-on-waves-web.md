@@ -353,28 +353,20 @@ womenonwaves.org. Many anomalies were also detected on Telefônica Brasil
 (AS27699), which is branded as Vivo, suggesting potential blocking of
 womenonwaves.org on that network as well.
 
-Data collected from the [Satellite test](https://censoredplanet.org/projects/satellite) of [Censored Planet](https://censoredplanet.org/) (between 1st January 2019 to 30th
-September 2019) suggests the DNS based blocking of www.womenonwaves.org
-in Brazil. Satellite scans the internet for open DNS resolvers and
-performs queries to them in an attempt to identify DNS based blocking.
+Data collected from the [Satellite test](https://censoredplanet.org/projects/satellite) of [Censored Planet](https://censoredplanet.org/) (between 1st January 2019 to 30th September
+2019) suggests the DNS based blocking of www.womenonwaves.org in Brazil.
+Satellite scans the internet for open DNS resolvers and performs queries to them
+in an attempt to identify DNS based blocking. These checks are performed from
+vantage points outside of the country using open DNS resolvers, which means that
+the filtering observed on these resolvers may not necessarily be experienced by
+users in Brazil.
 
 Out of the 1,730 probed DNS resolvers, 4 of them ('201.76.164.227',
 '200.196.48.21', '189.75.28.176', '128.201.60.50') presented signs of
-interference throughout most of 2019. In particular, these resolvers
-respond to queries for the domain www.womenonwaves.org with the
-following IPs: '200.196.48.41', '192.68.2.1', '200.31.1.49'.
-
-When we access the hijacked IP address 200.31.1.49, it returns the
-following blockpage:
-
-![Brazil block page](/post/WoW/br-blockpage.png)
-
-***Image:** Block page served by the hijacked IP address 200.31.1.49*
-
-The other two IPs do not respond to HTTP requests from outside of those
-networks, but one of them ( '200.196.48.41') is allocated to a Brazilian
-ISP (Mundivox LTDA) and the other (192.68.2.1) is likely used as an
-internally routed IP address.
+interference throughout most of 2019. In particular, these resolvers respond to
+queries for the domain `www.womenonwaves.org` with the following IPs:
+'200.196.48.41' (17/17 measurements return this IP), '192.68.2.1' (1/1
+measurement), '200.31.1.49' (1/35 measurements).
 
 Overall, this is one of the few cases where we observe internet
 censorship in Brazil through OONI measurements. We previously [reported on the blocking of WhatsApp in Brazil](https://ooni.org/post/brazil-whatsapp-block/) 3 years ago, but those cases were
