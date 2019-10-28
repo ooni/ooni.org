@@ -30,7 +30,7 @@ few years through the use of [OONI Probe](https://ooni.io/install/).
 OONI Probe is [free and open source software](https://github.com/ooni/probe) designed to measure the
 blocking of websites and various other forms of internet censorship.
 Hundreds of thousands of OONI Probe users run censorship measurements in
-[around 210 countries every month](https://api.ooni.io/stats).
+[around 210 countries every month](https://explorer.ooni.org).
 
 To check whether womenonwaves.org is blocked in Brazil and in other
 countries, we analyzed [OONI measurements from around the world](https://explorer.ooni.org/). As part of our analysis, we also
@@ -398,7 +398,7 @@ and
 -- prohibit abortion altogether, without any exceptions), they do not
 appear to censor access to abortion information, while Brazil appears to
 be the only Latin American country that censors access to
-womenonwaves.org (according to [OONI measurements](https://api.ooni.io/)).
+womenonwaves.org (according to [OONI measurements](https://explorer.ooni.org/)).
 
 OONI measurements suggest that womenonwaves.org is accessible in
 [Argentina](https://explorer.ooni.org/search?until=2019-09-05&domain=www.womenonwaves.org&test_name=web_connectivity&probe_cc=AR),
