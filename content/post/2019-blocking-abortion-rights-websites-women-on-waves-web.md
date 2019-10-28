@@ -205,7 +205,7 @@ several countries, as illustrated below.
 
 **Source:** OONI measurements, https://explorer.ooni.org/
 
-Our analysis is available **[here](ADD-LINK)**.
+Our analysis is available **[here](/post/2019-blocking-abortion-rights-websites-women-on-waves-web/20191025-wow-br-web_connectivity-pivot.csv)**.
 
 OONI data, as demonstrated in the above chart, suggests blocking of both
 womenonwaves.org and womenonweb.org in Turkey. Brazil and Iran only
@@ -670,7 +670,7 @@ What is unclear, though, is why this type of blocking does not happen
 consistently across all measurements, but only affects a very small set
 of measurements.
 
-Our findings are corroborated by [Censored Planet data](ADD-CSV), which also shows
+Our findings are corroborated by [Censored Planet satellite data](/post/2019-blocking-abortion-rights-websites-women-on-waves-web/20191025-censored-planet-satellite_womenonw-eb-aves.csv.zip), which also shows
 that the IP address 213.14.227.50 is used by the Turkish ISP to
 implement blocking for www.womenonwaves.org and www.womenonweb.org (as
 well as for these other websites: verystream.com, openload.co,
