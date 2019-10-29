@@ -6,7 +6,7 @@ tags: ["country-br", "country-ir", "country-tr", "country-sa", "country-kr", "ce
 categories: ["report"]
 ---
 
-![Cover image](/post/WoW/wow-cover-image.png)
+![Cover image](/post/2019-blocking-abortion-rights-websites-women-on-waves-web/wow-cover-image.png)
 
 **Image:** By Clarote (Coding Rights)
 
@@ -30,7 +30,7 @@ few years through the use of [OONI Probe](https://ooni.io/install/).
 OONI Probe is [free and open source software](https://github.com/ooni/probe) designed to measure the
 blocking of websites and various other forms of internet censorship.
 Hundreds of thousands of OONI Probe users run censorship measurements in
-[around 210 countries every month](https://api.ooni.io/stats).
+[around 210 countries every month](https://explorer.ooni.org).
 
 To check whether womenonwaves.org is blocked in Brazil and in other
 countries, we analyzed [OONI measurements from around the world](https://explorer.ooni.org/). As part of our analysis, we also
@@ -75,7 +75,7 @@ The [World’s Abortion Laws Map](https://reproductiverights.org/worldabortionla
 for Reproductive Rights illustrated below shows us the status of
 abortion laws around the globe.
 
-![Map: World Abortion Laws](/post/WoW/abortion-laws-map.png)
+![Map: World Abortion Laws](/post/2019-blocking-abortion-rights-websites-women-on-waves-web/abortion-laws-map.png)
 
 **Source:** Center for Reproductive Rights, The World’s Abotion Laws, https://reproductiverights.org/worldabortionlaws
 
@@ -142,7 +142,7 @@ numerous countries to support women, including
 Portugal, and
 [Ireland](https://www.womenonwaves.org/en/page/769/in-collection/2582/abortion-ship-ireland-2001).
 
-![Women on Waves: Abortion Ship](/post/WoW/women-on-waves.jpg)
+![Women on Waves: Abortion Ship](/post/2019-blocking-abortion-rights-websites-women-on-waves-web/women-on-waves.jpg)
 
 **Image:** Women on Waves, *Abortion Ship Campaigns*, https://www.womenonwaves.org/en/page/2582/abortion-ship-campaigns
 
@@ -153,7 +153,7 @@ and
 [deliver abortion pills to women in Poland](https://www.womenonwaves.org/en/page/7525/in-collection/7524/abortion-robot-on-stage-in-poland--2018)
 and [Northern Ireland](https://www.womenonwaves.org/en/page/7115/abortion-robot-in-belfast--northern-ireland-2018).
 
-![Women on Waves: Abortion Drones](/post/WoW/wow-drone.jpg)
+![Women on Waves: Abortion Drones](/post/2019-blocking-abortion-rights-websites-women-on-waves-web/wow-drone.jpg)
 
 **Image:** Women on Waves, *Abortion Drones*, https://www.womenonwaves.org/en/page/6402/abortion-drones
 
@@ -201,11 +201,11 @@ blocking of www.womenonwaves.org and www.womenonweb.org around the
 world. We found that, beyond Brazil, these sites appear to be blocked in
 several countries, as illustrated below.
 
-![Chart: Blocking of WoW worldwide](/post/WoW/wow-global-blocking-chart.png)
+![Chart: Blocking of WoW worldwide](/post/2019-blocking-abortion-rights-websites-women-on-waves-web/wow-global-blocking-chart.png)
 
 **Source:** OONI measurements from 2019, https://explorer.ooni.org/
 
-Our analysis is available **[here](ADD-LINK)**.
+Our analysis is available **[here](/post/2019-blocking-abortion-rights-websites-women-on-waves-web/20191025-wow-br-web_connectivity-pivot.csv)**.
 
 OONI data, as demonstrated in the above chart, suggests blocking of both
 womenonwaves.org and womenonweb.org in Turkey. Brazil and Iran only
@@ -250,7 +250,7 @@ measurements, in particular, show that this web filter has a
 “pro-choice” blocking category, suggesting that other abortion sites may
 be blocked on the same network as well.
 
-![Watchguard filtering technology](/post/WoW/watchguard.png)
+![Watchguard filtering technology](/post/2019-blocking-abortion-rights-websites-women-on-waves-web/watchguard.png)
 
 **Source:** OONI measurement, https://explorer.ooni.org/measurement/20190812T165141Z_AS11426_ZHmMctVg7u5a1oW4NxTv626XJfUX1Si42Hvu3r9YLreflNzFgH?input=http%3A%2F%2Fwww.womenonwaves.org%2F
 
@@ -302,7 +302,7 @@ protections. The hearing was covered under the hashtag
 #NemPresaNemMorta. A report by the Minister Rosa Weber is yet to be
 released.
 
-![Brazil: Public intervention decriminalizing abortion](/post/WoW/brazil-public-intervention.png)
+![Brazil: Public intervention decriminalizing abortion](/post/2019-blocking-abortion-rights-websites-women-on-waves-web/brazil-public-intervention.png)
 
 **Image by Heloisa Adegas.** Public intervention in reference to the distopic novel “The Handmaid’s
 Tale” in front of the Supreme Court during a hearing to decriminalize
@@ -326,7 +326,7 @@ womeononweb.org and womenonwaves.org on multiple networks in Brazil from
 1st January 2019 onwards. While womenonweb.org is accessible in Brazil,
 access to womeonwaves.org appears to be blocked.
 
-![Chart: Testing WoW in Brazil](/post/WoW/br-chart.png)
+![Chart: Testing WoW in Brazil](/post/2019-blocking-abortion-rights-websites-women-on-waves-web/br-chart.png)
 
 **Source:** [OONI measurements: Brazil 2019](https://explorer.ooni.org/country/BR)
 
@@ -342,7 +342,7 @@ While womenonwaves.org appears to be blocked on several networks, it’s
 worth highlighting that it’s not blocked on *all* networks in Brazil, as
 demonstrated in the following chart.
 
-![Chart: Testing WoW across networks in Brazil](/post/WoW/br-network-chart.png)
+![Chart: Testing WoW across networks in Brazil](/post/2019-blocking-abortion-rights-websites-women-on-waves-web/br-network-chart.png)
 
 **Source:** [OONI measurements: Brazil 2018-2019](https://explorer.ooni.org/country/BR)
 
@@ -390,7 +390,7 @@ and
 -- prohibit abortion altogether, without any exceptions), they do not
 appear to censor access to abortion information, while Brazil appears to
 be the only Latin American country that censors access to
-womenonwaves.org (according to [OONI measurements](https://api.ooni.io/)).
+womenonwaves.org (according to [OONI measurements](https://explorer.ooni.org/)).
 
 OONI measurements suggest that womenonwaves.org is accessible in
 [Argentina](https://explorer.ooni.org/search?until=2019-09-05&domain=www.womenonwaves.org&test_name=web_connectivity&probe_cc=AR),
@@ -431,7 +431,7 @@ year show that access to [womenonwaves.org was blocked](https://explorer.ooni.or
 while access to [womeonweb.org was accessible](https://explorer.ooni.org/measurement/20190904T211023Z_AS50810_5OF6OUqsPQg7dJJUbhaSBsDmwCU0k2cLg7oqyzcKsdazS4u4mO?input=https:%2F%2Fwww.womenonweb.org%2F),
 as illustrated below.
 
-![Chart: Testing WoW in Iran](/post/WoW/ir-chart.png)
+![Chart: Testing WoW in Iran](/post/2019-blocking-abortion-rights-websites-women-on-waves-web/ir-chart.png)
 
 **Source:** [OONI measurements: Iran](https://explorer.ooni.org/country/IR)
 
@@ -467,7 +467,7 @@ that (contrary to Iran) access to [womenonweb.org was blocked](https://explorer.
 while access to [womeonwaves.org was accessible](https://explorer.ooni.org/measurement/20190829T121954Z_AS39891_KBC1nSlB2eqaZTrjkQO6jyCJGyoRaLykxS37CHhuV2llLYcHbV?input=https:%2F%2Fwww.womenonwaves.org%2F),
 as illustrated below.
 
-![Chart: Testing WoW in Saudi Arabia](/post/WoW/sa-chart.png)
+![Chart: Testing WoW in Saudi Arabia](/post/2019-blocking-abortion-rights-websites-women-on-waves-web/sa-chart.png)
 
 **Source:** [OONI measurements: Saudi Arabia](https://explorer.ooni.org/country/SA)
 
@@ -504,7 +504,7 @@ that access to [womenonweb.org was blocked](https://explorer.ooni.org/measuremen
 while access to [womeonwaves.org was accessible](https://explorer.ooni.org/measurement/20190904T231144Z_AS17858_1VTT4wrclVtyxlLFT1mcDVdaPKOcphUriWRSEYMkzEarObHirb?input=https:%2F%2Fwww.womenonwaves.org%2F),
 as illustrated below.
 
-![Chart: Testing WoW in South Korea](/post/WoW/kr-chart.png)
+![Chart: Testing WoW in South Korea](/post/2019-blocking-abortion-rights-websites-women-on-waves-web/kr-chart.png)
 
 **Source:** [OONI measurements: South Korea](https://explorer.ooni.org/country/KR)
 
@@ -538,7 +538,7 @@ OONI measurements collected from Turkey suggest potential blocking of
 both womenonwaves.org and womeonweb.org, but access to the sites doesn’t
 appear to be consistently interfered with.
 
-![Chart: Testing WoW in Turkey](/post/WoW/tr-chart.png)
+![Chart: Testing WoW in Turkey](/post/2019-blocking-abortion-rights-websites-women-on-waves-web/tr-chart.png)
 
 **Source:** [OONI measurements: Turkey](https://explorer.ooni.org/country/TR)
 
@@ -662,7 +662,7 @@ What is unclear, though, is why this type of blocking does not happen
 consistently across all measurements, but only affects a very small set
 of measurements.
 
-Our findings are corroborated by [Censored Planet data](ADD-CSV), which also shows
+Our findings are corroborated by [Censored Planet satellite data](/post/2019-blocking-abortion-rights-websites-women-on-waves-web/20191025-censored-planet-satellite_womenonw-eb-aves.csv.zip), which also shows
 that the IP address 213.14.227.50 is used by the Turkish ISP to
 implement blocking for www.womenonwaves.org and www.womenonweb.org (as
 well as for these other websites: verystream.com, openload.co,
