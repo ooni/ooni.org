@@ -12,7 +12,7 @@ To support **rapid response** to emergent censorship events, we share the follow
 
 Note: These tests require turning off VPNs.
 
-{{<oonirunurls text="Social Media (30 URLs)">}}
+{{<oonirunurls text="Social Media (39 URLs)">}}
 https://www.facebook.com/
 https://www.youtube.com/
 https://www.instagram.com/
@@ -21,6 +21,14 @@ https://web.whatsapp.com/
 https://www.skype.com/
 https://www.linkedin.com/
 https://twitter.com/
+https://upload.twitter.com/
+https://pbs.twimg.com/profile_images/941658150889054208/lFeD3554_200x200.jpg
+https://video.twimg.com/tweet_video/EC6DSXDXsAEhHAa.mp4
+https://video-0.twimg.com/tweet_video/EC6DSXDXsAEhHAa.mp4
+https://api.twitter.com/1.1/search/tweets.json?q=from%3Atwitterdev&result_type=mixed&count=2
+https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
+https://abs-0.twimg.com/sticky/default_profile_images/default_profile_normal.png
+https://t.co/Usz3cIuO6v?amp=1
 https://www.reddit.com/
 https://web.telegram.org/
 https://telegram.org/
@@ -43,6 +51,7 @@ https://www.douban.com/
 https://www.tiktok.com/
 https://www.weibo.com/
 https://tieba.baidu.com/
+https://signal.org/
 {{</oonirunurls>}}
 
 {{<oonirunurls text="News Media (45 URLs)">}}
@@ -118,7 +127,7 @@ https://ultrasurf.us/
 http://anonymouse.org/
 {{</oonirunurls>}}
 
-{{<oonirunurls text="Wikipedia (23 URLs)">}}
+{{<oonirunurls text="Wikipedia (24 URLs)">}}
 https://www.wikipedia.org/
 https://en.wikipedia.org/
 https://en.m.wikipedia.org/
@@ -142,6 +151,7 @@ https://it.wikipedia.org/
 https://it.m.wikipedia.org/
 https://commons.wikimedia.org/
 https://wikidata.org/
+https://upload.wikimedia.org/
 {{</oonirunurls>}}
 
 {{<oonirunurls text="Human Rights (27 URLs)">}}
