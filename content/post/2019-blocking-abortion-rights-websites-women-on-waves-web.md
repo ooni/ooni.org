@@ -354,7 +354,7 @@ womenonwaves.org. Many anomalies were also detected on Telefônica Brasil
 womenonwaves.org on that network as well.
 
 Data collected from the [Satellite test](https://censoredplanet.org/projects/satellite) of [Censored Planet](https://censoredplanet.org/) (between 1st January 2019 to 30th September
-2019) suggests the DNS based blocking of www.womenonwaves.org in Brazil.
+2019) suggests the DNS based blocking of `www.womenonwaves.org` in Brazil.
 Satellite scans the internet for open DNS resolvers and performs queries to them
 in an attempt to identify DNS based blocking. These checks are performed from
 vantage points outside of the country using open DNS resolvers, which means that
