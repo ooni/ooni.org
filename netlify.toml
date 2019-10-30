@@ -16,3 +16,8 @@ HUGO_ENABLEGITINFO = "true"
   from = "https://msg.ooni.io/fr/messages/*"
   to = "https://ooni.org/fr/msg/:splat"
   status = 301
+
+[[redirects]]
+  from = "https://labs.ooni.io/*"
+  to = "https://ooni.org/retired/labs"
+  status = 301
