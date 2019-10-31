@@ -25,7 +25,7 @@ Are there other questions you would like us to address? Please [let us know](htt
 
     * [What is OONI Probe?](#what-is-ooni-probe)
 
-    * [But my country doesn't have censorship. Why run OONI Probe?](#but-my-country-doesn't-have-censorship-why-run-ooni-probe)
+    * [But my country doesn't have censorship. Why run OONI Probe?](#but-my-country-doesnt-have-censorship-why-run-ooni-probe)
 
     * [What do OONI Probe tests do?](#what-do-ooni-probe-tests-do)
 
