@@ -25,7 +25,7 @@ Are there other questions you would like us to address? Please [let us know](htt
 
     * [What is OONI Probe?](#what-is-ooni-probe)
 
-    * [But my country doesn't have (much/any) censorship. Why run OONI Probe?](#but-my-country-doesn't-have-much-any-censorship-why-run-ooni-probe)
+    * [But my country doesn't have censorship. Why run OONI Probe?](#but-my-country-doesn't-have-censorship-why-run-ooni-probe)
 
     * [What do OONI Probe tests do?](#what-do-ooni-probe-tests-do)
 
@@ -75,9 +75,9 @@ Are there other questions you would like us to address? Please [let us know](htt
 
     * [How can I find my country’s test list?](#how-can-i-find-my-countrys-test-list)
 
-    * [Why doesn’t my country have a test list?](#why-doesn't-my-country-have-a-test-list)
+    * [Why doesn’t my country have a test list?](#why-doesnt-my-country-have-a-test-list)
 
-    * [Who decides which websites are included in test lists?](who-decides-which-websites-are-included-in-test-lists)
+    * [Who decides which websites are included in test lists?](#who-decides-which-websites-are-included-in-test-lists)
 
     * [How can I contribute to test lists?](#how-can-i-contribute-to-test-lists)
 
@@ -103,7 +103,7 @@ Are there other questions you would like us to address? Please [let us know](htt
 
     * [Where does OONI publish data?](#where-does-ooni-publish-data)
 
-    * [How can I interpret OONI data?](how-can-i-interpret-ooni-data)
+    * [How can I interpret OONI data?](#how-can-i-interpret-ooni-data)
 
     * [How can I fetch and analyze OONI data?](#how-can-i-fetch-and-analyze-ooni-data)
 
@@ -129,7 +129,7 @@ Are there other questions you would like us to address? Please [let us know](htt
 
     * [What do you mean by “Confirmed”?](#what-do-you-mean-by-confirmed)
 
-    * [I know of many other websites that are blocked. Why doesn’t OONI Explorer show them when I select “confirmed”?](#i-know-of-many-other-websites-that-are-blocked-why-doesn't-ooni-explorer-show-them-when-i-select-confirmed)
+    * [I know of many other websites that are blocked. Why doesn’t OONI Explorer show them when I select “confirmed”?](#i-know-of-many-other-websites-that-are-blocked-why-doesnt-ooni-explorer-show-them-when-i-select-confirmed)
 
     * [Why does OONI confirm censorship when a block page is served?](#why-does-ooni-confirm-censorship-when-a-block-page-is-served)
 
@@ -381,7 +381,7 @@ measurement tests. If this interests you, [please reach out](https://ooni.org/ab
 OONI Probe is [free and open source software](https://github.com/ooni/probe) designed to measure internet
 censorship and other forms of network interference.
 
-### But my country doesn’t have (much/any) censorship. Why run OONI Probe?
+### But my country doesn’t have censorship. Why run OONI Probe?
 
 We think it’s important to measure networks for censorship in every
 country of the world (regardless of whether cases of internet censorship
