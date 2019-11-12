@@ -55,7 +55,7 @@ Are there other questions you would like us to address? Please [let us know](htt
 
     * [What are the risks of running OONI Probe?](#what-are-the-risks-of-running-ooni-probe)
 
-    * [How can I reduce these risks?](#how-can-i-reduce-these-risks)
+    * [How can I reduce the risks associated with running OONI Probe?](#how-can-i-reduce-the-risks-associated-with-running-ooni-probe)
 
     * [Can I run OONI Probe over a VPN?](#can-i-run-ooni-probe-over-a-vpn)
 
@@ -156,7 +156,7 @@ Are there other questions you would like us to address? Please [let us know](htt
 
 The [Open Observatory of Network Interference (OONI)](https://ooni.org/) is a free software project that aims to
 empower decentralized efforts in increasing transparency of internet
-censorship (and other forms of network interference) around the world.
+censorship around the world.
 
 Since 2012, OONI has released several [censorship measurement apps (OONI Probe)](https://ooni.org/install/) and [openly published millions of network measurements](https://ooni.org/data/) on internet
 censorship worldwide.
@@ -177,11 +177,10 @@ censorship worldwide, we:
 
 * **Build free and open source software for detecting
 internet censorship.** [OONI Probe](https://ooni.org/install/)
-is a network measurement tool that you can run to measure internet
-censorship and other forms of network interference.
+is a network measurement tool that you can run to measure various forms of internet censorship, as well as network speed and performance.
 
 * **Analyze and openly publish network measurements.** Every day, we
-analyze and openly publish measurements on [OONI Explorer](https://explorer.ooni.org/), a web interface hosting
+analyze and openly publish measurements on [OONI Explorer](https://explorer.ooni.org/), a website hosting
 millions of network measurements from more than 200 countries from
 2012 to date.
 
@@ -208,8 +207,7 @@ may be less known.
 
 2. **Internet censorship often differs from network to network within
 a country.** In many countries around the world, Internet Service
-Providers (ISPs) block access to different websites at their own
-discretion (often as a result of vague government orders). A site
+Providers (ISPs) block access to different websites, often as a result of vague government orders. A site
 that may be accessible in your network may be blocked in another.
 
 3. **Most censorship techniques are quite subtle.** When an ISP serves
@@ -302,8 +300,7 @@ has served as OONI’s fiscal sponsor.
 
 ### How can I get involved?
 
-Depending on your skills and interests, there are many ways you can get
-involved!
+There are many ways you can get involved!
 
 * **[Run OONI Probe](https://ooni.org/install/)**. The more
 networks are measured, the more likely we (OONI and the public)
@@ -321,8 +318,8 @@ measurements by adding websites that you think should be tested!
 By [translating the OONI Probe apps](https://www.transifex.com/otf/ooniprobe/), you are enabling
 more communities to measure internet censorship.
 
-* **Participate in community discussions.** Join us on
-[Slack](https://slack.ooni.org/) or IRC (ircs://irc.oftc.net:6697/#ooni) for real-time discussions,
+* **Participate in community discussions.** Join us on our
+[Slack](https://slack.ooni.org/) or IRC (ircs://irc.oftc.net:6697/#ooni) channel for real-time discussions,
 and sign-up on our [mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk)
 to receive updates and share news.
 
@@ -663,7 +660,7 @@ any other potentially personally-identifiable information.
 To learn more about potential risks associated with the use of OONI
 Probe, please refer to our documentation: https://ooni.torproject.org/about/risks/
 
-### How can I reduce these risks?
+### How can I reduce the risks associated with running OONI Probe?
 
 We aim to provide you with as much *choice* as possible, so that you can
 mitigate potential risks and customize your usage of OONI Probe
