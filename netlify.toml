@@ -9,25 +9,25 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "https://ooni.io/*"
-  to = "https://ooni.torproject.org/:splat"
+  to = "https://ooni.org/:splat"
   status = 301
 
 [[redirects]]
   from = "https://msg.ooni.io/en/messages/*"
-  to = "https://ooni.torproject.org/msg/:splat"
+  to = "https://ooni.org/msg/:splat"
   status = 301
 
 [[redirects]]
   from = "https://msg.ooni.io/fr/messages/*"
-  to = "https://ooni.torproject.org/fr/msg/:splat"
+  to = "https://ooni.org/fr/msg/:splat"
   status = 301
 
 [[redirects]]
   from = "https://labs.ooni.io/*"
-  to = "https://ooni.torproject.org/retired/labs"
+  to = "https://ooni.org/retired/labs"
   status = 301
 
 [[redirects]]
   from = "https://labs.ooni.io"
-  to = "https://ooni.torproject.org/retired/labs"
+  to = "https://ooni.org/retired/labs"
   status = 301
