@@ -24,7 +24,7 @@ as our analysis of all other [OONI measurements collected from Nigeria](https://
 
 # Testing websites
 
-OONI’s [Web Connectivity test](https://ooni.torproject.org/nettest/web-connectivity/) is
+OONI’s [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) is
 designed to measure whether access to websites is blocked by means of
 DNS tampering, TCP/IP blocking, or by a transparent HTTP proxy.
 
@@ -209,7 +209,7 @@ November 2017).
 
 Recent measurements from the last months show that popular instant
 messaging apps were accessible in the country. These measurements were
-collected through OONI’s [WhatsApp](https://ooni.torproject.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.torproject.org/nettest/facebook-messenger/), and [Telegram](https://ooni.torproject.org/nettest/telegram/)
+collected through OONI’s [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), and [Telegram](https://ooni.org/nettest/telegram/)
 tests which measure the reachability of these apps.
 
 All **WhatsApp** measurements show that the app has been accessible in the
@@ -232,7 +232,7 @@ Popular circumvention tool sites (such as [ultrasurf.us](https://explorer.ooni.i
 and [torproject.org](https://explorer.ooni.io/measurement/20170928T205407Z_AS327952_xbg91jJseCINOgPPg2uUlFETAnVFPmyWJ6fkyklT0WuhEyZsIq?input=https:%2F%2Fwww.torproject.org))
 were found to be accessible in Nigeria throughout the testing period.
 
-OONI’s [Vanila Tor](https://ooni.torproject.org/nettest/vanilla-tor/) test is designed
+OONI’s [Vanila Tor](https://ooni.org/nettest/vanilla-tor/) test is designed
 to measure the blocking of the [Tor network](https://www.torproject.org/). This test has only been run once
 in Nigeria (in June 2017) and the collected [data](https://explorer.ooni.io/measurement/20170606T015510Z_AS327952_fav7V5D6A3KPuTOCrHV30GBFblPhGM2d3zjumBaOc8GO9ZGfUS)
 shows that the Tor network was accessible in the country. This is also
@@ -247,19 +247,19 @@ Source: [Tor Metrics](https://metrics.torproject.org/userstats-relay-country.htm
 
 # Reproducing this study
 
-OONI is based on [free and open source software](https://github.com/TheTorProject/ooni-probe), [open methodologies](https://ooni.torproject.org/docs/), and [open data](https://api.ooni.io/), enabling the independent
+OONI is based on [free and open source software](https://github.com/TheTorProject/ooni-probe), [open methodologies](https://ooni.org/docs/), and [open data](https://api.ooni.io/), enabling the independent
 verification of findings and the reproducibility of this study.
 
 To measure internet censorship based on OONI’s methodologies:
 
-1.  Determine which websites you want to test (either by [contributing](https://ooni.torproject.org/get-involved/contribute-test-lists/)
-to your country’s [test list](https://github.com/citizenlab/test-lists/tree/master/lists), or by [testing URLs](https://ooni.torproject.org/post/ooni-run/) directly via [OONI Run](https://run.ooni.io/))
+1.  Determine which websites you want to test (either by [contributing](https://ooni.org/get-involved/contribute-test-lists/)
+to your country’s [test list](https://github.com/citizenlab/test-lists/tree/master/lists), or by [testing URLs](https://ooni.org/post/ooni-run/) directly via [OONI Run](https://run.ooni.io/))
 
-2.  Run OONI Probe [tests](https://ooni.torproject.org/nettest/) (available for
+2.  Run OONI Probe [tests](https://ooni.org/nettest/) (available for
 [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe), [iOS](https://itunes.apple.com/us/app/id1199566366),
-[macOS](https://ooni.torproject.org/install/ooniprobe),
-[Linux](https://ooni.torproject.org/install/ooniprobe), and
-[Raspberry Pis](https://ooni.torproject.org/install/lepidopter/))
+[macOS](https://ooni.org/install/ooniprobe),
+[Linux](https://ooni.org/install/ooniprobe), and
+[Raspberry Pis](https://ooni.org/install/lepidopter/))
 
 3.  Explore/Analyze OONI data via the following resources:
 

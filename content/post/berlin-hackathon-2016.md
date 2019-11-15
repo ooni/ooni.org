@@ -8,7 +8,7 @@ categories: ["blog"]
 
 ![HACKOONI16](/post/berlin-hackathon/ooni-berlin-hackathon.png)
 
-Interested in exploring (and exposing) internet censorship? Join the [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) hackathon in Berlin!
+Interested in exploring (and exposing) internet censorship? Join the [Open Observatory of Network Interference (OONI)](https://ooni.org/) hackathon in Berlin!
 
 * **When?** Friday, **11th November** & Saturday, **12th November** 2016 
 
@@ -22,7 +22,7 @@ particular label, but are curious enough to join! We only have one rule:
 **Be excellent to each other**.
 
 OONI is a *free software* project under The Tor Project which aims to uncover
-internet censorship around the world. Since 2012, OONI has [collected](https://explorer.ooni.torproject.org/world/) millions of
+internet censorship around the world. Since 2012, OONI has [collected](https://explorer.ooni.org/world/) millions of
 network measurements across more than 100 countries, shedding light on multiple
 cases of censorship and network interference around the world.
 
@@ -70,12 +70,12 @@ That’s where data analysts can play an important role! Join us to:
 
 * Improve [OONI’s data processing pipeline](https://github.com/TheTorProject/ooni-pipeline) 
 
-* Analyze [existing measurements](https://explorer.ooni.torproject.org/world/)
+* Analyze [existing measurements](https://explorer.ooni.org/world/)
   to potentially find hidden cases of censorship
 
 * Share data analysis methodologies and techniques
 
-You can dig into OONI’s data through [OONI Explorer](https://explorer.ooni.torproject.org/world/) and [OONI’s list of measurements](https://measurements.ooni.torproject.org/).
+You can dig into OONI’s data through [OONI Explorer](https://explorer.ooni.org/world/) and [OONI’s list of measurements](https://measurements.ooni.org/).
 
 # Research  
 
@@ -94,7 +94,7 @@ By collecting network measurements, OONI can provide you with *evidence* of
 internet censorship. This can include the blocking of various websites and
 instant messaging (IM) apps (such as WhatsApp and Facebook Messenger), as well
 as the blocking of circumvention tools, such as Tor. Furthermore, OONI’s data
-can help uncover the covert presence of censorship and surveillance equipment (which we [detected](https://explorer.ooni.torproject.org/highlights/) in various countries around the world in the
+can help uncover the covert presence of censorship and surveillance equipment (which we [detected](https://explorer.ooni.org/highlights/) in various countries around the world in the
 past).
 
 Join us to learn how to dig into OONI’s data and find evidence that you

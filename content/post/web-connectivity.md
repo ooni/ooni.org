@@ -8,7 +8,7 @@ categories: ["blog"]
 
 Today the Open Observatory of Network Interference (OONI) is excited to be
 releasing a brand new test, called
-*[Web Connectivity](https://ooni.torproject.org/nettest/web-connectivity/)*,
+*[Web Connectivity](https://ooni.org/nettest/web-connectivity/)*,
 which is designed to detect three different types of censorship: *DNS
 tampering*, *TCP/IP blocking* and *HTTP blocking*.
 

@@ -6,7 +6,7 @@ tags: ["events"]
 categories: ["blog"]
 ---
 
-Over the last month the [OONI](https://ooni.torproject.org/) team joined the internet
+Over the last month the [OONI](https://ooni.org/) team joined the internet
 freedom community at the following events:
 
 * [Vietnam Cyber Dialogue (VCD)](https://internetfreedomfestival.org/vietnam-cyber-dialogue/)
@@ -60,7 +60,7 @@ by the [Measurement Lab](https://www.measurementlab.net/), joined by OONI)
 
 If you have any questions that we failed to adequately address in person or
 through our sessions, please don’t hesitate to
-[contact](https://ooni.torproject.org/about/) us.
+[contact](https://ooni.org/about/) us.
 
 Warm thanks from the OONI team to the organizers and participants of these
 events!

@@ -32,7 +32,7 @@ Right before the referendum, [Tremenda Nota](https://www.tremendanota.com/), an 
 
 Their editor [shared the text](https://www.facebook.com/abel.invernal/posts/2466998813373922) that they believe motivated the blocking of their website, which criticizes Cuba’s National Assembly for ignoring survey results favourable to LGBTI rights and for not supporting equal marriage in the new constitution.
 
-[OONI Probe](https://ooni.torproject.org/install/) tests - which are designed to measure the blocking of websites - were run in Cuba, [confirming the blocking of tremendanota.com](https://explorer.ooni.io/measurement/20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j?input=http:%2F%2Fwww.tremendanota.com%2F). But tremendanota.com is not the only independent media website blocked in Cuba.
+[OONI Probe](https://ooni.org/install/) tests - which are designed to measure the blocking of websites - were run in Cuba, [confirming the blocking of tremendanota.com](https://explorer.ooni.io/measurement/20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j?input=http:%2F%2Fwww.tremendanota.com%2F). But tremendanota.com is not the only independent media website blocked in Cuba.
 
 Through the analysis of recent [OONI measurements](https://explorer.ooni.io/country/CU), we found several other independent media websites blocked in Cuba as well on 24th February 2019, during the referendum.
 
@@ -42,7 +42,7 @@ Through the analysis of recent [OONI measurements](https://explorer.ooni.io/coun
 
 The above graph shows how the blocking of media websites in Cuba changed over time (since May 2017).
 
-Previously, Cuba’s telecommunications company (ETECSA) [mainly blocked the HTTP version of sites by serving blank block pages](https://ooni.torproject.org/post/cuba-internet-censorship-2017/). This meant that censorship could easily be circumvented by accessing blocked websites over HTTPS (if they supported it). For some sites (cibercuba.com and cubanet.org) that did support HTTPS, OONI measurements from 2017 show failures when performing the HTTP and HTTPS requests, but don’t show the IPs being blocked, suggesting that they may have been using Deep Packet Inspection (DPI) technology.
+Previously, Cuba’s telecommunications company (ETECSA) [mainly blocked the HTTP version of sites by serving blank block pages](https://ooni.org/post/cuba-internet-censorship-2017/). This meant that censorship could easily be circumvented by accessing blocked websites over HTTPS (if they supported it). For some sites (cibercuba.com and cubanet.org) that did support HTTPS, OONI measurements from 2017 show failures when performing the HTTP and HTTPS requests, but don’t show the IPs being blocked, suggesting that they may have been using Deep Packet Inspection (DPI) technology.
 
 Now, we observe that ETECSA has **changed its censorship techniques**, blocking both the HTTP and HTTPS version of sites by means of **IP blocking**. More specifically, ETECSA:
 
@@ -54,6 +54,6 @@ Both cibercuba.com and cubanet.org appear to have temporarily been unblocked (a
 
 Our analysis of [OONI measurements](https://explorer.ooni.io/country/CU), used to produce the above chart, is available [here](/post/cuba-referendum/20190226-cuba-report-measurements.csv).
 
-The OONI website (ooni.io) has been [blocked](https://explorer.ooni.io/measurement/20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j?input=https:%2F%2Fooni.io%2F) in Cuba as well by means of IP blocking, yet ooni.torproject.org is still [accessible](https://explorer.ooni.io/measurement/20190225T233901Z_AS27725_WPUkyBF7sttLnVLyPkXngqI2lSIa4Q7kCTDaTcMhyOO3Bi7FEi?input=https:%2F%2Fooni.torproject.org%2F).
+The OONI website (ooni.io) has been [blocked](https://explorer.ooni.io/measurement/20190224T232022Z_AS27725_nclI9vnyHOjiOJrq5ZilcmtRGjeVL15WlGMWDudAY6PVGCTs4j?input=https:%2F%2Fooni.io%2F) in Cuba as well by means of IP blocking, yet ooni.org is still [accessible](https://explorer.ooni.io/measurement/20190225T233901Z_AS27725_WPUkyBF7sttLnVLyPkXngqI2lSIa4Q7kCTDaTcMhyOO3Bi7FEi?input=https:%2F%2Fooni.org%2F).
 
 We thank all the OONI Probe users in Cuba who made this study possible.

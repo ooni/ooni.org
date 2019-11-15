@@ -9,7 +9,7 @@ categories: ["blog"]
 Pulling the plug on the internet is one of the ways that governments around the
 world attempt to exert control over the flow of information.
 
-While the [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) project has developed numerous [software tests](https://github.com/TheTorProject/ooni-probe) for examining different
+While the [Open Observatory of Network Interference (OONI)](https://ooni.org/) project has developed numerous [software tests](https://github.com/TheTorProject/ooni-probe) for examining different
 forms of internet censorship (such as the blocking of websites, instant
 messaging apps, and censorship circumvention tools), we currently do not have
 tests that are designed to examine internet blackouts, when the internet as a
@@ -17,7 +17,7 @@ whole is rendered inaccessible within a location.
 
 Over the last months we received many reports relating to internet blackouts in
 various countries around the world. In some of these countries we had probes
-running [OONI tests](https://ooni.torproject.org//nettest/), but merely
+running [OONI tests](https://ooni.org//nettest/), but merely
 asserting that an internet blackout had occurred just because we stopped
 receiving measurements probably wouldn't have been accurate. As such, we started
 to refer to other public data sources that could help us gain a better
@@ -97,7 +97,7 @@ between 6th to 8th August, confirming that an internet blackout occurred.
 Similarly, [Google traffic data](https://www.google.com/transparencyreport/traffic/explorer/?r=GM&l=WEBSEARCH&csd=1479483000000&ced=1480692600000) in the graph
 below shows a clear disruption of internet traffic originating from the Gambia
 between 30th November to 2nd December, when an internet blackout was
-[reported](https://ooni.torproject.org/post/gambia-internet-shutdown/) during
+[reported](https://ooni.org/post/gambia-internet-shutdown/) during
 the country’s 2016 presidential election.
 
 ![Twitter post](/post/gambia-shutdown/gambia-03.png)
@@ -108,7 +108,7 @@ a country’s prefixes are withdrawn when an internet blackout is being reported
 In the Gambia, for example, such data allowed us to monitor the withdrawal and
 announcement of Gambian prefixes during the country’s 2016 presidential
 election. In fact, Gambian prefixes were
-[withdrawn](https://ooni.torproject.org/post/gambia-internet-shutdown/) between
+[withdrawn](https://ooni.org/post/gambia-internet-shutdown/) between
 30th November to 2nd December, which is consistent with the hypothesis that the
 internet blackout occurred during that period, as inferred through [Google traffic data](https://www.google.com/transparencyreport/traffic/explorer/?r=GM&l=WEBSEARCH&csd=1479483000000&ced=1480692600000).
 
@@ -173,7 +173,7 @@ you are interested in;
 specific dates of a reported internet blackout.
 
 This is illustrated through the graph below that we
-[created](https://ooni.torproject.org/post/ethiopia-internet-shutdown-amidst-recent-protests/) based on tweets geotagged in Ethiopia between 3rd-9th August
+[created](https://ooni.org/post/ethiopia-internet-shutdown-amidst-recent-protests/) based on tweets geotagged in Ethiopia between 3rd-9th August
 2016, indicating a decrease of Twitter activity in the country on 7th August
 2016 when an internet blackout was reported in the country.
 

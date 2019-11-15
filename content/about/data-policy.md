@@ -8,14 +8,14 @@ aliases: ["/data-policy"]
 
 **Version:** 1.2.0
 
-This Data Policy discloses and explains what data the [Open Observatory of Network Interference (OONI) project](https://ooni.torproject.org/) ("we", "us",
+This Data Policy discloses and explains what data the [Open Observatory of Network Interference (OONI) project](https://ooni.org/) ("we", "us",
 or "our") collects, processes, stores and publishes relating to users of its
 website and its ooniprobe software ("you" or "your").
 
 **WARNING:**
 
 Our ooniprobe software is *not* designed to protect your privacy. You may face
-various **[risks](https://ooni.torproject.org/about/risks/)** such as fines,
+various **[risks](https://ooni.org/about/risks/)** such as fines,
 imprisonment, or other penalties for running ooniprobe. You can avoid some of
 these risks by opting not to send us certain types of data when running
 ooniprobe. You can find instructions on how to do so in section 2 below.
@@ -25,7 +25,7 @@ discretion.
 
 ## 1. Website Visitors
 
-We collect some information about visitors to our [website](https://ooni.torproject.org/) using
+We collect some information about visitors to our [website](https://ooni.org/) using
 the free and open source tool [piwik](https://piwik.org). We do not record the
 full IP address of users (which is "anonymised" to the first 3 octets, ex.
 123.45.67.0).
@@ -44,7 +44,7 @@ this Data Policy.
 We collect different types of network measurements when you run different types
 of tests. You can view the specifications about each ooniprobe test
 [here](https://github.com/TheTorProject/ooni-spec), and the details about the
-collected network measurements on [OONI Explorer](https://explorer.ooni.torproject.org/world/) or through our
+collected network measurements on [OONI Explorer](https://explorer.ooni.org/world/) or through our
 [OONI API](https://api.ooni.io/).
 
 You can opt out of sending us your measurements by running ooniprobe with the `-n`
@@ -81,7 +81,7 @@ interface or OONI's mobile app.
 We collect different types of network measurements when you run different types
 of tests. You can view the specifications about each ooniprobe test
 [here](https://github.com/TheTorProject/ooni-spec), and the details about the
-collected network measurements on [OONI Explorer](https://explorer.ooni.torproject.org/world/) or through our
+collected network measurements on [OONI Explorer](https://explorer.ooni.org/world/) or through our
 [OONI API](https://api.ooni.io/).
 
 You can opt out of sending us your measurements by running ooniprobe with the `-n`
@@ -164,14 +164,14 @@ to allow third parties to conduct independent studies, verify our findings, and
 answer other research questions.
 
 Currently, we publish all measurement data both through our [OONI API](https://api.ooni.io/) and through an interactive
-visualization called [OONI Explorer](https://explorer.ooni.torproject.org/world/).
+visualization called [OONI Explorer](https://explorer.ooni.org/world/).
 
 For more information on the license under which the data is released, see
 [github.com/ooni/license/data](https://github.com/ooni/license/tree/master/data).
 
 ### 2.5. Third-party services
 
-Our [Network Diagnostic Test (NDT)](https://ooni.torproject.org/nettest/ndt/) is
+Our [Network Diagnostic Test (NDT)](https://ooni.org/nettest/ndt/) is
 a general-purpose performance test conducted against third-party servers
 provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). M-Lab's
 NDT services require the retention and disclosure of IP addresses for research

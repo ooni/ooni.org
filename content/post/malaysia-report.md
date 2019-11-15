@@ -91,7 +91,7 @@ line, HTTP header field manipulation, Meek Fronted Requests test
 
 # Key Findings
 
-New [*OONI data*](https://explorer.ooni.torproject.org/country/MY)
+New [*OONI data*](https://explorer.ooni.org/country/MY)
 published in this report reveals that **39 different websites** were
 blocked in Malaysia by ISPs through the **DNS injection of block
 pages**. These sites include:
@@ -116,7 +116,7 @@ illustrates that such censorship was *politically motivated*.
 
 On a positive note, some [*previously blocked sites*](http://www.straitstimes.com/asia/se-asia/malaysia-blocks-bersih-rally-websites)
 (Bersih rally websites) were found to be
-[*accessible*](https://explorer.ooni.torproject.org/measurement/20161111T222216Z_AS4788_CdgH2h69js5DX9sP5aW5liauAsrOAwhgj5XljqrNRImLNXptqG?input=http:%2F%2Fbersih.org)
+[*accessible*](https://explorer.ooni.org/measurement/20161111T222216Z_AS4788_CdgH2h69js5DX9sP5aW5liauAsrOAwhgj5XljqrNRImLNXptqG?input=http:%2F%2Fbersih.org)
 when tested between September to November 2016. No signs of censorship
 were detected when examining the accessibility of social media,
 censorship circumvention tools and LGBTI websites in the country during
@@ -124,7 +124,7 @@ the testing period.
 
 View the **data** collected as part of this study:
 
-* [***OONI network measurements***](https://explorer.ooni.torproject.org/country/MY)
+* [***OONI network measurements***](https://explorer.ooni.org/country/MY)
 
 * [***Analysis of key findings***](https://gist.github.com/hellais/190780782d920e1d8523f37c002cc952)
 
@@ -153,7 +153,7 @@ subsequent [*retaliation against sites*](http://www.bbc.com/news/world-asia-3344
 scandal.
 
 In light of [*recent censorship events*](https://freedomhouse.org/report/freedom-net/2015/malaysia) in
-Malaysia, the [*Open Observatory of Network Interference (OONI)*](https://ooni.torproject.org/), in collaboration with [*Sinar Project*](http://sinarproject.org/), conducted a study to examine
+Malaysia, the [*Open Observatory of Network Interference (OONI)*](https://ooni.org/), in collaboration with [*Sinar Project*](http://sinarproject.org/), conducted a study to examine
 whether internet censorship events were persisting in the country and,
 if so, to collect data that can serve as evidence of them. This study
 was carried out through the collection of network measurements from two
@@ -543,7 +543,7 @@ and [*hundreds of online gambling sites*](http://www.themalaymailonline.com/mala
 
 # Examining internet censorship in Malaysia
 
-The [*Open Observatory of Network Interference (OONI)*](https://ooni.torproject.org/), in collaboration with [*Sinar Project*](http://sinarproject.org/en), performed a study of internet
+The [*Open Observatory of Network Interference (OONI)*](https://ooni.org/), in collaboration with [*Sinar Project*](http://sinarproject.org/en), performed a study of internet
 censorship in Malaysia. The aim of this study was to understand whether
 and to what extent censorship events occurred in Malaysia during the
 testing period (between September to November 2016).
@@ -673,7 +673,7 @@ have occurred during the testing period.
 
 ### OONI network measurements
 
-The [*Open Observatory of Network Interference (OONI)*](https://ooni.torproject.org/) is a *free software* project that
+The [*Open Observatory of Network Interference (OONI)*](https://ooni.org/) is a *free software* project that
 aims to increase transparency about internet censorship and traffic
 manipulation around the world. Since 2011, OONI has developed multiple
 [**free and open source software tests**](https://github.com/TheTorProject/ooni-probe) designed to
@@ -689,15 +689,15 @@ sensitive domains.
 As part of this study, the following [*OONI software tests*](https://github.com/TheTorProject/ooni-probe) were run from two
 local vantage points (AS4788 and AS17971) in Malaysia:
 
-* [*Web connectivity*](https://ooni.torproject.org/nettest/web-connectivity/)
+* [*Web connectivity*](https://ooni.org/nettest/web-connectivity/)
 
-* [*HTTP invalid request line*](https://ooni.torproject.org/nettest/http-invalid-request-line/)
+* [*HTTP invalid request line*](https://ooni.org/nettest/http-invalid-request-line/)
 
-* [*HTTP header field manipulation*](https://ooni.torproject.org/nettest/http-header-field-manipulation/)
+* [*HTTP header field manipulation*](https://ooni.org/nettest/http-header-field-manipulation/)
 
-* [*Vanilla Tor*](https://ooni.torproject.org/nettest/vanilla-tor/)
+* [*Vanilla Tor*](https://ooni.org/nettest/vanilla-tor/)
 
-* [*Meek Fronted Requests*](https://ooni.torproject.org/nettest/meek-fronted-requests/)
+* [*Meek Fronted Requests*](https://ooni.org/nettest/meek-fronted-requests/)
 
 The web connectivity test was run with the aim of examining whether a
 set of URLs (included in both the “[*global test list*](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)”,
@@ -721,7 +721,7 @@ manipulation.
 #### Web connectivity 
 
 This test
-[*examines*](https://ooni.torproject.org/nettest/web-connectivity/)
+[*examines*](https://ooni.org/nettest/web-connectivity/)
 whether websites are reachable and if they are not, it attempts to
 determine whether access to them is blocked through DNS tampering, TCP
 connection RST/IP blocking or by a transparent HTTP proxy. Specifically,
@@ -824,7 +824,7 @@ failures even though they are not tampered with.
 #### HTTP invalid request line
 
 This
-[*test*](https://ooni.torproject.org/nettest/http-invalid-request-line/)
+[*test*](https://ooni.org/nettest/http-invalid-request-line/)
 tries to detect the presence of network components (“middle box”) which
 could be responsible for censorship and/or traffic manipulation.
 
@@ -847,7 +847,7 @@ likely placed in the tested network, though it’s not always clear what
 that software is. In some cases though, censorship and/or surveillance
 vendors can be identified through the error messages in the received
 HTTP response. Based on this technique, OONI has previously
-[*detected*](https://explorer.ooni.torproject.org/highlights/) the use
+[*detected*](https://explorer.ooni.org/highlights/) the use
 of BlueCoat, Squid and Privoxy proxy technologies in networks across
 multiple countries around the world.
 
@@ -862,7 +862,7 @@ they are often used in networks for caching purposes.
 #### HTTP header field manipulation
 
 This
-[*test*](https://ooni.torproject.org/nettest/http-header-field-manipulation/)
+[*test*](https://ooni.org/nettest/http-header-field-manipulation/)
 also tries to detect the presence of network components (“middle box”)
 which could be responsible for censorship and/or traffic manipulation.
 
@@ -902,7 +902,7 @@ in networks for caching purposes.
 
 #### Vanilla Tor
 
-This [*test*](https://ooni.torproject.org/nettest/vanilla-tor/) examines
+This [*test*](https://ooni.org/nettest/vanilla-tor/) examines
 the reachability of the [*Tor network*](https://www.torproject.org/),
 which is designed for online anonymity and censorship circumvention.
 
@@ -978,7 +978,7 @@ compare them across time.
 
 OONI does *not* deliberately collect or store users’ IP addresses. In
 fact, OONI takes measures to remove users’ IP addresses from the
-collected measurements, to protect its users from [*potential risks*](https://ooni.torproject.org/about/risks/).
+collected measurements, to protect its users from [*potential risks*](https://ooni.org/about/risks/).
 
 However, OONI might *unintentionally* collect users’ IP addresses and
 other potentially personally-identifiable information, if such
@@ -993,8 +993,8 @@ The types of network measurements that OONI collects depend on the types
 of tests that are run. Specifications about each OONI test can be viewed
 through its [*git repository*](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs),
 and details about what collected network measurements entail can be
-viewed through [*OONI Explorer*](https://explorer.ooni.torproject.org/world/) or through
-OONI’s [*public list of measurements*](https://measurements.ooni.torproject.org/).
+viewed through [*OONI Explorer*](https://explorer.ooni.org/world/) or through
+OONI’s [*public list of measurements*](https://measurements.ooni.org/).
 
 OONI processes the above types of data with the aim of deriving meaning
 from the collected measurements and, specifically, in an attempt to
@@ -1083,7 +1083,7 @@ identify censorship events.
 
 # Findings
 
-As part of this study, [*hundreds of thousands of network measurements*](https://explorer.ooni.torproject.org/country/MY) from two
+As part of this study, [*hundreds of thousands of network measurements*](https://explorer.ooni.org/country/MY) from two
 local vantage points (AS4788 and AS17971) in Malaysia collected between
 24th September 2016 and 13th November 2016 were analyzed.
 
@@ -1094,7 +1094,7 @@ categories: news media, political criticism, file-sharing, hosting and
 blogging platforms, online dating, religion, pornography, and gambling.
 
 The table below includes all of the websites that were
-[*found*](https://explorer.ooni.torproject.org/country/MY) to be blocked
+[*found*](https://explorer.ooni.org/country/MY) to be blocked
 based on DNS injections of block pages.
 
 | Blocked websites                                                                                                    | Categories                     | First measured     | First blocked       | Last blocked        | Last measured       |
@@ -1155,7 +1155,7 @@ According to [*Malaysia’s Deputy Communications and Multimedia Minister*](http
 most of these websites include pornography, while others include
 gambling, piracy, unregistered medicine, and counterfeit products. Some
 of these sites might be included in the
-[*findings*](https://explorer.ooni.torproject.org/country/MY) of this
+[*findings*](https://explorer.ooni.org/country/MY) of this
 study, but the blocking of news outlets that covered the [*1MDB scandal*](http://www.bbc.com/news/world-asia-33447456) appears to be
 politically motivated.
 
@@ -1201,7 +1201,7 @@ Similarly, we also found the website of Asia Sentinel, another news
 outlet that heavily
 [*covered*](http://www.asiasentinel.com/politics/malaysia-1mdb-default-what-were-they-thinking/)
 Malaysia’s 1MDB scandal, to be
-[*blocked*](https://explorer.ooni.torproject.org/measurement/20161210T004635Z_AS4788_FVmI3J39tlOoXsMNOrOBKUZSYgbltG5rXR9G4BIvkXmKwIjem1?input=http:%2F%2Fwww.asiasentinel.com).
+[*blocked*](https://explorer.ooni.org/measurement/20161210T004635Z_AS4788_FVmI3J39tlOoXsMNOrOBKUZSYgbltG5rXR9G4BIvkXmKwIjem1?input=http:%2F%2Fwww.asiasentinel.com).
 Asia Sentinel is an independent media outlet that reports on news from
 all across Asia. In 2014, Asia Sentinel [*won the 2014 SOPA Award*](http://www.asiasentinel.com/) for Excellence in Explanatory
 Journalism. As part of our testing,
@@ -1246,7 +1246,7 @@ our testing.
 outlet that provides citizens with the opportunity to “speak up on
 politics, business, and social”. Most of its articles express political
 criticism and according to our findings, this site remained
-[*blocked*](https://explorer.ooni.torproject.org/measurement/20161111T222216Z_AS4788_CdgH2h69js5DX9sP5aW5liauAsrOAwhgj5XljqrNRImLNXptqG?input=http:%2F%2Fmalaysia-chronicle.com)
+[*blocked*](https://explorer.ooni.org/measurement/20161111T222216Z_AS4788_CdgH2h69js5DX9sP5aW5liauAsrOAwhgj5XljqrNRImLNXptqG?input=http:%2F%2Fmalaysia-chronicle.com)
 throughout the testing period.
 
 **Blocked sites expressing political criticism**
@@ -1262,7 +1262,7 @@ While Malaysia’s constitution guarantees freedom of religion, Islam is
 the country’s state religion. As part of this study, we found a
 [*site*](http://www.thereligionofpeace.com) expressing *heavy criticism*
 towards Islam to be
-[*blocked*](https://explorer.ooni.torproject.org/measurement/20161111T004856Z_AS4788_qVtleJJvdqT7CVk2tX0NPzcYftL4FPm6d41wzHE9blYzoswg7h?input=http:%2F%2Ftabunginsider.blogspot.my%2F)
+[*blocked*](https://explorer.ooni.org/measurement/20161111T004856Z_AS4788_qVtleJJvdqT7CVk2tX0NPzcYftL4FPm6d41wzHE9blYzoswg7h?input=http:%2F%2Ftabunginsider.blogspot.my%2F)
 in Malaysia.
 
 This site keeps track of and enumerates the amount of terror attacks,
@@ -1288,7 +1288,7 @@ this resulted in the [*blocking of medium.com*](http://www.sarawakreport.org/201
 for hosting stories by Sarawak Report.
 
 OONI data collected as part of this study shows that medium.com was
-[*blocked*](https://explorer.ooni.torproject.org/measurement/20161111T222216Z_AS4788_CdgH2h69js5DX9sP5aW5liauAsrOAwhgj5XljqrNRImLNXptqG?input=https:%2F%2Fmedium.com)
+[*blocked*](https://explorer.ooni.org/measurement/20161111T222216Z_AS4788_CdgH2h69js5DX9sP5aW5liauAsrOAwhgj5XljqrNRImLNXptqG?input=https:%2F%2Fmedium.com)
 throughout the testing period.
 
 **Blocked blogging platform**
@@ -1300,10 +1300,10 @@ throughout the testing period.
 Two different versions of The Pirate Bay, a site that facilitates
 peer-to-peer file-sharing amongst users of the BitTorrent protocol, was
 found to be
-[*blocked*](https://explorer.ooni.torproject.org/measurement/20161111T223538Z_AS4788_nCm7QnebKsWIJ6QCiyqZzc5lu1dhktZvTyhCSNkasYeGbObPyK?input=http:%2F%2Fthepiratebay.org)
+[*blocked*](https://explorer.ooni.org/measurement/20161111T223538Z_AS4788_nCm7QnebKsWIJ6QCiyqZzc5lu1dhktZvTyhCSNkasYeGbObPyK?input=http:%2F%2Fthepiratebay.org)
 as part of our study. Similarly, two other torrenting sites were also
 found to be
-[*blocked*](https://explorer.ooni.torproject.org/measurement/20161110T235705Z_AS4788_hXivqWX3IUXsTX6bTcpHYkFCvM82YFJKUXUvHScbsoMTfmWa0I?input=http:%2F%2Fextratorrent.cc).
+[*blocked*](https://explorer.ooni.org/measurement/20161110T235705Z_AS4788_hXivqWX3IUXsTX6bTcpHYkFCvM82YFJKUXUvHScbsoMTfmWa0I?input=http:%2F%2Fextratorrent.cc).
 
 These sites might be part of the thousands of websites that were
 recently [*announced to be blocked by the MCMC*](http://english.astroawani.com/malaysia-news/mcmc-blocks-over-5-000-websites-various-offences-jailani-125528)
@@ -1320,7 +1320,7 @@ for enabling piracy, which is viewed as an offense under [*Malaysia’s 1998 Com
 
 Adult Friend Finder, one of the world’s most popular online dating
 sites, was found to be
-[*blocked*](https://explorer.ooni.torproject.org/measurement/20161111T223538Z_AS4788_nCm7QnebKsWIJ6QCiyqZzc5lu1dhktZvTyhCSNkasYeGbObPyK?input=http:%2F%2Fadultfriendfinder.com)
+[*blocked*](https://explorer.ooni.org/measurement/20161111T223538Z_AS4788_nCm7QnebKsWIJ6QCiyqZzc5lu1dhktZvTyhCSNkasYeGbObPyK?input=http:%2F%2Fadultfriendfinder.com)
 as part of this study. It remains unclear though what the motivation was
 behind the blocking of this particular site, and not other popular
 dating sites.
@@ -1416,7 +1416,7 @@ The blocked websites include news outlets, blogs, and a popular
 publishing platform (medium.com). These sites were reportedly [*first blocked in 2015*](https://freedomhouse.org/report/freedom-press/2016/malaysia) for
 covering the [*1MDB scandal*](http://www.wsj.com/specialcoverage/malaysia-controversy) and,
 according to our
-[*findings*](https://explorer.ooni.torproject.org/country/MY), remained
+[*findings*](https://explorer.ooni.org/country/MY), remained
 blocked throughout the testing period of this study (24th September 2016
 to 13th November 2016). While the blocking of these sites has been
 [*justified*](https://freedomhouse.org/report/freedom-net/2016/malaysia)
@@ -1424,7 +1424,7 @@ on the grounds of national security under Section 233 of the [*1998 Communicatio
 these censorship events appear to be politically motivated.
 
 Amongst the
-[*blocked*](https://explorer.ooni.torproject.org/measurement/20161111T004856Z_AS4788_qVtleJJvdqT7CVk2tX0NPzcYftL4FPm6d41wzHE9blYzoswg7h?input=http:%2F%2Ftabunginsider.blogspot.my%2F)
+[*blocked*](https://explorer.ooni.org/measurement/20161111T004856Z_AS4788_qVtleJJvdqT7CVk2tX0NPzcYftL4FPm6d41wzHE9blYzoswg7h?input=http:%2F%2Ftabunginsider.blogspot.my%2F)
 websites, we found a [*site*](http://www.thereligionofpeace.com/) that
 expresses heavy criticism towards Islam. In the Malaysian context, this
 site can be viewed as inciting hatred towards Islam and its censorship
@@ -1432,7 +1432,7 @@ can therefore be justified under Malaysia’s [*Sedition Act 1948*](http://www.c
 which prohibits the incitement of hatred towards any religion. We also
 found a [*popular online dating site*](http://adultfriendfinder.com) to
 be
-[*blocked*](https://explorer.ooni.torproject.org/measurement/20161111T223538Z_AS4788_nCm7QnebKsWIJ6QCiyqZzc5lu1dhktZvTyhCSNkasYeGbObPyK?input=http:%2F%2Fadultfriendfinder.com),
+[*blocked*](https://explorer.ooni.org/measurement/20161111T223538Z_AS4788_nCm7QnebKsWIJ6QCiyqZzc5lu1dhktZvTyhCSNkasYeGbObPyK?input=http:%2F%2Fadultfriendfinder.com),
 but the motivation and/or legal justification behind its blocking
 remains unclear.
 
@@ -1448,7 +1448,7 @@ while the blocking of gambling sites can be justified under the [*Common Gaming 
 
 On a positive note, some [*previously blocked sites*](http://www.straitstimes.com/asia/se-asia/malaysia-blocks-bersih-rally-websites)
 (Bersih rally websites) were found to be
-[*accessible*](https://explorer.ooni.torproject.org/measurement/20161111T222216Z_AS4788_CdgH2h69js5DX9sP5aW5liauAsrOAwhgj5XljqrNRImLNXptqG?input=http:%2F%2Fbersih.org).
+[*accessible*](https://explorer.ooni.org/measurement/20161111T222216Z_AS4788_CdgH2h69js5DX9sP5aW5liauAsrOAwhgj5XljqrNRImLNXptqG?input=http:%2F%2Fbersih.org).
 No signs of censorship were detected when examining the accessibility of
 social media, censorship circumvention tools and LGBTI websites, and we
 did not detect the presence of any “middle boxes” capable of performing
@@ -1456,6 +1456,6 @@ internet censorship. However, this does not mean that censorship
 equipment is not present in the country, but just that these particular
 tests were not able to highlight its presence.
 
-[*OONI*](https://ooni.torproject.org/) and [*Sinar Project*](http://sinarproject.org/) encourage transparency around
+[*OONI*](https://ooni.org/) and [*Sinar Project*](http://sinarproject.org/) encourage transparency around
 internet controls to help enhance the safeguard of human rights and
 democratic processes.

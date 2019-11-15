@@ -124,7 +124,7 @@ shut down in certain regions and/or types of networks, it probably wasn’t shut
 down completely across Ethiopia. It might also have been the case that access
 to certain websites was restricted in regions and/or networks where the
 internet was accessible, though we unfortunately don’t have any recent [OONI
-measurements](https://explorer.ooni.torproject.org/country/ET) from Ethiopia to
+measurements](https://explorer.ooni.org/country/ET) from Ethiopia to
 verify this.
 
 
@@ -170,6 +170,6 @@ campaign, and we hope you will too.
 ----
 
 This article was drafted as part of a collaboration between
-[OONI](https://ooni.torproject.org/) and the [Centre for Intellectual Property
+[OONI](https://ooni.org/) and the [Centre for Intellectual Property
 and Information Technology Law (CIPIT)](https://www.cipit.org/) department of
 Strathmore University.

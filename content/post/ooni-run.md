@@ -16,13 +16,13 @@ Today we released **[OONI Run](https://run.ooni.io/)**, a website linked to an e
 
 OONI Run includes a variety of [OONI Probe software tests](https://github.com/TheTorProject/ooni-probe)designed to:
 
-* Test the [blocking of websites](https://ooni.torproject.org/nettest/web-connectivity/)
+* Test the [blocking of websites](https://ooni.org/nettest/web-connectivity/)
 
-* Find [middleboxes](https://ooni.torproject.org/nettest/http-invalid-request-line/)
+* Find [middleboxes](https://ooni.org/nettest/http-invalid-request-line/)
 
-* Measure the [speed and performance](https://ooni.torproject.org/nettest/ndt/) of networks
+* Measure the [speed and performance](https://ooni.org/nettest/ndt/) of networks
 
-* Measure [video streaming performance](https://ooni.torproject.org/nettest/dash/)
+* Measure [video streaming performance](https://ooni.org/nettest/dash/)
 
 By choosing the tests that interest you and the sites you want to test, generate a link via [OONI Run](https://run.ooni.io/) and share it. Alternatively, embed the widget code to monitor the accessibility of your site. The global OONI Probe community can then respond!
 
@@ -36,7 +36,7 @@ Then click “Generate” to generate a link that you can share with your friend
 
 ![OONI Run: Generating a link](/post/ooni-run/share.png)
 
-If they already have OONI Probe installed, the link will open their mobile app and automatically start testing the sites of your choice! Otherwise, it will encourage them to [install OONI Probe](https://ooni.torproject.org/install/) first.
+If they already have OONI Probe installed, the link will open their mobile app and automatically start testing the sites of your choice! Otherwise, it will encourage them to [install OONI Probe](https://ooni.org/install/) first.
 
 # Engage the world
 
@@ -90,7 +90,7 @@ It can look like this:
 
 {{<ooni-run-banner link="https://run.ooni.io/nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%3A%2F%2Fwikipedia.org%22%5D%7D&mv=1.2.0" text="Test Wikipedia" >}}
 
-Going forward, more [OONI Probe tests](https://ooni.torproject.org/nettest/) will be added to [OONI Run](https://run.ooni.io/). Together, we can coordinate on fighting internet censorship around the world.
+Going forward, more [OONI Probe tests](https://ooni.org/nettest/) will be added to [OONI Run](https://run.ooni.io/). Together, we can coordinate on fighting internet censorship around the world.
 
 *Note:* OONI Run is now available on Android and within 24-48 hours (depending
 on Apple) it will be available on iOS too.

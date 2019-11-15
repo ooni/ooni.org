@@ -33,9 +33,9 @@ For networks where we do not have multiple probes in each network, it's worth no
 
 ## OONI
 
-The [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) is a free software project under the [Tor Project](https://torproject.org/) that aims to detect Internet censorship, traffic manipulation and signs of surveillance around the world through the collection and processing of network measurements.
+The [Open Observatory of Network Interference (OONI)](https://ooni.org/) is a free software project under the [Tor Project](https://torproject.org/) that aims to detect Internet censorship, traffic manipulation and signs of surveillance around the world through the collection and processing of network measurements.
 
-OONI's HTTP request test was run in Turkey at 4:30 UTC on 15th July to test a set of URLs - including twitter.com, facebook.com and youtube.com - for censorship. This test is designed to examine whether URLs are blocked based on a comparison of HTTP requests over Tor vs. the user's network. [OONI's measurement data](https://explorer.ooni.torproject.org/country/TR) indicates that twitter.com, facebook.com and youtube.com did not appear to be blocked on the morning of 15th July leading up to the attempted military coup. However, it's worth noting that these measurements were only conducted from one network vantage point within Turkey, and that OONI tests were not run during or following the attempted coup. 
+OONI's HTTP request test was run in Turkey at 4:30 UTC on 15th July to test a set of URLs - including twitter.com, facebook.com and youtube.com - for censorship. This test is designed to examine whether URLs are blocked based on a comparison of HTTP requests over Tor vs. the user's network. [OONI's measurement data](https://explorer.ooni.org/country/TR) indicates that twitter.com, facebook.com and youtube.com did not appear to be blocked on the morning of 15th July leading up to the attempted military coup. However, it's worth noting that these measurements were only conducted from one network vantage point within Turkey, and that OONI tests were not run during or following the attempted coup. 
 
 ## Tor use
 
@@ -63,7 +63,7 @@ Except for IXPs sharing it publicly, we don't have much public data about traffi
 
 In recent years, Turkey has had a history of selectively blocking Internet access. With operators sharing information, and using measurements from RIPE Atlas and OONI, monitoring the Internet access situation has become more transparent and open and we can better understand and share what's actually going on, to the extent that we don't cause harm for any of our users or the network operators involved. With OONI, users are specifically and explicitly measuring censorship, which is outside the scope of what RIPE Atlas can do; as such, we feel our network measurement infrastructures are complementary.
 
-If users want to help detect censorship, they can help - after [carefully assessing the risks involved](https://ooni.torproject.org/about/risks/) - by [installing ooniprobe](https://ooni.torproject.org/install/).
+If users want to help detect censorship, they can help - after [carefully assessing the risks involved](https://ooni.org/about/risks/) - by [installing ooniprobe](https://ooni.org/install/).
 
 The situation in Turkey is a bit special, because diametrically opposed to the practice of Internet blocking is the United Nations Human Rights Council's [resolution on the promotion, protection and enjoyment of human rights on the Internet](http://www.article19.org/data/files/Internet_Statement_Adopted.pdf), which condemns countries that intentionally disrupt citizens' Internet access. Turkey was one of the six countries that took the initiative on the resolution.
 

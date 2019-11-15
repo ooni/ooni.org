@@ -260,7 +260,7 @@ Venezuela Inteligente
 [reported](https://twitter.com/vesinfiltro/status/1088833974603001856)
 that Instagram was temporarily blocked *again* on Friday, 25th January
 2019. OONI data, illustrated below,
-[corroborates](https://explorer.ooni.torproject.org/measurement/20190125T145344Z_AS8048_fsz5ZGIn2LwE6Efw4Mj3UIcv9RbvG0OMdrNExbw7yD6GVLxczt?input=https:%2F%2Finstagram.com)
+[corroborates](https://explorer.ooni.org/measurement/20190125T145344Z_AS8048_fsz5ZGIn2LwE6Efw4Mj3UIcv9RbvG0OMdrNExbw7yD6GVLxczt?input=https:%2F%2Finstagram.com)
 this report.
 
 ![OONI data graph: Blocking of Instagram in Venezuela](/post/venezuela-january-2019/ve-instagram-blocked.png)
@@ -269,10 +269,10 @@ this report.
 Venezuela, [https://explorer.ooni.io/country/VE](https://explorer.ooni.io/country/VE)
 
 The above graph shows that all OONI measurements testing instagram.com
-between 2pm UTC to 3:30pm UTC presented [HTTP failures](https://explorer.ooni.torproject.org/measurement/20190125T145344Z_AS8048_fsz5ZGIn2LwE6Efw4Mj3UIcv9RbvG0OMdrNExbw7yD6GVLxczt?input=https:%2F%2Finstagram.com)
+between 2pm UTC to 3:30pm UTC presented [HTTP failures](https://explorer.ooni.org/measurement/20190125T145344Z_AS8048_fsz5ZGIn2LwE6Efw4Mj3UIcv9RbvG0OMdrNExbw7yD6GVLxczt?input=https:%2F%2Finstagram.com)
 (likely due to SNI filtering), suggesting that the site was temporarily
 blocked by CANTV. The testing of twitter.com also presented some
-[anomalies](https://explorer.ooni.torproject.org/measurement/20190126T154912Z_AS8048_9IfUWsvWZhaxVYdt0RK89rkGbtByYVoPWmyvR6PJHQXE6iMHgH?input=http:%2F%2Ftwitter.com%2Fyouranonnews%2F)
+[anomalies](https://explorer.ooni.org/measurement/20190126T154912Z_AS8048_9IfUWsvWZhaxVYdt0RK89rkGbtByYVoPWmyvR6PJHQXE6iMHgH?input=http:%2F%2Ftwitter.com%2Fyouranonnews%2F)
 on 26th January 2019, but the limited volume of measurements limits our
 ability to confirm potential blocking. Facebook and YouTube, on the
 other hand, have not shown any signs of network interference over the
@@ -372,14 +372,14 @@ channel NTN24 (which has been censored in Venezuela since February
 This is the first time we are seeing fast-paced, tactical changes to
 censorship by Venezuelan ISPs. CANTV has started to rely on more
 advanced censorship techniques since mid 2018, complimenting
-[DNS-based](https://ooni.torproject.org/post/venezuela-internet-censorship/)
+[DNS-based](https://ooni.org/post/venezuela-internet-censorship/)
 censorship. Manual testing conducted in Venezuela (correlated with
 [OONI measurements](https://api.ooni.io/files/by_country/VE)) shows
 that CANTV is implementing SNI-based filtering as well.
 
 This is not, however, the first time that we are observing internet
 censorship in the country. We previously
-[reported](https://ooni.torproject.org/post/venezuela-internet-censorship/)
+[reported](https://ooni.org/post/venezuela-internet-censorship/)
 on pervasive media censorship in Venezuela, as well as on the blocking
 of currency exchange websites and political sites.
 
@@ -387,7 +387,7 @@ The current political crisis has motivated the state ISP, CANTV, to
 block social media in a more tactical way, restricting the reach of
 specific public speeches that Venezuelans can only see online, on top of
 previously
-[reported](https://ooni.torproject.org/post/venezuela-internet-censorship/)
+[reported](https://ooni.org/post/venezuela-internet-censorship/)
 long-standing blocks (and all within the context of highly censored TV
 and radio).
 

@@ -7,7 +7,7 @@ categories: ["blog"]
 ---
 
 Today the [Open Observatory of Network Interference
-(OONI)](https://ooni.torproject.org/) project is excited to announce the release
+(OONI)](https://ooni.org/) project is excited to announce the release
 of *two* new software tests which are designed to examine the blocking of
 **WhatsApp** and **Facebook Messenger**. You can now run these tests to monitor the
 accessibility of these apps across time, and to collect data that can serve as
@@ -16,7 +16,7 @@ evidence when/if they are blocked.
 # WhatsApp test
 
 Many of our users have asked us to develop a test to examine the accessibility
-of WhatsApp, especially in light of it being [blocked](https://ooni.torproject.org/post/brazil-whatsapp-block/) by various governments
+of WhatsApp, especially in light of it being [blocked](https://ooni.org/post/brazil-whatsapp-block/) by various governments
 around the world during elections, protests, and other political events.
 
 In response, OONI developed a [test](https://github.com/TheTorProject/ooni-spec/blob/master/test-specs/ts-018-whatsapp.md) that examines the reachability of both
@@ -53,9 +53,9 @@ blocked if any of the following apply:
 If you’re a macOS or Linux user, you can run this test through the following
 steps:
 
-1. [Install](https://ooni.torproject.org/install/ooniprobe/) ooniprobe.
+1. [Install](https://ooni.org/install/ooniprobe/) ooniprobe.
 
-2. [Access ooniprobe’s web UI](https://ooni.torproject.org/install/ooniprobe/#running-ooniprobe) in your web browser. 
+2. [Access ooniprobe’s web UI](https://ooni.org/install/ooniprobe/#running-ooniprobe) in your web browser. 
 
 By default, the WhatsApp test will automatically be run from your computer on a
 daily basis. To opt-out, disable the **Instant Messaging deck** under the decks
@@ -95,9 +95,9 @@ following apply:
 If you’re a macOS or Linux user, you can run this test through the following
 steps:
 
-1. [Install](https://ooni.torproject.org/install/ooniprobe/) ooniprobe.
+1. [Install](https://ooni.org/install/ooniprobe/) ooniprobe.
 
-2. [Access ooniprobe’s web UI](https://ooni.torproject.org/install/ooniprobe/#running-ooniprobe) in your web browser.
+2. [Access ooniprobe’s web UI](https://ooni.org/install/ooniprobe/#running-ooniprobe) in your web browser.
 
 By default, the Facebook Messenger test will automatically be run from your
 computer on a daily basis. To opt-out, disable the **Instant Messaging deck** under

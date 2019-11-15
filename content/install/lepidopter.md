@@ -31,38 +31,38 @@ measurements directly to OONI’s measurement collector. It is also designed to
 automatically get updated to the newest version of ooniprobe. 
 
 All measurements collected by Lepidopter are published on [OONI
-Explorer](https://explorer.ooni.torproject.org/world/).
+Explorer](https://explorer.ooni.org/world/).
 
 By using Lepidopter, you will be running the following OONI software tests via your Raspberry Pi:
 
-* **[Web connectivity](https://ooni.torproject.org/nettest/web-connectivity/):**
+* **[Web connectivity](https://ooni.org/nettest/web-connectivity/):**
 Designed to examine whether URLs are blocked or not (and if so, how)
 
-* **[HTTP invalid request line](https://ooni.torproject.org/nettest/http-invalid-request-line/):** Designed to detect the presence of systems which could potentially be responsible for censorship, surveillance and traffic manipulation
+* **[HTTP invalid request line](https://ooni.org/nettest/http-invalid-request-line/):** Designed to detect the presence of systems which could potentially be responsible for censorship, surveillance and traffic manipulation
 
-* **[HTTP header field manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/):** Similar to the previous test (HTTP invalid request line)
+* **[HTTP header field manipulation](https://ooni.org/nettest/http-header-field-manipulation/):** Similar to the previous test (HTTP invalid request line)
 
 * **[Meek Fronted Requests]
-(https://ooni.torproject.org/nettest/meek-fronted-requests/):** Designed to
+(https://ooni.org/nettest/meek-fronted-requests/):** Designed to
 examine whether the domains used by Meek (a type of Tor bridge) work in tested
 networks
 
-* **[Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/):** Designed
+* **[Vanilla Tor](https://ooni.org/nettest/vanilla-tor/):** Designed
 to examine the reachability of the Tor network
 
 * **[Tor Bridges test]
-(https://ooni.torproject.org/nettest/tor-bridge-reachability/):** Designed to
+(https://ooni.org/nettest/tor-bridge-reachability/):** Designed to
 examine the reachability of Tor bridges in your network
 
-* **[WhatsApp test](https://ooni.torproject.org/nettest/whatsapp/):** Designed
+* **[WhatsApp test](https://ooni.org/nettest/whatsapp/):** Designed
 to examine the reachability of both WhatsApp and WhatsApp's web interface
 (web.whatsapp.com) in your network
 
 * **[Facebook Messenger test]
-(https://ooni.torproject.org/nettest/facebook-messenger/):** Designed to
+(https://ooni.org/nettest/facebook-messenger/):** Designed to
 examine the reachability of Facebook Messenger in your network
 
-* **[Telegram test](https://ooni.torproject.org/nettest/telegram/):** Designed
+* **[Telegram test](https://ooni.org/nettest/telegram/):** Designed
 to examine the reachability of Telegram messenger and Telegram's web
 version in your network
 
@@ -103,15 +103,15 @@ If your laptop does not have an SD card slot, please ensure that you have an SD 
 ## Download the Lepidopter image
 
 * [Lepidopter image download]
-(https://get.ooni.torproject.org/lepidopter/lepidopter-v1.0.0-armel.img.zip),
+(https://get.ooni.org/lepidopter/lepidopter-v1.0.0-armel.img.zip),
 [(lepidopter image signature download)]
-(https://get.ooni.torproject.org/lepidopter/lepidopter-v1.0.0-armel.img.zip.asc)
+(https://get.ooni.org/lepidopter/lepidopter-v1.0.0-armel.img.zip.asc)
 
 Consider downloading the [xz compressed image]
-(https://get.ooni.torproject.org/lepidopter/lepidopter-v1.0.0-armel.img.xz)
+(https://get.ooni.org/lepidopter/lepidopter-v1.0.0-armel.img.xz)
 for a significantly reduced file size compared to the zip archive. The
 signature to the xz compressed image can be found [here]
-(https://get.ooni.torproject.org/lepidopter/lepidopter-v1.0.0-armel.img.xz.asc).
+(https://get.ooni.org/lepidopter/lepidopter-v1.0.0-armel.img.xz.asc).
 Note that this will require an [extra program](http://tukaani.org/xz/) to be
 installed depending on your OS.
 
@@ -186,7 +186,7 @@ gpg> quit
 ### Get the Lepidopter image signature
 
 Download the [lepidopter image signature]
-(https://get.ooni.torproject.org/lepidopter/lepidopter-v1.0.0-armel.img.zip.asc).
+(https://get.ooni.org/lepidopter/lepidopter-v1.0.0-armel.img.zip.asc).
 
 ### Verify the Lepidopter image
 
@@ -234,7 +234,7 @@ Disk Image Writer or a terminal.
 ### Disk Image Writer
 
 **Step 1.** Download the **[Lepidopter
-image](https://get.ooni.torproject.org/lepidopter/lepidopter-v1.0.0-armel.img.zip)**.
+image](https://get.ooni.org/lepidopter/lepidopter-v1.0.0-armel.img.zip)**.
 
 **Step 2.** Right-click on the downloaded Lepidopter image and select **[Extract
 here]** to extract the image.
@@ -288,7 +288,7 @@ Now your SD card contains OONI's software!
 That's all! From now on, your Raspberry Pi will automatically **run ooniprobe
 every day at 6am UTC**. The measurements will be sent directly to OONI's server,
 where they will be processed and published on **[OONI
-Explorer](https://explorer.ooni.torproject.org/world/)** (generally) within 24
+Explorer](https://explorer.ooni.org/world/)** (generally) within 24
 hours.
 
 ### Terminal
@@ -298,14 +298,14 @@ machine. If you specify the wrong device in the instructions below you could
 delete your primary Linux partition. Please be careful.
 
 **Step 1.** Download the [Lepidopter
-image](https://get.ooni.torproject.org/lepidopter/lepidopter-v1.0.0-armel.img.zip).
+image](https://get.ooni.org/lepidopter/lepidopter-v1.0.0-armel.img.zip).
 
 **Step 2.** Extract the image:
 
    `unzip lepidopter-v1.0.0-armel.img.zip`
 
 If you have downloaded the [xz compressed image]
-(https://get.ooni.torproject.org/lepidopter/lepidopter-v1.0.0-armel.img.xz):
+(https://get.ooni.org/lepidopter/lepidopter-v1.0.0-armel.img.xz):
 
    `xz --decompress --verbose --no-sparse lepidopter-v1.0.0-armel.img.xz`
 
@@ -376,7 +376,7 @@ Pi, and have fun!
 You can copy the Lepidopter image to your SD card through the following steps:
 
 **Step 1.** Download the **[Lepidopter
-image](https://get.ooni.torproject.org/lepidopter/lepidopter-v1.0.0-armel.img.zip)**.
+image](https://get.ooni.org/lepidopter/lepidopter-v1.0.0-armel.img.zip)**.
 
 **Step 2.** Double-click on the downloaded Lepidopter image to extract it.
 
@@ -415,7 +415,7 @@ Wait for the Lepidopter image to get copied to your SD card...
 That's all! From now on, your Raspberry Pi will automatically **run ooniprobe
 every day at 6am UTC**. The measurements will be sent directly to OONI's server,
 where they will be processed and published on **[OONI
-Explorer](https://explorer.ooni.torproject.org/world/)** (generally) within 24
+Explorer](https://explorer.ooni.org/world/)** (generally) within 24
 hours.
 
 ### Optimization
@@ -436,7 +436,7 @@ path.
 You can copy the Lepidopter image to your SD card through the following steps:
 
 **Step 1.** Download the **[Lepidopter
-image](https://get.ooni.torproject.org/lepidopter/lepidopter-v1.0.0-armel.img.zip)**.
+image](https://get.ooni.org/lepidopter/lepidopter-v1.0.0-armel.img.zip)**.
 
 **Step 2.** Extract the image file from the downloaded .xz file, so you now
 have
@@ -480,7 +480,7 @@ That's all! From now on, your Raspberry Pi will automatically **run ooniprobe
 every day at 6am UTC**. The measurements will be sent directly to OONI's
 server,
 where they will be processed and published on **[OONI
-Explorer](https://explorer.ooni.torproject.org/world/)** (generally) within 24
+Explorer](https://explorer.ooni.org/world/)** (generally) within 24
 hours.
 
 **Note:** In Windows, the SD card will appear to only have a fairly small size
@@ -496,7 +496,7 @@ You might not be able to choose the device in Win32DiskImager on some notebooks,
 so this is a different way to achieve the same thing on a Windows machine.
 
 **Step 1.** Download the **[Lepidopter
-image](https://get.ooni.torproject.org/lepidopter/lepidopter-v1.0.0-armel.img.zip)**.
+image](https://get.ooni.org/lepidopter/lepidopter-v1.0.0-armel.img.zip)**.
 
 **Step 2.** Extract the image file from the downloaded .xz file, so you now have
 "lepidopter-v1.0.0-armel.img".

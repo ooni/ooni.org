@@ -74,15 +74,15 @@ View the **pdf** version of the report [here](/documents/cuba-internet-censorshi
 
 * [Conclusion](#conclusion)
 
-**OONI tests:** [Web Connectivity](https://ooni.torproject.org/nettest/web-connectivity/),
-[HTTP Host](https://ooni.torproject.org/nettest/http-host/), [HTTP Header Field Manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/),
-[HTTP Invalid Request Line](https://ooni.torproject.org/nettest/http-invalid-request-line/),
-[Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/),
-[Meek Fronted Requests](https://ooni.torproject.org/nettest/meek-fronted-requests/),
-[Facebook Messenger test](https://ooni.torproject.org/nettest/facebook-messenger/),
-[WhatsApp test](https://ooni.torproject.org/nettest/whatsapp/),
-[Telegram test](https://ooni.torproject.org/nettest/telegram/),
-[Network Diagnostic Test (NDT)](https://ooni.torproject.org/nettest/ndt/)
+**OONI tests:** [Web Connectivity](https://ooni.org/nettest/web-connectivity/),
+[HTTP Host](https://ooni.org/nettest/http-host/), [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/),
+[HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/),
+[Vanilla Tor](https://ooni.org/nettest/vanilla-tor/),
+[Meek Fronted Requests](https://ooni.org/nettest/meek-fronted-requests/),
+[Facebook Messenger test](https://ooni.org/nettest/facebook-messenger/),
+[WhatsApp test](https://ooni.org/nettest/whatsapp/),
+[Telegram test](https://ooni.org/nettest/telegram/),
+[Network Diagnostic Test (NDT)](https://ooni.org/nettest/ndt/)
 
 **Probed ISP:** ETECSA (AS27725)
 
@@ -93,7 +93,7 @@ blockpages and RST Injection
 
 # Key Findings
 
-[OONI network measurement data](https://explorer.ooni.torproject.org/country/CU), collected from
+[OONI network measurement data](https://explorer.ooni.org/country/CU), collected from
 eight vantage points across three Cuban cities between 29th May 2017 to
 10th June 2017, confirms the **blocking of 41 websites.** Deep Packet
 Inspection (DPI) technology, which we suspect to be located in Havana,
@@ -110,38 +110,38 @@ The blocked sites include:
 * News outlets and blogs expressing political criticism and covering human rights
 issues in Cuba;
 
-* The [independent news outlet](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.14ymedio.com%2F) created by [Yoani Sanchez](https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/sites/tiffanypham/2014/11/30/how-she-did-it-yoani-sanchez-time-100-most-influential-person-launches-cuban-news-outlet-14ymedio/&refURL=&referrer=#608feccd4d5b), a prominent Cuban blogger;
+* The [independent news outlet](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.14ymedio.com%2F) created by [Yoani Sanchez](https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/sites/tiffanypham/2014/11/30/how-she-did-it-yoani-sanchez-time-100-most-influential-person-launches-cuban-news-outlet-14ymedio/&refURL=&referrer=#608feccd4d5b), a prominent Cuban blogger;
 
-* The [Cuban Free Press Project](https://explorer.ooni.torproject.org/measurement/20170723T204926Z_AS27725_1xHuKtaN92RjPXcI7xnrm9SI1OrwZvvWKUK8filfQt94oyJVIp?input=http:%2F%2Fwww.cubafreepress.org) which [aims](http://cubafreepress.org/) to support journalists and independent writers;
+* The [Cuban Free Press Project](https://explorer.ooni.org/measurement/20170723T204926Z_AS27725_1xHuKtaN92RjPXcI7xnrm9SI1OrwZvvWKUK8filfQt94oyJVIp?input=http:%2F%2Fwww.cubafreepress.org) which [aims](http://cubafreepress.org/) to support journalists and independent writers;
 
-* A [Cuban online forum](https://explorer.ooni.torproject.org/measurement/20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe?input=http:%2F%2Fconexioncubana.net);
+* A [Cuban online forum](https://explorer.ooni.org/measurement/20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe?input=http:%2F%2Fconexioncubana.net);
 
 * Pro-democracy sites;
 
-* [Freedom House](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Ffreedomhouse.org%2Fcountry%2Fcuba), which [publishes](https://freedomhouse.org/report/freedom-world/2017/cuba) annual reports on press freedom and net freedom;
+* [Freedom House](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Ffreedomhouse.org%2Fcountry%2Fcuba), which [publishes](https://freedomhouse.org/report/freedom-world/2017/cuba) annual reports on press freedom and net freedom;
 
-* “[Ladies in White](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.damasdeblanco.com)”: Peaceful opposition [movement](http://www.damasdeblanco.com/) led by the wives and female relatives of jailed dissidents;
+* “[Ladies in White](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.damasdeblanco.com)”: Peaceful opposition [movement](http://www.damasdeblanco.com/) led by the wives and female relatives of jailed dissidents;
 
-* [Cuba Sindical](https://explorer.ooni.torproject.org/measurement/20170717T213558Z_AS27725_dEvgI4mTUuEHTiTTjSLx6Yb18MVUamp0vcvIKLCkjD72OnyyrI?input=http:%2F%2Fwww.cubasindical.org), which promotes [independent trade unions](http://cubasindical.org/);
+* [Cuba Sindical](https://explorer.ooni.org/measurement/20170717T213558Z_AS27725_dEvgI4mTUuEHTiTTjSLx6Yb18MVUamp0vcvIKLCkjD72OnyyrI?input=http:%2F%2Fwww.cubasindical.org), which promotes [independent trade unions](http://cubasindical.org/);
 
-* [Anonymouse](https://explorer.ooni.torproject.org/measurement/20170607T184235Z_AS27725_OItktnzsSSPe1V0nd5d3D8ZAfy9sk0T8VaT5zJyR60y1CKUm5p?input=http:%2F%2Fanonymouse.org), amongst other web proxies;
+* [Anonymouse](https://explorer.ooni.org/measurement/20170607T184235Z_AS27725_OItktnzsSSPe1V0nd5d3D8ZAfy9sk0T8VaT5zJyR60y1CKUm5p?input=http:%2F%2Fanonymouse.org), amongst other web proxies;
 
-* Anti-Castro groups: [Alpha 66](https://explorer.ooni.torproject.org/measurement/20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe?input=http:%2F%2Fwww.alpha66.org) and “[Brothers to the Rescue](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.hermanos.org)”.
+* Anti-Castro groups: [Alpha 66](https://explorer.ooni.org/measurement/20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe?input=http:%2F%2Fwww.alpha66.org) and “[Brothers to the Rescue](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.hermanos.org)”.
 
 Interestingly enough though, various other international sites which
 also express criticism - such as Reporters Without Borders’ [portrait of Cuba’s President](https://rsf.org/en/predator/raul-castro-0),
 presenting him as a “Predator of Press Freedom” - were found to be
-[accessible](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=https:%2F%2Frsf.org%2Fen%2Fpredator%2Fraul-castro-0)
+[accessible](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=https:%2F%2Frsf.org%2Fen%2Fpredator%2Fraul-castro-0)
 across Cuba. This might indicate a lack in sophistication in both
 internet surveillance and censorship.
 
 **Skype was the only popular communications tool that we found to be
-blocked.** Other popular platforms, like [Facebook Messenger](https://explorer.ooni.torproject.org/measurement/20170607T175309Z_AS27725_a4wPIMQ7NwY7hXozjWQ9f9gSNDRzpN9kb3XLsjzW1GFbsfcMGz)
+blocked.** Other popular platforms, like [Facebook Messenger](https://explorer.ooni.org/measurement/20170607T175309Z_AS27725_a4wPIMQ7NwY7hXozjWQ9f9gSNDRzpN9kb3XLsjzW1GFbsfcMGz)
 and
-[WhatsApp](https://explorer.ooni.torproject.org/measurement/20170607T175300Z_AS27725_sscXF9fCtjN7lUqAy9WewtB7HxS3dBWVJcjmuHYvHhreJosqap),
+[WhatsApp](https://explorer.ooni.org/measurement/20170607T175300Z_AS27725_sscXF9fCtjN7lUqAy9WewtB7HxS3dBWVJcjmuHYvHhreJosqap),
 were accessible across Cuba. While some web proxies were found to be
 blocked, the [Tor network](https://www.torproject.org/) was
-[accessible](https://explorer.ooni.torproject.org/measurement/20170607T175300Z_AS27725_XXfB14TYx5szrWoFiokwjWdQZIJQIuEtGWpkfaojBEPdiNsc3u)
+[accessible](https://explorer.ooni.org/measurement/20170607T175300Z_AS27725_XXfB14TYx5szrWoFiokwjWdQZIJQIuEtGWpkfaojBEPdiNsc3u)
 during the testing period of this study.
 
 Chinese vendor Huawei was found to be supporting Cuba’s internet
@@ -158,20 +158,20 @@ across Cuba remain the main barriers to accessing the internet.
 
 # Introduction
 
-Last May, the [OONI](https://ooni.torproject.org/) team visited Cuba.
+Last May, the [OONI](https://ooni.org/) team visited Cuba.
 We ran a variety of network measurement tests across eight vantage
 points in Havana, Santa Clara, and Santiago de Cuba, with the aim of
 measuring internet censorship.
 
 We obviously ran our own network measurement software,[ooniprobe](https://github.com/TheTorProject/ooni-probe), which is
-designed to [examine various forms of internet censorship](https://ooni.torproject.org/nettest/). We also ran other
+designed to [examine various forms of internet censorship](https://ooni.org/nettest/). We also ran other
 network tests, particularly in response to ooniprobe findings, such as
 latency measurements to blocked sites, traceroutes, and network scans.
 
 This research report documents our key findings from the network
 measurement tests that we performed in Cuba. The aim of this study is to
 increase the research community’s understanding of information controls
-in Cuba based on [empirical data](https://explorer.ooni.torproject.org/country/CU).
+in Cuba based on [empirical data](https://explorer.ooni.org/country/CU).
 
 The following sections of this report provide information about Cuba’s
 network landscape and internet penetration levels. The remainder of the
@@ -592,38 +592,38 @@ The analysis period started on 29th May 2017 and concluded on 10th June
 Since 2011, OONI has developed multiple [free and open source software tests](https://github.com/TheTorProject/ooni-probe), called ooniprobe,
 designed to measure the following:
 
-* [Blocking of websites](https://ooni.torproject.org/nettest/web-connectivity/);
+* [Blocking of websites](https://ooni.org/nettest/web-connectivity/);
 
-* Blocking of instant messaging apps ([WhatsApp](https://ooni.torproject.org/nettest/whatsapp/),[Facebook Messenger](https://ooni.torproject.org/nettest/facebook-messenger/), [Telegram](https://ooni.torproject.org/nettest/telegram/));
+* Blocking of instant messaging apps ([WhatsApp](https://ooni.org/nettest/whatsapp/),[Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/));
 
-* Blocking of the [Tor network](https://ooni.torproject.org/nettest/vanilla-tor/) and [Tor bridges](https://ooni.torproject.org/nettest/tor-bridge-reachability/);
+* Blocking of the [Tor network](https://ooni.org/nettest/vanilla-tor/) and [Tor bridges](https://ooni.org/nettest/tor-bridge-reachability/);
 
-* Presence of [middleboxes](https://ooni.torproject.org/nettest/http-invalid-request-line/);
+* Presence of [middleboxes](https://ooni.org/nettest/http-invalid-request-line/);
 
-* [Speed and performance](https://ooni.torproject.org/nettest/ndt/) of networks.
+* [Speed and performance](https://ooni.org/nettest/ndt/) of networks.
 
 As part of this study, the following [ooniprobe tests](https://github.com/TheTorProject/ooni-probe) were run from eight
 local vantage points in Cuba:
 
-* [Web Connectivity](https://ooni.torproject.org/nettest/web-connectivity/)
+* [Web Connectivity](https://ooni.org/nettest/web-connectivity/)
 
-* [HTTP Invalid Request Line](https://ooni.torproject.org/nettest/http-invalid-request-line/)
+* [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/)
 
-* [HTTP Header Field Manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/)
+* [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/)
 
-* [Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/)
+* [Vanilla Tor](https://ooni.org/nettest/vanilla-tor/)
 
-* [WhatsApp test](https://ooni.torproject.org/nettest/whatsapp/)
+* [WhatsApp test](https://ooni.org/nettest/whatsapp/)
 
-* [Facebook Messenger test](https://ooni.torproject.org/nettest/facebook-messenger/)
+* [Facebook Messenger test](https://ooni.org/nettest/facebook-messenger/)
 
-* [Telegram test](https://ooni.torproject.org/nettest/telegram/)
+* [Telegram test](https://ooni.org/nettest/telegram/)
 
-* [Network Diagnostic Test (NDT)](https://ooni.torproject.org/nettest/ndt/)
+* [Network Diagnostic Test (NDT)](https://ooni.org/nettest/ndt/)
 
-* [HTTP Host](https://ooni.torproject.org/nettest/http-host/)
+* [HTTP Host](https://ooni.org/nettest/http-host/)
 
-* [Meek Fronted Requests](https://ooni.torproject.org/nettest/meek-fronted-requests/)
+* [Meek Fronted Requests](https://ooni.org/nettest/meek-fronted-requests/)
 
 The Web Connectivity test was run with the aim of examining whether a
 set of URLs (included in both the [global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv),
@@ -806,7 +806,7 @@ likely placed in the tested network, though it’s not always clear what
 that software is. In some cases though, censorship and/or surveillance
 vendors can be identified through the error messages in the received
 HTTP response. Based on this technique, OONI has previously
-[detected](https://explorer.ooni.torproject.org/highlights/) the use
+[detected](https://explorer.ooni.org/highlights/) the use
 of BlueCoat, Squid and Privoxy proxy technologies in networks across
 multiple countries around the world.
 
@@ -1067,7 +1067,7 @@ compare them across time.
 
 OONI does *not* deliberately collect or store users’ IP addresses. In
 fact, OONI takes measures to remove users’ IP addresses from the
-collected measurements, to protect its users from [potential risks](https://ooni.torproject.org/about/risks/).
+collected measurements, to protect its users from [potential risks](https://ooni.org/about/risks/).
 
 However, OONI might *unintentionally* collect users’ IP addresses and
 other potentially personally-identifiable information, if such
@@ -1082,7 +1082,7 @@ The types of network measurements that OONI collects depend on the types
 of tests that are run. Specifications about each OONI test can be viewed
 through its [git repository](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs),
 and details about what collected network measurements entail can be
-viewed through [OONI Explorer](https://explorer.ooni.torproject.org/world/) or [OONI’s measurement API](https://measurements.ooni.torproject.org/).
+viewed through [OONI Explorer](https://explorer.ooni.org/world/) or [OONI’s measurement API](https://measurements.ooni.org/).
 
 OONI processes the above types of data with the aim of deriving meaning
 from the collected measurements and, specifically, in an attempt to
@@ -1189,7 +1189,7 @@ location.
 
 ## Findings
 
-Upon analysis of the collected [network measurements](https://explorer.ooni.torproject.org/country/CU), we can
+Upon analysis of the collected [network measurements](https://explorer.ooni.org/country/CU), we can
 confirm the **blocking of 41 websites** in Cuba. Deep Packet Inspection
 (DPI) technology, which appears to be located in Havana based on latency
 measurements, was found to reset connections to those sites and serve
@@ -1200,10 +1200,10 @@ accessing them over HTTPS.
 Most of the blocked sites express criticism towards Cuba’s government,
 either directly or indirectly. While various web proxies were found to
 be blocked, it’s worth noting that the [Tor network](https://www.torproject.org/) was found to be
-[accessible](https://explorer.ooni.torproject.org/measurement/20170607T175300Z_AS27725_XXfB14TYx5szrWoFiokwjWdQZIJQIuEtGWpkfaojBEPdiNsc3u)
-across Cuba. Similarly, popular communications tools, like [Facebook Messenger](https://explorer.ooni.torproject.org/measurement/20170607T175309Z_AS27725_a4wPIMQ7NwY7hXozjWQ9f9gSNDRzpN9kb3XLsjzW1GFbsfcMGz)
+[accessible](https://explorer.ooni.org/measurement/20170607T175300Z_AS27725_XXfB14TYx5szrWoFiokwjWdQZIJQIuEtGWpkfaojBEPdiNsc3u)
+across Cuba. Similarly, popular communications tools, like [Facebook Messenger](https://explorer.ooni.org/measurement/20170607T175309Z_AS27725_a4wPIMQ7NwY7hXozjWQ9f9gSNDRzpN9kb3XLsjzW1GFbsfcMGz)
 and
-[WhatsApp](https://explorer.ooni.torproject.org/measurement/20170607T175300Z_AS27725_sscXF9fCtjN7lUqAy9WewtB7HxS3dBWVJcjmuHYvHhreJosqap),
+[WhatsApp](https://explorer.ooni.org/measurement/20170607T175300Z_AS27725_sscXF9fCtjN7lUqAy9WewtB7HxS3dBWVJcjmuHYvHhreJosqap),
 were found to be accessible. Skype was the only popular communications
 tool that we found to be blocked.
 
@@ -1219,8 +1219,8 @@ events that we found in Cuba as part of this study.
 
 News outlets and sites expressing political criticism towards Cuba’s
 government were predominantly found to be blocked as part of this study.
-Upon analysis of [network measurement data](https://explorer.ooni.torproject.org/country/CU) collected
-through [OONI’s Web Connectivity test](https://ooni.torproject.org/nettest/web-connectivity/) (performed
+Upon analysis of [network measurement data](https://explorer.ooni.org/country/CU) collected
+through [OONI’s Web Connectivity test](https://ooni.org/nettest/web-connectivity/) (performed
 across eight vantage points in Havana, Santa Clara, and Santiago de
 Cuba), we were able to identify and confirm the **blocking of 41
 websites**. We also found that these sites are blocked by Deep Packet
@@ -1328,12 +1328,12 @@ focus on LGBT rights and women’s rights. In addition to news articles,
 Cuba Encuentro
 [publishes](http://www.cubaencuentro.com/derechos-humanos) documents,
 legislation, opinion articles, and videos on issues that are more
-relevant to women and Cuba’s LGBT community. Along with [Radio and TV Marti](https://explorer.ooni.torproject.org/measurement/20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe?input=http:%2F%2Fmartinoticias.com),
-[Cuba Encuentro was found to be blocked](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.cubaencuentro.com%2Fes%2Fblogs%2Fefory-atocha)
+relevant to women and Cuba’s LGBT community. Along with [Radio and TV Marti](https://explorer.ooni.org/measurement/20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe?input=http:%2F%2Fmartinoticias.com),
+[Cuba Encuentro was found to be blocked](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.cubaencuentro.com%2Fes%2Fblogs%2Fefory-atocha)
 in Cuba as well.
 
 Cuba’s first independent online news outlet (created in 1997), [La Nueva Cuba](http://www.lanuevacuba.com), was also found to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.lanuevacuba.com).
+[blocked](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.lanuevacuba.com).
 This site is no longer operational, and (when accessed outside of Cuba)
 its domain redirects to “Havana City Hotels”. The image below, taken
 from the [Internet Archive](https://archive.org/), shows what La Nueva
@@ -1358,36 +1358,36 @@ outlet: [14ymedio](http://www.14ymedio.com/). In light of limited
 internet availability, [Cuban 14ymedio journalists collaborate with a small team outside of Cuba](https://www.forbes.com/sites/tiffanypham/2014/11/30/how-she-did-it-yoani-sanchez-time-100-most-influential-person-launches-cuban-news-outlet-14ymedio/#608feccd4d5b),
 who upload their articles and help coordinate social media efforts. This
 news site though was also found to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.14ymedio.com%2F)
+[blocked](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.14ymedio.com%2F)
 in Cuba.
 
 [Cuba Libre Digital](http://www.cubalibredigital.com/), run by the
 Cuban diaspora in Brazil, is another independent news outlet
-[blocked](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.cubalibredigital.com)
+[blocked](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.cubalibredigital.com)
 in the country. [PayoLibre](http://payolibre.com/index.php), which has
 [published articles in defense of political dissidents](http://www.payolibre.com/PRESO-%20Antonio%20Diaz%20Sanchez.htm),
-was found to be [censored](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.payolibre.com).
-Netforcuba.org, also [blocked](https://explorer.ooni.torproject.org/measurement/20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe?input=http:%2F%2Fwww.netforcuba.org),
+was found to be [censored](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.payolibre.com).
+Netforcuba.org, also [blocked](https://explorer.ooni.org/measurement/20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe?input=http:%2F%2Fwww.netforcuba.org),
 currently points to a YouTube page which includes a video report titled
 “Cuba, false paradise”.
 
 Limited press freedom in Cuba led to the creation of the [Cuba Free Press Project](http://cubafreepress.org/). This initiative [aims to support journalists and independent writers](http://cubafreepress.org/missionsp.html), providing them a
 platform for free expression. This was also amongst the sites found to
 be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170723T204926Z_AS27725_1xHuKtaN92RjPXcI7xnrm9SI1OrwZvvWKUK8filfQt94oyJVIp?input=http:%2F%2Fwww.cubafreepress.org).
+[blocked](https://explorer.ooni.org/measurement/20170723T204926Z_AS27725_1xHuKtaN92RjPXcI7xnrm9SI1OrwZvvWKUK8filfQt94oyJVIp?input=http:%2F%2Fwww.cubafreepress.org).
 Quite similarly, news site [Nuevo Accion](http://nuevoaccion.com/)
 supports independent journalism and welcomes opinion pieces from the
 public. The only international news site that we found to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170607T171158Z_AS27725_ObqVLKTKK2AvLijpKhRAB6KhB1sNwlBveJNL85SqFOxL7opot3?input=http:%2F%2Fwww.voanews.com)
+[blocked](https://explorer.ooni.org/measurement/20170607T171158Z_AS27725_ObqVLKTKK2AvLijpKhRAB6KhB1sNwlBveJNL85SqFOxL7opot3?input=http:%2F%2Fwww.voanews.com)
 in Cuba was [Voice of America (VOA)](https://www.voanews.com/), which
 is U.S. government-funded.
 
 [ETECSA](http://www.etecsa.cu/) appears to continue to censor sites
 even once they’re no longer operational. Cubamatinal.com,
 cubaliberal.org, and miscelaneasdecuba.net were all found to be
-[blocked](https://explorer.ooni.torproject.org/country/CU), even
+[blocked](https://explorer.ooni.org/country/CU), even
 though these sites are down. We also found cartadecuba.org to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170603T183359Z_AS27725_AdrXzhQiFf9ULtvkQPpLGtBu2Lx4xR8LNT6bi6HugbDwegFELV?input=http:%2F%2Fwww.cartadecuba.org),
+[blocked](https://explorer.ooni.org/measurement/20170603T183359Z_AS27725_AdrXzhQiFf9ULtvkQPpLGtBu2Lx4xR8LNT6bi6HugbDwegFELV?input=http:%2F%2Fwww.cartadecuba.org),
 despite the site no longer being operational.
 
 We only found the HTTP version of these fourteen media sites to be
@@ -1397,7 +1397,7 @@ their readers to circumvent the censorship.
 #### Political Criticism
 
 Eleven other sites expressing political criticism towards Cuba’s
-government were [found to be blocked](https://explorer.ooni.torproject.org/country/CU), as
+government were [found to be blocked](https://explorer.ooni.org/country/CU), as
 illustrated through the table below.
 
 | Blocked sites expressing political criticism | Amount of block pages detected |
@@ -1424,13 +1424,13 @@ under the Castro regime, Cuba has [more poverty than ever before](http://www.the
 Castro’s [excessive wealth](http://www.therealcuba.com/?page_id=74).
 Overall, this blog expresses [heavy criticism towards the Castro government](http://www.therealcuba.com/?page_id=103), and we found it
 to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.therealcuba.com%2F)
+[blocked](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.therealcuba.com%2F)
 across Cuba.
 
 [Conexion Cubana](http://www.conexioncubana.net/) is a Cuban online
 forum, providing a platform for [political discussions](http://www.conexioncubana.net/foro/guerra) (amongst other
 discussions), which we also found to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe?input=http:%2F%2Fconexioncubana.net).
+[blocked](https://explorer.ooni.org/measurement/20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe?input=http:%2F%2Fconexioncubana.net).
 
 [Cuba Democracia y Vida](http://cubademocraciayvida.org/) was created
 by Guillermo Milan Reyes, a Cuban political dissident living in exile in
@@ -1442,7 +1442,7 @@ dignified life without poverty for all Cuban citizens”. To this end, it
 encourages Cubans to submit articles that cover news about important
 events, testimonies of life under the Castro regime, and reports on
 human rights violations. We found this site to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.cubademocraciayvida.org)
+[blocked](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.cubademocraciayvida.org)
 in Cuba.
 
 The [Cuban Democratic Directory](http://www.directorio.org/) is an
@@ -1456,9 +1456,9 @@ are [committed](http://www.directorio.org/aboutdirectorio) to
 promoting freedom and the respect for human rights in Cuba. Their
 [site](http://www.directorio.org/) was amongst those that we found to
 be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.directorio.org)
+[blocked](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.directorio.org)
 in the country. Quite similarly, [Solidaridad Espanyola con Cuba](http://www.solidaridadconcuba.com/), also
-[blocked](https://explorer.ooni.torproject.org/measurement/20170603T183359Z_AS27725_AdrXzhQiFf9ULtvkQPpLGtBu2Lx4xR8LNT6bi6HugbDwegFELV?input=http:%2F%2Fwww.solidaridadconcuba.com),
+[blocked](https://explorer.ooni.org/measurement/20170603T183359Z_AS27725_AdrXzhQiFf9ULtvkQPpLGtBu2Lx4xR8LNT6bi6HugbDwegFELV?input=http:%2F%2Fwww.solidaridadconcuba.com),
 is run by Spaniards who
 [aim](http://www.solidaridadconcuba.com/quienes/quienes.asp) to
 support a peaceful transition to democracy in Cuba.
@@ -1466,13 +1466,13 @@ support a peaceful transition to democracy in Cuba.
 Cubanology.com, pscuba.org, agendacuba.org,
 asambleasociedadcivilcuba.info, cubaeuropa.com, and corriente.org are no
 longer operational. Yet, they were amongst the sites that we found to be
-[blocked](https://explorer.ooni.torproject.org/country/CU) in Cuba
+[blocked](https://explorer.ooni.org/country/CU) in Cuba
 during the testing period of this study.
 
 #### Human Rights Issues
 
 Six sites covering human rights issues in Cuba were found to be
-[blocked](https://explorer.ooni.torproject.org/country/CU) during the
+[blocked](https://explorer.ooni.org/country/CU) during the
 testing period.
 
 | Blocked human rights sites           | Amount of block pages detected |
@@ -1502,7 +1502,7 @@ Freedom House also regularly publishes press releases which cover human
 rights issues in Cuba, such as the [crackdown on human rights defenders](https://freedomhouse.org/article/cuba-arrests-target-human-rights-defenders).
 As part of our study, we found Freedom House’s domain - including its
 reports on Cuba - to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Ffreedomhouse.org%2Fcountry%2Fcuba)
+[blocked](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Ffreedomhouse.org%2Fcountry%2Fcuba)
 in the country.
 
 But local human rights sites were found to be blocked as well. [Las Damas de Blanco](http://www.damasdeblanco.com/) (“Ladies in White”) is
@@ -1528,7 +1528,7 @@ Recently, for example, it was
 that they were attacked by a government sanctioned mob in Havana. Their
 [site](http://www.damasdeblanco.com/), which includes news articles
 and information about political prisoners, was found to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.damasdeblanco.com)
+[blocked](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.damasdeblanco.com)
 in Cuba during the testing period of this study.
 
 [Hermanos Al Rescate](http://hermanos.org/) (“Brothers to the Rescue”)
@@ -1543,7 +1543,7 @@ families of political prisoners”. Hermanos Al Rescate were amongst
 several other Cuban-American groups that were [spied upon and infiltrated by Cuban intelligence officers](https://www.washingtonpost.com/news/worldviews/wp/2014/12/17/meet-the-cuban-five-at-the-center-of-the-blockbuster-u-s-announcement-on-cuba/?utm_term=.9ebe23f0b897),
 known as the “Cuban Five” (or the “Miami Five”). As such, it’s probably
 not surprising that we found their site to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.hermanos.org)
+[blocked](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.hermanos.org)
 in Cuba.
 
 [Fundacion Hispano Cubana](http://hispanocubana.org/) (“The Hispano
@@ -1553,7 +1553,7 @@ protection of human rights in Cuba, as well as provide support for Cuban
 refugees in Spain. It also strives to promote “values of freedom and
 democracy in all matters relating to relations between Spain and Cuba”.
 While performing tests in Cuba, we found this site to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.hispanocubana.org).
+[blocked](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=http:%2F%2Fwww.hispanocubana.org).
 
 [Cuba Sindical](http://cubasindical.org/) is a non-partisan,
 non-profit, non-governmental organization, run by the International
@@ -1562,22 +1562,22 @@ Group for Corporate Social Responsibility in Cuba. According to its
 “dedicated to promoting free and democratic trade unionism in Cuba” and
 “seeks international support and solidarity for Cuban workers”. This
 site was most likely
-[blocked](https://explorer.ooni.torproject.org/measurement/20170717T213558Z_AS27725_dEvgI4mTUuEHTiTTjSLx6Yb18MVUamp0vcvIKLCkjD72OnyyrI?input=http:%2F%2Fwww.cubasindical.org)
+[blocked](https://explorer.ooni.org/measurement/20170717T213558Z_AS27725_dEvgI4mTUuEHTiTTjSLx6Yb18MVUamp0vcvIKLCkjD72OnyyrI?input=http:%2F%2Fwww.cubasindical.org)
 because the Cuban government [prohibits independent trade unions](http://survey.ituc-csi.org/Cuba.html?lang=en#tabs-2).
 
 Even though sigloxxi.org is not operational, we found it to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170603T183359Z_AS27725_AdrXzhQiFf9ULtvkQPpLGtBu2Lx4xR8LNT6bi6HugbDwegFELV?input=http:%2F%2Fwww.sigloxxi.org)
+[blocked](https://explorer.ooni.org/measurement/20170603T183359Z_AS27725_AdrXzhQiFf9ULtvkQPpLGtBu2Lx4xR8LNT6bi6HugbDwegFELV?input=http:%2F%2Fwww.sigloxxi.org)
 as well during the testing period.
 
 #### Anonymity and Circumvention Tools
 
 The [Tor network](https://www.torproject.org/) was found to be
-[accessible](https://explorer.ooni.torproject.org/measurement/20170607T175300Z_AS27725_XXfB14TYx5szrWoFiokwjWdQZIJQIuEtGWpkfaojBEPdiNsc3u)
+[accessible](https://explorer.ooni.org/measurement/20170607T175300Z_AS27725_XXfB14TYx5szrWoFiokwjWdQZIJQIuEtGWpkfaojBEPdiNsc3u)
 across Cuba. Similarly, we were able to access other circumvention tool
 sites, such as [Psiphon](https://psiphon.ca/). However, we found the
 [Java Anon Proxy](https://anon.inf.tu-dresden.de/), also known as JAP
 or JonDonym, to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170601T234537Z_AS27725_c8woAxTKOxxxZwpXe21YCURgbpip82AJyUbs46SoMYkNLoE6jP?input=http:%2F%2Fanon.inf.tu-dresden.de),
+[blocked](https://explorer.ooni.org/measurement/20170601T234537Z_AS27725_c8woAxTKOxxxZwpXe21YCURgbpip82AJyUbs46SoMYkNLoE6jP?input=http:%2F%2Fanon.inf.tu-dresden.de),
 along with web proxies.
 
 | Blocked circumvention tool sites | Amount of block pages detected |
@@ -1591,7 +1591,7 @@ along with web proxies.
 enables its users to [browse the web anonymously](http://anonymouse.org/anonwww.html), send [anonymous emails](http://anonymouse.org/anonemail.html), and to [anonymously post entries](http://anonymouse.org/anonnews.html) in newsgroups.
 MegaProxy is another web proxy which allows its users to surf the web
 through a web SSL VPN service. Both were found to be
-[blocked](https://explorer.ooni.torproject.org/country/CU) in Cuba
+[blocked](https://explorer.ooni.org/country/CU) in Cuba
 during the testing period of this study, along with [iNetPrivacy software](http://www.inetprivacy.com/).
 
 #### Communication Tools
@@ -1599,9 +1599,9 @@ during the testing period of this study, along with [iNetPrivacy software](http:
 Facebook Messenger is really
 [popular](https://www.economist.com/news/americas/21716099-ingenious-answer-digital-deprivation-cuba-app-stores-pay-rent)
 in Cuba. As part of our testing, we found it to be
-[accessible](https://explorer.ooni.torproject.org/measurement/20170607T175309Z_AS27725_a4wPIMQ7NwY7hXozjWQ9f9gSNDRzpN9kb3XLsjzW1GFbsfcMGz)
+[accessible](https://explorer.ooni.org/measurement/20170607T175309Z_AS27725_a4wPIMQ7NwY7hXozjWQ9f9gSNDRzpN9kb3XLsjzW1GFbsfcMGz)
 across eight vantage in the country. We also found WhatsApp to be
-[accessible](https://explorer.ooni.torproject.org/measurement/20170607T175300Z_AS27725_sscXF9fCtjN7lUqAy9WewtB7HxS3dBWVJcjmuHYvHhreJosqap).
+[accessible](https://explorer.ooni.org/measurement/20170607T175300Z_AS27725_sscXF9fCtjN7lUqAy9WewtB7HxS3dBWVJcjmuHYvHhreJosqap).
 
 However, we found the following communication tool sites to be blocked,
 even though they are no longer operational.
@@ -1614,7 +1614,7 @@ even though they are no longer operational.
 #### Culture
 
 As part of this study, we also found two cultural sites to be
-[blocked](https://explorer.ooni.torproject.org/country/CU).
+[blocked](https://explorer.ooni.org/country/CU).
 
 | Blocked cultural sites    | Amount of block pages detected |
 |---------------------------|--------------------------------|
@@ -1636,7 +1636,7 @@ democracy and freedom linked to Christian thought”. To this end, it
 publishes articles, reports, comments, testimonies, poetry and humor in
 relation to Cuba and the Christian faith. As part of this study, we
 found it to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170723T204926Z_AS27725_1xHuKtaN92RjPXcI7xnrm9SI1OrwZvvWKUK8filfQt94oyJVIp?input=http:%2F%2Fwww.idealpress.com).
+[blocked](https://explorer.ooni.org/measurement/20170723T204926Z_AS27725_1xHuKtaN92RjPXcI7xnrm9SI1OrwZvvWKUK8filfQt94oyJVIp?input=http:%2F%2Fwww.idealpress.com).
 
 | Blocked religious site    | Amount of block pages detected |
 |---------------------------|--------------------------------|
@@ -1655,7 +1655,7 @@ in the 1990s.
 
 Even though the site is no longer operational (and has been squatted),
 ETECSA continues to
-[block](https://explorer.ooni.torproject.org/measurement/20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe?input=http:%2F%2Fwww.alpha66.org)
+[block](https://explorer.ooni.org/measurement/20170601T235618Z_AS27725_SpZcfWCu3e17GPv8jpXSOIQucnRNNPolNnG2OODcGQC8H70cbe?input=http:%2F%2Fwww.alpha66.org)
 access to its domain.
 
 ### Skype blocked
@@ -1697,7 +1697,7 @@ This allowed us to infer that the censorship equipment used in Cuba is
 most likely located in Havana (and in any case, for sure in Cuba).
 
 Based on the latency measurements (and other measurements collected
-through [OONI’s HTTP Host test](https://ooni.torproject.org/nettest/http-host/)), we were able to
+through [OONI’s HTTP Host test](https://ooni.org/nettest/http-host/)), we were able to
 confirm that Deep Packet Inspection (DPI) technology was used to block
 access to sites and services in Cuba. Through packet captures done on
 the server-side, we found that the request of the client never arrived
@@ -1760,7 +1760,7 @@ being used to implement internet censorship in the country.
 ### Google App Engine blocked by Google
 
 To measure the speed and performance of networks in Cuba, we attempted
-to run [OONI’s Network Diagnostic Test (NDT)](https://ooni.torproject.org/nettest/ndt/). This test is designed
+to run [OONI’s Network Diagnostic Test (NDT)](https://ooni.org/nettest/ndt/). This test is designed
 to measure the speed and performance of networks by connecting to
 [M-Lab](http://www.measurementlab.net/tools/ndt/) servers close to the
 user, and by subsequently uploading and downloading random data. In
@@ -1784,7 +1784,7 @@ directly connect to test servers instead.
 
 The findings of this study present various limitations.
 
-While [OONI network measurements](https://measurements.ooni.torproject.org/files/by_country/CU)
+While [OONI network measurements](https://measurements.ooni.org/files/by_country/CU)
 have been collected from Cuba since January 2016, this study only
 analyzes recent network measurements collected between 29th May 2017 to
 10th June 2017. As such, censorship events which may have occurred
@@ -1793,7 +1793,7 @@ study.
 
 Another limitation is associated to the amount and types of URLs that
 were tested for censorship. As mentioned in the methodology section of
-this report, [OONI’s Web Connectivity test](https://ooni.torproject.org/nettest/web-connectivity/) was run to
+this report, [OONI’s Web Connectivity test](https://ooni.org/nettest/web-connectivity/) was run to
 examine the accessibility of
 [349 URLs](https://github.com/citizenlab/test-lists/blob/master/lists/cu.csv)
 that are more relevant to the Cuban context and [1,109 internationally relevant sites](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv).
@@ -1810,7 +1810,7 @@ measurement tests were run.
 
 # Conclusion
 
-[OONI data](https://explorer.ooni.torproject.org/country/CU) collected
+[OONI data](https://explorer.ooni.org/country/CU) collected
 from Cuba confirms the **blocking of 41 websites**. Most of these sites
 include news outlets and blogs, as well as pro-democracy and human
 rights sites. Many of the blocked sites, directly or indirectly, express
@@ -1818,13 +1818,13 @@ criticism towards Castro’s regime. Interestingly enough though, various
 other international sites which also express criticism - such as
 Reporters Without Borders’ [portrait of Cuba’s President](https://rsf.org/en/predator/raul-castro-0), presenting him
 as a “Predator of Press Freedom” - were found to be
-[accessible](https://explorer.ooni.torproject.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=https:%2F%2Frsf.org%2Fen%2Fpredator%2Fraul-castro-0)
+[accessible](https://explorer.ooni.org/measurement/20170602T204322Z_AS27725_77Dv0jxB6oySsvhkyiBCOwFhH2BV6BD3IhgrP0bPHiLLUPXMXT?input=https:%2F%2Frsf.org%2Fen%2Fpredator%2Fraul-castro-0)
 across Cuba.
 
 Web proxies, like [Anonymouse](http://anonymouse.org/), were amongst
 those found to be blocked, limiting Cubans’ ability to circumvent
 censorship. It’s worth noting though that the [Tor anonymity network](https://www.torproject.org/) was found to be
-[accessible](https://explorer.ooni.torproject.org/measurement/20170607T175300Z_AS27725_XXfB14TYx5szrWoFiokwjWdQZIJQIuEtGWpkfaojBEPdiNsc3u)
+[accessible](https://explorer.ooni.org/measurement/20170607T175300Z_AS27725_XXfB14TYx5szrWoFiokwjWdQZIJQIuEtGWpkfaojBEPdiNsc3u)
 across the country. This is likely due to the fact that [Cuba has relatively few Tor users](https://metrics.torproject.org/userstats-relay-country.html?start=2017-05-30&end=2017-08-28&country=cu).
 
 Deep Packet Inspection (DPI) technology was found to be blocking sites
@@ -1839,9 +1839,9 @@ do not support HTTPS.
 Skype was the only popular communications tool that we found to be
 censored. By examining packet traces, we were able to determine that the
 DPI middlebox blocked Skype by means of RST injection. Other popular
-communications tools, such as [Facebook Messenger](https://explorer.ooni.torproject.org/measurement/20170607T175309Z_AS27725_a4wPIMQ7NwY7hXozjWQ9f9gSNDRzpN9kb3XLsjzW1GFbsfcMGz)
+communications tools, such as [Facebook Messenger](https://explorer.ooni.org/measurement/20170607T175309Z_AS27725_a4wPIMQ7NwY7hXozjWQ9f9gSNDRzpN9kb3XLsjzW1GFbsfcMGz)
 and
-[WhatsApp](https://explorer.ooni.torproject.org/measurement/20170607T175300Z_AS27725_sscXF9fCtjN7lUqAy9WewtB7HxS3dBWVJcjmuHYvHhreJosqap),
+[WhatsApp](https://explorer.ooni.org/measurement/20170607T175300Z_AS27725_sscXF9fCtjN7lUqAy9WewtB7HxS3dBWVJcjmuHYvHhreJosqap),
 were accessible.
 
 Huawei, a Chinese multinational networking and telecommunications
@@ -1882,7 +1882,7 @@ online content, without being online.
 Cuba’s internet landscape has changed quite a lot over the last years,
 and it will likely continue to evolve. But so might internet censorship.
 It is therefore important to continue to measure networks. Software like
-[ooniprobe](https://ooni.torproject.org/install/) allows users in Cuba
+[ooniprobe](https://ooni.org/install/) allows users in Cuba
 and beyond to collect data that sheds light on information controls.
 
 {{< imgcap title="Image by Arturo Filastò (CC-BY-SA-3.0)" src="/post/cuba-internet-censorship-2017/cu-20.jpg" src2x="/post/cuba-internet-censorship-2017/cu-20@2x.jpg" >}}

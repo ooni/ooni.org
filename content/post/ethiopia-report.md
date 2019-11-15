@@ -10,7 +10,7 @@ categories: ["report"]
 
 *Youth in Addis trying to get Wi-Fi Connection. Credit Addis Fortune Newspaper*
 
-Recently we published a [post](https://ooni.torproject.org/post/ethiopia-internet-shutdown-amidst-recent-protests/) about what appeared to be a possible internet
+Recently we published a [post](https://ooni.org/post/ethiopia-internet-shutdown-amidst-recent-protests/) about what appeared to be a possible internet
 shutdown in Ethiopia during a wave of ongoing protests by ethnic groups. Today,
 in collaboration with [Amnesty International](https://www.amnesty.org/) we are releasing a report that
 includes evidence of recent censorship events during Ethiopia’s political
@@ -94,7 +94,7 @@ line, HTTP header field manipulation, HTTP Host
 
 # Key Findings
 
-New [OONI data](https://explorer.ooni.torproject.org/country/ET) published in this report reveals the following:
+New [OONI data](https://explorer.ooni.org/country/ET) published in this report reveals the following:
     
 * **WhatsApp** was found to be **blocked** inside Ethiopia.
 
@@ -573,7 +573,7 @@ unavailable.
 
 ## Findings of the network measurement study
 
-The [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) performed a study of
+The [Open Observatory of Network Interference (OONI)](https://ooni.org/) performed a study of
 internet censorship in Ethiopia in the midst of tensions and ongoing public
 protests in Oromia region, and prior to the announcement of the country’s state
 of emergency. The aim of this study was to understand whether and to what extent
@@ -608,7 +608,7 @@ part 2 of this report.
 
 ### WhatsApp blocked
 
-[OONI](https://ooni.torproject.org/) has designed a new software [test](https://github.com/TheTorProject/ooni-spec/blob/master/test-specs/ts-018-whatsapp.md) for examining the reachability of
+[OONI](https://ooni.org/) has designed a new software [test](https://github.com/TheTorProject/ooni-spec/blob/master/test-specs/ts-018-whatsapp.md) for examining the reachability of
 WhatsApp.
 
 This test attempts to perform an HTTP GET request, TCP connection and DNS lookup
@@ -622,7 +622,7 @@ apply to web.whatsapp.com.
 
 An anonymous researcher ran this test in October from a local vantage point in
 Ethiopia ([Ethio Telecom](http://www.ethionet.et/)) in an attempt to examine whether and how WhatsApp was
-censored. The collected measurement [data](https://explorer.ooni.torproject.org/measurement/20160912T112212Z_AS24757_q79IWOW8fmyKllSOWewx6URNKqoFp5aAyHmy3UjZsTTl5fPbrV) illustrates that while both HTTP and
+censored. The collected measurement [data](https://explorer.ooni.org/measurement/20160912T112212Z_AS24757_q79IWOW8fmyKllSOWewx6URNKqoFp5aAyHmy3UjZsTTl5fPbrV) illustrates that while both HTTP and
 HTTPS requests to web.whatsapp.com succeeded, HTTPS requests to WhatsApp’s
 registration service failed, and so did TCP connections to WhatsApp’s endpoints.
 This indicates that WhatsApp’s website was accessible, but its *app* was blocked.
@@ -637,7 +637,7 @@ This indicates that WhatsApp’s website was accessible, but its *app* was block
 
 ### Deep Packet Inspection detected
 
-An Ethiopian news website (ecadforum.com) was [found](https://explorer.ooni.torproject.org/measurement/20160912T111210Z_AS24757_4un8r03S6zIMpfJ7IuJqxxFGRaSfXlLOgUxshT9Ja5ep7hpQkS?input=ecadforum.com) to be blocked last month
+An Ethiopian news website (ecadforum.com) was [found](https://explorer.ooni.org/measurement/20160912T111210Z_AS24757_4un8r03S6zIMpfJ7IuJqxxFGRaSfXlLOgUxshT9Ja5ep7hpQkS?input=ecadforum.com) to be blocked last month
 based on the use of Deep Packet Inspection (DPI) technology. DPI enables its
 users to analyze data packets and protocols. This can be useful as part of
 network management, but it can also be used for data mining and internet
@@ -672,14 +672,14 @@ expected to be “valid” HTTP. Therefore, DPI equipment was most likely presen
 the tested network and used to implement censorship.
 
 It’s worth pointing out that technology with a similar pattern was previously
-found in Turkmenistan in 2013, as [reported](https://ooni.torproject.org/post/tab-tab-come-in/) by OONI.
+found in Turkmenistan in 2013, as [reported](https://ooni.org/post/tab-tab-come-in/) by OONI.
 
 ### Websites blocked
 
 #### Media outlets
 
 Today Ethiopia’s state of emergency imposes [restrictions](http://www.ictpolicy.org/blog/ethiopian-state-of-emergency-details-released-english-translation/) on media. Yet, as part
-of our study numerous Ethiopian news outlets [presented signs of DNS, HTTP, and TCP/IP blocking](https://explorer.ooni.torproject.org/country/ET) *prior* to the state of emergency declaration.
+of our study numerous Ethiopian news outlets [presented signs of DNS, HTTP, and TCP/IP blocking](https://explorer.ooni.org/country/ET) *prior* to the state of emergency declaration.
 
 The table below illustrates the amount and types of network anomalies detected
 when testing such sites.
@@ -713,7 +713,7 @@ when testing such sites.
 
 In some cases, we tested different versions of the same sites to examine whether
 censorship could potentially be circumvented. Earlier this year, for example, we
-[found](https://ooni.torproject.org/post/uganda-social-media-blocked/) Ugandan ISPs only blocking the HTTP versions of social media sites,
+[found](https://ooni.org/post/uganda-social-media-blocked/) Ugandan ISPs only blocking the HTTP versions of social media sites,
 enabling users to access these sites over HTTPS. In this study we therefore
 tested various versions of certain sites, such as both the HTTP and HTTPS
 versions of oromiamedia.org. In all such cases however, access to these sites
@@ -724,7 +724,7 @@ no block pages were detected, we cannot confirm any censorship events with
 absolute certainty. However, the sites that presented the highest amount of
 network anomalies are more likely to have actually been blocked, while those
 with fewer network anomalies are less likely to have been tampered with. As
-such, ecadforum.com - with the [highest amount of network anomalies](https://explorer.ooni.torproject.org/measurement/20160912T112136Z_AS24757_b8C5V1dP3DlBSVTWBFZ3HEZ4RyzJzyyBEmhx1k5jiVTnITtcIr?input=https:%2F%2Fecadforum.com%2F) - was most
+such, ecadforum.com - with the [highest amount of network anomalies](https://explorer.ooni.org/measurement/20160912T112136Z_AS24757_b8C5V1dP3DlBSVTWBFZ3HEZ4RyzJzyyBEmhx1k5jiVTnITtcIr?input=https:%2F%2Fecadforum.com%2F) - was most
 likely blocked by DPI equipment (as explained previously), while access to it
 might have also been interfered with based on DNS tampering. On the other hand,
 sites which presented fewer cases of network anomalies (such as satenaw.com) are
@@ -744,12 +744,12 @@ country’s new state of emergency restrictions. This website is run by the
 Ethiopian diaspora, [aims](http://ethsat.com/about-us/) to “promote free press, democracy, respect for human
 rights and the rule of law in Ethiopia” and also [publishes in Amharic](http://amharic.ethsat.com/). However,
 we tested access to this site prior to Ethiopia’s state of emergency declaration
-and our findings show that it [presented](https://explorer.ooni.torproject.org/measurement/20161007T101106Z_AS24757_C2SUvTfp4dbK5vzLrYHpHspYaCaW4oR3XEZBwhtBPYwSD7uTcS?input=http:%2F%2Fethsat.com) many network anomalies. Similarly to
+and our findings show that it [presented](https://explorer.ooni.org/measurement/20161007T101106Z_AS24757_C2SUvTfp4dbK5vzLrYHpHspYaCaW4oR3XEZBwhtBPYwSD7uTcS?input=http:%2F%2Fethsat.com) many network anomalies. Similarly to
 ecadforum.com, access to ethsat.com presented high levels of HTTP interference,
 indicating that it might have also been blocked by DPI equipment before it was
 even officially banned.
 
-An Amharic online forum (**mereja.com**) also [presented](https://explorer.ooni.torproject.org/measurement/20160912T112136Z_AS24757_b8C5V1dP3DlBSVTWBFZ3HEZ4RyzJzyyBEmhx1k5jiVTnITtcIr?input=https:%2F%2Fmereja.com) high levels of HTTP
+An Amharic online forum (**mereja.com**) also [presented](https://explorer.ooni.org/measurement/20160912T112136Z_AS24757_b8C5V1dP3DlBSVTWBFZ3HEZ4RyzJzyyBEmhx1k5jiVTnITtcIr?input=https:%2F%2Fmereja.com) high levels of HTTP
 interference, and was possibly blocked by DPI as well. While the motivation
 behind the blocking of news sites could potentially be attributed to the
 dissemination of information around the protests, the potential blocking of an
@@ -758,7 +758,7 @@ coordination and information dissemination amongst Amharic protesters.
 
 #### Political opposition and armed groups
 
-As part of our study we [found](https://explorer.ooni.torproject.org/country/ET) the websites of Ethiopian armed groups and
+As part of our study we [found](https://explorer.ooni.org/country/ET) the websites of Ethiopian armed groups and
 political opposition groups to be tampered with. In the case of those related to
 armed groups espousing violent opposition to the Ethiopian government,
 censorship may fall within the [permissible restrictions](http://www2.ohchr.org/english/issues/opinion/articles1920_iccpr/docs/CRP7Callamard.pdf) to freedom of expression
@@ -779,10 +779,10 @@ The table below summarizes our findings:
 opposition. In 2009 the Ethiopian government [accused](https://web.archive.org/web/20160112163042/http://www.ethiopianreview.com/index/9441) Ginbot 7 of fostering a
 coup attempt to overthrow the government, which Ginbot 7 [denied](https://web.archive.org/web/20120418222418/http://www.ginbot7.org/Ginbot_7_PressRelease_25_April_2009.htm). Ginbot 7 is one
 of the [proscribed organizations](https://freedomhouse.org/report/freedom-world/2012/ethiopia) under the Anti-Terrorism Proclamation, which is
-potentially why ginbot7.org was blocked. Through our testing we [found](https://explorer.ooni.torproject.org/measurement/20160912T112136Z_AS24757_b8C5V1dP3DlBSVTWBFZ3HEZ4RyzJzyyBEmhx1k5jiVTnITtcIr?input=http:%2F%2Fginbot7.org%2F) that
+potentially why ginbot7.org was blocked. Through our testing we [found](https://explorer.ooni.org/measurement/20160912T112136Z_AS24757_b8C5V1dP3DlBSVTWBFZ3HEZ4RyzJzyyBEmhx1k5jiVTnITtcIr?input=http:%2F%2Fginbot7.org%2F) that
 access to this website presented a high amount of network anomalies. In
 September 2016 we tested ginbot7.org by sending multiple HTTP GET requests to
-access the site. In all cases however, we [never received a response](https://explorer.ooni.torproject.org/measurement/20160912T112136Z_AS24757_b8C5V1dP3DlBSVTWBFZ3HEZ4RyzJzyyBEmhx1k5jiVTnITtcIr?input=http:%2F%2Fginbot7.org%2F).
+access the site. In all cases however, we [never received a response](https://explorer.ooni.org/measurement/20160912T112136Z_AS24757_b8C5V1dP3DlBSVTWBFZ3HEZ4RyzJzyyBEmhx1k5jiVTnITtcIr?input=http:%2F%2Fginbot7.org%2F).
 
 The [Ethiopian People’s Revolutionary Party](http://www.eprp.com) (EPRP) is a national political party
 which was founded by the Ethiopian diaspora and which is currently headquartered
@@ -849,9 +849,9 @@ advocacy on free speech, copyright, and media democracy issues.
 
 When querying cyberethiopia.com, we did not receive an HTTP response, indicating
 that access to the site was blocked. Our results regarding fepproject.org are
-different. When testing the site in [June](https://explorer.ooni.torproject.org/measurement/20160615T064622Z_AS24757_WkSufX2lde14cj3IrIx6vG1JZUbQfS8eoFU9BOq4tbgAq3b8Co?input=http:%2F%2Fwww.fepproject.org) and [October](https://explorer.ooni.torproject.org/measurement/20161007T103227Z_AS24757_2L3k891LkzJ6lTGT4TYB4L1sjbaNQq5uvLSAk0vNZ8WIKsz4Jb?input=http:%2F%2Fwww.fepproject.org) 2016, we were able to
+different. When testing the site in [June](https://explorer.ooni.org/measurement/20160615T064622Z_AS24757_WkSufX2lde14cj3IrIx6vG1JZUbQfS8eoFU9BOq4tbgAq3b8Co?input=http:%2F%2Fwww.fepproject.org) and [October](https://explorer.ooni.org/measurement/20161007T103227Z_AS24757_2L3k891LkzJ6lTGT4TYB4L1sjbaNQq5uvLSAk0vNZ8WIKsz4Jb?input=http:%2F%2Fwww.fepproject.org) 2016, we were able to
 successfully connect to it. However, all attempts to establish TCP connections
-to the site during [August](https://explorer.ooni.torproject.org/measurement/20160817T193553Z_AS24757_Gl82pwV6hJaIIoPjJ5uVSNNtQd78S7A1LBl7HIO08gkaPQg0Ri?input=http:%2F%2Fwww.fepproject.org) and [September](https://explorer.ooni.torproject.org/measurement/20160912T074657Z_AS24757_36rWpt4et8egebrQAJAb2mgXfiR8fyBCJVxbvsHgXehPXPYGML?input=http:%2F%2Fwww.fepproject.org) 2016 failed and presented timeout
+to the site during [August](https://explorer.ooni.org/measurement/20160817T193553Z_AS24757_Gl82pwV6hJaIIoPjJ5uVSNNtQd78S7A1LBl7HIO08gkaPQg0Ri?input=http:%2F%2Fwww.fepproject.org) and [September](https://explorer.ooni.org/measurement/20160912T074657Z_AS24757_36rWpt4et8egebrQAJAb2mgXfiR8fyBCJVxbvsHgXehPXPYGML?input=http:%2F%2Fwww.fepproject.org) 2016 failed and presented timeout
 errors. It remains unclear if fepproject.org was intentionally blocked
 throughout August and September 2016 based on TCP/IP blocking, or if connections
 to the site failed due to transient network failures.
@@ -886,7 +886,7 @@ http://www.ultrasurf.us and http://www.psiphon.ca indicate the presence of Deep
 Packet Inspection (DPI) equipment in the tested network (as explained in the DPI
 section of this report).
 
-While toproject.org was [found to be inaccessible](https://explorer.ooni.torproject.org/measurement/20161007T101106Z_AS24757_C2SUvTfp4dbK5vzLrYHpHspYaCaW4oR3XEZBwhtBPYwSD7uTcS?input=http:%2F%2Fwww.torproject.org), we did [not find tor software itself being blocked](https://explorer.ooni.torproject.org/measurement/20160909T172805Z_AS24757_O6q1HLEWGZyuNxa9aJq921iwhokHWzmOUANVtz5l7fXccJMes0) in Ethiopia during the testing period.
+While toproject.org was [found to be inaccessible](https://explorer.ooni.org/measurement/20161007T101106Z_AS24757_C2SUvTfp4dbK5vzLrYHpHspYaCaW4oR3XEZBwhtBPYwSD7uTcS?input=http:%2F%2Fwww.torproject.org), we did [not find tor software itself being blocked](https://explorer.ooni.org/measurement/20160909T172805Z_AS24757_O6q1HLEWGZyuNxa9aJq921iwhokHWzmOUANVtz5l7fXccJMes0) in Ethiopia during the testing period.
 
 #### Circumventing censorship
 
@@ -919,14 +919,14 @@ Numerous [reports](https://advox.globalvoices.org/2016/10/12/ethiopian-authoriti
 Ethiopia, and this was also reported to Amnesty International by contacts on
 the ground.
 
-[OONI software tests](https://ooni.torproject.org/nettest/) are designed to examine the blocking of sites and services,
+[OONI software tests](https://ooni.org/nettest/) are designed to examine the blocking of sites and services,
 but do not monitor internet shutdowns as a whole. As such, we referred to third
 party data such as [NDT measurements](https://www.measurementlab.net/tools/ndt/) and [Google transparency reports](https://www.google.com/transparencyreport/traffic/explorer/?r=ET&l=WEBSEARCH&csd=1468958400000&ced=1478352600000) in order to
 assess whether we could confirm the reported internet shutdown.
 
 The below graph from [Google’s transparency reports](https://www.google.com/transparencyreport/traffic/explorer/?r=ET&l=WEBSEARCH&csd=1468958400000&ced=1478352600000) illustrates the total volume
 of Google Search traffic originating from Ethiopia between July and November
-2016. As published in an [earlier report](https://ooni.torproject.org/post/ethiopia-internet-shutdown-amidst-recent-protests/) by OONI, the data shows a complete drop
+2016. As published in an [earlier report](https://ooni.org/post/ethiopia-internet-shutdown-amidst-recent-protests/) by OONI, the data shows a complete drop
 in Internet traffic in early August, suggesting that a full Internet block took
 place following the call for region-wide protests on the weekend of 5 and 6
 August. While the data shows a decrease in internet traffic during October,
@@ -1014,7 +1014,7 @@ provides, among other things, that “restrictive measures must conform to the
 principle of proportionality… they must be the least intrusive instrument
 amongst those which might achieve their protective function.”
 
-[OONI’s findings](https://explorer.ooni.torproject.org/country/ET) provide evidence of systematic interference with access to
+[OONI’s findings](https://explorer.ooni.org/country/ET) provide evidence of systematic interference with access to
 numerous websites belonging to independent news organizations and political
 opposition groups, as well as sites supporting freedom of expression and LGBTI
 rights. Such widespread interference and blocking is a violation of Ethiopia’s
@@ -1072,7 +1072,7 @@ country.
 
 ## Conclusion
 
-In the midst of ongoing protests in Ethiopia, access to [WhatsApp was found to be blocked](https://explorer.ooni.torproject.org/measurement/20160912T112212Z_AS24757_q79IWOW8fmyKllSOWewx6URNKqoFp5aAyHmy3UjZsTTl5fPbrV), and the covert presence of [Deep Packet Inspection (DPI)](https://explorer.ooni.torproject.org/measurement/20160912T111210Z_AS24757_4un8r03S6zIMpfJ7IuJqxxFGRaSfXlLOgUxshT9Ja5ep7hpQkS?input=ecadforum.com) equipment was
+In the midst of ongoing protests in Ethiopia, access to [WhatsApp was found to be blocked](https://explorer.ooni.org/measurement/20160912T112212Z_AS24757_q79IWOW8fmyKllSOWewx6URNKqoFp5aAyHmy3UjZsTTl5fPbrV), and the covert presence of [Deep Packet Inspection (DPI)](https://explorer.ooni.org/measurement/20160912T111210Z_AS24757_4un8r03S6zIMpfJ7IuJqxxFGRaSfXlLOgUxshT9Ja5ep7hpQkS?input=ecadforum.com) equipment was
 not only unveiled, but it was also found to be filtering access to an
 independent Ethiopian media website (ecadforum.com).
 
@@ -1241,7 +1241,7 @@ censorship events that may have taken place before and after the testing period.
 
 ## OONI network measurements
 
-The [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) is a free software project
+The [Open Observatory of Network Interference (OONI)](https://ooni.org/) is a free software project
 that aims to increase transparency about internet censorship and traffic
 manipulation around the world. Since 2011, OONI has developed multiple [free and open source software tests](https://github.com/TheTorProject/ooni-probe) designed to examine the following:
 
@@ -1257,13 +1257,13 @@ sensitive domains.
 As part of this study, the following OONI software tests were run from a local
 vantage point in Ethiopia:
 
-* [Web connectivity](https://ooni.torproject.org/nettest/web-connectivity/)
+* [Web connectivity](https://ooni.org/nettest/web-connectivity/)
 
-* [HTTP invalid request line](https://ooni.torproject.org/nettest/http-invalid-request-line/)
+* [HTTP invalid request line](https://ooni.org/nettest/http-invalid-request-line/)
 
-* [HTTP header field manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/)
+* [HTTP header field manipulation](https://ooni.org/nettest/http-header-field-manipulation/)
 
-* [HTTP host](https://ooni.torproject.org/nettest/http-host/)
+* [HTTP host](https://ooni.org/nettest/http-host/)
  
 The web connectivity test was run with the aim of examining whether a set of
 URLs (included in both the “[global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)” and the “[Ethiopian test list](https://github.com/citizenlab/test-lists/blob/master/lists/et.csv)”)
@@ -1279,7 +1279,7 @@ of detecting cases of internet censorship and traffic manipulation.
 
 ### Web Connectivity
 
-This [test](https://ooni.torproject.org/nettest/web-connectivity/) examines whether websites are reachable and if they are not, it
+This [test](https://ooni.org/nettest/web-connectivity/) examines whether websites are reachable and if they are not, it
 attempts to determine whether access to them is blocked through DNS tampering,
 TCP connection RST/IP blocking or by a transparent HTTP proxy. Specifically,
 this test is designed to perform the following:
@@ -1374,7 +1374,7 @@ with.
 
 ### HTTP invalid request line
 
-This [test](https://ooni.torproject.org/nettest/http-invalid-request-line/) tries to detect the presence of network components (“middle box”)
+This [test](https://ooni.org/nettest/http-invalid-request-line/) tries to detect the presence of network components (“middle box”)
 which could be responsible for censorship and/or traffic manipulation.
 
 Instead of sending a normal HTTP request, this test sends an invalid HTTP
@@ -1394,7 +1394,7 @@ that software for traffic manipulation is likely placed in the tested network,
 though it’s not always clear what that software is. In some cases though,
 censorship and/or surveillance vendors can be identified through the error
 messages in the received HTTP response. Based on this technique, OONI has
-previously [detected](https://explorer.ooni.torproject.org/highlights/) the use of BlueCoat, Squid and Privoxy proxy technologies in
+previously [detected](https://explorer.ooni.org/highlights/) the use of BlueCoat, Squid and Privoxy proxy technologies in
 networks across multiple countries around the world.
 
 It’s important though to note that a false negative could potentially occur in
@@ -1406,7 +1406,7 @@ traffic manipulation, as they are often used in networks for caching purposes.
 
 ### HTTP header field manipulation
 
-This [test](https://ooni.torproject.org/nettest/http-header-field-manipulation/) also tries to detect the presence of network components (“middle box”)
+This [test](https://ooni.org/nettest/http-header-field-manipulation/) also tries to detect the presence of network components (“middle box”)
 which could be responsible for censorship and/or traffic manipulation.
 
 HTTP is a protocol which transfers or exchanges data across the internet. It
@@ -1442,7 +1442,7 @@ as they are often used in networks for caching purposes.
 
 ### HTTP Host
 
-This [test](https://ooni.torproject.org/nettest/http-host/) is designed to examine:
+This [test](https://ooni.org/nettest/http-host/) is designed to examine:
 
 * Whether the domain names of websites are blocked;
 
@@ -1496,7 +1496,7 @@ them across time.
 
 OONI does not deliberately collect or store users’ IP addresses. In fact, OONI
 takes measures to remove users’ IP addresses from the collected measurements, to
-protect its users from [potential risks](https://ooni.torproject.org/about/risks/).
+protect its users from [potential risks](https://ooni.org/about/risks/).
 
 However, OONI might *unintentionally* collect users’ IP addresses and other
 potentially personally-identifiable information, if such information is included
@@ -1509,7 +1509,7 @@ based on a user’s network location.
 The types of network measurements that OONI collects depend on the types of
 tests that are run. Specifications about each OONI test can be viewed through
 its [git repository](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs), and details about what collected network measurements entail
-can be viewed through [OONI Explorer](https://explorer.ooni.torproject.org/world/) or through OONI’s [list of measurements](https://measurements.ooni.torproject.org/).
+can be viewed through [OONI Explorer](https://explorer.ooni.org/world/) or through OONI’s [list of measurements](https://measurements.ooni.org/).
 
 OONI processes the above types of data with the aim of deriving meaning from the
 collected measurements and, specifically, in an attempt to answer the following

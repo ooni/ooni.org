@@ -29,11 +29,11 @@ on in 2018!
 ![OONI Probe mobile app](/post/ooni-2017/01.jpg)
 
 In February 2017, measuring internet censorship with [OONI Probe](https://github.com/TheTorProject/ooni-probe) suddenly became
-easier than ever before! With the [launch of the OONI Probe mobile apps](https://ooni.torproject.org/post/ooni-mobile-app/), hundreds
+easier than ever before! With the [launch of the OONI Probe mobile apps](https://ooni.org/post/ooni-mobile-app/), hundreds
 of thousands of people from around the world started testing their networks for
 censorship. Thanks to their testing, millions of measurements have been
-collected (and [published](https://explorer.ooni.torproject.org/world/)) from thousands of local vantage points in more than
-200 countries, shedding light on numerous [cases of internet censorship](https://ooni.torproject.org/post/).
+collected (and [published](https://explorer.ooni.org/world/)) from thousands of local vantage points in more than
+200 countries, shedding light on numerous [cases of internet censorship](https://ooni.org/post/).
 
 We consider the launch of the OONI Probe mobile apps an important landmark since
 it opened up the possibility for anyone (regardless of their technical skills)
@@ -44,9 +44,9 @@ on the internet.
 
 New tests were released along with the launch of the OONI Probe mobile apps:
 
-* [Network Diagnostic Test (NDT)](https://ooni.torproject.org/nettest/ndt/): Measures network speed and performance 
+* [Network Diagnostic Test (NDT)](https://ooni.org/nettest/ndt/): Measures network speed and performance 
 
-* [Dynamic Adaptive Streaming over HTTP (DASH)](https://ooni.torproject.org/nettest/dash/): Measures video streaming performance
+* [Dynamic Adaptive Streaming over HTTP (DASH)](https://ooni.org/nettest/dash/): Measures video streaming performance
 
 We’re excited about these tests because they can potentially help identify net
 neutrality violations. We recently [joined forces](http://www.testyourinter.net/) with [Fight for the Future](https://www.fightforthefuture.org/) to
@@ -61,9 +61,9 @@ We often hear of censorship events around the world, but measuring networks in
 those countries may not always be easy or feasible. In 2017, global coordination
 on censorship measurement research likely became a whole lot easier!
 
-With the [launch of OONI Run](https://ooni.torproject.org/post/ooni-run/), you can engage others with censorship measurement
+With the [launch of OONI Run](https://ooni.org/post/ooni-run/), you can engage others with censorship measurement
 tests by simply sharing a [URL generated from the platform](https://run.ooni.io/). This URL can include
-the [OONI Probe tests](https://ooni.torproject.org/nettest/) of your choice, as well as the sites that you’re interested
+the [OONI Probe tests](https://ooni.org/nettest/) of your choice, as well as the sites that you’re interested
 in testing for censorship. Anyone who clicks on this URL will be prompted to
 install the OONI Probe mobile app to run the tests and test the sites you have
 chosen.
@@ -108,7 +108,7 @@ measurements to uncover cases of network interference.
 
 Over the last year and a half, we have had the opportunity to establish
 partnerships with digital rights organizations from around the world. In July
-2017, we hosted the first [OONI Partner Gathering](https://ooni.torproject.org/post/ooni-partner-gathering-2017/).
+2017, we hosted the first [OONI Partner Gathering](https://ooni.org/post/ooni-partner-gathering-2017/).
 
 This two-day event was held at the University of Toronto and brought together
 our partners from Africa, Latin America, the Middle East, South Asia, and
@@ -120,25 +120,25 @@ censorship.
 In collaboration with our partners, we published the following research reports
 based on the analysis of OONI network measurements:
 
-* [The State of Internet Censorship in Thailand](https://ooni.torproject.org/post/thailand-internet-censorship/) 
+* [The State of Internet Censorship in Thailand](https://ooni.org/post/thailand-internet-censorship/) 
 
-* [The State of Internet Censorship in Myanmar](https://ooni.torproject.org/post/myanmar-report/) 
+* [The State of Internet Censorship in Myanmar](https://ooni.org/post/myanmar-report/) 
 
-* [The State of Internet Censorship in Indonesia](https://ooni.torproject.org/post/indonesia-internet-censorship/) 
+* [The State of Internet Censorship in Indonesia](https://ooni.org/post/indonesia-internet-censorship/) 
 
-* [#EgyptCensors: Evidence of recent censorship events in Egypt](https://ooni.torproject.org/post/egypt-censors/)
+* [#EgyptCensors: Evidence of recent censorship events in Egypt](https://ooni.org/post/egypt-censors/)
 
-* [Measuring Internet Censorship in Cuba’s ParkNets](https://ooni.torproject.org/post/cuba-internet-censorship-2017/) 
+* [Measuring Internet Censorship in Cuba’s ParkNets](https://ooni.org/post/cuba-internet-censorship-2017/) 
 
-* [Internet Censorship in Iran: Findings from 2014-2017](https://ooni.torproject.org/post/iran-internet-censorship/) 
+* [Internet Censorship in Iran: Findings from 2014-2017](https://ooni.org/post/iran-internet-censorship/) 
 
-* [Evidence of Internet Censorship during Catalonia’s Independence Referendum](https://ooni.torproject.org/post/internet-censorship-catalonia-independence-referendum/) 
+* [Evidence of Internet Censorship during Catalonia’s Independence Referendum](https://ooni.org/post/internet-censorship-catalonia-independence-referendum/) 
 
-* [Internet Censorship in Pakistan: Findings from 2014-2017](https://ooni.torproject.org/post/pakistan-internet-censorship/) 
+* [Internet Censorship in Pakistan: Findings from 2014-2017](https://ooni.org/post/pakistan-internet-censorship/) 
 
-* [Identifying cases of DNS misconfiguration: Not quite censorship](https://ooni.torproject.org/post/not-quite-network-censorship/)
+* [Identifying cases of DNS misconfiguration: Not quite censorship](https://ooni.org/post/not-quite-network-censorship/)
 
-* [How Pakistan blocked news outlets, social media sites, and IM apps amidst protests](https://ooni.torproject.org/post/how-pakistan-blocked-social-media/) 
+* [How Pakistan blocked news outlets, social media sites, and IM apps amidst protests](https://ooni.org/post/how-pakistan-blocked-social-media/) 
 
 # OONI in 2018
 
@@ -147,19 +147,19 @@ community. We would therefore like to express our gratitude by sharing and
 encouraging feedback for some of the upcoming things we’ll be working on in
 2018. These include:
 
-* **New OONI Probe desktop apps for Windows and macOS:** Our aim is to build [desktop apps](https://ooni.torproject.org/post/writing-a-modern-cross-platform-desktop-app/) that are as easy to install and use as popular software, enabling more communities to engage with censorship measurement research. 
+* **New OONI Probe desktop apps for Windows and macOS:** Our aim is to build [desktop apps](https://ooni.org/post/writing-a-modern-cross-platform-desktop-app/) that are as easy to install and use as popular software, enabling more communities to engage with censorship measurement research. 
 
 * **Censorship Alert System:** We aim aim to disseminate timely alerts of emergent censorship events around the world through the analysis of OONI data.
 
-* **Internet Blackout Monitoring methodology:** We’ll be creating a [methodology](https://ooni.torproject.org/post/examining-internet-blackouts/) for automatically detecting and examining internet blackouts (i.e. when the internet as a whole is rendered inaccessible), supporting [#KeepItOn](https://www.accessnow.org/keepiton/) and other advocacy efforts.
+* **Internet Blackout Monitoring methodology:** We’ll be creating a [methodology](https://ooni.org/post/examining-internet-blackouts/) for automatically detecting and examining internet blackouts (i.e. when the internet as a whole is rendered inaccessible), supporting [#KeepItOn](https://www.accessnow.org/keepiton/) and other advocacy efforts.
 
 * **OONI Probe Orchestration System (OPOS):** Dynamically [instrumenting](https://github.com/TheTorProject/ooni-spec/blob/master/opos/OONI-Probe-Orchestration-System-Design.md) the collection of OONI Probe measurements from around the world, particularly in response to emergent censorship events. 
 
-* **Revamped OONI Explorer:** We’ll be revamping [OONI Explorer](https://explorer.ooni.torproject.org/world/) to improve upon its design and usability, enable the export of CSV files, and to present the top censorship findings per country based on OONI data (which will automatically be updated on an ongoing basis). 
+* **Revamped OONI Explorer:** We’ll be revamping [OONI Explorer](https://explorer.ooni.org/world/) to improve upon its design and usability, enable the export of CSV files, and to present the top censorship findings per country based on OONI data (which will automatically be updated on an ongoing basis). 
 
-* **Revamped mobile apps:** We’ll be revamping the [OONI Probe mobile apps](https://ooni.torproject.org/install/) to improve upon their design and usability, and to include more tests.
+* **Revamped mobile apps:** We’ll be revamping the [OONI Probe mobile apps](https://ooni.org/install/) to improve upon their design and usability, and to include more tests.
 
-* **Revamped OONI website:** We’ll also be revamping the [OONI website](https://ooni.torproject.org/) to improve upon its design and usability and to include more content pages.
+* **Revamped OONI website:** We’ll also be revamping the [OONI website](https://ooni.org/) to improve upon its design and usability and to include more content pages.
 
 * **Research reports:** We’re eager to form more partnerships with digital rights organizations around the world and to publish more research reports on internet censorship.
 

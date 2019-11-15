@@ -78,7 +78,7 @@ censorship, surveillance and traffic manipulation
 
 OONI has many software tests, each of which has different functions. You can
 learn more about what each test is designed to do
-[here](https://ooni.torproject.org/test/), and you can review the code
+[here](https://ooni.org/test/), and you can review the code
 [here](https://github.com/TheTorProject/ooni-spec).
 
 ### 2. Who can run ooniprobe?
@@ -87,7 +87,7 @@ Linux and Mac OS X users can run ooniprobe.
 
 If you're a Windows user interested in running ooniprobe, please consider
 running our ooniprobe distribution for Raspberry Pis. More information about this
-can be found [here](https://ooni.torproject.org/install/lepidopter/). Alternatively, you can run ooniprobe via a virtual machine. 
+can be found [here](https://ooni.org/install/lepidopter/). Alternatively, you can run ooniprobe via a virtual machine. 
 
 ### 3. How can I run ooniprobe?
 
@@ -100,20 +100,20 @@ You can run ooniprobe from one of the following:
 * Raspberry Pi
 
 You can learn how to run ooniprobe through our [installation
-guide](https://ooni.torproject.org/install/ooniprobe/).
+guide](https://ooni.org/install/ooniprobe/).
 
 ### 4. What does the default set of ooniprobe tests include?
 
 By running ooniprobe from the terminal, you will by default run the following tests:
 
-* [Web connectivity](https://ooni.torproject.org/nettest/web-connectivity/):
+* [Web connectivity](https://ooni.org/nettest/web-connectivity/):
 Designed to examine whether and how websites are blocked.
 
-* [HTTP invalid request line](https://ooni.torproject.org/nettest/http-invalid-request-line/): Designed to examine whether systems which could potentially be responsible for censorship, surveillance and traffic manipulation are present in tested networks.
+* [HTTP invalid request line](https://ooni.org/nettest/http-invalid-request-line/): Designed to examine whether systems which could potentially be responsible for censorship, surveillance and traffic manipulation are present in tested networks.
 
-* [HTTP header field manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/): Similarly to the HTTP invalid request line test, it's designed to detect the presence of systems in tested networks.
+* [HTTP header field manipulation](https://ooni.org/nettest/http-header-field-manipulation/): Similarly to the HTTP invalid request line test, it's designed to detect the presence of systems in tested networks.
 
-* [Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/): Designed to examine the reachability of the Tor network in tested networks.
+* [Vanilla Tor](https://ooni.org/nettest/vanilla-tor/): Designed to examine the reachability of the Tor network in tested networks.
 
 If you run ooniprobe from a web user interface, you can choose each test you run. 
 
@@ -169,7 +169,7 @@ monitoring your internet activity (such as your local ISP, government or
 employer) will be able to see that you are running ooniprobe. We therefore
 encourage you to seek legal advice prior to running ooniprobe.
 
-Learn more about potential risks [here](https://ooni.torproject.org/about/risks/).
+Learn more about potential risks [here](https://ooni.org/about/risks/).
 
 ### 7. Can OONI protect my privacy?
 
@@ -200,7 +200,7 @@ scrubbing unintentionally collected PII or other private information) as soon
 as the data is public and is known to be replicated by other entities.
 
 Learn more about the above through [OONI's Data
-Policy](https://ooni.torproject.org/about/data-policy/).
+Policy](https://ooni.org/about/data-policy/).
 
 ### 9. Once ooniprobe has run, should I send the results to you?
 
@@ -215,10 +215,10 @@ You can opt-out from from sending OONI specific types of data by editing the
 ### 11. Where are the measurements published?
 
 Once OONI receives measurements, it automatically processes them and publishes
-them on [OONI Explorer](https://explorer.ooni.torproject.org/world/): a global
+them on [OONI Explorer](https://explorer.ooni.org/world/): a global
 data map which provides an interface to explore the measurements.
 
-OONI also publishes measurements in json files **[here](https://measurements.ooni.torproject.org/)**.
+OONI also publishes measurements in json files **[here](https://measurements.ooni.org/)**.
 
 ### 12. How can I opt-out from having my measurements published by default?
 
@@ -234,7 +234,7 @@ such publication.
 If your country doesn't have any measurements on OONI Explorer, that's probably
 because ooniprobe hasn't been run there yet.
 
-You can learn how to run ooniprobe [here](https://ooni.torproject.org/install/ooniprobe/).
+You can learn how to run ooniprobe [here](https://ooni.org/install/ooniprobe/).
 
 ## Lepidopter: OONI's Raspberry Pi distribution
 
@@ -256,7 +256,7 @@ Raspberry Pi through the following steps:
 4. Connect your Raspberry Pi to the internet (via an Ethernet cable)
 
 Learn how to copy the ooniprobe distribution onto an SD card through the
-guide [here](https://ooni.torproject.org/install/lepidopter/).
+guide [here](https://ooni.org/install/lepidopter/).
 
 ### 2. How often will ooniprobe run tests through my Raspberry Pi?
 
@@ -272,7 +272,7 @@ all measurements to OONI by default.
 
 You can view all measurements - including the ones collected via your Raspberry
 Pi ooniprobe distribution - through **[OONI
-Explorer](https://explorer.ooni.torproject.org/world/)**.
+Explorer](https://explorer.ooni.org/world/)**.
 
 ### 5. How much time does it take for my measurements to get published on OONI Explorer?
 
@@ -298,7 +298,7 @@ personal laptop, is that this activity will *not* be linked to your personal IP
 address.
 
 We encourage you to seek legal advice prior to running ooniprobe. Please learn
-more about potential risks [here](https://ooni.torproject.org/about/risks/).
+more about potential risks [here](https://ooni.org/about/risks/).
 
 ## Testing URLs for censorship
 
@@ -353,7 +353,7 @@ own test list with the following type of command line option:
 ### 5. How can I contribute to test lists?
 
 You can find information on how to contribute to test lists and submit URLs for
-testing [here](https://ooni.torproject.org/get-involved/contribute-test-lists/).
+testing [here](https://ooni.org/get-involved/contribute-test-lists/).
 
 ### 6. I'm not a github user, but I'd still like to submit URLs for testing. How can I do so?
 

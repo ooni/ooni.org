@@ -98,7 +98,7 @@ collected from 6am UTC on 15th January 2019 until 20th January 2019
 consistently present
 [anomalies](https://explorer.ooni.io/measurement/20190115T072039Z_AS30969_5auJ1od5wKovQFxd53A6HaPvjUNknXgY2rnjMO0BPRvSLrbyFR),
 strongly suggesting that WhatsApp was blocked during this time. As of
-21st January 2019, WhatsApp has been [unblocked on ZOL](https://explorer.ooni.torproject.org/measurement/20190121T174326Z_AS30969_mr9lRJwdTk7ttqSxf1fQrxBIn0OaJPkkZl5BwFBW4SMeJBohc7)
+21st January 2019, WhatsApp has been [unblocked on ZOL](https://explorer.ooni.org/measurement/20190121T174326Z_AS30969_mr9lRJwdTk7ttqSxf1fQrxBIn0OaJPkkZl5BwFBW4SMeJBohc7)
 and other networks.
 
 Facebook Messenger, on the other hand, appears to have mostly been
@@ -110,7 +110,7 @@ Facebook’s endpoints failed. However, the limited volume of collected
 measurements from this ASN limits our confidence in determining whether
 Facebook Messenger was blocked by TelOne last week. Recent measurements
 from 22nd January 2019
-[show](https://explorer.ooni.torproject.org/measurement/20190122T050350Z_AS37204_49Z5CpCBqa7Fn4l8IWF5mKcUYYrOWpMZqqfEJDvCnJaTfnKnPc)
+[show](https://explorer.ooni.org/measurement/20190122T050350Z_AS37204_49Z5CpCBqa7Fn4l8IWF5mKcUYYrOWpMZqqfEJDvCnJaTfnKnPc)
 that Facebook Messenger is currently accessible on TelOne.
 
 Even though Liquid Telecom, NetOne and ZOL didn’t appear to block the
@@ -219,7 +219,7 @@ but [no anomalies were detected on NetOne](https://explorer.ooni.io/measurement/
 (though youtube.com was not tested on this network after around 5pm UTC
 on 14th January 2019). YouTube was subsequently tested on NetOne on 21st
 January 2019, the measurement of which
-[shows](https://explorer.ooni.torproject.org/measurement/20190121T231317Z_AS328088_t2Lh9tInb3XES3nQbWOKbFePwJWq8vhUOxXEdVK3cvCToD2y9d?input=https:%2F%2Fwww.youtube.com%2Fchannel%2FUC4a2DkDqH8ZqiGxeJVpueuw)
+[shows](https://explorer.ooni.org/measurement/20190121T231317Z_AS328088_t2Lh9tInb3XES3nQbWOKbFePwJWq8vhUOxXEdVK3cvCToD2y9d?input=https:%2F%2Fwww.youtube.com%2Fchannel%2FUC4a2DkDqH8ZqiGxeJVpueuw)
 that the site was accessible.
 
 # Internet blackouts

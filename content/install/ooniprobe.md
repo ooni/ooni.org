@@ -3,7 +3,7 @@ title: "ooniprobe: Installation guide"
 enabletoc: true
 ---
 
-The **[Open Observatory of Network Interference (OONI)](https://ooni.torproject.org)** is a *free software* project under the [Tor Project](https://torproject.org/) which aims to detect internet censorship,
+The **[Open Observatory of Network Interference (OONI)](https://ooni.org)** is a *free software* project under the [Tor Project](https://torproject.org/) which aims to detect internet censorship,
 traffic manipulation and signs of surveillance around the world through the
 collection and processing of network measurements. Since late 2012, OONI has
 collected millions of network measurements across more than 100 countries around
@@ -41,7 +41,7 @@ any risks or damages resulting from the use of ooniprobe under any tort,
 conract, or other causes of action.
 
 Please read our relevant
-[documentation](https://ooni.torproject.org/about/risks/) to learn more about
+[documentation](https://ooni.org/about/risks/) to learn more about
 potential risks.
 
 ## Installing ooniprobe

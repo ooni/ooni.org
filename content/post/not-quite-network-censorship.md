@@ -8,8 +8,8 @@ categories: ["blog"]
 
 **Country:** Brazil, worldwide
 
-**OONI tests:** [Web Connectivity](https://ooni.torproject.org/nettest/web-connectivity/),
-[HTTP requests](https://ooni.torproject.org/nettest/http-requests/)
+**OONI tests:** [Web Connectivity](https://ooni.org/nettest/web-connectivity/),
+[HTTP requests](https://ooni.org/nettest/http-requests/)
 
 **Probed ISPs:** [AS1916](https://stat.ripe.net/AS1916) (Associação Rede Nacional de Ensino e Pesquisa),
 [AS262650](https://stat.ripe.net/AS262650) (Kyatera Informatica Ltda),
@@ -27,7 +27,7 @@ categories: ["blog"]
 We recently noticed that [pernambuco.com](http://pernambuco.com), a
 regional news portal, has not been reachable from several networks in Brazil for quite some
 time. By looking at [OONI data](/post/not-quite-network-censorship/measurements.br.pernambuco.csv), we found that the site was not reachable and that it presented signs of [DNS-based
-blocking](https://explorer.ooni.torproject.org/measurement/s3YPvS70pxtUQXG5qLv8z2wfafZ98eUzCmxcbYkvSRELpYS2mBWksZCacvAr5GqS?input=http:%2F%2Fwww.pernambuco.com%2Fdiario)
+blocking](https://explorer.ooni.org/measurement/s3YPvS70pxtUQXG5qLv8z2wfafZ98eUzCmxcbYkvSRELpYS2mBWksZCacvAr5GqS?input=http:%2F%2Fwww.pernambuco.com%2Fdiario)
 due to empty DNS responses that is usually a symptom of potential internet censorship. But upon further analysis, we found a number of DNS
 misconfigurations of the nameservers hosting the domain in question. A
 [nameserver](https://en.wikipedia.org/wiki/Name_server) is a function of a DNS server that implements a

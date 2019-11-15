@@ -17,7 +17,7 @@ that social media was disrupted in Mali, following a violent police crackdown
 on banned opposition protests calling for transparency and accountability in
 the 2018 presidential elections.
 
-In this post, OONI and [Internet Sans Frontieres](https://internetwithoutborders.org/) share [OONI network measurement data](https://explorer.ooni.torproject.org/country/ML),
+In this post, OONI and [Internet Sans Frontieres](https://internetwithoutborders.org/) share [OONI network measurement data](https://explorer.ooni.org/country/ML),
 corroborating local reports on the blocking of WhatsApp and Twitter during
 Mali’s 2018 presidential election.
 
@@ -52,10 +52,10 @@ server, endpoints and web version in the evening of Mali’s latest elections.
 
 | Time        | WhatsApp registration server status | WhatsApp endpoints status | web.whatsapp.com status |
 |-------------|-------------------------------------|---------------------------|-------------------------|
-| [17:43 local](https://explorer.ooni.torproject.org/measurement/20180729T174358Z_AS30985_iqn5JSxk70yf22AOUI3syjVl6BxNlgGcx6f1OdDuMANPKLzk0f) | OK                                  | OK                        | Connection reset        |
-| [19:08 local](https://explorer.ooni.torproject.org/measurement/20180729T190855Z_AS30985_P80GekW4UhMA9BkXQKZ4WSSlSdAxuYGHuC2Aljz5r4SUIXBnVs) | Generic timeout error               | OK                        | Generic timeout error   |
-| [19:18 local](https://explorer.ooni.torproject.org/measurement/20180729T191825Z_AS30985_Od9SSMzlAZ5VWeMidsjF6URaDDuUtxzFTIN0nCnGrhvCEinSIE) | OK                                  | OK                        | Generic timeout error   |
-| [19:26 local](https://explorer.ooni.torproject.org/measurement/20180729T192646Z_AS30985_L6v4YCZn4hufvc4dkgAhAUuVZWHThuf5hh9nbWVK7Njs63Axjp) | Generic timeout error               | OK                        | OK                      |
+| [17:43 local](https://explorer.ooni.org/measurement/20180729T174358Z_AS30985_iqn5JSxk70yf22AOUI3syjVl6BxNlgGcx6f1OdDuMANPKLzk0f) | OK                                  | OK                        | Connection reset        |
+| [19:08 local](https://explorer.ooni.org/measurement/20180729T190855Z_AS30985_P80GekW4UhMA9BkXQKZ4WSSlSdAxuYGHuC2Aljz5r4SUIXBnVs) | Generic timeout error               | OK                        | Generic timeout error   |
+| [19:18 local](https://explorer.ooni.org/measurement/20180729T191825Z_AS30985_Od9SSMzlAZ5VWeMidsjF6URaDDuUtxzFTIN0nCnGrhvCEinSIE) | OK                                  | OK                        | Generic timeout error   |
+| [19:26 local](https://explorer.ooni.org/measurement/20180729T192646Z_AS30985_L6v4YCZn4hufvc4dkgAhAUuVZWHThuf5hh9nbWVK7Njs63Axjp) | Generic timeout error               | OK                        | OK                      |
 
 Our findings suggest that WhatsApp’s web version was likely blocked, since TCP
 connections to web.whatsapp.com were unsuccessful and rendered errors. Access
@@ -80,12 +80,12 @@ presented failures in the evening, suggesting that access to them was blocked.
 
 | URL                          | Time        | Results      |
 |------------------------------|-------------|--------------|
-| ``https://twitter.com``          | 01:19 local | [Accessible](https://explorer.ooni.torproject.org/measurement/20180729T010021Z_AS30985_sl9bNrOpPONSv1NkOz4JXlpjcCN6klmRrglMviBKLj7O8X5Dcv?input=https:%2F%2Ftwitter.com)   |
-| ``https://twitter.com``          | 17:38 local | [SSL error](https://explorer.ooni.torproject.org/measurement/20180729T173750Z_AS30985_cJisIu0RELvv31cpq28KEgyiURi6l9frVpHtWCdJy8rhkovUpN?input=http:%2F%2Ftwitter.com%2Fanonops)    |
-| ``https://guardianproject.info`` | 01:22 local | [Accessible](https://explorer.ooni.torproject.org/measurement/20180729T010021Z_AS30985_sl9bNrOpPONSv1NkOz4JXlpjcCN6klmRrglMviBKLj7O8X5Dcv?input=https:%2F%2Fguardianproject.info)   |
-| ``https://guardianproject.info`` | 19:14 local | [HTTP failure](https://explorer.ooni.torproject.org/measurement/20180729T191448Z_AS30985_VSIxO0z4xkjVseK4yVZu5Mg7kbO970legMAq85jNjV4jYX5SK3?input=https:%2F%2Fguardianproject.info) |
-| ``http://www.anonymizer.ru``     | 01:16 local | [Accessible](https://explorer.ooni.torproject.org/measurement/20180729T010021Z_AS30985_sl9bNrOpPONSv1NkOz4JXlpjcCN6klmRrglMviBKLj7O8X5Dcv?input=http:%2F%2Fwww.anonymizer.ru)   |
-| ``http://www.anonymizer.ru``     | 19:14 local | [HTTP failure](https://explorer.ooni.torproject.org/measurement/20180729T191448Z_AS30985_VSIxO0z4xkjVseK4yVZu5Mg7kbO970legMAq85jNjV4jYX5SK3?input=http:%2F%2Fwww.anonymizer.ru) |
+| ``https://twitter.com``          | 01:19 local | [Accessible](https://explorer.ooni.org/measurement/20180729T010021Z_AS30985_sl9bNrOpPONSv1NkOz4JXlpjcCN6klmRrglMviBKLj7O8X5Dcv?input=https:%2F%2Ftwitter.com)   |
+| ``https://twitter.com``          | 17:38 local | [SSL error](https://explorer.ooni.org/measurement/20180729T173750Z_AS30985_cJisIu0RELvv31cpq28KEgyiURi6l9frVpHtWCdJy8rhkovUpN?input=http:%2F%2Ftwitter.com%2Fanonops)    |
+| ``https://guardianproject.info`` | 01:22 local | [Accessible](https://explorer.ooni.org/measurement/20180729T010021Z_AS30985_sl9bNrOpPONSv1NkOz4JXlpjcCN6klmRrglMviBKLj7O8X5Dcv?input=https:%2F%2Fguardianproject.info)   |
+| ``https://guardianproject.info`` | 19:14 local | [HTTP failure](https://explorer.ooni.org/measurement/20180729T191448Z_AS30985_VSIxO0z4xkjVseK4yVZu5Mg7kbO970legMAq85jNjV4jYX5SK3?input=https:%2F%2Fguardianproject.info) |
+| ``http://www.anonymizer.ru``     | 01:16 local | [Accessible](https://explorer.ooni.org/measurement/20180729T010021Z_AS30985_sl9bNrOpPONSv1NkOz4JXlpjcCN6klmRrglMviBKLj7O8X5Dcv?input=http:%2F%2Fwww.anonymizer.ru)   |
+| ``http://www.anonymizer.ru``     | 19:14 local | [HTTP failure](https://explorer.ooni.org/measurement/20180729T191448Z_AS30985_VSIxO0z4xkjVseK4yVZu5Mg7kbO970legMAq85jNjV4jYX5SK3?input=http:%2F%2Fwww.anonymizer.ru) |
 
 All of the URLs included in the above table were accessible over the last
 months based on daily [OONI Probe](/install/) testing. The fact that they

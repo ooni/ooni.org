@@ -35,7 +35,7 @@ we’ll be launching in 2019!
 Our network of partners grew significantly in 2018!
 
 Throughout the year, we had the opportunity to establish 8 new
-[partnerships](https://ooni.torproject.org/get-involved/partnership-program/)
+[partnerships](https://ooni.org/get-involved/partnership-program/)
 with the following digital rights organizations:
 
 * [Tuwindi Foundation](http://tuwindi.org/) (Mali)
@@ -63,34 +63,34 @@ world.
 In collaboration with our partners, we published the following 10
 research reports:
 
-* [Iran Protests: OONI data confirms censorship events (Part 1)](https://ooni.torproject.org/post/2018-iran-protests/)
+* [Iran Protests: OONI data confirms censorship events (Part 1)](https://ooni.org/post/2018-iran-protests/)
 
-* [Iran Protests: DPI blocking of Instagram (Part 2)](https://ooni.torproject.org/post/2018-iran-protests-pt2/)
+* [Iran Protests: DPI blocking of Instagram (Part 2)](https://ooni.org/post/2018-iran-protests-pt2/)
 
-* [Sierra Leone: Network disruptions amid 2018 runoff elections](https://ooni.torproject.org/post/sierra-leone-network-disruptions-2018-elections/)
+* [Sierra Leone: Network disruptions amid 2018 runoff elections](https://ooni.org/post/sierra-leone-network-disruptions-2018-elections/)
 
-* [Nigeria: Measuring Internet Censorship](https://ooni.torproject.org/post/nigeria-internet-censorship/)
+* [Nigeria: Measuring Internet Censorship](https://ooni.org/post/nigeria-internet-censorship/)
 (a version of which was also published in the [IEEE’s December 2018 Internet Policy Newsletter](https://internetinitiative.ieee.org/newsletter/december-2018/measuring-internet-censorship-in-nigeria))
 
-* [Ethiopia: Verifying the unblocking of websites](https://ooni.torproject.org/post/ethiopia-unblocking/)
+* [Ethiopia: Verifying the unblocking of websites](https://ooni.org/post/ethiopia-unblocking/)
 
-* [The State of Internet Censorship in Egypt](https://ooni.torproject.org/post/egypt-internet-censorship/)
+* [The State of Internet Censorship in Egypt](https://ooni.org/post/egypt-internet-censorship/)
 
-* [Mali: Social media disruptions amid 2018 presidential election?](https://ooni.torproject.org/post/mali-disruptions-amid-2018-election/)
+* [Mali: Social media disruptions amid 2018 presidential election?](https://ooni.org/post/mali-disruptions-amid-2018-election/)
 
-* [South Sudan: Measuring Internet Censorship in the World’s Youngest Nation](https://ooni.torproject.org/post/south-sudan-censorship/)
+* [South Sudan: Measuring Internet Censorship in the World’s Youngest Nation](https://ooni.org/post/south-sudan-censorship/)
 
-* [The State of Internet Censorship in Venezuela](https://ooni.torproject.org/post/venezuela-internet-censorship/)
+* [The State of Internet Censorship in Venezuela](https://ooni.org/post/venezuela-internet-censorship/)
 
-* [Uganda’s Social Media Tax through the lens of network measurements](https://ooni.torproject.org/post/uganda-social-media-tax/)
+* [Uganda’s Social Media Tax through the lens of network measurements](https://ooni.org/post/uganda-social-media-tax/)
 
 We also published:
 
-* A [paper](https://ooni.torproject.org/post/investigating-internet-blackouts/Investigating-Internet-Blackouts-Methodology-2018-03.pdf)
+* A [paper](https://ooni.org/post/investigating-internet-blackouts/Investigating-Internet-Blackouts-Methodology-2018-03.pdf)
 outlining our proposed methodology for **investigating internet
 blackouts from the edge of the network**
 
-* A [blog post](https://ooni.torproject.org/post/mining-ooni-data/)
+* A [blog post](https://ooni.org/post/mining-ooni-data/)
 explaining **how to mine OONI data**
 
 # Dev work behind the scenes
@@ -117,7 +117,7 @@ old vs. new app:
 We spent most of 2018 revamping the OONI Probe mobile app to improve
 its usability and include new features.
 
-Ever since we [first launched the OONI Probe mobile app](https://ooni.torproject.org/post/ooni-mobile-app/) (back in
+Ever since we [first launched the OONI Probe mobile app](https://ooni.org/post/ooni-mobile-app/) (back in
 February 2017), we have been collecting community feedback on an ongoing
 basis (through monthly community meetings, workshops, daily interactions
 with partners, etc). To collect community feedback in a more structured
@@ -129,7 +129,7 @@ way, we:
 * Created and circulated an online
 [survey](https://ooniuxteam.typeform.com/to/a1P0cn)
 
-* [Interviewed](https://ooni.torproject.org/post/ooniprobe-ux-survey-and-interviews/)
+* [Interviewed](https://ooni.org/post/ooniprobe-ux-survey-and-interviews/)
 more than 20 community members from around the world
 
 The feedback that we collected and analyzed from the usability studies
@@ -137,7 +137,7 @@ informed the design and development of the OONI Probe mobile app. In
 November 2018, we released the [public beta](https://github.com/ooni/translations/blob/master/Guidelines.md#install-the-ooni-probe-public-beta)
 of the revamped app. 
 
-You can now [install the stable version](https://ooni.torproject.org/install/).
+You can now [install the stable version](https://ooni.org/install/).
 
 ## Revamped OONI Explorer
 
@@ -162,7 +162,7 @@ We expect to launch the revamped version of OONI Explorer by mid-2019... so stay
 
 In 2018, we started building OONI Probe desktop apps. 
 
-These apps are a big step forward compared to the previously released [macOS and Linux web UI](https://ooni.torproject.org/post/web-ui-post/), as they feature a more native platform integration and will be supporting Windows computers as well.
+These apps are a big step forward compared to the previously released [macOS and Linux web UI](https://ooni.org/post/web-ui-post/), as they feature a more native platform integration and will be supporting Windows computers as well.
 
 Our aim is to ensure that OONI Probe is not only available on more platforms, but that it is also as easy to install and use as possible. 
 
@@ -245,7 +245,7 @@ an [OONI YouTube channel](https://www.youtube.com/channel/UCQhDgj9wBf4_w5bWFvLlq
 where we published the following:
 
 * **[ParkNet: Exploring Internet Censorship in Cuba](https://www.youtube.com/watch?v=QslsL84jx4E&t=2s)** (short
-documentary on our [research](https://ooni.torproject.org/post/cuba-internet-censorship-2017/) in Cuba)
+documentary on our [research](https://ooni.org/post/cuba-internet-censorship-2017/) in Cuba)
 
 * **[Interview with Julie Owono](https://www.youtube.com/watch?v=t842clfakt0)** (OONI Community Interview series)
 

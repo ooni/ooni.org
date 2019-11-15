@@ -29,7 +29,7 @@ to identify censorship and/or surveillance vendors through the error messages in
 the received HTTP response.
 
 So far, based on this technique we have
-[detected](https://explorer.ooni.torproject.org/highlights/) the use of
+[detected](https://explorer.ooni.org/highlights/) the use of
 **BlueCoat**, **Squid** and **Privoxy** in networks across 11 countries around
 the world.
 

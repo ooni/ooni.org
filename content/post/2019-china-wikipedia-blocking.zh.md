@@ -60,7 +60,7 @@ curl -H 'accept: application/dns-json' https://cloudflare-dns.com/dns-query?name
 
 ![](/post/2019-china-wikipedia-blocking/firefox-3.png)
 
-为了进一步验证封锁是基于[SNI过滤](https://en.wikipedia.org/wiki/Server_Name_Indication)的假设，我们进行了以下curl测试（[我们在委内瑞拉进行了类似的测试以确认相同的假设](https://ooni.torproject.org/post/venezuela-blocking-wikipedia-and-social-media-2019/)）：
+为了进一步验证封锁是基于[SNI过滤](https://en.wikipedia.org/wiki/Server_Name_Indication)的假设，我们进行了以下curl测试（[我们在委内瑞拉进行了类似的测试以确认相同的假设](https://ooni.org/post/venezuela-blocking-wikipedia-and-social-media-2019/)）：
 
 ```
 $ curl -v --connect-to ::www.kernel.org: https://www.wikipedia.org
@@ -136,6 +136,6 @@ curl: (51) SSL: no alternative certificate subject name matches target host name
 
 基于这些测试，我们得出结论，中国电信确实通过DNS注入和SNI过滤来封锁维基百科的所有语言版本。
 
-与[在埃及实施的审查](https://ooni.torproject.org/post/egypt-internet-censorship/)相似，也许这可以被视为网络封锁的“[纵深防御](https://en.wikipedia.org/wiki/Defense_in_depth_(computing))”策略。 通过实施基于DNS和SNI的过滤，中国电信创建了多层审查制度，使翻墙更加困难。
+与[在埃及实施的审查](https://ooni.org/post/egypt-internet-censorship/)相似，也许这可以被视为网络封锁的“[纵深防御](https://en.wikipedia.org/wiki/Defense_in_depth_(computing))”策略。 通过实施基于DNS和SNI的过滤，中国电信创建了多层审查制度，使翻墙更加困难。
 
 使用加密的DNS解析（例如DNS over HTTPS）以及[加密的SNI（ESNI）](https://datatracker.ietf.org/doc/draft-ietf-tls-esni/)可能可以用作翻墙策略。 Wikipedia.org目前不支持ESNI，但是已经但有关于启用它的[讨论](https://phabricator.wikimedia.org/T205378)。

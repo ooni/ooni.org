@@ -16,22 +16,22 @@ smooth, as the country experiences an ongoing civil war. Even though
 [internet penetration levels remain quite low](http://www.intgovforum.org/multilingual/es/system/files/filedepot/78/paradigmhq-digital_rights_in_africa_report_2017.pdf), two media websites and two independent blogs were [reportedly blocked](https://cpj.org/2017/07/south-sudan-authorities-block-access-to-at-least-f.php)
 last year.
 
-This report is a joint research effort by the [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) and South
+This report is a joint research effort by the [Open Observatory of Network Interference (OONI)](https://ooni.org/) and South
 Sudan’s [The Advocates for Human Rights and Democracy (TAHURID)](http://tahurid.jovanjulien.com/). We examine internet
 censorship in South Sudan through the collection and analysis of
 [network measurements](https://api.ooni.io/files/by_country/SS).
 
 Our findings corroborate
 [reports](https://cpj.org/2017/07/south-sudan-authorities-block-access-to-at-least-f.php)
-on the blocking of media outlets [Sudan Tribune](https://explorer.ooni.torproject.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=http:%2F%2Fsudantribune.com%2F)
-and [Radio Tamazuj](https://explorer.ooni.torproject.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fradiotamazuj.org),
+on the blocking of media outlets [Sudan Tribune](https://explorer.ooni.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=http:%2F%2Fsudantribune.com%2F)
+and [Radio Tamazuj](https://explorer.ooni.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fradiotamazuj.org),
 and independent blogs
-[Nyamilepedia](https://explorer.ooni.torproject.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=http:%2F%2Fnyamile.com%2F)
-and [Paanluel Wel](https://explorer.ooni.torproject.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=https:%2F%2Fpaanluelwel.com%2F),
+[Nyamilepedia](https://explorer.ooni.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=http:%2F%2Fnyamile.com%2F)
+and [Paanluel Wel](https://explorer.ooni.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=https:%2F%2Fpaanluelwel.com%2F),
 suggesting that these sites have been blocked for a year. MTN appears to
 block TCP/IP connections to these sites, while IPTEC appears to block
 access by means of DNS tampering. Measurements collected in 2017
-highlight the [presence of the Mikrotik HTTP transparent proxy](https://explorer.ooni.torproject.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fdeoxy.org).
+highlight the [presence of the Mikrotik HTTP transparent proxy](https://explorer.ooni.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fdeoxy.org).
 
 * [Background](#background)
 
@@ -133,12 +133,12 @@ check for HTTP transparent proxies, DNS spoofing, and network speed and
 performance.
 
 To measure the blocking of websites, we started off by carrying out some
-[research](https://ooni.torproject.org/get-involved/contribute-test-lists/#test-list-research)
+[research](https://ooni.org/get-involved/contribute-test-lists/#test-list-research)
 to identify South Sudanese URLs to test. We subsequently
 [added](https://github.com/citizenlab/test-lists/pull/366/) these URLs
 to the [Citizen Lab’s test list repository on GitHub](https://github.com/citizenlab/test-lists), since OONI Probe is
 designed to measure the blocking of URLs included in these test lists.
-Over the last few months, we primarily ran OONI Probe’s [Web Connectivity test](https://ooni.torproject.org/nettest/web-connectivity/) (among
+Over the last few months, we primarily ran OONI Probe’s [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) (among
 other OONI Probe tests) in two networks: MTN South Sudan (AS37594) and
 IPTEC Limited (AS36892).
 
@@ -163,11 +163,11 @@ recent testing of each of these sites across two ISPs.
 
 | URLs                         | MTN (AS37594)   | IPTEC (AS36892) |
 |------------------------------|-----------------|-----------------|
-| ``http://nyamile.com/``          | [TCP/IP blocking](https://explorer.ooni.torproject.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fnyamile.com%2F) | [DNS blocking](https://explorer.ooni.torproject.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=http:%2F%2Fnyamile.com%2F)    |
-| ``https://paanluelwel.com/``     | N/A             | [DNS blocking](https://explorer.ooni.torproject.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=https:%2F%2Fpaanluelwel.com%2F)    |
-| ``http://radiotamazuj.org``      | [TCP/IP blocking](https://explorer.ooni.torproject.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fradiotamazuj.org) | [DNS blocking](https://explorer.ooni.torproject.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=http:%2F%2Fradiotamazuj.org)    |
-| ``http://sudantribune.com/``     | [TCP/IP blocking](https://explorer.ooni.torproject.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fsudantribune.com%2F) | [DNS blocking](https://explorer.ooni.torproject.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=http:%2F%2Fsudantribune.com%2F)    |
-| ``http://www.sudantribune.com/`` | [TCP/IP blocking](https://explorer.ooni.torproject.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fwww.sudantribune.com%2F) | [DNS blocking](https://explorer.ooni.torproject.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=http:%2F%2Fwww.sudantribune.com%2Fspip.php%3Farticle61802)    |
+| ``http://nyamile.com/``          | [TCP/IP blocking](https://explorer.ooni.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fnyamile.com%2F) | [DNS blocking](https://explorer.ooni.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=http:%2F%2Fnyamile.com%2F)    |
+| ``https://paanluelwel.com/``     | N/A             | [DNS blocking](https://explorer.ooni.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=https:%2F%2Fpaanluelwel.com%2F)    |
+| ``http://radiotamazuj.org``      | [TCP/IP blocking](https://explorer.ooni.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fradiotamazuj.org) | [DNS blocking](https://explorer.ooni.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=http:%2F%2Fradiotamazuj.org)    |
+| ``http://sudantribune.com/``     | [TCP/IP blocking](https://explorer.ooni.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fsudantribune.com%2F) | [DNS blocking](https://explorer.ooni.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=http:%2F%2Fsudantribune.com%2F)    |
+| ``http://www.sudantribune.com/`` | [TCP/IP blocking](https://explorer.ooni.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fwww.sudantribune.com%2F) | [DNS blocking](https://explorer.ooni.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=http:%2F%2Fwww.sudantribune.com%2Fspip.php%3Farticle61802)    |
 
 Our findings suggest that MTN (AS37594) blocks TCP/IP connections to
 these sites, while IPTEC (AS36892) blocks access by means of DNS
@@ -194,9 +194,9 @@ Nuer who left the rebellion to join the Dinka-led government.
 [Almshaheer](http://www.almshaheer.com/) and South Africa’s [Centre for Conflict Resolution](http://www.ccr.org.za/) are inaccessible on
 IPTEC, but accessible on MTN (the accessibility of which is also
 confirmed by OONI data testing
-[almshaheer.com](https://explorer.ooni.torproject.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fwww.almshaheer.com%2F)
+[almshaheer.com](https://explorer.ooni.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fwww.almshaheer.com%2F)
 and
-[ccr.org.za](https://explorer.ooni.torproject.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fwww.ccr.org.za%2F)).
+[ccr.org.za](https://explorer.ooni.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fwww.ccr.org.za%2F)).
 
 Many [other URLs](https://api.ooni.io/files/by_country/SS) presented network anomalies (such as HTTP failures) as
 part of our testing, but such anomalies were most likely caused due to
@@ -207,14 +207,14 @@ blocked.
 
 It’s worth highlighting, however, that many of the URLs that we tested
 (including internationally popular and local sites) were found to be
-[accessible](https://explorer.ooni.torproject.org/country/SS) in South
+[accessible](https://explorer.ooni.org/country/SS) in South
 Sudan during this study. These include sites related to conflict
-resolution and peacekeeping, such as the [United Nations Mission in South Sudan (UNMISS)](https://explorer.ooni.torproject.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=https:%2F%2Funmiss.unmissions.org%2Fradio-miraya-news)
+resolution and peacekeeping, such as the [United Nations Mission in South Sudan (UNMISS)](https://explorer.ooni.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=https:%2F%2Funmiss.unmissions.org%2Fradio-miraya-news)
 site.
 
 ## HTTP proxy
 
-Measurements previously [collected in 2017](https://explorer.ooni.torproject.org/country/SS) highlight the
+Measurements previously [collected in 2017](https://explorer.ooni.org/country/SS) highlight the
 presence of an HTTP transparent proxy (Mikrotik).
 
 ![Miktrotik HTTP proxy in OONI data](/post/south-sudan/mikrotik.png)
@@ -223,33 +223,33 @@ This proxy is revealed in the HTTP response body in OONI Probe
 measurements (linked below) pertaining to the testing of the following
 sites:
 
-* [http://deoxy.org](https://explorer.ooni.torproject.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fdeoxy.org)
+* [http://deoxy.org](https://explorer.ooni.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fdeoxy.org)
 
-* [http://dextroverse.org](https://explorer.ooni.torproject.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fdextroverse.org)
+* [http://dextroverse.org](https://explorer.ooni.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fdextroverse.org)
 
-* [http://warc.jalb.de](https://explorer.ooni.torproject.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwarc.jalb.de)
+* [http://warc.jalb.de](https://explorer.ooni.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwarc.jalb.de)
 
-* [http://www.bloglines.com](https://explorer.ooni.torproject.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.bloglines.com)
+* [http://www.bloglines.com](https://explorer.ooni.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.bloglines.com)
 
-* [http://www.foreignword.com](https://explorer.ooni.torproject.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.foreignword.com)
+* [http://www.foreignword.com](https://explorer.ooni.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.foreignword.com)
 
-* [http://www.gamenode.com](https://explorer.ooni.torproject.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.gamenode.com)
+* [http://www.gamenode.com](https://explorer.ooni.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.gamenode.com)
 
-* [http://www.interactworldwide.org](https://explorer.ooni.torproject.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.interactworldwide.org)
+* [http://www.interactworldwide.org](https://explorer.ooni.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.interactworldwide.org)
 
-* [http://www.iwantim.com](https://explorer.ooni.torproject.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.iwantim.com)
+* [http://www.iwantim.com](https://explorer.ooni.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.iwantim.com)
 
-* [http://www.kazaa.com](https://explorer.ooni.torproject.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.kazaa.com)
+* [http://www.kazaa.com](https://explorer.ooni.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.kazaa.com)
 
-* [http://www.kcna.kp](https://explorer.ooni.torproject.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.kcna.kp)
+* [http://www.kcna.kp](https://explorer.ooni.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.kcna.kp)
 
-* [http://www.law-lib.utoronto.ca/Diana/](https://explorer.ooni.torproject.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.law-lib.utoronto.ca%2FDiana%2F)
+* [http://www.law-lib.utoronto.ca/Diana/](https://explorer.ooni.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.law-lib.utoronto.ca%2FDiana%2F)
 
-* [http://www.pornhub.com](https://explorer.ooni.torproject.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.pornhub.com%2F)
+* [http://www.pornhub.com](https://explorer.ooni.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.pornhub.com%2F)
 
-* [http://www.proxyweb.net](https://explorer.ooni.torproject.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.proxyweb.net)
+* [http://www.proxyweb.net](https://explorer.ooni.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.proxyweb.net)
 
-* [http://www.wzo.org.il](https://explorer.ooni.torproject.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.wzo.org.il)
+* [http://www.wzo.org.il](https://explorer.ooni.org/measurement/20170330T114057Z_AS327786_exzr3G2mf5ZPxwNSFMJGPF6ogXqUiuWwMrX141eMMl7PT6KP1N?input=http:%2F%2Fwww.wzo.org.il)
 
 These measurements clearly show that the Mikrotik HTTP transparent proxy
 was present last year in the network path to the above sites through
@@ -261,7 +261,7 @@ It’s worth noting that this equipment may potentially be used for
 implementing internet censorship and/or for caching (the Mikrotik HTTP
 proxy has this feature) to improve connectivity. Given though that most
 of these sites were
-[accessible](https://explorer.ooni.torproject.org/country/SS) (and the
+[accessible](https://explorer.ooni.org/country/SS) (and the
 ones that weren’t presented different errors, sometimes triggered as
 part of anti-DDoS protection), it may be the case that this proxy was
 primarily deployed for improving connectivity and network performance.
@@ -280,12 +280,12 @@ sites that authorities
 [deem](https://cpj.org/2017/07/south-sudan-authorities-block-access-to-at-least-f.php)
 to publish “subversive content” and incite violence. This is evident
 through the blocking of
-[Nyamilepedia](https://explorer.ooni.torproject.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=http:%2F%2Fnyamile.com%2F)
-and [Paanluel Wel](https://explorer.ooni.torproject.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=https:%2F%2Fpaanluelwel.com%2F),
+[Nyamilepedia](https://explorer.ooni.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=http:%2F%2Fnyamile.com%2F)
+and [Paanluel Wel](https://explorer.ooni.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=https:%2F%2Fpaanluelwel.com%2F),
 the leading blogs of the Nuer and Dinka tribes who are known to incite
 violence. OONI [data](https://api.ooni.io/files/by_country/SS) also
-corroborates the blocking of media outlets [Sudan Tribune](https://explorer.ooni.torproject.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=http:%2F%2Fsudantribune.com%2F)
-and [Radio Tamazuj](https://explorer.ooni.torproject.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fradiotamazuj.org),
+corroborates the blocking of media outlets [Sudan Tribune](https://explorer.ooni.org/measurement/20180710T121021Z_AS36892_jFS7l6OqpHDaCHgyce42vBpqi7zxK9sTNGsR9jwpr4k9NRHZhn?input=http:%2F%2Fsudantribune.com%2F)
+and [Radio Tamazuj](https://explorer.ooni.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fradiotamazuj.org),
 both of which are hosted *outside* of South Sudan. Local journalists and
 media organizations though face different (non-digital) forms of
 censorship.
@@ -293,7 +293,7 @@ censorship.
 [Juba Monitor](http://www.jubamonitor.com/), for example, is an
 independent South Sudanese newspaper critical of the government. Their
 website was found to be
-[accessible](https://explorer.ooni.torproject.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fwww.jubamonitor.com),
+[accessible](https://explorer.ooni.org/measurement/20180709T222326Z_AS37594_FFQFSoqLJWYMgU0EnSbIK7PxicwJTFenIz9PupZYZWoXwtpCTy?input=http:%2F%2Fwww.jubamonitor.com),
 but their editor was
 [jailed](https://cpj.org/2016/07/south-sudan-authorities-arrest-editor-order-juba-m.php)
 in 2016 as a result of his reporting and the newspaper has been
@@ -323,6 +323,6 @@ required to better understand the country’s internet landscape and
 monitor any new censorship events.
 
 This study offers some initial observations based on [network measurements](https://api.ooni.io/files/by_country/SS). Since we used
-[free and open source software](https://ooni.torproject.org/install/),
-[open methodologies](https://ooni.torproject.org/docs/), and [open data](https://api.ooni.io/files/by_country/SS), our research can
+[free and open source software](https://ooni.org/install/),
+[open methodologies](https://ooni.org/docs/), and [open data](https://api.ooni.io/files/by_country/SS), our research can
 potentially be *reproduced* and expanded upon.

@@ -219,7 +219,7 @@ users in Ethiopia can continue to test the availability of the [African Argument
 Ethiopia seems to be sliding back to old ways when [internet censorship was a pervasive practice](https://ooni.io/post/ethiopia-report/). After
 the political changes of 2018, hundreds of [websites were unblocked](https://ooni.io/post/ethiopia-unblocking/), but the recent
 [internet blackouts](https://ioda.caida.org/ioda/dashboard#view=inspect&entity=country/ET&lastView=overview&from=1559389200&until=1561894800),
-[social media censorship](https://ooni.torproject.org/post/ethiopia-whatsapp-telegram/),
+[social media censorship](https://ooni.org/post/ethiopia-whatsapp-telegram/),
 and the ongoing [blocking of WhatsApp](https://explorer.ooni.io/measurement/20190812T095715Z_AS24757_BjdMoFxrUdzPZ55K05xpW0eXfuiInsD9ZbACPwmX2LjPObhthX)
 and
 [Facebook](https://explorer.ooni.io/measurement/20190812T095835Z_AS24757_dYGfWimrvb72D8CBbbfFsjISj2oMIRcjYGPsnRs5QlnkpYJMNz)

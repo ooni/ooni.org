@@ -129,7 +129,7 @@ Project.
 
 # Key Findings
 
-New [OONI network measurement data](https://explorer.ooni.torproject.org/country/ID) collected from *21 local vantage points* confirms the **_blocking of 161 websites_** in Indonesia between 22nd June 2016 to 1st March 2017. Indonesian ISPs appear to be implementing block pages primarily through DNS hijacking. 
+New [OONI network measurement data](https://explorer.ooni.org/country/ID) collected from *21 local vantage points* confirms the **_blocking of 161 websites_** in Indonesia between 22nd June 2016 to 1st March 2017. Indonesian ISPs appear to be implementing block pages primarily through DNS hijacking. 
 
 **_Vimeo and Reddit were found to be blocked_** in some networks in Indonesia, even though their [ban was lifted](http://www.thejakartapost.com/news/2014/11/07/ministry-allows-vimeo-keeps-ban-pornography.html) more than two years ago. A popular **animal rights site was also found to be blocked** , possibly because it was mistaken for a pornographic website due to its domain (peta.xxx). These cases raise the **_need for oversight_** , to prevent ISPs from blocking content at their own discretion and to ensure that sites are unblocked after bans are lifted.
 
@@ -155,7 +155,7 @@ Interestingly enough, we also found sites (web forums and e-commerce sites) that
 
 Many of these censorship events indicate that their implementation was influenced by **_social and cultural norms_** , especially since the legal justification behind the blocking of many of these sites remains unclear. This raises the **_need for transparency and accountability_** to ensure that the implementation of internet censorship is legally proportionate. 
 
-Network tampering was [detected](https://gist.github.com/hellais/7a54e1f765022eb7820aa5989c876675) across 10 different Indonesian ISPs, possibly indicating the presence of middleboxes that could be responsible for internet censorship, surveillance, and traffic manipulation. A middle box was [detected](https://explorer.ooni.torproject.org/measurement/20161219T000049Z_AS17974_VIUyHiQj5rKlMP1hTxg0IYVU6tkX8ovozq2JHHaA7Wjy9ZXbwz) in the Telekomunikasi Indonesia (AS17974) network. While it’s unclear if this specific system was used to implement internet censorship, it’s worth emphasizing that most measurements collected from this network presented signs of network tampering, and that this ISP served block pages for many of the sites that were tested as part of this study.
+Network tampering was [detected](https://gist.github.com/hellais/7a54e1f765022eb7820aa5989c876675) across 10 different Indonesian ISPs, possibly indicating the presence of middleboxes that could be responsible for internet censorship, surveillance, and traffic manipulation. A middle box was [detected](https://explorer.ooni.org/measurement/20161219T000049Z_AS17974_VIUyHiQj5rKlMP1hTxg0IYVU6tkX8ovozq2JHHaA7Wjy9ZXbwz) in the Telekomunikasi Indonesia (AS17974) network. While it’s unclear if this specific system was used to implement internet censorship, it’s worth emphasizing that most measurements collected from this network presented signs of network tampering, and that this ISP served block pages for many of the sites that were tested as part of this study.
 
 On a positive note, the [Tor network](http://torproject.org/), Facebook Messenger and WhatsApp appear to have mostly been accessible in Indonesia throughout the testing period. 
 
@@ -163,7 +163,7 @@ On a positive note, the [Tor network](http://torproject.org/), Facebook Messenge
 
 Six months ago, the Indonesian government [announced the blocking of 800,000 websites](http://www.thejakartapost.com/news/2017/01/07/indonesia-blocks-800000-websites.html) containing pornographic materials and gambling applications. 
 
-In an attempt to examine internet censorship in Indonesia, the [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) collaborated with [Sinar Project](http://sinarproject.org/) on the collection and analysis of network measurements.
+In an attempt to examine internet censorship in Indonesia, the [Open Observatory of Network Interference (OONI)](https://ooni.org/) collaborated with [Sinar Project](http://sinarproject.org/) on the collection and analysis of network measurements.
 
 The aim of this study is to increase transparency of information controls in Indonesia and to collect data that can potentially corroborate rumours and reports of internet censorship events. 
 
@@ -305,7 +305,7 @@ which documented 4 command and control servers for FinSpy, an intrusion malware,
 
 # Examining internet censorship in Indonesia
 
-The [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/), in collaboration with [Sinar Project](http://sinarproject.org/en), performed a study of internet censorship in Indonesia. The aim of this study was to understand whether and to what extent censorship events occurred in Indonesia during the testing period.
+The [Open Observatory of Network Interference (OONI)](https://ooni.org/), in collaboration with [Sinar Project](http://sinarproject.org/en), performed a study of internet censorship in Indonesia. The aim of this study was to understand whether and to what extent censorship events occurred in Indonesia during the testing period.
 
 The sections below document the methodology and findings of this study.
 
@@ -320,7 +320,7 @@ The analysis period started on 22nd June 2016 and concluded on 1st March 2017.
 
 ### Collection of ooniprobe network measurements
 
-The [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) is a *free software* project that aims to increase transparency of internet censorship around the world. Since 2011, OONI has developed multiple [free and open source software tests](https://github.com/TheTorProject/ooni-probe) designed to examine the following:
+The [Open Observatory of Network Interference (OONI)](https://ooni.org/) is a *free software* project that aims to increase transparency of internet censorship around the world. Since 2011, OONI has developed multiple [free and open source software tests](https://github.com/TheTorProject/ooni-probe) designed to examine the following:
 
 * Blocking of websites;
 * Blocking of instant messaging apps (WhatsApp, Facebook Messenger, and Telegram);
@@ -330,12 +330,12 @@ The [Open Observatory of Network Interference (OONI)](https://ooni.torproject.or
 
 As part of this study, the following [OONI software tests](https://github.com/TheTorProject/ooni-probe) were run from 21 local vantage points in Indonesia:
 
-* [Web Connectivity](https://ooni.torproject.org/nettest/web-connectivity/)
-* [HTTP Invalid Request Line](https://ooni.torproject.org/nettest/http-invalid-request-line/)
-* [HTTP Header Field Manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/)
-* [Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/)
-* [WhatsApp test](https://ooni.torproject.org/nettest/whatsapp/)
-* [Facebook Messenger test](https://ooni.torproject.org/nettest/facebook-messenger/)
+* [Web Connectivity](https://ooni.org/nettest/web-connectivity/)
+* [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/)
+* [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/)
+* [Vanilla Tor](https://ooni.org/nettest/vanilla-tor/)
+* [WhatsApp test](https://ooni.org/nettest/whatsapp/)
+* [Facebook Messenger test](https://ooni.org/nettest/facebook-messenger/)
 
 The Web Connectivity test was run with the aim of examining whether a set of URLs (included in both the [global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv), and the [Indonesian test list](https://github.com/citizenlab/test-lists/blob/master/lists/id.csv)) were blocked during the testing period and if so, how. The Vanilla Tor test was run to examine the reachability of the [Tor network](https://www.torproject.org/), while the Facebook Messenger and WhatsApp tests were run to examine the reachability of these instant messaging apps in Indonesia during the testing period.
 
@@ -345,7 +345,7 @@ The sections below document how each of these tests are designed for the purpose
 
 #### Web Connectivity 
 
-This [test](https://ooni.torproject.org/nettest/web-connectivity/) examines whether websites are reachable and if they are not, it attempts to determine whether access to them is blocked through DNS tampering, TCP/IP blocking or by a transparent HTTP proxy.
+This [test](https://ooni.org/nettest/web-connectivity/) examines whether websites are reachable and if they are not, it attempts to determine whether access to them is blocked through DNS tampering, TCP/IP blocking or by a transparent HTTP proxy.
 
 OONI’s Web Connectivity test is designed to examine URLs contained in specific [lists](https://github.com/citizenlab/test-lists) (“test lists”) for censorship. By default, Web Connectivity examines the “[global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)”, which includes a wide range of internationally relevant websites, most of which are in English. These websites fall under [31 categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv), ranging from news media, file sharing and culture, to provocative or objectionable categories, like pornography, political criticism, and hate speech. 
 
@@ -401,17 +401,17 @@ It’s important to note, however, that DNS resolvers, such as Google or a local
 
 #### HTTP Invalid Request Line
 
-This [test](https://ooni.torproject.org/nettest/http-invalid-request-line/) tries to detect the presence of network components (“middle box”) which could be responsible for censorship and/or traffic manipulation.
+This [test](https://ooni.org/nettest/http-invalid-request-line/) tries to detect the presence of network components (“middle box”) which could be responsible for censorship and/or traffic manipulation.
 
 Instead of sending a normal HTTP request, this test sends an invalid HTTP request line - containing an invalid HTTP version number, an invalid field count and a huge request method – to an echo service listening on the standard HTTP port. An echo service is a very useful debugging and measurement tool, which simply sends back to the originating source any data it receives. If a middle box is not present in the network between the user and an echo service, then the echo service will send the invalid HTTP request line back to the user, exactly as it received it. In such cases, there is no visible traffic manipulation in the tested network.
 
-If, however, a middle box is present in the tested network, the invalid HTTP request line will be intercepted by the middle box and this may trigger an error and that will subsequently be sent back to OONI’s server. Such errors indicate that software for traffic manipulation is likely placed in the tested network, though it’s not always clear what that software is. In some cases though, censorship and/or surveillance vendors can be identified through the error messages in the received HTTP response. Based on this technique, OONI has previously [detected](https://explorer.ooni.torproject.org/highlights/) the use of BlueCoat, Squid and Privoxy proxy technologies in networks across multiple countries around the world.
+If, however, a middle box is present in the tested network, the invalid HTTP request line will be intercepted by the middle box and this may trigger an error and that will subsequently be sent back to OONI’s server. Such errors indicate that software for traffic manipulation is likely placed in the tested network, though it’s not always clear what that software is. In some cases though, censorship and/or surveillance vendors can be identified through the error messages in the received HTTP response. Based on this technique, OONI has previously [detected](https://explorer.ooni.org/highlights/) the use of BlueCoat, Squid and Privoxy proxy technologies in networks across multiple countries around the world.
 
 It’s important though to note that a false negative could potentially occur in the hypothetical instance that ISPs are using highly sophisticated censorship and/or surveillance software that is specifically designed to not trigger errors when receiving invalid HTTP request lines like the ones of this test. Furthermore, the presence of a middle box is not necessarily indicative of traffic manipulation, as they are often used in networks for caching purposes.
 
 #### HTTP Header Field Manipulation
 
-This [test](https://ooni.torproject.org/nettest/http-header-field-manipulation/) also tries to detect the presence of network components (“middle box”) which could be responsible for censorship and/or traffic manipulation.
+This [test](https://ooni.org/nettest/http-header-field-manipulation/) also tries to detect the presence of network components (“middle box”) which could be responsible for censorship and/or traffic manipulation.
 
 HTTP is a protocol which transfers or exchanges data across the internet. It does so by handling a client’s request to connect to a server, and a server’s response to a client’s request. Every time a user connects to a server, the user (client) sends a request through the HTTP protocol to that server. Such requests include “HTTP headers”, which transmit various types of information, including the user’s device operating system and the type of browser that is being used. If Firefox is used on Windows, for example, the “user agent header” in the HTTP request will tell the server that a Firefox browser is being used on a Windows operating system.
 
@@ -423,13 +423,13 @@ False negatives, however, could potentially occur in the hypothetical instance t
 
 #### Vanilla Tor
 
-This [test](https://ooni.torproject.org/nettest/vanilla-tor/) examines the reachability of the [Tor network](https://www.torproject.org/), which is designed for online anonymity and censorship circumvention.
+This [test](https://ooni.org/nettest/vanilla-tor/) examines the reachability of the [Tor network](https://www.torproject.org/), which is designed for online anonymity and censorship circumvention.
 
 The Vanilla Tor test attempts to start a connection to the Tor network. If the test successfully bootstraps a connection within a predefined amount of seconds (300 by default), then Tor is considered to be reachable from the vantage point of the user. But if the test does not manage to establish a connection, then the Tor network is likely blocked within the tested network. 
 
 #### WhatsApp test 
 
-This[ test](https://ooni.torproject.org/nettest/whatsapp/) is designed to examine the reachability of both WhatsApp’s app and the WhatsApp web version within a tested network.
+This[ test](https://ooni.org/nettest/whatsapp/) is designed to examine the reachability of both WhatsApp’s app and the WhatsApp web version within a tested network.
 
 OONI’s WhatsApp test attempts to perform an HTTP GET request, TCP connection and DNS lookup to WhatsApp’s endpoints, registration service and web version over the vantage point of the user. Based on this methodology, WhatsApp’s *app* is likely blocked if any of the following apply:
 
@@ -446,7 +446,7 @@ WhatsApp’s *web interface* is likely blocked if any of the following apply:
 
 #### Facebook Messenger test
 
-This [test](https://ooni.torproject.org/nettest/facebook-messenger/) is designed to examine the reachability of Facebook Messenger within a tested network.
+This [test](https://ooni.org/nettest/facebook-messenger/) is designed to examine the reachability of Facebook Messenger within a tested network.
 
 OONI’s Facebook Messenger test attempts to perform a TCP connection and DNS lookup to Facebook’s endpoints over the vantage point of the user. Based on this methodology, Facebook Messenger is likely blocked if one or both of the following apply:
 
@@ -471,13 +471,13 @@ OONI by default collects the time and date of when tests were run. This informat
 
 **IP addresses and other information**
 
-OONI does *not* deliberately collect or store users’ IP addresses. In fact, OONI takes measures to remove users’ IP addresses from the collected measurements, to protect its users from [potential risks](https://ooni.torproject.org/about/risks/).
+OONI does *not* deliberately collect or store users’ IP addresses. In fact, OONI takes measures to remove users’ IP addresses from the collected measurements, to protect its users from [potential risks](https://ooni.org/about/risks/).
 
 However, OONI might *unintentionally* collect users’ IP addresses and other potentially personally-identifiable information, if such information is included in the HTTP headers or other metadata of measurements. This, for example, can occur if the tested websites include tracking technologies or custom content based on a user’s network location.
 
 **Network measurements**
 
-The types of network measurements that OONI collects depend on the types of tests that are run. Specifications about each OONI test can be viewed through its [git repository](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs), and details about what collected network measurements entail can be viewed through [OONI Explorer](https://explorer.ooni.torproject.org/world/) or through [OONI’s measurement API](https://measurements.ooni.torproject.org/).
+The types of network measurements that OONI collects depend on the types of tests that are run. Specifications about each OONI test can be viewed through its [git repository](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs), and details about what collected network measurements entail can be viewed through [OONI Explorer](https://explorer.ooni.org/world/) or through [OONI’s measurement API](https://measurements.ooni.org/).
 
 OONI processes the above types of data with the aim of deriving meaning from the collected measurements and, specifically, in an attempt to answer the following types of questions:
 
@@ -513,9 +513,9 @@ OONI continues to develop its data analysis heuristics to identify internet cens
 
 ## Findings
 
-As part of this study, [network measurements](https://explorer.ooni.torproject.org/country/ID) were collected through [ooniprobe software tests](https://github.com/TheTorProject/ooni-probe) performed across 21 different local vantage points in Indonesia between 22nd June 2016 and 1st March 2017. 
+As part of this study, [network measurements](https://explorer.ooni.org/country/ID) were collected through [ooniprobe software tests](https://github.com/TheTorProject/ooni-probe) performed across 21 different local vantage points in Indonesia between 22nd June 2016 and 1st March 2017. 
 
-Upon analysis of the collected network measurements, the findings confirm the **blocking of 161 websites** in Indonesia, and [reveal the presence of a middle box](https://explorer.ooni.torproject.org/measurement/20161219T000049Z_AS17974_VIUyHiQj5rKlMP1hTxg0IYVU6tkX8ovozq2JHHaA7Wjy9ZXbwz) in the Telekomunikasi Indonesia network. Network tampering was [detected](https://gist.github.com/hellais/7a54e1f765022eb7820aa5989c876675) across 10 different ISPs, possibly indicating the presence of middleboxes that could be responsible for internet censorship, surveillance, and traffic manipulation.
+Upon analysis of the collected network measurements, the findings confirm the **blocking of 161 websites** in Indonesia, and [reveal the presence of a middle box](https://explorer.ooni.org/measurement/20161219T000049Z_AS17974_VIUyHiQj5rKlMP1hTxg0IYVU6tkX8ovozq2JHHaA7Wjy9ZXbwz) in the Telekomunikasi Indonesia network. Network tampering was [detected](https://gist.github.com/hellais/7a54e1f765022eb7820aa5989c876675) across 10 different ISPs, possibly indicating the presence of middleboxes that could be responsible for internet censorship, surveillance, and traffic manipulation.
 
 Most measurements examining the reachability of the [Tor network](https://www.torproject.org/), WhatsApp and Facebook Messenger were successful, indicating that they were accessible in Indonesia throughout the testing period.
 
@@ -523,7 +523,7 @@ The sections below provide more information pertaining to the blocking of websit
 
 ### Blocked websites
 
-Multiple websites were [found to be blocked](https://gist.github.com/hellais/2a12178b89ae7eb30b2cc68a8aa22662) in Indonesia as part of this study. Upon analysis of [network measurement data](https://measurements.ooni.torproject.org/files/by_country/ID) collected through OONI’s [Web Connectivity test](https://ooni.torproject.org/nettest/web-connectivity/) (performed across 21 local vantage points), we found that Indonesian ISPs served **block pages for 161 websites through DNS hijacking** .
+Multiple websites were [found to be blocked](https://gist.github.com/hellais/2a12178b89ae7eb30b2cc68a8aa22662) in Indonesia as part of this study. Upon analysis of [network measurement data](https://measurements.ooni.org/files/by_country/ID) collected through OONI’s [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) (performed across 21 local vantage points), we found that Indonesian ISPs served **block pages for 161 websites through DNS hijacking** .
 
 The blocked sites fall under various categories, ranging from online forums, news outlets, and media sharing sites to more provocative categories, such as pornography and online gambling.
 
@@ -550,7 +550,7 @@ Ten online forums were found to be blocked in Indonesia, as illustrated in the t
 | `http://theoldtigersden.com`                             | 76                                                                                   | 21                                                                                   | 11                                                                                   | 2                                                                                     |
 | `http://bravo-pass.com`                                       | 71                                                                                   | 25                                                                                   | 13                                                                                   | 1                                                                                     |
 
-The analysis of [OONI network measurement data](https://measurements.ooni.torproject.org/files/by_country/ID) reveals that all ten sites presented block pages which were implemented through DNS hijacking. Many of these sites (except for pass-fan.com/faq.php) also presented HTTP and TCP/IP anomalies as part of the testing, as illustrated through the third column of the table above. The fourth and fifth columns of the table are included to show whether connectivity to the tested sites failed from a control vantage point, as well as whether those sites were found to be accessible as part of other measurements collected from different vantage points in Indonesia.
+The analysis of [OONI network measurement data](https://measurements.ooni.org/files/by_country/ID) reveals that all ten sites presented block pages which were implemented through DNS hijacking. Many of these sites (except for pass-fan.com/faq.php) also presented HTTP and TCP/IP anomalies as part of the testing, as illustrated through the third column of the table above. The fourth and fifth columns of the table are included to show whether connectivity to the tested sites failed from a control vantage point, as well as whether those sites were found to be accessible as part of other measurements collected from different vantage points in Indonesia.
 
 Interestingly enough, most of these sites are no longer operational, yet Indonesian ISPs appear to be blocking them nonetheless, indicating that the censorship likely started prior to the testing period.
 
@@ -566,7 +566,7 @@ Five news outlets were found to be blocked in Indonesia, as illustrated in the t
 | `http://crito.jw.lt`                           | 75                                                                 | 22                                                                 | 12                                                                 | 1                                                                   |
 | `http://www.reddit.com`                     | 76                                                                 | 25                                                                 | 7                                                                  | 5                                                                   |
 
-Reddit, an internationally popular source for sharing online news, presented 76 block pages - implemented through DNS hijacking - as part of our testing. In May 2014, the Indonesian government [banned access to reddit.com](https://www.techinasia.com/online-porn-crackdown-vimeo-reddit-imgur-blocked-indonesia) as part of its crackdown on online pornography. While reddit.com is mostly known as a web forum (rather than as a pornographic site), it may have been blocked for hosting some pornographic content and for enabling heated religious and political debates. Recent [OONI network measurement data ](https://explorer.ooni.torproject.org/measurement/20170509T133320Z_AS4795_tQ9EtO45V02RDj5mk0WnBBBZOR7gy3SVRPmhh4NbuF47OEr1j5?input=https:%2F%2Fwww.reddit.com%2F)shows that reddit.com is *still* blocked in some networks in Indonesia.
+Reddit, an internationally popular source for sharing online news, presented 76 block pages - implemented through DNS hijacking - as part of our testing. In May 2014, the Indonesian government [banned access to reddit.com](https://www.techinasia.com/online-porn-crackdown-vimeo-reddit-imgur-blocked-indonesia) as part of its crackdown on online pornography. While reddit.com is mostly known as a web forum (rather than as a pornographic site), it may have been blocked for hosting some pornographic content and for enabling heated religious and political debates. Recent [OONI network measurement data ](https://explorer.ooni.org/measurement/20170509T133320Z_AS4795_tQ9EtO45V02RDj5mk0WnBBBZOR7gy3SVRPmhh4NbuF47OEr1j5?input=https:%2F%2Fwww.reddit.com%2F)shows that reddit.com is *still* blocked in some networks in Indonesia.
 
 Free Speech TV, a U.S. independent news outlet “[committed to advancing progressive social change](https://www.freespeech.org/about-us)”, was also found to be blocked across Indonesian networks. The site shares daily news programs and independent documentaries covering issues ranging from economic justice and marriage equality to climate change and the cost of war. The motivation and justification behind the blocking of this site remains unclear.
 
@@ -583,7 +583,7 @@ Vimeo is an internationally popular video-sharing website that was found to be b
 | `http://www.crazyshit.com` | 82                                                   | 24                                                   | 9                                                    | 0                                                     |
 | `http://vimeo.com`                 | 83                                                   | 25                                                   | 2                                                    | 7                                                     |
 
-In May 2014, Indonesia’s government [banned access to Vimeo](https://citizenlab.org/2014/05/blocking-vimeo-indonesia/) under the country’s anti-pornography law ([along with vimeo.com and other sites](http://www.rappler.com/world/regions/asia-pacific/indonesia/english/120513-netflix-censorship)). Instead of applying filters to only block pornography found on the site, service providers blocked access to the entire website. Interestingly enough, even though the [ban was lifted in November 2014](http://www.thejakartapost.com/news/2014/11/07/ministry-allows-vimeo-keeps-ban-pornography.html) (following the election of the country’s new government), vimeo.com was still [found to be blocked](https://explorer.ooni.torproject.org/measurement/20161122T235755Z_AS17974_B99X6IZeCPwHcEVeBVUtCo0GPPpLD5WPA1hATU7xt3WwDZIhF8?input=http:%2F%2Fvimeo.com) in Indonesia between June 2016 to March 2017 in some local networks. This indicates three possibilities: (1) Some Indonesian ISPs did not lift the block after November 2014, (2) Some Indonesian ISPs decided to block the site at their own discretion, or (3) Some Indonesian ISPs received new government orders to block the site again.
+In May 2014, Indonesia’s government [banned access to Vimeo](https://citizenlab.org/2014/05/blocking-vimeo-indonesia/) under the country’s anti-pornography law ([along with vimeo.com and other sites](http://www.rappler.com/world/regions/asia-pacific/indonesia/english/120513-netflix-censorship)). Instead of applying filters to only block pornography found on the site, service providers blocked access to the entire website. Interestingly enough, even though the [ban was lifted in November 2014](http://www.thejakartapost.com/news/2014/11/07/ministry-allows-vimeo-keeps-ban-pornography.html) (following the election of the country’s new government), vimeo.com was still [found to be blocked](https://explorer.ooni.org/measurement/20161122T235755Z_AS17974_B99X6IZeCPwHcEVeBVUtCo0GPPpLD5WPA1hATU7xt3WwDZIhF8?input=http:%2F%2Fvimeo.com) in Indonesia between June 2016 to March 2017 in some local networks. This indicates three possibilities: (1) Some Indonesian ISPs did not lift the block after November 2014, (2) Some Indonesian ISPs decided to block the site at their own discretion, or (3) Some Indonesian ISPs received new government orders to block the site again.
 
 Similarly to vimeo.com, other sites (as included in the table above) were also found to be blocked as part of this study, possibly on the grounds of sharing content viewed as provocative or obscene.
 
@@ -710,7 +710,7 @@ Many of the sites included in the table above express criticism or hatred toward
 
 #### Human Rights Issues
 
-The Free Speech Coalition (FSC) is the trade association of the adult entertainment industry based in the United States. According to the organization, its [mission](https://www.freespeechcoalition.com/about-fsc/) involves *“fighting to alleviate the social stigma, misinformation, and discriminatory policies that affect those who work in and adjacent to the adult industry”*. Its site was found to be [blocked](https://explorer.ooni.torproject.org/measurement/20170226T210055Z_AS17974_LGZMSnxLVNa1ONZxLGDx2Q3jrg7VqC1Tc6iXeCN2yXJRzJeYme?input=http:%2F%2Fwww.freespeechcoalition.com) in Indonesia, as illustrated in the table below.
+The Free Speech Coalition (FSC) is the trade association of the adult entertainment industry based in the United States. According to the organization, its [mission](https://www.freespeechcoalition.com/about-fsc/) involves *“fighting to alleviate the social stigma, misinformation, and discriminatory policies that affect those who work in and adjacent to the adult industry”*. Its site was found to be [blocked](https://explorer.ooni.org/measurement/20170226T210055Z_AS17974_LGZMSnxLVNa1ONZxLGDx2Q3jrg7VqC1Tc6iXeCN2yXJRzJeYme?input=http:%2F%2Fwww.freespeechcoalition.com) in Indonesia, as illustrated in the table below.
 
 | **Blocked websites**                                                     | **Block pages**                                                          | **HTTP-diff, TCP_IP, HTTP-fail**                                         | **Control fail**                                                         | **Not blocked**                                                           |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------------------|
@@ -720,20 +720,20 @@ The Free Speech Coalition (FSC) is the trade association of the adult entertainm
 
 Pornography is [prohibited](http://www.abc.net.au/news/2008-10-31/indonesia-passes-tough-new-anti-porn-laws/188804) in Indonesia according to Law No. 44 of 2008. While the FSC does not distribute pornography, its site may have been blocked for supporting and defending those who work in the adult entertainment industry.
 
-The Guerilla Girls, on the other hand, are [female activist artists](https://www.guerrillagirls.com/#open) who wear gorilla masks in public and *“use facts, humor and outrageous visuals to expose gender and ethnic bias, as well as corruption in politics, art, film, and pop culture”*. They maintain anonymity while carrying out projects around the world that fight discrimination and support human rights for all people and genders. Their [site](https://www.guerrillagirls.com/) was found to be [blocked](https://explorer.ooni.torproject.org/measurement/20170226T231634Z_AS17974_tkXwaoCjToxrJTPZ7bhDU4v6BzFiAy9urx3l7Ipfd9T7YTC7O1?input=http:%2F%2Fguerrillagirls.com) in Indonesia during the testing period of this study.
+The Guerilla Girls, on the other hand, are [female activist artists](https://www.guerrillagirls.com/#open) who wear gorilla masks in public and *“use facts, humor and outrageous visuals to expose gender and ethnic bias, as well as corruption in politics, art, film, and pop culture”*. They maintain anonymity while carrying out projects around the world that fight discrimination and support human rights for all people and genders. Their [site](https://www.guerrillagirls.com/) was found to be [blocked](https://explorer.ooni.org/measurement/20170226T231634Z_AS17974_tkXwaoCjToxrJTPZ7bhDU4v6BzFiAy9urx3l7Ipfd9T7YTC7O1?input=http:%2F%2Fguerrillagirls.com) in Indonesia during the testing period of this study.
 
 #### Animal Rights
 
 People for the Ethical Treatment of Animals (PETA) is the largest animal rights organization in the world. In addition to their official site (peta.org), they also host the peta.xxx domain which is interesting because .xxx domains are commonly used for adult entertainment sites. It seems that PETA is hosting this domain to attract larger audiences (such as those seeking pornography) by sharing PETA videos and redirecting them to PETA’s official site.
 
-Upon analysis of network measurements, we found peta.xxx to be [blocked](https://explorer.ooni.torproject.org/measurement/20170101T000023Z_AS17974_xpj9FQ8eInz4lCarIF9ZsZgZyyp8JSyfZzzZFB3U0pfkbBS2QB?input=http:%2F%2Fpeta.xxx) in some networks in  Indonesia, while PETA’s official site (peta.org) was [accessible](https://explorer.ooni.torproject.org/measurement/20170225T040507Z_AS17974_aXj937BuBoBLsUnaLATzumXwdcTh0ZO5ZWP7KUCwKAdr6wXA64?input=http:%2F%2Fwww.peta.org) during the same period. This indicates that Indonesian ISPs likely assumed that peta.xxx was a pornographic site due its domain, and blocked it without realizing that it was actually an animal rights site. 
+Upon analysis of network measurements, we found peta.xxx to be [blocked](https://explorer.ooni.org/measurement/20170101T000023Z_AS17974_xpj9FQ8eInz4lCarIF9ZsZgZyyp8JSyfZzzZFB3U0pfkbBS2QB?input=http:%2F%2Fpeta.xxx) in some networks in  Indonesia, while PETA’s official site (peta.org) was [accessible](https://explorer.ooni.org/measurement/20170225T040507Z_AS17974_aXj937BuBoBLsUnaLATzumXwdcTh0ZO5ZWP7KUCwKAdr6wXA64?input=http:%2F%2Fwww.peta.org) during the same period. This indicates that Indonesian ISPs likely assumed that peta.xxx was a pornographic site due its domain, and blocked it without realizing that it was actually an animal rights site. 
 
 | **Blocked websites**               | **Block pages**                    | **HTTP-diff, TCP_IP, HTTP-fail**   | **Control fail**                   | **Not blocked**                     |
 |------------------------------------|------------------------------------|------------------------------------|------------------------------------|-------------------------------------|
 | `http://peta.xxx` | 77                                 | 14                                 | 0                                  | 24                                  |
 
 
-Our measurements though show that ISPs [lifted the block](https://explorer.ooni.torproject.org/measurement/20170228T215956Z_AS17974_u6l0voXmE2JCbP2e5ed9MUyYsdb1KK9eXVDZV7roTeYWJOYnzf?input=http:%2F%2Fpeta.xxx) on peta.xxx a few months later, possibly because they noticed that they were censoring an animal rights site instead of pornography.
+Our measurements though show that ISPs [lifted the block](https://explorer.ooni.org/measurement/20170228T215956Z_AS17974_u6l0voXmE2JCbP2e5ed9MUyYsdb1KK9eXVDZV7roTeYWJOYnzf?input=http:%2F%2Fpeta.xxx) on peta.xxx a few months later, possibly because they noticed that they were censoring an animal rights site instead of pornography.
 
 #### LGBT
 
@@ -930,7 +930,7 @@ The sections below provide further information, as collected through OONI’s so
 
 #### HTTP Header Field Manipulation tests
 
-OONI’s [HTTP Header Field Manipulation test](https://ooni.torproject.org/nettest/http-header-field-manipulation/) is designed to detect the presence of network components (“middleboxes”) which could be responsible for internet censorship, surveillance, and/or traffic manipulation. By emulating an HTTP request towards a server, this test sends non-canonical HTTP headers that have variations in capitalization. If OONI receives the HTTP headers exactly as they were sent, then there is likely no middle box in the tested network. If, however, a middle box is present in the tested network, it will likely normalize the headers or add extra headers to them.
+OONI’s [HTTP Header Field Manipulation test](https://ooni.org/nettest/http-header-field-manipulation/) is designed to detect the presence of network components (“middleboxes”) which could be responsible for internet censorship, surveillance, and/or traffic manipulation. By emulating an HTTP request towards a server, this test sends non-canonical HTTP headers that have variations in capitalization. If OONI receives the HTTP headers exactly as they were sent, then there is likely no middle box in the tested network. If, however, a middle box is present in the tested network, it will likely normalize the headers or add extra headers to them.
 
 Network measurements collected through OONI’s HTTP Header Field Manipulation test in Indonesia [show signs of network tampering](https://gist.github.com/hellais/7a54e1f765022eb7820aa5989c876675), indicating the presence of middleboxes which could be responsible for internet censorship and surveillance.
 
@@ -943,11 +943,11 @@ The table below illustrates the amount of normal and [anomalous measurements](ht
 
 The anomalous measurements present signs of network interference, indicating the presence of middleboxes, while normal measurements are those that do not present any signs of network tampering.
 
-It’s worth noting that a **middle box was [detected](https://explorer.ooni.torproject.org/measurement/20161219T000049Z_AS17974_VIUyHiQj5rKlMP1hTxg0IYVU6tkX8ovozq2JHHaA7Wjy9ZXbwz)** in the Telekomunikasi Indonesia (AS17974) network, and that OONI’s HTTP Header Field Manipulation test. While it’s unclear if this specific system was used to implement internet censorship, it’s worth emphasizing that most measurements collected from this network presented signs of network tampering (as illustrated in the table above), and that this provider served block pages for many of the sites that were tested as part of this study.
+It’s worth noting that a **middle box was [detected](https://explorer.ooni.org/measurement/20161219T000049Z_AS17974_VIUyHiQj5rKlMP1hTxg0IYVU6tkX8ovozq2JHHaA7Wjy9ZXbwz)** in the Telekomunikasi Indonesia (AS17974) network, and that OONI’s HTTP Header Field Manipulation test. While it’s unclear if this specific system was used to implement internet censorship, it’s worth emphasizing that most measurements collected from this network presented signs of network tampering (as illustrated in the table above), and that this provider served block pages for many of the sites that were tested as part of this study.
 
 #### HTTP Invalid Request Line tests
 
-OONI’s [HTTP Invalid Request Line test](https://ooni.torproject.org/nettest/http-invalid-request-line/) is designed to detect the presence of network components (“middleboxes”) which could be responsible for internet censorship, surveillance, and/or traffic manipulation. Instead of sending a normal HTTP request, this test sends an invalid HTTP request line - containing an invalid HTTP version number, an invalid field count and a huge request method - to an echo service listening on the standard HTTP port. If a middle box is not present in the network between the user and the echo service, then the echo service will send the invalid HTTP request line back to the user, exactly as it received it. If, however, a middle box is present in the tested network, the invalid request line will be intercepted by the middle box and this may trigger an error, which may be sent back to OONI’s servers. 
+OONI’s [HTTP Invalid Request Line test](https://ooni.org/nettest/http-invalid-request-line/) is designed to detect the presence of network components (“middleboxes”) which could be responsible for internet censorship, surveillance, and/or traffic manipulation. Instead of sending a normal HTTP request, this test sends an invalid HTTP request line - containing an invalid HTTP version number, an invalid field count and a huge request method - to an echo service listening on the standard HTTP port. If a middle box is not present in the network between the user and the echo service, then the echo service will send the invalid HTTP request line back to the user, exactly as it received it. If, however, a middle box is present in the tested network, the invalid request line will be intercepted by the middle box and this may trigger an error, which may be sent back to OONI’s servers. 
 
 Network measurements collected through OONI’s HTTP Invalid Request Line test in Indonesia [show signs of network tampering](https://gist.github.com/hellais/7a54e1f765022eb7820aa5989c876675), indicating the presence of middleboxes which could be responsible for internet censorship and surveillance.
 
@@ -974,11 +974,11 @@ Interestingly enough, both OONI tests (HTTP Header Field Manipulation and HTTP I
 
 The findings of this study present various limitations and do not necessarily reflect a comprehensive view of internet censorship in Indonesia.
 
-The first limitation is associated with the testing period. While [thousands of ooniprobe network measurements have been collected from Indonesia since 2014](https://measurements.ooni.torproject.org/files/by_country/ID) and continue to be collected on the day of the publication of this report, this study only analyzes network measurements that were collected between **22nd June 2016 to 1st March 2017**. This study is limited to this time frame because we aim to examine the most recent censorship events and because there was a significant increase in the collection of network measurements during this period, in comparison to previous months and years. As such, censorship events which may have occurred before and/or after the analysis period are not examined as part of this study.
+The first limitation is associated with the testing period. While [thousands of ooniprobe network measurements have been collected from Indonesia since 2014](https://measurements.ooni.org/files/by_country/ID) and continue to be collected on the day of the publication of this report, this study only analyzes network measurements that were collected between **22nd June 2016 to 1st March 2017**. This study is limited to this time frame because we aim to examine the most recent censorship events and because there was a significant increase in the collection of network measurements during this period, in comparison to previous months and years. As such, censorship events which may have occurred before and/or after the analysis period are not examined as part of this study.
 
-Another limitation to this study is associated to the amount and types of URLs that were tested for censorship. As mentioned in the methodology section of this report, OONI’s [Web Connectivity test](https://ooni.torproject.org/nettest/web-connectivity/) was run to examine the accessibility of 160 URLs that are more relevant to the Indonesian context and of 1,105 internationally relevant sites. While a total of **1,765 URLs** were tested for censorship as part of this study, we did not test all of the URLs on the internet, indicating the possibility that other websites not included in [tests lists](https://github.com/citizenlab/test-lists/tree/master/lists) might have been blocked.
+Another limitation to this study is associated to the amount and types of URLs that were tested for censorship. As mentioned in the methodology section of this report, OONI’s [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) was run to examine the accessibility of 160 URLs that are more relevant to the Indonesian context and of 1,105 internationally relevant sites. While a total of **1,765 URLs** were tested for censorship as part of this study, we did not test all of the URLs on the internet, indicating the possibility that other websites not included in [tests lists](https://github.com/citizenlab/test-lists/tree/master/lists) might have been blocked.
 
-Finally, while network measurements were collected from **21 different local vantage points** in Indonesia, [OONI’s software tests](https://github.com/TheTorProject/ooni-probe) were not run consistently across all networks. Stable measurements were collected from certain vantage points throughout the testing period, but less stable measurements were also collected from a number of other vantage points following the [launch of OONI’s mobile app](https://ooni.torproject.org/post/ooni-mobile-app/) on 9th February 2017. In other words, once [ooniprobe](https://github.com/TheTorProject/ooni-probe) became easier to install and run via its mobile version for Android and iOS, we received an increased amount of sporadic measurements from various new networks. Since tests were not always run consistently, our ability to evaluate whether censorship cases were persistent was limited.
+Finally, while network measurements were collected from **21 different local vantage points** in Indonesia, [OONI’s software tests](https://github.com/TheTorProject/ooni-probe) were not run consistently across all networks. Stable measurements were collected from certain vantage points throughout the testing period, but less stable measurements were also collected from a number of other vantage points following the [launch of OONI’s mobile app](https://ooni.org/post/ooni-mobile-app/) on 9th February 2017. In other words, once [ooniprobe](https://github.com/TheTorProject/ooni-probe) became easier to install and run via its mobile version for Android and iOS, we received an increased amount of sporadic measurements from various new networks. Since tests were not always run consistently, our ability to evaluate whether censorship cases were persistent was limited.
 
 # Conclusion
 
@@ -988,7 +988,7 @@ Through the collection and analysis of network measurements, we found many porno
 
 It’s worth emphasizing that we found **_Vimeo and Reddit to be blocked in some networks_** in Indonesia, even though their [ban was lifted in November 2014](http://www.thejakartapost.com/news/2014/11/07/ministry-allows-vimeo-keeps-ban-pornography.html) following the election of the country’s new government. This highlights the **_need for oversight_** for the implementation of internet censorship, to ensure that censorship is legally proportionate and that sites are unblocked after bans are lifted.
 
-Our study also shows that an Indonesian ISP [blocked](https://explorer.ooni.torproject.org/measurement/20170101T000023Z_AS17974_xpj9FQ8eInz4lCarIF9ZsZgZyyp8JSyfZzzZFB3U0pfkbBS2QB?input=http:%2F%2Fpeta.xxx) access to a *popular animal rights website* , possibly for having mistaken it for a pornographic website due to its domain (peta.xxx). The site was [unblocked](https://explorer.ooni.torproject.org/measurement/20170228T215956Z_AS17974_u6l0voXmE2JCbP2e5ed9MUyYsdb1KK9eXVDZV7roTeYWJOYnzf?input=http:%2F%2Fpeta.xxx) a few months later, likely because the ISP noticed that they were censoring an animal rights site instead of pornography. This example is particularly interesting because it highlights two important things: First, Indonesian ISPs appear to be *blocking sites at their own discretion* under loosely defined government orders. Second, it emphasizes the **_need for transparency and accountability_** in terms of government orders and which sites ISPs end up blocking.
+Our study also shows that an Indonesian ISP [blocked](https://explorer.ooni.org/measurement/20170101T000023Z_AS17974_xpj9FQ8eInz4lCarIF9ZsZgZyyp8JSyfZzzZFB3U0pfkbBS2QB?input=http:%2F%2Fpeta.xxx) access to a *popular animal rights website* , possibly for having mistaken it for a pornographic website due to its domain (peta.xxx). The site was [unblocked](https://explorer.ooni.org/measurement/20170228T215956Z_AS17974_u6l0voXmE2JCbP2e5ed9MUyYsdb1KK9eXVDZV7roTeYWJOYnzf?input=http:%2F%2Fpeta.xxx) a few months later, likely because the ISP noticed that they were censoring an animal rights site instead of pornography. This example is particularly interesting because it highlights two important things: First, Indonesian ISPs appear to be *blocking sites at their own discretion* under loosely defined government orders. Second, it emphasizes the **_need for transparency and accountability_** in terms of government orders and which sites ISPs end up blocking.
 
 Under the MICT’s [ 2014 decree](https://ppidkemkominfo.files.wordpress.com/2015/03/pm-19-tahun-2014-tentang-situs-negatif.pdf), however, Indonesian ISPs are granted the authority to ban “negative content” at their own discretion, regardless of whether such sites are included in the MICT’s official Trust Positif [blocklists](http://trustpositif.kominfo.go.id/files/downloads/index.php?dir=database). This excessive authority granted to Indonesian ISPs may explain why many different types of sites were found to be blocked across different networks.
 

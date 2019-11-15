@@ -9,7 +9,7 @@ categories: ["blog"]
 Last year we had the opportunity to travel to Cuba to explore its internet
 landscape. We spent most of our time hopping from one public WiFi hotspot to
 another, measuring networks in Havana, Santa Clara, and Santiago de Cuba. You
-might remember that we published a [research report](https://ooni.torproject.org/post/cuba-internet-censorship-2017/) on our findings.
+might remember that we published a [research report](https://ooni.org/post/cuba-internet-censorship-2017/) on our findings.
 
 Today we publish a **short documentary (“ParkNet”)** on our study of internet
 censorship in Cuba.

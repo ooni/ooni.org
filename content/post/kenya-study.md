@@ -8,7 +8,7 @@ categories: ["report"]
 
 Over the last five months we ran [OONI tests](https://github.com/TheTorProject/ooni-probe) in Kenya almost every day to examine
 whether internet censorship events were occurring in the country. Hundreds of
-thousands of [network measurements](https://explorer.ooni.torproject.org/country/KE) were collected and analyzed. [1,357 URLs](https://github.com/citizenlab/test-lists/tree/master/lists) were
+thousands of [network measurements](https://explorer.ooni.org/country/KE) were collected and analyzed. [1,357 URLs](https://github.com/citizenlab/test-lists/tree/master/lists) were
 tested for censorship, including both [international websites](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) and [sites that are more relevant to Kenya](https://github.com/citizenlab/test-lists/blob/master/lists/ke.csv) (e.g. local news outlets). Yet, after five months of
 intensive testing from four local vantage points in Kenya, we found almost no
 signs of internet censorship in the country.
@@ -23,13 +23,13 @@ news media, file-sharing and culture, to provocative or objectionable
 categories, like pornography, political criticism, and hate speech.
 
 All of the URLs in both the [Kenyan list](https://github.com/citizenlab/test-lists/blob/master/lists/ke.csv) and the “[global list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)” (containing
-internationally relevant websites) were tested for censorship through [OONI’s Web Connectivity test](https://ooni.torproject.org/nettest/web-connectivity/). This test is designed to examine whether access to websites
+internationally relevant websites) were tested for censorship through [OONI’s Web Connectivity test](https://ooni.org/nettest/web-connectivity/). This test is designed to examine whether access to websites
 is blocked through DNS tampering, TCP connection RST/IP blocking, or by a
 transparent HTTP proxy.
 
 But our testing wasn’t limited to the blocking of websites. We also tested the
-reachability of the [Tor anonymity network](https://www.torproject.org/) through OONI’s relevant [software test](https://ooni.torproject.org/nettest/vanilla-tor/),
-and we ran other OONI tests ([HTTP invalid request line](https://ooni.torproject.org/nettest/http-invalid-request-line/) and [HTTP header field manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/)) in an attempt to examine whether systems (“middle boxes”) that
+reachability of the [Tor anonymity network](https://www.torproject.org/) through OONI’s relevant [software test](https://ooni.org/nettest/vanilla-tor/),
+and we ran other OONI tests ([HTTP invalid request line](https://ooni.org/nettest/http-invalid-request-line/) and [HTTP header field manipulation](https://ooni.org/nettest/http-header-field-manipulation/)) in an attempt to examine whether systems (“middle boxes”) that
 could be responsible for censorship and/or surveillance were present in the
 tested network.
 
@@ -41,10 +41,10 @@ was blocked, and whether proxy technologies were present in the tested network.
 
 # Findings
 
-Upon analysis of the [network measurements](https://explorer.ooni.torproject.org/country/KE) collected from Kenya, we found almost
+Upon analysis of the [network measurements](https://explorer.ooni.org/country/KE) collected from Kenya, we found almost
 no signs of internet censorship.
 
-Out of all the [URLs](https://github.com/citizenlab/test-lists/tree/master/lists) that we tested, the only site that was [likely blocked](https://explorer.ooni.torproject.org/measurement/20161107T075602Z_AS36914_TjQtUZ2q8AOROLbiBqVmR9IlueW8SBSg5Ng69aSWShud2mQeJb?input=http:%2F%2Fwww.sportingbet.com) in
+Out of all the [URLs](https://github.com/citizenlab/test-lists/tree/master/lists) that we tested, the only site that was [likely blocked](https://explorer.ooni.org/measurement/20161107T075602Z_AS36914_TjQtUZ2q8AOROLbiBqVmR9IlueW8SBSg5Ng69aSWShud2mQeJb?input=http:%2F%2Fwww.sportingbet.com) in
 Kenya according to our testing is **http://www.sportingbet.com**. The table below
 illustrates that most of our attempts to establish a TCP connection to this site
 failed, indicating the possibility of TCP/IP blocking.
@@ -57,7 +57,7 @@ The inaccessibility of http://www.sportingbet.com was also confirmed by our
 local partner in Kenya. Given though that this site was only one of hundreds of
 gambling sites that we tested, it remains unclear why there would be motivation
 to block access to this particular site, and not others. It’s interesting to see
-though that access to the same site appears to be [interfered](https://explorer.ooni.torproject.org/measurement/20161221T000038Z_AS29032_6B7aAG70pQs8UxMERv9ffjDqbCyqzbWL2k5pVhzSynKZC5ep48?input=http:%2F%2Fwww.sportingbet.com) with in other,
+though that access to the same site appears to be [interfered](https://explorer.ooni.org/measurement/20161221T000038Z_AS29032_6B7aAG70pQs8UxMERv9ffjDqbCyqzbWL2k5pVhzSynKZC5ep48?input=http:%2F%2Fwww.sportingbet.com) with in other,
 neighbouring African countries as well.
 
 While other measurements presented similar anomalies, we excluded them from our
@@ -115,21 +115,21 @@ decisions around internet censorship can change along with them.
 OONI’s software (called [ooniprobe](https://github.com/TheTorProject/ooni-probe)) allows users around the world to
 automatically test their networks every day for signs of internet censorship.
 When and if internet censorship occurs, network data demonstrating how it’s
-implemented will be collected, analyzed and [published](https://explorer.ooni.torproject.org/world/). This can help increase
+implemented will be collected, analyzed and [published](https://explorer.ooni.org/world/). This can help increase
 transparency around internet censorship.
 
 In light of the limitations outlined above, we encourage individuals in Kenya to
 contribute to this study through the following ways:
 
 1. If you’re a Linux or macOS user, consider running ooniprobe (especially if you
-can cover different vantage points!). Learn how to do so [here](https://ooni.torproject.org/install/ooniprobe/). 
+can cover different vantage points!). Learn how to do so [here](https://ooni.org/install/ooniprobe/). 
 
 2. If you’re a
 Windows user or are interested in running ooniprobe from a separate device,
 consider running ooniprobe’s distribution for Raspberry Pis. Learn how to do so
-[here](https://ooni.torproject.org/install/lepidopter/). 
+[here](https://ooni.org/install/lepidopter/). 
 
 3. If you have insights on which URLs to test for censorship, consider
-contributing to the [Kenyan test list](https://github.com/citizenlab/test-lists/blob/master/lists/ke.csv). Find information on how to do so [here](https://ooni.torproject.org/get-involved/contribute-test-lists/).
+contributing to the [Kenyan test list](https://github.com/citizenlab/test-lists/blob/master/lists/ke.csv). Find information on how to do so [here](https://ooni.org/get-involved/contribute-test-lists/).
 
 Questions? Contact us at contact@openobservatory.org.
