@@ -10,9 +10,9 @@ To our knowledge, no ooniprobe user has ever faced consequences as a result of u
 
 * Anyone monitoring your internet activity (e.g. ISP, government, employer) will be able to see that you are running ooniprobe;
 
-* OONI's [Web Connectivity test](https://ooni.torproject.org/nettest/web-connectivity/) connects to and downloads data from a broad range of sites, including provocative or objectionable sites (e.g. pornography), which might be illegal in some countries;
+* OONI's [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) connects to and downloads data from a broad range of sites, including provocative or objectionable sites (e.g. pornography), which might be illegal in some countries;
 
-* By default, all network measurement data collected by ooniprobe is [published](https://ooni.torproject.org/data/) to increase transparency of internet censorship, foster public debate, and support research. However, sending local network information to foreign servers might not be viewed favourably by some governments. While the data published is restricted to what is necessary to identify cases of censorship (and we do our best to not publish IP addresses), motivated ISPs might attempt to identify ooniprobe users through public OONI data.
+* By default, all network measurement data collected by ooniprobe is [published](https://ooni.org/data/) to increase transparency of internet censorship, foster public debate, and support research. However, sending local network information to foreign servers might not be viewed favourably by some governments. While the data published is restricted to what is necessary to identify cases of censorship (and we do our best to not publish IP addresses), motivated ISPs might attempt to identify ooniprobe users through public OONI data.
 
 Therefore the potential risks associated to running ooniprobe depend on:
 
@@ -20,9 +20,9 @@ Therefore the potential risks associated to running ooniprobe depend on:
 
 2. **The laws and regulations in the country that you are running ooniprobe from.** Best to consult with local lawyers, and to learn whether that country has a record in prosecuting individuals engaging in similar types of activities. 
 
-3. **The types of ooniprobe tests run.** Not all ooniprobe tests carry the same weight in terms of potential risk. OONI's [WhatsApp test](https://ooni.torproject.org/nettest/whatsapp/), for example, merely attempts to connect to servers that are already connected by more than a billion people around the world. You can opt-out from having ooniprobe run automatically, and you can choose which tests to run through OONI's web user interface. 
+3. **The types of ooniprobe tests run.** Not all ooniprobe tests carry the same weight in terms of potential risk. OONI's [WhatsApp test](https://ooni.org/nettest/whatsapp/), for example, merely attempts to connect to servers that are already connected by more than a billion people around the world. You can opt-out from having ooniprobe run automatically, and you can choose which tests to run through OONI's web user interface. 
 
-4. **The types of sites that you test.** You can test your own list of sites through the following command line option: `ooniprobe <test-name> -f <your-test-list>`. You can also [contribute to test lists](https://ooni.torproject.org/get-involved/contribute-test-lists/) and suggest URLs to be added or removed. 
+4. **The types of sites that you test.** You can test your own list of sites through the following command line option: `ooniprobe <test-name> -f <your-test-list>`. You can also [contribute to test lists](https://ooni.org/get-involved/contribute-test-lists/) and suggest URLs to be added or removed. 
 
 5. **Whether you have ooniprobe data published.** You can opt-out from having your data published through ooniprobe settings. 
 
@@ -40,7 +40,7 @@ Users run ooniprobe at their own risk. By installing ooniprobe, users agree to
 comply with OONI's software
 [license](https://github.com/TheTorProject/ooni-probe/blob/master/LICENSE)
 and [Data Policy](/about/data-policy). Neither the
-[OONI project](https://ooni.torproject.org/) nor its parent organization, [The Tor Project](https://www.torproject.org/), can be held liable, jointly or
+[OONI project](https://ooni.org/) nor its parent organization, [The Tor Project](https://www.torproject.org/), can be held liable, jointly or
 severally, at law or at equity, to ooniprobe users and other third parties, for
 any risks or damages resulting from the use of ooniprobe under any tort,
 contract, or other causes of action.
@@ -139,7 +139,7 @@ that you have downloaded, installed or run ooniprobe.
 By default, all measurements generated through ooniprobe are sent to OONI's
 measurement collector and automatically published through:
 
-* [OONI Explorer](https://explorer.ooni.torproject.org/world/)
+* [OONI Explorer](https://explorer.ooni.org/world/)
 
 * [OONI Measurements API](https://api.ooni.io/)
 
@@ -181,7 +181,7 @@ for each ooniprobe test carefully, prior to running them.
 
 #### Legality of tested websites
 
-When running OONI's [web connectivity test](https://ooni.torproject.org/nettest/web-connectivity/) you will connect to and download data from various websites
+When running OONI's [web connectivity test](https://ooni.org/nettest/web-connectivity/) you will connect to and download data from various websites
 which are included in the following two lists:
 
 * **[Country-specific test list](https://github.com/citizenlab/test-lists/tree/master/lists)** 
@@ -207,7 +207,7 @@ Some network tests performed by ooniprobe may violate your country's computer
 misuse laws or terms of service of your internet provider.
 
 Specifically, the operators of network components affected by ooniprobe tests
-may view these tests as attacks. OONI's **[HTTP-invalid-request-line](https://ooni.torproject.org/nettest/http-invalid-request-line/)** test,
+may view these tests as attacks. OONI's **[HTTP-invalid-request-line](https://ooni.org/nettest/http-invalid-request-line/)** test,
 for example, *might* trigger suspicion when sending out-of-spec messages to an
 echo service and could be viewed as a form of "hacking". If network components
 affected by this test view these out-of-spec messages as attacks, you may face
@@ -219,16 +219,16 @@ By default, ooniprobe network measurements are sent to OONI's measurement
 collector through the use of [Tor hidden services](https://www.torproject.org/docs/hidden-services) which are designed
 for online anonymity.
 
-Furthermore, OONI's **[Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/)** test is designed to examine the reachability of the Tor network, while
-OONI's **[bridge-reachability](https://ooni.torproject.org/nettest/tor-bridge-reachability/)** test is designed to check whether [Tor bridges](https://bridges.torproject.org/) are blocked or not. Both tests require
+Furthermore, OONI's **[Vanilla Tor](https://ooni.org/nettest/vanilla-tor/)** test is designed to examine the reachability of the Tor network, while
+OONI's **[bridge-reachability](https://ooni.org/nettest/tor-bridge-reachability/)** test is designed to check whether [Tor bridges](https://bridges.torproject.org/) are blocked or not. Both tests require
 the installation of [Tor software](https://www.torproject.org/).
 
 Similarly, the following OONI tests require the installation of circumvention
 software:
 
-* **[Psiphon](https://ooni.torproject.org/nettest/psiphon/)**
+* **[Psiphon](https://ooni.org/nettest/psiphon/)**
 
-* **[Lantern](https://ooni.torproject.org/nettest/lantern/)**
+* **[Lantern](https://ooni.org/nettest/lantern/)**
 
 We therefore encourage you to consult with a lawyer on the legality of anonymity
 software (such as Tor, a VPN or a proxy) in your country *prior* to running the
@@ -237,7 +237,7 @@ cloud-fronting (instead of Tor hidden services).
 
 #### Third-party services
 
-Our [Network Diagnostic Test (NDT)](https://ooni.torproject.org/nettest/ndt/) is
+Our [Network Diagnostic Test (NDT)](https://ooni.org/nettest/ndt/) is
 a general-purpose performance test conducted against third-party servers
 provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). M-Lab's
 NDT services require the retention and disclosure of IP addresses for research
@@ -303,7 +303,7 @@ Again, users run ooniprobe at their own risk. By installing ooniprobe, users agr
 comply with OONI's software
 [license](https://github.com/TheTorProject/ooni-probe/blob/master/LICENSE)
 and [Data Policy](/about/data-policy). Neither the
-[OONI project](https://ooni.torproject.org/) nor its parent organization, [The Tor Project](https://www.torproject.org/), can be held liable, jointly or
+[OONI project](https://ooni.org/) nor its parent organization, [The Tor Project](https://www.torproject.org/), can be held liable, jointly or
 severally, at law or at equity, to ooniprobe users and other third parties, for
 any risks or damages resulting from the use of ooniprobe under any tort,
 contract, or other causes of action.

@@ -51,7 +51,7 @@ efforts underway include:
 
 * **Probe Orchestration:** Creating a feedback loop for follow-up measurements and for collecting data when emergent censorship events occur.
 
-* **OONI Explorer:** Revamping [OONI Explorer](https://explorer.ooni.torproject.org/world/) to make it more usable by community members, data scientists, researchers, journalists, and policy makers.
+* **OONI Explorer:** Revamping [OONI Explorer](https://explorer.ooni.org/world/) to make it more usable by community members, data scientists, researchers, journalists, and policy makers.
 
 * **Internet blackouts:** Creating the first methodology for the automatic detection and examination of internet blackouts around the world.
 
@@ -125,7 +125,7 @@ notes are available
 
 * **Session 3:** Community needs and priorities
 
-Through our partnership program, the [OONI Partner Gathering](https://ooni.torproject.org/post/ooni-partner-gathering-2017/),
+Through our partnership program, the [OONI Partner Gathering](https://ooni.org/post/ooni-partner-gathering-2017/),
 and other community engagement activities, we have been receiving
 feedback from community members on an ongoing basis. As part of this
 session, we discussed some of the top, recurring community needs and
@@ -189,7 +189,7 @@ year. The session notes are available
 
 * **Session 3:** The future of Lepidopter
 
-[Lepidopter](https://ooni.torproject.org/install/lepidopter/) is an
+[Lepidopter](https://ooni.org/install/lepidopter/) is an
 OONI Probe distribution for Raspberry Pis that has been used by many of
 our partners over the last year for the stable collection of
 measurements. However, we have learned that shipping hardware can be

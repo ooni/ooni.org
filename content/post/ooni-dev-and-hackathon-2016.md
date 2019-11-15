@@ -9,7 +9,7 @@ categories: ["blog"]
 Oonitarians are spread out across the globe, and OONI’s core team is no
 exception. We recently met in Berlin to hack on [OONI’s software](https://github.com/TheTorProject/ooni-probe), work on our
 roadmap, and to have all those discussions that are more fruitful to have in
-person than on IRC. We also held a [hackathon](https://ooni.torproject.org/post/berlin-hackathon-2016/) to engage new individuals with our project!
+person than on IRC. We also held a [hackathon](https://ooni.org/post/berlin-hackathon-2016/) to engage new individuals with our project!
 
 Below we document some of the things that we worked on as part of our OONI-dev
 meeting and hackathon.
@@ -71,7 +71,7 @@ network measurement library that ooniprobe is being integrated in).
 
 # OONI Hackathon
 
-The [OONI hackathon](https://ooni.torproject.org/post/berlin-hackathon-2016/),
+The [OONI hackathon](https://ooni.org/post/berlin-hackathon-2016/),
 held at Berlin’s OnionSpace on 11th and 12th November, was an opportunity for us
 to meet new people interested in engaging with our project. We were excited to
 see that individuals with diverse skills and backgrounds showed up at the
@@ -83,7 +83,7 @@ hackathon.
 
 ## Data analysis
 
-[OONI Explorer](https://explorer.ooni.torproject.org/) provides a web interface
+[OONI Explorer](https://explorer.ooni.org/) provides a web interface
 to explore all of OONI’s network measurements. However, OONI’s data processing
 [pipeline](https://github.com/TheTorProject/ooni-pipeline) still needs some
 improvement to make OONI’s data more accessible and easier to navigate. As
@@ -112,8 +112,8 @@ across time, and across countries, and filtering them as false positives.
 
 ## OONI's measurement API
 
-In addition to [OONI Explorer](https://explorer.ooni.torproject.org/world/),
-OONI’s network measurements are published in [JSON format](https://measurements.ooni.torproject.org/). One of our priorities though
+In addition to [OONI Explorer](https://explorer.ooni.org/world/),
+OONI’s network measurements are published in [JSON format](https://measurements.ooni.org/). One of our priorities though
 is to also build an API to the measurements that enables data analysis, allowing
 users to query the API to retrieve measurements based on certain characteristics
 (to query, for example, all anomalous measurements).
@@ -126,7 +126,7 @@ and created a staging version of it.
 Several web developers joined the hackathon and we worked with them on the
 following:
 
-* **Restructuring the “[Tests](https://ooni.torproject.org/nettest/)” section of the website.** OONI has developed multiple
+* **Restructuring the “[Tests](https://ooni.org/nettest/)” section of the website.** OONI has developed multiple
 free software tests and this section of the website was created to not only list
 them, but to also provide descriptions explaining what each test is designed to
 do. As part of the hackathon, one of the participants [worked](https://github.com/TheTorProject/ooni-web/pull/87) on restructuring
@@ -141,7 +141,7 @@ website to make the flow of information more accessible.
 page on OONI’s website which addresses some of the questions that we frequently
 get asked by community members is important. As part of the hackathon, we [worked](https://github.com/TheTorProject/ooni-web/pull/91)
 on creating a FAQ section for OONI’s website. If any important questions are
-missing in there, please don’t hesitate to [contact](https://ooni.torproject.org//about/) us.
+missing in there, please don’t hesitate to [contact](https://ooni.org//about/) us.
 
 ## Measurement-kit
 

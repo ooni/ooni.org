@@ -60,7 +60,7 @@ Image by [@neemascribbles](https://www.instagram.com/neemascribbles/).
 
 This study is part of an ongoing effort to examine internet censorship in Uganda and in [more than 200 other countries](https://explorer.ooni.io/world/) around the world.
 
-The [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) and [DefendDefenders](https://www.defenddefenders.org/) (The East and Horn of Africa Human Rights Defenders Project) collaborated on a joint research study to examine internet censorship in Uganda through the collection and analysis of network measurements. The aim of this study is to document internet censorship in Uganda through the analysis of empirical data. 
+The [Open Observatory of Network Interference (OONI)](https://ooni.org/) and [DefendDefenders](https://www.defenddefenders.org/) (The East and Horn of Africa Human Rights Defenders Project) collaborated on a joint research study to examine internet censorship in Uganda through the collection and analysis of network measurements. The aim of this study is to document internet censorship in Uganda through the analysis of empirical data. 
 
 The following sections provide information about Uganda’s [new social media tax](https://www.wired.com/story/uganda-social-media-tax-stays-for-now/). We also document our methodology and present the findings from our analysis.
 

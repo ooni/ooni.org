@@ -64,7 +64,7 @@ We were only able to access the bare IP address from China, indicating that SNI 
 
 ![](/post/2019-china-wikipedia-blocking/firefox-3.png)
 
-To further validate the theory that filtering was happening based on [SNI filtering](https://en.wikipedia.org/wiki/Server_Name_Indication), we ran the following curl tests ([we ran similar tests in Venezuela to confirm the same hypothesis](https://ooni.torproject.org/post/venezuela-blocking-wikipedia-and-social-media-2019/)):
+To further validate the theory that filtering was happening based on [SNI filtering](https://en.wikipedia.org/wiki/Server_Name_Indication), we ran the following curl tests ([we ran similar tests in Venezuela to confirm the same hypothesis](https://ooni.org/post/venezuela-blocking-wikipedia-and-social-media-2019/)):
 
 ```
 $ curl -v --connect-to ::www.kernel.org: https://www.wikipedia.org
@@ -140,6 +140,6 @@ curl: (51) SSL: no alternative certificate subject name matches target host name
 
 Based on these tests, we were able to conclude that China Telecom does in fact block all language editions of Wikipedia by means of both DNS injection and SNI filtering. 
 
-Similarly to [censorship implemented in Egypt](https://ooni.torproject.org/post/egypt-internet-censorship/), perhaps this can be viewed as a “[defense in depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing))” tactic for network filtering. By implementing both DNS and SNI-based filtering, China Telecom creates multiple layers of censorship that make circumvention harder.
+Similarly to [censorship implemented in Egypt](https://ooni.org/post/egypt-internet-censorship/), perhaps this can be viewed as a “[defense in depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing))” tactic for network filtering. By implementing both DNS and SNI-based filtering, China Telecom creates multiple layers of censorship that make circumvention harder.
 
 The use of an encrypted DNS resolver (such as DNS over HTTPS) together with [Encrypted SNI (ESNI)](https://datatracker.ietf.org/doc/draft-ietf-tls-esni/) could potentially work as a circumvention strategy. Wikipedia.org does not currently support ESNI, but there have been [discussions](https://phabricator.wikimedia.org/T205378) about enabling it.

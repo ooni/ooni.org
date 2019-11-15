@@ -56,8 +56,8 @@ in Pakistan last Saturday, 25th November, and Sunday, 26th November
 
 To confirm these reports and examine how the blocks were implemented, we
 analyzed [OONI network measurement data](https://api.ooni.io/files/by_country/PK) collected from Pakistan.
-[OONI Probe](https://ooni.torproject.org/install/) is [free and open source software](https://github.com/TheTorProject/ooni-probe) designed
-to measure internet censorship, including the [blocking of websites](https://ooni.torproject.org/nettest/web-connectivity/).
+[OONI Probe](https://ooni.org/install/) is [free and open source software](https://github.com/TheTorProject/ooni-probe) designed
+to measure internet censorship, including the [blocking of websites](https://ooni.org/nettest/web-connectivity/).
 Community members in Pakistan have been running OONI Probe on a daily
 basis for more than a year, providing data on the changing availability
 of websites.
@@ -88,7 +88,7 @@ lookup errors for these sites only showed up in OONI measurements on the
 25th and 26th of November.
 
 This is not the first time these sites have been interfered with in
-Pakistan. In our recently published [research report](https://ooni.torproject.org/post/pakistan-internet-censorship/)
+Pakistan. In our recently published [research report](https://ooni.org/post/pakistan-internet-censorship/)
 in collaboration with [Bytes For All, Pakistan](http://content.bytesforall.pk/), we analyze network
 measurements in the country from between 2014 to 2017. This study
 confirms observations of blocking the HTTP versions of certain YouTube,
@@ -233,7 +233,7 @@ November were also blocked on the 26th of November - we do not have
 testing data.
 
 This is the first time that we have observed censorship of news websites
-in Pakistan. Our [previous study](https://ooni.torproject.org/post/pakistan-internet-censorship/),
+in Pakistan. Our [previous study](https://ooni.org/post/pakistan-internet-censorship/),
 involving the analysis of thousands of network measurements collected
 between 2014 to 2017, only allowed us to confirm the blocking of sites
 expressing religious criticism and minority sites.
@@ -269,7 +269,7 @@ useful to track censorship events when/if they occur.
 
 To reproduce this study:
 
-1.  [Install](https://ooni.torproject.org/install/) the OONI Probe
+1.  [Install](https://ooni.org/install/) the OONI Probe
     mobile app (Android, F-Droid, iOS)
 
 2.  Add the sites that you want to test to [OONI Run](https://run.ooni.io/) and generate a link
@@ -301,7 +301,7 @@ towards the end of each measurement page).
 
 To run more OONI Probe tests and to schedule daily testing, consider
 running OONI Probe on
-[Linux](https://ooni.torproject.org/install/ooniprobe),
-[macOS](https://ooni.torproject.org/install/ooniprobe), or on a
-[Raspberry Pi](https://ooni.torproject.org/install/lepidopter/). All
-network measurement data will be published on [OONI Explorer](https://explorer.ooni.torproject.org/) and on the [OONI API](https://api.ooni.io/), increasing transparency of internet censorship.
+[Linux](https://ooni.org/install/ooniprobe),
+[macOS](https://ooni.org/install/ooniprobe), or on a
+[Raspberry Pi](https://ooni.org/install/lepidopter/). All
+network measurement data will be published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/), increasing transparency of internet censorship.

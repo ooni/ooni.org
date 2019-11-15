@@ -43,15 +43,15 @@ network measurements with the aim of monitoring the accessibility of
 sites and services.
 
 Network measurement
-[data](https://explorer.ooni.torproject.org/country/SL) collected via
+[data](https://explorer.ooni.org/country/SL) collected via
 [OONI Probe](/install/) (OONI’s software
 designed to measure internet censorship) shows that local and
-international sites and services were accessible. [OONI data](https://explorer.ooni.torproject.org/country/SL) shows no signs
+international sites and services were accessible. [OONI data](https://explorer.ooni.org/country/SL) shows no signs
 of internet censorship throughout Sierra Leone’s 2018 election period,
 though the findings are limited to the tests run and the sites and
 services tested. It’s worth noting that even though
-[WhatsApp](https://explorer.ooni.torproject.org/measurement/20180331T094204Z_AS37164_gUIesReFhEvsRpWt1OVck6JmTN6rQ0RFaCdAezot4YAOf1ZILW)
-and [Facebook Messenger](https://explorer.ooni.torproject.org/measurement/20180331T094156Z_AS37164_ZH34DfsoxrGm4kSi7xapXfBQooXpHEVDfNVCj72M5TSpC2w11x)
+[WhatsApp](https://explorer.ooni.org/measurement/20180331T094204Z_AS37164_gUIesReFhEvsRpWt1OVck6JmTN6rQ0RFaCdAezot4YAOf1ZILW)
+and [Facebook Messenger](https://explorer.ooni.org/measurement/20180331T094156Z_AS37164_ZH34DfsoxrGm4kSi7xapXfBQooXpHEVDfNVCj72M5TSpC2w11x)
 were accessible, their testing presented high execution time, indicating
 some form of performance degradation on the network.
 

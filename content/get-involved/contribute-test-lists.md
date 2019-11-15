@@ -33,7 +33,7 @@ Please read the documentation below to contribute to community resources for cen
 Test lists are machine-readable [CSV files](https://en.wikipedia.org/wiki/Comma-separated_values) that include URLs that are tested for
 censorship.
 
-Censorship measurement projects like [OONI](https://ooni.torproject.org/) rely on a global community of
+Censorship measurement projects like [OONI](https://ooni.org/) rely on a global community of
 volunteers who run censorship detection tests from local vantage points. In
 light of bandwidth constraints, testing most websites available on the internet
 is not practical (nor possible in many cases). Instead, our measurements focus
@@ -122,7 +122,7 @@ limited to up to 1,000 sites (due to the aforementioned bandwidth constraints).
 
 **1. Censorship findings are only as interesting as the sites you test**
 
-When measuring censorship through the use of software like [OONI Probe](https://ooni.torproject.org/install/),
+When measuring censorship through the use of software like [OONI Probe](https://ooni.org/install/),
 censorship findings are only as interesting as the sites that are tested. If
 bbc.com, for example, is blocked in China, OONI Probe is only likely to detect
 that if bbc.com was included in the Chinese test list to begin with.
@@ -208,7 +208,7 @@ The more diverse the testing sample, the more likely researchers are to identify
 different forms of internet censorship. By categorizing URLs, researchers can
 more easily characterize internet censorship depending on what is blocked. In
 Iran, for example, the breadth and scale of internet censorship appears to be
-pervasive since many [different types of websites](https://ooni.torproject.org/post/iran-internet-censorship/#key-findings) were found to be [blocked](https://ooni.torproject.org/post/iran-internet-censorship/).
+pervasive since many [different types of websites](https://ooni.org/post/iran-internet-censorship/#key-findings) were found to be [blocked](https://ooni.org/post/iran-internet-censorship/).
 
 When working on a test list, you can refer to the [30 categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv) and search for
 local websites that fall under each one. Ideally, a test list includes multiple
@@ -223,10 +223,10 @@ for? If so, which websites were reportedly blocked?
 As part of your research for identifying sites to add to a test list, it’s
 important to explore whether previous censorship events have been reported in
 the country. Those sites might *still* be blocked, even if their ban has been
-lifted. We, for example, found [Vimeo and Reddit to be blocked in Indonesia](https://ooni.torproject.org/post/indonesia-internet-censorship/), even though their ban was lifted more than two years ago.
+lifted. We, for example, found [Vimeo and Reddit to be blocked in Indonesia](https://ooni.org/post/indonesia-internet-censorship/), even though their ban was lifted more than two years ago.
 Furthermore, certain sites might only be blocked in certain networks, rather
 than on a nationwide level. By adding sites that have reportedly been blocked to
-your test list, [OONI Probe](https://ooni.torproject.org/install/) users can collect network measurement data examining
+your test list, [OONI Probe](https://ooni.org/install/) users can collect network measurement data examining
 the accessibility of those sites over time (and may even be able to corroborate
 media reports).
 

@@ -116,7 +116,7 @@ participated in the following:
 
 We also hosted an OONI Partners Meetup to meet and greet with our
 partners and to address OONI related questions. Following our partners’
-requests, we facilitated a session explaining how to use [OONI Explorer](https://explorer.ooni.torproject.org/world/) and interpret
+requests, we facilitated a session explaining how to use [OONI Explorer](https://explorer.ooni.org/world/) and interpret
 its data.
 
 This year OONI was an [IFF partner](https://internetfreedomfestival.org/#partners) and we helped

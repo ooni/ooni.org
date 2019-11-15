@@ -542,8 +542,17 @@ header .wordmark {
 
 /* ================================================================== */
 /* How it works */
+.homepage .ooni-explorer {
+  background-color: #0588cb;
+  color: #fff;
+  margin-bottom: 3.5rem;
+}
 
-.homepage .how-it-works, .homepage .ooni-explorer {
+.homepage .ooni-explorer .col-1 {
+  padding: 2rem 0;
+}
+
+.homepage .how-it-works {
   background-color: #0588cb;
   color: #fff;
   padding: 2rem 0;

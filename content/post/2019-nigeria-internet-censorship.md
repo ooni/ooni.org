@@ -8,9 +8,9 @@ categories: ["report"]
 
 Censorship events are increasingly being reported during political
 events in Africa (and elsewhere around the world). A few examples
-include the [social media disruptions in Mali](https://ooni.torproject.org/post/mali-disruptions-amid-2018-election/)
-amid its 2018 presidential election, the [blocking of social media in Uganda](https://ooni.torproject.org/post/uganda-social-media-blocked/)
-during its 2016 general elections, and the complete [internet blackout in The Gambia](https://ooni.torproject.org/post/gambia-internet-shutdown/)
+include the [social media disruptions in Mali](https://ooni.org/post/mali-disruptions-amid-2018-election/)
+amid its 2018 presidential election, the [blocking of social media in Uganda](https://ooni.org/post/uganda-social-media-blocked/)
+during its 2016 general elections, and the complete [internet blackout in The Gambia](https://ooni.org/post/gambia-internet-shutdown/)
 during its 2016 presidential election.
 
 Leading up to and during Nigeria’s 2019 general elections, we
@@ -178,7 +178,7 @@ popular online platforms throughout the 2019 general elections.
 Even though new censorship events didn’t emerge during Nigeria’s latest
 elections, old blocks appeared to remain in place.
 
-Last year, OONI and Paradigm Initiative [co-published a research report](https://ooni.torproject.org/documents/nigeria-report.pdf) which
+Last year, OONI and Paradigm Initiative [co-published a research report](https://ooni.org/documents/nigeria-report.pdf) which
 offered an analysis of [OONI measurements collected from Nigeria](https://explorer.ooni.io/country/NG). Our findings showed that
 while most tested sites and services were accessible (including
 internationally popular platforms, such as Facebook and WhatsApp), a

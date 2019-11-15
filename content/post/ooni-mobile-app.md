@@ -8,7 +8,7 @@ categories: ["blog"]
 
 ![OONI mobile app](/post/ooni-mobile-app/ooni-mobile-app.jpg)
 
-Today the [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) project is thrilled to
+Today the [Open Observatory of Network Interference (OONI)](https://ooni.org/) project is thrilled to
 announce the release of a new mobile app (“**ooniprobe - Measure Internet
 Censorship & Performance**”) that can now be installed on **Android** and **iOS** for
 testing Internet censorship and network performance.
@@ -22,24 +22,24 @@ By running the tests included in OONI’s mobile app, you can monitor:
 * Speed and performance of your network.
 
 The results of your tests will be
-[published](https://explorer.ooni.torproject.org/world/), increasing
+[published](https://explorer.ooni.org/world/), increasing
 transparency of internet censorship and network interference around the world.
 
 # Collecting evidence of internet censorship
 
-OONI's [Web Connectivity test](https://ooni.torproject.org/nettest/web-connectivity/) is designed to examine whether websites are blocked
+OONI's [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) is designed to examine whether websites are blocked
 and if so, how. This test, in particular, attempts to determine whether access
 to sites is blocked through DNS tampering, TCP/IP blocking, or by a
 transparent HTTP proxy. By knowing how access to sites is interfered with,
 you can more easily evaluate how to circumvent that specific type of
 censorship. As OONI is committed to transparency through the [publication of
-all network measurement data](https://measurements.ooni.torproject.org/), you can use it as evidence of any censorship
+all network measurement data](https://measurements.ooni.org/), you can use it as evidence of any censorship
 events that you come across.
 
 # Detecting systems responsible for censorship and surveillance
 
 Various types of proxy technologies are used in networks for implementing
-censorship, surveillance, and traffic manipulation. OONI's [HTTP invalid request line test](https://ooni.torproject.org/nettest/http-invalid-request-line/) is designed to uncover the presence of such systems within tested
+censorship, surveillance, and traffic manipulation. OONI's [HTTP invalid request line test](https://ooni.org/nettest/http-invalid-request-line/) is designed to uncover the presence of such systems within tested
 networks. However, it's important to point out that not all systems that you
 might find are necessarily responsible for censorship and/or surveillance! Many
 proxy technologies, for example, are used in networks for caching purposes.
@@ -47,7 +47,7 @@ proxy technologies, for example, are used in networks for caching purposes.
 # Measuring the speed and performance of your network
 
 Sometimes the network that we are using doesn't work as well as we'd like it to.
-OONI's implementation of the [Network Diagnostic Test (NDT)](https://ooni.torproject.org/nettest/ndt/) attempts to measure
+OONI's implementation of the [Network Diagnostic Test (NDT)](https://ooni.org/nettest/ndt/) attempts to measure
 the speed of your network by connecting to [M-Lab](http://www.measurementlab.net/) servers near you and by
 subsequently uploading and downloading random data. In doing so, NDT collects
 low level TCP/IP information that can help characterize the speed and
@@ -60,7 +60,7 @@ OONI publishes all network measurement data that it collects and processes
 because open data allows third parties to conduct independent studies, to verify
 OONI findings and/or to answer other research questions. Such data also helps
 increase transparency around internet censorship and various forms of network
-interference. All data is published on [OONI Explorer](https://explorer.ooni.torproject.org/world/).
+interference. All data is published on [OONI Explorer](https://explorer.ooni.org/world/).
 
 Once you have run each test, you should be able to view the results of your
 tests directly in the app, as illustrated below:
@@ -84,8 +84,8 @@ code through the following links:
 
 More tests will be integrated into OONI’s mobile app within the next year,
 including - but not limited to - our new
-[WhatsApp](https://ooni.torproject.org/nettest/whatsapp/) and [Facebook Messenger tests](https://ooni.torproject.org/nettest/facebook-messenger/). In
-the meanwhile, learn about [potential risks](https://ooni.torproject.org/about/risks/) associated to running
+[WhatsApp](https://ooni.org/nettest/whatsapp/) and [Facebook Messenger tests](https://ooni.org/nettest/facebook-messenger/). In
+the meanwhile, learn about [potential risks](https://ooni.org/about/risks/) associated to running
 ooniprobe. If you feel comfortable with them, install OONI’s mobile app and test
 every network you connect to!
 

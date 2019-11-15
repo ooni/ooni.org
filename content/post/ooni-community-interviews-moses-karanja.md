@@ -15,7 +15,7 @@ University of Toronto.
 
 Over the last years, Moses has championed OONI community engagement
 across Africa. Thanks to his tireless efforts, communities in many
-African countries are now running [OONI Probe](https://ooni.torproject.org/install/) and using [OONI data](https://ooni.torproject.org/data/) to examine internet censorship
+African countries are now running [OONI Probe](https://ooni.org/install/) and using [OONI data](https://ooni.org/data/) to examine internet censorship
 and other forms of network interference. We have worked with Moses on a
 number of research reports and are grateful for his commitment to
 defending a free and open internet.

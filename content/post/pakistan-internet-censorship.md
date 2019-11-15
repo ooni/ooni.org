@@ -78,12 +78,12 @@ AS38264, AS38547, AS38710, AS45595, AS45669, AS45773, AS45814, AS53889,
 AS55714, AS56167, AS58895, AS59257, AS9260, AS9387, AS9541, AS9557 (22
 ISPs)
 
-**OONI tests:** [Web Connectivity](https://ooni.torproject.org/nettest/web-connectivity/),
-[HTTP Invalid Request Line](https://ooni.torproject.org/nettest/http-invalid-request-line/),
-[HTTP Header Field Manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/),
-[Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/),
-[Facebook Messenger test](https://ooni.torproject.org/nettest/facebook-messenger/),
-[WhatsApp test](https://ooni.torproject.org/nettest/whatsapp/)
+**OONI tests:** [Web Connectivity](https://ooni.org/nettest/web-connectivity/),
+[HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/),
+[HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/),
+[Vanilla Tor](https://ooni.org/nettest/vanilla-tor/),
+[Facebook Messenger test](https://ooni.org/nettest/facebook-messenger/),
+[WhatsApp test](https://ooni.org/nettest/whatsapp/)
 
 **Testing period:** 5th October 2014 to 22nd September 2017 (3 years)
 
@@ -100,7 +100,7 @@ Many of the blocked URLs are considered blasphemous under [Pakistan’s Penal Co
 for hosting content related to the controversial “[Draw Mohammed Day](https://www.washingtonpost.com/news/comic-riffs/wp/2015/05/04/just-what-have-we-learned-five-years-after-everybody-draw-muhammad-day/)”
 campaign. Geopolitical power dynamics appear to be reinforced through
 the
-[blocking](https://explorer.ooni.torproject.org/measurement/20170822T010829Z_AS45595_q38vxV4VoLi5d4iwhXEijjmMr7HzKbC1bL4iI2MfcftuRzMu3x?input=http:%2F%2Fwww.balochwarna.com)
+[blocking](https://explorer.ooni.org/measurement/20170822T010829Z_AS45595_q38vxV4VoLi5d4iwhXEijjmMr7HzKbC1bL4iI2MfcftuRzMu3x?input=http:%2F%2Fwww.balochwarna.com)
 of sites run by ethnic minority groups.
 
 Pakistani ISPs appear to be applying “smart filters”, selectively
@@ -111,19 +111,19 @@ potentially enabling censorship circumvention over HTTPS (for sites that
 support encrypted HTTPS connections).
 
 On a positive note, popular communications apps, including
-[WhatsApp](https://explorer.ooni.torproject.org/measurement/20170906T010149Z_AS45595_BQzV48aUdUw2ebx4eqFb8jk64mrTKHzn2WkSHHCtzwx7hIeM2E)
-and [Facebook Messenger](https://explorer.ooni.torproject.org/measurement/20170906T010159Z_AS45595_rIvlQSTc30PELI3w2VCF3ErA5I8kN9JZgwQsLAYC4qo8wnPY3j),
+[WhatsApp](https://explorer.ooni.org/measurement/20170906T010149Z_AS45595_BQzV48aUdUw2ebx4eqFb8jk64mrTKHzn2WkSHHCtzwx7hIeM2E)
+and [Facebook Messenger](https://explorer.ooni.org/measurement/20170906T010159Z_AS45595_rIvlQSTc30PELI3w2VCF3ErA5I8kN9JZgwQsLAYC4qo8wnPY3j),
 were accessible during the testing period. We find that the [Tor network](https://www.torproject.org/), which enables its users to
 browse the web anonymously, was mostly
-[accessible](https://explorer.ooni.torproject.org/measurement/20170906T010438Z_AS45595_YT4qiR9G0FUiL6YCllSLRfXUBR9UuP15PlR9PfN6n3CLgRhB7U).
+[accessible](https://explorer.ooni.org/measurement/20170906T010438Z_AS45595_YT4qiR9G0FUiL6YCllSLRfXUBR9UuP15PlR9PfN6n3CLgRhB7U).
 
 # Introduction
 
 This study is part of an ongoing effort to examine internet censorship
-in Pakistan and in [more than 200 other countries](https://explorer.ooni.torproject.org/world/) around the
+in Pakistan and in [more than 200 other countries](https://explorer.ooni.org/world/) around the
 world.
 
-The [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) and [Bytes for All Pakistan](http://content.bytesforall.pk/) collaborated on a joint
+The [Open Observatory of Network Interference (OONI)](https://ooni.org/) and [Bytes for All Pakistan](http://content.bytesforall.pk/) collaborated on a joint
 research study to examine internet censorship in Pakistan through the
 collection and analysis of network measurements. The aim of our study is
 to document an aspect of internet governance in Pakistan through the
@@ -784,17 +784,17 @@ the testing period.
 
 As part of this study, the following [OONI software tests](https://github.com/TheTorProject/ooni-probe) were run:
 
-* [Web Connectivity](https://ooni.torproject.org/nettest/web-connectivity/)
+* [Web Connectivity](https://ooni.org/nettest/web-connectivity/)
 
-* [HTTP Invalid Request Line](https://ooni.torproject.org/nettest/http-invalid-request-line/)
+* [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/)
 
-* [HTTP Header Field Manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/)
+* [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/)
 
-* [Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/)
+* [Vanilla Tor](https://ooni.org/nettest/vanilla-tor/)
 
-* [WhatsApp](https://ooni.torproject.org/nettest/whatsapp/)
+* [WhatsApp](https://ooni.org/nettest/whatsapp/)
 
-* [Facebook Messenger](https://ooni.torproject.org/nettest/facebook-messenger/)
+* [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/)
 
 The Web Connectivity test was run with the aim of examining whether a
 set of URLs (included in both the “[global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)”
@@ -802,8 +802,8 @@ and the recently updated
 “[Pakistani test list](https://github.com/citizenlab/test-lists/blob/master/lists/pk.csv)”)
 were blocked during the testing period and if so, how. The Vanilla Tor
 test was run to examine the reachability of the [Tor network](https://www.torproject.org/), while the
-[WhatsApp](https://ooni.torproject.org/nettest/whatsapp/) and
-[Facebook Messenger](https://ooni.torproject.org/nettest/facebook-messenger/)
+[WhatsApp](https://ooni.org/nettest/whatsapp/) and
+[Facebook Messenger](https://ooni.org/nettest/facebook-messenger/)
 tests were run to examine whether these instant messaging apps were
 blocked in Iran during the testing period. The remaining tests were run
 with the aim of examining whether “middleboxes” (systems placed in the
@@ -936,7 +936,7 @@ likely placed in the tested network, though it’s not always clear what
 that software is. In some cases though, censorship and/or surveillance
 vendors can be identified through the error messages in the received
 HTTP response. Based on this technique, OONI has previously
-[detected](https://explorer.ooni.torproject.org/highlights/) the use
+[detected](https://explorer.ooni.org/highlights/) the use
 of BlueCoat, Squid and Privoxy proxy technologies in networks across
 multiple countries around the world.
 
@@ -1084,7 +1084,7 @@ compare them across time.
 
 OONI does *not* deliberately collect or store users’ IP addresses. In
 fact, OONI takes measures to remove users’ IP addresses from the
-collected measurements, to protect its users from [potential risks](https://ooni.torproject.org/about/risks/).
+collected measurements, to protect its users from [potential risks](https://ooni.org/about/risks/).
 
 However, OONI might *unintentionally* collect users’ IP addresses and
 other potentially personally-identifiable information, if such
@@ -1099,7 +1099,7 @@ The types of network measurements that OONI collects depend on the types
 of tests that are run. Specifications about each OONI test can be viewed
 through its [git repository](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs),
 and details about what collected network measurements entail can be
-viewed through [OONI Explorer](https://explorer.ooni.torproject.org/world/) or through
+viewed through [OONI Explorer](https://explorer.ooni.org/world/) or through
 OONI’s [API](https://api.ooni.io/).
 
 OONI processes the above types of data with the aim of deriving meaning
@@ -1216,14 +1216,14 @@ were blocked (and not blocked) across the 22 probed ISPs is available
 [Khabaristan Times](https://khabaristantimes.com/), a Pakistani news
 satire publication that reports on national and local issues, was
 [reportedly blocked](https://www.dawn.com/news/1311656/satire-website-khabaristan-times-blocked-in-pakistan)
-in January 2017. As part of our testing, we collected [one measurement](https://explorer.ooni.torproject.org/measurement/20170822T010829Z_AS45595_q38vxV4VoLi5d4iwhXEijjmMr7HzKbC1bL4iI2MfcftuRzMu3x?input=https:%2F%2Fkhabaristantimes.com%2F)
+in January 2017. As part of our testing, we collected [one measurement](https://explorer.ooni.org/measurement/20170822T010829Z_AS45595_q38vxV4VoLi5d4iwhXEijjmMr7HzKbC1bL4iI2MfcftuRzMu3x?input=https:%2F%2Fkhabaristantimes.com%2F)
 indicating that this site was likely blocked by means of DNS tampering.
 This is also consistent with what locals in Pakistan reported to be
 experiencing when attempting to access khabaristantimes.com, which
 points to a message saying that the DNS address for the site could not
 be found. While we think it’s most likely the case that this site is
 blocked in Pakistan by means of DNS tampering, we cannot confirm this
-finding since only [one measurement](https://explorer.ooni.torproject.org/measurement/20170822T010829Z_AS45595_q38vxV4VoLi5d4iwhXEijjmMr7HzKbC1bL4iI2MfcftuRzMu3x?input=https:%2F%2Fkhabaristantimes.com%2F)
+finding since only [one measurement](https://explorer.ooni.org/measurement/20170822T010829Z_AS45595_q38vxV4VoLi5d4iwhXEijjmMr7HzKbC1bL4iI2MfcftuRzMu3x?input=https:%2F%2Fkhabaristantimes.com%2F)
 was collected during the testing period of this study.
 
 Multiple middleboxes were detected across networks in Pakistan. However,
@@ -1233,11 +1233,11 @@ cache-loading).
 
 In general, most international sites and services were accessible, and
 OONI’s
-[WhatsApp](https://explorer.ooni.torproject.org/measurement/20170906T010149Z_AS45595_BQzV48aUdUw2ebx4eqFb8jk64mrTKHzn2WkSHHCtzwx7hIeM2E)
-and [Facebook Messenger tests](https://explorer.ooni.torproject.org/measurement/20170906T010159Z_AS45595_rIvlQSTc30PELI3w2VCF3ErA5I8kN9JZgwQsLAYC4qo8wnPY3j)
+[WhatsApp](https://explorer.ooni.org/measurement/20170906T010149Z_AS45595_BQzV48aUdUw2ebx4eqFb8jk64mrTKHzn2WkSHHCtzwx7hIeM2E)
+and [Facebook Messenger tests](https://explorer.ooni.org/measurement/20170906T010159Z_AS45595_rIvlQSTc30PELI3w2VCF3ErA5I8kN9JZgwQsLAYC4qo8wnPY3j)
 confirmed the accessibility of these apps during the testing period.
 Censorship circumvention tools, such as the [Tor network](https://www.torproject.org/), were mostly
-[accessible](https://explorer.ooni.torproject.org/measurement/20170906T010438Z_AS45595_YT4qiR9G0FUiL6YCllSLRfXUBR9UuP15PlR9PfN6n3CLgRhB7U).
+[accessible](https://explorer.ooni.org/measurement/20170906T010438Z_AS45595_YT4qiR9G0FUiL6YCllSLRfXUBR9UuP15PlR9PfN6n3CLgRhB7U).
 
 ## Minority groups
 
@@ -1276,7 +1276,7 @@ illustrated in the table below.
 | AS23674    | `http://www.thebalochhal.com`                 | id-surf-safe-0 |
 
 The
-[blocked](https://explorer.ooni.torproject.org/measurement/20161213T004033Z_AS23674_vJNhwc70PgfRrEDTtXT4mILP82HW4D06nOWZzsJlqZ2IB1RwS8?input=http:%2F%2Fwww.ostomaan.org)
+[blocked](https://explorer.ooni.org/measurement/20161213T004033Z_AS23674_vJNhwc70PgfRrEDTtXT4mILP82HW4D06nOWZzsJlqZ2IB1RwS8?input=http:%2F%2Fwww.ostomaan.org)
 URLs include the [site](http://www.ostomaan.org/) of the Sweden-based
 Baluchistan People’s Party, which
 [reports](http://www.ostomaan.org/articles/human-rights) on human
@@ -1291,7 +1291,7 @@ ISPs might be blocking Baluch sites almost indiscriminately.
 The Hazara ethnic minority in Pakistan has also experienced
 discrimination and abuse by authorities, as
 [reported](https://www.hrw.org/report/2014/06/29/we-are-walking-dead/killings-shia-hazara-balochistan-pakistan)
-by Human Rights Watch. [OONI data](https://explorer.ooni.torproject.org/measurement/20161213T004033Z_AS23674_vJNhwc70PgfRrEDTtXT4mILP82HW4D06nOWZzsJlqZ2IB1RwS8?input=http:%2F%2Fwww.hazara.net)
+by Human Rights Watch. [OONI data](https://explorer.ooni.org/measurement/20161213T004033Z_AS23674_vJNhwc70PgfRrEDTtXT4mILP82HW4D06nOWZzsJlqZ2IB1RwS8?input=http:%2F%2Fwww.hazara.net)
 confirms the blocking of hazara.net, a non-profit which emerged in 1998
 as a “direct response to the Hazara genocide in Afghanistan” and which
 [reports](http://www.hazara.net/about-us/) on human rights abuse
@@ -1410,7 +1410,7 @@ Youtube page hosting the film.
 
 Even though the [Wikipedia page on Muhammed](https://en.wikipedia.org/wiki/Muhammad) is not linked (at
 least not directly) to “Draw Mohammed Day”, we found it to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20161212T004141Z_AS23674_W2yhllm3j5VUt4gSaNJ7FCQ4c9tFmcb5LY1fRxVKm21eJEVF91?input=http:%2F%2Fen.wikipedia.org%2Fwiki%2FMuhammad)
+[blocked](https://explorer.ooni.org/measurement/20161212T004141Z_AS23674_W2yhllm3j5VUt4gSaNJ7FCQ4c9tFmcb5LY1fRxVKm21eJEVF91?input=http:%2F%2Fen.wikipedia.org%2Fwiki%2FMuhammad)
 as well.
 
 A list of all other observed blocked sites in Pakistan is available
@@ -1421,7 +1421,7 @@ A list of all other observed blocked sites in Pakistan is available
 The findings of this study present limitations.
 
 The first limitation is associated with the testing period. This study
-includes an analysis of [thousands of network measurements](https://measurements.ooni.torproject.org/files/by_country/PK)
+includes an analysis of [thousands of network measurements](https://measurements.ooni.org/files/by_country/PK)
 collected from 22 networks in Pakistan over the last three years,
 between 5th October 2014 to 22nd September 2017. Censorship events that
 may have occurred before and/or after the testing period are not
@@ -1429,7 +1429,7 @@ analysed as part of this study.
 
 Another limitation to this study is associated to the amount and types
 of URLs that were tested for censorship. As mentioned in the methodology
-section of this report, OONI’s [Web Connectivity test](https://ooni.torproject.org/nettest/web-connectivity/) was run to
+section of this report, OONI’s [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) was run to
 examine the accessibility of [950 URLs](https://github.com/citizenlab/test-lists/blob/master/lists/pk.csv)
 that are more relevant to the Pakistani context and [1,107 internationally relevant sites](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv).
 All of these URLs were selected and categorized in collaboration with
@@ -1437,7 +1437,7 @@ community members over the last years. We acknowledge that some URLs
 might potentially be mis-categorized, the selection of the URLs may have
 been biased, and that the testing sample of URLs might exclude many
 other sites that are also blocked in Pakistan. We therefore encourage
-researchers and community members to continue [reviewing and contributing to these test lists](https://ooni.torproject.org/get-involved/contribute-test-lists/),
+researchers and community members to continue [reviewing and contributing to these test lists](https://ooni.org/get-involved/contribute-test-lists/),
 to help improve future research and analysis.
 
 Finally, while network measurements were collected from 22 local vantage
@@ -1466,12 +1466,12 @@ HTTPS, enabling censorship circumvention. We didn’t find any HTTPS sites
 to be blocked during the testing period.
 
 Most internationally popular sites and services, like
-[WhatsApp](https://explorer.ooni.torproject.org/measurement/20170906T010149Z_AS45595_BQzV48aUdUw2ebx4eqFb8jk64mrTKHzn2WkSHHCtzwx7hIeM2E)
-and [Facebook Messenger](https://explorer.ooni.torproject.org/measurement/20170906T010159Z_AS45595_rIvlQSTc30PELI3w2VCF3ErA5I8kN9JZgwQsLAYC4qo8wnPY3j),
+[WhatsApp](https://explorer.ooni.org/measurement/20170906T010149Z_AS45595_BQzV48aUdUw2ebx4eqFb8jk64mrTKHzn2WkSHHCtzwx7hIeM2E)
+and [Facebook Messenger](https://explorer.ooni.org/measurement/20170906T010159Z_AS45595_rIvlQSTc30PELI3w2VCF3ErA5I8kN9JZgwQsLAYC4qo8wnPY3j),
 were accessible in Pakistan. Minority groups however likely have a
 harder time expressing their voices online, as suggested by the
-[blocking of various Baluchi](https://explorer.ooni.torproject.org/measurement/20170822T010829Z_AS45595_q38vxV4VoLi5d4iwhXEijjmMr7HzKbC1bL4iI2MfcftuRzMu3x?input=http:%2F%2Fwww.balochwarna.com)
-and [Hazara](https://explorer.ooni.torproject.org/measurement/20161213T004033Z_AS23674_vJNhwc70PgfRrEDTtXT4mILP82HW4D06nOWZzsJlqZ2IB1RwS8?input=http:%2F%2Fwww.hazara.net)
+[blocking of various Baluchi](https://explorer.ooni.org/measurement/20170822T010829Z_AS45595_q38vxV4VoLi5d4iwhXEijjmMr7HzKbC1bL4iI2MfcftuRzMu3x?input=http:%2F%2Fwww.balochwarna.com)
+and [Hazara](https://explorer.ooni.org/measurement/20161213T004033Z_AS23674_vJNhwc70PgfRrEDTtXT4mILP82HW4D06nOWZzsJlqZ2IB1RwS8?input=http:%2F%2Fwww.hazara.net)
 sites. The fact that a wide range of Baluchi sites were blocked also
 indicates that internet censorship in Pakistan may be implemented to
 reinforce geopolitical dynamics of power.

@@ -84,7 +84,7 @@ clearly started blocking access to Instagram on 31st December 2017, while
 network measurements collected from 7 different ISPs in total show the blocking
 of the site on 1st and 2nd January 2018.
 
-Further findings are available in [Part 2](https://ooni.torproject.org/post/2018-iran-protests-pt2/) of this research. The latest findings show that Instagram
+Further findings are available in [Part 2](https://ooni.org/post/2018-iran-protests-pt2/) of this research. The latest findings show that Instagram
 was blocked through the use of Deep Packet Inspection (DPI) technology which
 targeted the TLS protocol.
 
@@ -170,11 +170,11 @@ which enables all apps on their device to run through the Tor network.
 
 ## Reproducible research
 
-To measure the blocking of Telegram, Facebook Messenger, or WhatsApp, [run OONI Probe on Linux, macOS](https://ooni.torproject.org/install/ooniprobe/), or on a [Raspberry Pi](https://ooni.torproject.org/install/lepidopter/).
+To measure the blocking of Telegram, Facebook Messenger, or WhatsApp, [run OONI Probe on Linux, macOS](https://ooni.org/install/ooniprobe/), or on a [Raspberry Pi](https://ooni.org/install/lepidopter/).
 
 To measure the blocking of specific websites:
 
-1. Install the [OONI Probe mobile app](https://ooni.torproject.org/install/)
+1. Install the [OONI Probe mobile app](https://ooni.org/install/)
 
 2. Add those websites (e.g.`https://www.instagram.com`) to [OONI Run](https://run.ooni.io/)
 
@@ -184,11 +184,11 @@ All network measurement data based on your testing will be published via the fol
 
 * [OONI API](https://api.ooni.io/)
 
-* [OONI Explorer](https://explorer.ooni.torproject.org/world/)
+* [OONI Explorer](https://explorer.ooni.org/world/)
 
 ## Acknowledgements
 
 We thank all the anonymous volunteers in Iran who have run and continue
 to run [OONI Probe](/install/), thus making this research possible.
 
-**This post has been updated on 14th February 2018 following the [publication of further research](https://ooni.torproject.org/post/2018-iran-protests-pt2/).**
+**This post has been updated on 14th February 2018 following the [publication of further research](https://ooni.org/post/2018-iran-protests-pt2/).**

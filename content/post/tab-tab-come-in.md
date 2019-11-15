@@ -204,24 +204,24 @@ bypassing strategies.
 Inside of Uzbekistan we ran the following tests:
 
 ### HTTP Header Field Manipulation
-https://ooni.torproject.org/reports/0.1/TM/http_header_field_manipulation-2013-01-28T195727Z-AS20661.yamloo
+https://ooni.org/reports/0.1/TM/http_header_field_manipulation-2013-01-28T195727Z-AS20661.yamloo
 
 Through such test we were able to determine that no extra HTTP header were
 being appended to our outgoing requests. As we can see the response body
 contains the same headers that have been sent by the client.
 
 ### HTTP Invalid Request Line test
-https://ooni.torproject.org/reports/0.1/TM/http_invalid_request_line-2013-01-30T214938Z-AS20661.yamloo
+https://ooni.org/reports/0.1/TM/http_invalid_request_line-2013-01-30T214938Z-AS20661.yamloo
 
 Through such test we were able to determine that the DPI device does not
 misbehave when receiving an invalid request line. This leads us to believe that
 the device in question is not a bluecoat device since such devices usually
 crash on 'test_random_invalid_version_number' and
 'test_random_invalid_field_count' as is shown in the measurements done in
-Myanmar (https://ooni.torproject.org/reports/0.1/MM/http_invalid_request_line-2012-12-06T162217Z-AS18399.yamloo).
+Myanmar (https://ooni.org/reports/0.1/MM/http_invalid_request_line-2012-12-06T162217Z-AS18399.yamloo).
 
 ### HTTP Host test
-https://ooni.torproject.org/reports/0.1/TM/http_host-2013-01-30T224041Z-AS20661.yamloo
+https://ooni.org/reports/0.1/TM/http_host-2013-01-30T224041Z-AS20661.yamloo
 
 Through this test we were able to confirm that the above described filtering
 bypassing strategies do indeed work as is shown by
@@ -234,13 +234,13 @@ is due to a TCP RST.
 Inside of Turkmenistan we ran the same tests and obtained very similar results:
 
 ### HTTP Header Field Manipulation
-https://ooni.torproject.org/reports/0.1/UZ/http_header_field_manipulation-2013-01-29T222932Z-AS31203.yamloo
+https://ooni.org/reports/0.1/UZ/http_header_field_manipulation-2013-01-29T222932Z-AS31203.yamloo
 
 ### HTTP Invalid Request Line test
-https://ooni.torproject.org/reports/0.1/UZ/http_invalid_request_line-2013-02-02T183110Z-AS31203.yamloo
+https://ooni.org/reports/0.1/UZ/http_invalid_request_line-2013-02-02T183110Z-AS31203.yamloo
 
 ### HTTP Host test
-https://ooni.torproject.org/reports/0.1/UZ/http_host-2013-02-02T183406Z-AS31203.yamloo
+https://ooni.org/reports/0.1/UZ/http_host-2013-02-02T183406Z-AS31203.yamloo
 
 Also here censorship of subdomains is occurring, though the filtering strategy
 is to reply with a 302 redirect to 'http://www.msn.com'.

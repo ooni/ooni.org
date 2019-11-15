@@ -19,7 +19,7 @@ A number of people attended the OONI
 (https://www.codingrights.org/). During the workshop participants were able to
 better understand OONI's testing methodology, and how ooniprobe performs
 network measurements. Participants provided useful feedback regarding
-[test-lists](https://ooni.torproject.org/get-involved/contribute-test-lists/)
+[test-lists](https://ooni.org/get-involved/contribute-test-lists/)
 and URLs from diverse sources from South America.
 
 Below we provide the OONI presentation slides in English and Portuguese.

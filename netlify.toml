@@ -8,6 +8,11 @@ HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
+  from = "https://ooni.io/*"
+  to = "https://ooni.org/:splat"
+  status = 301
+
+[[redirects]]
   from = "https://msg.ooni.io/en/messages/*"
   to = "https://ooni.org/msg/:splat"
   status = 301

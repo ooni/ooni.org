@@ -91,13 +91,13 @@ AS49689, AS50530, AS50810, AS51074, AS51119, AS51828, AS56402, AS56503,
 AS56687, AS57218, AS57240, AS57563, AS58085, AS58142, AS58224, AS59573,
 AS59587, AS59628, AS60054, AS61173, AS61248, AS8571 (60 ISPs in total)
 
-**OONI tests:** [Web Connectivity](https://ooni.torproject.org/nettest/web-connectivity/),
-[HTTP Invalid Request Line](https://ooni.torproject.org/nettest/http-invalid-request-line/),
-[HTTP Header Field Manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/),
-[Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/),
-[WhatsApp test](https://ooni.torproject.org/nettest/whatsapp/),
-[Facebook Messenger test](https://ooni.torproject.org/nettest/facebook-messenger/),
-[Telegram test](https://ooni.torproject.org/nettest/telegram/)
+**OONI tests:** [Web Connectivity](https://ooni.org/nettest/web-connectivity/),
+[HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/),
+[HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/),
+[Vanilla Tor](https://ooni.org/nettest/vanilla-tor/),
+[WhatsApp test](https://ooni.org/nettest/whatsapp/),
+[Facebook Messenger test](https://ooni.org/nettest/facebook-messenger/),
+[Telegram test](https://ooni.org/nettest/telegram/)
 
 **Testing period:** 22nd September 2014 to 4th September 2017 (3 years)
 
@@ -106,7 +106,7 @@ proxies serving blockpages
 
 # Key Findings
 
-Thousands of [ooniprobe network measurements](https://measurements.ooni.torproject.org/files/by_country/IR)
+Thousands of [ooniprobe network measurements](https://measurements.ooni.org/files/by_country/IR)
 collected from 60 local networks across Iran over the last three years
 **have confirmed the blocking of 886 domains** (and [1,019 URLs](/post/iran/ir-blocked-urls.csv) in
 total), listed [here](/post/iran/ir-blocked-domains.csv).
@@ -114,47 +114,47 @@ total), listed [here](/post/iran/ir-blocked-domains.csv).
 The breadth and scale of internet censorship in Iran is pervasive.
 Blocked domains include:
 
-* **News websites:** [bbc.co.uk](https://explorer.ooni.torproject.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Fwww.bbc.co.uk), [voanews.com](https://explorer.ooni.torproject.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.voanews.com%2Fpersian%2F), [dw-world.de](https://explorer.ooni.torproject.org/measurement/20170903T021755Z_AS16322_m8gKgQgZdu7o7GVe6tZYagB9DVjNLGrzrkUCzWAijzwf5rBQbv?input=http:%2F%2Fwww.dw-world.de%2Fdw%2F0,,641,00.html), [arabtimes.com](https://explorer.ooni.torproject.org/measurement/20170902T221146Z_AS197207_0FospvK9Ol7aYaROSdhQLWskUeOxYvspMWejPYrLcfepLIrDZA?input=http:%2F%2Fwww.arabtimes.com), [cbc.ca](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.cbc.ca), [reddit.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.reddit.com%2F), [russia.tv](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Frussia.tv), [aawsat.com](https://explorer.ooni.torproject.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Faawsat.com%2F), [iranshahrnewsagency.com](https://explorer.ooni.torproject.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Firanshahrnewsagency.com%2F), [iranpressnews.com](https://explorer.ooni.torproject.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Fwww.iranpressnews.com), [iranntv.com](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fwww.iranntv.com), [tehranreview.net](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Ftehranreview.net%2F).
+* **News websites:** [bbc.co.uk](https://explorer.ooni.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Fwww.bbc.co.uk), [voanews.com](https://explorer.ooni.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.voanews.com%2Fpersian%2F), [dw-world.de](https://explorer.ooni.org/measurement/20170903T021755Z_AS16322_m8gKgQgZdu7o7GVe6tZYagB9DVjNLGrzrkUCzWAijzwf5rBQbv?input=http:%2F%2Fwww.dw-world.de%2Fdw%2F0,,641,00.html), [arabtimes.com](https://explorer.ooni.org/measurement/20170902T221146Z_AS197207_0FospvK9Ol7aYaROSdhQLWskUeOxYvspMWejPYrLcfepLIrDZA?input=http:%2F%2Fwww.arabtimes.com), [cbc.ca](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.cbc.ca), [reddit.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.reddit.com%2F), [russia.tv](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Frussia.tv), [aawsat.com](https://explorer.ooni.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Faawsat.com%2F), [iranshahrnewsagency.com](https://explorer.ooni.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Firanshahrnewsagency.com%2F), [iranpressnews.com](https://explorer.ooni.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Fwww.iranpressnews.com), [iranntv.com](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fwww.iranntv.com), [tehranreview.net](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Ftehranreview.net%2F).
 
-* **Opposition sites:** [People’s Mojahedin Organization of Iran](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Firan.mojahedin.org), [Worker-Communist Party](https://explorer.ooni.torproject.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Fwww.wpiran.org), [Labour Party (Toufan)](https://explorer.ooni.torproject.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.toufan.org), [Komala Party of Iranian Kurdistan](https://explorer.ooni.torproject.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.komala.org), [National Council of Resistance of Iran (NCRI)](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Firanncr.org).
+* **Opposition sites:** [People’s Mojahedin Organization of Iran](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Firan.mojahedin.org), [Worker-Communist Party](https://explorer.ooni.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Fwww.wpiran.org), [Labour Party (Toufan)](https://explorer.ooni.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.toufan.org), [Komala Party of Iranian Kurdistan](https://explorer.ooni.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.komala.org), [National Council of Resistance of Iran (NCRI)](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Firanncr.org).
 
-* **Pro-democracy sites:** [National Democratic Institute (NDI)](https://explorer.ooni.torproject.org/measurement/20170902T104107Z_AS25124_ObKp4k9uiwaA0evMgY2m3cZmpyVmx2E4Ixk5CzwYadqsn8J3RY?input=https:%2F%2Fwww.ndi.org%2F), [National Endowment for Democracy (NED)](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.ned.org).
+* **Pro-democracy sites:** [National Democratic Institute (NDI)](https://explorer.ooni.org/measurement/20170902T104107Z_AS25124_ObKp4k9uiwaA0evMgY2m3cZmpyVmx2E4Ixk5CzwYadqsn8J3RY?input=https:%2F%2Fwww.ndi.org%2F), [National Endowment for Democracy (NED)](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.ned.org).
 
-* **Blogs of Iranian political activists:** [Ali Afshari](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Faliafshari.com%2F) and [Ahmad Batebi](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fahmadbatebi.com%2F).
+* **Blogs of Iranian political activists:** [Ali Afshari](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Faliafshari.com%2F) and [Ahmad Batebi](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fahmadbatebi.com%2F).
 
-* **Human rights sites:** [Center for Human Rights in Iran](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fwww.iranhumanrights.org), [Human Rights & Democracy for Iran](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fwww.iranrights.org%2F), [Iran Human Rights](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Firanhr.net%2Ffa%2F), [Human Rights Watch](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fwww.hrw.org), [Human Rights Campaign](https://explorer.ooni.torproject.org/measurement/20170902T213651Z_AS197207_Jy1372wqOUxV5SVoQ301hyHpJSB4XEj7saby2Ykpqy2MFvzrnP?input=http:%2F%2Fwww.hrc.org), [Human Rights First](https://explorer.ooni.torproject.org/measurement/20170902T221146Z_AS197207_0FospvK9Ol7aYaROSdhQLWskUeOxYvspMWejPYrLcfepLIrDZA?input=http:%2F%2Fwww.humanrightsfirst.org).
+* **Human rights sites:** [Center for Human Rights in Iran](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fwww.iranhumanrights.org), [Human Rights & Democracy for Iran](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fwww.iranrights.org%2F), [Iran Human Rights](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Firanhr.net%2Ffa%2F), [Human Rights Watch](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fwww.hrw.org), [Human Rights Campaign](https://explorer.ooni.org/measurement/20170902T213651Z_AS197207_Jy1372wqOUxV5SVoQ301hyHpJSB4XEj7saby2Ykpqy2MFvzrnP?input=http:%2F%2Fwww.hrc.org), [Human Rights First](https://explorer.ooni.org/measurement/20170902T221146Z_AS197207_0FospvK9Ol7aYaROSdhQLWskUeOxYvspMWejPYrLcfepLIrDZA?input=http:%2F%2Fwww.humanrightsfirst.org).
 
-    * **Kurdish sites:** [kurdistanpress.com](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http%3A%2F%2Fkurdistanpress.com), [kurdistanmedia.com](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http%3A%2F%2Fwww.kurdistanmedia.com), [Kurdish Human Rights Project](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http%3A%2F%2Fwww.khrp.org).
+    * **Kurdish sites:** [kurdistanpress.com](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http%3A%2F%2Fkurdistanpress.com), [kurdistanmedia.com](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http%3A%2F%2Fwww.kurdistanmedia.com), [Kurdish Human Rights Project](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http%3A%2F%2Fwww.khrp.org).
 
-    * **Baha’i sites:** [bahai.org](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Finfo.bahai.org), [bahai.com](https://explorer.ooni.torproject.org/measurement/20170902T034155Z_AS44244_TEWGAv9uptmhYBAPp2LUaBMx0tNmVgLd0EycgAAZi9kTfM9RQd?input=http:%2F%2Fwww.bahai.com),[bahai-education.org](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fbahai-education.org), [bahai-library.com](https://explorer.ooni.torproject.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fbahai-library.com), [bahairadio.org](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fbahairadio.org).
+    * **Baha’i sites:** [bahai.org](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Finfo.bahai.org), [bahai.com](https://explorer.ooni.org/measurement/20170902T034155Z_AS44244_TEWGAv9uptmhYBAPp2LUaBMx0tNmVgLd0EycgAAZi9kTfM9RQd?input=http:%2F%2Fwww.bahai.com),[bahai-education.org](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fbahai-education.org), [bahai-library.com](https://explorer.ooni.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fbahai-library.com), [bahairadio.org](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fbahairadio.org).
 
-    * **Women’s rights sites:** [feminist.com](https://explorer.ooni.torproject.org/measurement/20170830T220149Z_AS50810_f2x4Ku834sDtePUxEW82kWbhLqyHNKCXKZTgy3mhYSgQ9NGJSH?input=http:%2F%2Fwww.feminist.com), [feminist.org](https://explorer.ooni.torproject.org/measurement/20170901T074151Z_AS25124_0AJZQSb9Pvphip58LWHxjyWgFbpnIMrAwObXDGjaFNmeeJ9OMs?input=http:%2F%2Fwww.feminist.org), [AWID](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.awid.org%2F).
+    * **Women’s rights sites:** [feminist.com](https://explorer.ooni.org/measurement/20170830T220149Z_AS50810_f2x4Ku834sDtePUxEW82kWbhLqyHNKCXKZTgy3mhYSgQ9NGJSH?input=http:%2F%2Fwww.feminist.com), [feminist.org](https://explorer.ooni.org/measurement/20170901T074151Z_AS25124_0AJZQSb9Pvphip58LWHxjyWgFbpnIMrAwObXDGjaFNmeeJ9OMs?input=http:%2F%2Fwww.feminist.org), [AWID](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.awid.org%2F).
 
-    * **LGBTQI sites:** [Grindr](https://explorer.ooni.torproject.org/measurement/20170904T101149Z_AS31549_YtoGaLSQDhg9P2c3eZsABt09zrVKhSVCui3rACcYqVJgE6RYrq?input=http:%2F%2Fwww.grindr.com%2F), [lesbian.org](https://explorer.ooni.torproject.org/measurement/20170614T211346Z_AS197207_JqL9a0pvqD3QjTK2vqW4UILZZ82MbftVhqLc4UKfiUCIrT22kd?input=http:%2F%2Fwww.lesbian.org), [transsexual.org](https://explorer.ooni.torproject.org/measurement/20170901T001651Z_AS44244_QAo0VpO9CjPq7hgZFo7dYdUZWkVKQOxwH87cakbyrMGbTLVufi?input=http:%2F%2Ftranssexual.org), [ILGA](https://explorer.ooni.torproject.org/measurement/20170904T182716Z_AS197207_cWFe1e13mwDVf8EMyYE9dfd5ttrPIiBdyl5m1ZGh6zwbjAP50E?input=http:%2F%2Filga.org%2F).
+    * **LGBTQI sites:** [Grindr](https://explorer.ooni.org/measurement/20170904T101149Z_AS31549_YtoGaLSQDhg9P2c3eZsABt09zrVKhSVCui3rACcYqVJgE6RYrq?input=http:%2F%2Fwww.grindr.com%2F), [lesbian.org](https://explorer.ooni.org/measurement/20170614T211346Z_AS197207_JqL9a0pvqD3QjTK2vqW4UILZZ82MbftVhqLc4UKfiUCIrT22kd?input=http:%2F%2Fwww.lesbian.org), [transsexual.org](https://explorer.ooni.org/measurement/20170901T001651Z_AS44244_QAo0VpO9CjPq7hgZFo7dYdUZWkVKQOxwH87cakbyrMGbTLVufi?input=http:%2F%2Ftranssexual.org), [ILGA](https://explorer.ooni.org/measurement/20170904T182716Z_AS197207_cWFe1e13mwDVf8EMyYE9dfd5ttrPIiBdyl5m1ZGh6zwbjAP50E?input=http:%2F%2Filga.org%2F).
 
-    * **Sites promoting freedom of expression:** [Free Expression Network (FEN)](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.freeexpression.org), [Free Speech TV](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.freespeech.org%2F), [Committee to Protect Journalists](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.cpj.org%2F), [Freedom House](https://explorer.ooni.torproject.org/measurement/20170903T034010Z_AS44244_eK4M5fnS6Wcn08gB9YsdtZlN90mLZJjOVcSzj9NQoWNmdZVwPA?input=https:%2F%2Ffreedomhouse.org%2F), [Reporters Without Borders](https://explorer.ooni.torproject.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.rsf.org%2Farticle.php3%3Fid_article%3D19016), [ARTICLE 19](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.article19.org%2F).
+    * **Sites promoting freedom of expression:** [Free Expression Network (FEN)](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.freeexpression.org), [Free Speech TV](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.freespeech.org%2F), [Committee to Protect Journalists](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.cpj.org%2F), [Freedom House](https://explorer.ooni.org/measurement/20170903T034010Z_AS44244_eK4M5fnS6Wcn08gB9YsdtZlN90mLZJjOVcSzj9NQoWNmdZVwPA?input=https:%2F%2Ffreedomhouse.org%2F), [Reporters Without Borders](https://explorer.ooni.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.rsf.org%2Farticle.php3%3Fid_article%3D19016), [ARTICLE 19](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.article19.org%2F).
 
-    * **Digital rights groups:** [ASL19](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fasl19.org), [The Citizen Lab](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fcitizenlab.org), [Herdict](https://explorer.ooni.torproject.org/measurement/20170829T173711Z_AS16322_tJ77PaiMTsazuCfZFNKFGMygXz1wmA1V7OSvP3HE8IqtEFcjVR?input=https:%2F%2Fwww.herdict.org%2F), [Global Voices](https://explorer.ooni.torproject.org/measurement/20170901T001651Z_AS44244_QAo0VpO9CjPq7hgZFo7dYdUZWkVKQOxwH87cakbyrMGbTLVufi?input=http:%2F%2Fadvocacy.globalvoicesonline.org), [Electronic Frontier Foundation (EFF)](https://explorer.ooni.torproject.org/measurement/20170831T205401Z_AS201150_A5fQYrFRzQQLcuCRqx6Kggl40Cme6r5EEYy5S38ufNBKdp3Ydk?input=https:%2F%2Fwww.eff.org%2F), [The Centre for Democracy and Technology (CDT)](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fcdt.org%2F).
+    * **Digital rights groups:** [ASL19](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fasl19.org), [The Citizen Lab](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fcitizenlab.org), [Herdict](https://explorer.ooni.org/measurement/20170829T173711Z_AS16322_tJ77PaiMTsazuCfZFNKFGMygXz1wmA1V7OSvP3HE8IqtEFcjVR?input=https:%2F%2Fwww.herdict.org%2F), [Global Voices](https://explorer.ooni.org/measurement/20170901T001651Z_AS44244_QAo0VpO9CjPq7hgZFo7dYdUZWkVKQOxwH87cakbyrMGbTLVufi?input=http:%2F%2Fadvocacy.globalvoicesonline.org), [Electronic Frontier Foundation (EFF)](https://explorer.ooni.org/measurement/20170831T205401Z_AS201150_A5fQYrFRzQQLcuCRqx6Kggl40Cme6r5EEYy5S38ufNBKdp3Ydk?input=https:%2F%2Fwww.eff.org%2F), [The Centre for Democracy and Technology (CDT)](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fcdt.org%2F).
 
-* **Blogging platforms:** [wordpress.com](https://explorer.ooni.torproject.org/measurement/20170919T043133Z_AS16322_lfGcun7eX1a9uBz54Pzn8mg4UoikhWtqRVpfw20T8NQstOQEr1?input=http:%2F%2Fwordpress.com), [blogger.com](https://explorer.ooni.torproject.org/measurement/20170919T043133Z_AS16322_lfGcun7eX1a9uBz54Pzn8mg4UoikhWtqRVpfw20T8NQstOQEr1?input=http:%2F%2Fblogger.com), [blogspot.com](https://explorer.ooni.torproject.org/measurement/20170919T043133Z_AS16322_lfGcun7eX1a9uBz54Pzn8mg4UoikhWtqRVpfw20T8NQstOQEr1?input=http:%2F%2Fwww.mani4lgbt.blogspot.com), [persianblog.com](https://explorer.ooni.torproject.org/measurement/20170919T043133Z_AS16322_lfGcun7eX1a9uBz54Pzn8mg4UoikhWtqRVpfw20T8NQstOQEr1?input=http:%2F%2Ffreedomforiran.persianblog.com).
+* **Blogging platforms:** [wordpress.com](https://explorer.ooni.org/measurement/20170919T043133Z_AS16322_lfGcun7eX1a9uBz54Pzn8mg4UoikhWtqRVpfw20T8NQstOQEr1?input=http:%2F%2Fwordpress.com), [blogger.com](https://explorer.ooni.org/measurement/20170919T043133Z_AS16322_lfGcun7eX1a9uBz54Pzn8mg4UoikhWtqRVpfw20T8NQstOQEr1?input=http:%2F%2Fblogger.com), [blogspot.com](https://explorer.ooni.org/measurement/20170919T043133Z_AS16322_lfGcun7eX1a9uBz54Pzn8mg4UoikhWtqRVpfw20T8NQstOQEr1?input=http:%2F%2Fwww.mani4lgbt.blogspot.com), [persianblog.com](https://explorer.ooni.org/measurement/20170919T043133Z_AS16322_lfGcun7eX1a9uBz54Pzn8mg4UoikhWtqRVpfw20T8NQstOQEr1?input=http:%2F%2Ffreedomforiran.persianblog.com).
 
-* **Search engines:** [google.com](https://explorer.ooni.torproject.org/measurement/20170913T033941Z_AS44244_XWbJUSF7A1sEQXM6OyeVxUcXFkHlsSJ8WRc2q7nCBkBYDvjph0?input=http:%2F%2Fwww.google.com%2Fsearch%3Fhl%3Dar%26q%3DKoon%26btnG%3D%25D8%25A5%25D8%25A8%25D8%25AD%25D8%25AB%2521%26lr%3D), [duckduckgo.com](https://explorer.ooni.torproject.org/measurement/20170828T000727Z_AS16322_CbZW9Sf1s0WujtW5iTla3zSV5iRZ1t20zSKFoHxhCYg1lJa12B?input=https:%2F%2Fduckduckgo.com%2F).
+* **Search engines:** [google.com](https://explorer.ooni.org/measurement/20170913T033941Z_AS44244_XWbJUSF7A1sEQXM6OyeVxUcXFkHlsSJ8WRc2q7nCBkBYDvjph0?input=http:%2F%2Fwww.google.com%2Fsearch%3Fhl%3Dar%26q%3DKoon%26btnG%3D%25D8%25A5%25D8%25A8%25D8%25AD%25D8%25AB%2521%26lr%3D), [duckduckgo.com](https://explorer.ooni.org/measurement/20170828T000727Z_AS16322_CbZW9Sf1s0WujtW5iTla3zSV5iRZ1t20zSKFoHxhCYg1lJa12B?input=https:%2F%2Fduckduckgo.com%2F).
 
-* **Communication tools:** [viber.com](https://explorer.ooni.torproject.org/measurement/20170903T034010Z_AS44244_eK4M5fnS6Wcn08gB9YsdtZlN90mLZJjOVcSzj9NQoWNmdZVwPA?input=http:%2F%2Fwww.viber.com), [paltalk.com](https://explorer.ooni.torproject.org/measurement/20170918T030314Z_AS44244_5Uv7bXBuW5ocZ4v5Oe7zxlfDpNMY7qrPcJeQWiSZxwMvVwV9Kk?input=http:%2F%2Fwww.paltalk.com).
+* **Communication tools:** [viber.com](https://explorer.ooni.org/measurement/20170903T034010Z_AS44244_eK4M5fnS6Wcn08gB9YsdtZlN90mLZJjOVcSzj9NQoWNmdZVwPA?input=http:%2F%2Fwww.viber.com), [paltalk.com](https://explorer.ooni.org/measurement/20170918T030314Z_AS44244_5Uv7bXBuW5ocZ4v5Oe7zxlfDpNMY7qrPcJeQWiSZxwMvVwV9Kk?input=http:%2F%2Fwww.paltalk.com).
 
-* **Social networks:** [twitter.com](https://explorer.ooni.torproject.org/measurement/20170831T111030Z_AS44244_mV6lnlrp0UDTtLHJBpeBApNkkmKQQqy13siWac0qZPPpmJis9G?input=https:%2F%2Ftwitter.com), [facebook.com](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fwww.facebook.com%2Fkambizhosseini), [pinterest.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.pinterest.com%2F), [myspace.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fmyspace.com%2F), [4chan.org](https://explorer.ooni.torproject.org/measurement/20170831T111030Z_AS44244_mV6lnlrp0UDTtLHJBpeBApNkkmKQQqy13siWac0qZPPpmJis9G?input=http:%2F%2Fwww.4chan.org).
+* **Social networks:** [twitter.com](https://explorer.ooni.org/measurement/20170831T111030Z_AS44244_mV6lnlrp0UDTtLHJBpeBApNkkmKQQqy13siWac0qZPPpmJis9G?input=https:%2F%2Ftwitter.com), [facebook.com](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fwww.facebook.com%2Fkambizhosseini), [pinterest.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.pinterest.com%2F), [myspace.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fmyspace.com%2F), [4chan.org](https://explorer.ooni.org/measurement/20170831T111030Z_AS44244_mV6lnlrp0UDTtLHJBpeBApNkkmKQQqy13siWac0qZPPpmJis9G?input=http:%2F%2Fwww.4chan.org).
 
-* **Media sharing platforms:** [youtube.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.youtube.com), [vimeo.com](https://explorer.ooni.torproject.org/measurement/20170904T101149Z_AS31549_YtoGaLSQDhg9P2c3eZsABt09zrVKhSVCui3rACcYqVJgE6RYrq?input=https:%2F%2Fvimeo.com%2F), [instagram.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.instagram.com%2F), [netflix.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.netflix.com%2F), [flickr.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.flickr.com%2F), [metacafe.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.metacafe.com).
+* **Media sharing platforms:** [youtube.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.youtube.com), [vimeo.com](https://explorer.ooni.org/measurement/20170904T101149Z_AS31549_YtoGaLSQDhg9P2c3eZsABt09zrVKhSVCui3rACcYqVJgE6RYrq?input=https:%2F%2Fvimeo.com%2F), [instagram.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.instagram.com%2F), [netflix.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.netflix.com%2F), [flickr.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.flickr.com%2F), [metacafe.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.metacafe.com).
 
-* **Anonymity and censorship circumvention tool sites:** [torproject.org](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.torproject.org), [psiphon.ca](https://explorer.ooni.torproject.org/measurement/20170904T101149Z_AS31549_YtoGaLSQDhg9P2c3eZsABt09zrVKhSVCui3rACcYqVJgE6RYrq?input=https:%2F%2Fpsiphon.ca%2F), [openvpn.net](https://explorer.ooni.torproject.org/measurement/20170829T144146Z_AS12880_d5GXgvFXw2So2rM9NI8DRNNeafsRnH42dBSClVT1eTnURjG3Zp?input=https:%2F%2Fopenvpn.net), [freenetproject.org](https://explorer.ooni.torproject.org/measurement/20170828T212242Z_AS57563_wi9roMwqCSNCQyP5iWYDxFZLrsnfw9O50rOl8SNrnwGB8la3yN?input=https:%2F%2Ffreenetproject.org%2F), [anonymouse.org](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fanonymouse.org), [anonymizer.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.anonymizer.com%2F), [megaproxy.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.megaproxy.com), [ultrasurf.us](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fultrasurf.us), [hotspotshield.com](https://explorer.ooni.torproject.org/measurement/20170902T181922Z_AS44244_2CCMuqmNwiHf6yIlzCWtaYEAQUrMhgIZpDj0O4kJCNglFdjlCe?input=https:%2F%2Fwww.hotspotshield.com%2F).
+* **Anonymity and censorship circumvention tool sites:** [torproject.org](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.torproject.org), [psiphon.ca](https://explorer.ooni.org/measurement/20170904T101149Z_AS31549_YtoGaLSQDhg9P2c3eZsABt09zrVKhSVCui3rACcYqVJgE6RYrq?input=https:%2F%2Fpsiphon.ca%2F), [openvpn.net](https://explorer.ooni.org/measurement/20170829T144146Z_AS12880_d5GXgvFXw2So2rM9NI8DRNNeafsRnH42dBSClVT1eTnURjG3Zp?input=https:%2F%2Fopenvpn.net), [freenetproject.org](https://explorer.ooni.org/measurement/20170828T212242Z_AS57563_wi9roMwqCSNCQyP5iWYDxFZLrsnfw9O50rOl8SNrnwGB8la3yN?input=https:%2F%2Ffreenetproject.org%2F), [anonymouse.org](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fanonymouse.org), [anonymizer.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.anonymizer.com%2F), [megaproxy.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.megaproxy.com), [ultrasurf.us](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fultrasurf.us), [hotspotshield.com](https://explorer.ooni.org/measurement/20170902T181922Z_AS44244_2CCMuqmNwiHf6yIlzCWtaYEAQUrMhgIZpDj0O4kJCNglFdjlCe?input=https:%2F%2Fwww.hotspotshield.com%2F).
 
-[OONI tests](https://ooni.torproject.org/nettest/vanilla-tor/) revealed [blocking of the Tor network](https://explorer.ooni.torproject.org/measurement/20170808T004237Z_AS197207_yysdxIa15WjQ3pQFt9RLxQc2lRzWFlxQKoQXd6846BUbEYw5gr)
+[OONI tests](https://ooni.org/nettest/vanilla-tor/) revealed [blocking of the Tor network](https://explorer.ooni.org/measurement/20170808T004237Z_AS197207_yysdxIa15WjQ3pQFt9RLxQc2lRzWFlxQKoQXd6846BUbEYw5gr)
 in many networks across Iran. Some [Tor bridges](https://bridges.torproject.org/), used to circumvent the
-blocking of the Tor network, remained [partially accessible](https://explorer.ooni.torproject.org/measurement/20160528T070123Z_AS16322_LQ1A8Q54Eo6AjvRcmc7dZ0432UzXrIXoeGQF1yYwQZQKG23Xjw?input=obfs4%20154.35.22.9:80%20C73ADBAC8ADFDBF0FC0F3F4E8091C0107D093716%20cert%3DgEGKc5WN%2FbSjFa6UkG9hOcft1tuK%2BcV8hbZ0H6cqXiMPLqSbCh2Q3PHe5OOr6oMVORhoJA%20iat-mode%3D0).
+blocking of the Tor network, remained [partially accessible](https://explorer.ooni.org/measurement/20160528T070123Z_AS16322_LQ1A8Q54Eo6AjvRcmc7dZ0432UzXrIXoeGQF1yYwQZQKG23Xjw?input=obfs4%20154.35.22.9:80%20C73ADBAC8ADFDBF0FC0F3F4E8091C0107D093716%20cert%3DgEGKc5WN%2FbSjFa6UkG9hOcft1tuK%2BcV8hbZ0H6cqXiMPLqSbCh2Q3PHe5OOr6oMVORhoJA%20iat-mode%3D0).
 
-Facebook Messenger was [blocked using DNS manipulation](https://explorer.ooni.torproject.org/measurement/20170904T004807Z_AS44244_hTmlTpcncdzFBKkjI00ChqyuDLbFTz4GtokG7GBvQtcT9VYfhY).
-In contrast, other popular communications apps, like [WhatsApp](https://explorer.ooni.torproject.org/measurement/20170904T004754Z_AS44244_lA7TEcxLjUjRrmWzukWJutJYqys9SEvjtlgycprFuG7BIGzglY)
-and [Telegram](https://explorer.ooni.torproject.org/measurement/20170919T004801Z_AS16322_EFsshM60wHNs9A1szSICKi6GynpY0iNzvU9O7wHKHaJJHv9puM),
+Facebook Messenger was [blocked using DNS manipulation](https://explorer.ooni.org/measurement/20170904T004807Z_AS44244_hTmlTpcncdzFBKkjI00ChqyuDLbFTz4GtokG7GBvQtcT9VYfhY).
+In contrast, other popular communications apps, like [WhatsApp](https://explorer.ooni.org/measurement/20170904T004754Z_AS44244_lA7TEcxLjUjRrmWzukWJutJYqys9SEvjtlgycprFuG7BIGzglY)
+and [Telegram](https://explorer.ooni.org/measurement/20170919T004801Z_AS16322_EFsshM60wHNs9A1szSICKi6GynpY0iNzvU9O7wHKHaJJHv9puM),
 were accessible during the testing period.
 
 **Internet censorship in Iran is quite sophisticated.** ISPs regularly
@@ -168,27 +168,27 @@ flipped between blocking and unblocking sites over time, possibly in an
 attempt to make the censorship more subtle.
 
 The government isn’t the only source of censorship in Iran.
-[Norton](https://explorer.ooni.torproject.org/measurement/20170830T070124Z_AS197207_dK5xbieFUtWkyymCiN2txZbuH1crqFIals0EAmzSSsymcfMrfm?input=https:%2F%2Fnorton.com%2F)
-and [GraphicRiver](https://explorer.ooni.torproject.org/measurement/20170903T021755Z_AS16322_m8gKgQgZdu7o7GVe6tZYagB9DVjNLGrzrkUCzWAijzwf5rBQbv?input=http:%2F%2Fgraphicriver.net%2F)
+[Norton](https://explorer.ooni.org/measurement/20170830T070124Z_AS197207_dK5xbieFUtWkyymCiN2txZbuH1crqFIals0EAmzSSsymcfMrfm?input=https:%2F%2Fnorton.com%2F)
+and [GraphicRiver](https://explorer.ooni.org/measurement/20170903T021755Z_AS16322_m8gKgQgZdu7o7GVe6tZYagB9DVjNLGrzrkUCzWAijzwf5rBQbv?input=http:%2F%2Fgraphicriver.net%2F)
 are examples of services inaccessible in the country because they block
 IP addresses originating from Iran, in compliance with [U.S. export laws and regulations](https://dns.norton.com/terms.html). Virus Total,
-which uses Google App Engine (GAE), was likewise [inaccessible](https://explorer.ooni.torproject.org/measurement/20170612T031742Z_AS16322_Gg0hUk9p5DTeHdBDj0jy7vywseo6RK4JgfPt4CtRgHEgZvKsHl?input=https:%2F%2Fwww.virustotal.com)
+which uses Google App Engine (GAE), was likewise [inaccessible](https://explorer.ooni.org/measurement/20170612T031742Z_AS16322_Gg0hUk9p5DTeHdBDj0jy7vywseo6RK4JgfPt4CtRgHEgZvKsHl?input=https:%2F%2Fwww.virustotal.com)
 because Google blocks access to GAE from Iran.
 
 # Introduction
 
 This study is part of an ongoing effort to monitor internet censorship
-in Iran and in [more than 200 other countries](https://explorer.ooni.torproject.org/world/) around the
+in Iran and in [more than 200 other countries](https://explorer.ooni.org/world/) around the
 world.
 
-This research report, written by the [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) in collaboration
+This research report, written by the [Open Observatory of Network Interference (OONI)](https://ooni.org/) in collaboration
 with [ASL19](https://asl19.org/), [ARTICLE 19](https://www.article19.org/), and [Small Media](https://smallmedia.org.uk/), presents censorship findings from
-the analysis of [thousands of network measurements](https://explorer.ooni.torproject.org/country/IR)
+the analysis of [thousands of network measurements](https://explorer.ooni.org/country/IR)
 collected from 60 networks in Iran over the last three years.
 
 The aim of this study is to increase the transparency of information
 controls in Iran through the interpretation of empirical
-[data](https://measurements.ooni.torproject.org/files/by_country/IR).
+[data](https://measurements.ooni.org/files/by_country/IR).
 
 The following sections of this report provide information about Iran’s
 network landscape and internet use, its legal environment with respect
@@ -737,31 +737,31 @@ testing period.
 Since 2012, OONI has developed multiple [free and open source software tests](https://github.com/TheTorProject/ooni-probe) designed to
 measure the following:
 
-* [Blocking of websites](https://ooni.torproject.org/nettest/web-connectivity/);
+* [Blocking of websites](https://ooni.org/nettest/web-connectivity/);
 
-* Blocking of the [Tor network](https://ooni.torproject.org/nettest/vanilla-tor/) and [Tor bridges](https://ooni.torproject.org/nettest/tor-bridge-reachability/);
+* Blocking of the [Tor network](https://ooni.org/nettest/vanilla-tor/) and [Tor bridges](https://ooni.org/nettest/tor-bridge-reachability/);
 
-* Blocking of instant messaging apps ([WhatsApp](https://ooni.torproject.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.torproject.org/nettest/facebook-messenger/), [Telegram](https://ooni.torproject.org/nettest/telegram/));
+* Blocking of instant messaging apps ([WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/));
 
-* [Detection of systems (“middleboxes”)](https://ooni.torproject.org/nettest/http-invalid-request-line/) which could be responsible for censorship and surveillance;
+* [Detection of systems (“middleboxes”)](https://ooni.org/nettest/http-invalid-request-line/) which could be responsible for censorship and surveillance;
 
-* [Speed and performance](https://ooni.torproject.org/nettest/ndt/) of networks.
+* [Speed and performance](https://ooni.org/nettest/ndt/) of networks.
 
 As part of this study, the following [OONI software tests](https://github.com/TheTorProject/ooni-probe) were run in Iran:
 
-* [Web Connectivity](https://ooni.torproject.org/nettest/web-connectivity/)
+* [Web Connectivity](https://ooni.org/nettest/web-connectivity/)
 
-* [HTTP Invalid Request Line](https://ooni.torproject.org/nettest/http-invalid-request-line/)
+* [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/)
 
-* [HTTP Header Field Manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/)
+* [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/)
 
-* [Vanilla Tor](https://ooni.torproject.org/nettest/vanilla-tor/)
+* [Vanilla Tor](https://ooni.org/nettest/vanilla-tor/)
 
-* [WhatsApp](https://ooni.torproject.org/nettest/whatsapp/) test
+* [WhatsApp](https://ooni.org/nettest/whatsapp/) test
 
-* [Facebook Messenger](https://ooni.torproject.org/nettest/facebook-messenger/) test
+* [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/) test
 
-* [Telegram](https://ooni.torproject.org/nettest/telegram/) test
+* [Telegram](https://ooni.org/nettest/telegram/) test
 
 The Web Connectivity test checks whether a set of URLs (including both
 the “[global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)”
@@ -902,7 +902,7 @@ likely placed in the tested network, though it’s not always clear what
 that software is. In some cases though, censorship and/or surveillance
 vendors can be identified through the error messages in the received
 HTTP response. Based on this technique, OONI has previously
-[detected](https://explorer.ooni.torproject.org/highlights/) the use
+[detected](https://explorer.ooni.org/highlights/) the use
 of BlueCoat, Squid and Privoxy proxy technologies in networks across
 multiple countries around the world.
 
@@ -1083,7 +1083,7 @@ compare them across time.
 
 OONI does *not* deliberately collect or store users’ IP addresses. In
 fact, OONI takes measures to remove users’ IP addresses from collected
-measurements, to protect its users from [potential risks](https://ooni.torproject.org/about/risks/).
+measurements, to protect its users from [potential risks](https://ooni.org/about/risks/).
 
 However, OONI might *unintentionally* collect users’ IP addresses and
 other potentially personally-identifiable information, if that
@@ -1097,8 +1097,8 @@ location.
 The types of network measurements that OONI collects depend on the types
 of tests that are run. Specifications about each OONI test can be viewed
 through its [git repository](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs),
-and collected network measurements can be viewed through [OONI Explorer](https://explorer.ooni.torproject.org/world/) or through
-OONI’s [measurement API](https://measurements.ooni.torproject.org/).
+and collected network measurements can be viewed through [OONI Explorer](https://explorer.ooni.org/world/) or through
+OONI’s [measurement API](https://measurements.ooni.org/).
 
 OONI processes reports with the aim of deriving meaning from data and,
 specifically, to answer the following types of questions:
@@ -1185,7 +1185,7 @@ identify censorship events.
 # Findings
 
 Thousands of network measurements
-[collected](https://measurements.ooni.torproject.org/files/by_country/IR)
+[collected](https://measurements.ooni.org/files/by_country/IR)
 from 60 local networks over the last three years reveal *pervasive*
 levels of internet censorship in Iran.
 
@@ -1217,29 +1217,29 @@ communication tools, anonymity and censorship circumvention tools, and
 search engines, amongst others.
 
 Our tests examining the reachability of instant messaging apps revealed
-the [DNS blocking of Facebook Messenger](https://explorer.ooni.torproject.org/measurement/20170829T024145Z_AS44244_PLe6uPURhuUA87xoPzzcFU69idfuiVs4jAEqj5E7r5i2BtK2cS)
+the [DNS blocking of Facebook Messenger](https://explorer.ooni.org/measurement/20170829T024145Z_AS44244_PLe6uPURhuUA87xoPzzcFU69idfuiVs4jAEqj5E7r5i2BtK2cS)
 in multiple networks across Iran.
-[WhatsApp](https://explorer.ooni.torproject.org/measurement/20170904T030602Z_AS16322_Slr4QSUtTroYRQloYgIhatK1Jpwitgm0GWDuGtcJkaUUh4iQH7)
+[WhatsApp](https://explorer.ooni.org/measurement/20170904T030602Z_AS16322_Slr4QSUtTroYRQloYgIhatK1Jpwitgm0GWDuGtcJkaUUh4iQH7)
 and
-[Telegram](https://explorer.ooni.torproject.org/measurement/20170913T023324Z_AS16322_UhtHeecpvmOJOmggsdlet7q7KvUB6YP50R5rKOP6IOR7yVuUqC)
+[Telegram](https://explorer.ooni.org/measurement/20170913T023324Z_AS16322_UhtHeecpvmOJOmggsdlet7q7KvUB6YP50R5rKOP6IOR7yVuUqC)
 though were found to be accessible during the testing period. Other
-[OONI tests](https://ooni.torproject.org/nettest/http-invalid-request-line/)
-uncovered the [presence of middleboxes](https://explorer.ooni.torproject.org/measurement/20170831T234320Z_AS57218_XWI5W9PrsXjyLIAjt20vrePg4vh00YRa38Zv4UuIEE0bpeP2y3)
+[OONI tests](https://ooni.org/nettest/http-invalid-request-line/)
+uncovered the [presence of middleboxes](https://explorer.ooni.org/measurement/20170831T234320Z_AS57218_XWI5W9PrsXjyLIAjt20vrePg4vh00YRa38Zv4UuIEE0bpeP2y3)
 across many networks in Iran, which might be responsible for internet
 censorship and traffic manipulation.
 
 Circumventing internet censorship in Iran can be quite challenging. We
 find that the domains of multiple popular circumvention tool sites (such
 as
-[anonymouse.org](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fanonymouse.org)
+[anonymouse.org](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fanonymouse.org)
 and
-[psiphon.ca](https://explorer.ooni.torproject.org/measurement/20170831T224040Z_AS44244_V6FN6KBMd4mfh40FsyHOr23t38Zc8eWFDuAD1vo5vQbav0hmIj?input=https:%2F%2Fpsiphon.ca%2F))
-are [blocked](https://explorer.ooni.torproject.org/country/IR). We
+[psiphon.ca](https://explorer.ooni.org/measurement/20170831T224040Z_AS44244_V6FN6KBMd4mfh40FsyHOr23t38Zc8eWFDuAD1vo5vQbav0hmIj?input=https:%2F%2Fpsiphon.ca%2F))
+are [blocked](https://explorer.ooni.org/country/IR). We
 also find that the [Tor anonymity network](https://www.torproject.org/) is
-[blocked](https://explorer.ooni.torproject.org/measurement/20170808T004237Z_AS197207_yysdxIa15WjQ3pQFt9RLxQc2lRzWFlxQKoQXd6846BUbEYw5gr)
-in many networks, as revealed by [OONI’s test](https://ooni.torproject.org/nettest/vanilla-tor/) designed to
+[blocked](https://explorer.ooni.org/measurement/20170808T004237Z_AS197207_yysdxIa15WjQ3pQFt9RLxQc2lRzWFlxQKoQXd6846BUbEYw5gr)
+in many networks, as revealed by [OONI’s test](https://ooni.org/nettest/vanilla-tor/) designed to
 measure the reachability to the Tor network. Many Iranian ISPs block
-both the HTTP and HTTPS versions of sites, while others even [block online translators](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.systranbox.com)
+both the HTTP and HTTPS versions of sites, while others even [block online translators](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.systranbox.com)
 as an additional method of limiting circumvention.
 
 Therefore, internet censorship in Iran is not only pervasive in terms of
@@ -1250,16 +1250,16 @@ accessing (or could be accessing).
 
 The government is not the only source of internet censorship in Iran. We
 found that
-[Norton](https://explorer.ooni.torproject.org/measurement/20170830T070124Z_AS197207_dK5xbieFUtWkyymCiN2txZbuH1crqFIals0EAmzSSsymcfMrfm?input=https:%2F%2Fnorton.com%2F)
+[Norton](https://explorer.ooni.org/measurement/20170830T070124Z_AS197207_dK5xbieFUtWkyymCiN2txZbuH1crqFIals0EAmzSSsymcfMrfm?input=https:%2F%2Fnorton.com%2F)
 and
-[GraphicRiver](https://explorer.ooni.torproject.org/measurement/20170830T070124Z_AS197207_dK5xbieFUtWkyymCiN2txZbuH1crqFIals0EAmzSSsymcfMrfm?input=http:%2F%2Fgraphicriver.net%2F)
+[GraphicRiver](https://explorer.ooni.org/measurement/20170830T070124Z_AS197207_dK5xbieFUtWkyymCiN2txZbuH1crqFIals0EAmzSSsymcfMrfm?input=http:%2F%2Fgraphicriver.net%2F)
 are not accessible in Iran because the sites are blocking IP addresses
-originating from Iran. [Virus Total was also found to be inaccessible](https://explorer.ooni.torproject.org/measurement/20170612T031742Z_AS16322_Gg0hUk9p5DTeHdBDj0jy7vywseo6RK4JgfPt4CtRgHEgZvKsHl?input=https:%2F%2Fwww.virustotal.com),
+originating from Iran. [Virus Total was also found to be inaccessible](https://explorer.ooni.org/measurement/20170612T031742Z_AS16322_Gg0hUk9p5DTeHdBDj0jy7vywseo6RK4JgfPt4CtRgHEgZvKsHl?input=https:%2F%2Fwww.virustotal.com),
 because it uses Google App Engine, access to which is blocked by Google.
 These censorship cases appear to be due to U.S. export laws.
 
 Below, we provide more information on *some* of the findings of this
-study. We encourage researchers to explore the [published data](https://measurements.ooni.torproject.org/files/by_country/IR) for
+study. We encourage researchers to explore the [published data](https://measurements.ooni.org/files/by_country/IR) for
 additional analysis on interesting findings that we have not highlighted
 in the following sections.
 
@@ -1274,30 +1274,30 @@ range of sites, beyond those that are illegal, were found to be blocked
 in the country.
 
 Popular search engines, such as
-[google.com](https://explorer.ooni.torproject.org/measurement/20170913T033941Z_AS44244_XWbJUSF7A1sEQXM6OyeVxUcXFkHlsSJ8WRc2q7nCBkBYDvjph0?input=http:%2F%2Fwww.google.com%2Fsearch%3Fhl%3Dar%26q%3DKoon%26btnG%3D%25D8%25A5%25D8%25A8%25D8%25AD%25D8%25AB%2521%26lr%3D)
+[google.com](https://explorer.ooni.org/measurement/20170913T033941Z_AS44244_XWbJUSF7A1sEQXM6OyeVxUcXFkHlsSJ8WRc2q7nCBkBYDvjph0?input=http:%2F%2Fwww.google.com%2Fsearch%3Fhl%3Dar%26q%3DKoon%26btnG%3D%25D8%25A5%25D8%25A8%25D8%25AD%25D8%25AB%2521%26lr%3D)
 and privacy-enhancing
-[duckduckgo.com](https://explorer.ooni.torproject.org/measurement/20170828T000727Z_AS16322_CbZW9Sf1s0WujtW5iTla3zSV5iRZ1t20zSKFoHxhCYg1lJa12B?input=https:%2F%2Fduckduckgo.com%2F),
+[duckduckgo.com](https://explorer.ooni.org/measurement/20170828T000727Z_AS16322_CbZW9Sf1s0WujtW5iTla3zSV5iRZ1t20zSKFoHxhCYg1lJa12B?input=https:%2F%2Fduckduckgo.com%2F),
 were amongst those found to be censored. Blogging platforms, like
-[wordpress.com](https://explorer.ooni.torproject.org/measurement/20170909T033626Z_AS44244_nQ3nuzxEpubK0R9fba4Be6SEYlEMg3iBHcOkEujDFJskDCuEDt?input=https:%2F%2Fwordpress.com),
-[blogger.com](https://explorer.ooni.torproject.org/measurement/20170813T043815Z_AS16322_bfLt3FuoNxavxSyivCYZpiJLdoQ0qlnc7DxjPP2dA4JhKsNDON?input=http:%2F%2Fblogger.com),
-[blogspot.com](https://explorer.ooni.torproject.org/measurement/20170912T051036Z_AS197207_61ynG5Pbg0cHGA9XOd2cZ2yRrHwyEH3zzK6266x5Gv9pKUBE4i?input=http:%2F%2Fzibanawak.blogspot.com%2F),
+[wordpress.com](https://explorer.ooni.org/measurement/20170909T033626Z_AS44244_nQ3nuzxEpubK0R9fba4Be6SEYlEMg3iBHcOkEujDFJskDCuEDt?input=https:%2F%2Fwordpress.com),
+[blogger.com](https://explorer.ooni.org/measurement/20170813T043815Z_AS16322_bfLt3FuoNxavxSyivCYZpiJLdoQ0qlnc7DxjPP2dA4JhKsNDON?input=http:%2F%2Fblogger.com),
+[blogspot.com](https://explorer.ooni.org/measurement/20170912T051036Z_AS197207_61ynG5Pbg0cHGA9XOd2cZ2yRrHwyEH3zzK6266x5Gv9pKUBE4i?input=http:%2F%2Fzibanawak.blogspot.com%2F),
 and
-[persianblog.com](https://explorer.ooni.torproject.org/measurement/20170907T034332Z_AS44244_fN1h5XCpGGFkHw6uMo3e4ElzvxrzQH6LiL8lc6XP4vR0N8w5Ee?input=http:%2F%2Fpersianblog.com%2F)
+[persianblog.com](https://explorer.ooni.org/measurement/20170907T034332Z_AS44244_fN1h5XCpGGFkHw6uMo3e4ElzvxrzQH6LiL8lc6XP4vR0N8w5Ee?input=http:%2F%2Fpersianblog.com%2F)
 were also blocked. Iranian ISPs even targeted a variety of online gaming
-sites, such as [World of Warcraft](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fworldofwarcraft.com%2F).
+sites, such as [World of Warcraft](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fworldofwarcraft.com%2F).
 While the precise motivation behind this blocking is quite unclear to
 us, it might be worth noting that [World of Warcraft has been monitored by the NSA](https://www.computerworld.com/article/2486632/cyberwarfare/the-nsa-tracks-world-of-warcraft-and-other-online-games-for-terrorist-clues.html)
 over suspicions that the game was used as a communications platform by
 terrorists.
 
 Multiple Israeli domains were found to be blocked. These include
-[government sites](https://explorer.ooni.torproject.org/measurement/20170906T030515Z_AS197207_RzGkAOX5mI1Gqp0GlODyuGNCgoyrt9pLHsyaVGIV5rol1tmD3Q?input=http:%2F%2Fwww.mod.gov.il),
+[government sites](https://explorer.ooni.org/measurement/20170906T030515Z_AS197207_RzGkAOX5mI1Gqp0GlODyuGNCgoyrt9pLHsyaVGIV5rol1tmD3Q?input=http:%2F%2Fwww.mod.gov.il),
 news outlets
-([haaretz.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.haaretz.com)),
+([haaretz.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.haaretz.com)),
 sports sites
-([basket.co.il](https://explorer.ooni.torproject.org/measurement/20170901T035141Z_AS44244_IvztG4pj6MAMtt5RN6p8cY9AiaxFxE6Pm6mbl7rdmmIMIR5dFN?input=http:%2F%2Fwww.basket.co.il)),
+([basket.co.il](https://explorer.ooni.org/measurement/20170901T035141Z_AS44244_IvztG4pj6MAMtt5RN6p8cY9AiaxFxE6Pm6mbl7rdmmIMIR5dFN?input=http:%2F%2Fwww.basket.co.il)),
 a mail provider
-([mail.walla.co.il](https://explorer.ooni.torproject.org/measurement/20170307T230434Z_AS43754_Ht3cpLL3OQgoWyqpJ81xeOYW7WduX2KYIfvMAYHd9WWvGQm3G0?input=http:%2F%2Fmail.walla.co.il))
+([mail.walla.co.il](https://explorer.ooni.org/measurement/20170307T230434Z_AS43754_Ht3cpLL3OQgoWyqpJ81xeOYW7WduX2KYIfvMAYHd9WWvGQm3G0?input=http:%2F%2Fmail.walla.co.il))
 and multiple other types of Israeli sites. The fact that the blocking of
 Israeli domains is not limited to those that express criticism towards
 the Iranian government or which host illegal content suggests that
@@ -1305,9 +1305,9 @@ Iranian ISPs likely blocked Israeli domains almost indiscriminately,
 regardless of their content. The breadth of Israeli domain blocking also
 indicates that politics likely influence how information controls are
 implemented in Iran. Quite similarly, the blocking of
-[usaid.gov](https://explorer.ooni.torproject.org/measurement/20170829T213139Z_AS43754_z1dX83Pysgq0bShLMZy082JY05w7qxI7maxCdrMJkz2s7hJwBg?input=https:%2F%2Fwww.usaid.gov%2F)
+[usaid.gov](https://explorer.ooni.org/measurement/20170829T213139Z_AS43754_z1dX83Pysgq0bShLMZy082JY05w7qxI7maxCdrMJkz2s7hJwBg?input=https:%2F%2Fwww.usaid.gov%2F)
 and
-[cia.gov](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.cia.gov)
+[cia.gov](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.cia.gov)
 suggests that the political relations between Iran and the U.S. may have
 influenced internet censorship in the country.
 
@@ -1328,51 +1328,51 @@ popular media sites, as well as Iranian news outlets.
 
 Some of the blocked international news sites include:
 
-* [bbc.co.uk](https://explorer.ooni.torproject.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Fwww.bbc.co.uk)
+* [bbc.co.uk](https://explorer.ooni.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Fwww.bbc.co.uk)
 
-* [dw-world.de](https://explorer.ooni.torproject.org/measurement/20170903T021755Z_AS16322_m8gKgQgZdu7o7GVe6tZYagB9DVjNLGrzrkUCzWAijzwf5rBQbv?input=http:%2F%2Fwww.dw-world.de%2Fdw%2F0,,641,00.html)
+* [dw-world.de](https://explorer.ooni.org/measurement/20170903T021755Z_AS16322_m8gKgQgZdu7o7GVe6tZYagB9DVjNLGrzrkUCzWAijzwf5rBQbv?input=http:%2F%2Fwww.dw-world.de%2Fdw%2F0,,641,00.html)
 
-* [voanews.com](https://explorer.ooni.torproject.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.voanews.com%2Fpersian%2F)
+* [voanews.com](https://explorer.ooni.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.voanews.com%2Fpersian%2F)
 
-* [indiatimes.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.indiatimes.com)
+* [indiatimes.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.indiatimes.com)
 
-* [arabtimes.com](https://explorer.ooni.torproject.org/measurement/20170902T221146Z_AS197207_0FospvK9Ol7aYaROSdhQLWskUeOxYvspMWejPYrLcfepLIrDZA?input=http:%2F%2Fwww.arabtimes.com)
+* [arabtimes.com](https://explorer.ooni.org/measurement/20170902T221146Z_AS197207_0FospvK9Ol7aYaROSdhQLWskUeOxYvspMWejPYrLcfepLIrDZA?input=http:%2F%2Fwww.arabtimes.com)
 
-* [cbsnews.com](https://explorer.ooni.torproject.org/measurement/20170901T074151Z_AS25124_0AJZQSb9Pvphip58LWHxjyWgFbpnIMrAwObXDGjaFNmeeJ9OMs?input=http:%2F%2Fwww.cbsnews.com)
+* [cbsnews.com](https://explorer.ooni.org/measurement/20170901T074151Z_AS25124_0AJZQSb9Pvphip58LWHxjyWgFbpnIMrAwObXDGjaFNmeeJ9OMs?input=http:%2F%2Fwww.cbsnews.com)
 
-* [dailymail.co.uk](https://explorer.ooni.torproject.org/measurement/20170828T212242Z_AS57563_wi9roMwqCSNCQyP5iWYDxFZLrsnfw9O50rOl8SNrnwGB8la3yN?input=http:%2F%2Fwww.dailymail.co.uk)
+* [dailymail.co.uk](https://explorer.ooni.org/measurement/20170828T212242Z_AS57563_wi9roMwqCSNCQyP5iWYDxFZLrsnfw9O50rOl8SNrnwGB8la3yN?input=http:%2F%2Fwww.dailymail.co.uk)
 
-* [dailymotion.com](https://explorer.ooni.torproject.org/measurement/20170831T152444Z_AS44244_ahxHtgDh4OEBrPwPi5oeG0bdh6nd3zvBxQeiFdakHjZACDT8DC?input=http:%2F%2Fwww.dailymotion.com)
+* [dailymotion.com](https://explorer.ooni.org/measurement/20170831T152444Z_AS44244_ahxHtgDh4OEBrPwPi5oeG0bdh6nd3zvBxQeiFdakHjZACDT8DC?input=http:%2F%2Fwww.dailymotion.com)
 
-* [foxnews.com](https://explorer.ooni.torproject.org/measurement/20170830T114215Z_AS16322_RWOQKe9DzA09MrHWL85LJaFSjBk26D9IHpgHo8r2sIx53QdMEq?input=http:%2F%2Fwww.foxnews.com)
+* [foxnews.com](https://explorer.ooni.org/measurement/20170830T114215Z_AS16322_RWOQKe9DzA09MrHWL85LJaFSjBk26D9IHpgHo8r2sIx53QdMEq?input=http:%2F%2Fwww.foxnews.com)
 
-* [rambler.ru](https://explorer.ooni.torproject.org/measurement/20170828T203854Z_AS198357_1Ak3gAwQgL4wcrlFA0JO7I7VLcdqzJosKOnc7GuPjhEzRizkNn?input=https:%2F%2Fwww.rambler.ru%2F)
+* [rambler.ru](https://explorer.ooni.org/measurement/20170828T203854Z_AS198357_1Ak3gAwQgL4wcrlFA0JO7I7VLcdqzJosKOnc7GuPjhEzRizkNn?input=https:%2F%2Fwww.rambler.ru%2F)
 
-* [russia.tv](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Frussia.tv)
+* [russia.tv](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Frussia.tv)
 
-* [reddit.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.reddit.com%2F)
+* [reddit.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.reddit.com%2F)
 
-* [cbc.ca](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.cbc.ca)
+* [cbc.ca](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.cbc.ca)
 
-* [aawsat.com](https://explorer.ooni.torproject.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Faawsat.com%2F)
+* [aawsat.com](https://explorer.ooni.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Faawsat.com%2F)
 
-* [haaretz.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.haaretz.com)
+* [haaretz.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.haaretz.com)
 
 Many of the blocked international news outlets express criticism towards
 the Iranian government and its regime, likely explaining the motivation
 behind their censorship. We also found Reddit, an internationally
 popular site that aggregates news and provides a platform for
 discussions, to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170902T081223Z_AS44244_dSch1V8VCbqnelUvwdhTbsg4qjSxODH1LTXWSnfgiG0vvbjnMV?input=https:%2F%2Fwww.reddit.com%2F)
+[blocked](https://explorer.ooni.org/measurement/20170902T081223Z_AS44244_dSch1V8VCbqnelUvwdhTbsg4qjSxODH1LTXWSnfgiG0vvbjnMV?input=https:%2F%2Fwww.reddit.com%2F)
 as well.
 
 Iranian ISPs were found to be blocking (at least) five BBC domains:
-[bbc.co.uk](https://explorer.ooni.torproject.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Fwww.bbc.co.uk),
-[bbc.com](https://explorer.ooni.torproject.org/measurement/20170906T030515Z_AS197207_RzGkAOX5mI1Gqp0GlODyuGNCgoyrt9pLHsyaVGIV5rol1tmD3Q?input=http:%2F%2Fwww.bbc.com%2Fpersian),
-[bbcworld.com](https://explorer.ooni.torproject.org/measurement/20170210T134227Z_AS44244_cwXlqhFxGuTbqAyqf2NMXFuTJ6hNDbNiNh6BNXpJwVUGC7fpOP?input=http:%2F%2Fwww.bbcworld.com),
-[news.bbc.co.uk](https://explorer.ooni.torproject.org/measurement/20170710T144728Z_AS31549_T0kaJfPCi2Z1zD5QaC9jk8dNIQqqMGy6p6v5WKE0iEopQ7DvDE?input=http:%2F%2Fnews.bbc.co.uk),
+[bbc.co.uk](https://explorer.ooni.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Fwww.bbc.co.uk),
+[bbc.com](https://explorer.ooni.org/measurement/20170906T030515Z_AS197207_RzGkAOX5mI1Gqp0GlODyuGNCgoyrt9pLHsyaVGIV5rol1tmD3Q?input=http:%2F%2Fwww.bbc.com%2Fpersian),
+[bbcworld.com](https://explorer.ooni.org/measurement/20170210T134227Z_AS44244_cwXlqhFxGuTbqAyqf2NMXFuTJ6hNDbNiNh6BNXpJwVUGC7fpOP?input=http:%2F%2Fwww.bbcworld.com),
+[news.bbc.co.uk](https://explorer.ooni.org/measurement/20170710T144728Z_AS31549_T0kaJfPCi2Z1zD5QaC9jk8dNIQqqMGy6p6v5WKE0iEopQ7DvDE?input=http:%2F%2Fnews.bbc.co.uk),
 and
-[bbcpersian.com](https://explorer.ooni.torproject.org/measurement/20170903T021755Z_AS16322_m8gKgQgZdu7o7GVe6tZYagB9DVjNLGrzrkUCzWAijzwf5rBQbv?input=http:%2F%2Fbbcpersian.com%2F).
+[bbcpersian.com](https://explorer.ooni.org/measurement/20170903T021755Z_AS16322_m8gKgQgZdu7o7GVe6tZYagB9DVjNLGrzrkUCzWAijzwf5rBQbv?input=http:%2F%2Fbbcpersian.com%2F).
 This may not be surprising given that the news agency was previously
 [banned from reporting in Iran for six years](http://time.com/3983510/bbc-iran/), following its reporting on
 unrest in Iran in the aftermath of the 2009 presidential election. The
@@ -1383,15 +1383,15 @@ due to their affiliation with the British media organization.
 
 Some Iranian news outlets found to be blocked include:
 
-* [iranpressnews.com](https://explorer.ooni.torproject.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Fwww.iranpressnews.com)
+* [iranpressnews.com](https://explorer.ooni.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Fwww.iranpressnews.com)
 
-* [iranntv.com](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fwww.iranntv.com)
+* [iranntv.com](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fwww.iranntv.com)
 
-* [tehranreview.net](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Ftehranreview.net%2F)
+* [tehranreview.net](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Ftehranreview.net%2F)
 
-* [iranshahrnewsagency.com](https://explorer.ooni.torproject.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Firanshahrnewsagency.com%2F)
+* [iranshahrnewsagency.com](https://explorer.ooni.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Firanshahrnewsagency.com%2F)
 
-* [iranefardanews.com](https://explorer.ooni.torproject.org/measurement/20170903T021755Z_AS16322_m8gKgQgZdu7o7GVe6tZYagB9DVjNLGrzrkUCzWAijzwf5rBQbv?input=http:%2F%2Firanefardanews.com%2F)
+* [iranefardanews.com](https://explorer.ooni.org/measurement/20170903T021755Z_AS16322_m8gKgQgZdu7o7GVe6tZYagB9DVjNLGrzrkUCzWAijzwf5rBQbv?input=http:%2F%2Firanefardanews.com%2F)
 
 Iranshahr is the “[first news agency for Iranians abroad](http://www.iranshahrnewsagency.com/)”. It reports on
 international news, but it also has an entire section dedicated to news
@@ -1417,11 +1417,11 @@ criticism were found to be blocked in Iran over the last three years.
 **Opposition sites**
 
 Major opposition sites run by Iranians in exile were found to be
-blocked. These include the [People’s Mojahedin Organization of Iran](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Firan.mojahedin.org),
+blocked. These include the [People’s Mojahedin Organization of Iran](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Firan.mojahedin.org),
 a political-militant organization that advocates the violent overthrow
 of the Iranian government, as well as the sites of the
-[Worker-Communist Party](https://explorer.ooni.torproject.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Fwww.wpiran.org)
-and the [Labour Party (Toufan)](https://explorer.ooni.torproject.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.toufan.org).
+[Worker-Communist Party](https://explorer.ooni.org/measurement/20170903T034005Z_AS44244_FeFw8yqNhqZxoi6HoWpkKxEgL0x9yKCXlWWTMtpK6hQzlakmmy?input=http:%2F%2Fwww.wpiran.org)
+and the [Labour Party (Toufan)](https://explorer.ooni.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.toufan.org).
 
 The [Komala Party of Iranian Kurdistan](http://komala.org/) is a
 left-wing Kurdish nationalist political party,
@@ -1432,7 +1432,7 @@ struggle for the rights and freedom of the Kurdish people in the 80s and
 recently, it is
 [viewed](http://www.tehrantimes.com/news/408124/Iranian-security-forces-arrest-several-Komala-terrorists)
 by Iranian authorities as a terrorist organization, most likely
-explaining the motivation behind the [blocking of its site](https://explorer.ooni.torproject.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.komala.org).
+explaining the motivation behind the [blocking of its site](https://explorer.ooni.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.komala.org).
 
 Following the Iranian Revolution, the [National Council of Resistance of Iran (NCRI)](http://iranncr.org/) was formed in 1981 to [act as a parliament in exile](http://iranncr.org/index.php/2010-02-23-10-49-40/2010-02-23-10-53-52/460-2010-06-06-19-36-50)
 with 530 members, 52% of which are women, including [representatives of ethnic and religious minorities](https://ncr-iran.org/en/about/our-resistance). It
@@ -1444,7 +1444,7 @@ the National Peace Initiative of the National Council of Resistance of
 the Kurdish Autonomy Initiative, the Propagation of the Government
 Relations with Religion, and the Plan of Freedom and the Rights of
 Women, amongst other initiatives. We found the [NCRI’s site](http://iranncr.org/) to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Firanncr.org)
+[blocked](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Firanncr.org)
 in Iran during the testing period.
 
 **Pro-democracy sites**
@@ -1460,7 +1460,7 @@ strengthen civic and political organizations, and to safeguard
 elections. Iran is one of the many countries that NDI [works in](https://www.ndi.org/middle-east-and-north-africa/iran), having
 monitored elections and [examined the roles of religious and political institutions](https://www.ndi.org/iran_election_bulletin). NDI’s site
 may have been
-[blocked](https://explorer.ooni.torproject.org/measurement/20170902T104107Z_AS25124_ObKp4k9uiwaA0evMgY2m3cZmpyVmx2E4Ixk5CzwYadqsn8J3RY?input=https:%2F%2Fwww.ndi.org%2F)
+[blocked](https://explorer.ooni.org/measurement/20170902T104107Z_AS25124_ObKp4k9uiwaA0evMgY2m3cZmpyVmx2E4Ixk5CzwYadqsn8J3RY?input=https:%2F%2Fwww.ndi.org%2F)
 for being viewed as overly
 [critical](https://www.ndi.org/our-stories/iran%E2%80%99s-assemblies-fail-iranian-people),
 and possibly for being perceived as interfering in internal affairs
@@ -1468,7 +1468,7 @@ and possibly for being perceived as interfering in internal affairs
 
 Similarly, we found the [site](http://www.ned.org/) of the National
 Endowment for Democracy (NED) to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.ned.org)
+[blocked](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.ned.org)
 as well. Founded in 1983 by the United States Congress, NED is a
 non-profit foundation that also aims to create and strengthen democratic
 institutions around the world, [including Iran](http://www.ned.org/region/middle-east-and-northern-africa/iran-2016/).
@@ -1483,8 +1483,8 @@ amongst other projects.
 Numerous blogs expressing political criticism were found to be blocked
 in Iran during the testing period.
 
-These include the blogs of Iranian political activists, such as [Ali Afshari](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Faliafshari.com%2F)
-and [Ahmad Batebi](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fahmadbatebi.com%2F).
+These include the blogs of Iranian political activists, such as [Ali Afshari](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Faliafshari.com%2F)
+and [Ahmad Batebi](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fahmadbatebi.com%2F).
 Ali Afshari [campaigned](http://aliafshari.com/) for the democratic
 reform of Iran, publicly discussing human rights violations and
 advocating for freedom, human rights, and democracy. Having published
@@ -1494,12 +1494,12 @@ topics relating to democracy in Iran, he was
 in 2000 and 2003, and spent 400 days in solitary confinement. Ali
 Afshari also carried out a [research fellowship on “The Challenge of Democratization in Iran”](https://web.archive.org/web/20080415023119/http://www.ned.org/forum/past.html)
 with the [National Endowment for Democracy (NED)](http://www.ned.org/), whose site was found to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.ned.org),
-in addition to [Ali’s site](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Faliafshari.com%2F).
+[blocked](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.ned.org),
+in addition to [Ali’s site](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Faliafshari.com%2F).
 
 Ahmad Batebi, whose [personal site](http://www.ahmadbatebi.com/fa/)
 was found to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fahmadbatebi.com%2F),
+[blocked](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fahmadbatebi.com%2F),
 was designated a “[prisoner of conscience](https://wilmetteinstitute.org/ahmad-batebi/)” by Amnesty
 International. He was involved in Iran’s student reform movement in the
 late 1990s when a fellow student activist was murdered right next to him
@@ -1512,16 +1512,16 @@ eventually reduced to 10 years. While in prison, it was
 subjected to torture. Ahmad Batebi eventually fled Iran and was granted
 asylum by the United States. He has since [worked with the Voice of America (VOA) news agency](https://www.linkedin.com/in/ahmadbatebi),
 whose site was also found to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.voanews.com%2Fpersian%2F)
+[blocked](https://explorer.ooni.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.voanews.com%2Fpersian%2F)
 in Iran.
 
-Other [blocked blogs include ghoghnoos.org](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fwww.ghoghnoos.org)
+Other [blocked blogs include ghoghnoos.org](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fwww.ghoghnoos.org)
 which writes about various sensitive topics, such as the [Khordad movement](http://ghoghnoos.org/ak/kj/j-sal.html), a political faction
 in Iran that aims to change the Iranian political system to include more
 freedom and democracy. We also found a similar domain,
 ghoghnoos-iran.blogspot.com (possibly run by the same blogger, following
 the blocking of ghoghnoos.org), to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fghoghnoos-iran.blogspot.com)
+[blocked](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fghoghnoos-iran.blogspot.com)
 as well. The [last post](https://ghoghnoos-iran.blogspot.com)
 published on this domain (dated 24th September 2004) discusses the
 [Pakdasht murders](http://www.economist.com/node/3315755), a case
@@ -1542,9 +1542,9 @@ rights were found to be blocked in Iran. These include sites specific to
 Iran, as well as international human rights sites.
 
 Human rights sites focusing on Iran that were found to be blocked
-include the [Center for Human Rights in Iran](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fwww.iranhumanrights.org),
-[Human Rights & Democracy for Iran](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fwww.iranrights.org%2F),
-and [Iran Human Rights](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Firanhr.net%2Ffa%2F),
+include the [Center for Human Rights in Iran](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fwww.iranhumanrights.org),
+[Human Rights & Democracy for Iran](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fwww.iranrights.org%2F),
+and [Iran Human Rights](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Firanhr.net%2Ffa%2F),
 amongst others. The [Center for Human Rights in Iran (CHRI)](https://www.iranhumanrights.org/) is an independent,
 nonpartisan, nonprofit organization headquartered in the U.S. that aims
 to protect and promote human rights in Iran. CHRI has been researching
@@ -1560,9 +1560,9 @@ penalty. To this end, it has published a number of
 [reports](https://iranhr.net/en/reports/#/) on executions in Iran.
 
 Some international human rights sites found to be blocked include
-[Human Rights Watch](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fwww.hrw.org),
-the [Human Rights Campaign](https://explorer.ooni.torproject.org/measurement/20170902T213651Z_AS197207_Jy1372wqOUxV5SVoQ301hyHpJSB4XEj7saby2Ykpqy2MFvzrnP?input=http:%2F%2Fwww.hrc.org),
-and [Human Rights First](https://explorer.ooni.torproject.org/measurement/20170902T221146Z_AS197207_0FospvK9Ol7aYaROSdhQLWskUeOxYvspMWejPYrLcfepLIrDZA?input=http:%2F%2Fwww.humanrightsfirst.org).
+[Human Rights Watch](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fwww.hrw.org),
+the [Human Rights Campaign](https://explorer.ooni.org/measurement/20170902T213651Z_AS197207_Jy1372wqOUxV5SVoQ301hyHpJSB4XEj7saby2Ykpqy2MFvzrnP?input=http:%2F%2Fwww.hrc.org),
+and [Human Rights First](https://explorer.ooni.org/measurement/20170902T221146Z_AS197207_0FospvK9Ol7aYaROSdhQLWskUeOxYvspMWejPYrLcfepLIrDZA?input=http:%2F%2Fwww.humanrightsfirst.org).
 Over the last decades, Iranian authorities have exhibited limited
 tolerance when domestic issues are surfaced on the international agenda.
 The [imprisonment of Ahmad Batebi](http://www.economist.com/node/11707464), an Iranian activist
@@ -1581,7 +1581,7 @@ It’s worth emphasizing though that other major human rights sites - such
 as [Amnesty International](https://www.amnesty.org/) - which *also*
 [report on human rights violations in Iran](https://www.amnesty.org/en/countries/middle-east-and-north-africa/iran/report-iran/),
 were found to be
-[accessible](https://explorer.ooni.torproject.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=https:%2F%2Fwww.amnesty.org)
+[accessible](https://explorer.ooni.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=https:%2F%2Fwww.amnesty.org)
 in Iran. The fact that Amnesty’s site was found to be accessible is
 particularly interesting because the organization has [not been permitted to investigate human rights in Iran](https://www.amnesty.org/en/press-releases/2008/07/iran-end-discrimination-against-kurdish-minority-20080730/)
 over the last decades.
@@ -1613,12 +1613,12 @@ that the Kurds are amongst the communities at risk in Iran.
 
 As part of this study, we found numerous Kurdish websites to be blocked.
 These include Kurdish news outlets, such as
-[kurdistanpress.com](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http%3A%2F%2Fkurdistanpress.com)
+[kurdistanpress.com](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http%3A%2F%2Fkurdistanpress.com)
 and
-[kurdistanmedia.com](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http%3A%2F%2Fwww.kurdistanmedia.com),
-as well as Kurdish human rights sites, such as the [Kurdish Human Rights Project](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http%3A%2F%2Fwww.khrp.org).
+[kurdistanmedia.com](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http%3A%2F%2Fwww.kurdistanmedia.com),
+as well as Kurdish human rights sites, such as the [Kurdish Human Rights Project](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http%3A%2F%2Fwww.khrp.org).
 We also found the site of the [Unrepresented Nations & People’s Organization](http://unpo.org/) to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Funpo.org%2F)
+[blocked](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Funpo.org%2F)
 as well. Given the [ongoing tension](http://www.aljazeera.com/indepth/inpictures/2017/08/tensions-build-iraq-iran-border-170803075834091.html)
 with the Kurdish separatist movement and the fact that such sites report
 on human rights violations against the Kurds, these censorship events
@@ -1642,15 +1642,15 @@ in terms of education, employment, and inheritance.
 As part of this study, we found various Baha’i sites to be blocked.
 These include:
 
-* [bahai.org](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Finfo.bahai.org): The website of the worldwide Baha’i community
+* [bahai.org](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Finfo.bahai.org): The website of the worldwide Baha’i community
 
-* [bahai.com](https://explorer.ooni.torproject.org/measurement/20170902T034155Z_AS44244_TEWGAv9uptmhYBAPp2LUaBMx0tNmVgLd0EycgAAZi9kTfM9RQd?input=http:%2F%2Fwww.bahai.com): The Baha’i faith
+* [bahai.com](https://explorer.ooni.org/measurement/20170902T034155Z_AS44244_TEWGAv9uptmhYBAPp2LUaBMx0tNmVgLd0EycgAAZi9kTfM9RQd?input=http:%2F%2Fwww.bahai.com): The Baha’i faith
 
-* [bahai-education.org](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fbahai-education.org): Educational resources
+* [bahai-education.org](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fbahai-education.org): Educational resources
 
-* [bahai-library.com](https://explorer.ooni.torproject.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fbahai-library.com): Baha’i online library
+* [bahai-library.com](https://explorer.ooni.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fbahai-library.com): Baha’i online library
 
-* [bahairadio.org](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fbahairadio.org): Baha’i radio
+* [bahairadio.org](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fbahairadio.org): Baha’i radio
 
 **Women’s rights**
 
@@ -1666,16 +1666,16 @@ criminalizing initiatives related to feminism and women’s rights.
 
 Our testing showed the blocking of various sites that defend and promote
 women’s rights. These include feminist sites (such as
-[feminist.com](https://explorer.ooni.torproject.org/measurement/20170830T220149Z_AS50810_f2x4Ku834sDtePUxEW82kWbhLqyHNKCXKZTgy3mhYSgQ9NGJSH?input=http:%2F%2Fwww.feminist.com)
+[feminist.com](https://explorer.ooni.org/measurement/20170830T220149Z_AS50810_f2x4Ku834sDtePUxEW82kWbhLqyHNKCXKZTgy3mhYSgQ9NGJSH?input=http:%2F%2Fwww.feminist.com)
 and
-[feminist.org](https://explorer.ooni.torproject.org/measurement/20170901T074151Z_AS25124_0AJZQSb9Pvphip58LWHxjyWgFbpnIMrAwObXDGjaFNmeeJ9OMs?input=http:%2F%2Fwww.feminist.org)),
+[feminist.org](https://explorer.ooni.org/measurement/20170901T074151Z_AS25124_0AJZQSb9Pvphip58LWHxjyWgFbpnIMrAwObXDGjaFNmeeJ9OMs?input=http:%2F%2Fwww.feminist.org)),
 as well as
-[AWID](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.awid.org%2F),
+[AWID](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.awid.org%2F),
 an international feminist organization
 [committed](https://www.awid.org/) to achieving gender equality,
 sustainable development and women’s rights. We also found
 womeniniran.com to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fwww.womeniniran.com),
+[blocked](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fwww.womeniniran.com),
 even though the domain is currently
 [squatted](http://www.womeniniran.com/).
 
@@ -1697,12 +1697,12 @@ communities, as well as sites promoting LGBTQI rights.
 [Grindr](https://www.grindr.com/), an internationally popular social
 networking site geared towards gay and bisexual men, was amongst those
 found to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170904T101149Z_AS31549_YtoGaLSQDhg9P2c3eZsABt09zrVKhSVCui3rACcYqVJgE6RYrq?input=http:%2F%2Fwww.grindr.com%2F).
+[blocked](https://explorer.ooni.org/measurement/20170904T101149Z_AS31549_YtoGaLSQDhg9P2c3eZsABt09zrVKhSVCui3rACcYqVJgE6RYrq?input=http:%2F%2Fwww.grindr.com%2F).
 One of the [first major sites for lesbians](http://www.lesbian.org)
 was also
-[blocked](https://explorer.ooni.torproject.org/measurement/20170614T211346Z_AS197207_JqL9a0pvqD3QjTK2vqW4UILZZ82MbftVhqLc4UKfiUCIrT22kd?input=http:%2F%2Fwww.lesbian.org).
+[blocked](https://explorer.ooni.org/measurement/20170614T211346Z_AS197207_JqL9a0pvqD3QjTK2vqW4UILZZ82MbftVhqLc4UKfiUCIrT22kd?input=http:%2F%2Fwww.lesbian.org).
 We found sites like ILGA, a worldwide federation [campaigning for LGBTI rights](http://ilga.org/) since 1978, to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170904T182716Z_AS197207_cWFe1e13mwDVf8EMyYE9dfd5ttrPIiBdyl5m1ZGh6zwbjAP50E?input=http:%2F%2Filga.org%2F)
+[blocked](https://explorer.ooni.org/measurement/20170904T182716Z_AS197207_cWFe1e13mwDVf8EMyYE9dfd5ttrPIiBdyl5m1ZGh6zwbjAP50E?input=http:%2F%2Filga.org%2F)
 as well.
 
 While transexuality can be
@@ -1712,76 +1712,76 @@ still experience social intolerance, similarly to many other countries
 around the world. This is also suggested by our findings, which show
 that [sites on transsexuality](http://transsexual.org/) were amongst
 those
-[blocked](https://explorer.ooni.torproject.org/measurement/20170901T001651Z_AS44244_QAo0VpO9CjPq7hgZFo7dYdUZWkVKQOxwH87cakbyrMGbTLVufi?input=http:%2F%2Ftranssexual.org)
+[blocked](https://explorer.ooni.org/measurement/20170901T001651Z_AS44244_QAo0VpO9CjPq7hgZFo7dYdUZWkVKQOxwH87cakbyrMGbTLVufi?input=http:%2F%2Ftranssexual.org)
 in Iran.
 
 **Freedom of expression**
 
 Multiple sites promoting freedom of expression were found to be blocked
-in Iran. These include the [Free Expression Network (FEN)](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.freeexpression.org),
+in Iran. These include the [Free Expression Network (FEN)](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.freeexpression.org),
 an alliance of organizations
 [dedicated](http://www.freeexpression.org/) to combating censorship
-and defending the right to free expression, as well as [Free Speech TV](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.freespeech.org%2F),
+and defending the right to free expression, as well as [Free Speech TV](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.freespeech.org%2F),
 a U.S-based, independent news network
 [committed](https://www.freespeech.org/about-us) to advancing
 progressive social change. We also found the [*site of the Committee to
 Project Journalists*](https://cpj.org/) to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.cpj.org%2F)
+[blocked](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.cpj.org%2F)
 as well.
 
 Many sites run by international, non-profit, digital rights
 organizations were amongst those censored in Iran. These include:
 
-* **[Freedom House](https://explorer.ooni.torproject.org/measurement/20170903T034010Z_AS44244_eK4M5fnS6Wcn08gB9YsdtZlN90mLZJjOVcSzj9NQoWNmdZVwPA?input=https:%2F%2Ffreedomhouse.org%2F)**: An [independent watchdog organization](https://freedomhouse.org/) that conducts research
+* **[Freedom House](https://explorer.ooni.org/measurement/20170903T034010Z_AS44244_eK4M5fnS6Wcn08gB9YsdtZlN90mLZJjOVcSzj9NQoWNmdZVwPA?input=https:%2F%2Ffreedomhouse.org%2F)**: An [independent watchdog organization](https://freedomhouse.org/) that conducts research
 and advocacy on democracy, political freedom, and human rights for
 most countries around the world (including
-[Iran](https://freedomhouse.org/report/freedom-world/2017/iran)). It also [monitors](https://freedomhouse.org/report-types/freedom-net) censorship, intimidation and violence against journalists, and public access to information. Both the [HTTP](https://explorer.ooni.torproject.org/measurement/20170210T135010Z_AS44244_2ugMkSFDoP6ZscLxvj1Bof713EZt0xKIp8vK5xCGv4pYOoTnT6?input=http:%2F%2Fwww.freedomhouse.org)
-and [HTTPS](https://explorer.ooni.torproject.org/measurement/20170402T231236Z_AS44244_eLA8yykbrZoLPrsxMDMqhqmHqmryOcs0QwrCnk3cuowfIY9qE6?input=https:%2F%2Ffreedomhouse.org%2F)
+[Iran](https://freedomhouse.org/report/freedom-world/2017/iran)). It also [monitors](https://freedomhouse.org/report-types/freedom-net) censorship, intimidation and violence against journalists, and public access to information. Both the [HTTP](https://explorer.ooni.org/measurement/20170210T135010Z_AS44244_2ugMkSFDoP6ZscLxvj1Bof713EZt0xKIp8vK5xCGv4pYOoTnT6?input=http:%2F%2Fwww.freedomhouse.org)
+and [HTTPS](https://explorer.ooni.org/measurement/20170402T231236Z_AS44244_eLA8yykbrZoLPrsxMDMqhqmHqmryOcs0QwrCnk3cuowfIY9qE6?input=https:%2F%2Ffreedomhouse.org%2F)
 versions of Freedom House’s site were found to be blocked.
 
-* **[Reporters Without Borders](https://explorer.ooni.torproject.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.rsf.org%2Farticle.php3%3Fid_article%3D19016)**: An international non-profit, non-governmental organization headquartered in Paris that [promotes and defends freedom of information and freedom of the press](https://rsf.org/). Its mission includes combating censorship and laws aimed at restricting freedom of expression. Both the
-[HTTP](https://explorer.ooni.torproject.org/measurement/20170917T034513Z_AS44244_qLMrG552Haux6j7Honjsm71KoLITiZarIyCFN5n5eet7qWKWj3?input=http:%2F%2Fwww.rsf.org%2Farticle.php3%3Fid_article%3D19016)
-and [HTTPS](https://explorer.ooni.torproject.org/measurement/20170915T073256Z_AS44244_kDfZB8MUC5yqGfsgZRetTuUasAyRoXVLKauOwdapbSf4VhTTsP?input=https:%2F%2Frsf.org%2F) versions of Reporters Without Borders’ site were found to be blocked.
+* **[Reporters Without Borders](https://explorer.ooni.org/measurement/20170904T022419Z_AS16322_S5cIgku1RXFRnKctLFy9JQRMtODe5oGnxO3JJmdEVsbw1n21wT?input=http:%2F%2Fwww.rsf.org%2Farticle.php3%3Fid_article%3D19016)**: An international non-profit, non-governmental organization headquartered in Paris that [promotes and defends freedom of information and freedom of the press](https://rsf.org/). Its mission includes combating censorship and laws aimed at restricting freedom of expression. Both the
+[HTTP](https://explorer.ooni.org/measurement/20170917T034513Z_AS44244_qLMrG552Haux6j7Honjsm71KoLITiZarIyCFN5n5eet7qWKWj3?input=http:%2F%2Fwww.rsf.org%2Farticle.php3%3Fid_article%3D19016)
+and [HTTPS](https://explorer.ooni.org/measurement/20170915T073256Z_AS44244_kDfZB8MUC5yqGfsgZRetTuUasAyRoXVLKauOwdapbSf4VhTTsP?input=https:%2F%2Frsf.org%2F) versions of Reporters Without Borders’ site were found to be blocked.
 
-* **[ARTICLE 19](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.article19.org%2F)**: An international non-profit, non-governmental organization [defending](https://www.article19.org/pages/en/mission.html) freedom of expression. In collaboration with [90 partners worldwide](https://www.article19.org/pages/en/what-we-do.html), ARTICLE 19 carries out research and advocacy in support of
-free expression. Both the [HTTP](https://explorer.ooni.torproject.org/measurement/20170705T040044Z_AS51074_GBlp77Zt5oEjvmDKhWJISrgkBvLRHtL6K9d92j3fc37amgq8bd?input=http:%2F%2Fwww.article19.org)
-and [HTTPS](https://explorer.ooni.torproject.org/measurement/20170816T213055Z_AS58085_3ALHnxsKxBuTnbPX7OTCP1x25Fj92Cr9wvR3qBtziGPDqIihws?input=https:%2F%2Fwww.article19.org%2F)
+* **[ARTICLE 19](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.article19.org%2F)**: An international non-profit, non-governmental organization [defending](https://www.article19.org/pages/en/mission.html) freedom of expression. In collaboration with [90 partners worldwide](https://www.article19.org/pages/en/what-we-do.html), ARTICLE 19 carries out research and advocacy in support of
+free expression. Both the [HTTP](https://explorer.ooni.org/measurement/20170705T040044Z_AS51074_GBlp77Zt5oEjvmDKhWJISrgkBvLRHtL6K9d92j3fc37amgq8bd?input=http:%2F%2Fwww.article19.org)
+and [HTTPS](https://explorer.ooni.org/measurement/20170816T213055Z_AS58085_3ALHnxsKxBuTnbPX7OTCP1x25Fj92Cr9wvR3qBtziGPDqIihws?input=https:%2F%2Fwww.article19.org%2F)
 versions of ARTICLE 19’s site were found to be blocked.
 
-* **[ASL19](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fasl19.org)**: An [independent technology
+* **[ASL19](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fasl19.org)**: An [independent technology
 group](https://asl19.org/en/about.html) connected to both Iranians and technology actors in the West that aims to support civil society goals. To this end, ASL19 helps Iranians bypass internet censorship and more recently started providing support for circumvention tools in the broader Middle East and North
-Africa region. The [HTTPS version of ASL19’s site was found to be blocked](https://explorer.ooni.torproject.org/measurement/20170709T044144Z_AS44244_BdhXyHUAcRB4PzVJpL1DT6EUiFvmEK9hDCJWnlfbxzZ7ijo1M9?input=https:%2F%2Fasl19.org),
+Africa region. The [HTTPS version of ASL19’s site was found to be blocked](https://explorer.ooni.org/measurement/20170709T044144Z_AS44244_BdhXyHUAcRB4PzVJpL1DT6EUiFvmEK9hDCJWnlfbxzZ7ijo1M9?input=https:%2F%2Fasl19.org),
 but it remains unknown if the HTTP version is blocked as well because it hasn’t been tested (though the blocking of the HTTPS
 version strongly suggests that the HTTP version is likely blocked as well).
 
-* **[The Citizen Lab](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fcitizenlab.org)**: An [interdisciplinary laboratory](https://citizenlab.ca/about/) based at the University of Toronto, focusing on research, development, and high-level strategic policy and legal engagement at the intersection of information and communication technologies, human rights, and global security. The Citizen Lab is known internationally for having published numerous [research reports](https://citizenlab.ca/category/research/) exposing internet censorship and targeted malware attacks against civil
-society members. Both the [HTTP](https://explorer.ooni.torproject.org/measurement/20170726T103340Z_AS197207_Q7MNErjDcINCkIYiMUxxTWOD1ki5TB3o2Qg7XkQeVQBlKuTFQJ?input=http:%2F%2Fwww.citizenlab.org) and [HTTPS](https://explorer.ooni.torproject.org/measurement/20170912T051036Z_AS197207_61ynG5Pbg0cHGA9XOd2cZ2yRrHwyEH3zzK6266x5Gv9pKUBE4i?input=https:%2F%2Fcitizenlab.org)
+* **[The Citizen Lab](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fcitizenlab.org)**: An [interdisciplinary laboratory](https://citizenlab.ca/about/) based at the University of Toronto, focusing on research, development, and high-level strategic policy and legal engagement at the intersection of information and communication technologies, human rights, and global security. The Citizen Lab is known internationally for having published numerous [research reports](https://citizenlab.ca/category/research/) exposing internet censorship and targeted malware attacks against civil
+society members. Both the [HTTP](https://explorer.ooni.org/measurement/20170726T103340Z_AS197207_Q7MNErjDcINCkIYiMUxxTWOD1ki5TB3o2Qg7XkQeVQBlKuTFQJ?input=http:%2F%2Fwww.citizenlab.org) and [HTTPS](https://explorer.ooni.org/measurement/20170912T051036Z_AS197207_61ynG5Pbg0cHGA9XOd2cZ2yRrHwyEH3zzK6266x5Gv9pKUBE4i?input=https:%2F%2Fcitizenlab.org)
 versions of The Citizen Lab’s site were found to be blocked.
 
-* **[Herdict](https://explorer.ooni.torproject.org/measurement/20170829T173711Z_AS16322_tJ77PaiMTsazuCfZFNKFGMygXz1wmA1V7OSvP3HE8IqtEFcjVR?input=https:%2F%2Fwww.herdict.org%2F)**: A [project](https://www.herdict.org/) under [Harvard’s Berkman Klein Center for Internet and Society](https://cyber.harvard.edu/) which [collects and disseminates](https://cyber.harvard.edu/gsoc/Herdict) real-time, crowdsourced information about internet filtering, denial of
-service attacks, and other blockages. Both the [HTTP](https://explorer.ooni.torproject.org/measurement/20160730T095331Z_AS31549_GjWU3gDRoQOn7H6DOPQA5YF220doffCkmZFuHcajPVPGJfKeiq?input=http:%2F%2Fherdict.org)
-and [HTTPS](https://explorer.ooni.torproject.org/measurement/20170503T074744Z_AS31549_kwZBC4CkcI5Md739dhY2MhcpACAmfdgayH0gU1q9wF4S0B7TTY?input=https:%2F%2Fwww.herdict.org%2F) versions of Herdict’s site were found to be blocked.
+* **[Herdict](https://explorer.ooni.org/measurement/20170829T173711Z_AS16322_tJ77PaiMTsazuCfZFNKFGMygXz1wmA1V7OSvP3HE8IqtEFcjVR?input=https:%2F%2Fwww.herdict.org%2F)**: A [project](https://www.herdict.org/) under [Harvard’s Berkman Klein Center for Internet and Society](https://cyber.harvard.edu/) which [collects and disseminates](https://cyber.harvard.edu/gsoc/Herdict) real-time, crowdsourced information about internet filtering, denial of
+service attacks, and other blockages. Both the [HTTP](https://explorer.ooni.org/measurement/20160730T095331Z_AS31549_GjWU3gDRoQOn7H6DOPQA5YF220doffCkmZFuHcajPVPGJfKeiq?input=http:%2F%2Fherdict.org)
+and [HTTPS](https://explorer.ooni.org/measurement/20170503T074744Z_AS31549_kwZBC4CkcI5Md739dhY2MhcpACAmfdgayH0gU1q9wF4S0B7TTY?input=https:%2F%2Fwww.herdict.org%2F) versions of Herdict’s site were found to be blocked.
 
-* **[Global Voices](https://explorer.ooni.torproject.org/measurement/20170901T001651Z_AS44244_QAo0VpO9CjPq7hgZFo7dYdUZWkVKQOxwH87cakbyrMGbTLVufi?input=http:%2F%2Fadvocacy.globalvoicesonline.org)**: An [international community](https://globalvoices.org/) of writers, bloggers, and digital activists that translate and report on what is being said in citizen media worldwide. It started off as a project of [Harvard’s Berkman Klein Center for Internet and Society](https://cyber.harvard.edu/) and became an independent non-profit in 2008. Global Voices is known for its advocacy and reporting on [digital rights issues](https://globalvoices.org/-/topics/human-rights/), such as surveillance and internet censorship. The blocking of Global Voices appears to be limited to the HTTP version of the site. Our measurements show that while the [HTTPS version of the site was accessible](https://explorer.ooni.torproject.org/measurement/20170704T051235Z_AS44244_5CZz9wLvB1uozEQvnKxSQT8DJsQPLpWaWVtBWaOLt7KaiAZFs4?input=https:%2F%2Fglobalvoices.org%2F) in Iran, [block pages were served for the HTTP version](https://explorer.ooni.torproject.org/measurement/20170802T090223Z_AS44208_N729EemfGjesxkLeGZ4lcKLLP3Nx0lmZC9QOIDwQeYmWVsCyfd?input=http:%2F%2Fadvocacy.globalvoicesonline.org).
+* **[Global Voices](https://explorer.ooni.org/measurement/20170901T001651Z_AS44244_QAo0VpO9CjPq7hgZFo7dYdUZWkVKQOxwH87cakbyrMGbTLVufi?input=http:%2F%2Fadvocacy.globalvoicesonline.org)**: An [international community](https://globalvoices.org/) of writers, bloggers, and digital activists that translate and report on what is being said in citizen media worldwide. It started off as a project of [Harvard’s Berkman Klein Center for Internet and Society](https://cyber.harvard.edu/) and became an independent non-profit in 2008. Global Voices is known for its advocacy and reporting on [digital rights issues](https://globalvoices.org/-/topics/human-rights/), such as surveillance and internet censorship. The blocking of Global Voices appears to be limited to the HTTP version of the site. Our measurements show that while the [HTTPS version of the site was accessible](https://explorer.ooni.org/measurement/20170704T051235Z_AS44244_5CZz9wLvB1uozEQvnKxSQT8DJsQPLpWaWVtBWaOLt7KaiAZFs4?input=https:%2F%2Fglobalvoices.org%2F) in Iran, [block pages were served for the HTTP version](https://explorer.ooni.org/measurement/20170802T090223Z_AS44208_N729EemfGjesxkLeGZ4lcKLLP3Nx0lmZC9QOIDwQeYmWVsCyfd?input=http:%2F%2Fadvocacy.globalvoicesonline.org).
 
-* **[Electronic Frontier Foundation (EFF)](https://explorer.ooni.torproject.org/measurement/20170831T205401Z_AS201150_A5fQYrFRzQQLcuCRqx6Kggl40Cme6r5EEYy5S38ufNBKdp3Ydk?input=https:%2F%2Fwww.eff.org%2F)**: The leading non-profit organization [defending](https://www.eff.org/about) civil liberties in the digital world. EFF champions user privacy, free expression, and innovation through impact litigation, policy analysis, grassroots activism, and technology development. Both the [HTTP](https://explorer.ooni.torproject.org/measurement/20160623T224146Z_AS31549_KI4OH7sDnIYycDcBNfybgRIPrvsVFSorCuOX3AhiUsSwtfcUMj?input=http:%2F%2Fwww.eff.org) and [HTTPS](https://explorer.ooni.torproject.org/measurement/20170630T210936Z_AS44244_01nogU5OXzmdp1dUmsleVwYNXMyykKUrK2KzmqU7izsAfVIig1?input=https:%2F%2Fwww.eff.org%2F) versions of the EFF’s site were found to be blocked.
+* **[Electronic Frontier Foundation (EFF)](https://explorer.ooni.org/measurement/20170831T205401Z_AS201150_A5fQYrFRzQQLcuCRqx6Kggl40Cme6r5EEYy5S38ufNBKdp3Ydk?input=https:%2F%2Fwww.eff.org%2F)**: The leading non-profit organization [defending](https://www.eff.org/about) civil liberties in the digital world. EFF champions user privacy, free expression, and innovation through impact litigation, policy analysis, grassroots activism, and technology development. Both the [HTTP](https://explorer.ooni.org/measurement/20160623T224146Z_AS31549_KI4OH7sDnIYycDcBNfybgRIPrvsVFSorCuOX3AhiUsSwtfcUMj?input=http:%2F%2Fwww.eff.org) and [HTTPS](https://explorer.ooni.org/measurement/20170630T210936Z_AS44244_01nogU5OXzmdp1dUmsleVwYNXMyykKUrK2KzmqU7izsAfVIig1?input=https:%2F%2Fwww.eff.org%2F) versions of the EFF’s site were found to be blocked.
 
-**[The Centre for Democracy and Technology (CDT)](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fcdt.org%2F)**: An international non-profit organization that [defends online civil liberties and human rights](https://cdt.org/about/), driving policy outcomes to keep the internet open, innovative, and free. Both the [HTTP](https://explorer.ooni.torproject.org/measurement/20170305T074359Z_AS197207_K5bIyw3xVutsK4x8DRdpoeTiTUyf0Y6lwzZFkMJyAo2yIk2S4b?input=http:%2F%2Fwww.cdt.org) and [HTTPS](https://explorer.ooni.torproject.org/measurement/20170914T073110Z_AS44244_ScbiV25prRGvI1R8A0XAQM0vGrbUR7l1ABHvNOElE0ToQqHil8?input=https:%2F%2Fcdt.org%2F) versions of CDT’s site were found to be blocked.
+**[The Centre for Democracy and Technology (CDT)](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fcdt.org%2F)**: An international non-profit organization that [defends online civil liberties and human rights](https://cdt.org/about/), driving policy outcomes to keep the internet open, innovative, and free. Both the [HTTP](https://explorer.ooni.org/measurement/20170305T074359Z_AS197207_K5bIyw3xVutsK4x8DRdpoeTiTUyf0Y6lwzZFkMJyAo2yIk2S4b?input=http:%2F%2Fwww.cdt.org) and [HTTPS](https://explorer.ooni.org/measurement/20170914T073110Z_AS44244_ScbiV25prRGvI1R8A0XAQM0vGrbUR7l1ABHvNOElE0ToQqHil8?input=https:%2F%2Fcdt.org%2F) versions of CDT’s site were found to be blocked.
 
 Freedom of expression though also appears to be limited in Iran through
 the blocking of popular blogging platforms, such as
-[wordpress.com](https://explorer.ooni.torproject.org/measurement/20170919T043133Z_AS16322_lfGcun7eX1a9uBz54Pzn8mg4UoikhWtqRVpfw20T8NQstOQEr1?input=http:%2F%2Fwordpress.com),
-[blogger.com](https://explorer.ooni.torproject.org/measurement/20170919T043133Z_AS16322_lfGcun7eX1a9uBz54Pzn8mg4UoikhWtqRVpfw20T8NQstOQEr1?input=http:%2F%2Fblogger.com),
-[blogspot.com](https://explorer.ooni.torproject.org/measurement/20170919T043133Z_AS16322_lfGcun7eX1a9uBz54Pzn8mg4UoikhWtqRVpfw20T8NQstOQEr1?input=http:%2F%2Fwww.mani4lgbt.blogspot.com),
+[wordpress.com](https://explorer.ooni.org/measurement/20170919T043133Z_AS16322_lfGcun7eX1a9uBz54Pzn8mg4UoikhWtqRVpfw20T8NQstOQEr1?input=http:%2F%2Fwordpress.com),
+[blogger.com](https://explorer.ooni.org/measurement/20170919T043133Z_AS16322_lfGcun7eX1a9uBz54Pzn8mg4UoikhWtqRVpfw20T8NQstOQEr1?input=http:%2F%2Fblogger.com),
+[blogspot.com](https://explorer.ooni.org/measurement/20170919T043133Z_AS16322_lfGcun7eX1a9uBz54Pzn8mg4UoikhWtqRVpfw20T8NQstOQEr1?input=http:%2F%2Fwww.mani4lgbt.blogspot.com),
 and
-[persianblog.com](https://explorer.ooni.torproject.org/measurement/20170919T043133Z_AS16322_lfGcun7eX1a9uBz54Pzn8mg4UoikhWtqRVpfw20T8NQstOQEr1?input=http:%2F%2Ffreedomforiran.persianblog.com).
+[persianblog.com](https://explorer.ooni.org/measurement/20170919T043133Z_AS16322_lfGcun7eX1a9uBz54Pzn8mg4UoikhWtqRVpfw20T8NQstOQEr1?input=http:%2F%2Ffreedomforiran.persianblog.com).
 
 All human rights sites found to be blocked in Iran can be viewed [here](/post/iran/ir-blocked-domains.csv).
 
 ### Communication Tools
 
-Facebook Messenger was found to be [blocked in Iran by means of DNS tampering](https://explorer.ooni.torproject.org/measurement/20170904T004807Z_AS44244_hTmlTpcncdzFBKkjI00ChqyuDLbFTz4GtokG7GBvQtcT9VYfhY).
-This was revealed by [OONI’s Facebook Messenger test](https://ooni.torproject.org/nettest/facebook-messenger/), which
+Facebook Messenger was found to be [blocked in Iran by means of DNS tampering](https://explorer.ooni.org/measurement/20170904T004807Z_AS44244_hTmlTpcncdzFBKkjI00ChqyuDLbFTz4GtokG7GBvQtcT9VYfhY).
+This was revealed by [OONI’s Facebook Messenger test](https://ooni.org/nettest/facebook-messenger/), which
 is designed to examine the reachability of the app by attempting to
 perform a TCP connection and DNS lookup to Facebook’s endpoints over the
 vantage point of the user. While the test was able to establish TCP
@@ -1790,18 +1790,18 @@ to Facebook did not resolve to IP addresses allocated to Facebook,
 illustrating that the app was blocked in Iran during the testing period.
 
 Viber is another popular communications tool that we found to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170903T034010Z_AS44244_eK4M5fnS6Wcn08gB9YsdtZlN90mLZJjOVcSzj9NQoWNmdZVwPA?input=http:%2F%2Fwww.viber.com).
+[blocked](https://explorer.ooni.org/measurement/20170903T034010Z_AS44244_eK4M5fnS6Wcn08gB9YsdtZlN90mLZJjOVcSzj9NQoWNmdZVwPA?input=http:%2F%2Fwww.viber.com).
 While we didn’t measure the reachability of its app (we don’t have a
 test for that yet), we found its domain, viber.com, to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170903T034010Z_AS44244_eK4M5fnS6Wcn08gB9YsdtZlN90mLZJjOVcSzj9NQoWNmdZVwPA?input=http:%2F%2Fwww.viber.com)
+[blocked](https://explorer.ooni.org/measurement/20170903T034010Z_AS44244_eK4M5fnS6Wcn08gB9YsdtZlN90mLZJjOVcSzj9NQoWNmdZVwPA?input=http:%2F%2Fwww.viber.com)
 across multiple networks in Iran. Quite similarly, we found [PalTalk’s domain](http://paltalk.com/) to also be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170918T030314Z_AS44244_5Uv7bXBuW5ocZ4v5Oe7zxlfDpNMY7qrPcJeQWiSZxwMvVwV9Kk?input=http:%2F%2Fwww.paltalk.com),
-as well as the [domain of an Israeli mail provider](https://explorer.ooni.torproject.org/measurement/20170307T230434Z_AS43754_Ht3cpLL3OQgoWyqpJ81xeOYW7WduX2KYIfvMAYHd9WWvGQm3G0?input=http:%2F%2Fmail.walla.co.il).
+[blocked](https://explorer.ooni.org/measurement/20170918T030314Z_AS44244_5Uv7bXBuW5ocZ4v5Oe7zxlfDpNMY7qrPcJeQWiSZxwMvVwV9Kk?input=http:%2F%2Fwww.paltalk.com),
+as well as the [domain of an Israeli mail provider](https://explorer.ooni.org/measurement/20170307T230434Z_AS43754_Ht3cpLL3OQgoWyqpJ81xeOYW7WduX2KYIfvMAYHd9WWvGQm3G0?input=http:%2F%2Fmail.walla.co.il).
 
 On a positive note, other popular communications tools, like
-[WhatsApp](https://explorer.ooni.torproject.org/measurement/20170904T004754Z_AS44244_lA7TEcxLjUjRrmWzukWJutJYqys9SEvjtlgycprFuG7BIGzglY)
+[WhatsApp](https://explorer.ooni.org/measurement/20170904T004754Z_AS44244_lA7TEcxLjUjRrmWzukWJutJYqys9SEvjtlgycprFuG7BIGzglY)
 and
-[Telegram](https://explorer.ooni.torproject.org/measurement/20170919T004801Z_AS16322_EFsshM60wHNs9A1szSICKi6GynpY0iNzvU9O7wHKHaJJHv9puM),
+[Telegram](https://explorer.ooni.org/measurement/20170919T004801Z_AS16322_EFsshM60wHNs9A1szSICKi6GynpY0iNzvU9O7wHKHaJJHv9puM),
 were found to be accessible in Iran throughout the testing period.
 
 All communication tool sites (excluding apps) found to be blocked in
@@ -1813,21 +1813,21 @@ Multiple social networking sites were found to be blocked in Iran over
 the last three years. Some of the most popular social networks
 internationally found to be blocked include:
 
-* [twitter.com](https://explorer.ooni.torproject.org/measurement/20170831T111030Z_AS44244_mV6lnlrp0UDTtLHJBpeBApNkkmKQQqy13siWac0qZPPpmJis9G?input=https:%2F%2Ftwitter.com)
+* [twitter.com](https://explorer.ooni.org/measurement/20170831T111030Z_AS44244_mV6lnlrp0UDTtLHJBpeBApNkkmKQQqy13siWac0qZPPpmJis9G?input=https:%2F%2Ftwitter.com)
 
-* [facebook.com](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fwww.facebook.com%2Fkambizhosseini)
+* [facebook.com](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fwww.facebook.com%2Fkambizhosseini)
 
-* [plus.google.com](https://explorer.ooni.torproject.org/measurement/20170904T182716Z_AS197207_cWFe1e13mwDVf8EMyYE9dfd5ttrPIiBdyl5m1ZGh6zwbjAP50E?input=https:%2F%2Fplus.google.com)
+* [plus.google.com](https://explorer.ooni.org/measurement/20170904T182716Z_AS197207_cWFe1e13mwDVf8EMyYE9dfd5ttrPIiBdyl5m1ZGh6zwbjAP50E?input=https:%2F%2Fplus.google.com)
 
-* [pinterest.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.pinterest.com%2F)
+* [pinterest.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.pinterest.com%2F)
 
-* [myspace.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fmyspace.com%2F)
+* [myspace.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fmyspace.com%2F)
 
-* [4chan.org](https://explorer.ooni.torproject.org/measurement/20170831T111030Z_AS44244_mV6lnlrp0UDTtLHJBpeBApNkkmKQQqy13siWac0qZPPpmJis9G?input=http:%2F%2Fwww.4chan.org)
+* [4chan.org](https://explorer.ooni.org/measurement/20170831T111030Z_AS44244_mV6lnlrp0UDTtLHJBpeBApNkkmKQQqy13siWac0qZPPpmJis9G?input=http:%2F%2Fwww.4chan.org)
 
 But internet censorship in Iran is not limited to international social
 networking sites. We also found an [Iranian social forum](http://www.iransocialforum.org/) to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fwww.iransocialforum.org)
+[blocked](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fwww.iransocialforum.org)
 as well. The censorship of this site, along with many others, cannot be
 disputed since the providers served blockpages.
 
@@ -1841,17 +1841,17 @@ videos and images, amongst other forms of media. Some internationally
 popular media sharing platforms that were found to be blocked in Iran
 over the last three years include the following:
 
-* [youtube.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.youtube.com)
+* [youtube.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.youtube.com)
 
-* [vimeo.com](https://explorer.ooni.torproject.org/measurement/20170904T101149Z_AS31549_YtoGaLSQDhg9P2c3eZsABt09zrVKhSVCui3rACcYqVJgE6RYrq?input=https:%2F%2Fvimeo.com%2F)
+* [vimeo.com](https://explorer.ooni.org/measurement/20170904T101149Z_AS31549_YtoGaLSQDhg9P2c3eZsABt09zrVKhSVCui3rACcYqVJgE6RYrq?input=https:%2F%2Fvimeo.com%2F)
 
-* [instagram.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.instagram.com%2F)
+* [instagram.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.instagram.com%2F)
 
-* [netflix.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.netflix.com%2F)
+* [netflix.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.netflix.com%2F)
 
-* [flickr.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.flickr.com%2F)
+* [flickr.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.flickr.com%2F)
 
-* [metacafe.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.metacafe.com)
+* [metacafe.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.metacafe.com)
 
 In previous years, it was
 [reported](https://motherboard.vice.com/en_us/article/4x38kd/irans-smart-instagram-censorship-isnt-that-smart)
@@ -1878,54 +1878,54 @@ tool in Iran. In 2013, about 1.5 million unique users were
 to connect to Psiphon from inside Iran on a weekly basis to circumvent
 internet censorship. But over the last three years, we found psiphon.ca
 to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170904T101149Z_AS31549_YtoGaLSQDhg9P2c3eZsABt09zrVKhSVCui3rACcYqVJgE6RYrq?input=https:%2F%2Fpsiphon.ca%2F)
+[blocked](https://explorer.ooni.org/measurement/20170904T101149Z_AS31549_YtoGaLSQDhg9P2c3eZsABt09zrVKhSVCui3rACcYqVJgE6RYrq?input=https:%2F%2Fpsiphon.ca%2F)
 across many networks in Iran on various occasions. Internet censorship
 though in Iran is non-deterministic, meaning that psiphon.ca did not
 always appear to be blocked. Other free software circumvention tools
 censored in Iran include
-[OpenVPN](https://explorer.ooni.torproject.org/measurement/20170829T144146Z_AS12880_d5GXgvFXw2So2rM9NI8DRNNeafsRnH42dBSClVT1eTnURjG3Zp?input=https:%2F%2Fopenvpn.net)
+[OpenVPN](https://explorer.ooni.org/measurement/20170829T144146Z_AS12880_d5GXgvFXw2So2rM9NI8DRNNeafsRnH42dBSClVT1eTnURjG3Zp?input=https:%2F%2Fopenvpn.net)
 and
-[Tor](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.torproject.org).
+[Tor](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.torproject.org).
 
 The [Tor anonymity network](https://www.torproject.org/) is free
 software that allows its users to browse the web anonymously and to
 circumvent internet censorship. As part of our testing, we found the Tor
 network to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170808T004237Z_AS197207_yysdxIa15WjQ3pQFt9RLxQc2lRzWFlxQKoQXd6846BUbEYw5gr)
+[blocked](https://explorer.ooni.org/measurement/20170808T004237Z_AS197207_yysdxIa15WjQ3pQFt9RLxQc2lRzWFlxQKoQXd6846BUbEYw5gr)
 in many networks in Iran, but we also found it to be
-[accessible](https://explorer.ooni.torproject.org/measurement/20170904T030636Z_AS16322_GfhV8pGIAiuiJPd3hgPW174weSdti8PoI7lH5Mah9RGpWk4UOY)
+[accessible](https://explorer.ooni.org/measurement/20170904T030636Z_AS16322_GfhV8pGIAiuiJPd3hgPW174weSdti8PoI7lH5Mah9RGpWk4UOY)
 in other occasions. The reachability of the Tor network was measured
-through [OONI’s Vanilla Tor test](https://ooni.torproject.org/nettest/vanilla-tor/) which attempts
+through [OONI’s Vanilla Tor test](https://ooni.org/nettest/vanilla-tor/) which attempts
 to successfully bootstrap a connection to the Tor network within a
 predefined amount of seconds (300 is the default). Since this test
 didn’t manage to establish connections to the Tor network in multiple
 networks, access to the Tor network was most likely blocked.
 
 Iranian ISPs were also found to be
-[blocking](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.torproject.org)
+[blocking](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.torproject.org)
 access to [The Tor Project’s domain](https://www.torproject.org/),
 limiting the ability to [download tor software](https://www.torproject.org/download/download-easy.html.en).
 This also led to the blocking of The Tor Project’s subdomains, such as
-[bridges.torproject.org](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fbridges.torproject.org)
+[bridges.torproject.org](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fbridges.torproject.org)
 and
-[ooni.torproject.org](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fooni.torproject.org).
+[ooni.org](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fooni.org).
 [Tor bridges](https://bridges.torproject.org/) are [Tor relays](https://www.eff.org/torchallenge/what-is-tor.html) that enable
 users to circumvent the blocking of the Tor network, and to connect to
 it even though it may be blocked in a network. While we found the
-[domain of Tor bridges to be blocked](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fbridges.torproject.org),
-it’s worth emphasizing that we found [some Tor bridges to work in some networks](https://explorer.ooni.torproject.org/measurement/20160528T070123Z_AS16322_LQ1A8Q54Eo6AjvRcmc7dZ0432UzXrIXoeGQF1yYwQZQKG23Xjw?input=obfs4%20154.35.22.9:80%20C73ADBAC8ADFDBF0FC0F3F4E8091C0107D093716%20cert%3DgEGKc5WN%2FbSjFa6UkG9hOcft1tuK%2BcV8hbZ0H6cqXiMPLqSbCh2Q3PHe5OOr6oMVORhoJA%20iat-mode%3D0)
-in Iran. [OONI](https://ooni.torproject.org/), on the other hand, is a
-Tor project that [measures internet censorship in more than 200 countries](https://explorer.ooni.torproject.org/world/) around the
+[domain of Tor bridges to be blocked](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fbridges.torproject.org),
+it’s worth emphasizing that we found [some Tor bridges to work in some networks](https://explorer.ooni.org/measurement/20160528T070123Z_AS16322_LQ1A8Q54Eo6AjvRcmc7dZ0432UzXrIXoeGQF1yYwQZQKG23Xjw?input=obfs4%20154.35.22.9:80%20C73ADBAC8ADFDBF0FC0F3F4E8091C0107D093716%20cert%3DgEGKc5WN%2FbSjFa6UkG9hOcft1tuK%2BcV8hbZ0H6cqXiMPLqSbCh2Q3PHe5OOr6oMVORhoJA%20iat-mode%3D0)
+in Iran. [OONI](https://ooni.org/), on the other hand, is a
+Tor project that [measures internet censorship in more than 200 countries](https://explorer.ooni.org/world/) around the
 world, including
-[Iran](https://explorer.ooni.torproject.org/country/IR). The
-[blocking of ooni.torproject.org](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fooni.torproject.org)
+[Iran](https://explorer.ooni.org/country/IR). The
+[blocking of ooni.org](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fooni.org)
 potentially limits Iranians’ ability to access network measurement data
 that could serve as evidence of internet censorship in Iran and beyond.
 It also potentially limits their ability to read this report.
 
 [Freenet](https://freenetproject.org/) is another anonymity network
 whose domain we found to be
-[blocked](https://explorer.ooni.torproject.org/measurement/20170828T212242Z_AS57563_wi9roMwqCSNCQyP5iWYDxFZLrsnfw9O50rOl8SNrnwGB8la3yN?input=https:%2F%2Ffreenetproject.org%2F)
+[blocked](https://explorer.ooni.org/measurement/20170828T212242Z_AS57563_wi9roMwqCSNCQyP5iWYDxFZLrsnfw9O50rOl8SNrnwGB8la3yN?input=https:%2F%2Ffreenetproject.org%2F)
 as part of this study. This peer-to-peer platform allows its users to
 [browse and share files anonymously](https://freenetproject.org/pages/about.html), and to
 circumvent internet censorship. It’s worth emphasizing that we only
@@ -1935,32 +1935,32 @@ have tests to measure that).
 
 We also found a number of popular web proxies to be blocked as well.
 These include
-[Anonymouse](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fanonymouse.org),
+[Anonymouse](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fanonymouse.org),
 a [web proxy](http://anonymouse.org/) that enables its users to browse
 the web and send emails through the Anonymouse server which anonymizes
 all transmitted data it receives, as well as
-[MegaProxy](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.megaproxy.com),
+[MegaProxy](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.megaproxy.com),
 which [allows](https://www.megaproxy.com/) its users to surf the web
 through a web SSL VPN service. Both of these web proxies have been found
 to be blocked in numerous other countries as well, more recently in
-[Cuba](https://ooni.torproject.org/post/cuba-internet-censorship-2017/#anonymity-and-circumvention-tools).
+[Cuba](https://ooni.org/post/cuba-internet-censorship-2017/#anonymity-and-circumvention-tools).
 [Anonymizer](https://www.anonymizer.com/), which we found to be
-[blocked in Iran](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.anonymizer.com%2F),
+[blocked in Iran](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.anonymizer.com%2F),
 offers VPN services that route internet traffic through an encrypted
 tunnel, hiding users’ IP addresses and and browsing activities from
-other third parties. We also found this site to be [blocked in Indonesia](https://ooni.torproject.org/post/indonesia-internet-censorship/#anonymity-tools),
+other third parties. We also found this site to be [blocked in Indonesia](https://ooni.org/post/indonesia-internet-censorship/#anonymity-tools),
 amongst other countries.
-[Ultrasurf](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fultrasurf.us)
-and [Hotspot Shield](https://explorer.ooni.torproject.org/measurement/20170902T181922Z_AS44244_2CCMuqmNwiHf6yIlzCWtaYEAQUrMhgIZpDj0O4kJCNglFdjlCe?input=https:%2F%2Fwww.hotspotshield.com%2F),
-also found to be [blocked in Thailand](https://ooni.torproject.org/post/thailand-internet-censorship/#anonymity-and-censorship-circumvention),
+[Ultrasurf](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fultrasurf.us)
+and [Hotspot Shield](https://explorer.ooni.org/measurement/20170902T181922Z_AS44244_2CCMuqmNwiHf6yIlzCWtaYEAQUrMhgIZpDj0O4kJCNglFdjlCe?input=https:%2F%2Fwww.hotspotshield.com%2F),
+also found to be [blocked in Thailand](https://ooni.org/post/thailand-internet-censorship/#anonymity-and-censorship-circumvention),
 are amongst the many circumvention tool sites that we found to be
 blocked in Iran.
 
 But Iranian ISPs also appear to be taking *extra steps* to limit
 censorship circumvention. As part of this study, we found online
 translators, such as
-[SYSTRAN](https://explorer.ooni.torproject.org/measurement/20170901T114827Z_AS12880_xuAfq3KDG1OuG5Wo6MXIXfvurK9qpQap9N4uiowo1NQHO9WkBX?input=http:%2F%2Fwww.systranbox.com)
-and [Babylon Translation](https://explorer.ooni.torproject.org/measurement/20160728T203537Z_AS31549_cVUwVULt6ZlIiKUzZ1e1ypGVoaUDcHgE4BaHngboTgataWCFWX?input=http:%2F%2Ftranslator.babylon.com),
+[SYSTRAN](https://explorer.ooni.org/measurement/20170901T114827Z_AS12880_xuAfq3KDG1OuG5Wo6MXIXfvurK9qpQap9N4uiowo1NQHO9WkBX?input=http:%2F%2Fwww.systranbox.com)
+and [Babylon Translation](https://explorer.ooni.org/measurement/20160728T203537Z_AS31549_cVUwVULt6ZlIiKUzZ1e1ypGVoaUDcHgE4BaHngboTgataWCFWX?input=http:%2F%2Ftranslator.babylon.com),
 to be blocked. Pasting a URL into an online translator will provide
 access to the site’s content, even if that site is blocked. Online
 translators can therefore provide a form of censorship circumvention,
@@ -2070,9 +2070,9 @@ Iranian ISPs). This may suggest that some ISPs in Iran might take social
 pressure into account, thus limiting the blocking of popular platforms
 and/or making such censorship more subtle. This is also indicated by the
 fact that we found
-[WhatsApp](https://explorer.ooni.torproject.org/measurement/20170904T030602Z_AS16322_Slr4QSUtTroYRQloYgIhatK1Jpwitgm0GWDuGtcJkaUUh4iQH7)
+[WhatsApp](https://explorer.ooni.org/measurement/20170904T030602Z_AS16322_Slr4QSUtTroYRQloYgIhatK1Jpwitgm0GWDuGtcJkaUUh4iQH7)
 and
-[Telegram](https://explorer.ooni.torproject.org/measurement/20170913T023324Z_AS16322_UhtHeecpvmOJOmggsdlet7q7KvUB6YP50R5rKOP6IOR7yVuUqC),
+[Telegram](https://explorer.ooni.org/measurement/20170913T023324Z_AS16322_UhtHeecpvmOJOmggsdlet7q7KvUB6YP50R5rKOP6IOR7yVuUqC),
 which are [popular in Iran](http://techrasa.com/2016/05/13/messaging-apps-used-middle-east/),
 to be accessible.
 
@@ -2089,14 +2089,14 @@ The full database of such cases can be found [here](/post/iran/ir-blocked-not-bl
 
 The government is not the only source of internet censorship in Iran.
 
-[Norton](https://explorer.ooni.torproject.org/measurement/20170830T070124Z_AS197207_dK5xbieFUtWkyymCiN2txZbuH1crqFIals0EAmzSSsymcfMrfm?input=https:%2F%2Fnorton.com%2F)
+[Norton](https://explorer.ooni.org/measurement/20170830T070124Z_AS197207_dK5xbieFUtWkyymCiN2txZbuH1crqFIals0EAmzSSsymcfMrfm?input=https:%2F%2Fnorton.com%2F)
 (popular [antivirus software](https://norton.com/)) and
-[GraphicRiver](https://explorer.ooni.torproject.org/measurement/20170903T021755Z_AS16322_m8gKgQgZdu7o7GVe6tZYagB9DVjNLGrzrkUCzWAijzwf5rBQbv?input=http:%2F%2Fgraphicriver.net%2F)
+[GraphicRiver](https://explorer.ooni.org/measurement/20170903T021755Z_AS16322_m8gKgQgZdu7o7GVe6tZYagB9DVjNLGrzrkUCzWAijzwf5rBQbv?input=http:%2F%2Fgraphicriver.net%2F)
 (a [site](https://graphicriver.net/) for graphic designers and
 illustrators) were found to be inaccessible from the local vantage
 points in Iran that they were tested from. However, unlike all the other
 sites presented in this study that were blocked by Iranian ISPs, these
-sites appear to be [blocking access from Iran](https://explorer.ooni.torproject.org/measurement/20170830T070124Z_AS197207_dK5xbieFUtWkyymCiN2txZbuH1crqFIals0EAmzSSsymcfMrfm?input=https:%2F%2Fnorton.com%2F).
+sites appear to be [blocking access from Iran](https://explorer.ooni.org/measurement/20170830T070124Z_AS197207_dK5xbieFUtWkyymCiN2txZbuH1crqFIals0EAmzSSsymcfMrfm?input=https:%2F%2Fnorton.com%2F).
 In other words, these sites were found to be blocking all IP addresses
 originating from Iran, which is why they weren’t accessible in the
 country.
@@ -2131,7 +2131,7 @@ list). You must not export or re-export Envato Market items to a U.S.
 sanctioned country or to anyone on the SDN list.”*
 
 Virus Total, a [site](https://www.virustotal.com/) that enables its
-users to upload and scan files and URLs for malware, was also [found to be inaccessible](https://explorer.ooni.torproject.org/measurement/20170612T031742Z_AS16322_Gg0hUk9p5DTeHdBDj0jy7vywseo6RK4JgfPt4CtRgHEgZvKsHl?input=https:%2F%2Fwww.virustotal.com)
+users to upload and scan files and URLs for malware, was also [found to be inaccessible](https://explorer.ooni.org/measurement/20170612T031742Z_AS16322_Gg0hUk9p5DTeHdBDj0jy7vywseo6RK4JgfPt4CtRgHEgZvKsHl?input=https:%2F%2Fwww.virustotal.com)
 in Iran. But unlike Norton and GraphicRiver, this site was found to be
 blocked by Google. Virus Total uses [Google App Engine (GAE)](https://cloud.google.com/appengine/), a web framework and cloud
 computing platform, commonly used for hosting sites and for domain
@@ -2147,7 +2147,7 @@ from Iran in compliance with U.S. export laws.
 The findings of this study present various limitations.
 
 The first limitation is associated to the testing period. This study
-includes an analysis of [thousands of network measurements](https://measurements.ooni.torproject.org/files/by_country/IR)
+includes an analysis of [thousands of network measurements](https://measurements.ooni.org/files/by_country/IR)
 that were collected from 60 vantage points in Iran over the last three
 years, between 22nd September 2014 to 4th September 2017. Censorship
 events that may have occurred before and/or after the testing period are
@@ -2155,7 +2155,7 @@ not analysed as part of this study.
 
 Another limitation is associated to the amount and types of URLs that
 were tested for censorship. As mentioned in the methodology section of
-this report, OONI’s [Web Connectivity test](https://ooni.torproject.org/nettest/web-connectivity/) was run to
+this report, OONI’s [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) was run to
 examine the accessibility of
 [894 URLs](https://github.com/citizenlab/test-lists/blob/master/lists/ir.csv)
 that are more relevant to the Iranian context and [1,107 internationally relevant sites](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv).
@@ -2164,7 +2164,7 @@ community members over the last years. We acknowledge that some URLs
 might potentially be mis-categorized, the selection of URLs may have
 been biased, and that the testing sample of URLs might exclude many
 other sites that are also blocked in Iran. We therefore encourage
-researchers and community members to continue [reviewing and contributing to these test lists](https://ooni.torproject.org/get-involved/contribute-test-lists/),
+researchers and community members to continue [reviewing and contributing to these test lists](https://ooni.org/get-involved/contribute-test-lists/),
 to help improve future research and analysis.
 
 Finally, while network measurements were collected from 60 different
@@ -2177,7 +2177,7 @@ points.
 # Conclusion
 
 This study reveals and confirms censorship events in Iran through the
-analysis of [thousands of network measurements](https://measurements.ooni.torproject.org/files/by_country/IR)
+analysis of [thousands of network measurements](https://measurements.ooni.org/files/by_country/IR)
 that were collected from 60 local vantage points in Iran over the last
 three years. The network measurement data clearly shows how ISPs blocked
 sites and services and can therefore serve as **evidence of information
@@ -2187,19 +2187,19 @@ Our main conclusions from this study are summarized below.
 
 1. **The breadth and scale of internet censorship in Iran is pervasive**. We found a wide range of [different types of sites to be blocked](/post/iran/ir-blocked-urls.csv) (expanding beyond those that are illegal). Blocked domains include many news outlets and human rights sites, as well as blogging platforms, communication tools, online social networks, media sharing platforms, search engines, gaming sites, governmental sites, cultural and entertainment sites, amongst many other types of sites.
 
-2. **Iranian ISPs appear to be enforcing a type of “intranet” through censorship.** By blocking access to popular international sites (such as [youtube.com](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.youtube.com), [facebook.com](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fwww.facebook.com%2Fkambizhosseini), and [twitter.com](https://explorer.ooni.torproject.org/measurement/20170831T111030Z_AS44244_mV6lnlrp0UDTtLHJBpeBApNkkmKQQqy13siWac0qZPPpmJis9G?input=https:%2F%2Ftwitter.com)), Iranian ISPs appear to be creating a sort of “*intranet”* since non-censored internet activity appears to largely be limited to government-approved sites and services.
+2. **Iranian ISPs appear to be enforcing a type of “intranet” through censorship.** By blocking access to popular international sites (such as [youtube.com](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.youtube.com), [facebook.com](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=https:%2F%2Fwww.facebook.com%2Fkambizhosseini), and [twitter.com](https://explorer.ooni.org/measurement/20170831T111030Z_AS44244_mV6lnlrp0UDTtLHJBpeBApNkkmKQQqy13siWac0qZPPpmJis9G?input=https:%2F%2Ftwitter.com)), Iranian ISPs appear to be creating a sort of “*intranet”* since non-censored internet activity appears to largely be limited to government-approved sites and services.
 
-3. **Internet censorship in Iran is quite sophisticated.** (1) Iranian ISPs were found to serve block pages through DNS injection *and* through the use of HTTP transparent proxies. (2) We found ISPs to be blocking the same sites with different techniques (Aria Shatel, for example, served [block pages for bbc.com through DNS injection](https://explorer.ooni.torproject.org/measurement/20170623T002641Z_AS31549_VVYnsqIsyeuH6LJhOh4zuG11SDZvMsb5CobOyfLEXgj3VDhbBI?input=http:%2F%2Fwww.bbc.com%2Fnews) and [HTTP transparent proxies](https://explorer.ooni.torproject.org/measurement/20170328T083801Z_AS31549_eFpUdEKswulxmus8kWISa4glA8BWvPPjUOp0DJu7uKknS74Zwx?input=http:%2F%2Fwww.bbc.com%2Fnews)). (3) ISPs were found to block both the HTTP and HTTPS versions of sites, making censorship circumvention harder. (4) Internet censorship is *reinforced* through the extensive blocking of popular censorship circumvention tools (which is not limited to domains, but expands to the [blocking of the Tor network](https://explorer.ooni.torproject.org/measurement/20170808T004237Z_AS197207_yysdxIa15WjQ3pQFt9RLxQc2lRzWFlxQKoQXd6846BUbEYw5gr)). (5) ISPs were found to [*block online translators](https://explorer.ooni.torproject.org/measurement/20160728T203537Z_AS31549_cVUwVULt6ZlIiKUzZ1e1ypGVoaUDcHgE4BaHngboTgataWCFWX?input=http:%2F%2Ftranslator.babylon.com), possibly as an *extra step* to limit censorship circumvention.
+3. **Internet censorship in Iran is quite sophisticated.** (1) Iranian ISPs were found to serve block pages through DNS injection *and* through the use of HTTP transparent proxies. (2) We found ISPs to be blocking the same sites with different techniques (Aria Shatel, for example, served [block pages for bbc.com through DNS injection](https://explorer.ooni.org/measurement/20170623T002641Z_AS31549_VVYnsqIsyeuH6LJhOh4zuG11SDZvMsb5CobOyfLEXgj3VDhbBI?input=http:%2F%2Fwww.bbc.com%2Fnews) and [HTTP transparent proxies](https://explorer.ooni.org/measurement/20170328T083801Z_AS31549_eFpUdEKswulxmus8kWISa4glA8BWvPPjUOp0DJu7uKknS74Zwx?input=http:%2F%2Fwww.bbc.com%2Fnews)). (3) ISPs were found to block both the HTTP and HTTPS versions of sites, making censorship circumvention harder. (4) Internet censorship is *reinforced* through the extensive blocking of popular censorship circumvention tools (which is not limited to domains, but expands to the [blocking of the Tor network](https://explorer.ooni.org/measurement/20170808T004237Z_AS197207_yysdxIa15WjQ3pQFt9RLxQc2lRzWFlxQKoQXd6846BUbEYw5gr)). (5) ISPs were found to [*block online translators](https://explorer.ooni.org/measurement/20160728T203537Z_AS31549_cVUwVULt6ZlIiKUzZ1e1ypGVoaUDcHgE4BaHngboTgataWCFWX?input=http:%2F%2Ftranslator.babylon.com), possibly as an *extra step* to limit censorship circumvention.
 
-4. **Shift from “smart filters” to “blanket censorship”?** A few years ago, when sites like Instagram did not support HTTPS, it was [reported](https://motherboard.vice.com/en_us/article/4x38kd/irans-smart-instagram-censorship-isnt-that-smart) that Iranian ISPs only censored certain webpages, rather than blocking access to entire sites. Now, however, we are seeing that Iranian ISPs are [also blocking the HTTPS version of sites](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.instagram.com%2F), since it’s not possible to limit censorship to specific webpages when a site is hosted on HTTPS. This indicates that Iranian ISPs may have shifted their practices from applying “smart filters” (only censoring specific webpages) to a form of “blanket censorship” (censoring entire sites).
+4. **Shift from “smart filters” to “blanket censorship”?** A few years ago, when sites like Instagram did not support HTTPS, it was [reported](https://motherboard.vice.com/en_us/article/4x38kd/irans-smart-instagram-censorship-isnt-that-smart) that Iranian ISPs only censored certain webpages, rather than blocking access to entire sites. Now, however, we are seeing that Iranian ISPs are [also blocking the HTTPS version of sites](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.instagram.com%2F), since it’s not possible to limit censorship to specific webpages when a site is hosted on HTTPS. This indicates that Iranian ISPs may have shifted their practices from applying “smart filters” (only censoring specific webpages) to a form of “blanket censorship” (censoring entire sites).
 
 5. **Internet censorship in Iran appears to be centralised.** This is strongly suggested by the fact that we found *consistency* in terms of how internet censorship was implemented across networks. ISPs were not only found to be blocking the same sites, but they were also found to be using the same set of censorship techniques.
 
-6. **Internet censorship in Iran is non-deterministic.** ISPs in Iran do *not* appear to block sites consistently across time. Rather, they were found to filp between blocking and unblocking sites, possibly in an attempt to create uncertainty on whether a site is actually censored or to make the censorship more subtle. Interestingly enough, ISPs were found to block some of the more popular sites (such as [google.com](https://explorer.ooni.torproject.org/measurement/20170913T033941Z_AS44244_XWbJUSF7A1sEQXM6OyeVxUcXFkHlsSJ8WRc2q7nCBkBYDvjph0?input=http:%2F%2Fwww.google.com%2Fsearch%3Fhl%3Dar%26q%3DKoon%26btnG%3D%25D8%25A5%25D8%25A8%25D8%25AD%25D8%25AB%2521%26lr%3D)) less frequently in comparison to less popular sites. This may suggest a political and/or social cost to censorship, which might be taken into account.
+6. **Internet censorship in Iran is non-deterministic.** ISPs in Iran do *not* appear to block sites consistently across time. Rather, they were found to filp between blocking and unblocking sites, possibly in an attempt to create uncertainty on whether a site is actually censored or to make the censorship more subtle. Interestingly enough, ISPs were found to block some of the more popular sites (such as [google.com](https://explorer.ooni.org/measurement/20170913T033941Z_AS44244_XWbJUSF7A1sEQXM6OyeVxUcXFkHlsSJ8WRc2q7nCBkBYDvjph0?input=http:%2F%2Fwww.google.com%2Fsearch%3Fhl%3Dar%26q%3DKoon%26btnG%3D%25D8%25A5%25D8%25A8%25D8%25AD%25D8%25AB%2521%26lr%3D)) less frequently in comparison to less popular sites. This may suggest a political and/or social cost to censorship, which might be taken into account.
 
-7. **Political relations influence how information controls are implemented in Iran.** This is strongly suggested by the fact that Iranian ISPs were found to block multiple [Israeli](https://explorer.ooni.torproject.org/measurement/20170906T030515Z_AS197207_RzGkAOX5mI1Gqp0GlODyuGNCgoyrt9pLHsyaVGIV5rol1tmD3Q?input=http:%2F%2Fwww.mod.gov.il) and [U.S. domains](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.cia.gov). Israeli domains even appear to be [blocked](https://explorer.ooni.torproject.org/measurement/20170901T035141Z_AS44244_IvztG4pj6MAMtt5RN6p8cY9AiaxFxE6Pm6mbl7rdmmIMIR5dFN?input=http:%2F%2Fwww.basket.co.il) almost indiscriminately. U.S. export laws, on the other hand, [restrict](https://dns.norton.com/terms.html) the use of services (such as [Norton](https://explorer.ooni.torproject.org/measurement/20170830T070124Z_AS197207_dK5xbieFUtWkyymCiN2txZbuH1crqFIals0EAmzSSsymcfMrfm?input=https:%2F%2Fnorton.com%2F), [Virus Total](https://explorer.ooni.torproject.org/measurement/20170612T031742Z_AS16322_Gg0hUk9p5DTeHdBDj0jy7vywseo6RK4JgfPt4CtRgHEgZvKsHl?input=https:%2F%2Fwww.virustotal.com), and [Google App Engine](https://groups.google.com/forum/#!topic/google-appengine/ZPhRvtcf8l0)) in Iran.
+7. **Political relations influence how information controls are implemented in Iran.** This is strongly suggested by the fact that Iranian ISPs were found to block multiple [Israeli](https://explorer.ooni.org/measurement/20170906T030515Z_AS197207_RzGkAOX5mI1Gqp0GlODyuGNCgoyrt9pLHsyaVGIV5rol1tmD3Q?input=http:%2F%2Fwww.mod.gov.il) and [U.S. domains](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=https:%2F%2Fwww.cia.gov). Israeli domains even appear to be [blocked](https://explorer.ooni.org/measurement/20170901T035141Z_AS44244_IvztG4pj6MAMtt5RN6p8cY9AiaxFxE6Pm6mbl7rdmmIMIR5dFN?input=http:%2F%2Fwww.basket.co.il) almost indiscriminately. U.S. export laws, on the other hand, [restrict](https://dns.norton.com/terms.html) the use of services (such as [Norton](https://explorer.ooni.org/measurement/20170830T070124Z_AS197207_dK5xbieFUtWkyymCiN2txZbuH1crqFIals0EAmzSSsymcfMrfm?input=https:%2F%2Fnorton.com%2F), [Virus Total](https://explorer.ooni.org/measurement/20170612T031742Z_AS16322_Gg0hUk9p5DTeHdBDj0jy7vywseo6RK4JgfPt4CtRgHEgZvKsHl?input=https:%2F%2Fwww.virustotal.com), and [Google App Engine](https://groups.google.com/forum/#!topic/google-appengine/ZPhRvtcf8l0)) in Iran.
 
-8. **Internet censorship in Iran appears to reinforce geopolitical dynamics of power.** Over the last century, there has been an ongoing [separatist dispute](https://web.archive.org/web/20120615011857/http://government.arts.cornell.edu/assets/psac/sp09/Smith_Kurdish_Separatism_Feb09_PSAC.pdf) between the Kurdish opposition in western Iran and the Iranian government. According to [Amnesty International](https://www.amnesty.org/en/press-releases/2008/07/iran-end-discrimination-against-kurdish-minority-20080730/), many Kurdish human rights defenders, community activists and journalists have faced arbitrary arrests and prosecution. The blocking of numerous Kurdish sites, including [news outlets](https://explorer.ooni.torproject.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fkurdistanpress.com) and [human rights sites](https://explorer.ooni.torproject.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.khrp.org), appears to be a politically motivated decision.
+8. **Internet censorship in Iran appears to reinforce geopolitical dynamics of power.** Over the last century, there has been an ongoing [separatist dispute](https://web.archive.org/web/20120615011857/http://government.arts.cornell.edu/assets/psac/sp09/Smith_Kurdish_Separatism_Feb09_PSAC.pdf) between the Kurdish opposition in western Iran and the Iranian government. According to [Amnesty International](https://www.amnesty.org/en/press-releases/2008/07/iran-end-discrimination-against-kurdish-minority-20080730/), many Kurdish human rights defenders, community activists and journalists have faced arbitrary arrests and prosecution. The blocking of numerous Kurdish sites, including [news outlets](https://explorer.ooni.org/measurement/20170904T034357Z_AS44244_tzAvg8gW5NamMwMUsVje7zudbDz1AkyFzCe3A4evLHXoYMFztM?input=http:%2F%2Fkurdistanpress.com) and [human rights sites](https://explorer.ooni.org/measurement/20170829T230553Z_AS16322_FzDNrDAXLoliG9WJQdIRlSWUvWRSH7hErmPzUgGaNKTqqQ8YLa?input=http:%2F%2Fwww.khrp.org), appears to be a politically motivated decision.
 
 # Acknowledgements
 

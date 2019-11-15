@@ -13,7 +13,7 @@ Today we are excited to announce the beta release of our *new* web-based user in
 
 Whether you’re running ooniprobe from your desktop or a Raspberry Pi, you can
 now easily choose which tests you want to run through OONI’s web UI and run them
-with the click of a button. These [tests](https://ooni.torproject.org/nettest/)
+with the click of a button. These [tests](https://ooni.org/nettest/)
 are designed to examine the following:
 
 * Blocking of websites
@@ -56,17 +56,17 @@ Below we provide a *guide* on how to access OONI’s web UI and run tests from i
 
 Currently [ooniprobe](https://github.com/TheTorProject/ooni-probe) is designed
 for Mac OS and Linux operating systems. If you’re a Windows user eager to run
-ooniprobe, then you might be interested in running our [distribution for Raspberry Pis](https://ooni.torproject.org/install/lepidopter/).
+ooniprobe, then you might be interested in running our [distribution for Raspberry Pis](https://ooni.org/install/lepidopter/).
 
 ## ooniprobe desktop version (Mac OS & Linux users)
 
 Learn how to install ooniprobe, depending on your operation system,
-**[here](https://ooni.torproject.org/install/ooniprobe/)**.
+**[here](https://ooni.org/install/ooniprobe/)**.
 
 ## ooniprobe distribution for Raspberry Pis 
 
 Copy ooniprobe’s distribution for Raspberry Pis onto an SD card. You can find a
-guide on how to do so **[here](https://ooni.torproject.org/install/lepidopter/)**.
+guide on how to do so **[here](https://ooni.org/install/lepidopter/)**.
 
 Then insert your SD card (containing ooniprobe’s distribution) into a Raspberry
 Pi and connect it to power and to the internet (with an ethernet cable).
@@ -96,7 +96,7 @@ You should now be presented with OONI’s web UI Setup Wizard.
 
 If this doesn’t work, try accessing the web UI by typing **http://lepidopter** in
 your web browser. And if that also doesn’t work, please find more information
-**[here](https://ooni.torproject.org/install/lepidopter/)**.
+**[here](https://ooni.org/install/lepidopter/)**.
 
 Upon clicking **Next** in the Setup Wizard, you will view information about
 potential risks associated with running ooniprobe.
@@ -181,7 +181,7 @@ your IP address can help improve the analysis of measurements.
 
 We also enable users to choose whether they would like their measurements to be
 uploaded to OONI’s measurement collector by default or not. If your measurements
-are collected by OONI, they will be processed and published on [OONI Explorer](https://explorer.ooni.torproject.org/) and on [OONI’s list of measurements](https://measurements.ooni.torproject.org/).
+are collected by OONI, they will be processed and published on [OONI Explorer](https://explorer.ooni.org/) and on [OONI’s list of measurements](https://measurements.ooni.org/).
 
 OONI publishes all network measurement data that it collects and
 processes because open data allows third parties to conduct independent studies,
@@ -237,12 +237,12 @@ can choose from.
 ![Screenshot](/post/wui-screenshots/wui-11.png)
 
 The three main tests (web connectivity, HTTP header field manipulation and HTTP
-invalid request line) are included in ooniprobe’s main software suite. [Web connectivity](https://ooni.torproject.org/nettest/web-connectivity/) allows you
-to test a [set of URLs](https://github.com/citizenlab/test-lists/tree/master/lists) to examine whether and how they are blocked. The [HTTP header field manipulation](https://ooni.torproject.org/nettest/http-header-field-manipulation/) and [HTTP invalid request line](https://ooni.torproject.org/nettest/http-invalid-request-line/) tests, on
+invalid request line) are included in ooniprobe’s main software suite. [Web connectivity](https://ooni.org/nettest/web-connectivity/) allows you
+to test a [set of URLs](https://github.com/citizenlab/test-lists/tree/master/lists) to examine whether and how they are blocked. The [HTTP header field manipulation](https://ooni.org/nettest/http-header-field-manipulation/) and [HTTP invalid request line](https://ooni.org/nettest/http-invalid-request-line/) tests, on
 the other hand, examine whether systems that could potentially be responsible
 for censorship and surveillance are present in your network. Prior to running
 these tests, we urge you to read relevant
-[documentation](https://ooni.torproject.org/nettest/) carefully and to
+[documentation](https://ooni.org/nettest/) carefully and to
 understand what each software test does.
 
 By clicking **Run** next to the test of your choice, that test will start running.
@@ -309,4 +309,4 @@ measurement is a confirmed case of censorship. Unless a measurement presents a
 block page in the HTTP response body, data should be cross-correlated across
 time to reach more accurate conclusions.
 
-Feedback? [Contact](https://ooni.torproject.org/about/) us, we’d love to hear from you!
+Feedback? [Contact](https://ooni.org/about/) us, we’d love to hear from you!

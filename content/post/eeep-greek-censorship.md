@@ -2260,28 +2260,28 @@ of the blocked websites. Communicating with the owner company would be impossibl
 ## Raw measurement data per ISP
 
 * Forthnet:
-  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-07-30/20140730T221712Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
-  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-06-23/20140623T125708Z-GR-AS1241-http_requests-no_report_id-0.1.0-probe.json)
-  * [DNS Consistency test report](https://measurements.ooni.torproject.org/2014-06-25/20140625T222008Z-GR-AS1241-dns_consistency-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.org/2014-07-30/20140730T221712Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.org/2014-06-23/20140623T125708Z-GR-AS1241-http_requests-no_report_id-0.1.0-probe.json)
+  * [DNS Consistency test report](https://measurements.ooni.org/2014-06-25/20140625T222008Z-GR-AS1241-dns_consistency-no_report_id-0.1.0-probe.json)
 * Ote:
-  * [DNS Consistency test report](https://measurements.ooni.torproject.org/2014-06-26/20140626T105437Z-GR-AS6799-dns_consistency-no_report_id-0.1.0-probe.json)
-  * [DNS Consistency test report](https://measurements.ooni.torproject.org/2014-06-26/20140626T130619Z-GR-AS6799-dns_consistency-no_report_id-0.1.0-probe.json)
-  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-06-25/20140625T210158Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
-  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-06-25/20140625T211147Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
+  * [DNS Consistency test report](https://measurements.ooni.org/2014-06-26/20140626T105437Z-GR-AS6799-dns_consistency-no_report_id-0.1.0-probe.json)
+  * [DNS Consistency test report](https://measurements.ooni.org/2014-06-26/20140626T130619Z-GR-AS6799-dns_consistency-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.org/2014-06-25/20140625T210158Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.org/2014-06-25/20140625T211147Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
 * Cyta:
-  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-06-23/20140623T165118Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
-  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-07-30/20140730T224459Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.org/2014-06-23/20140623T165118Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.org/2014-07-30/20140730T224459Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
 * Hol:
-  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-07-24/20140724T164440Z-GR-AS3329-http_requests-no_report_id-0.1.0-probe.json)
-  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-07-24/20140724T160923Z-GR-AS3329-http_requests-no_report_id-0.1.0-probe.json)
-  * [DNS Consistency test report](https://measurements.ooni.torproject.org/2014-07-24/20140724T161705Z-GR-AS3329-dns_consistency-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.org/2014-07-24/20140724T164440Z-GR-AS3329-http_requests-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.org/2014-07-24/20140724T160923Z-GR-AS3329-http_requests-no_report_id-0.1.0-probe.json)
+  * [DNS Consistency test report](https://measurements.ooni.org/2014-07-24/20140724T161705Z-GR-AS3329-dns_consistency-no_report_id-0.1.0-probe.json)
 * Cosmote:
-  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-07-03/20140703T161600Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.org/2014-07-03/20140703T161600Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
 * Vodafone:
-  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-07-03/20140703T083044Z-ZZ-AS0-http_requests-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.org/2014-07-03/20140703T083044Z-ZZ-AS0-http_requests-no_report_id-0.1.0-probe.json)
 * Wind mobile:
-  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-07-04/20140704T025958Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
-  * [HTTP Requests test report](https://measurements.ooni.torproject.org/2014-07-30/20140730T200818Z-GR-AS15617-http_requests-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.org/2014-07-04/20140704T025958Z-GR-AS0-http_requests-no_report_id-0.1.0-probe.json)
+  * [HTTP Requests test report](https://measurements.ooni.org/2014-07-30/20140730T200818Z-GR-AS15617-http_requests-no_report_id-0.1.0-probe.json)
 
 <!-- # References -->
 

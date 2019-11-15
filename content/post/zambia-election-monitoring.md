@@ -70,7 +70,7 @@ Key Findings
 Out of a total of 1,303 websites that were tested for censorship in
 Zambia during and following its 2016 general election period, only 10 of
 those sites
-[*presented*](https://explorer.ooni.torproject.org/country/ZM) signs of
+[*presented*](https://explorer.ooni.org/country/ZM) signs of
 DNS, TCP/IP and HTTP interference, while [*previously
 blocked*](https://freedomhouse.org/sites/default/files/resources/FOTN%202015_Zambia.pdf)
 news outlets appeared to be accessible throughout the duration of the
@@ -78,7 +78,7 @@ testing period.
 
 No block pages were detected as part of this study that could confirm
 cases of censorship. Yet, the
-[*findings*](https://explorer.ooni.torproject.org/country/ZM) illustrate
+[*findings*](https://explorer.ooni.org/country/ZM) illustrate
 that connections to the websites of the World Economic Forum, the
 Organization of American States (OAS), and an online-dating site
 (pof.com) failed consistently from Zambia’s MTN network across the
@@ -95,7 +95,7 @@ However, it remains unclear why connections to other websites, such as
 that of Pinterest, may have been tampered with during Zambia’s 2016
 general elections.
 
-The [*network tests run in Zambia*](https://explorer.ooni.torproject.org/country/ZM)
+The [*network tests run in Zambia*](https://explorer.ooni.org/country/ZM)
 aimed at identifying "middle boxes" capable of performing internet censorship,
 did not reveal the presence of censorship equipment.
 However, this does not mean that censorship equipment is not present in the
@@ -127,12 +127,12 @@ Reports*](http://zambiareports.com/), [*Barotse
 Post*](http://barotselandpost.com/), and [*Radio
 Barotse*](http://www.radiobarotseland.com/index.php/en/) - were blocked
 for their critical coverage of the ruling party. OONI
-[*revealed*](https://ooni.torproject.org/post/zambia/) at the time that
+[*revealed*](https://ooni.org/post/zambia/) at the time that
 Deep Packet Inspection (DPI) filtering tactics were used to block
 Zambian Watchdog’s website.
 
 In light of Zambia’s 2016 general elections, the [*Open Observatory of
-Network Interference (OONI)*](https://ooni.torproject.org/), in
+Network Interference (OONI)*](https://ooni.org/), in
 collaboration with [*Strathmore University’s Centre for Intellectual
 Property and Information Technology Law
 (CIPIT)*](https://www.cipit.org/), conducted a study to examine whether
@@ -527,7 +527,7 @@ censored*](https://freedomhouse.org/sites/default/files/resources/FOTN%202015_Za
 for about nine months, from July 2013 until April 2014, for their
 critical coverage of the ruling party under President Sata.
 
-OONI [*revealed*](https://ooni.torproject.org/post/zambia/) at the time
+OONI [*revealed*](https://ooni.org/post/zambia/) at the time
 that Deep Packet Inspection (DPI) filtering tactics were used to block
 Zambian Watchdog’s website. According to the collected data, “reset”
 packets were being injected by DPI device to terminate connections to
@@ -537,11 +537,11 @@ the site being inaccessible.
 ![Zambia report data](/post/zambia-election-monitoring/old-report-data.png)
 
 Source: Open Observatory of Network Interference (OONI), [“Zambia, a
-country under Deep Packet Inspection”](https://ooni.torproject.org/post/zambia/)
+country under Deep Packet Inspection”](https://ooni.org/post/zambia/)
 
 Initially, only unencrypted connections to Zambian Watchdog’s website
 were found to be blocked, but further
-[*testing*](https://ooni.torproject.org/post/zambia/#update-17th-july-2013-and-ssl-got-blocked)
+[*testing*](https://ooni.org/post/zambia/#update-17th-july-2013-and-ssl-got-blocked)
 also revealed the blocking of encrypted SSL connections to the website.
 
 The Zambian government did not officially claim any responsibility in
@@ -798,7 +798,7 @@ Examining internet censorship during Zambia’s 2016 general elections
 ====================================================================
 
 The [*Open Observatory of Network Interference
-(OONI)*](https://ooni.torproject.org/), in collaboration with Strathmore
+(OONI)*](https://ooni.org/), in collaboration with Strathmore
 University’s [*Centre for Intellectual Property and Information
 Technology Law (CIPIT)*](https://www.cipit.org/), performed a study of
 internet censorship in Zambia during its 2016 general elections.
@@ -841,7 +841,7 @@ The testing period started on 11th August 2016 - the day of Zambia’s
 general elections - and concluded on 24th August 2016. During this
 period, network measurements were collected every day through the use of
 OONI’s [*software distribution for Raspberry
-Pis*](https://ooni.torproject.org/install/lepidopter/).
+Pis*](https://ooni.org/install/lepidopter/).
 
 ### Creation of a Zambian test list
 
@@ -950,7 +950,7 @@ view of other censorship events that may have taken place during the
 ### OONI network measurements
 
 The [*Open Observatory of Network Interference
-(OONI)*](https://ooni.torproject.org/) is a *free software* project that
+(OONI)*](https://ooni.org/) is a *free software* project that
 aims to increase transparency about internet censorship and traffic
 manipulation around the world. Since 2011, OONI has developed multiple
 [**free and open source software
@@ -966,15 +966,15 @@ examine the following:
      and Lantern) and sensitive domains.
 
 As part of this study, OONI’s [*distribution for embedded
-devices*](https://ooni.torproject.org/install/lepidopter/) (called
+devices*](https://ooni.org/install/lepidopter/) (called
 *Lepidopter*) was run from a local vantage point in Zambia, including
 the following software tests:
 
--   [*Web connectivity*](https://ooni.torproject.org/nettest/web-connectivity/)
+-   [*Web connectivity*](https://ooni.org/nettest/web-connectivity/)
 
--   [*HTTP invalid request line*](https://ooni.torproject.org/nettest/http-invalid-request-line/)
+-   [*HTTP invalid request line*](https://ooni.org/nettest/http-invalid-request-line/)
 
--   [*HTTP header field manipulation*](https://ooni.torproject.org/nettest/http-header-field-manipulation/)
+-   [*HTTP header field manipulation*](https://ooni.org/nettest/http-header-field-manipulation/)
 
 The web connectivity test was run with the aim of examining whether a
 set of URLs (included in both the “[*global test
@@ -987,9 +987,9 @@ As the presence of Blue Coat filtering technology had previously been
 [*detected*](https://citizenlab.org/storage/bluecoat/CitLab-PlanetBlueCoatRedux-FINAL.pdf)
 by the Citizen Lab in Zambia (see section on “Cases of internet
 censorship and surveillance”), the [*HTTP invalid request
-line*](https://ooni.torproject.org/nettest/http-invalid-request-line/)
+line*](https://ooni.org/nettest/http-invalid-request-line/)
 and [*HTTP header field
-manipulation*](https://ooni.torproject.org/nettest/http-header-field-manipulation/)
+manipulation*](https://ooni.org/nettest/http-header-field-manipulation/)
 tests were run for the purpose of examining whether such systems were
 present in the tested network during the testing period.
 
@@ -1000,7 +1000,7 @@ manipulation.
 #### Web connectivity 
 
 This test
-[*examines*](https://ooni.torproject.org/nettest/web-connectivity/)
+[*examines*](https://ooni.org/nettest/web-connectivity/)
 whether websites are reachable and if they are not, it attempts to
 determine whether access to them is blocked through DNS tampering, TCP
 connection RST/IP blocking or by a transparent HTTP proxy. Specifically,
@@ -1106,7 +1106,7 @@ failures even though they are not tampered with.
 #### HTTP invalid request line
 
 This
-[*test*](https://ooni.torproject.org/nettest/http-invalid-request-line/)
+[*test*](https://ooni.org/nettest/http-invalid-request-line/)
 tries to detect the presence of network components (“middle box”) which
 could be responsible for censorship and/or traffic manipulation.
 
@@ -1129,7 +1129,7 @@ likely placed in the tested network, though it’s not always clear what
 that software is. In some cases though, censorship and/or surveillance
 vendors can be identified through the error messages in the received
 HTTP response. Based on this technique, OONI has previously
-[*detected*](https://explorer.ooni.torproject.org/highlights/) the use
+[*detected*](https://explorer.ooni.org/highlights/) the use
 of BlueCoat, Squid and Privoxy proxy technologies in networks across
 multiple countries around the world.
 
@@ -1144,7 +1144,7 @@ they are often used in networks for caching purposes.
 #### HTTP header field manipulation
 
 This
-[*test*](https://ooni.torproject.org/nettest/http-header-field-manipulation/)
+[*test*](https://ooni.org/nettest/http-header-field-manipulation/)
 also tries to detect the presence of network components (“middle box”)
 which could be responsible for censorship and/or traffic manipulation.
 
@@ -1220,7 +1220,7 @@ compare them across time.
 OONI does *not* deliberately collect or store users’ IP addresses. In
 fact, OONI takes measures to remove users’ IP addresses from the
 collected measurements, to protect its users from [*potential
-risks*](https://ooni.torproject.org/about/risks/).
+risks*](https://ooni.org/about/risks/).
 
 However, OONI might *unintentionally* collect users’ IP addresses and
 other potentially personally-identifiable information, if such
@@ -1237,9 +1237,9 @@ through its [*git
 repository*](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs),
 and details about what collected network measurements entail can be
 viewed through [*OONI
-Explorer*](https://explorer.ooni.torproject.org/world/) or through
+Explorer*](https://explorer.ooni.org/world/) or through
 OONI’s [*public list of
-measurements*](https://measurements.ooni.torproject.org/).
+measurements*](https://measurements.ooni.org/).
 
 The OONI pipeline processes the above types of data with the aim of deriving
 meaning from the collected measurements and, specifically, in an attempt to
@@ -1342,19 +1342,19 @@ Findings
 --------
 
 As part of this study, [*38,598 network
-measurements*](https://explorer.ooni.torproject.org/country/ZM) were
+measurements*](https://explorer.ooni.org/country/ZM) were
 collected on a daily basis from a local vantage point (MTN) in Zambia,
 starting on the day of the general elections (11th August 2016) and
 concluding twelve days later. Such network measurements were collected
 via [*OONI’s software distribution for Raspberry
-Pis*](https://ooni.torproject.org/install/lepidopter/), which is
+Pis*](https://ooni.org/install/lepidopter/), which is
 designed to examine whether a set of URLs are blocked (and if so, how),
 and whether systems (“middle boxes”) that could be responsible for
 censorship, surveillance and traffic manipulation are used within a
 tested network.
 
 Upon analysis of the collected data, the
-[*findings*](https://explorer.ooni.torproject.org/country/ZM) illustrate
+[*findings*](https://explorer.ooni.org/country/ZM) illustrate
 that 10 different websites were consistently inaccessible during the
 testing period based on DNS tampering, TCP/IP blocking, and various
 forms of HTTP blocking. These findings are summarized in the table
@@ -1389,7 +1389,7 @@ more likely to have been blocked during the testing period than other
 sites, such as proxyweb.net, which present higher failure rates.
 
 The
-[*inaccessibility*](https://explorer.ooni.torproject.org/measurement/20160824T063105Z_AS36962_xgPga384HayLGE1UZO4nqEFOGyDRgbSDcAIHlRSVg2NKArocym?input=http:%2F%2Fgayromeo.com)
+[*inaccessibility*](https://explorer.ooni.org/measurement/20160824T063105Z_AS36962_xgPga384HayLGE1UZO4nqEFOGyDRgbSDcAIHlRSVg2NKArocym?input=http:%2F%2Fgayromeo.com)
 of gayromeo.com, an online dating website for Lesbian, Gay, Bisexual,
 and Transgender (LGBT) communities around the world, might potentially
 be attributed to the prohibition of same-sex activity in Zambia.
@@ -1405,7 +1405,7 @@ Pornography is
 in Zambia under Article 102 of Part XV (“Cyber crime”) of the Electronic
 Communications and Transactions Act 2009, which might explain why
 pornhub.com was
-[*found*](https://explorer.ooni.torproject.org/measurement/20160824T063105Z_AS36962_xgPga384HayLGE1UZO4nqEFOGyDRgbSDcAIHlRSVg2NKArocym?input=http:%2F%2Fpornhub.com)
+[*found*](https://explorer.ooni.org/measurement/20160824T063105Z_AS36962_xgPga384HayLGE1UZO4nqEFOGyDRgbSDcAIHlRSVg2NKArocym?input=http:%2F%2Fpornhub.com)
 to be inaccessible throughout the testing period. It’s worth pointing
 out, however, that other pornographic websites were found accessible
 during the same testing period.
@@ -1413,14 +1413,14 @@ during the same testing period.
 The inaccessibility of other websites appears to be less justifiable.
 The World Economic Forum’s [*website*](http://www.weforum.org), for
 example, was
-[*found*](https://explorer.ooni.torproject.org/measurement/20160824T063105Z_AS36962_xgPga384HayLGE1UZO4nqEFOGyDRgbSDcAIHlRSVg2NKArocym?input=http:%2F%2Fwww.weforum.org)
+[*found*](https://explorer.ooni.org/measurement/20160824T063105Z_AS36962_xgPga384HayLGE1UZO4nqEFOGyDRgbSDcAIHlRSVg2NKArocym?input=http:%2F%2Fwww.weforum.org)
 to be consistently inaccessible based on DNS tampering and HTTP
 failures, but the motivation or legal justification behind this remains
 unclear. Quite similarly, it also remains unclear why the
 [*website*](http://www.cidh.org) of the Organization of American States
 (OAS), which is responsible for the promotion and protection of human
 rights in America, was found to be
-[*inaccessible*](https://explorer.ooni.torproject.org/measurement/20160824T063105Z_AS36962_xgPga384HayLGE1UZO4nqEFOGyDRgbSDcAIHlRSVg2NKArocym?input=http:%2F%2Fwww.cidh.org)
+[*inaccessible*](https://explorer.ooni.org/measurement/20160824T063105Z_AS36962_xgPga384HayLGE1UZO4nqEFOGyDRgbSDcAIHlRSVg2NKArocym?input=http:%2F%2Fwww.cidh.org)
 in Zambia during the 2016 election period. While the website of the
 World Economic Forum also presented a failure rate of about 7%
 (indicating that it might not actually have been blocked by Zambian
@@ -1428,7 +1428,7 @@ ISPs), the website of the OAS presented a failure rate of less than 1%,
 indicating that it might have been blocked.
 
 Other websites that raise questions include the
-[*website*](https://explorer.ooni.torproject.org/measurement/20160824T063105Z_AS36962_xgPga384HayLGE1UZO4nqEFOGyDRgbSDcAIHlRSVg2NKArocym?input=http:%2F%2Fwww.wzo.org.il)
+[*website*](https://explorer.ooni.org/measurement/20160824T063105Z_AS36962_xgPga384HayLGE1UZO4nqEFOGyDRgbSDcAIHlRSVg2NKArocym?input=http:%2F%2Fwww.wzo.org.il)
 of the World Zionist Organization, which aims at establishing a legally
 assured home in Palestine for the Jewish people. Interestingly enough,
 this website presented 0% failure rates from control vantage points, but
@@ -1436,7 +1436,7 @@ connections to it failed consistently throughout the testing period.
 It’s unclear though if this is due to TCP/IP blocking implemented by
 Zambia’s MTN, or if the website itself rejected connections coming from
 Zambia. Photo-sharing platform [*Pinterest*](https://pinterest.com) also
-[*appeared*](https://explorer.ooni.torproject.org/measurement/20160824T063105Z_AS36962_xgPga384HayLGE1UZO4nqEFOGyDRgbSDcAIHlRSVg2NKArocym?input=https:%2F%2Fpinterest.com)
+[*appeared*](https://explorer.ooni.org/measurement/20160824T063105Z_AS36962_xgPga384HayLGE1UZO4nqEFOGyDRgbSDcAIHlRSVg2NKArocym?input=https:%2F%2Fpinterest.com)
 to be inaccessible, presenting HTTP failures consistently across the
 testing period, but the website’s failure rates (around 7%) indicate
 that this might not actually be a case of censorship.
@@ -1451,7 +1451,7 @@ failures.
 On a positive note, the websites of Zambia’s opposition members and the
 news outlets (such as zambiawatchdog.com/) that were previously censored
 between 2013 and 2014 were [**not**
-*found*](https://explorer.ooni.torproject.org/country/ZM) to be blocked
+*found*](https://explorer.ooni.org/country/ZM) to be blocked
 during this testing period. Out of a total of 1,303 websites that were
 tested for censorship in Zambia, only 10 of those websites presented
 signs of network interference.
@@ -1460,9 +1460,9 @@ The above cases, as detected through the use of [*OONI’s
 software*](https://github.com/TheTorProject/ooni-probe), indicate the
 presence of censorship equipment within the tested network. However,
 OONI’s [*HTTP invalid request
-line*](https://ooni.torproject.org/nettest/http-invalid-request-line/)
+line*](https://ooni.org/nettest/http-invalid-request-line/)
 and [*HTTP header field
-manipulation*](https://ooni.torproject.org/nettest/http-header-field-manipulation/)
+manipulation*](https://ooni.org/nettest/http-header-field-manipulation/)
 tests did *not* detect the fingerprints of such equipment, preventing
 the identification of the specific types of equipment being used.
 
@@ -1507,7 +1507,7 @@ Conclusion
 ==========
 
 This study highlights the *possibility* of DNS, TCP/IP and HTTP
-[*blocking*](https://explorer.ooni.torproject.org/country/ZM) of 10
+[*blocking*](https://explorer.ooni.org/country/ZM) of 10
 different websites during Zambia’s 2016 general election period. As no
 block pages were detected, none of these cases can be confirmed with
 confidence.
@@ -1521,7 +1521,7 @@ and [*Electronic Communications and Transactions Act
 the blocking of such sites can potentially be legally justified.
 
 Pinterest was also
-[*found*](http://explorer.ooni.torproject.org/measurement/20160813T063121Z_AS36962_mM85nQxBrOZgZd6A5Y0nP1WlglXJXt56GxnGsbDd0AicF56tpO?input=https:%2F%2Fpinterest.com)
+[*found*](http://explorer.ooni.org/measurement/20160813T063121Z_AS36962_mM85nQxBrOZgZd6A5Y0nP1WlglXJXt56GxnGsbDd0AicF56tpO?input=https:%2F%2Fpinterest.com)
 to be inaccessible, as well as the websites of the World Economic Forum, the
 Organization of American States (OAS) and the World Zionist Organization.
 However, the motivation and legal justification behind these possible
@@ -1529,7 +1529,7 @@ censorship events remains unclear. On a positive note, the websites of Zambia’
 opposition members and the news outlets that were previously censored between
 2013 and 2014 were *not* found to be blocked during this testing period.
 
-[OONI](https://ooni.torproject.org/) and the [CIPIT](https://www.cipit.org/)
+[OONI](https://ooni.org/) and the [CIPIT](https://www.cipit.org/)
 encourage transparency around internet controls, particularly during election
 periods, to help enhance the safeguard of human rights and democratic
 processes.

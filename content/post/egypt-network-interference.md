@@ -56,12 +56,12 @@ the last two months.
 # <a name="media-censorship"></a> Media censorship
 
 The New Arab website [www.alaraby.co.uk]
-(https://explorer.ooni.torproject.org/measurement/20161025T230118Z_AS36935_N4hRIq4Ya5raRq0yRrW7dRu9yxeg8m7fgbyNrOd9ugt07uQGK0?input=http:%2F%2Fwww.alaraby.co.uk)
+(https://explorer.ooni.org/measurement/20161025T230118Z_AS36935_N4hRIq4Ya5raRq0yRrW7dRu9yxeg8m7fgbyNrOd9ugt07uQGK0?input=http:%2F%2Fwww.alaraby.co.uk)
 and its mirror website `www.alarabyaljadeed.co.uk`
 has been blocked in Egypt since 2016-01-05 according to the [Guardian]
 (https://www.theguardian.com/media/2016/jan/05/saudi-arabia-uae-egypt-block-access-qatari-news-website)
 news outlet. Similarly, the domain
-[www.alarabyaljadeed.co.uk](https://explorer.ooni.torproject.org/measurement/20161025T231508Z_AS36935_Cvza90GziUHIFTeK7F5rBLFVIa5nkFKi3X9i3gZ2dpNymzbn69?input=http:%2F%2Fwww.alarabyaljadeed.co.uk)
+[www.alarabyaljadeed.co.uk](https://explorer.ooni.org/measurement/20161025T231508Z_AS36935_Cvza90GziUHIFTeK7F5rBLFVIa5nkFKi3X9i3gZ2dpNymzbn69?input=http:%2F%2Fwww.alarabyaljadeed.co.uk)
 pointing to the same website (`www.alaraby.co.uk`) has also been blocked. The
 ISPs have not redirected the visitors to any block page or any resource that
 explains the reason of the block. Instead, they appear to have used Deep
@@ -72,17 +72,17 @@ containing a blank webpage as is shown by the following two OONI measurements
 collected on 25th of October 2016:
 
 * [Blocking of www.alaraby.co.uk via
-  HTTP](https://explorer.ooni.torproject.org/measurement/20161025T220457Z_AS36935_PqOJazEa6I8BzYZ3NrFVEILGKUaVq6fQ4pM9asTMWaQ3MWzqSz?input=http:%2F%2Fwww.alaraby.co.uk)
+  HTTP](https://explorer.ooni.org/measurement/20161025T220457Z_AS36935_PqOJazEa6I8BzYZ3NrFVEILGKUaVq6fQ4pM9asTMWaQ3MWzqSz?input=http:%2F%2Fwww.alaraby.co.uk)
 
 * [Blocking of www.alarabyaljadeed.co.uk via
-  HTTP](https://explorer.ooni.torproject.org/measurement/20161025T231508Z_AS36935_Cvza90GziUHIFTeK7F5rBLFVIa5nkFKi3X9i3gZ2dpNymzbn69?input=http:%2F%2Fwww.alarabyaljadeed.co.uk)
+  HTTP](https://explorer.ooni.org/measurement/20161025T231508Z_AS36935_Cvza90GziUHIFTeK7F5rBLFVIa5nkFKi3X9i3gZ2dpNymzbn69?input=http:%2F%2Fwww.alarabyaljadeed.co.uk)
 
 The request for the HTTPS version of the websites (`https://www.alaraby.co.uk`,
 `https://www.alarabyaljadeed.co.uk`) times out and no response is received, as
 shown in the following measurement:
 
 * [Timing out of requests to www.alaraby.co.uk via
-  HTTPS](https://explorer.ooni.torproject.org/measurement/20161025T225008Z_AS36935_3RV6eZcQFuo4GncFinLXtrb1jlMfTSXZPG8xpWOCgWCPf9DreU?input=https:%2F%2Fwww.alaraby.co.uk)
+  HTTPS](https://explorer.ooni.org/measurement/20161025T225008Z_AS36935_3RV6eZcQFuo4GncFinLXtrb1jlMfTSXZPG8xpWOCgWCPf9DreU?input=https:%2F%2Fwww.alaraby.co.uk)
 
 ## <a name="collateral-damage"></a> Collateral damage
 
@@ -136,19 +136,19 @@ The HTTPS throttling of services hosted by DigitalOcean's Frankfurt data centre
 led to the inaccessibility of various URLs. These include the following:
 
 * [Blocking of
-  https://050media.nl](https://explorer.ooni.torproject.org/measurement/20160829T135335Z_AS20928_j3cqNiI8kwkJxby5R3LyH2PnTPgnBJ0rZ3Qx2RClxkQWc9WmOg?input=https:%2F%2F050media.nl)
+  https://050media.nl](https://explorer.ooni.org/measurement/20160829T135335Z_AS20928_j3cqNiI8kwkJxby5R3LyH2PnTPgnBJ0rZ3Qx2RClxkQWc9WmOg?input=https:%2F%2F050media.nl)
 
 * [Blocking of
-  https://33-km.ru](https://explorer.ooni.torproject.org/measurement/20160829T134302Z_AS20928_I5cYSYTKoHbYLyKtnogYNPLNcdF7T5PkcmxVs4cfR46ifNiq7z?input=https:%2F%2F33-km.ru)
+  https://33-km.ru](https://explorer.ooni.org/measurement/20160829T134302Z_AS20928_I5cYSYTKoHbYLyKtnogYNPLNcdF7T5PkcmxVs4cfR46ifNiq7z?input=https:%2F%2F33-km.ru)
 
 * [Blocking of
-  https://laracasts.com](https://explorer.ooni.torproject.org/measurement/20160821T211424Z_AS8452_cZllOWSUFhF2WYmiz0KSH54J1mzkeDIqC5hrClLQ593FGGE3M1?input=https:%2F%2Flaracasts.com)
+  https://laracasts.com](https://explorer.ooni.org/measurement/20160821T211424Z_AS8452_cZllOWSUFhF2WYmiz0KSH54J1mzkeDIqC5hrClLQ593FGGE3M1?input=https:%2F%2Flaracasts.com)
 
 As well as the following URLs: `https://antoniomarques.eu`,
 `https://akombakom.net`, `https://anadoluefessk.org`, `https://alexmerkel.com`,
 `https://alexmerkel.me`, `https://alexmerkel.xyz`. The raw JSON OONI
 measurements file (25Mb size) of these URLs can be found
-[here](https://measurements.ooni.torproject.org/2016-08-31/20160830T125839Z-EG-AS20928-web_connectivity-no_report_id-0.2.0-probe.json).
+[here](https://measurements.ooni.org/2016-08-31/20160830T125839Z-EG-AS20928-web_connectivity-no_report_id-0.2.0-probe.json).
 
 The above lists however are *not* exhaustive and more websites may have been
 affected which are not listed here.
@@ -158,7 +158,7 @@ affected which are not listed here.
 Two days ago, tests were run to examine the reachability of the
 [Tor](https://www.torproject.org/) anonymity network. The collected measurement
 data indicates that the Tor process bootstrap was
-[disrupted](https://explorer.ooni.torproject.org/measurement/20161026T162218Z_AS36935_kTY80ArJx4baKS9FIss3oPEYfqpzEp0bubESO1T0aEc3Njl3QU)
+[disrupted](https://explorer.ooni.org/measurement/20161026T162218Z_AS36935_kTY80ArJx4baKS9FIss3oPEYfqpzEp0bubESO1T0aEc3Njl3QU)
 by blocking requests to directory authorities, which are designed to help Tor
 clients learn the list of relays that make up the Tor network.
 
@@ -183,28 +183,28 @@ In our testing we found **7 out of 9 directory authority** consensus file reques
 to be blocked:
 
 * [Blocking of consensus document requests to the moria1 directory
-  authority](https://explorer.ooni.torproject.org/measurement/20161026T205703Z_AS36935_OyfZ1mzzY4xuh8S3abKAfvxcwWGh5JVHUCk55e8cInkOyRmw5U?input=http:%2F%2F128.31.0.39:9131%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
+  authority](https://explorer.ooni.org/measurement/20161026T205703Z_AS36935_OyfZ1mzzY4xuh8S3abKAfvxcwWGh5JVHUCk55e8cInkOyRmw5U?input=http:%2F%2F128.31.0.39:9131%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
 
 * [Blocking of consensus document requests to the maatuska directory
-  authority](https://explorer.ooni.torproject.org/measurement/20161026T210514Z_AS36935_3tNJySRXLDwSXijucIltcrFYoKt8KzfrYc2eYdSyO2cxTBs3k5?input=http:%2F%2F171.25.193.9:443%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
+  authority](https://explorer.ooni.org/measurement/20161026T210514Z_AS36935_3tNJySRXLDwSXijucIltcrFYoKt8KzfrYc2eYdSyO2cxTBs3k5?input=http:%2F%2F171.25.193.9:443%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
 
 * [Blocking of consensus document requests to the tor26 directory
-  authority](https://explorer.ooni.torproject.org/measurement/20161026T210714Z_AS36935_w88LJ82yd0rKPiaEFJymNZt3kdusHPnMTuWHMHPWDlGxFQLPde?input=http:%2F%2F86.59.21.38:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
+  authority](https://explorer.ooni.org/measurement/20161026T210714Z_AS36935_w88LJ82yd0rKPiaEFJymNZt3kdusHPnMTuWHMHPWDlGxFQLPde?input=http:%2F%2F86.59.21.38:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
 
 * [Blocking of consensus document requests to the dizum directory
-  authority](https://explorer.ooni.torproject.org/measurement/20161026T210218Z_AS36935_L18ktGixOxdLtxr9LYxIO0jGwkKkLjvsLDZ1YPOJ2eQL7EhDx4?input=http:%2F%2F194.109.206.212:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
+  authority](https://explorer.ooni.org/measurement/20161026T210218Z_AS36935_L18ktGixOxdLtxr9LYxIO0jGwkKkLjvsLDZ1YPOJ2eQL7EhDx4?input=http:%2F%2F194.109.206.212:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
 
 * [Blocking of consensus document requests to the gabelmoo directory
-  authority](https://explorer.ooni.torproject.org/measurement/20161026T210811Z_AS36935_Co624cXxizzgIzXOEV1Cx44SCElOMjLHrGML838zycImudosLR?input=http:%2F%2F131.188.40.189:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
+  authority](https://explorer.ooni.org/measurement/20161026T210811Z_AS36935_Co624cXxizzgIzXOEV1Cx44SCElOMjLHrGML838zycImudosLR?input=http:%2F%2F131.188.40.189:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
 
 * [Blocking of consensus document requests to the dannenberg directory
-  authority](https://explorer.ooni.torproject.org/measurement/20161026T210434Z_AS36935_so2ZaGOjUdgGNJM7gjyALCyycGDS3v3r5SWoVgPdna7GstFit5?input=http:%2F%2F193.23.244.244:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
+  authority](https://explorer.ooni.org/measurement/20161026T210434Z_AS36935_so2ZaGOjUdgGNJM7gjyALCyycGDS3v3r5SWoVgPdna7GstFit5?input=http:%2F%2F193.23.244.244:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
 
 * [Blocking of consensus document requests to the Faravahar directory
-  authority](https://explorer.ooni.torproject.org/measurement/20161026T210524Z_AS36935_OfwC8F4e16wN6RjbZCSl6dveF0XRL2UnsygTeXSMFlDBRwB3bw?input=http:%2F%2F154.35.175.225:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
+  authority](https://explorer.ooni.org/measurement/20161026T210524Z_AS36935_OfwC8F4e16wN6RjbZCSl6dveF0XRL2UnsygTeXSMFlDBRwB3bw?input=http:%2F%2F154.35.175.225:80%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
 
 We also found access to the now discontinued Tor [directory authority urras to
-be blocked](https://explorer.ooni.torproject.org/measurement/20161026T210826Z_AS36935_Y1ON5xUx0alU1OMrDIMwix8FpjyFs5OUXsbPZWaK6PrCqKpMpW?input=http:%2F%2F208.83.223.34:443%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
+be blocked](https://explorer.ooni.org/measurement/20161026T210826Z_AS36935_Y1ON5xUx0alU1OMrDIMwix8FpjyFs5OUXsbPZWaK6PrCqKpMpW?input=http:%2F%2F208.83.223.34:443%2Ftor%2Fstatus-vote%2Fcurrent%2Fconsensus.z)
 .We did not test the accessibility of the recently added `Bitfroest` Tor
 directory authority, nor do we have samples regarding the potential blocking of
 `longclaw`.
@@ -276,7 +276,7 @@ During our October 2016 investigation the injector was mostly targeting mobile
 [User-Agents] (https://en.wikipedia.org/wiki/User_agent). It was not limited to
 iPhone and Android platforms, but also targeted BlackBerry and Symbian devices.
 In August 2016 ooniprobe also [captured a similar
-injection](https://explorer.ooni.torproject.org/measurement/20160827T153815Z_AS8452_gAU19jWom21aUc0hwieYQymbvcuTTTYULW8k1W1UXOlEYmhDPq?input=http:%2F%2Fxnxx.com)
+injection](https://explorer.ooni.org/measurement/20160827T153815Z_AS8452_gAU19jWom21aUc0hwieYQymbvcuTTTYULW8k1W1UXOlEYmhDPq?input=http:%2F%2Fxnxx.com)
 in the TE Data network. The injection was redirecting the user to
 `http://go.ad2upapp.com/afu.php?id=723454` that further redirects to
 `http://go.deliverymodo.com/afu.php?id=723454`, a different advertising website

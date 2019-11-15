@@ -8,7 +8,7 @@ categories: ["blog"]
 
 ![OONI Probe: old vs. new](/post/revamped-ooni-probe-mobile-app/old-vs-new-app.png)
 
-Today the [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) project is thrilled to announce
+Today the [Open Observatory of Network Interference (OONI)](https://ooni.org/) project is thrilled to announce
 the release of a major, new OONI Probe mobile app version!
 
 Are websites and social media apps blocked? Is your network unusually
@@ -67,7 +67,7 @@ provide network data that can serve as evidence of network interference
 
 Apart from satisfying your own curiosity, you’ll also contribute to a
 growing public archive, since all OONI measurements are (automatically)
-[openly published](https://ooni.torproject.org/data/). By running OONI
+[openly published](https://ooni.org/data/). By running OONI
 Probe, your results will help increase transparency of internet
 censorship and other forms of network interference. These measurements
 will support researchers, lawyers, journalists, and human rights
@@ -175,10 +175,10 @@ test basis, how much bandwidth is used by the OONI Probe mobile app.
 
 # Stay tuned for more!
 
-Since the [initial launch](https://ooni.torproject.org/post/ooni-mobile-app/) of the OONI
+Since the [initial launch](https://ooni.org/post/ooni-mobile-app/) of the OONI
 Probe mobile apps (back in February 2017), we’ve been collecting
-community feedback (through [usability studies](https://ooni.torproject.org/post/ooniprobe-ux-survey-and-interviews/),
-[workshops](https://ooni.torproject.org/post/ooni-in-africa-india-europe-conferences/),
+community feedback (through [usability studies](https://ooni.org/post/ooniprobe-ux-survey-and-interviews/),
+[workshops](https://ooni.org/post/ooni-in-africa-india-europe-conferences/),
 and other means) to improve the apps and better serve your needs.
 
 If you participated in usability studies or otherwise shared feedback,
@@ -188,5 +188,5 @@ encourage you to share it with us by sending an email to
 [contact@openobservatory.org](mailto:contact@openobservatory.org).
 
 Our work is ongoing and we plan to release many new features over the
-next year. In the meanwhile, [install the new apps](https://ooni.torproject.org/install/) and stay tuned for the
+next year. In the meanwhile, [install the new apps](https://ooni.org/install/) and stay tuned for the
 next releases!

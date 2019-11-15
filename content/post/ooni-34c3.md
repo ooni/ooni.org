@@ -6,7 +6,7 @@ tags: ["events", "CCC"]
 categories: ["blog"]
 ---
 
-Next week the [OONI](https://ooni.torproject.org/) team will be
+Next week the [OONI](https://ooni.org/) team will be
 attending the [34th Chaos Communication Congress (34C3)](https://events.ccc.de/congress/2017/wiki/index.php/Main_Page):
 Europe’s largest hacker conference on technology, society, and utopia.
 Are you going? We hope to see you there!

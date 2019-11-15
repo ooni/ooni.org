@@ -36,12 +36,12 @@ View the **pdf** version of the report [here](/documents/ooni-partner-gathering-
 
 # About
 
-Over the last year, the [Open Observatory of Network Interference (OONI)](https://ooni.torproject.org/) project has had the opportunity
+Over the last year, the [Open Observatory of Network Interference (OONI)](https://ooni.org/) project has had the opportunity
 to collaborate with various digital rights organizations in Latin
 America, Africa, the Middle East, and Asia. We joined forces to
-collaborate on the study of internet censorship by collecting [network measurements](https://explorer.ooni.torproject.org/world/) from local
+collaborate on the study of internet censorship by collecting [network measurements](https://explorer.ooni.org/world/) from local
 vantage points, reviewing and creating [censorship measurement resources](https://github.com/citizenlab/test-lists/tree/master/lists),
-and by publishing findings through [research reports](https://ooni.torproject.org/post/).
+and by publishing findings through [research reports](https://ooni.org/post/).
 
 To strengthen these (and future) partnerships, OONI hosted its first
 Partner Gathering thanks to support from the [Open Technology Fund (OTF)](https://www.opentech.fund/), the [Ford Foundation](https://www.fordfoundation.org/), and the [Media Democracy Fund (MDF)](http://mediademocracyfund.org/).
@@ -335,7 +335,7 @@ needs that were identified as part of this event.
 | 9 |   Specialized and highly technical nature of the project (hard to explain ooniprobe and the project overall to new people who lack technical expertise) |   Educational materials (e.g. animations/videos/visualizations) that explain technical concepts and how ooniprobe tests work, as well as relevant workshops | 
 | 10 |   Communicating report findings to local audiences |   Funding to localize materials, research reports, and tools | 
 | 11 |   Risks (running ooniprobe and engaging users in high-risk environments) |   More choices (for example, in terms of which URLs to test), more consultation with local lawyers/experts, local workshops discussing and evaluating risks | 
-| 12 |   Scary [Risks documentation](https://ooni.torproject.org/about/risks/) & informed consent procedure (hard to engage new users) |   Tailor risks information & informed consent procedure to different types of users? Perhaps remove the HTTP Invalid Request Line disclaimer on hacking, since that is highly debatable? Create a map showing relevant legal risks per country? | 
+| 12 |   Scary [Risks documentation](https://ooni.org/about/risks/) & informed consent procedure (hard to engage new users) |   Tailor risks information & informed consent procedure to different types of users? Perhaps remove the HTTP Invalid Request Line disclaimer on hacking, since that is highly debatable? Create a map showing relevant legal risks per country? | 
 | 13 |   Bandwidth cost related to running ooniprobe (in some African and Asian countries, for example, it is extremely expensive to run ooniprobe) |   Financial support to cover bandwidth costs, and/or trying to ensure that ooniprobe consumes less bandwidth | 
 | 14 |   Bandwidth consumption (in some countries, running ooniprobe hogs the network of users) |   Trying to ensure that ooniprobe consumes less bandwidth | 
 | 15 |   Limited resources (time, funding, staff, etc.) to collaborate with OONI on a volunteer basis |   Funding to support the resources required to collaborate with OONI on an ongoing basis over time | 
@@ -345,7 +345,7 @@ needs that were identified as part of this event.
 | 19 |   Interpreting and using data from OONI Explorer (currently hard to use and interpret) |   Revamp OONI Explorer to show the top censorship findings per country, and explain the measurement data | 
 | 20 |   Identifying confirmed censorship cases vs. potential false positives through OONI Explorer |   Provide lists of confirmed censorship cases and anomalous measurements (potentially including false positives) per country in OONI Explorer | 
 | 21 |   Interacting with OONI Explorer to provide feedback on the accessibility of sites and services from local vantage points |   Enable users to submit feedback via OONI Explorer (based on the measurements that it exposes) | 
-| 22 |   Hard to use and analyze [json files](https://measurements.ooni.torproject.org/) |   Export data in csv files | 
+| 22 |   Hard to use and analyze [json files](https://measurements.ooni.org/) |   Export data in csv files | 
 | 23 |   Analyzing OONI network measurement data to confirm censorship events |   De-centralize the data analysis (i.e. teach more people how to analyze the data, create community networks of data analysts, and/or tap into existing data analyst communities and engage them with OONI data) | 
 | 24 |   Understanding the context around network measurement data (i.e. which laws, policies, and/or events led to and/or explain censorship events?) |   Contextual information around network measurement data, Cross-community collaboration and information-sharing | 
 | 25 |   Rapidly responding to censorship events based on OONI data (currently hard to interpret the data and to rule out false positives) |   Censorship Alert System that notifies community members of emergent censorship events and which provides them with the data that they need (e.g. for advocacy) in a timely manner | 
