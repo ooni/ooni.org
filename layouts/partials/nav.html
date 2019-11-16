@@ -7,17 +7,12 @@
       <img src="/images/homepage/OONI-HorizontalMonochromeInverted.png" srcset="OONI-HorizontalMonochromeInverted@2x.png 2x" alt="OONI logo" />
       </a>
     </div>
-    <div class="col-2">
+    <div class="col-4 nav-items">
       <a href="/about/"
       {{ if in $selectedMenu "about" }}
       class="active"
       {{end}}
       >About</a>
-      <a href="/install/"
-      {{ if in $selectedMenu "install" }}
-      class="active"
-      {{end}}
-      >Install</a>
       <a href="/nettest/"
       {{ if in $selectedMenu "nettest" }}
       class="active"
@@ -33,12 +28,23 @@
       class="active"
       {{end}}
       >Get Involved</a>
+      <a href="/reports/"
+      {{ if in $selectedMenu "reports" }}
+      class="active"
+      {{end}}
+      >Reports</a>
       <a href="/post/"
       {{ if in $selectedMenu "post" }}
       class="active"
       {{end}}
       >Blog</a>
-
+      <a href="/install/"
+      {{ if in $selectedMenu "install" }}
+      class="active btn btn-small"
+      {{ else }}
+      class="btn btn-small"
+      {{end}}
+      >Install OONI Probe</a>
     </div>
   </div>
 </nav>

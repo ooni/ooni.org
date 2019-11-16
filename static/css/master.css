@@ -478,19 +478,19 @@ td:last-child {
 /* ================================================================== */
 /* Navigation */
 
-nav .col-2 {
+nav .nav-items {
   flex: 1 1;
 }
 
-nav .col-2 a {
+nav .nav-items a {
   color: white;
 }
 
-nav .col-2 a:hover {
+nav .nav-items a:hover {
   border-bottom: 2px solid white;
 }
 
-nav .col-2 a.active {
+nav .nav-items a.active {
   color: white;
   border-bottom: 2px solid white;
 }
@@ -998,6 +998,11 @@ pre span.lw {
 .btn:hover {
   background-color: white;
   color: #0588CB;
+}
+
+.btn-small {
+  font-size: 0.8em;
+  padding: 6px 5px;
 }
 
 /*  Tests section */

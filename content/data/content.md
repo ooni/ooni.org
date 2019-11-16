@@ -1,9 +1,3 @@
----
-aliases:
-  - /reports
-  - /reports/0.1/
----
-
 ## This URL is old
 
 Raw ooniprobe measurements now live at:

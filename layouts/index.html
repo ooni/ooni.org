@@ -38,7 +38,7 @@
    <div class="container">
      <h2>Recent Reports</h2>
      <hr />
-     {{ range first 5 (where (where .Site.Pages.ByDate.Reverse "Section" "post") "Kind" "page") }}
+     {{ range first 5 .Site.Taxonomies.categories.report }}
      <div class="row">
        <a class="report-link" href="{{ .RelPermalink }}">
          <p class="title">{{ .Title }}</p>
@@ -72,13 +72,15 @@
    <div class="container">
      <h2>Recent News</h2>
      <hr />
-     {{ range first 5 (where (where .Site.Pages.ByDate.Reverse "Section" "post") "Kind" "page") }}
+     {{ with .Site.Taxonomies.categories.blog }}
+     {{ range first 5 . }}
      <div class="row">
        <a class="report-link" href="{{ .RelPermalink }}">
          <p class="title">{{ .Title }}</p>
          <p class="date">{{ .Date.Format "2 Jan 2006" }}</p>
        </a>
      </div>
+     {{ end }}
      {{ end }}
      <a class="learn-more" href="/post/">View All</a>
    </div>

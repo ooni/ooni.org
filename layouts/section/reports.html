@@ -4,9 +4,9 @@
 {{ partial "nav.html" . }}
 <div class="container">
   <main class="col-3">
-    <h2>Blog posts</h2>
-     {{ with .Site.Taxonomies.categories.blog }}
-     {{ range . }}
+    <h2>Research reports</h2>
+
+    {{ range .Site.Taxonomies.categories.report }}
 
       <div class="row blog-summary">
         <div>
@@ -22,7 +22,6 @@
         </div>
       </div>
 
-    {{ end }}
     {{ end }}
   </main>
 
