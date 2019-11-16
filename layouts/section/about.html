@@ -1,20 +1,10 @@
 {{ .Scratch.Set "basePrefix" "../../" }}
 {{ partial "head.html" . }}
 
+
+{{ partial "nav.html" . }}
+
 <div class="container">
-
-  <nav>
-    <div class="col-1">
-      <a href="/">
-        <img class="logo" src="/images/ooni-header-mascot.png" width="25" height="25"/>
-        <img class="wordmark" src="/images/wordmark.png" alt="OONI" height="14" width="53"/>
-      </a>
-    </div>
-    <div class="col-2">
-      {{ partial "nav.html" . }}
-    </div>
-  </nav>
-
   <main class="about col-3">
 
   <h1>About</h1>
@@ -23,7 +13,7 @@
     is a <i>free software</i> project under <a href="https://torproject.org">The Tor Project</a>
     which aims to empower decentralized efforts in increasing transparency of internet censorship around the world.</p>
 
-    <p>We develop <a href="https://github.com/TheTorProject/ooni-probe">free and open source software</a>, called <strong>OONI Probe</strong>, that you can run to measure: 
+    <p>We develop <a href="https://github.com/TheTorProject/ooni-probe">free and open source software</a>, called <strong>OONI Probe</strong>, that you can run to measure:
     <ul>
       <li>Blocking of websites;</li>
       <li>Blocking of instant messaging apps (WhatsApp, Facebook Messenger and Telegram);</li>

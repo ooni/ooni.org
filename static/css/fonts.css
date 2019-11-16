@@ -21,6 +21,13 @@
   font-weight: bold; font-style: italic;
 }
 
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/fira-sans-regular.woff");
+  font-weight: normal;
+}
+
 @font-face {
   font-family: "Fira Sans";
   src: url("../fonts/fira-sans-bold.woff");
@@ -49,4 +56,3 @@
   src: url("../fonts/source-code-pro-bold.woff");
   font-weight: bold;
 }
-

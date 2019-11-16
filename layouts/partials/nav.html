@@ -1,32 +1,44 @@
 {{ $basePrefix := .Scratch.Get "basePrefix" }}
 {{ $selectedMenu := split .URL "/" }}
-<a href="/about/"
-  {{ if in $selectedMenu "about" }}
-   class="active"
-  {{end}}
-  >About</a>
-<a href="/install/"
-  {{ if in $selectedMenu "install" }}
-   class="active"
-  {{end}}
-  >Install</a>
-<a href="/nettest/"
-  {{ if in $selectedMenu "nettest" }}
-   class="active"
-  {{end}}
-  >Tests</a>
-<a href="/data/"
-  {{ if in $selectedMenu "data" }}
-   class="active"
-  {{end}}
-  >Data</a>
-<a href="/get-involved/"
-  {{ if in $selectedMenu "get-involved" }}
-   class="active"
-  {{end}}
-  >Get Involved</a>
-<a href="/post/"
-  {{ if in $selectedMenu "post" }}
-   class="active"
-  {{end}}
-   >Blog</a>
+<nav>
+  <div class="container" style="display: flex;">
+    <div class="col-1">
+      <a href="/">
+      <img src="/images/homepage/OONI-HorizontalMonochromeInverted.png" srcset="OONI-HorizontalMonochromeInverted@2x.png 2x" alt="OONI logo" />
+      </a>
+    </div>
+    <div class="col-2">
+      <a href="/about/"
+      {{ if in $selectedMenu "about" }}
+      class="active"
+      {{end}}
+      >About</a>
+      <a href="/install/"
+      {{ if in $selectedMenu "install" }}
+      class="active"
+      {{end}}
+      >Install</a>
+      <a href="/nettest/"
+      {{ if in $selectedMenu "nettest" }}
+      class="active"
+      {{end}}
+      >Tests</a>
+      <a href="/data/"
+      {{ if in $selectedMenu "data" }}
+      class="active"
+      {{end}}
+      >Data</a>
+      <a href="/get-involved/"
+      {{ if in $selectedMenu "get-involved" }}
+      class="active"
+      {{end}}
+      >Get Involved</a>
+      <a href="/post/"
+      {{ if in $selectedMenu "post" }}
+      class="active"
+      {{end}}
+      >Blog</a>
+
+    </div>
+  </div>
+</nav>

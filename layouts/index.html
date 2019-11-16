@@ -1,228 +1,145 @@
 {{ partial "head.html" . }}
 <body class="homepage">
 
- <a href="https://github.com/ooni">
-   <img class="fork-me" style="position: absolute; top: 0; left: 0; border: 0;" src="/images/forkme_left_gray_6d6d6d.png" alt="Fork me on GitHub"/>
- </a>
- <div class="container">
-    <nav>
-      <div class="col-1"></div>
-      <div class="col-2">
-        {{ partial "nav.html" }}
-      </div>
-    </nav>
+{{ partial "nav.html" }}
 
-    <header>
+ <div class="homepage-hero">
+   <div class="sky">
+     <div class="graphics">
+       <img class="cloud-left" src="/images/homepage/cloud-left-double.png" />
+       <img class="cloud-center" src="/images/homepage/cloud-center-full.png" />
+       <img class="cloud-right-high" src="/images/homepage/cloud-right-high.png" />
+       <img class="cloud-right-low" src="/images/homepage/cloud-right-low.png" />
+       <img class="jumping-fish" src="/images/homepage/jumping-fish.png" />
+       <div class="waves"></div>
+     </div>
+     <div class="content container">
+       <img src="/images/homepage/OONI-VerticalColor.png" class="ooni-logo" />
+       <h1>A global community uncovering internet censorship</h1>
+     </div>
+   </div>
+   <div class="ooni-probe">
+     <div class="container">
       <div class="row">
-      <div class="col-1">
-        <img class="logo" src="/images/ooni-header-mascot.png" srcset="/images/ooni-header-mascot-2x.png 2x" height="200" width="200"/>
-      </div>
-        <div class="col-2">
-          <img class="wordmark" src="/images/wordmark.png" srcset="/images/wordmark-2x.png 2x" alt="OONI"/>
-          <h2>Open Observatory of Network Interference</h2>
-          <p>A free software, global observation network for detecting censorship,
-            surveillance and traffic manipulation on the internet</p>
-        </div>
-      </div>
-    </header>
+       <div class="col-2">
+         <img class="ooni-probe-logo" src="/images/homepage/Probe-HorizontalMonochromeInverted.png" srcset="Probe-HorizontalMonochromeInverted@2x.png 2x" />
+         <h2>Measure internet censorship</h2>
+         <p>With OONI Probe you are able to collect evidence of internet censorship around the world. It is available for mobile and desktop.</p>
+         <a class="btn" href="/install">Install OONI Probe</a>
+       </div>
+       <div class="col-2">
+         <img class="ooni-probe-phone" src="/images/homepage/OONI Probe phone.png" srcset="OONI Probe phone@2x.png 2x" alt="OONI Probe mobile app" />
+       </div>
+       </div>
+     </div>
+   </div>
+ </div>
+ <div class="recent-reports">
+   <div class="container">
+     <h2>Recent Reports</h2>
+     <hr />
+     {{ range first 5 (where (where .Site.Pages.ByDate.Reverse "Section" "post") "Kind" "page") }}
+     <div class="row">
+       <a class="report-link" href="{{ .RelPermalink }}">
+         <p class="title">{{ .Title }}</p>
+         <p class="date">{{ .Date.Format "2 Jan 2006" }}</p>
+       </a>
+     </div>
+     {{ end }}
+     <a class="learn-more" href="/post/">View All</a>
+   </div>
+ </div>
+
+ <div class="ooni-explorer">
+   <div class="container">
+     <div class="row">
+       <div class="col-2">
+         <img class="ooni-explorer-browser" src="/images/homepage/explorer-browser.png" srcset="explorer-browser@2x.png 2x" alt="OONI Probe mobile app" />
+       </div>
+       <div class="col-2">
+         <img class="ooni-explorer-logo" src="/images/homepage/Explorer-HorizontalMonochromeInverted.png" srcset="Explorer-HorizontalMonochromeInverted@2x.png 2x" />
+         <h2>Uncover evidence of internet censorship worldwide</h2>
+         <p>
+           OONI Explorer is an open data resource on internet censorship around the world containing millions of measurements since 2012 from over 200 countries around the world.
+         </p>
+         <a class="btn" href="https://explorer.ooni.org/">Explore OONI Data</a>
+       </div>
+     </div>
+   </div>
+</div>
+
+ <div class="recent-reports">
+   <div class="container">
+     <h2>Recent News</h2>
+     <hr />
+     {{ range first 5 (where (where .Site.Pages.ByDate.Reverse "Section" "post") "Kind" "page") }}
+     <div class="row">
+       <a class="report-link" href="{{ .RelPermalink }}">
+         <p class="title">{{ .Title }}</p>
+         <p class="date">{{ .Date.Format "2 Jan 2006" }}</p>
+       </a>
+     </div>
+     {{ end }}
+     <a class="learn-more" href="/post/">View All</a>
+   </div>
+ </div>
+
+<div class="container cta-section">
+<div class="row">
+  <div class="col-2">
+    <div class="cta-box">
+      <img src="/images/homepage/comment-o.png" srcset="/images/homepage/comment-o@2x.png 2x" />
+      <h3>Join us</h3>
+      <p>
+        Join us on the public <a href="https://slack.ooni.org/">OONI slack</a> (bridged via IRC <a href="ircs://irc.oftc.net:6697/#ooni">#ooni on OFTC</a>)
+        or on the
+        <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk">ooni-talk</a> and
+        <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-dev">ooni-dev</a> mailing lists
+        to discuss the project, what you've learned from measurements and ways
+        you can help out.
+      </p>
+      <a class="learn-more" href="/get-involved/">Get Involved</a>
+    </div>
   </div>
-
-  <main>
-      <div class="ooni-explorer">
-      <div class="container">
-        <div class="row">
-          <div class="col-1">
-            <h2>OONI Explorer</h2>
-              <p class="subtext">OONI has been monitoring internet censorship around the world since 2012</p>
-              <p class="subtext"><a class="explorer-button btn" href="https://explorer.ooni.org/">Explore OONI Data</a></p>
-          </div>
-
-        <div class="col-2">
-        <img src="/images/ooni-explorer-screenshot" srcset="/images/ooni-explorer-screenshot@2x.png 1440w"  />
-      </div>
+  <div class="col-2">
+    <div class="cta-box">
+      <img src="/images/homepage/code-braces.png" srcset="/images/homepage/code-braces@2x.png 2x" />
+      <h3>Hack on some code</h3>
+      <p>
+        <a href="https://github.com/ooni">Source code</a>
+        is available
+        Issues and future plans for OONI can be <a href="https://github.com/ooni/probe/issues">found on github</a>.
+      </p>
+      <a class="learn-more" href="https://github.com/ooni/">Fork OONI on Github</a>
     </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-2">
+    <div class="cta-box">
+      <img src="/images/homepage/ooni-logo-small.png" srcset="/images/homepage/ooni-logo-small@2x.png 2x" />
+      <h3>What is OONI?</h3>
+      <p>
+        The Open Observatory of Network Interference (OONI) is a free software
+        project which aims to empower decentralized efforts in increasing
+        transparency of internet censorship around the world.
+      </p>
+      <a class="learn-more" href="/about/">About OONI</a>
+      <a class="learn-more" href="/help/faq/">Frequently Asked Questions</a>
     </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-1"><h2>What OONI does</h2></div>
-        <div class="col-2 pad-below">
-          <h3>OONI develops free software tests designed to examine the following:</h3>
-          <br>
-          <ul>
-          <li>Blocking of websites
-          <li>Blocking of instant messaging apps
-          <li>Blocking of Tor and other circumvention tools
-          <li>Detection of systems that could be responsible for censorship and/or surveillance
-
-          <p class="cta"><a href="/nettest/">Testing methodology</a></p>
-          <p><strong>There are risks.</strong> Running a probe involves testing
-            connections to websites that may be banned and using tools to attempt
-            circumventing web censorship. It is not designed to protect the privacy
-            of those running probes. Measurements are published and can include IP
-            addresses or other identifying information.</p>
-          <p class="cta"><a href="/about/risks">More about the risks</a></p>
-        </div>
-      </div>
-      </div>
-
-    <div class="how-it-works">
-      <div class="container">
-        <div class="row">
-          <div class="col-1">
-            <h2>How OONI Works</h2>
-            <p class="subtext">OONI scans TCP, DNS, HTTP and TLS connections for tampering. Some tests
-            work by requesting data over an unencrypted connection and comparing
-            against a known good value. Others check for DNS spoofing, keyword
-            filtering, transparent proxying and website block lists.</p>
-          </div>
-          <div class="col-2">
-                    <img src="/images/how-ooni-works.png" srcset="/images/how-ooni-works-2x.png 2x" width="680" height="280" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container"> <!-- Container Wrap till the end -->
-
-
-      <!-- div class="row">
-        <div class="col-1">
-          <h2>Recent Measurements</h2>
-        </div>
-        <div class="col-2"></div>
-      </div>
-      <div class="row measurements">
-        <table class="col-3">
-          <tr>
-            <td class="tcol-1"></td>
-            <td>NZ</td>
-            <td>AU</td>
-            <td>US</td>
-            <td>CN</td>
-            <td>NL</td>
-            <td>BR</td>
-            <td>CA</td>
-            <td>CH</td>
-            <td>DE</td>
-          </tr>
-
-          <tr>
-            <td class="tcol-1">DNS spoofing</td>
-            <td><img src="/images/dot.svg" width="2"/></td>
-            <td><img src="/images/dot.svg" width="2"/></td>
-            <td><img src="/images/dot.svg" width="10"/></td>
-            <td><img src="/images/dot.svg" width="25"/></td>
-            <td><img src="/images/dot.svg" width="3"/></td>
-            <td><img src="/images/dot.svg" width="12"/></td>
-            <td><img src="/images/dot.svg" width="22"/></td>
-            <td><img src="/images/dot.svg" width="12"/></td>
-            <td><img src="/images/dot.svg" width="6"/></td>
-          </tr>
-
-          <tr>
-            <td class="tcol-1">HTTP injection</td>
-            <td><img src="/images/dot.svg" width="2"/></td>
-            <td><img src="/images/dot.svg" width="7"/></td>
-            <td><img src="/images/dot.svg" width="10"/></td>
-            <td><img src="/images/dot.svg" width="17"/></td>
-            <td><img src="/images/dot.svg" width="3"/></td>
-            <td><img src="/images/dot.svg" width="1"/></td>
-            <td><img src="/images/dot.svg" width="4"/></td>
-            <td><img src="/images/dot.svg" width="2"/></td>
-            <td><img src="/images/dot.svg" width="0"/></td>
-          </tr>
-
-          <tr>
-            <td class="tcol-1">HTTP blocking</td>
-            <td><img src="/images/dot.svg" width="1"/></td>
-            <td><img src="/images/dot.svg" width="4"/></td>
-            <td><img src="/images/dot.svg" width="2"/></td>
-            <td><img src="/images/dot.svg" width="25"/></td>
-            <td><img src="/images/dot.svg" width="5"/></td>
-            <td><img src="/images/dot.svg" width="13"/></td>
-            <td><img src="/images/dot.svg" width="11"/></td>
-            <td><img src="/images/dot.svg" width="14"/></td>
-            <td><img src="/images/dot.svg" width="20"/></td>
-          </tr>
-
-          <tr>
-            <td class="tcol-1">Tor blocking</td>
-            <td><img src="/images/dot.svg" width="10"/></td>
-            <td><img src="/images/dot.svg" width="2"/></td>
-            <td><img src="/images/dot.svg" width="7"/></td>
-            <td><img src="/images/dot.svg" width="24"/></td>
-            <td><img src="/images/dot.svg" width="9"/></td>
-            <td><img src="/images/dot.svg" width="6"/></td>
-            <td><img src="/images/dot.svg" width="1"/></td>
-            <td><img src="/images/dot.svg" width="2"/></td>
-            <td><img src="/images/dot.svg" width="3"/></td>
-          </tr>
-
-        </table>
-      </div>
-      <div class="row pad-below">
-        <div class="col-1"></div>
-        <div class="col-2 table-caption">Large circles indicate consistent, widespread traffic manipulation</div>
-      </div -->
-
-      <div class="row pad-below">
-        <div class="col-1">
-          <h2>Blog Posts</h2>
-        </div>
-       <div class="col-2 blog-summary">
-          {{ range first 5 (where (where .Site.Pages.ByDate.Reverse "Section" "post") "Kind" "page") }}
-          <a href="{{ .RelPermalink }}">
-              <p class="title">{{ .Title }}</p>
-              <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
-          </a>
-          {{ end }}
-          <a class="read-more" href="/post/">Read More</a>
-        </div>
-      </div>
-
-      <div class="row pad-below">
-        <div class="col-1">
-          <h2>Getting Involved</h2>
-        </div>
-        <div class="col-2">
-            <p>Join us in IRC <a href="ircs://irc.oftc.net:6697/#ooni">#ooni on OFTC</a> (or via a <a href="https://slack.openobservatory.org/">slack bridge</a>)
-            or on the
-            <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk">ooni-talk</a> and 
-            <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-dev">ooni-dev</a> mailing lists
-            to discuss the project, what you've learned from measurements and ways
-            you can help out.
-          </p>
-          <p>If you are contributing regular ooniprobe measurements be sure to also subscribe to
-          <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-operators">ooni-operators</a> for important updates.
-          </p>
-          <p><a href="https://github.com/TheTorProject/ooni-probe">Source code</a>
-            is available (<a href="https://gitweb.torproject.org/ooni-probe.git">Tor project mirror</a>).
-            Issues and future plans for OONI can be <a href="https://github.com/thetorproject/ooni-probe/issues">found on github</a>.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-1">
-          <h2>Contact</h2>
-        </div>
-        <div class="col-2">
-            <p>To contact the OONI team send an email to <strong>contact@openobservatory.org</strong>
-            Encrypted emails can be sent using the following PGP key:</p>
-            <p class="fingerprint">
-            Key ID: 6B2943F00CB177B7<br>
-            Fingerprint: 4C15 DDA9 96C6 C0CF 48BD 3309 6B29 43F0 0CB1 77B7
-            </p>
-            <p>
-            We can also be reached <a href="/about/#contact">on Jabber</a>.
-            </p>
-        </div>
-      </div>
-
-
-    </div>
-  </main>
+  </div>
+  <div class="col-2">
+    <img src="/images/homepage/database.png" srcset="/images/homepage/database@2x.png 2x" />
+    <h3>Access the OONI data</h3>
+    <p>
+      Check out the different ways to access the OONI dataset.
+    </p>
+    <a class="learn-more" href="/data/">Raw OONI measurement data</a>
+    <a class="learn-more" href="/nettest/">Read how the tests work</a>
+  </div>
+</div>
+</div>
 
   <footer class="footer-home">
     <div class="container row">

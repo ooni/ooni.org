@@ -1,32 +1,20 @@
 {{ .Scratch.Set "basePrefix" "../../" }}
 {{ partial "head.html" . }}
 
+{{ partial "nav.html" . }}
 <div class="container">
-
-  <nav>
-    <div class="col-1">
-      <a href="/">
-        <img class="logo" src="/images/ooni-header-mascot.png" width="25" height="25"/>
-        <img class="wordmark" src="/images/wordmark.png" alt="OONI" height="14" width="53"/>
-      </a>
-    </div>
-    <div class="col-2">
-      {{ partial "nav.html" . }}
-    </div>
-  </nav>
-
   <main class="col-3">
     <div class="row">
       <div class="col-3">
         <h2>Community</h2>
           <p>Join us on <a href="https://slack.ooni.org/">Slack</a> or <a href="ircs://irc.oftc.net:6697/#ooni">IRC</a>,
             and sign up for the
-            <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk">ooni-talk</a> and 
+            <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk">ooni-talk</a> and
             <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-dev">ooni-dev</a> mailing lists
             to participate in community discussions.
           </p>
-          <p><a href="https://www.transifex.com/otf/ooniprobe/">Translate the OONI Probe apps</a> and <a href="/documents/Getting started with OONI Probe.pdf">engage your communities</a> with censorship research. 
-          </p>  
+          <p><a href="https://www.transifex.com/otf/ooniprobe/">Translate the OONI Probe apps</a> and <a href="/documents/Getting started with OONI Probe.pdf">engage your communities</a> with censorship research.
+          </p>
           <p>Host an OONI workshop (<a href="https://docs.google.com/presentation/d/1UAxGeF1NhCXc8pT7cfWTp0NPdkWB5LInBkGfgW2syJA/edit?usp=sharing">slides</a>)!
           </p>
       </div>

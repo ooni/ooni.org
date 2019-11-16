@@ -12,8 +12,12 @@
 /* Font selection */
 
 html {
-  font-family: "Charter", serif;
+  font-family: "Fira Sans", sans-serif;
   line-height: 1.4;
+}
+
+p {
+  font-weight: normal;
 }
 
 h1, h2, nav, .toc {
@@ -42,7 +46,8 @@ nav {
   min-height: 2.5rem;
   display: flex;
   align-items: center;
-  margin-top: 1rem;
+  background-color: #0588CB;
+  color: white;
 }
 
 footer {
@@ -138,7 +143,6 @@ header .row {
   .toc { display: none; }
   .homepage .col-1 h2 { margin: 6rem 0 2.5rem !important; width: 12rem; }
   .homepage .how-it-works .col-1 h2 { margin: 0 !important; }
-  .homepage .ooni-explorer .col-1 h2 { margin: 0 !important; }
   .sponsors { display: block !important; }
   .sponsors a { margin-bottom: 2rem; }
   .measurements table, .homepage .how-it-works img { width: calc(100% - 3rem * 2); }
@@ -479,11 +483,16 @@ nav .col-2 {
 }
 
 nav .col-2 a {
-  opacity: 0.3;
+  color: white;
+}
+
+nav .col-2 a:hover {
+  border-bottom: 2px solid white;
 }
 
 nav .col-2 a.active {
-  opacity: 1;
+  color: white;
+  border-bottom: 2px solid white;
 }
 
 nav a {
@@ -542,38 +551,169 @@ header .wordmark {
 
 /* ================================================================== */
 /* How it works */
-.homepage .ooni-explorer {
-  background-color: #0588cb;
-  color: #fff;
-  margin-bottom: 3.5rem;
+
+.homepage-hero .sky .content {
+  z-index: 100;
 }
 
-.homepage .ooni-explorer .col-1 {
-  padding: 2rem 0;
+.homepage-hero .sky .content h1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 60px;
+  padding-top: 20px;
 }
 
-.homepage .how-it-works {
-  background-color: #0588cb;
-  color: #fff;
-  padding: 2rem 0;
-  margin-bottom: 3.5rem;
-}
-
-.homepage .how-it-works h2, .homepage .ooni-explorer h2 {
-  color: #fff;
-  border-color: #fff;
-  margin-bottom: 0;
-}
-
-.homepage .how-it-works img {
+.homepage-hero .sky .ooni-logo {
+  margin-left: auto;
+  margin-right: auto;
   display: block;
-  object-fit: contain;
-  height: 17.5rem;
 }
 
-.homepage .ooni-explorer img {
-  display:block;
-  max-width:100%;
+.homepage-hero .sky .graphics img {
+  z-index: -10;
+}
+.homepage-hero .sky {
+  width: 100%;
+  height: 600px;
+  background-color: #DFF2FC;
+  position: relative;
+  z-index: -100;
+}
+.homepage-hero .sky .cloud-left {
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+.homepage-hero .sky .cloud-center {
+  position: absolute;
+  left: 30%;
+  top: 100px;
+}
+.homepage-hero .sky .cloud-right-high {
+  position: absolute;
+  right: 0px;
+  top: 40px;
+}
+
+.homepage-hero .sky .cloud-right-low {
+  position: absolute;
+  right: 0px;
+  top: 200px;
+}
+.homepage-hero .sky .jumping-fish {
+  position: absolute;
+  right: 0px;
+  bottom: 20px;
+}
+
+.homepage-hero .waves {
+  position: absolute;
+  right: 0px;
+  bottom: -60px;
+  width: 100%;
+  height: 100px;
+  background-image: url("/images/homepage/wavy-sea-pattern.png");
+  background-repeat: repeat-x;
+}
+.homepage-hero .ooni-probe {
+  background-color: #0588CB;
+  color: white;
+  position: relative;
+  height: 360px;
+}
+
+.homepage-hero .ooni-probe-logo {
+  float: left;
+}
+
+.homepage-hero .ooni-probe-phone {
+  position: absolute;
+  bottom: 0px;
+}
+
+.recent-reports h2 {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.recent-reports hr {
+  background: #333;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.recent-reports .report-link p {
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+
+.recent-reports .report-link {
+  color: black;
+  padding-bottom: 20px;
+}
+
+.recent-reports .report-link:hover {
+  color: #0588CB;
+}
+
+.recent-reports .report-link p.title {
+  font-size: 20px;
+}
+
+.recent-reports .report-link p.date {
+  color: #979797;
+  font-size: 14px;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+.learn-more:after {
+  content: " →";
+}
+
+.ooni-explorer {
+  width: 100%;
+  background-color: #0588CB;
+  color: white;
+  margin-top: 40px;
+}
+.ooni-explorer .row {
+  position: relative;
+  height: 400px;
+}
+
+.ooni-explorer .ooni-explorer-logo {
+  display: block;
+  margin-top: 20px;
+}
+.ooni-explorer h2 {
+  margin-top: 20px;
+}
+
+.ooni-explorer .ooni-explorer-browser {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.cta-section {
+  margin-top: 50px;
+}
+
+.cta-section .row {
+  margin-bottom: 40px;
+}
+
+.cta-section .row .col-2 {
+  margin-left: 0;
+}
+
+.cta-section .learn-more {
+  display: block;
+  margin-bottom: 5px;
 }
 
 
@@ -850,11 +990,14 @@ pre span.lw {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: #e06b5a;
   color: white;
-  border: 2px solid transparent;
+  border: 2px solid white;
   border-radius: 4px;
   padding: 6px 20px;
+}
+.btn:hover {
+  background-color: white;
+  color: #0588CB;
 }
 
 /*  Tests section */
