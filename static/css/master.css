@@ -602,8 +602,9 @@ header .wordmark {
 }
 .homepage-hero .sky .jumping-fish {
   position: absolute;
-  right: 0px;
-  bottom: 20px;
+  left: 20px;
+  bottom: 40px;
+  transform: scale(-1, 1);
 }
 
 .homepage-hero .waves {
