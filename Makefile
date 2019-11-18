@@ -1,12 +1,6 @@
 OONI_PROBE_REPO_DIR=../ooni-probe
 -include make.conf
 
-update-site:
-	@echo "Updating the website on ooni.torproject.org from openobservatory.github.io"
-	scp '-oProxyCommand=ssh perdulce.torproject.org -W %h:%p' update-site.sh staticiforme.torproject.org:
-	ssh '-oProxyCommand=ssh perdulce.torproject.org -W %h:%p' -t staticiforme.torproject.org sudo -u ooni sh ./update-site.sh
-	@echo "The website is now live at https://ooni.torproject.org/"
-
 # NB: `make publish` is slow as it downloads whole website and re-uploads it back,
 # you should not use it in your daily life, it's a disaster recovery procedure.
 # keep this in-sync with `.travis.yml`

@@ -15,11 +15,6 @@ If you are having trouble accessing our website, please contact us at contact [a
 * Add your post to `content/post/` directory
 * Submit a pull request
 * Wait for pull request to be reviewed and merged to `master` or merge it yourself :)
-* Update your local copy using `git checkout master && git pull --ff-only`
-* Wait for [Travis CI](https://travis-ci.org/TheTorProject/ooni-web/) to build [Github mirror](https://openobservatory.github.io/) or just proceed to the next step if you don't want to preview the mirror
-* Publish GH mirror to https://ooni.torproject.org using `make update-site`
-
-![ooni-web workflow](.assets/ooni.io.png)
 
 ## Local build
 
