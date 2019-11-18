@@ -54,7 +54,7 @@ https://tieba.baidu.com/
 https://signal.org/
 {{</oonirunurls>}}
 
-{{<oonirunurls text="News Media (45 URLs)">}}
+{{<oonirunurls text="News Media (47 URLs)">}}
 https://www.reddit.com/
 https://edition.cnn.com/
 https://www.nytimes.com/
@@ -92,8 +92,8 @@ https://www.asiatimes.com/
 https://www.sina.com.cn/
 https://www.rambler.ru/
 https://www.lemonde.fr/
-https://www.dailymail.co.uk/
-https://www.express.co.uk/
+https://www.rfa.org/
+https://www.rferl.org/
 https://elpais.com/
 https://www.elmundo.es/
 https://www.globo.com/
@@ -101,6 +101,8 @@ https://www.irna.ir/
 https://www.euronews.com/
 http://ru.rfi.fr/
 https://ar.qantara.de/
+https://www.radiotelevisionmarti.com/
+https://www.radiosawa.com/
 {{</oonirunurls>}}
 
 {{<oonirunurls text="VPNs (21 URLs)">}}
