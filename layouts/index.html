@@ -15,7 +15,7 @@
      </div>
      <div class="content container">
        <img src="/images/homepage/OONI-VerticalColor.png" class="ooni-logo" />
-       <h1>A global community uncovering internet censorship</h1>
+       <h1>Global community uncovering internet censorship</h1>
      </div>
    </div>
    <div class="ooni-probe">
@@ -24,7 +24,7 @@
        <div class="col-2">
          <img class="ooni-probe-logo" src="/images/homepage/Probe-HorizontalMonochromeInverted.png" srcset="Probe-HorizontalMonochromeInverted@2x.png 2x" />
          <h2>Measure internet censorship</h2>
-         <p>With OONI Probe you are able to collect evidence of internet censorship around the world. It is available for mobile and desktop.</p>
+         <p>Detect the blocking of websites and instant messaging apps. Measure the speed and performance of networks.</p>
          <a class="btn" href="/install">Install OONI Probe</a>
        </div>
        <div class="col-2">
@@ -36,7 +36,7 @@
  </div>
  <div class="recent-reports">
    <div class="container">
-     <h2>Recent Reports</h2>
+     <h2>Reports</h2>
      <hr />
      {{ range first 5 .Site.Taxonomies.categories.report }}
      <div class="row">
@@ -46,7 +46,7 @@
        </a>
      </div>
      {{ end }}
-     <a class="learn-more" href="/post/">View All</a>
+     <a class="learn-more" href="/post/">View all</a>
    </div>
  </div>
 
@@ -60,9 +60,9 @@
          <img class="ooni-explorer-logo" src="/images/homepage/Explorer-HorizontalMonochromeInverted.png" srcset="Explorer-HorizontalMonochromeInverted@2x.png 2x" />
          <h2>Uncover evidence of internet censorship worldwide</h2>
          <p>
-           OONI Explorer is an open data resource on internet censorship around the world containing millions of measurements since 2012 from over 200 countries around the world.
+           OONI Explorer is an open data resource on internet censorship, containing millions of network measurements collected from more than 200 countries since 2012.
          </p>
-         <a class="btn" href="https://explorer.ooni.org/">Explore OONI Data</a>
+         <a class="btn" href="https://explorer.ooni.org/">Explore OONI data</a>
        </div>
      </div>
    </div>
@@ -70,7 +70,7 @@
 
  <div class="recent-reports">
    <div class="container">
-     <h2>Recent News</h2>
+     <h2>News</h2>
      <hr />
      {{ with .Site.Taxonomies.categories.blog }}
      {{ range first 5 . }}
@@ -82,7 +82,7 @@
      </div>
      {{ end }}
      {{ end }}
-     <a class="learn-more" href="/post/">View All</a>
+     <a class="learn-more" href="/post/">View all</a>
    </div>
  </div>
 
@@ -93,26 +93,24 @@
       <img src="/images/homepage/comment-o.png" srcset="/images/homepage/comment-o@2x.png 2x" />
       <h3>Join us</h3>
       <p>
-        Join us on the public <a href="https://slack.ooni.org/">OONI slack</a> (bridged via IRC <a href="ircs://irc.oftc.net:6697/#ooni">#ooni on OFTC</a>)
-        or on the
+        Participate in community discussions on <a href="https://slack.ooni.org/">Slack</a> (bridged via IRC <a href="ircs://irc.oftc.net:6697/#ooni">#ooni on OFTC</a>)
+        and sign-up for the
         <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk">ooni-talk</a> and
         <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-dev">ooni-dev</a> mailing lists
-        to discuss the project, what you've learned from measurements and ways
-        you can help out.
+        to receive and share updates.
       </p>
-      <a class="learn-more" href="/get-involved/">Get Involved</a>
+      <a class="learn-more" href="/get-involved/">Get involved</a>
     </div>
   </div>
   <div class="col-2">
     <div class="cta-box">
       <img src="/images/homepage/code-braces.png" srcset="/images/homepage/code-braces@2x.png 2x" />
-      <h3>Hack on some code</h3>
+      <h3>Hack on our code</h3>
       <p>
-        <a href="https://github.com/ooni">Source code</a>
-        is available
-        Issues and future plans for OONI can be <a href="https://github.com/ooni/probe/issues">found on github</a>.
+        OONI source code is available on <a href="https://github.com/ooni">GitHub</a>.
+        If you have code you would like to contribute, please open a pull request or <a href="https://github.com/ooni/probe/issues">file an issue</a>.
       </p>
-      <a class="learn-more" href="https://github.com/ooni/">Fork OONI on Github</a>
+      <a class="learn-more" href="https://github.com/ooni/">Fork OONI on GitHub</a>
     </div>
   </div>
 </div>
@@ -124,21 +122,21 @@
       <h3>What is OONI?</h3>
       <p>
         The Open Observatory of Network Interference (OONI) is a free software
-        project which aims to empower decentralized efforts in increasing
+        project that aims to empower decentralized efforts in increasing
         transparency of internet censorship around the world.
       </p>
       <a class="learn-more" href="/about/">About OONI</a>
-      <a class="learn-more" href="/help/faq/">Frequently Asked Questions</a>
+      <a class="learn-more" href="/help/faq/">Frequently Asked Questions (FAQ)</a>
     </div>
   </div>
   <div class="col-2">
     <img src="/images/homepage/database.png" srcset="/images/homepage/database@2x.png 2x" />
-    <h3>Access the OONI data</h3>
+    <h3>Explore OONI data</h3>
     <p>
-      Check out the different ways to access the OONI dataset.
+      Every day, hundreds of thousands of new measurements are published from around the world. Dig through OONI data to uncover internet censorship! 
     </p>
-    <a class="learn-more" href="/data/">Raw OONI measurement data</a>
-    <a class="learn-more" href="/nettest/">Read how the tests work</a>
+    <a class="learn-more" href="/data/">OONI data</a>
+    <a class="learn-more" href="/nettest/">Learn how OONI Probe tests work</a>
   </div>
 </div>
 </div>
