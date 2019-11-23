@@ -285,7 +285,7 @@ to 23rd November 2019.
 
 ![OONI measurements: Iran](/post/2019-iran-internet-blackout/10.png)
 
-**Source:** [OONI measurements: Iran](https://explorer.ooni.org/search?until=2019-11-23&probe_cc=IR) (from [OONI’s fast-path pipeline](/post/2019-iran-internet-blackout/20191123-ooni-measurements-iran-by-probeasn.csv))
+**Source:** [OONI measurements: Iran](https://explorer.ooni.org/search?until=2019-11-23&probe_cc=IR) (from [OONI’s fast-path pipeline](/post/2019-iran-internet-blackout/20191123-ooni-measurements-iran-fastpath.csv))
 
 As [OONI Probe](https://ooni.org/install/) requires Internet
 connectivity in order to perform tests (and submit test results for
@@ -295,7 +295,7 @@ total, since some people were still able to connect to the Internet on
 some networks.
 
 Throughout the Internet blackout (from 16th November 2019 to 23rd
-November 2019), OONI Probe was [run on the following networks](https://explorer.ooni.org/search?until=2019-11-23&probe_cc=IR):
+November 2019), OONI Probe was [run on the following networks](/post/2019-iran-internet-blackout/20191123-ooni-measurements-iran-by-probeasn.csv):
 
 * AS12880 (DCI-AS - Information Technology Company (ITC))
 
