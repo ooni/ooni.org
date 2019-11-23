@@ -127,7 +127,7 @@ top-right of the chart to refer to each network operator).
 
 ![Internet blackout in Iran](/post/2019-iran-internet-blackout/02.png)
 
-**Source:** [Internet Outage and Detection Analysis (IODA)](https://ioda.caida.org/ioda/dashboard#view=inspect&entity=country/IR&lastView=overview&from=1573689600&until=1574380800) data chart generated using a [script](https://gist.github.com/hellais/de19a104681402e9b9b63df73dd0f5d7)
+**Source:** [Internet Outage and Detection Analysis (IODA)](https://ioda.caida.org/ioda/dashboard#view=inspect&entity=country/IR&lastView=overview&from=1573689600&until=1574380800) [data chart](/post/2019-iran-internet-blackout/20191123-ioda-iran-charts.csv) generated using a [script](https://gist.github.com/hellais/de19a104681402e9b9b63df73dd0f5d7)
 
 We observe significant differences in how different Autonomous Systems
 (ASes) were affected by the shutdown.
@@ -285,7 +285,7 @@ to 23rd November 2019.
 
 ![OONI measurements: Iran](/post/2019-iran-internet-blackout/10.png)
 
-**Source:** [OONI measurements: Iran](https://explorer.ooni.org/search?until=2019-11-23&probe_cc=IR) (from OONI’s fast-path pipeline)
+**Source:** [OONI measurements: Iran](https://explorer.ooni.org/search?until=2019-11-23&probe_cc=IR) (from [OONI’s fast-path pipeline](/post/2019-iran-internet-blackout/20191123-ooni-measurements-iran-by-probeasn.csv))
 
 As [OONI Probe](https://ooni.org/install/) requires Internet
 connectivity in order to perform tests (and submit test results for
