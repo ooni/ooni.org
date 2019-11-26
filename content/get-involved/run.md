@@ -842,3 +842,66 @@ https://www.mykalimag.com/en/home-page/
 {{</oonirunurls>}}
 
 To test different websites or to create different testing buttons (like the ones shared above), use the **[OONI Run](https://run.ooni.io)** platform.
+
+### Country-specific testing
+
+The following button(s) include websites that are more relevant to specific countries.
+
+{{<oonirunurls text="Azerbaijan (56 URLs)">}}
+http://azerireport.com/
+http://azeritoday.com/
+http://imgur.com/
+https://kavkazcenter.com/
+http://www.jw.org/
+http://www.onetwotrip.com/
+https://www.azadliq.info/
+https://www.azadliq.org/
+https://www.meydan.tv/
+http://www.abzas.net/
+http://www.cumhuriyyet.net/
+http://www.gununsesi.info/
+https://www.dosye.org/
+http://www.24saat.org/
+https://www.irfs.org/
+http://azerbaycansaati.tv/
+http://sonolay.org/
+http://aztoday.az/
+https://www.24saat.org/
+https://www.occrp.org/en
+http://masallilar.az/
+http://criminal.az/
+http://kulis.az/
+https://axar.az/news/kult/
+http://bastainfo.com/
+http://www.turan.az/
+http://www.femida.az/
+http://www.gndem.org/
+http://gozetci.az/
+https://www.humanrightsclub.net/
+https://novator.az/
+https://www.xural.com/
+http://smdtaz.org/
+https://az.wikipedia.org/
+https://tr.wikipedia.org/
+https://az.wikisource.org/
+https://az.wikiquote.org/
+https://ru.wiktionary.org/
+https://az.wikibooks.org/
+https://www.rferl.org/
+https://ru.wikisource.org/
+https://ru.m.wikisource.org/
+https://www.azerbaycanrealligi.com/
+http://azpolitika.info/
+http://www.kanal13.tv/
+https://cenubxeberleri.com/
+http://arqument.az/
+http://strateq.az/
+http://istiqlal.az/
+http://mia.az/
+https://qaynarinfo.az/
+http://gundeminfo.az/
+https://qafqazinfo.az/
+http://teref.az/
+http://7gun.az/
+http://hefteaz.info/
+{{</oonirunurls>}}
