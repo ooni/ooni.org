@@ -5,9 +5,6 @@ methodologies, and research reports.
 
 If you would like to see additional terms in this glossary, please [open a pull request](https://github.com/TheTorProject/ooni-web) or [send us an email](https://ooni.org/about/#contact).
 
-Special thanks to Anatol (OONI community member) for contributing to this
-glossary.
-
 * [API](#api)
 
 * [AS](#as)
@@ -971,3 +968,8 @@ services will receive requests from the IP address of that server, rather than
 from your actual IP address.
 
 VPNs can therefore be used to circumvent internet censorship.
+
+----------------------------------------------------------------------------------------
+
+Special thanks to Anatol (OONI community member) for contributing to this
+glossary.
