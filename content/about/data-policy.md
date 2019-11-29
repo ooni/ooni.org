@@ -4,21 +4,21 @@ aliases: ["/data-policy"]
 
 # OONI Data Policy
 
-**Last modified:** April 23, 2018
+**Last modified:** Friday 29, 2019
 
-**Version:** 1.2.0
+**Version:** 1.4.0
 
 This Data Policy discloses and explains what data the [Open Observatory of Network Interference (OONI) project](https://ooni.org/) ("we", "us",
 or "our") collects, processes, stores and publishes relating to users of its
-website and its ooniprobe software ("you" or "your").
+website and its OONI Probe software ("you" or "your").
 
 **WARNING:**
 
-Our ooniprobe software is *not* designed to protect your privacy. You may face
+Our OONI Probe software is *not* designed to protect your privacy. You may face
 various **[risks](https://ooni.org/about/risks/)** such as fines,
-imprisonment, or other penalties for running ooniprobe. You can avoid some of
+imprisonment, or other penalties for running OONI Probe. You can avoid some of
 these risks by opting not to send us certain types of data when running
-ooniprobe. You can find instructions on how to do so in section 2 below.
+OONI Probe. You can find instructions on how to do so in section 2 below.
 
 We reserve all rights to make future changes to this Data Policy at our sole
 discretion. 
@@ -42,8 +42,8 @@ this Data Policy.
 ### 2.1. Data We Collect
 
 We collect different types of network measurements when you run different types
-of tests. You can view the specifications about each ooniprobe test
-[here](https://github.com/TheTorProject/ooni-spec), and the details about the
+of tests. You can view the specifications about each OONI Probe test
+[here](https://github.com/ooni/spec), and the details about the
 collected network measurements on [OONI Explorer](https://explorer.ooni.org/world/) or through our
 [OONI API](https://api.ooni.io/).
 
@@ -53,11 +53,11 @@ measurements uploaded through the setup settings of OONI's web user interface or
 OONI's mobile app.
 
 If you *don't* opt out of sending us your measurements, we will collect the
-following types of data when you run ooniprobe:
+following types of data when you run OONI Probe:
 
 **2.1.1. Date and time of measurements**
 
-We **always** collect the time and date of measurements when you run ooniprobe.
+We **always** collect the time and date of measurements when you run OONI Probe.
 This data helps us evaluate when network interference has occurred and to
 compare such occurrences over time. **You cannot opt-out of sending us this type
 of data.**
@@ -67,20 +67,20 @@ of data.**
 By default, we automatically transmit your IP address to the [MaxMind GeoIP database](https://www.maxmind.com/en/home), which identifies the country in
 which you are located. We then obtain a two-letter country code from this
 database and store it along with the rest of your test results. Knowing the
-country from which our users are running ooniprobe allows us to locate any
+country from which our users are running OONI Probe allows us to locate any
 network interference the software identifies to a specific country. Such
 information may be useful to researchers, journalists, and advocates who aim to
 discover network interference (such as censorship and traffic manipulation).
 
-You can opt out of sending us your country code by [editing the ooniprobe configuration](https://github.com/TheTorProject/ooni-probe#configuring-ooniprobe) file inside of `~/.ooni/ooniprobe.conf`. Alternatively, you can opt
+You can opt out of sending us your country code by [editing the OONI Probe configuration](https://github.com/ooni/probe-legacy#configuring-ooniprobe) file inside of `~/.ooni/ooniprobe.conf`. Alternatively, you can opt
 out of sending us this information through the setup settings of OONI's web user
 interface or OONI's mobile app.
 
 **2.1.3. Network measurements**
 
 We collect different types of network measurements when you run different types
-of tests. You can view the specifications about each ooniprobe test
-[here](https://github.com/TheTorProject/ooni-spec), and the details about the
+of tests. You can view the specifications about each OONI Probe test
+[here](https://github.com/ooni/spec), and the details about the
 collected network measurements on [OONI Explorer](https://explorer.ooni.org/world/) or through our
 [OONI API](https://api.ooni.io/).
 
@@ -91,11 +91,11 @@ measurements uploaded via OONI's web user interface or OONI's mobile app.
 **2.1.4. Autonomous System Number (ASN)**
 
 By default, we collect your corresponding network Autonomous System Number (ASN)
-when you run ooniprobe. Collecting ASNs helps our work by revealing the identity
+when you run OONI Probe. Collecting ASNs helps our work by revealing the identity
 of network providers that engage in censorship or other forms of network
 interference.
 
-You can opt out of sending us your network's ASN by [editing the ooniprobe configuration](https://github.com/TheTorProject/ooni-probe#configuring-ooniprobe) file inside of  `~/.ooni/ooniprobe.conf`. Alternatively, you can opt
+You can opt out of sending us your network's ASN by [editing the OONI Probe configuration](https://github.com/ooni/probe-legacy#configuring-ooniprobe) file inside of `~/.ooni/ooniprobe.conf`. Alternatively, you can opt
 out of sending us this information through the setup settings of OONI's web user
 interface or OONI's mobile app.
 
@@ -108,13 +108,32 @@ you.
 However, we **might unintentionally** collect your IP addresses and other
 personally-identifiable information if this data is included in the HTTP headers
 or other metadata of measurements. This data might be collected if the websites
-ooniprobe is testing employ tracking technologies or contain custom content.
+OONI Probe is testing employ tracking technologies or contain custom content.
 
 By default, we do *not* collect your IP addresses. You can, however, opt-in to
 provide your individual IP address (to enhance the accuracy of information) by
-[editing the ooniprobe  configuration](https://github.com/TheTorProject/ooni-probe#configuring-ooniprobe) file inside of `~/.ooni/ooniprobe.conf`.
+[editing the OONI Probe configuration](https://github.com/ooni/probe-legacy#configuring-ooniprobe) file inside of `~/.ooni/ooniprobe.conf`.
 Alternatively, you can opt-in to send us this information through the setup
 settings of OONI's web user interface or OONI's mobile app.
+
+**2.1.6. Software, platform and test names and versions**
+
+By default OONI Probe collects the following data required as part of its
+network measurements collection. These data ensure the proper operation of OONI
+ecosystem (API, Explorer, pipeline) and help us to troubleshoot potential errors
+or detect new types of network interference.
+**You cannot opt-out of sending us this type of data.**
+
+* Data format version
+* Name and version of the measurement engine
+* OONI Probe platform name and version
+* OONI Probe report file name
+* OONI backend version
+
+**2.1.7. Network type**
+
+By default OONI Probe collects the type of network used (eg. mobile).
+**You cannot opt-out of sending us this type of data.**
 
 ### 2.2. Data We Process
 
@@ -122,7 +141,7 @@ We process all the collected network measurements mentioned in 2.1. through our
 [data processing pipeline](https://github.com/TheTorProject/ooni-pipeline). We
 try to make sense of the data and to find answers to the following questions:
 
-* Which types of ooniprobe tests were run?
+* Which types of OONI Probe tests were run?
 
 * In which countries were those tests run?
 
@@ -147,7 +166,7 @@ OONI's mobile app.
 
 ### 2.3. Data We Store
 
-By default, we store ALL of the data that your copy of ooniprobe sends us when
+By default, we store ALL of the data that your copy of OONI Probe sends us when
 you run a test. This includes information that *might* be personally-identifying,
 such as your IP address or other information contained in the HTTP headers.
 
