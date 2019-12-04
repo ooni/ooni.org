@@ -12,12 +12,12 @@ LGBTQI websites are blocked in several countries around the world, such
 as
 [Malaysia](https://sinarproject.org/digital-rights/updates/online-lgbt-censorship-malaysia)
 and
-[Indonesia](https://ooni.io/post/indonesia-internet-censorship/#lgbt).
+[Indonesia](https://ooni.org/post/indonesia-internet-censorship/#lgbt).
 This includes popular dating apps and sites, like
 [grindr](https://www.grindr.com/), which is blocked in
 [Lebanon](https://www.amnesty.org/en/latest/news/2019/05/lebanon-ban-on-gay-dating-app-grindr-a-blow-for-sexual-rights-and-freedom/)
 and
-[Iran](https://ooni.io/post/iran-internet-censorship/#human-rights-issues).
+[Iran](https://ooni.org/post/iran-internet-censorship/#human-rights-issues).
 
 How can we track the blocking of LGBTQI sites around the world?
 
@@ -104,7 +104,7 @@ You can opt-out from submitting your test results for publication
 by disabling the Sharing options in the Settings of the OONI
 Probe app.
 
-Learn more about [potential risks](https://ooni.io/about/risks/), and
+Learn more about [potential risks](https://ooni.org/about/risks/), and
 please review our [Data Policy](https://ooni.org/about/data-policy/).
 
 Thank you for helping us track the blocking of LGBTQI websites around the world!
