@@ -36,27 +36,27 @@ transparency (and potentially serve as evidence).
 
 You can participate in our research through the following steps:
 
-1. **Install the OONI Probe mobile app** (and turn-off your VPN):
+* 1.) **Install the OONI Probe mobile app** (and turn-off your VPN):
 
     * [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe)
 
     * [iOS](https://itunes.apple.com/us/app/id1199566366)
 
-2. Tap on one of the **LGBTQI buttons** on this page: https://ooni.org/get-involved/run/
+* 2.) Tap on one of the **LGBTQI buttons** on this page: https://ooni.org/get-involved/run/
 
 ![OONI Run buttons](/post/lgbtqi-site-testing/lgbtqi-buttons.png)
 
-The “LGBTQI (26 URLs)” button includes 26 LGBTQI websites,
+**Note:** The “LGBTQI (26 URLs)” button includes 26 LGBTQI websites,
 while the “LGBTQI (600 URLs)” button includes 600 LGBTQI websites. If
 you’re connected to Wi-Fi, we encourage you to opt for more
 comprehensive testing (600 URLs), whereas if you’re using mobile data,
 you may find the testing of fewer websites (26 URLs) preferable.
 
-3. **Open the LGBTQI button with your OONI Probe mobile app** (not with a web browser).
+* 3.) **Open the LGBTQI button with your OONI Probe mobile app** (not with a web browser).
 
 ![Testing LGBTQI websites](/post/lgbtqi-site-testing/lgbtqi-site-testing.jpeg)
 
-4.  Tap **Run**
+* 4.) Tap **Run**
 
 You can view the results through the **Test Results** section of your
 OONI Probe mobile app.
@@ -83,8 +83,8 @@ journalistic reporting.
 
 ### Heads-up
 
-**The OONI Probe app is not a privacy tool, but an investigatory tool,
-as it's designed to expose various forms of internet censorship.**
+The OONI Probe app is not a privacy tool, but an investigatory tool,
+as it's designed to expose various forms of internet censorship.
 
 Keep in mind that:
 
