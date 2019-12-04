@@ -104,7 +104,7 @@ You can opt-out from submitting your test results for publication
 by disabling the Sharing options in the Settings of the OONI
 Probe app.
 
-Learn more about potential risks [here](https://ooni.io/about/risks/), and
+Learn more about [potential risks](https://ooni.io/about/risks/), and
 please review our [Data Policy](https://ooni.org/about/data-policy/).
 
 Thank you for helping us track the blocking of LGBTQI websites around the world!
