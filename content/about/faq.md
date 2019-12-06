@@ -235,7 +235,7 @@ other sites. In some countries, ISPs even [block the same sites with different t
 [Vimeo and Reddit were found to be blocked even though their ban was lifted](https://ooni.org/post/indonesia-internet-censorship/)
 more than 2 years ago. In Egypt, a number of sites that were
 hosted on the same CDN as The New Arab were
-[blocked](https://ooni.torproject.org/post/egypt-network-interference/#collateral-damage)
+[blocked](https://ooni.org/post/egypt-network-interference/#collateral-damage)
 as well.
 
 6. **The fact that a site or service is inaccessible doesn’t
@@ -430,9 +430,7 @@ bridges);
 * Presence of middleboxes (i.e. systems that could be responsible for
 censorship or surveillance);
 
-* Speed and performance of networks;
-
-* Video streaming performance.
+* Speed and performance of networks.
 
 ### How do OONI Probe tests measure internet censorship?
 
@@ -457,15 +455,15 @@ below:
 
 * Facebook Messenger test: https://ooni.org/nettest/facebook-messenger/
 
-* Telegram test: https://ooni.torproject.org/nettest/telegram/
+* Telegram test: https://ooni.org/nettest/telegram/
 
-* HTTP Invalid Request Line test: https://ooni.torproject.org/nettest/http-invalid-request-line/
+* HTTP Invalid Request Line test: https://ooni.org/nettest/http-invalid-request-line/
 
-* HTTP Header Field Manipulation test: https://ooni.torproject.org/nettest/http-header-field-manipulation/
+* HTTP Header Field Manipulation test: https://ooni.org/nettest/http-header-field-manipulation/
 
-* NDT: https://ooni.torproject.org/nettest/ndt/
+* NDT: https://ooni.org/nettest/ndt/
 
-* DASH: https://ooni.torproject.org/nettest/dash/
+* DASH: https://ooni.org/nettest/dash/
 
 You can also view the test specifications here: https://github.com/ooni/spec/tree/master/nettests
 
@@ -498,9 +496,9 @@ You can run OONI Probe on the following platforms:
 Older versions of OONI Probe (which are no longer updated) are available
 for:
 
-* Linux & macOS: https://ooni.torproject.org/install/ooniprobe
+* Linux & macOS: https://ooni.org/install/ooniprobe
 
-* Raspberry Pi: https://ooni.torproject.org/install/lepidopter/
+* Raspberry Pi: https://ooni.org/install/lepidopter/
 
 ### I ran OONI Probe. Should I send you the results?
 
@@ -658,7 +656,7 @@ around the world. We do our best not to publish your IP address or
 any other potentially personally-identifiable information.
 
 To learn more about potential risks associated with the use of OONI
-Probe, please refer to our documentation: https://ooni.torproject.org/about/risks/
+Probe, please refer to our documentation: https://ooni.org/about/risks/
 
 ### How can I reduce the risks associated with running OONI Probe?
 
@@ -1358,7 +1356,7 @@ up under the “Confirmed” option on OONI Explorer.
 fingerprint to the OONI database (and updated OONI Explorer).**
 There are probably many block pages out there that we haven’t
 detected yet. If you come across block pages that aren’t flagged
-on OONI Explorer, please [share them with us](https://github.com/ooni/pipeline/blob/master/af/oometa/003-fingerprints.install.sql).
+on OONI Explorer, please [share them with us](https://github.com/ooni/pipeline/issues/new).
 
 * **The website in question has been tested by OONI Probe in the
 specific country and on the specific network where it is blocked
