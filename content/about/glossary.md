@@ -992,6 +992,7 @@ from your actual IP address.
 
 VPNs can therefore be used to circumvent internet censorship.
 
+----------------------------------------------------------------------------------------
 
 
 ***Special thanks to Anatol (OONI community member) for contributing to this
