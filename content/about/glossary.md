@@ -3,10 +3,7 @@
 This glossary contains *brief explanations* for terms used in OONI apps,
 methodologies, and research reports.
 
-If you would like to see additional terms in this glossary, please [open a pull request](https://github.com/TheTorProject/ooni-web) or [send us an email](https://ooni.org/about/#contact).
-
-Special thanks to Anatol (OONI community member) for contributing to this
-glossary.
+If you would like to see additional terms in this glossary, please [open a pull request](https://github.com/ooni/ooni.org) or [send us an email](https://ooni.org/about/#contact).
 
 * [API](#api)
 
@@ -26,8 +23,6 @@ glossary.
 
 * [Client](#client)
 
-* [Cloud-fronting](#cloud-fronting)
-
 * [Data processing pipeline](#data-processing-pipeline)
 
 * [DNS](#dns)
@@ -44,7 +39,9 @@ glossary.
 
 * [DNS tampering](#dns-tampering)
 
-* [Domain](#domain)
+* [Domain fronting](#domain-fronting)
+
+* [Domain name](#domain-name)
 
 * [DPI](#dpi)
 
@@ -147,13 +144,13 @@ programmers to write integration code between different services.
 
 The [OONI API](https://api.ooni.io/) provides an interface that enables users to
 request specific types of OONI data and to download such data in a specific
-format (JSON).
+format (JSON). For batch usage, we recommend the [OONI PostgreSQL MetaDB](https://github.com/ooni/sysadmin/blob/master/docs/metadb-sharing.md).
 
-The article, ["What is an API? In English, please"](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/), explains what an API is quite well.
+For a more detailed explanation, we recommend the article ["What is an API? In English, please"](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/).
 
 ### AS
 
-The internet is run by a collection of thousands of autonomous systems (AS) that
+The internet is run by tens of thousands of autonomous systems (AS) that
 coordinate with each other to share routing information: directions on how to
 reach IP addresses on the internet.
 
@@ -166,23 +163,26 @@ it manages.
 ### ASN
 
 An Autonomous System Number (ASN) is a unique identifier of an autonomous system
-(AS). This number allows its autonomous system to exchange routing information
+(AS). This number allows the respective autonomous system to exchange routing information
 with other systems.
 
-Internet Service Providers (ISPs) must have an officially registered ASN.
+An Internet Service Provider (ISP) usually has an officially registered ASN (and
+they can have more than one ASN).
 
 OONI Probe collects the ASN to identify the network in which each test was
 performed.
 
-A simple Google search of an ASN number will show you which ISP it corresponds
-to. For example, if you search "AS30722", you will see that it belongs to
+Looking up an ASN number in a web search engine (such as Google) will show you
+which ISP it corresponds to. For example, searching for "AS30722" should return
 "Vodafone Italia".
 
 ### BGP
 
-The Border Gateway Protocol (BGP) is a standardized exterior gateway protocol
-designed to exchange routing and reachability information among autonomous
-systems (AS) on the internet.
+The Border Gateway Protocol (BGP) is a protocol used by
+Autonomous Systems (AS) on the internet to exchange routing
+information. With this information they are able to discover which
+AS is responsible for which set of IP addresses and what is the path
+IP packets need to take in order to reach that particular AS.
 
 BGP data, aggregated and published by organizations such as
 [RIPE](https://www.ripe.net/) and [CAIDA](https://www.caida.org/), can be useful
@@ -191,15 +191,15 @@ in detecting internet outages.
 ### Blocklist
 
 A blocklist is a list of internet resources (such as websites and IP addresses)
-which are blocked and users are denied access to them.
+which are blocked from user access.
 
 Some governments occasionally publish official blocklists (or they get leaked)
 which contain lists of websites that are legally prohibited in a country.
 
 Internet Service Providers (ISPs) are then ordered to block access to all
 websites included in such blocklists, commonly involving hundreds (or thousands)
-of URLs that contain content illegal in that country (such as gambling, file
-sharing, adult content, etc.).
+of URLs that contain content which is illegal in the respective country (such as
+gambling, file sharing, adult content, political speech, etc.).
 
 ### Block page
 
@@ -213,9 +213,9 @@ When a block page is served by an ISP, the user does not view the content of the
 website they're trying to access. Instead, they view a web page (the block page)
 that informs them that they're not allowed to access the intended website.
 
-A block page is the only form of internet censorship where internet users are
-clearly notified of the censorship. Often, a block page references the law
-behind the censorship.
+A block page is the only form of internet censorship that clearly notifies
+internet users of the censorship. Often, a block page references the law behind
+the censorship.
 
 As an example, below is a block page served by ISPs in Indonesia:
     
@@ -226,11 +226,11 @@ a block page is detected.
 
 ### Caching
 
-Caching is the process of storing data in a cache, which is a temporary storage
-area.
+Caching is the process of storing data in a temporary storage that allows faster
+access for future usage.
 
-Caching aims to store data so that future requests for that data can be served
-faster.
+For example, a web server may cache certain web resources so they can be loaded
+faster when a user requests them.
 
 ### Circumvention tools
 
@@ -247,26 +247,10 @@ and anonymity (in addition to censorship circumvention).
 ### Client
 
 In the world of computers, a client is a piece of software or hardware that
-accesses a service made available by a server.
+interacts with a service hosted by a server.
 
-The [OONI Probe app](https://ooni.org/install/), for example, is a client and it
+The [OONI Probe app](https://ooni.org/install/), for example, is a client that
 communicates with OONI servers in order to submit testing results.
-
-### Cloud-fronting
-
-Cloud-fronting (commonly referred to as "domain-fronting") is a technique that
-circumvents internet censorship by appearing to connect to the domain of a cloud
-provider  -- such as google.com or awsstatic.com (Amazon cloud infrastructure)
--- while actually connecting to a blocked website.
-
-This technique, therefore, not only provides users access to blocked internet
-services, but it also hides the fact that they are accessing those services at
-all.
-
-OONI Probe used to support uploading measurements through the use of cloud-
-fronting, but this is no longer supported since cloud-fronting was disabled by
-[Google](https://arstechnica.com/information-technology/2018/04/google-disables-domain-fronting-capability-used-to-evade-censors/) and
-[Amazon](https://www.theverge.com/2018/4/30/17304782/amazon-domain-fronting-google-discontinued) in April 2018.
 
 ### Data processing pipeline
 
@@ -281,8 +265,8 @@ analyzing the data to identify network anomalies around the world.
 DNS stands for "Domain Name System" and it maps domain names to IP addresses.
 
 A domain is a name that we attribute to websites (when we create them), so that
-we can more easily remember and access them. For example, twitter.com is the
-domain of the Twitter website (`https://twitter.com/`).
+we can more easily remember and access them. For example, `twitter.com` is the
+domain of the Twitter website.
 
 However, computers can't connect to internet services through domain names, but
 based on IP addresses: the digital address of each service on the internet.
@@ -290,42 +274,37 @@ Similarly, in the physical world, you would need the address of a house (rather
 than the name of the house itself) in order to visit it.
 
 The Domain Name System (DNS) is what is responsible for transforming a human-
-readable domain name (such as twitter.com) into a numerical IP address (such as
-38.229.72.16), allowing you to access an internet service.
+readable domain name (such as `ooni.org`) into its numerical IP address
+counterpart (in this case:`104.198.14.52`), thus allowing your computer to
+access the intended website.
 
 ### DNS hijacking
 
-DNS hijacking (otherwise known as "DNS poisoning") occurs when you lookup the
-address of a particular domain name and your DNS resolver (the server managing
-your DNS requests) is dishonest, intentionally providing you an incorrect
-answer.
+DNS hijacking (otherwise known as "DNS poisoning") occurs when, upon looking up
+the address of a particular domain, the queried DNS resolver is dishonest,
+intentionally providing you with an incorrect answer.
 
-As a result, you receive a forged response, such as the following:
-
-* **NXDOMAIN:** A response indicating that the requested domain is either not
-registered or invalid.
-
-* **Block page:** A web page that informs you that the requested domain has
-deliberately been blocked.
-
-* **Error page:** A web page that informs you that the requested domain does not
-exist or has been misspelled.
+As a result, you either receive the IP address of a block page, or you get a
+response claiming that the host name does not exist.
 
 When Internet Service Providers (ISPs) receive government orders to block
 specific websites, they sometimes adopt this technique. In these cases, it may
-be possible to circumvent the censorship by merely changing your DNS resolver.
+be possible to circumvent the censorship merely by changing your DNS resolver,
+or by using encrypted DNS, such as DNS over HTTPS.
 
 ### DNS lookup
 
-When you perform a DNS lookup, you ask your DNS resolver (the server managing
-your DNS requests) to disclose which IP addresses correspond to specific domain
-names.
+When you try to access a website in your browser, the request is forwarded to a
+DNS resolver, requesting the corresponding IP address to the domain name you entered.
 
 To check whether websites are blocked by means of DNS, [OONI Probe](https://ooni.org/install/) starts off by performing a DNS lookup to see
 which IP addresses are mapped to tested domains by the user's DNS resolver. If
 the IP addresses do *not* match those allocated by another DNS resolver (known
 to not implement censorship), it's possible that censorship is implemented at
-the DNS level.
+the DNS level. 
+
+A more detailed description of how OONI's Web Connectivity test works is
+available [here](https://ooni.org/nettest/web-connectivity/).
 
 ### DNS query
 
@@ -333,18 +312,18 @@ A DNS query (otherwise known as a "DNS request") is a request for information
 sent from a user's computer to a DNS server.
 
 In most cases, a DNS request is sent to ask for the IP address associated with a
-domain name (such as twitter.com).
+domain name (such as `ooni.org`).
 
 ### DNS resolver
 
-A DNS resolver is a server that stores a central database of DNS nameservers
-(which define the DNS providers of domains), operating like an "address book".
+A DNS resolver is a server which maps domain names to IP address, operating like
+an "address book".
 
-Based on this database, a DNS resolver manages DNS requests (for all the clients
+A DNS resolver manages DNS requests (for all the clients
 on its network) and is responsible for transforming host names (such as
-twitter.com) into IP addresses (such as 38.229.72.16).
+`twitter.com`) into IP addresses (such as `38.229.72.16`).
 
-Internet Service Providers (ISPs), amongst others (such as Google), run DNS
+Internet Service Providers (ISPs), amongst other service providers (such as Google), run DNS
 resolvers to map IP addresses to host names.
 
 ### DNS spoofing
@@ -355,8 +334,8 @@ intercepted and spoofed DNS answers are injected in response.
 This does *not* involve [DNS misconfiguration](https://ooni.org/post/not-quite-network-censorship/), nor is it similar to DNS hijacking where DNS resolvers
 reply with a forged response.
 
-Rather, DNS spoofing is a more sophisticated technique, as it imitates the
-legitimate response of the queried DNS server, but it provides fake data.
+DNS spoofing is a more sophisticated technique that imitates the
+legitimate response of the queried DNS server, yet providing fake data.
 
 When Internet Service Providers (ISPs) receive government orders to block
 specific websites, they sometimes adopt this technique, intercepting DNS traffic
@@ -374,9 +353,8 @@ address.
 To obtain the IP address of a website, you need to ask a DNS resolver for it
 (since it manages a database of IP addresses that correspond to domains).
 
-DNS tampering happens when instead of receiving the actual IP address for the
-website you want to visit, you instead receive the wrong IP address and as a
-result, you are unable to access the intended website.
+DNS tampering occurs when, upon performing a DNS Lookup for a website, a wrong
+IP address is being returned, preventing you from visiting the requested website.
 
 DNS tampering can happen in various ways, including:
     
@@ -391,18 +369,38 @@ Providers (ISPs) around the world.
 
 The [OONI Probe apps](https://ooni.org/install/) measure the [DNS tampering of websites and apps](https://ooni.org/nettest/).
 
-### Domain
+### Domain fronting
+
+Domain fronting (also sometimes known as "cloud fronting") is a censorship
+circumvention technique which relies on using a popular domain name hosted on a
+big cloud service provider to "front" traffic towards a circumvention service
+hosted on the same cloud service.
+
+For example, this could involve setting up a service on the Google Cloud under the domain
+`circumvention-service.google-cloud.com`, but fronting it via `google.com`. This means
+that from the perspective of someone observing network traffic, all that they can
+see is an encrypted TLS connection towards `google.com`. Yet, inside of this
+encrypted connection, the client says "actually I want to access
+`circumvention-service.google-cloud.com`", circumventing any potential block.
+
+As a result, the censor would either have to block all of Google Cloud (and
+therefore disrupt many more service too) or they would have a hard time
+distinguishing requests towards `circumvention-service.google-cloud.com` from
+requests to `google.com`. This concept is called "[collateral freedom](https://www.upturn.org/static/files/CollateralFreedom.pdf)", as it
+relies on censors *not* causing collateral damage by blocking access to big
+services (such as Google Cloud) that many other services rely on.
+
+### Domain name
 
 A domain is a name that we attribute to websites (when we create them), so that
 we can more easily remember and access them.
 
-For example, **twitter.com** is the domain of the Twitter website
-(`https://twitter.com/`).
+For example, **twitter.com** is the domain of the Twitter website.
 
 ### DPI
 
-Deep packet inspection (DPI) is an advanced method of examining and managing
-network traffic. This technology is used to inspect in detail the data being
+Deep packet inspection (DPI) is a method of examining and managing
+network traffic. This technology is used for a detailed inspection of data being
 sent over a computer network.
 
 As DPI enables advanced network management, it is commonly used by corporations
@@ -450,16 +448,16 @@ DNS tampering.
 content depending on the country that the user is connecting from. In these
 cases, the HTTP responses from the network of the OONI Probe user and from
 the control vantage point will differ, potentially incorrectly indicating
-the the presence of HTTP based interference.
+the presence of HTTP based interference.
 
 ### HTTP
 
-Hypertext Transfer Protocol (HTTP) is the underlying protocol used by the World
-Wide Web which transfers or exchanges data across the internet.
+The Hypertext Transfer Protocol (HTTP) is the underlying protocol used by the World
+Wide Web to transfer or exchange data across the internet.
 
 The HTTP protocol allows communication between a client and a server. It does so
-by handling a client’s request to connect to a server, and a server’s response
-to a client’s request.
+by handling a client’s request to connect to a server, and the server’s response
+to the client’s request.
 
 All websites include an HTTP (or HTTPS) prefix (such as `http://example.com/`) so
 that your computer (the client) can request and receive the content of a website
@@ -469,10 +467,10 @@ The transmission of data over the HTTP protocol is **unencrypted**.
 
 ### HTTPS
 
-Hypertext Transfer Protocol Secure (HTTPS) -- also known as HTTP over TLS, or
-HTTP over SSL --  is the **encrypted version of the HTTP protocol**.
+The Hypertext Transfer Protocol Secure (HTTPS) -- also known as HTTP over TLS, or
+HTTP over SSL --  is **the HTTP protocol over an encrypted channel**.
 
-Over the last years, many websites on the internet started supporting HTTPS
+Over the last years, most major websites on the internet started supporting HTTPS
 (such as `https://www.facebook.com/`) so that the transmission of data (such as
 passwords to login to websites) over the HTTP protocol is encrypted.
 
@@ -482,22 +480,22 @@ HTTP blocking is an umbrella term used to describe various forms of HTTP
 interference with the intention of preventing clients from retrieving
 information from specific servers.
 
-To access a website on the internet, we need to send a request to the server
-hosting that website, which in turn will provide us access by giving us the
-content of the requested website in its response.
+To access a website on the internet, an HTTP request is sent to the server
+hosting the website you're trying to reach. If the request was successful, the
+server will reply with the contents of the website, allowing access.
 
 When Internet Service Providers (ISPs) receive government orders to block
-specific websites, HTTP blocking is a common censorship technique that they
+specific websites, HTTP blocking is a common censorship technique that they may
 adopt. There are many ways that they can implement censorship on the HTTP
 protocol, such as the following:
 
 * **Serving a block page:** In this case, the ISP intercepts the user's request
-to access a specific website (e.g. facebook.com) and serves the user a page
-(the "block page") which informs the user that they are not allowed to
-access the requested website.
+to access a specific website (e.g. `facebook.com`) and serves the user a block
+page instead, which informs the user that they are not allowed to access the
+requested website.
 
 * **HTTP failure:** The user's HTTP request (to access a specific internet
-service) fails because it is intercepted by an HTTP transparent proxy, the
+service) fails because it is intercepted by an HTTP transparent proxy, or the
 ISP resets the connection or hijacks the (unencrypted) connection to
 redirect it (to prevent it from reaching the intended server).
 
@@ -514,15 +512,19 @@ OONI Probe users around the world.
 
 ### HTTP header
 
-An HTTP header is the section of the request and response messages that defines
-the operating parameters of an HTTP transaction between a client and a server.
+HTTP headers are used to **transmit metadata** about the HTTP request or
+response to the server or the client.
+
+Certain HTTP headers are standardised for transmitting common bits of
+information, such as the User-Agent header field, which is used to tell the
+server which browser is performing the request.
 
 Every time you connect to a server, you (the client) send a request through the
 HTTP protocol to that server. Such requests include **HTTP headers**, which
 request certain types of information based on various types of information
 fields ("HTTP header fields"). These fields include the "Host header", which
 includes information about the specific domain you want to access. For example,
-when you connect to ooni.org, the host header of your HTTP request includes
+when you connect to `ooni.org`, the host header of your HTTP request includes
 information which communicates that you want to access that domain.
 
 When measuring the blocking of websites, the OONI Probe [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) compares the HTTP headers of
@@ -531,14 +533,10 @@ part of a larger testing methodology).
 
 ### HTTP request
 
-In order to connect to a server hosting an internet service (such as a website
-or application), you need to request access to it through the HTTP protocol.
-This is what we call an HTTP request.
-
-Every time you connect to a website, your browser (the client) sends a request
-("HTTP request") through the HTTP protocol to the server which is hosting that
-website. A server normally responds ("HTTP response") with the content of the
-website it is hosting.
+Every time you visit a website, your browser (the client) sends a request ("HTTP
+request") through the HTTP protocol to the server which is hosting that website.
+A server normally replies with a "HTTP response" which includes the content of
+the website it is hosting.
 
 In some cases though, Internet Service Providers (ISP) prevent users from
 accessing certain websites by blocking or interfering with the connection
@@ -547,12 +545,13 @@ between them and the server. This is a form of HTTP blocking,
 
 ### HTTP response
 
-Every time you connect to a website, your browser (the client) sends a request
+Every time you visit a website, your browser (the client) sends a request
 ("HTTP request") through the HTTP protocol to the server which is hosting that
 website.
 
-A server normally responds with the content of the website it is hosting. This
-response is an HTTP response.
+In response to an HTTP request, a server will send an HTTP response, which
+includes HTTP response headers and optionally a response body, which in the case
+of a website will be the content of the page.
 
 ### HTTP status codes
 
@@ -561,23 +560,44 @@ Numbers Authority) that are issued by a server in response to a client's
 request. As suggested by their name, these codes communicate the status of an
 HTTP response.
 
+HTTP status codes are divided into specific ranges, depending on the type of status they are communicating:
+
+* **100-199**: used to communicate information to the client
+* **200-299**: used to indicate a successful request
+* **300-399**: used for redirecting the request to another location
+* **400-499**: used to indicate errors in the request by the client
+* **500-599**: used to indicate server-side errors
+
 Common HTTP status codes include:
 
-* HTTP Error *500*(Internal Server Error): General-purpose error message when a
-web server encounters some form of internal error.
+* HTTP status **200** (OK): Used to indicate that the request was successful. This
+is generally the status code used most commonly for successful page loads.
 
-* HTTP Error *403*(Forbidden): When you try to access a forbidden directory on
-a website.
+* HTTP status **301** (Moved Permanently): When the resource requested by the
+client is now available at a different location.
 
-* HTTP Error *404*(Not Found): When you try to access a resource on a web
+* HTTP status **302** (Found): When the resource requested by the client can be
+**temporarily accessed** at a different location.
+
+* HTTP status **400** (Bad Request): When the application you are using (such as
+your web browser) accesses a server incorrectly or the request was corrupted.
+
+* HTTP status **401** (Unauthorized): When you try to access a web page that requires
+authentication credentials without you having provided any.
+
+* HTTP status **403** (Forbidden): When you try to access a restricted directory on
+a website that you don't have the correct authorized credentials for.
+
+* HTTP status **404** (Not Found): When you try to access a resource on a web
 server (usually a web page) that doesn’t exist (because, for example, you have
 mistyped a URL).
 
-* HTTP Error *400*(Bad Request): When the application you are using (such as
-your web browser) accesses a server incorrectly or the request was corrupted.
+* HTTP status **451** (Unavailable For Legal Reasons): When the resource that you are
+trying to access is blocked by the server due to legal restrictions. This is
+the status code used for implementing internet censorship.
 
-* HTTP Error *401*(Unauthorized): When you try to access a restricted web page
-but aren't authorized to do so (usually because of a failed login attempt).
+* HTTP status **500** (Internal Server Error): General-purpose error message when a
+web server encounters some form of internal error.
 
 When measuring the blocking of websites, the OONI Probe [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) compares the HTTP status codes
 of the tested website from the network of the user with a non-censored network
@@ -588,7 +608,7 @@ of the tested website from the network of the user with a non-censored network
 An HTTP transparent proxy is a type of middlebox, an intermediary system that
 sits between a client and a server and performs actions over the HTTP protocol.
 
-When a user makes a request to a server (for example, to access facebook.com),
+When a user makes a request to a server (for example, to access `facebook.com`),
 the transparent proxy intercepts the request to perform various actions (such as
 caching, redirection, and authentication).
 
@@ -971,3 +991,8 @@ services will receive requests from the IP address of that server, rather than
 from your actual IP address.
 
 VPNs can therefore be used to circumvent internet censorship.
+
+
+
+***Special thanks to Anatol (OONI community member) for contributing to this
+glossary.***
