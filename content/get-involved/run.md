@@ -847,7 +847,7 @@ To test different websites or to create different testing buttons (like the ones
 
 The following button(s) include websites that are more relevant to specific countries.
 
-{{<oonirunurls text="Azerbaijan (56 URLs)">}}
+{{<oonirunurls text="Azerbaijan (57 URLs)">}}
 http://azerireport.com/
 http://azeritoday.com/
 http://imgur.com/
@@ -859,7 +859,7 @@ https://www.azadliq.org/
 https://www.meydan.tv/
 http://www.abzas.net/
 http://www.cumhuriyyet.net/
-http://www.gununsesi.info/
+https://www.gununsesi.org/
 https://www.dosye.org/
 http://www.24saat.org/
 https://www.irfs.org/
@@ -904,4 +904,5 @@ https://qafqazinfo.az/
 http://teref.az/
 http://7gun.az/
 http://hefteaz.info/
+http://www.gununsesi.info/
 {{</oonirunurls>}}
