@@ -841,6 +841,13 @@ https://www.lgbtarabic.com/ar/
 https://www.mykalimag.com/en/home-page/
 {{</oonirunurls>}}
 
+{{<oonirunurls text="Reproduction Rights (4 URLs)">}}
+https://www.womenonwaves.org/
+https://www.womenonweb.org/
+http://www.womenonwaves.org/
+http://www.womenonweb.org/
+{{</oonirunurls>}}
+
 To test different websites or to create different testing buttons (like the ones shared above), use the **[OONI Run](https://run.ooni.io)** platform.
 
 ### Country-specific testing
