@@ -1,4 +1,5 @@
 https://ooni.io https://ooni.org 301!
 https://ooni.io/* https://ooni.org/:splat 301!
+https://www.ooni.io/* https://ooni.org/:splat 301!
 https://ooni.torproject.org https://ooni.org 301!
 https://ooni.torproject.org/* https://ooni.org/:splat 301!
