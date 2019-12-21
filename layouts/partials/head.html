@@ -7,7 +7,7 @@
   {{ if .RSSLink }}
   <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
   {{ end }}
-  <title>OONI - {{ .Title }}</title>
+  <title>{{if .IsHome}}{{ $.Site.Title }}{{else}}{{.Title}} | OONI {{end}}</title>
 
   <link rel="canonical" href="https://ooni.org/" />
   <meta name='description' content="Open Observatory of Network Interference (OONI). A free software, global observation network for detecting censorship, surveillance and traffic manipulation on the internet" />
