@@ -10,6 +10,13 @@ categories: ["report"]
 
 **Image:** By Clarote (Coding Rights)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Read the [Portuguese version](https://medium.com/codingrights/brasil-bloqueia-women-on-waves-site-que-traz-informa%C3%A7%C3%B5es-sobre-aborto-seguro-91cd6ae64ba3) by Coding Rights.
+
+View the report's [press coverage](https://theintercept.com/2019/12/12/net-claro-e-vivo-bloqueiam-site-aborto-seguro/) by The Intercept.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 As abortion remains partially or totally
 [criminalized](https://reproductiverights.org/worldabortionlaws) in
 numerous countries, the fight to promote sexual and reproductive rights,
