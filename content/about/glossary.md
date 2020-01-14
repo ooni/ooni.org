@@ -107,8 +107,6 @@ If you would like to see additional terms in this glossary, please [open a pull 
 
 * [OONI Run](#ooni-run)
 
-* [Orchestration](#orchestration)
-
 * [Performance](#performance)
 
 * [Protocol](#protocol)
@@ -134,6 +132,8 @@ If you would like to see additional terms in this glossary, please [open a pull 
 * [Traffic manipulation](#traffic-manipulation)
 
 * [URL](#url)
+
+* [Vantage point](#vantage-point)
 
 * [VPN](#vpn)
 
@@ -264,9 +264,9 @@ analyzing the data to identify network anomalies around the world.
 
 DNS stands for "Domain Name System" and it maps domain names to IP addresses.
 
-A domain is a name that we attribute to websites (when we create them), so that
-we can more easily remember and access them. For example, `twitter.com` is the
-domain of the Twitter website.
+A domain is a name that is commonly attributed to websites (when they're
+created), so that they can be more easily accessed and remembered. For example,
+`twitter.com` is the domain of the Twitter website.
 
 However, computers can't connect to internet services through domain names, but
 based on IP addresses: the digital address of each service on the internet.
@@ -281,11 +281,11 @@ access the intended website.
 ### DNS hijacking
 
 DNS hijacking (otherwise known as "DNS poisoning") occurs when, upon looking up
-the address of a particular domain, the queried DNS resolver is dishonest,
-intentionally providing you with an incorrect answer.
+the address of a particular domain, the queried DNS resolver is 'dishonest',
+intentionally returning an incorrect answer.
 
 As a result, you either receive the IP address of a block page, or you get a
-response claiming that the host name does not exist.
+response claiming that the domain name does not exist.
 
 When Internet Service Providers (ISPs) receive government orders to block
 specific websites, they sometimes adopt this technique. In these cases, it may
@@ -316,20 +316,20 @@ domain name (such as `ooni.org`).
 
 ### DNS resolver
 
-A DNS resolver is a server which maps domain names to IP address, operating like
+A DNS resolver is a server which maps domain names to IP addresses, operating like
 an "address book".
 
 A DNS resolver manages DNS requests (for all the clients
-on its network) and is responsible for transforming host names (such as
+on its network) and is responsible for transforming host (/domain) names (such as
 `twitter.com`) into IP addresses (such as `38.229.72.16`).
 
 Internet Service Providers (ISPs), amongst other service providers (such as Google), run DNS
-resolvers to map IP addresses to host names.
+resolvers that can be queried to receive the IP address of a given website.
 
 ### DNS spoofing
 
 DNS spoofing (also referred to as "DNS injection") occurs when DNS queries are
-intercepted and spoofed DNS answers are injected in response.
+intercepted and spoofed (faked) DNS answers are injected in response.
 
 This does *not* involve [DNS misconfiguration](https://ooni.org/post/not-quite-network-censorship/), nor is it similar to DNS hijacking where DNS resolvers
 reply with a forged response.
@@ -350,7 +350,7 @@ Internet services (such as websites and apps) are hosted on IP addresses, which
 are digital addresses on the internet. To visit a website, you need its IP
 address.
 
-To obtain the IP address of a website, you need to ask a DNS resolver for it
+To obtain the IP address of a website, your computer needs to query a DNS resolver for it
 (since it manages a database of IP addresses that correspond to domains).
 
 DNS tampering occurs when, upon performing a DNS Lookup for a website, a wrong
@@ -358,7 +358,7 @@ IP address is being returned, preventing you from visiting the requested website
 
 DNS tampering can happen in various ways, including:
     
-* **DNS hijacking:** Where the DNS resolver lies and gives you the wrong IP
+* **DNS hijacking:** Where the DNS resolver 'lies' and returns the wrong IP
 address.
 
 * **DNS spoofing:** Where your DNS request is intercepted and you receive the
@@ -384,7 +384,7 @@ encrypted connection, the client says "actually I want to access
 `circumvention-service.google-cloud.com`", circumventing any potential block.
 
 As a result, the censor would either have to block all of Google Cloud (and
-therefore disrupt many more service too) or they would have a hard time
+therefore disrupt other services too) or they would have a hard time
 distinguishing requests towards `circumvention-service.google-cloud.com` from
 requests to `google.com`. This concept is called "[collateral freedom](https://www.upturn.org/static/files/CollateralFreedom.pdf)", as it
 relies on censors *not* causing collateral damage by blocking access to big
@@ -392,8 +392,8 @@ services (such as Google Cloud) that many other services rely on.
 
 ### Domain name
 
-A domain is a name that we attribute to websites (when we create them), so that
-we can more easily remember and access them.
+A domain is a name that is commonly attributed to websites (when they're
+created), so that they can be more easily accessed and remembered.
 
 For example, **twitter.com** is the domain of the Twitter website.
 
@@ -411,7 +411,7 @@ However, DPI technology can also be used for implementing internet censorship
 
 ### False positive
 
-A false positive is a test result which wrongly indicates that a particular
+A false positive is a test result that wrongly indicates that a particular
 condition or attribute is present.
 
 **Within the OONI context, false positives are OONI Probe test results (flagged
@@ -497,7 +497,7 @@ requested website.
 * **HTTP failure:** The user's HTTP request (to access a specific internet
 service) fails because it is intercepted by an HTTP transparent proxy, or the
 ISP resets the connection or hijacks the (unencrypted) connection to
-redirect it (to prevent it from reaching the intended server).
+redirect it (preventing it from reaching the intended server).
 
 The OONI Probe [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) checks the above scenarios when measuring websites for HTTP
 blocking (and other forms of internet censorship).
@@ -524,7 +524,7 @@ HTTP protocol to that server. Such requests include **HTTP headers**, which
 request certain types of information based on various types of information
 fields ("HTTP header fields"). These fields include the "Host header", which
 includes information about the specific domain you want to access. For example,
-when you connect to `ooni.org`, the host header of your HTTP request includes
+when you connect to `ooni.org`, the 'host' header of your HTTP request includes
 information which communicates that you want to access that domain.
 
 When measuring the blocking of websites, the OONI Probe [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) compares the HTTP headers of
@@ -534,7 +534,7 @@ part of a larger testing methodology).
 ### HTTP request
 
 Every time you visit a website, your browser (the client) sends a request ("HTTP
-request") through the HTTP protocol to the server which is hosting that website.
+request") through the HTTP protocol to the server that is hosting the website.
 A server normally replies with a "HTTP response" which includes the content of
 the website it is hosting.
 
@@ -546,7 +546,7 @@ between them and the server. This is a form of HTTP blocking,
 ### HTTP response
 
 Every time you visit a website, your browser (the client) sends a request
-("HTTP request") through the HTTP protocol to the server which is hosting that
+("HTTP request") through the HTTP protocol to the server that is hosting the
 website.
 
 In response to an HTTP request, a server will send an HTTP response, which
@@ -556,17 +556,17 @@ of a website will be the content of the page.
 ### HTTP status codes
 
 HTTP status codes are standardized codes (maintained by the Internet Assigned
-Numbers Authority) that are issued by a server in response to a client's
+Numbers Authority or IANA) that are issued by a server in response to a client's
 request. As suggested by their name, these codes communicate the status of an
 HTTP response.
 
 HTTP status codes are divided into specific ranges, depending on the type of status they are communicating:
 
-* **100-199**: used to communicate information to the client
-* **200-299**: used to indicate a successful request
-* **300-399**: used for redirecting the request to another location
-* **400-499**: used to indicate errors in the request by the client
-* **500-599**: used to indicate server-side errors
+* **100-199**: are used to communicate information to the client
+* **200-299**: are used to indicate a successful request
+* **300-399**: are used for redirecting the request to another location
+* **400-499**: are used to indicate errors in the request by the client
+* **500-599**: are used to indicate server-side errors
 
 Common HTTP status codes include:
 
@@ -613,8 +613,8 @@ the transparent proxy intercepts the request to perform various actions (such as
 caching, redirection, and authentication).
 
 Many Internet Service Providers (ISPs) around the world use HTTP transparent
-proxies to improve network performance, provide users with faster access to
-websites, and for a number of other  purposes.
+proxies for a number of purposes; for example, to improve network performance or
+to provide users with faster access to websites.
 
 Sometimes though, HTTP transparent proxies are also used to implement internet
 censorship and/or surveillance.
@@ -625,7 +625,7 @@ identifying the presence of HTTP transparent proxies.
 
 ### Instant Messaging
 
-Instant messaging (IM) technology is a type of online chat that offers real-time
+Instant messaging (IM) technology is a type of online chat which offers real-time
 text transmission over the internet.
 
 WhatsApp, Facebook Messenger, and Telegram are examples of IM apps, all of which
@@ -643,7 +643,7 @@ Multiple interconnected networks form the internet.
 
 ### Internet blackout
 
-An internet blackout (also referred to as "internet outage") occurs when the
+An internet blackout (also referred to as "internet outage" or "internet shutdown") occurs when the
 internet is completely turned-off in a country or region. The area or network
 affected by the internet blackout has no internet access at all.
 
@@ -737,9 +737,9 @@ identifying the presence of middleboxes.
 A mirror website is a replica of another website. Such websites have different
 URLs, but identical or near-identical content.
 
-Mirror websites are often set-up in an attempt to circumvent internet
+Mirror websites are often set up in an attempt to circumvent internet
 censorship. When ISPs block access to a website, they block access to its URL. By
-changing the domain, these website owners can enable the public to access the
+changing the domain name, these website owners can enable the public to access the
 content of their site.
 
 ### Nettest
@@ -756,8 +756,8 @@ Devices, such as computers, connect to each other and form a network to exchange
 data.
 
 Each network is connected to other networks, which are connected to each other
-through electronic, wireless and optical networking technologies. Multiple
-interconnected networks form the Internet.
+through electronic, wireless and optical networking technologies. The internet
+is formed by multiple interconnected networks.
 
 ### Network anomaly
 
@@ -801,8 +801,9 @@ measurements to OONI servers.
 The OONI bouncer is the service that is responsible for informing OONI Probe
 clients:
     
-* where they should submit their results what the addresses of the nettest
-* helpers are so that they can receive assistance in performing tests
+* where they should submit their results
+
+* what the addresses of the nettest helpers are so that they can receive assistance in performing tests
 
 ### OONI collector
 
@@ -818,7 +819,9 @@ location to explore, search, and download all network measurements collected
 ### OONI nettest helpers
 
 The OONI nettest helpers implement server-side protocols that are of assistance
-to OONI Probe clients running tests.
+to OONI Probe clients running tests. For example, OONI Probe clients speak to a
+test helper to learn what the expected content of a website is in order to do
+the control comparison and determine if that website is blocked.
 
 ### OONI Probe
 
@@ -841,21 +844,11 @@ with other OONI Probe users** in a country or around the world.
 [OONI Run links](https://ooni.org/post/ooni-run/) can be generated by selecting
 a specific OONI Probe test, or by adding URLs of the user's choice. The goal is
 to share this generated OONI Run link with other OONI Probe mobile app users,
-so that they can run the test or test the sites that were chosen (when the link
-was generated).
+so that they can run the test or test the sites that were chosen when the link
+was generated.
 
 The OONI Run platform can also be used to generate widget code to embed an OONI
 button (for customized OONI Probe testing) on a website.
-
-### Orchestration
-
-Orchestration is the automated configuration, coordination, and management of
-computer systems and software.
-
-The [OONI Probe Orchestration System](https://github.com/ooni/orchestra) (also
-referred to as "OONI Orchestra") is a software system that aims to dynamically
-instrument the collection of OONI Probe measurements around the world
-(particularly in response to emergent censorship events).
 
 ### Performance
 
@@ -902,30 +895,38 @@ they're hosting).
 ### TCP
 
 The Transmission Control Protocol (TCP) is one of the main protocols on the
-internet. It is a standard that defines how to establish and maintain a network
-conversation via which application programs can exchange data.
+internet. 
 
-In short, TCP is responsible for establishing and maintaining a connection to
-internet services.
+To connect to a website, your computer needs to establish a TCP
+connection to the address of that website.
 
-To connect to a website, for example, your computer needs to establish a TCP
-connection to that website.
+TCP works on top of the Internet Protocol (IP), which defines how to address
+computers on the internet.
 
-TCP works with the Internet Protocol (IP), which defines how computers send data
-packets to each other.
+When speaking to a machine over the TCP protocol you use an IP and port pair, which
+looks something like this: 10.20.1.1:8080. 
+
+The main difference between TCP and (another very popular protocol called) UDP
+is that TCP has the notion of a “connection”, making it a “reliable” transport
+protocol.
 
 ### TCP/IP blocking
 
 TCP/IP blocking is a form of internet censorship that is implemented by
 preventing a client from establishing a TCP connection to an internet service.
 
+This is achieved by either preventing the target IP from being reachable or
+actively resetting (i.e. injecting TCP RST packets) the connection to the
+IP:Port pair.
+
 [OONI Probe](https://ooni.org/install/) measures the TCP/IP blocking of websites
 and apps.
 
 ### Test input
 
-Test input is the internet resource (such as a URL, domain, or IP address) that
-is measured by [OONI Probe](https://ooni.org/install/).
+Test input (in the context of [OONI Probe](https://ooni.org/install/)) is an
+internet resource (such as a URL, domain, or IP address) that is the target of a
+measurement.
 
 ### Test list
 
@@ -963,7 +964,7 @@ with HTTPS (such as `https://www.facebook.com/`), instead of HTTP.
 The [Tor network](https://www.torproject.org/), which is free and open source,
 provides its users with online anonymity, privacy, and censorship circumvention.
 Tor software is designed to bounce communications around a distributed network
-of relays run by volunteers around the world, hiding its users' IP addresses and
+of relays run by volunteers around the world, thereby hiding its users' IP addresses and
 enabling them to circumvent online tracking and internet censorship.
 
 ### Traffic manipulation
@@ -981,10 +982,17 @@ A URL is the address of a World Wide Web page.
 
 For example, `https://twitter.com/` is a URL, while twitter.com is a domain.
 
+### Vantage point
+
+A network vantage point is a unique network location from which internet
+measurements are performed. In the context of OONI Probe, we consider a vantage
+point to be a unique network and country pair, such as the vantage point of
+“Vodafone in Italy”.
+
 ### VPN
 
-A Virtual Private Network (VPN) is software that creates an encrypted "tunnel"
-from your device to a server (run by a VPN provider).
+A Virtual Private Network (VPN) is software that creates an encrypted connection
+(commonly called "tunnel") from your device to a server (run by a VPN provider).
 
 When you browse the internet through this "tunnel", websites and other online
 services will receive requests from the IP address of that server, rather than
