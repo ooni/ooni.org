@@ -137,7 +137,7 @@ Are there other questions you would like us to address? Please [let us know](htt
 
     * [What do you mean by “Anomalies”?](#what-do-you-mean-by-anomalies)
 
-    * [Why does OONI Explorer suggest that an accessible site or app is blocked?](#why-does-ooni-explorer-suggest-that-an-accessible-site-or-app-is-blocked)
+    * [Why does OONI Explorer suggest that a site or app that I can access is blocked in my country?](#why-does-ooni-explorer-suggest-that-a-site-or-app-that-i-can-access-is-blocked-in-my-country)
 
     * [What are false positives?](#what-are-false-positives)
 
@@ -295,8 +295,7 @@ Back in 2011, Tor Project developers started creating open methodologies
 and frameworks with the goal of measuring various forms of network
 interference, resulting in the creation of OONI.
 
-Ever since, OONI has been [one of the projects hosted under The Tor Project Inc.](https://2019.www.torproject.org/projects/projects.html.en), which
-has served as OONI’s fiscal sponsor.
+OONI has since been [one of the projects hosted under The Tor Project Inc.](https://2019.www.torproject.org/projects/projects.html.en).
 
 ### How can I get involved?
 
@@ -424,8 +423,7 @@ designed to measure:
 * Blocking of instant messaging apps (WhatsApp, Facebook Messenger,
 Telegram);
 
-* Blocking of censorship circumvention tools (such as Tor and Tor
-bridges);
+* Blocking of censorship circumvention tools (such as Tor, Psiphon, and pluggable transports);
 
 * Presence of middleboxes (i.e. systems that could be responsible for
 censorship or surveillance);
@@ -518,11 +516,7 @@ OONI Probe every day.
 
 ### How can I run OONI Probe daily?
 
-We will add a setting in the OONI Probe apps that will enable you to
-configure automatic, daily OONI Probe testing.
-
-In the meanwhile, the [older versions of OONI Probe (for Linux and macOS) currently support automatic daily testing](https://ooni.org/install/ooniprobe) (but they don’t receive
-updates).
+We are adding support for [automatic daily testing](https://github.com/ooni/probe/issues/916). Stay tuned!
 
 ### For how long should I run OONI Probe?
 
@@ -580,8 +574,9 @@ By default, OONI Probe collects:
 
 * **Country code** (such as “IT” for Italy)
 
-* **Autonomous System Number** (such as “AS30722” if a test was
-performed on Vodafone Italia)
+* **Information about your network:** This includes the AS Number (for example,
+“AS30722” if a test was performed on Vodafone Italia) and the type of network
+you are on (wifi or mobile).
 
 * **Network measurement data** (which varies depending on the specific
 [test](https://github.com/ooni/spec/tree/master/nettests) performed)
@@ -791,7 +786,7 @@ The OONI Probe desktop app tests all websites (from the
 [global](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)
 and
 [country-specific](https://github.com/citizenlab/test-lists/tree/master/lists)
-list) in one go.
+list) in one go and you can limit the number of tested websites in the app settings.
 
 ### How can I change the testing duration in the OONI Probe mobile app to test more websites?
 
@@ -1367,6 +1362,11 @@ access to it, and if the OONI Probe users opt-outs from submitting
 measurements, we will not have the measurements available for the
 specific website.
 
+As we are always working on improving our censorship detection heuristics on an
+ongoing basis, these cases will likely change over time. For more technical
+insight, check out the code for the
+[ooni/pipeline](https://github.com/ooni/pipeline).
+
 ### Why does OONI confirm censorship when a block page is served?
 
 A block page is a web page that **informs the user that the intended
@@ -1429,12 +1429,12 @@ Essentially, an anomalous measurement **signals that something is wrong
 and that we should look deeper into the measurement data** to determine
 what is happening.
 
-### Why does OONI Explorer suggest that an accessible site or app is blocked?
+### Why does OONI Explorer suggest that a site or app that I can access is blocked in my country?
 
 There are two reasons why this may happen:
 
 1.  Perhaps the website or app in question was blocked by other Internet
-    Service Provider(s), and not by your ISP.
+    Service Provider(s) in your country, and not by your ISP.
 
 2.  The testing result is a **false positive**. The following two
     questions and answers address this further.
@@ -1445,17 +1445,17 @@ There are two reasons why this may happen:
 which incorrectly indicate the presence of network interference (such as
 the blocking of a website or app).**
 
-OONI Probe test results, collected from the network of the user, are
-automatically compared with test results collected from a non-censored
-network. If the results don't match, then the OONI Probe test result in
-question is flagged as an "anomaly", indicating potential network
-interference. Many of these anomalies are in fact cases of network
-interference, while some are false positives.
+When measuring the accessibility of websites, OONI Probe compares the results
+from your network with the results from a non-censored network. If the results
+don't match, then the OONI Probe test result in question is flagged as an
+"anomaly", indicating potential network interference. Many of these anomalies
+are in fact cases of network interference, while some may be false positives.
 
 ### Why do false positives occur?
 
-False positives can occur due a number of reasons, such as the
-following:
+False positives can occur due a number of reasons. 
+
+Below are some reasons which may trigger false positives in **website testing**:
 
 * **Transient network failures.** If OONI Probe tests are performed on
 an unstable network, the test results may show signs of potential
@@ -1479,6 +1479,16 @@ connecting from. In these cases, the HTTP responses from the
 network of the OONI Probe user and from the control vantage point
 will differ, potentially incorrectly indicating the presence of
 HTTP based interference.
+
+When running the OONI Probe **instant messaging tests** (WhatsApp, Facebook
+Messenger, Telegram), false positives may occur when the instant messaging app
+vendor makes changes to their infrastructure that affect how our tests run. 
+
+When running the OONI Probe **middlebox tests**, false positives may occur due to issues
+with the OONI Probe backend infrastructure. 
+
+When running **any OONI Probe test**, false positives may be caused by software bugs which are triggered by your
+particular device and network configuration.
 
 ### How can I distinguish false positives?
 
@@ -1532,8 +1542,8 @@ contain false positives.
 
 ### Why doesn’t my country have any recent measurements on OONI Explorer?
 
-Every day, OONI Explorer automatically publishes the test results
-(measurements) of [OONI Probe](https://ooni.org/install/) users.
+OONI Explorer automatically publishes the test results (measurements) of OONI
+Probe users in *near-real time*, within minutes of tests having been run.
 
 If there are no recent measurements from your country, that means that:
 
