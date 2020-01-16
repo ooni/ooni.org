@@ -1,3 +1,8 @@
+---
+aliases:
+    - /about/faq/
+---
+
 # Frequently Asked Questions (FAQ)
 
 This Frequently Asked Questions (FAQ) section aims to address the
