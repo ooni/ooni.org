@@ -913,8 +913,3 @@ http://7gun.az/
 http://hefteaz.info/
 http://www.gununsesi.info/
 {{</oonirunurls>}}
-
-[https://www.whatsmyua.info/](https://www.whatsmyua.info/)
-
-<a href="#" onclick="window.open('https://www.whatsmyua.info/', '_system');">window.open</a>
-<a href="https://www.whatsmyua.info/" target="_blank">target _blank</a>
