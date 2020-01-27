@@ -574,8 +574,8 @@ header .wordmark {
 }
 .homepage-hero .sky {
   width: 100%;
-  height: 600px;
-  background-color: #DFF2FC;
+  height: 200px;
+  background-color: #0588CB;
   position: relative;
   z-index: -100;
 }
@@ -617,7 +617,7 @@ header .wordmark {
   background-repeat: repeat-x;
 }
 .homepage-hero .ooni-probe {
-  background-color: #0588CB;
+  background-color: #316070;
   color: white;
   position: relative;
   height: 360px;
