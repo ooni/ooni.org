@@ -576,6 +576,7 @@ header .wordmark {
   width: 100%;
   height: 200px;
   background-color: #0588CB;
+  background-image: linear-gradient(#0588CB, #93C0CD);
   position: relative;
   z-index: -100;
 }
@@ -617,14 +618,35 @@ header .wordmark {
   background-repeat: repeat-x;
 }
 .homepage-hero .ooni-probe {
-  background-color: #316070;
+  background-color: #254481;
   color: white;
   position: relative;
-  height: 360px;
+  height: 300px;
+}
+
+.landing-cta {
+    margin: 20px 0;
+    font-size: 48px;
+    font-weight: normal;;
+}
+
+.landing-cta-sub {
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.ooni-probe-container {
+    display: flex;
+}
+
+.ooni-probe-cta-div {
+}
+
+.ooni-probe-phone-div {
 }
 
 .homepage-hero .ooni-probe-logo {
-  float: left;
 }
 
 .homepage-hero .ooni-probe-phone {
