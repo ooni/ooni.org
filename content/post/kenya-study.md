@@ -112,7 +112,7 @@ Even when a country appears to have no censorship, it’s important to monitor
 internet censorship nonetheless across time. Laws and policies change, and
 decisions around internet censorship can change along with them.
 
-OONI’s software (called [ooniprobe](https://github.com/TheTorProject/ooni-probe)) allows users around the world to
+OONI’s software (called [OONI Probe](https://github.com/TheTorProject/ooni-probe)) allows users around the world to
 automatically test their networks every day for signs of internet censorship.
 When and if internet censorship occurs, network data demonstrating how it’s
 implemented will be collected, analyzed and [published](https://explorer.ooni.org/world/). This can help increase
@@ -121,12 +121,12 @@ transparency around internet censorship.
 In light of the limitations outlined above, we encourage individuals in Kenya to
 contribute to this study through the following ways:
 
-1. If you’re a Linux or macOS user, consider running ooniprobe (especially if you
-can cover different vantage points!). Learn how to do so [here](https://ooni.org/install/ooniprobe/). 
+1. If you’re a Linux or macOS user, consider running OONI Probe (especially if you
+can cover different vantage points!). Learn how to do so [here](https://ooni.org/install/OONI Probe/).
 
 2. If you’re a
-Windows user or are interested in running ooniprobe from a separate device,
-consider running ooniprobe’s distribution for Raspberry Pis. Learn how to do so
+Windows user or are interested in running OONI Probe from a separate device,
+consider running OONI Probe’s distribution for Raspberry Pis. Learn how to do so
 [here](https://ooni.org/install/lepidopter/). 
 
 3. If you have insights on which URLs to test for censorship, consider

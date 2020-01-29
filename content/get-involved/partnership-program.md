@@ -51,21 +51,21 @@ context through collaboration with local experts. To this end, depending on the 
 organization, the partnerships can include (but are not necessarily limited to)
 the following:
 
-* Collecting ooniprobe network measurements;
+* Collecting OONI Probe network measurements;
 
 * Reviewing community resources for censorship measurement research;
 
 * Communicating internet censorship findings to the public.
 
-### Collecting ooniprobe network measurements
+### Collecting OONI Probe network measurements
 
-We want to work with partners who are interested in monitoring internet censorship on an ongoing basis through the collection of ooniprobe network measurements.
+We want to work with partners who are interested in monitoring internet censorship on an ongoing basis through the collection of OONI Probe network measurements.
 
-To this end, partners are encouraged to deploy ooniprobe in local vantage points for the stable and continuous collection of daily measurements. This can enable us to compare results across time and to better detect and
+To this end, partners are encouraged to deploy OONI Probe in local vantage points for the stable and continuous collection of daily measurements. This can enable us to compare results across time and to better detect and
 evaluate cases of internet censorship.
 
 Internet censorship is not always carried out countrywide, nor always
-implemented in the same way across networks. As such, running ooniprobe within
+implemented in the same way across networks. As such, running OONI Probe within
 various *different* networks in each country is an important component of the OONI Partnership Program.
 
 ### Reviewing community resources for censorship measurement research
@@ -111,7 +111,7 @@ of groups/organizations, each of which could contribute to the study of internet
 distribution of efforts amongst different groups.
 
 Various hackerspaces, for example, can contribute to the data collection by
-running ooniprobe within different networks. Lawyers can examine the legality of internet censorship. Media organizations can report on the findings, NGOs can provide further analysis within the context of digital rights, and research groups can use the collected data to explore questions of their own. Through this collaborative approach between groups and organizations, we aim to improve the study of internet censorship around the world.
+running OONI Probe within different networks. Lawyers can examine the legality of internet censorship. Media organizations can report on the findings, NGOs can provide further analysis within the context of digital rights, and research groups can use the collected data to explore questions of their own. Through this collaborative approach between groups and organizations, we aim to improve the study of internet censorship around the world.
 
 If you're interested in joining the OONI Partnership Program, please drop us an
 email at **contact@openobservatory.org** (PGP Key Fingerprint: 4C15 DDA9 96C6 C0CF 48BD 3309
@@ -122,8 +122,8 @@ email at **contact@openobservatory.org** (PGP Key Fingerprint: 4C15 DDA9 96C6 C0
 OONI can support you in the following ways:
 
 * **Technical support:** We can guide you through the entire process of using
-  our software, whether that involves running ooniprobe from your computer
-  or setting up a Raspberry Pi to run ooniprobe. Throughout the duration of the
+  our software, whether that involves running OONI Probe from your computer
+  or setting up a Raspberry Pi to run OONI Probe. Throughout the duration of the
   partnership, you can rely on us for technical support when using our software.
 
 * **Creating/Reviewing lists of URLs to test for censorship:** We will
@@ -133,7 +133,7 @@ OONI can support you in the following ways:
 * **Data analysis.** This is the main way that we will support you. Analyzing OONI's data can be quite complicated, particularly since it requires a fair amount of specialized expertise. We prioritize on analyzing data for our partners. Such data analysis is a prerequisite to confirming censorship events with accuracy.
 
 * **Communicating the findings:** We will support you in terms of communicating
-  the main findings from ooniprobe measurements to the public. Such
+  the main findings from OONI Probe measurements to the public. Such
   support can include the writing of reports and blogs and, in some cases, the
   creation of data visualizations.
 

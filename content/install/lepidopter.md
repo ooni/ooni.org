@@ -20,15 +20,15 @@ Lepidopter in QEMU is described
 
 ## About Lepidopter
 
-Lepidopter is an *ooniprobe distribution* for Raspberry Pis. 
+Lepidopter is an *OONI Probe distribution* for Raspberry Pis.
 
 This enables users to contribute to the collection of network measurements
-consistently across time, without having to manually run ooniprobe from their
+consistently across time, without having to manually run OONI Probe from their
 computers and regardless of their technical skills. This distribution is
 configured in such a way that, when inserted into a Raspberry Pi and connected
-to a network, it will by default run ooniprobe once a day and send collected
+to a network, it will by default run OONI Probe once a day and send collected
 measurements directly to OONI’s measurement collector. It is also designed to
-automatically get updated to the newest version of ooniprobe. 
+automatically get updated to the newest version of OONI Probe.
 
 All measurements collected by Lepidopter are published on [OONI
 Explorer](https://explorer.ooni.org/world/).
@@ -285,7 +285,7 @@ Now your SD card contains OONI's software!
 
 **Step 12.** Connect your Raspberry Pi to power and to the internet (with an Ethernet cable). 
 
-That's all! From now on, your Raspberry Pi will automatically **run ooniprobe
+That's all! From now on, your Raspberry Pi will automatically **run OONI Probe
 every day at 6am UTC**. The measurements will be sent directly to OONI's server,
 where they will be processed and published on **[OONI
 Explorer](https://explorer.ooni.org/world/)** (generally) within 24
@@ -412,7 +412,7 @@ Wait for the Lepidopter image to get copied to your SD card...
 
 **Step 12.** Connect your Raspberry Pi to power and to the internet (with an Ethernet cable). 
 
-That's all! From now on, your Raspberry Pi will automatically **run ooniprobe
+That's all! From now on, your Raspberry Pi will automatically **run OONI Probe
 every day at 6am UTC**. The measurements will be sent directly to OONI's server,
 where they will be processed and published on **[OONI
 Explorer](https://explorer.ooni.org/world/)** (generally) within 24
@@ -476,7 +476,7 @@ Raspberry Pi.
 **Step 11.** Connect your Raspberry Pi to power and to the internet (with an
 Ethernet cable). 
 
-That's all! From now on, your Raspberry Pi will automatically **run ooniprobe
+That's all! From now on, your Raspberry Pi will automatically **run OONI Probe
 every day at 6am UTC**. The measurements will be sent directly to OONI's
 server,
 where they will be processed and published on **[OONI
@@ -553,16 +553,16 @@ folders open for the device, then try re-plugging the SD card.
 # Lepidopter services
 
 Lepidopter uses a mDNS (multicast DNS Service Discovery) (Avahi) to publish the
-SSH and ooniprobe web interface services on a local network with no extra
+SSH and OONI Probe web interface services on a local network with no extra
 configuration or the need to find out the IP address of the Lepidopter host.
 
-## Access ooniprobe's web interface
+## Access OONI Probe's web interface
 
 If you have the required dependencies you should be able to access
-ooniprobe web interface by entering the following URL to your web browser:
+OONI Probe web interface by entering the following URL to your web browser:
 [http://lepidopter.local](http://lepidopter.local)
 
-If you can't access ooniprobe's [web interface URL]
+If you can't access OONI Probe's [web interface URL]
 (http://lepidopter.local) please follow the installation [instructions]
 (#service-discovery-install-instructions) related to your operating system.
 
@@ -603,7 +603,7 @@ these services and some third-party applications need to be installed
 service that supports automatic discovery of hosts in the local network.
 
 If you have any of the following applications installed and can access
-ooniprobe's web interface you don't need to do anything, otherwise you
+OONI Probe's web interface you don't need to do anything, otherwise you
 will need to [download](https://support.apple.com/kb/dl999) and install
 Bonjour Print Services for Windows.
 
@@ -615,7 +615,7 @@ Applications that are bundled with the Bonjour software in Windows:
 * Adobe's Photoshop CS3
 
 **Note**: Before installing any application you should first try to access
-ooniprobe's [web interface URL](http://lepidopter.local) from your web
+OONI Probe's [web interface URL](http://lepidopter.local) from your web
 browser.
 
 ## Troubleshooting service discovery
@@ -628,14 +628,14 @@ server running on the network that serves the top level domain `.local`.
 In some cases network routers use the `.lan` or `.home` domain for all devices
 connected in LAN.
 
-You may be able to access ooniprobe's web interface under the following URLs:
+You may be able to access OONI Probe's web interface under the following URLs:
 
 * [http://lepidopter.local](http://lepidopter.local)
 * [http://lepidopter.lan](http://lepidopter.lan)
 * [http://lepidopter.home](http://lepidopter.home)
 * [http://lepidopter](http://lepidopter)
 
-If you are unable to access ooniprobe's web interface in any of the URLs above
+If you are unable to access OONI Probe's web interface in any of the URLs above
 you should try to locate the Lepidopter's IP address in your network.
 
 ### Find Lepidopter's IP address
@@ -648,7 +648,7 @@ finder utility you should be seeing the message `Found!` and view the detected
 IP address of Lepidopter located in the `IP Address` field.
 
 You can now use the IP address (found in the IP address field) to access
-ooniprobe's web interface in your web browser.
+OONI Probe's web interface in your web browser.
 
 # Community Information and Contributing
 

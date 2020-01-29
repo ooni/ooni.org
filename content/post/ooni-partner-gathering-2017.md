@@ -128,11 +128,11 @@ support your work?
 
 The OONI team held the following stations:
 
-* **ooniprobe mobile apps**
+* **OONI Probe mobile apps**
 
-* **Upcoming ooniprobe apps for Windows and macOS**
+* **Upcoming OONI Probe apps for Windows and macOS**
 
-* **ooniprobe for Raspberry Pis (Lepidopter)**
+* **OONI Probe for Raspberry Pis (Lepidopter)**
 
 * **Data Analysis & Censorship Alert System**
 
@@ -156,7 +156,7 @@ Parallel sessions:
 
 * **Using GitHub to contribute to test lists (*hands-on session*)**
 
-* **Brainstorming on next generation ooniprobe tests**
+* **Brainstorming on next generation OONI Probe tests**
 
 Participants joined the session of their choice.
 
@@ -186,7 +186,7 @@ View session notes
 Through this hands-on session, participants learned how OONI analyzes
 network measurement data. The aim of this session was to enable partners
 to analyze data that they collect through the use of
-[ooniprobe](https://github.com/TheTorProject/ooni-probe).
+[OONI Probe](https://github.com/TheTorProject/ooni-probe).
 
 ## Day 2 - 11th July 2017
 
@@ -327,21 +327,21 @@ needs that were identified as part of this event.
 | 1 |  Hard to use GitHub to contribute to [test lists](https://github.com/citizenlab/test-lists/tree/master/lists) | Web platform to easily contribute to test lists (without using GitHub) |
 | 2 |    Testing URLs other than those included in test lists |   Web platform to easily submit URLs for testing (without using GitHub) |
 | 3 | Choosing the types/categories of URLs to test (currently that requires passing your own list via the command line) |   Web platform that allows users to choose which types/categories of URLs to test (e.g. excluding pornography which may be illegal) |
-| 4 |   Running ooniprobe on desktop platforms (still requires some use of terminal, despite web UI) |   Desktop applications for ooniprobe that are easy to install and use |
-| 5 |   Many community members interested in running ooniprobe are Windows users (ooniprobe is not currently available for Windows) |   Windows application for ooniprobe that is easy to install and use |
-| 6 |   Setting up and configuring ooniprobe on Raspberry Pis |   Easier way of setting up and configuring ooniprobe on Raspberry Pis | 
-| 7 |   Trust (i.e. hard to gain the trust of new members to run ooniprobe) |   Strategies for building trust across community networks (through regional workshops, for example) | 
-| 8 |   Apathy (Who cares? Why run ooniprobe?) |   Educational materials (e.g. animations/videos/visualizations) that explain why running ooniprobe matters & local workshops | 
-| 9 |   Specialized and highly technical nature of the project (hard to explain ooniprobe and the project overall to new people who lack technical expertise) |   Educational materials (e.g. animations/videos/visualizations) that explain technical concepts and how ooniprobe tests work, as well as relevant workshops | 
+| 4 |   Running OONI Probe on desktop platforms (still requires some use of terminal, despite web UI) |   Desktop applications for OONI Probe that are easy to install and use |
+| 5 |   Many community members interested in running OONI Probe are Windows users (OONI Probe is not currently available for Windows) |   Windows application for OONI Probe that is easy to install and use |
+| 6 |   Setting up and configuring OONI Probe on Raspberry Pis |   Easier way of setting up and configuring OONI Probe on Raspberry Pis |
+| 7 |   Trust (i.e. hard to gain the trust of new members to run OONI Probe) |   Strategies for building trust across community networks (through regional workshops, for example) |
+| 8 |   Apathy (Who cares? Why run OONI Probe?) |   Educational materials (e.g. animations/videos/visualizations) that explain why running OONI Probe matters & local workshops |
+| 9 |   Specialized and highly technical nature of the project (hard to explain OONI Probe and the project overall to new people who lack technical expertise) |   Educational materials (e.g. animations/videos/visualizations) that explain technical concepts and how OONI Probe tests work, as well as relevant workshops |
 | 10 |   Communicating report findings to local audiences |   Funding to localize materials, research reports, and tools | 
-| 11 |   Risks (running ooniprobe and engaging users in high-risk environments) |   More choices (for example, in terms of which URLs to test), more consultation with local lawyers/experts, local workshops discussing and evaluating risks | 
+| 11 |   Risks (running OONI Probe and engaging users in high-risk environments) |   More choices (for example, in terms of which URLs to test), more consultation with local lawyers/experts, local workshops discussing and evaluating risks |
 | 12 |   Scary [Risks documentation](https://ooni.org/about/risks/) & informed consent procedure (hard to engage new users) |   Tailor risks information & informed consent procedure to different types of users? Perhaps remove the HTTP Invalid Request Line disclaimer on hacking, since that is highly debatable? Create a map showing relevant legal risks per country? | 
-| 13 |   Bandwidth cost related to running ooniprobe (in some African and Asian countries, for example, it is extremely expensive to run ooniprobe) |   Financial support to cover bandwidth costs, and/or trying to ensure that ooniprobe consumes less bandwidth | 
-| 14 |   Bandwidth consumption (in some countries, running ooniprobe hogs the network of users) |   Trying to ensure that ooniprobe consumes less bandwidth | 
+| 13 |   Bandwidth cost related to running OONI Probe (in some African and Asian countries, for example, it is extremely expensive to run OONI Probe) |   Financial support to cover bandwidth costs, and/or trying to ensure that OONI Probe consumes less bandwidth |
+| 14 |   Bandwidth consumption (in some countries, running OONI Probe hogs the network of users) |   Trying to ensure that OONI Probe consumes less bandwidth |
 | 15 |   Limited resources (time, funding, staff, etc.) to collaborate with OONI on a volunteer basis |   Funding to support the resources required to collaborate with OONI on an ongoing basis over time | 
-| 16 |   Retaining community members (continuing to run ooniprobe, contribute to test lists, etc.) over time |   Funding to support their work, community engagement activities (e.g. workshops, educational materials) | 
+| 16 |   Retaining community members (continuing to run OONI Probe, contribute to test lists, etc.) over time |   Funding to support their work, community engagement activities (e.g. workshops, educational materials) |
 | 17 |   Monitoring, detecting, and reporting on internet blackouts with evidence |   Methodology for the automatic detection and examination of internet blackouts | 
-| 18 |   Monitoring, detecting, and reporting on forms of censorship that expand beyond the scope of current ooniprobe tests (e.g. throttling) |   New ooniprobe tests designed to measure more forms of censorship (e.g. throttling), engage more with academic communities | 
+| 18 |   Monitoring, detecting, and reporting on forms of censorship that expand beyond the scope of current OONI Probe tests (e.g. throttling) |   New OONI Probe tests designed to measure more forms of censorship (e.g. throttling), engage more with academic communities |
 | 19 |   Interpreting and using data from OONI Explorer (currently hard to use and interpret) |   Revamp OONI Explorer to show the top censorship findings per country, and explain the measurement data | 
 | 20 |   Identifying confirmed censorship cases vs. potential false positives through OONI Explorer |   Provide lists of confirmed censorship cases and anomalous measurements (potentially including false positives) per country in OONI Explorer | 
 | 21 |   Interacting with OONI Explorer to provide feedback on the accessibility of sites and services from local vantage points |   Enable users to submit feedback via OONI Explorer (based on the measurements that it exposes) | 
@@ -362,12 +362,12 @@ Some of our *high priority goals* over the next two years, with the aim
 of addressing the challenges and needs of our community members, include
 the following:
 
-**1. Making ooniprobe easier to install and run across more platforms**
+**1. Making OONI Probe easier to install and run across more platforms**
 
 To enable our partners to engage more community members with the use of
-ooniprobe and to subsequently expand the global coverage of censorship
-events, we aim to make ooniprobe as easy to use as possible. To this
-end, we aim to create native ooniprobe apps for Windows and macOS,
+OONI Probe and to subsequently expand the global coverage of censorship
+events, we aim to make OONI Probe as easy to use as possible. To this
+end, we aim to create native OONI Probe apps for Windows and macOS,
 particularly since many community members around the world are Windows
 users. We will also continue to improve upon our mobile apps and
 distribution for Raspberry Pis based on community feedback.
@@ -421,7 +421,7 @@ following:
   community members can easily contribute to test lists;
 
 * Enabling users to choose which URLs (and which categories of URLs)
-  to test directly through the ooniprobe mobile and desktop apps
+  to test directly through the OONI Probe mobile and desktop apps
   (thus limiting potential associated risk);
 
 * Improving upon OONI Explorer to export csv files, filter confirmed
@@ -435,7 +435,7 @@ following:
   session that we facilitated).
 
 * Creating educational materials (e.g. animations,
-  videos, visualizations) that can help explain ooniprobe tests and
+  videos, visualizations) that can help explain OONI Probe tests and
   why measuring internet censorship matters.
 
 # Outcomes

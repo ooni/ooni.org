@@ -38,7 +38,7 @@ View the **pdf** version of the report [here](/documents/cuba-internet-censorshi
 
   * [Methodology](#methodology)
 
-    * [Collection and analysis of ooniprobe network measurements](#collection-and-analysis-of-ooniprobe-network-measurements)
+    * [Collection and analysis of OONI Probe network measurements](#collection-and-analysis-of-ooniprobe-network-measurements)
 
     * [Custom tests](#custom-tests)
 
@@ -163,9 +163,9 @@ We ran a variety of network measurement tests across eight vantage
 points in Havana, Santa Clara, and Santiago de Cuba, with the aim of
 measuring internet censorship.
 
-We obviously ran our own network measurement software,[ooniprobe](https://github.com/TheTorProject/ooni-probe), which is
+We obviously ran our own network measurement software,[OONI Probe](https://github.com/TheTorProject/ooni-probe), which is
 designed to [examine various forms of internet censorship](https://ooni.org/nettest/). We also ran other
-network tests, particularly in response to ooniprobe findings, such as
+network tests, particularly in response to OONI Probe findings, such as
 latency measurements to blocked sites, traceroutes, and network scans.
 
 This research report documents our key findings from the network
@@ -575,7 +575,7 @@ The sections below document the methodology and findings of this study.
 
 The methodology of this study included the following:
 
-* Collection and analysis of [ooniprobe](https://github.com/TheTorProject/ooni-probe) network measurements;
+* Collection and analysis of [OONI Probe](https://github.com/TheTorProject/ooni-probe) network measurements;
 
 * Custom network measurement tests.
 
@@ -587,9 +587,9 @@ ParkNets.
 The analysis period started on 29th May 2017 and concluded on 10th June
 2017.
 
-### Collection and analysis of ooniprobe network measurements
+### Collection and analysis of OONI Probe network measurements
 
-Since 2011, OONI has developed multiple [free and open source software tests](https://github.com/TheTorProject/ooni-probe), called ooniprobe,
+Since 2011, OONI has developed multiple [free and open source software tests](https://github.com/TheTorProject/ooni-probe), called OONI Probe,
 designed to measure the following:
 
 * [Blocking of websites](https://ooni.org/nettest/web-connectivity/);
@@ -602,7 +602,7 @@ designed to measure the following:
 
 * [Speed and performance](https://ooni.org/nettest/ndt/) of networks.
 
-As part of this study, the following [ooniprobe tests](https://github.com/TheTorProject/ooni-probe) were run from eight
+As part of this study, the following [OONI Probe tests](https://github.com/TheTorProject/ooni-probe) were run from eight
 local vantage points in Cuba:
 
 * [Web Connectivity](https://ooni.org/nettest/web-connectivity/)
@@ -669,7 +669,7 @@ country.
 
 In addition to testing the URLs included in the global test list, Web
 Connectivity is also designed to examine a test list which is
-specifically created for the country that the user is running ooniprobe
+specifically created for the country that the user is running OONI Probe
 from, if such a list exists. Unlike the global test list,
 [country-specific test lists](https://github.com/citizenlab/test-lists/tree/master/lists)
 include websites that are relevant and commonly accessed within specific
@@ -1041,7 +1041,7 @@ following types of data:
 **Country code**
 
 OONI by default collects the code which corresponds to the country from
-which the user is running ooniprobe tests from, by automatically
+which the user is running OONI Probe tests from, by automatically
 searching for it based on the user’s IP address through the [MaxMind GeoIP database](https://www.maxmind.com/en/home). The collection of
 country codes is an important part of OONI’s research, as it enables
 OONI to map out global network measurements and to identify where
@@ -1050,7 +1050,7 @@ network interferences take place.
 **Autonomous System Number (ASN)**
 
 OONI by default collects the Autonomous System Number (ASN) which
-corresponds to the network that a user is running ooniprobe tests from.
+corresponds to the network that a user is running OONI Probe tests from.
 The collection of the ASN is useful to OONI’s research because it
 reveals the specific network provider (such as Vodafone) of a user. Such
 information can increase transparency in regards to which network
@@ -1172,10 +1172,10 @@ internet censorship events faster and more accurately.
 
 As part of our testing in Cuba, we also wrote and ran various custom
 network measurement tests, in addition to running
-[ooniprobe](https://github.com/TheTorProject/ooni-probe). These
+[OONI Probe](https://github.com/TheTorProject/ooni-probe). These
 included traceroutes, DNS queries, and network scans, as well as custom
 tests measuring the latency to blocked sites and other follow-up tests
-in response to ooniprobe findings.
+in response to OONI Probe findings.
 
 The main test that yielded interested findings (included under the
 “Findings” section of this report) was a custom test that we wrote to
@@ -1684,7 +1684,7 @@ likely injected.
 
 ### Deep Packet Inspection technology
 
-Once we detected the blocking of sites and services based on ooniprobe
+Once we detected the blocking of sites and services based on OONI Probe
 tests, we subsequently wrote a new network measurement test (called
 “latency-to-blocked”) that is designed to measure the latency to the
 blocking infrastructure by performing test connections to a control
@@ -1882,7 +1882,7 @@ online content, without being online.
 Cuba’s internet landscape has changed quite a lot over the last years,
 and it will likely continue to evolve. But so might internet censorship.
 It is therefore important to continue to measure networks. Software like
-[ooniprobe](https://ooni.org/install/) allows users in Cuba
+[OONI Probe](https://ooni.org/install/) allows users in Cuba
 and beyond to collect data that sheds light on information controls.
 
 {{< imgcap title="Image by Arturo Filastò (CC-BY-SA-3.0)" src="/post/cuba-internet-censorship-2017/cu-20.jpg" src2x="/post/cuba-internet-censorship-2017/cu-20@2x.jpg" >}}

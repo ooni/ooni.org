@@ -6,7 +6,7 @@ aliases:
 
 ## This URL is old
 
-Raw ooniprobe measurements now live at:
+Raw OONI Probe measurements now live at:
 [https://api.ooni.io](https://api.ooni.io).
 
 You can also explore the collected measurements via the [OONI

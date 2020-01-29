@@ -849,8 +849,8 @@ An important part of identifying censorship is determining *which*
 websites to examine for blocking.
 
 OONI’s [*software*](https://github.com/TheTorProject/ooni-probe) (called
-*ooniprobe*) is designed to examine URLs contained in specific lists
-(“test lists”) for censorship. By default, ooniprobe examines the
+*OONI Probe*) is designed to examine URLs contained in specific lists
+(“test lists”) for censorship. By default, OONI Probe examines the
 “[*global test
 list*](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)”,
 which includes a wide range of internationally relevant websites, most
@@ -872,8 +872,8 @@ development of heuristics for detecting censorship elsewhere within a
 country.
 
 In addition to testing the URLs included in the global test list,
-ooniprobe is also designed to examine a test list which is specifically
-created for the country that the user is running ooniprobe from, if such
+OONI Probe is also designed to examine a test list which is specifically
+created for the country that the user is running OONI Probe from, if such
 a list exists. Unlike the global test list, [*country-specific test
 lists*](https://github.com/citizenlab/test-lists/tree/master/lists)
 include websites that are relevant and commonly accessed within specific
@@ -1192,7 +1192,7 @@ following types of data:
 **Country code**
 
 OONI by default collects the code which corresponds to the country from
-which the user is running ooniprobe tests from, by automatically
+which the user is running OONI Probe tests from, by automatically
 searching for it based on the user’s IP address through the [*MaxMind
 GeoIP database*](https://www.maxmind.com/en/home). The collection of
 country codes is an important part of OONI’s research, as it enables
@@ -1202,7 +1202,7 @@ network interferences take place.
 **Autonomous System Number (ASN)**
 
 OONI by default collects the Autonomous System Number (ASN) which
-corresponds to the network that a user is running ooniprobe tests from.
+corresponds to the network that a user is running OONI Probe tests from.
 The collection of the ASN is useful to OONI’s research because it
 reveals the specific network provider (such as Vodafone) of a user. Such
 information can increase transparency in regards to which network

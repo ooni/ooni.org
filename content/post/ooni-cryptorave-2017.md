@@ -17,7 +17,7 @@ A number of people attended the OONI
 [workshop](https://cpa.cryptorave.org/pt-BR/CR2017/public/events/112)
 ("Listatona") that was co-organized with [Coding Rights]
 (https://www.codingrights.org/). During the workshop participants were able to
-better understand OONI's testing methodology, and how ooniprobe performs
+better understand OONI's testing methodology, and how OONI Probe performs
 network measurements. Participants provided useful feedback regarding
 [test-lists](https://ooni.org/get-involved/contribute-test-lists/)
 and URLs from diverse sources from South America.

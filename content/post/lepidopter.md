@@ -7,7 +7,7 @@ categories: ["blog"]
 ---
 
 The Open Observatory of Network Interference (OONI) team is happy to announce
-the beta release of ooniprobe's distribution for Raspberry Pis, caĺled
+the beta release of OONI Probe's distribution for Raspberry Pis, caĺled
 **Lepidopter**.
 
 ## What is Lepidopter
@@ -15,7 +15,7 @@ the beta release of ooniprobe's distribution for Raspberry Pis, caĺled
 Lepidopter is a Raspberry Pi distribution image with all the required
 dependencies and software packages in place, configured to run network
 measurement tests via the
-[ooniprobe](https://github.com/TheTorProject/ooni-probe) software. It is
+[OONI Probe](https://github.com/TheTorProject/ooni-probe) software. It is
 developed and designed to require no physical attendance upon first bootstrap
 but also allows experienced users to further configure it as they wish. The
 [source code](https://github.com/TheTorProject/lepidopter) and the building
@@ -27,7 +27,7 @@ Since 2012 OONI has collected millions of network measurements that show
 evidence of internet censorship and network tampering. OONI measurement data
 [shows](/post/) how ISPs filter and censor the internet.
 This wouldn't be possible without the help of numerous volunteers that are
-contributing by running consistent ooniprobe network measurement tests from
+contributing by running consistent OONI Probe network measurement tests from
 different vantage points. Up to now users needed to be technically savvy to
 maintain their own probes dealing with system configuration, software and
 measurement specific updates. Lepidopter makes it easier for people that have a

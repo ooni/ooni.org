@@ -1,5 +1,5 @@
 ---
-title: "ooniprobe: Installation guide"
+title: "OONI Probe: Installation guide"
 enabletoc: true
 ---
 
@@ -9,46 +9,46 @@ collection and processing of network measurements. Since late 2012, OONI has
 collected millions of network measurements across more than 100 countries around
 the world, shedding light on multiple cases of network interference.
 
-ooniprobe is a program that users can run to probe their network and to collect
+OONI Probe is a program that users can run to probe their network and to collect
 data for the OONI project. Are you interested in testing your network for
 censorship and traffic manipulation? Do you want to collect data to share with
 others, so that you and others can better understand your network? If so, please
-read this document to learn how to install and run ooniprobe.
+read this document to learn how to install and run OONI Probe.
 
-## Risks of running ooniprobe
+## Risks of running OONI Probe
 
-**WARNING:** Running ooniprobe carries risks.
+**WARNING:** Running OONI Probe carries risks.
 
-In some countries, using active network measurement tools like ooniprobe may be
+In some countries, using active network measurement tools like OONI Probe may be
 illegal, or even considered espionage. Potential penalties and sanctions include
 imprisonment, physical assaults, large fines, threats, placement of government
 watch lists, and targeting for surveillance.
 
-Some ooniprobe tests may connect to websites that are illegal in your country,
+Some OONI Probe tests may connect to websites that are illegal in your country,
 and the tests themselves may violate your country's computer misuse laws. OONI
 publishes all collected measurement data, which may include personally
 identifying information. Accordingly, sophisticated third parties, including
 internet service providers and website owners, may be able to detect your use of
-ooniprobe and report you to the authorities. We encourage you to consult with a
+OONI Probe and report you to the authorities. We encourage you to consult with a
 lawyer licensed to practice in your jurisdiction prior to downloading and using
-ooniprobe.
+OONI Probe.
 
-**Users run ooniprobe at their own risk.** By installing ooniprobe, users agree to
+**Users run OONI Probe at their own risk.** By installing OONI Probe, users agree to
 comply with OONI's software [license](https://github.com/TheTorProject/ooni-probe/blob/master/LICENSE) and [Data Policy](/about/data-policy). Neither the [OONI project](/)
 nor its parent organization, [The Tor Project](https://www.torproject.org/), will be held liable, jointly or
-severally, at law or at equity, to ooniprobe users and other third parties for
-any risks or damages resulting from the use of ooniprobe under any tort,
+severally, at law or at equity, to OONI Probe users and other third parties for
+any risks or damages resulting from the use of OONI Probe under any tort,
 conract, or other causes of action.
 
 Please read our relevant
 [documentation](https://ooni.org/about/risks/) to learn more about
 potential risks.
 
-## Installing ooniprobe
+## Installing OONI Probe
 
-The desktop version of ooniprobe is currently designed for **Linux** and **Mac OS X** systems.
+The desktop version of OONI Probe is currently designed for **Linux** and **Mac OS X** systems.
 
-To install ooniprobe follow the steps below:
+To install OONI Probe follow the steps below:
 
 <div class="install-selector">
 
@@ -82,7 +82,7 @@ To install ooniprobe follow the steps below:
 **Step 2.** Type the following in your terminal:
 
 ```
-brew install ooniprobe
+brew install OONI Probe
 ```
 {{% /md %}}
 
@@ -266,7 +266,7 @@ Ensure that you have installed the following dependencies:
 
 * virtualenv
 
-Then you can install ooniprobe inside a virtual environment with pip by typing
+Then you can install OONI Probe inside a virtual environment with pip by typing
 the following in your terminal:
 
 ```
@@ -298,7 +298,7 @@ it up inside of a virtual machine.
 
 </div>
 
-## Running ooniprobe
+## Running OONI Probe
 
 
 <div class="install-selector">
@@ -342,9 +342,9 @@ You will then be able to access the web UI by opening in your web browser
 {{% md %}}
 **On Debian/Ubuntu:**
 
-Access ooniprobe's web UI in you web's browser at
+Access OONI Probe's web UI in you web's browser at
 [http://localhost:8842](http://localhost:8842) and go through the setup wizard
-process to initialize and use ooniprobe.
+process to initialize and use OONI Probe.
 
 {{% /md %}}
 
@@ -356,16 +356,16 @@ process to initialize and use ooniprobe.
 
 **On other unix systems**
 
-Type `ooniprobe-agent start` in your terminal to start ooniprobe agent. You
+Type `OONI Probe-agent start` in your terminal to start OONI Probe agent. You
 should be presented with the following URL: [http://127.0.0.1:8842]
 (http://127.0.0.1:8842).
 
 By opening this URL [http://127.0.0.1:8842](http://127.0.0.1:8842) in your web
-browser you will be directed to ooniprobe's web UI setup wizard. Upon
-completion of the setup wizard process ooniprobe will be successfully
+browser you will be directed to OONI Probe's web UI setup wizard. Upon
+completion of the setup wizard process OONI Probe will be successfully
 initialized and ready to use.
 
-Further documentation on how to use ooniprobe's web UI can be found [here]
+Further documentation on how to use OONI Probe's web UI can be found [here]
 (/post/web-ui-post/).
 
 {{% /md %}}
@@ -383,9 +383,9 @@ it up inside of a virtual machine.
 
 ## Advanced users
 
-### Running ooniprobe from a virtual machine
+### Running OONI Probe from a virtual machine
 
-You can run ooniprobe from a virtual machine through the following steps:
+You can run OONI Probe from a virtual machine through the following steps:
 
 **Step 1.** Install **[Virtualbox](https://www.virtualbox.org/wiki/Downloads)** (which is a prerequisite of Vagrant).
 
@@ -421,7 +421,7 @@ vagrant up
 vagrant ssh probe
 ```
 
-**Step 6.** Start the ooniprobe agent:
+**Step 6.** Start the OONI Probe agent:
 
 ```
 ooniprobe-agent start
@@ -432,14 +432,14 @@ ooniprobe-agent start
 
 #### Setting capabilities on your virtualenv python binary
 
-If your distribution supports capabilities you can avoid running ooniprobe as
+If your distribution supports capabilities you can avoid running OONI Probe as
 root through the following:
 
 ```
 setcap cap_net_admin,cap_net_raw+eip /path/to/your/virtualenv's/python2
 ```
 
-### Running ooniprobe from a development environment
+### Running OONI Probe from a development environment
 
 On Debian based systems a development environment can be setup as follows: 
 
@@ -465,7 +465,7 @@ On Debian based systems a development environment can be setup as follows:
 
 * tor (>=0.2.5.1 to run all the tor related tests)
 
-**Step 2.** Install ooniprobe in a virtual environment through the following:
+**Step 2.** Install OONI Probe in a virtual environment through the following:
 
 ```
 git clone https://github.com/TheTorProject/ooni-probe
@@ -484,14 +484,14 @@ source env/bin/activate
 pip install -r requirements.txt
 pip install -r requirements-dev.txt
 python setup.py install
-ooniprobe -s # if all went well, lists available tests
+OONI Probe -s # if all went well, lists available tests
 ```
 
-### Running ooniprobe with Tor bridges
+### Running OONI Probe with Tor bridges
 
-If Tor is blocked in the country that you are trying to run ooniprobe from, you
+If Tor is blocked in the country that you are trying to run OONI Probe from, you
 can circumvent this censorship through the use of **[Tor
-bridges](https://bridges.torproject.org/)**. ooniprobe will automatically try to
+bridges](https://bridges.torproject.org/)**. OONI Probe will automatically try to
 use the bridges of **[Tor
 Browser](https://www.torproject.org/projects/torbrowser.html.en)** but this
 requires that obfs4proxy is installed. You can do this through the following,
@@ -509,7 +509,7 @@ Install obfs4proxy:
 sudo apt-get install obfs4proxy
 ```
 
-You can also configure ooniprobe to use your own Tor bridges by editing the
+You can also configure OONI Probe to use your own Tor bridges by editing the
 .ooni/ooniprobe.conf file in your home directory. Specifically, add the
 following in the torrc section and adjust them to your bridges:
 

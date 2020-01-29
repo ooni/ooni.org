@@ -25,7 +25,7 @@ connections.
 
 Starting on May 24th, the Egyptian government ordered ISPs to [block at least 21 news websites](https://cpj.org/2017/05/egypt-blocks-access-to-21-news-websites.php)
 on the grounds of “supporting terrorism and spreading lies”. In an
-attempt to understand which sites were blocked and how, [ooniprobe network measurement software](https://github.com/TheTorProject/ooni-probe) - designed to
+attempt to understand which sites were blocked and how, [OONI Probe network measurement software](https://github.com/TheTorProject/ooni-probe) - designed to
 examine internet censorship - was run in three local vantage points in
 the country.
 
@@ -59,7 +59,7 @@ presenting populist arguments”.
 Recently, Mada Masr
 [announced](https://www.madamasr.com/en/2017/05/26/feature/politics/24-hours-later-what-we-know-about-the-blocking-of-mada-masrs-website/)
 that its site was blocked in Egypt. [Network measurement data](https://explorer.ooni.org/country/EG) collected from
-[ooniprobe](https://ooni.org/install/) users in Egypt
+[OONI Probe](https://ooni.org/install/) users in Egypt
 confirms the blocking of madamasr.com in three networks, as illustrated
 through the table below.
 
@@ -78,7 +78,7 @@ Based on the [network measurement data](https://explorer.ooni.org/country/EG) co
 can confirm that Vodafone Egypt has been [blocking access to madamasr.com from 24th May 2017](https://explorer.ooni.org/measurement/20170524T220638Z_AS36935_SveTAFTLwr1eLS6z6VntLnsSPTVa9Z1pPDxY8EQbDMPvSfeDyL?input=http:%2F%2Fwww.madamasr.com)
 (when the ban was first announced) to this date. The blocking of the
 site by Link Egypt can be [confirmed as of 25th May 2017](https://explorer.ooni.org/measurement/20170525T002807Z_AS24863_D0wke80vqyAftWWAj961yFc2afF0jtFbdiMFpu62DI5Sfs96b6?input=http:%2F%2Fmadamasr.com),
-when ooniprobe users started testing the site in that network.
+when OONI Probe users started testing the site in that network.
 
 It’s worth noting that the HTTP version of madamasr.com was [accessible in the TE network until 30th May 2017](https://explorer.ooni.org/measurement/20170530T005058Z_AS8452_cWwFLiGgXdRMrPJ24gH4CUx1K2h4ZPSO0KKW2MmXNoWXYf9bSJ?input=http:%2F%2Fmadamasr.com)
 and that it only started getting [blocked on 31st May 2017](https://explorer.ooni.org/measurement/20170531T104508Z_AS8452_jE1XD5egqf8T5NyeHPLMd9YXtuZln6FffTsQf6JDXoqVrQHuLk?input=http:%2F%2Fwww.madamasr.com).
@@ -90,7 +90,7 @@ to recent measurements.
 
 Recent censorship events in Egypt are not limited to national news
 outlets. [Network measurement data](https://explorer.ooni.org/country/EG) collected from
-ooniprobe users in Egypt confirms the blocking of aljazeera.net in three
+OONI Probe users in Egypt confirms the blocking of aljazeera.net in three
 networks, as illustrated through the table below.
 
 | Websites                   | Link Egypt (AS24863) | Vodafone Egypt (AS36935) | TE (AS8452)   |
@@ -254,15 +254,15 @@ in the Link Egypt network, but likely accessible in the TE and Vodafone
 Egypt networks.
 
 Tests in the Link Egypt network were run every day between 24th to 28th
-May, and 1st to 7th June 2017. During this period, ooniprobe was never
+May, and 1st to 7th June 2017. During this period, OONI Probe was never
 able to establish a connection to the Tor network, strongly indicating
 that it may have been blocked.
 
 Data collected from the TE network, however, is less conclusive. While
-ooniprobe was able to bootstrap a connection to the Tor network between
+OONI Probe was able to bootstrap a connection to the Tor network between
 29th to 31st May, it was unable to do so on 1st and 4th June. Between
 5th to 9th June 2017, some attempts were successful, while others
-failed. Since ooniprobe was able to establish *some* connections over
+failed. Since OONI Probe was able to establish *some* connections over
 the last weeks, it’s likely that the failed connections were caused by
 transient network failures.
 
@@ -272,17 +272,17 @@ Vodafone Egypt network, and a connection to it was [successfully established](ht
 # Contributing to this study
 
 This study is part of ongoing efforts to monitor internet censorship
-events in Egypt and around the world. Potentially anyone can [run ooniprobe](https://ooni.org/install/), since it’s [free and open source software](https://github.com/TheTorProject/ooni-probe) and
+events in Egypt and around the world. Potentially anyone can [run OONI Probe](https://ooni.org/install/), since it’s [free and open source software](https://github.com/TheTorProject/ooni-probe) and
 can be run from multiple platforms (Android, iOS, macOS, Linux,
-Raspberry Pis). Over the last five years, tens of thousands of ooniprobe
+Raspberry Pis). Over the last five years, tens of thousands of OONI Probe
 users have [measured networks across more than 190 countries](https://explorer.ooni.org/world/) with the aim of
 uncovering internet censorship events.
 
-Running ooniprobe however can potentially be a
+Running OONI Probe however can potentially be a
 [risky](https://ooni.org/about/risks/) activity. Anyone
 monitoring your internet activity (e.g. ISP, government, employer) will
-be able to know that you are running ooniprobe. And some of the sites
-that are tested by ooniprobe (such as pornography or online gambling)
+be able to know that you are running OONI Probe. And some of the sites
+that are tested by OONI Probe (such as pornography or online gambling)
 may be illegal in certain countries.
 
 If you feel uncomfortable with the potential risks, there are other
@@ -291,16 +291,16 @@ findings are only as interesting as the types of sites that are tested.
 We were likely unable to identify the [blocking of all 21 news outlets](https://cpj.org/2017/05/egypt-blocks-access-to-21-news-websites.php)
 if they were not included in the [lists of sites](https://github.com/citizenlab/test-lists/tree/master/lists) that
 we tested for censorship. As such, reviewing and updating the lists that
-ooniprobe tests for censorship is an important task. Information on how
+OONI Probe tests for censorship is an important task. Information on how
 to contribute to such lists can be found
 [here](https://ooni.org/get-involved/contribute-test-lists/).
 
 If you’re a data analyst, you may be interested in analyzing the
 [network measurement data](https://measurements.ooni.org/)
-collected by ooniprobe. If you’re a journalist, you may be interested in
+collected by OONI Probe. If you’re a journalist, you may be interested in
 telling stories based on the
 [data](https://explorer.ooni.org/world/). If you’re a
 lawyer, you may be interested in examining the legality of censorship
-events based on ooniprobe network measurement data, and potentially even
+events based on OONI Probe network measurement data, and potentially even
 using it as evidence in court cases. And if you’re a human rights
 advocate, you may be interested in supporting [Access Now’s KeepItOn campaign](https://www.accessnow.org/keepiton/) for a free and open internet.

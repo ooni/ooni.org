@@ -9,7 +9,7 @@ categories: ["blog"]
 ![OONI mobile app](/post/ooni-mobile-app/ooni-mobile-app.jpg)
 
 Today the [Open Observatory of Network Interference (OONI)](https://ooni.org/) project is thrilled to
-announce the release of a new mobile app (“**ooniprobe - Measure Internet
+announce the release of a new mobile app (“**OONI Probe - Measure Internet
 Censorship & Performance**”) that can now be installed on **Android** and **iOS** for
 testing Internet censorship and network performance.
 
@@ -86,7 +86,7 @@ More tests will be integrated into OONI’s mobile app within the next year,
 including - but not limited to - our new
 [WhatsApp](https://ooni.org/nettest/whatsapp/) and [Facebook Messenger tests](https://ooni.org/nettest/facebook-messenger/). In
 the meanwhile, learn about [potential risks](https://ooni.org/about/risks/) associated to running
-ooniprobe. If you feel comfortable with them, install OONI’s mobile app and test
+OONI Probe. If you feel comfortable with them, install OONI’s mobile app and test
 every network you connect to!
 
 -----------------------------------------------------------------------------------------------------------

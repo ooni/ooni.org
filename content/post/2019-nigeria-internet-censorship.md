@@ -119,9 +119,9 @@ points.
 
 As part of this study, Paradigm Initiative coordinated with local OONI
 Probe users across Nigeria to run tests on multiple different networks.
-Most tests were run by volunteers using the [OONI Probe mobile app](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe),
+Most tests were run by volunteers using the [OONI Probe mobile app](https://play.google.com/store/apps/details?id=org.openobservatory.OONI Probe),
 which doesn’t currently include the [Vanilla Tor](https://ooni.io/nettest/vanilla-tor/) and [Tor bridge reachability tests](https://ooni.io/nettest/tor-bridge-reachability/)
-(these tests are only available on the [OONI Probe versions for macOS and Linux](https://ooni.io/install/ooniprobe)). Measurements from these
+(these tests are only available on the [OONI Probe versions for macOS and Linux](https://ooni.io/install/OONI Probe)). Measurements from these
 two tests are therefore out of scope for this study.
 
 Most OONI Probe tests run as part of this study measured the [blocking of websites](https://ooni.io/nettest/web-connectivity/), as well as the
