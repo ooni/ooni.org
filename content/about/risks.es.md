@@ -2,7 +2,7 @@
 
 **Note:** This document was translated by [Derechos Digitales](https://www.derechosdigitales.org/) ([view the english version](/about/risks)).
 
-Según nuestro conocimiento, ningún usuario de ooniprobe ha sufrido consecuencias
+Según nuestro conocimiento, ningún usuario de OONI Probe ha sufrido consecuencias
 como resultado del uso de nuestro software. Por lo tanto, los riesgos
 potenciales descritos a continuación son teóricos y especulativos. Si estás
 ejecutando OONI Probe en un entorno de alto riesgo, enfáticamente te recomendamos
@@ -148,18 +148,18 @@ siguiente:
 Terceras entidades (como el gobierno de tu país, tu proveedor de servicio de
 internet, o tu empleador) pueden estar monitoreando parte o la totalidad de tu
 actividad en línea. Esto podría permitirles detectar el tráfico web generado por
-tu uso de ooniprobe y asociarlo a tu persona.
+tu uso de OONI Probe y asociarlo a tu persona.
 
 Muchos países emplean medidas sofisticadas de vigilancia que permiten a
 gobiernos rastrear la actividad en línea de las personas – incluso si están
 utilizando servicios que preservan la privacidad, como Tor, Psiphon, redes
 privadas virtuales (VPNs), o servidores proxy. En tales países, los gobiernos o
 terceras entidades pueden ser capaces de identificarte como un usuario de
-ooniprobe a pesar de las medidas que tomes para proteger tu privacidad en línea.
+OONI Probe a pesar de las medidas que tomes para proteger tu privacidad en línea.
 
 #### Servicios analizados
 
-Los servicios a los que se conecta ooniprobe verán tu dirección IP y pueden ser
+Los servicios a los que se conecta OONI Probe verán tu dirección IP y pueden ser
 capaces de detectar que estás usando OONI Probe. Puedes ver cuáles son los
 servicios que OONI Probe analiza [aquí](https://github.com/citizenlab/test-lists/tree/master/lists).
 
@@ -171,7 +171,7 @@ ver que has descargado, instalado y ejecutado OONI Probe.
 
 #### Publicación de mediciones
 
-Por defecto, todas las mediciones generadas a través de ooniprobe son enviadas
+Por defecto, todas las mediciones generadas a través de OONI Probe son enviadas
 al recolector de mediciones de OONI y automáticamente publicadas en:
 
 * [Explorador OONI](https://explorer.ooni.org/world/)
@@ -186,11 +186,11 @@ Los datos publicados incluyen tu ubicación aproximada, la red (ASN) desde la qu
 te conectas, y la hora en que ejecutaste OONI Probe. Otro tipo de información
 que pueda identificarte, como tu dirección IP, no es recolectada
 deliberadamente, pero puede estar incluida en cabeceras HTTP y otro tipo de
-metadata. El contenido completo de las páginas descargadas por ooniprobe pueden
+metadata. El contenido completo de las páginas descargadas por OONI Probe pueden
 incluir tal información si, por ejemplo, un sitio web incluye códigos de rastreo
 (tracking codes) o contenido personalizado basado en la ubicación de tu red.
 Información que pueda identificarte podría potencialmente ayudar a terceras
-entidades a detectar que eres un usuario de ooniprobe.
+entidades a detectar que eres un usuario de OONI Probe.
 
 ### Riesgos: Pruebas de OONI Probe
 
@@ -241,7 +241,7 @@ oonprobe web_connectivity -u <url>
 
 #### Legalidad de las pruebas de OONI Probe
 
-Algunas pruebas de red llevadas a cabo por ooniprobe pueden violar las leyes de
+Algunas pruebas de red llevadas a cabo por OONI Probe pueden violar las leyes de
 mal uso de sistemas computacionales de tu país o los términos de servicio de tu
 proveedor de internet.
 
@@ -255,7 +255,7 @@ tales como enjuiciamiento bajo leyes de mal uso de sistemas computacionales.
 
 #### Legalidad del software de anonimato
 
-Por defecto, las pruebas de medición de red de ooniprobe son enviadas al
+Por defecto, las pruebas de medición de red de OONI Probe son enviadas al
 recolector de mediciones de OONI a través de [servicios ocultos de Tor](https://www.torproject.org/docs/hidden-services), los cuales han sido
 diseñados para proteger el anonimato en línea.
 
@@ -290,7 +290,7 @@ Los riesgos legales asociados a descargar, instalar y ejecutar OONI Probe pueden
 variar de país en país, por lo que que te aconsejamos consultar con abogados que
 tengan licencia para ejercer en tu país.
 
-Algunas preguntas relacionadas con ooniprobe que puedes querer preguntar a tus
+Algunas preguntas relacionadas con OONI Probe que puedes querer preguntar a tus
 abogados incluyen:
 
 * Mi país me prohíbe el uso de:

@@ -42,7 +42,7 @@ the M-Lab server does not pass through the congested interconnection point.
 This network performance test was originally developed by the
 [Neubot project](https://gitub.com/neubot) and later integrated
 into [measurement-kit](https://github.com/measurement-kit/measurement-kit),
-the engine used by ooniprobe-mobile.
+the engine used by OONI Probe on Mobile.
 
 **Disclaimer:** DASH is a general-purpose performance test conducted
 against third-party servers provided by [Measurement Lab

@@ -106,7 +106,7 @@ proxies serving blockpages
 
 # Key Findings
 
-Thousands of [ooniprobe network measurements](https://measurements.ooni.org/files/by_country/IR)
+Thousands of [OONI Probe network measurements](https://measurements.ooni.org/files/by_country/IR)
 collected from 60 local networks across Iran over the last three years
 **have confirmed the blocking of 886 domains** (and [1,019 URLs](/post/iran/ir-blocked-urls.csv) in
 total), listed [here](/post/iran/ir-blocked-domains.csv).
@@ -695,8 +695,8 @@ An important part of identifying censorship is determining *which*
 websites to examine for blocking.
 
 OONI’s [software](https://github.com/TheTorProject/ooni-probe) (called
-*ooniprobe*) is designed to examine URLs contained in specific lists
-(“test lists”) for censorship. By default, ooniprobe examines the
+*OONI Probe*) is designed to examine URLs contained in specific lists
+(“test lists”) for censorship. By default, OONI Probe examines the
 “[global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)”,
 which includes a wide range of internationally relevant websites, most
 of which are in English. These websites fall under [30 categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv),
@@ -712,8 +712,8 @@ development of heuristics for detecting censorship elsewhere within a
 country.
 
 In addition to testing the URLs included in the global test list,
-ooniprobe is also designed to examine a test list which is specifically
-created for the country that the user is running ooniprobe from, if such
+OONI Probe is also designed to examine a test list which is specifically
+created for the country that the user is running OONI Probe from, if such
 a list exists. Unlike the global test list, [country-specific test lists](https://github.com/citizenlab/test-lists/tree/master/lists)
 include websites that are relevant and commonly accessed within specific
 countries, often in local languages. Like the global test list,
@@ -1057,7 +1057,7 @@ measurements, including the following types of data:
 
 **Country code**
 
-OONI by default records the country users are running ooniprobe tests
+OONI by default records the country users are running OONI Probe tests
 from, by automatically resolving the user’s IP address with the
 [MaxMind GeoIP database](https://www.maxmind.com/en/home). The
 collection of country codes is an important part of OONI’s research, as
@@ -2204,4 +2204,4 @@ Our main conclusions from this study are summarized below.
 # Acknowledgements
 
 We thank all the anonymous volunteers in Iran who have run and continue
-to run ooniprobe, thus making this research possible.
+to run OONI Probe, thus making this research possible.

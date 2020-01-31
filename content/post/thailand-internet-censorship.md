@@ -531,8 +531,8 @@ An important part of identifying censorship is determining which websites to
 examine for blocking.
 
 OONI’s [software](https://github.com/TheTorProject/ooni-probe) (called
-*ooniprobe*) is designed to examine URLs contained in specific lists (“test
-lists”) for censorship. By default, ooniprobe examines the “[global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)”,
+*OONI Probe*) is designed to examine URLs contained in specific lists (“test
+lists”) for censorship. By default, OONI Probe examines the “[global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)”,
 which includes a wide range of internationally relevant websites, most of which
 are in English. These websites fall under [31 categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv), ranging from news media, file sharing and
 culture, to provocative or objectionable categories, like pornography, political
@@ -547,9 +547,9 @@ categories (such as “pornography” and “hate speech”) are included for te
 because they are more likely to be blocked due to their nature, enabling the
 development of heuristics for detecting censorship elsewhere within a country.
 
-In addition to testing the URLs included in the global test list, ooniprobe is
+In addition to testing the URLs included in the global test list, OONI Probe is
 also designed to examine a test list which is specifically created for the
-country that the user is running ooniprobe from, if such a list exists. Unlike
+country that the user is running OONI Probe from, if such a list exists. Unlike
 the global test list, [country-specific test lists](https://github.com/citizenlab/test-lists/tree/master/lists) include
 websites that are relevant and commonly accessed within specific countries, and
 such websites are often in local languages. Similarly to the global test list,
@@ -851,7 +851,7 @@ following types of data:
 **Country code**
 
 OONI by default collects the code which corresponds to the country from which
-the user is running ooniprobe tests from, by automatically searching for it
+the user is running OONI Probe tests from, by automatically searching for it
 based on the user’s IP address through the [MaxMind GeoIP database](https://www.maxmind.com/en/home). The collection of country codes is
 an important part of OONI’s research, as it enables OONI to map out global
 network measurements and to identify where network interferences take place.
@@ -859,7 +859,7 @@ network measurements and to identify where network interferences take place.
 **Autonomous System Number (ASN)**
 
 OONI by default collects the Autonomous System Number (ASN) which corresponds to
-the network that a user is running ooniprobe tests from. The collection of the
+the network that a user is running OONI Probe tests from. The collection of the
 ASN is useful to OONI’s research because it reveals the specific network
 provider (such as Vodafone) of a user. Such information can increase
 transparency in regards to which network providers are implementing censorship
@@ -974,7 +974,7 @@ censorship events.
 ## Findings
 
 As part of this study, [network measurements](https://explorer.ooni.org/country/TH) were collected
-through [ooniprobe software tests](https://github.com/TheTorProject/ooni-probe)
+through [OONI Probe software tests](https://github.com/TheTorProject/ooni-probe)
 performed across 16 different local vantage points in Thailand between 6th
 November 2016 to 27th February 2017.
 
@@ -1136,7 +1136,7 @@ vantage points in Thailand, OONI’s [software tests](https://github.com/TheTorP
 across all networks. Stable measurements were collected from certain vantage
 points throughout the testing period, but less stable measurements were also
 collected from a number of other vantage points following the [launch of OONI’s mobile app](https://ooni.org/post/ooni-mobile-app/) on 9th February
-2017. In other words, once [ooniprobe](https://github.com/TheTorProject/ooni-probe) became easier to install and run via its mobile version for Android and
+2017. In other words, once [OONI Probe](https://github.com/TheTorProject/ooni-probe) became easier to install and run via its mobile version for Android and
 iOS, we received an increased amount of sporadic measurements from various new
 networks. In some of these networks we were able to identify additional cases of
 censorship, but since tests were not always run consistently, our ability to
@@ -1195,7 +1195,7 @@ study around the necessity and proportionality of information controls.
 We thank the [Open Technology Fund (OTF)](https://www.opentech.fund/) and
 [Access Now](https://www.accessnow.org/) for funding this research. We also
 thank all the anonymous and brave volunteers in Thailand who have run and
-continue to run ooniprobe, thus making this research possible.
+continue to run OONI Probe, thus making this research possible.
 
 
 *Note: This report was updated on 20th March 2017, following its publication.*

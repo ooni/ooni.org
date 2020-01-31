@@ -30,7 +30,7 @@ meeting and hackathon.
 
     * [Test lists](#test-lists)
 
-    * [Running ooniprobe](#running-ooniprobe)
+    * [Running OONI Probe](#running-ooniprobe)
 
 # OONI-dev meeting
 
@@ -66,8 +66,8 @@ the sessions of the previous days. During the fourth (and final) day of our
 internal meeting we held smaller, ad hoc discussions based on the rest of the
 ideas/questions/problems that were mapped out in the first day, and which didn’t
 fit into any of the six core sessions of the first two days. We also spent the
-last day of the internal meeting hacking on [ooniprobe](https://github.com/TheTorProject/ooni-probe) and [measurement-kit](https://github.com/measurement-kit/measurement-kit) (a
-network measurement library that ooniprobe is being integrated in).
+last day of the internal meeting hacking on [OONI Probe](https://github.com/TheTorProject/ooni-probe) and [measurement-kit](https://github.com/measurement-kit/measurement-kit) (a
+network measurement library that OONI Probe is being integrated in).
 
 # OONI Hackathon
 
@@ -146,7 +146,7 @@ missing in there, please don’t hesitate to [contact](https://ooni.org//about/)
 ## Measurement-kit
 
 [Measurement-kit](https://github.com/measurement-kit/measurement-kit) is a
-network measurement library that ooniprobe is gradually being integrated in. As
+network measurement library that OONI Probe is gradually being integrated in. As
 part of the hackathon, we worked on improving the DNS capabilities of
 measurement-kit along the following lines:
 
@@ -166,7 +166,7 @@ measurement-kit.
 ## OONI mobile
 
 **Spoiler:** Over the next few months we will be releasing a mobile app (for Android
-and iOS) for running ooniprobe! During the hackathon, we worked on improving the
+and iOS) for running OONI Probe! During the hackathon, we worked on improving the
 design of [OONI’s mobile app](https://github.com/measurement-kit/ooniprobe-ios).
 
 Here’s a sneak peak of OONI’s upcoming mobile app:
@@ -195,12 +195,12 @@ of the hackathon, participants worked on updating the [Palestinian test list](ht
 URLs. We also prioritized on updating test lists for countries with upcoming
 elections, such as the [test list for Gambia](https://github.com/citizenlab/test-lists/pull/99).
 
-##  Running ooniprobe
+##  Running OONI Probe
 
 Amongst the new faces that joined us at the hackathon, we were also happy to
-meet people curious to learn about OONI and how to run ooniprobe. We discussed
+meet people curious to learn about OONI and how to run OONI Probe. We discussed
 OONI’s approaches and methodologies, and taught participants how to run various
-[ooniprobe](https://github.com/TheTorProject/ooni-probe) software tests. As an
+[OONI Probe](https://github.com/TheTorProject/ooni-probe) software tests. As an
 outcome, we hope that participants will share the skills and knowledge they
 acquired through the hackathon with others too, and help increase transparency
 on internet censorship around the world.

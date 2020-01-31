@@ -10,15 +10,15 @@ aliases: ["/data-policy"]
 
 This Data Policy discloses and explains what data the [Open Observatory of Network Interference (OONI) project](https://ooni.org/) ("we", "us",
 or "our") collects, processes, stores and publishes relating to users of its
-website and its ooniprobe software ("you" or "your").
+website and its OONI Probe software ("you" or "your").
 
 **WARNING:**
 
-Our ooniprobe software is *not* designed to protect your privacy. You may face
+Our OONI Probe software is *not* designed to protect your privacy. You may face
 various **[risks](https://ooni.org/about/risks/)** such as fines,
-imprisonment, or other penalties for running ooniprobe. You can avoid some of
+imprisonment, or other penalties for running OONI Probe. You can avoid some of
 these risks by opting not to send us certain types of data when running
-ooniprobe. You can find instructions on how to do so in section 2 below.
+OONI Probe. You can find instructions on how to do so in section 2 below.
 
 We reserve all rights to make future changes to this Data Policy at our sole
 discretion. 
@@ -42,7 +42,7 @@ this Data Policy.
 ### 2.1. Data We Collect
 
 We collect different types of network measurements when you run different types
-of tests. You can view the specifications about each ooniprobe test
+of tests. You can view the specifications about each OONI Probe test
 [here](https://github.com/TheTorProject/ooni-spec), and the details about the
 collected network measurements on [OONI Explorer](https://explorer.ooni.org/world/) or through our
 [OONI API](https://api.ooni.io/).
@@ -53,11 +53,11 @@ measurements uploaded through the setup settings of OONI's web user interface or
 OONI's mobile app.
 
 If you *don't* opt out of sending us your measurements, we will collect the
-following types of data when you run ooniprobe:
+following types of data when you run OONI Probe:
 
 **2.1.1. Date and time of measurements**
 
-We **always** collect the time and date of measurements when you run ooniprobe.
+We **always** collect the time and date of measurements when you run OONI Probe.
 This data helps us evaluate when network interference has occurred and to
 compare such occurrences over time. **You cannot opt-out of sending us this type
 of data.**
@@ -122,7 +122,7 @@ We process all the collected network measurements mentioned in 2.1. through our
 [data processing pipeline](https://github.com/TheTorProject/ooni-pipeline). We
 try to make sense of the data and to find answers to the following questions:
 
-* Which types of ooniprobe tests were run?
+* Which types of OONI Probe tests were run?
 
 * In which countries were those tests run?
 
@@ -140,7 +140,7 @@ try to make sense of the data and to find answers to the following questions:
 
 * How did network interference occur?
 
-You can opt out of sending us your measurements by running ooniprobe with the `-n`
+You can opt out of sending us your measurements by running OONI Probe with the `-n`
 command line option. Alternatively, you can choose *not* to have your
 measurements uploaded through the setup settings of OONI's web user interface or
 OONI's mobile app.

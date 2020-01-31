@@ -10,7 +10,7 @@ The goal of this study is to have a better understanding on how the internet
 works around the world and what is stopping it from working as it should.
 
 Please take a minute to go through what can be the possible implications for
-running ooniprobe and make sure you properly understand them before proceeding.
+running OONI Probe and make sure you properly understand them before proceeding.
 
 # LEGALITY
 
@@ -47,9 +47,9 @@ about your internet connection to the whole world. Particular groups,
 such as your ISP and web services used by the ooni tests, will be able
 to discover even more detailed information about you.
 
-THE PUBLIC will be able to see the information collected by ooniprobe.
+THE PUBLIC will be able to see the information collected by OONI Probe.
 This will definitely include your approximate location, the network
-(ASN) you are connecting from, and when you ran ooniprobe. Other
+(ASN) you are connecting from, and when you ran OONI Probe. Other
 identifying information, such as your IP address, is not deliberately
 collected, but may be included in HTTP headers or other metadata. The
 full page content downloaded by OONI could potentially include further

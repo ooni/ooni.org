@@ -9,9 +9,9 @@ categories: ["blog"]
 ![Image](/post/wui-screenshots/wui-01.png)
 
 Today we are excited to announce the beta release of our *new* web-based user interface
-(WUI) that enables ooniprobe users to run censorship tests from a web browser!
+(WUI) that enables OONI Probe users to run censorship tests from a web browser!
 
-Whether you’re running ooniprobe from your desktop or a Raspberry Pi, you can
+Whether you’re running OONI Probe from your desktop or a Raspberry Pi, you can
 now easily choose which tests you want to run through OONI’s web UI and run them
 with the click of a button. These [tests](https://ooni.org/nettest/)
 are designed to examine the following:
@@ -86,7 +86,7 @@ By clicking on it, you will be directed to OONI’s web UI Setup Wizard:
 
 ![Screenshot](/post/wui-screenshots/wui-02.png)
 
-If you plan on running ooniprobe from a *Raspberry Pi*, type the following URL in
+If you plan on running OONI Probe from a *Raspberry Pi*, type the following URL in
 your web browser: **http://lepidopter.local**
 
 **Note:** Type the above URL only once your Raspberry Pi is connected to *both* power
@@ -99,19 +99,19 @@ your web browser. And if that also doesn’t work, please find more information
 **[here](https://ooni.org/install/lepidopter/)**.
 
 Upon clicking **Next** in the Setup Wizard, you will view information about
-potential risks associated with running ooniprobe.
+potential risks associated with running OONI Probe.
 
-## Risks: Things you should know before running ooniprobe
+## Risks: Things you should know before running OONI Probe
 
-Running ooniprobe can potentially be a risky activity. To our knowledge, no one
-has ever gotten into any trouble as a result of running ooniprobe. Nonetheless,
+Running OONI Probe can potentially be a risky activity. To our knowledge, no one
+has ever gotten into any trouble as a result of running OONI Probe. Nonetheless,
 we strongly encourage you to read this documentation carefully and to consult
 with a lawyer, if needed.
 
 ![Screenshot](/post/wui-screenshots/wui-03.png)
 
 Once you have read and understood the potential risks associated with running
-ooniprobe, click **Next**.
+OONI Probe, click **Next**.
 
 ![Screenshot](/post/wui-screenshots/wui-04.png)
 
@@ -120,7 +120,7 @@ ooniprobe, click **Next**.
 You didn’t read the somewhat long Risks documentation for nothing. To make
 things fun, you will be presented with a quiz including a set of questions that
 you need to answer correctly, demonstrating that you have a basic understanding
-of potential risks associated with the use of ooniprobe.
+of potential risks associated with the use of OONI Probe.
 
 ![Screenshot](/post/wui-screenshots/wui-05.png)
 
@@ -165,7 +165,7 @@ We recommend the *default* options included in the configuration settings.
 **ASN and country name**
 
 We encourage users to enable the collection of identifiers based on their
-network (ASN) and the country that they are running ooniprobe from because
+network (ASN) and the country that they are running OONI Probe from because
 without this information, we cannot attribute specific measurements to a
 specific country and network. In other words, without this information we are
 *not* in a position to know where the measurements are coming from, limiting the
@@ -174,7 +174,7 @@ objectives of this research.
 **IP address**
 
 The inclusion of IP addresses is *disabled* by default because this information
-can potentially help third parties identify ooniprobe users. However, including
+can potentially help third parties identify OONI Probe users. However, including
 your IP address can help improve the analysis of measurements.
 
 **Uploading measurements**
@@ -210,17 +210,17 @@ Here you have three choices:
 
 Tor hidden services should be the *best option* for most users because it prevents
 OONI from seeing your IP address and it makes it harder for a network adversary
-to fingerprint your use of ooniprobe. This however requires the installation of
+to fingerprint your use of OONI Probe. This however requires the installation of
 [tor](https://www.torproject.org/) software and you should expect connections to
 OONI’s measurement collector to be slower.
 
 If you would rather *not* use tor software but you would also like to make it
-harder for a network adversary to identify you as an ooniprobe user, you can
+harder for a network adversary to identify you as an OONI Probe user, you can
 choose to submit your measurements via cloud-fronting. But if you don’t care
-about your ISP knowing that you are running ooniprobe and you want better
+about your ISP knowing that you are running OONI Probe and you want better
 performance, you can choose to submit your measurements via HTTPS collectors.
 
-# Running ooniprobe through OONI’s web UI
+# Running OONI Probe through OONI’s web UI
 
 Upon configuration of your settings you will be presented with OONI’s web UI.
 
@@ -237,7 +237,7 @@ can choose from.
 ![Screenshot](/post/wui-screenshots/wui-11.png)
 
 The three main tests (web connectivity, HTTP header field manipulation and HTTP
-invalid request line) are included in ooniprobe’s main software suite. [Web connectivity](https://ooni.org/nettest/web-connectivity/) allows you
+invalid request line) are included in OONI Probe’s main software suite. [Web connectivity](https://ooni.org/nettest/web-connectivity/) allows you
 to test a [set of URLs](https://github.com/citizenlab/test-lists/tree/master/lists) to examine whether and how they are blocked. The [HTTP header field manipulation](https://ooni.org/nettest/http-header-field-manipulation/) and [HTTP invalid request line](https://ooni.org/nettest/http-invalid-request-line/) tests, on
 the other hand, examine whether systems that could potentially be responsible
 for censorship and surveillance are present in your network. Prior to running

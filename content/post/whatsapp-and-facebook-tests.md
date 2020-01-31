@@ -53,9 +53,9 @@ blocked if any of the following apply:
 If you’re a macOS or Linux user, you can run this test through the following
 steps:
 
-1. [Install](https://ooni.org/install/ooniprobe/) ooniprobe.
+1. [Install](https://ooni.org/install/ooniprobe/) OONI Probe.
 
-2. [Access ooniprobe’s web UI](https://ooni.org/install/ooniprobe/#running-ooniprobe) in your web browser. 
+2. [Access OONI Probe’s web UI](https://ooni.org/install/ooniprobe/#running-OONI Probe) in your web browser.
 
 By default, the WhatsApp test will automatically be run from your computer on a
 daily basis. To opt-out, disable the **Instant Messaging deck** under the decks
@@ -95,9 +95,9 @@ following apply:
 If you’re a macOS or Linux user, you can run this test through the following
 steps:
 
-1. [Install](https://ooni.org/install/ooniprobe/) ooniprobe.
+1. [Install](https://ooni.org/install/OONI Probe/) OONI Probe.
 
-2. [Access ooniprobe’s web UI](https://ooni.org/install/ooniprobe/#running-ooniprobe) in your web browser.
+2. [Access OONI Probe’s web UI](https://ooni.org/install/OONI Probe/#running-OONI Probe) in your web browser.
 
 By default, the Facebook Messenger test will automatically be run from your
 computer on a daily basis. To opt-out, disable the **Instant Messaging deck** under

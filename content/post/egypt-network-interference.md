@@ -275,7 +275,7 @@ gain revenue.
 During our October 2016 investigation the injector was mostly targeting mobile
 [User-Agents] (https://en.wikipedia.org/wiki/User_agent). It was not limited to
 iPhone and Android platforms, but also targeted BlackBerry and Symbian devices.
-In August 2016 ooniprobe also [captured a similar
+In August 2016 OONI Probe also [captured a similar
 injection](https://explorer.ooni.org/measurement/20160827T153815Z_AS8452_gAU19jWom21aUc0hwieYQymbvcuTTTYULW8k1W1UXOlEYmhDPq?input=http:%2F%2Fxnxx.com)
 in the TE Data network. The injection was redirecting the user to
 `http://go.ad2upapp.com/afu.php?id=723454` that further redirects to

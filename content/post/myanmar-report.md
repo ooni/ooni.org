@@ -531,8 +531,8 @@ An important part of identifying censorship is determining *which*
 websites to examine for blocking.
 
 OONI’s [software](https://github.com/TheTorProject/ooni-probe) (called
-*ooniprobe*) is designed to examine URLs contained in specific lists
-(“test lists”) for censorship. By default, ooniprobe examines the
+*OONI Probe*) is designed to examine URLs contained in specific lists
+(“test lists”) for censorship. By default, OONI Probe examines the
 “[global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)”,
 which includes a wide range of internationally relevant websites, most
 of which are in English. These websites fall under [31 categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv),
@@ -552,8 +552,8 @@ development of heuristics for detecting censorship elsewhere within a
 country.
 
 In addition to testing the URLs included in the global test list,
-ooniprobe is also designed to examine a test list which is specifically
-created for the country that the user is running ooniprobe from, if such
+OONI Probe is also designed to examine a test list which is specifically
+created for the country that the user is running OONI Probe from, if such
 a list exists. Unlike the global test list, [country-specific test lists](https://github.com/citizenlab/test-lists/tree/master/lists)
 include websites that are relevant and commonly accessed within specific
 countries, and such websites are often in local languages. Similarly to
@@ -882,7 +882,7 @@ following types of data:
 **Country code**
 
 OONI by default collects the code which corresponds to the country from
-which the user is running ooniprobe tests from, by automatically
+which the user is running OONI Probe tests from, by automatically
 searching for it based on the user’s IP address through the [MaxMind GeoIP database](https://www.maxmind.com/en/home). The collection of
 country codes is an important part of OONI’s research, as it enables
 OONI to map out global network measurements and to identify where
@@ -891,7 +891,7 @@ network interferences take place.
 **Autonomous System Number (ASN)**
 
 OONI by default collects the Autonomous System Number (ASN) which
-corresponds to the network that a user is running ooniprobe tests from.
+corresponds to the network that a user is running OONI Probe tests from.
 The collection of the ASN is useful to OONI’s research because it
 reveals the specific network provider (such as Vodafone) of a user. Such
 information can increase transparency in regards to which network
@@ -1014,7 +1014,7 @@ identify censorship events.
 ## Findings
 
 As part of this study, [network measurements](https://measurements.ooni.org/files/by_country/MM)
-were collected through [ooniprobe software tests](https://github.com/TheTorProject/ooni-probe) performed across
+were collected through [OONI Probe software tests](https://github.com/TheTorProject/ooni-probe) performed across
 six local vantage points in Myanmar between 25th October 2016 to 28th
 February 2017.
 
@@ -1108,7 +1108,7 @@ from certain vantage points throughout the testing period, but less
 stable measurements were also collected from a number of other vantage
 points following the [launch of OONI’s mobile app](https://ooni.org/post/ooni-mobile-app/) on 9th February
 2017. In other words, once
-[ooniprobe](https://github.com/TheTorProject/ooni-probe) became easier
+[OONI Probe](https://github.com/TheTorProject/ooni-probe) became easier
 to install and run via its mobile version for Android and iOS, we
 received an increased amount of sporadic measurements from various new
 networks. Since tests were not always run consistently, our ability to
@@ -1145,4 +1145,4 @@ across all six networks in Myanmar where OONI tests were run.
 We thank the [Open Technology Fund (OTF)](https://www.opentech.fund/) and
 [Access Now](https://www.accessnow.org/) for funding this research. We also
 thank all the anonymous volunteers in Myanmar who have run and continue to run
-ooniprobe, thus making this research possible.
+OONI Probe, thus making this research possible.

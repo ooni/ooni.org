@@ -197,7 +197,7 @@ HTTP/1.1`, our requests look like `\nGET / HTTP/1.1`.
 
 # OONI Testing
 
-We ran from inside of TM and UZ a set of ooniprobe tests to collect some data
+We ran from inside of TM and UZ a set of OONI Probe tests to collect some data
 on how the filtering was happening and confirm our hypothesis of censorship
 bypassing strategies.
 

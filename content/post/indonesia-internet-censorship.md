@@ -41,7 +41,7 @@ Project.
 
   * [Methodology](#methodology)
 
-    * [Collection of ooniprobe network measurements](#collection-of-ooniprobe-network-measurements)
+    * [Collection of OONI Probe network measurements](#collection-of-ooniprobe-network-measurements)
 
       * [Web Connectivity](#web-connectivity)
 
@@ -313,12 +313,12 @@ The sections below document the methodology and findings of this study.
 
 The methodology of this study, in an attempt to identify potential internet censorship events in Indonesia, included the following:
 
-* Collection of ooniprobe network measurements
+* Collection of OONI Probe network measurements
 * Data analysis
 
 The analysis period started on 22nd June 2016 and concluded on 1st March 2017.
 
-### Collection of ooniprobe network measurements
+### Collection of OONI Probe network measurements
 
 The [Open Observatory of Network Interference (OONI)](https://ooni.org/) is a *free software* project that aims to increase transparency of internet censorship around the world. Since 2011, OONI has developed multiple [free and open source software tests](https://github.com/TheTorProject/ooni-probe) designed to examine the following:
 
@@ -351,7 +351,7 @@ OONI’s Web Connectivity test is designed to examine URLs contained in specific
 
 These categories help ensure that a wide range of different types of websites are tested, and they enable the examination of the impact of censorship events (for example, if the majority of the websites found to be blocked in a country fall under the “human rights” category, that may have a bigger impact than other types of websites being blocked elsewhere). The main reason why objectionable categories (such as “pornography” and “hate speech”) are included for testing is because they are more likely to be blocked due to their nature, enabling the development of heuristics for detecting censorship elsewhere within a country.
 
-In addition to testing the URLs included in the global test list, Web Connectivity is also designed to examine a test list which is specifically created for the country that the user is running ooniprobe from, if such a list exists. Unlike the global test list, [country-specific test lists](https://github.com/citizenlab/test-lists/tree/master/lists) include websites that are relevant and commonly accessed within specific countries, and such websites are often in local languages. Similarly to the global test list, country-specific test lists include websites that fall under the same set of [31 categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv), as explained previously. All test lists are hosted by the [Citizen Lab](https://citizenlab.org/) on [GitHub](https://github.com/citizenlab/test-lists), supporting OONI and other network measurement projects in the creation and maintenance of lists of URLs to test for censorship. 
+In addition to testing the URLs included in the global test list, Web Connectivity is also designed to examine a test list which is specifically created for the country that the user is running OONI Probe from, if such a list exists. Unlike the global test list, [country-specific test lists](https://github.com/citizenlab/test-lists/tree/master/lists) include websites that are relevant and commonly accessed within specific countries, and such websites are often in local languages. Similarly to the global test list, country-specific test lists include websites that fall under the same set of [31 categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv), as explained previously. All test lists are hosted by the [Citizen Lab](https://citizenlab.org/) on [GitHub](https://github.com/citizenlab/test-lists), supporting OONI and other network measurement projects in the creation and maintenance of lists of URLs to test for censorship.
 
 As part of this study, OONI’s Web Connectivity test examined the accessibility of URLs included in both the “[global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)” (containing 1,105 URLs) and in the “[Indonesian test list](https://github.com/citizenlab/test-lists/blob/master/lists/id.csv)” (containing 160 URLs). In total, Web Connectivity tests **measured 1,765 URLs** for censorship across 21 local vantage points in Indonesia between June 2016 to March 2017.
 
@@ -459,11 +459,11 @@ Through its [data pipeline](https://github.com/TheTorProject/ooni-pipeline), OON
 
 **Country code**
 
-OONI by default collects the code which corresponds to the country from which the user is running ooniprobe tests from, by automatically searching for it based on the user’s IP address through the [MaxMind GeoIP database](https://www.maxmind.com/en/home). The collection of country codes is an important part of OONI’s research, as it enables OONI to map out global network measurements and to identify where network interferences take place.
+OONI by default collects the code which corresponds to the country from which the user is running OONI Probe tests from, by automatically searching for it based on the user’s IP address through the [MaxMind GeoIP database](https://www.maxmind.com/en/home). The collection of country codes is an important part of OONI’s research, as it enables OONI to map out global network measurements and to identify where network interferences take place.
 
 **Autonomous System Number (ASN)**
 
-OONI by default collects the Autonomous System Number (ASN) which corresponds to the network that a user is running ooniprobe tests from. The collection of the ASN is useful to OONI’s research because it reveals the specific network provider (such as Vodafone) of a user. Such information can increase transparency in regards to which network providers are implementing censorship or other forms of network interference.
+OONI by default collects the Autonomous System Number (ASN) which corresponds to the network that a user is running OONI Probe tests from. The collection of the ASN is useful to OONI’s research because it reveals the specific network provider (such as Vodafone) of a user. Such information can increase transparency in regards to which network providers are implementing censorship or other forms of network interference.
 
 **Date and time of measurements**
 
@@ -513,7 +513,7 @@ OONI continues to develop its data analysis heuristics to identify internet cens
 
 ## Findings
 
-As part of this study, [network measurements](https://explorer.ooni.org/country/ID) were collected through [ooniprobe software tests](https://github.com/TheTorProject/ooni-probe) performed across 21 different local vantage points in Indonesia between 22nd June 2016 and 1st March 2017. 
+As part of this study, [network measurements](https://explorer.ooni.org/country/ID) were collected through [OONI Probe software tests](https://github.com/TheTorProject/ooni-probe) performed across 21 different local vantage points in Indonesia between 22nd June 2016 and 1st March 2017.
 
 Upon analysis of the collected network measurements, the findings confirm the **blocking of 161 websites** in Indonesia, and [reveal the presence of a middle box](https://explorer.ooni.org/measurement/20161219T000049Z_AS17974_VIUyHiQj5rKlMP1hTxg0IYVU6tkX8ovozq2JHHaA7Wjy9ZXbwz) in the Telekomunikasi Indonesia network. Network tampering was [detected](https://gist.github.com/hellais/7a54e1f765022eb7820aa5989c876675) across 10 different ISPs, possibly indicating the presence of middleboxes that could be responsible for internet censorship, surveillance, and traffic manipulation.
 
@@ -974,11 +974,11 @@ Interestingly enough, both OONI tests (HTTP Header Field Manipulation and HTTP I
 
 The findings of this study present various limitations and do not necessarily reflect a comprehensive view of internet censorship in Indonesia.
 
-The first limitation is associated with the testing period. While [thousands of ooniprobe network measurements have been collected from Indonesia since 2014](https://measurements.ooni.org/files/by_country/ID) and continue to be collected on the day of the publication of this report, this study only analyzes network measurements that were collected between **22nd June 2016 to 1st March 2017**. This study is limited to this time frame because we aim to examine the most recent censorship events and because there was a significant increase in the collection of network measurements during this period, in comparison to previous months and years. As such, censorship events which may have occurred before and/or after the analysis period are not examined as part of this study.
+The first limitation is associated with the testing period. While [thousands of OONI Probe network measurements have been collected from Indonesia since 2014](https://measurements.ooni.org/files/by_country/ID) and continue to be collected on the day of the publication of this report, this study only analyzes network measurements that were collected between **22nd June 2016 to 1st March 2017**. This study is limited to this time frame because we aim to examine the most recent censorship events and because there was a significant increase in the collection of network measurements during this period, in comparison to previous months and years. As such, censorship events which may have occurred before and/or after the analysis period are not examined as part of this study.
 
 Another limitation to this study is associated to the amount and types of URLs that were tested for censorship. As mentioned in the methodology section of this report, OONI’s [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) was run to examine the accessibility of 160 URLs that are more relevant to the Indonesian context and of 1,105 internationally relevant sites. While a total of **1,765 URLs** were tested for censorship as part of this study, we did not test all of the URLs on the internet, indicating the possibility that other websites not included in [tests lists](https://github.com/citizenlab/test-lists/tree/master/lists) might have been blocked.
 
-Finally, while network measurements were collected from **21 different local vantage points** in Indonesia, [OONI’s software tests](https://github.com/TheTorProject/ooni-probe) were not run consistently across all networks. Stable measurements were collected from certain vantage points throughout the testing period, but less stable measurements were also collected from a number of other vantage points following the [launch of OONI’s mobile app](https://ooni.org/post/ooni-mobile-app/) on 9th February 2017. In other words, once [ooniprobe](https://github.com/TheTorProject/ooni-probe) became easier to install and run via its mobile version for Android and iOS, we received an increased amount of sporadic measurements from various new networks. Since tests were not always run consistently, our ability to evaluate whether censorship cases were persistent was limited.
+Finally, while network measurements were collected from **21 different local vantage points** in Indonesia, [OONI’s software tests](https://github.com/TheTorProject/ooni-probe) were not run consistently across all networks. Stable measurements were collected from certain vantage points throughout the testing period, but less stable measurements were also collected from a number of other vantage points following the [launch of OONI’s mobile app](https://ooni.org/post/ooni-mobile-app/) on 9th February 2017. In other words, once [OONI Probe](https://github.com/TheTorProject/ooni-probe) became easier to install and run via its mobile version for Android and iOS, we received an increased amount of sporadic measurements from various new networks. Since tests were not always run consistently, our ability to evaluate whether censorship cases were persistent was limited.
 
 # Conclusion
 
@@ -1009,4 +1009,4 @@ Overall, we were able to confirm the **_blocking of 161 websites_** through the 
 We thank the [Open Technology Fund (OTF)](https://www.opentech.fund/) and
 [Access Now](https://www.accessnow.org/) for funding this research. We also
 thank all the volunteers in Indonesia who ran and
-continue to run ooniprobe, thus making this research possible.
+continue to run OONI Probe, thus making this research possible.
