@@ -11,7 +11,11 @@ mkdir -p bin contrib
 # wget hugo is not needed, netlify already has it
 pip install sphinx sphinx_rtd_theme
 # netlify may cache contrib/ooni-probe from previous build
-if [ ! -d contrib/ooni-probe ]; then git clone --depth 1 --branch master https://github.com/ooni/probe-legacy.git contrib/ooni-probe; else cd contrib/ooni-probe && git pull --ff-only origin master; fi
+if [[ ! -d contrib/ooni-probe ]]; then
+    git clone --depth 1 --branch master https://github.com/ooni/probe-legacy.git contrib/ooni-probe;
+else
+    cd contrib/ooni-probe && git pull --ff-only origin master;
+fi
 hugo --buildDrafts --baseUrl=$BASE_URL
 make -C contrib/ooni-probe/docs clean
 make -C contrib/ooni-probe/docs html
