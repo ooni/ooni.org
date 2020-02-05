@@ -5,15 +5,12 @@
 /* Font selection */
 
 html {
-  font-family: "Charter", serif;
-  line-height: 1.4;
-  font-size: 16px;
+  font-family: "Fira Sans", sans-serif;
   color: #1c1c1c;
   background-color: #fff;
 }
 
 h1, h2, nav, .toc {
-  font-family: "Fira Sans", sans-serif;
   font-weight: bold;
 }
 
@@ -33,43 +30,23 @@ nav {
 }
 
 footer {
-  color: #b4b4b4;
-  background-color: #26292c;
-  text-align: center;
-  left: 0;
-  bottom: 0;
-  min-height: 100px;
-  width: 100%;
+  background-color: rgb(0, 44, 75);
+  color: #fff;
+  font-size: 0.8rem;
 }
 
-footer.footer-home {
-  height: auto;
-  position:relative;
+.footer-section-title {
+    font-weight: bold;
 }
-
-footer.footer-home a::after {
-  content: none;
-}
-
 
 footer a {
-  color: #b4b4b4;
+  color: #fff;
+  opacity: 0.5;
 }
-
 footer a:hover {
-  text-decoration: underline;
-}
-
-footer a::after {
-  content: " →";
-}
-
-footer .row {
-  padding: 1.2rem 0 1.5rem;
-}
-
-main {
-    padding-bottom: 2rem;
+  color: #fff;
+  opacity: 1;
+  text-decoration: none;
 }
 
 /* ================================================================== */
@@ -86,17 +63,7 @@ main {
 /* ================================================================== */
 /* Generic elements */
 
-h1 {
-  font-size: 1.5rem;
-  margin-bottom: 1.6em;
-}
-
-h2 {
-  font-size: 1.15rem;
-  margin: 3em 0 1em;
-}
-
-.homepage .col-1 h2 {
+h2.overlined {
   font-size: 0.95rem;
   font-weight: bold;
   color: #0588cb;
@@ -330,15 +297,11 @@ td:last-child {
 /* ================================================================== */
 /* Navigation */
 
-nav .col-2 {
-  flex: 1 1;
-}
-
-nav .col-2 a {
+nav a {
   opacity: 0.3;
 }
 
-nav .col-2 a.active {
+nav a.active {
   opacity: 1;
 }
 
@@ -404,8 +367,8 @@ header .wordmark {
   margin-bottom: 3.5rem;
 }
 
-.homepage .ooni-explorer .col-1 {
-  padding: 2rem 0;
+.homepage .ooni-explorer h2 {
+  margin: 2rem 0;
 }
 
 .homepage .how-it-works {
@@ -430,40 +393,6 @@ header .wordmark {
 .homepage .ooni-explorer img {
   display:block;
   max-width:100%;
-}
-
-
-/* ================================================================== */
-/* Recent measurements */
-
-.measurements {
-  margin-bottom: 2rem;
-}
-
-.measurements table, .measurements tbody, .measurements td {
-}
-
-.measurements tr {
-  height: 40px;
-  align-items: center;
-}
-
-.measurements td {
-  text-align: center;
-}
-
-.measurements td.tcol-1 {
-  text-align: right;
-}
-
-.measurements img {
-  display: block;
-  margin: auto;
-}
-
-.table-caption {
-  font-size: 0.85rem;
-  color: #c1c1c1;
 }
 
 
@@ -504,12 +433,15 @@ h1.article-title {
 /* ================================================================== */
 /* Footer */
 
-footer h2 {
+.sponsors-home {
   color: #b4b4b4;
-  border: none;
-  font-size: 1rem;
-  font-weight: normal;
-  margin: 0 0 1.5rem;
+  background-color: #26292c;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  min-height: 100px;
+  width: 100%;
+  padding-bottom: 30px;
 }
 
 .sponsors {
@@ -740,36 +672,29 @@ p.test-paragraph {
   margin: 0;
 }
 
-.question-container .col-3 {
-  margin: 0px 15px 0px 0px;
+.question-container {
   border: #0588cb solid 1px;
   border-radius: 10px;
-  padding: 15px;
   background: #0588cb;
   transition: .1s;
 }
 
-.question-container .col-3 a {
+.question-container a {
   color:#FFF;
   transition: .1s;
 }
 
-.question-container .col-3:hover {
+.question-container:hover {
   border: #0588cb solid 1px;
   background: white;
   cursor: pointer;
   transition: .1s;
 }
 
-.question-container .col-3:hover > a {
+.question-container:hover > a {
   color: #0588cb;
   transition: .1s;
-}
-
-@media (max-width:699px) {
-  .question-container .col-3 {
-    margin-bottom:20px!important;
-  }
+  text-decoration: none;
 }
 
 .store-downloads {

@@ -30,11 +30,11 @@
     </ul>
 
     <h1 id="websites" class="test-header">Which websites are blocked?</h1>
-    <div class="row question-container">
+    <div class="row">
       {{ range .Data.Pages.ByDate }}
         {{ if in .Params.groups "website" }}
         {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-        <div class="col">
+        <div class="col mr-3 p-3 question-container">
         <a href="{{ .RelPermalink }}">
           <h2 class="test-header">{{ $TITLE }}</h2>
           <p class="test-paragraph">
@@ -47,11 +47,11 @@
     </div>
 
     <h1 id="im" class="test-header">Which Instant Messaging Apps are blocked?</h1>
-    <div class="row question-container">
+    <div class="row">
       {{ range .Data.Pages }}
         {{ if in .Params.groups "im" }}
         {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-        <div class="col">
+        <div class="col mr-3 p-3 question-container">
         <a href="{{ .RelPermalink }}">
             <h2 class="test-header">{{ $TITLE }}</h2>
             <p class="test-paragraph">
@@ -64,11 +64,11 @@
     </div>
 
     <h1 id="boxes" class="test-header">Which censorship technologies are in my network?</h1>
-    <div class="row question-container">
+    <div class="row">
       {{ range .Data.Pages }}
         {{ if in .Params.groups "boxes" }}
         {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-        <div class="col">
+        <div class="col mr-3 p-3 question-container">
         <a href="{{ .RelPermalink }}">
             <h2 class="test-header">{{ $TITLE }}</h2>
             <p class="test-paragraph">
@@ -81,11 +81,11 @@
     </div>
 
     <h1 id="tor" class="test-header">Is Tor blocked?</h1>
-    <div class="row question-container">
+    <div class="row">
       {{ range .Data.Pages }}
         {{ if in .Params.groups "tor" }}
           {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-          <div class="col">
+          <div class="col mr-3 p-3 question-container">
           <a href="{{ .RelPermalink }}" >
             <h2 class="test-header">{{ $TITLE }}</h2>
             <p class="test-paragraph">
@@ -98,11 +98,11 @@
     </div>
 
     <h1 id="proxies" class="test-header">Are proxies blocked?</h1>
-    <div class="row question-container">
+    <div class="row">
       {{ range .Data.Pages }}
         {{ if in .Params.groups "proxies" }}
           {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-          <div class="col">
+          <div class="col mr-3 p-3 question-container">
           <a href="{{ .RelPermalink }}">
             <h2 class="test-header">{{ $TITLE }}</h2>
             <p class="test-paragraph">
@@ -115,10 +115,10 @@
     </div>
 
     <h1 id="performance" class="test-header">What is the speed and performance of my network?</h1>
-    <div class="row question-container">
+    <div class="row">
       {{ range .Data.Pages }}
         {{ if in .Params.groups "performance" }}
-          <div class="col">
+          <div class="col mr-3 p-3 question-container">
           <a href="{{ .RelPermalink }}">
             <h2 class="test-header">{{ .Title }}</h2>
             <p class="test-paragraph">
