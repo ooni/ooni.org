@@ -302,12 +302,15 @@ td:last-child {
 /* ================================================================== */
 /* Navigation */
 
-nav a {
+.nav-menu a {
   opacity: 0.3;
 }
-
-nav a.active {
+.nav-menu a.active, .nav-menu a:hover {
   opacity: 1;
+}
+
+nav a:hover {
+  text-decoration: none;
 }
 
 nav a {
@@ -328,6 +331,11 @@ nav h1 {
   font-size: 1.38rem;
   text-transform: uppercase;
   margin-bottom: 0;
+}
+
+nav a:hover .logo,
+nav a:hover .wordmark {
+  opacity: 1;
 }
 
 nav .logo {

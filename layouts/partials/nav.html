@@ -1,5 +1,6 @@
 {{ $basePrefix := .Scratch.Get "basePrefix" }}
 {{ $selectedMenu := split .URL "/" }}
+<div class="nav-menu">
 <a href="/about/"
   {{ if in $selectedMenu "about" }}
    class="active"
@@ -30,3 +31,4 @@
    class="active"
   {{end}}
    >Blog</a>
+</div>
