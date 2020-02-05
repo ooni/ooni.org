@@ -6,16 +6,6 @@ if [ "$CONTEXT" == "deploy-preview" ];then
 fi
 
 echo "Using BASE_URL=$BASE_URL"
-
-mkdir -p bin contrib
-# wget hugo is not needed, netlify already has it
-pip install sphinx sphinx_rtd_theme
-# netlify may cache contrib/ooni-probe from previous build
-if [[ ! -d contrib/ooni-probe ]]; then
-    git clone --depth 1 --branch master https://github.com/ooni/probe-legacy.git contrib/ooni-probe;
-else
-    cd contrib/ooni-probe && git pull --ff-only origin master;
-fi
 hugo --buildDrafts --baseUrl="$BASE_URL"
 cp static/googlec8ce605468a38232.html public/
 cp _redirects public/
