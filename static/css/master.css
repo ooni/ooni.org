@@ -439,14 +439,17 @@ h1.article-title {
 /* Footer */
 
 .sponsors-home {
+  padding-top: 20px;
   color: #b4b4b4;
   background-color: #26292c;
-  text-align: center;
-  left: 0;
-  bottom: 0;
-  min-height: 100px;
-  width: 100%;
-  padding-bottom: 30px;
+}
+
+.sponsors-home h2 {
+    text-align: center;
+}
+
+.sponsors-home .col {
+    padding-bottom: 30px;
 }
 
 .sponsors {
