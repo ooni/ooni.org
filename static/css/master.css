@@ -5,13 +5,17 @@
 /* Font selection */
 
 html {
-  font-family: "Fira Sans", sans-serif;
   color: #1c1c1c;
   background-color: #fff;
 }
 
-h1, h2, nav, .toc {
+body {
+  font-family: "Source Serif Pro", serif;
+}
+
+h1, h2, h3, h4, h5, nav, .toc {
   font-weight: bold;
+  font-family: "Fira Sans", sans-serif;
 }
 
 pre, code {
