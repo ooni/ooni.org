@@ -2,18 +2,18 @@
 
 <div class="container">
   <nav>
-    <div class="col-1">
+    <div class="col-4">
       <a href="/">
         <img src="/images/ooni-header-mascot.png" width="25" height="25"/>
         <h1>OONI</h1>
       </a>
     </div>
-    <div class="col-2">
+    <div class="col-8">
       {{ partial "nav.html" }}
     </div>
   </nav>
 
-  <main class="col-3 content">
+  <main class="col content">
   {{ if .Title }}
       <h1 class="article-title">{{ .Title }}</h1>
   {{ end }}
