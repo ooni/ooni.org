@@ -16,10 +16,7 @@ if [[ ! -d contrib/ooni-probe ]]; then
 else
     cd contrib/ooni-probe && git pull --ff-only origin master;
 fi
-hugo --buildDrafts --baseUrl=$BASE_URL
-make -C contrib/ooni-probe/docs clean
-make -C contrib/ooni-probe/docs html
-cp -R contrib/ooni-probe/docs/build/html/ public/docs/
+hugo --buildDrafts --baseUrl="$BASE_URL"
 cp static/googlec8ce605468a38232.html public/
 cp _redirects public/
 # netlify does not permit `.web.mtime` filename for unknown reason
