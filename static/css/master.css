@@ -176,10 +176,11 @@ p.cta a::after {
   content: " →";
 }
 
+@media screen and (max-width:576px) {
 .subtext {
   margin-top:20%
 }
-
+}
 /* ================================================================== */
 /* Block quotes */
 
@@ -401,6 +402,7 @@ header .wordmark {
   display: block;
   object-fit: contain;
   height: 17.5rem;
+  width: 100%;
 }
 
 .homepage .ooni-explorer img {
