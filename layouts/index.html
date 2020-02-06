@@ -88,19 +88,37 @@
     </div>
 
 
-    <div class="container"> <!-- Container Wrap till the end -->
+    <div class="container">
       <div class="row pad-below">
         <div class="col-3">
-          <h2 class="overlined">Blog Posts</h2>
+          <h2 class="overlined">Research Reports</h2>
         </div>
        <div class="col-9 blog-summary">
-          {{ range first 5 (where (where .Site.Pages.ByDate.Reverse "Section" "post") "Kind" "page") }}
+         {{ range first 5 .Site.Taxonomies.categories.report }}
           <a href="{{ .RelPermalink }}">
               <p class="title">{{ .Title }}</p>
               <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
           </a>
           {{ end }}
-          <a class="read-more" href="/post/">Read More</a>
+          <a class="read-more" href="/post/">View all</a>
+        </div>
+      </div>
+
+
+      <div class="row pad-below">
+        <div class="col-3">
+          <h2 class="overlined">Blog Posts</h2>
+        </div>
+       <div class="col-9 blog-summary">
+         {{ with .Site.Taxonomies.categories.blog }}
+         {{ range first 5 . }}
+          <a href="{{ .RelPermalink }}">
+              <p class="title">{{ .Title }}</p>
+              <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
+          </a>
+          {{ end }}
+          {{ end }}
+          <a class="read-more" href="/post/">View all</a>
         </div>
       </div>
 
