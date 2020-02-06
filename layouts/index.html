@@ -6,18 +6,18 @@
  </a>
  <div class="container">
     <nav>
-      <div class="col-1"></div>
-      <div class="col-2">
+      <div class="col-3"></div>
+      <div class="col-9">
         {{ partial "nav.html" }}
       </div>
     </nav>
 
     <header>
       <div class="row">
-      <div class="col-1">
+      <div class="col-3 mt-5">
         <img class="logo" src="/images/ooni-header-mascot.png" srcset="/images/ooni-header-mascot-2x.png 2x" height="200" width="200"/>
       </div>
-        <div class="col-2">
+        <div class="col-9 mb-5 mt-5">
           <img class="wordmark" src="/images/wordmark.png" srcset="/images/wordmark-2x.png 2x" alt="OONI"/>
           <h2>Open Observatory of Network Interference</h2>
           <p>A free software, global observation network for detecting censorship,
@@ -31,13 +31,13 @@
       <div class="ooni-explorer">
       <div class="container">
         <div class="row">
-          <div class="col-1">
-            <h2>OONI Explorer</h2>
+          <div class="col-3">
+            <h2 class="overlined">OONI Explorer</h2>
               <p class="subtext">OONI has been monitoring internet censorship around the world since 2012</p>
               <p class="subtext"><a class="explorer-button btn" href="https://explorer.ooni.org/">Explore OONI Data</a></p>
           </div>
 
-        <div class="col-2">
+        <div class="col-9">
         <img src="/images/ooni-explorer-screenshot" srcset="/images/ooni-explorer-screenshot@2x.png 1440w"  />
       </div>
     </div>
@@ -45,15 +45,17 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-1"><h2>What OONI does</h2></div>
-        <div class="col-2 pad-below">
+        <div class="col-3">
+          <h2 class="overlined" >What OONI does</h2>
+        </div>
+        <div class="col-9 pad-below">
           <h3>OONI develops free software tests designed to examine the following:</h3>
-          <br>
           <ul>
           <li>Blocking of websites
           <li>Blocking of instant messaging apps
           <li>Blocking of Tor and other circumvention tools
           <li>Detection of systems that could be responsible for censorship and/or surveillance
+          </ul>
 
           <p class="cta" style="margin-bottom: 5px;"><a href="/nettest/">Testing methodology</a></p>
           <p class="cta"><a href="/support/faq/">Frequently Asked Questions</a></p>
@@ -70,15 +72,15 @@
     <div class="how-it-works">
       <div class="container">
         <div class="row">
-          <div class="col-1">
-            <h2>How OONI Works</h2>
+          <div class="col-3">
+            <h2 class="overlined">How OONI Works</h2>
             <p class="subtext">OONI scans TCP, DNS, HTTP and TLS connections for tampering. Some tests
             work by requesting data over an unencrypted connection and comparing
             against a known good value. Others check for DNS spoofing, keyword
             filtering, transparent proxying and website block lists.</p>
             <p class="cta"><a style="color: white;" href="/support/glossary">Read the OONI glossary</a></p>
           </div>
-          <div class="col-2">
+          <div class="col-9">
             <img src="/images/how-ooni-works.png" srcset="/images/how-ooni-works-2x.png 2x" width="680" height="280" />
           </div>
         </div>
@@ -87,93 +89,11 @@
 
 
     <div class="container"> <!-- Container Wrap till the end -->
-
-
-      <!-- div class="row">
-        <div class="col-1">
-          <h2>Recent Measurements</h2>
-        </div>
-        <div class="col-2"></div>
-      </div>
-      <div class="row measurements">
-        <table class="col-3">
-          <tr>
-            <td class="tcol-1"></td>
-            <td>NZ</td>
-            <td>AU</td>
-            <td>US</td>
-            <td>CN</td>
-            <td>NL</td>
-            <td>BR</td>
-            <td>CA</td>
-            <td>CH</td>
-            <td>DE</td>
-          </tr>
-
-          <tr>
-            <td class="tcol-1">DNS spoofing</td>
-            <td><img src="/images/dot.svg" width="2"/></td>
-            <td><img src="/images/dot.svg" width="2"/></td>
-            <td><img src="/images/dot.svg" width="10"/></td>
-            <td><img src="/images/dot.svg" width="25"/></td>
-            <td><img src="/images/dot.svg" width="3"/></td>
-            <td><img src="/images/dot.svg" width="12"/></td>
-            <td><img src="/images/dot.svg" width="22"/></td>
-            <td><img src="/images/dot.svg" width="12"/></td>
-            <td><img src="/images/dot.svg" width="6"/></td>
-          </tr>
-
-          <tr>
-            <td class="tcol-1">HTTP injection</td>
-            <td><img src="/images/dot.svg" width="2"/></td>
-            <td><img src="/images/dot.svg" width="7"/></td>
-            <td><img src="/images/dot.svg" width="10"/></td>
-            <td><img src="/images/dot.svg" width="17"/></td>
-            <td><img src="/images/dot.svg" width="3"/></td>
-            <td><img src="/images/dot.svg" width="1"/></td>
-            <td><img src="/images/dot.svg" width="4"/></td>
-            <td><img src="/images/dot.svg" width="2"/></td>
-            <td><img src="/images/dot.svg" width="0"/></td>
-          </tr>
-
-          <tr>
-            <td class="tcol-1">HTTP blocking</td>
-            <td><img src="/images/dot.svg" width="1"/></td>
-            <td><img src="/images/dot.svg" width="4"/></td>
-            <td><img src="/images/dot.svg" width="2"/></td>
-            <td><img src="/images/dot.svg" width="25"/></td>
-            <td><img src="/images/dot.svg" width="5"/></td>
-            <td><img src="/images/dot.svg" width="13"/></td>
-            <td><img src="/images/dot.svg" width="11"/></td>
-            <td><img src="/images/dot.svg" width="14"/></td>
-            <td><img src="/images/dot.svg" width="20"/></td>
-          </tr>
-
-          <tr>
-            <td class="tcol-1">Tor blocking</td>
-            <td><img src="/images/dot.svg" width="10"/></td>
-            <td><img src="/images/dot.svg" width="2"/></td>
-            <td><img src="/images/dot.svg" width="7"/></td>
-            <td><img src="/images/dot.svg" width="24"/></td>
-            <td><img src="/images/dot.svg" width="9"/></td>
-            <td><img src="/images/dot.svg" width="6"/></td>
-            <td><img src="/images/dot.svg" width="1"/></td>
-            <td><img src="/images/dot.svg" width="2"/></td>
-            <td><img src="/images/dot.svg" width="3"/></td>
-          </tr>
-
-        </table>
-      </div>
       <div class="row pad-below">
-        <div class="col-1"></div>
-        <div class="col-2 table-caption">Large circles indicate consistent, widespread traffic manipulation</div>
-      </div -->
-
-      <div class="row pad-below">
-        <div class="col-1">
-          <h2>Blog Posts</h2>
+        <div class="col-3">
+          <h2 class="overlined">Blog Posts</h2>
         </div>
-       <div class="col-2 blog-summary">
+       <div class="col-9 blog-summary">
           {{ range first 5 (where (where .Site.Pages.ByDate.Reverse "Section" "post") "Kind" "page") }}
           <a href="{{ .RelPermalink }}">
               <p class="title">{{ .Title }}</p>
@@ -185,10 +105,10 @@
       </div>
 
       <div class="row pad-below">
-        <div class="col-1">
-          <h2>Getting Involved</h2>
+        <div class="col-3">
+          <h2 class="overlined">Getting Involved</h2>
         </div>
-        <div class="col-2">
+        <div class="col-9">
             <p>Join us in IRC <a href="ircs://irc.oftc.net:6697/#ooni">#ooni on OFTC</a> (or via a <a href="https://slack.openobservatory.org/">slack bridge</a>)
             or on the
             <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk">ooni-talk</a> and 
@@ -206,10 +126,10 @@
       </div>
 
       <div class="row">
-        <div class="col-1">
-          <h2>Contact</h2>
+        <div class="col-3">
+          <h2 class="overlined">Contact</h2>
         </div>
-        <div class="col-2">
+        <div class="col-9">
             <p>To contact the OONI team send an email to <strong>contact@openobservatory.org</strong>
             Encrypted emails can be sent using the following PGP key:</p>
             <p class="fingerprint">
@@ -226,48 +146,59 @@
     </div>
   </main>
 
-  <footer class="footer-home">
-    <div class="container row">
-      <div class="col-3">
-        <h2>Friends and Sponsors</h2>
-        <div class="row sponsors">
+  <div class="sponsors-home">
+    <div class="container">
+      <h2>Friends and Sponsors</h2>
+      <div class="row">
+        <div class="col">
           <a href="https://www.opentech.fund/">
             <img src="/sponsors/otf-logo.png" alt="Open Technology Fund" width="200" height="57"/>
           </a>
-
+        </div>
+        <div class="col">
           <a href="https://www.openrightsgroup.org">
             <img src="/sponsors/open-rights-group-logo.png" alt="Open Rights Group" width="154" height="57"/>
           </a>
+        </div>
+        <div class="col">
           <a href="https://greenhost.net">
             <img src="/sponsors/greenhost-logo.png" alt="Greenhost" width="183" height="57"/>
           </a>
         </div>
-        <div class="row sponsors">
-          <a href="https://freepressunlimited.org/">
-            <img src="/sponsors/fpu-logo.png" alt="Free Press Unlimited" class="fpu" width="209" height="120"/>
-          </a>
-
+        <div class="col">
           <a href="https://www.measurementlab.net/">
             <img src="/sponsors/mlab-logo.png" alt="MLAB" class="mlab" width="183" height="63"/>
           </a>
+        </div>
 
+        <div class="col">
           <a href="https://airvpn.org">
             <img src="/sponsors/airvpn-logo.png" alt="AirVPN" class="airvpn" height="63">
           </a>
         </div>
 
-        <div class="row sponsors">
+        <div class="col">
           <a href="https://www.bytemark.co.uk">
             <img src="/sponsors/bytemark-logo.png" alt="Bytemark" class="bytemark" width="240" height="30"/>
           </a>
+        </div>
+        <div class="col">
           <a href="https://www.vpncompare.co.uk">
             <img src="/sponsors/vpncompare-logo.png" alt="VPN Compare" class="vpncompare" width="240" height="44"/>
           </a>
-
         </div>
+        <div class="col">
+          <a href="https://freepressunlimited.org/">
+            <img src="/sponsors/fpu-logo.png" alt="Free Press Unlimited" class="fpu" width="209" height="120"/>
+          </a>
+        </div>
+
+
+
       </div>
     </div>
-  </footer>
+  </div>
+  </div>
+  </div>
 
-</body>
-</html>
+{{ partial "footer.html" . }}

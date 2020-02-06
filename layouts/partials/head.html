@@ -16,9 +16,15 @@
   <meta property='og:type' content='website' />
   {{ if eq .Lang "ar" }}<link rel="stylesheet" href="/css/rtl.css">{{ end }}
 
+  <link rel="stylesheet" href="/fonts/fonts.css"/>
+
+  {{ $bootstrapReboot := resources.Get "vendor/bootstrap-reboot.css" }}
+  {{ $bootstrapGrid := resources.Get "vendor/bootstrap-grid.css" }}
+  {{ $bootstrap := slice $bootstrapReboot $bootstrapGrid | resources.Concat "css/bootstrap.css" | resources.Minify | resources.Fingerprint }}
+
+  <link rel="stylesheet" href="{{ $bootstrap.Permalink }}">
   <link rel="stylesheet" href="/css/master.css"/>
   <link rel="stylesheet" href="/css/event.css"/>
-  <link rel="stylesheet" href="/css/fonts.css"/>
   <link rel="stylesheet" href="/css/highlight-default.min.css">
   <link rel="icon" type="image/png" href="/images/favicon.png"/>
   <script src="/js/highlight.min.js"></script>
