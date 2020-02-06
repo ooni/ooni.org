@@ -1,4 +1,6 @@
-# Thematic OONI Probe testing
+---
+title: Thematic OONI Probe testing
+---
 
 Social media, news websites, and VPNs often get blocked during political events (such as elections or protests) around the world.
 
