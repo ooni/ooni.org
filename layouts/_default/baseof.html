@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+{{ $basePrefix := .Scratch.Get "basePrefix" }}
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name='viewport' content='initial-scale=1.0, width=device-width'/>
+  {{ if .RSSLink }}
+  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{ end }}
+  <title>{{if .IsHome}}{{ $.Site.Title }}{{else}}{{.Title}} | OONI {{end}}</title>
+
+  <link rel="canonical" href="https://ooni.org/" />
+  <meta name='description' content="Open Observatory of Network Interference (OONI). A free software, global observation network for detecting censorship, surveillance and traffic manipulation on the internet" />
+  <meta name='og:title' property='og:title' content='OONI - Open Observatory of Network Interference' />
+  <meta property="og:description" content="Open Observatory of Network Interference (OONI). A free software, global observation network for detecting censorship, surveillance and traffic manipulation on the internet" />
+  <meta property='og:type' content='website' />
+  {{ if eq .Lang "ar" }}<link rel="stylesheet" href="/css/rtl.css">{{ end }}
+
+  <link rel="stylesheet" href="/fonts/fonts.css"/>
+
+  {{ $bootstrapReboot := resources.Get "vendor/bootstrap-reboot.css" }}
+  {{ $bootstrapGrid := resources.Get "vendor/bootstrap-grid.css" }}
+  {{ $bootstrap := slice $bootstrapReboot $bootstrapGrid | resources.Concat "css/bootstrap.css" | resources.Minify | resources.Fingerprint }}
+
+  <link rel="stylesheet" href="{{ $bootstrap.Permalink }}">
+  <link rel="stylesheet" href="/css/master.css"/>
+  <link rel="stylesheet" href="/css/event.css"/>
+  <link rel="stylesheet" href="/css/highlight-default.min.css">
+  <link rel="icon" type="image/png" href="/images/favicon.png"/>
+  <script src="/js/highlight.min.js"></script>
+  <script src="/js/zepto.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/ooni-run/dist/widgets.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+	<!-- Piwik -->
+
+  <!-- Matomo -->
+  <script type="text/javascript">
+    var _paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//matomo.ooni.org/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+</head>
+<body>
+
+  {{ block "navbar" . }}
+
+  {{ $selectedMenu := split .URL "/" }}
+  <nav class="container">
+    <div class="col-4">
+      <a href="/">
+        <img class="logo" src="/images/ooni-header-mascot.png" width="25" height="25"/>
+        <img class="wordmark" src="/images/wordmark.png" alt="OONI" height="14" width="53"/>
+      </a>
+    </div>
+    <div class="col-8">
+      <div class="nav-menu">
+      <a href="/about/"
+        {{ if in $selectedMenu "about" }}
+         class="active"
+        {{end}}
+        >About</a>
+      <a href="/install/"
+        {{ if in $selectedMenu "install" }}
+         class="active"
+        {{end}}
+        >Install</a>
+      <a href="/nettest/"
+        {{ if in $selectedMenu "nettest" }}
+         class="active"
+        {{end}}
+        >Tests</a>
+      <a href="/data/"
+        {{ if in $selectedMenu "data" }}
+         class="active"
+        {{end}}
+        >Data</a>
+      <a href="/get-involved/"
+        {{ if in $selectedMenu "get-involved" }}
+         class="active"
+        {{end}}
+        >Get Involved</a>
+      <a href="/reports/"
+         {{ if in $selectedMenu "reports" }}
+         class="active"
+         {{end}}
+      >Reports</a>
+      <a href="/post/"
+        {{ if in $selectedMenu "post" }}
+         class="active"
+        {{end}}
+         >Blog</a>
+      </div>
+    </div>
+  </nav>
+  {{ end }}
+
+  {{ block "main" . }}
+  <!-- The part of the page that begins to differ between templates -->
+  {{ end }}
+
+  {{ block "footer" . }}
+  <footer class="p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="pb-2">
+            <img src="/images/OONI-HorizontalMonochromeInverted.svg" height="32px"/>
+          </div>
+          <div class="pb-4">Global community measuring internet censorship around the world.</div>
+          <div class="">
+            <div>© 2020 Open Observatory of Network Interference (OONI)</div>
+            <div class="">
+              <a href="https://github.com/ooni/license">Content available under a Creative Commons license.</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-8">
+          <div class="row">
+            <div class="col">
+              <div class="footer-section-title">About</div>
+              <div class="footer-item"><a href="/about/">OONI</a></div>
+              <div class="footer-item"><a href="/about/data-policy/">Data Policy</a></div>
+              <div class="footer-item"><a class="" href="https://github.com/ooni/license/tree/master/data">Data License</a></div>
+              <div class="footer-item"><a class="" href="/about/#contact">Contact</a></div>
+            </div>
+
+            <div class="col">
+              <div class="footer-section-title">OONI Probe</div>
+              <div class="footer-item"><a href="https://ooni.io/install/">Install</a></div>
+              <div class="footer-item"><a href="https://ooni.io/nettest/">Tests</a></div>
+              <div class="footer-item"><a href="https://github.com/ooni">Source code</a></div>
+              <div class="footer-item"><a href="https://api.ooni.io/">API</a></div>
+            </div>
+            <div class="col">
+              <div class="footer-section-title">Updates</div>
+              <div class="footer-item"><a href="/post/">Blog</a></div>
+              <div class="footer-item"><a href="https://twitter.com/OpenObservatory">Twitter</a></div>
+              <div class="footer-item"><a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk">Mailing list</a></div>
+              <div class="footer-item"><a href="https://ooni.slack.org/">Slack</a></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  {{ end }}
+
+</body>
+</html>

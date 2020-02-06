@@ -1,20 +1,5 @@
-{{ .Scratch.Set "basePrefix" "../../" }}
-{{ partial "head.html" . }}
-
+{{ define "main" }}
 <div class="container">
-
-  <nav>
-    <div class="col-4">
-      <a href="/">
-        <img class="logo" src="/images/ooni-header-mascot.png" width="25" height="25"/>
-        <img class="wordmark" src="/images/wordmark.png" alt="OONI" height="14" width="53"/>
-      </a>
-    </div>
-    <div class="col-8">
-      {{ partial "nav.html" . }}
-    </div>
-  </nav>
-
   <h1>Blog posts</h1>
   <main class="col">
     {{ with .Site.Taxonomies.categories.blog }}
@@ -37,7 +22,6 @@
     {{ end }}
     {{ end }}
   </main>
-
 </div>
 
-{{ partial "footer.html" . }}
+{{ end }}
