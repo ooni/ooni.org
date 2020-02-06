@@ -15,10 +15,9 @@
     </div>
   </nav>
 
-  <h1>Blog posts</h1>
+  <h1>Research reports</h1>
   <main class="col">
-    {{ with .Site.Taxonomies.categories.blog }}
-    {{ range . }}
+    {{ range .Site.Taxonomies.categories.report }}
 
       <div class="row blog-summary">
         <div>
@@ -34,7 +33,6 @@
         </div>
       </div>
 
-    {{ end }}
     {{ end }}
   </main>
 
