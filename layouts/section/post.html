@@ -1,9 +1,8 @@
 {{ define "main" }}
 <div class="container">
-  <h1>Blog posts</h1>
+  <h1>Research Reports & Blog Posts</h1>
   <main class="col">
-    {{ with .Site.Taxonomies.categories.blog }}
-    {{ range . }}
+    {{ range where .Data.Pages.ByDate.Reverse "Section" "post" }}
 
       <div class="row blog-summary">
         <div>
@@ -19,7 +18,6 @@
         </div>
       </div>
 
-    {{ end }}
     {{ end }}
   </main>
 </div>

@@ -7,12 +7,13 @@
   {{ if .RSSLink }}
   <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
   {{ end }}
-  <title>{{if .IsHome}}{{ $.Site.Title }}{{else}}{{.Title}} | OONI {{end}}</title>
+  <title>{{if .Title }}{{ .Title }}{{else}}{{ $.Site.Title}} | OONI {{end}}</title>
 
   <link rel="canonical" href="https://ooni.org/" />
-  <meta name='description' content="Open Observatory of Network Interference (OONI). A free software, global observation network for detecting censorship, surveillance and traffic manipulation on the internet" />
-  <meta name='og:title' property='og:title' content='OONI - Open Observatory of Network Interference' />
-  <meta property="og:description" content="Open Observatory of Network Interference (OONI). A free software, global observation network for detecting censorship, surveillance and traffic manipulation on the internet" />
+  <meta name='description' content="{{ .Description }}" />
+  <meta name='description' content="{{if .Description }}{{ .Description }}{{else}}{{ $.Site.Params.defaultDescription }} {{end}}" />
+  <meta name='og:title' property='og:title' content='{{if .Title }}{{ .Title }}{{else}}{{ $.Site.Title}} | OONI {{end}}' />
+  <meta property="og:description" content="{{if .Description }}{{ .Description }}{{else}}{{ $.Site.Params.defaultDescription }} {{end}}" />
   <meta property='og:type' content='website' />
   {{ if eq .Lang "ar" }}<link rel="stylesheet" href="/css/rtl.css">{{ end }}
 
@@ -93,8 +94,8 @@
          class="active"
          {{end}}
       >Reports</a>
-      <a href="/post/"
-        {{ if in $selectedMenu "post" }}
+      <a href="/blog/"
+        {{ if in $selectedMenu "blog" }}
          class="active"
         {{end}}
          >Blog</a>

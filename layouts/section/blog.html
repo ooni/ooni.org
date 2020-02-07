@@ -1,9 +1,9 @@
 {{ define "main" }}
-
 <div class="container">
   <h1>{{ .Title }}</h1>
   <main class="col">
-    {{ range .Site.Taxonomies.categories.report }}
+    {{ with .Site.Taxonomies.categories.blog }}
+    {{ range . }}
 
       <div class="row blog-summary">
         <div>
@@ -20,8 +20,8 @@
       </div>
 
     {{ end }}
+    {{ end }}
   </main>
-
 </div>
 
 {{ end }}

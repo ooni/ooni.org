@@ -4,6 +4,9 @@ title = "OONI: Open Observatory of Network Interference"
 DefaultContentLanguage = "en"
 pluralizeListTitles = false
 
+[params]
+defaultDescription = "Open Observatory of Network Interference (OONI). A free software, global observation network for detecting censorship, surveillance and traffic manipulation on the internet"
+
 [Languages]
 [Languages.ar]
 [Languages.en]
