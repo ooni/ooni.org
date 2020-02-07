@@ -1,0 +1,9 @@
+User-agent: *
+
+# We tell search engines to ignore these paths which don't have content in them
+Disallow: /categories/
+Disallow: /tags/
+Disallow: /retired/
+Allow: /
+
+Sitemap: https://ooni.org/sitemap.xml
