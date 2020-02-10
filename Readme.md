@@ -2,8 +2,7 @@
 
 This is the canonical website for OONI, that you can access via:
 
-* https://ooni.io
-* https://ooni.torproject.org
+* https://ooni.org
 * https://openobservatory.github.io
 * https://ooni.netlify.com
 
