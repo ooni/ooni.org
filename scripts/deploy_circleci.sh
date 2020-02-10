@@ -13,4 +13,4 @@ git add .
 git config --global user.email "admin@openobservatory.org"
 git config --global user.name "OONI Git Pusher"
 git commit -am 'Static site deploy'
-git push --set-upstream openobservatory-gh master
+git push --set-upstream openobservatory-gh master --force
