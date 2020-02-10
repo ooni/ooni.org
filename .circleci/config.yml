@@ -33,8 +33,8 @@ workflows:
     jobs:
       - build-website
       - deploy-to-gh:
-          #filters:
-          #    branches:
-          #      only: master
+          filters:
+              branches:
+                only: master
           requires:
             - build-website
