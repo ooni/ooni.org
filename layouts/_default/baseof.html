@@ -56,13 +56,13 @@
 
   {{ $selectedMenu := split .URL "/" }}
   <nav class="container">
-    <div class="col-4">
+    <div class="col-12 col-md-4">
       <a href="/">
         <img class="logo" src="/images/ooni-header-mascot.png" width="25" height="25"/>
         <img class="wordmark" src="/images/wordmark.png" alt="OONI" height="14" width="53"/>
       </a>
     </div>
-    <div class="col-8">
+    <div class="col-12 col-md-8">
       <div class="nav-menu">
       <a href="/about/"
         {{ if in $selectedMenu "about" }}
@@ -112,7 +112,7 @@
   <footer class="p-4">
     <div class="container">
       <div class="row">
-        <div class="col-4">
+        <div class="col-12 col-md-4">
           <div class="pb-2">
             <img src="/images/OONI-HorizontalMonochromeInverted.svg" height="32px"/>
           </div>
@@ -126,8 +126,8 @@
 
         </div>
 
-        <div class="col-8">
-          <div class="row">
+        <div class="col-12 col-md-8">
+          <div class="row mt-5">
             <div class="col">
               <div class="footer-section-title">About</div>
               <div class="footer-item"><a href="/about/">OONI</a></div>

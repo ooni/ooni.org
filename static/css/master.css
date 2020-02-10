@@ -363,7 +363,7 @@ header h2 {
 }
 
 header p {
-  width: 21.5em;
+  max-width: 21.5em;
 }
 
 header .logo {
