@@ -28,7 +28,7 @@ Therefore the potential risks associated to running OONI Probe depend on:
 
 ## Understanding potential risks more comprehensively
 
-OONI's [software tests](https://github.com/TheTorProject/ooni-probe) (called
+OONI's [software tests](https://github.com/ooni/probe) (called
 OONI Probe) are designed to test networks for signs of censorship, surveillance
 and traffic manipulation. In some countries around the world using OONI Probe may
 result in criminal prosecution, fines, or even imprisonment. We therefore
@@ -38,7 +38,7 @@ the documentation below.
 
 Users run OONI Probe at their own risk. By installing OONI Probe, users agree to
 comply with OONI's software
-[license](https://github.com/TheTorProject/ooni-probe/blob/master/LICENSE)
+[license](https://github.com/ooni/license)
 and [Data Policy](/about/data-policy). Neither the
 [OONI project](https://ooni.org/) nor its parent organization, [The Tor Project](https://www.torproject.org/), can be held liable, jointly or
 severally, at law or at equity, to OONI Probe users and other third parties, for
@@ -176,7 +176,7 @@ bridges](https://bridges.torproject.org/), [Psiphon](https://psiphon.ca/) and
 [Lantern](https://getlantern.org/), are blocked.
 
 We urge you to review the
-**[specifications](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs)**
+**[specifications](https://github.com/ooni/spec)**
 for each OONI Probe test carefully, prior to running them.
 
 #### Legality of tested websites
@@ -301,7 +301,7 @@ Please confirm you are reading the latest version before relying on any advice.
 
 Again, users run OONI Probe at their own risk. By installing OONI Probe, users agree to
 comply with OONI's software
-[license](https://github.com/TheTorProject/ooni-probe/blob/master/LICENSE)
+[license](https://github.com/ooni/license)
 and [Data Policy](/about/data-policy). Neither the
 [OONI project](https://ooni.org/) nor its parent organization, [The Tor Project](https://www.torproject.org/), can be held liable, jointly or
 severally, at law or at equity, to OONI Probe users and other third parties, for
