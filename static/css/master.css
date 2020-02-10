@@ -177,9 +177,14 @@ p.cta a::after {
 }
 
 @media screen and (max-width:576px) {
-.subtext {
-  margin-top:20%
-}
+  .subtext {
+    margin-top:20%
+  }
+  .xs-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 /* ================================================================== */
 /* Block quotes */
