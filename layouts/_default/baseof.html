@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-{{ $basePrefix := .Scratch.Get "basePrefix" }}
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
@@ -7,14 +6,14 @@
   {{ if .RSSLink }}
   <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
   {{ end }}
-  <title>{{if .Title }}{{ .Title }}{{else}}{{ $.Site.Title}} | OONI {{end}}</title>
+  <title>{{ .Title }} | OONI</title>
 
-  <link rel="canonical" href="https://ooni.org/" />
-  <meta name='description' content="{{ .Description }}" />
-  <meta name='description' content="{{if .Description }}{{ .Description }}{{else}}{{ $.Site.Params.defaultDescription }} {{end}}" />
-  <meta name='og:title' property='og:title' content='{{if .Title }}{{ .Title }}{{else}}{{ $.Site.Title}} | OONI {{end}}' />
-  <meta property="og:description" content="{{if .Description }}{{ .Description }}{{else}}{{ $.Site.Params.defaultDescription }} {{end}}" />
-  <meta property='og:type' content='website' />
+  <link rel="canonical" href="https://ooni.org{{ .RelPermalink }}" />
+  <meta name='description' content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+
   {{ if eq .Lang "ar" }}<link rel="stylesheet" href="/css/rtl.css">{{ end }}
 
   <link rel="stylesheet" href="/fonts/fonts.css"/>
