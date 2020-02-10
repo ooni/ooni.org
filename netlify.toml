@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "scripts/netlify-build.sh"
+command = "scripts/deploy_netlify.sh"
 
 [context.production.environment]
 HUGO_VERSION = "0.58.2"

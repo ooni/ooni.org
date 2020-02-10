@@ -1,51 +1,19 @@
 ---
-branches:
-  only:
-    - master # that's unreasonable to have N versions of gh-pages website :)
-
 git:
   depth: 3 # https://docs.travis-ci.com/user/customizing-the-build/#Git-Clone-Depth
 
-dist: trusty # more "modern" stuff, that's default on 2017-10-18
-sudo: false # speedup, that's default on 2017-10-18
-
-language: python # speedup
-python:
-  - 2.7
+before_install:
+  - openssl aes-256-cbc -K $encrypted_aa77c3221535_key -iv $encrypted_aa77c3221535_iv -in scripts/id_travis_deploy_key.enc -out scripts/id_travis_deploy_key -d
 
 install:
-  - mkdir -p bin contrib
   - ./scripts/install_hugo.sh
-  - pip install sphinx sphinx_rtd_theme # Should I specify sphinx versions?
-  - if [ ! -d contrib/ooni-probe ]; then git clone --depth 1 --branch master https://github.com/ooni/probe-legacy.git contrib/ooni-probe; else cd contrib/ooni-probe && git pull --ff-only origin master; fi
 
 script:
-  # keep this in-sync with `Makefile`, this copy-pasta is here to track execution time of each step at Travis CI
-  # `public` directory is a scratchpad for website generator
-  # `design` directory is http://openobservatory.github.io/design/ website for https://github.com/openobservatory/design repo
-  - rm -rf public design
-  - bin/hugo --buildDrafts --baseUrl=https://ooni.org
-  - make -C contrib/ooni-probe/docs clean
-  - make -C contrib/ooni-probe/docs html
-  - cp -R contrib/ooni-probe/docs/build/html/ public/docs/
-  - git show HEAD -q '--format=# HELP ooni_web_mtime UNIX Time of the commit used to build website.%n# TYPE ooni_web_mtime gauge%nooni_web_mtime %ct' >public/_web.mtime.txt
-  - touch public/.nojekyll
-
-env:
-  # GITHUB_TOKEN=... for @OONIWebPusher see ooni-sysadmin/scripts/mk-travis-vault-env for example
-  # Travis `pages` deploy provides requires "personal access token", that's why it's not a deploy key, see https://docs.travis-ci.com/user/deployment/pages/ for details
-  # Password for the @OONIWebPusher is maintained by leonid@openobservatory.org, password reset email address is admin@openobservatory.org
-  - secure: "c9wPMEIZ6qWZi2uQl8RvDq9bVnOhxwDlZPJLyT4m+5WBJau36pBVfZdG8Wxp20dV778jzTrwE1TzFAD80+E95XN0dzQtG2TZASJ/q0IXi7qR4xEnuUi0kDkLAqcvyS1PxQi1W0aUp0t4jYIiqLBDfPol0rJYwTIbsECMv3Rhvyo="
+  - ./scripts/build_website.sh
 
 deploy:
   on:
-    branch: master # XXX: wtf does it mean?
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: public
-  repo: OpenObservatory/OpenObservatory.github.io
-  target_branch: master
-  name: OONI Web Pusher
-  email: admin@openobservatory.org # publishing OONI with deploy@travis-ci.org is ugly
+    branch: master
+  provider: script
+  script: ./scripts/deploy_travis.sh
 ...
