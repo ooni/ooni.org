@@ -9,7 +9,7 @@
   {{ end }}
   <title>{{if .Title }}{{ .Title }}{{else}}{{ $.Site.Title}} | OONI {{end}}</title>
 
-  <link rel="canonical" href="https://ooni.org/" />
+  <link rel="canonical" href="https://ooni.org{{ .RelPermalink }}" />
   <meta name='description' content="{{ .Description }}" />
   <meta name='description' content="{{if .Description }}{{ .Description }}{{else}}{{ $.Site.Params.defaultDescription }} {{end}}" />
   <meta name='og:title' property='og:title' content='{{if .Title }}{{ .Title }}{{else}}{{ $.Site.Title}} | OONI {{end}}' />
