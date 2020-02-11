@@ -24,13 +24,16 @@
 
   <link rel="stylesheet" href="{{ $bootstrap.Permalink }}">
   <link rel="stylesheet" href="/css/master.css"/>
-  <link rel="stylesheet" href="/css/event.css"/>
-  <link rel="stylesheet" href="/css/highlight-default.min.css">
+
+  {{/* Deferred loading of css based on: https://web.dev/defer-non-critical-css/ */}}
+  <link rel="preload" href="/css/highlight-default.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/css/highlight-default.min.css"></noscript>
+
   <link rel="icon" type="image/png" href="/images/favicon.png"/>
-  <script src="/js/highlight.min.js"></script>
-  <script src="/js/zepto.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/ooni-run/dist/widgets.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="/js/highlight.min.js" defer></script>
+  <script src="/js/zepto.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/ooni-run/dist/widgets.js" defer></script>
+  <script defer>hljs.initHighlightingOnLoad();</script>
 	<!-- Piwik -->
 
   <!-- Matomo -->
