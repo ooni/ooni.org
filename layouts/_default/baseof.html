@@ -57,50 +57,67 @@
   {{ block "navbar" . }}
 
   {{ $selectedMenu := split .URL "/" }}
-  <nav class="container">
-    <div class="col-3">
-      <a href="/">
-        <img class="logo" src="/images/ooni-header-mascot.png" width="25" height="25"/>
-        <img class="wordmark" src="/images/wordmark.png" alt="OONI" height="14" width="53"/>
-      </a>
-    </div>
-    <div class="col-9">
-      <div class="nav-menu">
-      <a href="/about/"
-        {{ if in $selectedMenu "about" }}
-         class="active"
-        {{end}}
-        >About</a>
-      <a href="/install/"
-        {{ if in $selectedMenu "install" }}
-         class="active"
-        {{end}}
-        >Install</a>
-      <a href="/nettest/"
-        {{ if in $selectedMenu "nettest" }}
-         class="active"
-        {{end}}
-        >Tests</a>
-      <a href="/data/"
-        {{ if in $selectedMenu "data" }}
-         class="active"
-        {{end}}
-        >Data</a>
-      <a href="/get-involved/"
-        {{ if in $selectedMenu "get-involved" }}
-         class="active"
-        {{end}}
-        >Get Involved</a>
-      <a href="/reports/"
-         {{ if in $selectedMenu "reports" }}
-         class="active"
-         {{end}}
-      >Reports</a>
-      <a href="/blog/"
-        {{ if in $selectedMenu "blog" }}
-         class="active"
-        {{end}}
-         >Blog</a>
+  <nav class="container pt-2">
+    <div class="row align-items-center">
+      <div class="col-lg-3">
+        <a href="/">
+          <div class="logo">
+          {{ partial "svg/OONI-HorizontalColor.svg" }}
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-9 nav-menu">
+        <div class="row">
+          <div class="col-lg">
+            <a href="/about/"
+               {{ if in $selectedMenu "about" }}
+               class="active"
+               {{end}}
+               >About</a>
+          </div>
+          <div class="col-lg">
+            <a href="/install/"
+               {{ if in $selectedMenu "install" }}
+               class="active"
+               {{end}}
+               >Install</a>
+          </div>
+          <div class="col-lg">
+            <a href="/nettest/"
+               {{ if in $selectedMenu "nettest" }}
+               class="active"
+               {{end}}
+               >Tests</a>
+          </div>
+          <div class="col-lg">
+            <a href="/data/"
+               {{ if in $selectedMenu "data" }}
+               class="active"
+               {{end}}
+               >Data</a>
+          </div>
+          <div class="col-lg">
+            <a href="/get-involved/"
+               {{ if in $selectedMenu "get-involved" }}
+               class="active"
+               {{end}}
+               >Get Involved</a>
+          </div>
+          <div class="col-lg">
+            <a href="/reports/"
+               {{ if in $selectedMenu "reports" }}
+               class="active"
+               {{end}}
+               >Reports</a>
+          </div>
+          <div class="col-lg">
+            <a href="/blog/"
+               {{ if in $selectedMenu "blog" }}
+               class="active"
+               {{end}}
+               >Blog</a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
@@ -129,28 +146,28 @@
         </div>
 
         <div class="col-12 col-md-8">
-          <div class="row mt-5">
-            <div class="col">
+          <div class="row">
+            <div class="mt-3 col-lg">
               <div class="footer-section-title">About</div>
-              <div class="footer-item"><a href="/about/">OONI</a></div>
-              <div class="footer-item"><a href="/about/data-policy/">Data Policy</a></div>
-              <div class="footer-item"><a class="" href="https://github.com/ooni/license/tree/master/data">Data License</a></div>
-              <div class="footer-item"><a class="" href="/about/#contact">Contact</a></div>
+              <div class="pb-1"><a href="/about/">OONI</a></div>
+              <div class="pb-1"><a href="/about/data-policy/">Data Policy</a></div>
+              <div class="pb-1"><a class="" href="https://github.com/ooni/license/tree/master/data">Data License</a></div>
+              <div class="pb-1"><a class="" href="/about/#contact">Contact</a></div>
             </div>
 
-            <div class="col">
+            <div class="mt-3 col-lg">
               <div class="footer-section-title">OONI Probe</div>
-              <div class="footer-item"><a href="https://ooni.io/install/">Install</a></div>
-              <div class="footer-item"><a href="https://ooni.io/nettest/">Tests</a></div>
-              <div class="footer-item"><a href="https://github.com/ooni">Source code</a></div>
-              <div class="footer-item"><a href="https://api.ooni.io/">API</a></div>
+              <div class="pb-1"><a href="https://ooni.io/install/">Install</a></div>
+              <div class="pb-1"><a href="https://ooni.io/nettest/">Tests</a></div>
+              <div class="pb-1"><a href="https://github.com/ooni">Source code</a></div>
+              <div class="pb-1"><a href="https://api.ooni.io/">API</a></div>
             </div>
-            <div class="col">
+            <div class="mt-3 col-lg">
               <div class="footer-section-title">Updates</div>
-              <div class="footer-item"><a href="/post/">Blog</a></div>
-              <div class="footer-item"><a href="https://twitter.com/OpenObservatory">Twitter</a></div>
-              <div class="footer-item"><a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk">Mailing list</a></div>
-              <div class="footer-item"><a href="https://ooni.slack.org/">Slack</a></div>
+              <div class="pb-1"><a href="/post/">Blog</a></div>
+              <div class="pb-1"><a href="https://twitter.com/OpenObservatory">Twitter</a></div>
+              <div class="pb-1"><a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk">Mailing list</a></div>
+              <div class="pb-1"><a href="https://ooni.slack.org/">Slack</a></div>
             </div>
           </div>
 

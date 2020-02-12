@@ -27,16 +27,12 @@ pre, code {
 /* Document structure */
 
 nav {
-  min-height: 2.5rem;
-  display: flex;
-  align-items: center;
-  margin-top: 1rem;
 }
 
 footer {
   background-color: rgb(0, 44, 75);
   color: #fff;
-  font-size: 0.8rem;
+  font-size: 14px;
   font-family: "Fira Sans", sans-serif;
 }
 
@@ -47,6 +43,9 @@ footer {
 footer a {
   color: #fff;
   opacity: 0.5;
+  display: block;
+  padding: 2px 0;
+  margin: 2px 0;
 }
 footer a:hover {
   color: #fff;
@@ -320,11 +319,13 @@ nav a:hover {
 }
 
 nav a {
-  font-size: 0.8rem;
+  font-size: 14px;
   font-weight: bold;
+  text-align: center;
   text-transform: uppercase;
-  margin-right: 2rem;
   color: inherit;
+  display: block;
+  padding: 10px 0;
 }
 
 nav a:last-child {
@@ -339,8 +340,7 @@ nav h1 {
   margin-bottom: 0;
 }
 
-nav a:hover .logo,
-nav a:hover .wordmark {
+nav a:hover .logo {
   opacity: 1;
 }
 
@@ -348,6 +348,9 @@ nav .logo {
   vertical-align: -5px;
   margin-right: 0.32rem;
   opacity: 0.5;
+}
+nav .logo svg {
+  height: 30px;
 }
 
 nav .wordmark {

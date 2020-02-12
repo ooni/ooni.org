@@ -1,23 +1,35 @@
 {{ define "navbar" }}
-<nav class="container">
-  <div class="col-3">
-  </div>
-  <div class="col-9">
-    <div class="nav-menu">
+<nav class="container pt-2">
+  <div class="col-lg-9">
+    <div class="nav-menu row">
+      <div class="col-lg">
       <a href="/about/"
          >About</a>
+      </div>
+      <div class="col-lg">
       <a href="/install/"
          >Install</a>
+      </div>
+      <div class="col-lg">
       <a href="/nettest/"
          >Tests</a>
+      </div>
+      <div class="col-lg">
       <a href="/data/"
          >Data</a>
+      </div>
+      <div class="col-lg">
       <a href="/get-involved/"
          >Get Involved</a>
+      </div>
+      <div class="col-lg">
       <a href="/reports/"
          >Reports</a>
+      </div>
+      <div class="col-lg">
       <a href="/blog/"
          >Blog</a>
+      </div>
     </div>
   </div>
 </nav>
@@ -58,10 +70,10 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-3">
+        <div class="col-lg-3 col-md-12">
           <h2 class="overlined" >What OONI does</h2>
         </div>
-        <div class="col-9 pad-below">
+        <div class="col-lg-9 col-md-12 pad-below">
           <h3>OONI develops free software tests designed to examine the following:</h3>
           <ul>
           <li>Blocking of websites
@@ -103,10 +115,10 @@
 
     <div class="container">
       <div class="row pad-below">
-        <div class="col-3">
+        <div class="col-lg-3 col-md-12">
           <h2 class="overlined">Research Reports</h2>
         </div>
-       <div class="col-9 blog-summary">
+       <div class="col-lg-9 col-md-12 blog-summary">
          {{ range first 5 .Site.Taxonomies.categories.report }}
           <a href="{{ .RelPermalink }}">
               <p class="title">{{ .Title }}</p>
@@ -119,10 +131,10 @@
 
 
       <div class="row pad-below">
-        <div class="col-3">
+        <div class="col-lg-3 col-md-12">
           <h2 class="overlined">Blog Posts</h2>
         </div>
-       <div class="col-9 blog-summary">
+       <div class="col-lg-9 col-md-12 blog-summary">
          {{ with .Site.Taxonomies.categories.blog }}
          {{ range first 5 . }}
           <a href="{{ .RelPermalink }}">
@@ -136,10 +148,10 @@
       </div>
 
       <div class="row pad-below">
-        <div class="col-3">
+        <div class="col-lg-3 col-md-12">
           <h2 class="overlined">Getting Involved</h2>
         </div>
-        <div class="col-9">
+        <div class="col-lg-9 col-md-12">
             <p>Join on the <a href="https://slack.ooni.org/">OONI public slack channel</a> (some channels are also bridged with IRC <a href="ircs://irc.oftc.net:6697/#ooni">#ooni, #ooni-dev, #ooni-entropy on OFTC</a>)
             or on the <a
               href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk">ooni-talk</a>
@@ -153,10 +165,10 @@
       </div>
 
       <div class="row">
-        <div class="col-3">
+        <div class="col-lg-3 col-md-12">
           <h2 class="overlined">Contact</h2>
         </div>
-        <div class="col-9">
+        <div class="col-lg-9 col-md-12">
             <p>To contact the OONI team send an email to <strong>contact@openobservatory.org</strong>
             Encrypted emails can be sent using the following PGP key:</p>
             <p class="fingerprint">
