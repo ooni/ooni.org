@@ -369,10 +369,10 @@ header p {
   max-width: 21.5em;
 }
 
-header .logo {
-  object-fit: contain;
-  height: 12.5rem;
-  width: 12.5rem;
+header .logo svg {
+    height: 180px;
+    margin: auto;
+    display: block;
 }
 
 header .wordmark {
