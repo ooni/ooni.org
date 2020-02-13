@@ -309,6 +309,7 @@ td:last-child {
 
 .nav-menu a {
   opacity: 0.3;
+  white-space: nowrap;
 }
 .nav-menu a.active, .nav-menu a:hover {
   opacity: 1;
