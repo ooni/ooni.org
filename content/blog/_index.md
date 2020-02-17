@@ -1,4 +1,4 @@
 ---
 title: Blog posts
-description: Read our OONI blog posts for news and updates
+description: Read our blog posts for news and updates from the OONI-verse
 ---
