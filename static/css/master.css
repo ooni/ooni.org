@@ -125,6 +125,7 @@ pre code {
 
 code {
   font-size: 0.9rem;
+  font-weight: 400;
 }
 
 
@@ -235,15 +236,15 @@ table {
     padding: 5px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     animation: float 5s infinite;
+    font-family: Fira Sans;
 }
 
 th {
   color: #fff;
   background: #0588CB;
-  border-bottom: 4px solid #fff;
-  border-right: 1px solid #fff;
+  border-right: 1px dashed #fff;
   font-size: 1em;
-  font-weight: 100;
+  font-weight: 500;
   padding: 1em;
   text-align: left;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -278,7 +279,7 @@ tr:last-child {
 }
 
 tr:nth-child(odd) td {
-  background: #EBEBEB;
+  background: #E9ECEF;
 }
 
 tr:last-child td:first-child {
@@ -291,8 +292,8 @@ tr:last-child td:last-child {
 
 td {
   background: #FFFFFF;
-  padding: 20px;
-  text-align: right;
+  padding: 10px;
+  text-align: center;
   vertical-align: middle;
   font-weight: 300;
   font-size: 18px;
