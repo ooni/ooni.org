@@ -246,7 +246,7 @@ th {
   font-size: 1em;
   font-weight: 500;
   padding: 1em;
-  text-align: left;
+  text-align: center;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   vertical-align: middle;
 }
@@ -292,13 +292,13 @@ tr:last-child td:last-child {
 
 td {
   background: #FFFFFF;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
   text-align: center;
   vertical-align: middle;
   font-weight: 300;
   font-size: 18px;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
-  border-right: 1px solid #C1C3D1;
+  border-right: 1px dashed #FFF;
 }
 
 td:last-child {
