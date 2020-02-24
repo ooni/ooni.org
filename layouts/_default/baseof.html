@@ -14,26 +14,25 @@
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
 
-  {{ if eq .Lang "ar" }}<link rel="stylesheet" href="/css/rtl.css">{{ end }}
+  {{ if eq .Lang "ar" }}<link rel="stylesheet" type="text/css" href="/css/rtl.css">{{ end }}
 
-  <link rel="stylesheet" href="/fonts/fonts.css"/>
+  <link rel="stylesheet" type="text/css" href="/fonts/fonts.css"/>
 
   {{ $bootstrapReboot := resources.Get "vendor/bootstrap-reboot.css" }}
   {{ $bootstrapGrid := resources.Get "vendor/bootstrap-grid.css" }}
   {{ $bootstrap := slice $bootstrapReboot $bootstrapGrid | resources.Concat "css/bootstrap.css" | resources.Minify | resources.Fingerprint }}
 
-  <link rel="stylesheet" href="{{ $bootstrap.Permalink }}">
-  <link rel="stylesheet" href="/css/master.css"/>
-
+  <link rel="stylesheet" type="text/css" href="{{ $bootstrap.Permalink }}">
+  <link rel="stylesheet" type="text/css" href="/css/master.css"/>
   {{/* Deferred loading of css based on: https://web.dev/defer-non-critical-css/ */}}
   <link rel="preload" href="/css/highlight-default.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/css/highlight-default.min.css"></noscript>
+  <noscript><link rel="stylesheet" type="text/css" href="/css/highlight-default.min.css"></noscript>
 
   <link rel="icon" type="image/png" href="/images/favicon.png"/>
-  <script src="/js/highlight.min.js" defer></script>
-  <script src="/js/zepto.min.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/ooni-run/dist/widgets.js" defer></script>
-  <script defer>hljs.initHighlightingOnLoad();</script>
+  <script type="text/javascript" src="/js/highlight.min.js"></script>
+  <script type="text/javascript" src="/js/zepto.min.js" defer></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/ooni-run/dist/widgets.js" defer></script>
+  <script type="text/javascript" defer>hljs.initHighlightingOnLoad();</script>
 	<!-- Piwik -->
 
   <!-- Matomo -->
