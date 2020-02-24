@@ -53,6 +53,17 @@ footer a:hover {
   text-decoration: none;
 }
 
+@media screen and (max-width:576px) {
+  .subtext {
+    margin-top:20%
+  }
+  .xs-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /* ================================================================== */
 /* Rows */
 
@@ -176,16 +187,6 @@ p.cta a::after {
   content: " →";
 }
 
-@media screen and (max-width:576px) {
-  .subtext {
-    margin-top:20%
-  }
-  .xs-center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 /* ================================================================== */
 /* Block quotes */
 
@@ -233,6 +234,10 @@ table {
     background: white;
     border-radius: 3px;
     border-collapse: collapse;
+    overflow-x: auto;
+    display: block;
+    width: max-content;
+    max-width: 100%;
     padding: 5px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     animation: float 5s infinite;
@@ -296,7 +301,7 @@ td {
   text-align: center;
   vertical-align: middle;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
   border-right: 1px dashed #FFF;
 }
