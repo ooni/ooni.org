@@ -1,6 +1,6 @@
 ---
-title: "Togo: Instant messaging apps blocked amid 2020 parliamentary election"
-author: "Maria Xynou (OONI), Arturo Filastò (OONI)"
+title: "Togo: Instant messaging apps blocked amid 2020 presidential election"
+author: "Maria Xynou, Arturo Filastò"
 date: "2020-02-25"
 tags: ["togo", "censorship", "country-tg"]
 categories: ["report"]
