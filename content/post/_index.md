@@ -1,4 +1,4 @@
 ---
-title: Research Reports and Blog posts
-description: OONI Research Reports covering internet censorship around the world
+title: Research reports and blog posts
+description: Read our research reports and blog posts
 ---

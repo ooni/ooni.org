@@ -5,7 +5,7 @@ DefaultContentLanguage = "en"
 pluralizeListTitles = false
 
 [params]
-description = "Open Observatory of Network Interference (OONI). A free software, global observation network for detecting censorship, surveillance and traffic manipulation on the internet"
+description = "The Open Observatory of Network Interference (OONI) is a global community measuring internet censorship around the world. Run OONI Probe to detect internet censorship. Use OONI Explorer to track internet censorship worldwide in near real-time."
 
 [Languages]
 [Languages.ar]
