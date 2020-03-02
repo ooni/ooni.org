@@ -6,8 +6,7 @@ tags: ["ooni"]
 categories: ["blog"]
 ---
 
-*This post was originally published on the OTF website.*
-------------------------------------------------------------------------------------
+*This post was originally published on the [OTF website](https://www.opentech.fund/news/ooni-highlights-2017-2019/).*
 
 Back in 2012, the [Open Observatory of Network Interference (OONI)](https://ooni.org/) was born with [OTF support](https://www.opentech.fund/results/supported-projects/ooni-open-observatory-of-network-interference/)
 to create the first open methodologies that would enable anyone around
@@ -199,7 +198,7 @@ reports** covering censorship events around the world:
 
 ![New OONI Explorer](/post/ooni-highlights-2017-2019/explorer-revamped.png)
 
-**Image:** [OONI Explorer](https://explorer.ooni.org/)([revamped](https://ooni.org/post/next-generation-ooni-explorer/) in 2019)
+**Image:** [OONI Explorer](https://explorer.ooni.org/) ([revamped](https://ooni.org/post/next-generation-ooni-explorer/) in 2019)
 
 **Now, OONI measurements from around the world are openly published in
 near real-time.** This means that as soon as anyone runs [OONI Probe](https://ooni.org/install/) anywhere around the world, their test
