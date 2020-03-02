@@ -131,7 +131,7 @@ https://ultrasurf.us/
 http://anonymouse.org/
 {{</oonirunurls>}}
 
-{{<oonirunurls text="Wikipedia (24 URLs)">}}
+{{<oonirunurls text="Wikipedia (26 URLs)">}}
 https://www.wikipedia.org/
 https://en.wikipedia.org/
 https://en.m.wikipedia.org/
@@ -157,6 +157,7 @@ https://commons.wikimedia.org/
 https://wikidata.org/
 https://upload.wikimedia.org/
 https://fa.wikipedia.org/
+https://fa.m.wikipedia.org/
 {{</oonirunurls>}}
 
 {{<oonirunurls text="Human Rights (27 URLs)">}}
