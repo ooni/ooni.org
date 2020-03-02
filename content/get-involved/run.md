@@ -131,7 +131,7 @@ https://ultrasurf.us/
 http://anonymouse.org/
 {{</oonirunurls>}}
 
-{{<oonirunurls text="Wikipedia (24 URLs)">}}
+{{<oonirunurls text="Wikipedia (25 URLs)">}}
 https://www.wikipedia.org/
 https://en.wikipedia.org/
 https://en.m.wikipedia.org/
