@@ -156,6 +156,7 @@ https://it.m.wikipedia.org/
 https://commons.wikimedia.org/
 https://wikidata.org/
 https://upload.wikimedia.org/
+https://fa.wikipedia.org/
 {{</oonirunurls>}}
 
 {{<oonirunurls text="Human Rights (27 URLs)">}}
