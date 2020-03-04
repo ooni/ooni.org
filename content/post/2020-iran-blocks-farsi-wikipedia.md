@@ -247,7 +247,7 @@ curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to fa.wikinews.o
 
 In this case, when we attempt to establish a TLS connection to an
 unrelated domain name (www.kernel.org), SNI
-blocking is closing the connection during the Client hello stage.
+blocking is closing the connection during the ClientHello stage.
 
 # Further testing
 
