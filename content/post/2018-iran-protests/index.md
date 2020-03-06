@@ -137,7 +137,7 @@ censorship. [Tor Metrics](https://metrics.torproject.org/) (below) show a
 sudden spike in Tor usage on 31st December 2017, when ISPs started blocking
 access to Telegram and Instagram in Iran.
 
-{{< img src="images/userstats-relay-country-ir-2017-10-07-2018-01-05-off.png" title="Tor Metrics graph" alt="Iran Protests: OONI data confirms censorship events (Part 1) - Tor Metrics Graph">}}
+{{<img src="images/userstats-relay-country-ir-2017-10-07-2018-01-05-off.png" title="Tor Metrics graph" alt="Iran Protests: OONI data confirms censorship events (Part 1) - Tor Metrics Graph">}}
 
 However, Tor Metrics suggest that Iranian ISPs may have started blocking access
 to the Tor network thereafter, as indicated by the subsequent drop in Tor

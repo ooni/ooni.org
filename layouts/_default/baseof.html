@@ -11,8 +11,8 @@
   <link rel="canonical" href="https://ooni.org{{ .RelPermalink }}" />
   <meta name='description' content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 
-  {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/twitter_cards.html" . }}
+  {{ partial "opengraph.html" . }}
+  {{ partial "twitter_cards.html" . }}
 
   {{ if eq .Lang "ar" }}<link rel="stylesheet" type="text/css" href="/css/rtl.css">{{ end }}
 
