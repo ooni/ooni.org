@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-const { lstatSync, readdirSync, writeFileSync } = require('fs')
+const { lstatSync, existsSync, readdirSync, writeFileSync } = require('fs')
 const { join } = require('path')
 const isDirectory = source => lstatSync(source).isDirectory()
 const getDirectories = source =>
@@ -10,6 +10,8 @@ const getDirectories = source =>
  * @type {Cypress.PluginConfig}
  */
 module.exports = (on, config) => {
-  config.env.allPosts = JSON.stringify(getDirectories('public/post/').map(name => name.replace('public/', '/')))
+  // We only care about directories which have in them an index.html
+  const postDirs = getDirectories('public/post/').filter(path => existsSync(join(path, 'index.html')))
+  config.env.allPosts = JSON.stringify(postDirs.map(name => name.replace('public/', '/')))
   return config
 }
