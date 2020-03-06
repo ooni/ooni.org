@@ -40,3 +40,12 @@ If you want to publish to [Github mirror](https://openobservatory.github.io/), y
 ```
 make publish
 ```
+
+### End to end local testing
+
+To run the end to end integration tests do:
+
+```
+yarn install
+yarn run cypress open
+```
