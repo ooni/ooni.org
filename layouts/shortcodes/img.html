@@ -1,6 +1,6 @@
 {{ $img := $.Page.Resources.GetMatch (.Get "src")}}
-{{ $img600 := $img.Resize "600x" }}
-{{ $img1200 := $img.Resize "1200x" }}
+{{ $img600 := $img.Resize "700x" }}
+{{ $img1200 := $img.Resize "1400x" }}
 
 <div>
   <img
@@ -11,7 +11,7 @@
     alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "title" }}{{ end }}"
     {{ end }}
   />
-  {{ with .Get "title" }}
+  {{ with .Get "caption" }}
   <span style="display: inline-block;font-style: italic;padding-bottom: 20px">{{ . }}</span>
   {{ end }}
 </div>
