@@ -37,7 +37,7 @@ highlights from 2019. We also share some thoughts for 2020.
 
     * [Community resources](#community-resources)
 
-* [OONI-verse](#ooniverse)
+* [OONI-verse](#ooni-verse)
 
 * [2020](#2020)
 
@@ -306,7 +306,7 @@ and events around the world:
 * **Vietnam Cyber Dialogue (Spain),** Session: “[OONI censorship measurement](https://internetfreedomfestival.org/vietnam-cyber-dialogue/)”
 (31st March 2019)
 
-* **Internet Freedom Festival 2019 (Spain)**,[Sessions](https://internetfreedomfestival.org/): “OONI
+* **Internet Freedom Festival 2019 (Spain)**, [Sessions](https://internetfreedomfestival.org/): “OONI
 community feedback: Improving censorship measurement research“,
 “Conducting network measurements in censorship hotspots – lessons
 from the field“, “Multi-disciplinary teams, journalistic
