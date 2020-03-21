@@ -21,12 +21,12 @@ network you’re using) and to [share relevant measurement data](https://explore
 You can measure the blocking of COVID-19 websites through the following
 4 steps:
 
-1. **Install the OONI Probe mobile app** on [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe)
+1) **Install the OONI Probe mobile app** on [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe)
 or [iOS](https://itunes.apple.com/us/app/id1199566366).
 
 ![OONI Probe mobile app](/post/covid-19/dashboard.png)
 
-2. Tap on the following [OONI Run](https://run.ooni.io/) button
+2) Tap on the following [OONI Run](https://run.ooni.io/) button
 (which is also available through this [page](https://ooni.org/get-involved/run/)).
 
 {{<oonirunurls text="COVID-19 (25 URLs)">}}
@@ -57,12 +57,12 @@ https://www.nbcnewyork.com/news/national-international/map-watch-the-coronavirus
 https://nextstrain.org/ncov
 {{</oonirunurls>}}
 
-3. **Open the button with your OONI Probe mobile app** (not with a
+3) **Open the button with your OONI Probe mobile app** (not with a
 web browser).
 
 ![Testing COVID-19 sites](/post/covid-19/covid-19-testing.jpeg)
 
-4. Tap **Run**
+4) Tap **Run**
 
 Please ensure that your [VPN is turned-off](https://ooni.org/support/faq/#can-i-run-ooni-probe-over-a-vpn)
 when you run OONI Probe tests.
