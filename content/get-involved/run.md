@@ -854,6 +854,34 @@ http://www.womenonwaves.org/
 http://www.womenonweb.org/
 {{</oonirunurls>}}
 
+{{<oonirunurls text="COVID-19 (25 URLs)">}}
+https://www.who.int/emergencies/diseases/novel-coronavirus-2019/
+https://coronavirus.jhu.edu/map.html
+https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
+https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd
+https://www.worldometers.info/coronavirus/
+https://www.healthmap.org/covid-19/
+https://hgis.uw.edu/virus/
+https://nssac.bii.virginia.edu/covid-19/dashboard/
+https://app.developer.here.com/coronavirus/
+https://apps.crowdtangle.com/public-hub/covid19
+https://google.org/crisisresponse/covid19-map
+https://www.bing.com/covid
+https://covidtracking.com/
+https://www.kff.org/global-health-policy/fact-sheet/coronavirus-tracker/
+https://storymaps.arcgis.com/stories/4fdc0d03d3a34aa485de1fb0d2650ee0
+https://www.projectbaseline.com/study/covid-19/
+https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic
+https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/world-map.html
+http://www.euro.who.int/en/health-topics/health-emergencies/coronavirus-covid-19
+https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases
+https://www.caixinglobal.com/2020/coronavirus-live-update/
+https://www.nytimes.com/interactive/2020/world/coronavirus-maps.html
+https://multimedia.scmp.com/infographics/news/china/article/3047038/wuhan-virus/index.html?src=article-launcher
+https://www.nbcnewyork.com/news/national-international/map-watch-the-coronavirus-cases-spread-across-the-world/2303276/
+https://nextstrain.org/ncov
+{{</oonirunurls>}}
+
 To test different websites or to create different testing buttons (like the ones shared above), use the **[OONI Run](https://run.ooni.io)** platform.
 
 ### Country-specific testing
