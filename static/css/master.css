@@ -677,6 +677,76 @@ pre span.lw {
   padding: 6px 20px;
 }
 
+/* Install section */
+h1.heading {
+  font-size: 3em;
+}
+
+h1.article-title {
+  margin-top: 0.5em;
+  font-size: 2.5em;
+}
+
+img.position-absolute {
+  position: absolute;
+  max-width: 100%;
+}
+
+img.install-flourish {
+  right: 0;
+  max-width: 40%;
+}
+
+img.install-screenshot {
+  max-width: 100%;
+}
+
+p.lead {
+  font-size: 1.75em;
+}
+
+.grey-container {
+  background: #495057;
+  color: #ffffff;
+  padding: 3em;
+}
+
+a.icon-links {
+  text-align: center;
+}
+
+a.icon-links img {
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ooni-desktop-btn,
+.ooni-desktop-btn:hover {
+  display: inline-block;
+  line-height: 30px;
+  outline: 0;
+  text-decoration: none;
+  background-color: #0588cb;
+  color: white;
+  text-align: center;
+  letter-spacing: .5px;
+  cursor: pointer;
+  margin-bottom: 16px;padding: 16px 24px;
+  border-radius: 2px;
+}
+
+.feature-container {
+  background-color: #254481;
+  color: #ffffff;
+}
+
+.feature-container div {
+  max-width: 22%;
+}
+
 /*  Tests section */
 p.test-intro {
   margin-top: 1.6em;
@@ -732,6 +802,8 @@ p.test-paragraph {
 .store-downloads {
     text-align: center;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 .store-downloads a.badge img {
     height: 49px;

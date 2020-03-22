@@ -1,0 +1,67 @@
+{{ define "main" }}
+<img alt="Background Flourish"
+    src="/install/BG-Flourish.png"
+    srcset="/install/BG-Flourish.png 1x, /install/BG-Flourish@2x.png 2x"
+    class="d-none d-md-block install-flourish position-absolute" />
+<div class="container">
+  <main class="col mt-5">
+    <div class="row" style="min-height: 545px;">
+      <div class="col-md-6">
+        <img src="/install/index.svg" style="width: 85%;"/>
+        <h1 class="article-title">{{ .Title }}</h1>
+        <p class="lead">{{ .Description }}</p>
+        <div class="text-center mt-5">
+          {{ .Content }}
+        </div>
+      </div>
+      <div class="col-md-6 d-flex flex-column justify-content-end align-items-center">
+        <img alt="OONI Probe Desktop App Download"
+          src="{{ .Params.screenshot }}"
+          srcset="{{ .Params.screenshot }} 1x, {{ .Params.screenshot2x }} 2x"
+          class="xs-center install-screenshot" id="ooni-phone" />
+      </div>
+    </div>
+  </main>
+</div>
+<div class="feature-container mt-5 p-5 d-flex justify-content-center">
+  <div class="text-center mx-3 d-flex flex-column">
+    <img alt="globe icon" src="" />
+    <h2>Check which websites are blocked</h2>
+    <p>With the OONI Probe websites test you 
+      can learn which websites are blocking 
+      on your network with our country lists
+      curated by experts</p>
+  </div>
+  <div class="text-center mx-3 d-flex flex-column">
+    <img alt="fast icon" src="" />
+    <h2>Learn how fast is your network</h2>
+    <p>With our state of the art NDT speed test 
+      you can learn how fast your network. This 
+      test has been developed in collaoration with 
+      MLAB.</p>
+  </div>
+  <div class="text-center mx-3 d-flex flex-column">
+    <img alt="app icon" src="" />
+    <h2>Discover what apps are working</h2>
+    <p>OONI Probe has checks for verifying 
+      what IM and Circumvention tool apps 
+      are working or not.</p>
+  </div>
+</div>
+<div class="container mt-5">
+  <div class="d-flex justify-content-center">
+    <img alt="OONI Explorer"
+          src="/install/explorer-browser.png"
+          srcset="/install/explorer-browser.png 1x, /install/explorer-browser@2x.png 2x"
+          class="xs-center" id="ooni-phone" />
+    <div class="col">
+      <h1 class="article-title">
+        Share evidence of network censorship with the world
+      </h1>
+      <p class="mt-4">When you run OONI Probe all your measurement will 
+        automatically get published on OONI Exploring shedding 
+        light on information controls</p>
+    </div>
+  </div>
+</div>
+{{ end }}
