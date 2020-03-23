@@ -1,7 +1,7 @@
 ---
 title: "Let's measure the accessibility of COVID-19 websites around the world"
 author: "Maria Xynou"
-date: "2020-03-21"
+date: "2020-03-23"
 tags: ["ooni", "coronavirus"]
 categories: ["blog"]
 ---
