@@ -1,6 +1,6 @@
 {{ $img := $.Page.Resources.GetMatch (.Get "src")}}
-{{ $img600 := $img.Resize "700x" }}
-{{ $img1200 := $img.Resize "1400x" }}
+{{ $img600 := $img.Fit "700x800" }}
+{{ $img1200 := $img.Fit "1400x1600" }}
 
 <div>
   <img

@@ -24,7 +24,7 @@ You can measure the blocking of COVID-19 websites through the following
 1) **Install the OONI Probe mobile app** on [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe)
 or [iOS](https://itunes.apple.com/us/app/id1199566366).
 
-![OONI Probe mobile app](/post/covid-19/dashboard.png)
+{{<img src="images/dashboard.png" title="OONI Probe mobile app" alt="OONI Probe mobile app">}}
 
 2) Tap on the following [OONI Run](https://run.ooni.io/) button
 (which is also available through this [page](https://ooni.org/get-involved/run/)).
@@ -60,7 +60,7 @@ https://nextstrain.org/ncov
 3) **Open the button with your OONI Probe mobile app** (not with a
 web browser).
 
-![Testing COVID-19 sites](/post/covid-19/covid-19-testing.jpeg)
+{{<img src="images/covid-19-testing.jpeg" title="Testing COVID-19 sites with OONI Probe" alt="Testing COVID-19 sites with OONI Probe">}}
 
 4) Tap **Run**
 
