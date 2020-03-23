@@ -120,7 +120,7 @@ Date | ASN | Facebook Messenger status
 
 In contrast, WhatsApp appears to be [accessible](https://explorer.ooni.io/measurement/20180102T101645Z_AS44244_ahvY6PoUnZrqw71UXnUpa6ajRlbmXbho4J1rSMF5Q4gtNjBkUp) in Iran.
 
-![WhatsApp measurements table](/post/2018-iran-protests/whatsapp-ok.png)
+{{<img src="images/whatsapp-ok.png" title="WhatsApp measurements table" alt="Iran Protests: OONI data confirms censorship events (Part 1) - WhatsApp measurements table">}}
 
 Viber [used to be the most popular instant messaging app in Iran](https://www.theguardian.com/world/2016/feb/08/telegram-the-instant-messaging-app-freeing-up-iranians-conversations),
 before it got blocked by authorities. Then millions switched over to Telegram,
@@ -137,7 +137,7 @@ censorship. [Tor Metrics](https://metrics.torproject.org/) (below) show a
 sudden spike in Tor usage on 31st December 2017, when ISPs started blocking
 access to Telegram and Instagram in Iran.
 
-![Tor Metrics graph](/post/2018-iran-protests/userstats-relay-country-ir-2017-10-07-2018-01-05-off.png)
+{{<img src="images/userstats-relay-country-ir-2017-10-07-2018-01-05-off.png" title="Tor Metrics graph" alt="Iran Protests: OONI data confirms censorship events (Part 1) - Tor Metrics Graph">}}
 
 However, Tor Metrics suggest that Iranian ISPs may have started blocking access
 to the Tor network thereafter, as indicated by the subsequent drop in Tor

@@ -1,13 +1,17 @@
+{{ $img := $.Page.Resources.GetMatch (.Get "src")}}
+{{ $img600 := $img.Resize "700x" }}
+{{ $img1200 := $img.Resize "1400x" }}
+
 <div>
   <img
-    src="{{ .Get "src" }}"
+    src="{{ $img600.RelPermalink }}"
+    srcset="{{ $img1200.RelPermalink }} 2x"
     {{ with .Get "title" }}title="{{ . }}"{{ end }}
-    {{ with .Get "src2x" }}srcset="{{ . }} 2x"{{ end }}
     {{ if or (.Get "alt") (.Get "title") }}
     alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "title" }}{{ end }}"
     {{ end }}
   />
-  {{ with .Get "title" }}
+  {{ with .Get "caption" }}
   <span style="display: inline-block;font-style: italic;padding-bottom: 20px">{{ . }}</span>
   {{ end }}
 </div>
