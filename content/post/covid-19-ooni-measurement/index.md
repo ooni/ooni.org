@@ -26,6 +26,7 @@ or [iOS](https://itunes.apple.com/us/app/id1199566366).
 
 {{<img src="images/dashboard.png" title="OONI Probe mobile app" alt="OONI Probe mobile app">}}
 
+
 2) Tap on the following [OONI Run](https://run.ooni.io/) button
 (which is also available through this [page](https://ooni.org/get-involved/run/)).
 
@@ -61,6 +62,7 @@ https://nextstrain.org/ncov
 web browser).
 
 {{<img src="images/covid-19-testing.jpeg" title="Testing COVID-19 sites with OONI Probe" alt="Testing COVID-19 sites with OONI Probe">}}
+
 
 4) Tap **Run**
 
