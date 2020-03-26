@@ -756,12 +756,18 @@ a.icon-links img {
 }
 
 .feature-container {
-  background-color: #254481;
-  color: #ffffff;
+  background-color: #F1F3F5;
+  color: #000000;
 }
 
 .feature-container div {
-  max-width: 22%;
+  max-width: 26%;
+}
+
+.feature-container h2 {
+  margin-top: 3rem;
+  font-size: 1.25em;
+  align-self: flex-start
 }
 
 hr {
