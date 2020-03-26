@@ -723,8 +723,7 @@ a.icon-links img {
   text-align: center;
 }
 
-.ooni-desktop-btn,
-.ooni-desktop-btn:hover {
+.ooni-desktop-btn {
   display: inline-block;
   line-height: 30px;
   outline: 0;
@@ -736,6 +735,24 @@ a.icon-links img {
   cursor: pointer;
   margin-bottom: 16px;padding: 16px 24px;
   border-radius: 2px;
+  width: 24em;
+}
+
+.ooni-desktop-btn:hover {
+  background-color: #056aa6;
+  text-decoration: none;
+  color: white;
+}
+
+.no-screenshot .ooni-desktop-btn {
+  max-width: 9.5em;
+  padding: 13px 0;
+  font-size: 1.25rem;
+  margin: 2rem 1rem 0;
+}
+
+.no-screenshot .store-downloads {
+  margin-top: 2rem;
 }
 
 .feature-container {
@@ -745,6 +762,12 @@ a.icon-links img {
 
 .feature-container div {
   max-width: 22%;
+}
+
+hr {
+  border: none;
+  border-bottom: #979797 1px solid;
+  margin: 4rem 0;
 }
 
 /*  Tests section */
@@ -803,7 +826,11 @@ p.test-paragraph {
     text-align: center;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.store-downloads a.badge {
+  margin: 0 1rem;
 }
 .store-downloads a.badge img {
     height: 49px;
