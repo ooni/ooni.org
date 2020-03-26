@@ -690,21 +690,19 @@ h1.article-title {
   font-size: 2.5em;
 }
 
-img.position-absolute {
-  position: absolute;
-  max-width: 100%;
-}
-
 img.install-flourish {
-  right: 0;
-  max-width: 20em;
-  top: 1.25rem
+  top: 1.25rem;
+  z-index: 2;
+  position: absolute;
+  left: 300px;
+  top: -1000px;
 }
 
 img.install-screenshot {
   max-width: 100%;
   margin-bottom: -2.25em;
   margin-right: 3rem;
+  z-index: 3;
 }
 
 .phone-screen img.install-screenshot {

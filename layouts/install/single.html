@@ -1,10 +1,4 @@
 {{ define "main" }}
-{{ if isset .Params "screenshot" }}
-<img alt="Background Flourish"
-  src="/install/BG-Flourish.png"
-  srcset="/install/BG-Flourish.png 1x, /install/BG-Flourish@2x.png 2x"
-  class="d-none d-md-block install-flourish position-absolute" />
-{{ end }}
 <div class="container">
   <main class="col mt-5">
     <div class="row">
@@ -31,6 +25,10 @@
             src="{{ .Params.screenshot }}"
             srcset="{{ .Params.screenshot }} 1x, {{ .Params.screenshot2x }} 2x"
             class="xs-center install-screenshot" id="ooni-phone" />
+          <img alt="Background Flourish"
+               src="/install/BG-Flourish.png"
+               srcset="/install/BG-Flourish.png 1x, /install/BG-Flourish@2x.png 2x"
+               class="d-none d-md-block install-flourish" />
         </div>
       {{ else }}
         <div class="col text-center no-screenshot">
