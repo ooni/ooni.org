@@ -2,8 +2,9 @@
 title: "Measure internet censorship"
 description: "Collect evidence of internet censorship
     around the world"
-screenshot: "/install/Phone-mockup.png"
-screenshot2x: "/install/Phone-mockup@2x.png"
+screenshot: "/install/PhoneMockupIcon.png"
+screenshot2x: "/install/PhoneMockupIcon@2x.png"
+platform: "mobile"
 ---
 
 {{<app-stores>}}

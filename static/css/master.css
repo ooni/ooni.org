@@ -27,6 +27,9 @@ pre, code {
 /* Document structure */
 
 nav {
+  position: relative;
+  z-index: 10;
+  background-color: white;
 }
 
 footer {
@@ -694,11 +697,19 @@ img.position-absolute {
 
 img.install-flourish {
   right: 0;
-  max-width: 40%;
+  max-width: 20em;
+  top: 1.25rem
 }
 
 img.install-screenshot {
   max-width: 100%;
+  margin-bottom: -2.25em;
+  margin-right: 3rem;
+}
+
+.phone-screen img.install-screenshot {
+  margin-top: 5rem;
+  margin-right: 5rem;
 }
 
 p.lead {
@@ -706,7 +717,7 @@ p.lead {
 }
 
 .grey-container {
-  background: #495057;
+  background: #002934;
   color: #ffffff;
   padding: 3em;
 }
@@ -736,6 +747,7 @@ a.icon-links img {
   margin-bottom: 16px;padding: 16px 24px;
   border-radius: 2px;
   width: 24em;
+  max-width: 100%;
 }
 
 .ooni-desktop-btn:hover {
@@ -758,6 +770,8 @@ a.icon-links img {
 .feature-container {
   background-color: #F1F3F5;
   color: #000000;
+  z-index: 5;
+  position: relative;
 }
 
 .feature-container div {
