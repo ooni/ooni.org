@@ -29,7 +29,7 @@ blocking of [Tor](https://www.torproject.org/).
 The **OONI Probe Tor test** provides an automated way of examining whether [Tor](https://www.torproject.org/)
 works in a tested network.
 
-To this end, this test examines the reachability of a set of services that allow
+To this end, this [test](https://github.com/ooni/probe-engine) examines the reachability of a set of services that allow
 Tor to work. These include the following protocols:
  
 * Tor directory authorities (used by Tor relays) 
