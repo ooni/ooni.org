@@ -43,4 +43,4 @@ the app may be blocked.
 create the Psiphon tunnel to get started. Therefore, Psiphon does not work on
 this network, and access to the app may be blocked. 
 
-Read the OONI Probe **[Psiphon test specification](https://github.com/ooni/spec/blob/master/nettests/ts-015-psiphon.md)**.
+Read the **[Psiphon test specification](https://github.com/ooni/spec/blob/master/nettests/ts-015-psiphon.md)**.
