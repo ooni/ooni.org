@@ -33,3 +33,5 @@ web.whatsapp.com;
 
 * HTTP requests to web.whatsapp.com do *not* send back a consistent response to OONI's
 servers.
+
+Read the **[WhatsApp test specification](https://github.com/ooni/spec/blob/master/nettests/ts-018-whatsapp.md)**.

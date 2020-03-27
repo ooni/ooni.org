@@ -20,3 +20,5 @@ connect to a Lantern server and reach a control website over it, then we
 consider that Lantern can be used for censorship circumvention within the tested
 network. If however the test is unable to connect to Lantern servers, then it is
 likely the case that they are blocked within the tested network.
+
+Read the **[Lantern test specification](https://github.com/ooni/spec/blob/master/nettests/ts-013-lantern.md)**.

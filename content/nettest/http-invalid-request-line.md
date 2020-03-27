@@ -1,11 +1,11 @@
 ---
-title: "HTTP invalid request line"
+title: "HTTP Invalid Request Line"
 short_description: "This test tries to detect the presence of network components (“middle box”)
 which could be responsible for censorship and/or traffic manipulation."
 groups: ["boxes"]
 ---
 
-# HTTP invalid request line
+# HTTP Invalid Request Line
 
 This test tries to detect the presence of network components (“middle box”)
 which could be responsible for censorship and/or traffic manipulation.
@@ -39,3 +39,5 @@ that is specifically designed to not trigger errors when receiving invalid HTTP
 request lines like the ones of this test. Furthermore, the presence of a middle
 box is not necessarily indicative of traffic manipulation, as they are often
 used in networks for caching purposes.
+
+Read the **[HTTP Invalid Request Line test specification](https://github.com/ooni/spec/blob/master/nettests/ts-007-http-invalid-request-line.md)**.

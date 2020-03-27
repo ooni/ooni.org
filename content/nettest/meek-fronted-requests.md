@@ -33,3 +33,5 @@ In short, this test does an encrypted connection to cloud-fronted domains over
 HTTPS and examines whether it can connect to them or not. As such, this test
 enables users to check whether Meek enables the circumvention of censorship in
 an automated way.
+
+Read the **[Meek Fronted Requests test specification](https://github.com/ooni/spec/blob/master/nettests/ts-014-meek-fronted-requests.md)**.

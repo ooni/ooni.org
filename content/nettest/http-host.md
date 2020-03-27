@@ -40,3 +40,5 @@ censorship.
 **Note:** The presence of a middle box is not necessarily indicative of
 censorship and/or traffic manipulation, as they are often used in networks for
 caching purposes.
+
+Read the **[HTTP Host test specification](https://github.com/ooni/spec/blob/master/nettests/ts-004-http-host.md)**.

@@ -31,3 +31,5 @@ with IP addresses that are closest to them geographically. Often this is not
 done with the intent of network tampering, but merely for the purpose of
 providing users faster access to websites. As a result, some false positives
 might arise in OONI measurements.
+
+Read the **[DNS consistency test specification](https://github.com/ooni/spec/blob/master/nettests/ts-002-dns-consistency.md)**.
