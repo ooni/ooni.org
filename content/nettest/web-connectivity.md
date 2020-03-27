@@ -153,3 +153,5 @@ might arise in OONI measurements. Other false positives might occur when tested
 websites serve different content depending on the country that the user is
 connecting from, or in the cases when websites return failures even though they
 are not tampered with.
+
+Read the **[Web Connectivity test specification](https://github.com/ooni/spec/blob/master/nettests/ts-017-web-connectivity.md)**.

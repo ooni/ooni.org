@@ -39,3 +39,5 @@ that ISPs are using highly sophisticated software that is specifically designed
 to not interfere with HTTP headers when it receives them. Furthermore, the
 presence of a middle box is not necessarily indicative of traffic manipulation,
 as they are often used in networks for caching purposes.
+
+Read the **[HTTP Header Field Manipulation test specification](https://github.com/ooni/spec/blob/master/nettests/ts-006-header-field-manipulation.md)**.
