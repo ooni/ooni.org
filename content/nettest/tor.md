@@ -24,7 +24,7 @@ bridges (called [obfs4](https://bridges.torproject.org/bridges?transport=obfs4))
 OONI has developed an [OONI Probe](https://ooni.org/install/) test that anyone can run to measure the
 blocking of [Tor](https://www.torproject.org/).
 
-## OONI Probe Tor test
+## Tor test
 
 The **OONI Probe Tor test** provides an automated way of examining whether [Tor](https://www.torproject.org/)
 works in a tested network.
@@ -53,10 +53,10 @@ is required for Tor directory authorities;
 
 * Connect to obfs4 addresses and perform an OBFS4 handshake (an obfuscated handshake). 
 
-If the test succeeds in performing all of the above, then Tor should work on
+If the test succeeds in performing all of the above, Tor should work on
 this network.
 
 **If the test fails in performing any of the above, Tor does not work in the
 tested network and may be blocked.**
 
-Read the OONI Probe **[Tor test specification](https://github.com/ooni/spec/blob/master/nettests/ts-023-tor.md)**.
+Read the **[Tor test specification](https://github.com/ooni/spec/blob/master/nettests/ts-023-tor.md)**.
