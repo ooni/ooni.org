@@ -23,11 +23,11 @@ can run to measure the reachability of the Psiphon app.
 The **OONI Probe Psiphon test** provides an automated way of examining whether the
 [Psiphon app](https://psiphon.ca/) works in a tested network.
 
-This [test](https://github.com/ooni/probe-engine) starts off by compiling the Psiphon codebase in an attempt to
-bootstrap Psiphon. Once the test has bootstrapped and created the Psiphon
-tunnel, it then checks whether it actually works. To determine this, the test
-attempts to fetch a webpage to see if it’s possible to use Psiphon in order to
-connect to websites on the internet. 
+This [test](https://github.com/ooni/probe-engine) starts off by using Psiphon
+code to bootstrap a Psiphon tunnel. Once the test has bootstrapped and created
+the Psiphon tunnel, it then checks whether it actually works. To determine this,
+the test attempts to fetch a webpage to see if it’s possible to use Psiphon in
+order to connect to websites on the internet. 
 
 As part of this process, there are 3 possible outcomes:
 

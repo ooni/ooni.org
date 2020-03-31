@@ -30,7 +30,7 @@ The **OONI Probe Tor test** provides an automated way of examining whether [Tor]
 works in a tested network.
 
 To this end, this [test](https://github.com/ooni/probe-engine) examines the reachability of a set of services that allow
-Tor to work. These include the following protocols:
+Tor to work. These include the following services:
  
 * Tor directory authorities (used by Tor relays) 
 
@@ -41,13 +41,12 @@ Tor to work. These include the following protocols:
 * obfs4 (Tor bridge that speaks the OBFS4 protocol)
 
 By measuring the reachability of selected Tor directory authorities and bridges,
-this test evaluates whether they can be used and, by extension, whether Tor
-works within the tested network.
+this test evaluates whether they can be used within the tested network.
 
 More specifically, this test attempts to perform the following actions from the
 vantage point of the user:
 
-* HTTP GET request to the ``tor/status-vote/current/consensus.z`` resource, which
+* HTTP GET request to the `tor/status-vote/current/consensus.z` resource, which
 is required for Tor directory authorities; 
 
 * Connect to OR ports and OR ports of directory authorities and perform a TLS handshake; 
