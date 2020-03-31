@@ -53,8 +53,8 @@ is required for Tor directory authorities;
 
 * Connect to obfs4 addresses and perform an OBFS4 handshake (an obfuscated handshake). 
 
-If the test succeeds in performing all of the above, Tor should work on
-this network.
+If the test succeeds in performing all of the above, Tor may work on
+this network (unless if it's blocked in ways that aren't being measured).
 
 **If the test fails in performing any of the above, Tor does not work in the
 tested network and may be blocked.**
