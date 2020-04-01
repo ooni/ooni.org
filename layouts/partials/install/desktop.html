@@ -1,47 +1,15 @@
-<div class='d-flex col-md-5 align-items-center'>
+<div class='d-flex col-lg-5 align-items-center'>
   <div class="text-center">
     {{ .Content }}
   </div>
 </div>
-<div class='col-md-7 d-flex justify-content-end'>
+<div class='col-lg-7 d-none d-lg-flex justify-content-end'>
   <img alt="OONI Probe Desktop App Download"
     src="{{ .Params.screenshot }}"
     srcset="{{ .Params.screenshot }} 1x, {{ .Params.screenshot2x }} 2x"
-    class="xs-center install-screenshot" id="ooni-phone" />
+    class="xs-center install-screenshot-desktop" id="ooni-phone" />
   <img alt="Background Flourish"
         src="/install/BG-Flourish.png"
         srcset="/install/BG-Flourish.png 1x, /install/BG-Flourish@2x.png 2x"
-        class="d-none d-md-block install-flourish" />
+        class="install-flourish" />
 </div>
-
-<script>
-  function getOS() {
-    var userAgent = window.navigator.userAgent,
-        platform = window.navigator.platform,
-        macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
-        windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
-        iosPlatforms = ['iPhone', 'iPad', 'iPod'],
-        os = null;
-    if (macosPlatforms.indexOf(platform) !== -1) {
-      os = 'MacOS';
-    } else if (iosPlatforms.indexOf(platform) !== -1) {
-      os = 'iOS';
-    } else if (windowsPlatforms.indexOf(platform) !== -1) {
-      os = 'Windows';
-    } else if (/Android/.test(userAgent)) {
-      os = 'Android';
-    } else if (!os && /Linux/.test(platform)) {
-      os = 'Linux';
-    }
-    return os;
-  }
-  (function() {
-    if (window.location.pathname.indexOf("/index/desktop") !== -1) {
-      if (getOS() === 'Windows') {
-        $('.ooni-desktop-btn:not(#windows-download)').hide();
-      } else if (getOS() === 'MacOS') {
-        $('.ooni-desktop-btn:not(#macos-download)').hide();
-      }
-    }
-  })();
-</script>

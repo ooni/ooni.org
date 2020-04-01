@@ -64,6 +64,58 @@
         light on information controls</p>
       <a href="">Call to action</a>
     </div>
+    <img alt="OONI Explorer"
+          src="/install/explorer-browser.png"
+          srcset="/install/explorer-browser.png 1x, /install/explorer-browser@2x.png 2x"
+          class="xs-center" id="ooni-phone" />
+
   </div>
 </div>
 {{ end }}
+
+
+{{ define "script" }}
+<script>
+  function getOS() {
+    var userAgent = window.navigator.userAgent,
+        platform = window.navigator.platform,
+        macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+        windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+        iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+        os = null;
+    if (macosPlatforms.indexOf(platform) !== -1) {
+      os = 'MacOS';
+    } else if (iosPlatforms.indexOf(platform) !== -1) {
+      os = 'iOS';
+    } else if (windowsPlatforms.indexOf(platform) !== -1) {
+      os = 'Windows';
+    } else if (/Android/.test(userAgent)) {
+      os = 'Android';
+    } else if (!os && /Linux/.test(platform)) {
+      os = 'Linux';
+    }
+    return os;
+  }
+
+  function hideAllExceptID(className, visibleID) {
+    var buttons = document.getElementsByClassName(className)
+    for (var i = 0; i < buttons.length; i++) {
+      //console.log(buttons[i]);
+      console.log(buttons[i].id, visibleID)
+      if (buttons[i].id !== visibleID) {
+        console.log('hiding ', buttons[i])
+        buttons[i].style.display = 'none'
+      }
+    }
+  }
+  (function() {
+    if (window.location.pathname.indexOf('/install/desktop') !== -1) {
+      if (getOS() === 'Windows') {
+        hideAllExceptID('ooni-desktop-btn', 'windows-download');
+      } else if (getOS() === 'MacOS') {
+        hideAllExceptID('ooni-desktop-btn', 'macos-download');
+      }
+    }
+  })();
+</script>
+{{ end}}

@@ -7,14 +7,14 @@ screenshot2x: "/install/ProbeDesktopScreenshot@2x.png"
 platform: "desktop"
 ---
 
-{{< ooni-desktop-download-btn 
+{{< ooni-desktop-download-btn
     id="windows-download"
     href="https://github.com/ooni/probe-desktop/releases"
-    text="Download OONI Probe for Windows" 
+    text="Download OONI Probe for Windows"
 >}}
 
 {{< ooni-desktop-download-btn
-    id="macos-downoad"
+    id="macos-download"
     href="https://github.com/ooni/probe-desktop/releases"
     text="Download OONI Probe for macOS"
 >}}
