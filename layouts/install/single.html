@@ -10,32 +10,13 @@
     </div>
     <div class="row">
       {{ if isset .Params "screenshot" }}
-        <div class='d-flex 
-          {{ if eq .Params.platform "desktop" }}
-            col-md-5 align-items-center
-          {{ else }}
-            col-md-6 offset-md-1 align-items-end
-          {{ end }}'>
-          <div class="text-center">
-            {{ .Content }}
-          </div>
-        </div>
-        <div class='{{ if eq .Params.platform "desktop" }}col-md-7{{ else }}col-md-5 phone-screen{{ end }} d-flex justify-content-end'>
-          <img alt="OONI Probe Desktop App Download"
-            src="{{ .Params.screenshot }}"
-            srcset="{{ .Params.screenshot }} 1x, {{ .Params.screenshot2x }} 2x"
-            class="xs-center install-screenshot" id="ooni-phone" />
-          <img alt="Background Flourish"
-               src="/install/BG-Flourish.png"
-               srcset="/install/BG-Flourish.png 1x, /install/BG-Flourish@2x.png 2x"
-               class="d-none d-md-block install-flourish" />
-        </div>
+        {{ if eq .Params.platform "desktop" }}
+          {{ partial "install/desktop.html" . }}
+        {{ else }}
+          {{ partial "install/mobile.html" . }}
+        {{ end }}
       {{ else }}
-        <div class="col text-center no-screenshot">
-          <div class="text-center mt-5">
-            {{ .Content }}
-          </div>
-        </div>
+        {{ partial "install/all.html" . }}
       {{ end }}
     </div>
   </main>
@@ -89,36 +70,4 @@
     </div>
   </div>
 </div>
-
-<script>
-  function getOS() {
-    var userAgent = window.navigator.userAgent,
-        platform = window.navigator.platform,
-        macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
-        windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
-        iosPlatforms = ['iPhone', 'iPad', 'iPod'],
-        os = null;
-    if (macosPlatforms.indexOf(platform) !== -1) {
-      os = 'MacOS';
-    } else if (iosPlatforms.indexOf(platform) !== -1) {
-      os = 'iOS';
-    } else if (windowsPlatforms.indexOf(platform) !== -1) {
-      os = 'Windows';
-    } else if (/Android/.test(userAgent)) {
-      os = 'Android';
-    } else if (!os && /Linux/.test(platform)) {
-      os = 'Linux';
-    }
-    return os;
-  }
-  (function() {
-    if (window.location.pathname.indexOf("/index/desktop") !== -1) {
-      if (getOS() === 'Windows') {
-        $('.ooni-desktop-btn:not(#windows-download)').hide();
-      } else if (getOS() === 'MacOS') {
-        $('.ooni-desktop-btn:not(#macos-download)').hide();
-      }
-    }
-  })();
-</script>
 {{ end }}
