@@ -841,17 +841,10 @@ p.test-paragraph {
   text-decoration: none;
 }
 
-.store-downloads {
-    text-align: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.app-store-badge img {
+    height: 49px;
 }
 
-.store-downloads a.badge {
-  margin: 0 1rem;
-}
-.store-downloads a.badge img {
-    height: 49px;
-    max-width: 100%;
+.app-store-badge:hover img {
+    opacity: 0.8;
 }
