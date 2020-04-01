@@ -699,16 +699,16 @@ img.install-flourish {
   top: -1000px;
 }
 
-img.install-screenshot {
-  max-width: 100%;
+.install-screenshot-phone {
   margin-bottom: -2.25em;
   margin-right: 3rem;
   z-index: 3;
 }
 
-.phone-screen img.install-screenshot {
-  margin-top: 5rem;
-  margin-right: 5rem;
+.install-screenshot-desktop {
+  margin-right: -250px;
+  margin-bottom: -2.25em;
+  z-index: 3;
 }
 
 p.lead {
