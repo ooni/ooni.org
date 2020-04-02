@@ -789,6 +789,17 @@ hr {
   margin: 4rem 0;
 }
 
+@media screen and (max-width: 768px) {
+  .feature-container div {
+    max-width: none;
+    margin-bottom: 4rem;
+  }
+
+  .desktop-buttons {
+    max-width: 100%;
+  }
+}
+
 /*  Tests section */
 p.test-intro {
   margin-top: 1.6em;
