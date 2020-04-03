@@ -691,6 +691,10 @@ h1.article-title {
   font-size: 2.5em;
 }
 
+.explorer-screenshot {
+  max-width: 100%;
+}
+
 img.install-flourish {
   top: 1.25rem;
   z-index: 2;
