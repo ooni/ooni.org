@@ -699,7 +699,7 @@ img.install-flourish {
   top: 1.25rem;
   z-index: 2;
   position: absolute;
-  right: -1050px;
+  right: -1075px;
   top: -1000px;
 }
 
@@ -801,6 +801,12 @@ hr {
 
   .desktop-buttons {
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  img.install-flourish {
+    right: -1175px;
   }
 }
 

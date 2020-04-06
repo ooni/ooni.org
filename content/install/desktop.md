@@ -18,4 +18,4 @@ platform: "desktop"
     text="Download OONI Probe for macOS"
 >}}
 
-[other platforms >>](/install/all)
+[Other Platforms >>](/install/all)
