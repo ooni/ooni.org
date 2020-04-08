@@ -1,1 +1,4 @@
-<a class="ooni-desktop-btn" id="{{ .Get "id" }}" href="{{ .Get "href" }}">{{ .Get "text" }}</a>
+<a class="ooni-desktop-btn"
+    id="{{ .Get "id" }}"
+    href="https://github.com/ooni/probe-desktop/releases/download/v{{ .Page.Params.probeDesktopVersion }}/{{.Get "filePrefix"}}-{{ .Page.Params.probeDesktopVersion }}.{{ .Get "ext" }}"
+    >{{ .Get "text" }}</a>
