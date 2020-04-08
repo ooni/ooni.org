@@ -746,7 +746,8 @@ p.lead {
 .grey-container {
   background: #002934;
   color: #ffffff;
-  padding: 3em;
+  padding: 5em 0;
+  margin-top: 5em;
 }
 
 a.icon-links {
