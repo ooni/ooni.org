@@ -699,13 +699,13 @@ img.install-flourish {
   top: 1.25rem;
   z-index: 2;
   position: absolute;
-  right: -1075px;
+  right: -1150px;
   top: -1000px;
 }
 
 .install-screenshot-phone {
   margin-bottom: -2.25em;
-  margin-right: 3rem;
+  margin-right: -80px;
   z-index: 3;
 }
 
