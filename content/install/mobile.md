@@ -7,3 +7,5 @@ platform: "mobile"
 ---
 
 {{<app-stores>}}
+
+[Other Platforms >>](/install/all)
