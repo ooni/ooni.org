@@ -15,3 +15,5 @@ test successfully bootstraps a connection within a predefined amount of seconds 
 then Tor is considered to be reachable from the vantage point of the user. But if the test
 does *not* manage to establish a connection, then the Tor network is likely blocked within the
 tested network.
+
+Read the **[Vanilla Tor test specification](https://github.com/ooni/spec/blob/master/nettests/ts-016-vanilla-tor.md)**.
