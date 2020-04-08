@@ -23,3 +23,5 @@ This test runs Tor with a list of bridges and if it's able to connect to them
 successfully, we consider that Tor bridges are not blocked in the tested
 network. If the test, however, is unable to bootstrap a connection, then the Tor
 bridges are either offline or blocked.
+
+Read the **[Tor Bridge Reachability test specification](https://github.com/ooni/spec/blob/master/nettests/ts-011-bridge-reachability.md)**.

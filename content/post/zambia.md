@@ -270,7 +270,7 @@ of the SSL negotiation. This message contains the string zambianwatchdog.com
 before the SSL negotiation is completed.
 
 
-![SSL Reset](/post/zambia/SSL-reset.png)
+![SSL Reset](/post/zambia/ssl-reset.png)
 
 In order to find out if the government is actively making changes, we deployed
 a new mirror server of the site in the domain http://zwd.cums.in. After a few

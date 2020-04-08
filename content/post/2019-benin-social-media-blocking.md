@@ -70,7 +70,7 @@ All measurements show that TCP connections to Facebook’s endpoints succeeded (
 
 Quite similarly, measurements collected through [OONI’s Telegram test](https://ooni.io/nettest/telegram/) show that MTN Benin [blocked telegram.org](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=https:%2F%2Ftelegram.org), but they [did not block access to the Telegram mobile app](https://explorer.ooni.io/measurement/20190428T084737Z_AS37424_PDJXi8Kfcx2iyYzzRX78Gv7VHMizGCLDhvkeBp30Qu2KsCtXtV). This is illustrated through the following chart, which also shows that Telegram’s web version seemed mostly accessible on other networks.
 
-![](https://lh5.googleusercontent.com/XPusUmclMEyXcYDNUVISfazak8Z7Popz5AH7XMFaqXNmw-pXJRwI-W_0SZWVNhWFuyTwwcLqV_JJgtVNwakVLYDsTyF6DIoQun_m9KjAeNLZO46x49UFnxa-ADKh21UpvyxM5G2T)
+![](/post/2019-benin-social-media-blocking/telegram-blocking-benin.png)
 
 **Figure 4:**Telegram blocking in Benin, Open Observatory of Network Interference (OONI) measurements, Benin: [https://explorer.ooni.io/country/BJ](https://explorer.ooni.io/country/BJ) 
 

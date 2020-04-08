@@ -50,3 +50,5 @@ against third-party servers provided by [Measurement Lab
 require the retention and disclosure of IP addresses for research
 purposes. Learn more about M-Lab's data governance, see its [privacy
 statement](https://www.measurementlab.net/privacy/).
+
+Read the **[DASH test specification](https://github.com/ooni/spec/blob/master/nettests/ts-021-dash.md)**.

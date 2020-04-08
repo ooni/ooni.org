@@ -42,3 +42,5 @@ network interference:
 **Note:** False positives might occur when the Tor control connection is being
 discriminated by the server. This happens, for example, when a CloudFlare
 CAPTCHA page appears.
+
+Read the **[HTTP Requests test specification](https://github.com/ooni/spec/blob/master/nettests/ts-003-http-requests.md)**.

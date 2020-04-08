@@ -26,7 +26,9 @@ following apply:
 * HTTP POST requests to Telegram's access points do *not* send back a
 response to OONI's servers.
 
-Telegram's *web version* is likely blocked if any of the following apply:
+Telegram's *web version* is likely blocked if the following applies:
 
 * HTTP(S) GET requests to `web.telegram.org` do *not* send back a consistent
 response to OONI's servers.
+
+Read the **[Telegram test specification](https://github.com/ooni/spec/blob/master/nettests/ts-020-telegram.md)**.
