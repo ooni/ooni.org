@@ -4,13 +4,12 @@ description: "Contribute to the world's largest open dataset on internet censors
 screenshot: "/install/ProbeDesktopScreenshot.png"
 screenshot2x: "/install/ProbeDesktopScreenshot@2x.png"
 platform: "desktop"
-probeDesktopVersion: "3.0.0-rc.6"
 ---
 
 {{< ooni-desktop-download-btn
     id="windows-download"
     filePrefix="OONI-Probe-Setup"
-    ext="dmg"
+    ext="exe"
     text="Download OONI Probe for Windows"
 >}}
 

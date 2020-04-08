@@ -4,8 +4,19 @@ description: "Contribute to the world's largest open dataset on internet censors
 ---
 # Download OONI Probe Desktop
 
-{{< ooni-desktop-download-btn href="https://github.com/ooni/probe-desktop/releases" text="Windows 64-bit" >}}
-{{< ooni-desktop-download-btn href="https://github.com/ooni/probe-desktop/releases" text="macOS" >}}
+{{< ooni-desktop-download-btn
+    id="windows-download"
+    filePrefix="OONI-Probe-Setup"
+    ext="exe"
+    text="Windows 64-bit"
+>}}
+
+{{< ooni-desktop-download-btn
+    id="macos-download"
+    filePrefix="OONI-Probe"
+    ext="dmg"
+    text="macOS"
+>}}
 
 ---
 
@@ -16,4 +27,4 @@ description: "Contribute to the world's largest open dataset on internet censors
 ---
 
 # Install OONI Probe CLI
-{{< ooni-desktop-download-btn href="https://github.com/ooni/probe-desktop/releases" text="Github Readme" >}}
+{{< square-btn href="https://github.com/ooni/probe-cli#ooni-probe-cli" text="Github Readme" >}}
