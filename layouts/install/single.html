@@ -79,11 +79,11 @@
 <script>
   function getOS() {
     var userAgent = window.navigator.userAgent,
-        platform = window.navigator.platform,
-        macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
-        windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
-        iosPlatforms = ['iPhone', 'iPad', 'iPod'],
-        os = null;
+      platform = window.navigator.platform,
+      macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+      windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+      iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+      os = null;
     if (macosPlatforms.indexOf(platform) !== -1) {
       os = 'MacOS';
     } else if (iosPlatforms.indexOf(platform) !== -1) {
@@ -97,14 +97,10 @@
     }
     return os;
   }
-
   function hideAllExceptID(className, visibleID) {
     var buttons = document.getElementsByClassName(className)
     for (var i = 0; i < buttons.length; i++) {
-      //console.log(buttons[i]);
-      console.log(buttons[i].id, visibleID)
       if (buttons[i].id !== visibleID) {
-        console.log('hiding ', buttons[i])
         buttons[i].style.display = 'none'
       }
     }

@@ -10,7 +10,6 @@ html {
 }
 
 body {
-  font-family: "Source Serif Pro", serif;
   overflow-x: hidden;
 }
 
@@ -682,6 +681,10 @@ pre span.lw {
 }
 
 /* Install section */
+.install {
+  font-family: "Fira Sans", sans-serif;
+}
+
 h1.heading {
   font-size: 3em;
 }
