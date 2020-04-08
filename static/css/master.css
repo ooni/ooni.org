@@ -11,6 +11,7 @@ html {
 
 body {
   overflow-x: hidden;
+  font-family: "Fira Sans", sans-serif;
 }
 
 h1, h2, h3, h4, h5, nav, .toc {
@@ -670,6 +671,10 @@ pre span.lw {
   font-size: 0.7rem;
 }
 
+.blog-post {
+  font-family: "Source Serif Pro", serif;
+}
+
 .blog-post img {
   max-width: 100%;
 }
@@ -703,7 +708,6 @@ pre span.lw {
 
 /* Install section */
 .install {
-  font-family: "Fira Sans", sans-serif;
 }
 
 h1.heading {
@@ -743,7 +747,7 @@ p.lead {
   font-size: 1.75em;
 }
 
-.grey-container {
+.install-cli {
   background: #002934;
   color: #ffffff;
   padding: 5em 0;
