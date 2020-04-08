@@ -9,7 +9,7 @@ date: "0000-01-01"
 
 # Web Connectivity
 
-This test examines whether websites are reachable and if they are not, it
+This test examines whether websites (included in the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists)) are reachable and if they are not, it
 attempts to determine whether access to them is blocked by means of DNS tampering,
 TCP/IP blocking or by a transparent HTTP proxy.
 
@@ -80,13 +80,13 @@ Below are the conditions under which the following types of blocking are
 identified:
 
 * **DNS blocking:** If the DNS responses (such as the IP addresses mapped to
-    host names) do *not* match
+    host names) do *not* match;
 
 * **TCP/IP blocking:** If a TCP session to connect to websites was *not*
-    established over the network of the user
+    established over the network of the user;
 
 * **HTTP blocking:** If the HTTP request over the user's network failed, or the
-* **HTTP status codes don't match, or all of the following apply:
+**HTTP status codes don't match**, or all of the following apply:
 
     * The body length of compared websites (over the control server and the
       network of the user) differs by some percentage
