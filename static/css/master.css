@@ -728,14 +728,14 @@ img.install-flourish {
 }
 
 .install-screenshot-phone {
-  margin-bottom: -2.25em;
+  margin-bottom: 0px;
   margin-right: -80px;
   z-index: 3;
 }
 
 .install-screenshot-desktop {
   margin-right: -250px;
-  margin-bottom: -2.25em;
+  margin-bottom: -50px;
   z-index: 3;
 }
 

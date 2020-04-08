@@ -1,6 +1,8 @@
 ---
-title: "Measure internet censorship"
-description: "Contribute to the world's largest open dataset on internet censorship"
+title: "Download OONI Probe Desktop"
+description: "Measure internet censorship and contribute to the world's largest open dataset on internet censorship"
+leadTitle: "Measure internet censorship"
+leadDescription: "Contribute to the world's largest open dataset on internet censorship"
 screenshot: "/install/ProbeDesktopScreenshot.png"
 screenshot2x: "/install/ProbeDesktopScreenshot@2x.png"
 platform: "desktop"

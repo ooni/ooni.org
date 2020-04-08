@@ -1,11 +1,11 @@
 {{ define "main" }}
 <div class="container install">
-  <main class="col mt-5">
+  <main class="col mt-5 pr-5">
     <div class="row">
       <div class="col text-center">
         <img src="/install/index.svg" style="max-width: 332px;"/>
-        <h1 class="article-title">{{ .Title }}</h1>
-        <p class="lead">{{ .Description }}</p>
+        <h1 class="article-title">{{ .Params.leadTitle }}</h1>
+        <p class="lead">{{ .Params.leadDescription }}</p>
       </div>
     </div>
     <div class="row">
