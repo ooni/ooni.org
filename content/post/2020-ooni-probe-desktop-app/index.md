@@ -1,12 +1,13 @@
 ---
 title: "Launched: New OONI Probe Desktop App for Windows and macOS"
+description: "Today, OONI is thrilled to announce the public launch of the new OONI Probe desktop app for Windows and macOS!"
 author: "Maria Xynou"
 date: "2020-04-21"
 tags: ["censorship", "speed", "performance"]
 categories: ["blog"]
 ---
 
-![OONI Probe desktop app](/post/ooni-desktop-app/desktop.png)
+{{<img src="images/desktop-feature.png" title="OONI Probe desktop app" alt="OONI Probe desktop app">}}
 
 Today, OONI is thrilled to announce the public launch of the **new OONI
 Probe desktop app** that you can download and install on **Windows** and
@@ -70,7 +71,7 @@ Below we share some highlights from the new OONI Probe desktop app.
 
 ## New circumvention tool tests
 
-![Circumvention tool tests](/post/ooni-desktop-app/circumvention.png)
+{{<img src="images/circumvention.png" title="Circumvention tool tests" alt="Circumvention tool tests">}}
 
 Along with the new OONI Probe desktop app, we are excited to release two new
 OONI Probe tests:
@@ -110,7 +111,7 @@ app, Windows and macOS users around the world can measure
 
 ### Tor
 
-![Tor test](/post/ooni-desktop-app/tor-test.png)
+{{<img src="images/tor-test.png" title="Tor test" alt="Tor test">}}
 
 The [Tor network](https://www.torproject.org/), which is free and open
 source, provides its users with online anonymity, privacy, and
@@ -140,7 +141,7 @@ measurements!
 
 ### Psiphon
 
-![Psiphon test](/post/ooni-desktop-app/psiphon-test.png)
+{{<img src="images/psiphon-test.png" title="Psiphon test" alt="Psiphon test">}}
 
 [Psiphon](https://psiphon.ca/) is a free
 and open source tool that utilizes VPN, SSH, and HTTP proxy technology
@@ -161,7 +162,7 @@ measurements!
 
 ## More extensive website testing
 
-![Website testing](/post/ooni-desktop-app/accessible-site.png)
+{{<img src="images/accessible-site.png" title="Website testing" alt="Website testing">}}
 
 You can measure the blocking of more than a thousand websites with the
 new OONI Probe desktop app.
