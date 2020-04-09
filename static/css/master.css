@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  font-family: "Source Serif Pro", serif;
+  overflow-x: hidden;
+  font-family: "Fira Sans", sans-serif;
 }
 
 h1, h2, h3, h4, h5, nav, .toc {
@@ -27,6 +28,9 @@ pre, code {
 /* Document structure */
 
 nav {
+  position: relative;
+  z-index: 10;
+  background-color: white;
 }
 
 footer {
@@ -157,6 +161,27 @@ code {
     background-color: #0588cb;
 }
 
+.square-btn {
+  display: inline-block;
+  line-height: 30px;
+  outline: 0;
+  text-decoration: none;
+  background-color: #0588cb;
+  color: white;
+  text-align: center;
+  letter-spacing: .5px;
+  cursor: pointer;
+  margin-bottom: 16px;padding: 16px 24px;
+  border-radius: 2px;
+  width: 24em;
+  max-width: 100%;
+}
+
+.square-btn:hover {
+  background-color: #056aa6;
+  text-decoration: none;
+  color: white;
+}
 /* ================================================================== */
 /* Paragraphs */
 
@@ -646,6 +671,10 @@ pre span.lw {
   font-size: 0.7rem;
 }
 
+.blog-post {
+  font-family: "Source Serif Pro", serif;
+}
+
 .blog-post img {
   max-width: 100%;
 }
@@ -675,6 +704,118 @@ pre span.lw {
   border: 2px solid transparent;
   border-radius: 4px;
   padding: 6px 20px;
+}
+
+/* Install section */
+.install {
+}
+
+h1.heading {
+  font-size: 3em;
+}
+
+h1.article-title {
+  margin-top: 0.5em;
+  font-size: 2.5em;
+}
+
+.explorer-screenshot {
+  max-width: 100%;
+}
+
+img.install-flourish {
+  top: 1.25rem;
+  z-index: 2;
+  position: absolute;
+  right: -1150px;
+  top: -1000px;
+}
+
+.install-screenshot-phone {
+  margin-bottom: 0px;
+  margin-right: -80px;
+  z-index: 3;
+}
+
+.install-screenshot-desktop {
+  margin-right: -250px;
+  margin-bottom: -50px;
+  z-index: 3;
+}
+
+p.lead {
+  font-size: 1.75em;
+}
+
+.install-cli {
+  background: #002934;
+  color: #ffffff;
+  padding: 5em 0;
+  margin-top: 5em;
+}
+
+a.icon-links {
+  text-align: center;
+}
+
+a.icon-links img {
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.no-screenshot .ooni-desktop-btn {
+  max-width: 9.5em;
+  padding: 13px 0;
+  font-size: 1.25rem;
+  margin: 2rem 1rem 0;
+}
+
+.no-screenshot .store-downloads {
+  margin-top: 2rem;
+}
+
+.feature-container {
+  background-color: #F1F3F5;
+  color: #000000;
+  z-index: 5;
+  position: relative;
+}
+
+.feature-container div {
+  max-width: 26%;
+}
+
+.feature-container h2 {
+  margin-top: 3rem;
+  font-size: 1.25em;
+  align-self: flex-start
+}
+
+hr {
+  border: none;
+  border-bottom: #979797 1px solid;
+  margin: 4rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .feature-container div {
+    max-width: none;
+    margin-bottom: 4rem;
+  }
+
+  .desktop-buttons {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  img.install-flourish {
+    right: -1175px;
+  }
 }
 
 /*  Tests section */
@@ -729,11 +870,10 @@ p.test-paragraph {
   text-decoration: none;
 }
 
-.store-downloads {
-    text-align: center;
-    width: 100%;
-}
-.store-downloads a.badge img {
+.app-store-badge img {
     height: 49px;
-    max-width: 100%;
+}
+
+.app-store-badge:hover img {
+    opacity: 0.8;
 }

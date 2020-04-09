@@ -1,46 +1,63 @@
 {{ define "main" }}
-<div class="container">
-
-  <main class="col">
+<div class="container install">
+  <main class="col pt-3">
     <div class="row">
-      <div class="col">
-        <h2>OS X and Linux</h2>
-        <img src="/install/osx-linux.png"/>
-        <p>To install OONI Probe on unix based systems
-           <a href="/install/ooniprobe">read our installation guide</a>
-        </p>
+      <div class="col text-center">
+        <img src="/install/index.svg" style="max-width:300px;"/>
+        <h1 class="mt-2 article-title">Measure internet censorship</h1>
       </div>
     </div>
-
-    <div class="row">
-        <div class="store-downloads">
-
-          <a class="badge" href="https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe">
-            <img alt="Download ooniprobe for Android"
-                 src="/install/play-store-badge.png"
-                 srcset="/install/play-store-badge.png 1x, /install/play-store-badge.png 2x">
-          </a>
-
-          <a class="badge" href="https://itunes.apple.com/us/app/id1199566366">
-            <img alt="Download ooniprobe for iOS"
-                 src="/install/app-store-badge.png"
-                 srcset="/install/app-store-badge.png 1x, /install/app-store-badge.png 2x">
-          </a>
-
-          <a class="badge" href="https://f-droid.org/repository/browse/?fdid=org.openobservatory.ooniprobe">
-            <img alt="Download ooniprobe for Android (F-Droid)"
-                 src="/install/fdroid-badge.png"
-                 srcset="/install/fdroid-badge.png 1x, /install/fdroid-badge.png 2x">
-          </a>
-        </div>
+    <div class="row justify-content-around pt-5">
+      <div class="col-12 col-sm-5 d-flex flex-column">
+        <a href="/install/mobile" class="icon-links mb-3">
+          <img alt="OONI Probe Phone App Download"
+            src="/install/PhoneMockupIcon.png"
+            srcset="/install/PhoneMockupIcon.png 1x, /install/PhoneMockupIcon@2x.png 2x"
+            class="xs-center" id="ooni-phone" />
+        </a>
+        <h2>Mobile</h2>
+        <p>
+          Get the OONI Probe mobile app to measure many different networks.
+        </p>
+        <a href="/install/mobile">Install OONI Proble Mobile >></a>
+      </div>
+      <div class="col-12 col-sm-5 d-flex flex-column">
+        <a href="/install/desktop" class="icon-links mb-3 mt-3">
+          <img alt="OONI Probe Desktop App Download"
+            src="/install/ProbeDesktopScreenshot.png"
+            srcset="/install/ProbeDesktopScreenshot.png 1x, /install/ProbeDesktopScreenshot@2x.png 2x"
+            class="xs-center" id="ooni-phone" />
+        </a>
+        <h2>Desktop</h2>
+        <p>
+          Get the OONI Probe desktop app to perform more extensive testing from your computer.
+        </p>
+        <a href="/install/desktop">Install OONI Proble Desktop >></a>
+      </div>
     </div>
-    <div class="row" style="padding-top:20px">
-      <p>Interested in being a beta tester? Help us test the new next-generation <a href="https://github.com/ooni/probe-desktop/releases">OONI Probe Desktop</a> for Windows and macOS, as well as <a href="https://github.com/ooni/probe-cli/releases">OONI Probe CLI</a>.</p>
-
-    </div>
-
-
   </main>
-
+</div>
+<div class="install-cli install">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img class="px-4 d-none d-sm-block" alt="Probe CLI Screenshot"
+                  src="/install/ProbeCLIScreenshot.png"
+                  srcset="/install/ProbeCLIScreenshot.png 1x, /install/ProbeCLIScreenshot@2x.png 2x" />
+      </div>
+      <div class="col-md-6">
+        <h2 class="mb-4">Command Line Interface</h2>
+        <p>
+          Are you a power user? Check out the OONI Probe Command Line Interface (CLI) tool!
+        </p>
+        <a 
+          href="https://github.com/ooni/probe-cli"
+          target="_blank"
+          rel="noopener noreferrer">
+          Install OONI Probe CLI >>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
 {{ end }}
