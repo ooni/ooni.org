@@ -3,16 +3,16 @@
 
   <main class="col">
     <p class="test-intro">
-        Interested in running OONI's software tests to collect evidence of internet censorship? Below we include descriptions for all of OONI's tests. For more detailed descriptions, click below on the tests of your choice!
+        The <a href="https://ooni.org/install/">OONI Probe app</a> consists of many different tests. Click on the cards below to learn how each OONI Probe test works!
     </p>
 
     <ul class="test-overivew">
       <a href="#websites"><li>Which websites are blocked?</li></a>
-      <a href="#im"><li>Which Instant Messaging Apps are blocked?</li></a>
-      <a href="#boxes"><li>Which censorship technologies are in my network?</li></a>
+      <a href="#im"><li>Which instant messaging apps are blocked?</li></a>
       <a href="#tor"><li>Is Tor blocked?</li></a>
-      <a href="#proxies"><li>Are proxies blocked?</li></a>
+      <a href="#proxies"><li>Are VPNs blocked?</li></a>
       <a href="#performance"><li>What is the speed and performance of my network?</li></a>
+      <a href="#boxes"><li>Are middleboxes present on my network?</li></a>
     </ul>
 
     <h1 id="websites" class="test-header">Which websites are blocked?</h1>
@@ -32,27 +32,10 @@
       {{ end }}
     </div>
 
-    <h1 id="im" class="test-header">Which Instant Messaging Apps are blocked?</h1>
+    <h1 id="im" class="test-header">Which instant messaging apps are blocked?</h1>
     <div class="row">
       {{ range .Data.Pages }}
         {{ if in .Params.groups "im" }}
-        {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-        <div class="col mr-3 p-3 question-container">
-        <a href="{{ .RelPermalink }}">
-            <h2 class="test-header">{{ $TITLE }}</h2>
-            <p class="test-paragraph">
-              {{ .Params.short_description }}
-            </p>
-        </a>
-        </div>
-        {{ end }}
-      {{ end }}
-    </div>
-
-    <h1 id="boxes" class="test-header">Which censorship technologies are in my network?</h1>
-    <div class="row">
-      {{ range .Data.Pages }}
-        {{ if in .Params.groups "boxes" }}
         {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
         <div class="col mr-3 p-3 question-container">
         <a href="{{ .RelPermalink }}">
@@ -83,7 +66,7 @@
       {{ end }}
     </div>
 
-    <h1 id="proxies" class="test-header">Are proxies blocked?</h1>
+    <h1 id="proxies" class="test-header">Are VPNs blocked?</h1>
     <div class="row">
       {{ range .Data.Pages }}
         {{ if in .Params.groups "proxies" }}
@@ -115,7 +98,27 @@
         {{ end }}
       {{ end }}
     </div>
-  </main>
+
+    <h1 id="boxes" class="test-header">Are middleboxes present on my network?</h1>
+    <div class="row">
+      {{ range .Data.Pages }}
+        {{ if in .Params.groups "boxes" }}
+        {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
+        <div class="col mr-3 p-3 question-container">
+        <a href="{{ .RelPermalink }}">
+            <h2 class="test-header">{{ $TITLE }}</h2>
+            <p class="test-paragraph">
+              {{ .Params.short_description }}
+            </p>
+        </a>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+ </main>
+
 </div>
 
 {{ end }}
+
+

@@ -1,4 +1,4 @@
-# Risks: Things you should know before using OONI Probe
+# Risks: Things you should know before running OONI Probe
 
 Translations:
 
@@ -20,17 +20,17 @@ Therefore the potential risks associated to running OONI Probe depend on:
 
 2. **The laws and regulations in the country that you are running OONI Probe from.** Best to consult with local lawyers, and to learn whether that country has a record in prosecuting individuals engaging in similar types of activities.
 
-3. **The types of OONI Probe tests run.** Not all OONI Probe tests carry the same weight in terms of potential risk. OONI's [WhatsApp test](https://ooni.org/nettest/whatsapp/), for example, merely attempts to connect to servers that are already connected by more than a billion people around the world. You can opt-out from having OONI Probe run automatically, and you can choose which tests to run through OONI's web user interface.
+3. **The types of OONI Probe tests run.** Not all OONI Probe tests carry the same weight in terms of potential risk. OONI's [WhatsApp test](https://ooni.org/nettest/whatsapp/), for example, merely attempts to connect to servers that are already connected by more than a billion people around the world. You can choose which tests to run through the OONI Probe apps.
 
-4. **The types of sites that you test.** You can test your own list of sites through the following command line option: `ooniprobe <test-name> -f <your-test-list>`. You can also [contribute to test lists](https://ooni.org/get-involved/contribute-test-lists/) and suggest URLs to be added or removed. 
+4. **The types of sites that you test.** You can test the websites of your choice through the "Choose websites" button in the OONI Probe mobile app, or by using the [OONI Run](https://run.ooni.io/) platform. You can also [contribute to test lists](https://ooni.org/get-involved/contribute-test-lists/) and suggest URLs to be added or removed. 
 
-5. **Whether you have OONI Probe data published.** You can opt-out from having your data published through OONI Probe settings.
+5. **Whether you have OONI Probe data published.** You can opt-out from having your OONI Probe test results published through the OONI Probe app settings.
 
 ## Understanding potential risks more comprehensively
 
 OONI's [software tests](https://github.com/ooni/probe) (called
-OONI Probe) are designed to test networks for signs of censorship, surveillance
-and traffic manipulation. In some countries around the world using OONI Probe may
+OONI Probe) are designed to measure networks for signs of internet censorship
+and traffic manipulation. In some countries, using OONI Probe may
 result in criminal prosecution, fines, or even imprisonment. We therefore
 strongly urge you to consult with a lawyer licensed to practice in your country
 *prior* to downloading, installing and running OONI Probe, and to carefully read
@@ -45,34 +45,32 @@ severally, at law or at equity, to OONI Probe users and other third parties, for
 any risks or damages resulting from the use of OONI Probe under any tort,
 contract, or other causes of action.
 
-* [*Potential Penalties and Sanctions*](#potential-penalties-and-sanctions)
+* [Potential Penalties and Sanctions](#potential-penalties-and-sanctions)
 
-* [*Risks: Detection of OONI Probe*](#risks-detection-of-OONI Probe)
+* [Risks: Detection of OONI Probe](#risks-detection-of-ooni-probe)
 
-    * [*Surveillance*](#surveillance)
+    * [Surveillance](#surveillance)
 
-    * [*Tested services*](#tested-services)
+    * [Tested services](#tested-services)
 
-    * [*Physical or remote access to a user's device*](#physical-or-remote-access-to-a-users-device)
+    * [Physical or remote access to a user's device](#physical-or-remote-access-to-a-users-device)
 
-    * [*Publication of measurements*](#publication-of-measurements)
+    * [Publication of measurements](#publication-of-measurements)
 
-* [*Risks: ooniprobe tests*](#risks-ooniprobe-tests)
+* [Risks: OONI Probe tests](#risks-ooni-probe-tests)
 
-    * [*Legality of tested websites*](#legality-of-tested-websites)
+    * [Legality of tested websites](#legality-of-tested-websites)
 
-    * [*Legality of ooniprobe tests*](#legality-of-ooniprobe-tests)
+    * [Legality of OONI Probe tests](#legality-of-ooni-probe-tests)
 
-    * [*Legality of anonymity software*](#legality-of-anonymity-software)
-    
     * [Third-party services](#third-party-services)
 
-* [*Seeking Legal advice*](#seeking-legal-advice)
+* [Seeking Legal advice](#seeking-legal-advice)
 
 **Note:** The risks described below are quite speculative. To our
-knowledge, no ooniprobe user has ever faced consequences from the risks
+knowledge, no OONI Probe user has ever faced consequences from the risks
 described below. Nonetheless, we strongly encourage you to read the following
-information regarding potential risks associated with the use of ooniprobe.
+information regarding potential risks associated with the use of OONI Probe.
 
 ### Potential Penalties and Sanctions
 
@@ -106,7 +104,7 @@ OONI Probe are detailed below.
 Certain users may face severe penalties if these users are detected by third
 parties (such as governments) who view OONI Probe as a threat.
 
-The use of OONI Probe may be detected by third parties through the following:
+The use of OONI Probe may be detected by third parties through the following.
 
 #### Surveillance
 
@@ -139,13 +137,13 @@ that you have downloaded, installed or run OONI Probe.
 By default, all measurements generated through OONI Probe are sent to OONI's
 measurement collector and automatically published through:
 
-* [OONI Explorer](https://explorer.ooni.org/world/)
+* [OONI Explorer](https://explorer.ooni.org/)
 
-* [OONI Measurements API](https://api.ooni.io/)
+* [OONI API](https://api.ooni.io/)
 
 Consequently, the public - including third parties who view the usage of
 OONI Probe as a threat - will be able to see all user measurements, unless users
-**[opt out](/about/data-policy/)**.
+**opt out** via the OONI Probe app settings.
 
 Published data will include your approximate location, the network (ASN) you are
 connecting from, and the time when you ran OONI Probe. Other identifying
@@ -159,29 +157,26 @@ user.
 ### Risks: OONI Probe tests
 
 OONI has developed multiple free software tests, each one of which is designed
-to perform a different function. Therefore these tests potentially entail different
+to perform a different function. Therefore, these tests potentially entail different
 types of risks to the user.
 
 Generally, OONI Probe is designed to:
 
-* Examine whether websites are blocked;
+* Measure whether websites are blocked;
 
-* Examine whether instant messaging (IM) apps (such as WhatsApp or Facebook Messenger) are blocked;
+* Measure whether instant messaging (IM) apps (such as WhatsApp or Facebook Messenger) are blocked;
 
-* Detect the presence of systems which may be responsible for censorship,
-  surveillance and traffic manipulation;
+* Detect the presence of systems ("middleboxes") which may be responsible for censorship,
+  surveillance, and traffic manipulation;
 
-* Examine whether censorship circumvention tools, such as [Tor
-bridges](https://bridges.torproject.org/), [Psiphon](https://psiphon.ca/) and
-[Lantern](https://getlantern.org/), are blocked.
+* Examine whether censorship circumvention tools, such as [Tor](https://www.torproject.org/) and [Psiphon](https://psiphon.ca/), are blocked.
 
 We urge you to review the
-**[specifications](https://github.com/ooni/spec)**
-for each OONI Probe test carefully, prior to running them.
+**[specifications](https://github.com/ooni/spec)** and **[descriptions](https://ooni.org/nettest/)** for each OONI Probe test carefully, prior to running them.
 
 #### Legality of tested websites
 
-When running OONI's [web connectivity test](https://ooni.org/nettest/web-connectivity/) you will connect to and download data from various websites
+When running OONI's [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) you will connect to and download data from various websites
 which are included in the following two lists:
 
 * **[Country-specific test list](https://github.com/citizenlab/test-lists/tree/master/lists)** 
@@ -199,7 +194,7 @@ websites through OONI Probe tests.
 
 If you are uncertain of the potential implications of connecting to and
 downloading data from the websites listed in the above lists, you can choose
-which websites to test by running `OONI Probe web_connectivity -u <url>`.
+which websites to test through the "Choose websites" button in the OONI Probe mobile app, or by using the [OONI Run](https://run.ooni.io/) platform.
 
 #### Legality of OONI Probe tests
 
@@ -212,28 +207,6 @@ for example, *might* trigger suspicion when sending out-of-spec messages to an
 echo service and could be viewed as a form of "hacking". If network components
 affected by this test view these out-of-spec messages as attacks, you may face
 severe consequences, such as prosecution under computer misuse laws.
-
-#### Legality of anonymity software
-
-By default, OONI Probe network measurements are sent to OONI's measurement
-collector through the use of [Tor hidden services](https://www.torproject.org/docs/hidden-services) which are designed
-for online anonymity.
-
-Furthermore, OONI's **[Vanilla Tor](https://ooni.org/nettest/vanilla-tor/)** test is designed to examine the reachability of the Tor network, while
-OONI's **[bridge-reachability](https://ooni.org/nettest/tor-bridge-reachability/)** test is designed to check whether [Tor bridges](https://bridges.torproject.org/) are blocked or not. Both tests require
-the installation of [Tor software](https://www.torproject.org/).
-
-Similarly, the following OONI tests require the installation of circumvention
-software:
-
-* **[Psiphon](https://ooni.org/nettest/psiphon/)**
-
-* **[Lantern](https://ooni.org/nettest/lantern/)**
-
-We therefore encourage you to consult with a lawyer on the legality of anonymity
-software (such as Tor, a VPN or a proxy) in your country *prior* to running the
-above tests and to consider uploading your measurements via HTTPS collectors or
-cloud-fronting (instead of Tor hidden services).
 
 #### Third-party services
 
@@ -259,8 +232,6 @@ include:
   * **censorship detection software**?
 
   * **censorship circumvention software**?
-
-  * **anonymity software**?
 
 * Is it illegal for me to access certain websites?
 
