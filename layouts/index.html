@@ -38,20 +38,15 @@
 {{ end }}
 {{ define "main" }}
 <div class="homepage">
- <div class="container">
-    <header>
-      <div class="row pb-5">
-        <div class="col-12 col-md-4 col-lg-3 mt-5 ml-auto mr-auto">
-          <div class="logo d-block m-auto">
-            {{ partial "svg/OONI-VerticalColor.svg" }}
-          </div>
-        </div>
-        <div class="col-12 col-md-8 col-lg-9 mb-5 mt-5">
-          <h2>{{ .Params.leadTitle }}</h2>
-          <p>{{ .Params.leadDescription }}</p>
-        </div>
-      </div>
-    </header>
+
+  <div class="container mt-5">
+   <div class="col text-center">
+        <img src="/images/logos/OONI-VerticalColor.png"
+            srcset="/images/logos/OONI-VerticalColor.png 1x,
+                   /images/logos/OONI-VerticalColor@2x.png 2x">
+        <h1 class="article-title">{{ .Params.leadTitle }}</h1>
+        <p class="lead">{{ .Params.leadDescription }}</p>
+    </div>
   </div>
 
   <main>
