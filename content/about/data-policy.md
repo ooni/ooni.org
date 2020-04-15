@@ -149,14 +149,14 @@ Probe apps.
 If you *don't* opt out of sending us your measurements, we will collect the
 following types of data by default when you run OONI Probe.
 
-**Date and time of measurements**
+#### Date and time of measurements
 
 We **always** collect the time and date of measurements when you run OONI Probe.
 This data helps us evaluate when a measurement was collected and to
 compare measurements over time. **You cannot opt-out of sending us this type
 of data.**
 
-**Country code**
+#### Country code
 
 By default, we automatically transmit your IP address to the [MaxMind GeoIP database](https://www.maxmind.com/en/home), which identifies the country in
 which you are located. We then obtain a two-letter country code from this
@@ -170,7 +170,7 @@ discover network interference (such as censorship and traffic manipulation).
 You can opt out of sending us your country code by disabling this option in the
 settings of the OONI Probe apps.
 
-**Network information**
+#### Network information
 
 By default, we collect your corresponding network **[Autonomous System Number (ASN)](https://ooni.org/support/glossary/#asn)**
 when you run OONI Probe. 
@@ -192,7 +192,7 @@ encouraging you to test a long list of URLs.
 You can opt out of sending us your network information by disabling this option in the
 settings of the OONI Probe apps.
 
-**Network measurements**
+#### Network measurements
 
 We collect different types of network measurements when you run different types
 of OONI Probe tests. 
@@ -206,7 +206,7 @@ Details about the collected network measurements are available on [OONI Explorer
 You can opt out of sending us any of your measurements through the settings in the OONI
 Probe apps.
 
-**Crash reports**
+#### Crash reports
 
 By default, OONI Probe users send us crash reports, as this information can help
 with identifying bugs and improving the performance of the OONI Probe apps.
@@ -217,7 +217,7 @@ about why and how a specific OONI Probe function failed to work as expected.
 You can opt out of sending us crash reports by disabling this option in the
 advanced settings of the OONI Probe apps.
 
-**IP addresses and other information**
+#### IP addresses and other information
 
 We do *not* aim to collect or store your IP addresses. In fact, we take measures
 to remove them from our database of collected measurements to reduce the risk to
@@ -232,7 +232,7 @@ By default, we do *not* collect your IP addresses. You can, however, opt-in to
 provide your individual IP address (to enhance the accuracy of information) by
 enabling this option in the settings of the OONI Probe apps.
 
-**Information required for push notifications**
+#### Information required for push notifications
 
 If you **opt in to push notifications** via the [OONI Probe mobile app](https://ooni.org/install/mobile), we will
 collect information required for identifying and authenticating probes to send out push notifications. 
