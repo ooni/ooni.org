@@ -63,7 +63,7 @@
               class="py-4"
 				      src="/images/logos/Probe-HorizontalMonochromeInverted.png"
 				      srcset="/images/logos/Probe-HorizontalMonochromeInverted.png 1x, /images/logos/Probe-HorizontalMonochromeInverted@2x.png 2x" />
-            <p class="subtext">Test the blocking of websites and apps. Measure the speed and performance of your network.</p>
+            <p class="subtext">{{ .Params.ooniProbeDescription }}</p>
             <p class="subtext"><a class="explorer-button btn" href="https://ooni.org/install/">Install OONI Probe</a></p>
             <p class="cta"><a style="color: white;" href="/nettest/">Testing methodologies</a></p>
           </div>
@@ -108,7 +108,8 @@
               alt="OONI Explorer logo"
 				      src="/images/logos/Explorer-HorizontalMonochromeInverted.png"
 				      srcset="/images/logos/Explorer-HorizontalMonochromeInverted.png 1x, /images/logos/Explorer-HorizontalMonochromeInverted@2x.png 2x" />
-            <p class="subtext">Explore the world's largest open dataset on internet censorship. Millions of measurements collected from more than 200 countries since 2012.</p>
+
+            <p class="subtext">{{ .Params.ooniExplorerDescription }}</p>
             <p class="subtext"><a class="explorer-button btn" href="https://explorer.ooni.org/">Explore OONI Data</a></p>
             <p class="cta"><a href="/support/faq/">Frequently Asked Questions</a></p>
             <p class="cta"><a href="/support/glossary/">OONI Glossary</a></p>
