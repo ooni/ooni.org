@@ -27,12 +27,6 @@ pre, code {
 /* ================================================================== */
 /* Document structure */
 
-nav {
-  position: relative;
-  z-index: 10;
-  background-color: white;
-}
-
 footer {
   background-color: rgb(0, 44, 75);
   color: #fff;
@@ -333,31 +327,60 @@ td:last-child {
 /* ================================================================== */
 /* Navigation */
 
-.nav-menu a {
-  opacity: 0.3;
-  white-space: nowrap;
-}
-.nav-menu a.active, .nav-menu a:hover {
-  opacity: 1;
-}
-
-nav a:hover {
-  text-decoration: none;
+nav {
+  position: relative;
+  z-index: 10;
+  background-color: #0588cb;
+  color: #fff;
+  padding-bottom: 10px;
 }
 
 nav a {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
-  text-transform: uppercase;
-  color: inherit;
+  color: #fff;
   display: block;
-  padding: 10px 0;
+  padding: 5px 0;
+  border-bottom: 3px solid transparent;
 }
+
+nav a.active {
+  border-bottom: 3px solid #fff;
+}
+
+nav a.logo:hover  {
+  border-bottom: 3px solid transparent;
+  opacity: 1;
+}
+
+nav a.logo {
+  vertical-align: -5px;
+  margin-right: 0.32rem;
+  opacity: 0.5;
+}
+
+nav .logo svg {
+  height: 30px;
+}
+
+nav .wordmark {
+  opacity: 0.3;
+}
+
+
+
+nav a:hover  {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  text-decoration: none;
+}
+
 
 nav a:last-child {
   margin-right: 0;
 }
+
 
 nav h1 {
   display: inline;
@@ -365,23 +388,6 @@ nav h1 {
   font-size: 1.38rem;
   text-transform: uppercase;
   margin-bottom: 0;
-}
-
-nav a:hover .logo {
-  opacity: 1;
-}
-
-nav .logo {
-  vertical-align: -5px;
-  margin-right: 0.32rem;
-  opacity: 0.5;
-}
-nav .logo svg {
-  height: 30px;
-}
-
-nav .wordmark {
-  opacity: 0.3;
 }
 
 
