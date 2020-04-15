@@ -10,7 +10,7 @@ aliases: ["/data-policy"]
 
 This Data Policy discloses and explains what data the [Open Observatory of
 Network Interference (OONI) project](https://ooni.org/) ("we", "us", or "our")
-collects, processes, stores and publishes relating to users of its use of analytics and
+collects, processes, stores and publishes relating to the users of
 its OONI Probe software ("you" or "your"). This Data Policy also outlines the
 data principles that govern OONI's data practices.
 
