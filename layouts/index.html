@@ -47,25 +47,31 @@
           </div>
         </div>
         <div class="col-12 col-md-8 col-lg-9 mb-5 mt-5">
-          <h2>Open Observatory of Network Interference</h2>
-          <p>Global community measuring Internet censorship since 2012.</p>
+          <h2>{{ .Params.leadTitle }}</h2>
+          <p>{{ .Params.leadDescription }}</p>
         </div>
       </div>
     </header>
   </div>
 
-  <main>   
-    <div class="how-it-works">
+  <main>
+    <div class="blue-bg-section mb-3">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-4 col-lg-3">
-            <h2 class="overlined">OONI Probe</h2>
+          <div class="col-12 col-md-8 col-lg-8">
+            <img
+              class="py-4"
+				      src="/images/logos/Probe-HorizontalMonochromeInverted.png"
+				      srcset="/images/logos/Probe-HorizontalMonochromeInverted.png 1x, /images/logos/Probe-HorizontalMonochromeInverted@2x.png 2x" />
             <p class="subtext">Test the blocking of websites and apps. Measure the speed and performance of your network.</p>
             <p class="subtext"><a class="explorer-button btn" href="https://ooni.org/install/">Install OONI Probe</a></p>
             <p class="cta"><a style="color: white;" href="/nettest/">Testing methodologies</a></p>
           </div>
-          <div class="col-12 col-md-8 col-lg-9">
-            <img src="/images/how-ooni-works.png" srcset="/images/how-ooni-works-2x.png 2x"/>
+          <div class="col-12 col-md-4 col-lg-4">
+            <img alt="OONI Probe Phone App"
+              src="/install/PhoneMockupIcon.png"
+              srcset="/install/PhoneMockupIcon.png 1x, /install/PhoneMockupIcon@2x.png 2x"
+              class="xs-center" />
           </div>
         </div>
       </div>
@@ -85,22 +91,29 @@
           {{ end }}
           <a class="read-more" href="/reports/">View all</a>
         </div>
-      </div>    
-    </div>    
+      </div>
+    </div>
 
-  <div class="ooni-explorer">
+    <div class="blue-bg-section mb-3">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-4 col-lg-3">
-            <h2 class="overlined">OONI Explorer</h2>
-              <p class="subtext">Explore the world's largest open dataset on internet censorship. Millions of measurements collected from more than 200 countries since 2012.</p>
-              <p class="subtext"><a class="explorer-button btn" href="https://explorer.ooni.org/">Explore OONI Data</a></p>
-              <p class="cta"><a style="color: white;" href="/support/faq/">Frequently Asked Questions</a></p>
-              <p class="cta"><a style="color: white;" href="/support/glossary/">OONI Glossary</a></p>
-            </div>
-          <div class="col-12 col-md-8 col-lg-9">
-          <img src="/images/ooni-explorer-screenshot" srcset="/images/ooni-explorer-screenshot@2x.png 1440w"/>
-        </div>
+
+          <div class="col-12 col-md-8 col-lg-8">
+            <img src="/images/ooni-explorer-screenshot.png" srcset="/images/ooni-explorer-screenshot.png 1x, /images/ooni-explorer-screenshot@2x.png 2x"/>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-4">
+            <img
+              class="py-4"
+              alt="OONI Explorer logo"
+				      src="/images/logos/Explorer-HorizontalMonochromeInverted.png"
+				      srcset="/images/logos/Explorer-HorizontalMonochromeInverted.png 1x, /images/logos/Explorer-HorizontalMonochromeInverted@2x.png 2x" />
+            <p class="subtext">Explore the world's largest open dataset on internet censorship. Millions of measurements collected from more than 200 countries since 2012.</p>
+            <p class="subtext"><a class="explorer-button btn" href="https://explorer.ooni.org/">Explore OONI Data</a></p>
+            <p class="cta"><a href="/support/faq/">Frequently Asked Questions</a></p>
+            <p class="cta"><a href="/support/glossary/">OONI Glossary</a></p>
+          </div>
+
       </div>
     </div>
   </div>

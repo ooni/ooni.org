@@ -186,7 +186,7 @@ code {
 /* Paragraphs */
 
 p.cta {
-  margin-bottom: 2.6em;
+  margin-bottom: 1em;
 }
 
 .col-2 p:last-child, p.cta:last-child {
@@ -388,14 +388,6 @@ nav .wordmark {
 /* ================================================================== */
 /* Header */
 
-header h2 {
-  margin: 0;
-}
-
-header p {
-  max-width: 21.5em;
-}
-
 header .logo svg {
     height: 180px;
     margin: auto;
@@ -420,31 +412,19 @@ header .wordmark {
   margin: 2rem 0;
 }
 
-.homepage .how-it-works {
+.blue-bg-section {
   background-color: #0588cb;
   color: #fff;
+}
+
+.blue-bg-section a {
+  color: inherit;
+}
+
+.homepage .how-it-works {
   padding: 2rem 0;
   margin-bottom: 3.5rem;
 }
-
-.homepage .how-it-works h2, .homepage .ooni-explorer h2 {
-  color: #fff;
-  border-color: #fff;
-  margin-bottom: 0;
-}
-
-.homepage .how-it-works img {
-  display: block;
-  object-fit: contain;
-  height: 17.5rem;
-  width: 100%;
-}
-
-.homepage .ooni-explorer img {
-  display:block;
-  max-width:100%;
-}
-
 
 /* ================================================================== */
 /* Blog */
