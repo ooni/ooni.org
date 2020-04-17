@@ -27,12 +27,6 @@ pre, code {
 /* ================================================================== */
 /* Document structure */
 
-nav {
-  position: relative;
-  z-index: 10;
-  background-color: white;
-}
-
 footer {
   background-color: rgb(0, 44, 75);
   color: #fff;
@@ -186,7 +180,7 @@ code {
 /* Paragraphs */
 
 p.cta {
-  margin-bottom: 2.6em;
+  margin-bottom: 1em;
 }
 
 .col-2 p:last-child, p.cta:last-child {
@@ -333,49 +327,39 @@ td:last-child {
 /* ================================================================== */
 /* Navigation */
 
-.nav-menu a {
-  opacity: 0.3;
-  white-space: nowrap;
-}
-.nav-menu a.active, .nav-menu a:hover {
-  opacity: 1;
-}
-
-nav a:hover {
-  text-decoration: none;
+nav {
+  position: relative;
+  z-index: 10;
+  background-color: #0588cb;
+  color: #fff;
+  padding-bottom: 10px;
 }
 
 nav a {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
-  text-transform: uppercase;
-  color: inherit;
+  color: #fff;
   display: block;
-  padding: 10px 0;
+  padding: 5px 0;
+  border-bottom: 3px solid transparent;
 }
 
-nav a:last-child {
-  margin-right: 0;
+nav a.active {
+  border-bottom: 3px solid #fff;
 }
 
-nav h1 {
-  display: inline;
-  font-weight: bold;
-  font-size: 1.38rem;
-  text-transform: uppercase;
-  margin-bottom: 0;
-}
-
-nav a:hover .logo {
+nav a.logo:hover  {
+  border-bottom: 3px solid transparent;
   opacity: 1;
 }
 
-nav .logo {
+nav a.logo {
   vertical-align: -5px;
   margin-right: 0.32rem;
   opacity: 0.5;
 }
+
 nav .logo svg {
   height: 30px;
 }
@@ -385,16 +369,30 @@ nav .wordmark {
 }
 
 
+
+nav a:hover  {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  text-decoration: none;
+}
+
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+
+nav h1 {
+  display: inline;
+  font-weight: bold;
+  font-size: 1.38rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+
 /* ================================================================== */
 /* Header */
-
-header h2 {
-  margin: 0;
-}
-
-header p {
-  max-width: 21.5em;
-}
 
 header .logo svg {
     height: 180px;
@@ -420,31 +418,19 @@ header .wordmark {
   margin: 2rem 0;
 }
 
-.homepage .how-it-works {
+.blue-bg-section {
   background-color: #0588cb;
   color: #fff;
+}
+
+.blue-bg-section a {
+  color: inherit;
+}
+
+.homepage .how-it-works {
   padding: 2rem 0;
   margin-bottom: 3.5rem;
 }
-
-.homepage .how-it-works h2, .homepage .ooni-explorer h2 {
-  color: #fff;
-  border-color: #fff;
-  margin-bottom: 0;
-}
-
-.homepage .how-it-works img {
-  display: block;
-  object-fit: contain;
-  height: 17.5rem;
-  width: 100%;
-}
-
-.homepage .ooni-explorer img {
-  display:block;
-  max-width:100%;
-}
-
 
 /* ================================================================== */
 /* Blog */
