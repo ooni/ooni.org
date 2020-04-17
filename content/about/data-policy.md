@@ -74,7 +74,7 @@ and different users have different threat models. It's therefore important to us
 that OONI Probe users are able to customize their testing depending on their
 threat model and what they feel comfortable with. 
 
-To this end, we provide settings in the OONI Probe apps that enable users to **opt
+To this end, we provide settings in OONI software that enable users to **opt
 out** from various different types of data collection and publication. We also
 enable OONI Probe users to test the URLs of their choice.
 
@@ -89,11 +89,7 @@ sent to our servers.
 We openly publish all OONI measurements in machine-readable format, so that they
 can more easily be accessed, used, and integrated into other systems.
 
-To enable researchers and data scientists to make use of OONI data, we have
-created an [OONI API](https://api.ooni.io/) for downloading the raw measurements in JSON format. For
-batch consumption of OONI data, we have created a system that enables third
-parties to set-up their own instance of the [OONI PostgreSQL Metadb](https://github.com/ooni/sysadmin/blob/master/docs/metadb-sharing.md). The whole
-OONI dataset can also be fetched from the [ooni-data Amazon S3 bucket](https://ooni.org/post/mining-ooni-data).
+To enable researchers and data scientists to make use of OONI data, we offer [several methods for accessing, downloading, and analyzing](https://ooni.org/data/) the data.
 
 To enable human rights defenders, journalists, and the general public to access
 and use OONI data, we have built [OONI Explorer](https://explorer.ooni.org/): a web platform that includes
@@ -189,8 +185,8 @@ and encouraging automatic OONI Probe testing. For example, if you are on WiFi
 and you have opted-in to push notifications, we may send you a push notification
 encouraging you to test a long list of URLs. 
 
-You can opt out of sending us your network information by disabling this option in the
-settings of the OONI Probe apps.
+You can opt out of sending us your network ASN by disabling the collection of network information in the
+settings of the OONI Probe apps. You cannot, however, opt out of sending information about the type of network (e.g. WiFi) you are running OONI Probe on.
 
 #### Network measurements
 
@@ -231,6 +227,8 @@ the [websites](https://ooni.org/support/faq/#which-websites-will-i-test-for-cens
 By default, we do *not* collect your IP addresses. You can, however, opt-in to
 provide your individual IP address (to enhance the accuracy of information) by
 enabling this option in the settings of the OONI Probe apps.
+
+If you run the performance tests included in the OONI Probe apps, the [Measurement Lab (M-Lab)](https://www.measurementlab.net/) will collect and publish your IP address, irrespective of your OONI Probe settings. Learn more about M-Lab's data governance through its [privacy statement](https://www.measurementlab.net/privacy/).
 
 #### Information required for push notifications
 
@@ -289,7 +287,7 @@ metadb that hosts OONI Probe measurements).
 
 ### Data We Publish
 
-We publish ALL of the OONI Probe network measurement data that we have collected
+We [publish](https://ooni.org/data/) ALL of the OONI Probe network measurement data that we have collected
 and stored to allow third parties to conduct independent studies, verify our
 findings, and answer other research questions.
 
@@ -305,11 +303,10 @@ notifications.
 
 ### Third-party services
 
-Our [Network Diagnostic Test (NDT)](https://ooni.org/nettest/ndt/) is
-a general-purpose performance test conducted against third-party servers
+The performance tests included in the OONI Probe apps are conducted against third-party servers
 provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). M-Lab's
-NDT services require the retention and disclosure of IP addresses for research
-purposes. For more about M-Lab's data governance, see its [privacy statement](https://www.measurementlab.net/privacy/).
+services require the retention and disclosure of IP addresses for research
+purposes. Learn more about M-Lab's data governance through its [privacy statement](https://www.measurementlab.net/privacy/).
 
 
 We reserve all rights to make future changes to this Data Policy at our sole
