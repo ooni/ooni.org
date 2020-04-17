@@ -50,14 +50,15 @@
   {{ block "navbar" . }}
 
   {{ $selectedMenu := split .URL "/" }}
-  <nav>
+  <nav class="mb-4">
     <div class="container pt-2">
       <div class="row align-items-center">
         <div class="col-lg-3">
-          <a href="/">
-            <div class="logo">
-            {{ partial "svg/OONI-HorizontalColor.svg" }}
-            </div>
+          <a href="/" class="logo">
+            <img src="/images/logos/OONI-HorizontalMonochromeInverted.png"
+                 srcset="/images/logos/OONI-HorizontalMonochromeInverted.png 1x,
+                   /images/logos/OONI-HorizontalMonochromeInverted@2x.png 2x">
+
           </a>
         </div>
         <div class="col-lg-9 nav-menu">
