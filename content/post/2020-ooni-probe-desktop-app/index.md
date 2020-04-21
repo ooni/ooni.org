@@ -13,7 +13,7 @@ Today, OONI is thrilled to announce the public launch of the **new OONI
 Probe desktop app** that you can download and install on **Windows** and
 **macOS** to measure internet censorship and network performance.
 
-=> EMBED TWO DOWNLOAD BUTTONS FOR WINDOWS AND MACOS
+{{<oonibtn href="https://ooni.org/install/desktop" text="Install OONI Probe Desktop app">}}
 
 By running the tests in the new OONI Probe desktop app, you can measure:
 
