@@ -1,16 +1,6 @@
-# This is a basic workflow to help you get started with Actions
-
 name: CI
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
-on:
-  push:
-    branches: [ master ]
-  pull-request:
-    branches: [ master ]
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+on: [push, pull_request]
 jobs:
   # This workflow contains a single job called "build"
   build:
@@ -27,14 +17,28 @@ jobs:
       with:
         hugo-version: '0.58.2'
 
-    - name: Run a one-line script
+    - name: Build the website
       run: ./scripts/build_website.sh
 
     - uses: webfactory/ssh-agent@v0.2.0
       with:
-        ssh-private-key: |
-            ${{ secrets.SSH_PRIVATE_KEY }}
-            ${{ secrets.SSH_PRIVATE_KEY_OONIGHIO }}
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-    - name: Run a one-line script
-      run: ./scripts/deploy_circleci.sh
+    - name: Deploy to openobservatory.github.io
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          SSH: true
+          BRANCH: master
+          FOLDER: public
+
+    - uses: webfactory/ssh-agent@v0.2.0
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY_OONIGHIO }}
+
+    - name: Deploy to ooni.github.io
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          SSH: true
+          BRANCH: master
+          FOLDER: public
+
