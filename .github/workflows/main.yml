@@ -39,6 +39,7 @@ jobs:
       uses: shimataro/ssh-key-action@v2
       with:
         key: ${{ secrets.SSH_PRIVATE_KEY_OONIGHIO }}
+        known_hosts: ""
 
     - name: Deploy to ooni.github.io
       uses: JamesIves/github-pages-deploy-action@releases/v3
