@@ -20,18 +20,20 @@ jobs:
     - name: Build the website
       run: ./scripts/build_website.sh
 
-    - uses: webfactory/ssh-agent@v0.2.0
+    - name: setup ssh key for openobservatory.github.io
+      uses: webfactory/ssh-agent@v0.2.0
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
     - name: Deploy to openobservatory.github.io
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          SSH: true
-          BRANCH: master
-          FOLDER: public
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        SSH: true
+        BRANCH: master
+        FOLDER: public
 
-    - uses: webfactory/ssh-agent@v0.2.0
+    - name: setup ssh key for ooni.github.io
+      uses: webfactory/ssh-agent@v0.2.0
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY_OONIGHIO }}
 
