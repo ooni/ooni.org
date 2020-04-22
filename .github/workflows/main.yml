@@ -30,7 +30,7 @@ jobs:
         known_hosts: "${{ env.GH_KNOWN_HOSTS}}"
         config: |
           host github.com
-            identityfile ~/.ssh/id_rsa_ooni.github.io
+            identityfile ~/.ssh/id_rsa_openobservatory.github.io
 
     - name: Deploy to openobservatory.github.io
       uses: JamesIves/github-pages-deploy-action@releases/v3
