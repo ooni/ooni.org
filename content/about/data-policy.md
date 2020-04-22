@@ -4,9 +4,9 @@ description: This Data Policy discloses and explains what data the OONI project 
 aliases: ["/data-policy"]
 ---
 
-**Last modified:** April 17, 2020
+**Last modified:** April 22, 2020
 
-**Version:** 1.3.0
+**Version:** 1.3.1
 
 This Data Policy discloses and explains what data the [Open Observatory of
 Network Interference (OONI) project](https://ooni.org/) ("we", "us", or "our")
@@ -113,9 +113,8 @@ collected from around the world.
 
 We use [Matomo analytics](https://matomo.org/) -- a [GDPR compliant, free and
 open source tool](https://matomo.org/why-matomo/) -- to collect some information
-about visitors to our [website](https://ooni.org/) and [OONI
-Explorer](https://explorer.ooni.org/), and about [OONI Probe desktop
-app](https://ooni.org/install/desktop) users. 
+about visitors to [OONI Explorer](https://explorer.ooni.org/) and our [website](https://ooni.org/), as well as to collect [OONI Probe desktop
+app](https://ooni.org/install/desktop) usage statistics. 
 
 Through the use of analytics, our goal is to improve our understanding of user
 needs, improve OONI tools, and better serve the OONI community.
@@ -123,8 +122,11 @@ needs, improve OONI tools, and better serve the OONI community.
 We do not record the full IP address of users (which is "anonymised" to the
 first 3 octets, ex. 123.45.67.0).
 
-You can opt out of OONI's use of Matomo analytics by unchecking the opt-out box
-at the end of this Data Policy.
+You can opt out of our use of analytics on [OONI Explorer](https://explorer.ooni.org/) and the [OONI website](https://ooni.org/)
+by **unchecking the opt-out box** at the end of this Data Policy.
+
+You can opt out of our use of analytics on the [OONI Probe desktop app](https://ooni.org/install/desktop) by disabling the collection of app usage
+statistics in the app settings. 
 
 We will notify you of any future changes to our use of analytics through an
 update to this Data Policy.
