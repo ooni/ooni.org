@@ -30,7 +30,9 @@ jobs:
 
     - uses: webfactory/ssh-agent@v0.2.0
       with:
-        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+        ssh-private-key: |
+            ${{ secrets.SSH_PRIVATE_KEY }}
+            ${{ secrets.SSH_PRIVATE_KEY_OONIGHIO }}
 
     - name: Run a one-line script
       run: ./scripts/deploy_circleci.sh

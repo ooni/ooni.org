@@ -9,8 +9,11 @@ echo 'github.com ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6Tb
 ' >> ~/.ssh/known_hosts
 git init .
 git remote add openobservatory-gh git@github.com:OpenObservatory/openobservatory.github.io.git
+git remote add ooni-gh git@github.com:ooni/ooni.github.io.git
 git add .
 git config --global user.email "admin@openobservatory.org"
 git config --global user.name "OONI Git Pusher"
 git commit -am 'Static site deploy'
 git push --set-upstream openobservatory-gh master --force
+git push --set-upstream ooni-gh master --force
+
