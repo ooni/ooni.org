@@ -23,13 +23,13 @@ jobs:
     - name: Deploy to ooni.github.io
       uses: peaceiris/actions-gh-pages@v3
       with:
-        deploy_key: ${{ secrets.DEPLOY_KEY_OONI }}
+        personal_token: ${{ secrets.PERSONAL_TOKEN }}
         publish_dir: ./public
         external_repository: ooni/ooni.github.io
 
     - name: Deploy to openobservatory.github.io
       uses: peaceiris/actions-gh-pages@v3
       with:
-        deploy_key: ${{ secrets.DEPLOY_KEY_OPENOBSERVATORY }}
+        personal_token: ${{ secrets.PERSONAL_TOKEN }}
         publish_dir: ./public
         external_repository: openobservatory/openobservatory.github.io
