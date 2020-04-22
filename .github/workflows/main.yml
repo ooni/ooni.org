@@ -24,9 +24,13 @@ jobs:
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: '0.58.2'
-  
+
     - name: Run a one-line script
       run: ./scripts/build_website.sh
+
+    - uses: webfactory/ssh-agent@v0.2.0
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
     - name: Run a one-line script
       run: ./scripts/deploy_circleci.sh
