@@ -23,14 +23,9 @@ jobs:
       run: ./scripts/build_website.sh
 
     - name: Install SSH key
-      uses: shimataro/ssh-key-action@v2
+      uses: webfactory/ssh-agent@v0.2.0
       with:
-        key: ${{ secrets.SSH_PRIVATE_KEY_OONIGHIO }}
-        name: id_rsa_ooni.github.io
-        known_hosts: "${{ env.GH_KNOWN_HOSTS}}"
-        config: |
-          host github.com
-            identityfile ~/.ssh/id_rsa_ooni.github.io
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY_OONIGHIO }}
 
     - name: Deploy to ooni.github.io
       uses: JamesIves/github-pages-deploy-action@releases/v3
