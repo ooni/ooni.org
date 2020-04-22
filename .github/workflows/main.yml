@@ -57,5 +57,3 @@ jobs:
         SSH: true
         BRANCH: master
         FOLDER: public/
-
-
