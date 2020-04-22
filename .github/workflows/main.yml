@@ -23,7 +23,9 @@ jobs:
     - name: setup ssh key for openobservatory.github.io
       uses: webfactory/ssh-agent@v0.2.0
       with:
-        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+        ssh-private-key: |
+            ${{ secrets.SSH_PRIVATE_KEY }}
+            ${{ secrets.SSH_PRIVATE_KEY_OONIGHIO }}
 
     - name: Deploy to openobservatory.github.io
       uses: JamesIves/github-pages-deploy-action@releases/v3
@@ -32,11 +34,6 @@ jobs:
         SSH: true
         BRANCH: master
         FOLDER: public/
-
-    - name: setup ssh key for ooni.github.io
-      uses: webfactory/ssh-agent@v0.2.0
-      with:
-        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY_OONIGHIO }}
 
     - name: Deploy to ooni.github.io
       uses: JamesIves/github-pages-deploy-action@releases/v3
