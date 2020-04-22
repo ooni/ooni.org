@@ -28,9 +28,10 @@ jobs:
     - name: Deploy to openobservatory.github.io
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
+        REPOSITORY_NAME: openobservatory/openobservatory.github.io
         SSH: true
         BRANCH: master
-        FOLDER: public
+        FOLDER: public/
 
     - name: setup ssh key for ooni.github.io
       uses: webfactory/ssh-agent@v0.2.0
@@ -40,6 +41,7 @@ jobs:
     - name: Deploy to ooni.github.io
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
+        REPOSITORY_NAME: ooni/ooni.github.io
         SSH: true
         BRANCH: master
-        FOLDER: public
+        FOLDER: public/
