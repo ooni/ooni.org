@@ -21,17 +21,15 @@ jobs:
       run: ./scripts/build_website.sh
 
     - name: Deploy to ooni.github.io
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        REPOSITORY_NAME: ooni/ooni.github.io
-        ACCESS_TOKEN: "${{ secrets.GH_TOKEN }}"
-        BRANCH: master
-        FOLDER: public/
+        deploy_key: ${{ secrets.DEPLOY_KEY_OONI }}
+        publish_dir: ./public
+        external_repository: ooni/ooni.github.io
 
     - name: Deploy to openobservatory.github.io
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        REPOSITORY_NAME: openobservatory/openobservatory.github.io
-        ACCESS_TOKEN: "${{ secrets.GH_TOKEN }}"
-        BRANCH: master
-        FOLDER: public/
+        deploy_key: ${{ secrets.DEPLOY_KEY_OPENOBSERVATORY }}
+        publish_dir: ./public
+        external_repository: openobservatory/openobservatory.github.io
