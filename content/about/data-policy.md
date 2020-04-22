@@ -1,4 +1,6 @@
 ---
+title: OONI Data Policy
+description: This Data Policy discloses and explains what data the OONI project collects, processes, stores and publishes relating to the users of its OONI Probe software.
 aliases: ["/data-policy"]
 ---
 
