@@ -26,7 +26,6 @@ Dependencies to build the website **manually** are
 versions are codified in "canonical" build procedure in
 [travis.yml](./travis.yml).
 
-
 ### Running locally
 
 If you want to preview the website while editing styles and posts you can do it running following command:
