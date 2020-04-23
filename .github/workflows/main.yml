@@ -28,6 +28,7 @@ jobs:
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
         publish_dir: ./public
+        publish_branch: master
         external_repository: ooni/ooni.github.io
 
     - name: Deploy to openobservatory.github.io
@@ -35,4 +36,5 @@ jobs:
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
         publish_dir: ./public
+        publish_branch: master
         external_repository: openobservatory/openobservatory.github.io
