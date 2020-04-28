@@ -1,10 +1,10 @@
 ---
 title: "Measuring SNI based blocking in Iran"
-description: "We evaluate our new SNI blocking experiment in Iran"
+description: "We evaluate our new SNI blocking experiment in Iran."
 author: "Simone Basso"
 date: "2020-04-28"
 tags: ["iran", "censorship", "sni-blocking", "country-ir"]
-categories: ["blog"]
+categories: ["report"]
 ---
 
 In this blog post we start evaluating [OONI's new SNI blocking
