@@ -9,8 +9,8 @@ categories: ["blog"]
 
 In this blog post we start evaluating [OONI's new SNI blocking
 experiment](https://github.com/ooni/spec/blob/adf9537c43ef848b96792f8dea99fbd7f93fe608/nettests/ts-024-sni-blocking.md).
-To this end, we will use measurements performed in Iran, where this
-blocking technique is implemented.
+To this end, we will use measurements performed in Iran, where the
+blocking technique measured by this experiment is deployed.
 
 OONI's SNI blocking experiment discovers cases where [a Client Hello
 packet](https://tls.ulfheim.net/) carrying a specific SNI
