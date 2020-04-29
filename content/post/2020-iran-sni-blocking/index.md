@@ -59,53 +59,64 @@ experiment](https://github.com/ooni/spec/blob/adf9537c43ef848b96792f8dea99fbd7f9
 To evaluate this methodology, we ran experiments in Iran because we
 know that Iran implements SNI based blocking. We tested 112 domains for
 signs of SNI based blocking across three different autonomous systems:
-[AS197207](https://ipinfo.io/AS197207) (Mobile
-Communication Company of Iran, PLC),
-[AS12880](https://ipinfo.io/AS12880) (Information
-Technology Company), and
-[AS58224](https://ipinfo.io/AS58224) (Iran
-Telecommunication Company PJS). Since the results of the SNI blocking
-experiment are not exposed through [OONI
-Explorer](https://explorer.ooni.org/) yet, [we also
-published a script to download the
-measurements](https://gist.github.com/bassosimone/ad8eb608b42135dcae287de5d62f8551).
+
+1. [AS12880](https://ipinfo.io/AS12880) (Information
+Technology Company), henceforth indicated as DCI;
+
+2. [AS58224](https://ipinfo.io/AS58224) (Iran
+Telecommunication Company PJS), henceforth TCI;
+
+3. [AS197207](https://ipinfo.io/AS197207) (Mobile
+Communication Company of Iran, PLC), henceforth MCI.
+
+Since the results of the SNI blocking experiment are not exposed through
+[OONI Explorer](https://explorer.ooni.org/) yet, [we also published the scripts
+to download and process the measurements](
+https://gist.github.com/bassosimone/ad8eb608b42135dcae287de5d62f8551).
 
 The following table shows all the domains (and hence SNIs) for which
 we noticed signs of network interference for at least one of the three
 tested ASNs:
 
-| DOMAIN                        | ASN      | RESULT             |
-| ----------------------------- | -------- | ------------------ |
-| d1vq87e9lcf771.cloudfront.net | AS197207 | interference.reset |
-| i.pinimg.com                  | AS197207 | interference.reset |
-| log.quora.com                 | AS197207 | interference.reset |
-| www.quora.com                 | AS197207 | interference.reset |
-| 9gag.com                      |  AS58224 | anomaly.timeout    |
-| d1vq87e9lcf771.cloudfront.net |  AS12880 | anomaly.timeout    |
-| d1vq87e9lcf771.cloudfront.net |  AS58224 | anomaly.timeout    |
-| d3kwyfyztuo0xs.cloudfront.net |  AS12880 | anomaly.timeout    |
-| ifacetimeapp.com              |  AS58224 | anomaly.timeout    |
-| instinctmagazine.com          |  AS58224 | anomaly.timeout    |
-| isaalmasih.net                |  AS58224 | anomaly.timeout    |
-| openvpn.net                   |  AS58224 | anomaly.timeout    |
-| pridesource.com               |  AS58224 | anomaly.timeout    |
-| psiphon.ca                    |  AS58224 | anomaly.timeout    |
-| twitpic.com                   |  AS58224 | anomaly.timeout    |
-| www.eurogrand.com             |  AS58224 | anomaly.timeout    |
-| www.jdate.com                 |  AS58224 | anomaly.timeout    |
-| www.monife.com                |  AS58224 | anomaly.timeout    |
-| www.partypoker.net            |  AS58224 | anomaly.timeout    |
-| www.pinkcupid.com             |  AS58224 | anomaly.timeout    |
-| www.scruff.com                |  AS58224 | anomaly.timeout    |
-| www.ucc.org                   |  AS58224 | anomaly.timeout    |
-| www.vice.com                  |  AS58224 | anomaly.timeout    |
-| www.vonage.com                |  AS58224 | anomaly.timeout    |
-| www.xroxy.com                 |  AS58224 | anomaly.timeout    |
-| xhamster.com                  |  AS58224 | anomaly.timeout    |
+| DOMAIN | AS12880 (DCI) | AS58224 (TCI) | AS197207 (MCI) |
+| ------ | ------- | ------- | -------- |
+| 9gag.com | | timeout | |
+| d1vq87e9lcf771.cloudfront.net | timeout | timeout | reset |
+| d3kwyfyztuo0xs.cloudfront.net | timeout | | got\_server\_hello |
+| i.pinimg.com | got\_server\_hello | | reset |
+| ifacetimeapp.com | | timeout | |
+| instinctmagazine.com | | timeout | |
+| isaalmasih.net | | timeout | |
+| log.quora.com | | | reset |
+| openvpn.net | | timeout | |
+| pridesource.com | | timeout | |
+| psiphon.ca | | timeout | |
+| twitpic.com | | timeout | |
+| www.eurogrand.com | | timeout | |
+| www.jdate.com | | timeout | |
+| www.monife.com | | timeout | |
+| www.partypoker.net | | timeout | |
+| www.pinkcupid.com | | timeout | |
+| www.quora.com | got\_server\_hello | | reset |
+| www.scruff.com | | timeout | |
+| www.ucc.org | | timeout | |
+| www.vice.com | | timeout | |
+| www.vonage.com | | timeout | |
+| www.xroxy.com | | timeout | |
+| xhamster.com | | timeout | |
 
-We observe that connections are reset on the AS197207 network, while we
-only observe a timeout anomaly on the other two tested ASNs. To further
-understand the nature of the interference, we discuss two specific
+An empty cell indicates that there is no measurement for a
+specific network; `timeout` indicates that the TLS handshake timed out;
+`reset` means that the handshake was interrupted by a reset; and
+`got_server_hello` means that we received the Server Hello as expected
+(i.e. there was no interference).
+
+We observe that connections are reset on the MCI network, while we
+only observe timeout anomalies on the other two tested ASNs. We also
+observe that in some cases there is interference in some networks and
+no blocking in other networks.
+
+To further understand the nature of the interference, we discuss two specific
 measurements. We start with a measurement blocked with RST, whose JSON
 has of course been trimmed to increase clarity and
 readability.
