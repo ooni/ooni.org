@@ -75,7 +75,7 @@ That’s where data analysts can play an important role! Join us to:
 
 * Share data analysis methodologies and techniques
 
-You can dig into OONI’s data through [OONI Explorer](https://explorer.ooni.org/world/) and [OONI’s list of measurements](https://measurements.ooni.org/).
+You can dig into OONI’s data through [OONI Explorer](https://explorer.ooni.org/world/) and [OONI’s list of measurements](https://api.ooni.io/).
 
 # Research  
 

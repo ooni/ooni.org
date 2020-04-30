@@ -994,7 +994,7 @@ of tests that are run. Specifications about each OONI test can be viewed
 through its [*git repository*](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs),
 and details about what collected network measurements entail can be
 viewed through [*OONI Explorer*](https://explorer.ooni.org/world/) or through
-OONI’s [*public list of measurements*](https://measurements.ooni.org/).
+OONI’s [*public list of measurements*](https://api.ooni.io/).
 
 OONI processes the above types of data with the aim of deriving meaning
 from the collected measurements and, specifically, in an attempt to

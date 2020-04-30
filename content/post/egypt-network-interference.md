@@ -148,7 +148,7 @@ As well as the following URLs: `https://antoniomarques.eu`,
 `https://akombakom.net`, `https://anadoluefessk.org`, `https://alexmerkel.com`,
 `https://alexmerkel.me`, `https://alexmerkel.xyz`. The raw JSON OONI
 measurements file (25Mb size) of these URLs can be found
-[here](https://measurements.ooni.org/2016-08-31/20160830T125839Z-EG-AS20928-web_connectivity-no_report_id-0.2.0-probe.json).
+[here](https://api.ooni.io/2016-08-31/20160830T125839Z-EG-AS20928-web_connectivity-no_report_id-0.2.0-probe.json).
 
 The above lists however are *not* exhaustive and more websites may have been
 affected which are not listed here.
