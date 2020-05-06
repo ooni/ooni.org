@@ -7,7 +7,7 @@ tags: ["myanmar", "censorship", "coronavirus", "country-mm"]
 categories: ["report"]
 ---
 
-{{<img src="images/mm-blockpage.png" title="Block page served in Myanmar" alt="Block page served in Myanmar">}}
+{{<img src="images/mm-blockpage-3.png" title="Block page served in Myanmar" alt="Block page served in Myanmar">}}
 
 In March 2020, Internet Service Providers (ISPs) in Myanmar received a
 directive from the Ministry of Transport and Communications to [block 230 websites](https://www.telenor.com.mm/en/article/blocking-230-websites-myanmar-based-directive-authorities),
