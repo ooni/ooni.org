@@ -94,7 +94,7 @@ Numerous social media websites were found to be blocked in Burundi on
 The following chart illustrates the social media websites that we found
 to be blocked in Burundi on Econet (AS37336) on 20th May 2020.
 
-{{<img src="images/2020-bi-chart.png" title="Blocking of social media in Burundi" alt="Blocking of social media in Burundi">}}
+{{<img width="2000" src="images/2020-bi-chart.png" title="Blocking of social media in Burundi" alt="Blocking of social media in Burundi">}}
 
 **Source:** OONI measurements collected from Burundi, https://explorer.ooni.org/search?until=2020-05-22&probe_cc=BI&test_name=web_connectivity
 

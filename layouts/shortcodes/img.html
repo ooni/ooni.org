@@ -1,8 +1,10 @@
 {{ $img := $.Page.Resources.GetMatch (.Get "src")}}
-{{ $img600 := $img.Fit "700x800" }}
-{{ $img1200 := $img.Fit "1400x1600" }}
+
+{{ $img600 := $img.Fit "1000x800" }}
+{{ $img1200 := $img.Fit "2000x1600" }}
 
 <div>
+  <a href="{{ $img.RelPermalink }}">
   <img
     src="{{ $img600.RelPermalink }}"
     srcset="{{ $img1200.RelPermalink }} 2x"
@@ -11,6 +13,7 @@
     alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "title" }}{{ end }}"
     {{ end }}
   />
+  </a>
   {{ with .Get "caption" }}
   <span style="display: inline-block;font-style: italic;padding-bottom: 20px">{{ . }}</span>
   {{ end }}
