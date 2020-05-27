@@ -100,9 +100,9 @@ networks in Spain, as illustrated through the following chart.
 
 <img width="1492" src="images/2020-wow-spain.png" title="Blocking of women on web in Spain based on OONI data" alt="Blocking of women on web in Spain based on OONI data">
 
-***Source:** [OONI data on the blocking of Women on Web in Spain between
+**Source:** [OONI data on the blocking of Women on Web in Spain between
 1st January 2020 to 28th April 2020](
-https://explorer.ooni.org/search?until=2020-04-28&domain=www.womenonweb.org&probe_cc=ES)*.
+https://explorer.ooni.org/search?until=2020-04-28&domain=www.womenonweb.org&probe_cc=ES).
 
 This is not the first time that OONI data shows the blocking of
 [www.womenonweb.org](http://www.womenonweb.org). Last
@@ -698,6 +698,5 @@ volunteers that are already engaging with us. The result of this process
 will be an improved [Web Connectivity
 test](https://ooni.org/nettest/web-connectivity/)
 implemented in Go with enhanced capabilities, that will eventually be
-shipped as part of the [OONI Probe
-apps](https://ooni.org/install/) so that people worldwide
+shipped as part of the [OONI Probe apps](https://ooni.org/install/) so that people worldwide
 can easily run these experiments.
