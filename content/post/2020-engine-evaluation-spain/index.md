@@ -2,7 +2,7 @@
 title: "Evaluating OONI’s New Measurement Engine in the Context of the Blocking of Women on Web in Spain"
 description: "We evaluate OONI’s new measurement Engine in the context of the blocking Women on Web in Spain"
 author: "Simone Basso"
-date: "2020-05-22"
+date: "2020-05-27"
 tags: ["spain", "censorship", "sni-blocking", "country-es"]
 categories: ["report"]
 ---
@@ -98,7 +98,7 @@ Starting from January 2020, OONI data shows that access to
 www.womenonweb.org has been blocked on multiple local
 networks in Spain, as illustrated through the following chart.
 
-<img width="2000" src="images/ooni-data.png" title="Blocking of women on web in Spain based on OONI data" alt="Blocking of women on web in Spain based on OONI data">
+<img width="2000" src="images/2020-wow-spain.png" title="Blocking of women on web in Spain based on OONI data" alt="Blocking of women on web in Spain based on OONI data">
 
 ***Source:** [OONI data on the blocking of Women on Web in Spain between
 1st January 2020 to 28th April 2020](
