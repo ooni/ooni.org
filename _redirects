@@ -5,3 +5,4 @@ https://ooni.org/docs https://ooni.org/ 302!
 https://www.ooni.io/* https://ooni.org/:splat 301!
 https://ooni.torproject.org https://ooni.org 301!
 https://ooni.torproject.org/* https://ooni.org/:splat 301!
+https://ooni.org/youtube https://youtube.com/c/OONIorg
