@@ -6,7 +6,7 @@ pluralizeListTitles = false
 
 [params]
 description = "The Open Observatory of Network Interference (OONI) is a global community measuring internet censorship around the world. Run OONI Probe to detect internet censorship. Use OONI Explorer to track internet censorship worldwide in near real-time."
-probeDesktopVersion = "3.0.1"
+probeDesktopVersion = "3.0.2"
 
 [Languages]
 [Languages.ar]
