@@ -129,6 +129,31 @@ th, td {
   font-weight: inherit;
 }
 
+.youtube-subscribe {
+    background-color: #e62117;
+    color: white;
+    font: "YouTube Noto", Roboto, arial, sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    border: solid 1px transparent;
+    padding: 10px 10px 10px 40px;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    line-height: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    background-image: url('/images/logos/youtube-play.png');
+    background-position: left 5px top 12px;
+    background-repeat: no-repeat;
+}
+
+.youtube-subscribe:hover {
+    color: white;
+}
+
 .fingerprint{
   background-color: #f2f2f2;
   padding: 0.5rem 1rem;
