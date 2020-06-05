@@ -11,6 +11,7 @@ categories: ["blog"]
 
 {{<img src="images/imv2020-banner.png" title="Internet Measurement Village 2020" alt="Internet Measurement Village 2020">}}
 
+{{<youtube-subscribe>}}
 
 We are excited to bring the first online Internet Measurement Village to
 you this month.
