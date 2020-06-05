@@ -3,6 +3,8 @@ title: "Join the online Internet Measurement Village 2020"
 description: "Live-streamed presentations on Internet measurement projects from around the world."
 author: "Maria Xynou"
 date: "2020-06-05"
+aliases:
+  - /imv2020
 tags: ["event", "imv2020",]
 categories: ["blog"]
 ---
