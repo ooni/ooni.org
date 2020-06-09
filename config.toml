@@ -26,3 +26,9 @@ notAlternative = true
 
 [outputs]
   home = ["HTML", "PageIndex", "RSS"]
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 5
+    ordered = false
+    startLevel = 1
