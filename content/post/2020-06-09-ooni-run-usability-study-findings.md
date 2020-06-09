@@ -1,68 +1,21 @@
 ---
-categories:
-  - report
+categories: blog
 title: "OONI Run Usability Study: Findings"
 description: Report that shares the findings of the 2020 OONI Run usability study.
 date: 2020-06-09T09:38:02.821Z
+author: Maria Xynou
 tags:
   - ooni-run
   - usability
   - ux
 thumbnail: /images/uploads/dscf7168.jpg
+enabletoc: true
 ---
 [OONI Run](https://ooni.org/post/ooni-run/) is a platform ([launched](https://ooni.org/post/ooni-run/) in September 2017) that you can use to generate mobile deep links and widget code to coordinate [OONI Probe](https://ooni.org/install/) testing. To enable community members to more effectively use[ OONI Run](https://run.ooni.io/), we researched its limitations and collected structured community feedback through an [OONI Run usability study](https://ooni.org/post/2020-ooni-run-survey-and-interviews/).
 
 This report outlines the objectives, personas, assumptions, and methods of this study.
 
 We also share the outcomes based on the analysis of information collected through our [survey](https://ooni.typeform.com/to/r9c5ee) and interviews with community members, as well as some of the next steps towards improving OONI Run.
-
-* [OONI Run usability study](#ooni-run-usability-study)
-
-    * [Objectives](#objectives)
-
-[Personas](#personas)
-
-[Assumptions](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.o7q2u2fz0vgb)
-
-[Methods](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.ccsvpne3sog9)
-
-[Findings](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.ul3ri0rn3cvu)
-
-[Survey](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.5t07dw4muzap)
-
-[OONI Run usage: Overview](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.wvfdjow0ujr8)
-
-[Sharing (and receiving) OONI Run links](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.kie6b3c9r0cw)
-
-[Challenges associated with using OONI Run links](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.gnlyayrqg51t)
-
-[Challenges associated with using OONI Run buttons](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.73cz1srgg0hx)
-
-[Overall: Challenges associated with using OONI Run](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.t8bpt4v4ufab)
-
-[Suggestions for improving OONI Run](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.xxzq9nsorsc)
-
-[Interviews](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.tv86xoune51g)
-
-[Measurement campaign coordinators and volunteers](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.pjzs8zq87arl)
-
-[OONI Run usage](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.kt3gi0n8quc8)
-
-[Challenges](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.a118gbuu7uhl)
-
-[Suggestions and “dream features”](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.mn54w430cznv)
-
-[Internet freedom community members](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.hjus74wpj2e8)
-
-[OONI Run usage](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.ul4us5qjnpyo)
-
-[Challenges](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.lzystlvzatlz)
-
-[Suggestions and “dream features”](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.ekq9n7hagb9i)
-
-[Conclusion](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.ageg68yr3pg)
-
-[Next Steps](https://docs.google.com/document/d/1IjQk7mOfWgwMFpF_plJPbOkyXxj_qyBabe48nzNL9Bs/edit#heading=h.gfh3vzmgywgm)
 
 # OONI Run usability study
 
