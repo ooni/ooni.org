@@ -22,6 +22,8 @@ We also share the outcomes based on the analysis of information collected throug
 
 ![](/images/uploads/ooni-run.png)
 
+{{<table-of-contents>}}
+
 ## Objectives
 
 The overarching objective of the [OONI Run](https://run.ooni.io/) usability study (conducted in April and May 2020) is to better support decentralized community efforts around the world in coordinating [OONI Probe](https://ooni.org/install/) censorship measurement efforts.
