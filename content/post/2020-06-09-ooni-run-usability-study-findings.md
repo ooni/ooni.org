@@ -8,7 +8,7 @@ tags:
   - ooni-run
   - usability
   - ux
-thumbnail: /images/dscf7168.jpg
+thumbnail: /images/uploads/dscf7168.jpg
 ---
 [OONI Run](https://ooni.org/post/ooni-run/) is a platform ([launched](https://ooni.org/post/ooni-run/) in September 2017) that you can use to generate mobile deep links and widget code to coordinate [OONI Probe](https://ooni.org/install/) testing. To enable community members to more effectively use[ OONI Run](https://run.ooni.io/), we researched its limitations and collected structured community feedback through an [OONI Run usability study](https://ooni.org/post/2020-ooni-run-survey-and-interviews/).
 
@@ -66,7 +66,7 @@ We also share the outcomes based on the analysis of information collected throug
 
 # OONI Run usability study
 
-![](/images/ooni-run.png)
+![](/images/uploads/ooni-run.png)
 
 ## Objectives
 
