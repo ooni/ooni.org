@@ -109,5 +109,6 @@ minutes**.
 | Thursday, 2nd July 2020   | 14:00      | **Circumventing Internet Censorship with TunnelBear**                                       | This session presents [TunnelBear](https://www.tunnelbear.com/) and discusses how it can be used to circumvent Internet censorship.                                                                                                              | Shames Abdelwahab (TunnelBear)                                      |
 | Friday, 3rd July 2020     | 17:00      | **IODA: Examining Internet blackouts through open data**                                    | Presentation of [IODA](https://ioda.caida.org/)'s dashboard and methodologies.                                                                                                                                                                 | Ramakrishna Padmanabhan (CAIDA)                                     |
 
+You can also [view the schedule on Google Calendar](https://calendar.google.com/calendar/embed?src=openobservatory.org_v7130qejverp2t6fu13vusfnmg%40group.calendar.google.com) and [import the ICS file](https://calendar.google.com/calendar/ical/openobservatory.org_v7130qejverp2t6fu13vusfnmg%40group.calendar.google.com/public/basic.ics).
 
 Looking forward to seeing you online soon in the Internet Measurement Village 2020!
