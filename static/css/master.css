@@ -389,7 +389,7 @@ td:last-child {
 /* ================================================================== */
 /* Navigation */
 
-nav {
+nav.navbar {
   position: relative;
   z-index: 10;
   background-color: #0588cb;
@@ -397,7 +397,7 @@ nav {
   padding-bottom: 10px;
 }
 
-nav a {
+nav.navbar a {
   font-size: 14px;
   font-weight: normal;
   text-align: center;
@@ -407,44 +407,44 @@ nav a {
   border-bottom: 3px solid transparent;
 }
 
-nav a.active {
+nav.navbar a.active {
   border-bottom: 3px solid #fff;
 }
 
-nav a.logo:hover  {
+nav.navbar a.logo:hover  {
   border-bottom: 3px solid transparent;
   opacity: 1;
 }
 
-nav a.logo {
+nav.navbar a.logo {
   vertical-align: -5px;
   margin-right: 0.32rem;
   opacity: 0.5;
 }
 
-nav .logo svg {
+nav.navbar .logo svg {
   height: 30px;
 }
 
-nav .wordmark {
+nav.navbar .wordmark {
   opacity: 0.3;
 }
 
 
 
-nav a:hover  {
+nav.navbar a:hover  {
   color: #fff;
   border-bottom: 3px solid #fff;
   text-decoration: none;
 }
 
 
-nav a:last-child {
+nav.navbar a:last-child {
   margin-right: 0;
 }
 
 
-nav h1 {
+nav.navbar h1 {
   display: inline;
   font-weight: bold;
   font-size: 1.38rem;
