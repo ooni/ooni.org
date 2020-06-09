@@ -19,3 +19,5 @@ collections:
       - {label: "Tags", name: "tags", widget: "list", default: [""]}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Table of Contents", name: "enabletoc", widget: "boolean", default: false}
+
