@@ -18,11 +18,11 @@ This report outlines the objectives, personas, assumptions, and methods of this 
 
 We also share the outcomes based on the analysis of information collected through our [survey](https://ooni.typeform.com/to/r9c5ee) and interviews with community members, as well as some of the next steps towards improving OONI Run.
 
+{{<table-of-contents>}}
+
 # OONI Run usability study
 
 ![](/images/uploads/ooni-run.png)
-
-{{<table-of-contents>}}
 
 ## Objectives
 
