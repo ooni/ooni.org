@@ -1,5 +1,6 @@
 ---
-categories: blog
+categories:
+  - blog
 title: "OONI Run Usability Study: Findings"
 description: Report that shares the findings of the 2020 OONI Run usability study.
 date: 2020-06-09T09:38:02.821Z
