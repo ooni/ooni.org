@@ -17,7 +17,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list", default: [""]}
+      - {label: "Table of Contents", name: "enabletoc", widget: "boolean", default: false}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Table of Contents", name: "enabletoc", widget: "boolean", default: false}
 
