@@ -398,13 +398,13 @@ Interestingly, several participants clicked on the “Done” button inside the 
 
 ![](/images/uploads/window.png)
 
-***Image:** OONI Run pop-up window upon generating a mobile deep link and widget code, <https://run.ooni.io/>*
+**Image:** OONI Run pop-up window upon generating a mobile deep link and widget code, <https://run.ooni.io/>
 
 Upon **clicking the “Link” button** inside the pop-up window, many interview participants were **confused by the page** that they landed on (accessed from a desktop browser). That page told them to install OONI Probe, but they were puzzled because they ***already had the OONI Probe app installed***. Some participants even had *both* the OONI Probe [desktop](https://ooni.org/install/desktop) and [mobile](https://ooni.org/install/mobile) apps installed, finding this page particularly confusing. When clicking on the “Run” button on that page (from a desktop browser), nothing happened. It was therefore unclear to them how to proceed.
 
 ![](https://lh6.googleusercontent.com/UnMzKVG8YMY-iC9LNBjnMQljeZ4IqICY4RLHVmzCVxyFG7bqGstgdlDtxOxMWjGbcK71AITvPb3MCc335d1hwFJhVpPQC80HQ3jR_jIacL1yIUo7XWUCRd9cFPgkziq4Y0Etnpsc)
 
-***Image:** OONI Run page (when accessed from a desktop browser) based on generated OONI Run link, <https://run.ooni.io/>*
+**Image:** OONI Run page (when accessed from a desktop browser) based on generated OONI Run link, <https://run.ooni.io/>
 
 Since the purpose and functionality of OONI Run was not immediately clear, the use of the generated widget code was not clear either. However, once participants understood the goal and functionality of OONI Run, several participants understood how they would use the generated widget code as well.
 
