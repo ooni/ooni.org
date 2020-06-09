@@ -1,5 +1,5 @@
-media_folder: static/images
-public_folder: /images
+media_folder: static/images/uploads
+public_folder: /images/uploads
 backend:
   name: git-gateway
   branch: master
