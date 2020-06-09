@@ -29,9 +29,9 @@ The overarching objective of the [OONI Run](https://run.ooni.io/) usability stud
 
 More specifically, through this usability study, we aim to improve our understanding of:
 
-* Community needs with regards to coordinating and participating in censorship measurement campaigns;
-* Challenges that community members have experienced when generating and sharing OONI Run links to coordinate censorship measurement campaigns (i.e. OONI Run testing coordinators);
-* Challenges that community members have experienced when receiving and using OONI Run links (i.e. OONI Run testing participants);
+* Community **needs** with regards to coordinating and participating in censorship measurement campaigns;
+* Challenges that community members have experienced when **generating and sharing OONI Run links** to coordinate censorship measurement campaigns (i.e. OONI Run testing coordinators);
+* Challenges that community members have experienced when **receiving and using OONI Run links** (i.e. OONI Run testing participants);
 * Challenges that community members experience when attempting to use the [OONI Run platform](https://run.ooni.io/) for the first time (inexperienced OONI Run users).
 
 Based on community feedback collected through this usability study, we aim to release an improved version of [OONI Run](https://run.ooni.io/) that is more usable and useful to the internet freedom community, supporting the coordination of censorship measurement campaigns and promoting rapid response to emergent censorship events around the world.
@@ -97,13 +97,13 @@ Our [OONI Run survey](https://ooni.typeform.com/to/r9c5ee) was therefore primari
 
 ### OONI Run usage: Overview
 
-Most survey respondents (60%) reported that they have primarily used OONI Run to generate and share OONI Run links, as well as to tap on an OONI Run button to perform testing. A smaller percentage (40%) reported having received an OONI Run link from others to perform coordinated testing, while only 20% of participants reported having used OONI Run for the purpose of generating an OONI Run button.
+Most survey respondents (60%) reported that they have **primarily used OONI Run to generate and share OONI Run links**, as well as to **tap on an OONI Run button** to perform testing. A smaller percentage (40%) reported having received an OONI Run link from others to perform coordinated testing, while only 20% of participants reported having used OONI Run for the purpose of generating an OONI Run button.
 
-When asked how frequently they use OONI Run, 33.3% of survey respondents reported having used OONI Run only a few times per year,while 26.7% of respondents reported using OONI Run a few times per month. Only 10% of participants reported that they use OONI Run daily or weekly.
+When asked how frequently they use OONI Run, 33.3% of survey respondents reported having **used OONI Run only a few times per year**, while 26.7% of respondents reported using OONI Run a few times per month. Only 10% of participants reported that they use OONI Run daily or weekly.
 
-The vast majority (76.7%) of survey respondents reported that their primary reason for using OONI Run is to measure the blocking of websites, while less than 30% of the participants reported that they use the platform to run the other available tests (only 26.7% of participants reported using OONI Run for the middlebox tests, while only 20% reported using the performance tests).
+The vast majority (76.7%) of survey respondents reported that their **primary reason for using OONI Run is to measure the blocking of websites**, while less than 30% of the participants reported that they use the platform to run the other available tests (only 26.7% of participants reported using OONI Run for the middlebox tests, while only 20% reported using the performance tests).
 
-Monitoring internet censorship during political events appears to be an important motivation for using OONI Run, as reported by more than half of the survey participants (53.3%).
+**Monitoring internet censorship during political events** appears to be an important motivation for using OONI Run, as reported by more than half of the survey participants (53.3%).
 
 Many participants also reported that they use OONI Run to:
 
@@ -113,35 +113,35 @@ Many participants also reported that they use OONI Run to:
 
 ### Sharing (and receiving) OONI Run links
 
-Website testing appears to be the primary reason why OONI Run is used, as most survey respondents (53.3%) reported that they have generated and shared an OONI Run link for the testing of websites.
+**Website testing appears to be the primary reason** why OONI Run is used, as most survey respondents (53.3%) reported that they have generated and shared an OONI Run link for the testing of websites.
 
 When asked whether they have generated and shared an OONI Run link based on the speed and performance tests, 80% of respondents said that they have not. Similarly, 86.7% of respondents said that they have never used OONI Run to generate and share an OONI Run link based on the middlebox tests. When asked whether they have found it useful to generate OONI Run links based on the middlebox and performance tests, none of the 30 survey respondents provided an answer.
 
-The platforms that were reportedly used to share and/or receive OONI Run links include email, Twitter, WhatsApp, Telegram, Facebook Messenger, Slack, IRC, Matrix, and online forums, with most (50%) reporting that they used email to share/receive OONI Run links.
+The platforms that were reportedly used to share and/or receive OONI Run links include email, Twitter, WhatsApp, Telegram, Facebook Messenger, Slack, IRC, Matrix, and online forums, with most (50%) reporting that they **used email to share/receive OONI Run links**.
 
-Most respondents (33.3%) reported using OONI Run to generate links for the testing of 4-20 URLs. Quite similarly, many reported using OONI Run to generate links for the testing of 1-3 URLs (26.7% of respondents) and for the testing of 21-50 URLs (23.3% of respondents). Meanwhile, only 10% of respondents reported using OONI Run to generate links for the testing of more than 50 URLs, and only 6.7% for the testing of more than 500 URLs. This suggests that OONI Run is primarily used for the testing of relatively short lists of URLs. However, it is possible that OONI Run is primarily used for the testing of shorter lists of URLs due to UI challenges associated with adding long lists of URLs (an issue expressed by multiple interview participants, as well as survey respondents, as discussed further in the next sections), rather than lack of interest in testing long lists of URLs.
+Most respondents (33.3%) reported using OONI Run to **generate links for the testing of 4-20 URLs**. Quite similarly, many reported using OONI Run to generate links for the testing of 1-3 URLs (26.7% of respondents) and for the testing of 21-50 URLs (23.3% of respondents). Meanwhile, only 10% of respondents reported using OONI Run to generate links for the testing of more than 50 URLs, and only 6.7% for the testing of more than 500 URLs. This suggests that OONI Run is **primarily used for the testing of relatively short lists of URLs**. However, it is possible that OONI Run is primarily used for the testing of shorter lists of URLs due to UI challenges associated with adding long lists of URLs (an issue expressed by multiple interview participants, as well as survey respondents, as discussed further in the next sections), rather than lack of interest in testing long lists of URLs.
 
-When asked whether they have ever added the URLs that they have tested with OONI Run to the [Citizen Lab test lists](https://github.com/citizenlab/test-lists), the vast majority of survey participants (70%) responded that they have not. Out of these respondents, many reported that they don’t know how to add URLs to the Citizen Lab test lists and some reported that they find this process too complicated. Some of the respondents reported that they didn’t know what the Citizen Lab test lists are, and that they didn’t know they should contribute the URLs they were testing (with OONI Run) to the Citizen Lab test lists.
+When asked whether they have ever added the URLs that they have tested with OONI Run to the [Citizen Lab test lists](https://github.com/citizenlab/test-lists), the vast majority of survey participants (70%) responded that they have not. Out of these respondents, many reported that they **don’t know how to add URLs to the Citizen Lab test lists** and some reported that they find this process too complicated. Some of the respondents reported that they **didn’t know what the Citizen Lab test lists are**, and that they didn’t know they should contribute the URLs they were testing (with OONI Run) to the Citizen Lab test lists.
 
 ### Challenges associated with using OONI Run links
 
 Our survey provided an open-ended question that encouraged participants to describe the challenges they encountered in using OONI Run links.
 
-Several respondents reported that when they include many URLs for testing, the generated OONI Run links are far too long to share. They reported that these long OONI Run links break when shared through various messaging platforms, and that some messaging platforms have a character limit that prevents sharing very long OONI Run links. As a result, OONI Run users have had to generate shorter OONI Run links based on shorter lists of URLs. However, having to coordinate testing based on multiple OONI Run links is reportedly more complicated (than coordinating testing based on a single OONI Run link), particularly since it results in unequal measurement coverage.
+Several respondents reported that when they include many URLs for testing, the generated **OONI Run links are far too long** to share. They reported that these long OONI Run links **break when shared through various messaging platforms**, and that **some messaging platforms have a character limit** that prevents sharing very long OONI Run links. As a result, OONI Run users have had to generate shorter OONI Run links based on shorter lists of URLs. However, having to coordinate testing based on multiple OONI Run links is reportedly more complicated (than coordinating testing based on a single OONI Run link), particularly since it results in unequal measurement coverage.
 
-Furthermore, a few respondents mentioned that the process of adding URLs to the OONI Run platform (i.e. typing URLs in the URL slots) can be slow and sluggish, as it can take a few seconds before the typed letters appear in the URL slots. They also reported that they expected OONI Run to serve as a browser-based version of OONI Probe, and that they were disappointed and confused when they weren’t able to run tests and receive test results through the platform. This suggests that the purpose and functionality of OONI Run (i.e. to generate mobile deep links and widget code) is not clearly communicated through the platform.
+Furthermore, a few respondents mentioned that the process of adding URLs to the OONI Run platform (i.e. typing URLs in the URL slots) can be **slow and sluggish**, as it can take a few seconds before the typed letters appear in the URL slots. They also reported that they **expected OONI Run to serve as a browser-based version of OONI Probe**, and that they were disappointed and confused when they weren’t able to run tests and receive test results through the platform. This suggests that the purpose and functionality of OONI Run (i.e. to generate mobile deep links and widget code) is not clearly communicated through the platform.
 
-A few survey participants also mentioned that when coordinating censorship measurement campaigns, another challenge is associated with users reporting errors when tapping/clicking on the OONI Run links that they receive. As a result, the censorship measurement coordinators need to invest time in trouble-shooting, which often is challenging to do remotely.
+A few survey participants also mentioned that when coordinating censorship measurement campaigns, another challenge is associated with **users reporting errors when tapping/clicking on the OONI Run links** that they receive. As a result, the censorship measurement coordinators need to invest time in trouble-shooting, which often is challenging to do remotely.
 
-Another reported challenge is associated with the requirement of having the OONI Probe mobile app installed. Many respondents mentioned that the people that they share OONI Run links with often don’t have OONI Probe already installed, and that requesting them to install the app can be a challenge. Furthermore, the requirement of having to explain OONI Probe (and all other relevant information) in order to convince people to install the app was also reported as a challenge. This, reportedly, is especially challenging when social media platforms are blocked, limiting the ability to share links and encourage app installation.
+Another reported challenge is associated with the **requirement of having the OONI Probe mobile app installed**. Many respondents mentioned that the people that they share OONI Run links with often don’t have OONI Probe already installed, and that requesting them to install the app can be a challenge. Furthermore, the requirement of having to explain OONI Probe (and all other relevant information) in order to convince people to install the app was also reported as a challenge. This, reportedly, is especially challenging when social media platforms are blocked, limiting the ability to share links and encourage app installation.
 
 ### Challenges associated with using OONI Run buttons
 
 Our survey provided an open-ended question that encouraged participants to describe the challenges they encountered in using OONI Run buttons.
 
-Most survey respondents did not report having extensive experience using OONI Run to generate widget code. Out of those who shared feedback on this, the main issue that they reported was not having an easy and quick way to update the list(s) of URLs included in OONI Run buttons that they create. They expressed the need to be able to quickly and easily update OONI Run buttons, by easily viewing and editing the included URLs.
+Most survey respondents did not report having extensive experience using OONI Run to generate widget code. Out of those who shared feedback on this, the main issue that they reported was **not having an easy and quick way to update the list(s) of URLs included in OONI Run buttons** that they create. They expressed the need to be able to quickly and easily update OONI Run buttons, by easily viewing and editing the included URLs.
 
-Similarly to the challenges expressed with using OONI Run links, some of the survey respondents mentioned that requiring people to have OONI Probe installed(in order to be able to make use of the OONI Run buttons) is a challenge. Others mentioned that embedding OONI Run buttons based on a long list of URLs is a challenge as well, as the large length of such widget code is not always easily supported by various websites.
+Similarly to the challenges expressed with using OONI Run links, some of the survey respondents mentioned that **requiring people to have OONI Probe installed** (in order to be able to make use of the OONI Run buttons) is a challenge. Others mentioned that **embedding OONI Run buttons based on a long list of URLs is a challenge** as well, as the large length of such widget code is not always easily supported by various websites.
 
 Other survey respondents reported not having faced any issues and that they find the process of generating and using OONI Run buttons “simple and straightforward”.
 
@@ -151,14 +151,14 @@ At the end of our survey, we provided an open-ended question that encouraged par
 
 Many of the same challenges (previously discussed) were reiterated in these answers, as summarized below:
 
-* Generated OONI Run links can be far too long (and people who are not already familiar with OONI -- and the concept of mobile deep links -- may feel uncomfortable tapping on such a strange and long link);
-* Long OONI Run links break when shared through various messaging platforms;
+* **Generated OONI Run links can be far too long** (and people who are not already familiar with OONI -- and the concept of mobile deep links -- may feel uncomfortable tapping on such a strange and long link);
+* **Long OONI Run links break** when shared through various messaging platforms;
 * Some platforms have a character limit, preventing the sharing of long OONI Run links;
-* Not being able to easily and quickly edit the URLs included in generated OONI Run links and buttons is a reported challenge;
-* Remembering to re-run OONI Run links/buttons-- and having to constantly remind volunteers to re-run tests -- is a reported challenge;
-* Requiring OONI Probe installation-- and using OONI Run links/buttons with OONI Probe -- is a challenge, because it can be hard to convince people to install the app;
-* Troubleshooting remotely with volunteers when they are unable to use OONI Run links or buttons (for example, errors occur when they tap on the shared OONI Run link is challenging);
-* Tracking and aggregating the measurements (in one place) specifically collected by measurement campaign volunteers (based on specific OONI Run links)is a challenge (and this is often required in real-time during political events);
+* **Not being able to easily and quickly edit the URLs** included in generated OONI Run links and buttons is a reported challenge;
+* **Remembering to re-run OONI Run links/buttons**-- and having to constantly remind volunteers to re-run tests -- is a reported challenge;
+* **Requiring OONI Probe installation** -- and using OONI Run links/buttons with OONI Probe -- is a challenge, because it can be hard to convince people to install the app;
+* **Troubleshooting remotely with volunteers** when they are unable to use OONI Run links or buttons (for example, errors occur when they tap on the shared OONI Run link is challenging);
+* **Tracking and aggregating the measurements (in one place) specifically collected by measurement campaign volunteers (based on specific OONI Run links)** is a challenge (and this is often required in real-time during political events);
 * Unclear to new users why or how they should use OONI Run (the platform is not self-explanatory);
 * Unclear what to do afterwards, once an OONI Run link or button has been generated.
 
@@ -168,27 +168,27 @@ The last survey question asked participants to describe their “wish list” fe
 
 The suggestions and feature requests provided by survey respondents are summarized below:
 
-* Shorten the OONI Run links(and widget code) so that it’s easy to share them and test long lists of URLs (without links breaking or having to generate multiple OONI Run links);
-* Add ability to generate (and share) OONI Run links directly through the OONI Probe mobile app(rather than through a separate platform);
-* Ability to easily and quickly edit the URLs included in generated OONI Run links and buttons;
-* Add ability to generate a (short) OONI Run link based on all tests(rather than having to generate separate OONI Run links for each test);
-* Add ability to track and aggregate all measurements collected by measurement campaign volunteers(based on the use of specific OONI Run links) in one place (rather than having to search for relevant measurements through OONI Explorer -- without knowing if those measurements were collected by the volunteers of a specific campaign of not);
-* Add ability to easily export/retrieve measurements generated from a specific OONI Run link (as part of a campaign);
-* Enable users to easily add URLs (included in OONI Run links/buttons) to the Citizen Lab test lists (ideally, without having to use GitHub) and explain and remind them (within the OONI Run platform) of the need to do so;
-* Add support for automatically adding URLs (included in generated OONI Run links/buttons) to the Citizen Lab test lists (without requiring the time and effort of users);
-* Add Instant Messaging tests (and other missing OONI Probe tests) to the OONI Run platform (to more easily coordinate the testing of social media apps);
-* Enable the easy/quick generation of OONI Run links/buttons based on social media websites and apps(since they are frequently blocked around the world and require coordinated testing the most);
-* Enable the easy/quick generation of OONI Run links/buttons based on the Citizen Lab test lists;
-* Enable the easy/quick generation of OONI Run links/buttons based on specific categories(for example, using the Citizen Lab category codes and test lists);
-* Make estimate runtime in OONI Probe mobile app more predictable(to set expectations for volunteers in measurement campaigns);
-* Add support for running OONI Run links on OONI Probe desktop and probe-cli;
-* Add ability to share generated OONI Run links with testers directly through the OONI Run platform (rather than having to use email or other messaging services);
-* Enable testers to re-run OONI Run links (and provide reminders);
-* Localize the OONI Run platform (i.e. support more languages, other than English);
-* Provide a visual guide (such as a screencast) explaining what OONI Run is, what it’s for, how they can use it, and what they should expect from it (for new users) ;
-* Link to a FAQ section (inside the OONI Run platform) answering questions around using OONI Run (for example, what to do when encountering an error);
-* Provide a guide which includes step-by-step instructions (with screenshots), explaining how to use OONI Run;
-* Provide documentation that contextualizes OONI Run and which shares examples of how other community members use it as part of campaigns and advocacy efforts;
+* **Shorten the OONI Run links** (and widget code) so that it’s easy to share them and test long lists of URLs (without links breaking or having to generate multiple OONI Run links);
+* Add ability to **generate (and share) OONI Run links directly through the OONI Probe mobile app** (rather than through a separate platform);
+* Ability to **easily and quickly edit the URLs** included in generated OONI Run links and buttons;
+* Add ability to **generate a (short) OONI Run link based on all tests** (rather than having to generate separate OONI Run links for each test);
+* Add ability to **track and aggregate all measurements collected by measurement campaign volunteers** (based on the use of specific OONI Run links) in one place (rather than having to search for relevant measurements through OONI Explorer -- without knowing if those measurements were collected by the volunteers of a specific campaign of not);
+* Add ability to easily **export/retrieve measurements generated from a specific OONI Run link** (as part of a campaign);
+* Enable users to **easily add URLs (included in OONI Run links/buttons) to the Citizen Lab test lists** (ideally, without having to use GitHub) and explain and remind them (within the OONI Run platform) of the need to do so;
+* Add support for **automatically adding URLs (included in generated OONI Run links/buttons) to the Citizen Lab test lists** (without requiring the time and effort of users);
+* **Add Instant Messaging tests** (and other missing OONI Probe tests) to the OONI Run platform (to more easily coordinate the testing of social media apps);
+* Enable the easy/quick **generation of OONI Run links/buttons based on social media websites and apps** (since they are frequently blocked around the world and require coordinated testing the most);
+* Enable the easy/quick **generation of OONI Run links/buttons based on the Citizen Lab test lists**;
+* Enable the easy/quick **generation of OONI Run links/buttons based on specific categories** (for example, using the Citizen Lab category codes and test lists);
+* Make **estimate runtime** in OONI Probe mobile app more predictable (to set expectations for volunteers in measurement campaigns);
+* Add support for **running OONI Run links on OONI Probe desktop and probe-cli**;
+* Add ability to **share generated OONI Run links with testers directly through the OONI Run platform** (rather than having to use email or other messaging services);
+* Enable testers to **re-run OONI Run links** (and provide reminders);
+* **Localize the OONI Run platform** (i.e. support more languages, other than English);
+* Provide a **visual guide** (such as a screencast) explaining what OONI Run is, what it’s for, how they can use it, and what they should expect from it (for new users) ;
+* Link to a **FAQ section** (inside the OONI Run platform) answering questions around using OONI Run (for example, what to do when encountering an error);
+* Provide a **guide which includes step-by-step instructions** (with screenshots), explaining how to use OONI Run;
+* Provide **documentation that contextualizes OONI Run** and which shares examples of how other community members use it as part of campaigns and advocacy efforts;
 * Once a link/button has been generated, provide a message communicating next steps and expectations to users (for example, “Thank you for generating a link. Please share it via email with other OONI Probe users. You can now close this page. The results will be published on OONI Explorer once the link is used.”)
 * Provide examples of URLs in the OONI Run platform so that new users can better understand what they’re supposed to do;
 * Add test for HTTPS middlebox detection (man-in-the-middle-attacks);
@@ -236,7 +236,7 @@ In the following sections, we share the main interview findings around OONI Run 
 
 #### OONI Run usage
 
-When asked what are their primary reasons for using OONI Run, the interview participants shared (in summary) that they use OONI Run to:
+When asked what are their **primary reasons** for using OONI Run, the interview participants shared (in summary) that they use OONI Run to:
 
 * Monitor the blocking of websites during political events (such as elections or protests) and other time-sensitive events;
 * Test URLs that are not already included in the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists);
@@ -253,17 +253,17 @@ When asked what are their primary reasons for using OONI Run, the interview part
 
 All participants mentioned that they almost always use OONI Run solely for the purpose of testing websites (though the Web Connectivity test), and that they rarely (if ever) use OONI Run to coordinate testing based on the other available tests. They explained that this is partly due to the fact that their research interests center more around website censorship, but also because the other tests are already included in the OONI Probe mobile app (and since OONI Run links require use of the app anyway, they usually just ask volunteers to run the tests directly inside the app). While several participants mentioned that they have made use of widget code generated through OONI Run, they primarily use OONI Run for its mobile deep links.
 
-When asked what has been the most rewarding outcome of using OONI Run, interview participants mentioned that OONI Run has been particularly helpful with rapid response, enabling them to coordinate the testing of specific websites and gain access to relevant measurements quickly. Several interview participants elaborated how OONI Run has helped them collect evidence of internet censorship during time-sensitive events, such as during a temporary 2-hour block, or during political events, such as elections and protests.
+When asked what has been the most **rewarding outcome** of using OONI Run, interview participants mentioned that OONI Run has been particularly helpful with **rapid response**, enabling them to coordinate the testing of specific websites and gain access to relevant measurements quickly. Several interview participants elaborated how OONI Run has helped them collect evidence of internet censorship during time-sensitive events, such as during a temporary 2-hour block, or during political events, such as elections and protests.
 
-Evidence of internet censorship, collected through OONI Run campaigns, has supported journalistic reporting and advocacy efforts. Some interviewees mentioned that collecting measurements that can potentially serve as evidence of internet censorship -- especially when it is being denied by governments -- has helped inform their advocacy work.
+Evidence of internet censorship, collected through OONI Run campaigns, has **supported journalistic reporting and advocacy efforts**. Some interviewees mentioned that collecting measurements that can potentially serve as evidence of internet censorship -- especially when it is being denied by governments -- has helped inform their advocacy work.
 
-Several interview participants mentioned that, for them, the most rewarding outcome has been being able to create a country-wide censorship measurement system, through the use of OONI Run. This has been possible because OONI Run enabled them to monitor the blocking of websites across different regions and networks in somewhat real-time, with the help of volunteers. OONI Run has also helped increase relevant measurement coverage (across network and regions), providing more conclusive results and stronger evidence (for the broader internet freedom community, since all measurements are [openly published](https://ooni.org/data/)).
+Several interview participants mentioned that, for them, the most rewarding outcome has been being able to **create a country-wide censorship measurement system**, through the use of OONI Run. This has been possible because OONI Run enabled them to **monitor the blocking of websites across different regions and networks** in somewhat real-time, with the help of volunteers. OONI Run has also helped increase relevant measurement coverage (across network and regions), providing more conclusive results and stronger evidence (for the broader internet freedom community, since all measurements are [openly published](https://ooni.org/data/)).
 
 As participants interacted with the OONI Run platform during the interview, they said that they add URLs either by manually typing each URL (usually only when it involves a few websites), or by copy-pasting their own (longer) list of URLs from a text editor, Excel file, or Google spreadsheet.
 
-Interestingly, when some participants manually typed URLs in the OONI Run website during the interview (while they shared their screen with us), we noticed that they accidentally mistyped the URL, didn’t notice the error, but proceeded to generate an OONI Run link anyway. The fact that even experienced OONI Run users run the risk of generating (and sharing) OONI Run links based on broken URLs -- due to the limitations of the OONI Run platform -- highlights the need to improve the platform in such a way that such errors are more easily noticeable or avoidable.
+Interestingly, when some participants manually typed URLs in the OONI Run website during the interview (while they shared their screen with us), we noticed that they ***accidentally mistyped the URL, didn’t notice the error, but proceeded to generate an OONI Run link anyway***. The fact that even experienced OONI Run users run the risk of generating (and sharing) OONI Run links based on broken URLs -- due to the limitations of the OONI Run platform -- highlights the need to improve the platform in such a way that such errors are more easily noticeable or avoidable.
 
-Most participants mentioned that they primarily share OONI Run links via email, because email clients are more reliable than instant messaging apps in terms of not breaking long OONI Run links. In other cases (particularly when they aim to reach larger audiences), they share OONI Run links using Twitter, Facebook, WhatsApp, Facebook Messenger, Telegram, and Signal. Some participants also mentioned that they sometimes embed OONI Run widget code into their website, as they find it easier to point volunteers to a button on a website, than to share incredibly long OONI Run links.
+Most participants mentioned that they ***primarily share OONI Run links via email***, because email clients are more reliable than instant messaging apps in terms of not breaking long OONI Run links. In other cases (particularly when they aim to reach larger audiences), they share OONI Run links using Twitter, Facebook, WhatsApp, Facebook Messenger, Telegram, and Signal. Some participants also mentioned that they sometimes embed OONI Run widget code into their website, as they find it easier to point volunteers to a button on a website, than to share incredibly long OONI Run links.
 
 #### Challenges
 
