@@ -9,8 +9,8 @@ categories: ["report"]
 
 {{<img src="images/lily.jpg" title="Report cover image" alt="Report cover image">}}
 
-*This research report was produced by **[OTF Information Controls Fellow, Chinmayi S K](https://www.opentech.fund/about/people/chinmayi-sk/)**. OONI
-served as her host organization throughout her fellowship.*
+This research report was produced by **[OTF Information Controls Fellow, Chinmayi S K](https://www.opentech.fund/about/people/chinmayi-sk/)**. OONI
+served as her host organization throughout her fellowship.
 
 {{< oonibtn href="/documents/those-unspoken-thoughts-otf-fellow.pdf" text="Read full report" >}}
 
