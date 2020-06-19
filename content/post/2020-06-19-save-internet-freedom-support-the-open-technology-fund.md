@@ -10,7 +10,7 @@ tags:
   - saveinternetfreedom
   - statement
 enabletoc: false
-thumbnail: /images/uploads/logo.png
+thumbnail: /images/uploads/cover-logo-save-otf.png
 ---
 Last Wednesday was [dubbed](https://edition.cnn.com/2020/06/17/media/us-agency-for-global-media-michael-pack/index.html) as a “Wednesday night massacre”, following the firing of the directors of four organizations overseen by the [US Agency for Global Media (USAGM)](https://www.usagm.gov/): Radio Free Asia, Radio Free Europe/Radio Liberty, Middle East Broadcasting, and the Open Technology Fund (OTF).
 

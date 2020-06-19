@@ -1,6 +1,9 @@
-{{- with $.Params.images -}}
+{{- if isset $.Params "images" -}}
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="{{ index . 0 | absURL }}"/>
+<meta name="twitter:image" content="{{ index $.Params.images 0 | absURL }}"/>
+{{- else if isset $.Params "thumbnail" -}}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{{ $.Params.thumbnail | absURL }}"/>
 {{ else -}}
 {{- $images := $.Resources.ByType "image" -}}
 {{- with $images -}}
