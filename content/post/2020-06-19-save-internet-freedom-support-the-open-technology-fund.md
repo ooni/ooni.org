@@ -22,7 +22,7 @@ This is extremely concerning, given that the OTF is one of the main funders of f
 
 To voice your concern, join us and [sign this letter to Congress](https://saveinternetfreedom.tech/).
 
-Here’s why we think OTF is in a unique position to support the internet freedom community.
+Here’s why we think **OTF is in a unique position to support the internet freedom community.**
 
 ## Trust
 
@@ -30,35 +30,35 @@ We trust the OTF because they are one of us.
 
 We trust the OTF because they are internet freedom defenders.
 
-We trust the OTF because, like us, they have worked on internet freedom projects -- as researchers, technologists, journalists, human rights defenders, policy analysts, and community leaders -- and they actually understand the field.
+We trust the OTF because, like us, they have worked on internet freedom projects -- as researchers, technologists, journalists, human rights defenders, policy analysts, and community leaders -- and they actually *understand* the field.
 
 We trust the OTF because of its [people](https://www.opentech.fund/about/people/).
 
 We trust the OTF because its team consists of people like [Fiona](https://www.opentech.fund/about/people/fiona-krakenb%C3%BCrger/), a prominent community organizer who managed [mentorship](http://fiona-krakenbuerger.de/) at the world’s largest hacker conference, people like [Adam](https://www.opentech.fund/about/people/adam-lynn/), who has tirelessly fought for the right to an open internet, people like [Lindsay](https://www.opentech.fund/about/people/lindsay-beck/), who has worked with activists on documenting internet censorship and surveillance around the world, and people like [Libby](https://www.opentech.fund/about/people/libby-liu/), a visionary who understood early on (when others did not) that free and open source software is necessary for defending internet freedom.
 
-The internet freedom community trusts the OTF because the OTF is part of the internet freedom community.
+The internet freedom community trusts the OTF because the OTF *is part of the internet freedom community*.
 
 ## Expertise
 
 We trust the OTF because they actually consist of people who understand technology, who understand past, current, and emerging threats to internet freedom, and who are internet freedom experts themselves.
 
-Look at the [OTF Advisory Council](https://www.opentech.fund/about/people/?person_type=5). It consists of a wide range of experts from around the world, including people like [Roya Ensafi](https://www.opentech.fund/about/people/roya-ensafi/), an established Iranian computer scientist [specializing on censorship measurement](https://censoredplanet.org/), and people like [Ramy Raoof](https://www.opentech.fund/about/people/ramy-raoof/), a prominent Egyptian digital security researcher and technologist, who received the international award Heroes of Human Rights and Communications Surveillance “for exhaustive efforts to reveal invasive and harmful surveillance tactics that are being used to harm users at risk”.
+Look at the [OTF Advisory Council](https://www.opentech.fund/about/people/?person_type=5). It consists of a wide range of experts from around the world, including people like [Roya Ensafi](https://www.opentech.fund/about/people/roya-ensafi/), an established Iranian computer scientist [specializing on censorship measurement](https://censoredplanet.org/), and people like [Ramy Raoof](https://www.opentech.fund/about/people/ramy-raoof/), a prominent Egyptian digital security researcher and technologist, who received the **international award Heroes of Human Rights and Communications Surveillance** “*for exhaustive efforts to reveal invasive and harmful surveillance tactics that are being used to harm users at risk*”.
 
-Because the OTF Advisory Council consists of experts, they have challenged us every time we have submitted a proposal. They have pushed us to ensure that our proposal is as competitive as it can be, and that the work that we propose is relevant and supports the needs of the internet freedom community.
+Because the OTF Advisory Council consists of experts, they have challenged us every time we have submitted a proposal. They have pushed us to ensure that our proposal is as competitive as it can be, and that the work that we propose is relevant and **supports the needs of the internet freedom community**.
 
 ## Community
 
 If it were possible to solve internet censorship by merely throwing money at a few tools, the problem would have been solved by now.
 
-What we really need is a global community that joins forces, tackling the issue on many fronts.
+What we really need is a **global community** that joins forces, tackling the issue on many fronts.
 
-Over the years, the OTF [supported](https://www.opentech.fund/funds/) the creation of a global community composed of technologists, human rights defenders, journalists, policy experts, and researchers, who collaborate on fighting internet censorship and surveillance, and defending a free and open internet.
+Over the years, the **OTF [supported](https://www.opentech.fund/funds/) the creation of a global community composed of technologists, human rights defenders, journalists, policy experts, and researchers**, who collaborate on fighting internet censorship and surveillance, and defending a free and open internet.
 
 As an example, OTF support enabled us to collaborate extensively with [technologists](https://vesinfiltro.com/) and journalists in Venezuela, measuring [emergent cases of internet censorship](https://ooni.org/post/venezuela-blocking-wikipedia-and-social-media-2019/).
 
-Through the [Internet Freedom Festival (IFF)](http://internetfreedomfestival.org/) (that they helped create and have funded every year since its inception), the OTF created safe spaces for us to meet and exchange skills and knowledge. Through the IFF, they have enabled us to meet people from all around the world -- such as activists from Zimbabwe, Venezuela, and Pakistan, researchers from Iran, China, and Indonesia, and technologists from Russia and Kazakhstan.
+Through the [Internet Freedom Festival (IFF)](http://internetfreedomfestival.org/) (that they helped create and have funded every year since its inception), the OTF created **safe spaces** for us to meet and exchange skills and knowledge. Through the IFF, they have enabled us to meet people from all around the world -- such as activists from Zimbabwe, Venezuela, and Pakistan, researchers from Iran, China, and Indonesia, and technologists from Russia and Kazakhstan.
 
-The OTF not only funds tools and technologies to support human rights defenders. They fund the internet freedom community and ecosystem itself, which is essential to ensure long term sustainability.
+**The OTF not only funds tools and technologies to support human rights defenders. They fund the internet freedom community and ecosystem itself, which is essential to ensure long term sustainability.**
 
 Because the internet freedom community trusts the OTF, they receive funding applications from human rights defenders, technologists, and researchers working on cutting edge projects around the world.
 
@@ -84,7 +84,7 @@ Applying to most funders is hard, time consuming, and requires a significant amo
 
 This presents a barrier that prevents passionate human rights defenders and talented developers worldwide from seeking funding support.
 
-OTF was among the first funders who broke this barrier, encouraging marginalized communities with limited resources to seek support.
+**OTF was among the first funders who broke this barrier**, encouraging marginalized communities with limited resources to seek support.
 
 Their application procedure is straightforward, accessible, and inclusive enough that it encourages and enables diverse communities far and wide to share their ideas and submit funding proposals. This is reflected in both the projects and fellowships that they [support](https://www.opentech.fund/funds/).
 
@@ -94,7 +94,7 @@ The fact that the OTF also [supports brave and experimental ideas](https://www.o
 
 Back in 2011, the OTF was brave enough to [support](https://www.opentech.fund/results/supported-projects/ooni-open-observatory-of-network-interference/) the development of our project, the first [free and open source tools](https://github.com/ooni) for measuring internet censorship.
 
-Today, these tools ([OONI Probe](https://ooni.org/install/)) are run by hundreds of thousands of people around the world -- particularly in repressive environments -- exposing cases of internet censorship and contributing to the [world’s largest open dataset on internet censorship](https://ooni.org/data/).
+Today, these tools ([OONI Probe](https://ooni.org/install/)) are run by hundreds of thousands of people around the world -- *particularly in repressive environments* -- exposing cases of internet censorship and contributing to the [world’s largest open dataset on internet censorship](https://ooni.org/data/).
 
 By [supporting Signal](https://www.opentech.fund/results/supported-projects/open-whisper-systems/) over the years, the OTF enabled the development of an easy-to-use mobile app that provides end-to-end encryption.
 
