@@ -54,8 +54,6 @@ What we really need is a **global community** that joins forces, tackling the is
 
 Over the years, the **OTF [supported](https://www.opentech.fund/funds/) the creation of a global community composed of technologists, human rights defenders, journalists, policy experts, and researchers**, who collaborate on fighting internet censorship and surveillance, and defending a free and open internet.
 
-As an example, OTF support enabled us to collaborate extensively with [technologists](https://vesinfiltro.com/) and journalists in Venezuela, measuring [emergent cases of internet censorship](https://ooni.org/post/venezuela-blocking-wikipedia-and-social-media-2019/).
-
 Through the [Internet Freedom Festival (IFF)](http://internetfreedomfestival.org/) (that they have funded every year since its inception), the OTF created **safe spaces** for us to meet and exchange skills and knowledge. Through the IFF, they have enabled us to meet people from all around the world -- such as activists from Zimbabwe, Venezuela, and Pakistan, researchers from Iran, China, and Indonesia, and technologists from Russia and Kazakhstan.
 
 **The OTF not only funds tools and technologies to support human rights defenders. They fund the internet freedom community and ecosystem itself, which is essential to ensure long term sustainability.**
