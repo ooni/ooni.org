@@ -57,7 +57,7 @@ message](https://tls.ulfheim.net/) uses `1.1.1.1` as the
 the corresponding [X.509](https://en.wikipedia.org/wiki/X.509) certificate,
 of course, lists `1.1.1.1` as a valid IP address for the
 domain. In other cases, the DoT endpoint contains a domain name. For
-example, Cloudflare's public DoT server is _also_ available
+example, Cloudflare's public DoT server is *also* available
 using the `one.one.one.one:853` endpoint and the `one.one.one.one` SNI.
 
 When the endpoint contains a domain name, another DNS resolver is
@@ -76,6 +76,7 @@ as illustrated below.
 
 {{<img width="2000" src="images/systemresolver.png" title="System resolver"
   alt="System resolver">}}
+**Figure 1**: *Resolving DoT domain name using the system resolver*.
 
 Once you know the IP address or addresses for a domain, you run the
 same flow you would run if given a DoT endpoint containing an IP address
@@ -85,6 +86,7 @@ DNS replies. This is illustrated by the following diagram.
 
 {{<img width="2000" src="images/dotresolver.png" title="DoT resolver"
   alt="DoT resolver">}}
+**Figure 2**: *Establishing TLS connection with DoT server*.
 
 A censor that wishes to block DoT could thus act in two ways.
 
