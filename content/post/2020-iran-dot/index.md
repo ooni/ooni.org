@@ -2,7 +2,7 @@
 title: "Does DNS over TLS work in Iran?"
 description: "We run experimental DNS over TLS measurements in Iran"
 author: "Simone Basso"
-date: "2020-05-23"
+date: "2020-06-23"
 tags: ["iran", "censorship", "tls-blocking", "country-ir"]
 categories: ["report"]
 ---
