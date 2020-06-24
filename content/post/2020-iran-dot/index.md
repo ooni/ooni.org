@@ -1,8 +1,8 @@
 ---
-title: "Does DNS over TLS work in Iran?"
-description: "We run experimental DNS over TLS measurements in Iran"
+title: "DNS over TLS blocked in Iran"
+description: "We ran experimental DNS over TLS measurements in Iran and found that many endpoints were blocked"
 author: "Simone Basso"
-date: "2020-06-23"
+date: "2020-06-24"
 tags: ["iran", "censorship", "tls-blocking", "country-ir"]
 categories: ["report"]
 ---
@@ -57,7 +57,7 @@ message](https://tls.ulfheim.net/) uses `1.1.1.1` as the
 the corresponding [X.509](https://en.wikipedia.org/wiki/X.509) certificate,
 of course, lists `1.1.1.1` as a valid IP address for the
 domain. In other cases, the DoT endpoint contains a domain name. For
-example, Cloudflare's public DoT server is *also* available
+example, Cloudflare's public DoT server is also available
 using the `one.one.one.one:853` endpoint and the `one.one.one.one` SNI.
 
 When the endpoint contains a domain name, another DNS resolver is
@@ -116,7 +116,8 @@ conclusions.
 
 We prepared a list of 31 well-known DoT endpoints. We compiled
 `miniooni` from [ooni/probe-engine@f3594e5a](https://github.com/ooni/probe-engine/commit/f3594e5a134b0ddffae82fbf376efe16e9de8403)
-and tested each of these endpoints.
+and tested each of these endpoints. We ran this experiment
+on 29th and 30th May, 2020.
 
 We used the `-O DNSCache="<domain> <ip>"` option of
 `miniooni` to ensure we were checking the first two IP
@@ -172,7 +173,9 @@ tested ISPs. Therefore, 57% of the tested endpoints were blocked.
 
 The following table shows the frequency of measurement errors for all ISPs. The
 `Failure` column indicates the overall measurement failure, and the `Frequency`
-column indicates how many times such failure occurred.
+column indicates how many times such failure occurred. (The failures listed
+for the Hetzner VPN are respectively caused by experimental errors as well as
+by the aforementioned broken domain, as we will explain soon.)
 
 |  Network |               Failure |     Frequency |
 | -------- | --------------------- | ------------- |
@@ -841,10 +844,10 @@ Verify return code: 0 (ok)
 
 Here we see that the handshake is able to progress (1) and we agree on a channel (2).
 
-It seems that what is blocked is not `1.1.1.1:*` in general, but `1.1.1.1:853`
+**It seems that what is blocked is not `1.1.1.1:*` in general, but `1.1.1.1:853`
 in particular. In this regard, it is interesting to note, however, that the blocking
 is not designed to prevent connecting to this TCP endpoint. Rather, the blocking
-only happens during the TLS handshake.
+only happens during the TLS handshake.**
 
 (It is also worth noting that `miniooni`
 [wrongly](https://github.com/ooni/probe-engine/issues/660) used
@@ -940,6 +943,44 @@ in which we reported that many `eof_error` happen several
 seconds after the beginning of the TLS handshake, rather than
 immediately after we send the ClientHello.
 
+### Results Summary
+
+The following table shows what endpoints were blocked by which ISP. It is compiled
+by joining the ISP-specific results shown above.
+
+A `null` result indicates that the specific endpoint worked with a specific
+SNI value. A `TIMEOUT` result indicates a timeout during the TLS handshake. An
+`EOF` result indicates that the connection was closed during the TLS handshake. In
+a few cases we observed a mixture of `EOF` and `TIMEOUT` on Shatel; in such cases
+we represented the results using a vector.
+
+| Endpoint            | SNI                                  | Irancell | MCI     | TCI     | Shatel         |
+| ------------------- | ------------------------------------ | -------- | ------- | ------- | -------------- |
+| 1.0.0.1:853         | 1.0.0.1                              | null     | TIMEOUT | null    | null           |
+| 1.0.0.1:853         | one.one.one.one                      | TIMEOUT  | TIMEOUT | null    | TIMEOUT        |
+| 1.0.0.1:853         | 1dot1dot1dot1.cloudflare-dns.com     | TIMEOUT  | TIMEOUT | null    | TIMEOUT        |
+| 1.1.1.1:853         | 1.1.1.1                              | TIMEOUT  | null    | TIMEOUT | TIMEOUT        |
+| 1.1.1.1:853         | one.one.one.one                      | TIMEOUT  | null    | TIMEOUT | TIMEOUT        |
+| 1.1.1.1:853         | 1dot1dot1dot1.cloudflare-dns.com     | TIMEOUT  | null    | TIMEOUT | TIMEOUT        |
+| 8.8.4.4:853         | 8.8.4.4                              | TIMEOUT  | TIMEOUT | TIMEOUT | TIMEOUT        |
+| 8.8.4.4:853         | dns.google                           | TIMEOUT  | TIMEOUT | TIMEOUT | TIMEOUT        |
+| 8.8.8.8:853         | 8.8.8.8                              | TIMEOUT  | TIMEOUT | TIMEOUT | TIMEOUT        |
+| 8.8.8.8:853         | dns.google                           | TIMEOUT  | TIMEOUT | TIMEOUT | TIMEOUT        |
+| 9.9.9.9:853         | 9.9.9.9                              | null     | TIMEOUT | null    | null           |
+| 9.9.9.9:853         | dns.quad9.net                        | TIMEOUT  | TIMEOUT | null    | TIMEOUT        |
+| 9.9.9.10:853        | dns-nosec.quad9.net                  | null     | TIMEOUT | null    | null           |
+| 149.112.112.112:853 | dns.quad9.net                        | TIMEOUT  | TIMEOUT | TIMEOUT | TIMEOUT        |
+| 149.112.112.112:853 | 149.112.112.112                      | null     | TIMEOUT | null    | null           |
+| 159.69.198.101:853  | dot-de.blahdns.com                   | TIMEOUT  | null    | EOF     | [EOF, TIMEOUT] |
+| 176.103.130.130:853 | dns.adguard.com                      | TIMEOUT  | null    | EOF     | [EOF, TIMEOUT] |
+| 176.103.130.131:853 | dns.adguard.com                      | TIMEOUT  | null    | EOF     | [EOF, TIMEOUT] |
+| 185.228.168.10:853  | adult-filter-dns.cleanbrowsing.org   | null    | TIMEOUT | null    | null           |
+| 185.228.168.9:853   | security-filter-dns.cleanbrowsing.org | null    | TIMEOUT | null    | null           |
+| 185.228.168.168:853 | family-filter-dns.cleanbrowsing.org  | null    | TIMEOUT | null    | null           |
+
+The blocking pattern implemented by Irancell and Shatel is very similar. No specific
+combination of endpoint and SNI could work across all ISPs.
+
 ## Conclusion
 
 We performed experiments on four Iranian ISPs
@@ -981,3 +1022,8 @@ SNI as unrelated as `example.com`, but to no avail. Yet,
 blocking is implemented per endpoint, rather than per IP address.
 
 Also, the results of the experiment do not change when forcing TLSv1.3.
+
+In conclusion, we were able to determine that Iran ISPs are interfering
+with DNS over TLS. We observed cases of SNI based filtering as well as cases
+in which the blocking applied to the port used by DNS over TLS regardless
+of the SNI being used.
