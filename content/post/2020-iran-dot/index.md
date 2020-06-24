@@ -943,6 +943,44 @@ in which we reported that many `eof_error` happen several
 seconds after the beginning of the TLS handshake, rather than
 immediately after we send the ClientHello.
 
+### Results Summary
+
+The following table shows what endpoints were blocked by what ISP. It is compiled
+by joining the ISP-specific results shown above.
+
+A `null` result indicates that the specific endpoint worked with a specific
+SNI value. A `TIMEOUT` result indicates a timeout during the TLS handshake. An
+`EOF` result indicates that the connection was closed during the TLS handshake. In
+a few cases we observed a mixture of `EOF` and `TIMEOUT` on Shatel; in such cases
+we represented the results using a vector.
+
+| Endpoint            | SNI                                  | Irancell | MCI     | TCI     | Shatel         |
+| ------------------- | ------------------------------------ | -------- | ------- | ------- | -------------- |
+| 1.0.0.1:853         | 1.0.0.1                              | null     | TIMEOUT | null    | null           |
+| 1.0.0.1:853         | one.one.one.one                      | TIMEOUT  | TIMEOUT | null    | TIMEOUT        |
+| 1.0.0.1:853         | 1dot1dot1dot1.cloudflare-dns.com     | TIMEOUT  | TIMEOUT | null    | TIMEOUT        |
+| 1.1.1.1:853         | 1.1.1.1                              | TIMEOUT  | null    | TIMEOUT | TIMEOUT        |
+| 1.1.1.1:853         | one.one.one.one                      | TIMEOUT  | null    | TIMEOUT | TIMEOUT        |
+| 1.1.1.1:853         | 1dot1dot1dot1.cloudflare-dns.com     | TIMEOUT  | null    | TIMEOUT | TIMEOUT        |
+| 8.8.4.4:853         | 8.8.4.4                              | TIMEOUT  | TIMEOUT | TIMEOUT | TIMEOUT        |
+| 8.8.4.4:853         | dns.google                           | TIMEOUT  | TIMEOUT | TIMEOUT | TIMEOUT        |
+| 8.8.8.8:853         | 8.8.8.8                              | TIMEOUT  | TIMEOUT | TIMEOUT | TIMEOUT        |
+| 8.8.8.8:853         | dns.google                           | TIMEOUT  | TIMEOUT | TIMEOUT | TIMEOUT        |
+| 9.9.9.9:853         | 9.9.9.9                              | null     | TIMEOUT | null    | null           |
+| 9.9.9.9:853         | dns.quad9.net                        | TIMEOUT  | TIMEOUT | null    | TIMEOUT        |
+| 9.9.9.10:853        | dns-nosec.quad9.net                  | null     | TIMEOUT | null    | null           |
+| 149.112.112.112:853 | dns.quad9.net                        | TIMEOUT  | TIMEOUT | TIMEOUT | TIMEOUT        |
+| 149.112.112.112:853 | 149.112.112.112                      | null     | TIMEOUT | null    | null           |
+| 159.69.198.101:853  | dot-de.blahdns.com                   | TIMEOUT  | null    | EOF     | [EOF, TIMEOUT] |
+| 176.103.130.130:853 | dns.adguard.com                      | TIMEOUT  | null    | EOF     | [EOF, TIMEOUT] |
+| 176.103.130.131:853 | dns.adguard.com                      | TIMEOUT  | null    | EOF     | [EOF, TIMEOUT] |
+| 185.228.168.10:853  | adult-filter-dns.cleanbrowsing.org   | null    | TIMEOUT | null    | null           |
+| 185.228.168.9:853   | security-filter-dns.cleanbrowsing.org | null    | TIMEOUT | null    | null           |
+| 185.228.168.168:853 | family-filter-dns.cleanbrowsing.org  | null    | TIMEOUT | null    | null           |
+
+The blocking pattern implemented by Irancell and Shatel is very similar. No specific
+combination of endpoint and SNI could work across all ISPs.
+
 ## Conclusion
 
 We performed experiments on four Iranian ISPs
