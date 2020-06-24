@@ -1,8 +1,8 @@
 ---
-title: "Does DNS over TLS work in Iran?"
-description: "We run experimental DNS over TLS measurements in Iran"
+title: "DNS over TLS blocked in Iran"
+description: "We run experimental DNS over TLS measurements in Iran and found that many endpoints were blocked"
 author: "Simone Basso"
-date: "2020-06-23"
+date: "2020-06-24"
 tags: ["iran", "censorship", "tls-blocking", "country-ir"]
 categories: ["report"]
 ---
