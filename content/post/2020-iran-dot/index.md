@@ -1025,4 +1025,5 @@ Also, the results of the experiment do not change when forcing TLSv1.3.
 
 In conclusion, we were able to determine that Iran ISPs are interfering
 with DNS over TLS. We observed cases of SNI based filtering as well as cases
-in which the blocking applied to the port used by DNS over TLS.
+in which the blocking applied to the port used by DNS over TLS regardless
+of the SNI being used.
