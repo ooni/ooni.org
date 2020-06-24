@@ -172,7 +172,9 @@ tested ISPs. Therefore, 57% of the tested endpoints were blocked.
 
 The following table shows the frequency of measurement errors for all ISPs. The
 `Failure` column indicates the overall measurement failure, and the `Frequency`
-column indicates how many times such failure occurred.
+column indicates how many times such failure occurred. (The failures listed
+for the Hetzner VPN are respectively caused by experimental errors as well as
+by the aforementioned broken domain, as we will explain soon.)
 
 |  Network |               Failure |     Frequency |
 | -------- | --------------------- | ------------- |
