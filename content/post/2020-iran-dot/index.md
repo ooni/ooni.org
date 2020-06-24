@@ -57,7 +57,7 @@ message](https://tls.ulfheim.net/) uses `1.1.1.1` as the
 the corresponding [X.509](https://en.wikipedia.org/wiki/X.509) certificate,
 of course, lists `1.1.1.1` as a valid IP address for the
 domain. In other cases, the DoT endpoint contains a domain name. For
-example, Cloudflare's public DoT server is _also_ available
+example, Cloudflare's public DoT server is also available
 using the `one.one.one.one:853` endpoint and the `one.one.one.one` SNI.
 
 When the endpoint contains a domain name, another DNS resolver is
