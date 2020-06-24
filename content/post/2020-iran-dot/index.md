@@ -843,10 +843,10 @@ Verify return code: 0 (ok)
 
 Here we see that the handshake is able to progress (1) and we agree on a channel (2).
 
-It seems that what is blocked is not `1.1.1.1:*` in general, but `1.1.1.1:853`
+**It seems that what is blocked is not `1.1.1.1:*` in general, but `1.1.1.1:853`
 in particular. In this regard, it is interesting to note, however, that the blocking
 is not designed to prevent connecting to this TCP endpoint. Rather, the blocking
-only happens during the TLS handshake.
+only happens during the TLS handshake.**
 
 (It is also worth noting that `miniooni`
 [wrongly](https://github.com/ooni/probe-engine/issues/660) used
