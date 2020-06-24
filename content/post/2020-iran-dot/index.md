@@ -116,7 +116,8 @@ conclusions.
 
 We prepared a list of 31 well-known DoT endpoints. We compiled
 `miniooni` from [ooni/probe-engine@f3594e5a](https://github.com/ooni/probe-engine/commit/f3594e5a134b0ddffae82fbf376efe16e9de8403)
-and tested each of these endpoints.
+and tested each of these endpoints. We run this experiment
+on 29th and 30th May, 2020.
 
 We used the `-O DNSCache="<domain> <ip>"` option of
 `miniooni` to ensure we were checking the first two IP
