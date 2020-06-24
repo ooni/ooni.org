@@ -57,7 +57,7 @@ message](https://tls.ulfheim.net/) uses `1.1.1.1` as the
 the corresponding [X.509](https://en.wikipedia.org/wiki/X.509) certificate,
 of course, lists `1.1.1.1` as a valid IP address for the
 domain. In other cases, the DoT endpoint contains a domain name. For
-example, Cloudflare's public DoT server is *also* available
+example, Cloudflare's public DoT server is _also_ available
 using the `one.one.one.one:853` endpoint and the `one.one.one.one` SNI.
 
 When the endpoint contains a domain name, another DNS resolver is
@@ -945,7 +945,7 @@ immediately after we send the ClientHello.
 
 ### Results Summary
 
-The following table shows what endpoints were blocked by what ISP. It is compiled
+The following table shows what endpoints were blocked by which ISP. It is compiled
 by joining the ISP-specific results shown above.
 
 A `null` result indicates that the specific endpoint worked with a specific
