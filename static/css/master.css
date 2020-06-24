@@ -571,35 +571,25 @@ h1.article-title {
 
 /* Partners */
 
-.partners {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  border-top: solid 1px #dee2e6;
-  border-left: solid 1px #dee2e6;
-  padding: 0px;
-  margin: 0px;
-}
-
 .partner-box {
-  display: flex;
   position: relative;
-  width: 200px;
-  height: 150px;
-  padding: 0px;
-  margin: 0px;
-  border-bottom: solid 1px #dee2e6;
-  border-right: solid 1px #dee2e6;
-  border-left: solid 1px #dee2e6;
+  height: 280px;
+  border: solid 1px #dee2e6;
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
   align-items: center;
   justify-content: center;
 }
 
-.partner-box:hover {
-  background-color: #dee2e6;
+.partner-logo {
+  display: flex;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  right: 10px;
+  bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .partner-header {

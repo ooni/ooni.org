@@ -8,28 +8,25 @@
         {{ .Content }}
       </p>
     </div>
-    <div class="col-4">
-      <div class="row">
-        <div class="stat-box col-4">
-          <span class="num">{{ len .Pages }}</span>
-          <span class="label">Partners</span>
-        </div>
-        <div class="stat-box col-4">
-          <span class="num">{{ .Params.countries }}</span>
-          <span class="label">Countries</span>
-        </div>
-      </div>
-    </div>
   </div>
-  <div class="partners row">
+  <div class="row justify-content-around">
     {{ range .Pages }}
       {{ $name := .Params.Name }}
+      {{ $country := .Params.Country }}
       {{ $href := .Permalink }}
         {{ with .Resources.GetMatch "images/*.png" }}
           {{ $image := .Fit "140x150" }}
-          <a href="{{ $href }}" class="partner-box col-3">
-            <img src="{{ $image.Permalink }}" alt="{{ $name }}" />
-          </a>
+          <div class="col-4 mb-3">
+            <div class="partner-box p-3">
+            <a href="{{ $href }}">
+              <h2>{{ $name }}</h2>
+            </a>
+            <span class="partner-country">{{ $country }}</span>
+            <div class="partner-logo">
+              <img src="{{ $image.Permalink }}" alt="{{ $name }}" />
+            </div>
+            </div>
+          </div>
         {{ end }}
     {{ end }}
   </div>
