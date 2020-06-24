@@ -1,6 +1,6 @@
 ---
 title: "DNS over TLS blocked in Iran"
-description: "We run experimental DNS over TLS measurements in Iran and found that many endpoints were blocked"
+description: "We ran experimental DNS over TLS measurements in Iran and found that many endpoints were blocked"
 author: "Simone Basso"
 date: "2020-06-24"
 tags: ["iran", "censorship", "tls-blocking", "country-ir"]
@@ -116,7 +116,7 @@ conclusions.
 
 We prepared a list of 31 well-known DoT endpoints. We compiled
 `miniooni` from [ooni/probe-engine@f3594e5a](https://github.com/ooni/probe-engine/commit/f3594e5a134b0ddffae82fbf376efe16e9de8403)
-and tested each of these endpoints. We run this experiment
+and tested each of these endpoints. We ran this experiment
 on 29th and 30th May, 2020.
 
 We used the `-O DNSCache="<domain> <ip>"` option of
