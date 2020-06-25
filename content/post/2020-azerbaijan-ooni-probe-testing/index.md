@@ -35,7 +35,7 @@ OONI bunu necə edir?
 * İnternet senzurasının müxtəlif formalarını aşkar etmək üçün [OONI Probe Applər](https://ooni.org/install/) [yəni tədbiqlər] qurur;
 
 * Dünyanın hər yerindən toplanmış senzura ölçmələri ilə bağlı
-məlumatları [burada](https://ooni.org/data/)n yayımlayır;
+məlumatları [buradan](https://ooni.org/data/) yayımlayır;
 
 * Son olaraq, dünyada senzura hadisələrini sənədləşdirən [tədqiqat hesabatları](https://ooni.org/reports/) dərc edir;
 
@@ -92,27 +92,26 @@ göstərişlərlə araşdırmanı dəstəkləyə bilərsiniz:
 
 2)  **WiFi ilə qoşulanların nəzərinə:**
 
-    a.  əlavənin **settings/parametrələrinə** daxil olun, **test
-        options/test variantlari** nişanını seçin. Qarşınıza
-        **websites/veb səhifələri** yazan nişan çıxacaq. Nişanı seçin
-        və **limit test duration/test müddətini məhdudlaşdır**
-        funksiyasını deaktiv edin
-        ([dünyada](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)
-        və
-        [Azərbaycanda](https://github.com/citizenlab/test-lists/blob/master/lists/az.csv)
-        bloklanan veb səhifələri test etmək üçün)
+* əlavənin **settings/parametrələrinə** daxil olun, **test
+options/test variantlari** nişanını seçin. Qarşınıza
+**websites/veb səhifələri** yazan nişan çıxacaq. Nişanı seçin
+və **limit test duration/test müddətini məhdudlaşdır**
+funksiyasını deaktiv edin
+([dünyada](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)
+və [Azərbaycanda](https://github.com/citizenlab/test-lists/blob/master/lists/az.csv)
+bloklanan veb səhifələri test etmək üçün)
 
-    b.  OONI Probe tətbiqin idarə panelində **“Run”/”test et”**
-        düyməsinə basın (bütün testləri tətbiq etmək üçün)
+* OONI Probe tətbiqin idarə panelində **“Run”/”test et”**
+düyməsinə basın (bütün testləri tətbiq etmək üçün)
 
 3)  **mobil data ilə qoşulanların nəzərinə:**
 
-    a.  Bu veb səhifəsindən
-        [https://ooni.org/get-involved/run/](https://ooni.org/get-involved/run/)
-        “**Azerbaijan**” yazan nişanı seçin;
+* Bu veb səhifəsindən
+[https://ooni.org/get-involved/run/](https://ooni.org/get-involved/run/)
+“**Azerbaijan**” yazan nişanı seçin;
 
-    b.  Açılan səhifəni OONI Probe mobil tətbiqində
-        “Run” test et” düyməsinə basin;
+* Açılan səhifəni OONI Probe mobil tətbiqində
+“Run” test et” düyməsinə basin;
 
 4)  VPNləri test etmək üçün bu səhifədən
     [https://ooni.org/get-involved/run/](https://ooni.org/get-involved/run/) “**VPNs**” düyməsini
