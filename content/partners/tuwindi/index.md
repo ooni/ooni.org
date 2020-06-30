@@ -2,8 +2,8 @@
 continent: Africa
 country: Mali
 name: Tuwindi
-reports:
-- 'We worked on this Mali report with ISF (Tuwindi didn''t have time to work on it):
-  https://ooni.torproject.org/post/mali-disruptions-amid-2018-election/'
-since: 23rd January 2018
+website: http://tuwindi.io/
 ---
+
+Tuwindi is a non-partisan, non-profit Malian law organization. Their goal is to use information and communication technologies to support social and economic development. Their mission is to propell economic and social development through the innovative use of ICT communication and information technologies.
+
