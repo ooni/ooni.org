@@ -16,3 +16,5 @@ For the advancement of this vision, and as an organization formed by professiona
 IPYS Venezuela monitors and denounces violations of the exercise of the rights to free expression and access to information, safeguarding and protecting the rights of journalists and communication professionals to carry out their work.
 
 IPYS Venezuela defends the legal framework that guarantees the exercise of freedom of expression and the right to information according to international standards, and as cornerstones of the democratic coexistence of citizens.
+
+Their [Intercortados project](https://ipysvenezuela.org/intercortados/), which investigated internet censorship in Venezuela through the use of [OONI Probe](https://ooni.org/install/) and [OONI data](https://ooni.org/data/), was **[nominated for the 2019 Gabo Award](https://premioggm.org/premio-gabo/edicion/2019/nominados/)**, among the 10 best innovation projects.
