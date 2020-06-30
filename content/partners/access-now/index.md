@@ -4,6 +4,7 @@ country: Global
 name: Access Now #KeepItOn campaign
 website: https://www.accessnow.org/keepiton/
 reports:
+- [Resurgence of Internet Censorship in Ethiopia: Blocking of WhatsApp, Facebook, and African Arguments](https://ooni.org/post/resurgence-internet-censorship-ethiopia-2019/)
 - [Ethiopia: Verifying the unblocking of websites](https://ooni.org/post/ethiopia-unblocking/)
 - [#EgyptCensors: Evidence of recent censorship events in Egypt](https://ooni.org/post/egypt-censors/)
 ---
