@@ -4,6 +4,7 @@ country: Kenya
 name: Centre for Intellectual Property and Information Technology Law (CIPIT), Strathmore University
 website: http://cipit.strathmore.edu/
 reports:
+- [OONI Community Interviews: Moses Karanja](https://ooni.org/post/ooni-community-interviews-moses-karanja/)
 - [Kenya: Censorship-free internet?](https://ooni.org/post/kenya-study/)
 - [The Gambia: Internet Shutdown during 2016 Presidential Election](https://ooni.org/post/gambia-internet-shutdown/)
 - [Zambia: Internet censorship during the 2016 general elections?](https://ooni.org/post/zambia-election-monitoring/)
