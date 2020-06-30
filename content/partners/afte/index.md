@@ -2,6 +2,7 @@
 continent: Middle East
 country: Egypt
 name: Association for Freedom of Thought and Expression (AFTE)
+website: https://afteegypt.org/
 reports:
 - [Egypt blocks BBC and Alhurra: Expanding media censorship amid political unrest](https://ooni.org/post/2019-egypt-blocks-bbc-and-alhurra/)
 - [The State of Internet Censorship in Egypt](https://ooni.org/post/egypt-internet-censorship/)
