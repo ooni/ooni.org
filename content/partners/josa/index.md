@@ -4,7 +4,8 @@ country: Jordan
 name: Jordan Open Source Association (JOSA)
 website: https://jordanopensource.org/
 reports:
-- [Jordan: Measuring Facebook live-streaming interference during protests](https://ooni.org/post/jordan-measuring-facebook-interference/)
+- text: "Jordan: Measuring Facebook live-streaming interference during protests"
+  link: "https://ooni.org/post/jordan-measuring-facebook-interference/"
 ---
 
 The Jordan Open Source Association (JOSA) is a non-profit organization that works for the promotion and implementation of the Open Source principles in Jordan.
