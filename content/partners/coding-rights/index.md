@@ -4,9 +4,14 @@ country: Brazil
 name: Coding Rights
 website: https://www.codingrights.org/
 reports:
-- [On the blocking of abortion rights websites: Women on Waves & Women on Web](https://ooni.org/post/2019-blocking-abortion-rights-websites-women-on-waves-web/)
-- [WhatsApp bloqueado (outra vez) no Brasil](https://ooni.org/pt/post/brazil-whatsapp-block/)
-- [OONI Data Reveals How WhatsApp Was Blocked (Again) in Brazil](https://ooni.org/post/brazil-whatsapp-block/)
+- text: "On the blocking of abortion rights websites: Women on Waves & Women on Web"
+  link: "https://ooni.org/post/2019-blocking-abortion-rights-websites-women-on-waves-web/"
+- text: "Listatona OONI contra a censura na web"
+  link: "https://www.codingrights.org/pt/coding-rights-na-cryptorave-2017/"
+- text: "WhatsApp bloqueado (outra vez) no Brasil"
+  link: "https://ooni.org/pt/post/brazil-whatsapp-block/"
+- text: "OONI Data Reveals How WhatsApp Was Blocked (Again) in Brazil"
+  link: "https://ooni.org/post/brazil-whatsapp-block/"
 ---
 
 Coding Rights are an organisation bringing an intersectional feminist approach to defend human rights in the development, regulation and use of technologies. They act collectively and in networks, use creativity and hacker knowledge to question the present and reimagine a future based on transfeminist and decolonial values.
