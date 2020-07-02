@@ -4,9 +4,9 @@ description: This Data Policy discloses and explains what data the OONI project 
 aliases: ["/data-policy"]
 ---
 
-**Last modified:** April 22, 2020
+**Last modified:** July 3, 2020
 
-**Version:** 1.3.1
+**Version:** 1.3.2
 
 This Data Policy discloses and explains what data the [Open Observatory of
 Network Interference (OONI) project](https://ooni.org/) ("we", "us", or "our")
@@ -156,17 +156,20 @@ of data.**
 
 #### Country code
 
-By default, we automatically transmit your IP address to the [MaxMind GeoIP database](https://www.maxmind.com/en/home), which identifies the country in
+By default, we automatically transmit your IP address to our [ASN
+database](https://github.com/ooni/asn-db-generator) to identify the country in
 which you are located. We then obtain a two-letter country code from this
-database (for example, "IT" for Italy) and store it along with the rest of your test results. 
+database (for example, "IT" for Italy) and store it along with the rest of your
+test results. 
 
 Knowing the country from which our users are running OONI Probe allows us to locate any
 network interference the software identifies to a specific country. Such
 information may be useful to researchers, journalists, and advocates who aim to
 discover network interference (such as censorship and traffic manipulation).
 
-You can opt out of sending us your country code by disabling this option in the
-settings of the OONI Probe apps.
+You cannot opt out of sending us your country code as this information is
+essential (without the country code, for example, we don't know where a specific
+blocking event occurred).
 
 #### Network information
 
