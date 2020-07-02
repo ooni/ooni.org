@@ -8,7 +8,7 @@ reports:
   link: "https://ooni.org/post/2019-nigeria-internet-censorship/"
 - text: "Nigeria: Measuring Internet Censorship"
   link: "https://ooni.org/post/nigeria-internet-censorship/"
-- text: "Tightening the Noose on Freedom of Expression: Status of Internet Freedom in Nigeria 2018:
+- text: "Tightening the Noose on Freedom of Expression: Status of Internet Freedom in Nigeria 2018"
   link: "https://ooni.org/documents/nigeria-report.pdf"
 ---
 
