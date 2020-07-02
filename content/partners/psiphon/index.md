@@ -4,8 +4,10 @@ country: Global
 name: Psiphon
 website: https://psiphon.ca/
 reports:
-- [Psiphon Data Engine](https://psix.ca/)
-- [OONI Probe Psiphon test](https://ooni.org/nettest/psiphon/)
+- text: "Psiphon Data Engine"
+  link: "https://psix.ca/"
+- text: "OONI Probe Psiphon test"
+  link: "https://ooni.org/nettest/psiphon/"
 ---
 
 Since 2006, Psiphon has provided open access to the internet for millions of citizens around the world.
