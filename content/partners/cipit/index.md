@@ -4,7 +4,7 @@ country: Kenya
 name: Centre for Intellectual Property and Information Technology Law (CIPIT), Strathmore University
 website: http://cipit.strathmore.edu/
 reports:
-- text: "OONI Community Interviews: Moses Karanja:
+- text: "OONI Community Interviews: Moses Karanja"
   link: "https://ooni.org/post/ooni-community-interviews-moses-karanja/"
 - text: "Kenya: Censorship-free internet?"
   link: "https://ooni.org/post/kenya-study/"
