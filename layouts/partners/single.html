@@ -1,28 +1,27 @@
 {{ define "main" }}
-<div class="container">
-  <div class="partner-header">
-    <div class="partner-logo-circle">
-      {{ with .Resources.GetMatch "images/*.png" }}
-      {{ $image := .Resize "120x" }}
-      <img src="{{ $image.Permalink }}" />
-      {{ end }}
-    </div>
-    <h1>{{ .Params.name }}</h1>
-  </div>
+<div class="container mb-4">
+    <div class="row pb-5">
+      <div class="col-3 partner-page-logo">
+        {{ with .Resources.GetMatch "images/*.png" }}
+        {{ $image := .Resize "150x" }}
+        <img src="{{ $image.Permalink }}" />
+        {{ end }}
+      </div>
 
-  <div class="row">
-    <div class="stat-box col-4">
-      <span class="num">{{ .Params.country }}</span>
-      <span class="label">Country</span>
+      <div class="partner-page-details-container col-9">
+        <div class="partner-page-details">
+        <h1>{{ .Params.name }}</h1>
+        <span class="partner-country">{{ .Params.country }}</span>
+        {{ with .Params.website }}
+        <div class="pt-3">
+        <a class="ooni-btn" href="{{ . }}">website</a>
+        </div>
+        {{ end }}
+        </div>
+      </div>
     </div>
-  </div>
-
 
   {{ .Content }}
-
-  {{ with .Params.website }}
-  <a class="ooni-btn" href="{{ . }}">{{ . }}</a>
-  {{ end }}
 
   <h2>Collaboration</h2>
   <ul>
@@ -30,6 +29,8 @@
     <li><a href="{{ .link }}">{{ .text }}</a></li>
   {{ end }}
   </ul>
+
+  <a class="back-link" href="/partners/">← back to partners</a>
 
 </div>
 {{ end }}
