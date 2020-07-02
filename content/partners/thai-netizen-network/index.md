@@ -4,7 +4,8 @@ country: Thailand
 name: Thai Netizen Network
 website: https://thainetizen.org/
 reports:
-- [The State of Internet Censorship in Thailand](https://ooni.org/post/thailand-internet-censorship/)
+- text: "The State of Internet Censorship in Thailand"
+  link: "https://ooni.org/post/thailand-internet-censorship/"
 ---
 
 Thai Netizen Network is a leading non-profit organisation in Thailand that advocates for digital rights and civil liberties. Founded in December 2008, it grew out of a group of netizens who had concerns about limited internet freedom during post-coup governments. 
