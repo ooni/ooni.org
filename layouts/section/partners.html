@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<div class="container">
+  <h1>{{ .Title }}</h1>
+  <div class="row">
+    <div class="col-8">
+      <p>
+        {{ .Content }}
+      </p>
+    </div>
+  </div>
+  <div class="row justify-content-around">
+    {{ range .Pages }}
+      {{ $name := .Params.Name }}
+      {{ $country := .Params.Country }}
+      {{ $href := .Permalink }}
+        {{ with .Resources.GetMatch "images/*.png" }}
+          {{ $image := .Fit "140x150" }}
+          <div class="col-4 mb-3">
+            <div class="partner-box p-3">
+            <a href="{{ $href }}">
+              <h2>{{ $name }}</h2>
+            </a>
+            <span class="partner-country">{{ $country }}</span>
+            <div class="partner-logo">
+              <img src="{{ $image.Permalink }}" alt="{{ $name }}" />
+            </div>
+            </div>
+          </div>
+        {{ end }}
+    {{ end }}
+  </div>
+
+</div>
+
+{{ end }}
