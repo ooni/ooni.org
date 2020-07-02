@@ -4,8 +4,10 @@ country: Egypt
 name: Association for Freedom of Thought and Expression (AFTE)
 website: https://afteegypt.org/
 reports:
-- [Egypt blocks BBC and Alhurra: Expanding media censorship amid political unrest](https://ooni.org/post/2019-egypt-blocks-bbc-and-alhurra/)
-- [The State of Internet Censorship in Egypt](https://ooni.org/post/egypt-internet-censorship/)
+- text: "Egypt blocks BBC and Alhurra: Expanding media censorship amid political unrest"
+  link: "https://ooni.org/post/2019-egypt-blocks-bbc-and-alhurra/"
+- text: "The State of Internet Censorship in Egypt"
+  link: "https://ooni.org/post/egypt-internet-censorship/"
 ---
 
 The Association for Freedom of Thought and Expression (AFTE) is a nongovernmental organization, registered in accordance with Egyptian law as a law firm since 2007. The association works to promote and protect freedom of expression and freedom of information. It uses research, legal support, monitoring of violations, and advocacy through its team of researchers and lawyers.
