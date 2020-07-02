@@ -4,8 +4,10 @@ country: Chile
 name: Derechos Digitales
 website: https://www.derechosdigitales.org/
 reports:
-- [Manual rápido de OONI Probe para monitorear bloqueos de sitios y servicios usando teléfonos Android](https://www.derechosdigitales.org/13931/manual-rapido-de-ooni-probe-para-monitorear-bloqueos-de-sitios-y-servicios-usando-telefonos-android/)
-- [Riesgos: Lo que debes saber antes de ejecutar OONI Probe](https://ooni.org/es/about/risks)
+- text: "Manual rápido de OONI Probe para monitorear bloqueos de sitios y servicios usando teléfonos Android"
+  link: "https://www.derechosdigitales.org/13931/manual-rapido-de-ooni-probe-para-monitorear-bloqueos-de-sitios-y-servicios-usando-telefonos-android/"
+- text: "Riesgos: Lo que debes saber antes de ejecutar OONI Probe"
+  link: "https://ooni.org/es/about/risks"
 ---
 
 Derechos Digitales is an independent, non-profit organization of Latin American scope, founded in 2005 and whose main objective is the development, defense and promotion of human rights in the digital environment.
