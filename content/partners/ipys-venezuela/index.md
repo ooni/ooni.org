@@ -4,9 +4,12 @@ country: Venezuela
 name: IPYS Venezuela
 website: https://ipysvenezuela.org/
 reports:
-- [Coordinación de la medición de la censura en Venezuela](https://www.youtube.com/watch?v=XNEaXcSUXnI)
-- [From the blocking of Wikipedia to Social Media: Venezuela's Political Crisis](https://ooni.org/post/venezuela-blocking-wikipedia-and-social-media-2019/)
-- [The State of Internet Censorship in Venezuela](https://ooni.org/post/venezuela-internet-censorship/)
+- text: "Coordinación de la medición de la censura en Venezuela"
+  link: "https://www.youtube.com/watch?v=XNEaXcSUXnI"
+- text: "From the blocking of Wikipedia to Social Media: Venezuela's Political Crisis"
+  link: "https://ooni.org/post/venezuela-blocking-wikipedia-and-social-media-2019/"
+- text: "The State of Internet Censorship in Venezuela"
+  link: "https://ooni.org/post/venezuela-internet-censorship/"
 ---
 
 IPYS Venezuela works for a Venezuela where there is full enjoyment of freedom of expression and the right to information, and demands that the necessary guarantees to exercise free and plural journalism, allowing the scrutiny of power, be met.
