@@ -23,12 +23,14 @@
 
   {{ .Content }}
 
-  <h2>Collaboration</h2>
-  <ul>
-  {{ range .Params.reports }}
-    <li><a href="{{ .link }}">{{ .text }}</a></li>
+  {{ with .Params.reports }}
+    <h2>Collaboration</h2>
   {{ end }}
-  </ul>
+    <ul>
+    {{ range .Params.reports }}
+      <li><a href="{{ .link }}">{{ .text }}</a></li>
+    {{ end }}
+    </ul>
 
   <a class="back-link" href="/partners/">← back to partners</a>
 
