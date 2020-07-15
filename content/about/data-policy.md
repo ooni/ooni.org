@@ -4,7 +4,7 @@ description: This Data Policy discloses and explains what data the OONI project 
 aliases: ["/data-policy"]
 ---
 
-**Last modified:** July 3, 2020
+**Last modified:** July 15, 2020
 
 **Version:** 1.3.2
 
@@ -111,22 +111,33 @@ collected from around the world.
 
 ## Analytics
 
-We use [Matomo analytics](https://matomo.org/) -- a [GDPR compliant, free and
-open source tool](https://matomo.org/why-matomo/) -- to collect some information
-about visitors to [OONI Explorer](https://explorer.ooni.org/) and our [website](https://ooni.org/), as well as to collect [OONI Probe desktop
-app](https://ooni.org/install/desktop) usage statistics. 
-
 Through the use of analytics, our goal is to improve our understanding of user
 needs, improve OONI tools, and better serve the OONI community.
 
 We do not record the full IP address of users (which is "anonymised" to the
 first 3 octets, ex. 123.45.67.0).
 
+We use [Matomo analytics](https://matomo.org/) -- a [GDPR compliant, free and
+open source tool](https://matomo.org/why-matomo/) -- to collect some information
+about visitors to [OONI Explorer](https://explorer.ooni.org/) and our [website](https://ooni.org/), as well as to collect [OONI Probe desktop
+app](https://ooni.org/install/desktop) usage statistics. 
+
 You can opt out of our use of analytics on [OONI Explorer](https://explorer.ooni.org/) and the [OONI website](https://ooni.org/)
 by **unchecking the opt-out box** at the end of this Data Policy.
 
-You can opt out of our use of analytics on the [OONI Probe desktop app](https://ooni.org/install/desktop) by disabling the collection of app usage
+You can opt out of our use of analytics on the [OONI Probe desktop
+app](https://ooni.org/install/desktop) by disabling the collection of app usage
 statistics in the app settings. 
+
+To better understand how the [OONI Probe mobile
+app](https://ooni.org/install/mobile) is used, we collect app usage statistics
+through the use of [Countly analytics](https://count.ly/).
+
+You can opt out of our use of analytics on the [OONI Probe mobile
+app](https://ooni.org/install/mobile) by disabling the collection of app usage
+statistics in the app settings.
+
+We will never link OONI Probe app usage metrics to your identity.
 
 We will notify you of any future changes to our use of analytics through an
 update to this Data Policy.
@@ -168,8 +179,8 @@ information may be useful to researchers, journalists, and advocates who aim to
 discover network interference (such as censorship and traffic manipulation).
 
 You cannot opt out of sending us your country code as this information is
-essential (without the country code, for example, we don't know where a specific
-blocking event occurred).
+essential (i.e. without the country code, we don't know where a measurement came
+from, limiting its value).
 
 #### Network information
 
@@ -217,6 +228,18 @@ about why and how a specific OONI Probe function failed to work as expected.
 
 You can opt out of sending us crash reports by disabling this option in the
 advanced settings of the OONI Probe apps.
+
+#### App usage statistics
+
+By default, we collect OONI Probe app usage statistics in order to better
+understand how our apps are used, improve our understanding of user needs,
+improve OONI Probe apps, and better serve the OONI community.
+
+On the [OONI Probe desktop app](https://ooni.org/install/desktop), we use [Matomo analytics](https://matomo.org/), while on the [OONI Probe
+mobile app](https://ooni.org/install/mobile), we use [Countly analytics](https://count.ly/).
+
+In both cases, you can opt out of our use of analytics by disabling the
+collection of app usage statistics in the OONI Probe app settings.
 
 #### IP addresses and other information
 
