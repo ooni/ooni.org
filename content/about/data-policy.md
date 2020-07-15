@@ -111,31 +111,22 @@ collected from around the world.
 
 ## Analytics
 
-Through the use of analytics, our goal is to improve our understanding of user
-needs, improve OONI tools, and better serve the OONI community.
+Through the use of analytics, our goal is to better understand how our apps are
+used, improve our understanding of user needs, improve OONI tools, and better
+serve the OONI community.
 
 We do not record the full IP address of users (which is "anonymised" to the
 first 3 octets, ex. 123.45.67.0).
 
-We use [Matomo analytics](https://matomo.org/) -- a [GDPR compliant, free and
-open source tool](https://matomo.org/why-matomo/) -- to collect some information
+We use a self-hosted analytics platform to collect some information
 about visitors to [OONI Explorer](https://explorer.ooni.org/) and our [website](https://ooni.org/), as well as to collect [OONI Probe desktop
-app](https://ooni.org/install/desktop) usage statistics. 
+app](https://ooni.org/install/desktop) and [OONI Probe mobile app](https://ooni.org/install/mobile) usage statistics. 
 
 You can opt out of our use of analytics on [OONI Explorer](https://explorer.ooni.org/) and the [OONI website](https://ooni.org/)
 by **unchecking the opt-out box** at the end of this Data Policy.
 
-You can opt out of our use of analytics on the [OONI Probe desktop
-app](https://ooni.org/install/desktop) by disabling the collection of app usage
-statistics in the app settings. 
-
-To better understand how the [OONI Probe mobile
-app](https://ooni.org/install/mobile) is used, we collect app usage statistics
-through the use of [Countly analytics](https://count.ly/).
-
-You can opt out of our use of analytics on the [OONI Probe mobile
-app](https://ooni.org/install/mobile) by disabling the collection of app usage
-statistics in the app settings.
+You can opt out of our use of analytics on the OONI Probe mobile and desktop
+apps by disabling the collection of app usage statistics in the app settings. 
 
 We will never link OONI Probe app usage metrics to your identity.
 
@@ -231,12 +222,12 @@ advanced settings of the OONI Probe apps.
 
 #### App usage statistics
 
-By default, we collect OONI Probe app usage statistics in order to better
+By default, we collect OONI Probe app usage statistics to better
 understand how our apps are used, improve our understanding of user needs,
 improve OONI Probe apps, and better serve the OONI community.
 
-On the [OONI Probe desktop app](https://ooni.org/install/desktop), we use [Matomo analytics](https://matomo.org/), while on the [OONI Probe
-mobile app](https://ooni.org/install/mobile), we use [Countly analytics](https://count.ly/).
+We use a self-hosted analytics platform to collect app usage statistics on both
+the OONI Probe mobile and desktop apps.
 
 In both cases, you can opt out of our use of analytics by disabling the
 collection of app usage statistics in the OONI Probe app settings.
