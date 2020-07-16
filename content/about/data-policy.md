@@ -261,6 +261,9 @@ supported tests, platform, device language, device timezone);
 
 * Network information (such as probe ASN and network type) and country code;
 
+* Approximate geographical location (based on your IP address) in order to send
+geo-targeted push notifications;
+
 * Push notification token. 
 
 ### Data We Process
