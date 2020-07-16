@@ -128,8 +128,6 @@ by **unchecking the opt-out box** at the end of this Data Policy.
 You can opt out of our use of analytics on the OONI Probe mobile and desktop
 apps by disabling the collection of app usage statistics in the app settings. 
 
-We will never link OONI Probe app usage metrics to your identity.
-
 We will notify you of any future changes to our use of analytics through an
 update to this Data Policy.
 
