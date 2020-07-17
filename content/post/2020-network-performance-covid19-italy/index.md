@@ -239,7 +239,7 @@ then analyse them using Google Sheets to produce plots.
 The following chart shows the number of download and upload NDT tests
 performed per day.
 
-{{<img src="images/tests.png" title="Number of tests run per day" alt="Number of tests run per day">}}
+{{<img src="images/tests.png" title="Number of tests run per day" alt="Number of tests run per day" width="80%" height="80%">}}
 
 It is evident that the number of tests per day surges after 23rd
 February 2020, which is [two days after the announcement of the “red zone”](https://www.dw.com/en/coronavirus-italy-towns-in-lockdown-after-covid-19-deaths/a-52477823)
@@ -276,7 +276,7 @@ in Mbit/s. When the curve increases, it means that more tests were
 slower in percentage than before. When it decreases, it means that more
 tests were faster in percentage than before.
 
-{{<img src="images/download.png" title="Download speed" alt="Download speed">}}
+{{<img src="images/download.png" title="Download speed" alt="Download speed" width="80%" height="80%">}}
 
 Before Italy’s nationwide lockdown, we observe weekly patterns. For
 example, we notice that the measured performance is worse on weekends,
@@ -327,7 +327,7 @@ in Mbit/s. When the curve increases, it means that more tests were
 slower in percentage than before. When it decreases, it means that more
 tests were faster in percentage than before.
 
-{{<img src="images/upload.png" title="Upload speed" alt="Upload speed">}}
+{{<img src="images/upload.png" title="Upload speed" alt="Upload speed" width="80%" height="80%">}}
 
 Through the above chart, it is suggested that few NDT users have access
 to high upload speeds. This is quite likely explained by the asymmetric
