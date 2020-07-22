@@ -4,9 +4,9 @@ description: This Data Policy discloses and explains what data the OONI project 
 aliases: ["/data-policy"]
 ---
 
-**Last modified:** April 22, 2020
+**Last modified:** July 22, 2020
 
-**Version:** 1.3.1
+**Version:** 1.4.0
 
 This Data Policy discloses and explains what data the [Open Observatory of
 Network Interference (OONI) project](https://ooni.org/) ("we", "us", or "our")
@@ -82,7 +82,7 @@ enable OONI Probe users to test the URLs of their choice.
 
 To increase transparency of internet censorship around the world, the [OONI software ecosystem](https://github.com/ooni) has been designed in such a way
 that we (automatically) **openly publish all OONI Probe measurements** that get
-sent to our servers.
+sent to our servers. All OONI software (including our infrastructure) is [open source](https://github.com/ooni), enabling the independent, third-party verification of statements made in this Data Policy. 
 
 ### 5. Accessible and Usable
 
@@ -98,35 +98,35 @@ charts and a search tool for exploring OONI measurements.
 ### 6. Public Archive
 
 Our goal is to enable future generations (and current researchers and human
-rights defenders) to learn about internet censorship through longitudional OONI
+rights defenders) to learn about internet censorship through longitudinal OONI
 measurements.
 
 We therefore do our best to preserve a [public archive of all OONI
 measurements](https://ooni.org/data/) that we collect and openly publish.
 
-As a result, we refrain from deleting OONI measurements (unless if there are
+As a result, we refrain from deleting OONI measurements (unless there are
 user safety concerns), and we continuously work towards improving our analysis
 and storage capabilities for the public archival of all OONI measurements
 collected from around the world.
 
 ## Analytics
 
-We use [Matomo analytics](https://matomo.org/) -- a [GDPR compliant, free and
-open source tool](https://matomo.org/why-matomo/) -- to collect some information
-about visitors to [OONI Explorer](https://explorer.ooni.org/) and our [website](https://ooni.org/), as well as to collect [OONI Probe desktop
-app](https://ooni.org/install/desktop) usage statistics. 
+Through the use of analytics, our goal is to better understand how our apps are
+used, improve our understanding of user needs, improve OONI tools, and better
+serve the OONI community.
 
-Through the use of analytics, our goal is to improve our understanding of user
-needs, improve OONI tools, and better serve the OONI community.
-
-We do not record the full IP address of users (which is "anonymised" to the
+When relevant, we do not record the full IP address of users (which is "anonymised" to the
 first 3 octets, ex. 123.45.67.0).
+
+We use a self-hosted analytics platform to collect some information
+about visitors to [OONI Explorer](https://explorer.ooni.org/) and our [website](https://ooni.org/), as well as to collect [OONI Probe desktop
+app](https://ooni.org/install/desktop) and [OONI Probe mobile app](https://ooni.org/install/mobile) usage statistics. Details about our specific setup can be found in [ooni/sysadmin](https://github.com/ooni/sysadmin).
 
 You can opt out of our use of analytics on [OONI Explorer](https://explorer.ooni.org/) and the [OONI website](https://ooni.org/)
 by **unchecking the opt-out box** at the end of this Data Policy.
 
-You can opt out of our use of analytics on the [OONI Probe desktop app](https://ooni.org/install/desktop) by disabling the collection of app usage
-statistics in the app settings. 
+You can opt out of our use of analytics on the OONI Probe mobile and desktop
+apps by disabling the collection of app usage statistics in the app settings. 
 
 We will notify you of any future changes to our use of analytics through an
 update to this Data Policy.
@@ -156,17 +156,20 @@ of data.**
 
 #### Country code
 
-By default, we automatically transmit your IP address to the [MaxMind GeoIP database](https://www.maxmind.com/en/home), which identifies the country in
+By default, we automatically transmit your IP address to our [ASN
+database](https://github.com/ooni/asn-db-generator) to identify the country in
 which you are located. We then obtain a two-letter country code from this
-database (for example, "IT" for Italy) and store it along with the rest of your test results. 
+database (for example, "IT" for Italy) and store it along with the rest of your
+test results. 
 
 Knowing the country from which our users are running OONI Probe allows us to locate any
 network interference the software identifies to a specific country. Such
 information may be useful to researchers, journalists, and advocates who aim to
 discover network interference (such as censorship and traffic manipulation).
 
-You can opt out of sending us your country code by disabling this option in the
-settings of the OONI Probe apps.
+You cannot opt out of sending us your country code as this information is
+essential (i.e. without the country code, we don't know where a measurement came
+from, limiting its value).
 
 #### Network information
 
@@ -215,6 +218,18 @@ about why and how a specific OONI Probe function failed to work as expected.
 You can opt out of sending us crash reports by disabling this option in the
 advanced settings of the OONI Probe apps.
 
+#### App usage statistics
+
+By default, we collect OONI Probe app usage statistics to better
+understand how our apps are used, improve our understanding of user needs,
+improve OONI Probe apps, and better serve the OONI community.
+
+We use a self-hosted analytics platform to collect app usage statistics on both
+the OONI Probe mobile and desktop apps. Details about our specific setup can be found in [ooni/sysadmin](https://github.com/ooni/sysadmin).
+
+In both cases, you can opt out of our use of analytics by disabling the
+collection of app usage statistics in the OONI Probe app settings.
+
 #### IP addresses and other information
 
 We do *not* aim to collect or store your IP addresses. In fact, we take measures
@@ -244,7 +259,10 @@ supported tests, platform, device language, device timezone);
 
 * Network information (such as probe ASN and network type) and country code;
 
-* Push notification token. 
+* Approximate geographical location (based on your IP address) in order to send
+geo-targeted push notifications;
+
+* Information necessary to deliver push notifications, such as the push notification token. 
 
 ### Data We Process
 
@@ -299,9 +317,7 @@ web interface, called [OONI Explorer](https://explorer.ooni.org/).
 For more information on the license under which the data is released, see
 [github.com/ooni/license/data](https://github.com/ooni/license/tree/master/data).
 
-We will *not* publish push notification tokens or other information securely
-stored (separately from the public measurement metadb) for sending out push
-notifications.  
+We will *not* publish data related to app analytics and push notification support, both of which are securely stored separately from the public measurement metadb.
 
 ### Third-party services
 
