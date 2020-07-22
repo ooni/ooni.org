@@ -6,7 +6,7 @@ aliases: ["/data-policy"]
 
 **Last modified:** July 22, 2020
 
-**Version:** 1.3.2
+**Version:** 1.4.0
 
 This Data Policy discloses and explains what data the [Open Observatory of
 Network Interference (OONI) project](https://ooni.org/) ("we", "us", or "our")
