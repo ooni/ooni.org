@@ -218,7 +218,7 @@ petition in Pakistan](http://digitalrightsmonitor.pk/islamabad-high-court-takes-
 which challenged the [blocking of media websites and popular social
 media
 platforms](https://ooni.org/post/how-pakistan-blocked-social-media/)
-during the 2017 November protests. As an outcome, the Islamabad High
+during the November 2017 protests. As an outcome, the Islamabad High
 Court
 [declared](https://tribune.com.pk/story/2061933/1-pta-not-empowered-block-website-ihc)
 that the Pakistan Telecommunications Authority cannot regulate content
