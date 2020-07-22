@@ -97,7 +97,7 @@ OONI Probe tests are run anywhere around the world, the test results are
 
 [OONI Explorer](https://explorer.ooni.org/) and the [OONI
 API](https://api.ooni.io/) not only serve as the **largest open
-datasets of internet censorship to date**, but they also enable human
+datasets on internet censorship to date**, but they also enable human
 rights defenders to track global censorship events as they emerge.
 
 # Supporting innovative projects requires expertise
