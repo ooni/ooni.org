@@ -2,7 +2,7 @@
 title: "Internet Measurement Village 2020: Slides & Video Recordings"
 description: "Slides & video recordings of presentations on internet measurement projects from around the world."
 author: "Maria Xynou"
-date: "2020-07-24"
+date: "2020-07-27"
 aliases:
   - /imv2020
 tags: ["event", "imv2020",]
@@ -10,8 +10,6 @@ categories: ["blog"]
 ---
 
 {{<img src="images/imv2020-banner.png" title="Internet Measurement Village 2020" alt="Internet Measurement Village 2020">}}
-
-{{<youtube-subscribe>}}
 
 Over the last month, between 10th June 2020 to 3rd July 2020, we
 organized and hosted the **[Internet Measurement Village (IMV) 2020](https://ooni.org/post/2020-internet-measurement-village/)**, an
