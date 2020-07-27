@@ -4,7 +4,7 @@ description: "Slides & video recordings of presentations on internet measurement
 author: "Maria Xynou"
 date: "2020-07-24"
 aliases:
-  - /imv2020
+  - /imv2020-slides
 tags: ["event", "imv2020",]
 categories: ["blog"]
 ---
