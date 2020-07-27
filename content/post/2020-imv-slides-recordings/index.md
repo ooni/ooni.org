@@ -79,9 +79,9 @@ dataset.
 
 **Presenter:** Maria Xynou (OONI)
 
-{{< oonibtn href="/documents/imv2020-slides/ooni.pdf" text="Slides" >}}
+* [Slides](/documents/imv2020-slides/ooni.pdf)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=SES8PAeQvvs" text="Watch presentation" >}}
+* [Watch presentation](https://www.youtube.com/watch?v=SES8PAeQvvs)
 
 ## Test lists for measuring Internet censorship – applicability,problems and solutions
 
@@ -93,11 +93,11 @@ receive practical advice on how to update the test list of your country.
 
 **Presenter:** Igor Valentovitch (Netalitica)
 
-{{< oonibtn href="/documents/imv2020-slides/netalitica.pdf" text="Slides" >}}
+* [Slides](/documents/imv2020-slides/netalitica.pdf)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=XKWGS2VvEAs" text="Watch presentation" >}}
+* [Watch presentation](https://www.youtube.com/watch?v=XKWGS2VvEAs)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=-1kkd_xuXQs" text="Watch Q&A" >}}
+* [Watch Q&A](https://www.youtube.com/watch?v=-1kkd_xuXQs)
 
 ## M-Lab: Measuring Internet Performance
 
@@ -108,9 +108,9 @@ methodologies, and dataset.
 
 **Presenter:** Lai Yi Ohlsen (M-Lab)
 
-{{< oonibtn href="/documents/imv2020-slides/mlab.pdf" text="Slides" >}}
+* [Slides](/documents/imv2020-slides/mlab.pdf)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=cjUv93GqP5I" text="Watch presentation" >}}
+* [Watch presentation](https://www.youtube.com/watch?v=cjUv93GqP5I)
 
 ## How to detect outages with Mozilla telemetry
 
@@ -121,9 +121,9 @@ be a useful measure of outages.
 
 **Presenter:** Alessio Placitelli (Mozilla)
 
-{{< oonibtn href="/documents/imv2020-slides/mozilla.pdf" text="Slides" >}}
+* [Slides](/documents/imv2020-slides/mozilla.pdf)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=_8b523H0HGQ" text="Watch presentation" >}}
+* [Watch presentation](https://www.youtube.com/watch?v=_8b523H0HGQ)
 
 ## RIPE Internet Measurements
 
@@ -134,9 +134,9 @@ and dataset.
 
 **Presenters:** Vesna Manojlovic & Emile Aben (RIPE)
 
-{{< oonibtn href="/documents/imv2020-slides/ripe.pdf" text="Slides" >}}
+* [Slides](/documents/imv2020-slides/ripe.pdf)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=-3laOL434co" text="Watch presentation" >}}
+* [Watch presentation](https://www.youtube.com/watch?v=-3laOL434co)
 
 ## KeepItOn campaign: Advocating against Internet shutdowns
 
@@ -147,9 +147,9 @@ Internet shutdowns around the world.
 
 **Presenter:** Felicia Anthonio (Access Now)
 
-{{< oonibtn href="/documents/imv2020-slides/keepiton.pdf" text="Slides" >}}
+* [Slides](/documents/imv2020-slides/keepiton.pdf)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=OEI_HqRLo50" text="Watch presentation" >}}
+* [Watch presentation](https://www.youtube.com/watch?v=OEI_HqRLo50)
 
 ## Circumventing Internet Censorship with Psiphon
 
@@ -161,9 +161,9 @@ circumvention tools and strategies.
 
 **Presenter:** Joe Manco (Psiphon)
 
-{{< oonibtn href="/documents/imv2020-slides/psiphon.pdf" text="Slides" >}}
+* [Slides](/documents/imv2020-slides/psiphon.pdf)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=McMkChIx_as" text="Watch presentation" >}}
+* [Watch presentation](https://www.youtube.com/watch?v=McMkChIx_as)
 
 ## Advocating against Internet shutdowns in West Africa
 
@@ -174,9 +174,9 @@ against Internet shutdowns in West Africa.
 
 **Presenter:** Julie Owono (Internet Sans Frontières)
 
-{{< oonibtn href="/documents/imv2020-slides/isf.pdf" text="Slides" >}}
+* [Slides](/documents/imv2020-slides/isf.pdf)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=mWOFEOG6GBc" text="Watch presentation" >}}
+* [Watch presentation](https://www.youtube.com/watch?v=mWOFEOG6GBc)
 
 ## Measuring Internet Censorship in Southeast Asia
 
@@ -186,9 +186,9 @@ Presentation of [censorship measurement research](https://sinarproject.org/) in 
 
 **Presenter:** Khairil Yusof (Sinar Project)
 
-{{< oonibtn href="/documents/imv2020-slides/sinar-project.pdf" text="Slides" >}}
+* [Slides](/documents/imv2020-slides/sinar-project.pdf)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=AORNoRhgVmM" text="Watch presentation" >}}
+* [Watch presentation](https://www.youtube.com/watch?v=AORNoRhgVmM)
 
 ## How we tried to establish a nationwide Internet censorship measurement system in Ukraine
 
@@ -200,9 +200,9 @@ measurement system](https://medium.com/@cyberlabukraine) in Ukraine.
 **Presenters:** Anton Koushnir & Natalia Onyshchenko (Digital Security
 Lab Ukraine)
 
-{{< oonibtn href="/documents/imv2020-slides/dslu.pdf" text="Slides" >}}
+* [Slides](/documents/imv2020-slides/dslu.pdf)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=nIn-r6JxdEM" text="Watch presentation" >}}
+* [Watch presentation](https://www.youtube.com/watch?v=nIn-r6JxdEM)
 
 ## Coordinación de la medición de la censura en Venezuela
 
@@ -214,11 +214,11 @@ Venezuela.
 **Presentadoras:** Mariengracia Chirinos y Daniela Alvarado (IPYS
 Venezuela)
 
-{{< oonibtn href="/documents/imv2020-slides/ipys-1.pdf" text="Slides 1" >}}
+* [Slides 1](/documents/imv2020-slides/ipys-1.pdf)
 
-{{< oonibtn href="/documents/imv2020-slides/ipys-2.pdf" text="Slides 2" >}}
+* [Slides 2](/documents/imv2020-slides/ipys-2.pdf)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=XNEaXcSUXnI" text="Watch presentation" >}}
+* [Watch presentation](https://www.youtube.com/watch?v=XNEaXcSUXnI)
 
 ## Censored Planet: Measuring Internet censorship remotely
 
@@ -229,9 +229,9 @@ methodologies, and dataset.
 
 **Presenter:** Ram Sundara Raman (Censored Planet)
 
-{{< oonibtn href="/documents/imv2020-slides/censored-planet.pdf" text="Slides" >}}
+* [Slides](/documents/imv2020-slides/censored-planet.pdf)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=5IgnvR42cMQ" text="Watch presentation" >}}
+* [Watch presentation](https://www.youtube.com/watch?v=5IgnvR42cMQ)
 
 ## Internet Censorship, DNS poisoning and Phishing in Venezuela
 
@@ -242,9 +242,9 @@ research](https://vesinfiltro.com/) in Venezuela.
 
 **Presenter:** Andrés Azpúrua (VEsinFiltro)
 
-{{< oonibtn href="/documents/imv2020-slides/vesinfiltro.pdf" text="Slides" >}}
+* [Slides](/documents/imv2020-slides/vesinfiltro.pdf)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=UDvVfjJ0Iq8" text="Watch presentation" >}}
+* [Watch presentation](https://www.youtube.com/watch?v=UDvVfjJ0Iq8)
 
 ## Circumventing Internet Censorship with Tor
 
@@ -255,9 +255,9 @@ how it can be used to circumvent Internet censorship.
 
 **Presenter:** Philipp Winter (The Tor Project)
 
-{{< oonibtn href="/documents/imv2020-slides/tor.pdf" text="Slides" >}}
+* [Slides](/documents/imv2020-slides/tor.pdf)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=g6xEfNHkFKY" text="Watch presentation" >}}
+* [Watch presentation](https://www.youtube.com/watch?v=g6xEfNHkFKY)
 
 ## ICLab: Measuring Internet Censorship
 
@@ -267,9 +267,9 @@ Presentation of [ICLab](https://iclab.org/)’s tools and methodologies.
 
 **Presenter:** Zack Weinberg (ICLab)
 
-{{< oonibtn href="/documents/imv2020-slides/iclab.pdf" text="Slides" >}}
+* [Slides](/documents/imv2020-slides/iclab.pdf)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=6iJ7KczFArw" text="Watch presentation" >}}
+* [Watch presentation](https://www.youtube.com/watch?v=6iJ7KczFArw)
 
 ## Circumventing Internet Censorship with TunnelBear
 
@@ -280,9 +280,9 @@ discusses how it can be used to circumvent Internet censorship.
 
 **Presenters:** Shames Abdelwahab & Rodrigue Hajjar (TunnelBear)
 
-{{< oonibtn href="/documents/imv2020-slides/tunnelbear.pdf" text="Slides" >}}
+* [Slides](/documents/imv2020-slides/tunnelbear.pdf)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=CI5Ji3UgHf8" text="Watch presentation" >}}
+* [Watch presentation](https://www.youtube.com/watch?v=CI5Ji3UgHf8)
 
 ## Geneva: Evolving Censorship Evasion
 
@@ -294,9 +294,9 @@ censorship.
 
 **Presenter:** Kevin Bock (University of Maryland)
 
-{{< oonibtn href="/documents/imv2020-slides/geneva.pdf" text="Slides" >}}
+* [Slides](/documents/imv2020-slides/geneva.pdf)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=ksojSRFLbBM" text="Watch presentation" >}}
+* [Watch presentation](https://www.youtube.com/watch?v=ksojSRFLbBM)
 
 ## IODA: Examining Internet blackouts through open data
 
@@ -307,9 +307,9 @@ methodologies.
 
 **Presenter:** Ramakrishna Padmanabhan (CAIDA)
 
-*Note: Slides are not available for this session as the presenter did a live demo of the [IODA dashboard](https://ioda.caida.org/ioda/dashboard).*
+* [Watch presentation](https://www.youtube.com/watch?v=2tBzCgjhTP0)
 
-{{< oonibtn href="https://www.youtube.com/watch?v=2tBzCgjhTP0" text="Watch presentation" >}}
+*Note: Slides are not available for this session as the presenter did a live demo of the [IODA dashboard](https://ioda.caida.org/ioda/dashboard).*
 
 Warm thanks to everyone who participated in IMV 2020. See you next year
 at IMV 2021!
