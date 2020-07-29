@@ -3,8 +3,6 @@ title: "Internet Measurement Village 2020: Slides & Video Recordings"
 description: "Slides & video recordings of presentations on internet measurement projects from around the world."
 author: "Maria Xynou"
 date: "2020-07-27"
-aliases:
-  - /imv2020
 tags: ["event", "imv2020",]
 categories: ["blog"]
 ---
