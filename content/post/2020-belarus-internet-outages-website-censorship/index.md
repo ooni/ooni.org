@@ -1,7 +1,7 @@
 ---
 title: "Belarus protests: From internet outages to pervasive website censorship"
 description: "This report shares OONI measurements on the blocking of websites in Belarus amid protests, following the 2020 Belarusian presidential election."
-author: "Maria Xynou, Arturo Filastò"
+author: "Digital Observers Community Belarus, Maria Xynou (OONI), Arturo Filastò (OONI)"
 date: "2020-09-15"
 tags: ["belarus", "censorship", "elections", "protests", "country-by"]
 categories: ["report"]
