@@ -61,7 +61,7 @@ described as “[Europe’s last dictator](https://www.nytimes.com/2020/08/07/wo
 [characterized](https://news.un.org/en/story/2015/10/512522-belarus-election-neither-free-nor-fair-says-un-human-rights-expert)
 most of these elections as neither free nor fair. The latest
 presidential [elections were held a month ago on 9th August 2020](https://www.bbc.com/news/world-europe-53707011), where Lukashenko
-ran for - and [won](https://www.dw.com/en/alexander-lukashenko-wins-belarus-election/a-54506718) - a sixth term. But this landslide victory -- claiming [about 80% of the vote](https://www.bbc.com/news/world-europe-53707011) -- didn’t go unchallenged.
+ran for -- and [won](https://www.dw.com/en/alexander-lukashenko-wins-belarus-election/a-54506718) -- a sixth term. But this landslide victory -- claiming [about 80% of the vote](https://www.bbc.com/news/world-europe-53707011) -- didn’t go unchallenged.
 
 Mass protests
 [erupted](https://time.com/5880593/belarus-protests-lukashenko/) in
