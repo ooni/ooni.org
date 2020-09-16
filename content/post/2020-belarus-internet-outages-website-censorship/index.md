@@ -1,7 +1,7 @@
 ---
 title: "Belarus protests: From internet outages to pervasive website censorship"
 description: "This report shares OONI measurements on the blocking of websites in Belarus amid protests, following the 2020 Belarusian presidential election."
-author: "Digital Observers Community Belarus, Maria Xynou (OONI), Arturo Filastò (OONI)"
+author: "Maria Xynou (OONI), Arturo Filastò (OONI)"
 date: "2020-09-15"
 tags: ["belarus", "censorship", "elections", "protests", "country-by"]
 categories: ["report"]
@@ -10,6 +10,8 @@ categories: ["report"]
 {{<img src="images/by-blockpage.png" title="Block page served in Belarus" alt="Block page served in Belarus">}}
 
 **Image:** Block page served in Belarus.
+
+*This report was prepared in collaboration with [Human Constanta](https://humanconstanta.by/) and the [Digital Observers Community Belarus](https://t.me/zabynet).*
 
 More than 70 websites have been [blocked](https://www.hrw.org/news/2020/08/28/belarus-internet-disruptions-online-censorship)
 in Belarus over the last weeks, following a [controversial presidential election](https://www.theguardian.com/world/2020/aug/10/its-outrageous-belarus-election-result-sparks-night-of-defiance-and-violence)
