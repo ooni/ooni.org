@@ -1,6 +1,6 @@
-# OONI Web
+# OONI Website
 
-This is the canonical website for OONI, that you can access via:
+This is the canonical website for OONI,  that  you can access via:
 
 * https://ooni.org
 * https://openobservatory.github.io
@@ -20,10 +20,10 @@ If you are having trouble accessing our website, please contact us at contact [a
 ### Setup
 
 Dependencies to build the website **manually** are
-[hugo](https://github.com/spf13/hugo/),
+[Hugo](https://github.com/spf13/hugo/),
 [ooni-probe](https://github.com/TheTorProject/ooni-probe), and
-[sphinx](http://www.sphinx-doc.org/en/stable/) to build ooni-probe docs. Exact
-versions are codified in "canonical" build procedure in
+[Sphinx](http://www.sphinx-doc.org/en/stable/) to build ooni-probe docs. Exact
+Versions are codified in "canonical" build procedure in
 [travis.yml](./travis.yml).
 
 ### Running locally
@@ -31,13 +31,13 @@ versions are codified in "canonical" build procedure in
 If you want to preview the website while editing styles and posts you can do it running following command:
 
 ```
-make server
+Make server
 ```
 
 If you want to publish to [Github mirror](https://openobservatory.github.io/), you should run:
 
 ```
-make publish
+Make publish
 ```
 
 ### End to end local testing
@@ -45,6 +45,6 @@ make publish
 To run the end to end integration tests do:
 
 ```
-yarn install
-yarn run cypress open
+Yarn install
+Yarn run cypress open
 ```
