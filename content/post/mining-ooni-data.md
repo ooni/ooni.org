@@ -6,6 +6,8 @@ tags: ["technology"]
 categories: ["blog"]
 ---
 
+**Attention:** *The documentation below is out of date as we are currently working on migrating our data to a new more user friendly data format. Please contact us if you need access to the raw data with details about your use case so we can further advise.*
+
 [OONI Explorer](https://explorer.ooni.io/) and the [OONI API](https://api.ooni.io/)
 provide access to [the data OONI gathers](/data/). As these tools currently present some limitations, we publish this post to share other options for researchers interested in digging through OONI data. These options are either currently available or can be made available [upon request](/about/#contact).
 
