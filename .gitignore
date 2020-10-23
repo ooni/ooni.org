@@ -2,5 +2,6 @@
 /make.conf
 .DS_Store
 /node_modules
+/static
 # TODO maybe add this to the repo as suggested by the hugo docs
 /resources
