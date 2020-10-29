@@ -41,7 +41,7 @@ The OONI community should be a good place where people are glad to be.
   DON'T: Hunt for ways to uphold the letter of this code while violating its
     spirit.
 
-  AND DO: Eagerly email: contact@openobservatory.org with
+  AND DO: Eagerly email: team@openobservatory.org with
     questions or concerns.
 
 1. Purpose
