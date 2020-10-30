@@ -257,10 +257,16 @@ Given that [previous Tor measurements](https://explorer.ooni.org/search?until=20
 [Tor worked](https://explorer.ooni.org/measurement/20201021T122720Z_tor_TZ_37035_n1_6sMwvrff2wObXF7o)
 in Tanzania (most Tor Browser bridges were reachable and almost all connections to Tor directory authorities were successful), the sudden failure of Tor testing (as seen on several networks in multiple measurements), along with the
 parallel blocking of social media platforms, suggest that access to Tor
-may have been interfered with in Tanzania amid its 2020 general election. 
+may have been interfered with in Tanzania amid its 2020 general election. It is also possible, however, that these timeouts may be the result of network congestion (rather than intentional blocking). 
 
 That said, it may still be possible to connect to Tor from Tanzania through
-the use of *private* [Tor bridges](https://bridges.torproject.org/). It's also worth highlighting that the number of timeouts varied across tests, and that *a few* connections to default Tor bridges and Tor directory authorities were successful. Going forward, we aim to improve upon the [OONI Probe Tor experiment](https://ooni.org/nettest/tor/) to bootstrap `tor` from desktop probes, which could help with ruling out false positives and better evaluating whether Tor works in a tested network.
+the use of *private* [Tor bridges](https://bridges.torproject.org/). It's also worth highlighting that the number of timeouts varied across tests, and that *a few* connections to default Tor bridges and Tor directory authorities were successful. Regardless of potential interference, the Tor network saw a *spike* in both directly connecting Tor users and Tor bridge users in Tanzania.
+
+The following chart, taken from [Tor Metrics](https://metrics.torproject.org/userstats-relay-country.html?start=2020-08-01&end=2020-10-30&country=tz&events=off), shows that the number of directly connecting Tor users in Tanzania has been increasing over the last days.
+
+{{<img src="images/tz-tor-metrics.png" title="Tor Metrics: Directly connecting users from Tanzania" alt="Tor Metrics: Directly connecting users from Tanzania">}}
+
+Going forward, we aim to improve upon the [OONI Probe Tor experiment](https://ooni.org/nettest/tor/) to bootstrap `tor` from desktop probes, which could help with ruling out false positives and better evaluating whether Tor works in a tested network.
 
 On a few occasions (on 27th and 28th October 2020), the testing of the
 [Psiphon VPN](https://psiphon.ca/) in Tanzania presented some
