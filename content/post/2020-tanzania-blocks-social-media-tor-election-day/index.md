@@ -1,5 +1,5 @@
 ---
-title: "Tanzania blocks social media and Tor on election day"
+title: "Tanzania blocks social media (and Tor?) on election day"
 description: "This report shares OONI measurements on the blocking of social media and Tor in Tanzania amid its 2020 general election."
 author: "Maria Xynou"
 date: "2020-10-28"
@@ -32,7 +32,7 @@ testing.
 
     * [Social media websites](#social-media-websites)
 
-* [Blocking of Tor](#blocking-of-tor)
+* [Blocking of Tor?](#blocking-of-tor)
 
 * [Further testing](#further-testing)
 
@@ -230,37 +230,37 @@ confirming their blocking, it’s worth noting nonetheless that they
 present the same types of failures (signaling that they might have in
 fact been blocked).
 
-# Blocking of Tor
+# Blocking of Tor?
 
 Circumventing these censorship events may have been a bit challenging in
-Tanzania, given the fact that we observe the blocking of
+Tanzania, given the fact that we observe what seems to be the blocking of
 [Tor](https://www.torproject.org/), which can be used for
 circumventing internet censorship (in addition to its online privacy and
 anonymity properties).
 
 As of 27th October 2020 (on the eve of Tanzania’s 2020 general
-election), we observe that the [testing of Tor consistently failed](https://explorer.ooni.org/search?until=2020-10-29&since=2020-09-29&probe_cc=TZ&test_name=tor&only=anomalies),
-suggesting that access to Tor may have been blocked. To check whether
+election), we observe that the [testing of Tor resulted in many timeout failures](https://explorer.ooni.org/search?until=2020-10-29&since=2020-09-29&probe_cc=TZ&test_name=tor&only=anomalies),
+suggesting that access to Tor might have been blocked. To check whether
 Tor works (in a tested network), the [OONI Probe Tor test](https://ooni.org/nettest/tor/) measures the reachability of Tor
 directory authorities (used by Tor relays), OR port (used by Tor
 bridges), OR port of directory authorities (used by Tor clients), and
 obfs4 (Tor bridge that speaks the OBFS4 protocol).
 
 As part of [Tor testing](https://explorer.ooni.org/search?until=2020-10-29&since=2020-09-29&probe_cc=TZ&test_name=tor&only=anomalies)
-in Tanzania, in many cases, we see that attempted connections to OR
+in Tanzania, in many cases (between 27th to 28th October 2020), we see that *most* attempted connections to OR
 ports and obfs4 addresses failed (resulting in generic timeout errors).
 This is evident on several local networks, such as MIC [Tanzania (AS37035)](https://explorer.ooni.org/measurement/20201028T172336Z_tor_TZ_37035_n1_fnGxcTeKpajt0sys),
 [Vodacom (AS36908)](https://explorer.ooni.org/measurement/20201028T160946Z_tor_TZ_36908_n1_kiMTNzOIPIWanQHo),
 and [Viettel (AS327885)](https://explorer.ooni.org/measurement/20201028T150641Z_tor_TZ_327885_n1_oF9WZIroBB5Cp6i1).
 Given that [previous Tor measurements](https://explorer.ooni.org/search?until=2020-10-26&since=2020-07-01&probe_cc=TZ&test_name=tor)
-(collected over the last months, before 27th October 2020) showed that
+(collected over the last months, before 26th October 2020) showed that
 [Tor worked](https://explorer.ooni.org/measurement/20201021T122720Z_tor_TZ_37035_n1_6sMwvrff2wObXF7o)
-in Tanzania (most Tor Browser bridges were reachable), the sudden and
-consistent failure of Tor testing (on several networks), along with the
+in Tanzania (most Tor Browser bridges were reachable and almost all connections to Tor directory authorities were successful), the sudden failure of Tor testing (as seen on several networks in multiple measurements), along with the
 parallel blocking of social media platforms, suggest that access to Tor
-may have been blocked in Tanzania amid its 2020 general election. That
-said, it may still be possible to connect to Tor from Tanzania through
-the use of *private* [Tor bridges](https://bridges.torproject.org/).
+may have been interfered with in Tanzania amid its 2020 general election. 
+
+That said, it may still be possible to connect to Tor from Tanzania through
+the use of *private* [Tor bridges](https://bridges.torproject.org/). It's also worth highlighting that the number of timeouts varied across tests, amd that *a few* connections to default Tor bridges and Tor directory authorities were successful. Going forward, we aim to improve upon the [OONI Probe Tor experiment](https://ooni.org/nettest/tor/) to bootstrap `tor` from desktop probes, which could help with ruling out false positives and better evaluating whether Tor works in a tested network.
 
 On a few occasions (on 27th and 28th October 2020), the testing of the
 [Psiphon VPN](https://psiphon.ca/) in Tanzania presented some
