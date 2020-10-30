@@ -260,7 +260,7 @@ parallel blocking of social media platforms, suggest that access to Tor
 may have been interfered with in Tanzania amid its 2020 general election. 
 
 That said, it may still be possible to connect to Tor from Tanzania through
-the use of *private* [Tor bridges](https://bridges.torproject.org/). It's also worth highlighting that the number of timeouts varied across tests, amd that *a few* connections to default Tor bridges and Tor directory authorities were successful. Going forward, we aim to improve upon the [OONI Probe Tor experiment](https://ooni.org/nettest/tor/) to bootstrap `tor` from desktop probes, which could help with ruling out false positives and better evaluating whether Tor works in a tested network.
+the use of *private* [Tor bridges](https://bridges.torproject.org/). It's also worth highlighting that the number of timeouts varied across tests, and that *a few* connections to default Tor bridges and Tor directory authorities were successful. Going forward, we aim to improve upon the [OONI Probe Tor experiment](https://ooni.org/nettest/tor/) to bootstrap `tor` from desktop probes, which could help with ruling out false positives and better evaluating whether Tor works in a tested network.
 
 On a few occasions (on 27th and 28th October 2020), the testing of the
 [Psiphon VPN](https://psiphon.ca/) in Tanzania presented some
