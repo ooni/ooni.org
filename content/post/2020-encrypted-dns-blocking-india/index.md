@@ -4,7 +4,7 @@ description: "We ran encrypted-DNS-blocking measurements in India"
 author: "Simone Basso (OONI)"
 date: "2020-10-30"
 tags: ["india", "censorship", "dns-blocking", "country-in"]
-categories: ["report"]
+categories: ["blog"]
 ---
 
 In October 2010, we collaborated with Divyank Katira and Gurshabad Grover,
