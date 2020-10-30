@@ -19,7 +19,7 @@ and [DNS over HTTPS](https://en.wikipedia.org/wiki/DNS_over_HTTPS). Its
 methodology improves upon the measurement methodology OONI previously used to measure
 [DoT blocking in Iran](https://ooni.org/post/2020-iran-dot).
 
-The implementation, [written by Divyank Katira and reviewed by Simone Basso](
+The implementation, [written by Divyank Katira](
 https://github.com/ooni/probe-engine/pull/950), is currently only available
 to users of the [miniooni](
 https://github.com/ooni/probe-engine/tree/v0.19.0#building-miniooni)
