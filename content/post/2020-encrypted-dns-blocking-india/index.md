@@ -1,6 +1,6 @@
 ---
-title: "Investigating Encrypted DNS Blocking in India"
-description: "We ran encrypted-DNS-blocking measurements in India"
+title: "Investigating Encrypted DNS Blocking in India with dnscheck"
+description: "We ran encrypted-DNS-blocking measurements in India using the new dnscheck experiment"
 author: "Simone Basso (OONI)"
 date: "2020-10-30"
 tags: ["india", "censorship", "dns-blocking", "country-in"]
