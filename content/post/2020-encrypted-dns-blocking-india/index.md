@@ -7,7 +7,7 @@ tags: ["india", "censorship", "dns-blocking", "country-in"]
 categories: ["blog"]
 ---
 
-In October 2010, we collaborated with Divyank Katira and Gurshabad Grover,
+In October 2020, we collaborated with Divyank Katira and Gurshabad Grover,
 researchers at the [Centre for Internet & Society, India](https://cis-india.org/),
 to implement and evaluate a new OONI experiment focused on detecting DNS censorship.
 
