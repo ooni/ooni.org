@@ -249,7 +249,7 @@ obfs4 (Tor bridge that speaks the OBFS4 protocol).
 As part of [Tor testing](https://explorer.ooni.org/search?until=2020-10-29&since=2020-09-29&probe_cc=TZ&test_name=tor&only=anomalies)
 in Tanzania, in many cases (between 27th to 28th October 2020), we see that *most* attempted connections to OR
 ports and obfs4 addresses failed (resulting in generic timeout errors).
-This is evident on several local networks, such as MIC [Tanzania (AS37035)](https://explorer.ooni.org/measurement/20201028T172336Z_tor_TZ_37035_n1_fnGxcTeKpajt0sys),
+This is evident on several local networks, such as [MIC Tanzania (AS37035)](https://explorer.ooni.org/measurement/20201028T172336Z_tor_TZ_37035_n1_fnGxcTeKpajt0sys),
 [Vodacom (AS36908)](https://explorer.ooni.org/measurement/20201028T160946Z_tor_TZ_36908_n1_kiMTNzOIPIWanQHo),
 and [Viettel (AS327885)](https://explorer.ooni.org/measurement/20201028T150641Z_tor_TZ_327885_n1_oF9WZIroBB5Cp6i1).
 Given that [previous Tor measurements](https://explorer.ooni.org/search?until=2020-10-26&since=2020-07-01&probe_cc=TZ&test_name=tor)
