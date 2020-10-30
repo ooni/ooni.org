@@ -34,5 +34,5 @@ perhaps because network neutrality obligations in India do not allow ISPs
 to arbitrarily block resources.
 
 Read [the full research report](https://cis-india.org/internet-governance/blog/investigating-encrypted-dns-blocking-in-india)
-on CIS India's website! Stay tuned for future updates that will
+on the Centre for Internet & Society, India's website! Stay tuned for future updates that will
 integrate the dnscheck experiment into OONI probes!
