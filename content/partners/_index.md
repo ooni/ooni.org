@@ -2,4 +2,4 @@
 title: Partners
 countries: 30
 ---
-Since 2016, we have formed partnerships on the study of internet censorship with the following organizations.
+Since 2016, we have formed [partnerships](https://ooni.org/get-involved/partnership-program/) with the following organizations.
