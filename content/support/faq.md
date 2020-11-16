@@ -191,7 +191,7 @@ millions of network measurements from more than 200 countries from
 
 * **Publish research reports on internet censorship worldwide.** Based
 on the analysis of OONI measurements, we publish [research reports](https://ooni.org/post/) (often in collaboration with our
-local [partners](https://ooni.org/get-involved/partnership-program/))
+local [partners](https://ooni.org/partners/))
 documenting cases of internet censorship around the world.
 
 ### Why measure internet censorship?
