@@ -4,9 +4,9 @@ description: This Data Policy discloses and explains what data the OONI project 
 aliases: ["/data-policy"]
 ---
 
-**Last modified:** July 22, 2020
+**Last modified:** November 23, 2020
 
-**Version:** 1.4.0
+**Version:** 1.4.1
 
 This Data Policy discloses and explains what data the [Open Observatory of
 Network Interference (OONI) project](https://ooni.org/) ("we", "us", or "our")
@@ -191,7 +191,7 @@ and you have opted-in to push notifications, we may send you a push notification
 encouraging you to test a long list of URLs. 
 
 You can opt out of sending us your network ASN by disabling the collection of network information in the
-settings of the OONI Probe apps. You cannot, however, opt out of sending information about the type of network (e.g. WiFi) you are running OONI Probe on.
+settings of the [OONI Probe desktop app](https://ooni.org/install/desktop). You cannot, however, opt out of sending information about the type of network (e.g. WiFi) you are running OONI Probe on.
 
 #### Network measurements
 
@@ -243,7 +243,7 @@ the [websites](https://ooni.org/support/faq/#which-websites-will-i-test-for-cens
 
 By default, we do *not* collect your IP addresses. You can, however, opt-in to
 provide your individual IP address (to enhance the accuracy of information) by
-enabling this option in the settings of the OONI Probe apps.
+enabling this option in the settings of the [OONI Probe desktop app](https://ooni.org/install/desktop).
 
 If you run the performance tests included in the OONI Probe apps, the [Measurement Lab (M-Lab)](https://www.measurementlab.net/) will collect and publish your IP address, irrespective of your OONI Probe settings. Learn more about M-Lab's data governance through its [privacy statement](https://www.measurementlab.net/privacy/).
 
