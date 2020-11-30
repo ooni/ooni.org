@@ -9,6 +9,9 @@
       </p>
     </div>
   </div>
+  <div class="row col-8 pb-3">
+    {{ len .Pages }} active partnerships
+  </div>
   <div class="row justify-content-around">
     {{ range .Pages }}
       {{ $name := .Params.Name }}
