@@ -8,7 +8,7 @@ title: "OONI Partnership Program"
 
 * [What does the OONI Partnership Program entail?](#what-does-the-ooni-partnership-program-entail)
 
-  * [Collecting ooniprobe network measurements](#collecting-ooniprobe-network-measurements)
+  * [Collecting OONI Probe network measurements](#collecting-ooni-probe-network-measurements)
 
   * [Reviewing community resources for censorship measurement research](#reviewing-community-resources-for-censorship-measurement-research)
 
@@ -20,10 +20,8 @@ title: "OONI Partnership Program"
 
 ## What is the OONI Partnership Program?
 
-The OONI Partnership Program is a collaboration between the Open Observatory of
-Network Interference (OONI) team and groups or
-organizations around the world on the study of internet censorship. Such groups/organizations can include NGOs, hackerspaces,
-media organizations, legal associations and research groups.
+The OONI Partnership Program is a collaboration between the OONI team and groups or
+organizations around the world on the study of internet censorship. Such groups/organizations generally include **digital rights organizations**.
 
 ## What is the aim of the OONI Partnership Program?
 
@@ -65,7 +63,7 @@ To this end, partners are encouraged to deploy OONI Probe in local vantage point
 evaluate cases of internet censorship.
 
 Internet censorship is not always carried out countrywide, nor always
-implemented in the same way across networks. As such, running OONI Probe within
+implemented in the same way across networks. As such, running OONI Probe on
 various *different* networks in each country is an important component of the OONI Partnership Program.
 
 ### Reviewing community resources for censorship measurement research
@@ -90,7 +88,7 @@ We aim to increase transparency and public awareness of internet censorship by c
 
 While we may be in a position to analyze the collected network measurement data, we are probably not best suited to explain the meaning of the findings within local context. That obviously requires local expertise (in terms of laws, policies, etc.), and that's where we believe partners can play a crucial role.
 
-We aim to collaborate with partners to examine internet censorship within legal, social, and political context, and to communicate the findings to the public. We also hope that our partners will use the findings as part of their local policy and advocacy efforts.
+We aim to collaborate with partners to examine internet censorship within legal, social, and political context, and to communicate the findings to the public. We also hope that our partners will use the findings as part of their policy and advocacy efforts.
 
 ## Who can join the OONI Partnership Program?
 
@@ -121,10 +119,8 @@ email at **contact@openobservatory.org** (PGP Key Fingerprint: 4C15 DDA9 96C6 C0
 
 OONI can support you in the following ways:
 
-* **Technical support:** We can guide you through the entire process of using
-  our software, whether that involves running OONI Probe from your computer
-  or setting up a Raspberry Pi to run OONI Probe. Throughout the duration of the
-  partnership, you can rely on us for technical support when using our software.
+* **Technical support:** We can guide you through the entire process of running OONI Probe. Throughout the duration of the
+  partnership, you can rely on us for technical support when using our software. We could also potentially collaborate on experimental testing.
 
 * **Creating/Reviewing lists of URLs to test for censorship:** We will
   support you in terms of creating and/or reviewing lists of URLs to test for internet censorship throughout the duration of the
