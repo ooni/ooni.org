@@ -2,7 +2,7 @@
 continent: Latin America
 country: Venezuela
 name: Venezuela Inteligente
-website: http://veinteligente.org/
+website: https://veinteligente.org/
 reports:
 - text: "Internet Censorship, DNS poisoning and Phishing in Venezuela"
   link: "https://www.youtube.com/watch?v=UDvVfjJ0Iq8"
