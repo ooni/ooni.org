@@ -569,6 +569,76 @@ h1.article-title {
   opacity: 0.38;
 }
 
+/* Partners */
+
+.partner-box {
+  position: relative;
+  height: 280px;
+  border: solid 1px #dee2e6;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner-logo {
+  display: flex;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  right: 10px;
+  bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partner-page-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 180px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+}
+.partner-page-logo img {
+    margin: 0 auto;
+}
+
+.partner-page-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partner-page-details {
+  display: block;
+}
+
+.back-link {
+  font-weight: bold;
+  color: black;
+}
+
+.stat-box {
+  padding-bottom: 30px;
+}
+
+.stat-box .num {
+  display: block;
+  color: #4263eb;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 1em;
+}
+
+.stat-box .label {
+  color: #868e96;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
 /* ================================================================== */
 /* About pages */
 
