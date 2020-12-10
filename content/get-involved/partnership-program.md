@@ -46,10 +46,9 @@ Input from partners is essential in terms of understanding:
 The OONI Partnership Program was created in an attempt to examine internet
 censorship more strategically and within local
 context through collaboration with local experts. To this end, depending on the role of each partner
-organization, the partnerships can include (but are not necessarily limited to)
-the following:
+organization, the partnerships can include the following:
 
-* Collecting OONI Probe network measurements;
+* Contributing regular OONI Probe measurements from local vantage points (and engaging local communities with OONI Probe censorship measurement);
 
 * Reviewing community resources for censorship measurement research;
 
