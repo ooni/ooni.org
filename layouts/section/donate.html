@@ -21,31 +21,39 @@
             <span class="input-group-text">$</span>
           </div>
           <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Other">
-        </div>
-
+        </div>    
        </div>
-      </div>
-  </div>
-  <div class="row justify-content-around">
+           
+  
+     <div class="row col-12">
+    <p class="col-12" >{{ .Params.giftText }}</p>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="noGift" id="noGift" value="0" checked>
+      <label class="form-check-label" for="noGift">
+        No thanks, I don't want a gift. I would prefer 100% of my donation to go to OONI's work.
+      </label>
+    </div>
     {{ range .Pages }}
+     {{ if .Params.IsEnabled }}
       {{ $name := .Params.Name }}
-      {{ $country := .Params.Country }}
-      {{ $href := .Permalink }}
         {{ with .Resources.GetMatch "images/*.png" }}
           {{ $image := .Fit "140x150" }}
-          <div class="col-4 mb-3">
-            <div class="partner-box p-3">
-            <a href="{{ $href }}">
-              <h2>{{ $name }}</h2>
-            </a>
-            <span class="partner-country">{{ $country }}</span>
-            <div class="partner-logo">
-              <img src="{{ $image.Permalink }}" alt="{{ $name }}" />
-            </div>
-            </div>
+          <div class="col-6 mb-3">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name={{ $name }} id={{ $name }} value={{ $name }} checked>
+                    <div class="partner-box p-3">
+                      <h2>{{ $name }}</h2>
+                       <div class="partner-logo">
+                        <img src="{{ $image.Permalink }}" alt="{{ $name }}" />
+                        </div>
+                    </div>
+              </div>
           </div>
         {{ end }}
+      {{ end }}
     {{ end }}
+           </div>
+      </div>
   </div>
 
 </div>
