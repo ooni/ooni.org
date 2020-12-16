@@ -1,0 +1,53 @@
+{{ define "main" }}
+
+<div class="container">
+  <div class="row">
+      <div class="row col-5">
+       <h1>{{ .Params.Maintext }}</h1>
+      </div>
+       <div class="row col-7">
+       {{ .Params.Maindescr }}  
+       {{ .Content }}
+       <h3>{{ .Params.Pushtoaction }}</h3>
+       <div class="row col-12">
+        <button type="button" class="btn btn-outline-primary col-6">DONATE ONCE</button> 
+        <button type="button" class="btn btn-outline-primary col-6">DONATE MONTHLY</button>
+        <button type="button" class="btn btn-outline-primary col-2">$5</button> 
+        <button type="button" class="btn btn-outline-primary col-2">$10</button>
+        <button type="button" class="btn btn-outline-primary col-2">$50</button> 
+        <button type="button" class="btn btn-outline-primary col-2">$100</button>
+        <div class="input-group col-2">
+          <div class="input-group-prepend">
+            <span class="input-group-text">$</span>
+          </div>
+          <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Other">
+        </div>
+
+       </div>
+      </div>
+  </div>
+  <div class="row justify-content-around">
+    {{ range .Pages }}
+      {{ $name := .Params.Name }}
+      {{ $country := .Params.Country }}
+      {{ $href := .Permalink }}
+        {{ with .Resources.GetMatch "images/*.png" }}
+          {{ $image := .Fit "140x150" }}
+          <div class="col-4 mb-3">
+            <div class="partner-box p-3">
+            <a href="{{ $href }}">
+              <h2>{{ $name }}</h2>
+            </a>
+            <span class="partner-country">{{ $country }}</span>
+            <div class="partner-logo">
+              <img src="{{ $image.Permalink }}" alt="{{ $name }}" />
+            </div>
+            </div>
+          </div>
+        {{ end }}
+    {{ end }}
+  </div>
+
+</div>
+
+{{ end }}

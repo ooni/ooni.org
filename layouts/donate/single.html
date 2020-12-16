@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="container mb-4">
+    <div class="row pb-5">
+      <div class="col-3 partner-page-logo">
+        {{ with .Resources.GetMatch "images/*.png" }}
+        {{ $image := .Resize "150x" }}
+        <img src="{{ $image.Permalink }}" />
+        {{ end }}
+      </div>
+
+      <div class="partner-page-details-container col-9">
+        <div class="partner-page-details">
+        <h1>{{ .Params.name }}</h1>
+        <span class="partner-country">{{ .Params.country }}</span>
+        {{ with .Params.website }}
+        <div class="pt-3">
+        <a class="ooni-btn" href="{{ . }}">website</a>
+        </div>
+        {{ end }}
+        </div>
+      </div>
+    </div>
+
+  {{ .Content }}
+
+  {{ with .Params.reports }}
+    <h2>Collaboration</h2>
+  {{ end }}
+    <ul>
+    {{ range .Params.reports }}
+      <li><a href="{{ .link }}">{{ .text }}</a></li>
+    {{ end }}
+    </ul>
+
+  <a class="back-link" href="/partners/">← back to partners</a>
+
+</div>
+{{ end }}
