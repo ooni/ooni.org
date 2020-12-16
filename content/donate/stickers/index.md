@@ -1,4 +1,4 @@
 ---
 name: "OONI stickers"
-isEnabled: true
+isEnabled: false
 ---
