@@ -995,3 +995,58 @@ p.test-paragraph {
 .app-store-badge:hover img {
     opacity: 0.8;
 }
+
+/*  Donate section */
+.donate-page p {
+    margin-bottom: .8em; 
+}
+.donate-page p bold{
+    font-weight: 700;
+}
+.donate-page .btn{
+    background-color: white;
+    color: #0588CB;
+    border: 2px solid #0588CB;
+    margin-bottom: 10px;
+}
+.donate-page .btn:hover{
+    background-color: #0588CB;
+    color: white; 
+    border: 2px solid #0588CB;
+} 
+.donate-page button.btn.col-6{  
+/*  
+    width: calc(100% - 10px); 
+    margin-right: 10px;   
+*/
+}  
+.donate-page.container{
+    margin-top: -1.5rem; 
+} 
+.donate-page .h1-container{ 
+    background-color: #003957;  
+}
+.donate-page .h1-container h1{
+    color: white;
+    font-size: 46px;
+    font-weight: 500;
+    margin: 0;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px; 
+}
+.donate-page .img-container{
+    background-color: #8AD6F7; 
+} 
+.donate-page .img-container img{
+    width: 100%;
+}
+.donate-page .details{  
+    background-color: white;
+}
+.donate-page .details > p:first-child {
+  padding-top: 30px;
+}  
+.donate-page .details ul{
+    padding: 0;
+}

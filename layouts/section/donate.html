@@ -1,17 +1,20 @@
 {{ define "main" }}
 
-<div class="container">
+<div class="container donate-page">
   <div class="row">
-      <div class="row col-5">
-       <h1>{{ .Params.Maintext }}</h1>
-        <div style='background-color: #8AD6F7;'>
-            <img style='width: 100%;' src="/donate/illustration.png" alt="ooni illustration" />
+      <div class="col-5">
+        <div class="h1-container">
+            <h1>{{ .Params.Maintext }}</h1>
+        </div>
+        <div class="img-container">
+            <img src="/donate/illustration.png" alt="ooni illustration" />
         </div>
       </div>
-       <div class="row col-7" style='background-color: white;'>
-       {{ .Params.Maindescr }}  
-       {{ .Content }}
-       <h3>Donate now to support the global fight against internet censorship!</h3>
+       <div class="col-7 details">
+       <p>{{ .Params.Maindescr }}</p>
+        {{ .Content }}
+       
+       <p><bold>Donate now to support the global fight against internet censorship!</bold></p>
        <div class="row col-12">
         <button type="button" class="btn btn-outline-primary col-6">DONATE ONCE</button> 
         <button type="button" class="btn btn-outline-primary col-6">DONATE MONTHLY</button>
