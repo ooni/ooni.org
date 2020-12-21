@@ -44,7 +44,7 @@ some upcoming OONI projects for 2021!
 
     * [OONI workshops and presentations](#ooni-workshops-and-presentations)
 
-* [OONI-verse](#ooniverse)
+* [OONI-verse](#ooni-verse)
 
 * [2021](#2021)
 
@@ -361,7 +361,7 @@ Manipur, India*”, on our website.
 
 # Community
 
-## Internet Measurement Village (IMV) 2020
+## Internet Measurement Village 2020
 
 {{<img src="images/imv.png" title="Internet Measurement Village 2020" alt="Internet Measurement Village 2020">}}
 
