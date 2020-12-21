@@ -22,7 +22,7 @@ some upcoming OONI projects for 2021!
 
     * [OONI Run usability study](#ooni-run-usability-study)
 
-* [Measurement methodologies]
+* [Measurement methodologies](#measurement-methodologies)
 
     * [New circumvention tool tests](#new-circumvention-tool-tests)
 
