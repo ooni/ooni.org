@@ -12,7 +12,7 @@ groups: ["proxies"]
 
 ## RiseupVPN test
 
-The **RiseupVPN test** provides an automated way of examining whether RiseupVPN works in a tested network.
+The **RiseupVPN test**, contributed by the [LEAP collective](https://leap.se/), provides an automated way of examining whether RiseupVPN works in a tested network.
 
 This test evaluates if the bootstrap servers used during the self-configuration of the VPN clients can be reached. The test also checks if RiseupVPN's gateways can be reached on different ports and transports.
 
