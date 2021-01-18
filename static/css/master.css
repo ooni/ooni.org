@@ -1010,7 +1010,7 @@ p.test-paragraph {
     border: 2px solid #0588CB;
     margin-bottom: 10px;
 }
-.donate-page .btn:hover, .donate-page .details button.btn.selected{
+.donate-page .btn:hover, .donate-page .details button.btn.selected, .donate-page .other-amount.blue{
     background-color: #0588CB !important;
     color: white !important; 
     border: 2px solid #0588CB !important;

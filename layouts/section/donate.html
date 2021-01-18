@@ -95,7 +95,15 @@
     $('.details').on('click', 'button, input', function(e){ 
         
         $(this).closest('.button-group').find('button, input').removeClass('selected');
+        $('.donate-page .other-amount').removeClass('blue');
         $(this).toggleClass('selected');
+        
+    })
+    
+    $('.details').on('click', 'input', function(e){ 
+        
+        $('.donate-page .other-amount').addClass('blue');
+        
         
     })
     
@@ -103,12 +111,19 @@
         
         let recurrency = $('.button-group.recurrency button.selected').attr('id');
         let amount = $('.button-group.amount .selected').attr('id');
-        if(amount=='other-amount')
+        if(amount=='other-amount'){
             amount = $('.button-group.amount .selected').val();
+            if(amount === '')
+                amount = undefined;
+        }
+            
+        
         let payment = $('.button-group.payment .selected').attr('id');
         
         if(recurrency === undefined || amount === undefined || payment === undefined)
-            $('.finalize-donation h3').prepend('<p style="color:red">Error: all fields are required</p>')
+            $('.finalize-donation h3').prepend('<p id="error" style="color:red">Error: all fields are required</p>')
+        else
+            $('p#error').remove();
         console.log(recurrency,amount, payment);
     })
   })
