@@ -3,7 +3,7 @@ title: "Donate"
 description: "Donate now to support internet freedom. As a non-profit, we rely on donations from people like you to defend a free and open internet for all."
 maintext: "Donate now to support internet freedom"
 maindescr: "As a non-profit, we rely on donations from people like you to defend a free and open internet for all. By donating to OONI, you support:"
-reports:
+why2supports:
 - text: "Resurgence of Internet Censorship in Ethiopia: Blocking of WhatsApp, Facebook, and African Arguments"
   link: "https://ooni.org/post/resurgence-internet-censorship-ethiopia-2019/"
 - text: "Ethiopia: Verifying the unblocking of websites"

@@ -15,25 +15,29 @@
         {{ .Content }}
        
        <p><bold>Donate now to support the global fight against internet censorship!</bold></p>
-       <div class="row col-12">
-        <button type="button" class="btn btn-outline-primary col-6">DONATE ONCE</button> 
-        <button type="button" class="btn btn-outline-primary col-6">DONATE MONTHLY</button>
-        <button type="button" class="btn btn-outline-primary col-2">$5</button> 
-        <button type="button" class="btn btn-outline-primary col-2">$10</button>
-        <button type="button" class="btn btn-outline-primary col-2">$50</button> 
-        <button type="button" class="btn btn-outline-primary col-2">$100</button>
-        <div class="input-group col-2">
-          <div class="input-group-prepend">
-            <span class="input-group-text">$</span>
-          </div>
-          <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Other">
-        </div>    
+       <div class="amount-group row col-12">
+            <div class='button-group row col-12'>
+                <button id='donate-once' type="button" class="btn btn-outline-primary col-6 ">DONATE ONCE</button> 
+                <button id='donate-monthly' type="button" class="btn btn-outline-primary col-6">DONATE MONTHLY</button>
+            </div>
+            <div class='button-group row col-12'>
+                <button id='5' type="button" class="btn btn-outline-primary col-2">$5</button> 
+                <button id='10' type="button" class="btn btn-outline-primary col-2">$10</button>
+                <button id='50' type="button" class="btn btn-outline-primary col-2">$50</button> 
+                <button id='100' type="button" class="btn btn-outline-primary col-2">$100</button>
+                <div class="other-amount input-group row col-4">
+                  <div class="input-group-prepend  col-2">
+                    <span class="input-group-text">$</span>
+                  </div>
+                  <input id='other-amount' type="number" class="form-control col-9" aria-label="Amount (to the nearest dollar)" placeholder="Other" aria-describedby="basic-addon1">
+                </div> 
+            </div>
        </div>
            
   
-     <div class="row col-12">
+     <div class="gifts row col-12">
         <p class="col-12" >Choose your gift as a token of our thanks.</p>
-        <div class="form-check">
+        <div class="noGift form-check">
             <input class="form-check-input" type="radio" name="noGift" id="noGift" value="0" checked>
           <label class="form-check-label" for="noGift">
             No thanks, I don't want a gift. I would prefer 100% of my donation to go to OONI's work.
@@ -62,8 +66,10 @@
         
         <div class="row col-12">
             <p class="col-12">How would you like to donate?</p>
-            <button type="button" class="btn btn-outline-primary col-6">CREDIT CARD</button> 
-            <button type="button" class="btn btn-outline-primary col-6">PAYPAL</button>
+            <div class='button-group row col-12'>
+                <button id='credit-card' type="button" class="btn btn-outline-primary col-6" data-toggle="button" aria-pressed="false">CREDIT CARD</button>      
+                <button id='paypal' type="button" class="btn btn-outline-primary col-6" data-toggle="button" aria-pressed="false">PAYPAL</button>
+            </div>
             <p class="col-12">Other ways to give:</p>
             <ul>
                 <li>Bank Transfer / SEPA</li>
@@ -72,7 +78,7 @@
             </ul>
         </div>
         <div class="row col-12">
-            <button type="button" class="btn btn-outline-primary col-12">DONATE</button> 
+            <button id='donate' type="button" class="btn btn-outline-primary col-12">DONATE</button> 
             <h3>Thank you for supporting the OONI-verse!</h3>
         </div>
       </div>
@@ -81,3 +87,25 @@
 </div>
 
 {{ end }}
+ 
+{{ define "script" }}
+  <script type="text/javascript" src="/js/zepto.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){  
+    $('.details').on('click', 'button, input', function(e){ 
+        
+        $(this).closest('.button-group').find('button, input').removeClass('selected');
+        $(this).toggleClass('selected');
+        
+        
+//         if($(this).hasClass('selected')) 
+//            $(this).removeClass('selected');
+//         else
+//             $(this).addClass('selected');
+    })
+  })
+  </script>
+{{ end }} 
+
+
+

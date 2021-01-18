@@ -999,6 +999,7 @@ p.test-paragraph {
 /*  Donate section */
 .donate-page p {
     margin-bottom: .8em; 
+    padding-left: 0;
 }
 .donate-page p bold{
     font-weight: 700;
@@ -1009,11 +1010,43 @@ p.test-paragraph {
     border: 2px solid #0588CB;
     margin-bottom: 10px;
 }
-.donate-page .btn:hover{
-    background-color: #0588CB;
-    color: white; 
-    border: 2px solid #0588CB;
+.donate-page .btn:hover, .donate-page .details button.btn.selected{
+    background-color: #0588CB !important;
+    color: white !important; 
+    border: 2px solid #0588CB !important;
 } 
+.donate-page .other-amount{
+    background-color: white;
+    color: #0588CB;
+    border: 2px solid #0588CB !important;
+    margin-bottom: 10px;
+/*    box-sizing: border-box; */
+} 
+.donate-page .other-amount div.input-group-prepend{
+    border-right: 2px solid #0588CB !important;
+    box-sizing: border-box;
+}
+.donate-page .other-amount div.input-group-prepend span{
+    position: relative;
+    top: 5px;
+    left: -10px;
+} 
+.donate-page .other-amount input{
+    color: #0588CB;
+    text-align: right;
+/*    float: right;*/
+/*     box-sizing: border-box;*/
+position: initial;
+    color: #0588CB;
+/*width: calc(100% - 10px);*/
+/* display: inline-block;*/
+} 
+/*
+.donate-page .other-amount div.input-group-prepend,.donate-page .other-amount input{
+    display: inline-block;
+    float: left; 
+}
+*/
 .donate-page button.btn.col-6{  
 /*  
     width: calc(100% - 10px); 
@@ -1031,7 +1064,7 @@ p.test-paragraph {
     font-size: 46px;
     font-weight: 500;
     margin: 0;
-    padding-left: 16px;
+    padding-left: 26px; 
     padding-top: 16px;
     padding-bottom: 16px; 
 }
@@ -1044,9 +1077,16 @@ p.test-paragraph {
 .donate-page .details{  
     background-color: white;
 }
-.donate-page .details > p:first-child {
+.donate-page .details > p:first-child { 
   padding-top: 30px;
 }  
 .donate-page .details ul{
     padding: 0;
+}
+.gifts .noGift{
+    display: table;
+}
+.gifts .noGift input, .gifts .noGift label{
+    display: table-cell;
+    vertical-align: middle;
 }
