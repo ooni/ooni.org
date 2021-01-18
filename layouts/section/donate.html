@@ -16,11 +16,11 @@
        
        <p><bold>Donate now to support the global fight against internet censorship!</bold></p>
        <div class="amount-group row col-12">
-            <div class='button-group row col-12'>
+            <div class='button-group recurrency row col-12'>
                 <button id='donate-once' type="button" class="btn btn-outline-primary col-6 ">DONATE ONCE</button> 
                 <button id='donate-monthly' type="button" class="btn btn-outline-primary col-6">DONATE MONTHLY</button>
             </div>
-            <div class='button-group row col-12'>
+            <div class='button-group amount row col-12'>
                 <button id='5' type="button" class="btn btn-outline-primary col-2">$5</button> 
                 <button id='10' type="button" class="btn btn-outline-primary col-2">$10</button>
                 <button id='50' type="button" class="btn btn-outline-primary col-2">$50</button> 
@@ -66,7 +66,7 @@
         
         <div class="row col-12">
             <p class="col-12">How would you like to donate?</p>
-            <div class='button-group row col-12'>
+            <div class='button-group payment row col-12'>
                 <button id='credit-card' type="button" class="btn btn-outline-primary col-6" data-toggle="button" aria-pressed="false">CREDIT CARD</button>      
                 <button id='paypal' type="button" class="btn btn-outline-primary col-6" data-toggle="button" aria-pressed="false">PAYPAL</button>
             </div>
@@ -77,7 +77,7 @@
                 <li><a href="https://opencollective.com/ooni" target="_blank">Open Collective</a> (tax deductible for US donors)</li>
             </ul>
         </div>
-        <div class="row col-12">
+        <div class="row col-12 finalize-donation">
             <button id='donate' type="button" class="btn btn-outline-primary col-12">DONATE</button> 
             <h3>Thank you for supporting the OONI-verse!</h3>
         </div>
@@ -97,11 +97,19 @@
         $(this).closest('.button-group').find('button, input').removeClass('selected');
         $(this).toggleClass('selected');
         
+    })
+    
+    $('.details').on('click', 'button#donate', function(e){ 
         
-//         if($(this).hasClass('selected')) 
-//            $(this).removeClass('selected');
-//         else
-//             $(this).addClass('selected');
+        let recurrency = $('.button-group.recurrency button.selected').attr('id');
+        let amount = $('.button-group.amount .selected').attr('id');
+        if(amount=='other-amount')
+            amount = $('.button-group.amount .selected').val();
+        let payment = $('.button-group.payment .selected').attr('id');
+        
+        if(recurrency === undefined || amount === undefined || payment === undefined)
+            $('.finalize-donation').append('<p>Error: all fields are required</p>')
+        console.log(recurrency,amount, payment);
     })
   })
   </script>
