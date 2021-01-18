@@ -108,7 +108,7 @@
         let payment = $('.button-group.payment .selected').attr('id');
         
         if(recurrency === undefined || amount === undefined || payment === undefined)
-            $('.finalize-donation').append('<p>Error: all fields are required</p>')
+            $('.finalize-donation h3').prepend('<p style="color:red">Error: all fields are required</p>')
         console.log(recurrency,amount, payment);
     })
   })
