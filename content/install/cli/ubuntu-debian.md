@@ -1,8 +1,8 @@
-----
+---
 title: Install OONI Probe on Debian/Ubuntu
 description: How to install the OONI Probe CLI on Debian/Ubuntu linux
 platform: cli
-----
+---
 1. Install the bintray GPG key:
 
 ```
