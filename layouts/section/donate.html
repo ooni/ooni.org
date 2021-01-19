@@ -80,6 +80,10 @@
         <div class="row col-12 finalize-donation">
             <button id='donate' type="button" class="btn btn-outline-primary col-12">DONATE</button> 
             <h3>Thank you for supporting the OONI-verse!</h3>
+            
+            
+<!--            <script>paypal.Buttons().render('.finalize-donation h3');</script>-->
+<!--<script>paypal_sdk.Buttons().render('.finalize-donation h3')</script>-->
         </div>
       </div>
   </div>
@@ -90,43 +94,59 @@
  
 {{ define "script" }}
   <script type="text/javascript" src="/js/zepto.min.js"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=ATd3rHkGu0i2Q1KsJpk3at-MR6pFfBIYgrJuDFsxVau4_lS_KEhydMUIu0lWKCcPwNvc9Fmyp6JUCV-Q"  data-namespace="paypal_sdk"></script>
   <script type="text/javascript">
-  $(document).ready(function(){  
+var myAmount;
+var recurrency; 
+var payment;
+  $(document).ready(function(){ 
+      
+// start buttons controller 
     $('.details').on('click', 'button, input', function(e){ 
-        
         $(this).closest('.button-group').find('button, input').removeClass('selected');
         $('.donate-page .other-amount').removeClass('blue');
         $(this).toggleClass('selected');
-        
     })
     
     $('.details').on('click', 'input', function(e){ 
-        
         $('.donate-page .other-amount').addClass('blue');
-        
-        
     })
     
-    $('.details').on('click', 'button#donate', function(e){ 
-        
-        let recurrency = $('.button-group.recurrency button.selected').attr('id');
-        let amount = $('.button-group.amount .selected').attr('id');
-        if(amount=='other-amount'){
-            amount = $('.button-group.amount .selected').val();
-            if(amount === '')
-                amount = undefined;
+    $('.details').on('click', 'button, input', function(e){ 
+        recurrency = $('.button-group.recurrency button.selected').attr('id');
+        myAmount = $('.button-group.amount .selected').attr('id');
+        if(myAmount=='other-amount'){
+            myAmount = $('.button-group.amount .selected').val();
+            if(myAmount === '')
+                myAmount = undefined;
         }
+        payment = $('.button-group.payment .selected').attr('id');
+
+//ERRORS: ALL FIELDS ARE REQUIRED
+//        if(recurrency === undefined || myAmount === undefined || payment === undefined)
+//            $('.finalize-donation h3').prepend('<p id="error" style="color:red">Error: all fields are required</p>')
+//        else{
+//            $('p#error').remove();
+//            $('.finalize-donation h3').prepend('<p id="success" style="color:green">Your donation is finalized with success</p>')
+//        }
             
-        
-        let payment = $('.button-group.payment .selected').attr('id');
-        
-        if(recurrency === undefined || amount === undefined || payment === undefined)
-            $('.finalize-donation h3').prepend('<p id="error" style="color:red">Error: all fields are required</p>')
-        else
-            $('p#error').remove();
-        console.log(recurrency,amount, payment);
+        console.log(recurrency,myAmount, payment);
     })
   })
+// end buttons controller  
+  
+// start paypal order
+  paypal_sdk.Buttons({
+    createOrder: function(data, actions) {
+      return actions.order.create({
+        purchase_units: [{
+          amount: {
+            value: myAmount
+          }
+        }]
+      });
+    }
+  }).render('.finalize-donation h3');
   </script>
 {{ end }} 
 
