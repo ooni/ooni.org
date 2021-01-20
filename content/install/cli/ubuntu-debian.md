@@ -1,5 +1,5 @@
 ---
-title: Install OONI Probe on Debian/Ubuntu
+title: Install OONI Probe CLI on Debian/Ubuntu linux
 description: How to install the OONI Probe CLI on Debian/Ubuntu linux
 platform: cli
 ---
