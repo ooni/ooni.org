@@ -1073,9 +1073,14 @@ position: initial;
 } 
 .donate-page .img-container img{
     width: 100%;
+    z-index: 2;
+    position: relative;
+    top: -30px;
+    left: 8px;
 }
 .donate-page .details{  
     background-color: white;
+    z-index: 99999;
 }
 .donate-page .details > p:first-child { 
   padding-top: 30px;
