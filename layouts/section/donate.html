@@ -15,7 +15,10 @@
         {{ .Content }}
        
        <p><bold>Donate now to support the global fight against internet censorship!</bold></p>
-       <div class="amount-group row col-12">
+      
+<!--
+           
+           <div class="amount-group row col-12">
             <div class='button-group recurrency row col-12'>
                 <button id='donate-once' type="button" class="btn btn-outline-primary col-6 ">DONATE ONCE</button> 
                 <button id='donate-monthly' type="button" class="btn btn-outline-primary col-6">DONATE MONTHLY</button>
@@ -34,6 +37,8 @@
             </div>
        </div>
            
+-->
+<!--
   
      <div class="gifts row col-12">
         <p class="col-12" >Choose your gift as a token of our thanks.</p>
@@ -63,8 +68,7 @@
           {{ end }}
         {{ end }}
         </div>
-        
-        <div class="row col-12">
+     <div class="row col-12">
             <p class="col-12">How would you like to donate?</p>
             <div class='button-group payment row col-12'>
                 <button id='credit-card' type="button" class="btn btn-outline-primary col-6" data-toggle="button" aria-pressed="false">CREDIT CARD</button>      
@@ -77,13 +81,11 @@
                 <li><a href="https://opencollective.com/ooni" target="_blank">Open Collective</a> (tax deductible for US donors)</li>
             </ul>
         </div>
-        <div class="row col-12 finalize-donation">
-            <button id='donate' type="button" class="btn btn-outline-primary col-12">DONATE</button> 
+      
+-->
+        <div class="row col-8 finalize-donation">
+            <a id='donate' href='https://www.paypal.com/donate?hosted_button_id=SUW2PJMFUCTQ4' class="btn btn-outline-primary col-12">DONATE</a> 
             <h3>Thank you for supporting the OONI-verse!</h3>
-            
-            
-<!--            <script>paypal.Buttons().render('.finalize-donation h3');</script>-->
-<!--<script>paypal_sdk.Buttons().render('.finalize-donation h3')</script>-->
         </div>
       </div>
   </div>
@@ -94,7 +96,7 @@
  
 {{ define "script" }}
   <script type="text/javascript" src="/js/zepto.min.js"></script>
-<script src="https://www.paypal.com/sdk/js?client-id=ATd3rHkGu0i2Q1KsJpk3at-MR6pFfBIYgrJuDFsxVau4_lS_KEhydMUIu0lWKCcPwNvc9Fmyp6JUCV-Q"  data-namespace="paypal_sdk"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=ATd3rHkGu0i2Q1KsJpk3at-MR6pFfBIYgrJuDFsxVau4_lS_KEhydMUIu0lWKCcPwNvc9Fmyp6JUCV-Q&vault=true"  data-namespace="paypal_sdk"></script>
   <script type="text/javascript">
 var myAmount;
 var recurrency; 
@@ -102,27 +104,27 @@ var payment;
   $(document).ready(function(){ 
       
 // start buttons controller 
-    $('.details').on('click', 'button, input', function(e){ 
-        $(this).closest('.button-group').find('button, input').removeClass('selected');
-        $('.donate-page .other-amount').removeClass('blue');
-        $(this).toggleClass('selected');
-    })
-    
-    $('.details').on('click', 'input', function(e){ 
-        $('.donate-page .other-amount').addClass('blue');
-    })
-    
-    $('.details').on('click', 'button, input', function(e){ 
-        recurrency = $('.button-group.recurrency button.selected').attr('id');
-        myAmount = $('.button-group.amount .selected').attr('id');
-        if(myAmount=='other-amount'){
-            myAmount = $('.button-group.amount .selected').val();
-            if(myAmount === '')
-                myAmount = undefined;
-        }
-        payment = $('.button-group.payment .selected').attr('id');
+//    $('.details').on('click', 'button, input', function(e){ 
+//        $(this).closest('.button-group').find('button, input').removeClass('selected');
+//        $('.donate-page .other-amount').removeClass('blue');
+//        $(this).toggleClass('selected');
+//    })
+//    
+//    $('.details').on('click', 'input', function(e){ 
+//        $('.donate-page .other-amount').addClass('blue');
+//    })
+//    
+//    $('.details').on('click', 'button, input', function(e){ 
+//        recurrency = $('.button-group.recurrency button.selected').attr('id');
+//        myAmount = $('.button-group.amount .selected').attr('id');
+//        if(myAmount=='other-amount'){
+//            myAmount = $('.button-group.amount .selected').val();
+//            if(myAmount === '')
+//                myAmount = undefined;
+//        }
+//        payment = $('.button-group.payment .selected').attr('id');
 
-//ERRORS: ALL FIELDS ARE REQUIRED
+      //ERRORS: ALL FIELDS ARE REQUIRED
 //        if(recurrency === undefined || myAmount === undefined || payment === undefined)
 //            $('.finalize-donation h3').prepend('<p id="error" style="color:red">Error: all fields are required</p>')
 //        else{
@@ -130,23 +132,47 @@ var payment;
 //            $('.finalize-donation h3').prepend('<p id="success" style="color:green">Your donation is finalized with success</p>')
 //        }
             
-        console.log(recurrency,myAmount, payment);
-    })
-  })
+//        console.log(recurrency,myAmount, payment);
+//    })
+//  })
 // end buttons controller  
   
-// start paypal order
-  paypal_sdk.Buttons({
-    createOrder: function(data, actions) {
-      return actions.order.create({
-        purchase_units: [{
-          amount: {
-            value: myAmount
-          }
-        }]
-      });
-    }
-  }).render('.finalize-donation h3');
+// start paypal order ONCE
+//  paypal_sdk.Buttons({
+//    createOrder: function(data, actions) {
+//      return actions.order.create({
+//        purchase_units: [{
+//          amount: {
+//            value: myAmount
+//          }
+//        }]
+//      });
+//    }
+//  }).render('.finalize-donation h3');
+// end paypal order ONCE      
+      
+      
+// start paypal order MONTHLY
+//paypal_sdk.Buttons({
+//
+//  createSubscription: function(data, actions) {
+//
+//    return actions.subscription.create({
+//
+//      'plan_id': 'P-2UF78835G6983425GLSM44MA'
+//
+//    });
+//
+//  },
+//
+//  onApprove: function(data, actions) {
+//
+//    alert('You have successfully created subscription ' + data.subscriptionID);
+//
+//  }
+//
+//}).render('.finalize-donation h3');
+// end paypal order MONTHLY 
   </script>
 {{ end }} 
 
