@@ -1,7 +1,7 @@
 ---
 title: "Uganda: Data on internet blocks and nationwide internet outage amid 2021 general election"
 description: "This report shares OONI measurements on the blocking of social media in Uganda, and IODA data on the 4-day internet outage amid its 2021 general election."
-author: "Maria Xynou (OONI), Simone Basso (OONI), Ramakrishna Padmanabhan (CAIDA, UC San Diego), Arturo Filastò (OONI), DefendDefenders"
+author: "Maria Xynou (OONI), Simone Basso (OONI), Ramakrishna Padmanabhan (CAIDA, UC San Diego), Arturo Filastò (OONI), DefendDefenders, Defenders Protection Initiative"
 date: "2021-01-22"
 tags: ["uganda", "censorship", "blackout", "elections", "country-ug"]
 categories: ["report"]
