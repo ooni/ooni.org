@@ -514,6 +514,8 @@ the case with [Tor](https://www.torproject.org/), which seems to
 [work](https://explorer.ooni.org/measurement/20210119T074705Z_tor_UG_328727_n1_YSY6KHF3gI7biYJG)
 in Uganda).
 
+On 22nd January 2021, it was [reported](https://www.monitor.co.ug/uganda/news/national/government-threatens-to-arrest-vpn-users-3265618) that the Ugandan government is threatening to arrest VPN users, and that they plan to block all websites offering VPN services.
+
 # Characterizing website blocking
 
 We ran [custom experiments](https://explorer.ooni.org/search?until=2021-01-21&since=2021-01-10&probe_cc=UG&test_name=urlgetter)
