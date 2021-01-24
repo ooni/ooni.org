@@ -33,3 +33,6 @@ notAlternative = true
     endLevel = 5
     ordered = false
     startLevel = 1
+
+[[plugins]]
+  package = "netlify-plugin-hugo-cache-resources"
