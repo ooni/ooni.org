@@ -1002,7 +1002,7 @@ p.test-paragraph {
 }
 @media screen and (min-width: 992px){
     .container.donate-page{
-        border-right: #8AD6F7 4px solid;
+        border-right: #0588CB 4px solid;
     }
 }
 .donate-page p {
@@ -1065,7 +1065,8 @@ position: initial;
     margin-top: -1.5rem; 
 } 
 .donate-page .h1-container{ 
-    background-color: #003957;  
+    background-color: #003957;
+    height: 100%;  
 }
 .donate-page .h1-container h1{
     color: white;
