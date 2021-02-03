@@ -33,4 +33,38 @@ notAlternative = true
     endLevel = 5
     ordered = false
     startLevel = 1
+[menu]
 
+[[menu.main]]
+  url = "/about/"
+  name = "About"
+  weight = 1
+
+[[menu.main]]
+  url = "/nettest/"
+  name = "Tests"
+  weight = 2
+
+[[menu.main]]
+  url = "/data/"
+  name = "Data"
+  weight = 3
+
+[[menu.main]]
+  url = "/get-involved/"
+  name = "Get Involved"
+  weight = 4
+
+[[menu.main]]
+  url = "/reports/"
+  name = "Reports"
+  weight = 5
+
+[[menu.main]]
+  url = "/blog/"
+  name = "Blog"
+  weight = 6
+
+[[menu.install]]
+  name = "Install OONI Probe"
+  url = "/install/"
