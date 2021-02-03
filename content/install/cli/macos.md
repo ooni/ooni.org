@@ -4,15 +4,15 @@ description: How to install the OONI Probe CLI on macOS
 platform: cli
 ---
 
-* [Install homebrew](https://brew.sh/)
+1) [Install homebrew](https://brew.sh/)
 
-* Install ooniprobe
+2) Install ooniprobe
 
 ```
 brew install ooniprobe
 ```
 
-* Start automatic daily run
+3) Start automatic daily run
 
 ```
 ooniprobe autorun start
