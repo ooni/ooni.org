@@ -997,6 +997,10 @@ p.test-paragraph {
 }
 
 /*  Donate section */
+.container.donate-page{
+    padding-right: 30px;
+    border-right: #8AD6F7 4px solid;
+}
 .donate-page p {
     margin-bottom: .8em; 
     padding-left: 0;
