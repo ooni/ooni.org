@@ -1070,13 +1070,21 @@ position: initial;
 }
 .donate-page .img-container{
     background-color: #8AD6F7; 
+    margin-right:15px;
+    margin-left:15px;
+    padding: 0;
 } 
+.donate-page .img-container.left{
+    margin: 0;
+}
 .donate-page .img-container img{
     width: 100%;
     z-index: 2;
+/*
     position: relative;
     top: -30px;
     left: 8px;
+*/
 }
 .donate-page .details{  
     background-color: white;
@@ -1094,4 +1102,7 @@ position: initial;
 .gifts .noGift input, .gifts .noGift label{
     display: table-cell;
     vertical-align: middle;
+}
+.donate-page h4{
+    padding: 0;
 }
