@@ -997,8 +997,9 @@ p.test-paragraph {
 }
 
 /*  Donate section */
-.container.donate-page{
-    padding-right: 30px;
+.donate-page{
+    top: -24px;
+    position: relative;
 }
 .donate-page p {
     margin-bottom: .8em; 
@@ -1043,14 +1044,21 @@ p.test-paragraph {
     position: initial;
     color: #0588CB;
 } 
+.donate-page .banner{
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 0; 
+    width: 100%;
+}
 .donate-page.container{
     margin-top: -1.5rem; 
 } 
 .donate-page .h1-container{ 
-    background-color: #0588cb;
+    background-color: #5db8fe;
     height: 100%;  
+    text-align: center;
 }
-.donate-page .h1-container h1{
+.donate-page .h1-container h1{ 
     color: white;
     font-size: 46px;
     font-weight: 500;
@@ -1083,7 +1091,7 @@ p.test-paragraph {
     margin-left: 26px;
     margin-top: 20px;
 }
-.donate-page .details > p:first-child { 
+.donate-page .details > p:first-child {  
   padding-top: 30px;
 }  
 .donate-page .details ul{
