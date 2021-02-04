@@ -64,6 +64,13 @@
         <div class="col-lg-9 nav-menu">
           <div class="row">
             <div class="col-lg">
+              <a id='donate' href="/donate/"
+                {{ if in $selectedMenu "donate" }}
+                class="active"
+                {{end}}
+                >Donate</a>
+            </div>
+            <div class="col-lg">
               <a href="/about/"
                 {{ if in $selectedMenu "about" }}
                 class="active"
@@ -111,13 +118,6 @@
                 class="active"
                 {{end}}
                 >Blog</a>
-            </div>
-            <div class="col-lg">
-              <a href="/donate/"
-                {{ if in $selectedMenu "donate" }}
-                class="active"
-                {{end}}
-                >Donate</a>
             </div>
           </div>
         </div>

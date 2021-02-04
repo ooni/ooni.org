@@ -1107,3 +1107,13 @@ p.test-paragraph {
 .donate-page h4{
     padding: 0;
 }
+.nav-menu #donate{
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+}
+.nav-menu #donate:hover, .nav-menu #donate.active{
+    border: 1px solid #0588cb;
+    color: #0588cb;
+    background-color: white;
+}
