@@ -1013,9 +1013,9 @@ p.test-paragraph {
     border: 2px solid #0588CB;
     margin-bottom: 26px;
     margin-left: 26px;
-    font-size: 18px;
+    font-size: 18px; 
     font-weight: bold;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.6px; 
 }
 .donate-page .btn:hover, .donate-page .details button.btn.selected, .donate-page .other-amount.blue{
     background-color: #0588CB !important;
@@ -1081,6 +1081,7 @@ p.test-paragraph {
     background-color: white;
     z-index: 99999;
     margin-left: 26px;
+    margin-top: 20px;
 }
 .donate-page .details > p:first-child { 
   padding-top: 30px;
