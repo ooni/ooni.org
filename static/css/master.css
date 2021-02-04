@@ -1000,11 +1000,6 @@ p.test-paragraph {
 .container.donate-page{
     padding-right: 30px;
 }
-@media screen and (min-width: 992px){
-    .container.donate-page{
-        border-right: #0588CB 4px solid;
-    }
-}
 .donate-page p {
     margin-bottom: .8em; 
     padding-left: 0;
@@ -1012,23 +1007,23 @@ p.test-paragraph {
 .donate-page p bold{
     font-weight: 700;
 }
-.donate-page .btn{
+.donate-page .btn{ 
     background-color: white;
-    color: #0588CB;
+    color: #0588CB; 
     border: 2px solid #0588CB;
-    margin-bottom: 10px;
+    margin-bottom: 26px;
+    margin-left: 26px;
 }
 .donate-page .btn:hover, .donate-page .details button.btn.selected, .donate-page .other-amount.blue{
     background-color: #0588CB !important;
     color: white !important; 
-    border: 2px solid #0588CB !important;
+    border: 2px solid white !important;
 } 
-.donate-page .other-amount{
-    background-color: white;
+.donate-page .other-amount{ 
+    background-color: white;  
     color: #0588CB;
     border: 2px solid #0588CB !important;
     margin-bottom: 10px;
-/*    box-sizing: border-box; */
 } 
 .donate-page .other-amount div.input-group-prepend{
     border-right: 2px solid #0588CB !important;
@@ -1042,30 +1037,14 @@ p.test-paragraph {
 .donate-page .other-amount input{
     color: #0588CB;
     text-align: right;
-/*    float: right;*/
-/*     box-sizing: border-box;*/
-position: initial;
+    position: initial;
     color: #0588CB;
-/*width: calc(100% - 10px);*/
-/* display: inline-block;*/
 } 
-/*
-.donate-page .other-amount div.input-group-prepend,.donate-page .other-amount input{
-    display: inline-block;
-    float: left; 
-}
-*/
-.donate-page button.btn.col-6{  
-/*  
-    width: calc(100% - 10px); 
-    margin-right: 10px;   
-*/
-}  
 .donate-page.container{
     margin-top: -1.5rem; 
 } 
 .donate-page .h1-container{ 
-    background-color: #003957;
+    background-color: #0588cb;
     height: 100%;  
 }
 .donate-page .h1-container h1{
@@ -1098,6 +1077,7 @@ position: initial;
 .donate-page .details{  
     background-color: white;
     z-index: 99999;
+    margin-left: 26px;
 }
 .donate-page .details > p:first-child { 
   padding-top: 30px;
