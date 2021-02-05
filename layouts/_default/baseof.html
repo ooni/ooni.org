@@ -49,7 +49,15 @@
 
   {{ block "navbar" . }}
   <nav class="navbar mb-4">
-    <div class="container pt-2">
+    <!-- These are hacks should be refactored -->
+    <div class="container pt-2" style="position: relative">
+      <div class="col-lg-2 nav-menu-donate" style="position: absolute; left: 100px;">
+        {{ with .Site.Menus.donate}}
+        {{ range $menu := . }}
+        <a href="{{.URL}}" class="btn explorer-button">{{.Name}}</a>
+        {{end}}
+        {{end}}
+      </div>
       <div class="row align-items-center">
         <div class="col-lg-2 nav-menu-brand">
           <a href="/" class="{{ if .IsHome }}active{{end}}">

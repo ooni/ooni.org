@@ -68,3 +68,7 @@ notAlternative = true
 [[menu.install]]
   name = "Install OONI Probe"
   url = "/install/"
+
+[[menu.donate]]
+  name = "Donate"
+  url = "/donate/"
