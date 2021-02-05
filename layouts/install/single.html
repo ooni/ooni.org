@@ -9,12 +9,12 @@
       </div>
     </div>
     <div class="row">
-      {{ if isset .Params "screenshot" }}
-        {{ if eq .Params.platform "desktop" }}
-          {{ partial "install/desktop.html" . }}
-        {{ else }}
-          {{ partial "install/mobile.html" . }}
-        {{ end }}
+      {{ if eq .Params.platform "desktop" }}
+        {{ partial "install/desktop.html" . }}
+      {{ else if eq .Params.platform "mobile" }}
+        {{ partial "install/mobile.html" . }}
+      {{ else if eq .Params.platform "cli" }}
+        {{ partial "install/cli.html" . }}
       {{ else }}
         {{ partial "install/all.html" . }}
       {{ end }}

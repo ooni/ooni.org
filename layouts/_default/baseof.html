@@ -48,80 +48,37 @@
 <body>
 
   {{ block "navbar" . }}
-
-  {{ $selectedMenu := split .URL "/" }}
   <nav class="navbar mb-4">
     <div class="container pt-2">
       <div class="row align-items-center">
-        <div class="col-lg-3">
-          <a href="/" class="logo">
+        <div class="col-lg-2 nav-menu-brand">
+          <a href="/" class="{{ if .IsHome }}active{{end}}">
             <img src="/images/logos/OONI-HorizontalMonochromeInverted.png"
                  srcset="/images/logos/OONI-HorizontalMonochromeInverted.png 1x,
                    /images/logos/OONI-HorizontalMonochromeInverted@2x.png 2x">
 
           </a>
         </div>
-        <div class="col-lg-9 nav-menu">
+        <div class="col-lg-8 nav-menu">
           <div class="row">
-            <div class="col-lg">
-              <a id='donate' href="/donate/"
-                {{ if in $selectedMenu "donate" }}
-                class="active"
-                {{end}}
-                >Donate</a>
+            {{ $url := .URL }}
+            {{ with .Site.Menus.main }}
+            {{ range $menu := . }}
+            <div class="col-lg nav-menu-item">
+              <a href="{{.URL}}" {{ if eq $url .URL }} class="active" {{end}}>{{ .Name }}</a>
             </div>
-            <div class="col-lg">
-              <a href="/about/"
-                {{ if in $selectedMenu "about" }}
-                class="active"
-                {{end}}
-                >About</a>
-            </div>
-            <div class="col-lg">
-              <a href="/install/"
-                {{ if in $selectedMenu "install" }}
-                class="active"
-                {{end}}
-                >Install</a>
-            </div>
-            <div class="col-lg">
-              <a href="/nettest/"
-                {{ if in $selectedMenu "nettest" }}
-                class="active"
-                {{end}}
-                >Tests</a>
-            </div>
-            <div class="col-lg">
-              <a href="/data/"
-                {{ if in $selectedMenu "data" }}
-                class="active"
-                {{end}}
-                >Data</a>
-            </div>
-            <div class="col-lg">
-              <a href="/get-involved/"
-                {{ if in $selectedMenu "get-involved" }}
-                class="active"
-                {{end}}
-                >Get Involved</a>
-            </div>
-            <div class="col-lg">
-              <a href="/reports/"
-                {{ if in $selectedMenu "reports" }}
-                class="active"
-                {{end}}
-                >Reports</a>
-            </div>
-            <div class="col-lg">
-              <a href="/blog/"
-                {{ if in $selectedMenu "blog" }}
-                class="active"
-                {{end}}
-                >Blog</a>
-            </div>
+            {{end}}
+            {{end}}
           </div>
         </div>
-      </div>
+
+        <div class="col-lg-2 nav-menu-install">
+          {{ with .Site.Menus.install}}
+          {{ range $menu := . }}
+          <a href="{{.URL}}" class="btn explorer-button">{{.Name}}</a>
+          {{end}}
+          {{end}}
+        </div>
     </div>
   </nav>
   {{ end }}

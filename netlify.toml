@@ -31,3 +31,6 @@ HUGO_ENABLEGITINFO = "true"
   from = "https://labs.ooni.io"
   to = "https://ooni.org/retired/labs"
   status = 301
+
+[[plugins]]
+  package = "netlify-plugin-hugo-cache-resources"

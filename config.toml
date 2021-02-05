@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "OONI: Open Observatory of Network Interference"
 DefaultContentLanguage = "en"
 pluralizeListTitles = false
+timeout = 40000
 
 [params]
 description = "The Open Observatory of Network Interference (OONI) is a global community measuring internet censorship around the world. Run OONI Probe to detect internet censorship. Use OONI Explorer to track internet censorship worldwide in near real-time."
@@ -10,9 +11,9 @@ probeDesktopVersion = "3.1.1"
 
 [Languages]
 [Languages.ar]
+[Languages.ca]
 [Languages.en]
 [Languages.es]
-[Languages.ca]
 [Languages.fr]
 [Languages.pt]
 [Languages.zh]
@@ -32,3 +33,38 @@ notAlternative = true
     endLevel = 5
     ordered = false
     startLevel = 1
+[menu]
+
+[[menu.main]]
+  url = "/about/"
+  name = "About"
+  weight = 1
+
+[[menu.main]]
+  url = "/nettest/"
+  name = "Tests"
+  weight = 2
+
+[[menu.main]]
+  url = "/data/"
+  name = "Data"
+  weight = 3
+
+[[menu.main]]
+  url = "/get-involved/"
+  name = "Get Involved"
+  weight = 4
+
+[[menu.main]]
+  url = "/reports/"
+  name = "Reports"
+  weight = 5
+
+[[menu.main]]
+  url = "/blog/"
+  name = "Blog"
+  weight = 6
+
+[[menu.install]]
+  name = "Install OONI Probe"
+  url = "/install/"

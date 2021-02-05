@@ -39,10 +39,10 @@ were processed by the pipeline.
 There is also the legacy `sanitised/` prefix in the bucket, but it hasn't been updated since 2017-10-02 and is scheduled for removal. 
 
 You can find information about the base data formats inside of
-[ooni-spec/data-formats](https://github.com/TheTorProject/ooni-spec/tree/master/data-formats).
+[ooni-spec/data-formats](https://github.com/ooni/spec/tree/master/data-formats).
 
 The data format for every test is also specified inside of
-[ooni-spec/test-specs](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs).
+[ooni-spec/test-specs](https://github.com/ooni/spec/tree/master/nettests).
 
 Note: The JSON schema is not entirely enforced on data ingestion, so there may
 be some slight difference between the schema specification and the actual data.
@@ -74,7 +74,7 @@ aws s3 --no-sign-request ls s3://ooni-data/autoclaved/jsonl/2017-11-23/
 
 The `jsonl.tar.lz4` "daily buckets" contain one or more LZ4 compressed
 files for every
-[OONI Probe test type](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs).
+[OONI Probe test type](https://github.com/ooni/spec/tree/master/nettests).
 
 The file format is: `${TEST_NAME}.${NUM}.tar.lz4` for small sets of files.
 

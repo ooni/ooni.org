@@ -397,7 +397,7 @@ nav.navbar {
   padding-bottom: 10px;
 }
 
-nav.navbar a {
+.nav-menu-item a {
   font-size: 14px;
   font-weight: normal;
   text-align: center;
@@ -407,19 +407,37 @@ nav.navbar a {
   border-bottom: 3px solid transparent;
 }
 
-nav.navbar a.active {
+.nav-menu-item a.active {
   border-bottom: 3px solid #fff;
 }
 
-nav.navbar a.logo:hover  {
+.nav-menu-item  a:hover {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  text-decoration: none;
+}
+
+.nav-menu-item  a:last-child {
+  margin-right: 0;
+}
+
+.nav-menu-brand a:hover  {
   border-bottom: 3px solid transparent;
   opacity: 1;
 }
 
-nav.navbar a.logo {
+.nav-menu-brand a {
   vertical-align: -5px;
   margin-right: 0.32rem;
   opacity: 0.5;
+}
+
+.nav-menu-brand a.active {
+  opacity: 1;
+}
+
+.nav-menu-install {
+  text-align: center;
 }
 
 nav.navbar .logo svg {
@@ -429,20 +447,6 @@ nav.navbar .logo svg {
 nav.navbar .wordmark {
   opacity: 0.3;
 }
-
-
-
-nav.navbar a:hover  {
-  color: #fff;
-  border-bottom: 3px solid #fff;
-  text-decoration: none;
-}
-
-
-nav.navbar a:last-child {
-  margin-right: 0;
-}
-
 
 nav.navbar h1 {
   display: inline;
