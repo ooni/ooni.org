@@ -161,16 +161,19 @@ th, td {
   font-family: "Source Code Pro", monospace;
 }
 
-.navbar a.explorer-button {
+a.explorer-button {
   border: 2px solid #ffffff;
   background-color: #0588cb;
 z-index: 999999999;
 }
 
-.navbar a.explorer-button:hover{
+a.explorer-button:hover{
   text-decoration: none;
   color: #0588cb;
   background-color: #ffffff;
+}
+.nav-menu-donate a.explorer-button{
+    margin-left: 8px;
 }
 pre {
   background-color: #f2f2f2;

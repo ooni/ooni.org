@@ -52,14 +52,14 @@
     <!-- These are hacks should be refactored -->
     <div class="container pt-2" style="position: relative">
       <div class="row align-items-center">
-        <div class="col-lg-2 nav-menu-brand">
+        <div class="col-lg-1 nav-menu-brand">
           <a href="/" class="{{ if .IsHome }}active{{end}}">
             <img src="/images/logos/OONI-HorizontalMonochromeInverted.png"
                  srcset="/images/logos/OONI-HorizontalMonochromeInverted.png 1x,
                    /images/logos/OONI-HorizontalMonochromeInverted@2x.png 2x">
           </a>
         </div>
-        <div class="col-lg-2 nav-menu-donate" style="position: absolute; left: 100px;">
+        <div class="col-lg-1 nav-menu-donate" >
         {{ with .Site.Menus.donate}}
         {{ range $menu := . }}
         <a href="{{.URL}}" class="btn explorer-button">{{.Name}}</a>
