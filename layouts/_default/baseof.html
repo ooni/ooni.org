@@ -73,7 +73,7 @@
             {{ $url := .URL }}
             {{ with .Site.Menus.main }}
             {{ range $menu := . }}
-            <div class="col-lg nav-menu-item">
+            <div class="col-lg nav-menu-item about">
               <a href="{{.URL}}" {{ if eq $url .URL }} class="active" {{end}}>{{ .Name }}</a>
             </div>
             {{end}}

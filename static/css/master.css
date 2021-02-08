@@ -172,8 +172,14 @@ a.explorer-button:hover{
   color: #0588cb;
   background-color: #ffffff;
 }
+.nav-menu-donate{
+    text-align: center;
+}
 .nav-menu-donate a.explorer-button{
     margin-left: 8px;
+}
+.nav-menu-item.about{
+    margin-left: 14px;
 }
 pre {
   background-color: #f2f2f2;
