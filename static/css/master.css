@@ -161,17 +161,17 @@ th, td {
   font-family: "Source Code Pro", monospace;
 }
 
-a.explorer-button {
+.navbar a.explorer-button {
   border: 2px solid #ffffff;
   background-color: #0588cb;
+z-index: 999999999;
 }
 
-a.explorer-button:hover {
+.navbar a.explorer-button:hover{
   text-decoration: none;
   color: #0588cb;
   background-color: #ffffff;
 }
-
 pre {
   background-color: #f2f2f2;
   padding: 0.5rem 1rem;
@@ -1022,31 +1022,10 @@ p.test-paragraph {
     font-weight: bold;
     letter-spacing: 0.6px; 
 }
-.donate-page .btn:hover, .donate-page .details button.btn.selected, .donate-page .other-amount.blue{
+.donate-page .btn:hover{
     background-color: #0588CB !important;
     color: white !important; 
     border: 2px solid white !important; 
-} 
-.donate-page .other-amount{ 
-    background-color: white;  
-    color: #0588CB;
-    border: 2px solid #0588CB !important;
-    margin-bottom: 10px;
-} 
-.donate-page .other-amount div.input-group-prepend{
-    border-right: 2px solid #0588CB !important;
-    box-sizing: border-box;
-}
-.donate-page .other-amount div.input-group-prepend span{
-    position: relative;
-    top: 5px;
-    left: -10px;
-} 
-.donate-page .other-amount input{
-    color: #0588CB;
-    text-align: right;
-    position: initial;
-    color: #0588CB;
 } 
 .donate-page .banner{
     margin: 0;
@@ -1071,24 +1050,6 @@ p.test-paragraph {
     padding-top: 16px;
     padding-bottom: 16px; 
 }
-.donate-page .img-container{
-    background-color: #8AD6F7; 
-    margin-right:15px;
-    margin-left:15px;
-    padding: 0;
-} 
-.donate-page .img-container.left{
-    margin: 0;
-}
-.donate-page .img-container img{
-    width: 100%;
-    z-index: 2;
-/*
-    position: relative;
-    top: -30px;
-    left: 8px;
-*/
-}
 .donate-page .details{  
     background-color: white;
     z-index: 99999;
@@ -1101,23 +1062,6 @@ p.test-paragraph {
 .donate-page .details ul{
     padding: 0;
 }
-.gifts .noGift{
-    display: table;
-}
-.gifts .noGift input, .gifts .noGift label{
-    display: table-cell;
-    vertical-align: middle;
-}
 .donate-page h4{
     padding: 0;
-}
-.nav-menu #donate{
-    border-radius: 5px;
-    border: 1px solid white;
-    color: white;
-}
-.nav-menu #donate:hover, .nav-menu #donate.active{
-    border: 1px solid #0588cb;
-    color: #0588cb;
-    background-color: white;
 }
