@@ -4,32 +4,43 @@
       <div class="banner col-12">
         <div class="h1-container">
             <h1>{{ .Params.Maintext }}</h1>
-            <a id='donate' href='https://www.paypal.com/donate?hosted_button_id=SUW2PJMFUCTQ4' class="btn btn-outline-primary col-6">DONATE</a> 
+            <a id='donate' href={{ .Params.PaypalButton }} class="btn btn-outline-primary col-6">{{.Params.paypalbuttonLabel}}</a> 
         </div>
       </div>
     
    <div class="container">   
         <div class="row">   
        <div class="col-12 details">
-       <h3>Thank you for supporting the OONI-verse!</h3>
-       <p><bold>Donate now to support the global fight against internet censorship!</bold></p>
+       <h3>{{ .Params.Thanks }}</h3>
+       <p><bold>{{ .Params.Motivation }}</bold></p>
        
        <p>{{ .Params.Maindescr }}</p>
         {{ .Content }}
        
         <div class="row col-12">
-            <h4 class="col-12">Other ways to give:</h4>
+            <h4 class="col-12">{{ .Params.otherWays2giveLabel }}</h4>                
             <ul>
-                <li>Bank Transfer / SEPA</li>
-                <li><a href="https://github.com/sponsors/ooni/" target="_blank">GitHub Sponsors</a></li>
-                <li><a href="https://opencollective.com/ooni" target="_blank">Open Collective</a> (tax deductible for US donors)</li>
-            </ul>
+                {{ range .Pages }}
+                    {{ $text := .Params.OtherWays2give.text}}
+                    {{ $link := .Params.OtherWays2give.link}}
+                    <li><a href={{$link}}>{{$text}}</a></li>
+                {{ end }}
+
+            </ul>       
         </div>
+        
+        <div class="row col-12 bank-info">   
+            <p>{{ .Params.bankName }}</p>
+            <p>{{ .Params.bankStreet }}</p>
+            <p>{{ .Params.iban }}</p>
+            <p>{{ .Params.swiftCode }}</p>
+            <p>{{ .Params.baneficiaryName }}</p>
+            <p>{{ .Params.baneficiaryAdress }}</p>   
+        </div> 
+           
       </div>
-     
-      
   </div>
-   </div>
+</div>
 
 </div>
 
@@ -37,5 +48,4 @@
  
 {{ define "script" }}
   <script type="text/javascript" src="/js/zepto.min.js"></script>
-<script src="https://www.paypal.com/sdk/js?client-id=ATd3rHkGu0i2Q1KsJpk3at-MR6pFfBIYgrJuDFsxVau4_lS_KEhydMUIu0lWKCcPwNvc9Fmyp6JUCV-Q&vault=true"  data-namespace="paypal_sdk"></script>
 {{ end }} 

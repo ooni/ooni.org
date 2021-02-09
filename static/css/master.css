@@ -1074,3 +1074,7 @@ p.test-paragraph {
 .donate-page h4{
     padding: 0;
 }
+.bank-info p{
+    display: block;
+    width: 100%;
+}
