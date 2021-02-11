@@ -1,7 +1,6 @@
 ---
 title: "Donate"
 maintext: "Donate now to support internet freedom"
-thanks: "Thank you for supporting the OONI-verse!"
 paypalButton: "https://www.paypal.com/donate?hosted_button_id=TAQVDLXGHHAV8"
 paypalbuttonLabel: "DONATE"
 ---
