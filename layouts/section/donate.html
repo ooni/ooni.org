@@ -11,34 +11,9 @@
    <div class="container">   
         <div class="row">   
        <div class="col-12 details">
-       <h3>{{ .Params.Thanks }}</h3>
-       <p><bold>{{ .Params.Motivation }}</bold></p>
-       
-       <p>{{ .Params.Maindescr }}</p>
+           <h3>{{ .Params.Thanks }}</h3>  
         {{ .Content }}
-       
-        <div class="row col-12">
-            <h4 class="col-12">{{ .Params.otherWays2giveLabel }}</h4>                
-            <ul>
-                {{ range .Pages }}
-                    {{ $text := .Params.OtherWays2give.text}}
-                    {{ $link := .Params.OtherWays2give.link}}
-                    <li><a href={{$link}}>{{$text}}</a></li>
-                {{ end }}
-
-            </ul>       
-        </div>
-        
-        <div class="row col-12 bank-info">   
-            <p>{{ .Params.bankName }}</p>
-            <p>{{ .Params.bankStreet }}</p>
-            <p>{{ .Params.iban }}</p>
-            <p>{{ .Params.swiftCode }}</p>
-            <p>{{ .Params.baneficiaryName }}</p>
-            <p>{{ .Params.baneficiaryAdress }}</p>   
-        </div> 
-           
-      </div>
+       </div>
   </div>
 </div>
 
