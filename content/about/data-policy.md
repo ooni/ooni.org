@@ -4,9 +4,9 @@ description: This Data Policy discloses and explains what data the OONI project 
 aliases: ["/data-policy"]
 ---
 
-**Last modified:** November 23, 2020
+**Last modified:** February 12, 2021
 
-**Version:** 1.4.1
+**Version:** 1.4.2
 
 This Data Policy discloses and explains what data the [Open Observatory of
 Network Interference (OONI) project](https://ooni.org/) ("we", "us", or "our")
@@ -29,6 +29,10 @@ data principles that govern OONI's data practices.
 	* [6. Public Archive](#6-public-archive)
 
 * [Analytics](#analytics)
+
+	* [OONI Probe apps](#ooni-probe-apps)
+
+	* [OONI website](#ooni-website)
 
 * [OONI Probe](#ooni-probe)
 
@@ -115,18 +119,78 @@ Through the use of analytics, our goal is to better understand how our apps are
 used, improve our understanding of user needs, improve OONI tools, and better
 serve the OONI community.
 
-When relevant, we do not record the full IP address of users (which is "anonymised" to the
-first 3 octets, ex. 123.45.67.0).
+We also use analytics to receive crash reports, which enables us to identify and
+fix bugs, and to improve the performance of the OONI Probe apps.
 
-We use a self-hosted analytics platform to collect some information
-about visitors to [OONI Explorer](https://explorer.ooni.org/) and our [website](https://ooni.org/), as well as to collect [OONI Probe desktop
-app](https://ooni.org/install/desktop) and [OONI Probe mobile app](https://ooni.org/install/mobile) usage statistics. Details about our specific setup can be found in [ooni/sysadmin](https://github.com/ooni/sysadmin).
+### OONI Probe apps
+
+For the [OONI Probe mobile app](https://ooni.org/install/mobile), we use:
+
+* [Countly (self-hosted)](https://count.ly/). We use open source Countly
+analytics (which we host ourselves) for: 
+
+	* **Sending push notifications.** If
+	you have opted in to push notifications on OONI Probe Android, we will collect
+	information necessary for sending push notifications (see “Data We Collect”
+	section for more details).
+
+	* **Collecting app usage metrics.** If you opt in to
+	the collection of app usage metrics, we will collect aggregate app usage data
+	(such as how many users tap on specific buttons), as this information can help
+	us better understand user needs and improve the app. We do not collect the IP
+	address of the user.
+
+* [Google Firebase Crashlytics](https://firebase.google.com/docs/crashlytics). If
+you opt in to sharing crash reports with us, we will collect sanitized technical
+data, including device identifier information, which will help us understand why
+the OONI Probe app has crashed. We do not collect the IP address or a unique
+identifier of the user (though Google may collect this).
+
+* [Sentry](https://sentry.io/). If you opt in to sharing crash reports with us, we
+will collect sanitized technical data, including device identifier information,
+which will help us understand why the OONI Probe app has crashed. We do not
+collect the IP address or a unique identifier of the user.
+
+We are currently evaluating whether to keep [Sentry](https://sentry.io/) or [Google Firebase Crashlytics](https://firebase.google.com/docs/crashlytics) (or use an entirely different solution) for the collection of crash
+reports. We will update this Data Policy once we have removed or changed one of
+these analytics tools for crash reporting.
+
+On [F-Droid](https://f-droid.org/packages/org.openobservatory.ooniprobe/), we only use [Countly](https://count.ly/) (which is open source and self-hosted) for the
+collection of aggregate app usage metrics. You can opt in to this during the
+onboarding process, and you can opt out through the settings of the app.
+
+For the [OONI Probe desktop app](https://ooni.org/install/desktop), we use:
+
+* [Matomo (self-hosted)](https://matomo.org/). We host this open source analytics
+platform ourselves and are therefore responsible for the data collected. If you
+opt in to the collection of app usage metrics, we
+will collect *aggregate app usage data* (such as how many users click on specific
+buttons), as this information can help us better understand user needs and
+improve the app. We do not collect the IP address of the user.
+
+* [Sentry](https://sentry.io/). If you opt in to sharing crash reports with us, we will collect
+sanitized technical data, including device identifier information, which will
+help us understand why the OONI Probe app has crashed. We do not collect the IP
+address or a unique identifier of the user.
+
+Details about our specific setup can be found in [ooni/sysadmin](https://github.com/ooni/sysadmin).
+
+On both the OONI Probe mobile and desktop apps, you can opt in to the collection
+of app usage metrics and crash reports during the onboarding process. If you
+change your mind, you can opt out through the settings of the apps.
+
+### OONI website
+
+We use the open source [Matomo](https://matomo.org/) analytics platform (which we host ourselves) to
+collect data on how many visits [OONI Explorer](https://explorer.ooni.org/) and our [website](https://ooni.org/) receive. This is
+done **without the use of cookies**. Since we do not use cookies or track any
+personal data, these analytics are [enabled by default](https://matomo.org/cookie-consent-banners/). 
+
+We do not record the full IP address of users (which is “anonymised” to the
+first 3 octets, ex. 123.45.67.0).
 
 You can opt out of our use of analytics on [OONI Explorer](https://explorer.ooni.org/) and the [OONI website](https://ooni.org/)
 by **unchecking the opt-out box** at the end of this Data Policy.
-
-You can opt out of our use of analytics on the OONI Probe mobile and desktop
-apps by disabling the collection of app usage statistics in the app settings. 
 
 We will notify you of any future changes to our use of analytics through an
 update to this Data Policy.
@@ -151,7 +215,7 @@ following types of data by default when you run OONI Probe.
 
 We **always** collect the time and date of measurements when you run OONI Probe.
 This data helps us evaluate when a measurement was collected and to
-compare measurements over time. **You cannot opt-out of sending us this type
+compare measurements over time. **You cannot opt out of sending us this type
 of data.**
 
 #### Country code
@@ -190,8 +254,9 @@ and encouraging automatic OONI Probe testing. For example, if you are on WiFi
 and you have opted-in to push notifications, we may send you a push notification
 encouraging you to test a long list of URLs. 
 
-You can opt out of sending us your network ASN by disabling the collection of network information in the
-settings of the [OONI Probe desktop app](https://ooni.org/install/desktop). You cannot, however, opt out of sending information about the type of network (e.g. WiFi) you are running OONI Probe on.
+You cannot opt out of submitting your network ASN or information about the type
+of network (e.g. WiFi) you are running OONI Probe on, as this information is
+necessary in order for measurements to be useful.
 
 #### Network measurements
 
@@ -209,26 +274,32 @@ Probe apps.
 
 #### Crash reports
 
-By default, OONI Probe users send us crash reports, as this information can help
-with identifying bugs and improving the performance of the OONI Probe apps.
+During the onboarding process, OONI Probe users can opt in to send us crash
+reports. This information is essential for identifying bugs and improving the
+performance of the OONI Probe apps.
 
-These crash reports include the OONI Probe software version and information
-about why and how a specific OONI Probe function failed to work as expected.
+These crash reports include the OONI Probe software version, device identifier
+information, and information about why and how a specific OONI Probe function
+failed to work as expected.
 
-You can opt out of sending us crash reports by disabling this option in the
-advanced settings of the OONI Probe apps.
+You can opt in or opt out of sending us crash reports by enabling or disabling
+this option in the privacy settings of the OONI Probe apps.
 
 #### App usage statistics
 
-By default, we collect OONI Probe app usage statistics to better
-understand how our apps are used, improve our understanding of user needs,
-improve OONI Probe apps, and better serve the OONI community.
+During the onboarding process, you can opt in to share OONI Probe app usage
+statistics with us. This information can help us better understand how our apps
+are used, improve our understanding of user needs, improve OONI Probe apps, and
+better serve the OONI community.
 
-We use a self-hosted analytics platform to collect app usage statistics on both
-the OONI Probe mobile and desktop apps. Details about our specific setup can be found in [ooni/sysadmin](https://github.com/ooni/sysadmin).
+We use open source, self-hosted analytics platforms ([Countly](https://count.ly/) in the OONI Probe
+mobile app, and [Matomo](https://matomo.org/) in the OONI Probe desktop app) to collect *aggregate app
+usage* statistics. Details about our specific setup can be found in
+[ooni/sysadmin](https://github.com/ooni/sysadmin).
 
-In both cases, you can opt out of our use of analytics by disabling the
-collection of app usage statistics in the OONI Probe app settings.
+You can opt in or opt out of our use of analytics by enabling or disabling the
+collection of app usage statistics in the privacy settings of the OONI Probe
+apps.
 
 #### IP addresses and other information
 
@@ -240,10 +311,6 @@ However, we **might unintentionally** collect your IP addresses and other
 personally-identifiable information if this data is included in the HTTP headers
 or other metadata of OONI measurements. This data, for example, might be collected if
 the [websites](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe) OONI Probe is testing employ tracking technologies or contain custom content.
-
-By default, we do *not* collect your IP addresses. You can, however, opt-in to
-provide your individual IP address (to enhance the accuracy of information) by
-enabling this option in the settings of the [OONI Probe desktop app](https://ooni.org/install/desktop).
 
 If you run the performance tests included in the OONI Probe apps, the [Measurement Lab (M-Lab)](https://www.measurementlab.net/) will collect and publish your IP address, irrespective of your OONI Probe settings. Learn more about M-Lab's data governance through its [privacy statement](https://www.measurementlab.net/privacy/).
 
@@ -298,8 +365,8 @@ By default, we store ALL of the data that your copy of OONI Probe sends us when
 you run a test. This may include information that *might* be personally-identifying,
 such as your IP address or other information contained in the HTTP headers.
 
-You can opt out of sending us certain types or all of your measurements by
-disabling the relevant options in the settings of the OONI Probe apps.
+You can opt out of sending us your measurements by
+disabling the relevant setting in the privacy tab of the OONI Probe apps.
 
 Data required for sending out push notifications will be stored separately on a
 secure database server operated by OONI (which is different from the public

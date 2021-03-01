@@ -154,8 +154,8 @@ Internet blackouts in Venezuela have been documented by the [Press and Society I
 rural, suburban and urban areas of the country without internet
 connectivity. According to IPYS Venezuela, these internet blackouts have
 harmed citizens’ rights to access information and freedom of expression.
-Freedom House [scores Venezuela 19/25 in obstacles to access the internet](https://freedomhouse.org/report/freedom-net/2017/venezuela)
-(where a larger ranking is worse).
+Freedom House [scores Venezuela 6/25 in obstacles to access the internet](https://freedomhouse.org/country/venezuela/freedom-net/2017)
+(where a lower ranking is worse).
 
 Research conducted by Mariengracia Chirinos in terms of public policies
 on internet access reveals that, between 2007 to 2017, a vision of

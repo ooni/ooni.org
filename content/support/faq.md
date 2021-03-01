@@ -1,9 +1,9 @@
 ---
+title: Frequently Asked Questions (FAQ)
+description: This Frequently Asked Questions (FAQ) section aims to address the questions that we are frequently asked by the community.
 aliases:
     - /about/faq/
 ---
-
-# Frequently Asked Questions (FAQ)
 
 This Frequently Asked Questions (FAQ) section aims to address the
 questions that we are frequently asked by the community.
