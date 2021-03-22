@@ -5,8 +5,6 @@ bridge) work in tested networks."
 groups: ["tor"]
 ---
 
-# Meek Fronted Requests
-
 This test examines whether the domains used by Meek (a type of [Tor
 bridge](https://bridges.torproject.org/)) work in tested networks.
 

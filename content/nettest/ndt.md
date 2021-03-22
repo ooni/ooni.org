@@ -5,8 +5,6 @@ groups: ["performance"]
 date: "0001-01-01"
 ---
 
-# NDT Speed Test
-
 NDT (Network Diagnostic Test) is designed to measure the **speed and
 performance** of tested networks.
 

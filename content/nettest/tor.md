@@ -5,8 +5,6 @@ tested network."
 groups: ["tor"]
 ---
 
-# Tor
-
 ## About Tor
 
 The [Tor network](https://www.torproject.org/), which is free and open source, provides its users with online
