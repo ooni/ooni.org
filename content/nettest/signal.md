@@ -4,13 +4,13 @@ short_description: "This test measures the reachability of the Signal messaging 
 groups: ["im"]
 ---
 
-# About Signal
+## About Signal
 
 [Signal](https://signal.org/) is a free and open source messaging app for encrypted voice calls and instant messages. 
 
 Signal provides security by encrypting communications in transit (end-to-end encryption) and by ensuring that past communications are secure even if encryption keys are stolen (forward secrecy). Several applications, such as WhatsApp, use the Signal protocol for encryption.
 
-# Signal test
+## Signal test
 
 The **OONI Probe Signal test** is designed to measure the reachability of the Signal messaging app within a tested network.
 
