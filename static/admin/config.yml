@@ -20,4 +20,11 @@ collections:
       - {label: "Table of Contents", name: "enabletoc", widget: "boolean", default: false}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-
+  - name: "support"
+    label: "Support"
+    folder: "content/support"
+    slug: "{{ slug }}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
