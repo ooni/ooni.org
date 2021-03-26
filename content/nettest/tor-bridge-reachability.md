@@ -5,8 +5,6 @@ work in tested networks."
 groups: ["tor"]
 ---
 
-# Tor Bridge Reachability
-
 This test examines whether **[Tor bridges](https://bridges.torproject.org/)**
 work in tested networks.
 

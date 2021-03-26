@@ -6,9 +6,6 @@ groups: ["website"]
 date: "0001-01-01"
 ---
 
-
-# DNS consistency
-
 This test compares the DNS query results from a DNS resolver which is considered
 to be reliable with one that is tested for tampering.
 

@@ -5,8 +5,6 @@ tested network."
 groups: ["proxies"]
 ---
 
-# RiseupVPN 
-
 ## About RiseupVPN
 [RiseupVPN](https://riseup.net/vpn) is a non-commercial, donation-based VPN service. It offers simple-to-use clients to secure your internet traffic against surveillance and to circumvent internet censorship. RiseupVPN doesn't log any user data and doesn't require registration. The software is based on [LEAP VPN](https://leap.se/), an open source VPN solution, and is run by the [Riseup collective](https://riseup.net/about-us) which has been offering privacy-preserving online services for activists for more than 20 years. 
 

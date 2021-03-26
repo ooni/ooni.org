@@ -5,8 +5,6 @@ tested network."
 groups: ["proxies"]
 ---
 
-# Psiphon
-
 ## About Psiphon
 
 [Psiphon](https://psiphon.ca/) is a free and open source tool that utilizes VPN, SSH, and HTTP proxy
