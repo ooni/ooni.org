@@ -22,6 +22,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "support"
     label: "Support"
+    create: true
     folder: "content/support"
     slug: "{{ slug }}"
     fields:
