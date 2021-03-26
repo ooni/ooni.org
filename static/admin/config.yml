@@ -9,7 +9,10 @@ collections:
     label: "Blog" # Used in the UI
     folder: "content/post" # The path to the folder where the documents are stored
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    path: "{{ slug }}/index"
+    media_folder: "images"
+    public_folder: "images"
+    slug: "{{year}}-{{month}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Categories", name: "categories", widget: "select", options: ["report", "blog"], multiple: true}
       - {label: "Title", name: "title", widget: "string"}
@@ -24,7 +27,9 @@ collections:
     label: "Support"
     create: true
     folder: "content/support"
-    slug: "{{ slug }}"
+    path: "{{ slug }}/index"
+    media_folder: "images"
+    public_folder: "images"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
