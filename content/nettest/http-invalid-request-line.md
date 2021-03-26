@@ -5,8 +5,6 @@ which could be responsible for censorship and/or traffic manipulation."
 groups: ["boxes"]
 ---
 
-# HTTP Invalid Request Line
-
 This test tries to detect the presence of network components (“middle box”)
 which could be responsible for censorship and/or traffic manipulation.
 

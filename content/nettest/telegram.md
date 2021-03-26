@@ -5,8 +5,6 @@ Telegram's app and web version within a tested network."
 groups: ["im"]
 ---
 
-# Telegram test
-
 This test is designed to examine the reachability of Telegram's app and web
 version within a tested network.
 

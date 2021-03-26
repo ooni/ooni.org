@@ -4,7 +4,6 @@ short_description: "This test tries to detect the presence of network components
 which could be responsible for censorship and/or traffic manipulation."
 groups: ["boxes"]
 ---
-# HTTP Header Field Manipulation
 
 This test tries to detect the presence of network components (“middle box”)
 which could be responsible for censorship and/or traffic manipulation.

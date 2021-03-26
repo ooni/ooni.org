@@ -5,8 +5,6 @@ tested network."
 groups: ["im"]
 ---
 
-# Facebook Messenger test
-
 This test is designed to examine the reachability of Facebook Messenger within a
 tested network.
 

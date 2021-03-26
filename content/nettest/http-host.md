@@ -5,8 +5,6 @@ groups: ["website"]
 date: "0002-01-01"
 ---
 
-# HTTP Host
-
 This test attempts to:
 
 * examine whether the domain names of websites are blocked

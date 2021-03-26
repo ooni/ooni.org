@@ -7,8 +7,6 @@ groups: ["website"]
 date: "0000-01-01"
 ---
 
-# Web Connectivity
-
 This test examines whether websites (included in the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists)) are reachable and if they are not, it
 attempts to determine whether access to them is blocked by means of DNS tampering,
 TCP/IP blocking or by a transparent HTTP proxy.

@@ -5,8 +5,6 @@ tested network."
 groups: ["proxies"]
 ---
 
-# Lantern
-
 This test provides an automated way of examining whether Lantern works in a
 tested network.
 
