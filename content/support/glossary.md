@@ -1,5 +1,5 @@
 ---
-title: "OONI Glossary"
+title: OONI Glossary
 description: "This glossary contains brief explanations for terms used in OONI apps,
 methodologies, and research reports."
 ---
