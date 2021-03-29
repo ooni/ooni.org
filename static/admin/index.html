@@ -9,5 +9,36 @@
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script>
+    CMS.registerEditorComponent({
+      id: "image",
+      label: "image",
+      fields: [
+          {
+              name: "title",
+              label: "Image Title",
+              widget: "string"
+          },
+          {
+              name: "src",
+              label: "Image SRC",
+              widget: "image"
+          },
+      ],
+      pattern: /{{<img src="([a-zA-Z0-9-_ ]+)" title="([a-zA-Z0-9-_ ]+)" alt="([a-zA-Z0-9-_ ]+)" >}}/,
+      fromBlock: function(match) {
+          return {
+              title: match[1],
+              src: match[2],
+          };
+      },
+      toBlock: function(obj) {
+        return `{{<img src="${obj.src}" title="${obj.title}" alt="${obj.title}">}}`;
+      },
+      toPreview: function(obj) {
+          return `<figure><img src=${obj.src} alt=${obj.title}><figcaption>${obj.title}</figcaption></figure>`;
+      },
+  });
+  </script>
 </body>
 </html>
