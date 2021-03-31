@@ -1,7 +1,6 @@
 ---
 title: "User Guide: OONI Probe Desktop App"
 description: "This user guide provides step-by-step instructions on how to use the OONI Probe desktop app."
-enabletoc: true
 ---
 **Last updated:** 31st March 2021
 
@@ -27,7 +26,9 @@ Upon reading this guide, we hope you will feel empowered to share your OONI Prob
 
 The following table of contents should help with navigating the guide.
 
-## **Introduction to OONI Probe**
+{{<table-of-contents>}}
+
+## Introduction to OONI Probe
 
 OONI Probe is [free and open source software](https://github.com/ooni/probe) designed to measure internet censorship and other forms of network interference. Since 2012, this software has been developed by the [Open Observatory of Network Interference (OONI)](https://ooni.org/), a non-profit project that was originally born out of the [Tor Project](https://www.torproject.org/). 
 
@@ -61,7 +62,7 @@ By running OONI Probe, you will:
 
 This guide aims to walk you through using the [OONI Probe desktop app](https://ooni.org/install/desktop) so that you can join a global community measuring internet censorship. 
 
-### **Disclaimer**
+### Disclaimer
 
 As OONI Probe is designed to measure internet censorship, running it may be [risky](https://ooni.org/about/risks/) for some people in some countries. 
 
@@ -77,7 +78,7 @@ Some things to take into account:
 
 To learn more about potential risks associated with the use of OONI Probe, please refer to our relevant [documentation](https://ooni.org/about/risks/). 
 
-## **Installing OONI Probe Desktop**
+## Installing OONI Probe Desktop
 
 The OONI Probe desktop app is available for [Windows and macOS](https://ooni.org/install/desktop). If you’re on Linux, please install the [OONI Probe Command Line Interface (CLI)](https://ooni.org/install/cli/ubuntu-debian).
 
@@ -107,7 +108,7 @@ And then click **Run anyway** to install the OONI Probe app on Windows.
 
 **Step 4.** Open your OONI Probe desktop app. On **macOS**, you can open your OONI Probe app from the Application folder. On **Windows**, launch OONI Probe from the desktop shortcut.
 
-### **Onboarding: Informed Consent**
+### Onboarding: Informed Consent
 
 Now that you have installed and opened your OONI Probe desktop app, you will be presented with some basic information about OONI Probe as part of the onboarding process. 
 
@@ -169,7 +170,7 @@ This will redirect you to the OONI Probe Settings screen, where you can check an
 
 Detailed information about OONI Probe settings can be found in the “Configuring your OONI Probe settings” section of this guide.
 
-## **Running OONI Probe Desktop**
+## Running OONI Probe Desktop
 
 Now that you have completed the onboarding process, you can start running OONI Probe to measure internet censorship!
 
@@ -203,7 +204,7 @@ Your OONI Probe test results will automatically get published on [OONI Explorer]
 
 Would you rather limit your testing to a specific test type (card)? In the following sections, we share instructions on how to do that.
 
-### **Measuring the blocking of websites**
+### Measuring the blocking of websites
 
 If you only want to measure the blocking of websites, you can do so through the following steps:
 
@@ -238,7 +239,7 @@ If you would like to contribute to the [Citizen Lab test lists](https://github.c
 
 If you would like to test a larger selection of websites, or test entirely different websites, please refer to the “Customizing website testing” section of this guide.
 
-### **Measuring the blocking of instant messaging apps**
+### Measuring the blocking of instant messaging apps
 
 If you only want to measure the blocking of instant messaging apps, you can do so through the following steps:
 
@@ -256,7 +257,7 @@ You are now running OONI’s [WhatsApp](https://ooni.org/nettest/whatsapp/), [Fa
 
 Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
 
-### **Measuring the blocking of circumvention tools**
+### Measuring the blocking of circumvention tools
 
 If you only want to measure the blocking of censorship circumvention tools, you can do so through the following steps:
 
@@ -274,7 +275,7 @@ You are now running OONI’s [Tor](https://ooni.org/nettest/tor/), [Psiphon](htt
 
 Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
 
-### **Measuring network performance**
+### Measuring network performance
 
 If you only want to measure network performance, you can do so through the following steps:
 
@@ -294,7 +295,7 @@ Your test results will automatically get published on [OONI Explorer](https://ex
 
 **Disclaimer:** The [NDT](https://ooni.org/nettest/ndt/) and [DASH](https://ooni.org/nettest/dash/) tests are conducted against third-party servers provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). If you run these tests, M-Lab will collect and publish your IP address for research purposes, irrespective of your OONI Probe settings. Learn more about M-Lab’s data governance through its [privacy statement](https://www.measurementlab.net/privacy/).  
 
-### **Measuring the presence of middleboxes**
+### Measuring the presence of middleboxes
 
 If you only want to measure networks to detect the presence of [middleboxes](https://ooni.org/support/glossary/#middlebox) (and potential signs of network tampering), you can do so through the following steps:
 
@@ -312,7 +313,7 @@ You are now running OONI’s [middlebox](https://ooni.org/support/glossary/#midd
 
 Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
 
-## **Automated OONI Probe testing**
+## Automated OONI Probe testing
 
 Instead of having to remember to manually run tests, you can **enable automated testing** in the settings of your OONI Probe desktop app and OONI Probe will run tests automatically for you! 
 
@@ -340,7 +341,7 @@ In general, if you haven’t enabled automated testing, you will occasionally vi
 
 To enable automated testing, you can click **Sounds Great**. If you would like to receive a reminder to enable automated testing at a later stage, click **Remind Me later**.
 
-## **Customizing your website testing**
+## Customizing your website testing
 
 By default, when testing websites with OONI Probe, you measure the URLs included in the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists). In other words, if you just click “Run” (in the Dashboard or Websites card of the OONI Probe app), you will test a random selection of websites taken from the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists). These lists have been created through collaboration with in-country researchers and experts. As they are [openly available on GitHub](https://github.com/citizenlab/test-lists/tree/master/lists), anyone can potentially review them, [contribute](https://ooni.org/get-involved/contribute-test-lists) URLs, and propose the removal of certain URLs. And it is important that we continue [reviewing and updating](https://ooni.org/get-involved/contribute-test-lists) these lists, since they contain the websites that are tested by most OONI Probe users regularly around the world.
 
@@ -354,7 +355,7 @@ You can customize your website testing in the following ways:
 
 The following sections explain how you can do each of the above. 
 
-### **Testing specific website categories**
+### Testing specific website categories
 
 When you click “Run” in the OONI Probe app, you test websites from the [global](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) and (relevant) [country-specific Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists). 
 
@@ -392,7 +393,7 @@ When you go back, you can see that only 28 categories are now enabled (since 2 h
 
 You can revisit this setting anytime to enable or disable the website categories of your choice.
 
-### **Testing websites of your choice**
+### Testing websites of your choice
 
 You can test the websites you care about directly through the following steps:
 
@@ -441,7 +442,7 @@ You will now see OONI Probe testing the websites of your choice!
 
 Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
 
-### **Testing all websites from the Citizen Lab test lists**
+### Testing all websites from the Citizen Lab test lists
 
 The OONI Probe desktop app only tests as many websites as it can connect to within 90 seconds (based on the default settings). 
 
@@ -475,7 +476,7 @@ By default, the website testing duration is set to **90 seconds**. This means th
 
 You have now changed the website testing duration of your OONI Probe desktop app.
 
-## **Accessing your OONI Probe test results**
+## Accessing your OONI Probe test results
 
 As soon as you run an OONI Probe test, you can immediately access the test results directly in your OONI Probe desktop app. 
 
@@ -503,7 +504,7 @@ In the top header of the Test Results screen, we share an overview of:
 
 While the Test Results screen provides an initial overview of results, you can dig deeper and access the data pertaining to each test, as explained in the following sections.
 
-### **Websites**
+### Websites
 
 You can access your OONI Probe results from the testing of websites through the following steps:
 
@@ -535,7 +536,7 @@ As [false positives](https://ooni.org/support/glossary/#false-positive) can occu
 
 In evaluating the blocking of a website, it is useful to examine relevant measurements (from the testing of a specific website on the same network over time) in **aggregate**, which you can do through [OONI Explorer](https://explorer.ooni.org/) (where we publish all test results). OONI Explorer also [displays measurements for all “confirmed blocked”](https://explorer.ooni.org/search?since=2021-02-24&only=confirmed) cases, where we automatically confirm the blocking of websites based on [block pages](https://ooni.org/support/glossary/#block-page).
 
-### **Instant Messaging**
+### Instant Messaging
 
 You can access your OONI Probe results from the testing of instant messaging apps through the following steps:
 
@@ -575,7 +576,7 @@ If Facebook Messenger was found (potentially) blocked, this measurement pag woul
 
 In all cases, we recommend referring to OONI measurements published on [OONI Explorer](https://explorer.ooni.org/), where you can examine results in aggregate (which can help with ruling out [false positives](https://ooni.org/support/glossary/#false-positive) and confirming blocking). 
 
-### **Circumvention**
+### Circumvention
 
 You can access your OONI Probe results from the testing of circumvention tools through the following steps:
 
@@ -615,7 +616,7 @@ If RiseupVPN was found (potentially) blocked, this test result would show an ora
 
 In all cases, we recommend referring to OONI measurements published on [OONI Explorer](https://explorer.ooni.org/), where you can examine results in aggregate (which can help with ruling out [false positives](https://ooni.org/support/glossary/#false-positive) and confirming blocking). 
 
-### **Performance**
+### Performance
 
 You can access your OONI Probe results from the testing of your network’s performance through the following steps:
 
@@ -645,7 +646,7 @@ In this case, we can see that a [DASH video streaming test](https://ooni.org/net
 
 You can compare your DASH test results with what is offered in your internet plan provided by your Internet Service Provider (ISP).
 
-### **Middleboxes**
+### Middleboxes
 
 A middlebox is a computer networking device that transforms, inspects, filters, or otherwise manipulates traffic for purposes other than packet forwarding. Many Internet Service Providers (ISPs) around the world use middleboxes to improve network performance, provide users with faster access to websites, and for a number of other networking purposes. Sometimes though, middleboxes are also used to implement internet censorship and/or surveillance.
 
@@ -677,7 +678,7 @@ In the above case, we can see that the [HTTP Header Field Manipulation](https://
 
 If, however, a middlebox was present on the tested network, it may have normalized the invalid headers that we sent or added extra headers. Depending on whether the HTTP headers that we send and receive from a backend control server are the same or not, we are able to evaluate whether a middlebox is present on the tested network.
 
-## **Sharing your OONI Probe test results**
+## Sharing your OONI Probe test results
 
 Through each OONI Probe test result, you can access features that enable you to:
 
@@ -690,7 +691,7 @@ Through each OONI Probe test result, you can access features that enable you to:
 
 In the following sections, we dive into each feature. 
 
-### **Raw data**
+### Raw data
 
 Every OONI Probe test result provides an overview of the findings. The actual data (i.e. the raw measurement data) that each test result is based on is available through the **Data** button on each test result screen. 
 
@@ -719,7 +720,7 @@ You can click on the arrows (such as the arrow next to `test_keys`) to expand th
 
 You have now copied the raw data and can share it with your contacts. 
 
-### **Accessing your measurement on OONI Explorer**
+### Accessing your measurement on OONI Explorer
 
 Perhaps you’re interested in viewing your OONI Probe test result on [OONI Explorer](https://explorer.ooni.org/) or accessing a measurement link that you can subsequently share with your contacts or link to (for example, in a research report or tweet).  
 
@@ -733,7 +734,7 @@ This will open the relevant OONI Probe test result in your web browser, directly
 
 You now have access to your OONI Probe measurement on [OONI Explorer](https://explorer.ooni.org/). If you scroll down on that measurement page, you will view the raw measurement data as well. You can now link to or share that measurement by sharing the URL of that measurement page. 
 
-## **Configuring your OONI Probe settings**
+## Configuring your OONI Probe settings
 
 You can customize your use of OONI Probe through the settings.
 
@@ -745,7 +746,7 @@ You can now see all of the OONI Probe desktop app settings.
 
 In the following sections, we walk you through each setting. 
 
-### **Language**
+### Language
 
 Thanks to support from the [Localization Lab](https://www.localizationlab.org/) community, the OONI Probe apps are available in multiple languages. 
 
@@ -761,15 +762,15 @@ Your OONI Probe desktop app has now switched to the language that you selected.
 
 If you would like to review and/or contribute an OONI Probe translation, please consider [joining us on Transifex](https://www.transifex.com/otf/ooniprobe/).
 
-### **Test options**
+### Test options
 
 The website testing settings have already been covered in previous sections of this guide. Please refer to the “**Customizing your website testing**” section. 
 
-### **Automated testing**
+### Automated testing
 
 The automated OONI Probe testing settings have already been covered in previous sections of this guide. Please refer to the “**Automated OONI Probe testing**” section. 
 
-### **Privacy**
+### Privacy
 
 The Privacy section of the OONI Probe settings pertains to the publication of OONI Probe test results, and the submission of [app usage metrics and crash reports](https://ooni.org/about/data-policy).
 
