@@ -1,7 +1,6 @@
 ---
 title: "User Guide: OONI Probe Mobile App"
 description: "OONI Probe Mobile App user guide"
-enabletoc: true
 ---
 
 **Last updated:** 31st March 2021
@@ -26,6 +25,8 @@ OONI Probe is a [free and open source](https://github.com/ooni/probe) app that y
 Upon reading this guide, we hope you will feel empowered to share your OONI Probe knowledge and skills with others!
 
 The following table of contents should help with navigating the guide.
+
+{{<table-of-contents>}}
 
 ## **Introduction to OONI Probe**
 
