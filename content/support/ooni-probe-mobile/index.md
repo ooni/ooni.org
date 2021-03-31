@@ -146,7 +146,7 @@ You will see that **True** is the correct answer. If you tap False, you will rec
 
 {{<img src="images/image95.jpg" title="Onboarding default settings 2" alt="Onboarding default settings 2">}}
 
-**Step 8.** If you would like to opt-in to sharing crash reports with us, tap **OK**.\*\* \*\*
+**Step 8.** If you would like to opt-in to sharing crash reports with us, tap **OK**.
 
 You have now completed the onboarding process and are ready to start using OONI Probe!
 
