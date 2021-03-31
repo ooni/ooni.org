@@ -28,8 +28,8 @@
       pattern: /{{<img src="(.+?)" title="([a-zA-Z0-9-_ ]+)" alt="([a-zA-Z0-9-_ ]+)">}}/,
       fromBlock: function(match) {
           return {
-              title: match[1],
-              src: match[2],
+              src: match[1],
+              title: match[2],
           };
       },
       toBlock: function(obj) {
