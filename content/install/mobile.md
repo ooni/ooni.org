@@ -11,3 +11,5 @@ platform: "mobile"
 {{<app-stores>}}
 
 [Other Platforms >>](/install/all)
+
+[User Guide >>](/support/ooni-probe-mobile)

@@ -23,3 +23,5 @@ platform: "desktop"
 >}}
 
 [Other Platforms >>](/install/all)
+
+[User Guide >>](/support/ooni-probe-desktop)
