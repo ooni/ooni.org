@@ -3,9 +3,9 @@ title: "User Guide: OONI Probe Mobile App"
 description: "OONI Probe Mobile App user guide"
 ---
 
-**Last updated:** 31st March 2021
+**Last updated:** 20th April 2021
 
-**OONI Probe Mobile version:** 2.10.1
+**OONI Probe Mobile version:** 2.11.0
 
 {{<img src="images/image49.png" title="Measure Internet Censorship" alt="Measure Internet Censorship">}}
 
@@ -35,7 +35,7 @@ OONI Probe is [free and open source software](https://github.com/ooni/probe) des
 With the OONI Probe app (available for both [mobile](https://ooni.org/install/mobile) and [desktop](https://ooni.org/install/desktop) platforms), you can run [network measurement tests](https://ooni.org/nettest/) to check the following:
 
 * Blocking of [websites](https://ooni.org/nettest/web-connectivity/);
-* Blocking of instant messaging apps ([WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/));
+* Blocking of instant messaging apps ([WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/), [Signal](https://ooni.org/nettest/signal));
 * Blocking of circumvention tools ([Tor](https://ooni.org/nettest/tor/), [Psiphon](https://ooni.org/nettest/psiphon/), [RiseupVPN](https://ooni.org/nettest/riseupvpn/));
 * Presence of systems ([middleboxes](https://ooni.org/support/glossary/#middlebox)) on your network that might be responsible for censorship and/or surveillance;
 * [Speed and performance](https://ooni.org/nettest/ndt/) of your network.
@@ -78,7 +78,7 @@ Some things to take into account:
 
 To learn more about potential risks associated with the use of OONI Probe, please refer to our relevant [documentation](https://ooni.org/about/risks/).
 
-## **Installing OONI Probe Mobile**
+## Installing OONI Probe Mobile
 
 The OONI Probe mobile app is available for [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe), [F-Droid](https://f-droid.org/repository/browse/?fdid=org.openobservatory.ooniprobe), and [iOS](https://itunes.apple.com/us/app/id1199566366).
 
@@ -169,7 +169,7 @@ Now that you have completed the onboarding process, you can start running OONI P
 The **Dashboard** of the OONI Probe mobile app includes 4 cards, each of which entails OONI Probe tests:
 
 * **Websites card.** Includes OONI’s [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) which measures the [blocking of websites](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe).
-* **Instant Messaging card.** Includes OONI’s [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), and [Telegram](https://ooni.org/nettest/telegram/) tests which check if these apps are blocked.
+* **Instant Messaging card.** Includes OONI’s [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/), and [Signal](https://ooni.org/nettest/signal) tests which check if these apps are blocked.
 * **Circumvention card.** Includes OONI’s [Tor](https://ooni.org/nettest/tor/), [Psiphon](https://ooni.org/nettest/psiphon/), and [RiseupVPN](https://ooni.org/nettest/riseupvpn/) tests which check if these censorship circumvention tools are blocked.
 * **Performance card.** Includes the [NDT speed test](https://ooni.org/nettest/ndt/), the [DASH video streaming performance test](https://ooni.org/nettest/dash/), and OONI’s [middlebox](https://ooni.org/support/glossary/#middlebox) tests ([HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) test and [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) test).
 
@@ -224,7 +224,7 @@ OONI Probe will automatically determine which [country-specific list](https://gi
 
 If you would like to contribute to the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists) (which include the default websites tested by OONI Probe users worldwide), please refer to our relevant [documentation](https://ooni.org/get-involved/contribute-test-lists).
 
-**Note:** To avoid consuming all your mobile data, ***OONI Probe will only test as many websites as it’s able to test within 90 seconds*** when you tap “Run” (either from the Dashboard or from the Websites card). These websites (which are tested within 90 seconds) are randomly selected from the [global](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) and (relevant) [country-specific](https://github.com/citizenlab/test-lists/tree/master/lists) test lists. Every time you tap “Run”, you will test a different, random selection of websites (from the global and country-specific test lists) within 90 seconds. Therefore, the more times you tap “Run”, the more websites you will test.
+**Note:** To avoid consuming all your mobile data, **OONI Probe will only test as many websites as it’s able to test within 90 seconds** when you tap “Run” (either from the Dashboard or from the Websites card). These websites (which are tested within 90 seconds) are randomly selected from the [global](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) and (relevant) [country-specific](https://github.com/citizenlab/test-lists/tree/master/lists) test lists. Every time you tap “Run”, you will test a different, random selection of websites (from the global and country-specific test lists) within 90 seconds. Therefore, the more times you tap “Run”, the more websites you will test.
 
 If you would like to test a larger selection of websites, or test entirely different websites, please refer to the “Customizing website testing” section of this guide.
 
@@ -240,13 +240,13 @@ If you only want to measure the blocking of instant messaging apps, you can do s
 
 {{<img src="images/image40.jpg" title="IM Card details" alt="IM Card details">}}
 
-You are now running OONI’s [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), and [Telegram](https://ooni.org/nettest/telegram/) tests to measure the blocking of these apps.
+You are now running OONI’s [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/), and [Signal](https://ooni.org/nettest/signal) tests to measure the blocking of these apps.
 
 {{<img src="images/image58.jpg" title="Running IM" alt="Running IM">}}
 
 Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
 
-If you would like to limit your testing to only WhatsApp, Facebook Messenger, or Telegram, please refer to the “Configuring your OONI Probe settings” section of this guide.
+If you would like to limit your testing to only WhatsApp, Facebook Messenger, Telegram, or Signal, please refer to the “Configuring your OONI Probe settings” section of this guide.
 
 ### Measuring the blocking of circumvention tools
 
@@ -523,7 +523,7 @@ As soon as you run an OONI Probe test, you can immediately access the test resul
 
 **Step 1.** Tap **Test Results** in the bottom navigation bar of your OONI Probe mobile app.
 
-{{<img src="images/image10.jpg" title="Test results page" alt="Test results page">}}
+{{<img src="images/new-test-results.jpeg" title="Test results page" alt="Test results page">}}
 
 You are now presented with an overview of all your OONI Probe test results.
 
@@ -541,7 +541,7 @@ To dig deeper (and access the relevant measurement data), you would need to tap 
 
 **Deleting test results**
 
-In the top blue menu (of the Test Results screen), we share an overview of:
+In the top menu (of the Test Results screen), we share an overview of:
 
 * The **number of OONI Probe tests** you have run so far;
 * The **number of networks** on which you have run OONI Probe so far;
@@ -563,7 +563,7 @@ Upon tapping on the deletion icon, you will see the following pop-up:
 
 In the Test Results screen of your OONI Probe mobile app, the results are presented chronologically, with the latest tests listed first.
 
-{{<img src="images/image10.jpg" title="Test results page" alt="Test results page">}}
+{{<img src="images/new-test-results.jpeg" title="Test results page" alt="Test results page">}}
 
 **Step 1.** If you would like to filter your results based on a specific testing category (“Websites”, “Instant Messaging”, “Circumvention”, “Performance”), tap **All Tests** (or “Filter Tests”, or the arrow in that row).
 
@@ -633,7 +633,7 @@ You can access your OONI Probe results from the testing of instant messaging app
 
 **Step 1.** Tap **Instant Messaging** in the Test Results screen of your OONI Probe mobile app.
 
-{{<img src="images/image10.jpg" title="Test results screen" alt="Test results screen">}}
+{{<img src="images/new-test-results.jpeg" title="Test results screen" alt="Test results screen">}}
 
 You will now see a list of the instant messaging apps (WhatsApp, Facebook Messenger, Telegram) that you have tested so far.
 
@@ -641,7 +641,7 @@ In the top header, we share an overview of your instant messaging app testing re
 
 **Step 2.** Tap on the **row of a tested app** (to access the data from the testing of that app).
 
-{{<img src="images/image60.jpg" title="IM test results" alt="IM test results">}}
+{{<img src="images/new-im-test-results.jpeg" title="IM test results" alt="IM test results">}}
 
 The following measurement page pertains to the testing of WhatsApp.
 
@@ -667,6 +667,14 @@ In this case, we can see that Facebook Messenger was found accessible when teste
 
 If Facebook Messenger was found (potentially) blocked, this test result would show an orange exclamation mark and information about why it’s potentially blocked (based on the heuristics of [OONI’s Facebook Messenger test](https://ooni.org/nettest/facebook-messenger/)).
 
+You can access Signal test results through the instant messaging results in your OONI Probe app.
+
+{{<img src="images/signal-test-result.jpeg" title="Signal results" alt="Signal results">}}
+
+In this case, we can see that Signal was found accessible when tested on Vodafone Italia (AS30722) on 20th April 2021 at 17:05 local time. This conclusion is reached because [OONI’s Signal test](https://ooni.org/nettest/signal) was able to successfully connect to Signal’s endpoints.
+
+If Signal was found (potentially) blocked, this test result would show an orange exclamation mark and information about why it’s potentially blocked (based on the heuristics of [OONI’s Signal test](https://ooni.org/nettest/signal)).
+
 In all cases, we recommend referring to OONI measurements published on [OONI Explorer](https://explorer.ooni.org/), where you can examine results in aggregate (which can help with ruling out [false positives](https://ooni.org/support/glossary/#false-positive) and confirming blocking).
 
 ### Circumvention
@@ -675,7 +683,7 @@ You can access your OONI Probe results from the testing of circumvention tools t
 
 **Step 1.** Tap **Circumvention** in the Test Results screen of your OONI Probe mobile app.
 
-{{<img src="images/image10.jpg" title="Test results screen" alt="Test results screen">}}
+{{<img src="images/new-test-results.jpeg" title="Test results page" alt="Test results page">}}
 
 You will now see a list of the censorship circumvention tools (Psiphon, Tor, RiseupVPN) that you have tested so far.
 
@@ -717,7 +725,7 @@ You can access your OONI Probe results from the testing of your network’s perf
 
 **Step 1.** Tap **Performance** in the Test Results screen of your OONI Probe mobile app.
 
-{{<img src="images/image10.jpg" title="Test results screen" alt="Test results screen">}}
+{{<img src="images/new-test-results.jpeg" title="Test results page" alt="Test results page">}}
 
 You will now see a list of the performance tests that you have run so far. In the top header, we share an overview of the results, with the main findings listed next to each test result.
 
@@ -878,7 +886,7 @@ This will copy the OONI Explorer URL (including the measurement pertaining to yo
 
 You now have access to your OONI Probe measurement on [OONI Explorer](https://explorer.ooni.org/). If you scroll down on that measurement page, you will view the raw measurement data as well. You can now link to or share that measurement by sharing the URL of that measurement page.
 
-## **Configuring your OONI Probe settings**
+## Configuring your OONI Probe settings
 
 You can customize your use of OONI Probe through the settings.
 
@@ -938,9 +946,9 @@ You can customize your testing of instant messaging apps.
 
 {{<img src="images/image84.jpg" title="Tap IM settings" alt="Tap IM settings">}}
 
-You will now see the 3 tests (for [WhatsApp](https://ooni.org/nettest/whatsapp/), [Telegram](https://ooni.org/nettest/telegram/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/)) that are included in the Instant Messaging card of the OONI Probe dashboard. All 3 tests are enabled by default.
+You will now see the 4 tests (for [WhatsApp](https://ooni.org/nettest/whatsapp/), [Telegram](https://ooni.org/nettest/telegram/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), and [Signal](https://ooni.org/nettest/signal)) that are included in the Instant Messaging card of the OONI Probe dashboard. All 3 tests are enabled by default.
 
-{{<img src="images/image18.jpg" title="IM settings" alt="IM settings">}}
+{{<img src="images/new-im-settings.jpeg" title="IM settings" alt="IM settings">}}
 
 If you would like to limit your testing to a few (or none) of these tests, you can do so by disabling the relevant tests in these settings.
 
@@ -1071,7 +1079,7 @@ This will open your email client, enabling you to write an email to the OONI tea
 
 If you need urgent assistance from the OONI team, we encourage you to reach out to us on the [OONI Slack channel](https://slack.ooni.org/), where we can chat in real-time.
 
-### **About OONI**
+### About OONI
 
 The final “About OONI” setting of the OONI Probe app shares information [about OONI](https://ooni.org/about/) and about the **OONI Probe software version** you’re currently using.
 
@@ -1079,9 +1087,9 @@ The final “About OONI” setting of the OONI Probe app shares information [abo
 
 {{<img src="images/image44.jpg" title="About OONI" alt="About OONI">}}
 
-This will open a screen that provides summary information about OONI, as well as the OONI Probe software version that you’re currently using. In the header of the following example, we can see that it’s **OONI Probe 2.10.1 on Android**.
+This will open a screen that provides summary information about OONI, as well as the OONI Probe software version that you’re currently using. In the header of the following example, we can see that it’s **OONI Probe 2.11.0 on Android**.
 
-{{<img src="images/image57.jpg" title="OONI About page" alt="OONI About page">}}
+{{<img src="images/new-about-screen.jpeg" title="OONI About page" alt="OONI About page">}}
 
 **Step 2.** Tap **OONI Data Policy** to read our [Data Policy](https://ooni.org/about/data-policy) on our website.
 
