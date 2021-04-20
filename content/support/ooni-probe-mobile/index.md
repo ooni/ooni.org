@@ -523,7 +523,7 @@ As soon as you run an OONI Probe test, you can immediately access the test resul
 
 **Step 1.** Tap **Test Results** in the bottom navigation bar of your OONI Probe mobile app.
 
-{{<img src="images/image10.jpg" title="Test results page" alt="Test results page">}}
+{{<img src="images/new-test-results.jpeg" title="Test results page" alt="Test results page">}}
 
 You are now presented with an overview of all your OONI Probe test results.
 
@@ -563,7 +563,7 @@ Upon tapping on the deletion icon, you will see the following pop-up:
 
 In the Test Results screen of your OONI Probe mobile app, the results are presented chronologically, with the latest tests listed first.
 
-{{<img src="images/image10.jpg" title="Test results page" alt="Test results page">}}
+{{<img src="images/new-test-results.jpeg" title="Test results page" alt="Test results page">}}
 
 **Step 1.** If you would like to filter your results based on a specific testing category (“Websites”, “Instant Messaging”, “Circumvention”, “Performance”), tap **All Tests** (or “Filter Tests”, or the arrow in that row).
 
@@ -683,7 +683,7 @@ You can access your OONI Probe results from the testing of circumvention tools t
 
 **Step 1.** Tap **Circumvention** in the Test Results screen of your OONI Probe mobile app.
 
-{{<img src="images/image10.jpg" title="Test results screen" alt="Test results screen">}}
+{{<img src="images/new-test-results.jpeg" title="Test results page" alt="Test results page">}}
 
 You will now see a list of the censorship circumvention tools (Psiphon, Tor, RiseupVPN) that you have tested so far.
 
@@ -725,7 +725,7 @@ You can access your OONI Probe results from the testing of your network’s perf
 
 **Step 1.** Tap **Performance** in the Test Results screen of your OONI Probe mobile app.
 
-{{<img src="images/image10.jpg" title="Test results screen" alt="Test results screen">}}
+{{<img src="images/new-test-results.jpeg" title="Test results page" alt="Test results page">}}
 
 You will now see a list of the performance tests that you have run so far. In the top header, we share an overview of the results, with the main findings listed next to each test result.
 
