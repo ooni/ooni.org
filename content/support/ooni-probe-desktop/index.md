@@ -2,9 +2,9 @@
 title: "User Guide: OONI Probe Desktop App"
 description: "This user guide provides step-by-step instructions on how to use the OONI Probe desktop app."
 ---
-**Last updated:** 31st March 2021
+**Last updated:** 21st April 2021
 
-**OONI Probe Desktop version:** 3.3.0
+**OONI Probe Desktop version:** 3.4.0
 
 {{<img src="images/install-desktop.png" title="Install OONI Probe Desktop" alt="Install OONI Probe Desktop">}}
 
@@ -35,7 +35,7 @@ OONI Probe is [free and open source software](https://github.com/ooni/probe) des
 With the OONI Probe app (available for both [mobile](https://ooni.org/install/mobile) and [desktop](https://ooni.org/install/desktop) platforms), you can run [network measurement tests](https://ooni.org/nettest/) to check the following:
 
 * Blocking of [websites](https://ooni.org/nettest/web-connectivity/);
-* Blocking of instant messaging apps ([WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/));
+* Blocking of instant messaging apps ([WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/), [Signal](https://ooni.org/nettest/signal));
 * Blocking of circumvention tools ([Tor](https://ooni.org/nettest/tor/), [Psiphon](https://ooni.org/nettest/psiphon/), [RiseupVPN](https://ooni.org/nettest/riseupvpn/));
 * Presence of systems ([middleboxes](https://ooni.org/support/glossary/#middlebox)) on your network that might be responsible for censorship and/or surveillance;
 * [Speed and performance](https://ooni.org/nettest/ndt/) of your network. 
@@ -148,25 +148,23 @@ You will see that **True** is the correct answer. If you click False, you will r
 
 **Step 6.** The following screen shares information about the types of data that OONI collects and publishes by default (every time you run OONI Probe). You can learn more by clicking on **[OONI’s Data Policy](https://ooni.org/about/data-policy)** on the screen.
 
-{{<img src="images/data-policy-onboarding.png" title="Data Policy" alt="Data Policy">}}
+{{<img src="images/new-default-settings.png" title="Lets Go" alt="Lets Go">}}
 
-If you click the **Let’s Go** button, you will opt-in to sharing [crash reports and app usage metrics](https://ooni.org/about/data-policy#data-we-collect) to help us improve OONI Probe. 
+If you click the **Let’s Go** button, you will opt-in to sharing [crash reports](https://ooni.org/about/data-policy#data-we-collect) to help us improve OONI Probe. 
 
-{{<img src="images/lets-go.png" title="Lets Go" alt="Lets Go">}}
-
-**Step 7.** Click **Let’s Go** if you would like to opt-in to sharing crash reports and app usage metrics with us.
+**Step 7.** Click **Let’s Go** if you would like to opt-in to sharing crash reports with us.
 
 You have now completed the onboarding process and are ready to start using OONI Probe! 
 
 {{<img src="images/empty-dashboard.png" title="Dashboard" alt="Dashboard">}}
 
-**Optional Step 8.** If you would rather **not** opt-in to sharing crash reports and app usage metrics with us, click **Change defaults**. 
+**Optional Step 8.** If you would rather **not** opt-in to sharing crash reports with us, click **Change defaults**. 
 
-{{<img src="images/change-defaults.png" title="Change defaults" alt="Change defaults">}}
+{{<img src="images/new-default-settings.png" title="Change defaults" alt="Change defaults">}}
 
-This will redirect you to the OONI Probe Settings screen, where you can check and change all of the default settings. The submission of crash reports and app usage metrics is disabled by default, and only enabled if you click the Let’s Go button (from Step 7 above), or if you manually enable the relevant settings.  
+This will redirect you to the OONI Probe Settings screen, where you can check and change all of the default settings. The submission of crash reports is disabled by default, and only enabled if you click the Let’s Go button (from Step 7 above), or if you manually enable the relevant setting.  
 
-{{<img src="images/default-settings-onboarding.png" title="Default settings" alt="Default settings">}}
+{{<img src="images/new-default-settings-onboarding.png" title="Default settings" alt="Default settings">}}
 
 Detailed information about OONI Probe settings can be found in the “Configuring your OONI Probe settings” section of this guide.
 
@@ -177,7 +175,7 @@ Now that you have completed the onboarding process, you can start running OONI P
 The **Dashboard** of the OONI Probe desktop app includes 5 cards, each of which entails OONI Probe tests:
 
 * **Websites card.** Includes OONI’s [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) which measures the [blocking of websites](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe).
-* **Instant Messaging card.** Includes OONI’s [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), and [Telegram](https://ooni.org/nettest/telegram/) tests which check if these apps are blocked.
+* **Instant Messaging card.** Includes OONI’s [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/), and [Signal](https://ooni.org/nettest/signal) tests which check if these apps are blocked.
 * **Circumvention card.** Includes OONI’s [Tor](https://ooni.org/nettest/tor/), [Psiphon](https://ooni.org/nettest/psiphon/), and [RiseupVPN](https://ooni.org/nettest/riseupvpn/) tests which check if these censorship circumvention tools are blocked.
 * **Performance card.** Includes the [NDT speed test](https://ooni.org/nettest/ndt/) and the [DASH video streaming performance test](https://ooni.org/nettest/dash/).
 * **Middleboxes card.** Includes OONI’s [middlebox](https://ooni.org/support/glossary/#middlebox) tests ([HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) test and [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) test).
@@ -249,9 +247,9 @@ If you only want to measure the blocking of instant messaging apps, you can do s
 
 **Step 2.** Click **Run** in the Instant Messaging card.
 
-{{<img src="images/inside-im-card.png" title="Inside IM card" alt="Inside IM card">}}
+{{<img src="images/new-inside-im-card.png" title="Inside IM card" alt="Inside IM card">}}
 
-You are now running OONI’s [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), and [Telegram](https://ooni.org/nettest/telegram/) tests to measure the blocking of these apps.
+You are now running OONI’s [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/), and [Signal](https://ooni.org/nettest/signal) tests to measure the blocking of these apps.
 
 {{<img src="images/running-telegram.png" title="Testing Telegram" alt="Testing Telegram">}}
 
@@ -325,13 +323,13 @@ You can enable automated OONI Probe testing through the following steps:
 
 **Step 1.** Click **Settings** in the sidebar of your OONI Probe desktop app.
 
-{{<img src="images/automated-testing-disabled.png" title="Automated testing disabled" alt="Automated testing disabled">}}
+{{<img src="images/new-automated-testing-disabled.png" title="Automated testing disabled" alt="Automated testing disabled">}}
 
 Under the **Automated testing** section of the settings, you will see that automated OONI Probe testing is disabled by default. 
 
 **Step 2.** Enable the **Run tests automatically** option in the settings.
 
-{{<img src="images/automated-testing-enabled.png" title="Automated testing enabled" alt="Automated testing enabled">}}
+{{<img src="images/new-automated-testing-enabled.png" title="Automated testing enabled" alt="Automated testing enabled">}}
 
 You have now enabled automated OONI Probe testing! OONI Probe will run tests automatically multiple times per day (without user intervention), and the test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/).
 
@@ -542,11 +540,11 @@ You can access your OONI Probe results from the testing of instant messaging app
 
 **Step 1.** Click **Instant Messaging** in the Test Results screen of your OONI Probe desktop app. 
 
-{{<img src="images/test-results.png" title="Test Results" alt="Test Results">}}
+{{<img src="images/new-im-test-results.png" title="Test Results" alt="Test Results">}}
 
-You will now see a list of the instant messaging apps (WhatsApp, Facebook Messenger, Telegram) that you have tested in a specific testing session.
+You will now see a list of the instant messaging apps (WhatsApp, Facebook Messenger, Telegram, Signal) that you have tested in a specific testing session.
 
-{{<img src="images/im-apps-tested.png" title="IM apps tested" alt="IM apps tested">}}
+{{<img src="images/new-im-apps-tested.png" title="IM apps tested" alt="IM apps tested">}}
 
 In the top header, we share an overview of your instant messaging app testing results. Next to each tested app, there will either be a green tick (indicating app reachability), or a red cross (indicating potential app blocking). 
 
@@ -556,7 +554,7 @@ In the top header, we share an overview of your instant messaging app testing re
 
 The above measurement page pertains to the testing of WhatsApp. We can see that WhatsApp was found accessible when tested on Vodafone Italia (AS30722) on 30th March 2021 at 14:59 local time. This conclusion is reached because [OONI’s WhatsApp test](https://ooni.org/nettest/whatsapp/) was able to successfully connect to WhatsApp’s endpoints, registration service, and web interface (`web.whatsapp.com`). 
 
-If WhatsApp was found (potentially) blocked, this measurement page would show an orange exclamation mark and information about why it’s potentially blocked (based on the heuristics of [OONI’s WhatsApp test](https://ooni.org/nettest/whatsapp/)).  
+If WhatsApp was found (potentially) blocked, this measurement page would show relevant information (based on the heuristics of [OONI’s WhatsApp test](https://ooni.org/nettest/whatsapp/)).  
 
 Similarly, you can access Telegram test results through the instant messaging results in your OONI Probe app.
 
@@ -564,7 +562,7 @@ Similarly, you can access Telegram test results through the instant messaging re
 
 In this case, we can see that Telegram was found accessible when tested on Vodafone Italia (AS30722) on 30th March 2021 at 14:59 local time. This conclusion is reached because [OONI’s Telegram test](https://ooni.org/nettest/telegram/) was able to successfully connect to Telegram’s endpoints and web interface (`web.telegram.org`). 
 
-If Telegram was found (potentially) blocked, this measurement page would show an orange exclamation mark and information about why it’s potentially blocked (based on the heuristics of [OONI’s Telegram test](https://ooni.org/nettest/telegram/)).  
+If Telegram was found (potentially) blocked, this measurement page would show relevant information (based on the heuristics of [OONI’s Telegram test](https://ooni.org/nettest/telegram/)).  
 
 You can also access Facebook Messenger test results through the instant messaging results in your OONI Probe app.
 
@@ -572,7 +570,15 @@ You can also access Facebook Messenger test results through the instant messagin
 
 In this case, we can see that Facebook Messenger was found accessible when tested on Vodafone Italia (AS30722) on 30th March 2021 at 14:59 local time. This conclusion is reached because [OONI’s Facebook Messenger test](https://ooni.org/nettest/facebook-messenger/) was able to successfully connect to Facebook’s endpoints and resolve to Facebook IP addresses.
 
-If Facebook Messenger was found (potentially) blocked, this measurement pag would show an orange exclamation mark and information about why it’s potentially blocked (based on the heuristics of [OONI’s Facebook Messenger test](https://ooni.org/nettest/facebook-messenger/)).  
+If Facebook Messenger was found (potentially) blocked, this measurement page would show relevant information (based on the heuristics of [OONI’s Facebook Messenger test](https://ooni.org/nettest/facebook-messenger/)).  
+
+You can also access Signal test results through the instant messaging results in your OONI Probe app.
+
+{{<img src="images/signal-measurement.png" title="Signal measurement" alt="Signal measurement">}}
+
+In this case, we can see that Signal was found accessible when tested on Vodafone Italia (AS30722) on 21st April 2021 at 11:48 local time. This conclusion is reached because [OONI’s Signal test](https://ooni.org/nettest/signal) was able to successfully connect to Signal’s endpoints.
+
+If Signal was found (potentially) blocked, this measurement page would show relevant information (based on the heuristics of [OONI’s Signal test](https://ooni.org/nettest/signal)). 
 
 In all cases, we recommend referring to OONI measurements published on [OONI Explorer](https://explorer.ooni.org/), where you can examine results in aggregate (which can help with ruling out [false positives](https://ooni.org/support/glossary/#false-positive) and confirming blocking). 
 
@@ -596,7 +602,7 @@ In the top header, we share an overview of your circumvention tool testing resul
 
 The above measurement page pertains to the testing of [Psiphon](https://psiphon.ca/). We can see that Psiphon was reachable when tested on Vodafone Italia (AS30722) on 30th March 2021 at 14:58 local time. This conclusion is reached because [OONI’s Psiphon test](https://ooni.org/nettest/psiphon/) was able to successfully bootstrap a Psiphon connection.
 
-If Psiphon was found (potentially) blocked, this test result would show an orange exclamation mark and information about why it’s potentially blocked (based on the heuristics of [OONI’s Psiphon test](https://ooni.org/nettest/psiphon/)).  
+If Psiphon was found (potentially) blocked, this test result would show relevant information (based on the heuristics of [OONI’s Psiphon test](https://ooni.org/nettest/psiphon/)).  
 
 Similarly, you can access [Tor](https://www.torproject.org/) test results through the circumvention results in your OONI Probe app.
 
@@ -604,7 +610,7 @@ Similarly, you can access [Tor](https://www.torproject.org/) test results throug
 
 In this case, we can see that Tor was reachable when tested on Vodafone Italia (AS30722) on 30th March 2021 at 14:58 local time. This conclusion is reached because [OONI’s Tor test](https://ooni.org/nettest/tor/) was able to successfully connect to most of the default Tor bridges and to all Tor directory authorities. 
 
-If Tor was found (potentially) blocked, this test result would show an orange exclamation mark and information about why it’s potentially blocked (based on the heuristics of [OONI’s Tor test](https://ooni.org/nettest/tor/)).  
+If Tor was found (potentially) blocked, this test result would show relevant information (based on the heuristics of [OONI’s Tor test](https://ooni.org/nettest/tor/)).  
 
 You can also access [RiseupVPN](https://riseup.net/vpn) test results through the circumvention results in your OONI Probe app.
 
@@ -612,7 +618,7 @@ You can also access [RiseupVPN](https://riseup.net/vpn) test results through the
 
 In this case, we can see that RiseupVPN was reachable when tested on Vodafone Italia (AS30722) on 30th March 2021 at 14:58 local time. This conclusion is reached because [OONI’s RiseupVPN test](https://ooni.org/nettest/riseupvpn/) was able to successfully connect to RiseupVPN’s bootstrap server and VPN gateways.
 
-If RiseupVPN was found (potentially) blocked, this test result would show an orange exclamation mark and information about why it’s potentially blocked (based on the heuristics of [OONI’s RiseupVPN test](https://ooni.org/nettest/riseupvpn/)).  
+If RiseupVPN was found (potentially) blocked, this test result would show relevant information (based on the heuristics of [OONI’s RiseupVPN test](https://ooni.org/nettest/riseupvpn/)).  
 
 In all cases, we recommend referring to OONI measurements published on [OONI Explorer](https://explorer.ooni.org/), where you can examine results in aggregate (which can help with ruling out [false positives](https://ooni.org/support/glossary/#false-positive) and confirming blocking). 
 
@@ -772,11 +778,11 @@ The automated OONI Probe testing settings have already been covered in previous 
 
 ### Privacy
 
-The Privacy section of the OONI Probe settings pertains to the publication of OONI Probe test results, and the submission of [app usage metrics and crash reports](https://ooni.org/about/data-policy).
+The Privacy section of the OONI Probe settings pertains to the publication of OONI Probe test results, and the submission of [crash reports](https://ooni.org/about/data-policy).
 
-{{<img src="images/privacy-settings-enabled.png" title="Privacy settings enabled" alt="Privacy settings enabled">}}
+{{<img src="images/new-privacy-settings-enabled.png" title="Privacy settings enabled" alt="Privacy settings enabled">}}
 
-By default, the automatic publication of your OONI Probe test results is enabled, while the submission of crash reports and app usage metrics is disabled (unless you opted-in during the onboarding). 
+By default, the automatic publication of your OONI Probe test results is enabled, while the submission of crash reports is disabled (unless you opted-in during the onboarding). 
 
 We **encourage the publication of OONI Probe test results** because they can help increase transparency of internet censorship and support the research and advocacy efforts of the internet freedom community. 
 
@@ -789,10 +795,10 @@ If you publish your OONI Probe test results, that will involve the following dat
 
 Further information is available through our [Data Policy](https://ooni.org/about/data-policy). 
 
-If you opt in to sharing crash reports with us, you will share information that is essential for identifying bugs and improving the performance of the OONI Probe app. These crash reports include the OONI Probe software version and information about why and how a specific OONI Probe function failed to work as expected. If you opt in to sharing OONI Probe app usage metrics with us, this information can help us better understand how OONI Probe is used and improve upon it. 
+If you opt in to sharing crash reports with us, you will share information that is essential for identifying bugs and improving the performance of the OONI Probe app. These crash reports include the OONI Probe software version and information about why and how a specific OONI Probe function failed to work as expected.
 
-You can opt out of publishing your OONI Probe test results and/or sharing crash reports and app usage metrics with us by disabling the relevant settings.
+You can opt out of publishing your OONI Probe test results and/or sharing crash reports with us by disabling the relevant settings.
 
-{{<img src="images/privacy-settings-disabled.png" title="Privacy settings disabled" alt="Privacy settings disabled">}}
+{{<img src="images/new-privacy-settings-disabled.png" title="Privacy settings disabled" alt="Privacy settings disabled">}}
 
 Thank you for reading this guide, and thank you for running OONI Probe!
