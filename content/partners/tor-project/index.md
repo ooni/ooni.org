@@ -2,6 +2,7 @@
 continent: Global
 country: Global
 name: The Tor Project
+title: The Tor Project
 website: https://www.torproject.org/
 reports:
 - text: "OONI Probe Tor test"

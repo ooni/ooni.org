@@ -2,6 +2,7 @@
 continent: Asia
 country: Taiwan
 name: Open Culture Foundation (OCF)
+title: Open Culture Foundation (OCF)
 website: https://ocf.tw/
 reports:
 - text: "網路自由小聚 [10月] - 動手操作網路審查分析工具 OONI"

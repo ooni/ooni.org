@@ -2,6 +2,7 @@
 continent: Africa
 country: Mali
 name: Tuwindi
+title: Tuwindi
 website: http://tuwindi.io/
 ---
 

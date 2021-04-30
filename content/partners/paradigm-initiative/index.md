@@ -2,6 +2,7 @@
 continent: Africa
 country: Nigeria
 name: Paradigm Initiative
+title: Paradigm Initiative
 website: https://paradigmhq.org/
 reports:
 - text: "Nigeria’s 2019 elections through the lens of network measurements"

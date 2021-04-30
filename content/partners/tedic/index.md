@@ -2,6 +2,7 @@
 continent: Latin America
 country: Paraguay
 name: TEDIC
+title: TEDIC
 website: https://www.tedic.org/
 ---
 

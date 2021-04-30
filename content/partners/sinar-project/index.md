@@ -2,6 +2,7 @@
 continent: Asia
 country: Malaysia
 name: Sinar Project
+title: Sinar Project
 website: https://sinarproject.org/
 reports:
 - text: "Measuring Internet Censorship in Southeast Asia"

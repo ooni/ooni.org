@@ -2,6 +2,7 @@
 continent: Global
 country: Global
 name: Localization Lab
+title: Localization Lab
 website: https://www.localizationlab.org/
 reports:
 - text: "OONI Probe app translations"

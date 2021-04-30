@@ -2,6 +2,7 @@
 continent: Asia
 country: South Korea
 name: Open Net Korea
+title: Open Net Korea
 website: http://opennetkorea.org/
 reports:
 - text: "Open Observatory Detects Censorship in Korea"

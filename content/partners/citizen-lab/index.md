@@ -2,6 +2,7 @@
 continent: Global
 country: Global
 name: The Citizen Lab
+title: The Citizen Lab
 website: https://citizenlab.ca/
 reports:
 - text: "Citizen Lab test lists"

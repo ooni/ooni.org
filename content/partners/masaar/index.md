@@ -2,6 +2,7 @@
 continent: Middle East
 country: Egypt
 name: Masaar - Technology and Law Community
+title: Masaar - Technology and Law Community
 website: https://masaar.net/
 reports:
 - text: "Egypt blocks BBC and Alhurra: Expanding media censorship amid political unrest"

@@ -2,6 +2,7 @@
 continent: Africa
 country: South Sudan
 name: The Advocates for Human Rights and Democracy (TAHURID)
+title: The Advocates for Human Rights and Democracy (TAHURID)
 website: https://www.facebook.com/TAHURIDSouthSuda/
 reports:
 - text: "South Sudan: Measuring Internet Censorship in the World's Youngest Nation"

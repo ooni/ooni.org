@@ -2,6 +2,7 @@
 continent: Latin America
 country: Argentina
 name: Asociación por los Derechos Civiles (ADC)
+title: Asociación por los Derechos Civiles (ADC)
 website: https://adc.org.ar/
 ---
 

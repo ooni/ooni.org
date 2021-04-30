@@ -2,6 +2,7 @@
 continent: Global
 country: Global
 name: Psiphon
+title: Psiphon
 website: https://psiphon.ca/
 reports:
 - text: "Psiphon Data Engine"

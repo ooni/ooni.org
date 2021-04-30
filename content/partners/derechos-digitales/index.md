@@ -2,6 +2,7 @@
 continent: Latin America
 country: Chile
 name: Derechos Digitales
+title: Derechos Digitales
 website: https://www.derechosdigitales.org/
 reports:
 - text: "Manual rápido de OONI Probe para monitorear bloqueos de sitios y servicios usando teléfonos Android"

@@ -2,6 +2,7 @@
 continent: Latin America
 country: Bolivia
 name: Fundación Internet Bolivia
+title: Fundación Internet Bolivia
 website: https://internetbolivia.org/
 ---
 

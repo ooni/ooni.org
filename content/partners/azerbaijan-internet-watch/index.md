@@ -2,6 +2,7 @@
 continent: Asia
 country: Azerbaijan
 name: Azerbaijan Internet Watch
+title: Azerbaijan Internet Watch
 website: https://www.az-netwatch.org/
 reports:
 - text: "Azərbaycan: OONI Probe Test üçün çağırış"

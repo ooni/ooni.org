@@ -2,6 +2,7 @@
 continent: Asia
 country: India
 name: Software Freedom Law Centre, India
+title: Software Freedom Law Centre, India
 website: https://sflc.in/
 reports:
 - text: "OONI Probe testing feature in Internet Shutdowns Tracker"

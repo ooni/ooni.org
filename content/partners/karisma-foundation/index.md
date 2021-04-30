@@ -2,6 +2,7 @@
 continent: Latin America
 country: Colombia
 name: Fundación Karisma
+title: Fundación Karisma
 website: https://web.karisma.org.co/
 ---
 

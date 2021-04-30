@@ -2,6 +2,7 @@
 continent: Africa
 country: Kenya
 name: Centre for Intellectual Property and Information Technology Law (CIPIT), Strathmore University
+title: Centre for Intellectual Property and Information Technology Law (CIPIT), Strathmore University
 website: http://cipit.strathmore.edu/
 reports:
 - text: "OONI Community Interviews: Moses Karanja"

@@ -2,6 +2,7 @@
 continent: Asia
 country: Myanmar
 name: Myanmar ICT for Development Organization (MIDO)
+title: Myanmar ICT for Development Organization (MIDO)
 website: https://www.facebook.com/Myanmarido/
 reports:
 - text: "The State of Internet Censorship in Myanmar"

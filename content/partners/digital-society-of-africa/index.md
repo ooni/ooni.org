@@ -2,6 +2,7 @@
 continent: Africa
 country: Zimbabwe
 name: Digital Society of Africa
+title: Digital Society of Africa
 website: https://www.digitalsociety.africa/
 reports:
 - text: "Zimbabwe protests: Social media blocking and internet blackouts"

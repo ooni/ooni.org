@@ -2,6 +2,7 @@
 continent: Latin America
 country: Venezuela
 name: IPYS Venezuela
+title: IPYS Venezuela
 website: https://ipysvenezuela.org/
 reports:
 - text: "Coordinación de la medición de la censura en Venezuela"

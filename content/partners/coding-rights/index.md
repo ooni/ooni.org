@@ -2,6 +2,7 @@
 continent: Latin America
 country: Brazil
 name: Coding Rights
+title: Coding Rights
 website: https://www.codingrights.org/
 reports:
 - text: "On the blocking of abortion rights websites: Women on Waves & Women on Web"

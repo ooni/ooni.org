@@ -2,6 +2,7 @@
 continent: Africa
 country: Cameroon
 name: Community Participation In Sustainable Development (COMPSUDEV) Cameroon
+title: Community Participation In Sustainable Development (COMPSUDEV) Cameroon
 website: https://compsudev.org/
 ---
 

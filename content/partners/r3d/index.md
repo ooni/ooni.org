@@ -2,6 +2,7 @@
 continent: Latin America
 country: Mexico
 name: Red en Defensa de los Derechos Digitales (R3D)
+title: Red en Defensa de los Derechos Digitales (R3D)
 website: https://r3d.mx/
 reports:
 - text: "AYÚDANOS A DESCUBRIR BLOQUEOS DE INFORMACIÓN SOBRE COVID-19 EN INTERNET"

@@ -2,6 +2,7 @@
 continent: Global
 country: Global
 name: Netalitica
+title: Netalitica
 website: http://netalitica.com/
 reports:
 - text: "Citizen Lab test lists"

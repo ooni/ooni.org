@@ -2,6 +2,7 @@
 continent: Global
 country: Global
 name: Internet Sans Frontières
+title: Internet Sans Frontières
 website: https://internetwithoutborders.org/
 reports:
 - text: "Advocating against Internet shutdowns in West Africa"

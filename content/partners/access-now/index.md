@@ -2,6 +2,7 @@
 continent: Global
 country: Global
 name: Access Now #KeepItOn campaign
+title: Access Now
 website: https://www.accessnow.org/keepiton/
 reports:
 - text: "Resurgence of Internet Censorship in Ethiopia: Blocking of WhatsApp, Facebook, and African Arguments"

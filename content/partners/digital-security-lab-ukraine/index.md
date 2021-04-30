@@ -2,6 +2,7 @@
 continent: East Europe
 country: Ukraine
 name: Digital Security Lab Ukraine
+title: Digital Security Lab Ukraine
 website: https://medium.com/@cyberlabukraine
 reports:
 - text: "How we tried to establish a nationwide Internet censorship measurement system in Ukraine"

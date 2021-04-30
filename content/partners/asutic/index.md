@@ -2,6 +2,7 @@
 continent: Africa
 country: Senegal
 name: ICT Users Association (ASUTIC)
+title: ICT Users Association (ASUTIC)
 website: https://asutic.org/
 ---
 

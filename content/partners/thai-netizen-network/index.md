@@ -2,6 +2,7 @@
 continent: Asia
 country: Thailand
 name: Thai Netizen Network
+title: Thai Netizen Network
 website: https://thainetizen.org/
 reports:
 - text: "The State of Internet Censorship in Thailand"

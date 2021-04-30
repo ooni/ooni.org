@@ -2,6 +2,7 @@
 continent: Africa
 country: Uganda
 name: DefendDefenders
+title: DefendDefenders
 website: https://defenddefenders.org/
 reports:
 - text: "Uganda's Social Media Tax through the lens of network measurements"
