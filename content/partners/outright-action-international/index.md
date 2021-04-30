@@ -1,8 +1,8 @@
 ---
 continent: Global
 country: Global
-title: Outright Action International
-name: Outright Action International
+title: OutRight Action International
+name: OutRight Action International
 website: https://outrightinternational.org/
 ---
 
