@@ -1,8 +1,8 @@
 ---
 continent: Global
 country: Global
-name: Internet Outage Detection & Analysis (IODA)
-title: Internet Outage Detection & Analysis (IODA)
+name: "Internet Outage Detection & Analysis (IODA)"
+title: "Internet Outage Detection & Analysis (IODA)"
 website: https://ioda.caida.org/
 reports:
 - text: "Myanmar: Data on internet blocks and internet outages following military coup"
