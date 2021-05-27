@@ -87,12 +87,12 @@ code patches.
 This work resulted in adding an **OONI backend proxy** section in the
 settings of the OONI Probe app:
 
-{{<img src="images/image-2.png" title="OONI Probe backend proxy settings" alt="OONI Probe backend proxy settings">}}
+{{<img src="images/image-2.jpg" title="OONI Probe backend proxy settings" alt="OONI Probe backend proxy settings">}}
 
 By tapping on the “OONI backend proxy” row, we will direct you to
 another screen, which allows you to choose which proxy you want to use:
 
-{{<img src="images/image-3.png" title="Choosing a proxy" alt="Choosing a proxy">}}
+{{<img src="images/image-3.jpg" title="Choosing a proxy" alt="Choosing a proxy">}}
 
 The default (`None`) is that no proxy is being used. If you choose
 `Psiphon`, OONI Probe will create a [Psiphon](https://psiphon.ca/)
