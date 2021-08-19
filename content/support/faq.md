@@ -30,7 +30,7 @@ Are there other questions you would like us to address? Please [let us know](htt
 
     * [What is OONI Probe?](#what-is-ooni-probe)
 
-    * [But my country doesn't have censorship. Why run OONI Probe?](#but-my-country-doesnt-have-censorship-why-run-ooni-probe)
+    * [My country doesn't have censorship. Why run OONI Probe?](#my-country-doesnt-have-censorship-why-run-ooni-probe)
 
     * [What do OONI Probe tests do?](#what-do-ooni-probe-tests-do)
 
@@ -44,7 +44,7 @@ Are there other questions you would like us to address? Please [let us know](htt
 
     * [How often should I run OONI Probe?](#how-often-should-i-run-ooni-probe)
 
-    * [How can I run OONI Probe daily?](#how-can-i-run-ooni-probe-daily)
+    * [How can I run OONI Probe automatically?](#how-can-i-run-ooni-probe-automatically)
 
     * [For how long should I run OONI Probe?](#for-how-long-should-i-run-ooni-probe)
 
@@ -210,17 +210,17 @@ received a fair amount of [media coverage](http://www.bbc.com/news/world-middle-
 international attention, whereas the [blocking of religious and ethnic minority sites](https://ooni.org/post/iran-internet-censorship/#human-rights-issues)
 may be less known.
 
-2. **Internet censorship often differs from network to network within
-a country.** In many countries around the world, Internet Service
-Providers (ISPs) block access to different websites, often as a result of vague government orders. A site
-that may be accessible in your network may be blocked in another.
+2. **Internet censorship often differs across networks within
+a country.** In many countries, Internet Service
+Providers (ISPs) block access to different websites, often as a result of vague government orders.
+A site may be accessible from one network and may be blocked in another.
 
-3. **Most censorship techniques are quite subtle.** When an ISP serves
-a block page, they inform you that a site is intentionally
-censored (and they often include a legal justification). Some
+3. **Most censorship techniques can be quite subtle.** When an ISP serves
+a block page, they often inform you that a site is intentionally
+censored and they often include a legal justification. Some
 ISPs, however, serve *blank* block pages which can potentially
 create ambiguity on whether a site is intentionally blocked or
-inaccessible due to other reasons (such as bad connectivity). In
+inaccessible due to other reasons (such as a technical problem). In
 many countries, ISPs don’t serve block pages at all. Rather, they
 block sites by entirely different means (such as DNS tampering,
 TCP/IP blocking, or RST injection) which don’t inform users, nor
@@ -382,7 +382,7 @@ measurement tests. If this interests you, [please reach out](https://ooni.org/ab
 OONI Probe is [free and open source software](https://github.com/ooni/probe) designed to measure internet
 censorship and other forms of network interference.
 
-### But my country doesn’t have censorship. Why run OONI Probe?
+### My country doesn’t have censorship. Why run OONI Probe?
 
 We think it’s important to measure networks for censorship in every
 country of the world (regardless of whether cases of internet censorship
@@ -407,7 +407,7 @@ network issues).
 
 * As long as there is no transparency, governments and Internet
 Service Providers (ISPs) can potentially seek *plausible
-deniability* (especially if it’s not clear that a service is
+deniability* (especially when is not clear if a service is
 intentionally blocked).
 
 * We consider it **good democratic practice to keep those in power to
@@ -513,15 +513,18 @@ settings). Your results will automatically get
 
 ### How often should I run OONI Probe?
 
-As often as possible. Internet censorship can emerge abruptly, while the
+As often as possible. [Internet](Internet) censorship can emerge abruptly, while the
 blocking and unblocking of internet services may change over time.
 
-To more effectively track internet censorship, you would ideally run
-OONI Probe every day.
+Ideally you could enable automated testing on Android, Desktop and Linux probes.
 
-### How can I run OONI Probe daily?
+### How can I run OONI Probe automatically?
 
-We are adding support for [automatic daily testing](https://github.com/ooni/probe/issues/916). Stay tuned!
+On the Android Probe, under Settings > Automated testings. You can run the tests
+only when on WiFi and/or charging or always.
+It is similar on the Desktop probe.
+
+The Linux CLI probe runs automatically when installed using the .deb package.
 
 ### For how long should I run OONI Probe?
 
