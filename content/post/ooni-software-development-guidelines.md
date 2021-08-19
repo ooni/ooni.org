@@ -89,7 +89,7 @@ To go back to the testing pyramid above, the reason to have more unit tests than
 
 At OONI we have all our unit & integration tests run as part of a commit hook on the continuous integration system we use for each repository (typically GitHub Actions, Travis CI, or Circle CI). This allows us to ensure that, at the very least, the tests are passing before anything is merged into *main*.
 
-**A branch cannot be merged into *main* until the failing travis checks are resolved.**
+**A branch cannot be merged into *main* until the failing CI checks are resolved.**
 
 There are different tools for implementing unit & integration tests for a variety of different languages. Find a tool which works for the language (or framework) you are developing for and familiarise yourself with them.
 
