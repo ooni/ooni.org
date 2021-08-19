@@ -1,6 +1,6 @@
 ---
 title: "Mining OONI data"
-author: "Leonid Evdokimov, Arturo Filastò, Federico Ceratto"
+author: "Federico Ceratto"
 date: "2021-07-18"
 tags: ["technology"]
 categories: ["blog"]
@@ -8,31 +8,31 @@ categories: ["blog"]
 
 OONI receives measurement data from the OONI Probes and processes it in real time to detect censorship.
 
-There are different ways to access the output of the processing: [OONI Explorer](https://explorer.ooni.io/), the [OONI API](https://api.ooni.io/) and
+There are different ways to access the output of the processing: [OONI Explorer](https://explorer.ooni.org/), the [OONI API](https://api.ooni.io/) and
 dumps of the PostgreSQL database.
 
-[OONI Explorer](https://explorer.ooni.io/) provides a user-friendly web interface for all visitors.
+[OONI Explorer](https://explorer.ooni.org/) provides a user-friendly web interface to all visitors.
 
-The [OONI API](https://api.ooni.io/) is meant for developers and researches and allows searching for
-measurement metadata, fetching single measurements, and generating statistics.
+The [OONI API](https://api.ooni.io/) is meant for developers and researches and allows [searching for
+measurement metadata](https://api.ooni.io/apidocs/#/default/get_api_v1_measurements), [fetching single measurements](https://api.ooni.io/apidocs/#/default/get_api_v1_measurement_meta), and [generating statistics](https://api.ooni.io/apidocs/#/default/get_api_v1_aggregation).
 Hovever, is not designed for large data transfers (i.e. extracting tenths of thousands
  measurements or many GB of data) and the API is rate limited.
 
 The API uses a PostgreSQL database as its main data source. Regular dumps of the database will be made
-available in future.
+available in the future.
 
 Finally, researchers can access the raw measurement data from an S3 bucket. This can be used
 to implement your own detection algorithms or run our data processing tools on your own hardware.
 
 We process and publish measurements in realtime to provide transparency. The methodology, alghoritms,
-and software developed by us is also published.
+and software developed by us is also [published](https://github.com/ooni/).
 We encourage researchers to replicate our findings.
 
 Please [contact us](/about/#contact) if you need any clarification or database dumps.
 
 ## Accessing raw measurement data
 
-"raw measurement data" refers to data structures uploaded by OONI Probes run by volunteers to the
+"Raw measurement data" refers to data structures uploaded by OONI Probes run by volunteers to the
 processing pipeline.
 
 Thanks to the [Amazon Open Data program](https://aws.amazon.com/government-education/open-data/), the whole OONI dataset
@@ -46,15 +46,18 @@ once a measurement is accepted it will be published on S3.
 The measureement is also processed by the [fastpath] and made immediately available on OONI Explorer.
 See the "receive_measurement" function in the probe_services.py file in the API codebase for details.
 
+Specifications of the raw measurement data can be found inside of the [ooni/spec](https://github.com/ooni/spec) repository.
 
-## Files paths in the S3 bucket in JSONL format
+## File paths in the S3 bucket in JSONL format
 
 Contains a JSON document for each measurement, separated by newline and compressed, for easy processing.
 The path structure allows to easily select, identify and download data based on the researcher's needs.
-In the path templates `cc` is an uppercase 2 letter country code,
-`testname` is a test name where underscores are removed
-`timestamp` is a `YYYYMMDD` timestamp
-`name` is a unique filename.
+
+In the path template:
+- `cc` is an uppercase [2 letter country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
+- `testname` is a test name where underscores are removed
+- `timestamp` is a `YYYYMMDD` timestamp
+- `name` is a unique filename
 
 ### Compressed JSONL from measurements before 20201021
 
