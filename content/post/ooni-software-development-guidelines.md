@@ -87,7 +87,7 @@ Every software project is different and there is no “one-size fits all” appr
 
 To go back to the testing pyramid above, the reason to have more unit tests than integration tests is that generally integration tests are more prone to breaking when changes are made to the software. Moreover, they generally take more time to run, making it less likely for developers to run them as often (for example, automatically as you save your code). They are also more likely to exhibit non deterministic failure, reducing the confidence in testing.
 
-At OONI we have all our unit & integration tests run as part of a commit hook on the continuous integration system we use for each repository (typically GitHub Actions, Travis CI, or Circle CI). This allows us to ensure that, at the very least, the tests are passing before anything is merged into *main*.
+At OONI we have all our unit & integration tests run as part of a commit hook on the continuous integration (CI) system we use for each repository (typically GitHub Actions, Travis CI, or Circle CI). This allows us to ensure that, at the very least, the tests are passing before anything is merged into *main*.
 
 **A branch cannot be merged into *main* until the failing CI checks are resolved.**
 
