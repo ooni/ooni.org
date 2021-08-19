@@ -73,7 +73,7 @@ OONI Probe can test multiple protocols and includes a variety of different [test
 * Speed and performance of tested networks;
 * Video-streaming performance.
 
-The OONI Probe app communicates with the OONI backend: a centralized service that receives network measurement data from the probes, processes it, and provides public access to it through [OONI Explorer](https://explorer.ooni.io/) and the [OONI API](https://api.ooni.io/).
+The OONI Probe app communicates with the OONI backend: a centralized service that receives network measurement data from the probes, processes it, and provides public access to it through [OONI Explorer](https://explorer.ooni.org/) and the [OONI API](https://api.ooni.io/).
 
 OONI Probe test results are called "measurements", and they are automatically processed by the OONI backend to detect blocking in real-time.
 
