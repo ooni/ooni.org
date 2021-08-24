@@ -7,6 +7,8 @@ tags: ["zambia", "censorship", "elections", "country-zm"]
 categories: ["report"]
 ---
 
+{{<img src="images/zm-whatsapp-measurement.png" title="Blocking of WhatsApp" alt="Blocking of WhatsApp">}}
+
 Recently, on 12th August 2021, [general elections](https://www.elections.org.zm/category/2021-general-election/)
 were held in Zambia, during which access to popular online social media
 platforms was [reportedly blocked](https://edition.cnn.com/2021/08/12/africa/zambia-election-social-media-blackout-intl/index.html).
