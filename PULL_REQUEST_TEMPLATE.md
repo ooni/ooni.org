@@ -1,0 +1,2 @@
+- [ ] make sure that outreach happens
+- [ ] when merging, double check that the publication date is today
