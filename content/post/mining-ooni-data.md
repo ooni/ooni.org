@@ -43,7 +43,7 @@ A single chunk of data is called "a measurement" and its uncompressed size can v
 Probes usually upload multiple measurements on each execution. Measurements are stored temporarily and then batched together, compressed and uploaded to the S3 bucket once every hour. To ensure transparency, incoming measurements go through basic content validation and the API returns success or error;
 once a measurement is accepted it will be published on S3.
 
-OONI measurements are also processed by the [fastpath](https://github.com/ooni/pipeline/tree/master/af/fastpath) and made immediately available on OONI Explorer. See the "receive_measurement" function in the probe_services.py file in the API codebase for details.
+OONI measurements are also processed by the fastpath and made immediately available on OONI Explorer. See the "receive_measurement" function in the probe_services.py file in the API codebase for details.
 
 Specifications of the raw measurement data can be found inside of the [ooni/spec](https://github.com/ooni/spec) repository.
 
