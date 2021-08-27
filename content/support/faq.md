@@ -407,7 +407,7 @@ network issues).
 
 * As long as there is no transparency, governments and Internet
 Service Providers (ISPs) can potentially seek *plausible
-deniability* (especially when is not clear if a service is
+deniability* (especially when it's not clear if a service is
 intentionally blocked).
 
 * We consider it **good democratic practice to keep those in power to
@@ -513,18 +513,18 @@ settings). Your results will automatically get
 
 ### How often should I run OONI Probe?
 
-As often as possible. [Internet](Internet) censorship can emerge abruptly, while the
+As often as possible. Internet censorship can emerge abruptly, while the
 blocking and unblocking of internet services may change over time.
 
 Ideally you could enable automated testing on Android, Desktop and Linux probes.
 
 ### How can I run OONI Probe automatically?
 
-On the Android Probe, under Settings > Automated testings. You can run the tests
-only when on WiFi and/or charging or always.
-It is similar on the Desktop probe.
+You can enable the "Automated testing" settings in the [OONI Probe apps](https://ooni.org/support/ooni-probe-desktop#automated-ooni-probe-testing).
 
-The Linux CLI probe runs automatically when installed using the .deb package.
+In these settings, you have the option to only have OONI Probe run automatically when you're connected to WiFi and/or your device is charging.
+
+The [Linux OONI Probe CLI](https://ooni.org/install/cli/ubuntu-debian) runs automatically when installed using the .deb package.
 
 ### For how long should I run OONI Probe?
 
