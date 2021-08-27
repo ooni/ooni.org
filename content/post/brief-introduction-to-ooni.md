@@ -1,7 +1,7 @@
 ---
 title: "A brief introduction to OONI"
 author: "Federico Ceratto"
-date: "2021-07-20"
+date: "2021-08-24"
 tags: ["technology"]
 categories: ["blog"]
 ---
