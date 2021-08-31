@@ -45,7 +45,11 @@ following tables.
 
 {{<img src="images/summary-table-1.png" title="Summary Table 1" alt="Summary Table 1">}}
 
+**Image:** Table 1: Summary of findings 
+
 {{<img src="images/summary-table-2.png" title="Summary Table 2" alt="Summary Table 2">}}
+
+**Image:** Table 2: Summary of findings 
 
 Overall, through OONI data analysis we found:
 
