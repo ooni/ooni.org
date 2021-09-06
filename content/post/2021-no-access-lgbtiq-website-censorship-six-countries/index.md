@@ -13,7 +13,7 @@ Today, in collaboration with [OutRight Action International](https://outrightint
 which examines the blocking of LGBTIQ websites in Indonesia, Malaysia,
 Iran, Russia, Saudi Arabia, and the United Arab Emirates (UAE).
 
-**[READ FULL REPORT](/documents/2021-lgbtiq-website-censorship-report/2021-lgbtiq-website-censorship-report.pdf)**
+**[READ FULL REPORT](/documents/2021-lgbtiq-website-censorship-report/2021-lgbtiq-website-censorship-report-v2.pdf)**
 
 [Annotated Bibliography](/documents/2021-lgbtiq-website-censorship-report/annotated-bibliography.pdf)
 
@@ -155,7 +155,7 @@ the UAE, we also observed blocking using a tool manufactured by
 Netsweeper, which is a Canadian company that sells internet
 filtering products to ISPs around the world.
 
-Further details are available through our **[report](/documents/2021-lgbtiq-website-censorship-report/2021-lgbtiq-website-censorship-report.pdf)**.
+Further details are available through our **[report](/documents/2021-lgbtiq-website-censorship-report/2021-lgbtiq-website-censorship-report-v2.pdf)**.
 
 We thank OONI Probe users who contributed measurements, supporting this
 study.
