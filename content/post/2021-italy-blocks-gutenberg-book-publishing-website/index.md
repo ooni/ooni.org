@@ -67,8 +67,8 @@ online fraud. The judge assigned to the case (on 5th May 2020) requested
 the temporary seizure of the domain (“sequestro preventivo mediante
 oscuramento” ex. Art. 321 c.p.). The provision has been applied to
 several Telegram channels and some internet sites involved in sharing
-journals, books, [with profit motives (personal data collection used
-for advertising) by the software “Teleport Ultra”, in violation of art. 16 L. 633/1941](https://xmau.com/wp/notiziole/2020/06/04/repubblica-italiana-contro-project-gutenberg-un-case-study/).
+journals, books, with [profit motives](https://xmau.com/wp/notiziole/2020/06/04/repubblica-italiana-contro-project-gutenberg-un-case-study/) (personal data collection used
+for advertising) by the software “Teleport Ultra”, in violation of art. 16 L. 633/1941.
 The decree has been sent to Italian Internet Service Providers (ISPs)
 for enforcement and by mid-May 2020, all the sites included in the list
 have been blocked, one of which was gutenberg.org.
