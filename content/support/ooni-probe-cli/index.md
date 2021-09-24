@@ -41,6 +41,7 @@ All measurements collected through the OONI Probe CLI are automatically publishe
 OONI Probe is [free and open source software](https://github.com/ooni/probe) designed to measure internet censorship and other forms of network interference. Since 2012, this software has been developed by the [Open Observatory of Network Interference (OONI)](https://ooni.org/), a non-profit project that was originally born out of the [Tor Project](https://www.torproject.org/).
 
 With the [OONI Probe Command Line Interface](https://ooni.org/install/cli) (available for macOS and Linux), you can run [network measurement tests](https://ooni.org/nettest/) to check the following:
+
 * Blocking of [websites](https://ooni.org/nettest/web-connectivity/);
 * Blocking of instant messaging apps ([WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/), [Signal](https://ooni.org/nettest/signal));
 * Blocking of circumvention tools ([Tor](https://ooni.org/nettest/tor/), [Psiphon](https://ooni.org/nettest/psiphon/), [RiseupVPN](https://ooni.org/nettest/riseupvpn/));
@@ -50,6 +51,7 @@ With the [OONI Probe Command Line Interface](https://ooni.org/install/cli) (avai
 As soon as you run OONI Probe, your test results are automatically sent to OONI servers, [processed](https://github.com/ooni/pipeline), and [openly published](https://ooni.org/data/) in near real-time.
 
 OONI [openly publishes OONI Probe test results](https://ooni.org/data/) gathered from around the world to:
+
 * Increase **transparency of internet censorship** worldwide;
 * Share **evidence of internet censorship** and other forms of network interference;
 * Enable the **independent verification** of OONI censorship findings;
@@ -62,6 +64,7 @@ To enable public access to OONI Probe test results (more commonly referred to as
 As [OONI Explorer](https://explorer.ooni.org/) hosts more than 400 million network measurements collected from 23,000 networks in 240 countries and territories since 2012, it is likely the **largest global open data resource on internet censorship** to date.
 
 By running OONI Probe, you will:
+
 * Learn whether and how your Internet Service Provider (ISP) is censoring access to specific websites and apps;
 * Contribute measurements that will be publicly archived, enabling the global internet freedom community to monitor, detect, and fight against internet censorship.
 
@@ -73,6 +76,7 @@ This guide aims to walk you through using the [OONI Probe Command Line Interface
 As OONI Probe is designed to measure internet censorship, running it may be [risky](https://ooni.org/about/risks/) for some people in some countries.
 
 Some things to take into account:
+
 * **OONI Probe is not a privacy tool.** Anyone monitoring your internet activity (e.g. government, ISP, employer) may see that you are running OONI Probe (just the way they can probably see all other software you run).
 * **OONI Probe is an investigatory tool.** Some OONI Probe tests are explicitly designed to uncover internet censorship.
 * **[Your threat model](https://www.eff.org/keeping-your-site-alive/evaluating-your-threat-model).** A high-profile activist already under heavy surveillance, for example, might attract more attention when running OONI Probe.
@@ -168,7 +172,7 @@ ooniprobe list
 This command will generate an output similar to what is illustrated below.
 
 
-![ooniprobe list command output](images/image2.png)
+{{<img src="images/image2.png" title="ooniprobe list command output" alt="ooniprobe list command output">}}
 
 
 Each row in the listing is called a result. You can display the detail of an individual result by looking them up with their numerical ID.
@@ -182,7 +186,7 @@ ooniprobe list 4
 This will generate output similar to what is shown below.
 
 
-![ooniprobe list 4 command output](images/image3.png)
+{{<img src="images/image3.png" title="ooniprobe list 4 command output" alt="ooniprobe list 4 command output">}}
 
 In this view you are presented a list of individual OONI Probe measurements. 
 
