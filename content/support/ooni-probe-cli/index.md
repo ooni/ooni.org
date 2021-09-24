@@ -316,9 +316,9 @@ This command starts the onboarding process which informs the user of the potenti
 This command will perform a hard reset of the ooniprobe installation, deleting the home directory and all relevant data.
 
 
-### ooniprobe rm &lt;result_id>
+### ooniprobe rm `<result_id>`
 
-This command will delete the experiment result with the specified result_id.
+This command will delete the experiment result with the specified `result_id`.
 
 
 ### ooniprobe run
@@ -376,11 +376,8 @@ This command is the entry point used for unattended runs (i.e. those triggered b
 Measuring the blocking of a custom URL:
 
 ```
-
-ooniprobe run websites --input [https://ooni.org/](https://ooni.org/)
-
+ooniprobe run websites --input https://ooni.org/
 ```
-
 
 ### ooniprobe show &lt;msmt_id>
 
