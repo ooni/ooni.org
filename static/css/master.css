@@ -999,3 +999,34 @@ p.test-paragraph {
 .app-store-badge:hover img {
     opacity: 0.8;
 }
+
+
+/* ================================================================== */
+/* theme */
+
+@media (prefers-color-scheme: dark) {
+  html,body {
+    background: #333;
+    color: #cecece;
+  }
+
+  a {
+    color: #4fbef7;
+  }
+
+  a:hover {
+    color: #9ed9f7;
+  }
+
+  pre {
+    background-color: #3e3e3e;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    color: #1c1c1c;
+    background-color: #fff;
+  }
+}
+

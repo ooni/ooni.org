@@ -10,7 +10,10 @@
 
   <link rel="canonical" href="https://ooni.org{{ .RelPermalink }}" />
   <meta name='description' content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
-
+  
+  <meta name="theme-color" content="#FFFFFF">
+  <meta name="color-scheme" content="light dark">
+  
   {{ partial "opengraph.html" . }}
   {{ partial "twitter_cards.html" . }}
 
