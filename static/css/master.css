@@ -2,16 +2,50 @@
 /* Resets */
 
 /* ================================================================== */
+/* theme */
+
+:root {
+  --body-background: #fff;
+  --body-font-color: #1c1c1c;
+  --link: #0588cb;
+  --link-hover: #0056b3;
+  --pre-bg: #f2f2f2;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --body-background: #fff;
+    --body-font-color: #1c1c1c;
+    --link: #0588cb;
+    --link-hover: #0056b3;
+    --pre-bg: #f2f2f2;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-background: #333;
+    --body-font-color: #cecece;
+    --link: #4fbef7;
+    --link-hover: #9ed9f7;
+    --pre-bg: #3e3e3e;
+  }
+}
+
+/* ================================================================== */
 /* Font selection */
 
 html {
-  color: #1c1c1c;
-  background-color: #fff;
+  color: var(--body-font-color);
+  background-color: var(--body-background);
 }
 
 body {
   overflow-x: hidden;
   font-family: "Fira Sans", sans-serif;
+  color: var(--body-font-color);
+  background-color: var(--body-background);
 }
 
 h1, h2, h3, h4, h5, nav, .toc {
@@ -113,7 +147,11 @@ h2.overlined {
 
 a {
   text-decoration: none;
-  color: #0588cb;
+  color: var(--link);
+}
+
+a:hover {
+  color: var(--link-hover);
 }
 
 p, ol, ul {
@@ -173,7 +211,7 @@ a.explorer-button:hover {
 }
 
 pre {
-  background-color: #f2f2f2;
+  background-color: var(--pre-bg);
   padding: 0.5rem 1rem;
   margin: 1.6rem 0;
   position: relative;
@@ -999,34 +1037,3 @@ p.test-paragraph {
 .app-store-badge:hover img {
     opacity: 0.8;
 }
-
-
-/* ================================================================== */
-/* theme */
-
-@media (prefers-color-scheme: dark) {
-  html,body {
-    background: #333;
-    color: #cecece;
-  }
-
-  a {
-    color: #4fbef7;
-  }
-
-  a:hover {
-    color: #9ed9f7;
-  }
-
-  pre {
-    background-color: #3e3e3e;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  html {
-    color: #1c1c1c;
-    background-color: #fff;
-  }
-}
-
