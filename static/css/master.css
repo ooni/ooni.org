@@ -33,6 +33,22 @@
   }
 }
 
+.light {
+  --body-background: #fff;
+  --body-font-color: #1c1c1c;
+  --link: #0588cb;
+  --link-hover: #0056b3;
+  --pre-bg: #f2f2f2;
+}
+
+.dark {
+  --body-background: #333;
+  --body-font-color: #cecece;
+  --link: #4fbef7;
+  --link-hover: #9ed9f7;
+  --pre-bg: #3e3e3e;
+}
+
 /* ================================================================== */
 /* Font selection */
 
@@ -472,6 +488,16 @@ nav.navbar {
 
 .nav-menu-brand a.active {
   opacity: 1;
+}
+
+.nav-menu-toggle-theme {
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.nav-menu-toggle-theme:hover {
+  filter: invert(1);
 }
 
 .nav-menu-install {
