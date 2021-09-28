@@ -25,11 +25,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --body-background: #333;
-    --body-font-color: #cecece;
-    --link: #4fbef7;
-    --link-hover: #9ed9f7;
-    --pre-bg: #3e3e3e;
+    --body-background: #343a40;
+    --body-font-color: #dee2e6;
+    --link: #5db8fe;
+    --link-hover: #94d1ff;
+    --pre-bg: #495057;
   }
 }
 
@@ -42,11 +42,11 @@
 }
 
 .dark {
-  --body-background: #333;
-  --body-font-color: #cecece;
-  --link: #4fbef7;
-  --link-hover: #9ed9f7;
-  --pre-bg: #3e3e3e;
+  --body-background: #343a40;
+  --body-font-color: #dee2e6;
+  --link: #5db8fe;
+  --link-hover: #94d1ff;
+  --pre-bg: #495057;
 }
 
 /* ================================================================== */
