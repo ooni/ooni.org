@@ -3,7 +3,12 @@
   <main class="col mt-5 pr-5">
     <div class="row">
       <div class="col text-center">
-        <img src="/install/index.svg" style="max-width: 332px;"/>
+        <picture>
+          <source srcset="/install/OONI-logo-horizontal.svg" 
+            media="(prefers-color-scheme: light) or (prefers-color-scheme: no-preference)">
+          <source srcset="/install/OONI-logo-horizontal-inverted.svg" media="(prefers-color-scheme: dark)">    
+          <img src="/install/OONI-logo-horizontal.svg" style="max-width: 332px;" alt="OONI logo">
+        </picture>
         <h1 class="article-title">{{ .Params.leadTitle }}</h1>
         <p class="lead">{{ .Params.leadDescription }}</p>
       </div>
