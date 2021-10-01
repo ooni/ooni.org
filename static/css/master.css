@@ -13,6 +13,7 @@
   --base-blue: #0588cb;
   --feature-bg-color: #F1F3F5;
   --partner-logo-color: unset;
+  --button-hover-color: #FFF;
 }
 
 
@@ -26,6 +27,7 @@
     --base-blue: #0588cb;
     --feature-bg-color: #F1F3F5;
     --partner-logo-color: unset;
+    --button-hover-color: #FFF;
   }
 }
 
@@ -39,6 +41,7 @@
     --base-blue: #056aa6;
     --feature-bg-color: #495057;
     --partner-logo-color: #dee2e6;
+    --button-hover-color: #dee2e6;
   }
 }
 
@@ -51,6 +54,7 @@
   --base-blue: #0588cb;
   --feature-bg-color: #F1F3F5;
   --partner-logo-color: unset;
+  --button-hover-color: #FFF;
 }
 
 .dark {
@@ -62,6 +66,7 @@
   --base-blue: #056aa6;
   --feature-bg-color: #495057;
   --partner-logo-color: #dee2e6;
+  --button-hover-color: #dee2e6;
 }
 
 /* ================================================================== */
@@ -240,6 +245,7 @@ th, td {
 
 a.explorer-button {
   border: 2px solid #ffffff;
+  border: 2px solid var(--button-hover-color);
   background-color: #0588cb;
   background-color: var(--base-blue);
 }
@@ -249,6 +255,7 @@ a.explorer-button:hover {
   color: #0588cb;
   color: var(--base-blue);
   background-color: #ffffff;
+  background-color: var(--button-hover-color);
 }
 
 pre {
@@ -1092,6 +1099,7 @@ p.test-paragraph {
   border: #0588cb solid 1px;
   border: var(--base-blue) solid 1px;
   background: white;
+  background: var(--button-hover-color);
   cursor: pointer;
   transition: .1s;
 }
