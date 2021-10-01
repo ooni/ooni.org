@@ -180,9 +180,7 @@ h2.overlined {
   font-size: 0.95rem;
   font-weight: bold;
   color: #0588cb;
-  color: var(--base-blue);
   border-top: 0.2rem solid #0588cb;
-  border-top: 0.2rem solid var(--base-blue);
   padding-top: 0.2rem;
   margin: 0 0 1rem;
 }
@@ -642,7 +640,7 @@ h1.article-title {
 
 .read-more {
 	color: #0588cb!important;
-	color: var(--base-blue)!important;
+	color: var(--link)!important;
 }
 
 
