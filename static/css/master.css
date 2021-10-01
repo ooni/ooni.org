@@ -53,14 +53,18 @@
 /* Font selection */
 
 html {
+  color: #1c1c1c;
   color: var(--body-font-color);
+  background-color: #fff;
   background-color: var(--body-background);
 }
 
 body {
   overflow-x: hidden;
   font-family: "Fira Sans", sans-serif;
+  color: #1c1c1c;
   color: var(--body-font-color);
+  background-color: #fff;
   background-color: var(--body-background);
 }
 
@@ -163,10 +167,12 @@ h2.overlined {
 
 a {
   text-decoration: none;
+  color: #0588cb;
   color: var(--link);
 }
 
 a:hover {
+  color: #0056b3;
   color: var(--link-hover);
 }
 
@@ -227,6 +233,7 @@ a.explorer-button:hover {
 }
 
 pre {
+  background-color: #f2f2f2;
   background-color: var(--pre-bg);
   padding: 0.5rem 1rem;
   margin: 1.6rem 0;
