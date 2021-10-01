@@ -10,6 +10,7 @@
   --link: #0588cb;
   --link-hover: #0056b3;
   --pre-bg: #f2f2f2;
+  --base-blue: #0588cb;
 }
 
 
@@ -20,6 +21,7 @@
     --link: #0588cb;
     --link-hover: #0056b3;
     --pre-bg: #f2f2f2;
+    --base-blue: #0588cb;
   }
 }
 
@@ -30,6 +32,7 @@
     --link: #5db8fe;
     --link-hover: #94d1ff;
     --pre-bg: #495057;
+    --base-blue: #056aa6;
   }
 }
 
@@ -39,6 +42,7 @@
   --link: #0588cb;
   --link-hover: #0056b3;
   --pre-bg: #f2f2f2;
+  --base-blue: #0588cb;
 }
 
 .dark {
@@ -47,6 +51,7 @@
   --link: #5db8fe;
   --link-hover: #94d1ff;
   --pre-bg: #495057;
+  --base-blue: #056aa6;
 }
 
 /* ================================================================== */
@@ -160,7 +165,9 @@ h2.overlined {
   font-size: 0.95rem;
   font-weight: bold;
   color: #0588cb;
+  color: var(--base-blue);
   border-top: 0.2rem solid #0588cb;
+  border-top: 0.2rem solid var(--base-blue);
   padding-top: 0.2rem;
   margin: 0 0 1rem;
 }
@@ -224,11 +231,13 @@ th, td {
 a.explorer-button {
   border: 2px solid #ffffff;
   background-color: #0588cb;
+  background-color: var(--base-blue);
 }
 
 a.explorer-button:hover {
   text-decoration: none;
   color: #0588cb;
+  color: var(--base-blue);
   background-color: #ffffff;
 }
 
@@ -264,8 +273,10 @@ code {
   font-weight: 600;
   text-decoration: none;
   color: #0588cb;
+  color: var(--base-blue);
   background-color: white;
   border: 1px solid #0588cb;
+  border: 1px solid var(--base-blue);
   text-align: center;
   letter-spacing: .5px;
   cursor: pointer;
@@ -275,7 +286,9 @@ code {
 .ooni-btn:hover {
     color: white;
     border: 1px solid #0588cb;
+    border: 1px solid var(--base-blue);
     background-color: #0588cb;
+    background-color: var(--base-blue);
 }
 
 .square-btn {
@@ -284,6 +297,7 @@ code {
   outline: 0;
   text-decoration: none;
   background-color: #0588cb;
+  background-color: var(--base-blue);
   color: white;
   text-align: center;
   letter-spacing: .5px;
@@ -384,6 +398,7 @@ table {
 th {
   color: #fff;
   background: #0588CB;
+  background: var(--base-blue);
   border-right: 1px dashed #fff;
   font-size: 1em;
   font-weight: 500;
@@ -454,6 +469,7 @@ nav.navbar {
   position: relative;
   z-index: 10;
   background-color: #0588cb;
+  background-color: var(--base-blue);
   color: #fff;
   padding-bottom: 10px;
 }
@@ -554,6 +570,7 @@ header .wordmark {
 /* How it works */
 .homepage .ooni-explorer {
   background-color: #0588cb;
+  background-color: var(--base-blue);
   color: #fff;
   margin-bottom: 3.5rem;
 }
@@ -564,6 +581,7 @@ header .wordmark {
 
 .blue-bg-section {
   background-color: #0588cb;
+  background-color: var(--base-blue);
   color: #fff;
 }
 
@@ -607,6 +625,7 @@ h1.article-title {
 
 .read-more {
 	color: #0588cb!important;
+	color: var(--base-blue)!important;
 }
 
 
@@ -786,6 +805,7 @@ div.ooni-team-member {
   width: 100%;
   height: 20rem;
   background-color: #0588cb;
+  background-color: var(--base-blue);
   margin-top: 0.24rem;
 }
 
@@ -851,6 +871,7 @@ pre span.lw {
 .toc .active {
   font-weight: bold;
   color: #0588cb;
+  color: var(--base-blue);
 }
 
 .toc a {
@@ -1047,8 +1068,10 @@ p.test-paragraph {
 
 .question-container {
   border: #0588cb solid 1px;
+  border: var(--base-blue) solid 1px;
   border-radius: 10px;
   background: #0588cb;
+  background: var(--base-blue);
   transition: .1s;
 }
 
@@ -1059,6 +1082,7 @@ p.test-paragraph {
 
 .question-container:hover {
   border: #0588cb solid 1px;
+  border: var(--base-blue) solid 1px;
   background: white;
   cursor: pointer;
   transition: .1s;
@@ -1066,6 +1090,7 @@ p.test-paragraph {
 
 .question-container:hover > a {
   color: #0588cb;
+  color: var(--base-blue);
   transition: .1s;
   text-decoration: none;
 }
