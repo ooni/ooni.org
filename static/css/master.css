@@ -11,6 +11,7 @@
   --link-hover: #0056b3;
   --pre-bg: #f2f2f2;
   --base-blue: #0588cb;
+  --base-blue-hover: #056aa6;
   --feature-bg-color: #F1F3F5;
   --partner-logo-color: unset;
   --button-hover-color: #FFF;
@@ -25,6 +26,7 @@
     --link-hover: #0056b3;
     --pre-bg: #f2f2f2;
     --base-blue: #0588cb;
+    --base-blue-hover: #056aa6;
     --feature-bg-color: #F1F3F5;
     --partner-logo-color: unset;
     --button-hover-color: #FFF;
@@ -39,6 +41,7 @@
     --link-hover: #94d1ff;
     --pre-bg: #495057;
     --base-blue: #056aa6;
+    --base-blue-hover: #0588cb;
     --feature-bg-color: #495057;
     --partner-logo-color: #dee2e6;
     --button-hover-color: #dee2e6;
@@ -52,6 +55,7 @@
   --link-hover: #0056b3;
   --pre-bg: #f2f2f2;
   --base-blue: #0588cb;
+  --base-blue-hover: #056aa6;
   --feature-bg-color: #F1F3F5;
   --partner-logo-color: unset;
   --button-hover-color: #FFF;
@@ -64,6 +68,7 @@
   --link-hover: #94d1ff;
   --pre-bg: #495057;
   --base-blue: #056aa6;
+  --base-blue-hover: #0588cb;
   --feature-bg-color: #495057;
   --partner-logo-color: #dee2e6;
   --button-hover-color: #dee2e6;
@@ -290,6 +295,7 @@ code {
   color: #0588cb;
   color: var(--base-blue);
   background-color: white;
+  background-color: var(--body-font-color);
   border: 1px solid #0588cb;
   border: 1px solid var(--base-blue);
   text-align: center;
@@ -325,6 +331,7 @@ code {
 
 .square-btn:hover {
   background-color: #056aa6;
+  background-color: var(--base-blue-hover);
   text-decoration: none;
   color: white;
 }
@@ -723,6 +730,11 @@ h1.article-title {
 
 .partner-country {
   color: #000;
+}
+
+.partner-page-details .partner-country {
+  color: #000;
+  color: var(--body-font-color);
 }
 
 .partner-page-logo {
