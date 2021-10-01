@@ -12,6 +12,7 @@
   --pre-bg: #f2f2f2;
   --base-blue: #0588cb;
   --feature-bg-color: #F1F3F5;
+  --partner-logo-color: unset;
 }
 
 
@@ -24,6 +25,7 @@
     --pre-bg: #f2f2f2;
     --base-blue: #0588cb;
     --feature-bg-color: #F1F3F5;
+    --partner-logo-color: unset;
   }
 }
 
@@ -36,6 +38,7 @@
     --pre-bg: #495057;
     --base-blue: #056aa6;
     --feature-bg-color: #495057;
+    --partner-logo-color: #dee2e6;
   }
 }
 
@@ -47,6 +50,7 @@
   --pre-bg: #f2f2f2;
   --base-blue: #0588cb;
   --feature-bg-color: #F1F3F5;
+  --partner-logo-color: unset;
 }
 
 .dark {
@@ -57,6 +61,7 @@
   --pre-bg: #495057;
   --base-blue: #056aa6;
   --feature-bg-color: #495057;
+  --partner-logo-color: #dee2e6;
 }
 
 /* ================================================================== */
@@ -696,6 +701,8 @@ h1.article-title {
   bottom: 10px;
   justify-content: space-between;
   align-items: center;
+  background-color: unset;
+  background-color: var(--partner-logo-color);
 }
 
 .partner-page-logo {
@@ -703,6 +710,8 @@ h1.article-title {
   justify-content: space-between;
   align-items: center;
   width: 200px;
+  background-color: unset;
+  background-color: var(--partner-logo-color);
   height: 180px;
   border: 1px solid rgba(0,0,0,0.2);
   border-radius: 4px;
@@ -725,6 +734,7 @@ h1.article-title {
 .back-link {
   font-weight: bold;
   color: black;
+  color: var(--body-font-color);
 }
 
 .stat-box {
