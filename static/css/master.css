@@ -770,15 +770,6 @@ div.ooni-team-member {
   display: block;
 }
 
-.ooni-team-member .pgp-fingerprint {
- word-break: break-all;
-}
-
-.ooni-team-member .pgp-fingerprint:before {
-  content: "🔒";
-  margin-right: 6px;
-}
-
 .vertical-align-helper {
   display: inline-block;
   height: 100%;
