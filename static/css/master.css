@@ -695,6 +695,9 @@ h1.article-title {
   transition: all 350ms ease;
   align-items: center;
   justify-content: center;
+  background-color: unset;
+  background-color: var(--partner-logo-color);
+  border-radius: 10px;
 }
 
 .partner-logo {
@@ -708,6 +711,18 @@ h1.article-title {
   align-items: center;
   background-color: unset;
   background-color: var(--partner-logo-color);
+}
+
+.partner-box a {
+  color: #0588cb;
+}
+
+.partner-box a:hover {
+  color: #0056b3;
+}
+
+.partner-country {
+  color: #000;
 }
 
 .partner-page-logo {
