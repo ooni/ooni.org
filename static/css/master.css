@@ -11,6 +11,7 @@
   --link-hover: #0056b3;
   --pre-bg: #f2f2f2;
   --base-blue: #0588cb;
+  --feature-bg-color: #F1F3F5;
 }
 
 
@@ -22,6 +23,7 @@
     --link-hover: #0056b3;
     --pre-bg: #f2f2f2;
     --base-blue: #0588cb;
+    --feature-bg-color: #F1F3F5;
   }
 }
 
@@ -33,6 +35,7 @@
     --link-hover: #94d1ff;
     --pre-bg: #495057;
     --base-blue: #056aa6;
+    --feature-bg-color: #495057;
   }
 }
 
@@ -43,6 +46,7 @@
   --link-hover: #0056b3;
   --pre-bg: #f2f2f2;
   --base-blue: #0588cb;
+  --feature-bg-color: #F1F3F5;
 }
 
 .dark {
@@ -52,6 +56,7 @@
   --link-hover: #94d1ff;
   --pre-bg: #495057;
   --base-blue: #056aa6;
+  --feature-bg-color: #495057;
 }
 
 /* ================================================================== */
@@ -992,7 +997,9 @@ a.icon-links img {
 
 .feature-container {
   background-color: #F1F3F5;
+  background-color: var(--feature-bg-color);
   color: #000000;
+  color: var(--body-font-color);
   z-index: 5;
   position: relative;
 }
