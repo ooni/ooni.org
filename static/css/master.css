@@ -295,7 +295,7 @@ code {
   color: #0588cb;
   color: var(--base-blue);
   background-color: white;
-  background-color: var(--body-font-color);
+  background-color: var(--button-hover-color);
   border: 1px solid #0588cb;
   border: 1px solid var(--base-blue);
   text-align: center;
