@@ -936,6 +936,8 @@ pre span.lw {
 
 .blog-post img {
   max-width: 100%;
+  background-color: unset;
+  background-color: var(--partner-logo-color);
 }
 
 .clearfix {
