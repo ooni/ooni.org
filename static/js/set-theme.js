@@ -5,18 +5,34 @@ const body = document.body;
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 const currentTheme = localStorage.getItem("theme");
 const themeButtons = document.querySelectorAll(".footer-theme-buttons li");
+// This function comes from https://michaelti.ca/sandbox/2020/05/01/dark-mode-images-with-a-manual-toggle-switch/
+function changePicturesTheme(userPrefer='') {
+    document.querySelectorAll('picture > source[data-user-theme]').forEach(element => {
+        element.remove();
+    });
+    if (userPrefer) {
+        document.querySelectorAll(`picture > source[media*="(prefers-color-scheme: ${userPrefer})"]`).forEach(element => {
+            const cloned = element.cloneNode();
+            cloned.removeAttribute('media');
+            cloned.setAttribute('data-user-theme', userPrefer);
+            element.parentNode.prepend(cloned);
+        });
+    }
+};
 if (currentTheme == "dark") {
     if (!prefersDarkScheme.matches) {
         doc.classList.toggle("dark");
     }
     themeColor.content = getComputedStyle(body).color;
     colorScheme.content= "dark";
+    changePicturesTheme(currentTheme);
 } else if (currentTheme == "light") {
     if (prefersDarkScheme.matches) {
         doc.classList.toggle("light");
     }
     themeColor.content = getComputedStyle(body).color;
     colorScheme.content= "light";
+    changePicturesTheme(currentTheme);
 }
 function setTheme(thisElement, myPrefer = undefined ) {
     themeButtons.forEach(function(ele) {
@@ -46,4 +62,5 @@ function setTheme(thisElement, myPrefer = undefined ) {
         colorScheme.content= "dark";
         localStorage.setItem("theme", 'dark');
     }
+    changePicturesTheme(myPrefer);
 }
