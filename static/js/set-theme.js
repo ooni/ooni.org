@@ -23,10 +23,14 @@ if (currentTheme == "dark") {
     if (!prefersDarkScheme.matches) {
         doc.classList.toggle(currentTheme);
     }
+    darkModeBtn.classList.add("active");
 } else if (currentTheme == "light") {
     if (prefersDarkScheme.matches) {
         doc.classList.toggle(currentTheme);
     }
+    lightModeBtn.classList.add("active");
+} else {
+    autoModeBtn.classList.add("active");
 }
 themeColor.content = getComputedStyle(body).color;
 colorScheme.content= currentTheme;

@@ -169,13 +169,17 @@ footer a:hover {
 .footer-theme-buttons {
   margin: 0;
   padding: 0;
+  background-color: #26292c;
+  border-radius: 30px;
+  width: 100px;
 }
 
 .footer-theme-buttons li {
   display: inline-block;
   cursor: pointer;
   padding: 5px;
-  margin: 0 10px 0 0;
+  margin: 0;
+  transition: 300ms;
 }
 
 .footer-theme-buttons li.active {
@@ -190,9 +194,9 @@ footer a:hover {
   width: 20px;
 }
 
-.footer-theme-buttons li span:hover {
-  transition: 0.2s;
-  filter: drop-shadow(2px 4px 6px white);
+.footer-theme-buttons li:hover {
+  background-color: var(--base-blue-hover);
+  border-radius: 15px;
 }
 
 .footer-theme-buttons li span.lightsvg {
