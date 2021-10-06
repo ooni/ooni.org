@@ -1,7 +1,7 @@
 const themeColor = document.querySelector('meta[name="theme-color"]');
 const colorScheme = document.querySelector('meta[name="color-scheme"]');
 const doc = document.documentElement;
-const body = document.body;
+const nav = document.querySelector("nav.navbar");
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 const currentTheme = localStorage.getItem("theme");
 const themeButtons = document.querySelectorAll(".footer-theme-buttons li");
@@ -32,7 +32,7 @@ if (currentTheme == "dark") {
 } else {
     autoModeBtn.classList.add("active");
 }
-themeColor.content = getComputedStyle(body).color;
+themeColor.content = getComputedStyle(nav).backgroundColor;
 colorScheme.content= currentTheme;
 changePicturesTheme(currentTheme);
 function setTheme(thisElement, userPrefer = undefined ) {
@@ -60,6 +60,6 @@ function setTheme(thisElement, userPrefer = undefined ) {
         colorScheme.content= userPrefer;
         localStorage.setItem("theme", userPrefer);
     }
-    themeColor.content = getComputedStyle(body).color;
+    themeColor.content = getComputedStyle(nav).backgroundColor;
     changePicturesTheme(userPrefer);
 }
