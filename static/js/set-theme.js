@@ -21,46 +21,41 @@ function changePicturesTheme(userPrefer='') {
 };
 if (currentTheme == "dark") {
     if (!prefersDarkScheme.matches) {
-        doc.classList.toggle("dark");
+        doc.classList.toggle(currentTheme);
     }
-    themeColor.content = getComputedStyle(body).color;
-    colorScheme.content= "dark";
-    changePicturesTheme(currentTheme);
 } else if (currentTheme == "light") {
     if (prefersDarkScheme.matches) {
-        doc.classList.toggle("light");
+        doc.classList.toggle(currentTheme);
     }
-    themeColor.content = getComputedStyle(body).color;
-    colorScheme.content= "light";
-    changePicturesTheme(currentTheme);
 }
-function setTheme(thisElement, myPrefer = undefined ) {
+themeColor.content = getComputedStyle(body).color;
+colorScheme.content= currentTheme;
+changePicturesTheme(currentTheme);
+function setTheme(thisElement, userPrefer = undefined ) {
     themeButtons.forEach(function(ele) {
         ele.classList.remove("active");
     });
     thisElement.classList.add("active");
-    if (myPrefer == 'auto') {
+    if (userPrefer == 'auto') {
         doc.classList.remove("light");
         doc.classList.remove("dark");
-        themeColor.content = getComputedStyle(body).color;
         colorScheme.content = "light dark";
         localStorage.removeItem("theme");
-    } else if (myPrefer == 'light') {
+    } else if (userPrefer == 'light') {
         doc.classList.remove("dark");
-        if (!doc.classList.contains("light")) {
-            doc.classList.add("light");
+        if (!doc.classList.contains(userPrefer)) {
+            doc.classList.add(userPrefer);
         }
-        themeColor.content = getComputedStyle(body).color;
-        colorScheme.content= "light";
-        localStorage.setItem("theme", 'light');
-    } else if (myPrefer == 'dark') {
+        colorScheme.content= userPrefer;
+        localStorage.setItem("theme", userPrefer);
+    } else if (userPrefer == 'dark') {
         doc.classList.remove("light");
-        if (!doc.classList.contains("dark")) {
-            doc.classList.add("dark");
+        if (!doc.classList.contains(userPrefer)) {
+            doc.classList.add(userPrefer);
         }
-        themeColor.content = getComputedStyle(body).color;
-        colorScheme.content= "dark";
-        localStorage.setItem("theme", 'dark');
+        colorScheme.content= userPrefer;
+        localStorage.setItem("theme", userPrefer);
     }
-    changePicturesTheme(myPrefer);
+    themeColor.content = getComputedStyle(body).color;
+    changePicturesTheme(userPrefer);
 }
