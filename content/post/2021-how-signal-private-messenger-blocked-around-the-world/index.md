@@ -368,7 +368,7 @@ September 2021. These include **32 distinct AS network vantage points**.
 On many networks, the blocking of Signal appears to be
 [performed](https://explorer.ooni.org/measurement/20210622T232644Z_signal_IR_24631_n1_lx5oIUTBiWMA8bTs)
 at a **DNS level** by returning the IP address `10.10.34.35`, which is
-[commonly used to serve the Iraninan blockpage](https://ooni.org/post/2020-iran-blocks-farsi-wikipedia/).
+[commonly used to serve the Iranian blockpage](https://ooni.org/post/2020-iran-blocks-farsi-wikipedia/).
 
 Specifically, the domain names `api.directory.signal.org`,
 `storage.signal.org`, `cdn.signal.org`, `uptime.signal.org`,
