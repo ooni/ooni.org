@@ -5,6 +5,8 @@ name: Myanmar ICT for Development Organization (MIDO)
 title: Myanmar ICT for Development Organization (MIDO)
 website: https://www.facebook.com/Myanmarido/
 reports:
+- text: "Myanmar: Data on internet blocks and internet outages following military coup"
+  link: "https://ooni.org/post/2021-myanmar-internet-blocks-and-outages/"
 - text: "The State of Internet Censorship in Myanmar"
   link: "https://ooni.org/post/myanmar-report/"
 ---

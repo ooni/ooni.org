@@ -5,6 +5,8 @@ name: "Internet Outage Detection & Analysis (IODA)"
 title: "Internet Outage Detection & Analysis (IODA)"
 website: https://ioda.caida.org/
 reports:
+- text: "Investigating Internet shutdowns through Mozilla telemetry"
+  link: "https://ooni.org/post/2021-investigating-internet-shutdowns-mozilla-telemetry/"
 - text: "Myanmar: Data on internet blocks and internet outages following military coup"
   link: "https://ooni.org/post/2021-myanmar-internet-blocks-and-outages/"
 - text: "Uganda: Data on internet blocks and nationwide internet outage amid 2021 general election"
