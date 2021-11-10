@@ -382,6 +382,16 @@ It’s worth noting though that the domain name
 `textsecure-service.whispersystems.org` does *not* appear to be
 affected by DNS level interference and is not impacted by the block.
 
+Iran appears to block Signal by means of bidirectional DNS injection, as
+suggested by the fact that DNS queries from outside the country also result in
+injected responses, even though they target a publicly routed IP in Iran that
+does not run a DNS server.
+
+```
+$ dig +short signal.org @tehran.ir 
+10.10.34.35
+```
+
 Recent OONI measurements suggest that [Signal remains blocked](https://explorer.ooni.org/search?until=2021-10-01&since=2021-09-01&test_name=signal&probe_cc=IR)
 on many AS networks in Iran.
 
@@ -405,13 +415,13 @@ As is evident through the above chart, the testing of Signal
 consistently presented [signs of blocking](https://explorer.ooni.org/search?until=2021-10-01&since=2021-09-01&test_name=signal&probe_cc=CN&only=anomalies)
 on most AS networks in China during our analysis period.
 
-Similarly to Iran, the [blocking of Signal in China appears to be implemented at a DNS level](https://explorer.ooni.org/measurement/20210521T145812Z_signal_CN_4134_n1_oMnqbO0wN9OXowCu)
+China appears to [block of Signal at a DNS level](https://explorer.ooni.org/measurement/20210521T145812Z_signal_CN_4134_n1_oMnqbO0wN9OXowCu)
 by returning IP addresses which are not associated with the Signal
 backend services. But instead of returning the IP of a blockpage, we
 observe the [typical pattern of the Great Firewall of China](https://www.usenix.org/system/files/sec21-hoang.pdf), returning
 IP addresses inside of random IP ranges.
 
-China appears to block Signal by means of bidirectional **DNS
+Similarly to Iran, China appears to block Signal by means of bidirectional **DNS
 injection**, as suggested by the fact that DNS queries from *outside*
 the country also result in injected responses, even though they target a
 publicly routed IP in China that does not run a DNS server.
@@ -540,7 +550,7 @@ data
 [shows](https://explorer.ooni.org/measurement/20210622T232644Z_signal_IR_24631_n1_lx5oIUTBiWMA8bTs)
 that many ISPs blocked Signal by means of DNS based interference,
 returning the IP address `10.10.34.35` (which is [known to serve the Iraninan blockpage](https://ooni.org/post/2020-iran-blocks-farsi-wikipedia/)).
-China appears to [block Signal by means of bidirectional DNS injection](https://explorer.ooni.org/measurement/20210521T145812Z_signal_CN_4134_n1_oMnqbO0wN9OXowCu),
+China appears to [block Signal by means of DNS injection](https://explorer.ooni.org/measurement/20210521T145812Z_signal_CN_4134_n1_oMnqbO0wN9OXowCu),
 returning IP addresses inside of random IP ranges.
 
 When Signal was temporarily blocked in Cuba, the [TLS handshake to the Signal backend service consistently failed](https://explorer.ooni.org/measurement/20210714T194436Z_signal_CU_27725_n1_QtpCKjV8IpvR0po4)
