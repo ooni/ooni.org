@@ -5,6 +5,8 @@ name: "Internet Outage Detection & Analysis (IODA)"
 title: "Internet Outage Detection & Analysis (IODA)"
 website: https://ioda.caida.org/
 reports:
+- text: "A multi-perspective view of Internet censorship in Myanmar"
+  link: "https://ooni.org/post/2021-multiperspective-view-internet-censorship-myanmar/"
 - text: "Investigating Internet shutdowns through Mozilla telemetry"
   link: "https://ooni.org/post/2021-investigating-internet-shutdowns-mozilla-telemetry/"
 - text: "Myanmar: Data on internet blocks and internet outages following military coup"
