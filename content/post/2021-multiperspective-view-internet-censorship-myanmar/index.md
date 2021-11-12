@@ -187,13 +187,13 @@ of Facebook’s IP `31.13.64.35`.
 
 ## Twitter hijack and collateral damage
 
-On 5th February 2021 —the same day that Twitter was blocked in Myanmar—
-Myanmar’s Campana Mythic (AS136168) announced the 104.244.42.0/24
+On 5th February 2021 —the same day that [Twitter was blocked](https://explorer.ooni.org/measurement/20210205T174630Z_webconnectivity_MM_132686_n1_6TBGxfWH0KJlHkQH?input=https%3A%2F%2Ftwitter.com) in Myanmar—
+Myanmar’s Campana Mythic (AS136168) announced the `104.244.42.0/24`
 prefix, belonging to Twitter. The proximity of this hijacking event in
 time to the blocking of Twitter in other Myanmar ISPs suggests that the
 original intent was to blackhole traffic to Twitter for users of this
-Myanmar ISP1. However, this route accidentally leaked to the global
-Internet, appearing as if AS136168 owned/hosted Twitter’s address space.
+Myanmar ISP. However, this route accidentally leaked to the global
+internet, appearing as if AS136168 owned/hosted Twitter’s address space.
 This accidental event offers additional evidence that providers used
 various ways to perform IP-level blocking to censor domains.
 
@@ -205,8 +205,8 @@ collateral damage for Twitter users outside Myanmar.
 
 We quantify the extent of this collateral damage in the following graph,
 which shows that a small volume of traffic from Kentik’s customers
-outside Myanmar was directed towards the hijacker AS136168 instead of
-AS13414 (Twitter).
+outside Myanmar was directed towards the hijacker (AS136168) instead of
+Twitter (AS13414).
 
 {{<img src="images/03.png" title="Twitter hijack and collateral damage" alt="Twitter hijack and collateral damage">}}
 
@@ -240,7 +240,7 @@ periods of potential power transitions, such as
 and [large-scale protests](https://ooni.org/post/2020-belarus-internet-outages-website-censorship/).
 
 The fact that the initial outages were implemented by the challenger
-rather than the incumbent government suggests that Internet censorship
+rather than the incumbent government suggests that internet censorship
 during a coup attempt can increase the probability of a successful coup.
 Conspirators in a coup may benefit from shutting communications quickly,
 to prevent public or government coordination against their coup attempt.
@@ -256,8 +256,8 @@ internet curfews to target organization of political dissent while
 minimizing the impact on the economy, as many sectors require internet access
 during the day.
 
-While nightly outages in Myanmar have now ended, the [social media and website blocking](https://explorer.ooni.org/search?until=2021-11-12&since=2021-10-13&probe_cc=MM&only=confirmed)
-we described that has persisted since February 2021 may indicate a move
+While nightly outages in Myanmar have now ended, the [ongoing blocking of social media and circumvention tool websites](https://explorer.ooni.org/search?until=2021-11-12&since=2021-10-13&probe_cc=MM&only=confirmed)
+(which has persisted since February 2021) may indicate a move
 toward more selective methods of censorship. This shift is consistent
 with a pattern in authoritarian regimes of engaging in [targeted censorship](https://ooni.org/reports/) to maximize political impact
 while [minimizing its cost](https://web.archive.org/web/20210513221939/https://asia.nikkei.com/Spotlight/Myanmar-Coup/Myanmar-junta-builds-walled-garden-of-internet-services).
