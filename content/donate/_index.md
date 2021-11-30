@@ -1,8 +1,6 @@
 ---
 title: "Donate"
 maintext: "Donate now to support internet freedom"
-paypalButton: "https://www.paypal.com/donate?hosted_button_id=TAQVDLXGHHAV8"
-paypalbuttonLabel: "DONATE"
 ---
 
 As a non-profit, we rely on donations from people like you to defend a free and open internet for all. 
