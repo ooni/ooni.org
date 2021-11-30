@@ -5,8 +5,6 @@ paypalButton: "https://www.paypal.com/donate?hosted_button_id=TAQVDLXGHHAV8"
 paypalbuttonLabel: "DONATE"
 ---
 
-### Thank you for supporting the OONI-verse!
-
 **Donate now to support the global fight against internet censorship!**
 
 As a non-profit, we rely on donations from people like you to defend a free and open internet for all. By donating to OONI, you support:
@@ -26,3 +24,5 @@ As a non-profit, we rely on donations from people like you to defend a free and 
 * [GitHub Sponsors](https://github.com/sponsors/ooni/)
 
 * [Open Collective](https://opencollective.com/ooni) (tax deductible for US donors)
+
+Thank you for supporting the OONI-verse!
