@@ -5,8 +5,6 @@ paypalButton: "https://www.paypal.com/donate?hosted_button_id=TAQVDLXGHHAV8"
 paypalbuttonLabel: "DONATE"
 ---
 
-**Donate now to support the global fight against internet censorship!**
-
 As a non-profit, we rely on donations from people like you to defend a free and open internet for all. 
 
 By donating to OONI, you support:
