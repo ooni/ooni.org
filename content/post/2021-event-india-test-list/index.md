@@ -144,9 +144,9 @@ building and testing these lists.
 
 Day 2 of the workshop resulted in the following [changes](https://github.com/citizenlab/test-lists/pull/864) to the India test list:
 
-| Category Code (Name)  | New URLs added | Updated toHTTPS | Moved to Global list | Recommended for deletion | Domain Updated | Category Updated |
+| Category Code (Name)  | New URLs added | Updated to HTTPS | Moved to Global list | Recommended for deletion | Domain Updated | Category Updated |
 |-----------------------|----------------|-----------------|----------------------|--------------------------|----------------|------------------|
-| ECommerce             | 7              | 1               | 0                    | 3                        | 1              | 0                |
+| E-commerce             | 7              | 1               | 0                    | 3                        | 1              | 0                |
 | LGBT                  | 15             | 0               | 0                    | 1                        | 0              | 0                |
 | Human Rights          | 8              | 0               | 0                    | 0                        | 0              | 0                |
 | Environment           | 31             | 1               | 0                    | 0                        | 0              | 1                |
