@@ -53,14 +53,9 @@ understand Internet censorship events, multiple datasets and perspectives are
 necessary. This is why we’re excited to [collaborate](https://pulse.internetsociety.org/partners) with the Internet Society
 on the Pulse platform on its [Internet Shutdowns](https://pulse.internetsociety.org/shutdowns) focus area. 
 
-# Data in Context
+# Largest Open Dataset on Internet Censorship
 
-While empirical network measurement data is important as it can show evidence of
-Internet censorship, it is often not enough for us to be able to confirm that a
-censorship event is in progress, nor understand the context surrounding that
-event.
-
-OONI data provides evidence of Internet censorship around the world and offers
+[OONI data](https://ooni.org/data/) provides evidence of Internet censorship around the world and offers
 rich network measurement data on the blocking of websites, instant messaging
 apps (WhatsApp, Telegram, Facebook Messenger, Signal), and circumvention tools
 (Tor, Psiphon, RiseupVPN). It also provides data on network speed and
@@ -73,8 +68,6 @@ tests are run on local networks, we are able to capture (through the
 measurements) what Internet censorship looks like from the user’s local vantage
 point. 
 
-# Largest Open Dataset on Internet Censorship
-
 Since 2012, OONI Probe users have contributed more than 466 million measurements
 from 22,900 networks in [240 countries and territories](https://explorer.ooni.org/). As new measurements from
 around the world are openly published every minute, OONI data is likely the
@@ -85,6 +78,11 @@ longitudinal studies to examine how censorship changes in each country over
 time (often in correlation with political events). 
 
 # Providing Local Context and Insight
+
+While empirical network measurement data is important as it can show evidence of
+Internet censorship, it is often not enough for us to be able to confirm that a
+censorship event is in progress, nor understand the context surrounding that
+event.
 
 Every dataset has limitations but, more importantly, it is also necessary to
 have insight into what people are experiencing on the ground. This is why the
@@ -115,7 +113,7 @@ collected to hold those in power to account.
 Without making raw data available to everyone and offering methodological
 transparency, Internet measurements are no different to an anecdotal report. 
 
-False positives are common in network measurement, particularly since there are
+[False positives](https://ooni.org/support/faq/#what-are-false-positives) are common in network measurement, particularly since there are
 many reasons why an Internet service might look like it’s blocked, but not be.
 For example, false positives can occur due to transient network failures,
 unreliable servers, DNS resolution, and the geographical distribution of
@@ -131,7 +129,7 @@ whether a signal of censorship is a false positive or not. Going further, it is
 often necessary to examine a large volume of relevant open data (examining the
 data in aggregate), and to compare it against other, relevant open datasets.
 
-Further, OONI relies on volunteers to gather network measurements via OONI
+Furthermore, OONI relies on volunteers to gather network measurements via OONI
 Probe, and this can potentially be [risky](https://ooni.org/about/risks/), particularly in high-risk
 environments. We therefore have an ethical obligation to inform users of what
 tests they would be performing by providing full [methodological transparency](https://github.com/ooni/spec/tree/master/nettests)
