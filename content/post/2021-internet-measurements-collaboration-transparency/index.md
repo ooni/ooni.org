@@ -1,6 +1,6 @@
 ---
-title: "Internet Measurements, Collaboration and Transparency"
-description: "Why collaboration and transparency are key to internet measurement."
+title: "Why Collaboration and Transparency is Key to Internet Measurement"
+description: "A post on internet measurements, collaboration and transparency."
 author: "Maria Xynou"
 date: "2021-11-30"
 tags: ["ooni", "isoc"]
