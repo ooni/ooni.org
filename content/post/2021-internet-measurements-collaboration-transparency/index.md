@@ -131,11 +131,11 @@ whether a signal of censorship is a false positive or not. Going further, it is
 often necessary to examine a large volume of relevant open data (examining the
 data in aggregate), and to compare it against other, relevant open datasets.
 
-It is precisely the openness and methodological transparency of data that can
-make it serve as evidence when bringing the powerful to account.
-
 Further, OONI relies on volunteers to gather network measurements via OONI
 Probe, and this can potentially be [risky](https://ooni.org/about/risks/), particularly in high-risk
-environments. OONI therefore has an ethical obligation to inform users of what
-tests they would be performing by providing full methodological transparency
+environments. We therefore have an ethical obligation to inform users of what
+tests they would be performing by providing full [methodological transparency](https://github.com/ooni/spec/tree/master/nettests)
 and to acquire their informed consent.
+
+It is precisely the openness and methodological transparency of data that can
+make it serve as evidence when bringing the powerful to account.
