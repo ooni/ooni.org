@@ -24,6 +24,10 @@ Are there other questions you would like us to address? Please [let us know](htt
 
     * [What is OONI's relationship with The Tor Project?](#what-is-oonis-relationship-with-the-tor-project)
 
+    * [Where is OONI based?](#where-is-ooni-based)
+
+    * [Whats is OONI's legal status?](#what-is-oonis-legal-status)
+
     * [How can I get involved?](#how-can-i-get-involved)
 
 * [OONI Probe](#ooni-probe)
@@ -299,13 +303,34 @@ OONI was born out of [The Tor Project](https://www.torproject.org/).
 
 Back in 2011, Tor Project developers started creating open methodologies and
 frameworks with the goal of measuring various forms of network interference,
-resulting in the creation of OONI. 
+resulting in the creation of OONI. Over the years, OONI was [one of the
+projects hosted under The Tor Project Inc.]
+(https://2019.www.torproject.org/projects/projects.html.en).
 
-OONI has since been [one of the projects hosted under The Tor Project Inc.](https://2019.www.torproject.org/projects/projects.html.en).
-
-The Tor Project served as OONI's fiscal sponsor between 2012 to 2020. 
+The Tor Project served as OONI's fiscal sponsor between 2012 to 2020, and we [continue to collaborate](https://ooni.org/partners/tor-project/) on measuring Tor reachability. 
 
 OONI is currently fiscally sponsored by the [Hermes Center for Transparency and Digital Human Rights](https://www.hermescenter.org/), but we operate independently in terms of fundraising and governance. 
+
+### Where is OONI based?
+
+OONI is a global project, with a global community. 
+
+The OONI team is not from a specific country, as we've never had a
+physical office, and we've always worked online. Our current team members are
+from Italy, Greece, South Africa, and India. 
+
+### What is OONI's legal status?
+
+OONI is a non-profit project, but doesn't have a legally registered entity. 
+
+[The Tor Project](https://www.torproject.org/) served as our fiscal sponsor
+between 2012 to 2020. More recently, we are fiscally sponsored by the
+[Hermes Center for Transparency and Digital Human Rights]
+(https://www.hermescenter.org/), which is a non-profit digital rights
+organization registered in Italy. 
+
+Despite being fiscally sponsored by others (primarily the Tor Project over the
+years), we have always operated independently in terms of fundraising and governance.
 
 ### How can I get involved?
 
