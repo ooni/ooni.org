@@ -303,9 +303,7 @@ OONI was born out of [The Tor Project](https://www.torproject.org/).
 
 Back in 2011, Tor Project developers started creating open methodologies and
 frameworks with the goal of measuring various forms of network interference,
-resulting in the creation of OONI. Over the years, OONI was [one of the
-projects hosted under The Tor Project Inc.]
-(https://2019.www.torproject.org/projects/projects.html.en).
+resulting in the creation of OONI. Over the years, OONI was [one of the projects hosted under The Tor Project Inc.](https://2019.www.torproject.org/projects/projects.html.en).
 
 The Tor Project served as OONI's fiscal sponsor between 2012 to 2020, and we [continue to collaborate](https://ooni.org/partners/tor-project/) on measuring Tor reachability. 
 
@@ -325,8 +323,7 @@ OONI is a non-profit project, but doesn't have a legally registered entity.
 
 [The Tor Project](https://www.torproject.org/) served as our fiscal sponsor
 between 2012 to 2020. More recently, we are fiscally sponsored by the
-[Hermes Center for Transparency and Digital Human Rights]
-(https://www.hermescenter.org/), which is a non-profit digital rights
+[Hermes Center for Transparency and Digital Human Rights](https://www.hermescenter.org/), which is a non-profit digital rights
 organization registered in Italy. 
 
 Despite being fiscally sponsored by others (primarily the Tor Project over the
@@ -516,8 +513,7 @@ and [iOS](https://itunes.apple.com/us/app/id1199566366)), which is the
 easiest way to run OONI Probe. You can run tests with the tap of a
 button!
 
-You can also run the [OONI Probe desktop app]
-(https://ooni.org/install/desktop), which includes similar design, UX, and
+You can also run the [OONI Probe desktop app](https://ooni.org/install/desktop), which includes similar design, UX, and
 features as the [OONI Probe mobile app](https://ooni.org/install/mobile).
 
 ### How can I run OONI Probe?
