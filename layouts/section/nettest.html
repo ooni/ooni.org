@@ -19,7 +19,7 @@
     <h1 id="websites" class="test-header">Which websites are blocked?</h1>
     <div class="row">
       {{ range .Data.Pages.ByDate }}
-        {{ if in .Params.groups "website" }}
+        {{ if in .Params.groups "websites" }}
         {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
         <div class="col mr-3 p-3 question-container">
         <a href="{{ .RelPermalink }}">
