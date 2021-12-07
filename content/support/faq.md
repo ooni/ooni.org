@@ -431,9 +431,9 @@ designed to measure:
 * Blocking of websites;
 
 * Blocking of instant messaging apps (WhatsApp, Facebook Messenger,
-Telegram);
+Telegram, Signal);
 
-* Blocking of censorship circumvention tools (such as Tor, Psiphon, and pluggable transports);
+* Blocking of censorship circumvention tools (Tor, Psiphon, and RiseupVPN);
 
 * Presence of middleboxes (i.e. systems that could be responsible for
 censorship or surveillance);
