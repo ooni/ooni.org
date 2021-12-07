@@ -60,16 +60,8 @@
                    /images/logos/OONI-HorizontalMonochromeInverted@2x.png 2x">
           </a>
         </div>
-        <div class="col-lg-1 nav-menu-donate" >
-        {{ with .Site.Menus.donate}}
-        {{ range $menu := . }}
-        <a href="{{.URL}}" class="btn explorer-button">{{.Name}}</a>
-        {{end}}
-        {{end}}
-      </div>  
-          
-          
-        <div class="col-lg-8 nav-menu">
+
+        <div class="col-lg-10 nav-menu">
           <div class="row">
             {{ $url := .URL }}
             {{ with .Site.Menus.main }}
@@ -82,7 +74,7 @@
           </div>
         </div>
 
-        <div class="col-lg-2 nav-menu-install">
+        <div class="col-lg-1 nav-menu-install">
           {{ with .Site.Menus.install}}
           {{ range $menu := . }}
           <a href="{{.URL}}" class="btn explorer-button">{{.Name}}</a>

@@ -65,10 +65,12 @@ notAlternative = true
   name = "Blog"
   weight = 6
 
+[[menu.main]]
+  name = "Donate"
+  url = "/donate/"
+  weight = 7
+
 [[menu.install]]
   name = "Install OONI Probe"
   url = "/install/"
 
-[[menu.donate]]
-  name = "Donate"
-  url = "/donate/"
