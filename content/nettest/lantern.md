@@ -2,7 +2,7 @@
 title: "Lantern"
 short_description: "This test provides an automated way of examining whether Lantern works in a
 tested network."
-groups: ["proxies"]
+groups: ["legacy"]
 ---
 
 This test provides an automated way of examining whether Lantern works in a

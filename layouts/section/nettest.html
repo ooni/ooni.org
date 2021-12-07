@@ -13,6 +13,7 @@
       <a href="#proxies"><li>Are VPNs blocked?</li></a>
       <a href="#performance"><li>What is the speed and performance of my network?</li></a>
       <a href="#boxes"><li>Are middleboxes present on my network?</li></a>
+      <a href="#legacy"><li>Retired OONI Probe tests</li></a>
     </ul>
 
     <h1 id="websites" class="test-header">Which websites are blocked?</h1>
@@ -115,6 +116,24 @@
         {{ end }}
       {{ end }}
     </div>
+
+     <h1 id="legacy" class="test-header">Retired OONI Probe tests</h1>
+    <div class="row">
+      {{ range .Data.Pages }}
+        {{ if in .Params.groups "legacy" }}
+        {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
+        <div class="col mr-3 p-3 question-container">
+        <a href="{{ .RelPermalink }}">
+          <h2 class="test-header">{{ $TITLE }}</h2>
+          <p class="test-paragraph">
+            {{ .Params.short_description }}
+          </p>
+        </a>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+
  </main>
 
 </div>

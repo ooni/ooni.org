@@ -2,8 +2,7 @@
 title: "HTTP Requests"
 short_description: "This test tries to detect online censorship based on a comparison of HTTP
 requests over Tor and over the network of the user."
-groups: ["website"]
-date: "0003-01-01"
+groups: ["legacy"]
 ---
 
 This test tries to detect online censorship based on a comparison of HTTP
