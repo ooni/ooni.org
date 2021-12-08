@@ -50,22 +50,23 @@
 
   {{ block "navbar" . }}
   <nav class="navbar mb-4">
-    <div class="container pt-2">
+    <!-- These are hacks should be refactored -->
+    <div class="container pt-2" style="position: relative">
       <div class="row align-items-center">
-        <div class="col-lg-2 nav-menu-brand">
+        <div class="col-lg-1 nav-menu-brand">
           <a href="/" class="{{ if .IsHome }}active{{end}}">
             <img src="/images/logos/OONI-HorizontalMonochromeInverted.png"
                  srcset="/images/logos/OONI-HorizontalMonochromeInverted.png 1x,
                    /images/logos/OONI-HorizontalMonochromeInverted@2x.png 2x">
-
           </a>
         </div>
-        <div class="col-lg-8 nav-menu">
+
+        <div class="col-lg-10 nav-menu">
           <div class="row">
             {{ $url := .URL }}
             {{ with .Site.Menus.main }}
             {{ range $menu := . }}
-            <div class="col-lg nav-menu-item">
+            <div class="col-lg nav-menu-item about">
               <a href="{{.URL}}" {{ if eq $url .URL }} class="active" {{end}}>{{ .Name }}</a>
             </div>
             {{end}}
@@ -73,7 +74,7 @@
           </div>
         </div>
 
-        <div class="col-lg-2 nav-menu-install">
+        <div class="col-lg-1 nav-menu-install">
           {{ with .Site.Menus.install}}
           {{ range $menu := . }}
           <a href="{{.URL}}" class="btn explorer-button">{{.Name}}</a>

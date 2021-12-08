@@ -164,14 +164,23 @@ th, td {
 a.explorer-button {
   border: 2px solid #ffffff;
   background-color: #0588cb;
+z-index: 999999999;
 }
 
-a.explorer-button:hover {
+a.explorer-button:hover{
   text-decoration: none;
   color: #0588cb;
   background-color: #ffffff;
 }
-
+.nav-menu-donate{
+    text-align: center;
+}
+.nav-menu-donate a.explorer-button{
+    margin-left: 8px;
+}
+.nav-menu-item.about{
+    margin-left: 14px;
+}
 pre {
   background-color: #f2f2f2;
   padding: 0.5rem 1rem;
@@ -998,4 +1007,74 @@ p.test-paragraph {
 
 .app-store-badge:hover img {
     opacity: 0.8;
+}
+
+/*  Donate section */
+.donate-page{
+    top: -24px;
+    position: relative;
+}
+.donate-page p {
+    margin-bottom: .8em; 
+    padding-left: 0;
+}
+.donate-page p bold{
+    font-weight: 700;
+}
+.donate-page .btn{ 
+    background-color: white;
+    color: #0588CB; 
+    border: 2px solid #0588CB;
+    margin-bottom: 26px;
+    margin-left: 26px;
+    font-size: 18px; 
+    font-weight: bold;
+    letter-spacing: 0.6px; 
+}
+.donate-page .btn:hover{
+    background-color: #0588CB !important;
+    color: white !important; 
+    border: 2px solid white !important; 
+} 
+.donate-page .banner{
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 0; 
+    width: 100%;
+}
+.donate-page.container{
+    margin-top: -1.5rem; 
+} 
+.donate-page .h1-container{ 
+    background-color: #5db8fe;
+    height: 100%;  
+    text-align: center;
+}
+.donate-page .h1-container h1{ 
+    color: white;
+    font-size: 46px;
+    font-weight: 500;
+    margin: 0;
+    padding-left: 26px; 
+    padding-top: 16px;
+    padding-bottom: 16px; 
+}
+.donate-page .details{  
+    background-color: white;
+    z-index: 99999;
+    margin-left: 26px;
+    margin-top: 20px;
+}
+.donate-page .details > p:first-child {  
+  padding-top: 30px;
+}  
+.donate-page .details ul{
+    padding: 0;
+}
+.donate-page h4{
+    padding: 0;
+}
+.bank-info p{
+    display: block;
+    width: 100%;
 }

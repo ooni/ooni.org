@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<div class="donate-page">
+      <div class="banner col-12">
+        <div class="h1-container">
+            <h1>{{ .Params.Maintext }}</h1>
+        </div>
+      </div>
+
+   <div class="container">
+     <div class="row">
+     <div class="col-6" style="margin: 0 auto">
+     <script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe src="https://donorbox.org/embed/open-observatory-of-network-interference-ooni" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important"></iframe>
+     </div>
+     </div>
+
+      <div class="row">
+      <div class="col-12 details">
+        {{ .Content }}
+      </div>
+      </div>
+  </div>
+</div>
+
+</div>
+
+{{ end }}
+{{ define "script" }}
+  <script type="text/javascript" src="/js/zepto.min.js"></script>
+{{ end }} 
