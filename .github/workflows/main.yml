@@ -22,6 +22,8 @@ jobs:
 
     - name: Build the website
       run: ./scripts/build_website.sh
+      env:
+        BASE_URL: "https://ooni.github.io"
 
     - name: Deploy to ooni.github.io
       uses: peaceiris/actions-gh-pages@v3
