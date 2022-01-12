@@ -27,4 +27,4 @@ description: "Contribute to the world's largest open dataset on internet censors
 ---
 
 # Install OONI Probe CLI
-{{< square-btn href="https://github.com/ooni/probe-cli#ooni-probe-cli" text="Github Readme" >}}
+{{< square-btn href="/install/cli" text="Install instructions" >}}

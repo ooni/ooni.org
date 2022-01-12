@@ -2,8 +2,7 @@
 title: "DNS consistency"
 short_description: "This test compares the DNS query results from a DNS resolver which is considered
 to be reliable with one that is tested for tampering."
-groups: ["website"]
-date: "0001-01-01"
+groups: ["legacy"]
 ---
 
 This test compares the DNS query results from a DNS resolver which is considered

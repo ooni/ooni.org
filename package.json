@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "cypress": "^4.1.0"
+  },
+  "dependencies": {
+    "zepto": "^1.2.0"
   }
 }

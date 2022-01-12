@@ -5,6 +5,8 @@ name: DefendDefenders
 title: DefendDefenders
 website: https://defenddefenders.org/
 reports:
+- text: "Uganda: Data on internet blocks and nationwide internet outage amid 2021 general election"
+  link: "https://ooni.org/post/2021-uganda-general-election-blocks-and-outage/"
 - text: "Uganda's Social Media Tax through the lens of network measurements"
   link: "https://ooni.org/post/uganda-social-media-tax/"
 - text: "How Uganda blocked social media, again"

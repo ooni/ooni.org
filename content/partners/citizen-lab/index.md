@@ -5,6 +5,8 @@ name: The Citizen Lab
 title: The Citizen Lab
 website: https://citizenlab.ca/
 reports:
+- text: "No Access: LGBTIQ Website Censorship in Six Countries"
+  link: "https://ooni.org/post/2021-no-access-lgbtiq-website-censorship-six-countries/"
 - text: "Citizen Lab test lists"
   link: "https://github.com/citizenlab/test-lists"
 - text: "The test list methodology"

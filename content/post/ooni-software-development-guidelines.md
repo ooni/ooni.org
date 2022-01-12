@@ -28,11 +28,11 @@ Each of the OONI products may follow slightly different git patterns and workflo
 
 Branches are one of the most powerful features of git.
 
-The most important branch in git is the **master** branch, which is the default branch. The code that is merged into the **master** branch should pass all the tests (see: Testing section) and it should be possible to build a working version of the product from this branch.
+The most important branch in git is most often called **master** or **main**, and is the default branch. In the remainder of this guide we are going to use **main** as a name for the default branch, but long-running repositories may still be using **master** as a name for the default branch. The code that is merged into the **main** branch should pass all the tests (see: Testing section) and it should be possible to build a working version of the product from this branch.
 
 Every time you start working on a new feature, fixing a bug or preparing a new release, **create a new branch**. Seriously, do it, they are free! This is essential for enabling code review.
 
-When creating a new feature, bugfix or release branch, always do so from the tip of master.
+When creating a new feature, bugfix or release branch, always do so from the tip of *main*.
 
 It’s good to include an indication of the github issue the branch is implementing (and create an issue if it does not exist), example of good branch names:
 
@@ -45,19 +45,19 @@ Examples of not so great branch names are:
 * bugfix (it does not mention which bug it’s fixing)
 * andrea (this is a great name for a human, but not so much for a branch)
 
-Once you have finished working on the feature or bugfix and are ready to have it be merged into master, **open a pull request,** check that all the tests are passing and request that somebody does a review of it (see Code Review section).
+Once you have finished working on the feature or bugfix and are ready to have it be merged into *main*, **open a pull request,** check that all the tests are passing and request that somebody does a review of it (see Code Review section).
 
-Once you branch has been merged into master, feel free to delete it.
+Once you branch has been merged into *main*, feel free to delete it.
 
 ### Avoiding conflicts
 
 Out of sync branches and conflicts are one of the most frustrating occurrences in git. They cannot be entirely avoided, but here are some things you can do to minimise them:
 
-*   Do not force push to the master branch, unless you understand the consequences of it (it’s probably a bad idea anyways)
-*   Ensure that the branch you are working on is always in sync with master
-*   If the branch you are working on is notin sync with master, make a copy of your working tree and do the merge (or rebase) inside of another branch (you can create as many copies of the same branch via `git branch branch-copy`)
+*   Do not force push to the *main* branch, unless you understand the consequences of it (it’s probably a bad idea anyways)
+*   Ensure that the branch you are working on is always in sync with *main*
+*   If the branch you are working on is not in sync with *main*, make a copy of your working tree and do the merge (or rebase) inside of another branch (you can create as many copies of the same branch via `git branch branch-copy`)
 *   Coordinate with your team members if you are planning to do an important refactoring or changes that will affect many files and ensure that they don’t have uncommitted code
-*   Don’t keep pull requests open fortoo much time and merge branches into master often.
+*   Don’t keep pull requests open for too much time and merge branches into *main* often.
 
 ## Testing
 
@@ -87,9 +87,9 @@ Every software project is different and there is no “one-size fits all” appr
 
 To go back to the testing pyramid above, the reason to have more unit tests than integration tests is that generally integration tests are more prone to breaking when changes are made to the software. Moreover, they generally take more time to run, making it less likely for developers to run them as often (for example, automatically as you save your code). They are also more likely to exhibit non deterministic failure, reducing the confidence in testing.
 
-At OONI we have all our unit & integration tests run as part of a commit hook on travis. This allows us to ensure that, at the very least, the tests are passing before anything is merged into master.
+At OONI we have all our unit & integration tests run as part of a commit hook on the continuous integration (CI) system we use for each repository (typically GitHub Actions, Travis CI, or Circle CI). This allows us to ensure that, at the very least, the tests are passing before anything is merged into *main*.
 
-**A branch cannot be merged into master until the failing travis checks are resolved.**
+**A branch cannot be merged into *main* until the failing CI checks are resolved.**
 
 There are different tools for implementing unit & integration tests for a variety of different languages. Find a tool which works for the language (or framework) you are developing for and familiarise yourself with them.
 
