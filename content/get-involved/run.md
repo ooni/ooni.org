@@ -16,8 +16,27 @@ Note: These tests require turning off VPNs.
 
 {{<oonirunurls text="Social Media (39 URLs)">}}
 https://www.facebook.com/
+https://external.xx.fbcdn.net/robots.txt
+https://fbcdn.net/robots.txt
+https://scontent.xx.fbcdn.net/robots.txt
+https://staticxx.facebook.com/robots.txt
 https://www.youtube.com/
+https://i.ytimg.com/vi/JBRf3nEqfZ8/hq720.jpg
+https://yt3.ggpht.com/a-/AOh14GhGCI1dxtHOY_TDQfmxDBK_S7CHTPJ3U6zOUw=s480-c-k-c0x00ffffff-no-rj-mo
+https://yt4.ggpht.com/a-/AOh14GhOiUxI-RcMC-Vfl2i15v3xewMr8bt2yNXTfw=s480-c-k-c0x00ffffff-no-rj-mo
 https://www.instagram.com/
+https://i.instagram.com/robots.txt
+https://scontent-ams4-1.cdninstagram.com/favicon.ico
+https://static.xx.fbcdn.net/robots.txt
+https://edge-chat.instagram.com/robots.txt
+https://scontent-vie1-1.cdninstagram.com/favicon.ico
+https://scontent.cdninstagram.com/robots.txt
+https://graph.instagram.com/robots.txt
+https://instagram.fpnq1-1.fna.fbcdn.net/favicon.ico
+https://instagram.fsvg2-1.fna.fbcdn.net/favicon.ico
+https://connect.facebook.net/en_US/sdk.js
+https://scontent-cdg2-1.cdninstagram.com/favicon.ico
+https://instagram.fdtm1-1.fna.fbcdn.net/favicon.ico
 https://whatsapp.com/
 https://web.whatsapp.com/
 https://www.skype.com/
@@ -32,6 +51,9 @@ https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
 https://abs-0.twimg.com/sticky/default_profile_images/default_profile_normal.png
 https://t.co/Usz3cIuO6v?amp=1
 https://www.reddit.com/
+https://styles.redditmedia.com/robots.txt
+https://preview.redd.it/robots.txt
+https://www.redditstatic.com/robots.txt
 https://web.telegram.org/
 https://telegram.org/
 https://plus.google.com/
@@ -43,6 +65,8 @@ https://www.truecaller.com/
 https://www.viber.com/
 https://www.tumblr.com/
 https://www.pinterest.com/
+https://i.pinimg.com/236x/78/6e/00/786e00eab219eca59803d118fbe0feb3.jpg
+https://s.pinimg.com/robots.txt
 https://4chan.org/
 https://discordapp.com/
 https://line.me/
@@ -54,6 +78,20 @@ https://www.tiktok.com/
 https://www.weibo.com/
 https://tieba.baidu.com/
 https://signal.org/
+https://www.joinclubhouse.com/
+https://www.clubhouseapi.com/
+https://clubhouse.pubnub.com/
+https://www.clubhouse.com/
+https://matrix.to/
+https://matrix.org/
+https://element.io/
+https://app.element.io/
+https://mobile.element.io/
+https://matrix-client.matrix.org/_matrix/client/versions
+https://vector.im/_matrix/identity/api/v1
+https://www.quora.com/
+https://qsbr.fs.quoracdn.net/-4-web.entry.js.out-34-8f7d03da0b7a24ae.webpack
+https://qph.fs.quoracdn.net/main-thumb-1117688072-200-uijiqfjcmlvaxczdrlawbgyaomfocdnt.jpeg
 {{</oonirunurls>}}
 
 {{<oonirunurls text="News Media (47 URLs)">}}
@@ -160,6 +198,8 @@ https://fa.wikipedia.org/
 https://fa.m.wikipedia.org/
 https://fa.wikinews.org/
 https://en.wikinews.org/
+https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Generic_Camera_Icon.svg/100px-Generic_Camera_Icon.svg.png
+https://www.wikidata.org/wiki/Wikidata:Main_Page
 {{</oonirunurls>}}
 
 {{<oonirunurls text="Human Rights (27 URLs)">}}
