@@ -3,7 +3,7 @@ title: "Web Connectivity"
 short_description: "This test checks whether access to websites
 is blocked by means of DNS tampering,
 TCP/IP blocking or by a transparent HTTP proxy."
-groups: ["website"]
+groups: ["websites"]
 date: "0000-01-01"
 ---
 

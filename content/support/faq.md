@@ -24,6 +24,10 @@ Are there other questions you would like us to address? Please [let us know](htt
 
     * [What is OONI's relationship with The Tor Project?](#what-is-oonis-relationship-with-the-tor-project)
 
+    * [Where is OONI based?](#where-is-ooni-based)
+
+    * [Whats is OONI's legal status?](#what-is-oonis-legal-status)
+
     * [How can I get involved?](#how-can-i-get-involved)
 
 * [OONI Probe](#ooni-probe)
@@ -265,11 +269,12 @@ and by whom.
 
 ### How is OONI funded?
 
-Like most projects in the nonprofit world, OONI is primarily supported
-by foundations.
+Like most projects in the non-profit world, OONI is primarily supported through grants.
 
-The [Open Technology Fund (OTF)](https://www.opentech.fund/) has been
-our main funder over the years, originally [supporting the creation of OONI back in 2012](https://www.opentech.fund/results/supported-projects/ooni-open-observatory-of-network-interference/).
+We are currently supported by the [Bureau of Democracy, Human Rights, and Labor (DRL)](https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-democracy-human-rights-and-labor/), the [Ford Foundation](https://www.fordfoundation.org/), and the [Internet Society (ISOC)](https://www.internetsociety.org/).
+
+Over the years, the [Open Technology Fund (OTF)](https://www.opentech.fund/) has been
+our main funder, originally [supporting the creation of OONI back in 2012](https://www.opentech.fund/results/supported-projects/ooni-open-observatory-of-network-interference/).
 The OTF has
 [supported](https://www.opentech.fund/results/supported-projects/)
 some of the most prominent free software projects that advance human
@@ -296,11 +301,33 @@ measurements).
 
 OONI was born out of [The Tor Project](https://www.torproject.org/).
 
-Back in 2011, Tor Project developers started creating open methodologies
-and frameworks with the goal of measuring various forms of network
-interference, resulting in the creation of OONI.
+Back in 2011, Tor Project developers started creating open methodologies and
+frameworks with the goal of measuring various forms of network interference,
+resulting in the creation of OONI. Over the years, OONI was [one of the projects hosted under The Tor Project Inc.](https://2019.www.torproject.org/projects/projects.html.en).
 
-OONI has since been [one of the projects hosted under The Tor Project Inc.](https://2019.www.torproject.org/projects/projects.html.en).
+The Tor Project served as OONI's fiscal sponsor between 2012 to 2020, and we [continue to collaborate](https://ooni.org/partners/tor-project/) on measuring Tor reachability. 
+
+OONI is currently fiscally sponsored by the [Hermes Center for Transparency and Digital Human Rights](https://www.hermescenter.org/), but we operate independently in terms of fundraising and governance. 
+
+### Where is OONI based?
+
+OONI is a global project, with a global community. 
+
+The OONI team is not from a specific country, as we've never had a
+physical office, and we've always worked online. Our current team members are
+from Italy, Greece, South Africa, and India. 
+
+### What is OONI's legal status?
+
+OONI is a non-profit project, but doesn't have a legally registered entity. 
+
+[The Tor Project](https://www.torproject.org/) served as our fiscal sponsor
+between 2012 to 2020. More recently, we are fiscally sponsored by the
+[Hermes Center for Transparency and Digital Human Rights](https://www.hermescenter.org/), which is a non-profit digital rights
+organization registered in Italy. 
+
+Despite being fiscally sponsored by others (primarily the Tor Project over the
+years), we have always operated independently in terms of fundraising and governance.
 
 ### How can I get involved?
 
@@ -426,9 +453,9 @@ designed to measure:
 * Blocking of websites;
 
 * Blocking of instant messaging apps (WhatsApp, Facebook Messenger,
-Telegram);
+Telegram, Signal);
 
-* Blocking of censorship circumvention tools (such as Tor, Psiphon, and pluggable transports);
+* Blocking of censorship circumvention tools (Tor, Psiphon, and RiseupVPN);
 
 * Presence of middleboxes (i.e. systems that could be responsible for
 censorship or surveillance);
@@ -460,6 +487,14 @@ below:
 
 * Telegram test: https://ooni.org/nettest/telegram/
 
+* Signal: https://ooni.org/nettest/signal/
+
+* Tor: https://ooni.org/nettest/tor/
+
+* Psiphon: https://ooni.org/nettest/psiphon/
+
+* RiseupVPN: https://ooni.org/nettest/riseupvpn/
+
 * HTTP Invalid Request Line test: https://ooni.org/nettest/http-invalid-request-line/
 
 * HTTP Header Field Manipulation test: https://ooni.org/nettest/http-header-field-manipulation/
@@ -478,9 +513,8 @@ and [iOS](https://itunes.apple.com/us/app/id1199566366)), which is the
 easiest way to run OONI Probe. You can run tests with the tap of a
 button!
 
-We’re generally working towards making OONI Probe as easy to install and
-run as possible. This includes a [new OONI Probe desktop app for Windows and macOS](https://github.com/ooni/probe-desktop/releases) with
-similar design, UX, and features as the mobile app.
+You can also run the [OONI Probe desktop app](https://ooni.org/install/desktop), which includes similar design, UX, and
+features as the [OONI Probe mobile app](https://ooni.org/install/mobile).
 
 ### How can I run OONI Probe?
 
@@ -492,16 +526,10 @@ You can run OONI Probe on the following platforms:
 
 * F-Droid: https://f-droid.org/repository/browse/?fdid=org.openobservatory.ooniprobe
 
-* Windows & macOS: https://github.com/ooni/probe-desktop/releases (new and experimental)
+* Windows & macOS: https://ooni.org/install/desktop
 
-* Linux: https://github.com/ooni/probe-cli/releases (new and experimental)
+* Linux: https://ooni.org/install/cli/ubuntu-debian
 
-Older versions of OONI Probe (which are no longer updated) are available
-for:
-
-* Linux & macOS: https://ooni.org/install/ooniprobe
-
-* Raspberry Pi: https://ooni.org/install/lepidopter/
 
 ### I ran OONI Probe. Should I send you the results?
 
@@ -606,17 +634,7 @@ Learn more about our data practices through the OONI Data Policy:
 
 ### How can I opt-out from sending OONI measurements?
 
-Through the settings of the OONI Probe apps, you can:
-
-* Disable the “**Include Network Info**” setting to **opt-out from
-submitting the ASN** (such as “AS30722” for Vodafone Italia) of
-the network are running OONI Probe from.
-
-* Disable the “**Include Country Code**” setting to **opt-out from
-submitting the code of the country** (such as “IT” for Italy) you
-are running OONI Probe from.
-
-* Disable the “**Automatically Publish Results**” setting to **opt-out
+Through the settings of the OONI Probe apps, you can disable the “**Automatically Publish Results**” setting to **opt-out
 from sharing (and publishing) any measurements** at all.
 
 ### What are the risks of running OONI Probe?
@@ -1098,11 +1116,6 @@ notifies the user that the website is intentionally blocked).
 
 You have the following options:
 
-* **OONI PostgreSQL Metadb.** This system enables you to set-up your
-own instance (and to have an always in sync version) of the OONI
-measurement database that powers the [OONI API](https://api.ooni.io/) and [OONI Explorer](https://explorer.ooni.org/). Learn how to set-up your
-own copy of the OONI metadb through this [documentation](https://github.com/ooni/sysadmin/blob/metadb-share/docs/metadb-sharing.md).
-
 * **Amazon S3.** Thanks to the [Amazon Open Data program](https://aws.amazon.com/government-education/open-data/),
 the whole OONI dataset can be fetched from the [ooni-data Amazon S3 bucket](https://ooni-data.s3.amazonaws.com/). Learn more through
 our relevant [blog post](https://ooni.org/post/mining-ooni-data/).
@@ -1111,7 +1124,7 @@ our relevant [blog post](https://ooni.org/post/mining-ooni-data/).
 via the [OONI API](https://api.ooni.io/). Learn how to query the
 API through our [documentation](https://api.ooni.io/api/).
 
-We **recommend the first two options** if you plan on working with
+We **recommend fetching OONI data from the S3 bucket** if you plan on working with
 large volumes of OONI data (including, for example, downloading all the
 measurements from a country to perform queries).
 

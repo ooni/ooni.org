@@ -1,8 +1,8 @@
 ---
 title: "Tor Bridge Reachability"
-short_description: "This test examines whether Tor bridges
+short_description: "This test measures whether Tor bridges
 work in tested networks."
-groups: ["tor"]
+groups: ["legacy"]
 ---
 
 This test examines whether **[Tor bridges](https://bridges.torproject.org/)**
