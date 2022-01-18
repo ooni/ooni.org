@@ -14,7 +14,7 @@ To support **rapid response** to emergent censorship events, we share the follow
 
 Note: These tests require turning off VPNs.
 
-{{<oonirunurls text="Social Media (39 URLs)">}}
+{{<oonirunurls text="Social Media (77 URLs)">}}
 https://www.facebook.com/
 https://external.xx.fbcdn.net/robots.txt
 https://fbcdn.net/robots.txt
@@ -94,7 +94,7 @@ https://qsbr.fs.quoracdn.net/-4-web.entry.js.out-34-8f7d03da0b7a24ae.webpack
 https://qph.fs.quoracdn.net/main-thumb-1117688072-200-uijiqfjcmlvaxczdrlawbgyaomfocdnt.jpeg
 {{</oonirunurls>}}
 
-{{<oonirunurls text="News Media (47 URLs)">}}
+{{<oonirunurls text="News Media (48 URLs)">}}
 https://www.reddit.com/
 https://edition.cnn.com/
 https://www.nytimes.com/
@@ -169,7 +169,7 @@ https://ultrasurf.us/
 http://anonymouse.org/
 {{</oonirunurls>}}
 
-{{<oonirunurls text="Wikipedia (28 URLs)">}}
+{{<oonirunurls text="Wikipedia (30 URLs)">}}
 https://www.wikipedia.org/
 https://en.wikipedia.org/
 https://en.m.wikipedia.org/
@@ -922,7 +922,7 @@ https://www.nbcnewyork.com/news/national-international/map-watch-the-coronavirus
 https://nextstrain.org/ncov
 {{</oonirunurls>}}
 
-{{<oonirunurls text="DNS over HTTPS (39 URLs)">}}
+{{<oonirunurls text="DNS over HTTPS (38 URLs)">}}
 https://dns.adguard.com/dns-query?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB
 https://dns-family.adguard.com/dns-query?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB
 https://dns.google/dns-query?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB
