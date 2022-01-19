@@ -4,9 +4,9 @@ description: This Data Policy discloses and explains what data the OONI project 
 aliases: ["/data-policy"]
 ---
 
-**Last modified:** April 13, 2021
+**Last modified:** January 19, 2022
 
-**Version:** 1.4.3
+**Version:** 1.4.4
 
 This Data Policy discloses and explains what data the [Open Observatory of
 Network Interference (OONI) project](https://ooni.org/) ("we", "us", or "our")
@@ -157,6 +157,8 @@ personal data, these analytics are [enabled by default](https://matomo.org/cooki
 
 We do not record the full IP address of users (which is “anonymised” to the
 first 3 octets, ex. 123.45.67.0).
+
+On [OONI Explorer](https://explorer.ooni.org/), we also use [Sentry](https://sentry.io/) to log crash reports, which helps us improve the service.
 
 You can opt out of our use of analytics on [OONI Explorer](https://explorer.ooni.org/) and the [OONI website](https://ooni.org/)
 by **unchecking the opt-out box** at the end of this Data Policy.
