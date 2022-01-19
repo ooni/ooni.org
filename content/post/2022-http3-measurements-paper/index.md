@@ -19,7 +19,7 @@ We collaborated with Kathrin Elmenhorst, who has described and analysed the meas
 
 In this post, we summarize the key findings of our measurements and provide a brief introduction to QUIC and HTTP/3.  
 
-* [A quic(k) introduction to QUIC and HTTP/3](#a-quic-k-introduction-to-quick-and-http3)  
+* [A quic(k) introduction to QUIC and HTTP/3](#a-quic-k-introduction-to-quic-and-http3)  
     
 * [Overview](#overview)  
     
@@ -65,7 +65,7 @@ We measured the HTTP/3 test-URLs repeatedly over the span of a months to increas
 
 When analyzing the results, we determined the availability of a website and classified the network failure, if one had occured.  
 
-{{<img src="images/table.png" title="Distribution of network error types for TCP/TLS and QUIC measurements." alt="Table showing distribution of network error types for TCP/TLS and QUIC measurements.">}}
+{{<img src="images/table.png" title="Distribution of network error types for TCP/TLS and QUIC measurements" alt="Table showing distribution of network error types for TCP/TLS and QUIC measurements">}}
 
 The overview table above depicts the percentage and types of network failures when trying to reach test websites from 6 vantage points. As shown, HTTP/3 traffic was less censored than HTTPS at all vantage points. While there was no indication of any HTTP/3 filtering in some networks, others have shown a certain degree of HTTP/3 impairment, e.g. AS45090 in China or AS62442 in Iran. The failure type abbreviations (e.g. TCP-hs-to) are explained in the [Appendix](#appendixB).  
 
@@ -107,7 +107,7 @@ We have seen less HTTP/3 blocking than HTTPS blocking at the vantage points in C
 
 _Figure 1: Distribution of top-level domains (first horizontal bar) and sources (second horizontal bar) within each country-specific host list._  
 
-{{<img src="images/domains.png" title="Test domains distribution." alt="Test domains distribution." width="75%">}}
+{{<img src="images/domains.png" title="Test domains distribution" alt="Test domains distribution">}}
 
 Figure 1 shows the composition of our country-specific input lists. The upper bar depicts the ratios of top-level domains. As you can see, there is a strong predominance of .com domains over local top-level domains. This is due to the fact that HTTP/3 was mostly deployed by large internet companies like Google, Facebook and Cloudflare that hold international domains. The lower bar shows which source lists we used to populate the input. Tranco is a research-oriented ranking of worldwide top sites. The [lists](https://github.com/citizenlab/test-lists/tree/master/lists) provided by the Citizen Lab include websites with global and local relevance in regards to censorship. 
 
@@ -126,7 +126,7 @@ Figure 1 shows the composition of our country-specific input lists. The upper ba
 
 _Figure 2: Correlation of HTTPS and HTTP/3 request results in AS45090, AS55836, and AS62442._  
 
-{{<img src="images/flows.png" title="Correlation of HTTPS and HTTP/3 request results in AS 45090, AS 55836, and AS62442" alt="Correlation of HTTPS and HTTP/3 request results in AS 45090, AS 55836, and AS62442" width="50%">  }}
+{{<img src="images/flows.png" title="Correlation of HTTPS and HTTP/3 request results in AS 45090, AS 55836, and AS62442" alt="Correlation of HTTPS and HTTP/3 request results in AS 45090, AS 55836, and AS62442">}}
 
 Figure 2 shows the correlation between HTTPS and HTTP/3 requests in specific networks in China, India and Iran.  
 
