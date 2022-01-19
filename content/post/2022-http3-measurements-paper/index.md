@@ -65,7 +65,7 @@ We measured the HTTP/3 test-URLs repeatedly over the span of a months to increas
 
 When analyzing the results, we determined the availability of a website and classified the network failure, if one had occured.  
 
-{{<img src="images/table.png" title="Distribution of network error types for TCP/TLS and QUIC measurements" alt="Table showing distribution of network error types for TCP/TLS and QUIC measurements">}}
+{{<img src="images/tablesmall.png" title="Distribution of network error types for TCP/TLS and QUIC measurements" alt="Table showing distribution of network error types for TCP/TLS and QUIC measurements">}}
 
 The overview table above depicts the percentage and types of network failures when trying to reach test websites from 6 vantage points. As shown, HTTP/3 traffic was less censored than HTTPS at all vantage points. While there was no indication of any HTTP/3 filtering in some networks, others have shown a certain degree of HTTP/3 impairment, e.g. AS45090 in China or AS62442 in Iran. The failure type abbreviations (e.g. TCP-hs-to) are explained in the Appendix.  
 
