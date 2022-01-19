@@ -19,15 +19,15 @@ We collaborated with Kathrin Elmenhorst, who has described and analysed the meas
 
 In this post, we summarize the key findings of our measurements and provide a brief introduction to QUIC and HTTP/3.  
 
-* [A quic(k) introduction to QUIC and HTTP/3](#a-quic-k-introduction-to-quic-and-http3)  
+* [A quic(k) introduction to QUIC and HTTP/3](#a-quic-k-introduction-to-quic-and-http-3)  
     
 * [Overview](#overview)  
     
-    * [Kazakhstan and India: HTTP/3 traffic passes the censorship filter](#kazakhstan-and-india-http3-traffic-passes-the-censorship-filter)  
+    * [Kazakhstan and India: HTTP/3 traffic passes the censorship filter](#kazakhstan-and-india-http-3-traffic-passes-the-censorship-filter)  
     
-    * [China and India: Collateral blocking of HTTP/3 hosts](#china-and-india-collateral-blocking-of-http3-hosts)  
+    * [China and India: Collateral blocking of HTTP/3 hosts](#china-and-india-collateral-blocking-of-http-3-hosts)  
     
-    * [Iran: HTTP/3-targeting blocking of UDP endpoints](#iran-http3-targeting-blocking-of-udp-endpoints)  
+    * [Iran: HTTP/3-targeting blocking of UDP endpoints](#iran-http-3-targeting-blocking-of-udp-endpoints)  
     
 * [Conclusion](#conclusion)  
     
@@ -67,7 +67,7 @@ When analyzing the results, we determined the availability of a website and clas
 
 {{<img src="images/table.png" title="Distribution of network error types for TCP/TLS and QUIC measurements" alt="Table showing distribution of network error types for TCP/TLS and QUIC measurements">}}
 
-The overview table above depicts the percentage and types of network failures when trying to reach test websites from 6 vantage points. As shown, HTTP/3 traffic was less censored than HTTPS at all vantage points. While there was no indication of any HTTP/3 filtering in some networks, others have shown a certain degree of HTTP/3 impairment, e.g. AS45090 in China or AS62442 in Iran. The failure type abbreviations (e.g. TCP-hs-to) are explained in the [Appendix](#appendixB).  
+The overview table above depicts the percentage and types of network failures when trying to reach test websites from 6 vantage points. As shown, HTTP/3 traffic was less censored than HTTPS at all vantage points. While there was no indication of any HTTP/3 filtering in some networks, others have shown a certain degree of HTTP/3 impairment, e.g. AS45090 in China or AS62442 in Iran. The failure type abbreviations (e.g. TCP-hs-to) are explained in the Appendix.  
 
 ## Kazakhstan and India: HTTP/3 traffic passes the censorship filter  
 
