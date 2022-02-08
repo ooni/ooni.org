@@ -147,7 +147,11 @@ An Al Jazeera reporter in Addis Ababa cited difficulties to connect to the
 internet and restricted travel to protest zones as a cause for limited coverage
 of the protests.
 
-{{% tweet 762388008666591232 %}}
+<!--
+The following
+tweet 762388008666591232
+is no longer available
+-->
 
 {{% tweet 762569928205533184 %}}
 
