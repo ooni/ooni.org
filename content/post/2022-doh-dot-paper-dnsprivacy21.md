@@ -10,7 +10,6 @@ categories: ["report"]
 Last year, we designed the [dnscheck](https://github.com/ooni/spec/blob/master/nettests/ts-028-dnscheck.md)
 network experiment and we conducted a one-month-long measurement campaign in Iran, China, and
 Kazakhstan, using dnscheck to perform DNS measurements.
-
 The dnscheck experiment focuses on encrypted DNS. In particular, it measures the blocking of
 [DNS over HTTPS](https://datatracker.ietf.org/doc/html/rfc8484), also known as DoH, and [DNS
 over TLS](https://datatracker.ietf.org/doc/html/rfc7858), also known as DoT.
