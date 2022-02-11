@@ -9,7 +9,13 @@ categories: ["report"]
 
 Last year, we designed the [dnscheck](https://github.com/ooni/spec/blob/master/nettests/ts-028-dnscheck.md)
 network experiment and we conducted a one-month-long measurement campaign in Iran, China, and
-Kazakhstan, using dnscheck to perform DNS measurements. We documented this work in the [Measuring
+Kazakhstan, using dnscheck to perform DNS measurements.
+
+The dnscheck experiment focuses on encrypted DNS. In particular, it measures the blocking of
+[DNS over HTTPS](https://datatracker.ietf.org/doc/html/rfc8484), also known as DoH, and [DNS
+over TLS](https://datatracker.ietf.org/doc/html/rfc7858), also known as DoT.
+
+We documented this reseach and development work in the [Measuring
 DoT/DoH Blocking Using OONI Probe: a Preliminary Study](https://www.ndss-symposium.org/wp-content/uploads/dnspriv21-02-paper.pdf)
 research paper, presented at the Network and Distributed System Security Symposium (NDSS’21) in
 the context of the [DNS Privacy Workshop](https://www.ndss-symposium.org/ndss-program/dns-privacy-2021/).
