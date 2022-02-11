@@ -19,8 +19,8 @@ DoT/DoH Blocking Using OONI Probe: a Preliminary Study](https://www.ndss-symposi
 research paper, presented at the Network and Distributed System Security Symposium (NDSS’21) in
 the context of the [DNS Privacy Workshop](https://www.ndss-symposium.org/ndss-program/dns-privacy-2021/).
 
-The dnscheck experiment is currently available as part of the "experimental" group in ooniprobe and soon
-will also be available in the Experimental card of [OONI Probe Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe) and [OONI Probe iOS](https://itunes.apple.com/us/app/id1199566366). Because
+The dnscheck experiment is currently available as part of the "experimental" group in ooniprobe and will soon
+also be available in the Experimental card of [OONI Probe Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe) and [OONI Probe iOS](https://itunes.apple.com/us/app/id1199566366). Because
 we are incrementally rolling out dnscheck, this seems to be a good moment in time to refer to the research paper
 describing its design and evaluating its implementation.
 
