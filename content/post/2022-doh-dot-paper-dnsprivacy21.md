@@ -53,7 +53,8 @@ direct references to sections inside the paper itself:
 and design DNSCheck, a measurement methodology to measure
 such blocking (Section IV). DNSCheck consists of two
 steps. The first step checks whether the system resolver
-(and other Do53 resolvers) allow one to resolve a DoT/DoH
+(and other unencrypted resolvers, such as the standard
+DNS over UDP protocol, henceforth called Do53) allow one to resolve a DoT/DoH
 service’s domain name. The second step checks which
 TCP/QUIC endpoints associated with the service allow domain
 resolutions using the proper protocol (DoT or DoH).*
