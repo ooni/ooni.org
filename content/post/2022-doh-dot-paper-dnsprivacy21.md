@@ -1,8 +1,8 @@
 ---
-title: "Paper: Measuring DoT/DoH Blocking Using OONI Probe: a Preliminary Study"
+title: "Measuring DoT/DoH Blocking Using OONI Probe: A Preliminary Study"
 description: "This research paper examines encrypted DNS blocking in Iran, China, and Kazakhstan."
 author: "Simone Basso"
-date: "2022-02-11"
+date: "2022-02-14"
 tags: ["dot", "doh", "dns", "censorship", "country-ir", "country-cn", "country-kz", "paper"]
 categories: ["report"]
 ---
@@ -20,9 +20,11 @@ research paper, presented at the Network and Distributed System Security Symposi
 the context of the [DNS Privacy Workshop](https://www.ndss-symposium.org/ndss-program/dns-privacy-2021/).
 
 The dnscheck experiment is currently available as part of the "experimental" group in ooniprobe and soon
-will also be available in the "experimental" group for OONI Probe Android and OONI Probe iOS. Because
-we are incrementally rolling out dnscheck, this seems a good moment in time to refer to the research paper
+will also be available in the Experimental card of [OONI Probe Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe) and [OONI Probe iOS](https://itunes.apple.com/us/app/id1199566366). Because
+we are incrementally rolling out dnscheck, this seems to be a good moment in time to refer to the research paper
 describing its design and evaluating its implementation.
+
+**[READ RESEARCH PAPER](https://www.ndss-symposium.org/wp-content/uploads/dnspriv21-02-paper.pdf)**
 
 Here's the paper abstract:
 
