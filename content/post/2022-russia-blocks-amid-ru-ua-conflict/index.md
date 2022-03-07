@@ -22,19 +22,19 @@ In this report, we share an in-depth analysis of new censorship events that have
 *   **Centralized throttling of Twitter.** OONI data suggests that access to [twitter.com was throttled](https://explorer.ooni.org/search?since=2022-02-26&until=2022-03-04&failure=false&domain=twitter.com&probe_cc=RU) in Russia between 26th February 2022 to 4th March 2022. As the throttling of twitter.com seems to have stopped across all ISPs in Russia at the same time (~08:00 on 4th March 2022 UTC), it appears to have been centralized. Moreover, interference to twitter.com appears to have changed from throttling to blocking (through the injection of a RST packet) on 4th March 2022.
 *   **Blocking of Facebook and Twitter.** OONI data shows that access to [facebook.com](https://explorer.ooni.org/search?since=2022-02-04&until=2022-03-07&failure=false&domain=www.facebook.com&probe_cc=RU&only=anomalies) and [twitter.com was blocked](https://explorer.ooni.org/search?since=2022-03-04&until=2022-03-07&failure=false&domain=twitter.com&probe_cc=RU) in Russia by 4th March 2022 (primarily through the injection of RST packets).
 *   **Decentralized censorship.** Every Internet Service Provider (ISP) in Russia is responsible for implementing government-mandated blocks independently. As a result, we observe variance in how internet censorship is implemented across Russia, as blocks are not implemented on all networks in the country, and different ISPs adopt different censorship techniques. Some ISPs implement blocks through the use of multiple techniques at the same time, making circumvention harder.
-*   **Different censorship techniques.** To block websites, OONI data shows that Russian ISPs adopt the following censorship techniques:
+*   **Different censorship techniques.** To block websites, OONI data shows that Russian ISPs adopt the following censorship techniques (beyond throttling):
     *   [DNS manipulation, redirecting in some cases to blockpages](https://explorer.ooni.org/measurement/20220305T042324Z_webconnectivity_RU_35807_n1_7gOd4SMmKjQ3mmYn?input=https%3A%2F%2Fwww.bbc.com%2Frussian%2F)
     *   [HTTP man-in-the-middle, serving blockpages](https://explorer.ooni.org/measurement/20220304T214241Z_webconnectivity_RU_12389_n1_UeXMqEpughRTTzLU?input=http%3A%2F%2Fwww.bbc.com%2Fnews)
     *   [TLS man-in-the-middle](https://explorer.ooni.org/measurement/20220304T050209Z_webconnectivity_RU_8359_n1_Ajrlzw7jakFRM3pM?input=https%3A%2F%2Fwww.bbc.com%2F)
     *   [Injection of a RST packet after the ClientHello during the TLS handshake](https://explorer.ooni.org/measurement/20220305T090244Z_webconnectivity_RU_8732_n1_oCVFwxN1oAYddBoX?input=https%3A%2F%2Fwww.bbc.com%2Frussian%2F) (most prevalent)
-    *   [Timing out the connection after the ClientHello during the TLS handshake](https://explorer.ooni.org/measurement/20220304T080535Z_webconnectivity_RU_16345_n1_3v6HMrLt0KTMXcpm?input=https%3A%2F%2Fwww.bbc.com%2F)
+    *   [Timing out the session after the ClientHello during the TLS handshake](https://explorer.ooni.org/measurement/20220304T080535Z_webconnectivity_RU_16345_n1_3v6HMrLt0KTMXcpm?input=https%3A%2F%2Fwww.bbc.com%2F)
     *   [Closing the connection after the ClientHello during the TLS handshake](https://explorer.ooni.org/measurement/20220304T034651Z_webconnectivity_RU_31163_n1_asVR1x6WcRk5AdL0?input=https%3A%2F%2Fwww.bbc.com%2F)
 
 ## Background
 
 On 24th February 2022, [Russia invaded Ukraine](https://www.dw.com/en/russias-invasion-of-ukraine-2022/t-60931789) and the military operation is currently ongoing. The conflict between the two nations began 8 years ago (February 2014), when Russia invaded and [annexed the Crimean Peninsula](https://www.bbc.com/news/world-europe-26644082) from Ukraine. This was followed by the [war in the eastern Donbas region](https://www.bbc.com/news/world-europe-59599066) of Ukraine (which has since been ongoing), where Russian separatist groups have been backed by the Russian military. Over the years, the conflict has also involved cyberwarfare, with a series of [cyberattacks](https://en.wikipedia.org/wiki/Russian%E2%80%93Ukrainian_cyberwarfare) reportedly launched by both Russia and Ukraine.
 
-Leading up to and following the current full-scale invasion of Ukraine, DDoS attacks have been launched against Ukrainian government and banking websites, which US officials [attributed](https://www.wired.com/story/ukraine-ddos-russia-crypo-roblox-security-news/) to Russia, but the Russian government [denied](https://www.cnbc.com/2022/02/23/cyberattack-hits-ukrainian-banks-and-government-websites.html) involvement. Russia was also accused of targeting the machines of multiple organizations in Ukraine with [data-wiper malware](https://www.theguardian.com/world/2022/feb/24/russia-unleashed-data-wiper-virus-on-ukraine-say-cyber-experts). Meanwhile, the Anonymous hacker collective [declared cyberwar](https://www.theguardian.com/world/2022/feb/27/anonymous-the-hacker-collective-that-has-declared-cyberwar-on-russia) against the Russian government, claiming credit for hacking the Russian Ministry of Defense database, as well as hacking Russian state TV channels to post pro-Ukraine content and [taking down](https://twitter.com/YourAnonTV/status/1496968999900377088) the website (rt.com) of the Russian state news website RT. Amid the war, Ukraine has experienced [internet outages affecting several networks](https://ioda.inetintel.cc.gatech.edu/country/UA?from=1645315200&until=1646351999) over the last week, but overall, the country’s [internet infrastructure appears to continue to function](https://labs.ripe.net/author/emileaben/the-ukrainian-internet/) despite the conflict.  
+Leading up to and following the current full-scale invasion of Ukraine, DDoS attacks have been launched against Ukrainian government and banking websites, which US officials [attributed](https://www.wired.com/story/ukraine-ddos-russia-crypo-roblox-security-news/) to Russia, but the Russian government [denied](https://www.cnbc.com/2022/02/23/cyberattack-hits-ukrainian-banks-and-government-websites.html) involvement. Russia was also accused of targeting the machines of multiple organizations in Ukraine with [data-wiper malware](https://www.theguardian.com/world/2022/feb/24/russia-unleashed-data-wiper-virus-on-ukraine-say-cyber-experts). Meanwhile, the Anonymous hacker collective [declared cyberwar](https://www.theguardian.com/world/2022/feb/27/anonymous-the-hacker-collective-that-has-declared-cyberwar-on-russia) against the Russian government, claiming credit for hacking the Russian Ministry of Defense database. They also reportedly hacked Russian state TV channels to post pro-Ukraine content and [taking down](https://twitter.com/YourAnonTV/status/1496968999900377088) the website (rt.com) of the Russian state news website RT. Amid the war, Ukraine has experienced [internet outages affecting several networks](https://ioda.inetintel.cc.gatech.edu/country/UA?from=1645315200&until=1646351999) over the last week, but overall, the country’s [internet infrastructure appears to continue to function](https://labs.ripe.net/author/emileaben/the-ukrainian-internet/) despite the conflict.  
 
 Over the years, both Russia and Ukraine have engaged in geopolitical censorship, as [Russia has been blocking Ukrainian websites](https://explorer.ooni.org/search?since=2022-02-01&until=2022-03-04&failure=false&probe_cc=RU&only=confirmed) (such as [uapolitics.com](https://explorer.ooni.org/measurement/20220209T105254Z_webconnectivity_RU_34456_n1_KKpP9t7GsvOoSpso?input=http%3A%2F%2Fuapolitics.com%2F), [24tv.ua](https://explorer.ooni.org/measurement/20220205T225542Z_webconnectivity_RU_51813_n1_tvDoPQfDxPE9RLGu?input=https%3A%2F%2F24tv.ua%2F), [donbass.ua](https://explorer.ooni.org/measurement/20211202T235114Z_webconnectivity_RU_51570_n1_yvzXZ3JcMTOzGuKY?input=http%3A%2F%2Fdonbass.ua%2F)), while [Ukraine has been blocking Russian websites](https://explorer.ooni.org/search?since=2022-02-01&until=2022-03-04&failure=false&probe_cc=UA&only=confirmed) (such as [mail.ru](https://explorer.ooni.org/measurement/20220301T043010Z_webconnectivity_UA_35362_n1_5ncpRAizRmdWcaXq?input=http%3A%2F%2Fmail.ru%2F), [rt.com](https://explorer.ooni.org/measurement/20220302T043733Z_webconnectivity_UA_13188_n1_1NoiSEKgixSqo1OU?input=http%3A%2F%2Frt.com%2F), [gazeta.ru](https://explorer.ooni.org/measurement/20220302T062501Z_webconnectivity_UA_13188_n1_cz1btWU7agooErpV?input=http%3A%2F%2Fgazeta.ru%2F)). Russia though has been implementing more widespread internet censorship, also [blocking numerous LGBTIQ websites](https://ooni.org/post/2021-no-access-lgbtiq-website-censorship-six-countries/), a variety of websites that express political criticism (such as [ej.ru](https://explorer.ooni.org/measurement/20220303T142326Z_webconnectivity_RU_8402_n1_tZlHfk2hR4eLRhK6?input=http%3A%2F%2Fwww.ej.ru%2F), [imrussia.org](https://explorer.ooni.org/measurement/20220302T211436Z_webconnectivity_RU_51813_n1_DdYZMJBi9cKyvb7I?input=https%3A%2F%2Fimrussia.org%2Fru%2F), [kasparov.ru](https://explorer.ooni.org/measurement/20220303T050847Z_webconnectivity_RU_8790_n1_bua5WgKgLMSiTCqQ?input=http%3A%2F%2Fkasparov.ru%2F), [fbk.info](https://explorer.ooni.org/measurement/20220303T010633Z_webconnectivity_RU_51813_n1_woCOU3fsT8qop47t?input=https%3A%2F%2Ffbk.info%2F)), as well as the [website of opposition leader Alexei Navalny](https://explorer.ooni.org/search?since=2022-02-01&until=2022-03-04&failure=false&probe_cc=RU&domain=navalny.com) (which OONI data suggests has been [blocked since 26th July 2021](https://explorer.ooni.org/search?since=2021-07-01&until=2021-07-31&failure=false&probe_cc=RU&domain=navalny.com)).  
 
@@ -69,7 +69,7 @@ Following the invasion of Ukraine, OONI data shows that Russia started:
 
 But these censorship events are not present on all networks in Russia.
 
-Russia implements internet censorship in a [decentralized](https://www.ndss-symposium.org/ndss-paper/decentralized-control-a-case-study-of-russia/) manner, as every Internet Service Provider (ISP) in Russia is responsible for implementing government-mandated blocks independently. As a result, we observe variance in how internet censorship is implemented across Russia, as blocks are not implemented on all networks in the country, and different ISPs adopt different censorship techniques.
+Russia implements internet censorship in a [decentralized](https://www.ndss-symposium.org/ndss-paper/decentralized-control-a-case-study-of-russia/) manner, as every Internet Service Provider (ISP) in Russia is responsible for implementing government-mandated blocks independently. As a result, we observe [variance](https://censoredplanet.org/assets/russia.pdf) in how internet censorship is implemented across Russia, as blocks are not implemented on all networks in the country, and different ISPs adopt different censorship techniques.
 
 To block websites, OONI data shows that Russian ISPs adopt the following censorship techniques:
 
@@ -77,7 +77,7 @@ To block websites, OONI data shows that Russian ISPs adopt the following censors
 *   [HTTP man-in-the-middle, serving blockpages](https://explorer.ooni.org/measurement/20220304T214241Z_webconnectivity_RU_12389_n1_UeXMqEpughRTTzLU?input=http%3A%2F%2Fwww.bbc.com%2Fnews)
 *   [TLS man-in-the-middle](https://explorer.ooni.org/measurement/20220304T050209Z_webconnectivity_RU_8359_n1_Ajrlzw7jakFRM3pM?input=https%3A%2F%2Fwww.bbc.com%2F)
 *   [Injection of a RST packet after the ClientHello during the TLS handshake](https://explorer.ooni.org/measurement/20220305T090244Z_webconnectivity_RU_8732_n1_oCVFwxN1oAYddBoX?input=https%3A%2F%2Fwww.bbc.com%2Frussian%2F)
-*   [Timing out the connection after the ClientHello during the TLS handshake](https://explorer.ooni.org/measurement/20220304T080535Z_webconnectivity_RU_16345_n1_3v6HMrLt0KTMXcpm?input=https%3A%2F%2Fwww.bbc.com%2F)
+*   [Timing out the session after the ClientHello during the TLS handshake](https://explorer.ooni.org/measurement/20220304T080535Z_webconnectivity_RU_16345_n1_3v6HMrLt0KTMXcpm?input=https%3A%2F%2Fwww.bbc.com%2F)
 *   [Closing the connection after the ClientHello during the TLS handshake](https://explorer.ooni.org/measurement/20220304T034651Z_webconnectivity_RU_31163_n1_asVR1x6WcRk5AdL0?input=https%3A%2F%2Fwww.bbc.com%2F)
 
 The most common method we see implemented (in terms of the number of ISPs relying on it) is the injection of a RST packet following the ClientHello during the TLS handshake. DNS based filtering is also very prevalent.
@@ -102,7 +102,7 @@ Chart: Blocking of news media websites in Russia based on OONI measurements (co
 
 The above chart aggregates OONI measurements collected from Russia (between February 2022 to March 2022) pertaining to the testing of news media websites that started presenting anomalies following the invasion of Ukraine (which started on 24th February 2022). Each bar for a given domain and day represents the percentage of measurements for a given status (`anomaly`, `confirmed` or `OK`) aggregated across all networks.
 
-As is evident from the above chart, these media websites were found accessible on almost all tested networks in Russia over the last month, and only started presenting signs of blocking (“anomalies”) following the invasion of Ukraine. It is also evident that these media websites are not blocked on all tested networks in Russia, as we observe that they were found accessible on some networks.
+As is evident from the above chart, these media websites were found accessible (i.e. green) on almost all tested networks in Russia over the last month, and only started presenting signs of blocking (“anomalies”, indicated in orange) following the invasion of Ukraine. It is also evident that these media websites are not blocked on all tested networks in Russia, as we observe that they were found accessible on some networks.
 
 Moreover, our analysis (through the above chart) shows that the blocking of news media websites started on different days. First we observe the [blocking of Current Time TV](https://explorer.ooni.org/search?since=2022-02-27&until=2022-02-28&failure=false&domain=www.currenttime.tv&probe_cc=RU&only=anomalies) (currentime.tv), [Crimea Realities](https://explorer.ooni.org/search?since=2022-02-27&until=2022-02-28&failure=false&domain=ru.krymr.com&probe_cc=RU&only=anomalies) (ru.krymr.com) and [Interfax](https://explorer.ooni.org/search?since=2022-02-27&until=2022-02-28&failure=false&domain=www.interfax.ru&probe_cc=RU&only=anomalies) (interfax.ru), which appears to have started on 27th February 2022. The timing of the block (as suggested by OONI data) is also corroborated by Radio Free Europe/Radio Liberty (RFE/RL), who published a [statement](https://pressroom.rferl.org/a/rferl-strongly-condemns-blockage-of-russian-language-websites-and-harassment-of-journalists/31728748.html) about the blocking of currentime.tv and ru.krymr.com on 28th February 2022. We then observe that the blocking of tvrain.ru [began](https://explorer.ooni.org/search?since=2022-03-01&until=2022-03-02&failure=false&domain=tvrain.ru&probe_cc=RU&only=anomalies) on 1st March 2022. The blocking of all other media websites listed in the above graph appears to have [started](https://explorer.ooni.org/search?since=2022-03-03&until=2022-03-05&failure=false&probe_cc=RU&only=anomalies&test_name=web_connectivity) on the night of 3rd-4th March 2022.
 
@@ -133,7 +133,7 @@ We observe DNS based interference on 14 different networks, as illustrated by th
 |         |https.connection_reset |10   |
 |         |tls.connection_reset   |87   |
 |AS15378  |dns.confirmed          |1    |
-|         |tls.connection_timeout |2    |
+|         |tls.timeout |2    |
 |AS197460 |dns.confirmed          |1    |
 |AS2848   |dns.confirmed          |9    |
 |AS3335   |dns.confirmed          |1    |
@@ -156,7 +156,7 @@ We observe DNS based interference on 14 different networks, as illustrated by th
 |         |https.generic_failure  |3    |
 |AS8790   |dns.confirmed          |16   |
 
-On some networks, such as AS12389, we notice that the blocking is implemented using three distinct methods. For example, if we look at an [OONI measurement collected on 4th March 2022](https://explorer.ooni.org/measurement/20220304T044651Z_webconnectivity_RU_12389_n1_BmRicVwEpc4HG72k?input=https%3A%2F%2Fwww.bbc.com%2F), we can see that the DNS query produces an inconsistent result (the IP `31.28.24.3` which is known to serve a block page), yet when we perform a TLS handshake using the SNI for [www.bbc.com](http://www.bbc.com) we see a RST packet being injected. We exclude that this behavior is of the destination host when an unrecognized SNI is presented as we are able to perform a successful TLS handshake from a non-local vantage point:
+On some networks, such as AS12389, we notice that the blocking is implemented using three distinct methods. For example, if we look at an [OONI measurement collected on 4th March 2022](https://explorer.ooni.org/measurement/20220304T044651Z_webconnectivity_RU_12389_n1_BmRicVwEpc4HG72k?input=https%3A%2F%2Fwww.bbc.com%2F), we can see that the DNS query produces an inconsistent result (the IP `31.28.24.3` which is known to serve a block page), yet when the probe performs a TLS handshake with `31.28.24.3` using the SNI for [www.bbc.com](http://www.bbc.com) we see a RST packet being injected. We exclude that this behavior is of the destination host when an unrecognized SNI is presented as we are able to perform a successful TLS handshake from a non-local vantage point in Italy:
 
 ```
 % openssl s_client -connect 31.28.24.3:443 -servername www.bbc.com
@@ -174,7 +174,7 @@ Verification: OK
 
 If we look at [another measurement](https://explorer.ooni.org/measurement/20220304T193118Z_webconnectivity_RU_12389_n1_on9XrTfXhL94EEdR?input=http%3A%2F%2Fwww.bbc.com%2Fnews), where the plaintext HTTP version of BBC was accessed, we notice that the DNS query returned a consistent response, but we were still served a block page, likely as a result of an HTTP transparent proxy device.
 
-This leads us to conclude that multiple blocking technologies are being employed at the same time to implement the filtering, making attempts at circumvention harder. In this specific example, it would not be sufficient for a user on such a network to circumvent the block by using an encrypted DNS solution.
+This leads us to conclude that multiple blocking technologies are being employed at the same time to implement the filtering, making attempts at circumvention harder. In this specific example, it would not be sufficient for a user on such a network to circumvent the block by using an encrypted DNS transport (e.g. [DNS over HTTPS](https://support.mozilla.org/en-US/kb/firefox-dns-over-https)).
 
 On 17 networks in Russia we see that a block page known by our data processing pipeline is served when performing an HTTP request:
 
@@ -199,7 +199,7 @@ On 17 networks in Russia we see that a block page known by our data processing p
 |         |tls.connection_reset   |20   |
 |AS31257  |http.confirmed_pipeline|1    |
 |         |tls.connection_reset   |2    |
-|         |tls.connection_timeout |8    |
+|         |tls.timeout |8    |
 |AS3216   |http.confirmed_pipeline|2    |
 |         |https.connection_reset |1    |
 |         |tls.connection_reset   |2    |
@@ -222,17 +222,17 @@ On 17 networks in Russia we see that a block page known by our data processing p
 |AS8402   |http.confirmed_pipeline|1    |
 |         |https.connection_reset |6    |
 |         |tls.connection_reset   |23   |
-|         |tls.connection_timeout |2    |
+|         |tls.timeout |2    |
 |AS8427   |dns.confirmed          |5    |
 |         |http.confirmed_pipeline|2    |
 |         |https.generic_failure  |3    |
 |AS8492   |http.confirmed_pipeline|1    |
 |         |tls.connection_reset   |1    |
-|         |tls.connection_timeout |5    |
+|         |tls.timeout |5    |
 
 When a measurement is marked as `http.confirmed_pipeline`, it means that the DNS query result is consistent, yet we are still seeing a known block page. This means that it’s most likely the case that the technology being used is some form of transparent HTTP proxy.
 
-Also in this case, we can see on many networks the presence of `tls.connection_reset` type blocking events. This is an indication that the block is implemented both at the HTTP and TLS level.
+Also in this case, we can see on many networks the presence of `tls.connection_reset` type blocking events. This is an indication that not only there is HTTP blocking using a transparent proxy, but also there is HTTPS blocking using TLS tampering.
 
 On 6 networks in Russia, we notice the presence of a TLS man-in-the-middle:
 
@@ -277,7 +277,7 @@ Not valid before: 2020-05-08 08:05:56
 Fingerprint SHA256: 2edf3dff36efd2e247eeb91940f3cf4ce6ab315291461c72fca7091135075283
 ```
 
-It’s interesting to note that two different measurements coming from the same AS network (AS8359) encounter a different TLS certificate. This is likely due to internal routing differences within the same AS network.
+It’s interesting to note that two different measurements coming from the same AS network (AS8359) encounter a different TLS certificate. This is likely due to internal routing differences within the same AS network (in turn this stresses out the decentralized nature of censorship in Russia, not only in terms of different ISPs, but also in terms of different paths within ISPs).
 
 Finally, on network AS42511, we see the following certificate:
 
@@ -304,7 +304,7 @@ This blocking pattern is seen on a total of 30 different networks, as illustrate
 |AS15640  |tls.connection_reset   |8    |
 |AS15774  |tls.connection_reset   |3    |
 |AS16345  |tls.connection_reset   |6    |
-|         |tls.connection_timeout |14   |
+|         |tls.timeout |14   |
 |AS201776 |tls.connection_reset   |10   |
 |AS20632  |tls.connection_reset   |5    |
 |AS21479  |tls.connection_reset   |17   |
@@ -312,7 +312,7 @@ This blocking pattern is seen on a total of 30 different networks, as illustrate
 |         |tls.mitm               |9    |
 |AS31200  |tls.connection_reset   |5    |
 |AS31213  |tls.connection_reset   |20   |
-|AS31257  |tls.connection_timeout |8    |
+|AS31257  |tls.timeout |8    |
 |AS34533  |tls.connection_closed  |4    |
 |         |tls.connection_reset   |3    |
 |AS34757  |tls.connection_reset   |5    |
@@ -335,14 +335,14 @@ This blocking pattern is seen on a total of 30 different networks, as illustrate
 |         |tls.mitm               |8    |
 |AS8402   |https.connection_reset |6    |
 |         |tls.connection_reset   |23   |
-|AS8492   |tls.connection_timeout |5    |
+|AS8492   |tls.timeout |5    |
 |AS8732   |tls.connection_reset   |3    |
 
 Based on these results, it appears that this blocking technique is the most prevalent one. The determination of the `tls.connection_reset` blocking method was produced by analyzing the `network_events` keys of [OONI Web Connectivity measurements](https://explorer.ooni.org/search?since=2022-02-01&until=2022-03-07&failure=false&probe_cc=RU&test_name=web_connectivity) and looking for a `connection_reset` failure event following the first write operation during the TLS handshake, which is the ClientHello containing the SNI field.
 
 This is a strong indication that the blocking is happening on an SNI basis.
 
-On some networks we observe, though, that the filtering seems to also take into account the endpoint being used for the TLS handshake. For example, in a [measurement on AS12389](https://explorer.ooni.org/measurement/20220304T062650Z_webconnectivity_RU_12389_n1_oI0Kzt4RWhmcwT2K?input=https%3A%2F%2Fwww.bbc.com%2F), we see the following:
+On some networks we observe, though, that the filtering seems to not only be based on the SNI field, but is also impacted by the endpoint being used for the TLS handshake. For example, in a [measurement collected by the same probe on AS12389](https://explorer.ooni.org/measurement/20220304T062650Z_webconnectivity_RU_12389_n1_oI0Kzt4RWhmcwT2K?input=https%3A%2F%2Fwww.bbc.com%2F), we see the following:
 
 |address           |operation          |t          |failure         |num_bytes|
 |------------------|-------------------|-----------|----------------|---------|
@@ -400,7 +400,7 @@ Below is a table summarizing the results:
 
 On network AS35807 we see both [the use of the connection close method](https://explorer.ooni.org/measurement/20220304T012511Z_webconnectivity_RU_35807_n1_b0wpCIVPbzcN760T?input=https%3A%2F%2Fwww.bbc.com%2Fnews%2Fworld-51235105), when the probe is using an alternative DNS resolver, while we see [DNS based blocking](https://explorer.ooni.org/measurement/20220304T043237Z_webconnectivity_RU_35807_n1_Hj5CTc008e5iioML?input=https%3A%2F%2Fwww.bbc.com%2F) when the provider's DNS resolver is used.
 
-We record the blocking method as `tls.connection_timeout`, when the read operation timed out following the TLS ClientHello message.
+We record the blocking method as `tls.timeout`, when the read operation timed out following the TLS ClientHello message.
 
 This is seen on 4 different networks:
 
@@ -408,15 +408,15 @@ This is seen on 4 different networks:
 |---------|------------------------|-----|
 |AS16345  |https.connection_reset  |1    |
 |         |tls.connection_reset    |6    |
-|         |tls.connection_timeout  |14   |
+|         |tls.timeout  |14   |
 |AS31257  |http.confirmed_pipeline |1    |
 |         |tls.connection_reset    |2    |
-|         |tls.connection_timeout  |8    |
+|         |tls.timeout  |8    |
 |AS35533  |https.connection_timeout|2    |
-|         |tls.connection_timeout  |14   |
+|         |tls.timeout  |14   |
 |AS8492   |http.confirmed_pipeline |1    |
 |         |tls.connection_reset    |1    |
-|         |tls.connection_timeout  |5    |
+|         |tls.timeout  |5    |
 
 ##### Deutsche Welle
 
@@ -461,7 +461,7 @@ Based on our analysis of anomalous measurements, we provide a table below that s
 |         |tls.connection_reset  |1    |
 |AS25513  |https.connection_reset|2    |
 |         |tls.connection_reset  |35   |
-|         |tls.connection_timeout|2    |
+|         |tls.timeout|2    |
 |         |tls.mitm              |1    |
 |AS42511  |tls.connection_closed |4    |
 |         |tls.mitm              |6    |
@@ -470,14 +470,14 @@ Based on our analysis of anomalous measurements, we provide a table below that s
 |AS8580   |tls.connection_reset  |3    |
 |         |tls.mitm              |5    |
 |AS12389  |tls.connection_reset  |91   |
-|         |tls.connection_timeout|1    |
+|         |tls.timeout|1    |
 |AS12668  |tls.connection_reset  |2    |
 |AS12714  |tls.connection_reset  |19   |
 |AS15640  |tls.connection_reset  |16   |
 |AS15774  |dns.nxdomain          |5    |
 |         |tls.connection_reset  |5    |
 |AS16345  |tls.connection_reset  |17   |
-|         |tls.connection_timeout|8    |
+|         |tls.timeout|8    |
 |AS201776 |tls.connection_reset  |4    |
 |AS205638 |tls.connection_reset  |9    |
 |AS20632  |tls.connection_reset  |5    |
@@ -494,11 +494,11 @@ Based on our analysis of anomalous measurements, we provide a table below that s
 |AS31224  |https.connection_reset|1    |
 |         |tls.connection_reset  |10   |
 |AS31257  |tls.connection_reset  |2    |
-|         |tls.connection_timeout|12   |
+|         |tls.timeout|12   |
 |AS3216   |tls.connection_reset  |3    |
 |AS34757  |tls.connection_reset  |9    |
 |AS35533  |tls.connection_reset  |2    |
-|         |tls.connection_timeout|8    |
+|         |tls.timeout|8    |
 |AS41843  |tls.connection_reset  |2    |
 |AS42387  |tls.connection_reset  |26   |
 |AS42610  |tls.connection_reset  |22   |
@@ -510,10 +510,10 @@ Based on our analysis of anomalous measurements, we provide a table below that s
 |AS8402   |https.connection_reset|7    |
 |         |tls.connection_reset  |13   |
 |AS8492   |tls.connection_reset  |10   |
-|         |tls.connection_timeout|3    |
+|         |tls.timeout|3    |
 |AS8732   |tls.connection_reset  |2    |
 |AS31163  |tls.connection_closed |13   |
-|         |tls.connection_timeout|1    |
+|         |tls.timeout|1    |
 
 Specifically, we see a **strong indication of blocking on at least 54 distinct ASNs** and we are able to confirm the blocking (though DNS based fingerprints) on 16 networks and see a TLS man-in-the-middle on 4 of them.
 
@@ -713,7 +713,7 @@ On other networks (such as AS8790), OONI data [shows](https://explorer.ooni.org/
 
 Image: Block page served for 200rf.com on AS8790 in Russia.
 
-On other networks (such as [AS60139](https://explorer.ooni.org/measurement/20220303T111938Z_webconnectivity_RU_60139_n1_o7KFBFqAwSFdVcW4?input=https%3A%2F%2F200rf.com%2F) and [AS12389](https://explorer.ooni.org/measurement/20220303T111841Z_webconnectivity_RU_12389_n1_TNulGfMNA5nfH7P4?input=https%3A%2F%2F200rf.com%2F)), OONI data shows the injection of a RST packet during the TLS handshake. While on other networks, we [see](https://explorer.ooni.org/search?since=2022-03-03&until=2022-03-06&failure=false&domain=200rf.com&probe_cc=RU&only=anomalies) that the connection times out during the TLS handshake, or that the connection is closed before the TLS handshake is complete.
+On other networks (such as [AS60139](https://explorer.ooni.org/measurement/20220303T111938Z_webconnectivity_RU_60139_n1_o7KFBFqAwSFdVcW4?input=https%3A%2F%2F200rf.com%2F) and [AS12389](https://explorer.ooni.org/measurement/20220303T111841Z_webconnectivity_RU_12389_n1_TNulGfMNA5nfH7P4?input=https%3A%2F%2F200rf.com%2F)), OONI data shows the injection of a RST packet during the TLS handshake. While on other networks, we [see](https://explorer.ooni.org/search?since=2022-03-03&until=2022-03-06&failure=false&domain=200rf.com&probe_cc=RU&only=anomalies) that the session times out during the TLS handshake, or that the connection is closed before the TLS handshake is complete.
 
 #### Twitter and Facebook blocked
 
@@ -758,7 +758,7 @@ The following table summarizes the methods we have observed on 56 different netw
 |         |tls.mitm                |6    |
 |AS25513  |https.connection_reset  |1    |
 |         |tls.connection_reset    |140  |
-|         |tls.connection_timeout  |1    |
+|         |tls.timeout  |1    |
 |         |tls.mitm                |4    |
 |AS31224  |tls.connection_reset    |2    |
 |         |tls.mitm                |3    |
@@ -771,22 +771,22 @@ The following table summarizes the methods we have observed on 56 different netw
 |AS12389  |https.connection_reset  |9    |
 |         |https.connection_timeout|1    |
 |         |tls.connection_reset    |208  |
-|         |tls.connection_timeout  |2    |
+|         |tls.timeout  |2    |
 |AS12668  |tls.connection_reset    |22   |
 |AS12714  |tls.connection_reset    |45   |
 |AS15582  |tls.connection_reset    |6    |
 |AS15640  |tls.connection_reset    |20   |
 |AS15774  |tls.connection_reset    |4    |
 |AS16345  |tls.connection_reset    |9    |
-|         |tls.connection_timeout  |24   |
+|         |tls.timeout  |24   |
 |AS201776 |tls.connection_reset    |14   |
 |AS202173 |dns.inconsistent        |2    |
 |         |tls.connection_reset    |5    |
 |AS20632  |tls.connection_reset    |6    |
-|         |tls.connection_timeout  |1    |
+|         |tls.timeout  |1    |
 |AS21479  |https.connection_reset  |14   |
 |         |tls.connection_reset    |34   |
-|         |tls.connection_timeout  |1    |
+|         |tls.timeout  |1    |
 |AS25159  |tls.connection_reset    |12   |
 |AS25490  |https.connection_reset  |2    |
 |         |tls.connection_reset    |2    |
@@ -798,12 +798,12 @@ The following table summarizes the methods we have observed on 56 different netw
 |         |tls.connection_reset    |48   |
 |AS31214  |tls.connection_reset    |2    |
 |AS31257  |tls.connection_reset    |3    |
-|         |tls.connection_timeout  |18   |
+|         |tls.timeout  |18   |
 |AS3216   |tls.connection_reset    |3    |
-|         |tls.connection_timeout  |1    |
+|         |tls.timeout  |1    |
 |AS34757  |tls.connection_reset    |15   |
 |AS35533  |tls.connection_reset    |12   |
-|         |tls.connection_timeout  |6    |
+|         |tls.timeout  |6    |
 |AS42387  |tls.connection_reset    |91   |
 |AS42610  |tls.connection_reset    |37   |
 |AS42682  |tls.connection_reset    |2    |
@@ -818,15 +818,15 @@ The following table summarizes the methods we have observed on 56 different netw
 |AS8402   |https.connection_reset  |18   |
 |         |tls.connection_reset    |65   |
 |AS8492   |tls.connection_reset    |7    |
-|         |tls.connection_timeout  |19   |
+|         |tls.timeout  |19   |
 |AS8732   |tls.connection_reset    |13   |
 |AS25086  |tls.connection_closed   |12   |
 |AS31163  |tls.connection_closed   |54   |
-|         |tls.connection_timeout  |4    |
+|         |tls.timeout  |4    |
 
 ##### Twitter throttled
 
-Interestingly, when examining measurements for twitter.com, we notice a significantly different pattern of blocking. In the initial phase of the block (starting from 26th February 2022), we notice a [large number of measurements failing due to connections timing out](https://explorer.ooni.org/search?probe_cc=RU&test_name=web_connectivity&since=2022-01-27&until=2022-02-28&failure=false&domain=twitter.com). To characterize the block, we examined the `network_events` keys of raw OONI data which record timing information related to network operations. In particular, during a TLS handshake, they tell us how many bytes were read by the underlying socket at a given time delta, compared to the initial connect operation.
+Interestingly, when examining measurements for twitter.com, we notice a significantly different pattern of blocking. In the initial phase of the block (starting from 26th February 2022), we notice a [large number of measurements failing due to sessions timing out](https://explorer.ooni.org/search?probe_cc=RU&test_name=web_connectivity&since=2022-01-27&until=2022-02-28&failure=false&domain=twitter.com). To characterize the block, we examined the `network_events` keys of raw OONI data which record timing information related to network operations. In particular, during a TLS handshake, they tell us how many bytes were read by the underlying socket at a given time delta, compared to the initial connect operation.
 
 Below is an example of the `network_events` keys for a particular twitter.com measurement:
 
@@ -851,11 +851,11 @@ Below is an example of the `network_events` keys for a particular twitter.com me
 |                 |write              |10.160695 |generic_timeout_error|         |
 |                 |tls_handshake_done |10.160695 |generic_timeout_error|         |
 
-What this tells us is that when performing a TLS handshake with the endpoint `104.244.42.65:443` we read 1024 bytes in 5 seconds after the initial connect operation, then we read another 848 bytes in 4 seconds and then after 10 seconds the connection timed out.
+What this tells us is that when performing a TLS handshake with the endpoint `104.244.42.65:443` we read 1024 bytes in 5 seconds after the initial connect operation, then we read another 848 bytes in 4 seconds and then after 10 seconds the session timed out.
 
-Already in looking at the above network event listing, we notice that the connection does not timeout immediately after the ClientHello is written, but rather some data is let through. This seems to indicate that there might be some potential throttling happening.
+Already in looking at the above network event listing, we notice that the session does not timeout immediately after the ClientHello is written, but rather some data is let through. This seems to indicate that there might be some potential throttling happening.
 
-In order to evaluate this hypothesis, we came up with a `read_speed` metric based on the network event keys. We calculated this for every address in the `network_event` listing for which there is a `tls_handshake` session. The `read_speed` is defined as the number of bytes read divided by the time of the last successful operation (we do this to avoid having a delta that, in the case of a connection timeout, is always 10 seconds). We restricted our analysis to networks where we have a large enough sample of collected metrics to avoid having unnecessary noise.
+In order to evaluate this hypothesis, we came up with a `read_speed` metric (expressed in Bytes/s) based on the network event keys. We calculated this for every address in the `network_event` listing for which there is a `tls_handshake` session. The `read_speed` is defined as the number of bytes read divided by the time of the last successful operation (we do this to avoid having a delta that, in the case of a session timeout, is always 10 seconds). We restricted our analysis to networks where we have a large enough sample of collected metrics to avoid having unnecessary noise.
 
 Below we provide a scatterplot of this metric over time grouped by ASN.
 
@@ -863,7 +863,7 @@ Below we provide a scatterplot of this metric over time grouped by ASN.
 
 Through the above chart we can see that there was a change in the blocking pattern for twitter.com between 26th February 2022 to 4th March 2022. In particular, we can see that between these dates, the `read_speed` metric (for many samples) during the TLS handshake for twitter.com is very slow (suggesting Twitter throttling), while from 4th March 2022 onwards, we observe that the `read_speed` metric resumes to previous levels. However, [OONI data](https://explorer.ooni.org/search?probe_cc=RU&test_name=web_connectivity&since=2022-03-03&until=2022-03-07&failure=false&domain=twitter.com&only=anomalies) from 4th March 2022 onwards shows [connection resets](https://explorer.ooni.org/measurement/20220306T173949Z_webconnectivity_RU_12389_n1_91bgJ29ePo9jdHyk?input=https%3A%2F%2Ftwitter.com%2FGraniTweet%2F), suggesting that interference to twitter.com **changed from throttling to blocking** (through the injection of a RST packet).
 
-As another proxy for inferring unusual behavior at the network level during the TLS handshake, we also plotted the number of distinct read operations over time, as illustrated below.
+As another proxy for inferring unusual behavior at the network level during the TLS handshake, we also plotted the number of distinct read operations over time, as illustrated below. We consider this to be a good enough proxy, because we make the assumption that the amount of data downloaded during a TLS handshake is constant.
 
 ![](images/image3.png)
 
