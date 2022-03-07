@@ -19,6 +19,12 @@ h1, h2, h3, h4, h5, nav, .toc {
   font-family: "Fira Sans", sans-serif;
 }
 
+h1 { font-size: 2em; }
+h2 { font-size: 1.7411em; }
+h3 { font-size: 1.5157em; }
+h4 { font-size: 1.3195em; }
+h5 { font-size: 1.1487em; }
+
 pre, code {
   font-family: "Source Code Pro", monospace;
 }
@@ -800,6 +806,12 @@ pre span.lw {
 .toc h3 .closure::before {
   content: "▼";
   font-size: 0.7rem;
+}
+
+nav#TableOfContents li, nav#TableOfContents ul {
+  margin-left: 0px;
+  padding-left: 10px;
+  list-style: none;
 }
 
 .blog-post {
