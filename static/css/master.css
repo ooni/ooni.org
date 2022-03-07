@@ -808,7 +808,7 @@ pre span.lw {
   font-size: 0.7rem;
 }
 
-nav#TableOfContents li, ul {
+nav#TableOfContents li, nav#TableOfContents ul {
   margin-left: 0px;
   padding-left: 10px;
   list-style: none;
