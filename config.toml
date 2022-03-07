@@ -7,7 +7,7 @@ timeout = 120000
 
 [params]
 description = "The Open Observatory of Network Interference (OONI) is a global community measuring internet censorship around the world. Run OONI Probe to detect internet censorship. Use OONI Explorer to track internet censorship worldwide in near real-time."
-probeDesktopVersion = "3.6.0"
+probeDesktopVersion = "3.7.0"
 
 [Languages]
 [Languages.ar]
