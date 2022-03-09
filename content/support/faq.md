@@ -10,6 +10,8 @@ questions that we are frequently asked by the community.
 
 Are there other questions you would like us to address? Please [let us know](https://ooni.org/about/#contact).
 
+View a version of the **[OONI FAQ in Khmer](https://digitalhub101.com/ooni/)** by [DigitalHub101](https://digitalhub101.com/).
+
 * [About OONI](#about-ooni)
 
     * [What is OONI?](#what-is-ooni)
