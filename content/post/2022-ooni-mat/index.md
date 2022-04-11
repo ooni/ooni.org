@@ -137,7 +137,7 @@ which you would like to get measurements (e.g. `AS30722` for Vodafone
 Italia)
 
 * **Date range:** Select the date range of the measurements by
-adjusting the `Since` and `Until` filters
+adjusting the `From` and `Until` filters
 
 * **X axis:** Select the values that you would like to appear
 on the horizontal axis of your chart
