@@ -2,7 +2,7 @@
 title: "New Launch: OONI Measurement Aggregation Toolkit (MAT)"
 description: "OONI launched the new Measurement Aggregation Toolkit (MAT), which you can use to create custom charts based on aggregate views of real-time OONI data collected from around the world."
 author: "Maria Xynou"
-date: "2022-04-11"
+date: "2022-04-12"
 tags: ["ooni", "mat", "launch", "ooni-explorer", "ooni-data"]
 categories: ["blog"]
 ---
