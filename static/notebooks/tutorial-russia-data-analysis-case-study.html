@@ -14268,7 +14268,7 @@ a.anchor-link {
 <p>It can be useful, before you dive into more extensive analysis, to get a sense for what you are likely to find in the data by using the <a href="https://explorer.ooni.org/experimental/mat">Measurement Aggregation Toolkit</a>. For example you can pick a certain country and plot the <a href="https://explorer.ooni.org/experimental/mat?probe_cc=RU&amp;test_name=web_connectivity&amp;category_code=GRP&amp;since=2022-03-09&amp;until=2022-04-09&amp;axis_x=measurement_start_day&amp;axis_y=domain">anomalies with a per-domain breakdown</a> (it's often helpful to limit the domains to categories that are most relevant, so as to focus on interesting insight).</p>
 <p>In doing so, you will understand if there is something interesting to investigate in the country in question at all and will also help in identifying some examples of interesting sites that you might want to further investigate.</p>
 <p>It's also posisble to use the same API the MAT relies on, for downloading the anomaly,confirmed,failure,ok breakdowns to be used in your own analysis or plotting tooling. Depending on the type of analysis you need to do, this might be sufficient, however keep in mind that the anomaly flag is <a href="https://ooni.org/support/faq/#why-do-false-positives-occur">suscpetible to false positives</a>.</p>
-<p>It's also useful, while you are preforming the analysis, to refer to OONI Explorer to inspect the measurements that present anomalies, so as to be able to identify patterns that you can use to further improve your detection heuristics.</p>
+<p>It's also useful, while you are performing the analysis, to refer to OONI Explorer to inspect the measurements that present anomalies, so as to be able to identify patterns that you can use to further improve your detection heuristics.</p>
 <p>At a high level the workflow we are going to look at is the following:</p>
 <p><img src="https://kroki.io/blockdiag/svg/eNqVj7EKwkAMhnefIpM3CUVxEgVF3FxcHMQh9mINXpNyplQQ392ednAR6RjyfX_yn4LmV89YwGMA4NbaSFD0sFvuwaOhg9EC3IbQ6khAd4uYG6vAEEoWLvmGafxgqxTGUgCKqH0ttig1hlavgkbs_HNLUqwii4Eno3eum6U3evA_D_cNOjTs7TKfZNkxmf8rd8J42grPF1OgcX0=" alt="High level overview"></p>
 <h3 id="Downloading-the-data">Downloading the data<a class="anchor-link" href="#Downloading-the-data">&#182;</a></h3><p>Once you have gotten a feel for the data, it's time to download the raw dataset.</p>
@@ -14410,6 +14410,8 @@ a.anchor-link {
 
 <span class="k">def</span> <span class="nf">get_last_response_body</span><span class="p">(</span><span class="n">msmt</span><span class="p">):</span>
     <span class="k">try</span><span class="p">:</span>
+        <span class="c1"># The requests/response list sorts them from the newest to the oldest, </span>
+        <span class="c1"># hence the first item in the list is the last response we received.</span>
         <span class="n">body</span> <span class="o">=</span> <span class="n">msmt</span><span class="p">[</span><span class="s1">&#39;test_keys&#39;</span><span class="p">][</span><span class="s1">&#39;requests&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;response&#39;</span><span class="p">][</span><span class="s1">&#39;body&#39;</span><span class="p">]</span>
         <span class="k">return</span> <span class="n">decode_body</span><span class="p">(</span><span class="n">body</span><span class="p">)</span>
     <span class="k">except</span> <span class="p">(</span><span class="ne">KeyError</span><span class="p">,</span> <span class="ne">TypeError</span><span class="p">,</span> <span class="ne">IndexError</span><span class="p">):</span>
@@ -14884,20 +14886,6 @@ a.anchor-link {
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
@@ -15206,20 +15194,6 @@ a.anchor-link {
 
 </div>
 
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
 </div>
 
 </div>
@@ -16695,62 +16669,6 @@ DONE
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
@@ -17122,34 +17040,6 @@ DONE
             <span class="k">return</span> <span class="s1">&#39;http.generic_failure&#39;</span>
     
     <span class="k">return</span> <span class="s1">&#39;ok&#39;</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
      </div>
