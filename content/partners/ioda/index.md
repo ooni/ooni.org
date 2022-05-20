@@ -3,7 +3,7 @@ continent: Global
 country: Global
 name: "Internet Outage Detection & Analysis (IODA)"
 title: "Internet Outage Detection & Analysis (IODA)"
-website: https://ioda.caida.org/
+website: https://ioda.inetintel.cc.gatech.edu/
 reports:
 - text: "A multi-perspective view of Internet censorship in Myanmar"
   link: "https://ooni.org/post/2021-multiperspective-view-internet-censorship-myanmar/"
@@ -21,10 +21,10 @@ reports:
   link: "https://ooni.org/post/gabon-internet-disruption/"
 ---
 
-The [Internet Outage Detection and Analysis (IODA)](https://ioda.caida.org/) project is run by the [Center for Applied Internet Data Analysis (CAIDA)](https://www.caida.org/), which is based at the University of California's San Diego Supercomputer Center.
+The [Internet Outage Detection and Analysis (IODA)](https://ioda.inetintel.cc.gatech.edu/) project is run by the [Internet Intelligence Research Lab](http://inetintel.org/), which is based at the Georgia Institute of Technology's School of Computer Science in the College of Computing.
 
 IODA monitors the Internet in near-realtime to identify macroscopic Internet outages affecting the edge of the network, i.e., significantly impacting a network operator (AS) or a large fraction of a country.
 
-IODA combines information from three data sources, establishes the relevance of an event and generates alerts. The outage events and the corresponding signals obtained through automated analysis are displayed in near-realtime on [public dashboards](https://ioda.caida.org/ioda/dashboard) and interactive graphs that allow the user to further inspect the data.
+IODA combines information from three data sources, establishes the relevance of an event and generates alerts. The outage events and the corresponding signals obtained through automated analysis are displayed in near-realtime on [public dashboards](https://ioda.inetintel.cc.gatech.edu/dashboard) and interactive graphs that allow the user to further inspect the data.
 
 OONI and IODA work closely on monitoring and documenting Internet censorship events around the globe.
