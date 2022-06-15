@@ -1,9 +1,6 @@
 ---
 title: "A Quick Look at QUIC Censorship"
-description: "An introduction to QUIC and its potential for
-censorship resistance, as well as a survey of current QUIC blocking
-in various countries. The presented findings reveal QUIC censorship
-in China, India, Russia and Uganda."
+description: "An introduction to QUIC and its potential for censorship resistance, as well as a survey of current QUIC blocking in various countries. The presented findings reveal QUIC censorship in China, India, Russia and Uganda."
 author: "Kathrin Elmenhorst"
 date: "2022-06-16"
 tags: ["ooni", "quic", "http3", "http/3", "censorship"]
