@@ -5,7 +5,7 @@ censorship resistance, as well as a survey of current QUIC blocking
 in various countries. The presented findings reveal QUIC censorship
 in China, India, Russia and Uganda."
 author: "Kathrin Elmenhorst"
-date: "2022-05-15"
+date: "2022-06-15"
 tags: ["ooni", "quic", "http3", "http/3", "censorship"]
 categories: ["blog"]
 ---
@@ -102,7 +102,7 @@ difference between traditional HTTPS (HTTP/1.1, HTTP/2) and HTTP/3
 is in their underlying protocol stacks. This means that HTTP/3 uses
 different network protocols than the prior versions of HTTP:
 
-{{ <img src="1_protocol_stacks.png" title="Protocol stacks" alt="Protocol stacks"> }}
+{{<img src="1_protocol_stacks.png" title="Protocol stacks" alt="Protocol stacks">}}
 _Left: HTTP/2 protocol stack. Right: HTTP/3 protocol stack._  
 
 HTTP/3 data travels over the network in QUIC packets which are
@@ -251,7 +251,7 @@ networks in Russia: Users indicated that their ISPs use Deep Packet
 Inspection to parse the SNI from the initial packet and block certain
 domain names.
 
-{{ <img src="russia_censorship.png" title="Russia's censorship" alt="Russia's censorship"> }}
+{{<img src="2_russia_censorship.png" title="Russia's censorship" alt="Russia's censorship">}}
 _Depiction of a potential setup of HTTP/3 censorship in Russia. While the location
 and order of filters is unknown, this structure is in line with the observed measurements
 in AS31213 and user reports from other networks._
@@ -325,7 +325,7 @@ connection attempt over HTTPS or HTTP/3 to a blocked IP address
 will not work. However, I found no evidence that the Great Firewall
 _specifically_ targets QUIC or HTTP/3.
 
-{{ <img src="3_ip_blocking.png" title="IP blocking" alt="IP blocking"> }}
+{{<img src="3_ip_blocking.png" title="IP blocking" alt="IP blocking">}}
 _Exemplified depiction of how IP censorship affects both HTTPS and HTTP/3: Such
 firewalls inspect only the IP header and block every packet with a blacklisted
 destination (or source) address._
