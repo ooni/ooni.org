@@ -1,6 +1,7 @@
 ---
 title: "A Quick Look at QUIC Censorship"
-description: "An introduction to QUIC and its potential for censorship resistance, as well as a survey of current QUIC blocking in various countries. The presented findings reveal QUIC censorship in China, India, Russia and Uganda."
+description: "An introduction to QUIC and its potential for
+censorship resistance, as well as a survey of current QUIC blocking in China, India, Russia and Uganda."
 author: "Kathrin Elmenhorst"
 date: "2022-06-16"
 tags: ["ooni", "quic", "http3", "http/3", "censorship"]
@@ -9,8 +10,8 @@ categories: ["report"]
 
 *This blog post was [originally published by the Open Technology Fund](
 https://www.opentech.fund/news/a-quick-look-at-quic/) to disseminate Kathrin
-Elmenhorst's QUIC-and-HTTP/3 censorship research as part of her ICFP fellowship
-at OONI. Republishing with permission.*
+Elmenhorst's QUIC-and-HTTP/3 censorship research as part of her [ICFP fellowship
+with OONI](https://www.opentech.fund/about/people/kathrin-elmenhorst/).*
 
 Last year, the new network protocol **QUIC** was introduced. QUIC
 is a general-purpose transport layer network with the goal of
