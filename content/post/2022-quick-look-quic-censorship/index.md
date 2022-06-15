@@ -394,4 +394,4 @@ of in order to better monitor and fight censorship in the future.
 With that in mind, I have defined [approaches for QUIC censorship
 evasion](https://github.com/kelmenhorst/quic-censorship/blob/main/evade.md)
 which refer back to [QUIC's potentials for censorship
-resistance](#potentials-censorship-resistance).
+resistance](#potentials-for-censorship-resistance).
