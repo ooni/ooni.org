@@ -5,9 +5,9 @@ censorship resistance, as well as a survey of current QUIC blocking
 in various countries. The presented findings reveal QUIC censorship
 in China, India, Russia and Uganda."
 author: "Kathrin Elmenhorst"
-date: "2022-06-15"
+date: "2022-06-16"
 tags: ["ooni", "quic", "http3", "http/3", "censorship"]
-categories: ["blog"]
+categories: ["report"]
 ---
 
 *This blog post was [originally published by the Open Technology Fund](
