@@ -56,7 +56,7 @@ Workshop](https://www.ndss-symposium.org/ndss-program/dns-privacy-2021/).
 
 Because we are incrementally rolling out dnscheck to all OONI Probe
 users, this seems to be a good moment in time to refer to the
-research paper, explain how dnscheck works, and summarize the main
+research paper, explain how `dnscheck` works, and summarize the main
 findings of our measurement campaign. To know more about this topic,
 continue reading this blog post, refer to the [research paper](
 https://www.ndss-symposium.org/wp-content/uploads/dnspriv21-02-paper.pdf),
@@ -128,11 +128,11 @@ the following operations:
 the above `https://8.8.8.8/dns-query` example, that would be `8.8.8.8`
 on port `443`);
 
-2. create an authenticated TLS channel over the TCP connection
+2. create a TLS channel over the TCP connection
 (DNS-over-TLS uses TLS and DNS-over-HTTPS also uses TLS because
 HTTPS is HTTP over TLS);
 
-3. create a DNS query for a testing domain and send the query using
+3. create a DNS query for `example.com` and send the query using
 the rules defined by the specific protocol (DNS-over-TLS uses a
 straightforward algorithm for sending DNS messages while DNS-over-HTTPS
 encapsulates messages inside HTTP messages, so it is a bit more
