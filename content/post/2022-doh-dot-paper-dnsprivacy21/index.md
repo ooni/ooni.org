@@ -7,7 +7,7 @@ tags: ["dot", "doh", "dns", "censorship", "country-ir", "country-cn", "country-k
 categories: ["report"]
 ---
 
-When you enter an URL such as `https://example.com/`, under the
+When you enter a URL such as `https://example.com/`, under the
 hood, your web browser resolves the `example.com` domain to one or
 more IP addresses using the Domain Name System (DNS), a set of
 federated servers and protocols providing this name-to-IP-address
@@ -16,9 +16,9 @@ the `93.184.216.34` (IPv4) and `2606:2800:220:1:248:1893:25c8:1946`
 (IPv6) addresses. Once it knows the IP addresses for the domain,
 the browser then uses them to fetch the requested webpage. Conceptually,
 the browser tries the IP addresses in sequence until it finds one
-that works. If no returned IP address work, the request fails.
+that works. If no returned IP address works, the request fails.
 Therefore, domain name lookups are key to browsing and, incidentally,
-are also key to websites censorship and surveillance.
+are also key to website censorship and surveillance.
 
 Historically, browsers and tools have always performed DNS resolution
 using an unencrypted protocol using UDP on port `53`. Because such
@@ -45,11 +45,11 @@ privacy and censorship circumvention.
 To investigate the blocking of DoT and DoH, last year, we designed
 the
 [dnscheck](https://github.com/ooni/spec/blob/master/nettests/ts-028-dnscheck.md)
-network experiment and we conducted a one-month-long `dnscheck`
-measurement campaign in Kazakhstan, Iran, and China. We documented
-this work in the [Measuring DoT/DoH Blocking Using OONI Probe: a
+network experiment and **we conducted a one-month-long `dnscheck`
+measurement campaign in Kazakhstan, Iran, and China**. We documented
+this work in the **[Measuring DoT/DoH Blocking Using OONI Probe: a
 Preliminary
-Study](https://www.ndss-symposium.org/wp-content/uploads/dnspriv21-02-paper.pdf)
+Study](https://www.ndss-symposium.org/wp-content/uploads/dnspriv21-02-paper.pdf)**
 research paper, presented at the Network and Distributed System
 Security Symposium (NDSS'21) in the context of the [DNS Privacy
 Workshop](https://www.ndss-symposium.org/ndss-program/dns-privacy-2021/).
@@ -124,21 +124,21 @@ IP address(es) of a service endpoint, it measures each IP address.
 In practice, it means that, for each IP address, `dnscheck` performs
 the following operations:
 
-1. establish a TCP connection to the given IP address and port (for
+1. Establish a TCP connection to the given IP address and port (for
 the above `https://8.8.8.8/dns-query` example, that would be `8.8.8.8`
 on port `443`);
 
-2. create a TLS channel over the TCP connection
+2. Create a TLS channel over the TCP connection
 (DNS-over-TLS uses TLS and DNS-over-HTTPS also uses TLS because
 HTTPS is HTTP over TLS);
 
-3. create a DNS query for `example.com` and send the query using
+3. Create a DNS query for `example.com` and send the query using
 the rules defined by the specific protocol (DNS-over-TLS uses a
 straightforward algorithm for sending DNS messages while DNS-over-HTTPS
 encapsulates messages inside HTTP messages, so it is a bit more
 complex);
 
-4. receive from the server the corresponding DNS response.
+4. Receive from the server the corresponding DNS response.
 
 We say the experiment is successful (for a given IP address and
 port) if we complete all these steps. If the first step fails, we
@@ -178,15 +178,15 @@ by protocol:
 | Successful DoT lookups |  8157 (95%) | 1156 (50%) | 4332 (93%) |
 | Successful DoH lookups | 16466 (82%) | 4824 (92%) | 9414 (89%) |
 
-As you can see, *many* lookups succeeded. Blocking was the most
-aggressive in Iran: 50% of the DoT endpoints were not working. It
+As you can see, *many* lookups succeeded. **Blocking was the most
+aggressive in Iran: 50% of the DoT endpoints were not working**. It
 seems reasonable to see more censorship in the Iranian network we
-tested than in the other two networks. In Iran, we run measurements
+tested than in the other two networks. In Iran, we ran measurements
 from one of the most popular mobile networks, while we used VPSs
 in China and Kazakhstan.
 
-In terms of blocking by the company providing the service, Cloudflare
-was the most blocked company in the pack in several cases (and was
+In terms of blocking by the company providing the service, **Cloudflare
+was the most blocked company** in the pack in several cases (and was
 more frequently blocked than other companies such as Google and
 Quad9):
 
@@ -228,7 +228,7 @@ These measurements used the same IPv6 address (`2606:4700::6810:f8f9`).
 However, using `cloudflare-dns.com` causes a failure, while using
 `mozilla.cloudflare-dns.com` works. Because the failure happens (in
 most cases) when creating or using a TLS session (i.e., after the
-TLS handshake), this seems [Server Name Indication](
+TLS handshake), this seems to be a case of [Server Name Indication](
 https://en.wikipedia.org/wiki/Server_Name_Indication) based blocking.
 
 Conversely, in Iran, we confirmed [our previous
@@ -251,10 +251,10 @@ server name does not cause any blocking, suggesting there was
 
 ## Concluding remarks
 
-This research work was (as far as we know) the first account of DoT
+As far as we know, this research was the first account of DoT
 and DoH blocking. Since our measurement campaign in late 2020,
 [other researchers started studying encrypted DNS blocking](
-https://arxiv.org/pdf/2202.00663.pdf).  Because `dnscheck` is now
-part of OONI Probe, we can continue collecting DoT/DoH blocking
-information and hopefully produce in the future more comprehensive
-analysis of the phenomenon.
+https://arxiv.org/pdf/2202.00663.pdf). As `dnscheck` is now
+integrated into [OONI Probe](https://ooni.org/install/), we can continue to collect DoT/DoH blocking
+information and hopefully produce more comprehensive
+analysis of the phenomenon in the future.
