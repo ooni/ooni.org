@@ -162,6 +162,11 @@ in Kazakhstan ([AS48716](https://ipinfo.io/AS48716)), Iran
 ([AS197207](https://ipinfo.io/AS197207)), and China
 ([AS45090](https://ipinfo.io/AS45090)).
 
+Most endpoints failed or succeeded consistently. That is, if an
+endpoint failed for a given OONI Probe user, it failed all the time
+with the same failure. There were just a couple of exceptions to
+this general trend, which are documented in the research paper.
+
 We were surprised to discover that there was no interference when
 mapping the service endpoint's domain name (e.g., `dns.google`) to
 IP addresses (e.g., `8.8.8.8` and `8.8.4.4`). The only exception
