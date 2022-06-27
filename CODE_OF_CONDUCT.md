@@ -3,16 +3,14 @@
 
 Statement of Intent:
 
-OONI is committed to fostering an inclusive environment and
-community. OONI is a place where people should feel safe to engage, share their
-point of view, and participate.
+**The Open Observatory of Network Interference (OONI) is committed to providing
+a safe and inclusive environment for its global community.** 
 
-This code of conduct applies to OONI as a whole. It is intended to
-provide guidelines for contributors. Employees and contractors of OONI
-are also subject to company policies and procedures. Those
-people should feel free to contact HR with questions or concerns.
+This Code of Conduct applies to OONI as a whole, including all (online and offline) OONI community spaces, such as the [OONI Slack channel](https://slack.ooni.org/) and OONI mailing lists. It is intended to
+provide guidelines for community members. Employees and contractors of OONI
+are also subject to organizational policies and procedures. 
 
-This code of conduct is not exhaustive or complete. It is an ongoing effort to
+This Code of Conduct is not exhaustive or complete. It is an ongoing effort to
 summarize our shared understanding. We want to provide a welcoming, safe
 environment, so we can work together to pursue powerful solutions. We reserve
 the right to deviate from strictly enforcing this code. Any deviations must
@@ -20,9 +18,7 @@ produce an outcome which is fairer, and aligned with our values. We understand
 that keeping a living document relevant and “patched” involves sustained
 effort.
 
-0. Summary: Don't be a jerk. Be awesome instead.
-
-The OONI community should be a good place where people are glad to be.
+0. Summary
 
   DO: Be kind, thoughtful, and considerate.
 
@@ -33,7 +29,7 @@ The OONI community should be a good place where people are glad to be.
 
   DO: Yield the floor. Listen. Make sure everyone gets heard.
 
-  DON'T: Insult, harass, intimidate, or be a jerk.
+  DON'T: Insult, harass, intimidate, or discriminate.
 
   DON'T: Treat honest mistakes as an excuse to hassle people. Mistakes are for
     learning.
@@ -60,7 +56,7 @@ explicitly acknowledge that tolerating abuse is a security problem. Allowing
 abusers and malicious people to disrupt our community puts our software,
 developers, and users at risk.
 
-This code of conduct outlines our expectations for all those who participate in
+This Code of Conduct outlines our expectations for all those who participate in
 our community, as well as the consequences for unacceptable behavior.
 
 We invite all those who participate in OONI to help us create safe
@@ -75,7 +71,7 @@ The following behaviors are expected and requested of all community members:
 
   * Exercise consideration and respect in your speech and actions.
 
-  * Attempt collaboration and dialog before engaging in conflict.
+  * Attempt collaboration and dialogue before engaging in conflict.
 
   * Refrain from demeaning, discriminatory, or harassing behavior and speech.
 
@@ -86,7 +82,7 @@ The following behaviors are expected and requested of all community members:
 
     - someone in distress
 
-    - violations of this code of conduct, even if they seem minor
+    - violations of this Code of Conduct, even if they seem minor
 
   * Remember that community event venues may be shared with members of the
     public. Please be respectful to everyone using these locations.
@@ -95,7 +91,7 @@ The following behaviors are expected and requested of all community members:
 
 3. Unacceptable behaviors
 
-The following behaviors are unacceptable within our community:
+The following behaviors are **unacceptable** within our community:
 
   * Violence, sexual assault, threats of violence, or violent language
     directed against another person, especially violence against a person or
@@ -105,10 +101,10 @@ The following behaviors are unacceptable within our community:
   * Sexist, racist, homophobic, transphobic, ableist or otherwise
     discriminatory jokes and language.
 
-  * Spontaneously posting or displaying sexually explicit or violent
-    material. (If it is necessary to share such material when working on
-    OONI's mission, do so with sensitivity. Be aware that many people don't
-    want to see it.)
+  * Bullying. 
+
+  * Posting or displaying sexually explicit or violent
+    material. 
 
   * Posting or threatening to post other people’s personally identifying
     information ("doxing") without their consent.
@@ -152,7 +148,7 @@ The following behaviors are unacceptable within our community:
   * Inappropriate physical contact. You should have someone’s consent before
     touching them.
 
-  * Unwelcome sexual attention: this includes sexualized comments or jokes,
+  * Unwelcome sexual attention: This includes sexualized comments or jokes,
     inappropriate touching, groping, and unwelcome sexual advances.
 
   * Deliberate intimidation, stalking or following (online or in person).
@@ -183,12 +179,12 @@ without their consent.
 The OONI team can assist with intra-community conflict resolution. You can contact
 the whole OONI team:
 
-  - if you have questions or concerns about the code of conduct, or
+  - if you have questions or concerns about the Code of Conduct, or
 
-  - if you feel that you have witnessed a code of conduct violation
+  - if you feel that you have witnessed a Code of Conduct violation
 
 However, if you feel that there is a conflict of interest with any team
-member, you may contact members individually. See: https://ooni.org/about/.
+member, you may contact members individually. See: https://ooni.org/about/#team.
 
 6. What to do if you witness unacceptable behavior
 
@@ -196,7 +192,7 @@ If you are subject to or witness unacceptable behavior, or have any other
 concerns, please notify the OONI team as soon as possible. You can
 contact the OONI team in person, or at
 team@openobservatory.org. Current team members are listed
-on the [about page](https://ooni.org/about/). The OONI team's incident response will vary on a
+on the [about page](https://ooni.org/about/#team). The OONI team's incident response will vary on a
 case-by-case basis. We will make every effort to respond to the
 incident immediately. We will prioritize the safety of the person who
 has been harmed, or is at risk of harm. Person(s) who have been harmed or are
@@ -236,7 +232,7 @@ when interacting:
 
   - in one-on-one communications that relate to community work
 
-This code of conduct and its related procedures also applies to unacceptable
+This Code of Conduct and its related procedures also applies to unacceptable
 behavior occurring outside the scope of community activities when such behavior
 has the potential to adversely affect the safety and well-being of community
 members. As members of the OONI community, we support and follow this Code while
@@ -247,9 +243,9 @@ time.
 10. License and attribution
 
 
-This code of conduct is shared under a Creative Commons CC-BY-SA 4.0
+This Code of Conduct is shared under a Creative Commons CC-BY-SA 4.0
 International license.
 
-This code of conduct is adapted from The Tor Project code of conduct and uses
+This Code of Conduct is adapted from The Tor Project Code of Conduct and uses
 some language and framing from the [Citizen Code of Conduct](https://citizencodeofconduct.org),
 which is shared under a CC-BY-SA license.
