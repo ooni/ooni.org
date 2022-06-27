@@ -211,7 +211,7 @@ table summarizes the reason for blocking for blocked DoH lookups:
 | Reset during TLS handshake      |    1 (~0%) |  77 (20%) | 152 (14%) |
 | Other                           |   92 (3%)  |  79 (20%) |  93 (9%)  |
 
-In China, there's a prevalence of TCP/IP blocking. Iran and Kazahkstan,
+In China, there's a prevalence of TCP/IP blocking. Iran and Kazakhstan,
 there's interference with the TLS sessions.
 
 In the Kazakhstan network we tested, TLS interference seemed to
