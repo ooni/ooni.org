@@ -104,7 +104,7 @@ and would use the unencrypted DNS to obtain IP addresses for
 
 The second case is more immediate. If you ask `dnscheck` to measure
 `https://8.8.8.8/dns-query`, it will notice that `8.8.8.8` is already
-and IP address, and it will just measure `https://8.8.8.8/dns-query`.
+an IP address, and it will just measure `https://8.8.8.8/dns-query`.
 
 What happens, though, if there's DNS blocking of the `dns.google`
 domain name?
