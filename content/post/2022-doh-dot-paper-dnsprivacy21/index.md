@@ -257,7 +257,7 @@ server name does not cause any blocking, suggesting there was
 ## Concluding remarks
 
 As far as we know, this research was the first account of DoT
-and DoH blocking. Since our measurement campaign in late 2020,
+and DoH blocking. Since our initial measurement campaign in late 2020,
 [other researchers started studying encrypted DNS blocking](
 https://arxiv.org/pdf/2202.00663.pdf). As `dnscheck` is now
 integrated into [OONI Probe](https://ooni.org/install/), we can continue to collect DoT/DoH blocking
