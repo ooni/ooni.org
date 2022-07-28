@@ -356,6 +356,7 @@ Accounts on OONI web services require an email address that we send a login
 link to. We do **not** store email addresses.
 
 OONI web services are hosted through the following providers:
+
 * [Netlify](https://www.netlify.com/privacy/)
 * [DigitalOcean](https://www.digitalocean.com/legal/privacy-policy)
 * [Vercel](https://vercel.com/legal/privacy-policy)
