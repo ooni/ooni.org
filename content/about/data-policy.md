@@ -4,9 +4,9 @@ description: This Data Policy discloses and explains what data the OONI project 
 aliases: ["/data-policy"]
 ---
 
-**Last modified:** January 19, 2022
+**Last modified:** July 28, 2022
 
-**Version:** 1.4.4
+**Version:** 1.4.5
 
 This Data Policy discloses and explains what data the [Open Observatory of
 Network Interference (OONI) project](https://ooni.org/) ("we", "us", or "our")
@@ -45,6 +45,8 @@ data principles that govern OONI's data practices.
 	* [Data We Publish](#data-we-publish)
 
 	* [Third-party services](#third-party-services)
+
+* [OONI web services](#ooni-web-services)
 
 ## Data Principles
 
@@ -347,6 +349,18 @@ The performance tests included in the OONI Probe apps are conducted against thir
 provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). M-Lab's
 services require the retention and disclosure of IP addresses for research
 purposes. Learn more about M-Lab's data governance through its [privacy statement](https://www.measurementlab.net/privacy/).
+
+## OONI web services
+
+Accounts on OONI web services require an email address that we send a login
+link to. We do **not** store email addresses.
+
+OONI web services are hosted through the following providers:
+
+* [Netlify](https://www.netlify.com/privacy/)
+* [DigitalOcean](https://www.digitalocean.com/legal/privacy-policy)
+* [Vercel](https://vercel.com/legal/privacy-policy)
+* [Hetzner](https://www.hetzner.com/legal/privacy-policy)
 
 
 We reserve all rights to make future changes to this Data Policy at our sole
