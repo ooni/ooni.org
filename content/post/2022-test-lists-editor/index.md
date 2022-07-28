@@ -152,8 +152,7 @@ through the following steps.
 
 {{<img src="images/02.png" title="Test Lists Editor" alt="Test Lists Editor">}}
 
-**Step 2.** Add your **email address** in the Email slot (we do *not*
-collect or store email addresses).
+**Step 2.** Add your **email address** in the Email slot (we do *not* store email addresses).
 
 {{<img src="images/03.png" title="Test Lists Editor" alt="Test Lists Editor">}}
 
