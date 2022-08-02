@@ -36,7 +36,7 @@ With the OONI Probe app (available for both [mobile](https://ooni.org/install/mo
 
 * Blocking of [websites](https://ooni.org/nettest/web-connectivity/);
 * Blocking of instant messaging apps ([WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/), [Signal](https://ooni.org/nettest/signal));
-* Blocking of circumvention tools ([Tor](https://ooni.org/nettest/tor/), [Tor Snowflake](https://ooni.org/nettest/tor-snowflake/), [Psiphon](https://ooni.org/nettest/psiphon/);
+* Blocking of circumvention tools ([Tor](https://ooni.org/nettest/tor/), [Tor Snowflake](https://ooni.org/nettest/tor-snowflake/), [Psiphon](https://ooni.org/nettest/psiphon/));
 * Presence of systems ([middleboxes](https://ooni.org/nettest/http-header-field-manipulation/)) on your network that might be responsible for censorship and/or surveillance;
 * [Speed and performance](https://ooni.org/nettest/ndt/) of your network and [performance of your video streaming](https://ooni.org/nettest/dash/).
 
@@ -138,11 +138,11 @@ You will see that **True** is the correct answer. If you tap False, you will rec
 
 {{<img src="images/image83.jpg" title="Quiz correct" alt="Quiz correct">}}
 
-**Step 6.** If you would like the app to collect the measurements automatically, tap "Sounds great" button. 
+**Step 6.** If you would like the app to collect the measurements automatically, tap **Sounds great** button. 
 
 {{<img src="images/image118.jpg" title="Automatic measurements" alt="Automatic measurements">}}
 
-**Step 7.** If you would like to share [crash reports](https://ooni.org/about/data-policy#data-we-collect) to help us improve OONI Probe with us, tap "Yes".
+**Step 7.** If you would like to share [crash reports](https://ooni.org/about/data-policy#data-we-collect) to help us improve OONI Probe, tap **Yes**.
 
 {{<img src="images/119.jpg" title="Crash reports" alt="Crash reports">}}
 
@@ -168,7 +168,10 @@ The **Dashboard** of the OONI Probe mobile app includes 4 cards, each of which e
 {{<img src="images/image25.jpg" title="Dashboard main screen" alt="Dashboard main screen">}}
 
 Once you tap "Run" OONI Probe will launch **all tests available** (included in all cards) in one go! 
-If you click the **Running line** the fullscale window with **all ongoing tests** will open: 
+
+{{<img src="images/image120.jpg" title="Launched tests" alt="Launched tests">}}
+
+If you click the **Running line** the fullscale window with **ongoing tests** will open: 
 
 {{<img src="images/image121.jpg" title="Open ongoing tests" alt="Open ongoing tests">}}
 
@@ -623,7 +626,7 @@ You can access the measurement page pertaining to the above (potentially) blocke
 
 {{<img src="images/image62.jpg" title="1tv inaccessible" alt="1tv inaccessible">}}
 
-In this case, we can see that `http://1tv.ru` presented signs of blocking (“[anomaly](https://ooni.org/support/glossary/#network-anomaly)”) when tested on Vodafone Italia (AS30722) on 24th March 2021 at 19:54 local time. In particular, we can see that it presented signs of [DNS tampering](https://ooni.org/support/glossary/#dns-tampering) (based on the heuristics of the [OONI Web Connectivity test](https://ooni.org/nettest/web-connectivity/)). This means that MAgticom Ltd. may have blocked access to `http://1tv.ru` (on 2nd August 2022) by means of DNS.
+In this case, we can see that `http://1tv.ru` presented signs of blocking (“[anomaly](https://ooni.org/support/glossary/#network-anomaly)”) when tested on Magticom Ltd (AS16010) on 2nd August 2022 at 10:16 local time. In particular, we can see that it presented signs of [DNS tampering](https://ooni.org/support/glossary/#dns-tampering) (based on the heuristics of the [OONI Web Connectivity test](https://ooni.org/nettest/web-connectivity/)). This means that Magticom Ltd. may have blocked access to `http://1tv.ru` (on 2nd August 2022) by means of TCP/IP blocking.
 
 As [false positives](https://ooni.org/support/glossary/#false-positive) can occur, we annotate test results that failed to meet all of the criteria of our [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) as “[anomalies](https://ooni.org/support/faq/#how-can-i-interpret-ooni-data)” (rather than “confirmed blocked”), indicating that the tested website *might* be blocked.
 
@@ -778,28 +781,26 @@ In this case, we can see that the [HTTP Header Field Manipulation](https://ooni.
 
 If, however, a middlebox was present on the tested network, it may have normalized the invalid headers that we sent or added extra headers. Depending on whether the HTTP headers that we send and receive from a backend control server are the same or not, we are able to evaluate whether a middlebox is present on the tested network.
 
-## Sharing your OONI Probe test results
+## Accessing and sharing your OONI Probe test results
 
 Through each OONI Probe test result, you can access settings that enable you to:
 
-* Access, copy, and share the **raw measurement data** (pertaining to that test result);
-* Access, copy, and share the **log** (pertaining to that test result);
+* **Create OONI Explorer page** for your measurement;
 * **Share the measurement** with your contacts;
-* **Copy the measurement** and access it on [OONI Explorer](https://explorer.ooni.org/) (where it is automatically published).
 
 You can access these settings through the following steps:
 
 **Step 1.** Access any OONI Probe test result (for details on how to find OONI Probe test results, please refer to the previous section of this guide).
 
-{{<img src="images/image62.jpg" title="1tv potentially blocked" alt="gutenberg potentially blocked">}}
+{{<img src="images/image62.jpg" title="1tv potentially blocked" alt="1tv potentially blocked">}}
 
 **Step 2.** Tap on the **menu icon** on the top right corner of an OONI Probe test result.
 
 {{<img src="images/image87.jpg" title="Menu icon" alt="Menu icon">}}
 
-The app will generate a link through which it will be possible to access your measurements through OONI Explorer. For the "1tv" example that would be the following link: `https://explorer.ooni.io/measurement/20220802T082305Z_webconnectivity_GE_16010_n1_mqcSN23znJTURgOm?input=http://1tv.ru`. The page accessible through the link contains the following types of data about your measurement: 
+The app will generate a link through which it will be possible to access your measurements through **OONI Explorer**. For the "1tv" example that would be the following link: `https://explorer.ooni.io/measurement/20220802T082305Z_webconnectivity_GE_16010_n1_mqcSN23znJTURgOm?input=http://1tv.ru`. The page accessible through the link contains the following types of data about your measurement: 
 
-#### Raw data
+### Raw data
 
 Every OONI Probe test result provides an overview of the findings. The actual data (i.e. the raw measurement data) that each test result is based on is available through the settings of each test result.
 
@@ -810,9 +811,15 @@ It is useful to access the raw measurement data because:
 * It provides technical details that can potentially serve as **evidence** of blocking;
 * It can help with determining if a website is in fact blocked, or if its testing triggered an [anomaly](https://ooni.org/support/glossary/#network-anomaly) due to other, non-censorship related reasons (i.e. ruling out [false positives](https://ooni.org/support/glossary/#false-positive)).
 
-#### Log
+Raw data is also accessible through **Data** button on each OONI Probe test result. The data from this oage can be copied and shared through the **Copy to clipboard** in the right top corner. 
 
-A log is a file that records how specific software ran. In the context of OONI Probe, each test result comes with a log, which records how that specific test ran on a specific network.
+{{<img src="images/image133.jpg" title="Data button" alt="Data button">}}
+
+{{<img src="images/image134.jpg" title="Copy to clipboard" alt="Copy to clipboard">}}
+
+### Log
+
+A log is a file that records how specific software ran. In the context of OONI Probe, each test result comes with a log, which records how that specific test ran on a specific network. This data is only visible if you have a "Debug logs" option turned on, to check if this option is turned on please proceed to the "Advanced" menu in "Settings".
 
 It can potentially be useful to access the log of an OONI Probe test result if it presented an error or otherwise failed to run as expected. In these cases, you can share the relevant log with the [OONI team](https://ooni.org/about/#contact) to help us **debug** the issue.
 
@@ -823,6 +830,7 @@ You may be interested in sharing your test results, particularly if and when you
 You can share your OONI Probe measurements through the following steps:
 
 **Step 1.** Tap on the **menu icon** 
+
 {{<img src="images/image87.jpg" title="Share explorer URL" alt="Share explorer URL">}}
 
 This will open the **Share with** function of your phone, enabling you to share the selected measurement directly with any of your contacts (for example, through applications like WhatsApp, Signal, or Slack).
@@ -907,7 +915,7 @@ You can customize your testing of censorship circumvention tools.
 
 {{<img src="images/image109.jpg" title="Tap circumvention" alt="Tap circumvention">}}
 
-You will now see the 3 tests (for [Psiphon](https://ooni.org/nettest/psiphon/), [Tor](https://ooni.org/nettest/tor/), [RiseupVPN](https://ooni.org/nettest/riseupvpn/)) that are included in the Circumvention card of the OONI Probe dashboard. All 3 tests are enabled by default.
+You will now see the 3 tests (for [Psiphon](https://ooni.org/nettest/psiphon/), [Tor](https://ooni.org/nettest/tor/), [Tor Snowflake](https://ooni.org/nettest/riseupvpn/)) that are included in the Circumvention card of the OONI Probe dashboard. All 3 tests are enabled by default.
 
 {{<img src="images/image43.jpg" title="Circumvention settings" alt="Circumvention settings">}}
 
@@ -962,7 +970,7 @@ You can opt out of publishing your OONI Probe test results and/or sharing crash 
 
 The advanced settings of the OONI Probe app include settings for:
 
-* Switching to **dark mode**;
+*
 * Sharing **logs** for debugging purposes;
 * Clearing your OONI Probe **storage**.
 
@@ -972,7 +980,7 @@ You can access the advanced settings through the following steps:
 
 {{<img src="images/image74.jpg" title="Advanced settings" alt="Advanced settings">}}
 
-You now have access to the advanced settings of your OONI Probe app, which are enabled by default.
+You now have access to the advanced settings of your OONI Probe app, where **Debug logs** are enabled or disabled whether you agreed to share your logs while installing the OONI Probe and **VPN warning** enabled by default for all OONI Probe users.
 
 {{<img src="images/image97.jpg" title="Advanced settings" alt="Advanced settings">}}
 
@@ -980,9 +988,9 @@ You now have access to the advanced settings of your OONI Probe app, which are e
 
 {{<img src="images/image103.jpg" title="Language Settings" alt="Language Settings">}}
 
-**Step 3.** Disable **Debug logs** if you are not interested in sharing your OONI Probe logs with the [OONI team](https://ooni.org/about/#contact). The logs help us identify and fix OONI Probe bugs, so we would ask you to keep this function turned on if possible.
+**Step 3.** Enable or disable **Debug logs** depending on your current settings. The logs help us identify and fix OONI Probe bugs, so we would ask you to keep this function turned on if possible.
 
-**Step 4.** Disable **VPN warning** if you are not interesting in recieving a notification while your VPN is on. 
+**Step 4.** Step 4. It's important to have your VPN **turned off** when running OONI Probe to help ensure more accurate test results. Please enable or disable the **VPN warning**, depending on whether you would like to be notified when your VPN is turned on.
 
 {{<img src="images/image33.jpg" title="Debug logs and VPN disabled" alt="Debug logs and VPN disabled">}}
 
