@@ -152,8 +152,6 @@ You will see that **True** is the correct answer. If you tap False, you will rec
 
 You have now completed the onboarding process and are ready to start using OONI Probe!
 
-{{<img src="images/image25.jpg" title="Dashboard screen" alt="Dashboard screen">}}
-
 ## Running OONI Probe Mobile
 
 Now that you have completed the onboarding process, you can start running OONI Probe to measure internet censorship!
@@ -170,10 +168,7 @@ The **Dashboard** of the OONI Probe mobile app includes 4 cards, each of which e
 {{<img src="images/image25.jpg" title="Dashboard main screen" alt="Dashboard main screen">}}
 
 Once you tap "Run" OONI Probe will launch **all tests available** (included in all cards) in one go! 
-
-{{<img src="images/image120.jpg" title="Launched tests" alt="Launched tests">}}
-
-If you click the **Running line** the fullscale window with **ongoing tests** will open: 
+If you click the **Running line** the fullscale window with **all ongoing tests** will open: 
 
 {{<img src="images/image121.jpg" title="Open ongoing tests" alt="Open ongoing tests">}}
 
