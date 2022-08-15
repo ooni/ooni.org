@@ -3,7 +3,7 @@ title: "User Guide: OONI Probe Mobile App"
 description: "OONI Probe Mobile App user guide"
 ---
 
-**Last updated:** 3rd August 2022
+**Last updated:** 15th August 2022
 
 **OONI Probe Mobile version:** 3.7.0
 
@@ -88,7 +88,7 @@ You can install the OONI Probe mobile app through the following steps:
 
 {{<img src="images/image49.png" title="Measure Internet Censorship" alt="Measure Internet Censorship">}}
 
-**Step 2.** Depending on your operating system (Android, iOS, F-Droid), click the relevant app store button.
+**Step 2.** Depending on your operating system (Android, iOS, F-Droid), tap the relevant app store button.
 
 {{<img src="images/image49.png" title="Install mobile app links" alt="Install mobile app links">}}
 
@@ -144,7 +144,7 @@ You will see that **True** is the correct answer. If you tap False, you will rec
 
 **Step 7.** If you would like to share [crash reports](https://ooni.org/about/data-policy#data-we-collect) to help us improve OONI Probe, tap **Yes**.
 
-{{<img src="images/119.jpg" title="Crash reports" alt="Crash reports">}}
+{{<img src="images/image119.jpg" title="Crash reports" alt="Crash reports">}}
 
 **Step 8.** The following screen shares information about the types of data that OONI collects and publishes by default (every time you run OONI Probe). You can learn more by tapping on **[OONI’s Data Policy](https://ooni.org/about/data-policy)** on the screen.
 
@@ -172,7 +172,7 @@ Once you tap "Run" OONI Probe will launch **all tests available** (included in a
 
 {{<img src="images/image120.jpg" title="Launched tests" alt="Launched tests">}}
 
-If you click the **Running line** the fullscale window with **ongoing tests** will open: 
+If you tap the **Running line** the fullscale window with **ongoing tests** will open: 
 
 {{<img src="images/image121.jpg" title="Open ongoing tests" alt="Open ongoing tests">}}
 
@@ -184,7 +184,7 @@ If you click the **Running line** the fullscale window with **ongoing tests** wi
 
 {{<img src="images/image12.jpg" title="Running performance" alt="Running performance">}}
 
-OONI Probe should have run all tests within a few minutes (though this depends on the performance of the network you’re connected to, and may take longer in some cases). If the performance of your network is not good enough and the tests take too long, you can **stop the ongoing test** by clicking **Stop test** button. 
+OONI Probe should have run all tests within a few minutes (though this depends on the performance of the network you’re connected to, and may take longer in some cases). If the performance of your network is not good enough and the tests take too long, you can **stop the ongoing test** by tapping **Stop test** button. 
 
 {{<img src="images/image122.jpg" title="Stop test" alt="Stop test">}}
 
@@ -225,7 +225,7 @@ If you would like to contribute to the [Citizen Lab test lists](https://github.c
 
 **Note:** To avoid consuming all your mobile data, **OONI Probe will only test as many websites as it’s able to test within 90 seconds** when you tap “Run” (either from the Dashboard or from the Websites card). These websites (which are tested within 90 seconds) are randomly selected from the [global](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) and (relevant) [country-specific](https://github.com/citizenlab/test-lists/tree/master/lists) test lists. Every time you tap “Run”, you will test a different, random selection of websites (from the global and country-specific test lists) within 90 seconds. Therefore, the more times you tap “Run”, the more websites you will test.
 
-If you would like to test a larger selection of websites, or test entirely different websites, please refer to the [Customizing website testing](https://ooni.org/support/ooni-probe-mobile#customizing-your-website-testing) section of this guide.
+If you would like to test a larger selection of websites, or test entirely different websites, please refer to the **Customizing website testing** section of this guide.
 
 ### Measuring the blocking of instant messaging apps
 
@@ -245,7 +245,7 @@ You are now running OONI’s [WhatsApp](https://ooni.org/nettest/whatsapp/), [Fa
 
 Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
 
-If you would like to limit your testing to only WhatsApp, Facebook Messenger, Telegram, or Signal, please refer to the [Configuring your OONI Probe settings](https://ooni.org/support/ooni-probe-mobile#configuring-your-ooni-probe-settings) section of this guide.
+If you would like to limit your testing to only WhatsApp, Facebook Messenger, Telegram, or Signal, please refer to the **Configuring your OONI Probe settings** section of this guide.
 
 ### Measuring the blocking of circumvention tools
 
@@ -265,7 +265,7 @@ You are now running OONI’s [Tor](https://ooni.org/nettest/tor/) and [Psiphon](
 
 Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
 
-If you would like to limit your testing to only Tor or Psiphon, please refer to the [Configuring your OONI Probe settings](https://ooni.org/support/ooni-probe-mobile#configuring-your-ooni-probe-settings) section of this guide.
+If you would like to limit your testing to only Tor or Psiphon, please refer to the **Configuring your OONI Probe settings** section of this guide.
 
 ### Measuring network performance
 
@@ -287,7 +287,7 @@ Your OONI Probe test results will automatically get published on [OONI Explorer]
 
 **Disclaimer:** The [NDT](https://ooni.org/nettest/ndt/) and [DASH](https://ooni.org/nettest/dash/) tests are conducted against third-party servers provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). If you run these tests, M-Lab will collect and publish your IP address for research purposes, irrespective of your OONI Probe settings. Learn more about M-Lab’s data governance through its [privacy statement](https://www.measurementlab.net/privacy/).
 
-If you would like to limit your testing to only one (or a few) of the tests included in the Performance card, please refer to the [Configuring your OONI Probe settings](https://ooni.org/support/ooni-probe-mobile#configuring-your-ooni-probe-settings) section of this guide.
+If you would like to limit your testing to only one (or a few) of the tests included in the Performance card, please refer to the **Configuring your OONI Probe settings** section of this guide.
 
 
 ## Customizing your website testing
@@ -298,10 +298,10 @@ But if you would rather limit your testing to websites of your choice, you can d
 
 You can customize your website testing in the following ways:
 
-* Limit your testing to [specific website categories](https://ooni.org/support/ooni-probe-mobile#testing-specific-website-categories) (such as news media and human rights content);
-* Only test [websites you care about](https://ooni.org/support/ooni-probe-mobile#testing-websites-of-your-choice);
-* Test [your own list](https://ooni.org/support/ooni-probe-mobile#testing-a-custom-list-of-websites) of websites;
-* Test [*all* URLs](https://ooni.org/support/ooni-probe-mobile#testing-all-websites-from-the-citizen-lab-test-lists) in the ([relevant](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe)) [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists) (rather than testing a random selection of websites in 90 seconds).
+* Limit your testing to **specific website categories** (such as news media and human rights content);
+* Only test **websites you care about**;
+* Test **your own list**;
+* Test *all* URLs in the ([relevant](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe)) [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists) (rather than testing a random selection of websites in 90 seconds).
 
 The following sections explain how you can do each of the above.
 
@@ -663,7 +663,7 @@ In this case, we can see that Telegram was found accessible when tested on Magti
 
 If Telegram was found (potentially) blocked, this test result would show an orange exclamation mark and information about why it’s potentially blocked (based on the heuristics of [OONI’s Telegram test](https://ooni.org/nettest/telegram/)).
 
-As you can see, there is a grey line at the bottom of the screen saying the measurement was not uploaded to the [OONI Explorer](https://explorer.ooni.org/) and the [OONI API](https://api.ooni.io/). This might have happened due to the bad connection, to upload the measurements one more time tap "Upload". 
+As you can see, there is a grey line at the bottom of the screen saying the measurement was not uploaded to the [OONI Explorer](https://explorer.ooni.org/) and the [OONI API](https://api.ooni.io/). This may have occurred due to poor network connectivity. To re-try uploading the measurements, tap **Upload**. 
 
 You can access Signal test results through the instant messaging results in your OONI Probe app.
 
@@ -770,7 +770,7 @@ If, however, a middlebox was present on the tested network, it may have normaliz
 
 Through each OONI Probe test result, you can access settings that enable you to:
 
-* **Create OONI Explorer page** for your measurement;
+* **View your measurement** published on [OONI Explorer](https://explorer.ooni.org/);
 * **Share the measurement** with your contacts;
 
 You can access these settings through the following steps:
@@ -779,11 +779,7 @@ You can access these settings through the following steps:
 
 {{<img src="images/image62.jpg" title="1tv potentially blocked" alt="1tv potentially blocked">}}
 
-**Step 2.** Tap on the **menu icon** on the top right corner of an OONI Probe test result.
-
-{{<img src="images/image87.jpg" title="Menu icon" alt="Menu icon">}}
-
-The app will generate a link through which it will be possible to access your measurements through **OONI Explorer**. For the "1tv" example that would be the following link: `https://explorer.ooni.io/measurement/20220802T082305Z_webconnectivity_GE_16010_n1_mqcSN23znJTURgOm?input=http://1tv.ru`. The page accessible through the link contains the following types of data about your measurement: 
+**Step 2.** Tap on the **Show in OONI Explorer** button. The app will redirect you to the **OONI Explorer** page relevant to your measurement. For the "1tv" example that would be the following page: `https://explorer.ooni.io/measurement/20220802T082305Z_webconnectivity_GE_16010_n1_mqcSN23znJTURgOm?input=http://1tv.ru`. **OONI Explorer** page contains the following types of data about your measurement: 
 
 ### Raw data
 
@@ -804,7 +800,7 @@ Raw data is also accessible through **Data** button on each OONI Probe test resu
 
 ### Log
 
-A log is a file that records how specific software ran. In the context of OONI Probe, each test result comes with a log, which records how that specific test ran on a specific network. This data is only visible if you have a "Debug logs" option turned on, to check if this option is enabled please proceed to the "[Advanced](https://ooni.org/support/ooni-probe-mobile#advanced)" menu in "Settings". 
+A log is a file that records how specific software ran. In the context of OONI Probe, each test result comes with a log, which records how that specific test ran on a specific network. This data is only visible if you have a **Debug logs** option turned on, to check if this option is enabled please proceed to the **Advanced** menu in **Settings**. 
 
 It can potentially be useful to access the log of an OONI Probe test result if it presented an error or otherwise failed to run as expected. In these cases, you can share the relevant log with the [OONI team](https://ooni.org/about/#contact) to help us **debug** the issue.
 
@@ -814,7 +810,7 @@ You may be interested in sharing your test results, particularly if and when you
 
 You can share your OONI Probe measurements through the following steps:
 
-**Step 1.** Tap on the **menu icon** 
+**Step 1.** Tap on the **Share button** 
 
 {{<img src="images/image87.jpg" title="Share explorer URL" alt="Share explorer URL">}}
 
@@ -972,7 +968,7 @@ The **Debug logs**, while enabled, share with us the onformation about OONI Prob
 
 {{<img src="images/image97.jpg" title="Advanced settings" alt="Advanced settings">}}
 
-**Step 2.** Switch the **language** to the one more comfortable for you by clicking "Language Setting"
+**Step 2.** Switch the **language** to the one more comfortable for you by tapping "Language Setting"
 
 {{<img src="images/image103.jpg" title="Language Settings" alt="Language Settings">}}
 
