@@ -474,7 +474,7 @@ If you’re connected to WiFi and would like to test **all websites** from the (
 
 **Step 1.** Click **Settings** in the sidebar of your OONI Probe desktop app. 
 
-{{<img src="images/settings-websites-categories.png" title="Settings" alt="Settings">}}
+{{<img src="images/settings-website-categories.png" title="Settings" alt="Settings">}}
 
 Under **Test options** in the settings, you will see that the **Limit test duration** option (which limits website testing to a specific time duration) is enabled by default. 
 
