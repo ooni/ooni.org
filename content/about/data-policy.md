@@ -350,6 +350,11 @@ provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). M-Lab's
 services require the retention and disclosure of IP addresses for research
 purposes. Learn more about M-Lab's data governance through its [privacy statement](https://www.measurementlab.net/privacy/).
 
+As mentioned in the previous sections, we also use third-parties services to optimise our work:
+
+* We use the open source [Matomo analytics platform](https://matomo.org/) to analyse the users' activity on our website. This platform does not use cookies and we do not track any personal data. We host this platform ourselves and do not collect any personal data to avoid any privacy-related risks for our users.
+* On OONI Explorer, we also use Sentry to log crash reports, which helps us improve the service. These reports include only the information about your device which we need to address the crash reports. Please check [Sentry Privacy Policy](https://sentry.io/privacy/), if you are not sure you want to share any information with them, please opt-out of sharing crash reports with us in the settings of your application. 
+
 ## OONI web services
 
 Accounts on OONI web services require an email address that we send a login
