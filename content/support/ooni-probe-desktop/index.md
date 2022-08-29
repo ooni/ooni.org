@@ -2,7 +2,7 @@
 title: "User Guide: OONI Probe Desktop App"
 description: "This user guide provides step-by-step instructions on how to use the OONI Probe desktop app."
 ---
-**Last updated:** 3rd August 2022
+**Last updated:** 15th August 2022
 
 **OONI Probe Desktop version:** 3.7.0
 
@@ -88,11 +88,11 @@ You can install the OONI Probe desktop app (on Windows and macOS) through the fo
 
 {{<img src="images/install-desktop.png" title="Install OONI Probe Desktop" alt="Install OONI Probe Desktop">}}
 
-**Step 2.** The page will propose you OONI Probe version relevant for operating system, if you need to choose a version for another OS please press **Other Platforms** button, otherwise press **Download** button (to download OONI Probe).
+**Step 2.** The page will propose you OONI Probe version relevant for operating system, if you need to choose a version for another OS please click **Other Platforms** button, otherwise click **Download** button (to download OONI Probe).
 
 {{<img src="images/download-windows-macos.png" title="Download OONI Probe Desktop" alt="Download OONI Probe Desktop">}}
 
-{{<img src="images/image1.jpg" title="OS version" alt="OS version">}}
+{{<img src="images/image1.jpeg" title="OS version" alt="OS version">}}
 
 **Step 3.** Once you have downloaded OONI Probe, double-click on the downloaded file to **install** OONI Probe.
 
@@ -152,7 +152,7 @@ You will see that **True** is the correct answer. If you click False, you will r
 
 {{<img src="images/tick.png" title="Tick" alt="Tick">}}
 
-**Step 6.** The following screen asks you to share [crash reports](https://ooni.org/about/data-policy#data-we-collect) to help us improve OONI Probe, this means that the OONI Probe app will automaticaly collect anonymized data when there are some errors in the app. Tap **Yes** if you are ready to share expanded logs. 
+**Step 6.** The following screen asks you to share [crash reports](https://ooni.org/about/data-policy#data-we-collect) that can help us identify and fix OONI Probe bugs. Please click **Yes** to share crash reports and help us improve OONI Probe.  
 
 {{<img src="images/crash-reporting.png" title="Tick" alt="Tick">}}
 
@@ -166,7 +166,7 @@ You have now completed the onboarding process and are ready to start using OONI 
 
 {{<img src="images/empty-dashboard.png" title="Dashboard" alt="Dashboard">}}
 
-**Optional Step 9.** If you would like to change your settings to **not** opt-in to sharing crash reports with us, click **Settings**. This will redirect you to the OONI Probe Settings screen, where you can check and change all of the default settings. The submission of crash reports is disabled by default, and only enabled if you click the Let’s Go button (from Step 7 above), or if you manually enable the relevant setting.  
+**Optional Step 9.** If you would like to change your settings to **not** opt-in to sharing crash reports with us, click **Settings**. This will redirect you to the OONI Probe Settings screen, where you can check and change all of the default settings. The submission of crash reports is disabled by default, and only enabled if you click the **Let’s Go** button (from Step 7 above), or if you manually enable the relevant setting.  
 
 {{<img src="images/new-default-settings-onboarding.png" title="Default settings" alt="Default settings">}}
 
@@ -548,7 +548,7 @@ In the top header, we share an overview of your website testing results. Next to
 
 You now have access to the data pertaining to the testing of a specific website. 
 
-The above measurement page pertains to the testing of `https://www.facebook.com/`. Through this measurement page, we can see that `https://www.facebook.com/` was found accessible when tested on n Magticom Ltd. (AS16010) on 3rd August 2022 at 13:58 local time 
+The above measurement page pertains to the testing of `https://www.facebook.com/`. Through this measurement page, we can see that `https://www.facebook.com/` was found accessible when tested on n Magticom Ltd. (AS16010) on 3rd August 2022 at 13:58 local time. 
 
 If a website was found (potentially) blocked, its measurement page would include an orange header with an exclamation mark, as illustrated below.
 
@@ -592,7 +592,7 @@ If Telegram was found (potentially) blocked, this measurement page would show re
 
 You can also access Facebook Messenger test results through the instant messaging results in your OONI Probe app.
 
-{{<img src="images/facebook-messenger-measurement.png" title="Facebook Messenger measurement" alt="Facebook Messenger measurement">}}
+{{<img src="images/facebook-measurement-page.png" title="Facebook Messenger measurement" alt="Facebook Messenger measurement">}}
 
 In this case, we can see that Facebook Messenger was found accessible when tested on Magticom Ltd. (AS16010) on 3rd August 2022 at 13:58 local time. This conclusion is reached because [OONI’s Facebook Messenger test](https://ooni.org/nettest/facebook-messenger/) was able to successfully connect to Facebook’s endpoints and resolve to Facebook IP addresses.
 
