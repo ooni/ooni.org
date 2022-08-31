@@ -2,7 +2,7 @@
 title: "User Guide: OONI Probe Desktop App"
 description: "This user guide provides step-by-step instructions on how to use the OONI Probe desktop app."
 ---
-**Last updated:** 15th August 2022
+**Last updated:** 31st August 2022
 
 **OONI Probe Desktop version:** 3.7.0
 
@@ -92,7 +92,7 @@ You can install the OONI Probe desktop app (on Windows and macOS) through the fo
 
 {{<img src="images/download-windows-macos.png" title="Download OONI Probe Desktop" alt="Download OONI Probe Desktop">}}
 
-{{<img src="images/image1.jpeg" title="OS version" alt="OS version">}}
+{{<img src="images/image1.jpg" title="OS version" alt="OS version">}}
 
 **Step 3.** Once you have downloaded OONI Probe, double-click on the downloaded file to **install** OONI Probe.
 
