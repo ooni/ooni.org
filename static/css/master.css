@@ -406,6 +406,11 @@ td:last-child {
   display: block;
   width: 92px;
   height: 26px;
+  transition: 0.1s ease-in-out;
+}
+
+.nav-menu-brand a:hover {
+  opacity: 0.8;
 }
 
 .nav-menu-btn {
@@ -449,6 +454,8 @@ td:last-child {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 0;
+    margin-left: 24px;
   }
 
   .navbar_opened .nav-menu{
@@ -478,15 +485,10 @@ td:last-child {
 
 
 @media (min-width: 992px) {
-  .nav-menu {
-    margin-top: 0;
-    margin-left: 16px;
-  }
-
   .nav-menu-item a {
     font-size: 14px;
     text-align: center;
-    padding: 6px 4px 0;
+    padding: 6px 8px 0;
     margin: 0 4px;
     border-bottom: 3px solid transparent;
     border-left: 0;
