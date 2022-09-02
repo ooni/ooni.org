@@ -785,7 +785,7 @@ Through each OONI Probe test result, you can:
 
 **Step 2.** Tap the **Show in OONI Explorer** button on an OONI Probe test result. 
 
-The app will redirect you to the **OONI Explorer** page relevant to your measurement. For the `1tv` example that would be the following page: `https://explorer.ooni.io/measurement/20220802T082305Z_webconnectivity_GE_16010_n1_mqcSN23znJTURgOm?input=http://1tv.ru`. 
+The app will redirect you to the **OONI Explorer** page relevant to your measurement. For the `1tv` example that would be the following page: https://explorer.ooni.io/measurement/20220802T082305Z_webconnectivity_GE_16010_n1_mqcSN23znJTURgOm?input=http://1tv.ru 
 
 ### Sharing your measurement
 
@@ -818,7 +818,7 @@ To access the raw OONI data of a test result:
 
 {{<img src="images/image133.jpg" title="Data button" alt="Data button">}}
 
-**Step 2.** You can copy and share the data by tapping the icon on the top right corner to **Copy to clipboard**.
+**Step 2.** You can copy and share the data by tapping **Copy to clipboard** on the top right corner.
 
 {{<img src="images/image134.jpg" title="Copy to clipboard" alt="Copy to clipboard">}}
 
@@ -904,11 +904,11 @@ You can customize your testing of censorship circumvention tools.
 
 {{<img src="images/image109.jpg" title="Tap circumvention" alt="Tap circumvention">}}
 
-You will now see the 3 tests (for [Psiphon](https://ooni.org/nettest/psiphon/), [Tor](https://ooni.org/nettest/tor/), [Tor Snowflake](https://ooni.org/nettest/riseupvpn/)) that are included in the Circumvention card of the OONI Probe dashboard. All 3 tests are enabled by default.
+You will now see the 2 tests (for [Psiphon](https://ooni.org/nettest/psiphon/) and [Tor](https://ooni.org/nettest/tor/)) that are included in the Circumvention card of the OONI Probe dashboard. Both tests are enabled by default.
 
-{{<img src="images/image43.jpg" title="Circumvention settings" alt="Circumvention settings">}}
+{{<img src="images/image20.jpg" title="Circumvention settings" alt="Circumvention settings">}}
 
-If you would like to limit your testing to a few (or none) of these tests, you can do so by disabling the relevant tests in these settings.
+If you would like to limit your testing to one (or none) of these tests, you can do so by disabling the relevant tests in these settings.
 
 **Note:** We are sometimes asked if users can add the circumvention tool that they would like to test (for customized VPN testing with OONI Probe). Unfortunately, this is not as simple as customized website testing (where you can add any URL for testing). App testing requires identifying all of the endpoints of the relevant application, and determining the best way to measure the reachability of that specific application. This varies from app to app, and a fair amount of development work goes into the creation of each OONI Probe circumvention tool test. This is why we currently only have a few circumvention tool tests, and the [methodology](https://ooni.org/nettest/) of each test varies. We have prioritized developing tests when it is possible to collaborate with circumvention tool developers. If there are other circumvention tools that you think we should prioritize tests for, please [let us know](https://ooni.org/about/#contact).
 
@@ -922,7 +922,7 @@ You can customize your network performance testing.
 
 You will now see the 4 tests ([NDT](https://ooni.org/nettest/ndt/), [DASH](https://ooni.org/nettest/dash/), [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/), [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/)) that are included in the Performance card of the OONI Probe dashboard. All 4 tests are enabled by default.
 
-{{<img src="images/image20.jpg" title="Performance settings" alt="Performance settings">}}
+{{<img src="images/image43.jpg" title="Performance settings" alt="Performance settings">}}
 
 If you would like to limit your testing to a few (or none) of these tests, you can do so by disabling the relevant tests in these settings.
 
@@ -1022,7 +1022,7 @@ The final “About OONI” setting of the OONI Probe app shares information [abo
 
 {{<img src="images/image44.jpg" title="About OONI" alt="About OONI">}}
 
-This will open a screen that provides summary information about OONI, as well as the OONI Probe software version that you’re currently using. In the header of the following example, we can see that it’s **OONI Probe 2.11.0 on Android**.
+This will open a screen that provides summary information about OONI, as well as the OONI Probe software version that you’re currently using. In the header of the following example, we can see that it’s **OONI Probe 3.7.0**.
 
 {{<img src="images/new-about-screen.jpg" title="OONI About page" alt="OONI About page">}}
 
