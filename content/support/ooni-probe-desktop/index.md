@@ -88,7 +88,7 @@ You can install the OONI Probe desktop app (on Windows and macOS) through the fo
 
 {{<img src="images/install-desktop.png" title="Install OONI Probe Desktop" alt="Install OONI Probe Desktop">}}
 
-**Step 2.** The page will propose you OONI Probe version relevant for operating system, if you need to choose a version for another OS please click **Other Platforms** button, otherwise click **Download** button (to download OONI Probe).
+**Step 2.** Click the **Download** button to download OONI Probe. The page will propose an OONI Probe version that is relevant for your operating system (e.g. macOS). If you need to choose a version for a different operating system, please click the **Other Platforms** button.
 
 {{<img src="images/download-windows-macos.png" title="Download OONI Probe Desktop" alt="Download OONI Probe Desktop">}}
 
@@ -100,7 +100,7 @@ On **macOS**, drag and drop the OONI Probe icon into the Application folder.
 
 {{<img src="images/macos-application-folder.png" title="macOS Application folder" alt="macOS Application folder">}}
 
-And then click **Open** to install the OONI Probe app on MacOS.
+And then click **Open** to install the OONI Probe app on macOS.
 
 {{<img src="images/macos-more-info.png" title="macOS screen on More Info" alt="macOS screen on More Info">}}
 
@@ -128,7 +128,7 @@ Below we walk you through the onboarding process.
 
 {{<img src="images/what-is-ooni-probe.png" title="What is OONI Probe" alt="What is OONI Probe">}}
 
-**Step 2.** The next screen shares a summary of potential risks associated with running OONI Probe. Click **Learn more** to read our [documentation](https://ooni.org/about/risks/) explaining potential risks (written based on legal consultation).
+**Step 2.** The next screen shares a summary of potential risks associated with running OONI Probe. Click **Learn more** to read our [documentation](https://ooni.org/about/risks/) explaining potential risks.
 
 {{<img src="images/learn-more-risks.png" title="Learn more " alt="Learn more ">}}
 
@@ -321,7 +321,7 @@ You are now running OONI’s [middlebox](https://ooni.org/support/glossary/#midd
 
 Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
 
-### Launching experimental tests
+### Running experimental tests
 
 If you only want to run new experimental tests developed by the OONI team, you can do so through the following steps:
 
