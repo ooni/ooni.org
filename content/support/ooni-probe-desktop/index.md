@@ -182,7 +182,7 @@ The **Dashboard** of the OONI Probe desktop app includes 5 cards, each of which 
 * **Instant Messaging card.** Includes OONI’s [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/), and [Signal](https://ooni.org/nettest/signal) tests which check if these apps are blocked.
 * **Circumvention card.** Includes OONI’s [Tor](https://ooni.org/nettest/tor/) and [Psiphon](https://ooni.org/nettest/psiphon/) which check if these censorship circumvention tools are blocked.
 * **Performance card.** Includes the [NDT speed test](https://ooni.org/nettest/ndt/), the [DASH video streaming performance test](https://ooni.org/nettest/dash/), and OONI’s [middlebox](https://ooni.org/support/glossary/#middlebox) tests ([HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) test and [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) test).
-* **Experimental card.** Includes multiple new experimental tests developed by the OONI team. These tests might change during the time, if you are interested in a full list or experimental tests please find it [here](https://github.com/ooni/spec/tree/master/nettests).
+* **Experimental card.** Includes multiple new experimental tests developed by the OONI team. These tests might change over time. You can view these tests [here](https://github.com/ooni/spec/tree/master/nettests).
 
 **Step 1.** Click **Run** to run your first OONI Probe tests.
 
@@ -200,11 +200,11 @@ This will run **all** OONI Probe tests (included in all cards) in one go!
 
 {{<img src="images/running-middlebox.png" title="Testing for middleboxes" alt="Testing for middleboxes">}}
 
-OONI Probe should have run all tests within a few minutes (though this depends on the performance of the network you’re connected to, and may take longer in some cases). If the performance of your network is not good enough and the tests take too long, you can **stop the ongoing test** by clicking **cross** button in the top right corner.
+OONI Probe should have run all tests within a few minutes (though this depends on the performance of the network you’re connected to, and may take longer in some cases). If the performance of your network is not good enough and the tests take too long, you can **stop the ongoing test** by clicking the **cross** button in the top right corner.
 
 {{<img src="images/stop-testing.png" title="Stop testing" alt="Stop testing">}}
 
-Click **OK** button to stop the test. 
+Click the **OK** button to stop the test. 
 
 {{<img src="images/stop-testing-ok.png" title="Stop testing" alt="Stop testing">}}
 
@@ -548,7 +548,7 @@ In the top header, we share an overview of your website testing results. Next to
 
 You now have access to the data pertaining to the testing of a specific website. 
 
-The above measurement page pertains to the testing of `https://www.facebook.com/`. Through this measurement page, we can see that `https://www.facebook.com/` was found accessible when tested on n Magticom Ltd. (AS16010) on 3rd August 2022 at 13:58 local time. 
+The above measurement page pertains to the testing of `https://www.facebook.com/`. Through this measurement page, we can see that `https://www.facebook.com/` was found accessible when tested on Magticom Ltd. (AS16010) on 3rd August 2022 at 13:58 local time. 
 
 If a website was found (potentially) blocked, its measurement page would include an orange header with an exclamation mark, as illustrated below.
 
@@ -666,7 +666,7 @@ You can access [DASH](https://ooni.org/nettest/dash/) results through the perfor
 
 {{<img src="images/dash-measurement.png" title="DASH measurement" alt="DASH measurement">}}
 
-In this case, we can see that a [DASH video streaming test](https://ooni.org/nettest/dash/) was run on Magticom Ltd. (AS16010) on 3rd August 2022 at 12:21 local time. When the test was performed, it was possible to stream up to 480p video without buffering, with the median bitrate being 3.6 megabits per second. This indicates that the user could stream only low definition videos on that network if the streaming server was co-located with the measurement server.
+In this case, we can see that a [DASH video streaming test](https://ooni.org/nettest/dash/) was run on Magticom Ltd. (AS16010) on 3rd August 2022 at 12:21 local time. When the test was performed, it was possible to stream up to 480p video without buffering, with the median bitrate being 3.6 megabits per second. This indicates that the user could only stream low definition videos on that network if the streaming server was co-located with the measurement server.
 
 You can compare your DASH test results with what is offered in your internet plan provided by your Internet Service Provider (ISP).
 
@@ -719,7 +719,7 @@ In the following sections, we dive into each feature.
 
 Every OONI Probe test result provides an overview of the findings. The actual data (i.e. the raw measurement data) that each test result is based on is available through the **Data** button on each test result screen. 
 
-In other words, if you have tested `https://www.facebook.com`, the test result page will provide an overview of the finding (for example: Accessible), but the network measurement data provides the details of the testing, e.g., if the website would be not accessible, it would be showing how and why the site may be blocked. 
+In other words, if you have tested `https://www.facebook.com`, the test result page will provide an overview of the finding (for example: Accessible), but the network measurement data provides the details of the testing. For example, if the website wasn't accessible, it would show how and why the site may be blocked. 
 
 It is useful to access the raw measurement data because:
 
