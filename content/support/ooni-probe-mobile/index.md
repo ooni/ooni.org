@@ -3,7 +3,7 @@ title: "User Guide: OONI Probe Mobile App"
 description: "OONI Probe Mobile App user guide"
 ---
 
-**Last updated:** 15th August 2022
+**Last updated:** 2nd September 2022
 
 **OONI Probe Mobile version:** 3.7.0
 
