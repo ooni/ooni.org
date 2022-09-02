@@ -957,10 +957,10 @@ You can opt out of publishing your OONI Probe test results and/or sharing crash 
 
 The advanced settings of the OONI Probe app include settings for:
 
-* **Language settings**;
+* Changing the **language** of your OONI Probe app;
 * Sharing **logs** for debugging purposes;
 * Clearing your OONI Probe **storage**;
-* Setting **VPN warning**.
+* Receiving a warning when your **VPN is in use**.
 
 You can access the advanced settings through the following steps:
 
@@ -968,19 +968,17 @@ You can access the advanced settings through the following steps:
 
 {{<img src="images/image74.jpg" title="Advanced settings" alt="Advanced settings">}}
 
-You now have access to the advanced settings of your OONI Probe app, where **Debug logs** are disabled by default and **VPN warning** enabled by default for all OONI Probe users.
-
-The **Debug logs**, while enabled, share with us the onformation about OONI Probe software version running and the Operating System version installed on your device. This information helps us to identify and fix OONI Probe bugs, so we would ask you to keep this function turned on if possible.
+You now have access to the advanced settings of your OONI Probe app, where **Debug logs** are disabled by default and the **VPN warning** is enabled by default for all OONI Probe users.
 
 {{<img src="images/image97.jpg" title="Advanced settings" alt="Advanced settings">}}
 
-**Step 2.** Switch the **language** to the one more comfortable for you by tapping "Language Setting"
+**Step 2.** Change the language of your OONI Probe app by tapping **Language Setting**.
 
 {{<img src="images/image103.jpg" title="Language Settings" alt="Language Settings">}}
 
-**Step 3.** Enable or disable **Debug logs** depending on your current settings. The logs help us identify and fix OONI Probe bugs, so we would ask you to keep this function turned on if possible.
+**Step 3.** The **Debug logs** (when enabled) share with us information (e.g. OONI Probe software version) that can help us identify and fix OONI Probe bugs. We recommend enabling this function. 
 
-**Step 4.** Step 4. It's important to have your VPN **turned off** when running OONI Probe to help ensure more accurate test results. Please enable or disable the **VPN warning**, depending on whether you would like to be notified when your VPN is turned on.
+**Step 4.** It's important to have your **VPN turned off** when running OONI Probe to help ensure more accurate test results. Please enable or disable the **VPN warning**, depending on whether you would like to be notified when your VPN is turned on.
 
 {{<img src="images/image33.jpg" title="Debug logs and VPN disabled" alt="Debug logs and VPN disabled">}}
 
@@ -990,7 +988,7 @@ This will prompt the following pop-up window, asking if you would like to delete
 
 {{<img src="images/image38.jpg" title="Delete all results" alt="Delete all results">}}
 
-**Step 5.** Tap **DELETE** to delete all of your OONI Probe test results (and save up on storage).
+**Step 6.** Tap **DELETE** to delete all of your OONI Probe test results (and save up on storage).
 
 {{<img src="images/image22.jpg" title="Empty test results" alt="Empty test results">}}
 
