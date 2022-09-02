@@ -5,7 +5,7 @@ description: "OONI Probe Mobile App user guide"
 
 **Last updated:** 2nd September 2022
 
-**OONI Probe Mobile version:** 3.7.0
+**OONI Probe Mobile version:** 3.7.1
 
 {{<img src="images/image49.png" title="Measure Internet Censorship" alt="Measure Internet Censorship">}}
 
@@ -1024,10 +1024,12 @@ This will open a screen that provides summary information about OONI, as well as
 
 {{<img src="images/new-about-screen.jpg" title="OONI About page" alt="OONI About page">}}
 
-**Step 2.** Tap **OONI Data Policy** to read our [Data Policy](https://ooni.org/about/data-policy) on our website.
+**Step 2.** Tap the **Learn more** button to access the [OONI website](https://ooni.org/) and learn more about our project.
 
-**Step 3.** Tap the **Learn more** button to access the [OONI website](https://ooni.org/) and learn more about our project.
+**Step 3.** Tap **Blog** to access the [OONI blog](https://ooni.org/blog/) and check our announcements.
 
-**Step 4.** Tap the **Blog** button to access the [OONI blog](https://ooni.org/blog/) and check our announcements and reports.
+**Step 4.** Tap **Reports** to read our [research reports](https://ooni.org/reports/) on internet censorship around the world (based on OONI data).
+
+**Step 5.** Tap **OONI Data Policy** to read our [Data Policy](https://ooni.org/about/data-policy).
 
 Thank you for reading this guide, and thank you for running OONI Probe!
