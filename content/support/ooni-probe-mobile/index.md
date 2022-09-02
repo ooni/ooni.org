@@ -424,7 +424,7 @@ To ensure that each [URL](https://ooni.org/support/glossary/#url) is typed accur
 
 **Step 3.** Visit the **OONI Run** website: <https://run.ooni.io/>
 
-{{<img src="images/image69.png" title="OONI Run landing page" alt="OONI Run landing page">}}
+{{<img src="images/image-ooni-run.png" title="OONI Run landing page" alt="OONI Run landing page">}}
 
 **Step 4.** **Select** `http://` in the first URL slot of the OONI Run page (to avoid having a double `http` in the formatting of your first URL).
 
