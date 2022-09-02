@@ -770,17 +770,36 @@ If, however, a middlebox was present on the tested network, it may have normaliz
 
 Through each OONI Probe test result, you can:
 
-* **View your measurement** published on [OONI Explorer](https://explorer.ooni.org/);
-* **View the raw data** of your measurement;
+* **Access your measurement** published on [OONI Explorer](https://explorer.ooni.org/);
 * **Share the measurement** with your contacts;
+* **Access the raw data** of your measurement;
+* **Access the log** of your measurement.
 
-You can access the above through the following steps:
+### Accessing your measurement on OONI Explorer
 
 **Step 1.** Access any OONI Probe test result (for details on how to find OONI Probe test results, please refer to the previous section of this guide).
 
 {{<img src="images/image62.jpg" title="1tv potentially blocked" alt="1tv potentially blocked">}}
 
-**Step 2.** Tap on the **Show in OONI Explorer** button. The app will redirect you to the **OONI Explorer** page relevant to your measurement. For the `1tv` example that would be the following page: `https://explorer.ooni.io/measurement/20220802T082305Z_webconnectivity_GE_16010_n1_mqcSN23znJTURgOm?input=http://1tv.ru`. **OONI Explorer** page contains the following types of data about your measurement: 
+**Step 2.** Tap the **Show in OONI Explorer** button on an OONI Probe test result. 
+
+The app will redirect you to the **OONI Explorer** page relevant to your measurement. For the `1tv` example that would be the following page: `https://explorer.ooni.io/measurement/20220802T082305Z_webconnectivity_GE_16010_n1_mqcSN23znJTURgOm?input=http://1tv.ru`. 
+
+### Sharing your measurement
+
+You may be interested in sharing your test results, particularly if and when you come across cases of potential blocking. While your OONI Probe results are automatically published on [OONI Explorer](https://explorer.ooni.org/) (unless if you opt-out, as discussed in the “Configuring your OONI Probe settings: Privacy” section of this guide), you may still be interested in sharing your test result(s) directly with your contacts.
+
+You can share your OONI Probe measurements through the following steps:
+
+**Step 1.** Tap the **Share button** in an OONI Probe test result. 
+
+{{<img src="images/image87.jpg" title="Share explorer URL" alt="Share explorer URL">}}
+
+This will open the **Share with** function of your phone, enabling you to share the selected measurement directly with any of your contacts (for example, through applications like WhatsApp, Signal, or Slack).
+
+**Step 2.** Tap on the contact you would like to share the measurement with.
+
+**Step 3.** Tap **Send** to share the measurement with your contact. They will receive the relevant [OONI Explorer](https://explorer.ooni.org/) measurement pertaining to your test result.
 
 ### Raw data
 
@@ -803,25 +822,9 @@ To access the raw OONI data of a test result:
 
 ### Log
 
-A log is a file that records how specific software ran. In the context of OONI Probe, each test result comes with a log, which records how that specific test ran on a specific network. This data is only visible if you have a **Debug logs** option turned on, to check if this option is enabled please proceed to the **Advanced** menu in **Settings**. 
+A log is a file that records how specific software ran. In the context of OONI Probe, each test result comes with a log, which records how that specific test ran on a specific network. This data is only visible if you have the **Debug logs** option turned on. To check if this option is enabled, please proceed to the **Advanced** menu in **Settings**. 
 
 It can potentially be useful to access the log of an OONI Probe test result if it presented an error or otherwise failed to run as expected. In these cases, you can share the relevant log with the [OONI team](https://ooni.org/about/#contact) to help us **debug** the issue.
-
-### Sharing your measurement
-
-You may be interested in sharing your test results, particularly if and when you come across cases of potential blocking. While your OONI Probe results are automatically published on [OONI Explorer](https://explorer.ooni.org/) (unless if you opt-out, as discussed in the “Configuring your OONI Probe settings: Privacy” section of this guide), you may still be interested in sharing your test result(s) directly with your contacts.
-
-You can share your OONI Probe measurements through the following steps:
-
-**Step 1.** Tap on the **Share button** 
-
-{{<img src="images/image87.jpg" title="Share explorer URL" alt="Share explorer URL">}}
-
-This will open the **Share with** function of your phone, enabling you to share the selected measurement directly with any of your contacts (for example, through applications like WhatsApp, Signal, or Slack).
-
-**Step 2.** Tap on the contact you would like to share the measurement with.
-
-**Step 3.** Tap Send to share the measurement with your contact. They will receive the relevant [OONI Explorer](https://explorer.ooni.org/) measurement pertaining to your test result.
 
 ## Configuring your OONI Probe settings
 
