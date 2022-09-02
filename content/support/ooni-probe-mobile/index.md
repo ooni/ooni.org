@@ -974,13 +974,13 @@ You now have access to the advanced settings of your OONI Probe app, where **Deb
 
 {{<img src="images/image97.jpg" title="Advanced settings" alt="Advanced settings">}}
 
-**Step 2.** Change the language of your OONI Probe app by tapping **Language Setting**.
+**Step 2.** Enable the **Debug logs** to share information (e.g. OONI Probe software version) that can help us identify and fix OONI Probe bugs.
+
+**Step 3.** Change the language of your OONI Probe app by tapping **Language Setting**.
 
 {{<img src="images/image103.jpg" title="Language Settings" alt="Language Settings">}}
 
-**Step 3.** The **Debug logs** (when enabled) share with us information (e.g. OONI Probe software version) that can help us identify and fix OONI Probe bugs. We recommend enabling this function. 
-
-**Step 4.** It's important to have your **VPN turned off** when running OONI Probe to help ensure more accurate test results. Please enable or disable the **VPN warning**, depending on whether you would like to be notified when your VPN is turned on.
+**Step 4.** It's important to have your **VPN turned off** when running OONI Probe to help ensure more accurate test results. Please **enable the VPN warning** if you would like to be notified when your VPN is turned on.
 
 {{<img src="images/image33.jpg" title="Debug logs and VPN disabled" alt="Debug logs and VPN disabled">}}
 
