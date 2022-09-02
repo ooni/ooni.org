@@ -138,7 +138,7 @@ You will see that **True** is the correct answer. If you tap False, you will rec
 
 {{<img src="images/image83.jpg" title="Quiz correct" alt="Quiz correct">}}
 
-**Step 6.** If you would like the app to collect the measurements automatically, tap **Sounds great** button. 
+**Step 6.** If you would like the app to collect the measurements automatically, tap the **Sounds great** button. 
 
 {{<img src="images/image118.jpg" title="Automatic measurements" alt="Automatic measurements">}}
 
@@ -162,7 +162,7 @@ The **Dashboard** of the OONI Probe mobile app includes 5 cards, each of which e
 * **Instant Messaging card.** Includes OONI’s [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/), and [Signal](https://ooni.org/nettest/signal) tests which check if these apps are blocked.
 * **Circumvention card.** Includes OONI’s [Tor](https://ooni.org/nettest/tor/) and [Psiphon](https://ooni.org/nettest/psiphon/) which check if these censorship circumvention tools are blocked.
 * **Performance card.** Includes the [NDT speed test](https://ooni.org/nettest/ndt/), the [DASH video streaming performance test](https://ooni.org/nettest/dash/), and OONI’s [middlebox](https://ooni.org/support/glossary/#middlebox) tests ([HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) test and [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) test).
-* **Experimental card.** Includes multiple new experimental tests developed by the OONI team. These tests might change during the time, if you are interested in a full list or experimental tests please find it [here](https://github.com/ooni/spec/tree/master/nettests).
+* **Experimental card.** Includes multiple new experimental tests developed by the OONI team. These tests might change over time. You can view these tests [here](https://github.com/ooni/spec/tree/master/nettests).
 
 **Step 1.** Tap **Run** to run your first OONI Probe tests.
 
@@ -184,11 +184,11 @@ If you tap the **Running line** the fullscale window with **ongoing tests** will
 
 {{<img src="images/image12.jpg" title="Running performance" alt="Running performance">}}
 
-OONI Probe should have run all tests within a few minutes (though this depends on the performance of the network you’re connected to, and may take longer in some cases). If the performance of your network is not good enough and the tests take too long, you can **stop the ongoing test** by tapping **Stop test** button. 
+OONI Probe should have run all tests within a few minutes (though this depends on the performance of the network you’re connected to, and may take longer in some cases). If the performance of your network is not good enough and the tests take too long, you can **stop the ongoing test** by tapping the **Stop test** button. 
 
 {{<img src="images/image122.jpg" title="Stop test" alt="Stop test">}}
 
-Once the test is stopped or ended, your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
+Once the test has stopped or ended, your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
 
 Would you rather limit your testing to a specific test type (card)? In the following sections, we share instructions on how to do that.
 
@@ -221,7 +221,7 @@ No matter which country you’re running OONI Probe from, you will *always* test
 
 OONI Probe will automatically determine which [country-specific list](https://github.com/citizenlab/test-lists/tree/master/lists) to pick for testing based on the country you’re running OONI Probe from. For example, if you run OONI Probe in Brazil, you will test websites from the global test list and from the Brazilian test list. If you travel to Germany and run OONI Probe, it will test the websites from the global and German test lists. But if you’re running OONI Probe from a country which doesn’t have a country-specific test list yet (because it hasn’t been created), you will only test websites from the global list.
 
-If you would like to contribute to the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists) (which include the default websites tested by OONI Probe users worldwide), please refer to our relevant [documentation](https://ooni.org/get-involved/contribute-test-lists) and use GitHub or our [Test Lists Editor](https://test-lists.ooni.org/).
+If you would like to contribute to the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists) (which include the default websites tested by OONI Probe users worldwide), please refer to our relevant [documentation](https://ooni.org/get-involved/contribute-test-lists) or use our [Test Lists Editor](https://test-lists.ooni.org/).
 
 **Note:** To avoid consuming all your mobile data, **OONI Probe will only test as many websites as it’s able to test within 90 seconds** when you tap “Run” (either from the Dashboard or from the Websites card). These websites (which are tested within 90 seconds) are randomly selected from the [global](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) and (relevant) [country-specific](https://github.com/citizenlab/test-lists/tree/master/lists) test lists. Every time you tap “Run”, you will test a different, random selection of websites (from the global and country-specific test lists) within 90 seconds. Therefore, the more times you tap “Run”, the more websites you will test.
 
@@ -663,7 +663,7 @@ In this case, we can see that Telegram was found accessible when tested on Magti
 
 If Telegram was found (potentially) blocked, this test result would show an orange exclamation mark and information about why it’s potentially blocked (based on the heuristics of [OONI’s Telegram test](https://ooni.org/nettest/telegram/)).
 
-As you can see, there is a grey line at the bottom of the screen saying the measurement was not uploaded to the [OONI Explorer](https://explorer.ooni.org/) and the [OONI API](https://api.ooni.io/). This may have occurred due to poor network connectivity. To re-try uploading the measurements, tap **Upload**. 
+As you can see, there is a grey line at the bottom of the screen saying that the measurement was not uploaded to [OONI Explorer](https://explorer.ooni.org/) and the [OONI API](https://api.ooni.io/). This may have occurred due to poor network connectivity. To re-try uploading the measurements, tap **Upload**. 
 
 You can access Signal test results through the instant messaging results in your OONI Probe app.
 
@@ -768,33 +768,36 @@ If, however, a middlebox was present on the tested network, it may have normaliz
 
 ## Accessing and sharing your OONI Probe test results
 
-Through each OONI Probe test result, you can access settings that enable you to:
+Through each OONI Probe test result, you can:
 
 * **View your measurement** published on [OONI Explorer](https://explorer.ooni.org/);
+* **View the raw data** of your measurement;
 * **Share the measurement** with your contacts;
 
-You can access these settings through the following steps:
+You can access the above through the following steps:
 
 **Step 1.** Access any OONI Probe test result (for details on how to find OONI Probe test results, please refer to the previous section of this guide).
 
 {{<img src="images/image62.jpg" title="1tv potentially blocked" alt="1tv potentially blocked">}}
 
-**Step 2.** Tap on the **Show in OONI Explorer** button. The app will redirect you to the **OONI Explorer** page relevant to your measurement. For the "1tv" example that would be the following page: `https://explorer.ooni.io/measurement/20220802T082305Z_webconnectivity_GE_16010_n1_mqcSN23znJTURgOm?input=http://1tv.ru`. **OONI Explorer** page contains the following types of data about your measurement: 
+**Step 2.** Tap on the **Show in OONI Explorer** button. The app will redirect you to the **OONI Explorer** page relevant to your measurement. For the `1tv` example that would be the following page: `https://explorer.ooni.io/measurement/20220802T082305Z_webconnectivity_GE_16010_n1_mqcSN23znJTURgOm?input=http://1tv.ru`. **OONI Explorer** page contains the following types of data about your measurement: 
 
 ### Raw data
 
-Every OONI Probe test result provides an overview of the findings. The actual data (i.e. the raw measurement data) that each test result is based on is available through the settings of each test result.
-
-In other words, if you have tested `http://1tv.ru`, the test result page will provide an overview of the finding (for example: “Likely blocked by means of DNS tampering”), but the network measurement data provides the details of the testing, showing how and why the site may be blocked by means of [DNS tampering](https://ooni.org/support/glossary/#dns-tampering).
+Every OONI Probe test result provides an overview of the findings. The actual data (i.e. the raw measurement data) that each test result is based on is available through the **Data** button of each test result.
 
 It is useful to access the raw measurement data because:
 
 * It provides technical details that can potentially serve as **evidence** of blocking;
 * It can help with determining if a website is in fact blocked, or if its testing triggered an [anomaly](https://ooni.org/support/glossary/#network-anomaly) due to other, non-censorship related reasons (i.e. ruling out [false positives](https://ooni.org/support/glossary/#false-positive)).
 
-Raw data is also accessible through **Data** button on each OONI Probe test result. The data from this oage can be copied and shared through the **Copy to clipboard** in the right top corner. 
+To access the raw OONI data of a test result:
+
+**Step 1.** Tap the **Data** button on an OONI Probe test result.
 
 {{<img src="images/image133.jpg" title="Data button" alt="Data button">}}
+
+**Step 2.** You can copy and share the data by tapping the icon on the top right corner to **Copy to clipboard**.
 
 {{<img src="images/image134.jpg" title="Copy to clipboard" alt="Copy to clipboard">}}
 
