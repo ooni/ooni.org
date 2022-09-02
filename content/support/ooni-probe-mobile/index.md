@@ -114,7 +114,7 @@ Below we walk you through the onboarding process.
 
 {{<img src="images/image5.jpg" title="Got it" alt="Got it">}}
 
-**Step 2.** The next screen shares a summary of potential risks associated with running OONI Probe. Tap **Learn more** to read our [documentation](https://ooni.org/about/risks/) explaining potential risks (written based on legal consultation).
+**Step 2.** The next screen shares a summary of potential risks associated with running OONI Probe. Tap **Learn more** to read our [documentation](https://ooni.org/about/risks/) explaining potential risks.
 
 {{<img src="images/image26.jpg" title="Tap learn more" alt="Tap learn more">}}
 
@@ -149,6 +149,8 @@ You will see that **True** is the correct answer. If you tap False, you will rec
 **Step 8.** The following screen shares information about the types of data that OONI collects and publishes by default (every time you run OONI Probe). You can learn more by tapping on **[OONI’s Data Policy](https://ooni.org/about/data-policy)** on the screen.
 
 {{<img src="images/image24.jpg" title="Onboarding default settings" alt="Onboarding default settings">}}
+
+**Step 9.** Tap **OK**.
 
 You have now completed the onboarding process and are ready to start using OONI Probe!
 
@@ -188,7 +190,7 @@ OONI Probe should have run all tests within a few minutes (though this depends o
 
 {{<img src="images/image122.jpg" title="Stop test" alt="Stop test">}}
 
-Once the test has stopped or ended, your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
+Once the tests have ended, your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
 
 Would you rather limit your testing to a specific test type (card)? In the following sections, we share instructions on how to do that.
 
@@ -766,11 +768,11 @@ In this case, we can see that the [HTTP Header Field Manipulation](https://ooni.
 
 If, however, a middlebox was present on the tested network, it may have normalized the invalid headers that we sent or added extra headers. Depending on whether the HTTP headers that we send and receive from a backend control server are the same or not, we are able to evaluate whether a middlebox is present on the tested network.
 
-## Accessing and sharing your OONI Probe test results
+## Sharing your OONI Probe test results
 
 Through each OONI Probe test result, you can:
 
-* **Access your measurement** published on [OONI Explorer](https://explorer.ooni.org/);
+* **Access and share your measurement** published on [OONI Explorer](https://explorer.ooni.org/);
 * **Share the measurement** with your contacts;
 * **Access the raw data** of your measurement;
 * **Access the log** of your measurement.
