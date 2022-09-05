@@ -985,6 +985,30 @@ You can opt out of publishing your OONI Probe test results and/or sharing crash 
 
 {{<img src="images/image29.jpg" title="All privacy off" alt="All privacy off">}}
 
+### OONI backend proxy
+
+This option is only necessary if the OONI Probe app **does not work in your country**. If your app shows "Error – all available probe services failed", this means that OONI Probe attempted to contact all the public OONI API endpoints (which we call “probe services”) but they were not available to reach them.
+
+{{<img src="images/image143.png" title="OONI Probe failed" alt="OONI Probe failed">}}
+
+By tapping the **OONI backend proxy** setting, you will be able to choose which proxy you want to use to circumvent potential (deliberate or accidental) OONI Probe blocking.
+
+{{<img src="images/image139.jpg" title="OONI Backend Proxy" alt="OONI Backend Proxy">}}
+
+By default, all proxies are disabled. 
+
+{{<img src="images/image140.jpg" title="OONI Proxy disabled" alt="OONI Proxy disabled">}}
+
+If you select **Psiphon**, OONI Probe will use [Psiphon](https://psiphon.ca/) when speaking to the probe services.
+
+{{<img src="images/image141.jpg" title="Backend proxy Psiphon" alt="Backend proxy Psiphon">}}
+
+If you select **Custom Proxy**, you can set the hostname and port of a SOCKS5 proxy. For example, the hostname and port with 127.0.0.1 and 9050 can be used if you have an Orbot instance running on your device (or Tor inside Termux).
+
+{{<img src="images/image142.jpg" title="Backend proxy custom" alt="Backend proxy custom">}}
+
+By enabling an OONI backend proxy, OONI Probe would *not* be running over a VPN. Instead, OONI Probe would use [Psiphon](https://psiphon.ca/) or a custom proxy (depending on what you chose) to circumvent potential blocking of OONI backend services.
+
 ### Advanced
 
 The advanced settings of the OONI Probe app include settings for:
@@ -1025,28 +1049,6 @@ This will prompt the following pop-up window, asking if you would like to delete
 {{<img src="images/image22.jpg" title="Empty test results" alt="Empty test results">}}
 
 All of your OONI Probe test results have been deleted from your app.
-
-### OONI Backend proxy
-
-This option is only necessary if the OONI Probe app **does not work in your country**. If your app shows "Error – all available probe services failed", this means that OONI Probe attempted to contact all the public OONI API endpoints (which we call “probe services”) but was not available to reach them.
-
-{{<img src="images/image143.png" title="OONI Probe failed" alt="OONI Probe failed">}}
-
-By tapping the **OONI backend proxy** button, you will be able to choose which proxy you want to use to circumvent the OONI Probe blocking:
-
-{{<img src="images/image139.jpg" title="OONI Backend Proxy" alt="OONI Backend Proxy">}}
-
-By default all proxies are disabled. 
-
-{{<img src="images/image140.jpg" title="OONI Proxy disabled" alt="OONI Proxy disabled">}}
-
-If you choose Psiphon, OONI Probe will create a Psiphon tunnel using the encrypted configuration file. 
-
-{{<img src="images/image141.jpg" title="Backend proxy Psiphon" alt="Backend proxy Psiphon">}}
-
-If you select Custom, you can set the hostname and port of a SOCKS5 proxy. For example, the hostname and port with 127.0.0.1 and 9050 can be used if you have an Orbot instance running on your device (or Tor inside Termux).
-
-{{<img src="images/image142.jpg" title="Backend proxy custom" alt="Backend proxy custom">}}
 
 ### Send email to support
 
