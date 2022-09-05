@@ -3,7 +3,7 @@ title: "User Guide: OONI Probe Mobile App"
 description: "OONI Probe Mobile App user guide"
 ---
 
-**Last updated:** 2nd September 2022
+**Last updated:** 5th September 2022
 
 **OONI Probe Mobile version:** 3.7.1
 
@@ -303,7 +303,7 @@ You can customize your website testing in the following ways:
 * Limit your testing to **specific website categories** (such as news media and human rights content);
 * Only test **websites you care about**;
 * Test **your own list**;
-* Test *all* URLs in the ([relevant](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe)) [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists) (rather than testing a random selection of websites in 90 seconds).
+* Test *all* URLs in the ([relevant](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe)) [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists) (rather than testing a random selection of websites in 90 seconds); 
 
 The following sections explain how you can do each of the above.
 
@@ -840,6 +840,34 @@ You can now see all of the OONI Probe app settings.
 
 In the following sections, we walk you through each setting.
 
+### Automated testing
+
+Instead of having to remember to manually run tests, you can **enable automated testing** in the settings of your OONI Probe app and OONI Probe will run tests automatically for you! 
+
+By enabling automated testing, OONI Probe will **run all tests in the background multiple times per day**, testing a different set of websites (from the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists)) each time. To avoid cluttering the Test Results section of your app, these test results are automatically published on [OONI Explorer](https://explorer.ooni.org/) in near real-time (but are not visible through the Test Results section). 
+
+With automated OONI Probe testing, you can **regularly contribute censorship measurements** (without having to do anything), enabling the internet freedom community to monitor and detect censorship events in your country over time.
+
+You can enable automated OONI Probe testing through the following steps:
+
+**Step 1.** Tap **Settings** in the bottom navigation bar of your OONI Probe app and tap the **Automated testing** button.
+
+{{<img src="images/image135.jpg" title="Automated testing settings" alt="Automated testing settings">}}
+
+{{<img src="images/image136.jpg" title="Automated testing disabled" alt="Automated testing disabled">}}
+
+You will see that **Run tests automatically** option of the settings is disabled by default. 
+
+**Step 2.** Enable the **Run tests automatically** option in the settings.
+
+{{<img src="images/image137.jpg" title="Automated testing enabled" alt="Automated testing enabled">}}
+
+You have now enabled automated OONI Probe testing! OONI Probe will run tests automatically multiple times per day (without user intervention) once your device is connected to WiFi and charging. All test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/)
+
+**Step 3.** If you do not have any restrictions on traffic or battery usage, you can run automated measurements without WiFi connection or charger. To do that please disable the **Only on WiFi** and **Only while charging** settings. 
+
+{{<img src="images/image138.jpg" title="Always automated testing" alt="Always automated testing">}}
+
 ### Notifications
 
 If you are using OONI Probe on **Android**, you can enable **push notifications** to receive messages from the [OONI team](https://ooni.org/about/#contact).
@@ -1022,7 +1050,7 @@ The final “About OONI” setting of the OONI Probe app shares information [abo
 
 {{<img src="images/image44.jpg" title="About OONI" alt="About OONI">}}
 
-This will open a screen that provides summary information about OONI, as well as the OONI Probe software version that you’re currently using. In the header of the following example, we can see that it’s **OONI Probe 3.7.0**.
+This will open a screen that provides summary information about OONI, as well as the OONI Probe software version that you’re currently using. In the header of the following example, we can see that it’s **OONI Probe 3.7.1**.
 
 {{<img src="images/new-about-screen.jpg" title="OONI About page" alt="OONI About page">}}
 
