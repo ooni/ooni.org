@@ -378,19 +378,17 @@ A few things to keep in mind:
 
 To ensure that a [URL](https://ooni.org/support/glossary/#url) is typed accurately, **please check how it appears when accessed from a normal browser**.
 
-**Step 4.** Tap **Add website** to create a new line for adding another website for testing.
-
-{{<img src="images/image54.jpg" title="Add website" alt="Add website">}}
+**Step 4.** Tap the plus sign to create a new line for adding another website for testing.
 
 **Step 5.** **Type another URL** that you would like to test. In the following example, we have added `https://twitter.com`.
 
-{{<img src="images/image9.jpg" title="add url twitter.com" alt="add url twitter.com">}}
+{{<img src="images/image54.jpg" title="Add website" alt="Add website">}}
 
 If you change your mind and would like to remove any of the URLs you have added, you can do so by tapping on the red icon next to each URL.
 
 You can continue to add as many URLs as you like. In the following example, we have added `https://www.gutenberg.org`.
 
-{{<img src="images/image42.jpg" title="Add website gutenberg.org" alt="Add website gutenberg.org">}}
+{{<img src="images/image9.jpg" title="add url twitter.com" alt="add url twitter.com">}}
 
 **Step 6.** Tap **Run** to test all of the websites you have added.
 
