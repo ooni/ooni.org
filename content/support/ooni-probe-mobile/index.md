@@ -1028,7 +1028,7 @@ All of your OONI Probe test results have been deleted from your app.
 
 This option is only necessary if the OONI Probe app **does not work in your country**. If your app shows "Error – all available probe services failed", this means that OONI Probe attempted to contact all the public OONI API endpoints (which we call “probe services”) but was not available to reach them.
 
-{{<img src="images/image143.jpg" title="OONI Probe failed" alt="OONI Probe failed">}}
+{{<img src="images/image143.png" title="OONI Probe failed" alt="OONI Probe failed">}}
 
 By tapping the **OONI backend proxy** button, you will be able to choose which proxy you want to use to circumvent the OONI Probe blocking:
 
