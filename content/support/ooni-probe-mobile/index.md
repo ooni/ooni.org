@@ -840,34 +840,6 @@ You can now see all of the OONI Probe app settings.
 
 In the following sections, we walk you through each setting.
 
-### Automated testing
-
-Instead of having to remember to manually run tests, you can **enable automated testing** in the settings of your OONI Probe app and OONI Probe will run tests automatically for you! 
-
-By enabling automated testing, OONI Probe will **run all tests in the background multiple times per day**, testing a different set of websites (from the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists)) each time. To avoid cluttering the Test Results section of your app, these test results are automatically published on [OONI Explorer](https://explorer.ooni.org/) in near real-time (but are not visible through the Test Results section). 
-
-With automated OONI Probe testing, you can **regularly contribute censorship measurements** (without having to do anything), enabling the internet freedom community to monitor and detect censorship events in your country over time.
-
-You can enable automated OONI Probe testing through the following steps:
-
-**Step 1.** Tap **Settings** in the bottom navigation bar of your OONI Probe app and tap the **Automated testing** button.
-
-{{<img src="images/image135.jpg" title="Automated testing settings" alt="Automated testing settings">}}
-
-{{<img src="images/image136.jpg" title="Automated testing disabled" alt="Automated testing disabled">}}
-
-You will see that **Run tests automatically** option of the settings is disabled by default. 
-
-**Step 2.** Enable the **Run tests automatically** option in the settings.
-
-{{<img src="images/image137.jpg" title="Automated testing enabled" alt="Automated testing enabled">}}
-
-You have now enabled automated OONI Probe testing! OONI Probe will run tests automatically multiple times per day (without user intervention) once your device is connected to WiFi and charging. All test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/)
-
-**Step 3.** If you do not have any restrictions on traffic or battery usage, you can run automated measurements without WiFi connection or charger. To do that please disable the **Only on WiFi** and **Only while charging** settings. 
-
-{{<img src="images/image138.jpg" title="Always automated testing" alt="Always automated testing">}}
-
 ### Notifications
 
 If you are using OONI Probe on **Android**, you can enable **push notifications** to receive messages from the [OONI team](https://ooni.org/about/#contact).
@@ -889,6 +861,36 @@ You will see that push notifications are disabled by default.
 {{<img src="images/image71.jpg" title="Enable notifications" alt="Enable notifications">}}
 
 By enabling push notifications, you may receive a message from us when and if we hear of a case of internet censorship in your country. In our message, we may provide an [OONI Run](https://run.ooni.io/) link for the testing of the specific services which are reportedly or seemingly blocked.
+
+### Automated testing
+
+Instead of having to remember to manually run tests, you can **enable automated testing** in the settings of your OONI Probe app and OONI Probe will run tests automatically for you! 
+
+By enabling automated testing, OONI Probe will **run all tests in the background multiple times per day** (excluding the bandwidth-intensive performance tests), testing a different set of websites (from the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists)) each time. To avoid cluttering the Test Results section of your app, these test results are automatically published on [OONI Explorer](https://explorer.ooni.org/) in near real-time (but are not visible through the Test Results section). 
+
+With automated OONI Probe testing, you can **regularly contribute censorship measurements** (without having to do anything), enabling the internet freedom community to monitor and detect censorship events in your country over time.
+
+You can enable automated OONI Probe testing through the following steps:
+
+**Step 1.** Tap **Settings** in the bottom navigation bar of your OONI Probe app and tap the **Automated testing** button.
+
+{{<img src="images/image135.jpg" title="Automated testing settings" alt="Automated testing settings">}}
+
+You will see that the **Run tests automatically** option of the settings is disabled by default. 
+
+{{<img src="images/image136.jpg" title="Automated testing disabled" alt="Automated testing disabled">}}
+
+**Step 2.** Enable the **Run tests automatically** option in the settings.
+
+{{<img src="images/image138.jpg" title="Always automated testing" alt="Always automated testing">}}
+
+You have now enabled automated OONI Probe testing! OONI Probe will run tests automatically multiple times per day (without user intervention) once your device is connected to WiFi and charging. All test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/).
+
+If you do not have any restrictions on traffic or battery usage, you can run automated measurements without WiFi connection or charger. To do that, please disable the **Only on WiFi** and **Only while charging** settings. 
+
+{{<img src="images/image137.jpg" title="Automated testing enabled" alt="Automated testing enabled">}}
+
+**Important:** If you have a VPN enabled, OONI Probe will *not* run tests automatically. Please **turn-off your VPN** for automated OONI Probe testing.
 
 ### Test options
 
