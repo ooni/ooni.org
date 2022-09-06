@@ -1074,7 +1074,7 @@ The final “About OONI” setting of the OONI Probe app shares information [abo
 
 {{<img src="images/image44.jpg" title="About OONI" alt="About OONI">}}
 
-This will open a screen that provides summary information about OONI, as well as the OONI Probe software version that you’re currently using. In the header of the following example, we can see that it’s **OONI Probe 3.7.1**.
+This will open a screen that provides summary information about OONI, as well as the OONI Probe software version that you’re currently using. In the header of the following example, we can see that it’s **OONI Probe 3.7.0**.
 
 {{<img src="images/new-about-screen.jpg" title="OONI About page" alt="OONI About page">}}
 
