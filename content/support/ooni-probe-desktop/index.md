@@ -2,7 +2,7 @@
 title: "User Guide: OONI Probe Desktop App"
 description: "This user guide provides step-by-step instructions on how to use the OONI Probe desktop app."
 ---
-**Last updated:** 2nd September 2022
+**Last updated:** 6th September 2022
 
 **OONI Probe Desktop version:** 3.7.0
 
@@ -341,7 +341,7 @@ You are now running the [experimental tests](https://github.com/ooni/spec/tree/m
 
 Instead of having to remember to manually run tests, you can **enable automated testing** in the settings of your OONI Probe desktop app and OONI Probe will run tests automatically for you! 
 
-By enabling automated testing, OONI Probe will **run all tests in the background multiple times per day**, testing a different set of websites (from the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists)) each time. To avoid cluttering the Test Results section of your app, these test results are automatically published on [OONI Explorer](https://explorer.ooni.org/) in near real-time (but are not visible through the Test Results section). 
+By enabling automated testing, OONI Probe will **run all tests in the background multiple times per day** (excluding the bandwidth-intensive performance tests), testing a different set of websites (from the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists)) each time. To avoid cluttering the Test Results section of your app, these test results are automatically published on [OONI Explorer](https://explorer.ooni.org/) in near real-time (but are not visible through the Test Results section). 
 
 With automated OONI Probe testing, you can **regularly contribute censorship measurements** (without having to do anything), enabling the internet freedom community to monitor and detect censorship events in your country over time.
 
