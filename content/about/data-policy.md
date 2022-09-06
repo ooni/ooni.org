@@ -4,9 +4,9 @@ description: This Data Policy discloses and explains what data the OONI project 
 aliases: ["/data-policy"]
 ---
 
-**Last modified:** July 28, 2022
+**Last modified:** September 6, 2022
 
-**Version:** 1.4.5
+**Version:** 1.4.6
 
 This Data Policy discloses and explains what data the [Open Observatory of
 Network Interference (OONI) project](https://ooni.org/) ("we", "us", or "our")
@@ -345,10 +345,20 @@ We will *not* publish data related to analytics and push notification support, b
 
 ### Third-party services
 
+**M-Lab**
+
 The performance tests included in the OONI Probe apps are conducted against third-party servers
 provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). M-Lab's
 services require the retention and disclosure of IP addresses for research
-purposes. Learn more about M-Lab's data governance through its [privacy statement](https://www.measurementlab.net/privacy/).
+purposes. Learn more about M-Lab's data governance through their [privacy statement](https://www.measurementlab.net/privacy/).
+
+**Sentry**
+
+We use [Sentry](https://sentry.io/privacy/) to log crash reports for the [OONI Probe](https://ooni.org/install) apps. This information is essential for identifying bugs and improving the performance of the apps. You can opt out through the settings of the OONI Probe apps. 
+
+We also use [Sentry](https://sentry.io/privacy/) to log crash reports on [OONI Explorer](https://explorer.ooni.org/), which helps us improve the performance of the service. You can opt out of our use of analytics on OONI Explorer by unchecking the opt-out box at the end of this Data Policy.
+
+As part of crash reports, we collect sanitized technical data, but we do *not* collect the IP address or a unique identifier of the user. Given that Sentry is a third-party service, we recommend referring to their [privacy policy](https://sentry.io/privacy/).
 
 ## OONI web services
 
