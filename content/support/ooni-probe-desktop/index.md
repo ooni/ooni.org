@@ -2,9 +2,9 @@
 title: "User Guide: OONI Probe Desktop App"
 description: "This user guide provides step-by-step instructions on how to use the OONI Probe desktop app."
 ---
-**Last updated:** 21st April 2021
+**Last updated:** 6th September 2022
 
-**OONI Probe Desktop version:** 3.4.0
+**OONI Probe Desktop version:** 3.7.0
 
 {{<img src="images/install-desktop.png" title="Install OONI Probe Desktop" alt="Install OONI Probe Desktop">}}
 
@@ -30,17 +30,17 @@ The following table of contents should help with navigating the guide.
 
 ## Introduction to OONI Probe
 
-OONI Probe is [free and open source software](https://github.com/ooni/probe) designed to measure internet censorship and other forms of network interference. Since 2012, this software has been developed by the [Open Observatory of Network Interference (OONI)](https://ooni.org/), a non-profit project that was originally born out of the [Tor Project](https://www.torproject.org/). 
+OONI Probe is [free and open source software](https://github.com/ooni/probe) designed to measure internet censorship and other forms of network interference. Since 2012, this software has been developed by the [Open Observatory of Network Interference (OONI)](https://ooni.org/), a non-profit project that was originally born out of the [Tor Project](https://www.torproject.org/).
 
 With the OONI Probe app (available for both [mobile](https://ooni.org/install/mobile) and [desktop](https://ooni.org/install/desktop) platforms), you can run [network measurement tests](https://ooni.org/nettest/) to check the following:
 
 * Blocking of [websites](https://ooni.org/nettest/web-connectivity/);
 * Blocking of instant messaging apps ([WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/), [Signal](https://ooni.org/nettest/signal));
-* Blocking of circumvention tools ([Tor](https://ooni.org/nettest/tor/), [Psiphon](https://ooni.org/nettest/psiphon/), [RiseupVPN](https://ooni.org/nettest/riseupvpn/));
-* Presence of systems ([middleboxes](https://ooni.org/support/glossary/#middlebox)) on your network that might be responsible for censorship and/or surveillance;
-* [Speed and performance](https://ooni.org/nettest/ndt/) of your network. 
+* Blocking of circumvention tools ([Tor](https://ooni.org/nettest/tor/), [Tor Snowflake](https://ooni.org/nettest/tor-snowflake/), [Psiphon](https://ooni.org/nettest/psiphon/));
+* Presence of systems ([middleboxes](https://ooni.org/nettest/http-header-field-manipulation/)) on your network that might be responsible for censorship and/or surveillance;
+* [Speed and performance](https://ooni.org/nettest/ndt/) of your network and [performance of your video streaming](https://ooni.org/nettest/dash/).
 
-As soon as you run OONI Probe, your test results are automatically sent to OONI servers, [processed](https://github.com/ooni/pipeline), and [openly published](https://ooni.org/data/) in near real-time (unless you opt-out of the publication of your test results). 
+As soon as you run OONI Probe, your test results are automatically sent to OONI servers, [processed](https://github.com/ooni/pipeline), and [openly published](https://ooni.org/data/) in near real-time (unless you opt-out of the publication of your test results).
 
 OONI [openly publishes OONI Probe test results](https://ooni.org/data/) gathered from around the world to:
 
@@ -53,7 +53,7 @@ OONI [openly publishes OONI Probe test results](https://ooni.org/data/) gathered
 
 To enable public access to OONI Probe test results (more commonly referred to as “measurements”), the OONI team makes them available on [OONI Explorer](https://explorer.ooni.org/): a web platform that provides charts based on measurement coverage and a search tool for exploring the measurements. 
 
-As [OONI Explorer](https://explorer.ooni.org/) hosts more than 400 million network measurements collected from 22,000 networks in 239 countries and territories since 2012, it is likely the **largest global open data resource on internet censorship** to date. 
+As [OONI Explorer](https://explorer.ooni.org/) hosts more than 850 million network measurements collected from 24,500 networks in 241 countries and territories since 2012, it is likely the **largest global open data resource on internet censorship** to date.
 
 By running OONI Probe, you will:
 
@@ -88,15 +88,21 @@ You can install the OONI Probe desktop app (on Windows and macOS) through the fo
 
 {{<img src="images/install-desktop.png" title="Install OONI Probe Desktop" alt="Install OONI Probe Desktop">}}
 
-**Step 2.** Depending on your operating system (Windows or macOS), click on the relevant **Download** button (to download OONI Probe).
+**Step 2.** Click the **Download** button to download OONI Probe. The page will propose an OONI Probe version that is relevant for your operating system (e.g. macOS). If you need to choose a version for a different operating system, please click the **Other Platforms** button.
 
 {{<img src="images/download-windows-macos.png" title="Download OONI Probe Desktop" alt="Download OONI Probe Desktop">}}
+
+{{<img src="images/image1.jpg" title="OS version" alt="OS version">}}
 
 **Step 3.** Once you have downloaded OONI Probe, double-click on the downloaded file to **install** OONI Probe.
 
 On **macOS**, drag and drop the OONI Probe icon into the Application folder.
 
 {{<img src="images/macos-application-folder.png" title="macOS Application folder" alt="macOS Application folder">}}
+
+And then click **Open** to install the OONI Probe app on macOS.
+
+{{<img src="images/macos-more-info.png" title="macOS screen on More Info" alt="macOS screen on More Info">}}
 
 On **Windows** (Windows 10), click **More info** in the following screen:
 
@@ -122,7 +128,7 @@ Below we walk you through the onboarding process.
 
 {{<img src="images/what-is-ooni-probe.png" title="What is OONI Probe" alt="What is OONI Probe">}}
 
-**Step 2.** The next screen shares a summary of potential risks associated with running OONI Probe. Click **Learn more** to read our [documentation](https://ooni.org/about/risks/) explaining potential risks (written based on legal consultation).
+**Step 2.** The next screen shares a summary of potential risks associated with running OONI Probe. Click **Learn more** to read our [documentation](https://ooni.org/about/risks/) explaining potential risks.
 
 {{<img src="images/learn-more-risks.png" title="Learn more " alt="Learn more ">}}
 
@@ -146,27 +152,25 @@ You will see that **True** is the correct answer. If you click False, you will r
 
 {{<img src="images/tick.png" title="Tick" alt="Tick">}}
 
-**Step 6.** The following screen shares information about the types of data that OONI collects and publishes by default (every time you run OONI Probe). You can learn more by clicking on **[OONI’s Data Policy](https://ooni.org/about/data-policy)** on the screen.
+**Step 6.** The following screen asks you to share [crash reports](https://ooni.org/about/data-policy#data-we-collect) that can help us identify and fix OONI Probe bugs. Please click **Yes** to share crash reports and help us improve OONI Probe.  
+
+{{<img src="images/crash-reporting.png" title="Tick" alt="Tick">}}
+
+**Step 7.** The following screen shares information about the types of data that OONI collects and publishes by default (every time you run OONI Probe). You can learn more by clicking on **[OONI’s Data Policy](https://ooni.org/about/data-policy)** on the screen.
 
 {{<img src="images/new-default-settings.png" title="Lets Go" alt="Lets Go">}}
 
-If you click the **Let’s Go** button, you will opt-in to sharing [crash reports](https://ooni.org/about/data-policy#data-we-collect) to help us improve OONI Probe. 
-
-**Step 7.** Click **Let’s Go** if you would like to opt-in to sharing crash reports with us.
+**Step 8.** Click **Let’s Go** if you are ready to share data about your measurements with us.
 
 You have now completed the onboarding process and are ready to start using OONI Probe! 
 
 {{<img src="images/empty-dashboard.png" title="Dashboard" alt="Dashboard">}}
 
-**Optional Step 8.** If you would rather **not** opt-in to sharing crash reports with us, click **Change defaults**. 
-
-{{<img src="images/new-default-settings.png" title="Change defaults" alt="Change defaults">}}
-
-This will redirect you to the OONI Probe Settings screen, where you can check and change all of the default settings. The submission of crash reports is disabled by default, and only enabled if you click the Let’s Go button (from Step 7 above), or if you manually enable the relevant setting.  
+**Optional Step 9.** If you would like to change your settings to **not** opt-in to sharing crash reports with us, click **Settings**. This will redirect you to the OONI Probe Settings screen, where you can check and change all of the default settings. The submission of crash reports is disabled by default, and only enabled if you click the **Let’s Go** button (from Step 7 above), or if you manually enable the relevant setting.  
 
 {{<img src="images/new-default-settings-onboarding.png" title="Default settings" alt="Default settings">}}
 
-Detailed information about OONI Probe settings can be found in the “Configuring your OONI Probe settings” section of this guide.
+Detailed information about OONI Probe settings can be found in the [Configuring your OONI Probe settings](https://ooni.org/support/ooni-probe-desktop#configuring-your-ooni-probe-settings) section of this guide.
 
 ## Running OONI Probe Desktop
 
@@ -176,9 +180,9 @@ The **Dashboard** of the OONI Probe desktop app includes 5 cards, each of which 
 
 * **Websites card.** Includes OONI’s [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) which measures the [blocking of websites](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe).
 * **Instant Messaging card.** Includes OONI’s [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/), and [Signal](https://ooni.org/nettest/signal) tests which check if these apps are blocked.
-* **Circumvention card.** Includes OONI’s [Tor](https://ooni.org/nettest/tor/), [Psiphon](https://ooni.org/nettest/psiphon/), and [RiseupVPN](https://ooni.org/nettest/riseupvpn/) tests which check if these censorship circumvention tools are blocked.
-* **Performance card.** Includes the [NDT speed test](https://ooni.org/nettest/ndt/) and the [DASH video streaming performance test](https://ooni.org/nettest/dash/).
-* **Middleboxes card.** Includes OONI’s [middlebox](https://ooni.org/support/glossary/#middlebox) tests ([HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) test and [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) test).
+* **Circumvention card.** Includes OONI’s [Tor](https://ooni.org/nettest/tor/) and [Psiphon](https://ooni.org/nettest/psiphon/) which check if these censorship circumvention tools are blocked.
+* **Performance card.** Includes the [NDT speed test](https://ooni.org/nettest/ndt/), the [DASH video streaming performance test](https://ooni.org/nettest/dash/), and OONI’s [middlebox](https://ooni.org/support/glossary/#middlebox) tests ([HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) test and [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) test).
+* **Experimental card.** Includes multiple new experimental tests developed by the OONI team. These tests might change over time. You can view these tests [here](https://github.com/ooni/spec/tree/master/nettests).
 
 **Step 1.** Click **Run** to run your first OONI Probe tests.
 
@@ -196,7 +200,13 @@ This will run **all** OONI Probe tests (included in all cards) in one go!
 
 {{<img src="images/running-middlebox.png" title="Testing for middleboxes" alt="Testing for middleboxes">}}
 
-OONI Probe should have run all tests within a few minutes (though this depends on the performance of the network you’re connected to, and may take longer in some cases).
+OONI Probe should have run all tests within a few minutes (though this depends on the performance of the network you’re connected to, and may take longer in some cases). If the performance of your network is not good enough and the tests take too long, you can **stop the ongoing test** by clicking the **cross** button in the top right corner.
+
+{{<img src="images/stop-testing.png" title="Stop testing" alt="Stop testing">}}
+
+Click the **OK** button to stop the test. 
+
+{{<img src="images/stop-testing-ok.png" title="Stop testing" alt="Stop testing">}}
 
 Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
 
@@ -208,7 +218,7 @@ If you only want to measure the blocking of websites, you can do so through the 
 
 **Step 1.** Click the **Websites** card in the Dashboard of your OONI Probe desktop app.
 
-{{<img src="images/dashboard.png" title="Dashboard" alt="Dashboard">}}
+{{<img src="images/dashboard-websites.png" title="Dashboard" alt="Dashboard">}}
 
 **Step 2.** Click **Run** in the Websites card.
 
@@ -235,7 +245,7 @@ If you would like to contribute to the [Citizen Lab test lists](https://github.c
 
 **Note:** OONI Probe will **only test as many websites as it’s able to test within 90 seconds** when you click “Run” (either from the Dashboard or from the Websites card). These websites (which are tested within 90 seconds) are randomly selected from the [global](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) and (relevant) [country-specific](https://github.com/citizenlab/test-lists/tree/master/lists) test lists. Every time you click “Run”, you will test a different, random selection of websites (from the global and country-specific test lists) within 90 seconds. Therefore, the more times you click “Run”, the more websites you will test.  
 
-If you would like to test a larger selection of websites, or test entirely different websites, please refer to the “Customizing website testing” section of this guide.
+If you would like to test a larger selection of websites, or test entirely different websites, please refer to the [Customizing website testing](https://ooni.org/support/ooni-probe-desktop#customizing-your-website-testing) section of this guide.
 
 ### Measuring the blocking of instant messaging apps
 
@@ -261,13 +271,13 @@ If you only want to measure the blocking of censorship circumvention tools, you 
 
 **Step 1.** Click the **Circumvention** card in the Dashboard of your OONI Probe desktop app.
 
-{{<img src="images/dashboard.png" title="Dashboard" alt="Dashboard">}}
+{{<img src="images/dashboard-circumvention.png" title="Dashboard" alt="Dashboard">}}
 
 **Step 2.** Click **Run** in the Circumvention card.
 
 {{<img src="images/inside-circumvention-card.png" title="Inside Circumvention card" alt="Inside Circumvention card">}}
 
-You are now running OONI’s [Tor](https://ooni.org/nettest/tor/), [Psiphon](https://ooni.org/nettest/psiphon/), and [RiseupVPN](https://ooni.org/nettest/riseupvpn/) tests to measure the reachability of these tools.
+You are now running OONI’s [Tor](https://ooni.org/nettest/tor/) and [Psiphon](https://ooni.org/nettest/psiphon/) tests to measure the reachability of these tools.
 
 {{<img src="images/running-psiphon.png" title="Testing Psiphon" alt="Testing Psiphon">}}
 
@@ -279,7 +289,7 @@ If you only want to measure network performance, you can do so through the follo
 
 **Step 1.** Click the **Performance** card in the Dashboard of your OONI Probe desktop app.
 
-{{<img src="images/dashboard.png" title="Dashboard" alt="Dashboard">}}
+{{<img src="images/dashboard-performance.png" title="Dashboard" alt="Dashboard">}}
 
 **Step 2.** Click **Run** in the Performance card.
 
@@ -299,7 +309,7 @@ If you only want to measure networks to detect the presence of [middleboxes](htt
 
 **Step 1.** Click the **Middleboxes** card in the Dashboard of your OONI Probe desktop app.
 
-{{<img src="images/middleboxes-dashboard.png" title="Dashboard" alt="Dashboard">}}
+{{<img src="images/dashboard-middleboxes.png" title="Dashboard" alt="Dashboard">}}
 
 **Step 2.** Click **Run** in the Middleboxes card.
 
@@ -311,11 +321,27 @@ You are now running OONI’s [middlebox](https://ooni.org/support/glossary/#midd
 
 Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
 
+### Running experimental tests
+
+If you only want to run new experimental tests developed by the OONI team, you can do so through the following steps:
+
+**Step 1.** Click the **Experimental** card in the Dashboard of your OONI Probe desktop app.
+
+{{<img src="images/dashboard-experimental.png" title="Dashboard experimental" alt="Dashboard experimental">}}
+
+**Step 2.** Click **Run** in the Experimental card.
+
+{{<img src="images/inside-experimental-card.png" title="Inside Experimental card" alt="Inside Experimental card">}}
+
+You are now running the [experimental tests](https://github.com/ooni/spec/tree/master/nettests) developed by the OONI team. 
+
+{{<img src="images/running-experimental.png" title="Running experimental" alt="Running experimental">}}
+
 ## Automated OONI Probe testing
 
 Instead of having to remember to manually run tests, you can **enable automated testing** in the settings of your OONI Probe desktop app and OONI Probe will run tests automatically for you! 
 
-By enabling automated testing, OONI Probe will **run all tests in the background multiple times per day**, testing a different set of websites (from the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists)) each time. To avoid cluttering the Test Results section of your app, these test results are automatically published on [OONI Explorer](https://explorer.ooni.org/) in near real-time (but are not visible through the Test Results section). 
+By enabling automated testing, OONI Probe will **run all tests in the background multiple times per day** (excluding the bandwidth-intensive performance tests), testing a different set of websites (from the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists)) each time. To avoid cluttering the Test Results section of your app, these test results are automatically published on [OONI Explorer](https://explorer.ooni.org/) in near real-time (but are not visible through the Test Results section). 
 
 With automated OONI Probe testing, you can **regularly contribute censorship measurements** (without having to do anything), enabling the internet freedom community to monitor and detect censorship events in your country over time.
 
@@ -347,9 +373,9 @@ But if you would rather limit your testing to websites of your choice, you can d
 
 You can customize your website testing in the following ways:
 
-* Limit your testing to specific website categories (such as news media and human rights content);
-* Only test websites you care about;
-* Test *all* URLs in the (relevant) [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists) (rather than testing a random selection of websites in 90 seconds).
+* Limit your testing to [specific website categories](https://ooni.org/support/ooni-probe-desktop#testing-specific-website-categories) (such as news media and human rights content);
+* Only test [websites you care about](https://ooni.org/support/ooni-probe-desktop#testing-websites-of-your-choice);
+* Test [*all* URLs](https://ooni.org/support/ooni-probe-desktop#testing-all-websites-from-the-citizen-lab-test-lists) in the ([relevant](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe)) [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists) (rather than testing a random selection of websites in 90 seconds).
 
 The following sections explain how you can do each of the above. 
 
@@ -397,7 +423,7 @@ You can test the websites you care about directly through the following steps:
 
 **Step 1.** Click the **Websites** card in your OONI Probe desktop app.
 
-{{<img src="images/dashboard.png" title="Dashboard" alt="Dashboard">}}
+{{<img src="images/dashboard-websites.png" title="Dashboard" alt="Dashboard">}}
 
 **Step 2.** Click the **Choose websites** button inside the Websites card.
 
@@ -444,11 +470,11 @@ Your OONI Probe test results will automatically get published on [OONI Explorer]
 
 The OONI Probe desktop app only tests as many websites as it can connect to within 90 seconds (based on the default settings). 
 
-If you’re connected to WiFi and would like to test all websites from the ([relevant](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe)) [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists) in one go, you can do so through the following steps:
+If you’re connected to WiFi and would like to test **all websites** from the ([relevant](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe)) [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists) in one go, you can do so through the following steps:
 
 **Step 1.** Click **Settings** in the sidebar of your OONI Probe desktop app. 
 
-{{<img src="images/settings.png" title="Settings" alt="Settings">}}
+{{<img src="images/settings-website-categories.png" title="Settings" alt="Settings">}}
 
 Under **Test options** in the settings, you will see that the **Limit test duration** option (which limits website testing to a specific time duration) is enabled by default. 
 
@@ -486,9 +512,9 @@ You are now presented with an overview of all your OONI Probe test results, whic
 
 In each thematic test result card, you have an overview of:
 
-* The **network** (e.g. `AS30722` - Vodafone Italia) on which each test was run;
-* The **date and time** of testing (e.g. 30th March 2021 at 15:13 local time);
-* **Summary of relevant findings** (e.g. 3 instant messaging apps were found accessible, while none blocked).
+* The **network** (e.g. `AS16010` - Magticom Ltd.) on which each test was run;
+* The **date and time** of testing (e.g. August 3rd 2022 at 13:58 local time);
+* **Summary of relevant findings** (e.g. 3 websites were found accessible, while none blocked).
 
 This overview can potentially help with comparing results across networks (if you run tests on many different networks), and provides a bird’s-eye view of the findings. 
 
@@ -508,7 +534,7 @@ You can access your OONI Probe results from the testing of websites through the 
 
 **Step 1.** Click **Websites** in the Test Results screen of your OONI Probe desktop app. 
 
-{{<img src="images/test-results.png" title="Test Results" alt="Test Results">}}
+{{<img src="images/test-results-websites.png" title="Test Results" alt="Test Results">}}
 
 You will now see a list of all the websites that you tested in a specific testing session.
 
@@ -522,7 +548,7 @@ In the top header, we share an overview of your website testing results. Next to
 
 You now have access to the data pertaining to the testing of a specific website. 
 
-The above measurement page pertains to the testing of `https://www.facebook.com/`. Through this measurement page, we can see that `https://www.facebook.com/` was found accessible when tested on Vodafone Italia (AS30722) on 30th March 2021 at 15:13 local time. 
+The above measurement page pertains to the testing of `https://www.facebook.com/`. Through this measurement page, we can see that `https://www.facebook.com/` was found accessible when tested on Magticom Ltd. (AS16010) on 3rd August 2022 at 13:58 local time. 
 
 If a website was found (potentially) blocked, its measurement page would include an orange header with an exclamation mark, as illustrated below.
 
@@ -552,7 +578,7 @@ In the top header, we share an overview of your instant messaging app testing re
 
 {{<img src="images/whatsapp-measurement.png" title="WhatsApp measurement" alt="WhatsApp measurement">}}
 
-The above measurement page pertains to the testing of WhatsApp. We can see that WhatsApp was found accessible when tested on Vodafone Italia (AS30722) on 30th March 2021 at 14:59 local time. This conclusion is reached because [OONI’s WhatsApp test](https://ooni.org/nettest/whatsapp/) was able to successfully connect to WhatsApp’s endpoints, registration service, and web interface (`web.whatsapp.com`). 
+The above measurement page pertains to the testing of WhatsApp. We can see that WhatsApp was found accessible when tested on Magticom Ltd. (AS16010) on 3rd August 2022 at 12:19 local time. This conclusion is reached because [OONI’s WhatsApp test](https://ooni.org/nettest/whatsapp/) was able to successfully connect to WhatsApp’s endpoints, registration service, and web interface (`web.whatsapp.com`). 
 
 If WhatsApp was found (potentially) blocked, this measurement page would show relevant information (based on the heuristics of [OONI’s WhatsApp test](https://ooni.org/nettest/whatsapp/)).  
 
@@ -560,15 +586,15 @@ Similarly, you can access Telegram test results through the instant messaging re
 
 {{<img src="images/telegram-measurement.png" title="Telegram measurement" alt="Telegram measurement">}}
 
-In this case, we can see that Telegram was found accessible when tested on Vodafone Italia (AS30722) on 30th March 2021 at 14:59 local time. This conclusion is reached because [OONI’s Telegram test](https://ooni.org/nettest/telegram/) was able to successfully connect to Telegram’s endpoints and web interface (`web.telegram.org`). 
+In this case, we can see that Telegram was found accessible when tested on Magticom Ltd. (AS16010) on 3rd August 2022 at 12:19 local time. This conclusion is reached because [OONI’s Telegram test](https://ooni.org/nettest/telegram/) was able to successfully connect to Telegram’s endpoints and web interface (`web.telegram.org`). 
 
 If Telegram was found (potentially) blocked, this measurement page would show relevant information (based on the heuristics of [OONI’s Telegram test](https://ooni.org/nettest/telegram/)).  
 
 You can also access Facebook Messenger test results through the instant messaging results in your OONI Probe app.
 
-{{<img src="images/facebook-messenger-measurement.png" title="Facebook Messenger measurement" alt="Facebook Messenger measurement">}}
+{{<img src="images/facebook-measurement-page.png" title="Facebook Messenger measurement" alt="Facebook Messenger measurement">}}
 
-In this case, we can see that Facebook Messenger was found accessible when tested on Vodafone Italia (AS30722) on 30th March 2021 at 14:59 local time. This conclusion is reached because [OONI’s Facebook Messenger test](https://ooni.org/nettest/facebook-messenger/) was able to successfully connect to Facebook’s endpoints and resolve to Facebook IP addresses.
+In this case, we can see that Facebook Messenger was found accessible when tested on Magticom Ltd. (AS16010) on 3rd August 2022 at 13:58 local time. This conclusion is reached because [OONI’s Facebook Messenger test](https://ooni.org/nettest/facebook-messenger/) was able to successfully connect to Facebook’s endpoints and resolve to Facebook IP addresses.
 
 If Facebook Messenger was found (potentially) blocked, this measurement page would show relevant information (based on the heuristics of [OONI’s Facebook Messenger test](https://ooni.org/nettest/facebook-messenger/)).  
 
@@ -576,7 +602,7 @@ You can also access Signal test results through the instant messaging results in
 
 {{<img src="images/signal-measurement.png" title="Signal measurement" alt="Signal measurement">}}
 
-In this case, we can see that Signal was found accessible when tested on Vodafone Italia (AS30722) on 21st April 2021 at 11:48 local time. This conclusion is reached because [OONI’s Signal test](https://ooni.org/nettest/signal) was able to successfully connect to Signal’s endpoints.
+In this case, we can see that Signal was found accessible when tested on Magticom Ltd. (AS16010) on 3rd August 2022 at 12:19 local time. This conclusion is reached because [OONI’s Signal test](https://ooni.org/nettest/signal) was able to successfully connect to Signal’s endpoints.
 
 If Signal was found (potentially) blocked, this measurement page would show relevant information (based on the heuristics of [OONI’s Signal test](https://ooni.org/nettest/signal)). 
 
@@ -588,9 +614,9 @@ You can access your OONI Probe results from the testing of circumvention tools t
 
 **Step 1.** Click **Circumvention** in the Test Results screen of your OONI Probe desktop app. 
 
-{{<img src="images/test-results.png" title="Test Results" alt="Test Results">}}
+{{<img src="images/test-results-circumvention.png" title="Test Results" alt="Test Results">}}
 
-You will now see a list of the censorship circumvention tools (Psiphon, Tor, RiseupVPN) that you have tested as part of a specific testing session.
+You will now see a list of the censorship circumvention tools (Psiphon, Tor) that you have tested as part of a specific testing session.
 
 {{<img src="images/circumvention-tools-tested.png" title="Circumvention tools tested" alt="Circumvention tools tested">}}
 
@@ -600,7 +626,7 @@ In the top header, we share an overview of your circumvention tool testing resul
 
 {{<img src="images/psiphon-measurement.png" title="Psiphon measurement" alt="Psiphon measurement">}}
 
-The above measurement page pertains to the testing of [Psiphon](https://psiphon.ca/). We can see that Psiphon was reachable when tested on Vodafone Italia (AS30722) on 30th March 2021 at 14:58 local time. This conclusion is reached because [OONI’s Psiphon test](https://ooni.org/nettest/psiphon/) was able to successfully bootstrap a Psiphon connection.
+The above measurement page pertains to the testing of [Psiphon](https://psiphon.ca/). We can see that Psiphon was reachable when tested on Magticom Ltd. (AS16010) on 3rd August 2022 at 12:17 local time. This conclusion is reached because [OONI’s Psiphon test](https://ooni.org/nettest/psiphon/) was able to successfully bootstrap a Psiphon connection.
 
 If Psiphon was found (potentially) blocked, this test result would show relevant information (based on the heuristics of [OONI’s Psiphon test](https://ooni.org/nettest/psiphon/)).  
 
@@ -608,17 +634,9 @@ Similarly, you can access [Tor](https://www.torproject.org/) test results throug
 
 {{<img src="images/tor-measurement.png" title="Tor measurement" alt="Tor measurement">}}
 
-In this case, we can see that Tor was reachable when tested on Vodafone Italia (AS30722) on 30th March 2021 at 14:58 local time. This conclusion is reached because [OONI’s Tor test](https://ooni.org/nettest/tor/) was able to successfully connect to most of the default Tor bridges and to all Tor directory authorities. 
+In this case, we can see that Tor was reachable when tested on Magticom Ltd. (AS16010) on 3rd August 2022 at 12:17 local time. This conclusion is reached because [OONI’s Tor test](https://ooni.org/nettest/tor/) was able to successfully connect to most of the default Tor bridges and to all Tor directory authorities. 
 
 If Tor was found (potentially) blocked, this test result would show relevant information (based on the heuristics of [OONI’s Tor test](https://ooni.org/nettest/tor/)).  
-
-You can also access [RiseupVPN](https://riseup.net/vpn) test results through the circumvention results in your OONI Probe app.
-
-{{<img src="images/riseupvpn-measurement.png" title="RiseupVPN measurement" alt="RiseupVPN measurement">}}
-
-In this case, we can see that RiseupVPN was reachable when tested on Vodafone Italia (AS30722) on 30th March 2021 at 14:58 local time. This conclusion is reached because [OONI’s RiseupVPN test](https://ooni.org/nettest/riseupvpn/) was able to successfully connect to RiseupVPN’s bootstrap server and VPN gateways.
-
-If RiseupVPN was found (potentially) blocked, this test result would show relevant information (based on the heuristics of [OONI’s RiseupVPN test](https://ooni.org/nettest/riseupvpn/)).  
 
 In all cases, we recommend referring to OONI measurements published on [OONI Explorer](https://explorer.ooni.org/), where you can examine results in aggregate (which can help with ruling out [false positives](https://ooni.org/support/glossary/#false-positive) and confirming blocking). 
 
@@ -628,7 +646,7 @@ You can access your OONI Probe results from the testing of your network’s perf
 
 **Step 1.** Click **Performance** in the Test Results screen of your OONI Probe desktop app. 
 
-{{<img src="images/test-results.png" title="Test Results" alt="Test Results">}}
+{{<img src="images/test-results-performance.png" title="Test Results" alt="Test Results">}}
 
 You will now see a list of the performance tests that you have run in a specific testing session.
 
@@ -640,7 +658,7 @@ In the top header, we share an overview of the results, along with the date and 
 
 {{<img src="images/ndt-measurement.png" title="NDT measurement" alt="NDT measurement">}}
 
-The above measurement page is from an [NDT speed test](https://ooni.org/nettest/ndt/). We can see that when this [NDT speed test](https://ooni.org/nettest/ndt/) was performed, the download speed was 120.9 megabits per second, the upload speed was 15.9 megabits per second, and it took 32.09 milliseconds to establish a connection to an [M-Lab](https://www.measurementlab.net/) server. This indicates good internet speed, given that the average ping (to this M-Lab server) is 68.4 milliseconds. 
+The above measurement page is from an [NDT speed test](https://ooni.org/nettest/ndt/). We can see that when this [NDT speed test](https://ooni.org/nettest/ndt/) was performed, the download speed was 21.4 megabits per second, the upload speed was 19.7 megabits per second, and it took 147.481 milliseconds to establish a connection to an [M-Lab](https://www.measurementlab.net/) server. This indicates good internet speed, given that the average ping (to this M-Lab server) is 953.267 milliseconds. 
 
 You can compare your NDT test results with what is offered in your internet plan provided by your Internet Service Provider (ISP).
 
@@ -648,7 +666,7 @@ You can access [DASH](https://ooni.org/nettest/dash/) results through the perfor
 
 {{<img src="images/dash-measurement.png" title="DASH measurement" alt="DASH measurement">}}
 
-In this case, we can see that a [DASH video streaming test](https://ooni.org/nettest/dash/) was run on Vodafone Italia (AS30722) on 30th March 2021 at 14:59 local time. When the test was performed, it was possible to stream up to 2160p (4K) video without buffering, with the median bitrate being 115.0 megabits per second. This indicates that the user could stream high definition videos on that network if the streaming server was co-located with the measurement server.
+In this case, we can see that a [DASH video streaming test](https://ooni.org/nettest/dash/) was run on Magticom Ltd. (AS16010) on 3rd August 2022 at 12:21 local time. When the test was performed, it was possible to stream up to 480p video without buffering, with the median bitrate being 3.6 megabits per second. This indicates that the user could only stream low definition videos on that network if the streaming server was co-located with the measurement server.
 
 You can compare your DASH test results with what is offered in your internet plan provided by your Internet Service Provider (ISP).
 
@@ -660,7 +678,7 @@ You can access your OONI Probe results from the testing of network tampering (wi
 
 **Step 1.** Click **Middleboxes** in the Test Results screen of your OONI Probe desktop app. 
 
-{{<img src="images/test-results.png" title="Test Results" alt="Test Results">}}
+{{<img src="images/test-results-middleboxes.png" title="Test Results" alt="Test Results">}}
 
 You will now see a list of the middlebox tests ([HTTP Invalid Request Line test](https://ooni.org/nettest/http-invalid-request-line/) and [HTTP Header Field Manipulation test](https://ooni.org/nettest/http-header-field-manipulation/)) that you have run in a specific testing session.
 
@@ -672,7 +690,7 @@ In the top header, we share an overview of the results (in this case, no middleb
 
 {{<img src="images/http-invalid-request-line-measurement.png" title="HTTP Invalid Request Line measurement" alt="HTTP Invalid Request Line measurement">}}
 
-In the above case, we can see that the [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) test was run on Vodafone Italia (AS30722) on 30th March 2021 at 14:59 local time. When this test was performed, it sent an invalid HTTP request line (containing an invalid HTTP version number, an invalid field count and a huge request method) to an echo service listening on the standard HTTP port. The echo service (a debugging and measurement tool which simply sends back any data it receives) sent the invalid HTTP request line back to us, exactly as it received it. This indicates that there is no visible middlebox or traffic manipulation on the tested network. 
+In the above case, we can see that the [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) test was run on Magticom Ltd. (AS16010) on 3rd August 2022 at 12:20 local time. When this test was performed, it sent an invalid HTTP request line (containing an invalid HTTP version number, an invalid field count and a huge request method) to an echo service listening on the standard HTTP port. The echo service (a debugging and measurement tool which simply sends back any data it receives) sent the invalid HTTP request line back to us, exactly as it received it. This indicates that there is no visible middlebox or traffic manipulation on the tested network. 
 
 If, however, a middlebox was present on the tested network, the invalid HTTP request line would have been intercepted by the middlebox, potentially triggering an error that would have been sent back to us by the echo service. Such errors indicate that software for traffic manipulation is likely placed on the tested network, though it’s not always clear what that software is. 
 
@@ -680,7 +698,7 @@ Similarly, you can access OONI’s [HTTP Header Field Manipulation](https://ooni
 
 {{<img src="images/http-header-field-manipulation-measurement.png" title="HTTP Header Field Manipulation measurement" alt="HTTP Header Field Manipulation measurement">}}
 
-In the above case, we can see that the [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) test was run on Vodafone Italia (AS30722) on 30th March 2021 at 14:59 local time. When this test was performed, it emulated an [HTTP request](https://ooni.org/support/glossary/#http-request) towards a backend control server (which sends back any data it receives), but sent [HTTP headers](https://ooni.org/support/glossary/#http-header) with variations in capitalization (i.e. non-canonical HTTP headers). Since we received the HTTP headers exactly as we sent them, there is no visible middlebox or traffic manipulation on the tested network.
+In the above case, we can see that the [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) test was run on Magticom Ltd. (AS16010) on 3rd August 2022 at 12:20 local time. When this test was performed, it emulated an [HTTP request](https://ooni.org/support/glossary/#http-request) towards a backend control server (which sends back any data it receives), but sent [HTTP headers](https://ooni.org/support/glossary/#http-header) with variations in capitalization (i.e. non-canonical HTTP headers). Since we received the HTTP headers exactly as we sent them, there is no visible middlebox or traffic manipulation on the tested network.
 
 If, however, a middlebox was present on the tested network, it may have normalized the invalid headers that we sent or added extra headers. Depending on whether the HTTP headers that we send and receive from a backend control server are the same or not, we are able to evaluate whether a middlebox is present on the tested network.
 
@@ -693,7 +711,7 @@ Through each OONI Probe test result, you can access features that enable you to:
 
 **Step 1.** Access any OONI Probe test result (for details on how to find OONI Probe test results, please refer to the previous section of this guide).  
 
-{{<img src="images/gutenberg-measurement.png" title="Measurement" alt="Measurement">}}
+{{<img src="images/facebook-measurement-page.png" title="Measurement" alt="Measurement">}}
 
 In the following sections, we dive into each feature. 
 
@@ -701,7 +719,7 @@ In the following sections, we dive into each feature.
 
 Every OONI Probe test result provides an overview of the findings. The actual data (i.e. the raw measurement data) that each test result is based on is available through the **Data** button on each test result screen. 
 
-In other words, if you have tested `https://www.gutenberg.org`, the test result page will provide an overview of the finding (for example: “Likely blocked by means of DNS tampering”), but the network measurement data provides the details of the testing, showing how and why the site may be blocked by means of [DNS tampering](https://ooni.org/support/glossary/#dns-tampering). 
+In other words, if you have tested `https://www.facebook.com`, the test result page will provide an overview of the finding (for example: Accessible), but the network measurement data provides the details of the testing. For example, if the website wasn't accessible, it would show how and why the site may be blocked. 
 
 It is useful to access the raw measurement data because:
 
@@ -734,9 +752,9 @@ Perhaps you’re interested in viewing your OONI Probe test result on [OONI Expl
 
 {{<img src="images/show-in-ooni-explorer-button.png" title="Show in OONI Explorer button" alt="Show in OONI Explorer button">}}
 
-This will open the relevant OONI Probe test result in your web browser, directly on [OONI Explorer](https://explorer.ooni.org/).
+This will open the relevant OONI Probe test result in your web browser, directly on [OONI Explorer](https://explorer.ooni.org/). For example, for the facebook measurement mentioned above, that would be the following [page](https://explorer.ooni.org/measurement/20220803T095857Z_webconnectivity_GE_16010_n1_vTthHQGwVlhSDc19?input=https://www.facebook.com/).
 
-{{<img src="images/gutenberg-ooni-explorer.png" title="Measurement viewed on OONI Explorer" alt="Measurement viewed on OONI Explorer">}}
+{{<img src="images/facebook-ooni-explorer.png" title="Measurement viewed on OONI Explorer" alt="Measurement viewed on OONI Explorer">}}
 
 You now have access to your OONI Probe measurement on [OONI Explorer](https://explorer.ooni.org/). If you scroll down on that measurement page, you will view the raw measurement data as well. You can now link to or share that measurement by sharing the URL of that measurement page. 
 
@@ -746,7 +764,7 @@ You can customize your use of OONI Probe through the settings.
 
 **Step 1.** Click **Settings** in the sidebar of your OONI Probe app.
 
-{{<img src="images/settings.png" title="Settings" alt="Settings">}}
+{{<img src="images/settings-website-categories.png" title="Settings" alt="Settings">}}
 
 You can now see all of the OONI Probe desktop app settings.
 
@@ -770,11 +788,11 @@ If you would like to review and/or contribute an OONI Probe translation, please 
 
 ### Test options
 
-The website testing settings have already been covered in previous sections of this guide. Please refer to the “**Customizing your website testing**” section. 
+The website testing settings have already been covered in previous sections of this guide. Please refer to the ”[Customizing your website testing](https://ooni.org/support/ooni-probe-desktop#customizing-your-website-testing)” section. 
 
 ### Automated testing
 
-The automated OONI Probe testing settings have already been covered in previous sections of this guide. Please refer to the “**Automated OONI Probe testing**” section. 
+The automated OONI Probe testing settings have already been covered in previous sections of this guide. Please refer to the “[Automated OONI Probe testing](https://ooni.org/support/ooni-probe-desktop#automated-ooni-probe-testing)” section. 
 
 ### Privacy
 
@@ -789,8 +807,8 @@ We **encourage the publication of OONI Probe test results** because they can hel
 If you publish your OONI Probe test results, that will involve the following data:
 
 * Date and time of measurement;
-* Country code (e.g. `IT` for Italy);
-* Network information: [ASN](https://ooni.org/support/glossary/#asn) (e.g. `AS30722` for Vodafone Italia); 
+* Country code (e.g. `GE` for Georgia);
+* Network information: [ASN](https://ooni.org/support/glossary/#asn) (e.g. `AS16010` for Magticom Ltd.); 
 * Network measurement data (which depends on the [OONI Probe test](https://ooni.org/nettest/)).
 
 Further information is available through our [Data Policy](https://ooni.org/about/data-policy). 
