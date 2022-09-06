@@ -10,7 +10,7 @@ You can contribute websites for censorship testing through the following platfor
 * [Test Lists Editor](https://test-lists.ooni.org/) ([guide]())
 * [GitHub](https://github.com/citizenlab/test-lists) ([guide](https://ooni.org/support/github-test-lists))
 
-Before contributing, please read the documentation below to learn all about test lists.
+Before contributing, please read the documentation below to learn all about test lists. We also recommend reading **[Netalitica's Guidelines for Test List Researchers](https://netalitica.com/wp-content/uploads/2021/10/Guideline-for-Test-List-Researchers-V7.pdf)**.
 
 * [About test lists](#about-test-lists)
 
