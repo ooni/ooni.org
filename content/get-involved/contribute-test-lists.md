@@ -119,8 +119,6 @@ test lists.
 
 ## Why contribute to test lists?
 
-**Censorship findings are only as interesting as the sites you test.**
-
 Discovering cases of website blocking (such as the current [blocking of bbc.com in Russia](https://explorer.ooni.org/measurement/20220517T140500Z_webconnectivity_RU_48642_n1_DC1jDel4Ougo1Zpo?input=http%3A%2F%2Fwww.bbc.com%2Fnews))
 really depends on *which* websites you test.
 
