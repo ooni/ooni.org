@@ -9,8 +9,7 @@ This guide is meant for **GitHub users** and provides information related to
 updating the [Citizen Lab test lists](https://github.com/citizenlab/test-lists) for website censorship testing. If
 you are not a GitHub user, please refer to our [Test Lists Editor](https://test-lists.ooni.org/).
 
-By contributing to the [Citizen Lab test lists]
-(https://github.com/citizenlab/test-lists), you can support website censorship
+By contributing to the [Citizen Lab test lists](https://github.com/citizenlab/test-lists), you can support website censorship
 testing by [OONI Probe](https://ooni.org/install) users around the world.
 
 Before getting started, please refer to our **[documentation to learn all about test lists](https://ooni.org/get-involved/contribute-test-lists)**.
