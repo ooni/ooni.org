@@ -136,7 +136,7 @@ We may provide feedback through the comments section of your pull request. Once
 the feedback is addressed and your pull request is merged, your recently added
 URLs will automatically get prioritized for [OONI Probe](https://ooni.org/install) testing.
 
- ## Editing existing entries
+## Editing existing entries
 
  As many URLs were added to the test lists many years ago (and the status of
  websites constantly changes), there is ongoing need to review *existing test
