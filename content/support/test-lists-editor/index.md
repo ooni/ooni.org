@@ -36,7 +36,6 @@ The following table of contents should help with navigating the guide.
 
   * [Deleting test list entries](#deleting-test-list-entries)
 
-
 # About the Test Lists Editor
 
 ## What are test lists?
