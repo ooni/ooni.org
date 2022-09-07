@@ -7,7 +7,7 @@ Censorship findings are only as interesting as the sites and services that you t
 
 You can contribute websites for censorship testing through the following platforms:
 
-* [Test Lists Editor](https://test-lists.ooni.org/) ([guide]())
+* [Test Lists Editor](https://test-lists.ooni.org/) ([guide](https://ooni.org/support/test-lists-editor))
 * [GitHub](https://github.com/citizenlab/test-lists) ([guide](https://ooni.org/support/github-test-lists))
 
 Before contributing, please read the documentation below to learn all about test lists. We also recommend reading **[Netalitica's Guidelines for Test List Researchers](https://netalitica.com/wp-content/uploads/2021/10/Guideline-for-Test-List-Researchers-V7.pdf)**.
@@ -162,7 +162,7 @@ We also recommend keeping an eye out for [paid research opportunities by Netalit
 
 You can contribute to test lists through the following platforms:
 
-* [Test Lists Editor](https://test-lists.ooni.org/) ([guide]())
+* [Test Lists Editor](https://test-lists.ooni.org/) ([guide](https://ooni.org/support/test-lists-editor))
 * [GitHub](https://github.com/citizenlab/test-lists) ([guide](https://ooni.org/support/github-test-lists))
 
 ## What does contributing to test lists involve?
