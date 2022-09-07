@@ -24,7 +24,7 @@ The following table of contents should help with navigating the guide.
 
   * [What are test lists?](#what-are-test-lists)
 
-  * [What is the Test Lists Editor?](#what-is-test-lists-editor) 
+  * [What is the Test Lists Editor?](#what-is-the-test-lists-editor) 
 
   * [Why contribute to test lists?](#why-contribute-to-test-lists)
 
