@@ -104,7 +104,7 @@ and would use the unencrypted DNS to obtain IP addresses for
 
 The second case is more immediate. If you ask `dnscheck` to measure
 `https://8.8.8.8/dns-query`, it will notice that `8.8.8.8` is already
-and IP address, and it will just measure `https://8.8.8.8/dns-query`.
+an IP address, and it will just measure `https://8.8.8.8/dns-query`.
 
 What happens, though, if there's DNS blocking of the `dns.google`
 domain name?
@@ -162,6 +162,11 @@ in Kazakhstan ([AS48716](https://ipinfo.io/AS48716)), Iran
 ([AS197207](https://ipinfo.io/AS197207)), and China
 ([AS45090](https://ipinfo.io/AS45090)).
 
+Most endpoints failed or succeeded consistently. That is, if an
+endpoint failed for a given OONI Probe user, it failed all the time
+with the same failure. There were just a couple of exceptions to
+this general trend, which are documented in the research paper.
+
 We were surprised to discover that there was no interference when
 mapping the service endpoint's domain name (e.g., `dns.google`) to
 IP addresses (e.g., `8.8.8.8` and `8.8.4.4`). The only exception
@@ -211,7 +216,7 @@ table summarizes the reason for blocking for blocked DoH lookups:
 | Reset during TLS handshake      |    1 (~0%) |  77 (20%) | 152 (14%) |
 | Other                           |   92 (3%)  |  79 (20%) |  93 (9%)  |
 
-In China, there's a prevalence of TCP/IP blocking. Iran and Kazahkstan,
+In China, there's a prevalence of TCP/IP blocking. Iran and Kazakhstan,
 there's interference with the TLS sessions.
 
 In the Kazakhstan network we tested, TLS interference seemed to
@@ -252,7 +257,7 @@ server name does not cause any blocking, suggesting there was
 ## Concluding remarks
 
 As far as we know, this research was the first account of DoT
-and DoH blocking. Since our measurement campaign in late 2020,
+and DoH blocking. Since our initial measurement campaign in late 2020,
 [other researchers started studying encrypted DNS blocking](
 https://arxiv.org/pdf/2202.00663.pdf). As `dnscheck` is now
 integrated into [OONI Probe](https://ooni.org/install/), we can continue to collect DoT/DoH blocking
