@@ -1,7 +1,7 @@
 ---
 title: "Azerbaijan and Armenia block TikTok amid border clashes"
 description: "This report shares OONI data on the blocking of TikTok in Azerbaijan and Armenia amid border clashes in September 2022."
-author: "Arturo Filastò (OONI), Arzu Geybulla (Azerbaijan Internet Watch),Maria Xynou (OONI)"
+author: "Arturo Filastò (OONI), Arzu Geybulla (Azerbaijan Internet Watch), Maria Xynou (OONI)"
 date: "2022-09-16"
 tags: ["azerbaijan", "censorship", "country-az", "country-am"]
 categories: ["report"]
