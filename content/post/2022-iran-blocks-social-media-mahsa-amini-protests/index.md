@@ -96,8 +96,7 @@ In 2020 we reported that [DNS over TLS (DoT) was blocked in Iran](https://ooni.o
 In recent months, [OONI measurements from the testing of multiple DoH endpoints](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day&axis_y=domain) on several networks in Iran showed signs of TLS based interference. But as of 20th September 2022, we observe a noticeable _change_ in the blocking of domain-based DoH endpoints, as we view _both_ TLS level interference and DNS based tampering. 
 
 
-
-![alt_text](images/image1.png "image_tooltip")
+{{<img src="images/image1.png">}}
 
 
 **Chart**: OONI data on the blocking of popular DNS over HTTPS endpoints in Iran (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day&axis_y=domain)).
@@ -141,8 +140,7 @@ OONI data suggests that ISPs in [Iran started blocking access to WhatsApp](https
 
 
 
-
-![alt_text](images/image2.png "image_tooltip")
+{{<img src="images/image2.png">}}
 
 
 **Chart**: OONI data on the testing of WhatsApp on multiple networks in Iran between August 2022 to September 2022 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=whatsapp&since=2022-08-24&until=2022-09-24&axis_x=measurement_start_day)).
@@ -151,8 +149,7 @@ As is evident through the above chart, most WhatsApp measurements started to pre
 
 
 
-
-![alt_text](images/image3.png "image_tooltip")
+{{<img src="images/image3.png">}}
 
 
 **Chart:** OONI data on the testing of `web.whatsapp.com` on multiple networks in Iran between August 2022 to September 2022 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=web.whatsapp.com&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day)).
@@ -163,8 +160,7 @@ WhatsApp blocking is further suggested by looking at [Web Connectivity measureme
 
 
 
-
-![alt_text](images/image4.png "image_tooltip")
+{{<img src="images/image4.png">}}
 
 
 **Chart**: OONI data on the testing of WhatsApp endpoints in Iran between August 2022 to September 2022 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day&axis_y=domain)).
@@ -188,8 +184,7 @@ Many ISPs in Iran also started blocking Instagram on 21st September 2022. The fo
 
 
 
-
-![alt_text](images/image5.png "image_tooltip")
+{{<img src="images/image5.png">}}
 
 
 **Chart:** OONI data on the testing of `www.instagram.com` on multiple networks in Iran between August 2022 to September 2022 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=www.instagram.com&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day)).
@@ -198,8 +193,7 @@ From the above chart, we can see that `www.instagram.com` was [already blocked](
 
 
 
-
-![alt_text](images/image6.png "image_tooltip")
+{{<img src="images/image6.png">}}
 
 
 **Chart**: OONI data on the testing of Instagram domains in Iran between August 2022 to September 2022 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day&axis_y=domain)).
@@ -220,8 +214,7 @@ As of 22nd September 2022, OONI data shows that several ISPs in Iran started blo
 
 
 
-
-![alt_text](images/image7.png "image_tooltip")
+{{<img src="images/image7.png">}}
 
 
 **Chart**: OONI data [Oon the testing of domains related to Apple’s app store in Iran between August 2022 to September 2022 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day&axis_y=domain)).
@@ -240,9 +233,7 @@ When looking at the [80 measurements](https://explorer.ooni.org/search?since=202
 
 
 
-
-![alt_text](images/image8.png "image_tooltip")
-
+{{<img src="images/image8.png">}}
 
 **Chart**: OONI data on the blocking of ``iosapps.itunes.apple.com`` by ASN in Iran in September 2022 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=iosapps.itunes.apple.com&since=2022-09-13&until=2022-09-25&axis_x=measurement_start_day&axis_y=probe_asn)).
 
@@ -257,8 +248,7 @@ Similarly to Apple’s app store, OONI data suggests that (more) ISPs in Iran st
 
 
 
-
-![alt_text](images/image9.png "image_tooltip")
+{{<img src="images/image9.png">}}
 
 
 **Chart**: OONI data on the testing of domains related to Google Play Store in Iran between August 2022 to September 2022 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day&axis_y=domain)).
@@ -275,8 +265,7 @@ Through the following chart, we explore the blocking of `play.googleapis.com` on
 
 
 
-
-![alt_text](images/image10.png "image_tooltip")
+{{<img src="images/image10.png">}}
 
 
 **Chart**: OONI data providing a per-ASN breakdown of testing coverage for `play.googleapis.com` in Iran between August 2022 to September 2022 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=play.googleapis.com&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day&axis_y=probe_asn)).
@@ -290,8 +279,7 @@ As of 23rd September 2022, ISPs in Iran started blocking access to Linkedin, as 
 
 
 
-
-![alt_text](images/image11.png "image_tooltip")
+{{<img src="images/image11.png">}}
 
 
 **Chart:** OONI data on the testing of `www.linkedin.com` on multiple networks in Iran between August 2022 to September 2022 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=www.linkedin.com&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day)). 
@@ -301,7 +289,7 @@ OONI data shows that `www.linkedin.com` was [blocked on at least 7 networks](htt
 
 
 
-![alt_text](images/image12.png "image_tooltip")
+{{<img src="images/image12.png">}}
 
 
 **Chart:** OONI data providing a per-ASN breakdown on the blocking of `www.linkedin.com` in Iran in September 2022 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=www.linkedin.com&since=2022-08-24&until=2022-09-24&axis_x=measurement_start_day&axis_y=probe_asn)).
@@ -315,8 +303,7 @@ As of 23rd September 2022, many ISPs in Iran appear to have started [blocking ac
 
 
 
-
-![alt_text](images/image13.png "image_tooltip")
+{{<img src="images/image13.png">}}
 
 
 **Chart:** OONI data on the testing of `www.skype.com` on multiple networks in Iran between August 2022 to September 2022 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=www.skype.com&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day)). 
@@ -334,16 +321,14 @@ The following 2 charts aggregate OONI measurement coverage from the testing of [
 
 
 
-
-![alt_text](images/image14.png "image_tooltip")
+{{<img src="images/image14.png">}}
 
 
 **Chart**: OONI data on the testing of Psiphon in Iran between August 2022 to September 2022 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=psiphon&since=2022-08-24&until=2022-09-24&axis_x=measurement_start_day)).
 
 
 
-
-![alt_text](images/image15.png "image_tooltip")
+{{<img src="images/image15.png">}}
 
 
 **Chart**: OONI data on the testing of Tor Snowflake in Iran between August 2022 to September 2022 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=torsf&since=2022-08-24&until=2022-09-24&axis_x=measurement_start_day)).
@@ -352,8 +337,7 @@ From the above charts, we can see that most measurements from the testing of bot
 
 
 
-
-![alt_text](images/image16.png "image_tooltip")
+{{<img src="images/image16.png">}}
 
 
 **Chart:** Daily unique Psiphon users from Iran in September 2022 (source: [Psiphon Data Engine](https://psix.ca/d/nyi8gE6Zk/regional-overview?orgId=2&var-region=IR)).
@@ -364,8 +348,7 @@ Around the same dates, Tor Metrics below show a [spike in the number of Tor brid
 
 
 
-
-![alt_text](images/image17.png "image_tooltip")
+{{<img src="images/image17.png">}}
 
 
 **Chart:** Tor bridge users connecting from Iran in September 2022 (source: [Tor Metrics](https://metrics.torproject.org/userstats-bridge-country.html?start=2022-09-11&end=2022-09-24&country=ir)).
@@ -405,8 +388,7 @@ In addition to the blocking events described in previous sections of this report
 
 
 
-
-![alt_text](images/image18.png "image_tooltip")
+{{<img src="images/image18.png">}}
 
 
 **Chart:** Internet Outage Detection and Analysis (IODA) signals for Iran between 16th September 2022 to 24th September 2022 (source: [IODA](https://ioda.inetintel.cc.gatech.edu/country/IR?from=1663279200&until=1664143140)).
@@ -414,16 +396,14 @@ In addition to the blocking events described in previous sections of this report
 
 
 
-
-![alt_text](images/image19.png "image_tooltip")
+{{<img src="images/image19.png">}}
 
 
 **Chart:** Internet Outage Detection and Analysis (IODA) signals for RighTel (AS57218) between 18th September 2022 to 25th September 2022 (source: IODA).
 
 
 
-
-![alt_text](images/image20.png "image_tooltip")
+{{<img src="images/image20.png">}}
 
 
 **Chart:** Cloudflare Radar signals for RighTel (AS57218) between 18th September 2022 to 25th September 2022 (source: IODA).
@@ -431,16 +411,14 @@ In addition to the blocking events described in previous sections of this report
 
         
 
-
-![alt_text](images/image21.png "image_tooltip")
+{{<img src="images/image21.png">}}
 
 
 **Chart:** Internet Outage Detection and Analysis (IODA) signals for MCCI (AS197207) between 18th September 2022 to 25th September 2022 (source: IODA).
 
 
 
-
-![alt_text](images/image22.png "image_tooltip")
+{{<img src="images/image22.png">}}
 
 
 **Chart:** Cloudflare Radar signals for MCCI (AS197207) between 18th September 2022 to 25th September 2022 (source: IODA).
@@ -448,16 +426,14 @@ In addition to the blocking events described in previous sections of this report
 
         
 
-
-![alt_text](images/image23.png "image_tooltip")
+{{<img src="images/image23.png">}}
 
 
 **Chart:** Internet Outage Detection and Analysis (IODA) signals for IranCell (AS44244) between 18th September 2022 to 25th September 2022 (source: IODA).
 
 
 
-
-![alt_text](images/image24.png "image_tooltip")
+{{<img src="images/image24.png">}}
 
 
 **Chart:** Cloudflare Radar signals for IranCell (AS44244) between 18th September 2022 to 25th September 2022 (source: IODA).
@@ -467,24 +443,21 @@ In addition to the blocking events described in previous sections of this report
 
 [Cloudflare Radar](https://radar.cloudflare.com) data showed how the percentage of HTTP/3 traffic (using the QUIC protocol over UDP) dropped to virtually zero over the last days on major Iranian networks (Irancell, TCI, and MCI), as shown through the charts below. 
 
-
-![alt_text](images/image25.png "image_tooltip")
+{{<img src="images/image25.png">}}
 
 
 **Chart**: HTTP/3 traffic drop in Irancell (source: [Cloudflare Radar](https://radar.cloudflare.com)).
 
 
 
-
-![alt_text](images/image26.png "image_tooltip")
+{{<img src="images/image26.png">}}
 
 
 **Chart**: HTTP/3 traffic drop in TCI (source: [Cloudflare Radar](https://radar.cloudflare.com)).
 
 
 
-
-![alt_text](images/image27.png "image_tooltip")
+{{<img src="images/image27.png">}}
 
 
 **Chart**: HTTP/3 traffic drop in MCI (source: [Cloudflare Radar](https://radar.cloudflare.com)).
