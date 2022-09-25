@@ -86,7 +86,7 @@ Over the past years, Iranian ISPs have blocked websites by serving block pages a
 
 As of 20th September 2022 (amid [protests](https://www.bbc.com/news/world-middle-east-62986057) following the death of Mahsa Amini), Iran intensified the [blocking of encrypted DNS (DoH)](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=dns.google&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day) services. We previously (in 2020) reported on the blocking of [encrypted DNS (DoT)](https://ooni.org/post/2020-iran-dot/) services in Iran, but at the time, we found that they were blocked during the TLS handshake by means of destination-endpoint or SNI based filtering. Now, Iranian ISPs appear to [implement the block by means of DNS](https://explorer.ooni.org/measurement/20220924T111914Z_webconnectivity_IR_44244_n1_QXdrKsNisTkYTipo?input=https%3A%2F%2Fdns.google%2F) as well. 
 
-On 21st September 2022, OONI data started to show the [blocking of WhatsApp](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=whatsapp&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day) and [Instagram](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=www.instagram.com&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day) on most tested networks in Iran, while previously, they were among the few major social media platforms that were accessible on most tested networks. On the next day, 22nd September 2022, OONI data shows that Iranian ISPs started blocking access to Google’s Play Store and Apple’s App store as well, limiting Iranians’ ability to install new apps (such as circumvention tools). On the same day, OONI data also shows that [Irancell (AS44244) started blocking access to Wikipedia](https://explorer.ooni.org/chart/mat?probe_cc=IR&probe_asn=44244&test_name=web_connectivity&domain=www.wikipedia.org&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day) (previously, Iran [temporarily blocked the Farsi language edition of Wikipedia](https://ooni.org/post/2020-iran-blocks-farsi-wikipedia/) in March 2020). As of 23rd September 2022, OONI data shows that Iranian ISPs also started [blocking access to Linkedin](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=www.linkedin.com&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day). Further details are provided in the report below. 
+On 21st September 2022, OONI data started to show the [blocking of WhatsApp](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=whatsapp&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day) and [Instagram](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=www.instagram.com&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day) on most tested networks in Iran, while previously, they were among the few major social media platforms that were accessible on most tested networks. On the next day, 22nd September 2022, OONI data shows that Iranian ISPs started blocking access to Google’s Play Store and Apple’s App store as well, limiting Iranians’ ability to install new apps (such as circumvention tools).  As of 23rd September 2022, OONI data shows that Iranian ISPs also started [blocking access to Linkedin](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=www.linkedin.com&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day). Further details are provided in the report below. 
 
 
 ### Blocking of DNS over HTTPS (DoH)
@@ -100,14 +100,14 @@ In recent months, [OONI measurements from the testing of multiple DoH endpoints]
 ![alt_text](images/image1.png "image_tooltip")
 
 
-**Chart**: OONI data on the blocking of popular domain-based DNS over HTTPS endpoints in Iran (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day&axis_y=domain)).
+**Chart**: OONI data on the blocking of popular DNS over HTTPS endpoints in Iran (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day&axis_y=domain)).
 
-From the above chart (which aggregates OONI measurement coverage from the testing of popular domain-based DoH endpoints in Iran), we can see that as of 20th September 2022:
+From the above chart (which aggregates OONI measurement coverage from the testing of popular DoH endpoints in Iran), we can see that as of 20th September 2022:
 
 
 
-* Domain-based DoH endpoints that were _previously accessible_ (such as `cloudflare-dns.com` and `doh.opendns.com`) started being blocked;
-* Domain-based DoH endpoints that previously presented “anomalies” (due to TLS based interference, which is not automatically confirmed blocked) started to be annotated as “confirmed blocked” as well (as a result of ISPs implementing DNS based blocking by returning [bogons](https://en.wikipedia.org/wiki/Bogon_filtering), enabling the automatic detection and confirmation of censorship).
+* DoH endpoints that were _previously accessible_ (such as `cloudflare-dns.com` and `doh.opendns.com`) started being blocked;
+* DoH endpoints that previously presented “anomalies” (due to TLS based interference, which is not automatically confirmed blocked) started to be annotated as “confirmed blocked” as well (as a result of ISPs implementing DNS based blocking by returning [bogons](https://en.wikipedia.org/wiki/Bogon_filtering), enabling the automatic detection and confirmation of censorship).
 
 In other words, we observe a noticeable _change_ in how the blocking of encrypted DNS is implemented in Iran (from 20th September 2022 onwards). Previously, we primarily observed TLS level interference, whereas now, most (tested) ISPs implement DNS based blocking of DoH endpoints as well. We also observe that this block has been expanded to more DoH endpoints, in comparison to previous months. 
 
@@ -410,8 +410,6 @@ In addition to the blocking events described in previous sections of this report
 
 
 **Chart:** Internet Outage Detection and Analysis (IODA) signals for Iran between 16th September 2022 to 24th September 2022 (source: [IODA](https://ioda.inetintel.cc.gatech.edu/country/IR?from=1663279200&until=1664143140)).
-
- \
 
 
 
