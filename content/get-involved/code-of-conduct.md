@@ -3,7 +3,7 @@ title: OONI Code of Conduct
 description: This Code of Conduct summarizes the guidelines followed by OONI Community members including employees, sponsors and contractors.
 aliases: ["/code-of-conduct"]
 ---
-**Last modified:** September 22, 2022
+**Last modified:** September 26, 2022
 
 **Version:** 1.2
 
@@ -11,11 +11,11 @@ aliases: ["/code-of-conduct"]
 
 {{<table-of-contents>}}
 
-## Statement of Intent:
+## Statement of Intent
 
 A primary goal of the OONI community is to be **inclusive of many different contributors and to build a welcoming and enjoyable environment**. We want to include contributors from the most varied and diverse backgrounds possible. We are committed to providing a **friendly, safe and welcoming environment free from abuse, whether isolated or systemic**. We explicitly acknowledge that tolerating abuse is a security problem. Allowing abusers and malicious people to disrupt our community puts our volunteers, developers, and users at risk. 
 
-This Code of Conduct applies to OONI as a whole, including all **online and offline** OONI community spaces, such as the OONI Slack channel and OONI mailing lists. It is intended to provide guidelines for **community members, employees, sponsors and contractors**.
+This Code of Conduct applies to OONI as a whole, including all **online and offline** OONI community spaces, such as the [OONI Slack channel](https://slack.ooni.org/) and OONI mailing lists. It is intended to provide guidelines for **community members, employees, sponsors and contractors**.
 
 It also applies to **unacceptable behavior occurring outside the scope of community activities** when such behavior has the potential to adversely affect the safety and well-being of community members. As members of the OONI community, we support and follow this Code and take care not to undermine it.
 
@@ -23,7 +23,7 @@ This Code of Conduct is not exhaustive or complete. It is **an ongoing effort** 
 
 ## Unacceptable behaviors
 
-The following behaviors are **unacceptable** within our community. They should be reported to and investigated by the OONI Incident Response Committee to address the violations with an appropriate response:
+The following behaviors are **unacceptable** within our community. They should be reported to and investigated by the OONI Incident Response Committee to address the violations with an appropriate response.
 
 ### Inappropriate content and derogatory language
 
@@ -66,7 +66,7 @@ The list above is **illustrative and not exhaustive**, it can be updated and ela
 
 ### Disruptive behavior 
 
-**Sustained disruption of any community events**, including talks, presentations and online conversations, will not be tolerated and will be reined up immediately. Similarly, spamming, trolling, flaming (verbally abusing), baiting (deliberately provoking other members for a conflict) or other attention-stealing behavior is not welcome within our online community spaces and will be interrupted immediately.
+**Sustained disruption of any community events**, including talks, presentations and online conversations, will not be tolerated and will be reined up immediately. Similarly, spamming, trolling, bullying, flaming (verbally abusing), baiting (deliberately provoking other members for a conflict) or other attention-stealing behavior is not welcome within our online community spaces and will be interrupted immediately.
 
 Deliberately undermining the spirit of this Code while following the letter, influencing or leading others to behave inappropriately, advocating for, or encouraging any of the above behavior will be treated the same as the unacceptable behavior itself. 
 
