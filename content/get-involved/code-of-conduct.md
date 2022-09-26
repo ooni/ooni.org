@@ -101,6 +101,7 @@ The report will be received by all **Incident Response Committee members**:
 If you don’t feel comfortable sharing your report with the whole committee, please feel free to contact committee members individually.
 
 The actions taken by the Incident Response Committee will vary on a case-by-case basis. We will make every effort to respond to the incident immediately. We will prioritize the safety of the person who has been harmed, or is at risk of harm. People who have been harmed or are at risk of harm can withdraw the incident report at any time. We will never act never do anything without the consent of the person who has been harmed or is at risk of harm, except in the situations where there is an imminent threat to the community.
+
 Please also contact the Committee or individual members if you have questions or concerns about the Code of Conduct, or if you would like to contribute any changes to it. 
 
 ## License and attribution
