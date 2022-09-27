@@ -1,11 +1,10 @@
 ---
 title: "Iran blocks social media, app stores and encrypted DNS amid Mahsa Amini protests"
-author: "Simone Basso, Maria Xynou, Arturo Filastò"
+author: "Simone Basso (OONI), Maria Xynou (OONI), Arturo Filastò (OONI), Amanda Meng (IODA - Georgia Tech)"
 date: "2022-09-25"
 tags: ["iran", "censorship", "country-ir", "mahsaamini", "protests", "mahsa", "amini"]
 categories: ["report"]
 ---
-
 
 Protests [erupted](https://www.theguardian.com/world/2022/sep/17/iran-protests-death-kurdish-woman-mahsaa-amini-morality-police) in Iran over the last week following the death of Mahsa Amini, a 22-year-old Kurdish woman who was reportedly beaten to death by Iran’s morality police for allegedly violating strict hijab rules. Amid the [ongoing protests](https://www.bbc.com/news/world-middle-east-62994003), which have [reportedly](https://iranhr.net/fa/articles/5496/) resulted in at least 31 civilian deaths, Iranian authorities [cracked down on the internet](https://www.theguardian.com/world/2022/sep/22/iran-blocks-capitals-internet-access-as-amini-protests-grow) in an attempt to curb dissent.
 
@@ -24,7 +23,7 @@ OONI data shows new blocking events in Iran amid ongoing protests:
 * **Blocking of Google Play Store and Apple App Store.** As of 22nd September 2022, OONI data shows that multiple ISPs in Iran started [blocking access to Google Play Store](https://explorer.ooni.org/search?since=2022-09-22&until=2022-09-23&probe_cc=IR&test_name=web_connectivity&domain=play.googleapis.com&failure=false) and [Apple App Store](https://explorer.ooni.org/search?since=2022-09-22&until=2022-09-23&probe_cc=IR&test_name=web_connectivity&domain=iosapps.itunes.apple.com&failure=false) domains. 
 * **Blocking of Skype and Linkedin.** As of 23rd September 2022, OONI data shows the [blocking of Skype](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=www.skype.com&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day), while the [blocking of Linkedin is automatically confirmed on at least 10 networks](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=www.linkedin.com&since=2022-08-24&until=2022-09-25&axis_x=measurement_start_day&axis_y=probe_asn) in Iran. 
 
-In addition to the above blocks (and many other long-term blocks), Iran experienced 5 major [outages affecting mobile networks](https://github.com/net4people/bbs/issues/125) over the past week, which are visible in the [IODA](https://ioda.inetintel.cc.gatech.edu/country/IR?from=1663279200&until=1664143140), [Cloudflare Radar](https://radar.cloudflare.com/asn/44244?date_filter=last_7_days) and [Kentik](https://twitter.com/DougMadory/status/1573309958791241728) datasets. 
+In addition to the above blocks (and many other long-term blocks), Iran experienced multiple severe [outages affecting mobile networks](https://github.com/net4people/bbs/issues/125) over the past week, which are visible in the [IODA](https://ioda.inetintel.cc.gatech.edu/country/IR?from=1663279200&until=1664143140), [Cloudflare Radar](https://radar.cloudflare.com/asn/44244?date_filter=last_7_days) and [Kentik](https://twitter.com/DougMadory/status/1573309958791241728) datasets. 
 
 OONI data suggests that [Psiphon](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=psiphon&since=2022-08-24&until=2022-09-24&axis_x=measurement_start_day) and [Tor Snowflake](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=torsf&since=2022-08-24&until=2022-09-24&axis_x=measurement_start_day) work in Iran, and can potentially be used for [censorship circumvention](https://forum.torproject.net/t/iran-circumventing-censorship-with-tor/4590). While our tests determine that it’s possible to bootstrap these tools from Iran and use them to fetch a small webpage, we have no data regarding whether they are effective in providing circumvention for long periods of time.
 
@@ -57,8 +56,6 @@ OONI’s [WhatsApp test](https://ooni.org/nettest/whatsapp/) is designed to meas
 
 If, however, any of the following occur, WhatsApp measurements are automatically annotated as “[anomalies](https://ooni.org/support/faq#what-do-you-mean-by-anomalies)”:
 
-
-
 * TCP connections to WhatsApp’s endpoints, registration service, or web.whatsapp.com fail;
 * DNS lookups resolve to IP addresses that are not allocated to WhatsApp;
 * HTTP requests to WhatsApp’s registration service or `web.whatsapp.com` do not send back a consistent response to OONI’s servers.
@@ -66,8 +63,6 @@ If, however, any of the following occur, WhatsApp measurements are automatically
 [Anomalous measurements](https://ooni.org/support/faq#what-do-you-mean-by-anomalies) may be indicative of blocking, but [false positives](https://ooni.org/support/faq#what-are-false-positives) can occur. We therefore consider that the likelihood of blocking is greater if the overall volume of anomalous WhatsApp measurements is high in comparison to the overall WhatsApp measurement count (compared on an ASN level within the same date range). We further disaggregate based on the reasons that caused the anomaly (e.g. TCP connection failures towards a set of WhatsApp endpoints) and if they are consistent, they provide a stronger signal of potential blocking.
 
 OONI’s [Web Connectivity test](https://ooni.org/nettest/web-connectivity/), on the other hand, is designed to measure the accessibility of URLs by performing the following steps:
-
-
 
 * Resolver identification
 * DNS lookup
@@ -81,13 +76,11 @@ Each [Web Connectivity](https://ooni.org/nettest/web-connectivity/) measurement 
 
 Over the past years, Iranian ISPs have blocked websites by serving block pages and by returning IPs associated with censorship (which, for example, used to host block pages). By adding such fingerprints to our database, we have been able to [automatically confirm the blocking of numerous websites in Iran](https://explorer.ooni.org/search?since=2022-08-25&until=2022-09-25&failure=false&probe_cc=IR&only=confirmed). Moreover, the overall OONI measurement coverage in Iran is relatively [high](https://explorer.ooni.org/country/IR) (in [comparison](https://explorer.ooni.org/countries) to many other countries), increasing our confidence in our findings.
 
-
 ## Findings
 
 As of 20th September 2022 (amid [protests](https://www.bbc.com/news/world-middle-east-62986057) following the death of Mahsa Amini), Iran intensified the [blocking of encrypted DNS (DoH)](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=dns.google&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day) services. We previously (in 2020) reported on the blocking of [encrypted DNS (DoT)](https://ooni.org/post/2020-iran-dot/) services in Iran, but at the time, we found that they were blocked during the TLS handshake by means of destination-endpoint or SNI based filtering. Now, Iranian ISPs appear to [implement the block by means of DNS](https://explorer.ooni.org/measurement/20220924T111914Z_webconnectivity_IR_44244_n1_QXdrKsNisTkYTipo?input=https%3A%2F%2Fdns.google%2F) as well. 
 
 On 21st September 2022, OONI data started to show the [blocking of WhatsApp](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=whatsapp&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day) and [Instagram](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=www.instagram.com&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day) on most tested networks in Iran, while previously, they were among the few major social media platforms that were accessible on most tested networks. On the next day, 22nd September 2022, OONI data shows that Iranian ISPs started blocking access to Google’s Play Store and Apple’s App store as well, limiting Iranians’ ability to install new apps (such as circumvention tools).  As of 23rd September 2022, OONI data shows that Iranian ISPs also started [blocking access to Linkedin](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=www.linkedin.com&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day). Further details are provided in the report below. 
-
 
 ### Blocking of DNS over HTTPS (DoH)
 
@@ -102,8 +95,6 @@ In recent months, [OONI measurements from the testing of multiple DoH endpoints]
 **Chart**: OONI data on the blocking of popular DNS over HTTPS endpoints in Iran (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&since=2022-08-25&until=2022-09-25&axis_x=measurement_start_day&axis_y=domain)).
 
 From the above chart (which aggregates OONI measurement coverage from the testing of popular DoH endpoints in Iran), we can see that as of 20th September 2022:
-
-
 
 * DoH endpoints that were _previously accessible_ (such as `cloudflare-dns.com` and `doh.opendns.com`) started being blocked;
 * DoH endpoints that previously presented “anomalies” (due to TLS based interference, which is not automatically confirmed blocked) started to be annotated as “confirmed blocked” as well (as a result of ISPs implementing DNS based blocking by returning [bogons](https://en.wikipedia.org/wiki/Bogon_filtering), enabling the automatic detection and confirmation of censorship).
@@ -203,10 +194,9 @@ To further investigate what was happening in terms of blocking, we analyzed [96 
 
 
 * Out of 347 DNS lookups resolving ``edge-chat.instagram.com``, 293 (84%) failed and the most common failure was a timeout, which happened 277 times. The 54 lookups that succeeded returned valid IPv4 and IPv6 addresses 51 times, and [bogon](https://en.wikipedia.org/wiki/Bogon_filtering) IP addresses 3 times.
-* Out of 132 TCP connect attempts using non-bogon IP addresses resolved for measured URL’s domain`, 132 (100%) timed out.
+* Out of 132 TCP connect attempts using non-bogon IP addresses resolved for measured URL’s domain, 132 (100%) timed out.
 
 We therefore mostly observe TCP/IP blocking, with some additional DNS blocking. The presence of bogon IP addresses results in measurements being annotated as “confirmed blocked”, while other failures are annotated as “anomalies”.
-
 
 ### Blocking of Apple App Store
 
@@ -225,15 +215,13 @@ It’s worth noting that measurements from the testing of `store.apple.com` were
 
 When looking at the [80 measurements](https://explorer.ooni.org/search?since=2022-09-22&until=2022-09-23&probe_cc=IR&test_name=web_connectivity&domain=iosapps.itunes.apple.com&failure=false) for ``iosapps.itunes.apple.com`` collected on 22nd September 2022, we can see that:
 
-
-
 * Out of 268 DNS lookups, 86 (32%) failed with 85 being timeouts. The 182 successful lookups returned generally legitimate IP addresses 144 times and bogons 38 times.
 * We attempted 402 TCP connects with legitimate addresses, timing out 44 (10%) times and otherwise succeeding in establishing connections.
 * Out of 358 attempted TLS handshakes, 54 (15%) failed with 53 timeouts and a single connection reset instance. All the other attempts were successful.
 
 
-
 {{<img src="images/image8.png">}}
+
 
 **Chart**: OONI data on the blocking of ``iosapps.itunes.apple.com`` by ASN in Iran in September 2022 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=iosapps.itunes.apple.com&since=2022-09-13&until=2022-09-25&axis_x=measurement_start_day&axis_y=probe_asn)).
 
@@ -244,10 +232,6 @@ The above chart shows that different networks treat ``iosapps.itunes.apple.com``
 
 Similarly to Apple’s app store, OONI data suggests that (more) ISPs in Iran started to block Google’s Play Store in recent days. The following chart aggregates OONI measurement coverage from the testing of domains related to Google Play Store in Iran. On 22nd September 2022, we observed a spike in anomalies in the testing of `play.googleapis.com`, which is [one of the key domains used](https://www.netify.ai/resources/applications/google-play) by Google’s Play Store.
 
- 
-
-
-
 {{<img src="images/image9.png">}}
 
 
@@ -255,14 +239,11 @@ Similarly to Apple’s app store, OONI data suggests that (more) ISPs in Iran st
 
 When looking at the [87 measurements](https://explorer.ooni.org/search?since=2022-09-22&until=2022-09-23&probe_cc=IR&test_name=web_connectivity&domain=play.googleapis.com&failure=false) for ``play.googleapis.com`` collected on 22nd September 2022, we can see that:
 
-
-
 * Out of 267 DNS lookups, 21 (8%) failed with 19 being timeouts. Successful lookups always returned legitimate IP addresses and never returned bogons.
 * We attempted 608 TCP connects with legitimate addresses, failing 46 times (8%) with timeouts, and otherwise we succeeded in establishing connections.
 * Out of 562 attempted TLS handshakes, 417 (74%) failed with 415 timeouts and two connection abort instances. All the other attempts (145) were successful.
 
 Through the following chart, we explore the blocking of `play.googleapis.com` on the following ASNs: [AS197207 (MCI)](https://ipinfo.io/AS197207), [AS206065 (Zi-Tel)](https://ipinfo.io/AS206065), [AS44244 (Irancell)](https://ipinfo.io/AS44244), [AS58224 (TCI)](https://ipinfo.io/AS58224). On all 4 networks, we observe a surge in anomalous measurements on 22nd September 2022. 
-
 
 
 {{<img src="images/image10.png">}}
@@ -366,77 +347,87 @@ In other words, our tests determine that it’s possible to bootstrap these tool
 
 ## Network outages
 
+*This section of the report was updated on 27th September 2022 based on contributions provided by our partner, [IODA](https://ioda.inetintel.cc.gatech.edu/).*
+
 In addition to the blocking events described in previous sections of this report, multiple [outages affecting mobile networks](https://github.com/net4people/bbs/issues/125) in Iran were reported over the past week. These outages are visible in the [IODA](https://ioda.inetintel.cc.gatech.edu/country/IR?from=1663279200&until=1664143140), [Cloudflare Radar](https://radar.cloudflare.com/asn/44244?date_filter=last_7_days) and [Kentik](https://twitter.com/DougMadory/status/1573309958791241728) datasets.
 
-[IODA](https://ioda.inetintel.cc.gatech.edu/country/IR?from=1663279200&until=1664143140) and [Cloudflare Radar](https://radar.cloudflare.com/asn/44244?date_filter=last_7_days) data (also corroborated by [Kentik](https://twitter.com/DougMadory/status/1573309958791241728)) show the presence of five major outages: 
+[IODA](https://ioda.inetintel.cc.gatech.edu/country/IR?from=1663279200&until=1664143140) and [Cloudflare Radar](https://radar.cloudflare.com/asn/44244?date_filter=last_7_days) data (also corroborated by [Kentik](https://twitter.com/DougMadory/status/1573309958791241728)) show the presence of eight major outages with daily outages occurring from late afternoon to just past midnight:
 
-
-
-* **First outage**:
+* **First outage:**
+	* 19th September 2022 between ~ 16:20 to 19:30 UTC on TCI (AS58224)
+* **Second outage**:
     * 21st September 2022 between ~ 17:00 to 22:00 UTC on MCI (AS197207)
     * 21st September 2022 between ~ 17:00 to 4:00 UTC (22nd September) on RighTel (AS57218) and IranCell (AS44244)
-* **Second outage**:
+* **Third outage**:
     * 22nd September 2022 between ~ 12:00 to 22:00 UTC on IranCell (AS44244) and MCI (AS197207)
     * 22nd September 2022 between ~ 14:00 to 22:00 UTC on Rightel (AS57218)
-* **Third outage**:
-    * 23rd September 2022 between ~ 12:00 to 20:30 UTC (Irancell, MCI, and RighTel).
 * **Fourth outage**:
-    * 24th September 2022 between ~ 13:00 to 22:00 UTC (IranCell, RighTel)
-    * 24th September 2022 between ~ 12:00 to 21:00 UTC (MCI)
-* **Fifth outage (ongoing):**
-    * Starting from 25th September 2022 at around 12:00 UTC (IranCell, RighTel)
+    * 23rd September 2022 between ~ 12:00 to 20:30 UTC (Irancell, MCI, and RighTel).
+* **Fifth outage**:
+    * 24th September 2022 between ~ 13:00 to 22:00 UTC on Rightel (AS57218) and IranCell (AS44244)
+    * 24th September 2022 between ~ 12:00 to 21:00 UTC on MCI (AS197207)
+* **Sixth outage:**
+    * 25th September 2022 between ~ 12:00 to 20:25 UTC on Rightel (AS57218) and IranCell (AS44244)
+    * 25th September 2022 between ~ 12:55 to 19:45 UTC on Mobinnet (AS50810)
+* **Seventh outage:**
+	* 26th September 2022 between ~ 12:25 to 20:30 UTC on Rightel (AS57218) and IranCell (AS44244)
+* **Eighth outage:**
+	* 27th September 2022 ~ 12:20 UTC (ongoing) on Rightel (AS57218) and IranCell (AS44244)
 
 
-
-{{<img src="images/image18.png">}}
-
-
-**Chart:** Internet Outage Detection and Analysis (IODA) signals for Iran between 16th September 2022 to 24th September 2022 (source: [IODA](https://ioda.inetintel.cc.gatech.edu/country/IR?from=1663279200&until=1664143140)).
+{{<img src="images/ioda-1.png">}}
 
 
+**Chart:** Internet Outage Detection and Analysis (IODA) signals for Iran between 16th September 2022 to 27th September 2022 (source: [IODA](https://ioda.inetintel.cc.gatech.edu/country/IR?from=1663249181&until=1664285981)).
 
 
-{{<img src="images/image19.png">}}
+{{<img src="images/ioda-2.png">}}
 
 
-**Chart:** Internet Outage Detection and Analysis (IODA) signals for RighTel (AS57218) between 18th September 2022 to 25th September 2022 (source: IODA).
+**Chart:** Internet Outage Detection and Analysis (IODA) signals for RighTel (AS57218) between 16th September 2022 to 27th September 2022 (source: [IODA](https://ioda.inetintel.cc.gatech.edu/asn/57218?from=1663248843&until=1664285643)).
 
 
 
 {{<img src="images/image20.png">}}
 
 
-**Chart:** Cloudflare Radar signals for RighTel (AS57218) between 18th September 2022 to 25th September 2022 (source: IODA).
+**Chart:** Cloudflare Radar signals for RighTel (AS57218) between 18th September 2022 to 25th September 2022 (source: [Cloudflare Radar](https://radar.cloudflare.com/)).
 
 
         
 
-{{<img src="images/image21.png">}}
+{{<img src="images/ioda-3.png">}}
 
 
-**Chart:** Internet Outage Detection and Analysis (IODA) signals for MCCI (AS197207) between 18th September 2022 to 25th September 2022 (source: IODA).
+**Chart:** Internet Outage Detection and Analysis (IODA) signals for MCCI (AS197207) between 18th September 2022 to 25th September 2022 (source: [IODA](https://ioda.inetintel.cc.gatech.edu/asn/197207?from=1663248905&until=1664285705)).
 
 
 
 {{<img src="images/image22.png">}}
 
 
-**Chart:** Cloudflare Radar signals for MCCI (AS197207) between 18th September 2022 to 25th September 2022 (source: IODA).
+**Chart:** Cloudflare Radar signals for MCCI (AS197207) between 18th September 2022 to 25th September 2022 (source: [Cloudflare Radar](https://radar.cloudflare.com/)).
 
 
-        
+       
 
-{{<img src="images/image23.png">}}
+{{<img src="images/ioda-4.png">}}
 
 
-**Chart:** Internet Outage Detection and Analysis (IODA) signals for IranCell (AS44244) between 18th September 2022 to 25th September 2022 (source: IODA).
+**Chart:** Internet Outage Detection and Analysis (IODA) signals for IranCell (AS44244) between 16th September 2022 to 27th September 2022 (source: [IODA](https://ioda.inetintel.cc.gatech.edu/asn/44244?from=1663248940&until=1664285740)).
 
 
 
 {{<img src="images/image24.png">}}
 
 
-**Chart:** Cloudflare Radar signals for IranCell (AS44244) between 18th September 2022 to 25th September 2022 (source: IODA).
+**Chart:** Cloudflare Radar signals for IranCell (AS44244) between 18th September 2022 to 25th September 2022 (source: [Cloudflare Radar](https://radar.cloudflare.com/)).
+
+
+{{<img src="images/ioda-5.png">}}
+
+
+**Chart:** Internet Outage Detection and Analysis (IODA) signals for Mobinnet (AS50810) on 25th September 2022 (source: [IODA](https://ioda.inetintel.cc.gatech.edu/asn/50810?from=1664064000&until=1664150399)).
 
 
 ## HTTP/3 traffic drop
@@ -462,8 +453,7 @@ In addition to the blocking events described in previous sections of this report
 
 **Chart**: HTTP/3 traffic drop in MCI (source: [Cloudflare Radar](https://radar.cloudflare.com)).
 
-Because QUIC is used both as an alternative way to access web content and for circumvention, this change likely aimed to limit its availability and force applications that could otherwise use HTTP/3 to use HTTPS, for which arguably there are more advanced network filtering techniques (since HTTPS predates HTTP/3 by ~20 years).
-
+Because QUIC is used both as an alternative way to access web content and for circumvention, this change likely aimed to limit its availability and force applications that could otherwise use HTTP/3 to use HTTPS, for which arguably there are more advanced network filtering techniques (since HTTPS predates HTTP/3 by around 20 years).
 
 ## Conclusion
 
