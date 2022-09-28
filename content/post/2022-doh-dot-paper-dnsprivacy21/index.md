@@ -80,7 +80,7 @@ resolver is `https://dns.cloudflare.com/dns-query`.
 
 DoT is similar to DoH in that a service endpoint could contain an
 IP address or a domain name. However, unlike DoH, you generally
-identify DoT service endpoints by their IP name and port (e.g.,
+identify DoT service endpoints by their IP address and port (e.g.,
 `8.8.4.4:853`) or by their domain name and port (e.g., `dns.google:853`).
 
 In short, regardless of whether we want to measure DoT or DoH, there
