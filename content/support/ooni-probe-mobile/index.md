@@ -3,7 +3,7 @@ title: "User Guide: OONI Probe Mobile App"
 description: "OONI Probe Mobile App user guide"
 ---
 
-**Last updated:** 6th September 2022
+**Last updated:** 16th September 2022
 
 **OONI Probe Mobile version:** 3.7.1
 
@@ -315,7 +315,7 @@ These websites have been categorized based on [30 standardized categories](https
 
 By default, all 30 categories are enabled in the OONI Probe mobile app to encourage the testing of more diverse websites, enhancing the possibility of discovering more forms of website censorship.
 
-But if you don’t feel comfortable testing all 30 categories of websites (particularly if they include content that is illegal, provocative, or objectionable in your country), or are only interested in testing certain types of content (such as news media), you can limit your OONI Probe testing to the website categories of your choice.
+But if you don’t feel comfortable testing all 30 categories of websites (particularly if they include content that is illegal, provocative, or objectionable in your country), or are only interested in testing certain types of content (such as news media), you can limit your OONI Probe testing to the website categories of your choice. The same categories will be tested during the background tests if you enable **Automated testing** option.
 
 **Step 1.** Tap **Settings** in the bottom navigation bar of your OONI Probe mobile app.
 
@@ -866,7 +866,7 @@ Instead of having to remember to manually run tests, you can **enable automated 
 
 By enabling automated testing, OONI Probe will **run all tests in the background multiple times per day** (excluding the bandwidth-intensive performance tests), testing a different set of websites (from the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists)) each time. To avoid cluttering the Test Results section of your app, these test results are automatically published on [OONI Explorer](https://explorer.ooni.org/) in near real-time (but are not visible through the Test Results section). 
 
-With automated OONI Probe testing, you can **regularly contribute censorship measurements** (without having to do anything), enabling the internet freedom community to monitor and detect censorship events in your country over time.
+With automated OONI Probe testing, you can **regularly contribute censorship measurements** (without having to do anything), enabling the internet freedom community to monitor and detect censorship events in your country over time. If you are concerned about traffic consumption or risks connected with regular testing of specific websites categories, you can limit the types of tests to be ran or list of categories to be tested through **Test options** section of OONI Probe settings. 
 
 You can enable automated OONI Probe testing through the following steps:
 
@@ -892,7 +892,7 @@ If you do not have any restrictions on traffic or battery usage, you can run aut
 
 ### Test options
 
-You can customize your testing based on the various test options of each thematic card (“Websites”, “Instant Messaging”, “Circumvention”, “Performance”).
+You can customize your testing based on the various test options of each thematic card (“Websites”, “Instant Messaging”, “Circumvention”, “Performance”). The settings you choose will be applied both to manual and automated testing. The **Performance** testing is disabled during **Automated testing** by default due to the bandwith constraints. 
 
 **Step 1.** Tap **Test options** through the settings of your OONI Probe app.
 
