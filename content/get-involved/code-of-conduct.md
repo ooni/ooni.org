@@ -3,7 +3,7 @@ title: OONI Code of Conduct
 description: This Code of Conduct summarizes the guidelines followed by OONI Community members including employees, sponsors and contractors.
 aliases: ["/code-of-conduct"]
 ---
-**Last modified:** September 26, 2022
+**Last modified:** October 6, 2022
 
 **Version:** 1.2
 
@@ -86,7 +86,7 @@ In addition, any participants who abuse the reporting process will be considered
 
 ## Where to go for help
 
-If you believe you're subject to behavior that is not acceptable within our community or you’ve witnessed such type of behavior, please **share such information with the Incident Response Committee** by sending an email to coc@openobservatory.org . 
+If you believe you're subject to behavior that is not acceptable within our community or you’ve witnessed such type of behavior, please **share such information with the Incident Response Committee** through the [form](https://docs.google.com/forms/d/e/1FAIpQLScZ4i4LpPqGKJG8uCZ0L1ql3xjcdnEE70W5kzX039qH4-CU_Q/viewform?usp=sf_link) or by sending an email to coc@openobservatory.org. We accept anonymous reports but please keep in mind that **if no contact method is provided, we won't be able to follow-up on the case and it might limit the investigation**. 
 
 The report will be received by all **Incident Response Committee members**:
 
