@@ -10,7 +10,10 @@
 
   <link rel="canonical" href="https://ooni.org{{ .RelPermalink }}" />
   <meta name='description' content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
-
+  
+  <meta name="theme-color" content="#0588cb">
+  <meta name="color-scheme" content="light dark">
+  
   {{ partial "opengraph.html" . }}
   {{ partial "twitter_cards.html" . }}
 
@@ -169,6 +172,17 @@
                 </a>
                 </li>
               </ul>
+              <ul class="pt-1 footer-theme-buttons">
+                <li id="lightModeBtn" onclick="setTheme(this,'light')" title="Light mode">
+                  <span class="lightsvg"></span>
+                </li>
+                <li id="darkModeBtn" onclick="setTheme(this,'dark')"  title="Dark mode">
+                  <span class="darksvg"></span>
+                </li>
+                <li id="autoModeBtn" onclick="setTheme(this,'auto')"  title="Auto mode">
+                  <span class="autosvg"></span>
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -178,6 +192,7 @@
   </footer>
   {{ end }}
 
+  <script type="text/javascript" src="/js/set-theme.js" defer></script>
   {{ block "script" . }}
   {{ end }}
 </body>

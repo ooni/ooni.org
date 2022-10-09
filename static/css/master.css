@@ -2,16 +2,95 @@
 /* Resets */
 
 /* ================================================================== */
+/* theme */
+
+:root {
+  --body-background: #fff;
+  --body-font-color: #1c1c1c;
+  --link: #0588cb;
+  --link-hover: #0056b3;
+  --pre-bg: #f2f2f2;
+  --base-blue: #0588cb;
+  --base-blue-hover: #056aa6;
+  --feature-bg-color: #F1F3F5;
+  --partner-logo-color: unset;
+  --button-hover-color: #FFF;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --body-background: #fff;
+    --body-font-color: #1c1c1c;
+    --link: #0588cb;
+    --link-hover: #0056b3;
+    --pre-bg: #f2f2f2;
+    --base-blue: #0588cb;
+    --base-blue-hover: #056aa6;
+    --feature-bg-color: #F1F3F5;
+    --partner-logo-color: unset;
+    --button-hover-color: #FFF;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-background: #343a40;
+    --body-font-color: #dee2e6;
+    --link: #5db8fe;
+    --link-hover: #94d1ff;
+    --pre-bg: #495057;
+    --base-blue: #056aa6;
+    --base-blue-hover: #0588cb;
+    --feature-bg-color: #495057;
+    --partner-logo-color: #dee2e6;
+    --button-hover-color: #dee2e6;
+  }
+}
+
+.light {
+  --body-background: #fff;
+  --body-font-color: #1c1c1c;
+  --link: #0588cb;
+  --link-hover: #0056b3;
+  --pre-bg: #f2f2f2;
+  --base-blue: #0588cb;
+  --base-blue-hover: #056aa6;
+  --feature-bg-color: #F1F3F5;
+  --partner-logo-color: unset;
+  --button-hover-color: #FFF;
+}
+
+.dark {
+  --body-background: #343a40;
+  --body-font-color: #dee2e6;
+  --link: #5db8fe;
+  --link-hover: #94d1ff;
+  --pre-bg: #495057;
+  --base-blue: #056aa6;
+  --base-blue-hover: #0588cb;
+  --feature-bg-color: #495057;
+  --partner-logo-color: #dee2e6;
+  --button-hover-color: #dee2e6;
+}
+
+/* ================================================================== */
 /* Font selection */
 
 html {
   color: #1c1c1c;
+  color: var(--body-font-color);
   background-color: #fff;
+  background-color: var(--body-background);
 }
 
 body {
   overflow-x: hidden;
   font-family: "Fira Sans", sans-serif;
+  color: #1c1c1c;
+  color: var(--body-font-color);
+  background-color: #fff;
+  background-color: var(--body-background);
 }
 
 h1, h2, h3, h4, h5, nav, .toc {
@@ -93,6 +172,50 @@ footer a:hover {
     background-image: url('/images/logos/mastodon-brands.png');
 }
 
+.footer-theme-buttons {
+  margin: 0;
+  padding: 0;
+  background-color: #26292c;
+  border-radius: 30px;
+  width: 100px;
+}
+
+.footer-theme-buttons li {
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px;
+  margin: 0;
+  transition: 300ms;
+}
+
+.footer-theme-buttons li.active {
+  background-color: var(--base-blue-hover);
+  border-radius: 15px;
+}
+
+.footer-theme-buttons li span {
+  display: block;
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+}
+
+.footer-theme-buttons li:hover {
+  background-color: var(--base-blue-hover);
+  border-radius: 15px;
+}
+
+.footer-theme-buttons li span.lightsvg {
+  background-image: url('/images/light.svg');
+}
+
+.footer-theme-buttons li span.darksvg {
+  background-image: url('/images/dark.svg');
+}
+
+.footer-theme-buttons li span.autosvg {
+  background-image: url('/images/auto.svg');
+}
 
 /* ================================================================== */
 /* Rows */
@@ -120,6 +243,12 @@ h2.overlined {
 a {
   text-decoration: none;
   color: #0588cb;
+  color: var(--link);
+}
+
+a:hover {
+  color: #0056b3;
+  color: var(--link-hover);
 }
 
 p, ol, ul {
@@ -169,18 +298,23 @@ th, td {
 
 a.explorer-button {
   border: 2px solid #ffffff;
+  border: 2px solid var(--button-hover-color);
   background-color: #0588cb;
-z-index: 999999999;
+  background-color: var(--base-blue);
+  z-index: 999999999;
 }
 
 a.explorer-button:hover{
   text-decoration: none;
   color: #0588cb;
+  color: var(--base-blue);
   background-color: #ffffff;
+  background-color: var(--button-hover-color);
 }
 
 pre {
   background-color: #f2f2f2;
+  background-color: var(--pre-bg);
   padding: 0.5rem 1rem;
   margin: 1.6rem 0;
   position: relative;
@@ -210,8 +344,11 @@ code {
   font-weight: 600;
   text-decoration: none;
   color: #0588cb;
+  color: var(--base-blue);
   background-color: white;
+  background-color: var(--button-hover-color);
   border: 1px solid #0588cb;
+  border: 1px solid var(--base-blue);
   text-align: center;
   letter-spacing: .5px;
   cursor: pointer;
@@ -221,7 +358,9 @@ code {
 .ooni-btn:hover {
     color: white;
     border: 1px solid #0588cb;
+    border: 1px solid var(--base-blue);
     background-color: #0588cb;
+    background-color: var(--base-blue);
 }
 
 .square-btn {
@@ -230,6 +369,7 @@ code {
   outline: 0;
   text-decoration: none;
   background-color: #0588cb;
+  background-color: var(--base-blue);
   color: white;
   text-align: center;
   letter-spacing: .5px;
@@ -242,6 +382,7 @@ code {
 
 .square-btn:hover {
   background-color: #056aa6;
+  background-color: var(--base-blue-hover);
   text-decoration: none;
   color: white;
 }
@@ -330,6 +471,7 @@ table {
 th {
   color: #fff;
   background: #0588CB;
+  background: var(--base-blue);
   border-right: 1px dashed #fff;
   font-size: 1em;
   font-weight: 500;
@@ -398,6 +540,7 @@ td:last-child {
 
 .navbar {
   background-color: #0588cb;
+  background-color: var(--base-blue);
   color: #fff;
   padding: 8px 0;
 }
@@ -531,6 +674,7 @@ header .wordmark {
 /* How it works */
 .homepage .ooni-explorer {
   background-color: #0588cb;
+  background-color: var(--base-blue);
   color: #fff;
   margin-bottom: 3.5rem;
 }
@@ -541,6 +685,7 @@ header .wordmark {
 
 .blue-bg-section {
   background-color: #0588cb;
+  background-color: var(--base-blue);
   color: #fff;
 }
 
@@ -584,6 +729,7 @@ h1.article-title {
 
 .read-more {
 	color: #0588cb!important;
+	color: var(--link)!important;
 }
 
 
@@ -638,6 +784,9 @@ h1.article-title {
   transition: all 350ms ease;
   align-items: center;
   justify-content: center;
+  background-color: unset;
+  background-color: var(--partner-logo-color);
+  border-radius: 10px;
 }
 
 .partner-logo {
@@ -649,6 +798,25 @@ h1.article-title {
   bottom: 10px;
   justify-content: space-between;
   align-items: center;
+  background-color: unset;
+  background-color: var(--partner-logo-color);
+}
+
+.partner-box a {
+  color: #0588cb;
+}
+
+.partner-box a:hover {
+  color: #0056b3;
+}
+
+.partner-country {
+  color: #000;
+}
+
+.partner-page-details .partner-country {
+  color: #000;
+  color: var(--body-font-color);
 }
 
 .partner-page-logo {
@@ -656,6 +824,8 @@ h1.article-title {
   justify-content: space-between;
   align-items: center;
   width: 200px;
+  background-color: unset;
+  background-color: var(--partner-logo-color);
   height: 180px;
   border: 1px solid rgba(0,0,0,0.2);
   border-radius: 4px;
@@ -678,6 +848,7 @@ h1.article-title {
 .back-link {
   font-weight: bold;
   color: black;
+  color: var(--body-font-color);
 }
 
 .stat-box {
@@ -728,15 +899,6 @@ div.ooni-team-member {
   display: block;
 }
 
-.ooni-team-member .pgp-fingerprint {
- word-break: break-all;
-}
-
-.ooni-team-member .pgp-fingerprint:before {
-  content: "🔒";
-  margin-right: 6px;
-}
-
 .vertical-align-helper {
   display: inline-block;
   height: 100%;
@@ -763,6 +925,7 @@ div.ooni-team-member {
   width: 100%;
   height: 20rem;
   background-color: #0588cb;
+  background-color: var(--base-blue);
   margin-top: 0.24rem;
 }
 
@@ -828,6 +991,7 @@ pre span.lw {
 .toc .active {
   font-weight: bold;
   color: #0588cb;
+  color: var(--base-blue);
 }
 
 .toc a {
@@ -860,6 +1024,8 @@ nav#TableOfContents li, nav#TableOfContents ul {
 
 .blog-post img {
   max-width: 100%;
+  background-color: unset;
+  background-color: var(--partner-logo-color);
 }
 
 .clearfix {
@@ -964,7 +1130,9 @@ a.icon-links img {
 
 .feature-container {
   background-color: #F1F3F5;
+  background-color: var(--feature-bg-color);
   color: #000000;
+  color: var(--body-font-color);
   z-index: 5;
   position: relative;
 }
@@ -1031,8 +1199,10 @@ p.test-paragraph {
 
 .question-container {
   border: #0588cb solid 1px;
+  border: var(--base-blue) solid 1px;
   border-radius: 10px;
   background: #0588cb;
+  background: var(--base-blue);
   transition: .1s;
 }
 
@@ -1043,13 +1213,16 @@ p.test-paragraph {
 
 .question-container:hover {
   border: #0588cb solid 1px;
+  border: var(--base-blue) solid 1px;
   background: white;
+  background: var(--button-hover-color);
   cursor: pointer;
   transition: .1s;
 }
 
 .question-container:hover > a {
   color: #0588cb;
+  color: var(--base-blue);
   transition: .1s;
   text-decoration: none;
 }

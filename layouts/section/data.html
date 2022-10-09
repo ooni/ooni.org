@@ -4,7 +4,12 @@
     <div class="row justify-content-around pt-5">
       <div class="col-12 col-sm-4">
         <a href="https://explorer.ooni.org">
-        <img src="/data/ooni-explorer.png" class="xs-center" id="ooni-explorer" />
+          <picture>
+            <source srcset="/data/ooni-explorer.svg" 
+              media="(prefers-color-scheme: light) or (prefers-color-scheme: no-preference)">
+            <source srcset="/data/ooni-explorer-inverted.svg" media="(prefers-color-scheme: dark)">    
+            <img src="/data/ooni-explorer.svg" class="xs-center" id="ooni-explorer" alt="OONI Explorer" />
+          </picture>
         </a>
         <p style="padding-top: 30px">
         <a href="https://explorer.ooni.org/">OONI Explorer</a>
@@ -14,7 +19,14 @@
         </p>
       </div>
       <div class="col-12 col-sm-4">
-        <a href="https://api.ooni.io"><img class="xs-center" src="/data/ooni-api.png" id="ooni-api"/></a>
+        <a href="https://api.ooni.io">
+          <picture>
+            <source srcset="/data/ooni-api.svg" 
+              media="(prefers-color-scheme: light) or (prefers-color-scheme: no-preference)">
+            <source srcset="/data/ooni-api-inverted.svg" media="(prefers-color-scheme: dark)">    
+            <img src="/data/ooni-api.svg" class="xs-center" id="ooni-api" alt="OONI API" />
+          </picture>
+        </a>
         <p style="padding-top: 30px">
         The <a href="https://api.ooni.io/">OONI API</a> enables you to perform your own analysis of OONI data.
         For batch consumption of OONI data, you can fetch the whole OONI dataset from the <a

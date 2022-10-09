@@ -3,11 +3,16 @@
 
   <div class="container mt-5 pb-4">
    <div class="col text-center">
-        <img src="/images/logos/OONI-VerticalColor.png"
-            srcset="/images/logos/OONI-VerticalColor.png 1x,
-                   /images/logos/OONI-VerticalColor@2x.png 2x">
-        <h1 class="article-title">{{ .Params.leadTitle }}</h1>
-        <p class="lead">{{ .Params.leadDescription }}</p>
+    <picture>
+      <source srcset="/images/logos/OONI-VerticalColor.png 1x,
+        /images/logos/OONI-VerticalColor@2x.png 2x" 
+        media="(prefers-color-scheme: light) or (prefers-color-scheme: no-preference)">
+      <source srcset="/images/logos/OONI-VerticalColor-Inverted.png 1x,
+        /images/logos/OONI-VerticalColor-Inverted@2x.png 2x" media="(prefers-color-scheme: dark)">    
+      <img src="/images/logos/OONI-VerticalColor.png" alt="OONI logo">
+    </picture>
+    <h1 class="article-title">{{ .Params.leadTitle }}</h1>
+    <p class="lead">{{ .Params.leadDescription }}</p>
     </div>
   </div>
 
@@ -124,10 +129,7 @@
         <div class="col-lg-9 col-md-12">
             <p>Contact the OONI team by sending an email to <strong>contact@openobservatory.org</strong>.
             Encrypted emails can be sent using the following PGP key:</p>
-            <p class="fingerprint">
-            Key ID: 6B2943F00CB177B7<br>
-            Fingerprint: 4C15 DDA9 96C6 C0CF 48BD 3309 6B29 43F0 0CB1 77B7
-            </p>
+            <pre>&#x1f512; <code style="font-size: 1rem;">Key ID: 6B2943F00CB177B7<br/>  Fingerprint: 4C15 DDA9 96C6 C0CF 48BD 3309 6B29 43F0 0CB1 77B7</code></pre>
         </div>
       </div>
     </div>
