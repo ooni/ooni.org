@@ -2,9 +2,11 @@
 title: "User Guide: OONI Probe Desktop App"
 description: "This user guide provides step-by-step instructions on how to use the OONI Probe desktop app."
 ---
-**Last updated:** 16th September 2022
+**Last updated:** 18th October 2022
 
 **OONI Probe Desktop version:** 3.7.0
+
+**Access the user guide in other languages:** [فارسی](https://ooni.org/fa/support/ooni-probe-desktop)
 
 {{<img src="images/install-desktop.png" title="Install OONI Probe Desktop" alt="Install OONI Probe Desktop">}}
 
