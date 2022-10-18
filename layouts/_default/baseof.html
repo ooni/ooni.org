@@ -14,7 +14,7 @@
   {{ partial "opengraph.html" . }}
   {{ partial "twitter_cards.html" . }}
 
-  {{ if eq .Lang "ar" }}<link rel="stylesheet" type="text/css" href="/css/rtl.css">{{ end }}
+  {{ if in "ar fa" .Lang }}<link rel="stylesheet" type="text/css" href="/css/rtl.css">{{ end }}
 
   <link rel="stylesheet" type="text/css" href="/fonts/fonts.css"/>
 

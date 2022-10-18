@@ -40,11 +40,13 @@
           <h2 class="overlined">Research</h2>
         </div>
        <div class="col-lg-9 col-md-12 blog-summary">
-         {{ range first 5 .Site.Taxonomies.categories.report }}
-          <a href="{{ .RelPermalink }}">
-              <p class="title">{{ .Title }}</p>
-              <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
-          </a>
+         {{ with .Site.Taxonomies.categories.report }}
+           {{ range first 5 . }}
+            <a href="{{ .RelPermalink }}">
+                <p class="title">{{ .Title }}</p>
+                <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
+            </a>
+            {{ end }}
           {{ end }}
           <a class="read-more" href="/reports/">View all</a>
         </div>
