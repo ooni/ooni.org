@@ -18,7 +18,7 @@ decade, and so we invite our community to help shape OONI’s strategic
 priorities for the future.
 
 Please take a few minutes to **complete our survey**:
-[https://ooni.typeform.com/to/SiVfLeqm](https://ooni.typeform.com/to/SiVfLeqm)
+[https://ooni.typeform.com/2022-survey](https://ooni.typeform.com/2022-survey)
 
 We’d appreciate it if you could please submit your survey responses by
 **Sunday, 20th November 2022**.
