@@ -2,7 +2,7 @@
 title: "User Guide: OONI Probe Command Line Interface (CLI)"
 description: "This user guide provides step-by-step instructions on how to use the OONI Probe command line interface."
 ---
-**Last updated:** 24th September 2021
+**Last updated:** 29th August 2022
 
 **OONI Probe CLI version:** 3.9.2
 
@@ -10,9 +10,9 @@ description: "This user guide provides step-by-step instructions on how to use t
 {{<img src="images/image1.png" title="OONI Probe CLI" alt="OONI Probe CLI">}}
 
 
-OONI Probe is [free and open source software](https://github.com/ooni/probe) that you can run to measure internet censorship and other forms of network interference. 
+OONI Probe is [free and open source software](https://github.com/ooni/probe) that you can run to measure internet censorship and other forms of network interference.
 
-This user guide provides step-by-step instructions on how to install and use the [OONI Probe Command Line Interface (CLI)](https://ooni.org/install/cli). 
+This user guide provides step-by-step instructions on how to install and use the [OONI Probe Command Line Interface (CLI)](https://ooni.org/install/cli).
 
 You can run OONI Probe CLI on **macOS**, **Debian/Ubuntu Linux**, and on **Raspberry Pis**.
 
@@ -95,7 +95,7 @@ Thanks for deciding to run OONI Probe!
 
 ### Installation
 
-You can install OONI Probe CLI on macOS, Debian/Ubuntu Linux, and Raspberry Pis. 
+You can install OONI Probe CLI on macOS, Debian/Ubuntu Linux, and Raspberry Pis.
 
 Installation instructions are provided through the links below:
 
@@ -111,7 +111,7 @@ We currently don't officially support OONI Probe CLI usage on Windows systems. I
 
 We strongly recommend **enabling automated OONI Probe testing**. This will ensure that OONI Probe tests are run automatically on a regular basis, without requiring you to remember to manually run tests. That way, you can regularly contribute censorship measurements, enabling the internet freedom community to monitor and detect censorship events in your country over time.
 
-If you have installed OONI Probe CLI on [Debian/Ubuntu Linux or a Raspberry Pi](https://ooni.org/install/cli/ubuntu-debian), you don’t need to do anything, as automated testing is performed by default. 
+If you have installed OONI Probe CLI on [Debian/Ubuntu Linux or a Raspberry Pi](https://ooni.org/install/cli/ubuntu-debian), you don’t need to do anything, as automated testing is performed by default.
 
 On [macOS](https://ooni.org/install/cli/macos), you can enable automated testing by running  the following command:
 
@@ -121,7 +121,7 @@ ooniprobe autorun start
 
 ```
 
-When you run the above command for the first time you will be informed of the [potential risks](https://ooni.org/about/risks) associated with running OONI Probe and you will be asked to successfully complete a  brief quiz (demonstrating your understanding of potential risks). 
+When you run the above command for the first time you will be informed of the [potential risks](https://ooni.org/about/risks) associated with running OONI Probe and you will be asked to successfully complete a  brief quiz (demonstrating your understanding of potential risks).
 
 
 ### Running experiments
@@ -132,11 +132,11 @@ You can manually run OONI Probe experiments as well by running:
 ooniprobe run
 ```
 
-When you run the above command for the first time you will be informed of the [potential risks](https://ooni.org/about/risks) associated with running OONI Probe and you will be asked to complete a related quiz. 
+When you run the above command for the first time you will be informed of the [potential risks](https://ooni.org/about/risks) associated with running OONI Probe and you will be asked to complete a related quiz.
 
-Once you have completed the onboarding process and provided your informed consent in relation to potential risks (by successfully completing the quiz), **all OONI Probe tests will run** in sequential order. 
+Once you have completed the onboarding process and provided your informed consent in relation to potential risks (by successfully completing the quiz), **all OONI Probe tests will run** in sequential order.
 
-You can also run individual OONI Probe tests by specifying the test group name after the run command. 
+You can also run individual OONI Probe tests by specifying the test group name after the run command.
 
 If you would only like to run Instant Messaging (IM) tests (including the WhatsApp, Facebook Messenger, Telegram, and Signal tests), this can be done as follows:
 
@@ -144,7 +144,7 @@ If you would only like to run Instant Messaging (IM) tests (including the WhatsA
 ooniprobe run im
 ```
 
-When running the [Websites test](https://ooni.org/nettest/web-connectivity/), you will test [URLs](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe) included in the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists). 
+When running the [Websites test](https://ooni.org/nettest/web-connectivity/), you will test [URLs](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe) included in the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists).
 
 But if you would like to **limit your testing to a specific website of your choice**, you can do so by running the following command:
 
@@ -188,7 +188,7 @@ This will generate output similar to what is shown below.
 
 {{<img src="images/image3.png" title="ooniprobe list 4 command output" alt="ooniprobe list 4 command output">}}
 
-In this view you are presented a list of individual OONI Probe measurements. 
+In this view you are presented a list of individual OONI Probe measurements.
 
 You can drill down even deeper and display the content of the raw network measurement by running the following command (including the identifier of the measurement, which in this case is `1476` for Facebook Messenger):
 
@@ -196,7 +196,7 @@ You can drill down even deeper and display the content of the raw network measur
 ooniprobe show 1476
 ```
 
-By default, as soon as a measurement has been uploaded to the OONI backend services (which is done automatically as part of the run), the raw measurement data will be deleted from disk and only the metadata will be preserved. 
+By default, as soon as a measurement has been uploaded to the OONI backend services (which is done automatically as part of the run), the raw measurement data will be deleted from disk and only the metadata will be preserved.
 
 That said, if you would like to delete the measurement metadata from disk, that can be done by running the rm command and referencing the ID of the result you wish to remove.
 
@@ -208,6 +208,30 @@ ooniprobe rm 4
 
 You can refer to the command line interface reference (below) for a more in-depth explanation of the remaining OONI Probe functionalities.
 
+### Viewing results generated by automated tests on Debian/Ubuntu/Raspberry Pi
+
+As mentioned above, when you install ooniprobe on Debian/Ubuntu/Raspberry Pi, it automatically runs
+tests in the background. To see these results, you need to tell ooniprobe to use the
+`OONI_HOME` directory used by automated tests. Such a directory is different from
+the one ooniprobe normally uses because automated tests run as as the
+`ooniprobe` user, not as your login user. We're planning on making accessing the results
+of automated tests easier, in the meanwhile, the following command will do:
+
+```bash
+sudo OONI_HOME=/var/lib/ooniprobe -u ooniprobe ooniprobe list
+```
+
+In the same vein, to see an individual result:
+
+```bash
+sudo OONI_HOME=/var/lib/ooniprobe -u ooniprobe ooniprobe list 1453
+```
+
+Likewise, to see a specific measurement:
+
+```bash
+sudo OONI_HOME=/var/lib/ooniprobe -u ooniprobe ooniprobe show 1789
+```
 
 ## Command Line Interface reference
 
@@ -226,7 +250,7 @@ This is used to specify the path to a custom configuration file used by a partic
 
 #### -v, --verbose
 
-This is used to increase the verbosity of the ooniprobe command output. 
+This is used to increase the verbosity of the ooniprobe command output.
 
 
 #### --batch
@@ -256,9 +280,9 @@ This displays the ooniprobe version number and exit.
 
 ### ooniprobe autorun
 
-The `ooniprobe autorun` command is used to enable and disable the automated running of OONI Probe network experiments. 
+The `ooniprobe autorun` command is used to enable and disable the automated running of OONI Probe network experiments.
 
-Currently, this command only works on **macOS**. 
+Currently, this command only works on **macOS**.
 
 
 #### ooniprobe autorun start
@@ -298,7 +322,7 @@ This command will return information about the current ooniprobe instance. Speci
 
 ### ooniprobe list
 
-Without any arguments, this command will list all the results of experiments run by the probe. 
+Without any arguments, this command will list all the results of experiments run by the probe.
 
 
 #### ooniprobe list &lt;result_id>
