@@ -75,3 +75,7 @@ notAlternative = true
   name = "Install OONI Probe"
   url = "/install/"
 
+[module]
+[[module.mounts]]
+  source = 'static'
+  target = 'assets'
