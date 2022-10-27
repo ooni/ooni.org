@@ -26,7 +26,10 @@
 
   <link rel="stylesheet" type="text/css" href="{{ $indexCss.Permalink }}"/>
 
-  {{ if in "ar fa" .Lang }}<link rel="stylesheet" type="text/css" href="/css/rtl.css">{{ end }}
+  {{ $rtl := resources.Get "css/rtl.css"}}
+  {{ $rtlCss := $rtl | resources.Minify | resources.Fingerprint }}
+
+  {{ if in "ar fa" .Lang }}<link rel="stylesheet" type="text/css" href="{{ $rtlCss.Permalink }}">{{ end }}
 
   <link rel="icon" type="image/png" href="/images/favicon.png"/>
   <script type="text/javascript" src="/js/zepto.min.js" defer></script>
