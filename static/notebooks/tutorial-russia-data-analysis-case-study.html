@@ -14272,12 +14272,12 @@ a.anchor-link {
 <p>At a high level the workflow we are going to look at is the following:</p>
 <p><img src="https://kroki.io/blockdiag/svg/eNqVj7EKwkAMhnefIpM3CUVxEgVF3FxcHMQh9mINXpNyplQQ392ednAR6RjyfX_yn4LmV89YwGMA4NbaSFD0sFvuwaOhg9EC3IbQ6khAd4uYG6vAEEoWLvmGafxgqxTGUgCKqH0ttig1hlavgkbs_HNLUqwii4Eno3eum6U3evA_D_cNOjTs7TKfZNkxmf8rd8J42grPF1OgcX0=" alt="High level overview"></p>
 <h3 id="Downloading-the-data">Downloading the data<a class="anchor-link" href="#Downloading-the-data">&#182;</a></h3><p>Once you have gotten a feel for the data, it's time to download the raw dataset.</p>
-<p>We offer a tool called oonidata (that's currently in BETA), which can be installed by running:</p>
+<p>We offer a tool called oonidata (that's currently in BETA and be sure you have at least v0.2.3), which can be installed by running:</p>
 
 <pre><code>pip install oonidata</code></pre>
 <p>To download all OONI data for this example notebook, run the following command (you should have at least 38GB on disk):</p>
 
-<pre><code>oonidata sync --since 2022-02-23 --until 2022-03-17 --country-codes RU --test-names web_connectivity --output-dir ooni-russia-data</code></pre>
+<pre><code>oonidata sync --start-day 2022-02-23 --end-day 2022-03-17 --probe-cc RU --test-name web_connectivity --output-dir ooni-russia-data</code></pre>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
