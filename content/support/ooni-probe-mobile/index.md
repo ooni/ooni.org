@@ -3,11 +3,11 @@ title: "User Guide: OONI Probe Mobile App"
 description: "OONI Probe Mobile App user guide"
 ---
 
-**Last updated:** 19th October 2022
+**Last updated:** 14th November 2022
 
 **OONI Probe Mobile version:** 3.7.1
 
-**Access the user guide in other languages:** [فارسی](https://github.com/ooni/ooni.org/blob/master/content/support/ooni-probe-mobile/index.fa.md)
+**Access the user guide in other languages:** [فارسی](https://github.com/ooni/ooni.org/blob/master/content/support/ooni-probe-mobile/index.fa.md); [Русский](ooni.org/ru/support/ooni-probe-mobile)
 
 {{<img src="images/image49.png" title="Measure Internet Censorship" alt="Measure Internet Censorship">}}
 
