@@ -4,26 +4,30 @@ description: How to install the OONI Probe CLI on Debian/Ubuntu Linux
 platform: cli
 ---
 
-1) Install the bintray GPG key:
+1) Install the GPG key:
 
 ```
 sudo apt-key adv --verbose --keyserver hkp://keyserver.ubuntu.com --recv-keys 'B5A08F01796E7F521861B449372D1FF271F2DD50'
 ```
 
-2) Add the extra repository:
+You can choose how to fetch OONI Probe:
+
+2.A) Using HTTP. This is the recommended option.
 
 ```
 echo "deb http://deb.ooni.org/ unstable main" | sudo tee /etc/apt/sources.list.d/ooniprobe.list
 ```
 
-3) Update package manager
+2.B) Using Tor. This is an alternative option in case the HTTP repository is not reachable. This requires running the tor daemon on your system.
+
+```
+sudo apt-get install tor apt-transport-tor
+echo "deb tor+http://deb.ooni.org/ unstable main" | sudo tee /etc/apt/sources.list.d/ooniprobe.list
+```
+
+3) Finally, update the package list and install OONI Probe
 
 ```
 sudo apt-get update
-```
-
-4) Install OONI Probe
-
-```
 sudo apt-get install ooniprobe-cli
 ```
