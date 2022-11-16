@@ -1,4 +1,8 @@
+{{ $probeDesktopVersion := slicestr (index (getJSON "https://api.github.com/repos/ooni/probe-desktop/releases/latest") "tag_name") 1 }}
+{{ if (not (findRE `[0-9]+\.[0-9]+\.[0-9]+` $probeDesktopVersion)) }}
+{{ errorf "Invalid version string for probe-desktop: %s" $probeDesktopVersion }}
+{{ end }}
 <a class="ooni-desktop-btn square-btn"
     id="{{ .Get "id" }}"
-    href="https://github.com/ooni/probe-desktop/releases/download/v{{ .Site.Params.probeDesktopVersion }}/{{.Get "filePrefix"}}-{{ .Site.Params.probeDesktopVersion }}.{{ .Get "ext" }}"
+    href="https://github.com/ooni/probe-desktop/releases/download/v{{ $probeDesktopVersion }}/{{.Get "filePrefix"}}-{{ $probeDesktopVersion }}.{{ .Get "ext" }}"
     >{{ .Get "text" }}</a>
