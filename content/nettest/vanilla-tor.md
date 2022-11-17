@@ -1,7 +1,7 @@
 ---
 title: "Vanilla Tor"
 short_description: "This test measures the reachability of the Tor network."
-groups: ["legacy"]
+groups: ["tor"]
 ---
 
 This test measures the reachability of the [Tor network](https://www.torproject.org/) (which is designed for online anonymity

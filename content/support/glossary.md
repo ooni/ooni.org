@@ -122,7 +122,7 @@ If you would like to see additional terms in this glossary, please [open a pull 
 
 * [TCP](#tcp)
 
-* [TCP/IP blocking](#tcp-ip-blocking)
+* [TCP/IP blocking](#tcpip-blocking)
 
 * [Test input](#test-input)
 
@@ -634,8 +634,8 @@ text transmission over the internet.
 WhatsApp, Facebook Messenger, and Telegram are examples of IM apps, all of which
 are [measured](https://ooni.org/nettest/) for censorship by the [OONI Probe app](https://ooni.org/install/).
 
-### Internet
-                         
+### Internet                         
+
 The internet is a decentralized, international network of networks.
 
 Devices, such as computers, connect to each other and form a network. Each
