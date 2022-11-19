@@ -929,7 +929,7 @@ To test different websites or to create different testing buttons (like the ones
 
 The following button(s) include websites that are more relevant to specific countries.
 
-{{<oonirunurls text="Kazakhstan (58 URLs)">}}
+{{<oonirunurls text="Kazakhstan (65 URLs)">}}
 http://ekaraganda.kz/
 http://ratel.kz/
 http://socialismkz.info/
@@ -988,6 +988,15 @@ https://www.uralskweek.kz/
 https://yvision.kz/
 https://zonakz.net/
 https://www.currenttime.tv/
+https://twitter.com/
+https://web.whatsapp.com/
+https://www.whatsapp.com/
+https://telegram.org/
+https://web.telegram.org/
+https://www.facebook.com/
+https://www.instagram.com/
+https://www.youtube.com/
+https://signal.org/
 {{</oonirunurls>}}
 
 {{<oonirunurls text="Azerbaijan (57 URLs)">}}
