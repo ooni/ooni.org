@@ -929,6 +929,67 @@ To test different websites or to create different testing buttons (like the ones
 
 The following button(s) include websites that are more relevant to specific countries.
 
+{{<oonirunurls text="Kazakhstan (58 URLs)">}}
+http://ekaraganda.kz/
+http://ratel.kz/
+http://socialismkz.info/
+http://www.adilsoz.kz/
+http://www.altyn-orda.kz/
+http://www.contur.kz/
+http://www.meta.kz/
+http://www.presscenter.kz/
+http://www.spik.kz/
+http://www.titus.kz/
+https://716.kz/
+https://altaynews.kz/
+https://astanatv.kz/
+https://avaaz.org/
+https://azh.kz/
+https://baigenews.kz/
+https://baq.kz/
+https://bureau.kz/
+https://diapazon.kz/
+https://erkindikqanaty.com/
+https://femagora.org/
+https://fergana.agency/
+https://fergana.news/
+https://informburo.kz/
+https://kaztag.kz/
+https://masa.media/
+https://medianet.kz/
+https://mgorod.kz/
+https://newsline.kz/
+https://newtimes.kz/
+https://orda.kz/
+https://otyrar.kz/
+https://oyan.digital/
+https://qazaqstan.tv/
+https://qazaqtimes.com/
+https://ratel.kz/
+https://rus.azattyq.org/
+https://sarpa.media/
+https://tengrinews.kz/
+https://the-village-kz.com/
+https://time.kz/
+https://titus.kz/
+https://tobolinfo.kz/
+https://total.kz/
+https://vlast.kz/
+https://www.azattyq.org/
+https://www.caravan.kz/
+https://www.inform.kz/
+https://www.kazpravda.kz/
+https://www.kaztag.kz/
+https://www.kt.kz/
+https://www.lada.kz/
+https://www.ng.kz/
+https://www.nur.kz/
+https://www.uralskweek.kz/
+https://yvision.kz/
+https://zonakz.net/
+https://www.currenttime.tv/
+{{</oonirunurls>}}
+
 {{<oonirunurls text="Azerbaijan (57 URLs)">}}
 http://azerireport.com/
 http://azeritoday.com/
