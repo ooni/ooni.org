@@ -397,6 +397,8 @@ td:last-child {
   background-color: #0588cb;
   color: #fff;
   padding: 8px 0;
+  z-index: 6;
+  position: relative;
 }
 
 .nav-menu-brand a {
