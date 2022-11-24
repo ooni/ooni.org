@@ -57,7 +57,7 @@ None of this would have been possible without our global community, who
 contribute censorship measurements every day, increasing transparency of
 internet censorship around the world.
 
-In tribute to our community, we have set **5th December as OONI’s
+In tribute to our community, we have set **5th December 2012 as OONI’s
 birthday**, because that is the day when we published the first OONI
 measurement.
 
@@ -105,7 +105,7 @@ We are excited to have the following speakers and presentations:
 |Felicia Anthonio ([Access Now](https://www.accessnow.org/))   |Using OONI data as part of [#KeepItOn](https://www.accessnow.org/keepiton/) advocacy                                 |
 |Kelly Koh ([Sinar Project](https://sinarproject.org/))       |Using OONI tools and data to investigate internet censorship in Southeast Asia|
 |Jakub Dalek ([Citizen Lab](https://citizenlab.ca/))       |Analyzing OONI data to investigate the blocking of LGBTIQ websites            |
-|Igor Valentovitch ([Netalitica](https://netalitica.com/))  |Using OONI data for information controls research                             |
+|Igor Valentovitch ([Netalitica](https://netalitica.com/))  |OONI information controls research                             |
 |Zaituni Njovu ([Zaina Foundation](https://zainafoundationtz.org/))|OONI community engagement efforts in Tanzania                                 |
 |Raya Sharbain ([Tor Project](https://www.torproject.org/))     |Using OONI Probe to test Tor                                                  |
 
