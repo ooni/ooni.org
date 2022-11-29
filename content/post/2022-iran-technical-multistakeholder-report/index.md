@@ -74,7 +74,7 @@ to prevent censorship circumvention.
 
     * [IODA](#ioda)
 
-    * [Cloudflare Rada](#cloudflare-radar)
+    * [Cloudflare Radar](#cloudflare-radar)
 
     * [Kentik](#kentik)
 
