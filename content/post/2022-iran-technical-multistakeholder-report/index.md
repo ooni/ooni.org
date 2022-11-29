@@ -58,7 +58,7 @@ to prevent censorship circumvention.
 
   * [Stock Market Indicators](#stock-market-indicators)
 
-  * [Iran Import/Export Indicators](#iran-import-export-indicators)
+  * [Iran Import/Export Indicators](#iran-importexport-indicators)
 
 * [Conclusion](#conclusion)
 
