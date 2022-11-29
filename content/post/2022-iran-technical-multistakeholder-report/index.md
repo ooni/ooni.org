@@ -737,17 +737,13 @@ economic productivity, we would also need information on the
 activity is not regulated during the night time, as it may be in certain
 jurisdictions).
 
-A second [video from the Sistan and Baluchestan region](https://vimeo.com/765587406) shows a similar
+A second **[video from the Sistan and Baluchestan region](https://vimeo.com/765587406)** shows a similar
 pattern. This is the region that has seen the most fatalities in Iran
 during the recent protests and associated shutdowns. There is a marked
 decline in luminosity as of 3rd October 2022. This is a capture of a
 larger region than the Tehran image above, and shows certain areas
 within the province going completely dark following a period of
 intensified activity leading up to 3rd October 2022.
-
-<p><iframe src="https://player.vimeo.com/video/765587406?h=41a0a96d37" width="640" height="719" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></p>
-
-**Video:** ISOC Shutdowns - Sistan and Baluchestan (Nighttime lights 16th Sept.-16th Oct).
 
 ## Stock Market Indicators
 
