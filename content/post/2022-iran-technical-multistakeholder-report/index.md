@@ -1,10 +1,13 @@
 ---
 title: "Technical multi-stakeholder report on Internet shutdowns: The case of Iran amid autumn 2022 protests "
-author: "OONI, IODA, M-Lab, Cloudflare, Kentik, Censored Planet, ISOC, Article19"
 date: "2022-11-29"
 tags: ["iran", "censorship", "country-ir", "mahsaamini", "protests", "shutdown"]
 categories: ["report"]
 ---
+
+* **Coordinators:** OONI, ISOC
+* **Contributors:** [OONI](https://ooni.org/), [IODA](https://ioda.inetintel.cc.gatech.edu/), [Measurement Lab (M-Lab)](https://www.measurementlab.net/), [Cloudflare](https://www.cloudflare.com/), [Kentik](https://www.kentik.com/), [Censored Planet](https://censoredplanet.org/), [ISOC](https://www.internetsociety.org/), [Article19](https://www.article19.org/)
+* **Facilitators:** European Commission, United States
 
 This report shares empirical technical findings on the recent Internet
 shutdown events that emerged in Iran following the death of Jhina
