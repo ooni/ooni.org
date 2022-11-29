@@ -6,9 +6,9 @@ tags: ["iran", "censorship", "country-ir", "mahsaamini", "protests", "shutdown"]
 categories: ["report"]
 ---
 
-**Coordinators:** OONI, ISOC
-**Contributors:** [OONI](https://ooni.org/), [IODA](https://ioda.inetintel.cc.gatech.edu/), [Measurement Lab (M-Lab)](https://www.measurementlab.net/), [Cloudflare](https://www.cloudflare.com/), [Kentik](https://www.kentik.com/), [Censored Planet](https://censoredplanet.org/), [ISOC](https://www.internetsociety.org/), [Article19](https://www.article19.org/)
-**Facilitators:** European Commission, United States
+* **Coordinators:** OONI, ISOC
+* **Contributors:** [OONI](https://ooni.org/), [IODA](https://ioda.inetintel.cc.gatech.edu/), [Measurement Lab (M-Lab)](https://www.measurementlab.net/), [Cloudflare](https://www.cloudflare.com/), [Kentik](https://www.kentik.com/), [Censored Planet](https://censoredplanet.org/), [ISOC](https://www.internetsociety.org/), [Article19](https://www.article19.org/)
+* **Facilitators:** European Commission, United States
 
 This report shares empirical technical findings on the recent Internet
 shutdown events that emerged in Iran following the death of Jhina
