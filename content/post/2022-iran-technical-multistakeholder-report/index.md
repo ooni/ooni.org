@@ -44,7 +44,7 @@ to prevent censorship circumvention.
 
 * [Targeted Disruptions to Apps and Services](#targeted-disruptions-to-apps-and-services)
 
-  * [Blocking of WhatsApp, Instagram, Skype, Viber and Linkedin](#blocking-of-whatsapp-instagram-skype-viber-linkedin)
+  * [Blocking of WhatsApp, Instagram, Skype, Viber and Linkedin](#blocking-of-whatsapp-instagram-skype-viber-and-linkedin)
 
   * [Blocking of Google Play Store and Apple App Store](#blocking-of-google-play-store-and-apple-app-store)
 
