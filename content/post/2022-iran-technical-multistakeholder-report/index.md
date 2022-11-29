@@ -30,7 +30,7 @@ to prevent censorship circumvention.
 
   * [Mobile Network Outages](#mobile-network-outages)
 
-    * [Comparisons to Previous Outages](#comparisons-to-previous-outages)
+    * [Comparison to Previous Outages](#comparison-to-previous-outages)
 
   * [Regional Outages](#regional-outages)
 
