@@ -746,6 +746,7 @@ within the province going completely dark following a period of
 intensified activity leading up to 3rd October 2022.
 
 <iframe src="https://player.vimeo.com/video/765587406?h=41a0a96d37" width="640" height="719" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/765587406">ISOC Shutdowns - Sistan and Balochestan</a> from <a href="https://vimeo.com/user140406226">Anirudh Tagat</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 **Video:** ISOC Shutdowns - Sistan and Baluchestan (Nighttime lights 16th Sept.-16th Oct).
 
