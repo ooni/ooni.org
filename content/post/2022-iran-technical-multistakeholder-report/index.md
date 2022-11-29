@@ -745,7 +745,7 @@ larger region than the Tehran image above, and shows certain areas
 within the province going completely dark following a period of
 intensified activity leading up to 3rd October 2022.
 
-{{<iframe src="https://player.vimeo.com/video/765587406?h=41a0a96d37" width="640" height="719" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>}}
+<iframe src="https://player.vimeo.com/video/765587406?h=41a0a96d37" width="640" height="719" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 **Video:** ISOC Shutdowns - Sistan and Baluchestan (Nighttime lights 16th Sept.-16th Oct).
 
