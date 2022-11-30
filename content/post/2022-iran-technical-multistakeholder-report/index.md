@@ -831,7 +831,7 @@ additional blocking of
 [Viber](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=www.viber.com&since=2022-08-25&until=2022-09-27&axis_x=measurement_start_day)
 and
 [Linkedin](https://explorer.ooni.org/chart/mat?probe_cc=IR&test_name=web_connectivity&domain=www.linkedin.com&since=2022-09-13&until=2022-10-19&axis_x=measurement_start_day)
-means that Iranians’ have fewer options for communicating, coordinating,
+means that Iranians have fewer options for communicating, coordinating,
 sharing and accessing information. While Iran [started blocking encrypted DNS services in 2020](https://ooni.org/post/2020-iran-dot/),
 the [increased blocking of encrypted DNS endpoints in September 2022](https://explorer.ooni.org/search?since=2022-09-22&until=2022-09-23&probe_cc=IR&test_name=web_connectivity&domain=dns.google&failure=false)
 means that circumventing Internet censorship will be harder. And the
