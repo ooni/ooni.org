@@ -304,7 +304,7 @@ This strongly suggests that QUIC, which HTTP/3 relies on, was blocked
 entirely, perhaps by blocking UDP port 443. It is possible that network
 operators in Iran found it easier to block all QUIC traffic than to
 effectively implement targeted filtering on the newer QUIC protocol.
-This is supported by *previous research* that shows a difference in
+This is supported by [previous research](https://ooni.org/post/2022-http3-measurements-paper/#iran-http3-targeting-blocking-of-udp-endpoints) that shows a difference in
 blocking for HTTP/3 vs HTTPS traffic.
 
 ## IPv6 disruption on Irancell
