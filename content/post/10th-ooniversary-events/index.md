@@ -22,13 +22,13 @@ we’ll be hosting **2 live-streamed events**:
 
     * Date and time: **5th December 2022 at 14:00 UTC** (1 hour event)
 
-    * Location: Live-streamed on [OONI YouTube channel](https://www.youtube.com/c/OONIorg)
+    * Location: Live-streamed on [OONI YouTube channel](https://www.youtube.com/watch?v=f4D4gq9TBMg)
 
 * **OONI Community:**
 
     * Date and time: **6th December 2022 at 13:00 UTC** (1 hour event)
 
-    * Location: Live-streamed on [OONI YouTube channel](https://www.youtube.com/c/OONIorg)
+    * Location: Live-streamed on [OONI YouTube channel](https://www.youtube.com/watch?v=Co_f8KPBIZM)
 
 [Subscribe to our YouTube channel](https://www.youtube.com/c/OONIorg)
 and learn more details below.
@@ -72,7 +72,7 @@ the past 10 years!
 
 * Date and time: **5th December 2022 at 14:00 UTC** (1 hour event)
 
-* Location: Live-streamed on [OONI YouTube channel](https://www.youtube.com/c/OONIorg)
+* Location: Live-streamed on [OONI YouTube channel](https://www.youtube.com/watch?v=f4D4gq9TBMg)
 
 As part of the event, we’ll provide a 30-minute presentation of key
 highlights from the past 10 years. You’ll learn about the tools we built
@@ -92,7 +92,7 @@ Join us for a live-streamed event to hear from the OONI community!
 
 * Date and time: **6th December 2022 at 13:00 UTC** (1 hour event)
 
-* Location: Live-streamed on [OONI YouTube channel](https://www.youtube.com/c/OONIorg)
+* Location: Live-streamed on [OONI YouTube channel](https://www.youtube.com/watch?v=Co_f8KPBIZM)
 
 As part of this event, we have invited several OONI community members to
 briefly share how they have used OONI tools and data as part of their
@@ -105,7 +105,7 @@ We are excited to have the following speakers and presentations:
 |Felicia Anthonio ([Access Now](https://www.accessnow.org/))   |Using OONI data as part of [#KeepItOn](https://www.accessnow.org/keepiton/) advocacy                                 |
 |Kelly Koh ([Sinar Project](https://sinarproject.org/))       |Using OONI tools and data to investigate internet censorship in Southeast Asia|
 |Jakub Dalek ([Citizen Lab](https://citizenlab.ca/))       |Analyzing OONI data to investigate the blocking of LGBTIQ websites            |
-|Igor Valentovitch ([Netalitica](https://netalitica.com/))  |OONI information controls research                             |
+|Igor Valentovitch ([Netalitica](https://netalitica.com/))  |Developing URL databases and measuring internet censorship                             |
 |Zaituni Njovu ([Zaina Foundation](https://zainafoundationtz.org/))|OONI community engagement efforts in Tanzania                                 |
 |Raya Sharbain ([Tor Project](https://www.torproject.org/))     |Using OONI Probe to test Tor                                                  |
 
