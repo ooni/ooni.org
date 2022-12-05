@@ -37,7 +37,7 @@ following animation, which shares some highlights from the past decade.
 
         * [OONI Run](#ooni-run)
 
-    * [Real-time open data on internet censorship](#realtime-open-data-on-internet-censorship)
+    * [Real-time open data on internet censorship](#real-time-open-data-on-internet-censorship)
 
         * [OONI Explorer](#ooni-explorer)
 
@@ -59,7 +59,7 @@ following animation, which shares some highlights from the past decade.
 
         * [OONI Partners](#ooni-partners)
 
-        * [#KeepItOn campaign](#keepiton-campaign)
+        * [KeepItOn campaign](#keepiton-campaign)
 
         * [Localization of OONI tools](#localization-of-ooni-tools)
 
@@ -551,7 +551,7 @@ our partners and other community members. In July 2021, we hosted two
 [3-day OONI Partner Training events](https://ooni.org/post/ooni-partner-training-2021/), both of
 which were hosted entirely online (due to the COVID-19 pandemic).
 
-### #KeepItOn advocacy campaign
+### KeepItOn advocacy campaign
 
 {{<img src="images/20.png">}}
 
