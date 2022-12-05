@@ -84,7 +84,7 @@ working on going forward.
 Following the 30-minute presentation, we’d love to answer your
 questions! We invite you to share your questions through the live chat,
 or through this
-[pad](https://pad.riseup.net/p/10th-ooniversary-questions-keep).
+[pad](https://pad.riseup.net/p/ooni10).
 
 # 10th Ooniversary: OONI Community
 
