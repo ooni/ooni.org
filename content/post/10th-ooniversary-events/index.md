@@ -106,7 +106,6 @@ We are excited to have the following speakers and presentations:
 |Kelly Koh ([Sinar Project](https://sinarproject.org/))       |Using OONI tools and data to investigate internet censorship in Southeast Asia|
 |Jakub Dalek ([Citizen Lab](https://citizenlab.ca/))       |Analyzing OONI data to investigate the blocking of LGBTIQ websites            |
 |Igor Valentovitch ([Netalitica](https://netalitica.com/))  |Developing URL databases and measuring internet censorship                             |
-|Zaituni Njovu ([Zaina Foundation](https://zainafoundationtz.org/))|OONI community engagement efforts in Tanzania                                 |
 |Raya Sharbain ([Tor Project](https://www.torproject.org/))     |Using OONI Probe to test Tor                                                  |
 
 
