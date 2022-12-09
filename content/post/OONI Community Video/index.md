@@ -180,7 +180,7 @@ data to [investigate and compare internet
 censorship](https://www.opentech.fund/news/exploring-online-media-filtering-during-2018-russian-presidential-elections/)
 in occupied Crimea and Russia.
 
-{{<img src="images/image.jpg" title="Crimea Report" alt="Crimea Report">}}
+{{<img src="images/image.png" title="Crimea Report" alt="Crimea Report">}}
 
 ## Radhika Jhalani, [Software Freedom Law Centre India](https://sflc.in/) 
 
