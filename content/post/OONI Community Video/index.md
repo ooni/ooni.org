@@ -15,7 +15,7 @@ Today, we are excited to share a **new video with OONI community
 members**, where they discuss how OONI has been useful to their work,
 while sharing what they would like to see OONI do in the future.
 
-{{ < youtube vid="zrclQ2QZjVo" >}}
+{{< youtube vid="zrclQ2QZjVo" >}}
 
 ## Featured community members and partners
 
