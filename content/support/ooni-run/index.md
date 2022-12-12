@@ -113,7 +113,7 @@ with a web browser).
 
 You should now see your list of websites in your OONI Probe mobile app.
 
-{{<img src="images/image6.jpg" title="List of websites" alt="List of websites">}}
+{{<img src="images/image6.png" title="List of websites" alt="List of websites">}}
 
 **Step 6.** Tap **Run** to test your list of websites. Depending on the length of your list and the performance of the network you're connected to, the test runtime may vary. If the test takes too long and you would like to terminate it, you can **stop the ongoing test by tapping the cross button** at the top of the screen.
 
@@ -131,18 +131,18 @@ Instead of sharing OONI Run links, you can **generate OONI Run widget code**, wh
 For example, we have [embedded several OONI Run widgets into our website](https://ooni.org/get-involved/run) to enable
 community members to more easily test specific websites (such as social media, news media, and VPN websites). This is often easier than sharing OONI Run links every time.
 
-{{<img src="images/image11.jpg" title="OONI Run widgets" alt="OONI Run widgets">}}
+{{<img src="images/image11.png" title="OONI Run widgets" alt="OONI Run widgets">}}
 
 Below we share an example of how our partner, [Sinar Project](https://ooni.org/partners/sinar-project/),
 embedded OONI Run widgets into their website to [encourage the testing of specific websites](https://sinarproject.org/digital-rights/measuring-and-detecting-network-interference/ge15) during Malaysia's 2022 general election.
 
-{{<img src="images/image2.jpg" title="Sinar example" alt="Sinar example">}}
+{{<img src="images/image2.png" title="Sinar example" alt="Sinar example">}}
 
 To create your own OONI Run widget:
 
 **Step 1.** When generating an OONI Run link (see section on "Creating OONI Run links"), the pop-up window will **also generate widget code** for the testing of the websites that you added to the OONI Run platform. This widget code is highlighted in the image below.
 
-{{<img src="images/image12.jpg" title="Widget code" alt="Widget code">}}
+{{<img src="images/image12.png" title="Widget code" alt="Widget code">}}
 
 **Step 2.** You can embed an OONI Run widget into your website as **a simple button** or as **a tall banner**.
 
@@ -161,6 +161,6 @@ By default, the button will say “Run OONI!” but you can change this text by 
 
 If some of the websites that you used for OONI Run links or widget code are relevant for country-wide or worldwide testing, please **propose them for the lists of websites ("[test lists](https://ooni.org/get-involved/contribute-test-lists)") tested by all OONI Probe users.** You can do so through our [Test Lists Editor](https://test-lists.ooni.org/).
 
-{{<img src="images/image7.jpg" title="Test Lists Editor" alt="Test Lists Editor">}}
+{{<img src="images/image7.png" title="Test Lists Editor" alt="Test Lists Editor">}}
 
 Please refer to [our guide](https://ooni.org/support/test-lists-editor) to learn **how to update test lists using the Test Lists Editor**.
