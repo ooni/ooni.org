@@ -111,7 +111,7 @@ with a web browser).
 
 You should now see your list of websites in your OONI Probe mobile app.
 
-{{<img src="images/image6.png" title="List of websites" alt="List of websites">}}
+{{<img src="images/image6.jpg" title="List of websites" alt="List of websites">}}
 
 **Step 6.** Tap **Run** to test your list of websites. Depending on the length of your list and the performance of the network you're connected to, the test runtime may vary. If the test takes too long and you would like to terminate it, you can **stop the ongoing test by tapping the cross button** at the top of the screen.
 
