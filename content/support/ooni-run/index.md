@@ -7,8 +7,8 @@
 * Testing websites (of your choice) for censorship;
 * Coordinating website censorship testing with other [OONI Probe](https://ooni.org/install/mobile) users.
 
-**OONI Run links only work with the [OONI Probe mobile app](https://ooni.org/install/mobile). **To learn how to
-use OONI Probe, please refer to our [OONI Probe mobile app user guide](https://ooni.org/support/ooni-probe-mobile)**.
+**OONI Run links only work with the [OONI Probe mobile app](https://ooni.org/install/mobile).** To learn how to
+use OONI Probe, please refer to our [OONI Probe mobile app user guide](https://ooni.org/support/ooni-probe-mobile).
 
 This user guide provides **step-by-step instructions** on how to use the [OONI Run](https://run.ooni.io/) platform for custom OONI Probe website testing.
 
@@ -16,7 +16,7 @@ This user guide provides **step-by-step instructions** on how to use the [OONI R
 
 * Learn how to **create OONI Run links** for testing websites (of your choice) for censorship;
 
-* Learn how to **use OONI Run links** with [OONI Probe mobile app](https://ooni.org/install/mobile);
+* Learn how to **use OONI Run links** with the [OONI Probe mobile app](https://ooni.org/install/mobile);
 
 * Learn how to **share OONI Run links** with other [OONI Probe mobile app](https://ooni.org/install/mobile) users;
 
@@ -43,8 +43,7 @@ The following table of contents should help with navigating the guide.
 {{<img src="images/image1.png" title="List of URLs" alt="List of URLs">}}
 
 **Important:** Please ensure that each
-[URL](https://ooni.org/support/glossary/#url) is typed correctly. If it is mis-typed, [OONI
-Probe](https://ooni.org/install/mobile) will *not* test the intended website and this will potentially lead to inaccurate test results.
+[URL](https://ooni.org/support/glossary/#url) is typed correctly. If it is mis-typed, [OONI Probe](https://ooni.org/install/mobile) will *not* test the intended website and this will potentially lead to inaccurate test results.
 
 A few things to keep in mind:
 
@@ -56,8 +55,7 @@ A few things to keep in mind:
 
 To ensure that each [URL](https://ooni.org/support/glossary/#url) is typed accurately, **please copy-paste it from a browser.**
 
-If you don't have specific websites in mind, you can refer to the [public lists](https://github.com/citizenlab/test-lists/tree/master/lists) ("[test lists](https://ooni.org/get-involved/contribute-test-lists)") that [OONI Probe](https://ooni.org/install/) uses for testing. These lists include a wide range of websites, all of which are [thematically categorized](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv)
-(e.g. news media, human rights).
+If you don't have specific websites in mind, you can refer to the [public lists](https://github.com/citizenlab/test-lists/tree/master/lists) ("[test lists](https://ooni.org/get-involved/contribute-test-lists)") that [OONI Probe](https://ooni.org/install/) uses for testing. These lists include a wide range of websites, all of which are [thematically categorized](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv) (e.g. news media, human rights).
 
 **Step 2.** **Copy** your list of URLs (from your text editor).
 
@@ -89,7 +87,7 @@ You have generated an **OONI Run mobile deep link** for the testing of your list
 
 {{<img src="images/image4.png" title="OONI Prome mobile app" alt="OONI Prome mobile app">}}
 
-**Step 2. Copy** the link generated in the previous section either by:
+**Step 2.** Copy the link generated in the previous section either by:
 
 * Clicking the link under "**Share this link with OONI Probe mobile app users**", pressing Control+A to select the whole link, and subsequently pressing Control + C to copy it; or
 
@@ -97,7 +95,7 @@ You have generated an **OONI Run mobile deep link** for the testing of your list
 
 {{<img src="images/image3.png" title="Copy link address" alt="Copy link address">}}
 
-**Step 3.** As you're probably doing all these steps from your desktop, **share the copied link** **with your mobile phone** (so that you can subsequently open the link with your [OONI Probe mobile app](https://ooni.org/install/mobile)). Unfortunately, it's not currently possible to use OONI Run links with the OONI Probe Desktop app.
+**Step 3.** As you're probably doing all these steps from your desktop, **share the copied link with your mobile phone** (so that you can subsequently open the link with your [OONI Probe mobile app](https://ooni.org/install/mobile)). Unfortunately, it's not currently possible to use OONI Run links with the OONI Probe Desktop app.
 
 You can also **share this link with other [OONI Probe mobile app](https://ooni.org/install/mobile) users**, if you
 would like them to test your list of websites as well.
@@ -146,7 +144,7 @@ To create your own OONI Run widget:
 
 **Step 2.** You can embed an OONI Run widget into your website as **a simple button** or as **a tall banner**.
 
-**If you would like to add an OONI run button on your website**, you can copy and paste the embed code from the pop-up window. For a simple button use the `<a href` under the `/* For a simple button */` section or if you would prefer to add a banner, use the code after the `/* For a tall banner */` section.
+**If you would like to add an OONI run button on your website**, you can copy and paste the widget code from the pop-up window. For a simple button use the `<a href` under the `/* For a simple button */` section, or if you would prefer to add a banner, use the code after the `/* For a tall banner */` section.
 
 You will also have to include the widget script code, generally in the base layout of your website:
 
