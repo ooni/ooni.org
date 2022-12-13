@@ -1,3 +1,5 @@
+# User Guide: OONI Run
+
 **Last updated:** 13th December 2022
 
 {{<img src="images/image5.png" title="OONI Run" alt="OONI Run">}}
@@ -34,7 +36,7 @@ The following table of contents should help with navigating the guide.
 
 * [Optional, but encouraged: Adding your websites to test lists](#optional-but-encouraged-adding-your-websites-to-test-lists)
 
-# Creating OONI Run links
+## Creating OONI Run links
 
 [OONI Run](https://run.ooni.io/) enables you to generate a link to test websites (of your choice) for censorship. You can also share this link with other [OONI Probe mobile [app](https://ooni.org/install/mobile) users so that they can test those websites. The first step is to determine *which* websites you want to test.
 
@@ -81,7 +83,7 @@ You will now see the following pop-up window.
 
 You have generated an **OONI Run mobile deep link** for the testing of your list of websites.
 
-# Using and sharing OONI Run links for website testing
+## Using and sharing OONI Run links for website testing
 
 **Step 1.** An OONI Run link can only be used with the **OONI Probe mobile app**. Please **[install the OONI Probe mobile app](https://ooni.org/install/mobile)**. It's available for [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe), [F-Droid](https://f-droid.org/repository/browse/?fdid=org.openobservatory.ooniprobe) and [iOS](https://itunes.apple.com/us/app/id1199566366).
 
@@ -122,7 +124,7 @@ Once you complete the testing based on an OONI Run link, your OONI Probe test re
 To learn more about accessing and sharing OONI Probe test results,
 please refer to our [OONI Probe mobile app user guide](https://ooni.org/support/ooni-probe-mobile).
 
-# Creating OONI Run widget code for website testing
+## Creating OONI Run widget code for website testing
 
 Instead of sharing OONI Run links, you can **generate OONI Run widget code**, which you can **embed into your website to encourage (long-term) OONI Probe testing of websites** that you care about.
 
@@ -155,7 +157,7 @@ You will also have to include the widget script code, generally in the base layo
 
 By default, the button will say “Run OONI!” but you can change this text by editing `Run OONI!` in the code. The banner will say “Fight Censorship” but you can change that by editing `Fight Censorship` in the code.
 
-# Optional, but encouraged: Adding your websites to test lists
+## Optional, but encouraged: Adding your websites to test lists
 
 If some of the websites that you used for OONI Run links or widget code are relevant for country-wide or worldwide testing, please **propose them for the lists of websites ("[test lists](https://ooni.org/get-involved/contribute-test-lists)") tested by all OONI Probe users.** You can do so through our [Test Lists Editor](https://test-lists.ooni.org/).
 
