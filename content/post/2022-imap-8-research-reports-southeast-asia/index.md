@@ -42,7 +42,7 @@ countries:
 
 * [Philippines](https://imap.sinarproject.org/reports/2022/2022-philippines/2022-philippines)
 
-* [Thailand](https://imap.sinarproject.org/reports/2022/imap-state-of-internet-censorship-country-report-2022-thailand)
+* [Thailand](https://imap.sinarproject.org/reports/2022/imap-state-of-internet-censorship-country-report-2022-thailand/2022-thailand.pdf)
 
 * [Vietnam](https://imap.sinarproject.org/reports/2022/imap-state-of-internet-censorship-country-report-2022-vietnam/2022-vietnam)
 
