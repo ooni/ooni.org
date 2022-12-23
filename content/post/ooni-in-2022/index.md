@@ -821,7 +821,7 @@ Their report makes use of OONI data, involving the analysis of
 measurements collected from the OONI Probe [Tor](https://ooni.org/nettest/tor/) and [Web Connectivity](https://ooni.org/nettest/web-connectivity/)
 experiments.
 
-**ECOWAS court ruling on internet shutdowns in Togo.** Togo’s
+* **ECOWAS court ruling on internet shutdowns in Togo.** Togo’s
 internet shutdown amid protests in September 2017 was challenged
 in the “Amnesty International Togo and Ors v. The Togolese
 Republic” [case](https://globalfreedomofexpression.columbia.edu/cases/amnesty-international-togo-and-ors-v-the-togolese-republic/)
