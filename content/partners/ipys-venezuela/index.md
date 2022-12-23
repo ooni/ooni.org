@@ -5,7 +5,7 @@ name: IPYS Venezuela
 title: IPYS Venezuela
 website: https://ipysvenezuela.org/
 reports:
-- text: "Coordinación de la medición de la censura en Venezuela"
+- text: "Coordinación de la medición de la censura en Venezuela (live-streamed presentation)"
   link: "https://www.youtube.com/watch?v=XNEaXcSUXnI"
 - text: "From the blocking of Wikipedia to Social Media: Venezuela's Political Crisis"
   link: "https://ooni.org/post/venezuela-blocking-wikipedia-and-social-media-2019/"

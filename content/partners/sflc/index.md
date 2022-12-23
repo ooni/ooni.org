@@ -5,6 +5,8 @@ name: Software Freedom Law Centre, India
 title: Software Freedom Law Centre, India
 website: https://sflc.in/
 reports:
+- text: "OONI Community Video"
+  link: "https://www.youtube.com/watch?v=zrclQ2QZjVo"
 - text: "OONI Probe testing feature in Internet Shutdowns Tracker"
   link: "https://internetshutdowns.in/"
 ---

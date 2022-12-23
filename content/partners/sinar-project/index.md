@@ -5,7 +5,15 @@ name: Sinar Project
 title: Sinar Project
 website: https://sinarproject.org/
 reports:
-- text: "Measuring Internet Censorship in Southeast Asia"
+- text: "iMAP 2022: New Research Reports on Internet Censorship in 8 Asian countries"
+  link: "https://ooni.org/post/2022-imap-8-research-reports-southeast-asia/"
+- text: "OONI Community Video"
+  link: "https://www.youtube.com/watch?v=zrclQ2QZjVo"
+- text: "10th Ooniversary: OONI Community (live-streamed presentation)"
+  link: "https://www.youtube.com/watch?v=Co_f8KPBIZM"
+- text: "Internet Monitoring and Action Project (iMAP)"
+  link: "https://imap.sinarproject.org/"
+- text: "Measuring Internet Censorship in Southeast Asia (live-streamed presentation)"
   link: "https://www.youtube.com/watch?v=AORNoRhgVmM"
 - text: "Southeast Asia Censorship Dashboard"
   link: "https://censorship.sinarproject.org/#/summary/2020"

@@ -5,7 +5,9 @@ name: Venezuela Inteligente
 title: Venezuela Inteligente
 website: https://veinteligente.org/
 reports:
-- text: "Internet Censorship, DNS poisoning and Phishing in Venezuela"
+- text: "OONI Community Video"
+  link: "https://www.youtube.com/watch?v=zrclQ2QZjVo"
+- text: "Internet Censorship, DNS poisoning and Phishing in Venezuela (live-streamed presentation)"
   link: "https://www.youtube.com/watch?v=UDvVfjJ0Iq8"
 - text: "From the blocking of Wikipedia to Social Media: Venezuela's Political Crisis"
   link: "https://ooni.org/post/venezuela-blocking-wikipedia-and-social-media-2019/"

@@ -5,8 +5,18 @@ name: The Tor Project
 title: The Tor Project
 website: https://www.torproject.org/
 reports:
+- text: "OONI Community Video"
+  link: "https://www.youtube.com/watch?v=zrclQ2QZjVo"
+- text: "10th Ooniversary: OONI Community (live-streamed presentation)"
+  link: "https://www.youtube.com/watch?v=Co_f8KPBIZM"
+- text: "Circumventing Internet Censorship with Tor (live-streamed presentation)"
+  link: "https://www.youtube.com/watch?v=g6xEfNHkFKY"
+- text: "OONI Probe Tor Snowflake test"
+  link: "https://ooni.org/nettest/tor-snowflake/"
 - text: "OONI Probe Tor test"
   link: "https://ooni.org/nettest/tor/"
+- text: "OONI Probe Vanilla Tor test"
+  link: "https://ooni.org/nettest/vanilla-tor/"
 ---
 
 The Tor Project, Inc, became a 501(c)3 nonprofit in 2006, but the idea of "onion routing" began in the mid 1990s.
