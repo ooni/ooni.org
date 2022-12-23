@@ -2,7 +2,7 @@
 title: "iMAP 2022: New Research Reports on Internet Censorship in 8 Asian countries"
 author: "Maria Xynou"
 date: "2022-12-23"
-tags: ["imap", "censorship", "southeast-asia", "country-kh", "country-hk", "country-id", "country-kh", "country-my", "country-mm", "country-ph", "country-vn"]
+tags: ["imap", "censorship", "southeast-asia", "country-kh", "country-hk", "country-id", "country-th", "country-my", "country-mm", "country-ph", "country-vn"]
 categories: ["report"]
 ---
 
