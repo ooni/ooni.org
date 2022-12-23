@@ -4,6 +4,11 @@ country: Tanzania
 name: Zaina Foundation
 title: Zaina Foundation
 website: https://zainafoundationtz.org/
+reports:
+- text: "Advocacy Assembly online OONI training course (case study in Swahili)"
+  link: "https://advocacyassembly.org/en/courses/63/#/chapter/1/lesson/1"
+- text: "Translation of OONI Probe to Swahili"
+  link: "https://explore.transifex.com/otf/ooniprobe/"
 ---
 
 Founded in 2017, [Zaina Foundation](https://zainafoundationtz.org/) is a non-governmental, non-profit organization registered under NGO’s Act of 2002 with the aim of promoting digital rights in Tanzania. 

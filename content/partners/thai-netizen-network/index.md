@@ -5,6 +5,12 @@ name: Thai Netizen Network
 title: Thai Netizen Network
 website: https://thainetizen.org/
 reports:
+- text: "Thailand - iMAP State of Internet Censorship Report 2022"
+  link: "https://imap.sinarproject.org/reports/2022/imap-state-of-internet-censorship-country-report-2022-thailand/2022-thailand.pdf"
+- text: "OONI Community Video"
+  link: "https://www.youtube.com/watch?v=zrclQ2QZjVo"
+- text: "Internet Monitoring and Action Project (iMAP)"
+  link: "https://imap.sinarproject.org/"
 - text: "The State of Internet Censorship in Thailand"
   link: "https://ooni.org/post/thailand-internet-censorship/"
 ---

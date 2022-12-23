@@ -5,6 +5,8 @@ name: The Citizen Lab
 title: The Citizen Lab
 website: https://citizenlab.ca/
 reports:
+- text: "10th Ooniversary: OONI Community (live-streamed presentation)"
+  link: "https://www.youtube.com/watch?v=Co_f8KPBIZM"
 - text: "No Access: LGBTIQ Website Censorship in Six Countries"
   link: "https://ooni.org/post/2021-no-access-lgbtiq-website-censorship-six-countries/"
 - text: "Citizen Lab test lists"

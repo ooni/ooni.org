@@ -5,7 +5,7 @@ name: Internet Sans Frontières
 title: Internet Sans Frontières
 website: https://internetwithoutborders.org/
 reports:
-- text: "Advocating against Internet shutdowns in West Africa"
+- text: "Advocating against Internet shutdowns in West Africa (live-streamed presentation)"
   link: "https://www.youtube.com/watch?v=mWOFEOG6GBc&t=33s"
 - text: "Mali: Social media disruptions amid 2018 presidential election?"
   link: "https://ooni.org/post/mali-disruptions-amid-2018-election/"

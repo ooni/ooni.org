@@ -5,6 +5,8 @@ name: Psiphon
 title: Psiphon
 website: https://psiphon.ca/
 reports:
+- text: "Circumventing Internet Censorship with Psiphon (live-streamed presentation)"
+  link: "https://www.youtube.com/watch?v=McMkChIx_as"
 - text: "Psiphon Data Engine"
   link: "https://psix.ca/"
 - text: "OONI Probe Psiphon test"

@@ -5,6 +5,12 @@ name: Netalitica
 title: Netalitica
 website: http://netalitica.com/
 reports:
+- text: "OONI Community Video"
+  link: "https://www.youtube.com/watch?v=zrclQ2QZjVo"
+- text: "10th Ooniversary: OONI Community (live-streamed presentation)"
+  link: "https://www.youtube.com/watch?v=Co_f8KPBIZM"
+- text: "Test lists for measuring Internet censorship – applicability, problems and solutions (live-streamed presentation)"
+  link: "https://www.youtube.com/watch?v=XKWGS2VvEAs"
 - text: "Citizen Lab test lists"
   link: "https://github.com/citizenlab/test-lists"
 - text: "The test list methodology"

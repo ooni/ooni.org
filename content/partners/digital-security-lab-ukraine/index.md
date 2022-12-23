@@ -5,7 +5,7 @@ name: Digital Security Lab Ukraine
 title: Digital Security Lab Ukraine
 website: https://medium.com/@cyberlabukraine
 reports:
-- text: "How we tried to establish a nationwide Internet censorship measurement system in Ukraine"
+- text: "How we tried to establish a nationwide Internet censorship measurement system in Ukraine (live-streamed presentation)"
   link: "https://www.youtube.com/watch?v=nIn-r6JxdEM"
 - text: "Research: Internet Service Providers Blocking Fewer Websites from the Sanction List"
   link: "https://medium.com/@cyberlabukraine/research-internet-service-providers-blocking-fewer-websites-from-the-sanction-list-8a1a9b4b8bd9"
