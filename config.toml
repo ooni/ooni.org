@@ -29,6 +29,11 @@ notAlternative = true
 [outputs]
   home = ["HTML", "PageIndex", "RSS"]
 
+[caches]
+[caches.getjson]
+dir = ":cacheDir/:project"
+maxAge = "10s"
+
 [markup]
   [markup.tableOfContents]
     endLevel = 5
