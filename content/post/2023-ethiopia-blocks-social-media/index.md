@@ -25,7 +25,7 @@ and
 
 * [Blocking of Facebook](#blocking-of-facebook)
 
-* [Blocking of Tiktok?](#blocking-of-tiktok)
+* [Blocking of TikTok?](#blocking-of-tiktok)
 
 * [Blocking of Telegram](#blocking-of-telegram)
 
