@@ -187,8 +187,7 @@ of `www.dw.com`), suggesting that ISPs switched to blocking access to
 Wikipedia on 3rd February 2023 (which is what both PTA and [Wikimedia Foundation](https://wikimediafoundation.org/news/2023/02/03/wikimedia-foundation-urges-pakistan-telecommunications-authority-to-restore-access-to-wikipedia-in-pakistan/)
 announced). This was also
 [reported](https://twitter.com/vinifortuna/status/1621648126372085760)
-by Vinicius Fortuna (Lead of Google’s
-[Jigsaw](https://jigsaw.google.com/) team), who analyzed OONI data and
+by Vinicius Fortuna (Engineering lead of Google’s [Jigsaw](https://jigsaw.google.com/) Internet Freedom team), who analyzed OONI data and
 shared these findings on social media.
 
 {{<img src="images/06.png">}}
