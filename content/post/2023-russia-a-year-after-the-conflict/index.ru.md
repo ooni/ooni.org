@@ -23,8 +23,8 @@ categories: ["report"]
 
 *   Блокировку сайтов международных организаций ([Human Rights Watch](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.hrw.org) и [Amnesty International](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-22&time_grain=day&probe_cc=RU&domain=www.amnesty.org));
 
-*   Блокировку российских правозащитных организаций ([Moscow Helsinki Group](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-09-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.mhg.ru));
-*   Блокировку расследовательской журналистики ([Agentura.Ru](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.agentura.ru)) и независимых новостных сайтов ([The Bell](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-01-20&until=2023-02-21&time_grain=day&probe_cc=RU&domain=thebell.io));
+*   Блокировку **российских правозащитных организаций** ([Moscow Helsinki Group](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-09-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.mhg.ru));
+*   Блокировку **расследовательской журналистики** ([Agentura.Ru](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.agentura.ru)) и **независимых новостных сайтов** ([The Bell](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-01-20&until=2023-02-21&time_grain=day&probe_cc=RU&domain=thebell.io));
 *   Блокировку [Instagram](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-22&time_grain=day&probe_cc=RU&domain=www.instagram.com), [SoundCloud](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-09-01&until=2023-02-19&time_grain=day&probe_cc=RU&domain=soundcloud.com) и [Patreon](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-07-01&until=2023-02-19&time_grain=day&probe_cc=RU&domain=www.patreon.com).
 
 Доступ к сайту Tor Project был [временно разблокирован](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2022-12-31&time_grain=day&probe_cc=RU&domain=www.torproject.org) (с 15-го по 28-е июля 2022), также несколько сайтов, прекративших свое существование, были разблокированы (возможно, в рамках «очистки черного списка»).
@@ -99,61 +99,61 @@ categories: ["report"]
 
 ![](images/ooni-russia-2023-image16-rus.png)
 
-График: Новые записи, добавленные в реестр запрещенных сайтов, который ведет Роскомнадзор в 2022 году (распределены по месяцам).
+**График:** Новые записи, добавленные в реестр запрещенных сайтов, который ведет Роскомнадзор в 2022 году (распределены по месяцам).
 
 В ноябре 2022 года Роскомсвобода заметила, что в реестре стали появляться записи без указания органа, потребовавшего внести тот или иной сайт под блокировку. При этом мотивы ограничения доступа к таким сайтам остаются теми же, что есть у Генпрокуратуры — на них власти обнаружили информацию, которая может якобы дискредитировать или содержать фейки о действиях российской армии.
 
 ![](images/ooni-russia-2023-image26-rus.png)
 
-График: Распределение блокировок по ведомствам в 2022 году согласно реестру Роскомсвободы.
+**График:** Распределение блокировок по ведомствам в 2022 году согласно реестру Роскомсвободы.
 
 ### Подцензурные темы, сервисы и сайты
 
-Сайты украинских и других зарубежных медиа
+**Сайты украинских и других зарубежных медиа**
 
 Подобные блокировки начались еще с февраля, и первыми под удар военной цензуры попали сайты украинские новостные сайты и порталы, а также сайт Министерства здравоохранения Украины. Внимание Генпрокуратуры [привлекли](https://roskomsvoboda.org/post/hromadske-blocked/) две ссылки на материалы с сайта популярного украинского интернет-телеканала «Громадське» («Общественное»). Размещенные по ним материалы ведомство посчитало экстремистскими, однако в бан решило отправить сайт полностью. Позднее блокировки в России коснулись три крупных украинских новостных сайта: «Корреспондент.Net», «Украинская правда» и сайт журналиста Дмитрия Гордона. Вместе с ними этим же решением в реестр [были внесены](https://roskomsvoboda.org/post/gp-zablochila-ukrsayty-za-warnews/) ссылки на сайт «Настоящего времени», украинский «Интерфакс», а также портал с  информацией о потерях российской армии. Позднее в реестр запрещённых сайтов украинские порталы и медиа [вносились](https://roskomsvoboda.org/post/gp-blochit-ukr-oficsayty-i-smi/) целыми пачками, под запретом сейчас «Левый берег», «Цензор.Нет», «Новое время» (nv.ua), «Депо», «Газета.UA», «Фокус.UA», «Захід.Net», единое информационное агентство страны «УкрИнформ», UAinfo и др.
 
-Антикоррупционные расследования и ресурсы
+**Антикоррупционные расследования и ресурсы**
 
 С февраля 2022-го года власти продолжили борьбу с публикациями расследований Навального и ФБК. Роскомнадзор [разослал](https://roskomsvoboda.org/post/cenzura-izza-fbk-i-navalny/) изданиям письмо с требованием удалить публикации, в которых речь шла о фильме «Он вам не Димон», материалах о дворце Владимира Путина, квартире главы «Ростеха» Сергея Чемезова на Манежной площади, даче главы «Роскосмоса» Дмитрия Рогозина и других чиновниках. Получение такого письма подтвердили «Медуза», «Дождь», «Эхо Москвы», «Свободные новости» (Саратов), «Весьма» (Магадан), The Village, «Бумага», Znak.com, TJournal и Republic.
 
 Также в феврале под запрет попали [попали](https://t.me/roskomsvoboda/8211) страница для пожертвований ФБК, страницы с расследованиями Навального про семью Симоньян-Кеосаян, депутата Слуцкого и Владимира Соловьева. Все — одним решением Генпрокуратуры. Позднее в реестр [было внесено](https://t.me/roskomsvoboda/8540) еще 7 ссылок с перепечаткой материалов, которые касаются Владимира Путина, Дмитрия Медведева и его жены, Владимира Якунина, Владимира Соловьёва, а также информацией о том, какой они имели общественный резонанс.
 
-VPN сервисы
+**VPN сервисы**
 
 Одной из первых громких блокировок в 2022 году [стало](https://roskomsvoboda.org/post/tunnelbear-nedostupen/) ограничение доступа к сервису TunnelBear. Ссылка на него в реестре находится ещё с 2018, однако до января 2022 года получить доступ помогала опция GhostBear (Make my encrypted data look like regular Internet data) в настройках клиента. При этом решение о блокировке TunnelBear было вынесено еще в 2017 году Дюртюлинским районным судом Республики Башкортостан. В июне жители разных регионов России [начали сообщать](https://t.me/roskomsvoboda/8898) о сбоях в работе ProtonVPN и NordVPN. Помимо них на конец 2022 года заблокированными (или предприняты попытки блокировки): Betternet, Lantern, X-VPN, Cloudflare WARP, Tachyon VPN, PrivateTunnel, VyprVPN, Opera VPN, Hola! VPN, ExpressVPN, KeepSolid VPN Unlimited, Speedify VPN, IPVanish VPN, и др.
 
-Сайты с утекшими персональными данными россиян
+**Сайты с утекшими персональными данными россиян**
 
 Сайты `saverudata.info` и `itarmy.com.ua`, на которых была размещена слитая база данных из «Яндекс.Еды», а затем и других сервисов — Delivery Club, Wildberries, СДЭК, Билайна и др. Решение о блокировке [было принято](https://t.me/roskomsvoboda/8523) 10 марта, однако в [внесены](https://reestr.rublacklist.net/search/?q=2-892%2F2022) в реестр они были только 23 марта, и тогда же доступ к ним начали ограничивать.
 
-Подкасты
+**Подкасты**
 
 Из «Яндекс.Музыки» был удален подкаст русской службы BBC «Что это было». Сам подкаст [был удалён](https://roskomsvoboda.org/post/v-yamu-ne-stalo-cho-eto-bylo/) по требованию Роскомнадзора, который в свою очередь опирается на решение Генпрокуратуры. Сайты самих [BBC](https://reestr.rublacklist.net/record/4090149/) и [«Русской службы Би-би-си»](https://reestr.rublacklist.net/search/?q=bbcrussian.com) ранее уже были заблокированы в России за освещение «спецоперации». Также по требованию Роскомнадзора «Яндекс.Музыка» [заблокировала](https://t.me/roskomsvoboda/9568) подкасты «Что случилось», «Текст недели» и «Сигнал» от «Медузы» и подкаст «Цитаты Свободы» от «Радио Свобода».
 
-Сайты игр и различных сервисов, где были обращения к читателям относительно событий в Украине
+**Сайты игр и различных сервисов, где были обращения к читателям относительно событий в Украине**
 
 [Был заблокирован](https://roskomsvoboda.org/post/stalker2-blocked/) сайт популярной компьютерной игры S.T.A.L.K.E.R. 2: Heart of Chernobyl. На нем Генпрокуратура обнаружила обращение создателей игры к фанатам и подписчикам, в котором говорилось об осуждении так называемой «военной спецоперации». Также с апреля 2022 года в реестре находится один из самых популярных шахматных сайтов [Chess.com](https://www.chess.com/). Внимание Генпрокуратуры [привлекли](https://roskomsvoboda.org/post/block-chess-com-resonance/) две статьи: в одной из них говорилось о политике сайта в связи проводимой российской армией «спецоперацией», во второй — об украинских шахматистах и произошедших с ними событиях.
 
-Сервисы защищенной электронной почты
+**Сервисы защищенной электронной почты**
 
 3 июня 2022-го года был заблокирован немецкий облачный и почтовый сервис [Eclipso](https://reestr.rublacklist.net/search/?q=27-31-2022%2F%D0%A2%D1%80%D0%B5%D0%B1671-22). Он был внесён в реестр по требованию Генпрокуратуры, что означает, что ведомство обнаружило на нём экстремизм, призывы к массовым беспорядкам или «дискредитацию российской армии».
 
 Также был заблокирован швейцарский защищенный почтовый сервис [Swisscows.email](https://roskomsvoboda.org/post/swisscows-email-blocked/). Как и в случае другими блокировками почтовых сервисов, инициатором выступила Генпрокуратура, судя по всему, из-за [сообщений о лжеминированиях](https://www.interfax.ru/russia/850901) отправленных через этот сервис.
 
-Криптообменники и сайты о криптовалютах
+**Криптообменники и сайты о криптовалютах**
 
 4-го июня 2022-го года в реестр [был внесен](https://roskomsvoboda.org/post/forklog-pod-voen-cens/) один из самых популярных в России сайтов и криптовалютах Forklog, позднее — и его дополнительный домен. Решение о блокировке было принято Генпрокуратурой из-за опубликованного обращения к читателям после начала военных действий в Украине. В августе под запрет в России также попали [криптообменники](https://roskomsvoboda.org/post/block-vyvoda-bitka-v-rubli/) и сайты, на которых рассказывалось о том, как обменять биткоины на рубли, заблокированные судом Саратова по иску районной прокуратуры.
 
-Ссылки, связанные с ЛГБТК+-тематикой
+**Ссылки, связанные с ЛГБТК+-тематикой**
 
 [Сайт](https://t.me/roskomsvoboda/9126) «Nuntiare et Recreare», посвященный верующим представителям ЛГБТ различной религиозной и конфессиональной принадлежности, а также сайт музея истории ЛГБТ в России [были заблокированы](https://t.me/roskomsvoboda/9126) в июле 2022-го года. В реестр запрещённых они были внесены по требованию Росмолодежи. После принятия [закона](https://roskomsvoboda.org/post/skrepozakon-1-prinyat/) о запрете ЛГБТ-пропаганды и внесении этой информации в перечень запрещенной к распространению, можно ожидать, что подобных ссылок в реестре станет больше, а ограничивать доступ к ним будет в том числе и Роскомнадзор.
 
-Аниме и мультфильмы
+**Аниме и мультфильмы**
 
 По двум решениям судов в Санкт-Петербурге и Саратове, в январе 2022-го года в реестр [попали](https://t.me/roskomsvoboda/8097) 15 ссылок на «Атаку титанов», «Ад Данте» и «Инуяшики». По решению Калининградского суда в январе были [заблокированы](https://t.me/roskomsvoboda/8127) еще 13 ссылок на аниме «Космос: территория смерти», «Ад Данте» и «Кошачий рай». В мае суды продолжили принимать решения о блокировке [ссылок](https://t.me/roskomsvoboda/8839)  на признанные ранее запрещенными аниме и мультфильмы: «Счастливые лесные друзья», «Князь тьмы с задней парты» и  «Маг-целитель. Новый старт». Ещё 170 ссылок на аниме «Саюки: Перезарядка: Зероин» в июне 2022 [было заблокировано](https://t.me/roskomsvoboda/9054) по иску «ОККО».
 
-Песни, тексты песен и клипы
+**Песни, тексты песен и клипы**
 
 В начале года в реестр были внесены ссылки на фонограммы и тексты запрещенной ранее песни Моргенштерна «Розовое вино 2», в тоже время песня была удалена со всех стриминговых платформ (ВК, Яндекс.Музыка, Spotify, Apple Music) и с Youtube. Ранее музыканта [оштрафовали](https://roskomsvoboda.org/post/rozovoe-vino-2-i-konoplya-zapresheny/) на 100 тысяч рублей за эту же песню по статье о пропаганде наркотиков.
 
@@ -221,7 +221,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image7.png)
 
-Иллюстрация: Логотипы медиа, заблокированных в России.
+**Иллюстрация:** Логотипы медиа, заблокированных в России.
 
 В 2023 году «Медузу», заблокированную еще весной 2022-го года, Генпрокуратура [объявила](https://t.me/roskomsvoboda/10147) нежелательной организацией. Надзорное ведомство посчитало, что данное издание представляет «угрозу основам конституционного строя и безопасности Российской Федерации».
 
@@ -270,18 +270,18 @@ VPN сервисы
 
 Результаты этого исследования ограничены следующими фактами:
 
-*   Временной диапазон, выбранный для анализа. Результаты ограничены результататми тестов [OONI Web Connectivity](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity), собранными в России в период с января 2022 года по февраль 2023 года. Результаты измерений, собранных в другие даты, исключены из этого исследования.
-*   Типы измерений. Выводы ограничены тестом OONI [Web Connectivity](https://ooni.org/nettest/web-connectivity/), тестирующим сайты на предмет цензуры. Результаты [других тестов OONI Probe](https://ooni.org/nettest) исключены из этого исследования.
-*   Тестируемые сайты. В то время как российские пользователи OONI Probe регулярно вносят большой объем измерений, тестирование ограничивается URL-адресами, включенными в 2 [списка тестов Citizen Lab](https://github.com/citizenlab/test-lists/tree/master/lists): [глобальный список](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) (включает сайты, важные для международного контекста) и [российский список](https://github.com/citizenlab/test-lists/blob/master/lists/ru.csv) (включает только сайты релевантные для России). Поскольку эти списки тестируются пользователями [OONI Probe](https://ooni.org/install) и существуют ограничения пропускной способности, они обычно ограничены примерно 1000 URL-адресами. В результате из списков исключены многие другие сайты, заблокированные в России, а выводы нашего исследования ограничиваются проверкой URL-адресов, включенных в эти списки. Учитывая, что списки составляются нашим сообществом, мы признаем предвзятость в отношении того, какие URL-адреса добавляются в списки.
-*   Количество тестирований сайтов. Не все URL-адреса, включенные в [списки для тестирования](https://github.com/citizenlab/test-lists/tree/master/lists), тестируются в России одинаковое количество раз с течением времени. Доступность данных OONI для конкретного сайта зависит от того, в каких сетях и когда его тестировал пользователь [OONI Probe](https://ooni.org/install) в России. В результате протестированные сайты тестировались разное количество раз на протяжении всего периода анализа, что влияет на результаты.
-*   Тестируемые ASN (автономные системы). Хотя тесты OONI Probe регулярно проводятся на многих ASN в России, не все сети тестируются одинаково. Наличие измерений зависит от того, к каким сетям пользователи [OONI Probe](https://ooni.org/install) были подключены при выполнении тестов. В результате объем измерений варьируется в зависимости от ASN на протяжении всего периода анализа, что влияет на результаты.
-*   Следы блокировки. Чтобы определить количество заблокированных доменов в период с января 2022 года по февраль 2023 года и сравнить эти домены с доменами в [реестре блокировок, который ведет Роскомсвобода](https://reestr.rublacklist.net/), мы ограничили наш анализ измерениями, в которых мы могли автоматически подтвердить блокировку на основе знакомых нам [следов блокировки](https://github.com/ooni/blocking-fingerprints). Мы также ограничили наш анализ паттернами, которые мы считали более надежными и свидетельствующими о государственной цензуре. В результате мы исключили многие другие случаи, когда цензура осуществлялась с использованием других механизмов, поскольку каждый из этих случаев требует специального анализа для определения и характеристики блокировки. Однако мы делимся некоторыми из этих случаев (и соответствующим анализом) в разделах «Заметные изменения в блокировках с течением времени».
+*   **Временной диапазон, выбранный для анализа.** Результаты ограничены результататми тестов [OONI Web Connectivity](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity), собранными в России в период с января 2022 года по февраль 2023 года. Результаты измерений, собранных в другие даты, исключены из этого исследования.
+*   **Типы измерений.** Выводы ограничены тестом OONI [Web Connectivity](https://ooni.org/nettest/web-connectivity/), тестирующим сайты на предмет цензуры. Результаты [других тестов OONI Probe](https://ooni.org/nettest) исключены из этого исследования.
+*   **Тестируемые сайты.** В то время как российские пользователи OONI Probe регулярно вносят большой объем измерений, тестирование ограничивается URL-адресами, включенными в 2 [списка тестов Citizen Lab](https://github.com/citizenlab/test-lists/tree/master/lists): [глобальный список](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) (включает сайты, важные для международного контекста) и [российский список](https://github.com/citizenlab/test-lists/blob/master/lists/ru.csv) (включает только сайты релевантные для России). Поскольку эти списки тестируются пользователями [OONI Probe](https://ooni.org/install) и существуют ограничения пропускной способности, они обычно ограничены примерно 1000 URL-адресами. В результате из списков исключены многие другие сайты, заблокированные в России, а выводы нашего исследования ограничиваются проверкой URL-адресов, включенных в эти списки. Учитывая, что списки составляются нашим сообществом, мы признаем предвзятость в отношении того, какие URL-адреса добавляются в списки.
+*   **Количество тестирований сайтов.** Не все URL-адреса, включенные в [списки для тестирования](https://github.com/citizenlab/test-lists/tree/master/lists), тестируются в России одинаковое количество раз с течением времени. Доступность данных OONI для конкретного сайта зависит от того, в каких сетях и когда его тестировал пользователь [OONI Probe](https://ooni.org/install) в России. В результате протестированные сайты тестировались разное количество раз на протяжении всего периода анализа, что влияет на результаты.
+*   **Тестируемые ASN (сети).** Хотя тесты OONI Probe регулярно проводятся на многих ASN в России, не все сети тестируются одинаково. Наличие измерений зависит от того, к каким сетям пользователи [OONI Probe](https://ooni.org/install) были подключены при выполнении тестов. В результате объем измерений варьируется в зависимости от ASN на протяжении всего периода анализа, что влияет на результаты.
+*   **Следы блокировки.** Чтобы определить количество заблокированных доменов в период с января 2022 года по февраль 2023 года и сравнить эти домены с доменами в [реестре блокировок, который ведет Роскомсвобода](https://reestr.rublacklist.net/), мы ограничили наш анализ измерениями, в которых мы могли автоматически подтвердить блокировку на основе знакомых нам [следов блокировки](https://github.com/ooni/blocking-fingerprints). Мы также ограничили наш анализ паттернами, которые мы считали более надежными и свидетельствующими о государственной цензуре. В результате мы исключили многие другие случаи, когда цензура осуществлялась с использованием других механизмов, поскольку каждый из этих случаев требует специального анализа для определения и характеристики блокировки. Однако мы делимся некоторыми из этих случаев (и соответствующим анализом) в разделах «Заметные изменения в блокировках с течением времени».
 
 ## Выводы
 
 ### Заблокированные сайты
 
-Наш анализ результатов тестов [OONI Web Connectivity](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity), проведенных в России с января 2022 по февраль 2023 показывает блокировку 494 доменов соответствующих 28 [категориям сайтов](https://ooni.org/get-involved/contribute-test-lists/#drawing-inspiration-from-30-categories), что можно характеризовать как повсеместный уровень интернет-цензуры в стране.
+Наш анализ результатов тестов [OONI Web Connectivity](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity), проведенных в России с января 2022 по февраль 2023 показывает **блокировку 494 доменов соответствующих 28 [категориям сайтов](https://ooni.org/get-involved/contribute-test-lists/#drawing-inspiration-from-30-categories)**, что можно характеризовать как повсеместный уровень интернет-цензуры в стране.
 
 Поскольку пользователи [OONI Probe](https://ooni.org/install) тестируют ссылки, включенные в тестовые списки Citizen Lab, где каждая ссылка классифицируется на основе одной из [30 стандартизированных кодов категорий](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv), мы использовали такую же категоризацию для каждого из обнаруженных в нашем анализе заблокированных URL-адресов. Заблокированные сайты попадают практически во все категории (28 из 30), включая нелегальный контент (например, [азартные игры](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-19&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&category_code=GMB), [алкоголь и наркотики](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-19&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&category_code=ALDR)), [файлообменные сервисы](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-19&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&category_code=FILE), [ЛГБТК+-сайты](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-19&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&category_code=LGBT), [правозащитные сайты](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-19&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&category_code=HUMR), [сайты политических организаций](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-19&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&category_code=POLR) (например, [сайт Алексея Навального](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-19&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=navalny.com)), а также [сайты с инструментами для обхода цензуры](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-19&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&category_code=ANON) и многие другие.
 
@@ -289,9 +289,9 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image22.png)
 
-График: Категории и количество заблокированных доменов в России с 1-го января 2022-го года по 15 февраля 2023-го года (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-15&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity)).
+**График:** Категории и количество заблокированных доменов в России с 1-го января 2022-го года по 15 февраля 2023-го года (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-15&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity)).
 
-Примечательно, что среди тестируемых сайтов, сайты медиа блокировались чаще всего (139 заблокированных доменов новостных медиа), в том числе сайты новостных медиа, [заблокированные сразу после начала конфликта в Украине](https://ooni.org/post/2022-russia-blocks-amid-ru-ua-conflict/#blocking-of-news-media-websites) в прошлом году. Последние данные OONI из России говорят о том, что эти [блокировки медиа продолжаются](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-19&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&axis_y=domain&test_name=web_connectivity&category_code=NEWS). Вслед за СМИ, чаще всего блокируются сайты для обмена файлами и сайты с инструментами обхода блокировок (46 и 43 домена заблокированы в каждой категории соответственно). Также [продолжаются](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-19&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&axis_y=domain&test_name=web_connectivity) блокировки сайтов, посвященные азартным играм, социальных сетей, сайтов, посвященным правам человека, ЛГБТК+ и политических сайтов.
+Примечательно, что среди тестируемых сайтов, **сайты медиа блокировались чаще всего** (139 заблокированных доменов новостных медиа), в том числе сайты новостных медиа, [заблокированные сразу после начала конфликта в Украине](https://ooni.org/post/2022-russia-blocks-amid-ru-ua-conflict/#blocking-of-news-media-websites) в прошлом году. Последние данные OONI из России говорят о том, что эти [блокировки медиа продолжаются](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-19&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&axis_y=domain&test_name=web_connectivity&category_code=NEWS). Вслед за СМИ, чаще всего блокируются сайты для обмена файлами и сайты с инструментами обхода блокировок (46 и 43 домена заблокированы в каждой категории соответственно). Также [продолжаются](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-19&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&axis_y=domain&test_name=web_connectivity) блокировки сайтов, посвященные азартным играм, социальных сетей, сайтов, посвященным правам человека, ЛГБТК+ и политических сайтов.
 
 Важно заметить, что на эти выводы влияют типы URL-адресов, включенных в сп[иски для тестирования](https://github.com/citizenlab/test-lists/tree/master/lists), так и объем измерений для каждого из сайтов, собранный в течение последнего года. Выводы основаны на URL-адресах, включенных в курируемые сообществом [списки для тестирования Citizen Lab](https://github.com/citizenlab/test-lists/tree/master/lists), и мы признаем, что существует предвзятость в отношении того, какие URL-адреса добавляются в списки. Более того, эти URL-адреса не получили одинаковое количество измерений на протяжении всего периода тестирования, а также не были протестированы одинаковое количество раз на всех российских ASN. Это означает, что хотя мы обнаружили, что сайты медиа блокируются чаще всего, это не обязательно означает, что сайты медиа на самом деле блокируются больше, чем сайты других категорий в России.
 
@@ -299,7 +299,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image9.png)
 
-График: Количество тестов OONI Probe по категориям сайтов (на основе URL-адресов, включенных в [списки для тестирования Citizen Lab](https://github.com/citizenlab/test-lists/tree/master/lists)) в России с января 2022 г. по январь 2023 г. (показаны только домены каждой категории, которые были протестированы не менее 1000 раз за время исследования).
+**График:** Количество тестов OONI Probe по категориям сайтов (на основе URL-адресов, включенных в [списки для тестирования Citizen Lab](https://github.com/citizenlab/test-lists/tree/master/lists)) в России с января 2022 г. по январь 2023 г. (показаны только домены каждой категории, которые были протестированы не менее 1000 раз за время исследования).
 
 Стоит подчеркнуть, что наши выводы об общем количестве заблокированных доменов в России за последний год ограничены случаями, которые мы смогли автоматически подтвердить на основе [следов блокировок](https://github.com/ooni/blocking-fingerprints), которые свидетельствуют о государственной цензуре. В результате мы исключаем из этого подсчета многие другие случаи блокировки, которые были реализованы с использованием других методов. Каждый из этих случаев требует специального анализа для характеристики блокировки (хотя точное подтверждение таких случаев блокировки является хорошо [задокументированной проблемой](https://censoredplanet.org/assets/censorship-data-analysis.pdf)), который в настоящее время сложно масштабировать для тысяч URL-адресов, тестируемых в России.
 
@@ -321,7 +321,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image12.png)
 
-График: тесты OONI Probe `www.hrw.org` на 411 сетях в России с 1 января по 20 февраля 2023  (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.hrw.org)).
+**График:** тесты OONI Probe `www.hrw.org` на 411 сетях в России с 1 января по 20 февраля 2023  (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.hrw.org)).
 
 Приведенная выше диаграмма показывает измерения OONI, собранные при тестировании www.hrw.org на [411 сетях](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.hrw.org) в России в период с 1 января 2022 г. по 20 февраля 2023 г. Как видно, в начале года www.hrw.org был практически всегда доступен во всех протестированных сетях и начал показывать аномалии только 17 апреля 2022 года, что совпадает с [датой блокировки](https://reestr.rublacklist.net/en/record/4270594/), указанной в реестре Роскомнадзора.
 
@@ -329,13 +329,13 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image21.png)
 
-График: ASN (сети), на которых представлено наибольшее количество аномалий (более 1200 аномалий) при тестировании `www.hrw.org` в России с 1 января 2022 по 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&axis_y=probe_asn&domain=www.hrw.org)).
+**График:** ASN (сети), на которых представлено наибольшее количество аномалий (более 1200 аномалий) при тестировании `www.hrw.org` в России с 1 января 2022 по 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&axis_y=probe_asn&domain=www.hrw.org)).
 
 Основываясь на уже известных нам [следах блокировок](https://github.com/ooni/blocking-fingerprints/), мы смогли автоматически подтвердить блокировку `www.hrw.org` на следующих сетях в России.
 
 ![](images/ooni-russia-2023-image17.png)
 
-График: ASN (сети), где блокировка `www.hrw.org` в России была автоматически подтверждена  is automatically confirmed based on fingerprints between 1st January 2022 to 20th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&axis_y=probe_asn&domain=www.hrw.org)).
+**График:** ASN (сети), где блокировка `www.hrw.org` в России была автоматически подтверждена  is automatically confirmed based on fingerprints between 1st January 2022 to 20th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&axis_y=probe_asn&domain=www.hrw.org)).
 
 #### Блокировка Amnesty International
 
@@ -343,7 +343,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image36.png)
 
-График: тесты OONI Probe сайта Amnesty International’s website (`www.amnesty.org`) на 373 ASN (сетях) в России с 1 января 2022 до 21 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.amnesty.org)).
+**График:** тесты OONI Probe сайта Amnesty International’s website (`www.amnesty.org`) на 373 ASN (сетях) в России с 1 января 2022 до 21 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.amnesty.org)).
 
 На графике выше собраны результаты тестов `www.amnesty.org` на [373 ASN](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.amnesty.org) (сетях) в России в период с 1 января 2022 года по 21 февраля 2023 года. Как видно, `www.amnesty.org` раньше был доступен в тестируемых сетях в России, и только 27 января 2023 года [начал проявлять признаки блокировки](https://explorer.ooni.org/search?since=2023-01-27&until=2023-01-28&probe_cc=RU&test_name=web_connectivity&domain=www.amnesty.org&failure=false), что совпадает с [датой блокировки](https://reestr.rublacklist.net/en/record/5368773/), указанной в реестре Роскомнадзора.
 
@@ -351,7 +351,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image30.png)
 
-График: ASN (сети) в России, где представлено наибольшее число аномалий (более 50) за время тестирования `www.amnesty.org` с 1 января 2022 по 21 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.amnesty.org)).
+**График:** ASN (сети) в России, где представлено наибольшее число аномалий (более 50) за время тестирования `www.amnesty.org` с 1 января 2022 по 21 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.amnesty.org)).
 
 Однако это не первый раз, когда [доступ к сайту Amnesty International был заблокирован](https://reestr.rublacklist.net/en/?q=amnesty) в России.
 
@@ -361,13 +361,13 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image5.png)
 
-График: тесты OONI Probe сайта `eurasia.amnesty.org` на 418 ASN (сетях) в России с 1 января 2022 по 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=eurasia.amnesty.org)).
+**График:** тесты OONI Probe сайта `eurasia.amnesty.org` на 418 ASN (сетях) в России с 1 января 2022 по 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=eurasia.amnesty.org)).
 
 К сожалению, `www.amnesty.org.ru` не был ранее включен в список сайтов, тестируемых пользователями [OONI Probe](https://ooni.org/install) в России («[список сайтов для тестирования в России](https://github.com/citizenlab/test-lists/blob/master/lists/ru.csv)»), и был [добавлен](https://github.com/citizenlab/test-lists/pull/1227) только 20 февраля 2023 года. Таким образом, [данные OONI](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-22&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.amnesty.org.ru) о тестировании `www.amnesty.org.ru` доступны только с 20 февраля 2023 года и, похоже, подтверждают блокировку.
 
 ![](images/ooni-russia-2023-image1.png)
 
-График: тесты OONI Probe сайта  `amnesty.org.ru` в России, с 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-22&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.amnesty.org.ru)). 
+**График:** тесты OONI Probe сайта  `amnesty.org.ru` в России, с 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-22&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.amnesty.org.ru)). 
 
 За этими блокировками последовало [закрытие московского офиса Amnesty International](https://www.amnesty.org/en/latest/news/2022/04/russia-authorities-close-down-amnesty-internationals-moscow-office/) в апреле 2022 года, а также закрытие офисов других международных некоммерческих организаций (включая [Human Rights Watch](https://www.hrw.org/news/2022/04/08/russia-government-shuts-down-human-rights-watch-office)).
 
@@ -381,7 +381,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image29.png)
 
-График: тесты OONI Probe сайта `www.mhg.ru` на 169 ASN (сетях) в России с 1 сентября 2022 по 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-09-01&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.mhg.ru)).
+**График:** тесты OONI Probe сайта `www.mhg.ru` на 169 ASN (сетях) в России с 1 сентября 2022 по 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-09-01&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.mhg.ru)).
 
 На приведенном выше графике собраны данные результаты тестов OONI сайта `[www.mhg.ru](http://www.mhg.ru)` на [169 ASN](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-09-01&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.mhg.ru) в России в период с 1 сентября 2022 года по 20 февраля 2023 года. Как можно заметить, `www.mhg.ru` раньше был в основном доступен на тестируемых в России сетях, и [только 7 февраля 2023 года начал проявлять признаки блокировки](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-22&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.mhg.ru) – что соответствует [дате блокировки](https://reestr.rublacklist.net/en/record/5418006/), указанной в реестре Роскомнадзора.
 
@@ -389,7 +389,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image24.png)
 
-График: российские ASN (сети), на которых представлено наибольшее количество аномалий (более 30) при тестировании сайта `www.mhg.ru` с 22 января 2023 по 21 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-22&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.mhg.ru)).
+**График:** российские ASN (сети), на которых представлено наибольшее количество аномалий (более 30) при тестировании сайта `www.mhg.ru` с 22 января 2023 по 21 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-22&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.mhg.ru)).
 
 #### Блокировка сайта Agentura.Ru
 
@@ -399,7 +399,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image35.png)
 
-График: тесты OONI Probe сайта `www.agentura.ru` на 380 ASN (сетях) в России с 1 января 2022 по 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.agentura.ru)).
+**График:** тесты OONI Probe сайта `www.agentura.ru` на 380 ASN (сетях) в России с 1 января 2022 по 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.agentura.ru)).
 
 На приведенном выше графике собраны результаты тестов OONI сайта `www.agentura.ru` на [380 ASN](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.agentura.ru) в России в период с 1 января 2022 года по 20 февраля 2023 года. Хотя сайт раньше был доступен в сетях, на которых проводились тесты (хотя и демонстрировал начальный всплеск аномалий в начале марта 2022 года), мы наблюдаем, что блокировка в большинстве тестируемых сетей была осуществлена в России [с 13 марта 2022 года](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-03-01&until=2022-03-31&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.agentura.ru), что совпадает с [датой блокировки](https://reestr.rublacklist.net/en/record/4139167/), указанной в реестре Роскомнадзора.
 
@@ -407,13 +407,13 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image23.png)
 
-График: ASN (сети в России, где большинство измерений (более 200) подтверждают блокировку сайта `www.agentura.ru` с 1 января по 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.agentura.ru)).
+**График:** ASN (сети в России, где большинство измерений (более 200) подтверждают блокировку сайта `www.agentura.ru` с 1 января по 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.agentura.ru)).
 
 По нашим наблюдениям, блокировка была осуществлена почти равномерно по всем сетям в России примерно 13 марта 2022 года. Во многих из этих случаев мы можем [автоматически подтвердить блокировку](https://explorer.ooni.org/search?since=2022-03-13&until=2023-02-21&probe_cc=RU&test_name=web_connectivity&domain=www.agentura.ru&failure=true&only=confirmed) `www.agentura.ru`, поскольку [DNS-запросы вернули IP-адреса](https://explorer.ooni.org/measurement/20230220T232729Z_webconnectivity_RU_41754_n1_wURIcRPRIdkUdwUc?input=http%3A%2F%2Fwww.agentura.ru%2F) (например, `188.186.154.88`), на которых размещены блокирующие страницы (например, следующие), или блокирующая страница подавалась через прокси.
 
 ![](images/ooni-russia-2023-image8.png)
 
-Иллюстрация: Страница блокировки, размещенная на IP-адресе `188.186.154.88` и полученная по DNS-запросу `www.agentura.ru` (источник: [OONI data](https://explorer.ooni.org/measurement/20230220T232729Z_webconnectivity_RU_41754_n1_wURIcRPRIdkUdwUc?input=http%3A%2F%2Fwww.agentura.ru%2F)).
+**Иллюстрация:** Страница блокировки, размещенная на IP-адресе `188.186.154.88` и полученная по DNS-запросу `www.agentura.ru` (источник: [OONI data](https://explorer.ooni.org/measurement/20230220T232729Z_webconnectivity_RU_41754_n1_wURIcRPRIdkUdwUc?input=http%3A%2F%2Fwww.agentura.ru%2F)).
 
 #### Блокировка сайта The Bell
 
@@ -425,13 +425,13 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image19.png)
 
-График: тесты OONI Probe сайте The Bell (`thebell.io`) на 97 ASN (сетях) в России с 20 января 2023 по 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-20&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=thebell.io)).
+**График:** тесты OONI Probe сайте The Bell (`thebell.io`) на 97 ASN (сетях) в России с 20 января 2023 по 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-20&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=thebell.io)).
 
 Приведенный выше график показывает тесты OONI сайта `thebell.io` на [97 ASN](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-20&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=thebell.io) в России в период с 20 января 2023 года по 20 февраля 2023 года. В течение всего этого периода тестирование `thebell.io` было успешным на большинстве тестируемых сетей, и только с 17 февраля 2023 года и далее можно заметить увеличение количества аномалий. Разбивка измерений по каждой сети показывает, что аномалии [возникли сразу в нескольких сетях](https://explorer.ooni.org/search?since=2023-02-17&until=2023-02-18&probe_cc=RU&test_name=web_connectivity&domain=thebell.io&failure=true&only=anomalies), на следующей диаграмме представлены ASN, где собрано самое большое количество аномалий.
 
 ![](images/ooni-russia-2023-image4.png)
 
-График: ASN (сети), где было собрано наибольшее количество аномалий при тестировании сайта `thebell.io` с помощью OONI Probe в России с 20 января 2023 по 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-20&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=thebell.io)).
+**График:** ASN (сети), где было собрано наибольшее количество аномалий при тестировании сайта `thebell.io` с помощью OONI Probe в России с 20 января 2023 по 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-20&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=thebell.io)).
 
 Тот факт, что `thebell.io` ранее был доступен в России и начал показывать аномалии во многих сетях с 17 февраля 2023 года (когда `thebell.io` был [добавлен](https://reestr.rublacklist.net/en/record/5483370/) в российский реестр блокировок), является сильным сигналом о присутствии блокировки.
 
@@ -439,7 +439,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image31.png)
 
-График: Ошибки в измерениях, наблюдаемые при тестировании `thebell.io` на различных ASN (сетях) в России с 17 февраля 2022 по 21 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-02-17&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=thebell.io)).
+**График:** Ошибки в измерениях, наблюдаемые при тестировании `thebell.io` на различных ASN (сетях) в России с 17 февраля 2022 по 21 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-02-17&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=thebell.io)).
 
 #### Блокировка украинских новостных изданий
 
@@ -449,7 +449,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image6.png)
 
-График: тесты OONI Probe сайта Hromadske (`hromadske.ua`) на 402 ASN (сетях) в России с 1 января 2022 по 18 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=hromadske.ua)).
+**График:** тесты OONI Probe сайта Hromadske (`hromadske.ua`) на 402 ASN (сетях) в России с 1 января 2022 по 18 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=hromadske.ua)).
 
 На приведенном выше графике собраны результаты тестов OONI сайта `hromadske.ua`, проведенных в период с 1 января 2022 года по 18 февраля 2023 года на [402 ASN](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=hromadske.ua) в России. Мы видим, что хотя ранее сайт `hromadske.ua` был доступен во всех протестированных сетях, он начал демонстрировать большое количество аномалий при тестировании начиная с 7 февраля 2022 года, за две недели до начала российского вторжения в Украину. Эти [аномалии](https://explorer.ooni.org/search?since=2022-02-07&until=2023-02-19&probe_cc=RU&test_name=web_connectivity&domain=hromadske.ua&failure=true&only=anomalies) сохраняются до сих пор (при этом большинство измерений почти во всех протестированных сетях приводят к аномалиям), что является сильным сигналом блокировки.
 
@@ -457,7 +457,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image34.png)
 
-График: Ошибки в измерениях, наблюдаемые при тестировании `hromadske.ua` на различных ASN (сетях) в России с 7 февраля по 18 февраля 2022 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-02-07&until=2023-02-18&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=hromadke.ua)).
+**График:** Ошибки в измерениях, наблюдаемые при тестировании `hromadske.ua` на различных ASN (сетях) в России с 7 февраля по 18 февраля 2022 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-02-07&until=2023-02-18&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=hromadke.ua)).
 
 О блокировке Hromadske в то время также [сообщила](https://roskomsvoboda.org/post/hromadske-blocked/) "Роскомсвобода". Hromadske [объяснил](https://hromadske.ua/ru/posts/v-rossii-zablokirovali-sajt-hromadske-prichina-material-ob-arestah-krymskih-tatar), что блокировка была осуществлена для ограничения доступа к статье, освещающей аресты крымских татар. Но поскольку сайт размещен на HTTPS, Роскомнадзору не удалось ограничить блокировку двумя страницами, и [был заблокирован доступ ко всему сайту](https://imi.org.ua/en/news/russia-blocked-hromadske-and-ekonomichna-pravda-i43749). Постановление суда о блокировке всего домена (номер судебного приказа Генеральной прокуратуры "27-31-2020/Ид2145-22") [было вынесено только через несколько недель](https://reestr.rublacklist.net/ru/record/4105350/) (24 февраля 2022 года).
 
@@ -469,7 +469,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image32.png)
 
-График: тесты OONI Probe сайта Instagram (`www.instagram.com`) на 797 ASN (сетях) в России с 1 января 2022 по 21 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-22&time_grain=day&probe_cc=RU&domain=www.instagram.com)).
+**График:** тесты OONI Probe сайта Instagram (`www.instagram.com`) на 797 ASN (сетях) в России с 1 января 2022 по 21 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-22&time_grain=day&probe_cc=RU&domain=www.instagram.com)).
 
 На приведенном выше графике собраны результаты тестов OONI сайта `www.instagram.com` на [797 ASN](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.instagram.com) в России в период с 1 января 2022 года по 21 февраля 2023 года. Как видно, `www.instagram.com` был доступен в протестированных сетях до дня блокировки, и только 13 марта 2022 года начал показывать большое количество аномалий – что совпадает с [датой блокировки](https://reestr.rublacklist.net/en/record/4138821/), указанной в официальном реестре. Большинство последующих измерений продолжают показывать аномалии, демонстрируя, что Instagram остается заблокированным в большинстве протестированных сетей в России.
 
@@ -477,7 +477,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image10.png)
 
-График: ASN (сети) в России, где блокировка Instagram (`www.instagram.com`) подтверждается автоматически на основании известных следов блокировки (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.instagram.com)).
+**График:** ASN (сети) в России, где блокировка Instagram (`www.instagram.com`) подтверждается автоматически на основании известных следов блокировки (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.instagram.com)).
 
 #### Возможная блокировка YouTube
 
@@ -485,13 +485,13 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image13.png)
 
-График: тесты OONI Probe сайта  YouTube (`www.youtube.com`) на сети AS8359 в России с 1 ноября 2022 по 19 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-11-01&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.youtube.com)).
+**График:** тесты OONI Probe сайта  YouTube (`www.youtube.com`) на сети AS8359 в России с 1 ноября 2022 по 19 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-11-01&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.youtube.com)).
 
 При изучении [аномальных данных](https://explorer.ooni.org/search?since=2022-11-01&until=2023-02-19&failure=false&domain=www.youtube.com&probe_cc=RU&probe_asn=AS8359&only=anomalies), собранных в результате тестирования YouTube на сети AS8359, мы видим, что тесты показывают [ошибки соединения](https://explorer.ooni.org/measurement/20230217T085223Z_webconnectivity_RU_8359_n1_iFt3pIOF0dnCFAjq?input=https%3A%2F%2Fwww.youtube.com%2F), что свидетельствует о блокировке сервиса. Когда мы наблюдаем ошибку соединения, это всегда происходит сразу после сообщения ClientHello во время рукопожатия TLS. На следующем графике представлена разбивка типов сбоев, наблюдаемых в ходе тестирования, и демонстрирующая всплеск сбросов соединения, начавшийся 5 декабря 2022 года.
 
 ![](images/ooni-russia-2023-image11.png)
 
-График: Типы ошибок, наблюдаемых в результатах тестов OONI относящихся к сайту YouTube (`www.youtube.com`) на сети AS8359 в России с 1 июля 2022 по 1 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/search?since=2022-11-01&until=2023-02-19&failure=false&domain=www.youtube.com&probe_cc=RU&probe_asn=AS8359)).
+**График:** Типы ошибок, наблюдаемых в результатах тестов OONI относящихся к сайту YouTube (`www.youtube.com`) на сети AS8359 в России с 1 июля 2022 по 1 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/search?since=2022-11-01&until=2023-02-19&failure=false&domain=www.youtube.com&probe_cc=RU&probe_asn=AS8359)).
 
 Метрики, отображаемые на приведенном выше графике, агрегируются с разрешением, которое больше, чем при измерении OONI. Это означает, что мы считаем метрику один раз для каждого отдельного TLS-рукопожатия или HTTP запроса, который был выполнен при тестировании.
 
@@ -499,7 +499,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image18.png)
 
-График: Процент ошибок, наблюдаемых во время тестов OONI относящихся к сайту YouTube (`www.youtube.com`) на сети AS8359 в России с 1 июля 2022 по 1 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/search?since=2022-11-01&until=2023-02-19&failure=false&domain=www.youtube.com&probe_cc=RU&probe_asn=AS8359)).
+**График:** Процент ошибок, наблюдаемых во время тестов OONI относящихся к сайту YouTube (`www.youtube.com`) на сети AS8359 в России с 1 июля 2022 по 1 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/search?since=2022-11-01&until=2023-02-19&failure=false&domain=www.youtube.com&probe_cc=RU&probe_asn=AS8359)).
 
 Тем не менее, в тестируемый период мы наблюдаем частоту отказов, которая иногда превышает 50%, что позволяет нам предположить, что это могло оказать значительное влияние на доступность сервиса YouTube для пользователей этой сети.
 
@@ -513,7 +513,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image33.png)
 
-График: тесты OONI Probe сайта SoundCloud (`soundcloud.com`) на 133 ASN (сетях) в России с 1 сентября по 18 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-09-01&until=2023-02-19&time_grain=day&probe_cc=RU&domain=soundcloud.com)).
+**График:** тесты OONI Probe сайта SoundCloud (`soundcloud.com`) на 133 ASN (сетях) в России с 1 сентября по 18 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-09-01&until=2023-02-19&time_grain=day&probe_cc=RU&domain=soundcloud.com)).
 
 На приведенном выше графике собраны результаты тестов OONI сайта `soundcloud.com` на [133 ASN](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-09-01&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=soundcloud.com) в России в период с 1 сентября 2022 года по 18 февраля 2023 года. Мы видим, что хотя раньше сайт `soundcloud.com был доступен во всех тестируемых сетях, с 1 октября 2022 года результаты многих тестов начали показывать большое количество аномалий. Эти [аномалии](https://explorer.ooni.org/search?since=2022-10-01&until=2023-02-19&probe_cc=RU&test_name=web_connectivity&domain=soundcloud.com&failure=true&only=anomalies) сохраняются до сих пор (при этом большинство измерений почти во всех протестированных сетях приводят к аномалиям), что является сильным сигналом блокировки.
 
@@ -521,7 +521,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image14.png)
 
-График: Ошибки измерений, наблюдаемые при тестировании сайта `soundcloud.com` на разных ASN (сетях) в России (включены только ASN, где было собрано более 100 измерений) с 1 октября до 18 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-10-01&until=2023-02-18&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=soundcloud.com)).
+**График:** Ошибки измерений, наблюдаемые при тестировании сайта `soundcloud.com` на разных ASN (сетях) в России (включены только ASN, где было собрано более 100 измерений) с 1 октября до 18 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-10-01&until=2023-02-18&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=soundcloud.com)).
 
 #### Блокировка Patreon
 
@@ -531,13 +531,13 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image2.png)
 
-График: тесты OONI Probe сайта Patreon (`www.patreon.com`) на 352 ASN (сетях) в России с 1 июля 2022 по 18 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-07-01&until=2023-02-19&time_grain=day&probe_cc=RU&domain=www.patreon.com)).
+**График:** тесты OONI Probe сайта Patreon (`www.patreon.com`) на 352 ASN (сетях) в России с 1 июля 2022 по 18 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-07-01&until=2023-02-19&time_grain=day&probe_cc=RU&domain=www.patreon.com)).
 
 На приведенном выше графике собраны данные результаты тестов OONI сайта `www.patreon.com` на [352 ASN](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-07-01&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.patreon.com) в России в период с 1 июля 2022 года по 18 февраля 2023 года. Мы видим, что хотя раньше `www.patreon.com` был доступен во всех протестированных сетях, с 6 августа 2022 года среди тестов этого сайта стало появляться большое количество аномалий. Эти [аномалии](https://explorer.ooni.org/search?since=2022-08-01&until=2023-02-19&probe_cc=RU&test_name=web_connectivity&domain=www.patreon.com&failure=true&only=anomalies) сохраняются до сих пор (большинство тестов почти во всех протестированных сетях приводят к аномалиям), что является сильным сигналом блокировки. Анализируя [аномальные данные](https://explorer.ooni.org/search?since=2022-08-01&until=2023-02-19&probe_cc=RU&test_name=web_connectivity&domain=www.patreon.com&failure=true&only=anomalies), мы видим, что интернет-провайдеры в России блокировали доступ к Patreon, используя различные методы цензуры. На следующей диаграмме представлена разбивка конкретных ошибок, наблюдаемых на протестированных ASN.
 
 ![](images/ooni-russia-2023-image27.png)
 
-График: Ошибки в измерениях, наблюдаемые при тестировании сайта `www.patreon.com` на различных ASN (сетях) в России с 6 августа 2022 по 18 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-08-06&until=2023-02-18&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.patreon.com)).
+**График:** Ошибки в измерениях, наблюдаемые при тестировании сайта `www.patreon.com` на различных ASN (сетях) в России с 6 августа 2022 по 18 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-08-06&until=2023-02-18&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.patreon.com)).
 
 #### Временная разблокировка сайта Tor Project
 
@@ -547,7 +547,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image28.png)
 
-График: тесты OONI Probe сайта `www.torproject.org` на 358 ASN (сетях) в России с 1 января 2022 по 31 декабря 2022 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2022-12-31&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.torproject.org)).
+**График:** тесты OONI Probe сайта `www.torproject.org` на 358 ASN (сетях) в России с 1 января 2022 по 31 декабря 2022 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2022-12-31&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.torproject.org)).
 
 На приведенном выше графике собраны результаты тестов OONI сайта `www.torproject.org`, проведенных в период с 1 января 2022 года по 31 декабря 2022 года на [358 ASN](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2022-12-31&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.torproject.org) в России. Хотя подавляющее большинство измерений в течение всего периода тестирования являются аномальными (что свидетельствует о блокировке), [большинство измерений в период с 15 по 28 июля 2022 года были успешными](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-07-01&until=2022-07-31&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.torproject.org), что говорит о том, что доступ к `www.torproject.org` был временно разблокирован в эти даты.
 
@@ -555,7 +555,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image25.png)
 
-График: Разбивка тестов OONI Probe сайта `[www.torproject.org](http://www.torproject.org)` по ASN в России с 1 июля 2022 по 1 сентября 2022 (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-07-01&until=2022-09-01&time_grain=day&probe_cc=RU&axis_y=probe_asn&domain=www.torproject.org)).
+**График:** Разбивка тестов OONI Probe сайта `[www.torproject.org](http://www.torproject.org)` по ASN в России с 1 июля 2022 по 1 сентября 2022 (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-07-01&until=2022-09-01&time_grain=day&probe_cc=RU&axis_y=probe_asn&domain=www.torproject.org)).
 
 По данным [Роскомсвободы](https://roskomsvoboda.org/post/the-tor-project-unblocked/), которая помогла отменить решение Роскомнадзора о блокировке, в мае 2022 года суд вынес решение в пользу разблокировки доступа к сайту Tor Project. Однако сайт был разблокирован только через несколько месяцев, поскольку правило фильтрации для \*.torproject.org [было удалено из реестра блокировок 14 июля 2022 года](https://reestr.rublacklist.net/en/record/3845366/). После очередного решения суда о возобновлении блокировки, фильтр для блокировки `www.torproject.org` был [вновь добавлен в реестр](https://reestr.rublacklist.net/en/record/4661526/) 29 июля 2022 года. Время [разблокировки и блокировки](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-07-01&until=2022-07-31&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.torproject.org) подтверждается данными OONI.
 
@@ -565,7 +565,7 @@ VPN сервисы
 
 ![](images/ooni-russia-2023-image20.png)
 
-График: тесты OONI Probe сайта `deeprism.com` на 411 ASN (сетях) в России с 1 января 2022 по 21 января 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-01-21&time_grain=day&probe_cc=RU&domain=deeprism.com)). 
+**График:** тесты OONI Probe сайта `deeprism.com` на 411 ASN (сетях) в России с 1 января 2022 по 21 января 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-01-21&time_grain=day&probe_cc=RU&domain=deeprism.com)). 
 
 На приведенном выше графике собраны результаты тестов OONI сайта `deeprism.com`, проведенных в период с 1 января 2022 года по 21 января 2023 года в России на [411 ASN](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-01-21&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=deeprism.com). Как можно заметить, блокировка была реализована до начала вторжения России в Украину и, по-видимому, была разблокирована в начале июня 2022 года, поскольку большинство последующих измерений были успешными. Это подтверждает [российский реестр блокировок](https://reestr.rublacklist.net/en/record/3123553/), который показывает, что сайт был первоначально заблокирован 1 апреля 2021 года, а разблокирован 2 июня 2022 года.
 
@@ -577,13 +577,13 @@ VPN сервисы
 
 Для этого мы сравнили 494 домена, блокировку которых мы автоматически определили на основе анализа данных OONI, с доменами, которые были добавлены в [реестр блокировок Роскомнадзора](https://reestr.rublacklist.net/en/) за последний год.
 
-Мы обнаружили 48 заблокированных доменов (блокировки подтвержденные данными OONI), которые не включены в [официальный реестр](https://reestr.rublacklist.net/en/) блокировок России. Список этих 48 доменов (вместе с соответствующими измерениями OONI) доступен в этом [CSV](/post/2023-russia-a-year-after-the-conflict/2023-02-21-russia-blocked-not-in-list.csv).
+Мы обнаружили **48 заблокированных доменов** (блокировки подтвержденные данными OONI), которые не включены в [официальный реестр](https://reestr.rublacklist.net/en/) блокировок России. Список этих 48 доменов (вместе с соответствующими измерениями OONI) доступен в этом [CSV](/post/2023-russia-a-year-after-the-conflict/2023-02-21-russia-blocked-not-in-list.csv).
 
 На следующем графике мы приводим разбивку заблокированных, но не включенных в [российский реестр блокировок](https://reestr.rublacklist.net/en/), доменов по категориям (на основе [стандартизированных кодов категорий Citizen Lab](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv)).
 
 ![](images/ooni-russia-2023-image3.png)
 
-График: Количество и категории заблокированных согласно данным OONI доменов в период с января 2022 по февраль 2023, не внесенных в официальный реестр Роскомнадзора
+**График:** Количество и категории заблокированных согласно данным OONI доменов в период с января 2022 по февраль 2023, не внесенных в официальный реестр Роскомнадзора
 
 Заблокированные домены, не внесенные в официальный реестр, также включают три доменных имени, используемых сервисом Twitter:
 
@@ -601,7 +601,7 @@ video.twimg.com
 
 ![](images/ooni-russia-2023-image15.png)
 
-График: тесты OONI Probe `ajax.aspnetcdn.com` на 325 ASN (сетях) в России с 1 января 2022 по 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=ajax.aspnetcdn.com)).
+**График:** тесты OONI Probe `ajax.aspnetcdn.com` на 325 ASN (сетях) в России с 1 января 2022 по 20 февраля 2023 (источник: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=ajax.aspnetcdn.com)).
 
 Этот случай не включен в наш список 48 заблокированных доменов, поскольку блокировка не была реализована через страницу блокировки, и мы не смогли автоматически обнаружить ее. Мы проанализировали этот случай вручную и обнаружили, что соединения с `ajax.aspnetcdn.com` выдавали [ошибку соединения](https://explorer.ooni.org/measurement/20230128T060600Z_webconnectivity_RU_12389_n1_jmdWpzUh4DfqG0Z4?input=https%3A%2F%2Fajax.aspnetcdn.com%2Fajax%2F4.5.2%2F1%2FMicrosoftAjax.js) в нескольких сетях. Хотя блокировка, похоже, не продолжается в проверенных сетях сейчас, стоит отметить, что блокировка популярной CDN может привести к эффекту домино и сопутствующему ущербу. На практике блокировка `ajax.aspnetcdn.com` приводит к тому, что многие сайты, использующие ее для доставки JS-файлов (например, jQuery), вероятно, сломаются.
 
