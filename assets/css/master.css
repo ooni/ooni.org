@@ -565,7 +565,13 @@ header .wordmark {
 }
 
 .blog-summary p.title {
+  font-size: 1.5rem;
   margin-bottom: 0.2rem;
+}
+
+.blog-summary p.title-translation {
+    margin: 0;
+    padding: 0;
 }
 
 h1.article-title {

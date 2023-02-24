@@ -10,12 +10,12 @@
           <a href="{{ .RelPermalink }}" style="margin-bottom: 0">
             <p class="title">{{ .Title }}</p>
           </a>
-          <p class="byline" style="margin-bottom: 0">{{ .Date.Format "2 Jan 2006" }}</p>
           {{ if .IsTranslated }}
-            <p>Translations: {{ range .Translations }}<a style="display: inline-block;margin-bottom: 0;padding-right: 10px" href="{{ .RelPermalink }}">{{ if eq .Lang "en" }}English{{ else if eq .Lang "pt" }}Portuguese{{ else if eq .Lang "fr" }}French{{ else if eq .Lang "es"  }}Spanish{{ else if eq .Lang "ca"  }}Catalan{{ else }}{{ .Lang }}{{ end }}</a>{{ end }}
+            <p class="title-translation">Translations: {{ range .Translations }}<a style="display: inline-block;margin-bottom: 0;padding-right: 10px" href="{{ .RelPermalink }}">{{ if eq .Lang "en" }}English{{ else if eq .Lang "pt" }}Portuguese{{ else if eq .Lang "fr" }}French{{ else if eq .Lang "es"  }}Spanish{{ else if eq .Lang "ca"  }}Catalan{{ else }}{{ .Lang }}{{ end }}</a>{{ end }}
             </p>
           {{ else }}
           {{ end }}
+          <p class="byline" style="margin-bottom: 0">{{ .Date.Format "2 Jan 2006" }}</p>
         </div>
       </div>
 
