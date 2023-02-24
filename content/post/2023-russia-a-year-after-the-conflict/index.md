@@ -94,13 +94,13 @@ Over the last year, Russian authorities blocked access to social networks, Russi
 
 There was a record number of blocks in 2022. More than 247,492 URLs [were added](https://reestr.rublacklist.net/ru/?status=1&gov=all&date_start=01-01-2022&date_end=22-12-2022) to Roskomnadzor’s registry of banned websites in 2022. Many blocking orders regarding independent media and human rights organizations appear aimed at censoring articles or media materials covering events in Ukraine in 2022.
 
-![](images/image16.png)
+![](images/ooni-russia-2023-image16.png)
 
 Chart: New entries added to the registry of prohibited websites maintained by Roskomnadzor in 2022 (distributed by months).
 
 In November 2022, Roskomsvoboda mentioned that some of the entries in the registry became unattributed to the authority, meaning that there is no information about who requested the website to be blocked. At the same time, most resources which were added anonymously contain information that could allegedly discredit or contain fakes about the actions of the Russian army. This motivation for restricting access seems very similar to the approach of the Prosecutor General's Office.
 
-![](images/image26.png)
+![](images/ooni-russia-2023-image26.png)
 
 Chart: Distribution of blocking orders across entities in 2022 according to Roskomsvoboda’s registry.
 
@@ -214,7 +214,7 @@ Back in early March last year, two major Russian media outlets, Ekho Moskvy and 
 
 In July last year, Dozhd received permission to continue broadcasting from Riga, but after the revocation of the Latvian media license, it moved its broadcast to the Netherlands. The radio station "Echo of Moscow", which has been operating since August 22, 1990, suspended its work by the decision of the director of the radio station, Alexei Venediktov.
 
- ![](images/image7.png)
+ ![](images/ooni-russia-2023-image7.png)
 
 Image: Logos of censored news media in Russia.
 
@@ -282,7 +282,7 @@ As [OONI Probe](https://ooni.org/install) users test URLs included in the [Citi
 
 The following bubble chart shares the [28 categories of websites](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&axis_y=category_code&test_name=web_connectivity) that we found blocked in Russia based on OONI data analysis over the last year.
 
-![](images/image22.png)
+![](images/ooni-russia-2023-image22.png)
 
 Chart: Categories and number of domains found blocked in Russia between 1st January 2022 to 15th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-15&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity)).
 
@@ -292,7 +292,7 @@ However, it’s important to highlight that these findings are influenced (and l
 
 The bias in the findings is further evident when viewing which website categories received the most testing coverage over the past year. From the following chart, we can see that news media websites received by far the most testing coverage between January 2022 to January 2023.
 
-![](images/image9.png)
+![](images/ooni-russia-2023-image9.png)
 
 Chart: OONI Probe testing coverage of website categories (based on URLs included in the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists)) in Russia between January 2022 to January 2023 (limited to the number of domains per category that were tested at least 1000 times in the analysis period).
 
@@ -314,7 +314,7 @@ Even though the block was implemented for the HTTPS version of HRW’s website (
 
 [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.hrw.org) collected from Russia corroborates the blocking of HRW’s website (\`www.hrw.org\`), showing that the block started on 17th April 2022.
 
-![](images/image12.png)
+![](images/ooni-russia-2023-image12.png)
 
 Chart: OONI Probe testing of `www.hrw.org` on 411 ASNs in Russia between 1st January 2022 to 20th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.hrw.org)).
 
@@ -322,13 +322,13 @@ The above chart aggregates OONI measurement coverage from the testing of `www.hr
 
 OONI data shows that the block is implemented on [most tested networks](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.hrw.org) in Russia. The following chart shares the ASNs which presented the largest volume of anomalies (more than 1,200 anomalies) throughout the testing period.
 
-![](images/image21.png)
+![](images/ooni-russia-2023-image21.png)
 
 Chart: ASNs which presented the largest volume of anomalies (more than 1,200 anomalies) in the testing of \`www.hrw.org\` in Russia between 1st January 2022 to 20th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&axis_y=probe_asn&domain=www.hrw.org)).
 
 Based on [fingerprints](https://github.com/ooni/blocking-fingerprints/), we are able to automatically confirm the blocking of \`www.hrw.org\` on the following ASNs in Russia.
 
-![](images/image17.png)
+![](images/ooni-russia-2023-image17.png)
 
 Chart: ASNs where the blocking of \`www.hrw.org\` in Russia is automatically confirmed based on fingerprints between 1st January 2022 to 20th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&axis_y=probe_asn&domain=www.hrw.org)).
 
@@ -336,7 +336,7 @@ Chart: ASNs where the blocking of \`www.hrw.org\` in Russia is automatically co
 
 On 27th January 2023, Amnesty International’s website (\`\*.amnesty.org\`) was [added](https://reestr.rublacklist.net/en/record/5368773/) to Russia’s blocking registry. This is corroborated by [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.amnesty.org), which shows that Russian ISPs started blocking access to \`www.amnesty.org\` on 27th January 2023, as illustrated below.
 
-![](images/image36.png)
+![](images/ooni-russia-2023-image36.png)
 
 Chart: OONI Probe testing of Amnesty International’s website (\`www.amnesty.org\`) on 373 ASNs in Russia between 1st January 2022 to 21st February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.amnesty.org)).
 
@@ -344,7 +344,7 @@ The above chart aggregates OONI measurement coverage from the testing of \`www.a
 
 OONI data shows that the block is implemented on [most tested networks](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.amnesty.org) in Russia. The following chart shares the ASNs where the largest volume of anomalies (more than 50) is observed during the testing period.
 
-![](images/image30.png)
+![](images/ooni-russia-2023-image30.png)
 
 Chart: ASNs in Russia which presented the largest volume of anomalies (more than 50) in the testing of \`www.amnesty.org\` between 1st January 2022 to 21st February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.amnesty.org)).
 
@@ -354,13 +354,13 @@ On 21st July 2021, \`www.amnesty.org.ru\` was [added](https://reestr.rublacklist
 
 The timing and the blocking of \`eurasia.amnesty.org\` is corroborated by [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=eurasia.amnesty.org), as illustrated below.
 
-![](images/image5.png)
+![](images/ooni-russia-2023-image5.png)
 
 Chart: OONI Probe testing of \`eurasia.amnesty.org\` on 418 ASNs in Russia between 1st January 2022 to 20th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=eurasia.amnesty.org)).
 
 Unfortunately \`www.amnesty.org.ru\` wasn’t previously included in the list of URLs measured by [OONI Probe](https://ooni.org/install) users in Russia (“[Russia test list](https://github.com/citizenlab/test-lists/blob/master/lists/ru.csv)”), and was only [added](https://github.com/citizenlab/test-lists/pull/1227) on 20th February 2023. Therefore, [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-22&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.amnesty.org.ru) on the testing of \`www.amnesty.org.ru\` is only available from 20th February 2023 onwards, and appears to corroborate the block.
 
-![](images/image1.png)
+![](images/ooni-russia-2023-image1.png)
 
 Chart: OONI Probe testing of \`amnesty.org.ru\` in Russia, starting from 20th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-22&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.amnesty.org.ru)). 
 
@@ -374,7 +374,7 @@ On 6th February 2023, the website of [Moscow Helsinki Group](https://www.mhg.ru/
 
 OONI data collected from Russia corroborates the blocking of \`[www.mhg.ru](http://www.mhg.ru)\`, starting from 6th February 2023.
 
-![](images/image29.png)
+![](images/ooni-russia-2023-image29.png)
 
 Chart: OONI Probe testing of \`www.mhg.ru\` on 169 ASNs in Russia between 1st September 2022 to 20th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-09-01&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.mhg.ru)).
 
@@ -382,7 +382,7 @@ The above chart aggregates OONI measurement coverage from the testing of \`[www.
 
 OONI data shows that the block is implemented on many tested networks in Russia. The following chart [shares](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-22&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.mhg.ru) the ASNs which presented the largest volume of anomalies (more than 30) in the testing of \`www.mhg.ru\` in Russia between 22nd January 2023 to 21st February 2023.
 
-![](images/image24.png)
+![](images/ooni-russia-2023-image24.png)
 
 Chart: ASNs in Russia which presented the largest volume of anomalies (more than 30) in the testing of \`www.mhg.ru\` between 22nd January 2023 to 21st February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-22&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.mhg.ru)).
 
@@ -392,7 +392,7 @@ Chart: ASNs in Russia which presented the largest volume of anomalies (more tha
 
 OONI data collected from Russia [corroborates the blocking](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.agentura.ru) of \`www.agentura.ru\`, showing that the block started on 13th March 2022 and is ongoing.
 
-![](images/image35.png)
+![](images/ooni-russia-2023-image35.png)
 
 Chart: OONI Probe testing of \`www.agentura.ru\` on 380 ASNs in Russia between 1st January 2022 to 20th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.agentura.ru)).
 
@@ -400,13 +400,13 @@ The above chart aggregates OONI measurement coverage from the testing of \`www.a
 
 Based on [fingerprints](https://github.com/ooni/blocking-fingerprints/), we are able to [automatically confirm the blocking](https://explorer.ooni.org/search?since=2022-03-13&until=2023-02-21&probe_cc=RU&test_name=web_connectivity&domain=www.agentura.ru&failure=true&only=confirmed) of \`www.agentura.ru\` on multiple networks in Russia. The following chart shares the ASNs where most measurements (more than 200) confirmed blocking during the testing period.
 
-![](images/image23.png)
+![](images/ooni-russia-2023-image23.png)
 
 Chart: ASNs in Russia where most measurements (more than 200) confirmed the blocking of \`www.agentura.ru\` between 1st January 2022 to 20th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.agentura.ru)).
 
 We observe that the block was implemented almost uniformly across networks in Russia around 13th March 2022. In many of these cases, we are able to [automatically confirm the blocking](https://explorer.ooni.org/search?since=2022-03-13&until=2023-02-21&probe_cc=RU&test_name=web_connectivity&domain=www.agentura.ru&failure=true&only=confirmed) of \`www.agentura.ru\` because [DNS resolution returned IPs](https://explorer.ooni.org/measurement/20230220T232729Z_webconnectivity_RU_41754_n1_wURIcRPRIdkUdwUc?input=http%3A%2F%2Fwww.agentura.ru%2F) (such as \`188.186.154.88\`) hosting block pages (such as the following) or a blockpage was being served via a transparent proxy.
 
-![](images/image8.png)
+![](images/ooni-russia-2023-image8.png)
 
 Image: Block page hosted by the IP \`188.186.154.88\` returned as part of DNS resolution for \`www.agentura.ru\` (source: [OONI data](https://explorer.ooni.org/measurement/20230220T232729Z_webconnectivity_RU_41754_n1_wURIcRPRIdkUdwUc?input=http%3A%2F%2Fwww.agentura.ru%2F)).
 
@@ -418,13 +418,13 @@ Founded in 2017, [The Bell](https://thebell.io/) is the latest independent news
 
 [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-20&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=thebell.io) collected from Russia corroborates these reports, showing that Russian ISPs started blocking access to The Bell (\`thebell.io\`) on 17th February 2023.
 
-![](images/image19.png)
+![](images/ooni-russia-2023-image19.png)
 
 Chart: OONI Probe testing of The Bell (\`thebell.io\`) on 97 ASNs in Russia between 20th January 2023 to 20th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-20&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=thebell.io)).
 
 The above chart aggregates OONI measurement coverage from the testing of \`thebell.io\` on [97 ASNs](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-20&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=thebell.io) in Russia between 20th January 2023 to 20th February 2023. Throughout this period, the testing of \`thebell.io\` was successful on most tested networks, and only started presenting an increased volume in anomalies from 17th February 2023 onwards. A per-ASN measurement breakdown shows that these [anomalies emerged on several networks](https://explorer.ooni.org/search?since=2023-02-17&until=2023-02-18&probe_cc=RU&test_name=web_connectivity&domain=thebell.io&failure=true&only=anomalies), while the following chart shares the ASNs which provided the largest volume of anomalies.
 
- ![](images/image4.png)
+ ![](images/ooni-russia-2023-image4.png)
 
 Chart: ASNs which presented the largest volume of anomalies in the OONI Probe testing of \`thebell.io\` in Russia between 20th January 2023 to 20th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-20&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=thebell.io)).
 
@@ -432,7 +432,7 @@ The fact that \`thebell.io\` was previously accessible in Russia and started pre
 
 The following chart provides a breakdown of the specific failures observed on tested ASNs, suggesting that different ISPs in Russia block access to \`thebell.io\` using different censorship techniques.
 
-![](images/image31.png)
+![](images/ooni-russia-2023-image31.png)
 
 Chart: Measurement failures observed when \`thebell.io\` was tested on different ASNs in Russia between 17th February 2022 to 21st February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-02-17&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=thebell.io)).
 
@@ -442,7 +442,7 @@ In the weeks leading up to the start of the conflict in Ukraine, Russia had alre
 
 Starting from 7th February 2022, OONI data shows the [blocking of Hromadske](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=hromadske.ua) in Russia.
 
-![](images/image6.png)
+![](images/ooni-russia-2023-image6.png)
 
 Chart: OONI Probe testing of Hromadske (\`hromadske.ua\`) on 402 ASNs in Russia between 1st January 2022 to 18th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=hromadske.ua)).
 
@@ -450,7 +450,7 @@ The above chart aggregates OONI measurement coverage from the testing of \`hroma
 
 By analyzing the [anomalous data](https://explorer.ooni.org/search?since=2022-02-07&until=2023-02-19&probe_cc=RU&test_name=web_connectivity&domain=hromadske.ua&failure=true&only=anomalies), we can see that ISPs in Russia blocked access to Hromadske using a variety of different censorship techniques. The following chart provides a breakdown of the specific failures observed on tested ASNs, suggesting that different ISPs in Russia block access to \`hromadske.ua\` using different censorship techniques.
 
-![](images/image34.png)
+![](images/ooni-russia-2023-image34.png)
 
 Chart: Measurement failures observed when \`hromadske.ua\` was tested on different ASNs in Russia between 7th February 2022 to 18th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-02-07&until=2023-02-18&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=hromadke.ua)).
 
@@ -462,7 +462,7 @@ On 13th March 2022, Instagram was [added](https://reestr.rublacklist.net/en/reco
 
 OONI data shows that [Russia started blocking Instagram on 13th March 2022](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.instagram.com), and that the block is ongoing (similarly to [Twitter](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=twitter.com) and [Facebook](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.facebook.com)).
 
-![](images/image32.png)
+![](images/ooni-russia-2023-image32.png)
 
 Chart: OONI Probe testing of Instagram (\`www.instagram.com\`) on 797 ASNs in Russia between 1st January 2022 to 21st February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-22&time_grain=day&probe_cc=RU&domain=www.instagram.com)).
 
@@ -470,7 +470,7 @@ The above chart aggregates OONI measurement coverage from the testing of \`www.i
 
 Based on fingerprints, OONI data automatically confirms the blocking of Instagram on the networks in the following chart.
 
-![](images/image10.png)
+![](images/ooni-russia-2023-image10.png)
 
 Chart: ASNs in Russia where the blocking of Instagram (\`www.instagram.com\`) is automatically confirmed based on fingerprints (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.instagram.com)).
 
@@ -478,13 +478,13 @@ Chart: ASNs in Russia where the blocking of Instagram (\`www.instagram.com\`) i
 
 Starting from 5th December 2022, OONI data started to show [signs of YouTube blocking on MTS (AS8359)](https://explorer.ooni.org/search?since=2022-11-01&until=2023-02-19&failure=false&domain=www.youtube.com&probe_cc=RU&probe_asn=AS8359&only=anomalies).
 
-![](images/image13.png)
+![](images/ooni-russia-2023-image13.png)
 
 Chart: OONI Probe testing of YouTube (\`www.youtube.com\`) on AS8359 in Russia between 1st November 2022 to 19th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-11-01&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.youtube.com)).
 
 When inspecting the [anomalous data](https://explorer.ooni.org/search?since=2022-11-01&until=2023-02-19&failure=false&domain=www.youtube.com&probe_cc=RU&probe_asn=AS8359&only=anomalies) pertaining to the testing of YouTube on AS8359, we can see that it presents [connection reset errors](https://explorer.ooni.org/measurement/20230217T085223Z_webconnectivity_RU_8359_n1_iFt3pIOF0dnCFAjq?input=https%3A%2F%2Fwww.youtube.com%2F), suggesting blocking of the service. When we do observe a connection reset, this always occurs right after the ClientHello message during the TLS handshake. The following chart provides a breakdown of the failure types observed in measurements, demonstrating the spike in connection resets from 5th December 2022 onwards.
 
-![](images/image11.png)
+![](images/ooni-russia-2023-image11.png)
 
 Chart: Failure types observed in OONI measurements pertaining to the testing of YouTube (\`www.youtube.com\`) on AS8359 in Russia between 1st July 2022 to 1st February 2023 (source: [OONI data](https://explorer.ooni.org/search?since=2022-11-01&until=2023-02-19&failure=false&domain=www.youtube.com&probe_cc=RU&probe_asn=AS8359)).
 
@@ -492,7 +492,7 @@ The metrics displayed in the above chart are aggregated with a resolution that i
 
 We see that within a particular measurement session, there are still many TLS handshake attempts that are successful, as illustrated with the proportional breakdown in the chart below.
 
-![](images/image18.png)
+![](images/ooni-russia-2023-image18.png)
 
 Chart: Percentage of failures observed in OONI measurements pertaining to the testing of YouTube (\`www.youtube.com\`) on AS8359 in Russia between 1st July 2022 to 1st February 2023 (source: [OONI data](https://explorer.ooni.org/search?since=2022-11-01&until=2023-02-19&failure=false&domain=www.youtube.com&probe_cc=RU&probe_asn=AS8359)).
 
@@ -506,7 +506,7 @@ On 30th September 2022, SoundCloud’s website was [added](https://reestr.rublac
 
 Starting from 1st October 2022, OONI data shows the [blocking of SoundCloud](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-09-01&until=2023-02-19&time_grain=day&probe_cc=RU&domain=soundcloud.com) in Russia.
 
-![](images/image33.png)
+![](images/ooni-russia-2023-image33.png)
 
 Chart: OONI Probe testing of SoundCloud (\`soundcloud.com\`) on 133 ASNs in Russia between 1st September 2022 to 18th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-09-01&until=2023-02-19&time_grain=day&probe_cc=RU&domain=soundcloud.com)).
 
@@ -514,7 +514,7 @@ The above chart aggregates OONI measurement coverage from the testing of \`sound
 
 By analyzing the [anomalous data](https://explorer.ooni.org/search?since=2022-10-01&until=2023-02-19&probe_cc=RU&test_name=web_connectivity&domain=soundcloud.com&failure=true&only=anomalies), we are able to see that access to SoundCloud has been blocked by ISPs using a variety of different censorship techniques. The following chart provides a breakdown of the specific failures observed on tested ASNs, limited to ASNs that received at least 100 measurements.
 
-![](images/image14.png)
+![](images/ooni-russia-2023-image14.png)
 
 Chart: Measurement failures observed when \`soundcloud.com\` was tested on different ASNs in Russia (limited to ASNs that received at least 100 measurements) between 1st October 2022 to 18th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-10-01&until=2023-02-18&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=soundcloud.com)).
 
@@ -524,13 +524,13 @@ On 6th August 2022, Patreon’s website (\`www.patreon.com\`) was [added](https:
 
 Starting from 6th August 2022, OONI data shows the [blocking of Patreon](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-07-01&until=2023-02-19&time_grain=day&probe_cc=RU&domain=www.patreon.com) in Russia.
 
-![](images/image2.png)
+![](images/ooni-russia-2023-image2.png)
 
 Chart: OONI Probe testing of Patreon (\`www.patreon.com\`) on 352 ASNs in Russia between 1st July 2022 to 18th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-07-01&until=2023-02-19&time_grain=day&probe_cc=RU&domain=www.patreon.com)).
 
 The above chart aggregates OONI measurement coverage from the testing of \`www.patreon.com\` on [352 ASNs](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-07-01&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.patreon.com) in Russia between 1st July 2022 to 18th February 2023. We can see that while \`www.patreon.com\` was previously accessible on all tested networks, it started to present a large volume of anomalies on 6th August 2022. These [anomalies](https://explorer.ooni.org/search?since=2022-08-01&until=2023-02-19&probe_cc=RU&test_name=web_connectivity&domain=www.patreon.com&failure=true&only=anomalies) have persisted to date (with most measurements from almost all tested networks resulting in anomalies), providing a strong signal of blocking. By analyzing the [anomalous data](https://explorer.ooni.org/search?since=2022-08-01&until=2023-02-19&probe_cc=RU&test_name=web_connectivity&domain=www.patreon.com&failure=true&only=anomalies), we can see that ISPs in Russia blocked access to Patreon using a variety of different censorship techniques. The following chart provides a breakdown of the specific failures observed on tested ASNs.
 
-![](images/image27.png)
+![](images/ooni-russia-2023-image27.png)
 
 Chart: Measurement failures observed when \`www.patreon.com\` was tested on different ASNs in Russia between 6th August 2022 to 18th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-08-06&until=2023-02-18&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.patreon.com)).
 
@@ -540,7 +540,7 @@ In early December 2021, Russia started blocking access to [Tor](https://www.torp
 
 While both blocks ([Tor](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-19&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=tor) and [Tor Project website](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-01-19&until=2023-02-19&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.torproject.org)) have been ongoing and are still in place, OONI data shows that access to the Tor Project’s website (\`www.torproject.org\`) was temporarily unblocked between 15th to 28th July 2022, as illustrated below. 
 
-![](images/image28.png)
+![](images/ooni-russia-2023-image28.png)
 
 Chart: OONI Probe testing of \`www.torproject.org\` on 358 ASNs in Russia between 1st January 2022 to 31st December 2022 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2022-12-31&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.torproject.org)).
 
@@ -548,7 +548,7 @@ The above chart aggregates OONI measurement coverage from the testing of \`www.t
 
 The pattern of unblocking is consistent across tested ISPs during this period (as illustrated through the chart below), thereby excluding the hypothesis that this was caused by a change in the distribution in measurement coverage.
 
-![](images/image25.png)
+![](images/ooni-russia-2023-image25.png)
 
 Chart: Per-ASN breakdown of OONI Probe testing coverage of \`www.torproject.org\` in Russia between 1st July 2022 to 1st September 2022 (source: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-07-01&until=2022-09-01&time_grain=day&probe_cc=RU&axis_y=probe_asn&domain=www.torproject.org)).
 
@@ -558,7 +558,7 @@ According to [Roskomsvoboda](https://roskomsvoboda.org/post/the-tor-project-unbl
 
 Starting from early June 2022, access to DEEPRISM’s website (\`deeprism.com\`) appears to have been [unblocked](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-01-21&time_grain=day&probe_cc=RU&domain=deeprism.com) in Russia, as suggested by OONI data.
 
-![](images/image20.png)
+![](images/ooni-russia-2023-image20.png)
 
 Chart: OONI Probe testing of \`deeprism.com\` on 411 ASNs in Russia between 1st January 2022 to 21st January 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-01-21&time_grain=day&probe_cc=RU&domain=deeprism.com)). 
 
@@ -576,7 +576,7 @@ We found **48 confirmed blocked domains** based on OONI data, which are *not* 
 
 Through the following chart, we provide a breakdown of the domains (categorized based on the standardized [Citizen Lab category codes](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv)) confirmed blocked through OONI data, but which are not included in Russia’s [blocking registry](https://reestr.rublacklist.net/en/).
 
-![](images/image3.png)
+![](images/ooni-russia-2023-image3.png)
 
 Chart: Number and category of domains confirmed blocked based on OONI data (between January 2022 to February 2023), but which are not included in Russia’s official blocking registry.
 
@@ -594,7 +594,7 @@ Several other interesting cases are included in the list of 48 blocked domains[
 
 Notably, OONI data shows the [blocking of a major CDN](https://explorer.ooni.org/search?since=2022-08-03&until=2023-02-01&probe_cc=RU&test_name=web_connectivity&domain=ajax.aspnetcdn.com&failure=true&only=anomalies) (\`ajax.aspnetcdn.com\`), which is also [not](https://reestr.rublacklist.net/en/?q=ajax.aspnetcdn.com) [included](https://reestr.rublacklist.net/en/?q=ajax.aspnetcdn.com) in Rosmonadzor’s blocking registry.
 
-![](images/image15.png)
+![](images/ooni-russia-2023-image15.png)
 
 Chart: OONI Probe testing of \`ajax.aspnetcdn.com\` on 325 ASNs in Russia between 1st January 2022 to 20th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-21&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=ajax.aspnetcdn.com)).
 
