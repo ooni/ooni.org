@@ -339,7 +339,7 @@ VPN сервисы
 
 #### Блокировка Amnesty International
 
-27 января 2023 года сайт Amnesty International (`\*.amnesty.org`) был [добавлен](https://reestr.rublacklist.net/en/record/5368773/) в российский реестр блокировок. Это подтверждается [данными OONI](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.amnesty.org), которые показывают, что российские интернет-провайдеры начали блокировать доступ к `www.amnesty.org` 27 января 2023 года, как показано ниже.
+27 января 2023 года сайт Amnesty International (`*.amnesty.org`) был [добавлен](https://reestr.rublacklist.net/en/record/5368773/) в российский реестр блокировок. Это подтверждается [данными OONI](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.amnesty.org), которые показывают, что российские интернет-провайдеры начали блокировать доступ к `www.amnesty.org` 27 января 2023 года, как показано ниже.
 
 ![](images/ooni-russia-2023-image36.png)
 
@@ -355,7 +355,7 @@ VPN сервисы
 
 Однако это не первый раз, когда [доступ к сайту Amnesty International был заблокирован](https://reestr.rublacklist.net/en/?q=amnesty) в России.
 
-21 июня 2021, домен `www.amnesty.org.ru` был [добавлен](https://reestr.rublacklist.net/en/record/3463470/) (по решению ФНС) в реестр Роскомнадзора, а домен `\*eurasia.amnesty.org` был [добавлен](https://reestr.rublacklist.net/en/record/4134476/) 10 марта 2022.
+21 июня 2021, домен `www.amnesty.org.ru` был [добавлен](https://reestr.rublacklist.net/en/record/3463470/) (по решению ФНС) в реестр Роскомнадзора, а домен `*eurasia.amnesty.org` был [добавлен](https://reestr.rublacklist.net/en/record/4134476/) 10 марта 2022.
 
 Время и блокировка `eurasia.amnesty.org` подтверждается [данными OONI](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=eurasia.amnesty.org), как показано ниже.
 
@@ -375,7 +375,7 @@ VPN сервисы
 
 Местные правозащитные организации в России также подверглись блокировкам.
 
-6 февраля 2023 года сайт [Московской Хельсинкской группы](https://www.mhg.ru/) (`\*.mhg.ru`) был [добавлен](https://reestr.rublacklist.net/en/?q=mhg.ru) в реестр Роскомнадзора. Основанная в 1976 году, чтобы контролировать соблюдение Советским Союзом Хельсинкских соглашений и сообщать о нарушениях прав человека в СССР, МХГ является одной из самых старых правозащитных организаций в России. В декабре 2022, Министерство Юстиции РФ [подало в суд заявление](https://www.themoscowtimes.com/2022/12/20/russias-justice-ministry-seeks-dissolution-of-moscow-helsinki-group-a79753) о ликвидации организации.
+6 февраля 2023 года сайт [Московской Хельсинкской группы](https://www.mhg.ru/) (`*.mhg.ru`) был [добавлен](https://reestr.rublacklist.net/en/?q=mhg.ru) в реестр Роскомнадзора. Основанная в 1976 году, чтобы контролировать соблюдение Советским Союзом Хельсинкских соглашений и сообщать о нарушениях прав человека в СССР, МХГ является одной из самых старых правозащитных организаций в России. В декабре 2022, Министерство Юстиции РФ [подало в суд заявление](https://www.themoscowtimes.com/2022/12/20/russias-justice-ministry-seeks-dissolution-of-moscow-helsinki-group-a79753) о ликвидации организации.
 
 Данные OONI, собранные в России, подтверждают блокировку `[www.mhg.ru](http://www.mhg.ru)`, начиная с 6 февраля 2023 года.
 
@@ -393,7 +393,7 @@ VPN сервисы
 
 #### Блокировка сайта Agentura.Ru
 
-[Agentura.ru](https://agentura.ru/) – это организация по наблюдению за деятельностью спецслужб, основанная в 2000 году и управляемая российскими журналистами-расследователями. 13 марта 2022 года сайт Agentura.ru (`\*.agentura.ru`) был [добавлен](https://reestr.rublacklist.net/en/record/4139167/) в российский реестр блокировок. Другое [распоряжение о блокировке](https://reestr.rublacklist.net/en/record/4156764/) добавляющее IPv6-адрес сайта было выдано тем же органом (Генпрокуратурой) 18 марта 2022 года. Третий [приказ о блокировке](https://reestr.rublacklist.net/en/record/5368778/) был издан другим органом («Госорган не указан») 27 января 2023 года, хотя доступ к сайту уже был заблокирован.
+[Agentura.ru](https://agentura.ru/) – это организация по наблюдению за деятельностью спецслужб, основанная в 2000 году и управляемая российскими журналистами-расследователями. 13 марта 2022 года сайт Agentura.ru (`*.agentura.ru`) был [добавлен](https://reestr.rublacklist.net/en/record/4139167/) в российский реестр блокировок. Другое [распоряжение о блокировке](https://reestr.rublacklist.net/en/record/4156764/) добавляющее IPv6-адрес сайта было выдано тем же органом (Генпрокуратурой) 18 марта 2022 года. Третий [приказ о блокировке](https://reestr.rublacklist.net/en/record/5368778/) был издан другим органом («Госорган не указан») 27 января 2023 года, хотя доступ к сайту уже был заблокирован.
 
 Данные OONI, собранные в России, [подтверждают блокировку](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.agentura.ru) `www.agentura.ru`, показывая, что блокировка началась 13 марта 2022 года.
 

@@ -334,7 +334,7 @@ Chart: ASNs where the blocking of `www.hrw.org` in Russia is automatically conf
 
 #### Blocking of Amnesty International
 
-On 27th January 2023, Amnesty International’s website (`\*.amnesty.org`) was [added](https://reestr.rublacklist.net/en/record/5368773/) to Russia’s blocking registry. This is corroborated by [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.amnesty.org), which shows that Russian ISPs started blocking access to `www.amnesty.org` on 27th January 2023, as illustrated below.
+On 27th January 2023, Amnesty International’s website (`*.amnesty.org`) was [added](https://reestr.rublacklist.net/en/record/5368773/) to Russia’s blocking registry. This is corroborated by [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2022-01-01&until=2023-02-22&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.amnesty.org), which shows that Russian ISPs started blocking access to `www.amnesty.org` on 27th January 2023, as illustrated below.
 
 ![](images/ooni-russia-2023-image36.png)
 
@@ -350,7 +350,7 @@ Chart: ASNs in Russia which presented the largest volume of anomalies (more tha
 
 But this is not the first time that access to [Amnesty International domains is blocked](https://reestr.rublacklist.net/en/?q=amnesty) in Russia.
 
-On 21st July 2021, `www.amnesty.org.ru` was [added](https://reestr.rublacklist.net/en/record/3463470/) (by Russia’s Federal Tax Service) to Russia’s blocking registry, while `\*eurasia.amnesty.org` was [added](https://reestr.rublacklist.net/en/record/4134476/) on 10th March 2022. 
+On 21st July 2021, `www.amnesty.org.ru` was [added](https://reestr.rublacklist.net/en/record/3463470/) (by Russia’s Federal Tax Service) to Russia’s blocking registry, while `*eurasia.amnesty.org` was [added](https://reestr.rublacklist.net/en/record/4134476/) on 10th March 2022. 
 
 The timing and the blocking of `eurasia.amnesty.org` is corroborated by [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=eurasia.amnesty.org), as illustrated below.
 
@@ -370,7 +370,7 @@ These blocking events were followed by the [closing down of Amnesty Internation
 
 Local human rights organizations in Russia have been censored as well.
 
-On 6th February 2023, the website of [Moscow Helsinki Group](https://www.mhg.ru/) (`\*.mhg.ru`) was [added](https://reestr.rublacklist.net/en/?q=mhg.ru) to Roskomnadzor’s blocking registry. Originally founded in 1976 (to monitor Soviet compliance with the Helsinki Accords and to report on Soviet human rights abuses), Moscow Helsinki Group was one of Russia’s oldest human rights organizations. In December 2022, Russia’s Ministry of Justice filed a [court order](https://www.themoscowtimes.com/2022/12/20/russias-justice-ministry-seeks-dissolution-of-moscow-helsinki-group-a79753) to dissolve the organization.
+On 6th February 2023, the website of [Moscow Helsinki Group](https://www.mhg.ru/) (`*.mhg.ru`) was [added](https://reestr.rublacklist.net/en/?q=mhg.ru) to Roskomnadzor’s blocking registry. Originally founded in 1976 (to monitor Soviet compliance with the Helsinki Accords and to report on Soviet human rights abuses), Moscow Helsinki Group was one of Russia’s oldest human rights organizations. In December 2022, Russia’s Ministry of Justice filed a [court order](https://www.themoscowtimes.com/2022/12/20/russias-justice-ministry-seeks-dissolution-of-moscow-helsinki-group-a79753) to dissolve the organization.
 
 OONI data collected from Russia corroborates the blocking of `[www.mhg.ru](http://www.mhg.ru)`, starting from 6th February 2023.
 
@@ -388,7 +388,7 @@ Chart: ASNs in Russia which presented the largest volume of anomalies (more tha
 
 #### Blocking of Agentura.Ru
 
-[Agentura.Ru](https://agentura.ru/) is a secret services watchdog, founded in 2000 and run by Russian investigative journalists. On 13th March 2022, Agentura.Ru’s website (`\*.agentura.ru`) was [added](https://reestr.rublacklist.net/en/record/4139167/) to Russia’s blocking registry. Another [blocking order](https://reestr.rublacklist.net/en/record/4156764/) was issued by the same authority (Genprokuratura) on 18th March 2022, adding the site’s IPv6 address. A [third blocking order](https://reestr.rublacklist.net/en/record/5368778/) was issued by another authority (Gosorgan ne ukazan) on 27th January 2023, even though access to the site was already blocked.
+[Agentura.Ru](https://agentura.ru/) is a secret services watchdog, founded in 2000 and run by Russian investigative journalists. On 13th March 2022, Agentura.Ru’s website (`*.agentura.ru`) was [added](https://reestr.rublacklist.net/en/record/4139167/) to Russia’s blocking registry. Another [blocking order](https://reestr.rublacklist.net/en/record/4156764/) was issued by the same authority (Genprokuratura) on 18th March 2022, adding the site’s IPv6 address. A [third blocking order](https://reestr.rublacklist.net/en/record/5368778/) was issued by another authority (Gosorgan ne ukazan) on 27th January 2023, even though access to the site was already blocked.
 
 OONI data collected from Russia [corroborates the blocking](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.agentura.ru) of `www.agentura.ru`, showing that the block started on 13th March 2022 and is ongoing.
 
