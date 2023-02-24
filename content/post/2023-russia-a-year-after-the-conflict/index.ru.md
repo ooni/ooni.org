@@ -319,7 +319,7 @@ VPN сервисы
 
 [Данные OONI](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.hrw.org), собранные в России, подтверждают блокировку веб-сайта HRW (`www.hrw.org`), и показывают, что блокировка началась 17 апреля 2022 года.
 
-![](images/ooni-russia-2023-image12.png)
+![](images/ooni-russia-2023-image12-feature.png)
 
 График: тесты OONI Probe `www.hrw.org` на 411 сетях в России с 1 января по 20 февраля 2023  (источник: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.hrw.org)).
 

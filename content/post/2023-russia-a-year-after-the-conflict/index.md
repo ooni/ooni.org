@@ -314,7 +314,7 @@ Even though the block was implemented for the HTTPS version of HRW’s website (
 
 [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.hrw.org) collected from Russia corroborates the blocking of HRW’s website (`www.hrw.org`), showing that the block started on 17th April 2022.
 
-![](images/ooni-russia-2023-image12.png)
+![](images/ooni-russia-2023-image12-feature.png)
 
 Chart: OONI Probe testing of `www.hrw.org` on 411 ASNs in Russia between 1st January 2022 to 20th February 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.hrw.org)).
 
