@@ -19,13 +19,13 @@ In this blog post, we manually analyse ‘failed’ OONI measurements to assess 
 
     * [India](#india)
 
-    * [Indonesia](#new-circumvention-tool-reachability-dashboard)
+    * [Indonesia](#indonesia)
 
     * [Overall](#overall)
 
 * [Limitations](#limitations)
 
-* [Conclusions and Future Work](#conclusions)
+* [Conclusions and Future Work](#conclusions-and-future-work)
 
 # Background
 
