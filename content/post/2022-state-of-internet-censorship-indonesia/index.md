@@ -4,7 +4,7 @@ title: "iMAP State of Internet Censorship Report 2022 - Indonesia"
 
 description: "This report shares internet censorship during the first half of 2022 in Indonesia using OONI data."
 
-author: "Khairil Zhafri (EngageMedia), Pradipa P. Rasidi (Engage Media), Debby Kristin (EngageMedia), Siti Nurliza Samsudin (Sinar Project) and Kelly Koh (Sinar Project)"
+author: "Khairil Zhafri (EngageMedia), Pradipa P. Rasidi (EngageMedia), Debby Kristin (EngageMedia), Siti Nurliza Samsudin (Sinar Project) and Kelly Koh (Sinar Project)"
 
 date: "2022-12-23"
 
@@ -135,7 +135,7 @@ categories: ["report"]
 
 **[About Sinar Project](#about-sinar-project)**
 
-**[About Engage Media](#about-engage-media)**
+**[About EngageMedia](#about-engagemedia)**
 
 
 
