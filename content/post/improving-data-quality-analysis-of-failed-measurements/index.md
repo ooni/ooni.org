@@ -2,7 +2,7 @@
 title: "How we're improving OONI data quality: An analysis of failed measurements"
 description: "An analysis of OONI measurements from India, Pakistan and Indonesia classified as failed."
 author: "Gurshabad Grover (OTF Information Controls Research Fellow, OONI), Simone Basso (OONI)"
-date: "2023-03-10"
+date: "2023-03-13"
 tags: ["ooni", "data-quality", "failed-measurements"]
 categories: ["blog"]
 ---
