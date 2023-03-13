@@ -7,7 +7,7 @@ tags: ["ooni", "data-quality", "failed-measurements"]
 categories: ["blog"]
 ---
 
-In this blog post, we manually analyse ‘failed’ OONI measurements to assess why they were classified as such, whether they are symptomatic of censorship, and whether they still carry helpful information for researchers. We focus on measurements from three countries (India, Pakistan, and Indonesia) and outline steps on how we will improve overall data quality.
+In this blog post, we manually analyse `failed` OONI measurements to assess why they were classified as such, whether they are symptomatic of censorship, and whether they still carry helpful information for researchers. We focus on measurements from three countries (India, Pakistan, and Indonesia) and outline steps on how we will improve overall data quality.
 
 * [Background](#background)
 
