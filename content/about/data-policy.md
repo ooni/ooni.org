@@ -4,9 +4,9 @@ description: This Data Policy discloses and explains what data the OONI project 
 aliases: ["/data-policy"]
 ---
 
-**Last modified:** September 6, 2022
+**Last modified:** March 20, 2023
 
-**Version:** 1.4.6
+**Version:** 1.4.7
 
 This Data Policy discloses and explains what data the [Open Observatory of
 Network Interference (OONI) project](https://ooni.org/) ("we", "us", or "our")
@@ -135,7 +135,7 @@ will collect sanitized technical data, including device identifier information,
 which will help us understand why the OONI Probe app has crashed. We do not
 collect the IP address or a unique identifier of the user.
 
-On [F-Droid](https://f-droid.org/packages/org.openobservatory.ooniprobe/), we do *not* use any analytics.
+On [F-Droid](https://f-droid.org/packages/org.openobservatory.ooniprobe/) we do *not* use any analytics.
 
 For the [OONI Probe desktop app](https://ooni.org/install/desktop), we use:
 
@@ -144,11 +144,13 @@ sanitized technical data, including device identifier information, which will
 help us understand why the OONI Probe app has crashed. We do not collect the IP
 address or a unique identifier of the user.
 
-Details about our specific setup can be found in [ooni/sysadmin](https://github.com/ooni/sysadmin).
-
 On both the OONI Probe mobile and desktop apps, you can opt in to sharing
 crash reports during the onboarding process. If you
 change your mind, you can opt out through the settings of the apps.
+
+On [OONI Probe Web](https://probe-web.ooni.org) we do *not* use any analytics.
+
+Details about our specific setup can be found in [ooni/sysadmin](https://github.com/ooni/sysadmin).
 
 ### OONI website
 
@@ -230,6 +232,14 @@ encouraging you to test a long list of URLs.
 You cannot opt out of submitting your network ASN or information about the type
 of network (e.g. WiFi) you are running OONI Probe on, as this information is
 necessary in order for measurements to be useful.
+
+#### Operating system and browser name
+
+Through the [OONI Probe mobile and desktops apps](https://ooni.org/install), we
+collect the operating system name (e.g `Windows`) used by the user. Through
+[OONI Probe Web](https://probe-web.ooni.org/), we collect the browser name
+(e.g `Firefox`) used by the user. This data helps us evaluate if there are
+platform-specific issues impacting the measurements.
 
 #### Network measurements
 
