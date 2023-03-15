@@ -481,7 +481,7 @@ To view the measurement details, scroll down to the end of the measurement page,
 
 {{<img src="images/image22.png" title="OONI Explorer" alt="OONI Explorer">}}
 
-**Step 3.** Click on `test\_keys` to expand the nested measurement details.
+**Step 3.** Click on `test_keys` to expand the nested measurement details.
 
 {{<img src="images/image17.png" title="OONI Explorer" alt="OONI Explorer">}}
 
@@ -500,11 +500,11 @@ Unlike “confirmed blocked” measurements (which only apply to websites), mea
 
 Many cases of website blocking are not automatically detected, and will be present in “anomalous” measurements. Specifically, OONI’s [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) (which measures websites for blocking) identifies the following types of anomalies (while automatically comparing measurements from the local, tested network with those from a control vantage point):
 
-*   **DNS anomaly.** If the [DNS responses](https://ooni.org/support/glossary#dns-lookup) (such as the IP addresses mapped to host names) do not match;
-*   **TCP/IP anomaly.** If a [TCP](https://ooni.org/support/glossary#tcp) session to connect to websites was not established over the network of the user;
-*   **HTTP anomaly.** 
-   *   **HTTP-failure.** If the [HTTP request](https://ooni.org/support/glossary#http-request) over the user’s network failed (resulting in a connection reset, connection timeout, etc).
-   *   **HTTP-diff.** If the [HTTP response](https://ooni.org/support/glossary#http-response) the probe got [differs from the response seen in the control measurement](https://github.com/ooni/spec/blob/master/nettests/ts-017-web-connectivity.md#test-description).
+* **DNS anomaly.** If the [DNS responses](https://ooni.org/support/glossary#dns-lookup) (such as the IP addresses mapped to host names) do not match;
+* **TCP/IP anomaly.** If a [TCP](https://ooni.org/support/glossary#tcp) session to connect to websites was not established over the network of the user;
+* **HTTP anomaly.** 
+   * **HTTP-failure.** If the [HTTP request](https://ooni.org/support/glossary#http-request) over the user’s network failed (resulting in a connection reset, connection timeout, etc).
+   * **HTTP-diff.** If the [HTTP response](https://ooni.org/support/glossary#http-response) the probe got [differs from the response seen in the control measurement](https://github.com/ooni/spec/blob/master/nettests/ts-017-web-connectivity.md#test-description).
 
 These anomalies can indicate the presence of **[DNS tampering](https://ooni.org/support/glossary#dns-tampering)** (DNS anomaly), **[IP blocking](https://ooni.org/support/glossary#tcpip-blocking)** (TCP/IP anomaly), **[HTTP blocking](https://ooni.org/support/glossary#http-blocking)** (e.g [block page](https://ooni.org/support/glossary#block-page)), or **[TLS](https://ooni.org/support/glossary#tls)** **based interference** (e.g connection reset observed right after the ClientHello message during the TLS handshake). However, false positives can emerge due to [many reasons](https://ooni.org/support/faq#why-do-false-positives-occur). It is therefore important to examine anomalies in aggregate, further aggregate based on anomaly types (e.g `HTTP-failure`), and to check if the tested service consistently presents the same failure (e.g `connection_reset`) on the same tested ASN. If a tested service consistently presents the same failures, those measurements provide a stronger signal of blocking.
 
@@ -700,60 +700,56 @@ Beyond the previous examples, you can use the [MAT](https://explorer.ooni.org/ch
 
 *   **Checking in which countries a specific website is blocked.** For example, if you would like to [check the testing of BBC globally](https://explorer.ooni.org/chart/mat?since=2023-02-09&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=probe_cc&test_name=web_connectivity&domain=www.bbc.com):
 
-*   Type `www.bbc.com` under `Domain`
-*   Select `Countries` under `Rows`
-*   Click `Show Chart`
-
-*   Click `Confirmed Count` in the measurement table
-*   Select countries with the largest volume of `Confirmed Count` measurements
-*   Click `Apply`
+* Type `www.bbc.com` under `Domain`
+* Select `Countries` under `Rows`
+* Click `Show Chart`
+   * Click `Confirmed Count` in the measurement table
+   * Select countries with the largest volume of `Confirmed Count` measurements
+   * Click `Apply`
 
 {{<img src="images/image24.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 *   **Checking which categories of websites are blocked in a country.** For example, if you would like to [check which categories of websites are blocked in Italy](https://explorer.ooni.org/chart/mat?probe_cc=IT&since=2023-02-12&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=category_code&test_name=web_connectivity):
 
-*   Select `Italy` under `Country`
-*   Select `Website Categories` under `Rows`
-*   Click `Show Chart`
-
-*   Click `Confirmed Count` in the measurement table
-*   Select categories with the largest volume of `Confirmed Count` measurements
-*   Click `Apply`
+* Select `Italy` under `Country`
+* Select `Website Categories` under `Rows`
+* Click `Show Chart`
+   * Click `Confirmed Count` in the measurement table
+   * Select categories with the largest volume of `Confirmed Count` measurements
+   * Click `Apply`
 
 {{<img src="images/image39.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 *   **Checking which countries block specific categories of websites.** For example, if you would like to [check which countries block news media](https://explorer.ooni.org/chart/mat?since=2023-02-12&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=probe_cc&test_name=web_connectivity&category_code=NEWS) websites:
 
-*   Select `All Countries` under `Country`
-*   Select `News Media` under `Website Categories`
-*   Select `Countries` under `Rows`
-*   Click `Show Chart`
-
-*   Click `Confirmed Count` in the measurement table
-*   Select countries with the largest volume of `Confirmed Count` measurements
-*   Click `Apply`
+* Select `All Countries` under `Country`
+* Select `News Media` under `Website Categories`
+* Select `Countries` under `Rows`
+* Click `Show Chart`
+   * Click `Confirmed Count` in the measurement table
+   * Select countries with the largest volume of `Confirmed Count` measurements
+   * Click `Apply`
 
 {{<img src="images/image45.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 *   **Checking which countries block instant messaging apps.** For example, if you would like to [check which countries are blocking WhatsApp](https://explorer.ooni.org/chart/mat?since=2023-02-12&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=probe_cc&test_name=whatsapp) (based on recent measurements):
 
-*   Select `All Countries` under `Country`
-*   Select `WhatsApp Test` under `Test Name`
-*   Select `Countries` under `Rows`
-*   Click `Show Chart`
-
-*   Click `Anomaly Count` in the measurement table
-*   Select countries with the largest `Anomaly Count` measurements
-*   Click `Apply`
+* Select `All Countries` under `Country`
+* Select `WhatsApp Test` under `Test Name`
+* Select `Countries` under `Rows`
+* Click `Show Chart`
+   * Click `Anomaly Count` in the measurement table
+   * Select countries with the largest `Anomaly Count` measurements
+   * Click `Apply`
 
 {{<img src="images/image36.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 *   **Comparing censorship across networks.** For example, if you would like to [check which ISPs in Russia block access to Facebook Messenger](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-02-12&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=facebook_messenger):
 
-*   Select `Russia` under `Country`
-*   Select `Facebook Messenger Test` under `Test Name`
-*   Select `ASN` under `Rows`
-*   Click `Show Chart`
+* Select `Russia` under `Country`
+* Select `Facebook Messenger Test` under `Test Name`
+* Select `ASN` under `Rows`
+* Click `Show Chart`
 
 {{<img src="images/image31.png" title="OONI Explorer" alt="OONI Explorer">}}
 
