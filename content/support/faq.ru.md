@@ -1,9 +1,9 @@
---
-title: Frequently Asked Questions (FAQ)
-description: This Frequently Asked Questions (FAQ) section aims to address the questions that we are frequently asked by the community.
-aliases:
-    - /about/faq/
---
+---
+title: «Часто задаваемые вопросы» (FAQ)
+description: Этот раздел «Часто задаваемые вопросы» (FAQ) предназначен для ответа на вопросы, которые нам часто задают участники нашего сообщества.
+aliases: 
+    - /ru/about/faq/
+---
 
 Этот раздел «Часто задаваемые вопросы» (FAQ) предназначен для ответа на вопросы, которые нам часто задают участники нашего сообщества.
 
