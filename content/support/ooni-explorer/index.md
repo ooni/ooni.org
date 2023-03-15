@@ -93,13 +93,12 @@ You can also use OONI Explorer to **independently verify our findings** (publis
 *   **[Measurement Aggregation Toolkit (MAT)](https://explorer.ooni.org/chart/mat).** Generate charts based on aggregate views of OONI data and track emergent censorship events around the world.
 *   **[Circumvention Tool Reachability Dashboard](https://explorer.ooni.org/chart/circumvention).** Check if circumvention tools work around the world based on aggregate views of OONI data.
 *   **[Country pages](https://explorer.ooni.org/countries).** Each OONI Explorer country page includes:
-
-*   Graph on monthly measurement coverage per OONI Probe test type;
-*   [Reports](https://ooni.org/reports/) published by OONI based on the analysis of OONI data from that country (if available);
-*   Categories of websites (e.g human rights, news media) confirmed blocked in that country (limited to countries where blocking confirmation is automated based on fingerprints);
-*   Charts with aggregate measurement views of most recently blocked websites (based on OONI data);
-*   Charts with aggregate measurement views on the recent testing of instant messaging apps (showing if they’re presenting signs of blocking);
-*   Charts with aggregate measurement views on the recent testing of circumvention tools (showing if they’re presenting signs of blocking).
+    *   Graph on monthly measurement coverage per OONI Probe test type;
+    *   [Reports](https://ooni.org/reports/) published by OONI based on the analysis of OONI data from that country (if available);
+    *   Categories of websites (e.g human rights, news media) confirmed blocked in that country (limited to countries where blocking confirmation is automated based on fingerprints);
+    *   Charts with aggregate measurement views of most recently blocked websites (based on OONI data);
+    *   Charts with aggregate measurement views on the recent testing of instant messaging apps (showing if they’re presenting signs of blocking);
+    *   Charts with aggregate measurement views on the recent testing of circumvention tools (showing if they’re presenting signs of blocking).
 
 *   **[OONI Explorer home page](https://explorer.ooni.org/).** View a graph on monthly OONI measurement coverage worldwide, as well as censorship highlights discovered through OONI data.
 
