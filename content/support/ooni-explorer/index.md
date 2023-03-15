@@ -442,7 +442,7 @@ To view the measurement details, scroll down to the end of the measurement page,
 
 {{<img src="images/image69.png" title="OONI Explorer" alt="OONI Explorer">}}
 
-Most of the details that are relevant to the measurement results are nested under `test\_keys`.
+Most of the details that are relevant to the measurement results are nested under `test_keys`.
 
 **Step 5.** Expand the keys to view further measurement details.
 
@@ -503,11 +503,10 @@ Many cases of website blocking are not automatically detected, and will be pres
 *   **DNS anomaly.** If the [DNS responses](https://ooni.org/support/glossary#dns-lookup) (such as the IP addresses mapped to host names) do not match;
 *   **TCP/IP anomaly.** If a [TCP](https://ooni.org/support/glossary#tcp) session to connect to websites was not established over the network of the user;
 *   **HTTP anomaly.** 
+   *   **HTTP-failure.** If the [HTTP request](https://ooni.org/support/glossary#http-request) over the user’s network failed (resulting in a connection reset, connection timeout, etc).
+   *   **HTTP-diff.** If the [HTTP response](https://ooni.org/support/glossary#http-response) the probe got [differs from the response seen in the control measurement](https://github.com/ooni/spec/blob/master/nettests/ts-017-web-connectivity.md#test-description).
 
-*   **HTTP-failure.** If the [HTTP request](https://ooni.org/support/glossary#http-request) over the user’s network failed (resulting in a connection reset, connection timeout, etc).
-*   **HTTP-diff.** If the [HTTP response](https://ooni.org/support/glossary#http-response) the probe got [differs from the response seen in the control measurement](https://github.com/ooni/spec/blob/master/nettests/ts-017-web-connectivity.md#test-description).
-
-These anomalies can indicate the presence of **[DNS tampering](https://ooni.org/support/glossary#dns-tampering)** (DNS anomaly), **[IP blocking](https://ooni.org/support/glossary#tcpip-blocking)** (TCP/IP anomaly), **[HTTP blocking](https://ooni.org/support/glossary#http-blocking)** (e.g [block page](https://ooni.org/support/glossary#block-page)), or **[TLS](https://ooni.org/support/glossary#tls)** **based interference** (e.g connection reset observed right after the ClientHello message during the TLS handshake). However, false positives can emerge due to [many reasons](https://ooni.org/support/faq#why-do-false-positives-occur). It is therefore important to examine anomalies in aggregate, further aggregate based on anomaly types (e.g `HTTP-failure`), and to check if the tested service consistently presents the same failure (e.g `connection\_reset`) on the same tested ASN. If a tested service consistently presents the same failures, those measurements provide a stronger signal of blocking.
+These anomalies can indicate the presence of **[DNS tampering](https://ooni.org/support/glossary#dns-tampering)** (DNS anomaly), **[IP blocking](https://ooni.org/support/glossary#tcpip-blocking)** (TCP/IP anomaly), **[HTTP blocking](https://ooni.org/support/glossary#http-blocking)** (e.g [block page](https://ooni.org/support/glossary#block-page)), or **[TLS](https://ooni.org/support/glossary#tls)** **based interference** (e.g connection reset observed right after the ClientHello message during the TLS handshake). However, false positives can emerge due to [many reasons](https://ooni.org/support/faq#why-do-false-positives-occur). It is therefore important to examine anomalies in aggregate, further aggregate based on anomaly types (e.g `HTTP-failure`), and to check if the tested service consistently presents the same failure (e.g `connection_reset`) on the same tested ASN. If a tested service consistently presents the same failures, those measurements provide a stronger signal of blocking.
 
 By [filtering measurements based on “anomaly”](https://explorer.ooni.org/search?since=2023-02-09&until=2023-03-12&failure=false&only=anomalies) in the OONI Explorer [Search Tool](https://explorer.ooni.org/search) (explained in previous sections), you can access measurements annotated as “anomalies” from around the world.
 
@@ -517,7 +516,7 @@ By [filtering measurements based on “anomaly”](https://explorer.ooni.org/sea
 
 {{<img src="images/image14.png" title="OONI Explorer" alt="OONI Explorer">}}
 
-In this example, we clicked on a [measurement](https://explorer.ooni.org/measurement/20230311T125058Z_webconnectivity_RU_42437_n1_PCIf051HVVvMCEos?input=https%3A%2F%2Ftwitter.com%2F) pertaining to the testing of `https://twitter.com` in Russia on 11th March 2023. From the measurement listing, we can see that the testing resulted in an `http-failure` (indicating that the HTTP experiment failed)..
+In this example, we clicked on a [measurement](https://explorer.ooni.org/measurement/20230311T125058Z_webconnectivity_RU_42437_n1_PCIf051HVVvMCEos?input=https%3A%2F%2Ftwitter.com%2F) pertaining to the testing of `https://twitter.com` in Russia on 11th March 2023. From the measurement listing, we can see that the testing resulted in an `http-failure` (indicating that the HTTP experiment failed).
 
 {{<img src="images/image49.png" title="OONI Explorer" alt="OONI Explorer">}}
 
@@ -529,35 +528,35 @@ Upon accessing the measurement, the banner informs us that the testing of `https
 
 In the summary of the testing details (illustrated above), we can see that the DNS queries returned the correct IP addresses, and that the TCP connections to the resolved IPs were successful.
 
-However, the **HTTP experiment failed**, resulting in a `connection\_reset` error. Specifically, the HTTP request returned no data, because the connection was reset. As a result, a user on this network in Russia likely could not access `https://twitter.com`.
+However, the **HTTP experiment failed**, resulting in a `connection_reset` error. Specifically, the HTTP request returned no data, because the connection was reset. As a result, a user on this network in Russia likely could not access `https://twitter.com`.
 
 To view the measurement details, scroll down to the end of the measurement page, where you can also **download the raw data in JSON format**.
 
 {{<img src="images/image54.png" title="OONI Explorer" alt="OONI Explorer">}}
 
-**Step 3.** Click on `test\_keys` to expand the nested measurement details.
+**Step 3.** Click on `test_keys` to expand the nested measurement details.
 
 {{<img src="images/image9.png" title="OONI Explorer" alt="OONI Explorer">}}
 
-From the `test\_keys` (illustrated above), we can see that the HTTP experiment failed, resulting in a `connection\_reset` error. To explore further:
+From the `test_keys` (illustrated above), we can see that the HTTP experiment failed, resulting in a `connection_reset` error. To explore further:
 
-**Step 4.** Click on `tls\_handshakes`.
+**Step 4.** Click on `tls_handshakes`.
 
 {{<img src="images/image5.png" title="OONI Explorer" alt="OONI Explorer">}}
 
-The `tls\_handshakes` key has details nested below. In the above example, there are 4 nested items (one for each of the 4 resolved IPs).
+The `tls_handshakes` key has details nested below. In the above example, there are 4 nested items (one for each of the 4 resolved IPs).
 
-**Step 5.** Click on the nested items under the `tls\_handshakes` key.
+**Step 5.** Click on the nested items under the `tls_handshakes` key.
 
 {{<img src="images/image59.png" title="OONI Explorer" alt="OONI Explorer">}}
 
-We can see that the connection was reset (`connection\_reset` error) for each of Twitter’s resolved IPs during the TLS handshake, suggesting **TLS level interference**. To explore further:
+We can see that the connection was reset (`connection_reset` error) for each of Twitter’s resolved IPs during the TLS handshake, suggesting **TLS level interference**. To explore further:
 
-**Step 6.** Click on `network\_events` (and on the items nested under this key).
+**Step 6.** Click on `network_events` (and on the items nested under this key).
 
 {{<img src="images/image68.png" title="OONI Explorer" alt="OONI Explorer">}}
 
-Through the `network\_events` keys, we can see the TLS handshake process for each of the resolved IP addresses.
+Through the `network_events` keys, we can see the TLS handshake process for each of the resolved IP addresses.
 
 In the above example, we can see that the probe successfully connected to the IP `104.244.42.1:443` and started the TLS handshake. However, the connection was reset right after the ClientHello message (`read` operation) during the TLS handshake. This shows TLS level interference, and may indicate the use of [Deep Packet Inspection (DPI)](https://ooni.org/support/glossary#dpi) technology. Based on this [measurement](https://explorer.ooni.org/measurement/20230311T125058Z_webconnectivity_RU_42437_n1_PCIf051HVVvMCEos?input=https%3A%2F%2Ftwitter.com%2F), access to Twitter appears to be blocked in Russia, though it’s important to look at relevant measurements in aggregate (discussed in the next section).
 
