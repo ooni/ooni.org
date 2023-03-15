@@ -626,7 +626,7 @@ By clicking on these values in the table, the measurements with the largest volu
 
 **Note:** The above example does not necessarily mean that news media websites are actually blocked more than other website categories globally. This finding is limited by several factors, such as the [number and types of websites tested](https://ooni.org/support/faq#which-websites-will-i-test-for-censorship-with-ooni-probe) (and the related selection bias) and measurement coverage.
 
-To generate MAT charts, select the categories you would like to display (e.g `News Media` and `Human Rights Issues`) and **click Apply**.
+To generate MAT charts, **select the categories** you would like to display (e.g `News Media` and `Human Rights Issues`) and **click Apply**.
 
 {{<img src="images/image61.png" title="OONI Explorer" alt="OONI Explorer">}}
 
@@ -698,58 +698,58 @@ If you’re interested in checking the blocking of specific domains in a country
 
 Beyond the previous examples, you can use the [MAT](https://explorer.ooni.org/chart/mat) to plot charts for a variety of different questions. These include:
 
-*   **Checking in which countries a specific website is blocked.** For example, if you would like to [check the testing of BBC globally](https://explorer.ooni.org/chart/mat?since=2023-02-09&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=probe_cc&test_name=web_connectivity&domain=www.bbc.com):
+1) **Checking in which countries a specific website is blocked.** For example, if you would like to [check the testing of BBC globally](https://explorer.ooni.org/chart/mat?since=2023-02-09&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=probe_cc&test_name=web_connectivity&domain=www.bbc.com):
 
-* Type `www.bbc.com` under `Domain`
-* Select `Countries` under `Rows`
-* Click `Show Chart`
-   * Click `Confirmed Count` in the measurement table
-   * Select countries with the largest volume of `Confirmed Count` measurements
-   * Click `Apply`
+   * Type `www.bbc.com` under `Domain`
+   * Select `Countries` under `Rows`
+   * Click `Show Chart`
+      * Click `Confirmed Count` in the measurement table
+      * Select countries with the largest volume of `Confirmed Count` measurements
+      * Click `Apply`
 
 {{<img src="images/image24.png" title="OONI Explorer" alt="OONI Explorer">}}
 
-*   **Checking which categories of websites are blocked in a country.** For example, if you would like to [check which categories of websites are blocked in Italy](https://explorer.ooni.org/chart/mat?probe_cc=IT&since=2023-02-12&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=category_code&test_name=web_connectivity):
+2) **Checking which categories of websites are blocked in a country.** For example, if you would like to [check which categories of websites are blocked in Italy](https://explorer.ooni.org/chart/mat?probe_cc=IT&since=2023-02-12&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=category_code&test_name=web_connectivity):
 
-* Select `Italy` under `Country`
-* Select `Website Categories` under `Rows`
-* Click `Show Chart`
-   * Click `Confirmed Count` in the measurement table
-   * Select categories with the largest volume of `Confirmed Count` measurements
-   * Click `Apply`
+   * Select `Italy` under `Country`
+   * Select `Website Categories` under `Rows`
+   * Click `Show Chart`
+      * Click `Confirmed Count` in the measurement table
+      * Select categories with the largest volume of `Confirmed Count` measurements
+      * Click `Apply`
 
 {{<img src="images/image39.png" title="OONI Explorer" alt="OONI Explorer">}}
 
-*   **Checking which countries block specific categories of websites.** For example, if you would like to [check which countries block news media](https://explorer.ooni.org/chart/mat?since=2023-02-12&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=probe_cc&test_name=web_connectivity&category_code=NEWS) websites:
+3) **Checking which countries block specific categories of websites.** For example, if you would like to [check which countries block news media](https://explorer.ooni.org/chart/mat?since=2023-02-12&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=probe_cc&test_name=web_connectivity&category_code=NEWS) websites:
 
-* Select `All Countries` under `Country`
-* Select `News Media` under `Website Categories`
-* Select `Countries` under `Rows`
-* Click `Show Chart`
-   * Click `Confirmed Count` in the measurement table
-   * Select countries with the largest volume of `Confirmed Count` measurements
-   * Click `Apply`
+   * Select `All Countries` under `Country`
+   * Select `News Media` under `Website Categories`
+   * Select `Countries` under `Rows`
+   * Click `Show Chart`
+      * Click `Confirmed Count` in the measurement table
+      * Select countries with the largest volume of `Confirmed Count` measurements
+      * Click `Apply`
 
 {{<img src="images/image45.png" title="OONI Explorer" alt="OONI Explorer">}}
 
-*   **Checking which countries block instant messaging apps.** For example, if you would like to [check which countries are blocking WhatsApp](https://explorer.ooni.org/chart/mat?since=2023-02-12&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=probe_cc&test_name=whatsapp) (based on recent measurements):
+4) **Checking which countries block instant messaging apps.** For example, if you would like to [check which countries are blocking WhatsApp](https://explorer.ooni.org/chart/mat?since=2023-02-12&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=probe_cc&test_name=whatsapp) (based on recent measurements):
 
-* Select `All Countries` under `Country`
-* Select `WhatsApp Test` under `Test Name`
-* Select `Countries` under `Rows`
-* Click `Show Chart`
-   * Click `Anomaly Count` in the measurement table
-   * Select countries with the largest `Anomaly Count` measurements
-   * Click `Apply`
+   * Select `All Countries` under `Country`
+   * Select `WhatsApp Test` under `Test Name`
+   * Select `Countries` under `Rows`
+   * Click `Show Chart`
+      * Click `Anomaly Count` in the measurement table
+      * Select countries with the largest `Anomaly Count` measurements
+      * Click `Apply`
 
 {{<img src="images/image36.png" title="OONI Explorer" alt="OONI Explorer">}}
 
-*   **Comparing censorship across networks.** For example, if you would like to [check which ISPs in Russia block access to Facebook Messenger](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-02-12&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=facebook_messenger):
+5) **Comparing censorship across networks.** For example, if you would like to [check which ISPs in Russia block access to Facebook Messenger](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-02-12&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=facebook_messenger):
 
-* Select `Russia` under `Country`
-* Select `Facebook Messenger Test` under `Test Name`
-* Select `ASN` under `Rows`
-* Click `Show Chart`
+   * Select `Russia` under `Country`
+   * Select `Facebook Messenger Test` under `Test Name`
+   * Select `ASN` under `Rows`
+   * Click `Show Chart`
 
 {{<img src="images/image31.png" title="OONI Explorer" alt="OONI Explorer">}}
 
