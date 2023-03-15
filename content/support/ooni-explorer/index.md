@@ -5,7 +5,7 @@ description: "This user guide provides step-by-step instructions on how to use O
 
 **Last updated:** 15th March 2023
 
-![](images/image67.png)
+{{<img src="images/image67.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 [OONI Explorer](https://explorer.ooni.org/) is an open data resource on internet censorship around the world.
 
@@ -89,10 +89,10 @@ You can also use OONI Explorer to **independently verify our findings** (publis
 
 [OONI Explorer](https://explorer.ooni.org/) is a web platform designed to enable the investigation of internet censorship worldwide. To this end, OONI Explorer includes several tools and pages:
 
-*   **[Search Tool](https://explorer.ooni.org/search)****.** Filter OONI measurements based on a variety of factors, such as country, ASN (network), date range, OONI Probe test, website categories, and testing status. Discover automatically [confirmed blocked websites](https://explorer.ooni.org/search?since=2023-02-05&until=2023-03-08&failure=false&test_name=web_connectivity&only=confirmed), and narrow the measurements based on the questions you want to answer.
-*   **[Measurement Aggregation Toolkit (MAT)](https://explorer.ooni.org/chart/mat)****.** Generate charts based on aggregate views of OONI data and track emergent censorship events around the world.
-*   **[Circumvention Tool Reachability Dashboard](https://explorer.ooni.org/chart/circumvention)****.** Check if circumvention tools work around the world based on aggregate views of OONI data.
-*   **[Country pages](https://explorer.ooni.org/countries)****.** Each OONI Explorer country page includes:
+*   **[Search Tool](https://explorer.ooni.org/search).** Filter OONI measurements based on a variety of factors, such as country, ASN (network), date range, OONI Probe test, website categories, and testing status. Discover automatically [confirmed blocked websites](https://explorer.ooni.org/search?since=2023-02-05&until=2023-03-08&failure=false&test_name=web_connectivity&only=confirmed), and narrow the measurements based on the questions you want to answer.
+*   **[Measurement Aggregation Toolkit (MAT)](https://explorer.ooni.org/chart/mat).** Generate charts based on aggregate views of OONI data and track emergent censorship events around the world.
+*   **[Circumvention Tool Reachability Dashboard](https://explorer.ooni.org/chart/circumvention).** Check if circumvention tools work around the world based on aggregate views of OONI data.
+*   **[Country pages](https://explorer.ooni.org/countries).** Each OONI Explorer country page includes:
 
 *   Graph on monthly measurement coverage per OONI Probe test type;
 *   [Reports](https://ooni.org/reports/) published by OONI based on the analysis of OONI data from that country (if available);
@@ -101,7 +101,7 @@ You can also use OONI Explorer to **independently verify our findings** (publis
 *   Charts with aggregate measurement views on the recent testing of instant messaging apps (showing if they’re presenting signs of blocking);
 *   Charts with aggregate measurement views on the recent testing of circumvention tools (showing if they’re presenting signs of blocking).
 
-*   **[OONI Explorer home page](https://explorer.ooni.org/)****.** View a graph on monthly OONI measurement coverage worldwide, as well as censorship highlights discovered through OONI data.
+*   **[OONI Explorer home page](https://explorer.ooni.org/).** View a graph on monthly OONI measurement coverage worldwide, as well as censorship highlights discovered through OONI data.
 
 Learn how to use the OONI Explorer [Search Tool](https://explorer.ooni.org/search) and [Measurement Aggregation Toolkit (MAT)](https://explorer.ooni.org/chart/mat) through the following sections of this guide.
 
@@ -117,7 +117,7 @@ You can use the OONI Explorer Search Tool through the following steps:
 
 **Step 1.** Access the OONI Explorer Search Tool page: [https://explorer.ooni.org/search](https://explorer.ooni.org/search) 
 
-![](images/image21.png)
+{{<img src="images/image21.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 As you will see, the Search Tool page includes a variety of filters on the left, and a list of OONI Probe test results (“measurements”) from around the world on the right. The most recent OONI measurements are listed first, with each row including an individual measurement.
 
@@ -132,7 +132,7 @@ Each row includes certain metadata that enables you to gain an overview of the m
 
 For example, through the following measurement (the first listed in the above screenshot), we can see that Psiphon was found reachable (“OK”) when tested in Brazil (AS27699 network) on 7th March 2023 (at 17:30 UTC).
 
-![](images/image27.png)
+{{<img src="images/image27.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 You can learn more (and access the relevant data) by clicking on the measurement row. This is discussed further in the “Measurement pages” sections below.
 
@@ -155,21 +155,21 @@ Specifically, the OONI Explorer Search page includes filters for narrowing the m
 
 When you first arrive on the [Search page](https://explorer.ooni.org/search), the default Country filter is set to `Any`, which is why you view measurements from around the world.
 
-![](images/image48.png)
+{{<img src="images/image48.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 To limit OONI measurements to a specific country:
 
 **Step 1.** Click on the Country dropdown menu and **click on a country** (in this example, we select Azerbaijan).
 
-![](images/image29.png)
+{{<img src="images/image29.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Step 2.** Click **Filter Results** at the end of the filters to narrow your search to measurements from the selected country.
 
-![](images/image12.png)
+{{<img src="images/image12.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 You will now only see measurements collected from the selected country (for example, Azerbaijan).
 
-![](images/image16.png)
+{{<img src="images/image16.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 ##### ASN
 
@@ -185,23 +185,23 @@ To narrow your search to measurements collected from a specific network:
 
 **Step 1.** Look up the **ASN** for the network you’re interested in (for example, MTN Uganda) in a web search engine (such as Google).
 
-![](images/image19.png)
+{{<img src="images/image19.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 The first search results should display the ASN for the provider you’re interested in. In the above example, we can see that by searching “MTN Uganda ASN” we get the following ASN: `AS20294`.
 
 **Step 2.** Type the ASN (e.g AS20294) in the ASN field of the Search page filters.
 
-![](images/image53.png)
+{{<img src="images/image53.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Important:** Please ensure that you either have `Any` or the country where this provider operates (e.g Uganda) selected in the Country filter. If you have selected a country which is unrelated to the added ASN, you will get a “No Results Found” message.
 
 **Step 3.** Click **Filter Results** at the end of the filters to narrow your search to measurements from the selected network.
 
-![](images/image12.png)
+{{<img src="images/image12.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 You will now only see measurements collected from the selected network (for example, MTN Uganda).
 
-![](images/image13.png)
+{{<img src="images/image13.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 ##### Date range
 
@@ -209,29 +209,29 @@ OONI data spans for 2012 to date, with new measurements published from around th
 
 When you first arrive on the [Search page](https://explorer.ooni.org/search), you may notice that only measurements collected over the last month are listed. This default monthly date range has been set for performance reasons.
 
-![](images/image46.png)
+{{<img src="images/image46.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 To change the date range:
 
 **Step 1.** Click under the **From** filter to select the starting date. You can select the day and year of your choice, or you can click on one of the `Today`, `Last Week`, `Last Month`, or `Last Year` buttons (if you would like to narrow your measurement search to the last day, week, month, or year).
 
-![](images/image30.png)
+{{<img src="images/image30.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Step 2.** Click **Apply** to add the selected starting date. In this example, we have selected `1st February 2022` as the starting date for our measurements.
 
 **Step 3.** Click under the **Until** filter to select the end date. In this example, we have selected `31st March 2022` as the end date for our measurements.
 
-![](images/image37.png)
+{{<img src="images/image37.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Step 4.** Click **Apply** to add the selected end date.
 
 **Step 5.** Click **Filter Results** at the end of the filters to narrow your search to measurements for the selected date range.
 
-![](images/image12.png)
+{{<img src="images/image12.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 You will now only see measurements collected from the selected date range (for example, 1st February 2022 to 31st March 2022).
 
-![](images/image58.png)
+{{<img src="images/image58.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 You can further narrow your measurements to a specific country and/or ASN by adjusting the relevant filters (as discussed previously).
 
@@ -251,21 +251,21 @@ To narrow the measurements to specific tests:
 
 **Step 1.** Click the **Test Name** dropdown menu in the [Search page](https://explorer.ooni.org/search).
 
-![](images/image52.png)
+{{<img src="images/image52.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 As you will see through the dropdown menu, OONI Probe tests are categorized based on the type of testing that they perform. For example, the tests for the WhatsApp, Facebook Messenger, Signal, and Telegram apps are listed under the “Instant Messaging” category.
 
 **Step 2.** Click on an OONI Probe test name. In this example, we clicked on “Web Connectivity Test” to get measurements pertaining to the testing of websites.  
 
-![](images/image64.png)
+{{<img src="images/image64.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Step 3.** Click **Filter Results** at the end of the filters to narrow your search to measurements from the selected OONI Probe test.
 
-![](images/image12.png)
+{{<img src="images/image12.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 You will now only see measurements collected from the selected OONI Probe test (Web Connectivity).
 
-![](images/image33.png)
+{{<img src="images/image33.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 You can further narrow your measurements to a specific country, ASN and/or date range by adjusting the relevant filters (as discussed previously).
 
@@ -277,21 +277,21 @@ You can use the OONI Explorer [Search Tool](https://explorer.ooni.org/search) t
 
 To narrow your measurement search to specific website categories:
 
-**Step 1.** Click the **Website Categories** dropdown menu in the [Search page](https://explorer.ooni.org/search). ![](images/image57.png)
+**Step 1.** Click the **Website Categories** dropdown menu in the [Search page](https://explorer.ooni.org/search). {{<img src="images/image57.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Note:** The “Website Categories” filter will only appear if you have “Web Connectivity Test” (or “Any”) selected in the Test Name filter.
 
 **Step 2.** Click on a website category. In this example, we clicked on “News Media” to get measurements pertaining to the testing of news media websites.
 
- ![](images/image63.png)
+ {{<img src="images/image63.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Step 3.** Click **Filter Results** at the end of the filters to narrow your search to measurements for the selected website category.
 
-![](images/image12.png)
+{{<img src="images/image12.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 You will now only see measurements collected from the selected website category (News Media).
 
-![](images/image47.png)
+{{<img src="images/image47.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 You can further narrow your measurements to a specific country, ASN and/or date range by adjusting the relevant filters (as discussed previously).
 
@@ -303,21 +303,21 @@ To narrow your search to measurements for a specific domain:
 
 **Step 1.** Type a [domain name](https://ooni.org/support/glossary#domain-name) in the Domain field. For example, `twitter.com` is the domain of the Twitter website.
 
-![](images/image3.png)
+{{<img src="images/image3.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Important:** Please ensure that the [domain name](https://ooni.org/support/glossary#domain-name) is typed correctly. If it is mis-typed, OONI Explorer will not provide relevant measurements. If you are unsure, please copy-paste the domain when accessing the site from a browser (while excluding the HTTP(S) prefix).
 
- ![](images/image65.png)
+ {{<img src="images/image65.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Note:** The “Domain” filter will only appear if you have “Web Connectivity Test” (or “Any”) selected in the Test Name filter.
 
 **Step 2.** Click **Filter Results** at the end of the filters to narrow your search to measurements for the selected domain.
 
-![](images/image12.png)
+{{<img src="images/image12.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 You will now only see measurements collected from the testing of the selected domain (`twitter.com`).
 
-![](images/image7.png)
+{{<img src="images/image7.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 You can further narrow your measurements to a specific country, ASN and/or date range by adjusting the relevant filters (as discussed previously).
 
@@ -335,21 +335,21 @@ To narrow your search to measurements for a specific [URL](https://ooni.org/supp
 
 **Step 1.** Type a [URL](https://ooni.org/support/glossary#url) in the Input field. For example, `https://twitter.com/` is the URL of the Twitter website.
 
-![](images/image66.png)
+{{<img src="images/image66.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Important:** Please ensure that the [URL](https://ooni.org/support/glossary#url) is typed correctly, and that it includes a trailing slash (`/`). If it is mis-typed, OONI Explorer will not provide relevant measurements. If you are unsure, please copy-paste the URL when accessing the site from a browser (including the HTTP(S) prefix).
 
-![](images/image42.png)
+{{<img src="images/image42.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Note:** The “Input” filter will only appear if you have “Web Connectivity Test” (or “Any”) selected in the Test Name filter.
 
 **Step 2.** Click **Filter Results** at the end of the filters to narrow your search to measurements for the selected URL.
 
-![](images/image12.png)
+{{<img src="images/image12.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 You will now only see measurements collected from the testing of the selected URL (`https://twitter.com/`).
 
-![](images/image32.png)
+{{<img src="images/image32.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 You can further narrow your measurements to a specific country, ASN and/or date range by adjusting the relevant filters (as discussed previously).
 
@@ -369,7 +369,7 @@ Generally, [OONI Probe tests](https://ooni.org/nettest/) will present one of th
 
 By default, the OONI Explorer [Search Tool](https://explorer.ooni.org/search) presents all measurements, regardless of the testing result.
 
-![](images/image34.png)
+{{<img src="images/image34.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Note:** The “Status” filter will only present the “Confirmed” option if you have “Web Connectivity Test” (or “Any”) selected in the Test Name filter.
 
@@ -377,15 +377,15 @@ To narrow your search to automatically **confirmed blocked websites**:
 
 **Step 1.** Click **Confirmed** in the Status filter of the [Search page](https://explorer.ooni.org/search).
 
-![](images/image44.png)
+{{<img src="images/image44.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Step 2.** Click **Filter Results** to narrow your search to measurements for automatically confirmed blocked websites.
 
-![](images/image12.png)
+{{<img src="images/image12.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 You will now see measurements from confirmed blocked websites around the world.
 
-![](images/image8.png)
+{{<img src="images/image8.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 You can further narrow your measurements to a specific country, ASN, domain and/or date range by adjusting the relevant filters (as discussed previously).
 
@@ -393,7 +393,7 @@ To narrow your search to **anomalous** measurements:
 
 **Step 1.** Click **Anomalies** in the Status filter of the [Search page](https://explorer.ooni.org/search).
 
-![](images/image20.png)
+{{<img src="images/image20.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Note:** By default, failed measurements (when the experiment failed to perform as expected) are disabled from the view, but you can enable them by **unticking the “Hide failed measurements” option**. As some [failed measurements can be symptomatic of censorship](https://ooni.org/post/improving-data-quality-analysis-of-failed-measurements/), we encourage researchers to analyze them.
 
@@ -401,7 +401,7 @@ To narrow your search to **anomalous** measurements:
 
 You will now only see measurements that present anomalies (signs of network interference).
 
-![](images/image40.png)
+{{<img src="images/image40.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 Anomalous measurements pertaining to the testing of websites also list the specific type of anomaly (`DNS`, `TCP/IP`, `HTTP-failure`, `HTTP-diff`), which can help with characterizing blocking (for example, a DNS anomaly can be indicative of [DNS tampering](https://ooni.org/support/glossary#dns-tampering)). However, it’s important to look at anomalies in aggregate, and to inspect the raw measurement data to rule out [false positives](https://ooni.org/support/faq#what-are-false-positives).
 
@@ -413,11 +413,11 @@ To access a measurement page:
 
 **Step 1.** Access the OONI Explorer Search Tool page: [https://explorer.ooni.org/search](https://explorer.ooni.org/search) 
 
-![](images/image15.png)
+{{<img src="images/image15.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Step 2.** Click on one of the listed measurement rows. In this example, we clicked on the latest WhatsApp measurement collected from Russia.
 
-![](images/image1.png)
+{{<img src="images/image1.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 Each measurement page starts off with a color-coded banner (green for `OK`, orange for `Anomaly`, red for `Confirmed blocked websites`), providing an **overview of key information** pertaining to the measurement.
 
@@ -431,17 +431,17 @@ The banner also includes 3 links:
 
 **Step 3.** Scroll down the measurement page to view further details.
 
-![](images/image26.png)
+{{<img src="images/image26.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 After the banner, we provide a **summary of the testing details** (which differ from test to test, depending on how each [OONI Probe test](https://ooni.org/nettest/) works). In the above example (taken from a [measurement](https://explorer.ooni.org/measurement/20230308T175446Z_whatsapp_RU_47895_n1_ApcWgzIgA2oi4nNx) testing WhatsApp in Russia), we can see that all connections to tested WhatsApp endpoints were successful. We can also see that, overall, the testing of WhatsApp Mobile, WhatsApp Web, and WhatsApp’s registration service were successful. For these reasons, the [test](https://ooni.org/nettest/whatsapp/) determined that “WhatsApp was accessible” at the moment (and on the network) when it was tested in Russia.
 
 To view the measurement details, scroll down to the end of the measurement page, where you can also **download the raw data in JSON format**.
 
-![](images/image50.png)
+{{<img src="images/image50.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Step 4.** Click **Expand All** to view the measurement details of the raw data.
 
-![](images/image69.png)
+{{<img src="images/image69.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 Most of the details that are relevant to the measurement results are nested under `test\_keys`.
 
@@ -460,31 +460,31 @@ Automatically detecting the above cases requires that relevant [fingerprints](ht
 
 By [filtering measurements based on “confirmed”](https://explorer.ooni.org/search?since=2023-02-07&until=2023-03-10&failure=false&only=confirmed) in the OONI Explorer [Search Tool](https://explorer.ooni.org/search) (explained in previous sections), you can access measurements annotated as “confirmed blocked” from around the world.
 
-![](images/image23.png)
+{{<img src="images/image23.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Step 1.** Click on a row to access a “confirmed blocked” measurement.
 
-![](images/image51.png)
+{{<img src="images/image51.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 In this example, we clicked on a measurement pertaining to the testing of `https://twitter.com` in Iran on 9th March 2023.
 
-![](images/image60.png)
+{{<img src="images/image60.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 Upon accessing the measurement, the banner informs us that `https://twitter.com` was confirmed blocked when tested in Iran (on AS50810) on 9th March 2023 (at 10:33 AM UTC).
 
 **Step 2.** Scroll down the measurement page to view further details.
 
-![](images/image62.png)
+{{<img src="images/image62.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 In the summary of the testing details (illustrated above), we can see that DNS resolution returned the [private IPv4 address](https://en.wikipedia.org/wiki/Private_network#Private_IPv4_addresses) `10.10.34.35` (instead of Twitter’s actual IP address), which is [commonly used by Iranian ISPs](https://ooni.org/post/2020-iran-blocks-farsi-wikipedia/) for the implementation of censorship. In other words, OONI data shows that users of this network in Iran cannot access Twitter because instead of getting Twitter’s IP address, they get the private IP `10.10.34.35`. OONI Explorer displays this case as “confirmed blocked” because the IP `10.10.34.35` is included in the fingerprints added to OONI’s database.
 
 To view the measurement details, scroll down to the end of the measurement page, where you can also **download the raw data in JSON format**.
 
-![](images/image22.png)
+{{<img src="images/image22.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Step 3.** Click on `test\_keys` to expand the nested measurement details.
 
-![](images/image17.png)
+{{<img src="images/image17.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 This data can potentially serve as evidence of internet censorship, since it shows that the ISP implemented DNS based tampering, returning a private IP ([known](https://ooni.org/post/2020-iran-blocks-farsi-wikipedia/) to be associated with censorship) instead of the actual IP address for the requested website (`https://twitter.com`).
 
@@ -512,21 +512,21 @@ These anomalies can indicate the presence of **[DNS tampering](https://ooni.org/
 
 By [filtering measurements based on “anomaly”](https://explorer.ooni.org/search?since=2023-02-09&until=2023-03-12&failure=false&only=anomalies) in the OONI Explorer [Search Tool](https://explorer.ooni.org/search) (explained in previous sections), you can access measurements annotated as “anomalies” from around the world.
 
-![](images/image40.png)
+{{<img src="images/image40.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Step 1.** Click on a row to access an “anomalous” measurement.
 
-![](images/image14.png)
+{{<img src="images/image14.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 In this example, we clicked on a [measurement](https://explorer.ooni.org/measurement/20230311T125058Z_webconnectivity_RU_42437_n1_PCIf051HVVvMCEos?input=https%3A%2F%2Ftwitter.com%2F) pertaining to the testing of `https://twitter.com` in Russia on 11th March 2023. From the measurement listing, we can see that the testing resulted in an `http-failure` (indicating that the HTTP experiment failed)..
 
-![](images/image49.png)
+{{<img src="images/image49.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 Upon accessing the measurement, the banner informs us that the testing of `https://twitter.com` presented an “anomaly” (as the HTTP request failed) when tested in Russia (on AS42437) on 11th March 2023 (at 12:51 PM UTC).
 
 **Step 2.** Scroll down the measurement page to view further details.
 
-![](images/image55.png)
+{{<img src="images/image55.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 In the summary of the testing details (illustrated above), we can see that the DNS queries returned the correct IP addresses, and that the TCP connections to the resolved IPs were successful.
 
@@ -534,29 +534,29 @@ However, the **HTTP experiment failed**, resulting in a `connection\_reset` erro
 
 To view the measurement details, scroll down to the end of the measurement page, where you can also **download the raw data in JSON format**.
 
-![](images/image54.png)
+{{<img src="images/image54.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Step 3.** Click on `test\_keys` to expand the nested measurement details.
 
-![](images/image9.png)
+{{<img src="images/image9.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 From the `test\_keys` (illustrated above), we can see that the HTTP experiment failed, resulting in a `connection\_reset` error. To explore further:
 
 **Step 4.** Click on `tls\_handshakes`.
 
-![](images/image5.png)
+{{<img src="images/image5.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 The `tls\_handshakes` key has details nested below. In the above example, there are 4 nested items (one for each of the 4 resolved IPs).
 
 **Step 5.** Click on the nested items under the `tls\_handshakes` key.
 
-![](images/image59.png)
+{{<img src="images/image59.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 We can see that the connection was reset (`connection\_reset` error) for each of Twitter’s resolved IPs during the TLS handshake, suggesting **TLS level interference**. To explore further:
 
 **Step 6.** Click on `network\_events` (and on the items nested under this key).
 
-![](images/image68.png)
+{{<img src="images/image68.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 Through the `network\_events` keys, we can see the TLS handshake process for each of the resolved IP addresses.
 
@@ -583,7 +583,7 @@ You can answer such questions and generate charts based on OONI data by adjustin
 
 At the start of the [MAT](https://explorer.ooni.org/chart/mat) page, you can adjust the filters and click `Show Chart` to plot charts based on aggregate views of OONI data.
 
-![](images/image25.png)
+{{<img src="images/image25.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 The MAT includes the following filters:
 
@@ -609,7 +609,7 @@ Measurements in MAT charts (similarly to the OONI Explorer [Search Tool](https:/
 
 If you select a value in the `Row` (y-axis) filter (and click `Show Chart`), a table with additional filters will appear before your charts. This table includes the aforementioned measurement values, along with the overall measurement count.
 
-![](images/image43.png)
+{{<img src="images/image43.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 In the above example, we have selected `Website Categories` in the `Row` filter, thus checking the testing of websites based on [categories](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv) globally.
 
@@ -624,13 +624,13 @@ For each category (during the selected date range), the table lists the:
 
 By clicking on these values in the table, the measurements with the largest volume will be listed first. For example, by **clicking Confirmed Count**, the category `News Media` is listed first with the largest volume of `confirmed blocked` measurements out of all categories (during the selected date range globally).
 
-  ![](images/image28.png)
+  {{<img src="images/image28.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Note:** The above example does not necessarily mean that news media websites are actually blocked more than other website categories globally. This finding is limited by several factors, such as the [number and types of websites tested](https://ooni.org/support/faq#which-websites-will-i-test-for-censorship-with-ooni-probe) (and the related selection bias) and measurement coverage.
 
 To generate MAT charts, select the categories you would like to display (e.g `News Media` and `Human Rights Issues`) and **click Apply**.
 
-![](images/image61.png)
+{{<img src="images/image61.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 #### Generating charts based on OONI data
 
@@ -638,15 +638,15 @@ To generate MAT charts based on aggregate views of OONI data:
 
 **Step 1.** Access the MAT: [https://explorer.ooni.org/chart/mat](https://explorer.ooni.org/chart/mat) 
 
-![](images/image4.png)
+{{<img src="images/image4.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Step 2.** Adjust the filters depending on the question you would like to answer. For example, to check the recent testing of Twitter in Russia, select `Russia` in the `Country` filter, and type `twitter.com` in the `Domain` field (as illustrated below).
 
-![](images/image6.png)
+{{<img src="images/image6.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Step 3.** Click **Show Chart** to plot a chart based on the selected filters.
 
-![](images/image38.png)
+{{<img src="images/image38.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 You will now see a chart with aggregate OONI data, generated based on the selected filters. In the above example, we can see all OONI measurements from the testing of `twitter.com` on all tested networks in Russia between 12th February 2023 to 11th March 2023. To **download the generated data** (in JSON or CSV format), click `JSON Data` or `CSV Data` at the bottom right corner of the chart.
 
@@ -654,15 +654,15 @@ From the above MAT chart, we can see that most measurements from the testing of 
 
 **Step 4.** Click on a bar in the MAT chart.
 
-![](images/image2.png)
+{{<img src="images/image2.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 This will show a tooltip with summary information based on the selected measurements. In this example, we can see that on 3rd March 2023: 655 measurements presented anomalies, 56 measurements confirmed the blocking of `twitter.com`, 86 measurements failed, while only 69 measurements showed that `twitter.com` was accessible.
 
-![](images/image11.png)
+{{<img src="images/image11.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Step 5.** To access these measurements, click **View measurements** in the tooltip. This will open the relevant OONI Explorer [Search page](https://explorer.ooni.org/search?since=2023-03-03&until=2023-03-04&probe_cc=RU&test_name=web_connectivity&domain=twitter.com&failure=true), pre-filtered to only show the measurements from the selected MAT chart bar.
 
-![](images/image10.png)
+{{<img src="images/image10.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 You can access each of these measurements by clicking on each measurement row, as described in the previous OONI Explorer Search Tool sections of this guide.
 
@@ -676,17 +676,17 @@ If you’re interested in checking the blocking of specific domains in a country
 
 **Step 3.** Click **Show Chart**.
 
-![](images/image18.png)
+{{<img src="images/image18.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Step 4.** Type the domain (`www.facebook.com`) that you would like to find measurements for in the `Search` field of the measurement table.
 
-![](images/image35.png)
+{{<img src="images/image35.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Note:** When you start typing the domain, other relevant domains may appear. For example, when typing `facebook`, you will also see other Facebook domains (such as `edge-mqtt.facebook.com` and `staticxx.facebook.com`), in addition to `www.facebook.com`.
 
 **Step 5.** Click on the box for the selected domain.
 
-![](images/image41.png)
+{{<img src="images/image41.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Step 6.** Repeat the last 2 steps to add as many domains as you like.
 
@@ -694,7 +694,7 @@ If you’re interested in checking the blocking of specific domains in a country
 
 **Step 7.** Click **Apply** to generate charts based on the selected domains.
 
-![](images/image56.png)
+{{<img src="images/image56.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 ##### Other MAT use cases
 
@@ -710,7 +710,7 @@ Beyond the previous examples, you can use the [MAT](https://explorer.ooni.org/ch
 *   Select countries with the largest volume of `Confirmed Count` measurements
 *   Click `Apply`
 
-![](images/image24.png)
+{{<img src="images/image24.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 *   **Checking which categories of websites are blocked in a country.** For example, if you would like to [check which categories of websites are blocked in Italy](https://explorer.ooni.org/chart/mat?probe_cc=IT&since=2023-02-12&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=category_code&test_name=web_connectivity):
 
@@ -722,7 +722,7 @@ Beyond the previous examples, you can use the [MAT](https://explorer.ooni.org/ch
 *   Select categories with the largest volume of `Confirmed Count` measurements
 *   Click `Apply`
 
-![](images/image39.png)
+{{<img src="images/image39.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 *   **Checking which countries block specific categories of websites.** For example, if you would like to [check which countries block news media](https://explorer.ooni.org/chart/mat?since=2023-02-12&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=probe_cc&test_name=web_connectivity&category_code=NEWS) websites:
 
@@ -735,7 +735,7 @@ Beyond the previous examples, you can use the [MAT](https://explorer.ooni.org/ch
 *   Select countries with the largest volume of `Confirmed Count` measurements
 *   Click `Apply`
 
-![](images/image45.png)
+{{<img src="images/image45.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 *   **Checking which countries block instant messaging apps.** For example, if you would like to [check which countries are blocking WhatsApp](https://explorer.ooni.org/chart/mat?since=2023-02-12&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=probe_cc&test_name=whatsapp) (based on recent measurements):
 
@@ -748,7 +748,7 @@ Beyond the previous examples, you can use the [MAT](https://explorer.ooni.org/ch
 *   Select countries with the largest `Anomaly Count` measurements
 *   Click `Apply`
 
-![](images/image36.png)
+{{<img src="images/image36.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 *   **Comparing censorship across networks.** For example, if you would like to [check which ISPs in Russia block access to Facebook Messenger](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2023-02-12&until=2023-03-12&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=facebook_messenger):
 
@@ -757,7 +757,7 @@ Beyond the previous examples, you can use the [MAT](https://explorer.ooni.org/ch
 *   Select `ASN` under `Rows`
 *   Click `Show Chart`
 
-![](images/image31.png)
+{{<img src="images/image31.png" title="OONI Explorer" alt="OONI Explorer">}}
 
 We hope you will find the MAT useful to your research and/or advocacy!
 
