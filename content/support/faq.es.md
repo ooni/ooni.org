@@ -7,6 +7,9 @@ aliases:
 
 Este documento fue traducido al español por Katherine Pennacchio y Mariengracia Chirinos.
 
+Documento original:
+* English, [Frequently Asked Questions (FAQ)](https://ooni.org/support/faq/)
+
 Esta sección de preguntas frecuentes pretende responder a las preguntas que con más frecuencia nos plantea la comunidad.
 
 ¿Hay alguna otra pregunta que le gustaría que tratáramos? [Háganoslo saber](https://ooni.org/about/#contact).
@@ -461,7 +464,7 @@ intentamos limitar la recogida de datos a los tipos de datos que son necesarios 
 
 Por defecto, OONI Probe recopila:
 
-* La **fecha y hora** de una medición (como "2019-10-30, 14:00 UTC").
+* **La fecha y hora** de una medición (como "2019-10-30, 14:00 UTC").
 
 * **El código de país** (como "IT" para Italia)
 
@@ -504,7 +507,7 @@ Algunas cosas a tener en cuenta:
 
 * **Publicación o no de las mediciones**. OONI [publica abiertamente las mediciones](https://ooni.org/data/) recogidas de los usuarios de OONI Probe para aumentar la transparencia de la censura en Internet en todo el mundo. Hacemos todo lo posible por no publicar su dirección IP ni ninguna otra información que pueda identificarlo personalmente.
 
-Para saber más sobre los riesgos potenciales asociados al uso de OONI Probe, consulte nuestra documentación:[https://ooni.org/about/risks/](https://ooni.org/about/risks/)
+Para saber más sobre los riesgos potenciales asociados al uso de OONI Probe, consulte nuestra documentación: [https://ooni.org/es/about/risks/](https://ooni.org/es/about/risks/)
 
 ### ¿Cómo puedo reducir los riesgos asociados al uso de OONI Probe?
 
@@ -528,7 +531,7 @@ Para capturar la censura de internet (tal y como la experimenta un usuario local
 
 No. Somos un equipo de desarrolladores de software, y por lo tanto no podemos proporcionar ningún tipo de asesoramiento legal.
 
-Sin embargo, a continuación compartimos algunas preguntas que puede hacer a sus abogados relacionadas con el uso de OONI Probe: [https://ooni.org/about/risks/#seeking-legal-advice](https://ooni.org/about/risks/#seeking-legal-advice)
+Sin embargo, a continuación compartimos algunas preguntas que puede hacer a sus abogados relacionadas con el uso de OONI Probe: [https://ooni.org/es/about/risks/#seeking-legal-advice](https://ooni.org/es/about/risks/#seeking-legal-advice)
 
 ## Testeando sitios web
 
@@ -611,8 +614,7 @@ Le animamos a [revisar qué sitios web se incluyen en las listas de test y a pro
 
 ### ¿Cómo puedo contribuir a las listas de test?
 
-Puede contribuir con sitios web para los tests de censura a través de
-las siguientes plataformas:
+Puede contribuir con sitios web para los tests de censura a través de las siguientes plataformas:
 
 * [Editor de listas de test](https://test-lists.ooni.org/) ([guía](https://ooni.org/support/test-lists-editor))
 
@@ -835,7 +837,7 @@ Puede encontrar los sitios web bloqueados en su país siguiendo los siguientes p
 
 * Haga clic en "**Filtrar resultados**".
 
-Interprete los resultados "anómalos" con precaución, ya que pueden
+Interprete los resultados "Anómalos" con precaución, ya que pueden
 contener falsos positivos.
 
 Los resultados bloqueados "Confirmados" sólo aparecerán si los ISP analizados devuelven páginas bloqueadas para esos sitios web específicos.
@@ -869,7 +871,7 @@ Si busca los resultados correspondientes a un sitio web concreto (siguiendo las 
 
 * **El sitio web en cuestión no ha sido testeado en el país seleccionado**. Puede comprobar qué sitios web se testean generalmente en cada país revisando las URL incluidas en la lista [global](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) y en la [específica del país](https://github.com/citizenlab/test-lists/tree/master/lists) (si existe esta última).
 
-* **El dominio está mal escrito**. Si escribe mal el dominio (por ejemplo, bbc.com en lugar de www.bbc.com), OONI Explorer no podrá mostrar los resultados solicitados. Le recomendamos que acceda al sitio web desde un navegador (o desde [Tor Browser](https://www.torproject.org/download/) si el acceso al sitio web está bloqueado en su localidad) para comprobar cómo está formateado el dominio (es la parte del sitio web, excluyendo el prefijo HTTP o HTTPS).
+* **El dominio está mal escrito**. Si escribe mal el dominio (por ejemplo, `bbc.com` en lugar de `www.bbc.com`), OONI Explorer no podrá mostrar los resultados solicitados. Le recomendamos que acceda al sitio web desde un navegador (o desde [Tor Browser](https://www.torproject.org/download/) si el acceso al sitio web está bloqueado en su localidad) para comprobar cómo está formateado el dominio (es la parte del sitio web, excluyendo el prefijo HTTP o HTTPS).
 
 ### ¿Cómo puedo comprobar el bloqueo de sitios web durante un periodo de tiempo específico?
 
@@ -887,7 +889,7 @@ Para acotar los resultados a un periodo de tiempo concreto, utilice el [Explorad
 
 6.  Haga clic en "**Filtrar resultados**"
 
-Por favor, interprete los resultados "anómalos" con precaución, ya que pueden contener falsos positivos.
+Por favor, interprete los resultados "Anómalos" con precaución, ya que pueden contener falsos positivos.
 
 Los resultados bloqueados "Confirmados" sólo aparecerán si los ISP probados devuelven páginas bloqueadas para esos sitios web específicos.
 
@@ -951,7 +953,7 @@ Hay dos razones por las que esto puede ocurrir:
 
 ### ¿Qué son los falsos positivos?
 
-**Los falsos positivos son resultados de tests de OONI Probe (marcados como "anómalos") que indican incorrectamente la presencia de interferencias en la red (como el bloqueo de una web o app).**
+**Los falsos positivos son resultados de tests de OONI Probe (marcados como "Anómalos") que indican incorrectamente la presencia de interferencias en la red (como el bloqueo de una web o app).**
 
 Al medir la accesibilidad de sitios web, OONI Probe compara los resultados de tu red con los resultados de una red no censurada. Si los resultados no coinciden, entonces el resultado de la prueba de OONI Probe en cuestión se marca como "anomalía", indicando una posible interferencia en la red. Muchas de estas anomalías son de hecho casos de interferencia de red, mientras que algunas pueden ser falsos positivos.
 
@@ -987,7 +989,7 @@ Te animamos a que te [pongas en contacto (por correo electrónico o Slack)](http
 informe.
 
 En general, **recomendamos observar los resultados a lo largo de una línea de tiempo, en lugar de individualmente** (a menos que estén etiquetados
-como "confirmados"). Por ejemplo, si observa que un sitio web sometido a tests presenta la misma anomalía (por ejemplo, manipulación de DNS)
+como "Confirmados"). Por ejemplo, si observa que un sitio web sometido a tests presenta la misma anomalía (por ejemplo, manipulación de DNS)
 cada vez que se somete a tests en una red específica de un país, es más probable que se esté interfiriendo en el acceso al mismo. Si, por el
 contrario, una única medición (por ejemplo) presenta una anomalía TCP, pero todas las demás mediciones que testean ese sitio web en la misma
 red han tenido éxito, es probable que esa anomalía TCP sea un falso positivo.
@@ -1003,11 +1005,11 @@ de [otros tests de OONI Probe](https://ooni.org/nettest/) mediante los siguiente
 
 * **Seleccione un test OONI Probe a través del menú desplegable "Nombre del test"** de la izquierda
 
-* Opcional: Seleccione "Anomalías
+* Opcional: Seleccione "Anomalías"
 
 * Haga clic en "**Filtrar resultados**".
 
-Por favor, interprete los resultados "anómalos" con precaución, ya que pueden contener falsos positivos.
+Por favor, interprete los resultados "Anómalos" con precaución, ya que pueden contener falsos positivos.
 
 ### ¿Por qué mi país no tiene mediciones recientes en el Explorador de OONI?
 
