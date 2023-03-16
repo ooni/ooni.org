@@ -84,7 +84,7 @@ Esta sección de preguntas frecuentes pretende responder a las preguntas que con
 
     * [¿Por qué la aplicación móvil OONI Probe no testea todas las páginas web de las listas de test?](#por-qué-la-aplicación-móvil-ooni-probe-no-testea-todas-las-páginas-web-de-las-listas-de-test)
 
-    * [¿Cómo puedo cambiar la duración de los tests en la aplicación móvil de OONI Probe para testear más sitios web?](#cómo-puedo-cambiar-la-duración-de-los-tests-en-la-aplicación-móvil-de-ooni-probe-para-testear-más-sitios-web)
+    * [¿Cómo puedo cambiar la duración de los tests en la aplicación móvil de OONI Probe para testear más sitios web?](#cómo-puedo-cambiar-la-duración-de-los-tests-en-la-aplicación-móvil-ooni-probe-para-testear-más-sitios-web)
 
     * [¿Cómo puedo encontrar la lista de test de mi país?](#cómo-puedo-encontrar-la-lista-de-test-de-mi-país)
 
@@ -94,7 +94,7 @@ Esta sección de preguntas frecuentes pretende responder a las preguntas que con
 
     * [¿Cómo puedo contribuir a las listas de test?](#cómo-puedo-contribuir-a-las-listas-de-test)
 
-    * [No soy usuario de GitHub, pero me gustaría enviar URL para los test. ¿Cómo puedo hacerlo?](#no-soy-usuario-de-github-pero-me-gustaría-enviar-url-para-los-test-cómo-puedo-hacerlo)
+    * [No soy usuario de GitHub, pero me gustaría enviar URL para los test. ¿Cómo puedo hacerlo?](#no-soy-usuario-de-github-pero-me-gustaría-enviar-url-para-los-tests-cómo-puedo-hacerlo)
 
     * [¿Cuál es la diferencia entre una lista de test y una lista de bloqueo?](#cuál-es-la-diferencia-entre-una-lista-de-test-y-una-lista-de-bloqueo)
 
@@ -144,11 +144,11 @@ Esta sección de preguntas frecuentes pretende responder a las preguntas que con
 
     * [¿Por qué OONI confirma la censura cuando se muestra una página bloqueada?](#por-qué-ooni-confirma-la-censura-cuando-se-muestra-una-página-bloqueada)
 
-    * [¿Por qué OONI no confirma otros casos de censura en Internet (más allá de las páginas bloqueadas)?](#por-qué-ooni-no-confirma-otros-casos-de-censura-en-internet-más-allá-de-las-páginas-bloqueadas)
+    * [¿Por qué OONI no confirma otros casos de censura en Internet (más allá de las páginas bloqueadas)?](#por-qué-ooni-no-confirma-otros-casos-de-censura-en-internet-más-allá-del-bloqueo-de-páginas)
 
-    * [¿Qué quiere decir "Anomalías"?](#qué-se-refieren-por-anomalías)
+    * [¿Qué quiere decir "Anomalías"?](#a-qué-se-refieren-por-anomalías)
 
-    * [¿Por qué el Explorador de OONI sugiere que una página o app a la que puedo acceder está bloqueada en mi país?](#por-qué-ooni-explorer-sugiere-que-un-sitio-o-applicación-al-que-puedo-acceder-está-bloqueada-en-mi-país)
+    * [¿Por qué el Explorador de OONI sugiere que una página o app a la que puedo acceder está bloqueada en mi país?](#por-qué-ooni-explorer-sugiere-que-un-sitio-o-aplicación-al-que-puedo-acceder-está-bloqueada-en-mi-país)
 
     * [¿Qué son los falsos positivos?](#qué-son-los-falsos-positivos)
 
@@ -158,8 +158,7 @@ Esta sección de preguntas frecuentes pretende responder a las preguntas que con
 
     * [¿Cómo puedo comprobar los resultados de otros tests de OONI Probe?](#cómo-puedo-chequear-los-resultados-de-otras-tests-de-ooni-probe)
 
-    * [¿Por qué mi país no tiene ninguna medición reciente en el Explorador de OONI?](#por-que-mi-país-no-tiene-mediciónes-recientes-en-el-explorador-de-ooni)
-
+    * [¿Por qué mi país no tiene ninguna medición reciente en el Explorador de OONI?](#por-qué-mi-país-no-tiene-mediciones-recientes-en-el-explorador-de-ooni)
 
 ## Sobre OONI
 
@@ -781,7 +780,7 @@ Un ejemplo de página de medición:
 
 ![OONI measurement page](/faq/measurement-page.png)
 
-### ¿Cómo puedo encontrar los datos de OONI a través del Explorador de OONI ?
+### ¿Cómo puedo encontrar los datos de OONI a través del Explorador de OONI?
 
 Si se desplaza hacia abajo en cualquier página de medición OONI ([página de medición de ejemplo](https://explorer.ooni.org/measurement/20191030T235810Z_AS11878_Den5kggBp6SDiUHQVvFBzEF4jwknUrn1wzd8XavOs4ZjMY8QoJ?input=https://www.reddit.com/)),
 verá los **datos de medición de red sin procesar**, que también puede **descargar en formato JSON**.
