@@ -3,7 +3,7 @@ title: OONI Faharasa
 description: "Faharasa hii imekusanya maelezo mafupi ya maneno yaliyotumika kwenye programu ya OONI, njia na tafiti za taarifa."
 ---
 
-Hati hiyo imetafsiriwa kwa Kiswahili na Zaina Foundation.
+Hati hiyo imetafsiriwa kwa Kiswahili na [Zaina Foundation](https://zainafoundationtz.org/).
 
 Hati asili: [OONI Glossary](https://ooni.org/support/glossary)
 
@@ -220,7 +220,7 @@ Kwa mfano, seva ya tovuti inaweza kuhifadhi rasilimali za tovuti fulani ili ziwe
 
 Vifaa vya kukwepa udhibiti wa mtandao ni teknolojia zinazowawezesha mtumiaji wa mtandao kuepuka udhibiti wa mtandao, kama vile kuzuiwa kwa tovuti na programu za mitandao ya kijamii.
 
-Vifaa vya kukwepa udhibiti wa mtandao zinawawezesha watumiaji wao kupata huduma za mtandao ambazo zimezuiliwa na watoa huduma wa mtandao (ISPSs).
+Vifaa vya kukwepa udhibiti wa mtandao zinawawezesha watumiaji wao kupata huduma za mtandao ambazo zimezuiliwa na watoa huduma wa mtandao (ISPs).
 
 VPN na Proxies ni zana za kawaida za kukwepa udhibiti wa mtandao, wakati [Tor](https://www.torproject.org/) pia huwapa watumiaji wake faragha na kutokujulikana mtandaoni (pia husaidia kukwepa udhibiti wa mtandao).
 
