@@ -20,11 +20,11 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [BGP](#bgp)
 
-* [Lista de bloqueos](#lista-de-blocqueos)
+* [Lista de bloqueos](#lista-de-bloqueos)
 
-* [Página bloqueda](#pagina-bloqueda)
+* [Página bloqueada](#página-bloqueada)
 
-* [Almacenamiento en caché](#almacenamiento-en-cache)
+* [Almacenamiento en caché](#almacenamiento-en-caché)
 
 * [Herramientas para evadir la censura](#herramientas-para-evadir-la-censura)
 
@@ -36,15 +36,15 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [Secuestro de DNS o sistema de nombre de dominio](#secuestro-de-dns)
 
-* [Búsqueda DNS o sistema de nombre de dominio](#busqueda-dns)
+* [Búsqueda DNS o sistema de nombre de dominio](#Búsqueda-dns)
 
 * [Consulta DNS o sistema de nombre de dominio](#consulta-dns)
 
 * [Solucionador DNS o sistema de nombre de dominio](#solucionador-dns)
 
-* [Suplantación de DNS o sistema de nombre de dominio](#suplantacion-de-dns)
+* [Suplantación de DNS o sistema de nombre de dominio](#suplantación-de-dns)
 
-* [Manipulación de DNS o sistema de nombre de dominio](#manipulacion-de-dns)
+* [Manipulación de DNS o sistema de nombre de dominio](#manipulación-de-dns)
 
 * [Fachada o enmascaramiento de dominio](#fachada-de-dominio)
 
@@ -64,27 +64,27 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [Cabecera HTTP](#cabecera-http)
 
-* [Petición HTTP](#peticion-http)
+* [Petición HTTP](#petición-http)
 
 * [Respuesta HTTP](#respuesta-http)
 
-* [Códigos de estado HTTP](#codigos-de-estado-http)
+* [Códigos de estado HTTP](#códigos-de-estado-http)
 
 * [Proxy transparente HTTP](#proxy-transparente-http)
 
-* [Mensajería instantánea](#mensajeria-instantanea)
+* [Mensajería instantánea](#mensajería-instantánea)
 
 * [Internet](#internet)
 
-* [Apagón de Internet](#apagon-de-internet)
+* [Apagón de Internet](#apagón-de-internet)
 
 * [Censura en Internet](#censura-en-internet)
 
-* [Dirección IP](#direccion-ip)
+* [Dirección IP](#dirección-ip)
 
 * [ISP](#isp)
 
-* [Medición](#medicion)
+* [Medición](#medición)
 
 * [Metadatos](#metadatos)
 
@@ -96,7 +96,7 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [Red](#red)
 
-* [Anomalía en la red](#anomalia-en-la-red)
+* [Anomalía en la red](#anomalía-en-la-red)
 
 * [Interferencias en la red](#interferencias-en-la-red)
 
@@ -136,7 +136,7 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [Tor](#tor)
 
-* [Manipulación del tráfico](#manipulacion-del-trafico)
+* [Manipulación del tráfico](#manipulación-del-tráfico)
 
 * [URL](#url)
 
