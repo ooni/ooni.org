@@ -32,39 +32,39 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [Canal de procesamiento de datos](#canal-de-procesamiento-de-datos)
 
-* [DNS o sistema de nombre de dominio](#dns-o-sistema-de-nombre-de-dominio)
+* [DNS o sistema de nombre de dominio](#dns)
 
-* [Secuestro de DNS o sistema de nombre de dominio](#secuestro-de-dns-o-sistema-de-nombre-de-dominio)
+* [Secuestro de DNS o sistema de nombre de dominio](#secuestro-de-dns)
 
-* [Búsqueda DNS o sistema de nombre de dominio](#busqueda-dns-o-sistema-de-nombre-de-dominio)
+* [Búsqueda DNS o sistema de nombre de dominio](#busqueda-dns)
 
-* [Consulta DNS o sistema de nombre de dominio](#consulta-dns-o-sistema-de-nombre-de-dominio)
+* [Consulta DNS o sistema de nombre de dominio](#consulta-dns)
 
-* [Solucionador DNS o sistema de nombre de dominio](#solucionador-dns-o-sistema-de-nombre-de-dominio)
+* [Solucionador DNS o sistema de nombre de dominio](#solucionador-dns)
 
-* [Suplantación de DNS o sistema de nombre de dominio](#suplantacion-de-dns-o-sistema-de-nombre-de-dominio)
+* [Suplantación de DNS o sistema de nombre de dominio](#suplantacion-de-dns)
 
-* [Manipulación de DNS o sistema de nombre de dominio](#manipulacion-de-dns-o-sistema-de-nombre-de-dominio)
+* [Manipulación de DNS o sistema de nombre de dominio](#manipulacion-de-dns)
 
-* [Fachada o enmascaramiento de dominio](#fachada-o-enmascaramiento-de-dominio)
+* [Fachada o enmascaramiento de dominio](#fachada-de-dominio)
 
 * [Nombre de dominio](#nombre-de-dominio)
 
-* [DPI o Inspección profunda de paquetes](#dpi-o-inspeccion-profunda-de-paquetes)
+* [DPI o Inspección profunda de paquetes](#dpi)
 
 * [Falso positivo](#falso-positivo)
 
-* [HTTP o protocolo de transferencia de hipertexto](#http-o-protocolo-de-transferencia-de-hipertexto)
+* [HTTP](#http)
 
-* [HTTPS o protocolo de transferencia de hipertexto seguro](#https-o-protocolo-de-transferencia-de-hipertexto-seguro)
+* [HTTPS](#https)
 
 * [Bloqueo HTTP](#bloqueo-http)
 
 * [Colectores HTTPS](#colectores-https)
 
-* [Cabeceras HTTP](#cabeceras-http)
+* [Cabecera HTTP](#cabecera-http)
 
-* [Solicitud HTTP](#solicitud-http)
+* [Petición HTTP](#peticion-http)
 
 * [Respuesta HTTP](#respuesta-http)
 
@@ -72,7 +72,7 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [Proxy transparente HTTP](#proxy-transparente-http)
 
-* [Mensajería instantánea](#mensajería-instantánea)
+* [Mensajería instantánea](#mensajeria-instantanea)
 
 * [Internet](#internet)
 
@@ -80,19 +80,19 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [Censura en Internet](#censura-en-internet)
 
-* [Dirección IP o dirección de protocolo de internet](#direccion-ip-o-direccion-de-protocolo-de-internet)
+* [Dirección IP](#direccion-ip)
 
-* [ISP o proveedor de servicios de internet](#isp-o-proveedor-de-servicios-de-internet)
+* [ISP](#isp)
 
 * [Medición](#medicion)
 
 * [Metadatos](#metadatos)
 
-* [Middlebox o caja intermediaria](#middlebox-o-caja-intermediaria)
+* [Middlebox](#middlebox)
 
 * [Sitio web espejo](#sitio-web-espejo)
 
-* [Nettest o test/prueba de internet](#nettest-o-test-prueba-de-internet)
+* [Nettest](#nettest)
 
 * [Red](#red)
 
@@ -100,19 +100,19 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [Interferencias en la red](#interferencias-en-la-red)
 
-* [Servicios cebolla o servicios de la red Tor](#servicios-cebolla-o-de-la-red-tor)
+* [Servicios cebolla](#servicios-cebolla)
 
-* [Rebotador OONI](#rebotador-ooni)
+* [OONI bouncer o rebotador](#ooni-bouncer-o-rebotador)
 
 * [Colector OONI](#colector-ooni)
 
 * [OONI Explorer](#ooni-explorer)
 
-* [Ayudantes de las pruebas o los tests de OONI](#ayudantes-de-las-pruebas-o-los-tests-de-ooni)
+* [Ayudantes de OONI nettest](#ayudantes-de-ooni-nettest)
 
-* [OONI Probe o software de pruebas de OONI](#ooni-probe-o-software-de-pruebas-de-ooni)
+* [OONI Probe](#ooni-probe)
 
-* [OONI Run o el sitio web de coordinación de pruebas o test censura de OONI](#ooni-run-o-el-sitio-web-de-coordinacion-de-pruebas-o-test-censura-de-ooni)
+* [OONI Run](#ooni-run)
 
 * [Rendimiento](#rendimiento)
 
@@ -124,15 +124,15 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [Servidor](#servidor)
 
-* [TCP o Protocolo de control de transmisión](#tcp-o-protocolo-de-control-de-transmision)
+* [TCP](#tcp)
 
-* [Bloqueo TCP/IP](bloqueo-tcpip)
+* [Bloqueo TCP/IP](#bloqueo-tcp-ip)
 
-* [Entrada de test](entrada-de-test)
+* [Entrada de test](#entrada-de-test)
 
-* [Lista de test](lista-de-test)
+* [Lista de test](#lista-de-test)
 
-* [TLS o seguridad de la capa de transporte](#tls-o-seguridad-de-la-capa-de-transporte)
+* [TLS](#tls)
 
 * [Tor](#tor)
 
@@ -621,9 +621,9 @@ El OONI bouncer es el servicio que se encarga de informar a los clientes de OONI
 El colector OONI es el servicio que se utiliza para recoger las
 mediciones de los clientes de OONI Probe de todo el mundo.
 
-### Explorador de OONI
+### OONI Explorer
 
-[El explorador de OONI](https://explorer.ooni.org/) es una
+[OONI Explorer](https://explorer.ooni.org/) es una
 interfaz web que proporciona una localización para explorar, buscar y descargar todas las mediciones de red recogidas [a través de los tests de OONI Probe](https://ooni.org/install/) desde 2012 hasta
 hoy.
 
