@@ -16,149 +16,149 @@ Esta sección de preguntas frecuentes pretende responder a las preguntas que con
 
 * [Sobre OONI](#sobre-ooni)
 
-    * [¿Qué es OONI?](#que-es-ooni)
+    * [¿Qué es OONI?](#qué-es-ooni)
 
-    * [¿Por qué OONI?](#por-que-ooni)
+    * [¿Por qué OONI?](#por-qué-ooni)
 
-    * [¿Qué hace OONI?](#que-hace-ooni)
+    * [¿Qué hace OONI?](#qué-hace-ooni)
 
-    * [¿Por qué medir la censura en Internet?](#por-que-medir-la-censura-en-internet)
+    * [¿Por qué medir la censura en Internet?](#por-qué-medir-la-censura-en-internet)
 
-    * [¿Cómo se financia OONI?](#como-se-financia-ooni)
+    * [¿Cómo se financia OONI?](#cómo-se-financia-ooni)
 
-    * [¿Cuál es la relación de OONI con el Proyecto Tor?](#cual-es-la-relación-de-ooni-con-el-proyecto-tor)
+    * [¿Cuál es la relación de OONI con el Proyecto Tor?](#cuál-es-la-relación-de-ooni-con-el-proyecto-tor)
 
-    * [¿Dónde tiene su sede OONI?](#donde-tiene-su-sede-ooni)
+    * [¿Dónde tiene su sede OONI?](#dónde-tiene-su-sede-ooni)
 
-    * [¿Cuál es el estatus legal de la OONI?](#cual-es-el-estatus-legal-de-la-ooni)
+    * [¿Cuál es el estatus legal de la OONI?](#cuál-es-el-estatus-legal-de-la-ooni)
 
-    * [¿Cómo puedo participar?](#como-puedo-participar)
+    * [¿Cómo puedo involucrarme?](#cómo-puedo-involucrarme)
 
 * [OONI Probe](#ooni-probe)
 
-    * [¿Qué es OONI Probe?](#que-es-ooni-probe)
+    * [¿Qué es OONI Probe?](#qué-es-ooni-probe)
 
-    * [En mi país no hay censura. ¿Por qué ejecutar OONI Probe?](#en-mi-pais-no-hay-censura-por-que-ejecutar-ooni-probe)
+    * [En mi país no hay censura. ¿Por qué utilizar OONI Probe?](#en-mi-país-no-hay-censura-por-qué-utilizar-ooni-probe)
 
-    * [¿Qué hacen los tests de OONI Probe?](#que-hacen-los-tests-de-ooni-probe)
+    * [¿Qué hacen los tests de OONI Probe?](#qué-hacen-los-tests-de-ooni-probe)
 
-    * [¿Cómo miden los tests de OONI Probe la censura en Internet?](#como-miden-los-tests-de-ooni-probe-la-censura-en-internet)
+    * [¿Cómo miden los tests de OONI Probe la censura en Internet?](#cómo-miden-los-tests-de-ooni-probe-la-censura-en-internet)
 
-    * [No soy un experto en tecnología. ¿Puedo ejecutar OONI Probe?](#no-soy-un-experto-en-tecnologia-puedo-ejecutar-ooni-probe)
+    * [No soy un experto en tecnología. ¿Puedo utilizar OONI Probe?](#no-soy-un-experto-en-tecnología-puedo-utilizar-ooni-probe)
 
-    * [¿Cómo puedo ejecutar OONI Probe?](#como-puedo-ejecutar-ooni-probe)
+    * [¿Cómo puedo ejecutar OONI Probe?](#cómo-puedo-ejecutar-ooni-probe)
 
     * [He ejecutado OONI Probe. ¿Debo enviarles los resultados?](#he-ejecutado-ooni-probe-debo-enviarles-los-resultados)
 
-    * [¿Con qué frecuencia debo ejecutar OONI Probe?](#con-que-frecuencia-debo-ejecutar-ooni-probe)
+    * [¿Con qué frecuencia debo ejecutar OONI Probe?](#con-qué-frecuencia-debo-ejecutar-ooni-probe)
 
-    * [¿Cómo puedo ejecutar OONI Probe automáticamente?](#como-puedo-ejecutar-ooni-probe-automaticamente)
+    * [¿Cómo puedo ejecutar OONI Probe automáticamente?](#cómo-puedo-ejecutar-ooni-probe-automáticamente)
 
     * [¿Durante cuánto tiempo debo ejecutar OONI Probe?](#durante-cuánto-tiempo-debo-ejecutar-ooni-probe)
 
-    * [He encontrado sitios web bloqueados. ¿Cómo puedo evitar su bloqueo?](#he-encontrado-sitios-web-bloqueados-como-puedo-evitar-su-bloqueo)
+    * [He encontrado sitios web bloqueados. ¿Cómo puedo evitar su bloqueo?](#he-encontrado-sitios-web-bloqueados-cómo-puedo-evitar-su-bloqueo)
 
     * [OONI Probe ha encontrado un middlebox en mi red. ¿Significa eso que estoy bajo vigilancia?](#ooni-probe-ha-encontrado-un-middlebox-en-mi-red-significa-eso-que-estoy-bajo-vigilancia)
 
-    * [¿Puedo medir la censura en Internet de forma remota en otro país?](#puedo-medir-la-censura-en-internet-de-forma-remota-en-otro-pais)
+    * [¿Puedo medir la censura en Internet de forma remota en otro país?](#puedo-medir-la-censura-en-internet-de-forma-remota-en-otro-país)
 
-    * [¿Qué tipo de datos recoge OONI Probe?](#que-tipo-de-datos-recoge-ooni-probe)
+    * [¿Qué tipo de datos recoge OONI Probe?](#qué-tipo-de-datos-recoge-ooni-probe)
 
-    * [¿Cómo puedo cancelar el envío de mediciones de OONI?](#como-puedo-cancelar-el-envío-de-mediciones-de-ooni)
+    * [¿Cómo puedo cancelar el envío de mediciones de OONI?](#cómo-puedo-cancelar-el-envío-de-mediciones-de-ooni)
 
-    * [¿Cuáles son los riesgos de utilizar OONI Probe?](#cuales-son-los-riesgos-de-utilizar-ooni-probe)
+    * [¿Cuáles son los riesgos de ejecutar OONI Probe?](#cuáles-son-los-riesgos-de-ejecutar-ooni-probe)
 
-    * [¿Cómo puedo reducir los riesgos asociados al uso de OONI Probe?](#como-puedo-reducir-los-riesgos-asociados-al-uso-de-ooni-probe)
+    * [¿Cómo puedo reducir los riesgos asociados al uso de OONI Probe?](#cómo-puedo-reducir-los-riesgos-asociados-al-uso-de-ooni-probe)
 
-    * [¿Puedo ejecutar OONI Probe a través de una VPN?](#puedo-ejecutar-ooni-probe-a-traves-de-una-vpn)
+    * [¿Puedo ejecutar OONI Probe a través de una VPN?](#puedo-ejecutar-ooni-probe-a-través-de-una-vpn)
 
     * [¿Puede OONI proporcionar asesoramiento legal?](#puede-ooni-proporcionar-asesoramiento-legal)
 
 * [Testeando sitios web](#testeando-sitios-web)
 
-    * [¿Qué sitios web testeará en busca de censura con OONI Probe?](#que-sitios-web-testeara-en-busca-de-censura-con-ooni-probe)
+    * [¿Qué sitios web testeará en busca de censura con OONI Probe?](#qué-sitios-web-testeará-en-busca-de-censura-con-ooni-probe)
 
-    * [¿Qué son las listas de test?](#que-son-las-listas-de-test)
+    * [¿Qué son las listas de test?](#qué-son-las-listas-de-test)
     
-    * [¿Por qué OONI Probe utiliza listas de test?](#por-que-ooni-probe-utiliza-listas-de-test)
+    * [¿Por qué OONI Probe utiliza listas de test?](#por-qué-ooni-probe-utiliza-listas-de-test)
 
-    * [¿Por qué la aplicación móvil OONI Probe no testea todas las páginas web de las listas de test?](#por-que-la-aplicacion-movil-ooni-probe-no-testea-todas-las-páginas-web-de-las-listas-de-test)
+    * [¿Por qué la aplicación móvil OONI Probe no testea todas las páginas web de las listas de test?](#por-qué-la-aplicación-móvil-ooni-probe-no-testea-todas-las-páginas-web-de-las-listas-de-test)
 
-    * [¿Cómo puedo cambiar la duración de los tests en la aplicación móvil de OONI Probe para testear más sitios web?](#como-puedo-cambiar-la-duracion-de-los-tests-en-la-aplicacion-movil-de-ooni-probe-para-testear-mas-sitios-web)
+    * [¿Cómo puedo cambiar la duración de los tests en la aplicación móvil de OONI Probe para testear más sitios web?](#cómo-puedo-cambiar-la-duración-de-los-tests-en-la-aplicación-móvil-de-ooni-probe-para-testear-más-sitios-web)
 
-    * [¿Cómo puedo encontrar la lista de test de mi país?](#como-puedo-encontrar-la-lista-de-test-de-mi-pais)
+    * [¿Cómo puedo encontrar la lista de test de mi país?](#cómo-puedo-encontrar-la-lista-de-test-de-mi-país)
 
-    * [¿Por qué mi país no tiene una lista de test?](#por-que-mi-pais-no-tiene-una-lista-de-test)
+    * [¿Por qué mi país no tiene una lista de test?](#por-qué-mi-país-no-tiene-una-lista-de-test)
 
-    * [¿Quién decide qué sitios web se incluyen en las listas de test?](#decide-que-sitios-web-se-incluyen-en-las-listas-de-test)
+    * [¿Quién decide qué sitios web se incluyen en las listas de test?](#quién-decide-qué-sitios-web-se-incluyen-en-las-listas-de-test)
 
-    * [¿Cómo puedo contribuir a las listas de test?](#como-puedo-contribuir-a-las-listas-de-test)
+    * [¿Cómo puedo contribuir a las listas de test?](#cómo-puedo-contribuir-a-las-listas-de-test)
 
-    * [No soy usuario de GitHub, pero igual me gustaría enviar URL para los test. ¿Cómo puedo hacerlo?](#no-soy-usuario-de-github-pero-igual-me-gustaria-enviar-url-para-los-test-como-puedo-hacerlo)
+    * [No soy usuario de GitHub, pero me gustaría enviar URL para los test. ¿Cómo puedo hacerlo?](#no-soy-usuario-de-github-pero-me-gustaría-enviar-url-para-los-test-cómo-puedo-hacerlo)
 
-    * [¿Cuál es la diferencia entre una lista de test y una lista de bloqueo?](#cual-es-la-diferencia-entre-una-lista-de-test-y-una-lista-de-bloqueo)
+    * [¿Cuál es la diferencia entre una lista de test y una lista de bloqueo?](#cuál-es-la-diferencia-entre-una-lista-de-test-y-una-lista-de-bloqueo)
 
-    * [¿Qué tipos de sitios web puede testear OONI Probe?](#que-tipos--de-sitios-web-puede-testear-ooni-probe)
+    * [¿Qué tipos de sitios web puede testear OONI Probe?](#qué-tipos-de-sitios-web-puede-testear-ooni-probe)
 
-    * [¿Cómo puedo elegir qué tipo de sitios web testear?](#como-puedo-elegir-que-tipo-de-sitios-web-testear)
+    * [¿Cómo puedo elegir qué tipo de sitios web testear?](#cómo-puedo-elegir-qué-tipo-de-sitios-web-testear)
 
-    * [¿Cómo puedo elegir las páginas web que quiero testear?](#como-puedo-elegir-las-paginas-web-que-quiero-testear)
+    * [¿Cómo puedo elegir las páginas web que quiero testear?](#cómo-puedo-elegir-las-páginas-web-que-quiero-testear)
 
-    * [¿Cómo puedo testear una lista personalizada de URLs?](#como-puedo-testear-una-lista-personalizada-de-urls)
+    * [¿Cómo puedo testear una lista personalizada de URLs?](#cómo-puedo-testear-una-lista-personalizada-de-urls)
 
 * [Datos OONI](#datos-ooni)
 
-    * [¿Qué son los datos OONI?](#que-son-los-datos-ooni)
+    * [¿Qué son los datos OONI?](#qué-son-los-datos-ooni)
 
-    * [¿Por qué publica datos OONI?](#por-que-publica-datos-ooni)
+    * [¿Por qué publica datos OONI?](#por-qué-publica-datos-ooni)
 
-    * [¿Dónde publica datos OONI?](#donde-publica-datos-ooni)
+    * [¿Dónde publica datos OONI?](#dónde-publica-datos-ooni)
 
-    * [¿Cómo puedo interpretar los datos OONI?](#como-puedo-interpretar-los-datos-ooni)
+    * [¿Cómo puedo interpretar los datos OONI?](#cómo-puedo-interpretar-los-datos-ooni)
 
-    * [¿Cómo puedo obtener y analizar los datos OONI?](#como-puedo-obtener-y-analizar-los-datos-ooni)
+    * [¿Cómo puedo obtener y analizar los datos OONI?](#cómo-puedo-obtener-y-analizar-los-datos-ooni)
 
-* [Explorador de OONI](#explorador-de-ooni)
+* [Explorador de OONI](#explorador-ooni)
 
-    * [¿Qué es el Explorador de OONI?](#que-es-el-explorador-de-ooni)
+    * [¿Qué es el Explorador de OONI?](#qué-es-ooni-explorer)
 
-    * [¿Cómo puedo encontrar sitios web bloqueados a través del Explorador OONI?](#como-puedo-encontrar-sitios-web-bloqueados-a-traves-del-explorador-ooni)
+    * [¿Cómo puedo encontrar sitios web bloqueados a través del Explorador OONI?](#cómo-puedo-encontrar-sitios-web-bloqueados-a-través-del-explorador-de-ooni)
 
-    * [¿Cómo puedo acceder a las mediciones?](#como-puedo-acceder-a-las-mediciones)
+    * [¿Cómo puedo acceder a las mediciones?](#cómo-puedo-acceder-a-las-mediciones)
 
-    * [¿Cómo puedo encontrar datos OONI a través del OONI Explorer?](#como-puedo-encontrar-datos-ooni-a-traves-del-ooni-explorer)
+    * [¿Cómo puedo encontrar datos OONI a través del OONI Explorer?](#cómo-puedo-encontrar-los-datos-de-ooni-a-través-del-explorador-de-ooni)
 
-    * [¿Cómo puedo encontrar "evidencias de censura en Internet" en una medición?](#como-puedo-encontrar-evidencias-de-censura-en-internet-en-una-medicion)
+    * [¿Cómo puedo encontrar "evidencias de censura en Internet" en una medición?](#cómo-puedo-encontrar-tests-de-censura-en-internet-en-una-medición)
 
-    * [¿Cómo puedo encontrar sitios web bloqueados en mi país?](#como-puedo-encontrar-sitios-we-bloqueados-en-mi-pais)
+    * [¿Cómo puedo encontrar sitios web bloqueados en mi país?](#cómo-puedo-encontrar-los-sitios-web-bloqueados-en-mi-país)
 
-    * [¿Cómo puedo comprobar si un sitio web específico está bloqueado?](#como-puedo-comprobar-si-un-sitio-web-especifico-esta-bloqueado)
+    * [¿Cómo puedo comprobar si un sitio web específico está bloqueado?](#cómo-puedo-comprobar-si-un-sitio-web-específico-está-bloqueado)
 
-    * [¿Por qué no puedo encontrar resultados para un sitio web específico?](#por-que-no-puedo-encontrar-resultados-para-un-sitio-web-especifico)
+    * [¿Por qué no puedo encontrar resultados para un sitio web específico?](#por-qué-no-encuentro-resultados-para-un-sitio-web-específico)
 
-    * [¿Cómo puedo comprobar el bloqueo de sitios web durante un periodo de tiempo específico?](#como-puedo-comprobar-el-bloqueo-de-sitios-web-durante-un-periodo-de-tiempo-especifico)
+    * [¿Cómo puedo comprobar el bloqueo de sitios web durante un periodo de tiempo específico?](#cómo-puedo-comprobar-el-bloqueo-de-sitios-web-durante-un-periodo-de-tiempo-específico)
     
-    * [¿Qué quiere decir "Confirmado"?](#que-quiere-decir-confirmado)
+    * [¿Qué quiere decir "Confirmado"?](#qué-quiere-decir-confirmado)
 
-    * [Sé de muchos otros sitios web que están bloqueados. ¿Por qué el Explorador de OONI no las muestra cuando selecciono "confirmado"?](#se-de-muchos-otros-sitios-web-que-estan-bloqueados-por-que-el-explorador-de-ooni-no-las-muestra-cuando-selecciono-confirmado)
+    * [Sé de muchos otros sitios web que están bloqueados. ¿Por qué el Explorador de OONI no las muestra cuando selecciono "confirmado"?](#sé-de-muchos-otros-sitios-web-que-están-bloqueados-por-qué-ooni-explorer-no-las-muestra-cuando-selecciono-confirmado)
 
-    * [¿Por qué OONI confirma la censura cuando se muestra una página bloqueada?](#por-que-ooni-confirma-la-censura-cuando-se-muestra-una-pagina-bloqueada)
+    * [¿Por qué OONI confirma la censura cuando se muestra una página bloqueada?](#por-qué-ooni-confirma-la-censura-cuando-se-muestra-una-página-bloqueada)
 
-    * [¿Por qué OONI no confirma otros casos de censura en Internet (más allá de las páginas bloqueadas)?](#por-que-ooni-no-confirma-otros-casos-de-censura-en-internet-mas-alla-de-las-paginas-bloqueadas)
+    * [¿Por qué OONI no confirma otros casos de censura en Internet (más allá de las páginas bloqueadas)?](#por-qué-ooni-no-confirma-otros-casos-de-censura-en-internet-más-allá-de-las-páginas-bloqueadas)
 
-    * [¿Qué quiere decir "Anomalías"?](#que-quiere-decir-anomalias)
+    * [¿Qué quiere decir "Anomalías"?](#qué-se-refieren-por-anomalías)
 
-    * [¿Por qué el Explorador de OONI sugiere que una página o app a la que puedo acceder está bloqueada en mi país?](#por-que-el-explorador-de-ooni-sugiere-que-una-pagina-o-app-a-la-que-puedo-acceder-esta-bloqueada-en-mi-pais)
+    * [¿Por qué el Explorador de OONI sugiere que una página o app a la que puedo acceder está bloqueada en mi país?](#por-qué-ooni-explorer-sugiere-que-un-sitio-o-applicación-al-que-puedo-acceder-está-bloqueada-en-mi-país)
 
-    * [¿Qué son los falsos positivos?](#que-son-los-falsos-positivos)
+    * [¿Qué son los falsos positivos?](#qué-son-los-falsos-positivos)
 
-    * [¿Por qué se producen falsos positivos?](#por-que-se-producen-falsos-positivos)
+    * [¿Por qué se producen falsos positivos?](#por-qué-se-producen-falsos-positivos)
 
-    * [¿Cómo puedo distinguir los falsos positivos?](#como-puedo-distinguir-los-falsos-positivos)
+    * [¿Cómo puedo distinguir los falsos positivos?](#cómo-puedo-distinguir-los-falsos-positivos)
 
-    * [¿Cómo puedo comprobar los resultados de otros tests de OONI Probe?](#como-puedo-comprobar-los-resultados-de-otros-tests-de-ooni-probe)
+    * [¿Cómo puedo comprobar los resultados de otros tests de OONI Probe?](#cómo-puedo-chequear-los-resultados-de-otras-tests-de-ooni-probe)
 
-    * [¿Por qué mi país no tiene ninguna medición reciente en el Explorador de OONI?](#por-que-mi-pais-no-tiene-ninguna-medición-reciente-en-el-explorador-de-ooni)
+    * [¿Por qué mi país no tiene ninguna medición reciente en el Explorador de OONI?](#por-que-mi-país-no-tiene-mediciónes-recientes-en-el-explorador-de-ooni)
 
 
 ## Sobre OONI
@@ -260,7 +260,7 @@ A lo largo de los años, los miembros del equipo OONI han procedido de múltiple
 
 No tenemos sede en ningún país concreto, debido a que no hemos tenido una oficina física y siempre hemos trabajado a distancia en línea.
 
-### ¿Cuál es la situación jurídica de OONI?
+### ¿Cuál es el estatus legal de la OONI?
 
 OONI es un proyecto sin ánimo de lucro, pero no tiene una entidad legalmente registrada.
 
@@ -330,7 +330,7 @@ de censura en internet) porque:
 
 * Al contribuir con mediciones, está ayudando a **crear un archivo público sobre las interferencias en la red en todo el mundo. Permitirá a las generaciones futuras ver lo que ocurría a nivel de red de Internet**.
 
-### ¿Qué hacen los test de OONI Probe?
+### ¿Qué hacen los tests de OONI Probe?
 
 [OONI Probe](https://ooni.org/install/) consiste en
 [múltiples tests de software libre](https://github.com/ooni/spec/tree/master/nettests)
@@ -649,7 +649,7 @@ OONI Probe testea sitios web (incluidos en las listas de test de [Citizen Lab](h
 Estas categorías van desde medios de comunicación, cultura y derechos humanos hasta categorías más provocativas o censurables, como la pornografía (estas últimas se incluyen porque es más probable que se bloqueen, lo que permite detectar las técnicas de censura adoptadas por
 los ISP).
 
-### ¿Cómo puedo elegir qué tipo de sitio web testear?
+### ¿Cómo puedo elegir qué tipo de sitios web testear?
 
 Por defecto, OONI Probe testeará sitios web que pertenezcan a [30 categorías estandarizadas](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv).
 
@@ -659,7 +659,7 @@ Puede limitar sus pruebas a tipos específicos de sitios web (por ejemplo, sólo
 
 * [OONI Probe Desktop](https://ooni.org/support/ooni-probe-desktop#testing-specific-website-categories)
 
-### ¿Cómo puedo elegir qué sitios web testear?
+### ¿Cómo puedo elegir las páginas web que quiero testear?
 
 Puede testear los sitios web de su elección (en lugar de los sitios web incluidos en las [listas de test](https://github.com/citizenlab/test-lists/tree/master/lists)) siguiendo las instrucciones paso a paso compartidas en nuestras guías para:
 
@@ -679,7 +679,7 @@ Puede testear su propia lista personalizada de URLs a través de las instruccion
 
 [Los datos OONI](https://ooni.org/data/) son medidas de red recogidas a través de los test de [OONI Probe](https://github.com/ooni/spec/tree/master/nettests).
 
-### ¿Por qué OONI publica datos?
+### ¿Por qué publica datos OONI?
 
 Publicamos en tiempo real todas las [mediciones de OONI Probe](https://ooni.org/data/) de todo el mundo para:
 
