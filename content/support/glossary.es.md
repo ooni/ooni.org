@@ -36,7 +36,7 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [Secuestro de DNS o sistema de nombre de dominio](#secuestro-de-dns)
 
-* [Búsqueda DNS o sistema de nombre de dominio](#Búsqueda-dns)
+* [Búsqueda DNS o sistema de nombre de dominio](#búsqueda-dns)
 
 * [Consulta DNS o sistema de nombre de dominio](#consulta-dns)
 
@@ -126,7 +126,7 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [TCP](#tcp)
 
-* [Bloqueo TCP/IP](#bloqueo-tcp-ip)
+* [Bloqueo TCP/IP](#bloqueo-tcpip)
 
 * [Entrada de test](#entrada-de-test)
 
@@ -582,7 +582,7 @@ Los dispositivos, como las computadoras, se conectan entre sí y forman una red 
 
 Cada red está conectada a otras redes, que a su vez están conectadas entre sí mediante tecnologías de redes electrónicas, inalámbricas y ópticas. Internet está formada por múltiples redes interconectadas.
 
-### Anomalía de red
+### Anomalía en la red
 
 Una anomalía de red es un comportamiento de red que se desvía de lo que es estándar, normal o esperado.
 
@@ -702,7 +702,7 @@ restableciendo activamente (es decir, inyectando paquetes TCP RST) la conexión 
 
 [OONI Probe](https://ooni.org/install/) mide el bloqueo TCP/IP de sitios web y aplicaciones.
 
-### Entrada de prueba
+### Entrada de test
 
 La entrada de tests (en el contexto de [OONI Probe](https://ooni.org/install/)) es un recurso de Internet (como una URL, un dominio o una dirección IP) que es el objetivo de una medición.
 
