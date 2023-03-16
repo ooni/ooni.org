@@ -22,9 +22,9 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [Lista de bloqueos](#lista-de-blocqueos)
 
-* [Página bloqueda](#página-bloqueda)
+* [Página bloqueda](#pagina-bloqueda)
 
-* [Almacenamiento en caché](#almacenamiento-en-caché)
+* [Almacenamiento en caché](#almacenamiento-en-cache)
 
 * [Herramientas para evadir la censura](#herramientas-para-evadir-la-censura)
 
@@ -42,9 +42,9 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [Solucionador DNS o sistema de nombre de dominio](#solucionador-dns-o-sistema-de-nombre-de-dominio)
 
-* [Suplantación de DNS o sistema de nombre de dominio](#suplantación-de-dns-o-sistema-de-nombre-de-dominio)
+* [Suplantación de DNS o sistema de nombre de dominio](#suplantacion-de-dns-o-sistema-de-nombre-de-dominio)
 
-* [Manipulación de DNS o sistema de nombre de dominio](#manipulación-de-dns-o-sistema-de-nombre-de-dominio)
+* [Manipulación de DNS o sistema de nombre de dominio](#manipulacion-de-dns-o-sistema-de-nombre-de-dominio)
 
 * [Fachada o enmascaramiento de dominio](#fachada-o-enmascaramiento-de-dominio)
 
@@ -56,7 +56,7 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [HTTP o protocolo de transferencia de hipertexto](#http-o-protocolo-de-transferencia-de-hipertexto)
 
-* [HTTPS o protocolo de transferencia de hipertexto seguro](#http-o-protocolo-de-transferencia-de-hipertexto-seguro)
+* [HTTPS o protocolo de transferencia de hipertexto seguro](#https-o-protocolo-de-transferencia-de-hipertexto-seguro)
 
 * [Bloqueo HTTP](#bloqueo-http)
 
@@ -76,11 +76,11 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [Internet](#internet)
 
-* [Apagón de Internet](#apagon-deinternet)
+* [Apagón de Internet](#apagon-de-internet)
 
 * [Censura en Internet](#censura-en-internet)
 
-* [Dirección IP o dirección de protocolo de internet](#direccion-ip-o-direccion-protocolo-de-internet)
+* [Dirección IP o dirección de protocolo de internet](#direccion-ip-o-direccion-de-protocolo-de-internet)
 
 * [ISP o proveedor de servicios de internet](#isp-o-proveedor-de-servicios-de-internet)
 
@@ -96,7 +96,7 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [Red](#red)
 
-* [Anomalía en la red](#anomalía-en-la-red)
+* [Anomalía en la red](#anomalia-en-la-red)
 
 * [Interferencias en la red](#interferencias-en-la-red)
 
@@ -112,7 +112,7 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [OONI Probe o software de pruebas de OONI](#ooni-probe-o-software-de-pruebas-de-ooni)
 
-* [OONI Run o el sitio web de coordinación de pruebas o test censura de OONI](#ooni-run-o-el-sitio-web-de-coordinación-de-pruebas-o-test-censura-de-ooni)
+* [OONI Run o el sitio web de coordinación de pruebas o test censura de OONI](#ooni-run-o-el-sitio-web-de-coordinacion-de-pruebas-o-test-censura-de-ooni)
 
 * [Rendimiento](#rendimiento)
 
@@ -124,7 +124,7 @@ Si desea incluir más términos en este glosario, envíenos [una solicitud](http
 
 * [Servidor](#servidor)
 
-* [TCP o Protocolo de control de transmisión](#tcp-o-protocolo-de-control-de-transmisión)
+* [TCP o Protocolo de control de transmisión](#tcp-o-protocolo-de-control-de-transmision)
 
 * [Bloqueo TCP/IP](bloqueo-tcpip)
 
