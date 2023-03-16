@@ -4,6 +4,10 @@ description: "Este glosario contiene breves explicaciones de los términos utili
 ---
 Este documento fue traducido al español por Katherine Pennacchio y Mariengracia Chirinos.
 
+Documento original:
+
+* English, [OONI Glossary](https://ooni.org/support/glossary/)
+
 Este glosario contiene *breves explicaciones* de los términos utilizados en las aplicaciones, metodologías e informes de investigación de OONI.
 
 Si desea incluir más términos en este glosario, envíenos [una solicitud](https://github.com/ooni/ooni.org) o un [correo electrónico.](https://ooni.org/about/#contact)
@@ -452,7 +456,7 @@ Los códigos de estado HTTP más comunes son:
 
 * Estado HTTP **500** (Error interno del servidor): Mensaje de error de propósito general cuando un servidor web encuentra algún tipo de error interno.
 
-Al medir el bloqueo de sitios web, el [Web Connectivity test [de OONI Probe](https://ooni.org/nettest/web-connectivity/) compara
+Al medir el bloqueo de sitios web, el [Web Connectivity test de OONI Probe](https://ooni.org/nettest/web-connectivity/) compara
 los códigos de estado HTTP del sitio web probado desde la red del
 usuario con una red no censurada (como parte de una metodología de
 pruebas más amplia).
