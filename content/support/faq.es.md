@@ -148,7 +148,7 @@ Esta sección de preguntas frecuentes pretende responder a las preguntas que con
 
     * [¿Qué quiere decir "Anomalías"?](#a-qué-se-refieren-por-anomalías)
 
-    * [¿Por qué el Explorador de OONI sugiere que una página o app a la que puedo acceder está bloqueada en mi país?](#por-qué-ooni-explorer-sugiere-que-un-sitio-o-aplicación-al-que-puedo-acceder-está-bloqueada-en-mi-país)
+    * [¿Por qué el Explorador de OONI sugiere que una página o app a la que puedo acceder está bloqueada en mi país?](#por-qué-ooni-explorer-sugiere-que-un-sitio-o-aplicación-al-que-puedo-acceder-está-bloqueado-en-mi-país)
 
     * [¿Qué son los falsos positivos?](#qué-son-los-falsos-positivos)
 
