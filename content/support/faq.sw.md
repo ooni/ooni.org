@@ -5,7 +5,7 @@ aliases:
     - /sw/about/faq/
 ---
 
-Hati hiyo imetafsiriwa kwa Kiswahili na Zaina Foundation.
+Hati hiyo imetafsiriwa kwa Kiswahili na [Zaina Foundation](https://zainafoundationtz.org/).
 
 Hati asili: [Frequently Asked Questions (FAQ)](https://ooni.org/support/faq)
 
@@ -438,7 +438,7 @@ Kwa vipimo vya mbali, tunapendekeza vifaa vingine, kama vile
 [Satellite](https://censoredplanet.org/projects/satellite),
 ambazo huchanganua mtandao katika seva inayopokea maombi na kufanya vipimo ili kutambua DNS iliyozuiliwa.
 
-### Ni aina gani ya Data OONI Probe hukusanya?** 
+### Ni aina gani ya Data OONI Probe hukusanya?
 
 OONI Probe imetengenezwa kwa kuzingatia faragha na usalama wa mtumiaji wake. Lakini *sio* kifaa cha faragha. Kwa hivyo tunajaribu kuweka ukomo wa ukusanyaji wa data kwa aina za data ambazo ni muhimu kwa ajili ya kupima aina mbalimbali vya udhibiti wa mtandao.
 
@@ -500,13 +500,13 @@ Unaweza:
 
 * **Chagua kutosambaza vipimo vyovyote**. Kwa kupitia mpangilio wa programu ya OONI Probe, unaweza kuchagua kutotuma vipimo vyovyote katika OONI. Katika hili. Matokeo ya vipimo ya vipimo vyako yanaweza yasichapishwe ( Kwa hiyo utaweza kuyafikia kwa kufikia programu yako tu).
 
-### Je ninaweza kutumia OONI Probe nikiwa nimewasha VPN?** 
+### Je ninaweza kutumia OONI Probe nikiwa nimewasha VPN?
 
 Tunashauri kutotumia OONI Probe pamoja na VPN kwa sababu hautaweza kupima utendaji kazi wa mtandao wako, badala yake, utapima Mtandao wa mtoa huduma ya VPN, ambaye anaweza kuwa hajadhibitiwa.
 
 Kutambua udhibiti wa mtandao (Kama ilivyotokea kwa watumiaji wa ndani wa mtandao), Zima VPN yako (au program yeyote inayokwepw udhibiti mtandao) na kuwezesha vipimo vya OONI Probe kufanya kazi.
 
-### Je, OONI inaweza kutoa ushauri wa kisheria?** 
+### Je, OONI inaweza kutoa ushauri wa kisheria? 
 
 Hapana. Sisi ni kikosi cha watengenezaji wa programu, kwahiyo hatuwezi kutoa ushauri wowote kisheria.
 
@@ -562,7 +562,7 @@ Program za OONI Probe ya kompyuta hupima tovuti zote (Kutoka kwenye [orodha ya v
 na [orodha ya vipimo katika nchi husika](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)) kwa mpigo na unaweza kudhibiti idadi ya tovuti katika mpangilio wa
 program.
 
-### Nawezaje kubadili muda wa vipimo katika programu ya simu ya OONI Probe ili kupima tovuti nyingi zaidi?** 
+### Nawezaje kubadili muda wa vipimo katika programu ya simu ya OONI Probe ili kupima tovuti nyingi zaidi?
 
 Unaweza kupata hatua kwa hatua (ikiwa na picha screen) jinsi ya kupima tovuti (Kutoka katika orodha ya vipimo vya Citizen Lab) kupitia muongozo wa mtumiaji ufuatao:
 
@@ -697,7 +697,7 @@ Kwa ujumla, kipimo cha OONI huwakilisha moja kati ya matokeo matatu yafuatayo:
 
 * **Imethibitishwa kuzuiliwa**. Kipimo "huthibitishwa kuzuiliwa" tunapokuwa na uhakika kuwa chanzo kilichopimwa kimezuiliwa. Kutokana na ugunduzi wetu mpaka sasa, hii inaweza kutumika katika tovuti pale ambapo mtoa huduma za mtandao **anakupatia kurasa iliyozuiliwa** (ambayo inamtaarifu mtumiaji kuwa tovuti imezuiliwa kwa makusudi) au pale ambapo seva ya DNS inayotoa majibu inarudisha IP iliyokuwa na udhibiti.
 
-### Nawezaje kupata na kuchambua data za OONI?** 
+### Nawezaje kupata na kuchambua data za OONI?
 
 Unaweza kufanya njia zifuatazo:
 
