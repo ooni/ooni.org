@@ -1,6 +1,6 @@
 # Hatari: Vitu unavyotakiwa kuvijua kabla ya kutumia OONI Probe
 
-Hati hiyo imetafsiriwa kwa Kiswahili na Zaina Foundation.
+Hati hiyo imetafsiriwa kwa Kiswahili na [Zaina Foundation](https://zainafoundationtz.org/).
 
 Hati asili: [Risks: Things you should know before running OONI Probe](https://ooni.org/about/risks)
 
