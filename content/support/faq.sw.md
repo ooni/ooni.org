@@ -16,13 +16,13 @@ Kuna maswali mengine ambayo ungependa tuyajibu? Tafadhali
 
 * [Kuhusu OONI](#kuhusu-ooni)
 
-    * [Nini maana ya OONI?](#nini-maana-ya-ooni)
+    * [Nini maana ya OONI?](#ooni-ni-nini)
 
-    * [Kwanini OONI?](#kwanini-ooni)
+    * [Kwa nini OONI?](#kwa-nini-ooni)
 
     * [OONI inafanya nini?](#ooni-inafanya-nini)
 
-    * [Kwanini kupima udhibiti wa mtandao?](#kwanini-kupima-udhibiti-wa-mtandao)
+    * [Kwa nini kupima udhibiti wa mtandao?](#kwa-nini-kupima-udhibiti-wa-mtandao)
 
     * [Ni kwa namna gani OONI inafadhiliwa?](#ni-kwa-namna-gani-ooni-inafadhiliwa)
 
@@ -40,27 +40,27 @@ Kuna maswali mengine ambayo ungependa tuyajibu? Tafadhali
 
     * [Nchi yangu haina udhibiti. Kwa nini nitumie OONI Probe?](#nchi-yangu-haina-udhibiti-kwa-nini-nitumie-ooni-probe)
 
-    * [OONI Probe hufanya nini?](#ooni-probe-hufanya-nini)
+    * [OONI Probe hufanya nini?](#vipimo-vya-ooni-probe-hufanya-nini)
 
-    * [Ni kwa namna gani OONI Probe inapima udibiti wa mtandao?](#ni-kwa-namna-gani-ooni-probe-inapima-udibiti-wa-mtandao)
+    * [Ni kwa namna gani OONI Probe inapima udibiti wa mtandao?](#kwa-namna-gani-ooni-probe-inapima-udibiti-wa-mtandao)
 
-    * [Mimi sina ujuzi. Ninaweza nikatumia OONI Probe?](#mimi-sina-ujuzi-ninaweza-nikatumia-ooni-probe)
+    * [Mimi sina ujuzi. Ninaweza nikatumia OONI Probe?](#mimi-sina-ujuzi-ninaweza-kutumia-ooni-probe)
 
-    * [Nawezaje kutumia OONI Probe?](#nawezaje-kutumia-ooni-probe)
+    * [Nawezaje kutumia OONI Probe?](#ninawezaje-kutumia-ooni-probe)
 
     * [Ninatumia OONI Probe, Je nitakiwa nikutumie matokeo?](#ninatumia-ooni-probe-je-nitakiwa-nikutumie-matokeo)
 
-    * [Je naweza kutumia OONI Probe mara kwa mara?](#je-naweza-kutumia-ooni-probe-mara-kwa-mara)
+    * [Je naweza kutumia OONI Probe mara kwa mara?](#ni-kwa-mara-ngapi-natakiwa-kufanya-ooni-probe)
 
-    * [Nawezaje kutumia OONI Probe otomatiki?](#nawezaje-kutumia-ooni-probe-otomatiki)
+    * [Nawezaje kutumia OONI Probe otomatiki?](#nitawezaje-kutumia-ooni-probe-otomatiki)
 
-    * [Kwa muda gani natakiwa kutumia OONI Probe?](#kwa-muda-gani-natakiwa-kutumia-ooni-probe)
+    * [Kwa muda gani natakiwa kutumia OONI Probe?](#kwa-muda-gani-natakiwa-kutumia-ooni-probe) 
 
-    * [Nimegundua tovuti zilizodhibitiwa. Nawezaje kukwepa udhibiti wa mtandao?](#nimegundua-tovuti-zilizodhibitiwa-nawezaje-kukwepa-udhibiti-wa-mtandao)
+    * [Nimegundua tovuti zilizodhibitiwa. Nawezaje kukwepa udhibiti wa mtandao?](#nimegundua-tovuti-zilizodhibitiwa-ninawezaje-kukwepa-udhibiti-huo) 
 
     * [OONI Probe imegundua uwepo wa kifaa kinachoingilia mawasiliano katika mtandao wangu. Je hii humaanisha ninafuatiliwa?](#ooni-probe-imegundua-uwepo-wa-kifaa-kinachoingilia-mawasiliano-katika-mtandao-wangu-je-hii-humaanisha-ninafuatiliwa)
 
-    * [Je Ninaweza kupima udhibiti wa mtandao nikiwa mbali katika nchi nyingine?](#je-ninaweza-kupima-udhibiti-wa-mtandao-nikiwa-mbali-katika-nchi-nyingine)
+    * [Je Ninaweza kupima udhibiti wa mtandao nikiwa mbali katika nchi nyingine?](#je-ninaweza-kupima-udhibiti-wa-mtandao-nikiwa-mbali-katika-nchi-husika)
 
     * [Ni aina gani wa data OONI Probe hukusanya?](#ni-aina-gani-wa-data-ooni-probe-hukusanya)
 
@@ -68,33 +68,33 @@ Kuna maswali mengine ambayo ungependa tuyajibu? Tafadhali
 
     * [Kutumia OONI Probe kuna hatari gani?](#kutumia-ooni-probe-kuna-hatari-gani)
     
-    * [Ninawezaje kupunguza hatari zinazohusiana na kutumia OONI Probe?](#Ninawezaje-kupunguza-hatari-zinazohusiana-na-kutumia-ooni-probe)
+    * [Ninawezaje kupunguza hatari zinazohusiana na kutumia OONI Probe?](#ninawezaje-kupunguza-hatari-zinazohusiana-na-kutumia-ooni-probe)
 
     * [Je ninaweza kutumia OONI Probe nikiwa nimewasha VPN?](#je-ninaweza-kutumia-ooni-probe-nikiwa-nimewasha-vpn)
 
-    * [Je, OONI huweza kutoa ushauri wa kisheria?](#je-ooni-huweza-kutoa-ushauri-wa-kisheria)
+    * [Je, OONI huweza kutoa ushauri wa kisheria?](#je-ooni-inaweza-kutoa-ushauri-wa-kisheria)
 
 * [Kupima tovuti](#kupima-tovuti)
 
-    * [Je, Nitatambua tovuti zipi zimedhibitiwa kwa kutumia OONI Probe?](#je-nitatambua-tovuti-zipi-zimedhibitiwa-kwa-kutumia-ooni-probe)
+    * [Je, Nitatambua tovuti zipi zimedhibitiwa kwa kutumia OONI Probe?](#tovuti-zipi-nitapima-kama-zimedhibitiwa-kwa-kutumia-ooni-probe)
 
     * [Orodha za vipimo ni nini?](#orodha-za-vipimo-ni-nini)
 
-    * [Ni kwanini OONI Probe inatumia orodha za vipimo?](#ni-kwanini-ooni-probe-inatumia-orodha-za-vipimo)
+    * [Ni kwanini OONI Probe inatumia orodha za vipimo?](#kwanini-ooni-probe-inatumia-orodha-za-vipimo)
 
     * [Kwanini Programu OONI Probe haipimi tovuti zote zilizopo katika orodha ya vipimo vya tovuti?](#kwanini-programu-ooni-probe-haipimi-tovuti-zote-zilizopo-katika-orodha-ya-vipimo-vya-tovuti)
 
-    * [Ninawezaje kubadili muda wa vipimo katika programu ya simu ya OONI Probe ili kupima tovuti nyingi zaidi?](#ninawezaje-kubadili-muda-wa-vipimo-katika-programu-ya-simu-ya-ooni-probe-ili-kupima-tovuti-nyingi-zaidi)
+    * [Ninawezaje kubadili muda wa vipimo katika programu ya simu ya OONI Probe ili kupima tovuti nyingi zaidi?](#nawezaje-kubadili-muda-wa-vipimo-katika-programu-ya-simu-ya-ooni-probe-ili-kupima-tovuti-nyingi-zaidi)
 
     * [Ninawezaje kupata orodha ya vipimo vya nchi yangu?](#ninawezaje-kupata-orodha-ya-vipimo-vya-nchi-yangu)
 
     * [Kwanini nchi yangu haina orodha ya vipimo?](#kwanini-nchi-yangu-haina-orodha-ya-vipimo)
 
-    * [Nani huamua tovuti zipi zimejumuishwa katika orodha za vipimo?](#nani-huamua-tovuti-zipi-zimejumuishwa-katika-orodha-za-vipimo)
+    * [Nani huamua tovuti zipi zimejumuishwa katika orodha za vipimo?](#nani-huamua-tovuti-za-zimejumuishwa-katika-orodha)
 
     * [Ninawezaje kuchangia katika orodha ya vipimo?](#ninawezaje-kuchangia-katika-orodha-ya-vipimo)
 
-    * [Mimi sio mtumiaji wa GitHub, Lakini ningependa kuwasilisha URLs kwa ajili ya vipimo. Ninawezaje kufanya hivyo?](#mimi-sio-mtumiaji-wa-github-lakini-ningependa-kuwasilisha-URLs-kwa-ajili-ya-vipimo-ninawezaje-kufanya-hivyo)
+    * [Mimi sio mtumiaji wa GitHub, Lakini ningependa kuwasilisha URLs kwa ajili ya vipimo. Ninawezaje kufanya hivyo?](#mimi-sio-mtumiaji-wa-github-lakini-ningependa-kuwasilisha-urls-kwa-ajili-ya-vipimo-ninawezaje-kufanya-hivyo)
 
     * [Kuna tofauti gani kati ya orodha ya vipimo na orodha ya tovuti zilizozuiliwa?](#kuna-tofauti-gani-kati-ya-orodha-ya-vipimo-na-orodha-ya-tovuti-zilizozuiliwa)
 
@@ -120,15 +120,15 @@ Kuna maswali mengine ambayo ungependa tuyajibu? Tafadhali
 
 * [OONI Explorer](#ooni-explorer)
 
-    * [OONI Explorer ni nini](#ooni-explorer-ni-nini)?
+    * [OONI Explorer ni nini?](#ooni-explorer-ni-nini)
 
-    * [Nawezaje kupata tovuti zilizozuiliwa kwa kutumia OONI Explorer](#nawezaje-kupata-tovuti-zilizozuiliwa-kwa-kutumia-ooni-explorer)?
+    * [Nawezaje kupata tovuti zilizozuiliwa kwa kutumia OONI Explorer?](#kwa-namna-gani-naweza-kuzipata-kurasa-zilizo-zuiliwa-kwa-kutumia-ooni-explorer)
 
-    * [Nawezaje kupata vipimo](#nawezaje-kupata-vipimo)?
+    * [Nawezaje kupata vipimo?](#nawezaje-kupata-vipimo)
 
-    * [Nawezaje kupata data za OONI kupitia OONI Explorer](#nawezaje-kupata-data-za-ooni-kupitia-ooni-explorer)?
+    * [Nawezaje kupata data za OONI kupitia OONI Explorer?](#nawezaje-kupata-data-za-ooni-kupitia-ooni-explorer)
 
-    * [Nawezaje kupata "ushahidi wa udhibiti wa mtandao" katika vipimo](#nawezaje-kupata-ushahidi-wa-udhibiti-wa-mtandao-katika-vipimo)?
+    * [Nawezaje kupata "ushahidi wa udhibiti wa mtandao" katika vipimo?](#nawezaje-kupata-ushahidi-wa-udhibiti-wa-mtandao-katika-vipimo)
 
     * [Nawezaje kupata tovuti zilizozuiliwa katika nchi yangu?](#nawezaje-kupata-tovuti-zilizozuiliwa-katika-nchi-yangu)
 
@@ -136,15 +136,15 @@ Kuna maswali mengine ambayo ungependa tuyajibu? Tafadhali
 
     * [Kwanini siwezi kupata majibu ya tovuti husika?](#kwanini-siwezi-kupata-majibu-ya-tovuti-husika)
 
-    * [Nawezaje kuangalia uzuiliwaji wa tovuti katika muda fulani?](#nawezaje-kuangalia-uzuiliwaji-wa-tovuti-katika-muda-fulani)
+    * [Nawezaje kuangalia uzuiliwaji wa tovuti katika muda fulani?](#nawezaje-kuangalia-uzuiliwaji-wa-tovuti-katika-muda-husika)
 
     * ["Iliyothibitishwa" inamaanisha nini?](#iliyothibitishwa-inamaanisha-nini)
 
-    * [Nazijua tovuti nyingine nyingi zilizozuiliwa, kwanini haionekani katika Explorer ya OONI ninapochagua "iliyothibitishwa"?](#nazijua-tovuti-nyingine-nyingi-zilizozuiliwa,-kwanini-haionekani-katika-explorer-ya-ooni-ninapochagua-iliyothibitishwa)
+    * [Nazijua tovuti nyingine nyingi zilizozuiliwa, kwanini hazionekani katika Explorer ya OONI ninapochagua "iliyothibitishwa"?](#nazijua-tovuti-zingine-nyingi-zilizo-zuiliwa-kwanini-hazionekani-katika-explorer-ya-ooni-ninapochagua-iliyothibitishwa)
 
     * [Kwanini OONI huthibitisha udhibiti wakati inapoletwa kurasa iliyo dhibitiwa?](#kwanini-ooni-huthibitisha-udhibiti-wakati-inapoletwa-kurasa-iliyo-dhibitiwa)
 
-    * [Kwanini OONI haithibitishi matukio mengine ya udhibiti wa mtandao (zaidi ya kurasa zilizozuiliwa)?](#kwanini-ooni-haithibitishi-matukio-mengine-ya-udhibiti-wa-mtandao-zaidi-ya-kurasa-zilizozuiliwa)
+    * [Kwanini OONI haithibitishi matukio mengine ya udhibiti wa mtandao (zaidi ya kurasa zilizo zuiliwa)?](#kwanini-ooni-huthibitisha-matukio-mengine-ya-udhibiti-wa-mtandao-zaidi-ya-kurasa-zilizo-zuiliwa)
 
     * ["Isiyo ya kawaida" inamaanisha nini?](#isiyo-ya-kawaida-inamaanisha-nini)
 
@@ -154,9 +154,9 @@ Kuna maswali mengine ambayo ungependa tuyajibu? Tafadhali
 
     * [Kwanini majibu yenye makosa hutokea?](#kwanini-majibu-yenye-makosa-hutokea)
 
-    * [Ninawezaje kutofautisha majibu yenye makosa?](#ninawezaje-kutofautisha-majibu-yenye-makosa)
+    * [Ninawezaje kutofautisha majibu yenye makosa?](#nawezaje-kutofautisha-majibu-yenye-makosa)
 
-    * [Nawezaje kuangalia matokeo kutoka kwenye vipimo vingine vya OONI Probe?](#nawezaje-kuangalia-matokeo-kutoka-kwenye-vipimo-vingine-vya-ooni-probe)
+    * [Nawezaje kuangalia matokeo kutoka kwenye vipimo vingine vya OONI Probe?](#nawezaje-kuangalia-matokeo-kutoka-vipimo-vingine-vya-ooni-probe)
 
     * [Kwanini nchi yangu haina vipimo vyovyote vya hivi karibuni katika OONI Explorer?](#kwanini-nchi-yangu-haina-vipimo-vyovyote-vya-hivi-karibuni-katika-ooni-explorer)
 
@@ -300,7 +300,7 @@ OONI Probe ni [programu huru na ya
 bure](https://github.com/ooni/probe) iliyotengenezwa kupima
 udhibiti wa mtandao na aina nyingine za udhibiti wa mtandao.
 
-### Nchi yangu haina Udhibiti. Kwanini nitumie OONI Probe?
+### Nchi yangu haina Udhibiti. Kwa nini nitumie OONI Probe?
 
 Tunadhani ni muhimu kupima udhibiti wa mtandao katika kila nchi duniani (Bila kujali kama kuna ripoti za udhibiti wa mtandao au la) kwa sababu:
 
@@ -438,7 +438,7 @@ Kwa vipimo vya mbali, tunapendekeza vifaa vingine, kama vile
 [Satellite](https://censoredplanet.org/projects/satellite),
 ambazo huchanganua mtandao katika seva inayopokea maombi na kufanya vipimo ili kutambua DNS iliyozuiliwa.
 
-### Ni aina gani ya Data OONI Probe hukusanya?
+### Ni aina gani wa Data OONI Probe hukusanya?
 
 OONI Probe imetengenezwa kwa kuzingatia faragha na usalama wa mtumiaji wake. Lakini *sio* kifaa cha faragha. Kwa hivyo tunajaribu kuweka ukomo wa ukusanyaji wa data kwa aina za data ambazo ni muhimu kwa ajili ya kupima aina mbalimbali vya udhibiti wa mtandao.
 
@@ -818,7 +818,7 @@ Tafadhali tafsiri matokeo "yasiyo ya kawaida" ambayo yanaweza kuwa sio sahihi.
 
 "Iliyothibitishwa" matokeo ya uzuiaji yatatokea kama watoa huduma za mtandao waliopimwa watakuwa na kurasa zilizozuiliwa katika tovuti husika.
 
-### Nawezaje kungalia kama tovuti fulani/imezuiliwa?
+### Nawezaje kuangalia kama tovuti husika imezuiliwa?
 
 Unaweza kuangalia kama tovuti husika (kama vile twitter.com) huzuiliwa kwa kufuata hatua zifuatazo.
 
@@ -886,7 +886,7 @@ Chaguo la "Iliyothibitishwa" italeta matokeo ya (tovuti zilizozuiliwa) kama tu, 
 
 Kwakuwa wakati wote tunaboresha tafiti zetu katika kugundua udhibiti, haya mambo yanabadilika kwendana na wakati. Kwa taarifa zaidi za kiufundi tembelea [ooni/pipeline](https://github.com/ooni/pipeline).
 
-### Kwanini OONI huthibitisha udhibiti wakati inapoletwa kurasa iliyodhibitiwa?
+### Kwanini OONI huthibitisha udhibiti wakati inapoletwa kurasa iliyo dhibitiwa?
 
 Kurasa iliyozuiliwa ni kurasa ya tovuti ambayo **humtaarifu mtumiaji kuwa tovuti aliyokusudia imezuiliwa kwa makusudi**. Mara nyingi, kurasa iliyozuiliwa hutoa taarifa za uhalali wa kufungiwa kwake hata za kisheria. Kwahiyo hakuna ugumu katika aina hii ya udhibiti, kwa sababu hata watoa huduma wa mitandao huwa wazi kuhusiana na kusudi la kuzuiliwa kwa tovuti husika.
 
@@ -908,7 +908,7 @@ Kwahiyo ni muhimu mara zote kuchunguza kila kipimo kwa kila tukio ili kukagua da
 
 Moja kwa moja katika kutofautisha matukio ya udhibiti wa makusudi na yale ya sababu za mtandao kutokuwa wa kawaida imekuwa ni changamoto inayoendelea, japokuwa tunaendelea kufanya maboresho katika tafiti na ugunduzi wetu na kupanga kuwa na uthibitishwaji wa moja kwa moja wa aina tofauti za udhibiti wa mtandao hivi karibuni.
 
-### "Isiyo ya kawaida"inamaanisha nini?
+### "Isiyo ya kawaida" inamaanisha nini?
 
 Kipimo "kisicho cha kawaida" ni matokeo ya upimaji ambayo ni maalum sababu huwasilisha *viashiria vya udhibiti wa mtandao* (kama vile kuzuiliwa kwa tovuti au programu au uwepo wa kifaa kinachoingilia mawasiliano).
 
