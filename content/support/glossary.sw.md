@@ -38,11 +38,11 @@ Kama ungependa kufahamu maneno ya ziada katika faharasa hii tafadhali [fungua ha
 
 * [Utambuzi wa DNS](#utambuzi-wa-dns)
 
-* [Maswali ya DNS](#maswali-ya-dns)
+* [Maswali ya DNS](#ombi-la-dns)
 
 * [Seva inayopokea maombi ya DNS](#seva-inayopokea-maombi-ya-dns)
 
-* [Kudukuliiwa DNS](#kudukuliiwa-dns)
+* [Kudukuliwa DNS](#kudukuliwa-dns)
 
 * [Kuchezea DNS](#kuchezea-dns)
 
@@ -56,17 +56,17 @@ Kama ungependa kufahamu maneno ya ziada katika faharasa hii tafadhali [fungua ha
 
 * [HTTPS](#https)
 
-* [Kuzuiwa HTTP](#kuzuiwa-http)
+* [Kuzuiwa HTTP](#kuzuiliwa-kwa-http)
 
 * [Vikusanya HTTPS](#vikusanya-https)
 
 * [Maelezo ya HTTP](#maelezo-ya-http)
 
-* [Ombi la HTTP](#ombi-la-http)
+* [Ombi la HTTP](#maombi-ya-http)
 
 * [Majibu ya HTTP](#majibu-ya-http)
 
-* [Hali za misimbo HTTP](#hali-za-misimbo-http)
+* [Hali za misimbo HTTP](#hali-za-misimbo-za-http)
 
 * [Wakala wa kudhibiti HTTP](#wakala-wa-kudhibiti-http)
 
@@ -90,7 +90,7 @@ Kama ungependa kufahamu maneno ya ziada katika faharasa hii tafadhali [fungua ha
 
 * [Tovuti kioo](#tovuti-kioo)
 
-* [Kipimo vya mtandao](#kipimo-vya-mtandao)
+* [Kipimo vya mtandao](#kipimo-cha-mtandao)
 
 * [Mtandao](#mtandao)
 
@@ -106,13 +106,13 @@ Kama ungependa kufahamu maneno ya ziada katika faharasa hii tafadhali [fungua ha
 
 * [OONI Explorer](#ooni-explorer)
 
-* [Watoa Huduma wa OONI](#watoa-huduma-wa-ooni)
+* [Watoa Huduma wa OONI](#ooni-huduma-kwa-watumiaji)
 
 * [OONI Probe](#ooni-probe)
 
 * [OONI Run](#ooni-run)
 
-* [Utendaji wa Mtandao](#utendaji-wa-mtandao)
+* [Utendaji wa Mtandao](#utendaji)
 
 * [Utaratibu](#utaratibu)
 
@@ -124,7 +124,7 @@ Kama ungependa kufahamu maneno ya ziada katika faharasa hii tafadhali [fungua ha
 
 * [TCP](#tcp)
 
-* [Kuzuiwa TCP/IP](#kuzuiva-tcpip)
+* [Kuzuiwa TCP/IP](#kuzuiliva-kwa-tcpip)
 
 * [Vitu vya kupima](#vitu-vya-kupima)
 
@@ -134,11 +134,11 @@ Kama ungependa kufahamu maneno ya ziada katika faharasa hii tafadhali [fungua ha
 
 * [Tor](#tor)
 
-* [Usafirishaji wa data kwa namna ya tofauti](#usafirishaji-wa-data-kwa-namna-ya-tofauti)
+* [Usafirishaji wa data kwa namna ya tofauti](#upotoshaji-wa-usafirishaji-wa-taarifa)
 
 * [URL](#url)
 
-* [Sehemu maalumu](#sehemu-maalumu)
+* [Sehemu maalumu](#sehemu-maalum)
 
 * [VPN](#vpn)
 
