@@ -42,7 +42,7 @@ Kuna maswali mengine ambayo ungependa tuyajibu? Tafadhali
 
     * [OONI Probe hufanya nini?](#vipimo-vya-ooni-probe-hufanya-nini)
 
-    * [Ni kwa namna gani OONI Probe inapima udibiti wa mtandao?](#kwa-namna-gani-ooni-probe-inapima-udibiti-wa-mtandao)
+    * [Ni kwa namna gani OONI Probe inapima udhibiti wa mtandao?](#kwa-namna-gani-ooni-probe-inapima-udhibiti-wa-mtandao)
 
     * [Mimi sina ujuzi. Ninaweza nikatumia OONI Probe?](#mimi-sina-ujuzi-ninaweza-kutumia-ooni-probe)
 
@@ -114,9 +114,9 @@ Kuna maswali mengine ambayo ungependa tuyajibu? Tafadhali
 
     * [OONI huchapisha data wapi?](#ooni-huchapisha-data-wapi)
 
-    * [Nawezaje kutafsiri data za OONI](#nawezaje-kutafsiri-data-za-ooni)?
+    * [Nawezaje kutafsiri data za OONI?](#nawezaje-kutafsiri-data-za-ooni)
 
-    * [Nawezaje kupata na kuchambua data za OONI](#nawezaje-kupata-na-kuchambua-data-za-ooni)?
+    * [Nawezaje kupata na kuchambua data za OONI?](#nawezaje-kupata-na-kuchambua-data-za-ooni)
 
 * [OONI Explorer](#ooni-explorer)
 
@@ -130,7 +130,7 @@ Kuna maswali mengine ambayo ungependa tuyajibu? Tafadhali
 
     * [Nawezaje kupata "ushahidi wa udhibiti wa mtandao" katika vipimo?](#nawezaje-kupata-ushahidi-wa-udhibiti-wa-mtandao-katika-vipimo)
 
-    * [Nawezaje kupata tovuti zilizozuiliwa katika nchi yangu?](#nawezaje-kupata-tovuti-zilizozuiliwa-katika-nchi-yangu)
+    * [Nawezaje kupata tovuti zilizozuiliwa katika nchi yangu?](#nawezaje-kupata-tovuti-zilizozuiliwa-katika-nchi)
 
     * [Nawezaje kuangalia kama tovuti husika imezuiliwa?](#nawezaje-kuangalia-kama-tovuti-husika-imezuiliwa)
 
