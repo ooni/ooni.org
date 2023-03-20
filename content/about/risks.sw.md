@@ -20,7 +20,7 @@ Hivyo basi hatari zinazoweza tokea wakati wa kutumia OONI Probe hutegemeana na:
 
 2.  **Sheria na miongozo ya nchi unayotumia OONI Probe**. Ni vyema kuwashirikisha wanasheria wa ndani, na kujifunza kama nchi hiyo ina historia ya kuwashtaki watu binafsi wanaojihusisha na aina kama hizo za shughuli.
 
-3.  **Aina ya vipimo vya OONI Probe unavyofanya.** Sio kila kipimo cha OONI Probe kina hatari sawa inayoweza kutokea. Kwa mfano [kipimo cha whatAspp](https://ooni.org/nettest/whatsapp/) cha OONI, mara chache huweza kuunganisha ambazo tayari zimeunganishwa na watu zaidi ya bilioni duniani kote. Unaweza kuchagua kipimo vipi ufanye kupitia programu ya OONI Probe.
+3.  **Aina ya vipimo vya OONI Probe unavyofanya.** Sio kila kipimo cha OONI Probe kina hatari sawa inayoweza kutokea. Kwa mfano [kipimo cha WhatsApp](https://ooni.org/nettest/whatsapp/) cha OONI, mara chache huweza kuunganisha ambazo tayari zimeunganishwa na watu zaidi ya bilioni duniani kote. Unaweza kuchagua kipimo vipi ufanye kupitia programu ya OONI Probe.
 
 4.  **Aina ya tovuti unazopima**. Unaweza kuchagua tovuti unazozipenda kupitia kitufe cha "Choose websites" katika programu ya OONI Probe ya simu, au kwa kutumia [OONI Run](https://run.ooni.io/). Pia unaweza [kuchangia orodha ya vipimo](https://ooni.org/get-involved/contribute-test-lists/) kwa kupendekeza URLs zinazopaswa kuongezwa au kuondolewa.
 
@@ -36,27 +36,27 @@ Watumiaji wa OONI Probe wanafanya vipimo kwa hatari zao wenyewe. Kwa kuweka OONI
 Tor](https://www.torproject.org/), zinaweza kuwajibika, kwa
 pamoja au tofauti, kwa sheria au kwa haki, kwa watuamiaji wa OONI Probe na wengine wasiohusika moja kwa moja chini ya makubaliano, mkataba wowote au jambo lolote litakalo tokea.
 
-* [Adhabu na vikwazo zinazoweza kutokea](https://ooni.org/sw/about/risks/#adhabu-na-vikwazo-zinazoweza-kutokea)
+* [Adhabu na vikwazo zinazoweza kutokea](https://ooni.org/sw/about/risks/#adhabu-na-vikwazo-vinavyoweza-kutokea) 
 
-* [Hatari: Utambuzi wa OONI Probe](https://ooni.org/sw/about/risks/#hatari-utambuzi-wa-ooni-probe)
+* [Hatari: Utambuzi wa OONI Probe](https://ooni.org/sw/about/risks/#hatari-kugundua-ooni-probe)
 
     * [Ufuatiliaji](https://ooni.org/sw/about/risks/#ufuatiliaji)
 
     * [Huduma zilizopimwa](https://ooni.org/sw/about/risks/#huduma-zilizopimwa)
 
-    * [Ufikiwaji wa karibu na mbali wa kifaa cha mtumiaji](https://ooni.org/sw/about/risks/#ufikiwaji-wa-karibu-na=mbali-wa-kifaa-cha-mtumiaji)
+    * [Ufikiwaji wa karibu na mbali wa kifaa cha mtumiaji](https://ooni.org/sw/about/risks/#upatikanaji-wa-karibu-au-wa-mbali-wa-kifaa-cha-mtumiaji)
 
-    * [Uchapishwaji wa vipimo](https://ooni.org/sw/about/risks/#uchapishwaji-wa-vipimo)
+    * [Uchapishwaji wa vipimo](https://ooni.org/sw/about/risks/#uchapishaji-wa-vipimo) 
 
 * [Hatari: Vipimo vya OONI Probe](https://ooni.org/sw/about/risks/#hatari-vipimo-vya-ooni-probe)
 
-    * [Uhalali wa tovuti zilizopimwa](https://ooni.org/sw/about/risks/#uhalali-wa-tovuti-zilizopimwa)
+    * [Uhalali wa tovuti zilizopimwa](https://ooni.org/sw/about/risks/#uhalali-wa-tovuti-zilizopimwa) 
 
     * [Uhalali wa vipimo vya OONI Probe](https://ooni.org/sw/about/risks/#uhalali-wa-vipimo-vya-ooni-probe)
 
-    * [Huduma za watu wasio husika moja kwa moja](https://ooni.org/sw/about/risks/#huduma-za-watu-wasio-husika-moja-kwa-moja)
+    * [Huduma za watu wasio husika moja kwa moja](https://ooni.org/sw/about/risks/#huduma-za-watu-wasio-husika-moja-kwa-moja) 
 
-* [Kutafuta ushauri wa kisheria](https://ooni.org/sw/about/risks/#kutafuta-ushauri-wa-kisheria)
+* [Kutafuta ushauri wa kisheria](https://ooni.org/sw/about/risks/#kutafuta-ushauri-wa-kisheria) 
 
 **Zingatia**: Hatari zilizoelezewa hapa chini ni za kinadharia sana. Kwa uelewa wetu, hakuna mtumiaji wa OONI Probe ambaye amewahi kukumbana na madhara kutokana na hatari zilizoelezewa hapa chini. Hata hivyo, tunakuhimiza usome maelezo yafuatayo kuhusiana na hatari zinazoweza kutokea zinazohusiana na matumizi ya OONI Probe.
 
@@ -153,7 +153,7 @@ Hususani, waendeshaji wa mtandao walioathiriwa na vipimo vya OONI Probe wanaweza
 katika huduma ya kurudisha data iliyopokelewa kutoka katika chanzo chake na inaweza kutazamwa kama aina ya "udukuzi". Kama vipengele vya mtandao vimeathiriwa na kipimo hiki hutazama jumbe hizi ambazo sio maalum kama mashambulizi, unaweza kupata madhara makubwa kama vile mashtaka chini ya
 sheria ya matumizi mabaya ya kompyuta.
 
-#### Huduma za watu wasiohusika moja kwa moja
+#### Huduma za watu wasio husika moja kwa moja
 
 [Vipimo vyetu vya uchunguzi wa mtandao (NDT)](https://ooni.org/nettest/ndt/) ni kipimo kinachofanywa kwa lengo kuu ya kuchunguza seva za watoa huduma wengine wasiohusika moja kwa moja kupitia [Maabala ya vipimo (M-Lab)](https://www.measurementlab.net/). Huduma za NDT za M-Lab's zinahitaji udhibiti na usiri wa anwani za IP kwa lengo la
 utafiti. Kwa taarifa zaidi kuhusiana na usimamizi wa data wa M-Lab utazipata kupitia [maelezo ya faragha](https://www.measurementlab.net/privacy/).
