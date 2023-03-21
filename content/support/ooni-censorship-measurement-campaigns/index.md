@@ -47,11 +47,13 @@ For example, [Sinar Project](https://sinarproject.org/) coordinated an [OONI c
 
 {{<img src="images/image3.png">}}
 
+**Image:** Call to Action for OONI Probe testing of election-related websites during Malaysia's 2022 general election (source: [Sinar Project](https://sinarproject.org/digital-rights/measuring-and-detecting-network-interference/ge15)).
 
 India’s [Software Freedom Law Centre (SFLC.in)](https://sflc.in/) embedded OONI Run widgets into their [India Internet Shutdown Tracker project](https://internetshutdowns.in/) website, encouraging long-term OONI Probe testing of news media, blogs, human rights, and political websites in India.
 
 {{<img src="images/image4.png">}}
 
+**Image:** Call to Action for OONI Probe testing of news media, blogs, human rights, and political websites in India (source: [SFLC.in](https://internetshutdowns.in/)).
 
 Over the years, [Venezuela Inteligente](https://veinteligente.org/) coordinated with [OONI Probe volunteers in different regions of Venezuela](https://www.youtube.com/watch?v=UDvVfjJ0Iq8) to measure (and respond to) [temporary website blocks](https://vesinfiltro.com/) which emerged in correlation with political events. Human rights advocates from the global [#KeepItOn campaign](https://www.accessnow.org/keepiton/) coordinated OONI censorship measurement campaigns leading up to and during political events (such as elections and protests), using OONI data to support their advocacy efforts in response to emergent censorship events.
 
