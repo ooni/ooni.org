@@ -17,7 +17,7 @@ This documentation explains how you can organize **OONI censorship measurement c
 
 * [Examples of OONI censorship measurement campaigns](#examples-of-ooni-censorship-measurement-campaigns)
 
-* [How to run an OONI censorship measurement campaign](#how-to-run--an-ooni-censorship-measurement-campaign)
+* [How to run an OONI censorship measurement campaign](#how-to-run-an-ooni-censorship-measurement-campaign)
 
 ### What are OONI censorship measurement campaigns?
 
@@ -47,9 +47,11 @@ For example, [Sinar Project](https://sinarproject.org/) coordinated an [OONI c
 
 {{<img src="images/image3.png">}}
 
+
 India’s [Software Freedom Law Centre (SFLC.in)](https://sflc.in/) embedded OONI Run widgets into their [India Internet Shutdown Tracker project](https://internetshutdowns.in/) website, encouraging long-term OONI Probe testing of news media, blogs, human rights, and political websites in India.
 
 {{<img src="images/image4.png">}}
+
 
 Over the years, [Venezuela Inteligente](https://veinteligente.org/) coordinated with [OONI Probe volunteers in different regions of Venezuela](https://www.youtube.com/watch?v=UDvVfjJ0Iq8) to measure (and respond to) [temporary website blocks](https://vesinfiltro.com/) which emerged in correlation with political events. Human rights advocates from the global [#KeepItOn campaign](https://www.accessnow.org/keepiton/) coordinated OONI censorship measurement campaigns leading up to and during political events (such as elections and protests), using OONI data to support their advocacy efforts in response to emergent censorship events.
 
@@ -69,13 +71,11 @@ For example, if you’re concerned about new censorship events emerging during C
 
 Based on the above question, you would need to:
 
-*   Engage [OONI Probe](https://ooni.org/install/) users in Cambodia for website testing:
-
-*   You can encourage them to take the [online OONI training course](https://advocacyassembly.org/en/courses/63/#/chapter/1/lesson/1);
-*   Please communicate that censorship measurement is [potentially risky](https://ooni.org/about/risks/);
-
-*   Determine which election-monitoring and political opposition websites you would like OONI Probe users in Cambodia to test;
-*   Ensure that the testing is carried out during Cambodia’s 2023 elections (July 2023).
+* Engage [OONI Probe](https://ooni.org/install/) users in Cambodia for website testing:
+  * You can encourage them to take the [online OONI training course](https://advocacyassembly.org/en/courses/63/#/chapter/1/lesson/1);
+  * Please communicate that censorship measurement is [potentially risky](https://ooni.org/about/risks/);
+* Determine *which election-monitoring and political opposition websites* you would like OONI Probe users in Cambodia to test;
+* Ensure that the testing is carried out during Cambodia’s 2023 elections (July 2023).
 
 **Note:** Internet censorship is **often limited to specific networks or regions** within a country. You would therefore (ideally) engage OONI Probe users connected to as many networks and in as many regions in a country as possible. Depending on where internet censorship is reported, you may need to coordinate with people to run OONI Probe in those regions.
 
