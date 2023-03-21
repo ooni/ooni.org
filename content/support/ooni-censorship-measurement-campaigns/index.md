@@ -1,7 +1,9 @@
 ---
-title: "Coordinating OONI censorship measurement campaignsr"
+title: "Coordinating OONI censorship measurement campaigns"
 description: "This documentation explains how you can coordinate OONI censorship measurement campaigns around the world."
 ---
+
+**Last updated:** 21st March 2023
 
 Internet censorship around the world often [emerges during political events](https://ooni.org/documents/2022-ooni-submission-ohchr-report-internet-shutdowns.pdf), such as elections or protests. The abrupt emergence of new blocks requires rapid response in terms of measurement, particularly if the blocks are short-lived. Such measurement can help with the collection of data that can potentially serve as evidence of internet censorship, supporting the efforts of journalists, researchers, and human rights defenders challenging the blocks.
 
@@ -9,13 +11,13 @@ Detecting sudden or expected blocks can be achieved through **community coordina
 
 This documentation explains how you can organize **OONI censorship measurement campaigns** with your communities.
 
-[What are OONI censorship measurement campaigns?](/#h.wb8ha93pbjau)
+* [What are OONI censorship measurement campaigns?](#what-are-ooni-censorship-measurement-campaigns)
 
-[Why run OONI censorship measurement campaigns?](/#h.bk31f1b3697h)
+* [Why run OONI censorship measurement campaigns?](#why-run-ooni-censorship-measurement-campaigns)
 
-[Examples of OONI censorship measurement campaigns](/#h.vvtcr17o6e1x)
+* [Examples of OONI censorship measurement campaigns](#examples-of-ooni-censorship-measurement-campaigns)
 
-[How to run an OONI censorship measurement campaign](/#h.9atorvxwd4jg)
+* [How to run an OONI censorship measurement campaign](#how-to-run--an-ooni-censorship-measurement-campaign)
 
 ### What are OONI censorship measurement campaigns?
 
@@ -43,11 +45,11 @@ Over the years, internet freedom community members have coordinated OONI censors
 
 For example, [Sinar Project](https://sinarproject.org/) coordinated an [OONI censorship measurement campaign in Malaysia](https://sinarproject.org/digital-rights/measuring-and-detecting-network-interference/ge15) to encourage the testing of election-related websites during the country’s 2022 general election. As part of this, they published a [Call to Action](https://sinarproject.org/digital-rights/measuring-and-detecting-network-interference/ge15) with OONI Probe testing instructions and the following [OONI Run](https://run.ooni.io/) widgets embedded into their website. 
 
-{{<img src="images/image3.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image3.png">}}
 
 India’s [Software Freedom Law Centre (SFLC.in)](https://sflc.in/) embedded OONI Run widgets into their [India Internet Shutdown Tracker project](https://internetshutdowns.in/) website, encouraging long-term OONI Probe testing of news media, blogs, human rights, and political websites in India.
 
-{{<img src="images/image4.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image4.png">}}
 
 Over the years, [Venezuela Inteligente](https://veinteligente.org/) coordinated with [OONI Probe volunteers in different regions of Venezuela](https://www.youtube.com/watch?v=UDvVfjJ0Iq8) to measure (and respond to) [temporary website blocks](https://vesinfiltro.com/) which emerged in correlation with political events. Human rights advocates from the global [#KeepItOn campaign](https://www.accessnow.org/keepiton/) coordinated OONI censorship measurement campaigns leading up to and during political events (such as elections and protests), using OONI data to support their advocacy efforts in response to emergent censorship events.
 
@@ -85,7 +87,7 @@ This step may require some research to determine the specific URLs that you wou
 
 **Step 3. Save your** **list of websites in a text editor**, where each URL is in a separate line. You do not need to separate URLs by commas or in any other way.
 
-{{<img src="images/image5.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image5.png">}}
 
 **Important:** Please ensure that each [URL](https://ooni.org/support/glossary/#url) is typed correctly. If it is mis-typed, [OONI Probe](https://ooni.org/install/mobile) will not test the intended website and this will potentially lead to inaccurate test results.
 
@@ -103,23 +105,23 @@ To ensure that each [URL](https://ooni.org/support/glossary/#url) is typed accu
 
 **Step 5.** Visit the OONI Run website: [https://run.ooni.io/](https://run.ooni.io/)
 
-{{<img src="images/image11.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image11.png">}}
 
 **Step 6. Paste** your list of URLs into the first URL slot of the OONI Run page.
 
 You should now see that all of your URLs have populated each URL row in the [OONI Run](https://run.ooni.io/) page.
 
-{{<img src="images/image8.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image8.png">}}
 
 If you notice any empty rows (or otherwise misformatted URLs), please delete them by clicking on the **deletion icon** or edit them by clicking on the URL field.
 
 **Step 7.** Click the **Generate** button at the end of your list.
 
-{{<img src="images/image1.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image1.png">}}
 
 You will now see the following pop-up window.
 
-{{<img src="images/image6.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image6.png">}}
 
 **Note:** If you have a long list of websites (resulting in the generated link being very long), we recommend using the **widget code** generated through the pop-up window to embed a widget into your website (for the testing of your list of websites). Learn more through our [OONI Run user guide](https://ooni.org/support/ooni-run#creating-ooni-run-widget-code-for-website-testing). You can also refer to the [widgets that we have embedded](https://ooni.org/get-involved/run) into the OONI website.
 
@@ -128,7 +130,7 @@ You will now see the following pop-up window.
 *   Clicking the link under “**Share this link with OONI Probe mobile app users**”, pressing Control+A to select the whole link, and subsequently pressing Control + C to copy it; or
 *   Right-clicking the **Link button** and selecting “Copy link address”.
 
-{{<img src="images/image10.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image10.png">}}
 
 **Step 9. Share** the copied link with **[OONI Probe mobile app users](https://ooni.org/install/mobile)** in the country where you would like your list of websites to get tested (it’s not currently possible to use these links with the OONI Probe desktop app). Alternatively, share the link on Twitter by clicking the Tweet button.
 
@@ -136,15 +138,15 @@ You will now see the following pop-up window.
 
 When your communities receive the link, they should **open it with the** **[OONI Probe mobile app](https://ooni.org/install/mobile)** (not with a web browser).
 
-{{<img src="images/image12.jpg" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image12.jpg">}}
 
 They will then see your list of websites in their OONI Probe mobile app.
 
-{{<img src="images/image9.jpg" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image9.jpg">}}
 
 If they agree to test your list of websites, they can do so by tapping **Run**.
 
-{{<img src="images/image2.jpg" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image2.jpg">}}
 
 **Important:** Please encourage your community of OONI Probe testers to **perform testing as many times as possible on multiple networks** based on the shared link (the more results, the greater the evidence of potential censorship). If there are reports that some websites are not accessible on different networks or in different regions in the country, please share the link with OONI Probe users there too.
 
@@ -154,7 +156,7 @@ All OONI Probe test results will automatically get published on [OONI Explorer](
 
 **Step 10.** Find the test results on OONI Explorer: [https://explorer.ooni.org/search](https://explorer.ooni.org/search) 
 
-{{<img src="images/image7.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image7.png">}}
 
 Learn how to use OONI Explorer to find measurements relevant to your campaign through our [user guide](https://ooni.org/support/ooni-explorer/).
 
