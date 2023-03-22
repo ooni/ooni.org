@@ -7,7 +7,7 @@ aliases:
 
 قام أحمد غربية بترجمة هذه الوثيقة إلى العربية.
 
-المستند الأصلي (باللغة الإنجليزية):[Glossary OONI](https://ooni.org/fa/support/glossary/)
+المستند الأصلي (باللغة الإنجليزية):[Frequently Asked Questions (FAQ)](https://ooni.org/support/faq/)
 
 في هذا القسم إجابات أسئلة تصلنا من المهتمين بالمشروع.
 
