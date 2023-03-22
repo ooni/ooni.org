@@ -8,8 +8,6 @@ aliases:
 This Frequently Asked Questions (FAQ) section aims to address the
 questions that we are frequently asked by the community.
 
-Are there other questions you would like us to address? Please [let us know](https://ooni.org/about/#contact).
-
 Translations:
 
 * **Español,** [Preguntas frecuentes (FAQ)](/es/support/faq)
@@ -18,6 +16,8 @@ Translations:
 * **Kiswahili,** [Maswali Yanayoulizwa Mara kwa Mara (MYM)](/sw/support/faq)
 * **Русский,** [Часто задаваемые вопросы](/ru/support/faq)
 * **Khmer,** [Frequently Asked Questions (FAQ)](https://digitalhub101.com/ooni/) by [DigitalHub101](https://digitalhub101.com/).
+
+Are there other questions you would like us to address? Please [let us know](https://ooni.org/about/#contact).
 
 * [About OONI](#about-ooni)
 
