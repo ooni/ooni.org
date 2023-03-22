@@ -9,7 +9,7 @@ methodologies, and research reports.
 Translations:
 
 * **Español,** [OONI Glosario](/es/support/glossary)
-* **Arabic,** [OONI Glossary](/ar/support/glossary)
+* **العربية,** [OONI Glossary](/ar/support/glossary)
 * **Farsi,** [OONI Glossary](/fa/support/glossary)
 * **Kiswahili,** [OONI Faharasa](/sw/support/glossary)
 * **Русский,** [OONI Глоссарий](/ru/support/glossary)
