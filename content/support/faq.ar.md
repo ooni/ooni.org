@@ -12,7 +12,7 @@ aliases:
 
 إن كانت لديكم أسئلة أخرى [فراسلونا](https://ooni.org/about/#contact)
 
-* [عن OONI؟](#عن-ooni)
+* [عن OONI](#عن-ooni)
    
    * [ما OONI؟](#ما-ooni)
    
