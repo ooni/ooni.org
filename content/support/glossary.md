@@ -10,7 +10,7 @@ Translations:
 
 * **Español,** [OONI Glosario](/es/support/glossary)
 * **العربية,** [OONI Glossary](/ar/support/glossary)
-* **Farsi,** [OONI Glossary](/fa/support/glossary)
+* **فارسی,** [OONI Glossary](/fa/support/glossary)
 * **Kiswahili,** [OONI Faharasa](/sw/support/glossary)
 * **Русский,** [OONI Глоссарий](/ru/support/glossary)
 
