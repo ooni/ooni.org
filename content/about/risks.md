@@ -3,6 +3,10 @@
 Translations:
 
 * **Español,** [Riesgos: Lo que debes saber antes de ejecutar OONI Probe](/es/about/risks)
+* **العربية,** [Risks: Things you should know before running OONI Probe](/ar/about/risks)
+* **فارسی,** [Risks: Things you should know before running OONI Probe](/fa/about/risks)
+* **Kiswahili,** [Hatari: Vitu unavyotakiwa kuvijua kabla ya kutumia OONI Probe](/sw/about/risks)
+* **Русский,** [Риски: что вы должны знать до запуска OONI Probe](/ru/about/risks)
 
 To our knowledge, no OONI Probe user has ever faced consequences as a result of using our software. Therefore, the potential risks described below are theoretical and quite speculative. If you are running OONI Probe from a "high-risk environment", we strongly encourage you to read all of the documentation below.
 

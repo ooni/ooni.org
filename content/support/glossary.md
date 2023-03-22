@@ -6,6 +6,14 @@ description: "This glossary contains brief explanations for terms used in OONI a
 This glossary contains *brief explanations* for terms used in OONI apps,
 methodologies, and research reports.
 
+Translations:
+
+* **Español,** [OONI Glosario](/es/support/glossary)
+* **العربية,** [OONI Glossary](/ar/support/glossary)
+* **فارسی,** [OONI Glossary](/fa/support/glossary)
+* **Kiswahili,** [OONI Faharasa](/sw/support/glossary)
+* **Русский,** [OONI Глоссарий](/ru/support/glossary)
+
 If you would like to see additional terms in this glossary, please [open a pull request](https://github.com/ooni/ooni.org) or [send us an email](https://ooni.org/about/#contact).
 
 * [API](#api)
