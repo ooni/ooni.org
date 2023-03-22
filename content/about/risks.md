@@ -3,8 +3,8 @@
 Translations:
 
 * **Español,** [Riesgos: Lo que debes saber antes de ejecutar OONI Probe](/es/about/risks)
-* **Arabic,** [Risks: Things you should know before running OONI Probe](/ar/about/risks)
-* **Farsi,** [Risks: Things you should know before running OONI Probe](/fa/about/risks)
+* **العربية,** [Risks: Things you should know before running OONI Probe](/ar/about/risks)
+* **فارسی,** [Risks: Things you should know before running OONI Probe](/fa/about/risks)
 * **Kiswahili,** [Hatari: Vitu unavyotakiwa kuvijua kabla ya kutumia OONI Probe](/sw/about/risks)
 * **Русский,** [Риски: что вы должны знать до запуска OONI Probe](/ru/about/risks)
 
