@@ -11,8 +11,8 @@ questions that we are frequently asked by the community.
 Translations:
 
 * **Español,** [Preguntas frecuentes (FAQ)](/es/support/faq)
-* **Arabic,** [Frequently Asked Questions (FAQ)](/ar/support/faq)
-* **Farsi,** [Frequently Asked Questions (FAQ)](/fa/support/faq)
+* **العربية,** [Frequently Asked Questions (FAQ)](/ar/support/faq)
+* **فارسی,** [Frequently Asked Questions (FAQ)](/fa/support/faq)
 * **Kiswahili,** [Maswali Yanayoulizwa Mara kwa Mara (MYM)](/sw/support/faq)
 * **Русский,** [Часто задаваемые вопросы](/ru/support/faq)
 * **Khmer,** [Frequently Asked Questions (FAQ)](https://digitalhub101.com/ooni/) by [DigitalHub101](https://digitalhub101.com/).
