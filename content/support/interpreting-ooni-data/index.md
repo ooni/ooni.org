@@ -53,13 +53,13 @@ As a result, OONI measurement coverage **differs from country to country** (and
 
 You can monitor the monthly global OONI measurement coverage through the chart on the [OONI Explorer](https://explorer.ooni.org/) homepage.
 
-{{<img src="images/image27.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image27.png">}}
 
 This chart is automatically updated with global OONI measurement coverage stats for each month over the last 2 years. It includes the number of countries and networks that received [OONI Probe](https://ooni.org/install/) measurement coverage, as well as the total number of OONI measurements collected globally in each month. This enables you to track the global growth of OONI measurement coverage over time.
 
 You can also find OONI measurement coverage (broken down by OONI Probe test type) for each country in the [country-specific pages](https://explorer.ooni.org/countries) of OONI Explorer.
 
-{{<img src="images/image18.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image18.png">}}
 
 When interpreting OONI data, it’s **important to start off by reviewing the relevant measurement coverage**. In order to draw meaningful conclusions, it’s important to have as much relevant data as possible.
 
@@ -90,7 +90,7 @@ If you would like to **contribute regular measurements**, you can do so by [ena
 
 ## Interpreting OONI data
 
-Since OONI data is OONI Probe test results, **interpreting OONI data requires understanding how each** **[OONI Probe test](https://ooni.org/nettest/)** **works** and what types of results it’s expected to have. Every test has limitations, and knowing them can help with understanding the limitations to OONI data.
+Since OONI data is OONI Probe test results, **interpreting OONI data requires understanding how each [OONI Probe test](https://ooni.org/nettest/) works** and what types of results it’s expected to have. Every test has limitations, and knowing them can help with understanding the limitations to OONI data.
 
 Numerous [OONI Probe experiments](https://github.com/ooni/spec/tree/master/nettests) have been designed since 2012 (the measurements of which are available in the [OONI dataset](https://ooni.org/data/)). Some of these tests though are no longer supported in the [OONI Probe apps](https://ooni.org/install/) (for example, if they have been replaced by more advanced tests), and we therefore exclude them from this documentation.
 
@@ -107,7 +107,7 @@ Generally, [OONI Probe tests](https://ooni.org/nettest/) will present one of th
 
 #### Confirmed
 
-{{<img src="images/image24.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image24.png">}}
 
 Out of all OONI Probe tests, only [Web Connectivity](https://ooni.org/nettest/web-connectivity/) measurements (pertaining to the testing of websites) can be annotated as “confirmed blocked”.
 
@@ -124,7 +124,7 @@ ISPs also block websites using a variety of different censorship techniques (suc
 
 #### Anomalies
 
-{{<img src="images/image8.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image8.png">}}
 
 OONI measurements are annotated as “anomalies” when they present signs of potential network interference (such as the blocking of a website or app).
 
@@ -134,12 +134,11 @@ Measurements from the testing of instant messaging apps (such as [WhatsApp](http
 
 Many cases of website blocking are not automatically detected, and will be present in “anomalous” measurements. Specifically, OONI’s [Web Connectivity test](https://ooni.org/nettest/web-connectivity/) (which measures websites for blocking) identifies the following types of anomalies (while automatically comparing measurements from the local, tested network with those from a control vantage point):
 
-*   **DNS anomaly.** If the [DNS responses](https://ooni.org/support/glossary#dns-lookup) (such as the IP addresses mapped to host names) do not match or the DNS queries fail in an unexpected way;
-*   **TCP/IP anomaly.** If a [TCP](https://ooni.org/support/glossary#tcp) session fails to be established to any of the IP port pairs of the site from the network of the user, but succeeds from the control vantage point;
-*   **HTTP anomaly.**
-
-*   **HTTP-failure.** If the [HTTP request](https://ooni.org/support/glossary#http-request) over the user’s network fails (resulting in a connection reset, connection timeout, etc), but succeeds over the control vantage point;
-*   **HTTP-diff.** If the [HTTP response](https://ooni.org/support/glossary#http-response) the probe got [differs from the response seen in the control measurement](https://github.com/ooni/spec/blob/master/nettests/ts-017-web-connectivity.md#test-description).
+* **DNS anomaly.** If the [DNS responses](https://ooni.org/support/glossary#dns-lookup) (such as the IP addresses mapped to host names) do not match or the DNS queries fail in an unexpected way;
+* **TCP/IP anomaly.** If a [TCP](https://ooni.org/support/glossary#tcp) session fails to be established to any of the IP port pairs of the site from the network of the user, but succeeds from the control vantage point;
+* **HTTP anomaly.**
+ * **HTTP-failure.** If the [HTTP request](https://ooni.org/support/glossary#http-request) over the user’s network fails (resulting in a connection reset, connection timeout, etc), but succeeds over the control vantage point;
+ * **HTTP-diff.** If the [HTTP response](https://ooni.org/support/glossary#http-response) the probe got [differs from the response seen in the control measurement](https://github.com/ooni/spec/blob/master/nettests/ts-017-web-connectivity.md#test-description).
 
 These anomalies can indicate the presence of **[DNS tampering](https://ooni.org/support/glossary#dns-tampering)** (DNS anomaly), **[TCP/IP blocking](https://ooni.org/support/glossary#tcpip-blocking)** (TCP/IP anomaly), **[HTTP blocking](https://ooni.org/support/glossary#http-blocking)** (e.g [block page](https://ooni.org/support/glossary#block-page)), or **[TLS](https://ooni.org/support/glossary#tls) based interference** (e.g connection reset observed right after the ClientHello message during the TLS handshake). However, false positives can emerge due to [many reasons](https://ooni.org/support/faq#why-do-false-positives-occur). It is therefore important to examine anomalies in aggregate, further aggregate based on anomaly types (e.g `HTTP-failure`), and to check if the tested service consistently presents the same failure (e.g `connection_reset`) on the same tested ASN. If a tested service consistently presents the same failures, those measurements provide a stronger signal of blocking.
 
@@ -187,6 +186,8 @@ OONI’s [Web Connectivity experiment](https://ooni.org/nettest/web-connectivity
 The above steps are automatically performed from two vantage points: (1) the local vantage point of the user and (2) a control network (non-censored network).
 
 {{<img src="images/image1.png">}}
+
+**Image:** Illustration of how OONI’s [Web Connectivity experiment](https://ooni.org/nettest/web-connectivity/) works.
 
 The **results from both networks are automatically compared**, and the final measurement can have one of the following outcomes:
 
