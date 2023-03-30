@@ -1144,3 +1144,13 @@ p.test-paragraph {
     display: block;
     width: 100%;
 }
+
+.get-involved ul {
+  margin-left: 1em;
+  padding-left: 0em;
+}
+
+.get-involved li {
+  margin-left: 0em;
+  padding-left: 0em;
+}

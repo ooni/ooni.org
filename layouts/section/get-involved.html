@@ -1,10 +1,10 @@
 {{ define "main" }}
 {{ $blocks := .Site.GetPage "/get-involved-blocks" }}
-<div class="container">
-  <main class="col pt-2 pb-5">
+<div class="container get-involved">
+  <main class="col pt-4 pb-5">
     <div class="row justify-content-around pb-4">
         {{ range sort $blocks.Resources "File.Path" }}
-            <div class="col-12 col-sm-6 pb-4 pl-2 pr-2">
+            <div class="col-12 col-sm-5 pb-4">
             <h2>{{ .Title }}</h2>
             {{ .Content }}
             </div>
