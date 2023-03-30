@@ -63,33 +63,22 @@ Curious to see how OONI tools work? We provide screencasts and demos that you ca
 
 ## OONI Workshop Slides
 
-
 Interested in facilitating an OONI workshop?
 
 We provide 3 sets of workshop slides that you’re welcome to **download and adapt depending on the needs of your audience**. These include slides for a general OONI presentation, an OONI Probe workshop (including hands-on exercises), as well as more extensive workshop slides that provide a deep-dive into examining internet censorship with OONI tools.
 
-*   **General OONI presentation/workshop slides**
-*   **OONI Probe workshop slides**
-*   **Comprehensive OONI workshop slides**
+*   **[General OONI presentation/workshop slides](https://docs.google.com/presentation/d/1-xb2YYoSonVCEjxYbgKidOzPdO5Rxjz5F96tXom8LMA)**
+*   **[OONI Probe workshop slides](https://docs.google.com/presentation/d/1_coqdWXNRuSEBp1vnDJl7T1e2Gnz2RrYy71TGuNuWmg)**
+*   **[Comprehensive OONI workshop slides](https://docs.google.com/presentation/d/1FAZI3Z0DuNxbeGi-dYq6bTXvhZkFWsyKGFzJEtcruBs/)**
 
 You can also sign-up for the **[free, online OONI training course](https://advocacyassembly.org/en/courses/63/#/chapter/1/lesson/1)** on the Advocacy Assembly platform (available in [English](https://advocacyassembly.org/en/courses/63/#/chapter/1/lesson/1), [Arabic](https://advocacyassembly.org/ar/courses/63/#/chapter/1/lesson/1), [Spanish](https://advocacyassembly.org/es/courses/63/#/chapter/1/lesson/1), and [Farsi](https://advocacyassembly.org/fa/courses/63/#/chapter/1/lesson/1)).
-
-## OONI Stickers
-
-
-If you’re facilitating an in-person OONI workshop (or generally attending an in-person event), we would greatly appreciate your distribution of OONI stickers!
-
-*   **OONI Sticker (coloured)**
-*   **OONI Sticker (black and white)**
-*   **OONI Sticker with bleed (coloured)**
-*   **OONI Probe Sticker (coloured)**
 
 ## OONI Resources
 
 To make it easier to find all links to OONI resources, we provide them in an “OONI Resources” document, along with links to other relevant resources (such as those for monitoring internet connectivity shutdowns). We also provide a shortened version of the [OONI Glossary](https://ooni.org/support/glossary) which may be useful when preparing for translations or workshops.
 
-*   **OONI Resources**
-*   **Short version of OONI Glossary**
+*   **[OONI Resources](<./files/OONI Resources.pdf>)**
+*   **[Short version of OONI Glossary](<./files/OONI Glossary.pdf>)**
 
 It may also be worth referring to the [Frequently Asked Questions (FAQ)](https://ooni.org/support/faq/) section of our website.
 
