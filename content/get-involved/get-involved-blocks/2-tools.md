@@ -4,7 +4,7 @@ title: Tools
 
 Measure internet censorship in your country.
 
-* Run** OONI Probe**
+* Run **OONI Probe**
     * [Mobile App](https://ooni.org/install/mobile) ([guide](https://ooni.org/support/ooni-probe-mobile)) 
     * [Desktop App](https://ooni.org/install/desktop) ([guide](https://ooni.org/support/ooni-probe-desktop))
     * [Command Line Interface](https://ooni.org/install/cli) ([guide](https://ooni.org/support/ooni-probe-cli)) 
