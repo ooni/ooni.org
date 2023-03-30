@@ -17,46 +17,42 @@ The OONI Outreach Kit includes **materials that you are encouraged to use** as 
 
 We provide 2 OONI brochures that include information about using OONI tools and data for investigating internet censorship around the world.
 
-*   **[OONI Brochure (short-version)](<./files/OONI Short Brochure (Interactive\).pdf>)**
-*   **OONI Brochure (long-version)**
+* **[OONI Brochure (short-version)](<./files/OONI Short Brochure (Interactive\).pdf>)**
+* **[OONI Brochure (long-version)](<./files/OONI Long Brochure (Interactive).pdf>)**
+
 
 ## OONI Probe Flyers and Leaflets
 
-{{<img src="images/image2.png" title="OONI Outreach Kit" alt="OONI Outreach Kit">}}
-
 [OONI Probe](https://ooni.org/install/) is free software for measuring internet censorship. To engage people with the use of OONI Probe, we provide 3 versions of OONI Probe flyers, as well as an OONI Probe flyer that can help encourage testing leading up to and during elections (when [censorship events tend to emerge](https://ooni.org/documents/2022-ooni-submission-ohchr-report-internet-shutdowns.pdf)). We also provide 2 leaflets, one about OONI Probe and one with OONI Probe testing instructions.
 
-*   **OONI Probe Flyer (Version 1)**
-*   **OONI Probe Flyer (Version 2)**
-*   **OONI Probe Flyer (Version 3)**
-*   **OONI Probe Flyer (Elections)**
-*   **About OONI Probe Leaflet**
-*   **OONI Probe Testing Instructions Leaflet**
+* **[OONI Probe Flyer (Version 1)](<./files/OONI Probe OP 1 (Interactive).pdf>)**
+* **[OONI Probe Flyer (Version 2)](<./files/OONI Probe OP 2 (Interactive).pdf>)**
+* **[OONI Probe Flyer (Version 3)](<./files/OONI Probe OP 3 (Interactive).pdf>)**
+* **[OONI Probe Flyer (Elections)](<./files/OONI Probe Fact Sheet for Elections (Interactive).pdf>)**
+* **[About OONI Probe Leaflet](<./files/OONI Probe Long Fact Sheet (Interactive).pdf>)**
+* **[OONI Probe Testing Instructions Leaflet](<./files/OONI Probe testing instructions (Interactive).pdf>)**
 
 ## OONI Explorer Flyers
 
-{{<img src="images/image7.png" title="OONI Outreach Kit" alt="OONI Outreach Kit">}}
 
 [OONI Explorer](https://explorer.ooni.org/) is the world’s largest open dataset on internet censorship. To encourage the use of OONI Explorer, we provide 2 OONI Explorer flyers. We also provide 3 additional OONI Explorer flyers for researchers, journalists, and human rights advocates.
 
-*   **OONI Explorer Flyer (Version 1)**
-*   **OONI Explorer Flyer (Version 2)**
-*   **OONI Explorer Flyer for Researchers**
-*   **OONI Explorer Flyer for Journalists**
-*   **OONI Explorer Flyer for Advocates**
+* **[OONI Explorer Flyer (Version 1)](<./files/OONI Explorer Fact Sheet Version 1 (Interactive).pdf>)**
+* **[OONI Explorer Flyer (Version 2)](<./files/OONI Explorer Fact Sheet Version 2 (Interactive).pdf>)**
+* **[OONI Explorer Flyer for Researchers](<./files/OONI Explorer for Researchers (Interactive).pdf>)**
+* **[OONI Explorer Flyer for Journalists ](<./files/OONI Explorer for Journalists (Interactive).pdf>)**
+* **[OONI Explorer Flyer for Advocates](<./files/OONI Explorer for Human Rights Advocates (Interactive).pdf>)**
 
 ## Internet Censorship Flyers
 
-{{<img src="images/image3.png" title="OONI Outreach Kit" alt="OONI Outreach Kit">}}
 
 Through flyers, we provide some basic information about internet censorship and how website blocks are implemented.
 
-*   **Flyer about Internet Censorship**
-*   **Flyer about how website blocks are implemented**
+* **[How is Website Blocking Implemented Flyer](<./files/How is Website Blocking Implemented (Interactive).pdf>)**
+* **[Internet Censorship Flyer](<./files/Internet Censorship Fact Sheet (Interactive).pdf>)**
 
 ## OONI Screencasts
 
-{{<img src="images/image6.png" title="OONI Outreach Kit" alt="OONI Outreach Kit">}}
 
 Curious to see how OONI tools work? We provide screencasts and demos that you can share/show as part of your community engagement efforts.
 
@@ -67,7 +63,6 @@ Curious to see how OONI tools work? We provide screencasts and demos that you ca
 
 ## OONI Workshop Slides
 
-{{<img src="images/image5.png" title="OONI Outreach Kit" alt="OONI Outreach Kit">}}
 
 Interested in facilitating an OONI workshop?
 
@@ -81,7 +76,6 @@ You can also sign-up for the **[free, online OONI training course](https://advoc
 
 ## OONI Stickers
 
-{{<img src="images/image4.jpg" title="OONI Outreach Kit" alt="OONI Outreach Kit">}}
 
 If you’re facilitating an in-person OONI workshop (or generally attending an in-person event), we would greatly appreciate your distribution of OONI stickers!
 
