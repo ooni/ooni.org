@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8"/>
   <meta name='viewport' content='initial-scale=1.0, width=device-width'/>
-  {{ if .RSSLink }}
-  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
-  {{ end }}
+  {{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
   <title>{{ .Title }} | OONI</title>
 
   <link rel="canonical" href="https://ooni.org{{ .RelPermalink }}" />
@@ -74,11 +74,11 @@
 
         <div class="nav-menu">
           <div class="d-flex flex-column flex-lg-row align-items-start">
-            {{ $url := .URL }}
+            {{ $url := .RelPermalink }}
             {{ with .Site.Menus.main }}
             {{ range $menu := . }}
             <div class="nav-menu-item">
-              <a href="{{.URL}}" {{ if eq $url .URL }} class="active" {{end}}>{{ .Name }}</a>
+              <a href="{{.URL}}" {{ if eq $url .URL}} class="active" {{end}}>{{ .Name }}</a>
             </div>
             {{end}}
             {{end}}
