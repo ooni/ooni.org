@@ -192,16 +192,14 @@ Press freedom in Thailand has been severely restricted post military coup follow
 The NCPO announced order 97/2014, “Cooperating with the Work of the National Council for Peace and Order(NCPO) and the Distribution of News to the Public” which prohibits publication or broadcast of criticisms of the military authorities from print media, radio, TV, and online media. The NCPO has sole discretion in determining what content falls within prohibited categories. Violations of provisions in this announcement could result in prosecution under the law, and the immediate suspension of the publication or program.
 
 
-##### Article 5 of the Head NCPO Order 3⁄2015
+##### Article 5 of the Head NCPO Order 3/2015
 
-Under Article 5 of the Head NCPO Order 3⁄2015, NCPO officers are authorised to issue orders prohibiting the distribution of press items, or the sale of any publication or material that is deemed to have the potential to cause public alarm, or which contains false information likely to cause public misunderstanding, or which threatens public order or national security.
+Under Article 5 of the Head NCPO Order 3/2015, NCPO officers are authorised to issue orders prohibiting the distribution of press items, or the sale of any publication or material that is deemed to have the potential to cause public alarm, or which contains false information likely to cause public misunderstanding, or which threatens public order or national security.
 
 
 ##### Regulation 29: Regulation Issued under Section 9 of the Emergency Decree on Public Administration in Emergency Situations B.E. 2548 (2005) (No. 29)
 
 Under Regulation 29 it is prohibited for any person to present or disseminate content that:[^3]
-
-
 
 * is distorted information which causes misunderstanding of the emergency situation to the extent of affecting the security of the state, public order, or good morals of the people of Thailand; or
 * may instigate fear among the people.
@@ -253,8 +251,6 @@ Article 18(7) would allow authorities with a court order to compel service provi
 
 #### 2020/2021 protests
 
- 
-
 In early 2020, demonstrations began against the government of Prime Minister Prayut Chan-o-cha. They later expanded to include the unprecedented demands for reform of the Thai monarchy. The protests were initially triggered by the dissolution of the Future Forward Party (FFP) in late February 2020 which was critical of Prayut, the changes to the Thai constitution in 2017, and the country's political landscape that it gave rise to[^4].
 
 Then in October 2020, Thai authorities blocked access to the online petition site Change.org, after it hosted a petition calling for King Maha Vajiralongkorn to be declared “persona non grata” in Germany which is where he usually spends his vacation. [The petition attracted 130,000 signatures before the website was blocked by major service providers, including AIS, DTAC, and True during the height of pro-democracy protests.](https://thethaiger.com/news/national/petition-site-change-org-back-online-in-thailand-after-6-month-ban) 
@@ -267,7 +263,7 @@ Additionally, in 2021, a game of clicking a cat became globally popular: [Popcat
 
 ![](images/image1.jpg)
 
-**Figure 1: Screenshot of the game website featuring the Thai Prime Minister (prayut.click)**
+Figure 1: Screenshot of the game website featuring the Thai Prime Minister (prayut.click)
 
 Further proving the censorship during the protests, [a leaked document](https://twitter.com/RichardBarrow/status/1318086670076424192?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1318086670076424192%7Ctwgr%5E19c43711bbd9f8f82cdafd84cd22fe37299ea9cd%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.privateinternetaccess.com%2Fblog%2Fthailand-orders-isps-to-block-telegram-amid-ongoing-protests%2F) outlining the government’s plan to order internet providers to block Telegram, a platform widely used by activists to organize protests and mobilize supporters in October 2020.  The document - apparently produced by Thailand's digital economy ministry, which has the power to censor the internet - was sent to the National Broadcasting and Telecommunications Commission.
 
@@ -275,7 +271,7 @@ The document reads: ““The Ministry of Digital Economy and Society is seeking
 
 ![](images/image2.png)
 
-**Figure 2: Letter from the Ministry of Digital Economy to the National Broadcasting and Telecommunications Commission on the suspension of use of Telegram app**
+Figure 2: Letter from the Ministry of Digital Economy to the National Broadcasting and Telecommunications Commission on the suspension of use of Telegram app
 
 However, those on the ground in Thailand had noted that Telegram was still working during the period. It may be possible that some of the countermeasures set up by Telegram have been effective in keeping Telegram up for the Thai.
 
@@ -305,7 +301,7 @@ In the six-month period, 3,129,067 measurements were recorded in OONI’s testin
 
 ![](images/image3.png)
 
-**Figure 3: OONI measurements in Thailand, January-June 2022**
+Figure 3: OONI measurements in Thailand, January-June 2022
 
 OONI’s confirmed list of blocked domains contain 76 domains from various categories, whereas further analysis by heuristics added 43 to the list, bringing a total of 119 domains which are confirmed blockings. In comparison, the 2017 report showed that there were 13 websites blocked.
 
@@ -316,7 +312,7 @@ The latter, led to a blockpage as below
 
 ![](images/image4.png)
 
-**Figure 4: Blockpage in Thailand traced to the Ministry of Digital Economy and Society**
+Figure 4: Blockpage in Thailand traced to the Ministry of Digital Economy and Society
 
 Additionally, there were also blockings found from HTTP tampering whereby measurements returned with HTTP headers/body as below which traced back to the same blockpage ([http://103.288.24.21](http://103.288.24.21)) or a blank page that timed out ([http://110.164.252.137](http://110.164.252.137)) .
 
@@ -325,8 +321,7 @@ By category, the confirmed list of blockings comprised of various categories:
 
 ![](images/image5.png)
 
-
-**Figure 5: Pie chart depicting confirmed blockings in Thailand**
+Figure 5: Pie chart depicting confirmed blockings in Thailand
 
 The list is as in **Appendix 1**.
 
@@ -359,7 +354,7 @@ Based solely on OONI’s data, testing of the 10 domains result in the following
 ![](images/image7.png)
 ![](images/image8.png)
 
-**Figure 6: OONI measurements of confirmed blocked domains related to Anonymization and circumvention tools**
+Figure 6: OONI measurements of confirmed blocked domains related to Anonymization and circumvention tools
 
 Looking at the 5 domains confirmed blocked by OONI, the blockings occurred throughout the period, except for “proxytools.sourceforge.net” and “spys.ru” where the blockings happened only a few times.
 
@@ -396,16 +391,15 @@ Based solely on OONI’s data, testing of the 16 domains resulted in the followi
 | 69%    | 9%        | 21%     | 1%      | 100%   |
 
 
-Looking at the 11 domains confirmed blocked by OONI, the blockings occurred throughout the period, with highest confirmed and anomalies for “bet365.com”, “Ibcbet.com” and “www.sportingbet.com”
+Looking at the 11 domains confirmed blocked by OONI, the blockings occurred throughout the period, with highest confirmed and anomalies for `bet365.com`, `Ibcbet.com` and `www.sportingbet.com`
 
 ![](images/image9.png)
 ![](images/image10.png)
 ![](images/image11.png)
 
-**Figure 7: OONI measurements of confirmed blocked domains related to Gambling**
+Figure 7: OONI measurements of confirmed blocked domains related to Gambling
 
 The rest of the 5 domains, which were confirmed by the heuristics were either blocked through DNS or HTTP tampering. Omitting the “OK” measurements, there were up to 10 blockings per day recorded for the 5 domains, with mostly TLS connection reset and DNS confirmed.
-
 
 #### Human Rights Issues
 
@@ -437,7 +431,7 @@ On the OONI Explorer, the 5 domains confirmed to have been blocked throughout th
 
 ![](images/image12.png)
 
-**Figure 8: OONI measurements of confirmed blocked domains related to Human rights issues**
+Figure 8: OONI measurements of confirmed blocked domains related to Human rights issues
 
 The rest of the 7 domains, which were confirmed by the heuristics were either blocked through DNS or HTTP tampering. Omitting the “OK” measurements, there were up to 20 blockings per day recorded for the 7 domains, with mostly HTTP connection reset.
 
@@ -466,14 +460,14 @@ Based solely on OONI’s data, testing of the 10 domains resulted in the followi
 | 76%    | 6%        | 17%     | 1%      | 100%   |
 
 
-Looking at the 8 domains confirmed blocked by OONI, there were significant anomalies throughout the period, with obvious blockings on “thaienews.blogspot.com” and “www.midnightuniv.org” across vantage points.
+Looking at the 8 domains confirmed blocked by OONI, there were significant anomalies throughout the period, with obvious blockings on `thaienews.blogspot.com` and `www.midnightuniv.org` across vantage points.
 
 
 ![](images/image13.png)
 ![](images/image14.png)
 
 
-**Figure 9: OONI measurements of confirmed blocked domains related to News Media**
+Figure 9: OONI measurements of confirmed blocked domains related to News Media
 
 The rest of the 2 domains, which were confirmed by the heuristics were either blocked through DNS or HTTP tampering. Omitting the “OK” measurements, there were up to 10 blockings per day recorded for the 2 domains, with mostly HTTP generic failure or HTTP confirmed.
 
@@ -518,7 +512,7 @@ Looking at the 12 domains confirmed blocked by OONI, the confirmed blockings and
 
 
 
-**Figure 10: OONI measurements of confirmed blocked domains related to Pornography**
+Figure 10: OONI measurements of confirmed blocked domains related to Pornography
 
 The rest of the 5 domains, which were confirmed by the heuristics were either blocked through DNS or HTTP tampering. Omitting the “OK” measurements, there were up to 10 blockings per day recorded for the 5 domains, with various types of blockings.
 
@@ -533,7 +527,7 @@ The findings below portray analysis of measurements on 2 highlighted websites: C
 
 ![](images/image18.png)
 
-**Figure 11: OONI measurements of Change.org**
+Figure 11: OONI measurements of Change.org
 
 Signs of blocking of Change.org still persisted in 2022, after it was first blocked during the protests in October 2020. According to OONI’s data, it was found blocked from January until May.
 
@@ -550,21 +544,19 @@ Blockings were detected from 24 January 2022 until 24 May 2022 on AS137580. From
 
 ![](images/image19.png)
 
-**Figure 12: OONI measurements of Change.org on AS137580**
+Figure 12: OONI measurements of Change.org on AS137580
 
 Whereas on AS4750, blockings were detected on 30 April 2022, although with only 2 measurements. As on AS137850, the blocking was also conducted through DNS tampering with a blockpage ([125.26.170.3](http://125.26.170.3/)) by the Ministry of Digital Economy and Safety.
 
 
 ![](images/image20.png)
 
-
-**Figure 13: OONI measurements of Change.org on AS4750**
+Figure 13: OONI measurements of Change.org on AS4750
 
 
 ![](images/image21.png)
 
-
-**Figure 14: OONI measurements of Change.org by method of blocking**
+Figure 14: OONI measurements of Change.org by method of blocking
 
 Looking at the other ASNs, there were also DNS inconsistencies recorded on AS45458 (SBN-IIG transit provider) and AS45758 (TripleT Internet). However, these may be cases of false positives.
 
@@ -578,8 +570,7 @@ Based on OONI’s data, confirmed blockings were detected from 16 February 2022 
 
 ![](images/image22.png)
 
-
-**Figure 15: OONI measurements of No112.org **
+Figure 15: OONI measurements of No112.org 
 
 | OK    | Confirmed | Anomaly | Failure | Total |
 | ----- | --------- | ------- | ------- | ----- |
@@ -592,16 +583,14 @@ By ASN, these confirmed blockings were detected on 8 vantage points: AS131090 (C
 
 ![](images/image23.png)
 
-
-**Figure 16: OONI measurements of No112.org by ASN**
+Figure 16: OONI measurements of No112.org by ASN
 
 High anomalies were detected on AS137850 (Office of Info.Tech. Admin. for Educational Development). Based on raw measurements, these were due to HTTP inconsistencies, and the website was redirected to a “307 Temporary Redirect” page. 
 
 
 ![](images/image24.png)
 
-
-**Figure 17: OONI measurements of No112.org on AS137580**
+Figure 17: OONI measurements of No112.org on AS137580
 
 Other than the confirmed blockings through DNS tampering, there were also DNS inconsistencies, TLS connection reset and HTTP connection reset on AS23969 (TOT Public Company Limited). There were also cases of HTTP generic failure on AS45758 (TripleT Internet service). Moreover, on AS137850 (Office of Info.Tech. Admin. for Educational Development), there were signs of blocking through DNS inconsistencies, HTTP generic failure, HTTP inconsistencies and TLS connection reset.
 
