@@ -339,9 +339,9 @@ The state of internet censorship could change from time to time. We encourage in
 
 
 * Increase testing by using OONI Probe app, available on iOS and Android mobile, and desktop.
-* Review the Malaysia country test list available at <[https://github.com/citizenlab/test-lists/blob/master/lists/my.csv](https://github.com/citizenlab/test-lists/blob/master/lists/my.csv)> and refer to the guidelines prepared by OONI at <[https://ooni.org/get-involved/contribute-test-lists](https://ooni.org/get-involved/contribute-test-lists)>
-* Translate the OONI Probe app into your local language at <[https://explore.transifex.com/otf/ooniprobe/](https://explore.transifex.com/otf/ooniprobe/)>
-* Find out more about the state of internet censorship in community discussions by joining the OONI’s Slack channel at [https://slack.ooni.org/](https://slack.ooni.org/).
+* Review the Malaysia country test list available at <https://github.com/citizenlab/test-lists/blob/master/lists/my.csv> and refer to the guidelines prepared by OONI at <https://ooni.org/get-involved/contribute-test-lists>
+* Translate the OONI Probe app into your local language at <https://explore.transifex.com/otf/ooniprobe/>
+* Find out more about the state of internet censorship in community discussions by joining the OONI’s Slack channel at <https://slack.ooni.org/>.
 
 
 ## Acknowledgements
@@ -515,7 +515,7 @@ It is important to note that the findings are only applicable to the websites th
 
 ### How are the network measurements analysed?
 
-OONI processes the following types of data through its [data pipeline](https://github.com/ooni/pipeline):
+OONI processes the following types of data through its data pipeline: https://github.com/ooni/pipeline.
 
 
 #### Country code
