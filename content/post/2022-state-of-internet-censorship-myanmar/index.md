@@ -116,7 +116,8 @@ Myanmar is divided into seven states and seven regions, as one union territory w
 
 Even though digital and network access has grown rapidly since 2011[^5], the benefits of the digital transformation in Myanmar are spread unevenly especially among women and ethnic minorities from rural communities. Gendered cultural biases limit Myanmar women from accessing both digital tools and skills.[^6] Less women than men use the internet.[^7] Communities living in rural and remote areas, also experience infrastructure barriers to accessing the internet Including, lack of basic infrastructure such as electricity, cellular and internet connections.
 
-**Figure 1: Individuals using the Internet (% of population) - [Myanmar](https://data.worldbank.org/indicator/IT.NET.USER.ZS?end=2020&locations=MM&start=1990&view=chart)**
+![](images/image1.png)
+Figure 1: Individuals using the Internet (% of population) -[ Myanmar ](https://data.worldbank.org/indicator/IT.NET.USER.ZS?end=2020&locations=MM&start=1990&view=chart)
 
 
 ### **Political Landscape**
@@ -124,11 +125,7 @@ Even though digital and network access has grown rapidly since 2011[^5], the ben
 
 #### Post 2010: Reforms
 
-Myanmar (or Burma as it was previously known) has undergone significant political and economic reforms under military rule for many decades. Until the elections in November 
-
-**Figure 1: Individuals using the Internet (% of population) - [Myanmar](https://data.worldbank.org/indicator/IT.NET.USER.ZS?end=2020&locations=MM&start=1990&view=chart)**
-
-2010 the military junta ruled from 1962 until 2011. In the period of military rule, activists who defended information access, freedom of expression, and human rights were arrested regularly. In 2012, the country transitioned to democratization which seemed to be the end of military rule. Thein Sein who was a former president of Myanmar, becoming the country’s first civilian president[^8] in the first half of the century, however, it was still  under military influence. During that period of time the government released hundreds of political prisoners including the chairperson of NLDs Aung San Suu Kyi from house arrest.  The NLDs party began campaigning in 2011, with Aung San Suu Kyi leading the party in negotiations to attain multiparty democracy. 
+Myanmar (or Burma as it was previously known) has undergone significant political and economic reforms under military rule for many decades. Until the elections in November 2010 the military junta ruled from 1962 until 2011. In the period of military rule, activists who defended information access, freedom of expression, and human rights were arrested regularly. In 2012, the country transitioned to democratization which seemed to be the end of military rule. Thein Sein who was a former president of Myanmar, becoming the country’s first civilian president[^8] in the first half of the century, however, it was still  under military influence. During that period of time the government released hundreds of political prisoners including the chairperson of NLDs Aung San Suu Kyi from house arrest.  The NLDs party began campaigning in 2011, with Aung San Suu Kyi leading the party in negotiations to attain multiparty democracy. 
 
 
 #### Post 2016: Civil military relations
@@ -149,12 +146,8 @@ A number of laws both directly and indirectly related to censorship in Myanmar. 
 
 Internet freedom in Myanmar collapsed following the February 2021 military coup reported by Freedom House 2021[^15]. Several laws amended and proposed which affect both directly and indirectly related to freedom of expression online, access to information online, online privacy, censorship and surveillance in the digital space in Myanmar. These include the following:
 
-
-
 * Constitution of the Republic of Myanmar (2008)
 * Draft Cybersecurity Bill (2021)[^16] 
-
-
 * Electronic Transactions Law (2004, amended 2021)
 * Telecommunications Law (2013)
 * Law Protecting the Privacy and Security of Citizens (2017, August 2020)
@@ -189,10 +182,10 @@ At the beginning of the COVID-19 pandemic a proliferation of fake news started s
 February 1, 2021, marked significant disruptions to the country's internet connection. Digital access became limited for all in Myanmar, exceptionally impacted were ethnic groups living in conflict-affected zones, including the Rohingya. The military regime banned local ethnic news outlets,[^38] as well as satellite TV and radio, which are the dominant forms of access to information in rural areas.[^39] Additionally, Freedom House reported that 2000+ websites have been blocked from February to August 2021, under the Telecommunication Law[^40] and Myanmar’s low ranking in 2018 with 36 points dropped further to 17 points in 2021 (see Table 1). 
 
 
-![](images/image1.png)
+![](images/image2.png)
 
 
-**Table 1: Freedom on the Net 2021 country report**
+Table 1: Freedom on the Net 2021 country report
 
 On February 3, 2021, Access Now reported that the military ordered all internet providers to block social media such as Facebook, including Instagram, WhatsApp, and Messenger[^41]. Almost half of the population[^42] in Myanmar use Facebook to access and contribute information. Facebook is synonymous with the internet for the user in Myanmar. Although the military regime restricted using Facebook in Myanmar, citizens in Myanmar used circumvention tools like virtual private network (VPN) to overcome Facebook access restriction. To further restrict the flow of information to and from the country, the regime is set to ban VPN use.[^43] On February 5, 2022 Privacysavvy reported that Twitter and Instagram were also blocked.[^44]
 
@@ -216,26 +209,33 @@ Though internet users rapidly increased in the previous year, the unexpected tra
 Regardless, the systematic and nationwide internet shutdowns for 8 hours from 1 am to 9 am was mandated immediately after the military coup took over and lasted for approximately two weeks[^59] (see figure 2).[^60] Although internet connections have relatively been restored, the military had continued to crackdown on internet usage and accessibility by repeatedly reducing the network speed, and blocking mobile networks across 22 townships[^61] until now.
 
 
-![](images/image2.png)
+![](images/image3.jpg)
 
 
 Figure 2: Internet connectivity, Myanmar: February 15, 2022 to February 16, 2022 UTC
+
+
+## 
 
 
 ## Findings of internet censorship in Myanmar
 
 Open Observatory of Network Interference (OONI) is a software that monitors free and open internet disruptions to help by increasing transparency around internet censorship around the world. The measurements of internet censorship can be carried out by[ OONI Run](https://run.ooni.io/) and[ OONI Probe](https://ooni.org/install/). The results of the measurements are recorded on[ OONI Explorer](https://explorer.ooni.org/search?since=2022-07-22&until=2022-08-22&failure=false&probe_cc=MM) and the measurement consists of many different[ tests](https://ooni.org/nettest/#boxes).
 
-**Web connectivity test** is to measure whether websites are blocked by means of DNS tampering, TCP/IP blocking or by a transparent HTTP proxy. **Instant messaging** is to measure the reachability of WhatsApp, Facebook Messenger, Telegram, and Signal, within a tested network. **Circumvention** is to test the blocking of circumvention tools such as Psiphon, Tor or RiseupVPN. **Performance test** is to measure the speed and performance of the network by [NDT](https://ooni.org/nettest/ndt/) (Network Diagnostic Test) and to measure video streaming performance by [DASH](https://ooni.org/nettest/dash/) (Dynamic Adaptive Streaming over HTTP). **Middleboxes** test consists of  HTTP Invalid Request Line Test and HTTP Header Field Manipulation Test, to detect the presence of network components. 
+**Web connectivity test** is to measure whether websites are blocked by means of DNS tampering, TCP/IP blocking or by a transparent HTTP proxy. **Instant messaging** is to measure the reachability of WhatsApp, Facebook Messenger, Telegram, and Signal, within a tested network. **Circumvention** is to test the blocking of circumvention tools such as Psiphon, Tor or RiseupVPN. **Performance test** is to measure the speed and performance of the network by [NDT](https://ooni.org/nettest/ndt/) (Network Diagnostic Test) and to measure video streaming performance by [DASH](https://ooni.org/nettest/dash/) (Dynamic Adaptive Streaming over HTTP). **Middleboxes** test consists of  HTTP Invalid Request Line Test and HTTP Header Field Manipulation Test, to detect the presence of network components.
 
 The test results of OONI measurements are determined by the indicators listed in Table 2. Table 3 shows the breakdown of OONI measurements on web connectivity, instant messaging and circumvention tools from January to June 2022.
 
-![](images/image3.png)
+
+
+![](images/image4.png)
+
 
 Table 2. Indicators of OONI Measurements
 
 
-![](images/image4.png)
+![](images/image5.png)
+
 
 Table 3. The Breakdown of OONI Measurements for Various Tests
 
@@ -257,7 +257,7 @@ Among those 2,130 websites, there are 112 blocked websites (5.26% of 2,130) of 1
 
 The following chart illustrates the blocking of websites of 11 categories in Myanmar from January to June 2022, based on OONI data.
 
-![](images/image5.png)
+![](images/image6.png)
  
 Figure 3. Websites categories with blocking counts
 
@@ -273,7 +273,7 @@ In order to filter out the false positives of the OONI measurement and to confir
 The analysis confirms again that these 112 websites are blocked by ISPs with the use of blocking types such as DNS level interference and HTTP level interference. 
 
 
-![](images/image6.png)
+![](images/image7.png)
 
 
 Figure 4. 6 ISPs blocked the websites during Jan to June 2022
@@ -300,7 +300,7 @@ According to the test results, News media websites are mainly blocked and second
 Table 5. Blocked websites in Myanmar (Jan-June 2022)
 
 
-![](images/image7.png)
+![](images/image8.png)
 
 
 Figure 5. Breakdown of Blocked Websites under Categories
@@ -311,7 +311,7 @@ Figure 5. Breakdown of Blocked Websites under Categories
 During the first half of 2022, 30 websites of News Media were blocked by 2 ISPs: Atom Myanmar Ltd. with the network AS133385 and Global Technology Co., Ltd. with AS133384.
 
 
-![](images/image8.png)
+![](images/image9.png)
 
 
 Figure 6. ISPs blocked News Media websites
@@ -323,13 +323,13 @@ Among the 30 News Media websites, we have selected 3 websites: [http://karennews
 Karen News website is partly blocked by 2 ISPs with the use of DNS tempering and TCP/IP blocking (See Figure 7) but ISPs sometimes give the access in some days during the testing period (See Figure 8). The blocking times increase in May and June 2022.
 
  
-![](images/image9.png)
+![](images/image10.png)
 
 
  Figure 7. Karen News page blocked by ISPs
 
 
-![](images/image10.png)
+![](images/image11.png)
  
 
 Figure 8. Measurements of Karen News page
@@ -337,13 +337,13 @@ Figure 8. Measurements of Karen News page
 The following charts describe that Rohingya Khobor and Rohingya News Bank sites are also blocked by DNS tempering (dns.confirmed) and TCP/IP blocking (tcp.connection_timeout) during the testing period and the websites are sometimes accessible.   
 
  
-![](images/image11.png)
+![](images/image12.png)
 
 
 Figure 9. Measurements of Rohingya Khobor page
 
 
-![](images/image12.png)
+![](images/image13.png)
  
 
 Figure 10. Measurements of Rohingya News Bank page
@@ -353,29 +353,29 @@ Figure 10. Measurements of Rohingya News Bank page
 
 In the case of blocking the government websites, the websites are referred to as those of CRPH (Committee Representing Pyidaungsu Hluttaw) and NUG (National Unity Government). The State Administration Council (SAC), the country's ruling military junta, has declared the NUG and CRPH illegal. This becomes the reason for blocking. Those 15 websites are blocked by 2 ISPs: Atom Myanmar Ltd. with the network AS133385 and Global Technology Co., Ltd. with AS133384. The following Table states the 15 blocked websites under Government categories with the blocking times from 2 vantage points of 2 ISPs.
 
+![](images/image14.png)
 Table 6. Blocked Websites under Government Categories
 
 OONI measurements recorded the same 117 Government websites for each ISPs. Apart from those 15 sites, the others are accessible and sometimes likely blocked. The following charts describe the measurements on the government websites by 2 ISPs during the testing period.
 
 
-![](images/image13.png)
 
 
+![](images/image15.png)
 Figure 11. Measurements on Government Websites from Global Technology Co., Ltd.
 
 
-![](images/image14.png)
-
+![](images/image16.png)
 
 Figure 12. Measurements on Government Websites from Atom Myanmar Ltd.
 
 
 ### Internet outages events
 
-Internet access was apparently stable until Monday February 1, 2021 while the military regime took power, shutting down the entire internet connection approximately from 3:00 am Myanmar local time until 8:00 am. That was the first nationwide internet outage after a decade of digital transformation in which internet connectivity in Myanmar has fallen to 50% from ordinary levels reported by Netblocks (see Figure 6).[^62] Then internet disruption repeatedly occurs in the year of 2021 (see the OONI previous [report](https://ooni.org/post/2021-myanmar-internet-blocks-and-outages/)).[^63] 
+Internet access was apparently stable until Monday February 1, 2021 while the military regime took power, shutting down the entire internet connection approximately from 3:00 am Myanmar local time until 8:00 am. That was the first nationwide internet outage after a decade of digital transformation in which internet connectivity in Myanmar has fallen to 50% from ordinary levels reported by Netblocks (see Figure 6).[^62] Then internet disruption repeatedly occurs in the year of 2021 (see the OONI previous [report](https://ooni.org/post/2021-myanmar-internet-blocks-and-outages/)).[^63]
 
 
-![](images/image15.png)
+![](images/image17.png)
 
 
 Figure 13: Network Connectivity: January 30, 2022 to February 1, 2022 UTC (Source: Netblocks)
@@ -383,32 +383,33 @@ Figure 13: Network Connectivity: January 30, 2022 to February 1, 2022 UTC (Sourc
 In this finding, we utilized  [Internet Outage Detection and Analysis (IODA)](https://ioda.inetintel.cc.gatech.edu/country/MM?from=1641056400&until=1648745999) and  [Google traffic](https://transparencyreport.google.com/traffic/overview?hl=en&fraction_traffic=start:1640995200000;end:1656547199999;product:19;region:MM&lu=fraction_traffic) data to observe internet connectivity outages in Myanmar. The Internet Outage Detection and Analysis (IODA) is a project to measure internet outages worldwide in near real-time. IODA uses four measurement[^64] including google traffic[^65] and inference methods to track and identify internet outages. IODA provides access to their measurements through their Dashboard, which allows users to explore internet outages with country, region, and AS level of granularity. In this observation, we show only two measurements ([Routing (BGP), Active Probing](https://ioda.inetintel.cc.gatech.edu/help)) from the IODA dashboard and Google transparency report dashboard. 
 
 
-![](images/image16.png)
+![](images/image18.jpg)
 
 
 Figure 14: Internet connectivity status in Myanmar: January 01, 2022 to March 30, 2022 ([IODA Dashboard, 2022](https://ioda.inetintel.cc.gatech.edu/country/MM?from=1641056400&until=1648659599))
 
 
-![](images/image17.png)
+![](images/image19.png)
 
 
 Figure 15: Internet connectivity status in Myanmar: April 01, 2022 to June 30, 2022 ([IODA Dashboard, 2022](https://ioda.inetintel.cc.gatech.edu/country/MM?from=1641056400&until=1648659599))
 
 
-![](images/image18.png)
+![](images/image20.png)
 
 
 Figure 16: Internet connectivity alert in Myanmar: May 15, 2022 to May 21, 2022 ([IODA Dashboard, 2022](https://ioda.inetintel.cc.gatech.edu/country/MM?from=1641056400&until=1648659599))
 
 
-![](images/image19.png)
+![](images/image21.png)
+
 
 Figure 17: Internet connectivity status in Myanmar: January 01, 2022 to June 30, 2022 ([Google Transparency Report, 2022](https://transparencyreport.google.com/traffic/overview?hl=en&fraction_traffic=start:1640995200000;end:1656547199999;product:19;region:MM&lu=fraction_traffic))
 
 According to public data source [IODA](https://ioda.inetintel.cc.gatech.edu/country/MM?from=1641056400&until=1648745999) and [Google traffic](https://transparencyreport.google.com/traffic/overview?hl=en&fraction_traffic=start:1640995200000;end:1656547199999;product:19;region:MM&lu=fraction_traffic)  data, there were no significant internet connectivity outages between January 1, and June 30, 2022. However, IODA detects that there was an alert of internet connectivity drop on May 16, 2022 and May 20, 2022 (as figure 9 shown) measured by ([Routing (BGP), Active Probing](https://ioda.inetintel.cc.gatech.edu/help) and Google traffic) that appear a sign of internet connectivity outages. In some ways, mobile and wifi internet outages occurred in some regions and states including Sagaing region especially in the conflict-zone due to electricity shortage and political conflict.[^66] 
 
 
-### **Blocking of Instant Messaging Apps**
+### Blocking of Instant Messaging Apps
 
 In testing the blocking of Instant Messaging Apps, we can measure for Facebook Messenger, Signal, Telegram and WhatsApp.
 
@@ -417,7 +418,7 @@ OONI’s Facebook Messenger test is to examine the reachability of Facebook Mess
 According to OONI’s measurements, there were more than 90% anomalies across 3 ASNs (AS9988, AS139711 and AS141704). Hence it may be concluded that Facebook Messenger is likely blocked due to TCP connections failing by preventing the target IP from being reachable.
 
 
-![](images/image20.png)
+![](images/image22.png)
 
 
 Figure 18. Measurement on Facebook Messenger
@@ -425,7 +426,7 @@ Figure 18. Measurement on Facebook Messenger
 Signal Test is to measure the reachability of the Signal messaging app within a tested network. According to the OONI measurements from January to June 2022, most of Signal TestsTeat are found accessible. On the other hand, some results show the anomaly presenting signs of potential network interference.
 
 
-![](images/image21.png)
+![](images/image23.png)
 
 
 Figure 19. Measurement on Signal App
@@ -433,7 +434,7 @@ Figure 19. Measurement on Signal App
 Telegram Test is to examine the reachability of Telegram’s app and web version within a tested network. The below chart shows that almost all of Telegram tests reported continued access during the testing period. It is likely blocked in May and June 2022. 
 
 
-![](images/image22.png)
+![](images/image24.png)
  
 
 Figure 20. Measurement on Telegram App
@@ -444,7 +445,7 @@ WhatsApp Test is designed to examine the reachability of both WhatsApp’s app a
 ---
 
 
-![](images/image23.png)
+![](images/image25.png)
 
 
 Figure 21. Measurement on WhatsApp
@@ -455,7 +456,7 @@ Figure 21. Measurement on WhatsApp
 Psiphon is a free and open source tool that utilizes VPN, SSH, and HTTP proxy technology for censorship circumvention. The Psiphon VPN essentially serves as a tunnel that enables you to circumvent censorship. The OONI Probe Psiphon test provides an automated way of examining whether the Psiphon app works in a tested network. In almost the whole research period, Psiphon works in the tested network and can be used to circumvent internet censorship.
 
 
-![](images/image24.png)
+![](images/image26.png)
 
 
 Figure 22. OONI data on the testing of Psiphon circumvention tool
@@ -463,7 +464,7 @@ Figure 22. OONI data on the testing of Psiphon circumvention tool
 Tor is a free and open software for anonymity, privacy, and censorship circumvention, and OONI Tor Test examines whether Tor works in a tested network. In Jan-June 2022, Tor was reachable in Myanmar.
 
  
-![](images/image25.png)
+![](images/image27.png)
 
 
 Figure 23. OONI data on the testing of Psiphon circumvention tool
@@ -830,7 +831,7 @@ The iMAP State of Internet Censorship Country Report covers the findings of netw
 In terms of timeline, this first iMAP report covers measurements obtained in the six-month period from 1 January 2022 to 30 June 2022. The countries covered in this round are Cambodia, Hong Kong, Indonesia, Malaysia, Myanmar, Philippines, Thailand, and Viet Nam. India will only be included starting in the next period of reporting.  
 
 
-### **How are the network measurements gathered?**
+### How are the network measurements gathered?
 
 Network measurements are gathered through the use of [OONI Probe app](https://ooni.org/install/), a free software tool developed by [Open Observatory of Network Interference (OONI)](https://ooni.org/). To learn more about how the OONI Probe test works, please visit [https://ooni.org/nettest/](https://ooni.org/nettest/).
 
@@ -953,7 +954,7 @@ Hence, heuristics as below were run on raw measurements on all countries under i
 
 Firstly, IP addresses with more than 10 domains were identified. Then each of the IP address was checked for the following:
 
-![](images/image26.png)
+![](images/image28.png)
 
 
 When blocking is determined, any domain redirected to these IP addresses would be marked as ‘dns.confirmed’. 
