@@ -127,7 +127,7 @@ The aim of this study was to increase transparency of internet controls and to c
 
 ## **Background**
 
-As an old society in Southeast Asia, the Kingdom of Cambodia borders its [181,035 km](https://en.wikipedia.org/wiki/Geography_of_Cambodia)<sup>2</sup> (69,898 sq mi) territory with [Thailand](https://en.wikipedia.org/wiki/Thailand), [Laos](https://en.wikipedia.org/wiki/Laos), [Vietnam](https://en.wikipedia.org/wiki/Vietnam), and the [Gulf of Thailand](https://en.wikipedia.org/wiki/Gulf_of_Thailand), and hosts [16.78](https://worldpopulationreview.com/countries/cambodia-population) million population, [51% female](https://countrymeters.info/en/Cambodia). A vast majority is original Khmer, accounting for [90%](https://en.wikipedia.org/wiki/Ethnic_groups_in_Cambodia) of the total population, followed by 5% of Vietnamese, 4% of ethnic minority groups, and 1% of Chinese. Buddhism is officially recognized as a state religion, in which over [97% of the population practice Theravada Buddhism](https://www.asiahighlights.com/cambodia/religion); other religions include Islam, Christianity, and tribal animism. 
+As an old society in Southeast Asia, the Kingdom of Cambodia borders its [181,035 km<sup>2</sup>](https://en.wikipedia.org/wiki/Geography_of_Cambodia) (69,898 sq mi) territory with [Thailand](https://en.wikipedia.org/wiki/Thailand), [Laos](https://en.wikipedia.org/wiki/Laos), [Vietnam](https://en.wikipedia.org/wiki/Vietnam), and the [Gulf of Thailand](https://en.wikipedia.org/wiki/Gulf_of_Thailand), and hosts [16.78](https://worldpopulationreview.com/countries/cambodia-population) million population, [51% female](https://countrymeters.info/en/Cambodia). A vast majority is original Khmer, accounting for [90%](https://en.wikipedia.org/wiki/Ethnic_groups_in_Cambodia) of the total population, followed by 5% of Vietnamese, 4% of ethnic minority groups, and 1% of Chinese. Buddhism is officially recognized as a state religion, in which over [97% of the population practice Theravada Buddhism](https://www.asiahighlights.com/cambodia/religion); other religions include Islam, Christianity, and tribal animism. 
 
 After the invasion of Vietnam, the new government installed in early 1979 ruled the country for decades until the first-ever democratic election in 1993. The election was administered by the UN peacemaking council, the so-called UNTAC ([United Nations Transitional Authority in Cambodia](https://en.wikipedia.org/wiki/United_Nations_Transitional_Authority_in_Cambodia)), in which 48 political parties joined, including the four fighting factions. A coalition government was formed and headed by two prime ministers from a long-standing party, CPP (Cambodian People Party) and a royalist party, FUNCINPEC (National United Front for an Independent, Neutral, Peaceful and Cooperative Cambodia). 
 
@@ -308,7 +308,7 @@ Censorship has dramatically increased in Cambodia in recent years through differ
 
 People are afraid to speak up against the ruling regime. According to a recent study of the [Asiacenter](https://asiacentre.org/wp-content/uploads/Internet-Freedoms-in-Cambodia-A-Gateway-to-Control.pdf), it is suggested that individuals have taken a step back from sharing their own political opinions online or participating in political events, and instead prefer to simply read or listen to such content as they are afraid to get into trouble with the Cambodian authorities, who have ramped up their control of the online sphere. 
 
-In 2020, according to CCHR’s Cambodia Fundamental Freedoms Monitor report, 108 cases of restriction on freedom of expression by the RGC were reported; out of which 57 cases (53%) occurred online[^30]. The report suggested that the trend has been consistent in the past three years where 83% (2019), 73% (2018), 69% (2017) of respondents were cautious for their own safety when sending or sharing information over social media. Recently, in 2022, a report from [OHCHR](https://www.ohchr.org/sites/default/files/2022-08/press-freedom-cambodia-en.pdf) that interviewed 15 men and six women journalists showed that 60% of them had faced verbal threats in connection with their work. Another study noted that Facebook was the most surveilled online platform, with 46 cases of restrictions on freedom of expression reported, followed by Tiktok (8) and YouTube (7).[^31][^32]
+In 2020, according to CCHR’s Cambodia Fundamental Freedoms Monitor report, 108 cases of restriction on freedom of expression by the RGC were reported; out of which 57 cases (53%) occurred online[^30]. The report suggested that the trend has been consistent in the past three years where 83% (2019), 73% (2018), 69% (2017) of respondents were cautious for their own safety when sending or sharing information over social media. Recently, in 2022, a report from [OHCHR](https://www.ohchr.org/sites/default/files/2022-08/press-freedom-cambodia-en.pdf) that interviewed 15 men and six women journalists showed that 60% of them had faced verbal threats in connection with their work. Another study noted that Facebook was the most surveilled online platform, with 46 cases of restrictions on freedom of expression reported, followed by Tiktok (8) and YouTube (7).[^31,][^32]
 
 
 #### Free access to information
@@ -321,14 +321,14 @@ However, free access to information remains a great challenge. A recent [study o
 #### Privacy
 
 
-##### **Inter-Ministerial Prakas (Proclamation) No. 170**[^34]
+##### Inter-Ministerial Prakas (Proclamation) No. 170[^34]
 
 This Prakas was implemented amidst an environment of stricter controls on online platforms during the elections, such as blocking of pro-democracy websites. The Prakas’ initial proclamation enables the close collaboration between the Ministry of Information, Ministry of Interior and MPTC to monitor social media usage. The regulation directly targets website publications and social media networks within the Cambodian Internet space. Under Clause 6, the Ministry of Information is authorized to manage published online information through electronic systems and “take action” against illegal publications.
 
 While the Inter-Ministerial Prakas was often called Cambodia’s ‘fake news’ law, it has rarely been used to criminalize the act of disseminating disinformation. Rather, it has been used as a justification for governmental digital surveillance.
 
 
-##### **National Internet Gateway**[^35]** **
+##### National Internet Gateway[^35]
 
 The Sub-Decree significantly enhances monitoring capacities over user activity, as gateway operators will report their observations on internet usage to the Ministry of Telecommunications. Similar to the Inter-Ministerial Prakas, this law is geared towards online state surveillance rather than criminalizing online activities. Therefore, this new policy is a highly potent tool against online expression and the right to privacy. 
 
@@ -341,10 +341,10 @@ Under Article 14, gateway operators are required to store data and provide routi
 
 ### Reported cases of internet censorship and surveillance
 
-Several cases of internet censorship and surveillance have been reported in Cambodia over the last decade.On the 27 and 28 2018 election day, [15 websites](https://projects.voanews.com/cambodia-election-2018/english/feature/government-confirm-blocking-fifteen-independent-news-sites-over-poll-disruption.html) of the independent news like voice of America's Khmer, Radio Free Asia's Khmer, Voice of Democracy, Vayo FM Radio, Phnom Penh Post, Monorom.info and the news site of the Independent Network for Social Justice. were blocked by ISPs through the order from the government authorities.
+Several cases of internet censorship and surveillance have been reported in Cambodia over the last decade. On the 27th and 28th July 2018 election day, [15 websites](https://projects.voanews.com/cambodia-election-2018/english/feature/government-confirm-blocking-fifteen-independent-news-sites-over-poll-disruption.html) of the independent news like voice of America's Khmer, Radio Free Asia's Khmer, Voice of Democracy, Vayo FM Radio, Phnom Penh Post, Monorom.info and the news site of the Independent Network for Social Justice. were blocked by ISPs through the order from the government authorities.
 
 
-## **Examining internet censorship in Cambodia**
+## Examining internet censorship in Cambodia
 
 The [Open Observatory of Network Interference (OONI)](https://ooni.org/), in collaboration with [Sinar Project](http://sinarproject.org/en) and the [Advocacy and Policy Institute](https://apiinstitute.org/), performed a study of internet censorship in Cambodia. The aim of this study was to understand whether and to what extent censorship events occurred in Cambodia during the testing period from Jan to June 2022.
 
@@ -400,7 +400,7 @@ As presented in the table below, the OONI Probe ran 289,357 measurements during 
 
 ![](images/image4.png)
 
-As a part of this study, [network measurements](https://explorer.ooni.org/country/TH) were collected through [OONI Probe software tests](https://github.com/TheTorProject/ooni-probe), with the period of testing from January to June, The result showed that among 43 of 1730 ULRs/Websites are blocked or hijacked. In addition to this, results of the heuristics analysis reported that 43 domains have been potentially blocked by DNS tampering through redirecting to 2 IP addresses: [‘10.10.10.1’] and ['36.37.242.94']. Although these two do not have any blockpages, it is likely that they are used as methods of blocking by ISP VIETTEL (CAMBODIA) PTE., LTD. (AS38623), S.I Group (AS38623) and CAMGSM Company Ltd (AS17976). These 43 websites are comprised of categories as in the chart below:
+As a part of this study, [network measurements](https://explorer.ooni.org/country/TH) were collected through [OONI Probe software tests](https://github.com/TheTorProject/ooni-probe), with the period of testing from January to June, The result showed that among 43 of 1730 ULRs/Websites are blocked or hijacked. In addition to this, results of the heuristics analysis reported that 43 domains have been potentially blocked by DNS tampering through redirecting to 2 IP addresses: `10.10.10.1` and `36.37.242.94`. Although these two do not have any blockpages, it is likely that they are used as methods of blocking by ISP VIETTEL (CAMBODIA) PTE., LTD. (AS38623), S.I Group (AS38623) and CAMGSM Company Ltd (AS17976). These 43 websites are comprised of categories as in the chart below:
 
 
 ![](images/image5.png)
@@ -554,7 +554,7 @@ In terms of timeline, this first iMAP report covers measurements obtained in the
 
 ### How are the network measurements gathered?
 
-Network measurements are gathered through the use of [OONI Probe app](https://ooni.org/install/), a free software tool developed by [Open Observatory of Network Interference (OONI)](https://ooni.org/). To learn more about how the OONI Probe test works, please visit [https://ooni.org/nettest/](https://ooni.org/nettest/).
+Network measurements are gathered through the use of [OONI Probe app](https://ooni.org/install/), a free software tool developed by [Open Observatory of Network Interference (OONI)](https://ooni.org/). To learn more about how the OONI Probe test works, please visit: [https://ooni.org/nettest/](https://ooni.org/nettest/).
 
 iMAP Country Researchers and anonymous volunteers run OONI Probe app to examine the accessibility of websites included in the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists). iMAP Country Researchers actively review the country-specific test lists to ensure up-to-date websites are included and context-relevant websites are properly categorised, in consultation with local communities and digital rights network partners. We adopt the [approach taken by Netalitica](https://netalitica.com/wp-content/uploads/2021/10/Guideline-for-Test-List-Researchers-V7.pdf) in reviewing country-specific test lists.
 
@@ -563,7 +563,7 @@ It is important to note that the findings are only applicable to the websites th
 
 ### How are the network measurements analysed?
 
-OONI processes the following types of data through its [data pipeline](https://github.com/ooni/pipeline):
+OONI processes the following types of data through its data pipeline: https://github.com/ooni/pipeline.
 
 
 #### Country code
