@@ -296,11 +296,11 @@ The following charts depict precisely the four known censored websites with thei
 | **Domain**                                                   | **Category**        |
 |------------------------------------|------------------------------------|
 | [hkchronicles.com](http://hkchronicles.com)           | Political Criticism |
-| [^8964museum.com](http://8964museum.com)               | Political Criticism |
+| [8964museum.com](http://8964museum.com)               | Political Criticism |
 | [blockedbyhk.com](http://blockedbyhk.com)             | Political Criticism |
 | [hkleaks.info](http://hkleaks.info)                   | Political Criticism |
 | [www.hongkongwatch.org](http://www.hongkongwatch.org) | Human Rights Issues |
-| [^2021hkcharter.com](http://2021hkcharter.com/)        | Political Criticism |
+| [2021hkcharter.com](http://2021hkcharter.com/)        | Political Criticism |
 | [goodhope.school](https://goodhope.school/)           | Political Criticism |
 
 Note: [blockedbyhk.com](http://blockedbyhk.com), [goodhope.school](https://goodhope.school/) and [hkleaks.info](http://hkleaks.info) were alias domains for HKChronicles.
