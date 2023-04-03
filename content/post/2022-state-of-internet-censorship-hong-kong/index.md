@@ -487,7 +487,7 @@ It is important to note that the findings are only applicable to the websites th
 
 ### **How are the network measurements analysed?**
 
-OONI processes the following types of data through its [data pipeline](https://github.com/ooni/pipeline):
+OONI processes the following types of data through its data pipeline: https://github.com/ooni/pipeline.
 
 
 #### Country code
