@@ -120,7 +120,7 @@ Even though digital and network access has grown rapidly since 2011[^5], the ben
 Figure 1: Individuals using the Internet (% of population) -[ Myanmar ](https://data.worldbank.org/indicator/IT.NET.USER.ZS?end=2020&locations=MM&start=1990&view=chart)
 
 
-### **Political Landscape**
+### Political Landscape
 
 
 #### Post 2010: Reforms
