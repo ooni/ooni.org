@@ -117,6 +117,7 @@ Myanmar is divided into seven states and seven regions, as one union territory w
 Even though digital and network access has grown rapidly since 2011[^5], the benefits of the digital transformation in Myanmar are spread unevenly especially among women and ethnic minorities from rural communities. Gendered cultural biases limit Myanmar women from accessing both digital tools and skills.[^6] Less women than men use the internet.[^7] Communities living in rural and remote areas, also experience infrastructure barriers to accessing the internet Including, lack of basic infrastructure such as electricity, cellular and internet connections.
 
 ![](images/image1.png)
+
 Figure 1: Individuals using the Internet (% of population) -[ Myanmar ](https://data.worldbank.org/indicator/IT.NET.USER.ZS?end=2020&locations=MM&start=1990&view=chart)
 
 
@@ -185,7 +186,7 @@ February 1, 2021, marked significant disruptions to the country's internet conne
 ![](images/image2.png)
 
 
-Table 1: Freedom on the Net 2021 country report
+Table 1. Freedom on the Net 2021 country report
 
 On February 3, 2021, Access Now reported that the military ordered all internet providers to block social media such as Facebook, including Instagram, WhatsApp, and Messenger[^41]. Almost half of the population[^42] in Myanmar use Facebook to access and contribute information. Facebook is synonymous with the internet for the user in Myanmar. Although the military regime restricted using Facebook in Myanmar, citizens in Myanmar used circumvention tools like virtual private network (VPN) to overcome Facebook access restriction. To further restrict the flow of information to and from the country, the regime is set to ban VPN use.[^43] On February 5, 2022 Privacysavvy reported that Twitter and Instagram were also blocked.[^44]
 
@@ -259,7 +260,7 @@ The following chart illustrates the blocking of websites of 11 categories in Mya
 
 ![](images/image6.png)
  
-Figure 3. Websites categories with blocking counts
+Figure 3: Websites categories with blocking counts
 
 In order to filter out the false positives of the OONI measurement and to confirm the blocking fingerprints of the measurement, the heuristics analysis has also been applied to these 112 blocked websites from OONI measurements. The concepts of the heuristics are as follows: 
 
@@ -276,7 +277,7 @@ The analysis confirms again that these 112 websites are blocked by ISPs with the
 ![](images/image7.png)
 
 
-Figure 4. 6 ISPs blocked the websites during Jan to June 2022
+Figure 4: 6 ISPs blocked the websites during Jan to June 2022
 
 According to the test results, News media websites are mainly blocked and secondly Pornography websites whereas Social networking websites are the ones with the largest blocking times of 683. Please see Table 5 and Figure 5 .
 
@@ -303,7 +304,7 @@ Table 5. Blocked websites in Myanmar (Jan-June 2022)
 ![](images/image8.png)
 
 
-Figure 5. Breakdown of Blocked Websites under Categories
+Figure 5: Breakdown of Blocked Websites under Categories
 
 
 #### Blocking of News Media
@@ -314,7 +315,7 @@ During the first half of 2022, 30 websites of News Media were blocked by 2 ISPs:
 ![](images/image9.png)
 
 
-Figure 6. ISPs blocked News Media websites
+Figure 6: ISPs blocked News Media websites
 
 Among the 30 News Media websites, we have selected 3 websites: [http://karennews.org/](http://karennews.org/), 
 
@@ -326,13 +327,13 @@ Karen News website is partly blocked by 2 ISPs with the use of DNS tempering and
 ![](images/image10.png)
 
 
- Figure 7. Karen News page blocked by ISPs
+ Figure 7: Karen News page blocked by ISPs
 
 
 ![](images/image11.png)
  
 
-Figure 8. Measurements of Karen News page
+Figure 8: Measurements of Karen News page
 
 The following charts describe that Rohingya Khobor and Rohingya News Bank sites are also blocked by DNS tempering (dns.confirmed) and TCP/IP blocking (tcp.connection_timeout) during the testing period and the websites are sometimes accessible.   
 
@@ -340,13 +341,13 @@ The following charts describe that Rohingya Khobor and Rohingya News Bank sites 
 ![](images/image12.png)
 
 
-Figure 9. Measurements of Rohingya Khobor page
+Figure 9: Measurements of Rohingya Khobor page
 
 
 ![](images/image13.png)
  
 
-Figure 10. Measurements of Rohingya News Bank page
+Figure 10: Measurements of Rohingya News Bank page
 
 
 #### Blocking of Government Websites
@@ -354,6 +355,7 @@ Figure 10. Measurements of Rohingya News Bank page
 In the case of blocking the government websites, the websites are referred to as those of CRPH (Committee Representing Pyidaungsu Hluttaw) and NUG (National Unity Government). The State Administration Council (SAC), the country's ruling military junta, has declared the NUG and CRPH illegal. This becomes the reason for blocking. Those 15 websites are blocked by 2 ISPs: Atom Myanmar Ltd. with the network AS133385 and Global Technology Co., Ltd. with AS133384. The following Table states the 15 blocked websites under Government categories with the blocking times from 2 vantage points of 2 ISPs.
 
 ![](images/image14.png)
+
 Table 6. Blocked Websites under Government Categories
 
 OONI measurements recorded the same 117 Government websites for each ISPs. Apart from those 15 sites, the others are accessible and sometimes likely blocked. The following charts describe the measurements on the government websites by 2 ISPs during the testing period.
@@ -362,12 +364,13 @@ OONI measurements recorded the same 117 Government websites for each ISPs. Apart
 
 
 ![](images/image15.png)
-Figure 11. Measurements on Government Websites from Global Technology Co., Ltd.
+
+Figure 11: Measurements on Government Websites from Global Technology Co., Ltd.
 
 
 ![](images/image16.png)
 
-Figure 12. Measurements on Government Websites from Atom Myanmar Ltd.
+Figure 12: Measurements on Government Websites from Atom Myanmar Ltd.
 
 
 ### Internet outages events
@@ -421,7 +424,7 @@ According to OONI’s measurements, there were more than 90% anomalies across 3 
 ![](images/image22.png)
 
 
-Figure 18. Measurement on Facebook Messenger
+Figure 18: Measurement on Facebook Messenger
 
 Signal Test is to measure the reachability of the Signal messaging app within a tested network. According to the OONI measurements from January to June 2022, most of Signal TestsTeat are found accessible. On the other hand, some results show the anomaly presenting signs of potential network interference.
 
@@ -429,7 +432,7 @@ Signal Test is to measure the reachability of the Signal messaging app within a 
 ![](images/image23.png)
 
 
-Figure 19. Measurement on Signal App
+Figure 19: Measurement on Signal App
 
 Telegram Test is to examine the reachability of Telegram’s app and web version within a tested network. The below chart shows that almost all of Telegram tests reported continued access during the testing period. It is likely blocked in May and June 2022. 
 
@@ -437,7 +440,7 @@ Telegram Test is to examine the reachability of Telegram’s app and web version
 ![](images/image24.png)
  
 
-Figure 20. Measurement on Telegram App
+Figure 20: Measurement on Telegram App
 
 WhatsApp Test is designed to examine the reachability of both WhatsApp’s app and web version within a tested network. The measurements show  that WhatsApp was  accessible in Myanmar during the testing period but with signs of potential blocking on some vantage points.
 
@@ -448,7 +451,7 @@ WhatsApp Test is designed to examine the reachability of both WhatsApp’s app a
 ![](images/image25.png)
 
 
-Figure 21. Measurement on WhatsApp
+Figure 21: Measurement on WhatsApp
 
 
 ### Blocking of Circumvention Tools
@@ -459,7 +462,7 @@ Psiphon is a free and open source tool that utilizes VPN, SSH, and HTTP proxy te
 ![](images/image26.png)
 
 
-Figure 22. OONI data on the testing of Psiphon circumvention tool
+Figure 22: OONI data on the testing of Psiphon circumvention tool
 
 Tor is a free and open software for anonymity, privacy, and censorship circumvention, and OONI Tor Test examines whether Tor works in a tested network. In Jan-June 2022, Tor was reachable in Myanmar.
 
@@ -467,7 +470,7 @@ Tor is a free and open software for anonymity, privacy, and censorship circumven
 ![](images/image27.png)
 
 
-Figure 23. OONI data on the testing of Psiphon circumvention tool
+Figure 23: OONI data on the testing of Psiphon circumvention tool
 
 
 ## Acknowledgement of Limitations
