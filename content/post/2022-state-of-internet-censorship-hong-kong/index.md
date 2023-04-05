@@ -183,9 +183,9 @@ The Law Reform Commission of Hong Kong has gathered a cybercrime-specific legisl
 
 #### ISP officially confirms national censorship
 
-The first censorship happened in January 2021[^17][^18][^19]. The website “HKChronicles” displays doxxed personal information of police officers, pro-Beijing members of the Legislative Council, and a revelation of graphics and videos depicting police brutalities since the 2019 Anti-ELAB(Anti Extradition Law Amendment Bill) social movement.
+The first censorship happened in January 2021[^17] [^18] [^19]. The website “HKChronicles” displays doxxed personal information of police officers, pro-Beijing members of the Legislative Council, and a revelation of graphics and videos depicting police brutalities since the 2019 Anti-ELAB(Anti Extradition Law Amendment Bill) social movement.
 
-Later that month, a local major Internet Service Provider(ISP), “Hong Kong Broadband Network”, responded to media inquiries[^20][^21], affirming their execution of censorship was responding to the request from the Hong Kong Police Force on the grounds of National Security. It is the first time a local ISP has come out and revealed that authorities have been exercising administrative power granted by the Hong Kong National Security Law to perform censorship nationwide. Other local ISPs have not responded to media inquiries directly, only stating that the company will follow local regulations[^22].
+Later that month, a local major Internet Service Provider(ISP), “Hong Kong Broadband Network”, responded to media inquiries[^20] [^21], affirming their execution of censorship was responding to the request from the Hong Kong Police Force on the grounds of National Security. It is the first time a local ISP has come out and revealed that authorities have been exercising administrative power granted by the Hong Kong National Security Law to perform censorship nationwide. Other local ISPs have not responded to media inquiries directly, only stating that the company will follow local regulations[^22].
 
 
 ## Examining internet censorship in Hong Kong
@@ -194,12 +194,9 @@ A group of independent Hong Kong researchers, in collaboration with the Sinar Pr
 
 The sections below document the findings of this study.
 
-
 ### **Findings**
 
 This study collected network measurements through OONI Probe software tests performed across different local vantage points in Hong Kong between January 1, 2022, and June 30, 2022. The tests resulted in four types of results:
-
-
 
 * **OK**: Successful measurements (i.e. no sign of internet censorship)
 * **Anomaly**: Measurements that provided signs of potential blocking (however, false 
@@ -207,12 +204,9 @@ This study collected network measurements through OONI Probe software tests perf
 * **Confirmed**: Measurements from automatically confirmed blocked websites (e.g. a block page was served)
 * **Failure**: Failed experiments 
 
-
 #### Blocking of Websites
 
 While there had been no confirmed blocked websites on OONI during the six-month period,  censorship was found across four websites based on news reports and measurements on OONI Explorer:
-
-
 
 * **Blocking of a website about doxxed pro-Beijing individuals and police officers.** The Hong Kong authorities have blocked access to hkchronicles.com. A website created by Naomi Chan to display personal information about individuals with a pro-Beijing political stance, police officers, and their family members in Hong Kong.
 * **Blocking of a museum website about the Tiananmen Square massacre.** The Hong Kong authorities, without public denying, blocked access to 8964museum.com, created by academics and pro-democratic individuals, to observe the remembrance of the “June 4 Incident” back at 1989 China Tiananmen Square.
@@ -287,9 +281,9 @@ The following list is the foreign Hong Kong ISPs probed within the above said pe
 | AS206264 | AMARUTU-TECHNOLOGY          |                                      | SC                           | 38                    |
 | AS398704 | STACKS-INC-01               |                                      | US                           | 21                    |
 
-At the beginning of 2021, Hong Kong authorities had, first in history, executed the administrative power to censor political and dissident-related websites. The first website being censored was “HKChronicles”, happening at noon on January 6, 2021[^23]. Netizens of Hong Kong started experiencing a widespread problem of being unable to browse this website. A local Internet Service Provider, “Hong Kong Broadband Network”, later officially confirmed the censorship, stating their action was responding to the executive decisions from the Hong Kong Police Force and also relevant legistlations[^20][^21].
+At the beginning of 2021, Hong Kong authorities had, first in history, executed the administrative power to censor political and dissident-related websites. The first website being censored was “HKChronicles”, happening at noon on January 6, 2021[^23]. Netizens of Hong Kong started experiencing a widespread problem of being unable to browse this website. A local Internet Service Provider, “Hong Kong Broadband Network”, later officially confirmed the censorship, stating their action was responding to the executive decisions from the Hong Kong Police Force and also relevant legistlations[^20] [^21].
 
-Since then, at least three more websites and multiple aliases of the censored website have been blocked[^24][^25][^26] inside Hong Kong across the entire year of 2021 and have remained until now. By analysing OONI measurements collected over the first half of 2022, it is possible to detect and inspect how websites are being blocked in the country.
+Since then, at least three more websites and multiple aliases of the censored website have been blocked[^24] [^25] [^26] inside Hong Kong across the entire year of 2021 and have remained until now. By analysing OONI measurements collected over the first half of 2022, it is possible to detect and inspect how websites are being blocked in the country.
 
 The following charts depict precisely the four known censored websites with their seven domain names out of 2228 domains tested. The seven domains by category are as follows:
 
@@ -310,7 +304,6 @@ Note: [blockedbyhk.com](http://blockedbyhk.com), [goodhope.school](https://goodh
 ##### Censorship technologies
 
 The following charts depict precisely the four known censored websites with their seven domain names.
-
 
 ```
 Types of Blocking
@@ -337,25 +330,21 @@ These are all blocking types related to TLS:
 - tls.connection_reset - a reset packet was seen after the client sent the ClientHello packet
 - tls.connection_closed - the connection was closed after the ClientHello
 - tls.connection_timeout - the connection timed out after the ClientHello
+
 All of the above can also have the _after_hello suffix, indicating that the event happened after the client sent the ClientHello packet
 - tls.mitm - The DNS is consistent, but the TLS certificate validation failed. This suggest a TLS man-in-the-middle
 - tls.generic_failure - generic error from legacy OONI probes
 ```
 
-
-
 ![](images/image2.png)
 
-(Fig.1 - Censorship Methodologies by local ISPs with respect to the four websites)
-
+Figure 1: Censorship Methodologies by local ISPs with respect to the four websites
 
 ![](images/image3.png)
 
-(Fig.2 - Censorship Methodologies vs All nation-wide test results by local ISPs including OK and Invalid results)
+Figure 2: Censorship Methodologies vs All nation-wide test results by local ISPs including OK and Invalid results
 
 From January to June 2022, there are a total of 12 ASNs possessed by six network operators:
-
-
 
 * AS4515 & AS4760 & AS38819 - PCCW HKT
 * AS9231 & AS131872 - China Mobile Hong Kong
@@ -366,17 +355,14 @@ From January to June 2022, there are a total of 12 ASNs possessed by six network
 
 Among OONI measurements collected over this period, more than 3000 tests were performed on all these ASNs for these four censored websites. Notably, AS4515, owned by PCCW HKT, is a network primarily serving the finance, business industry and public sectors, such as AASTOCKS.COM, Ruijiang Group, Cathay Pacific, The Bank of East Asia, and more[^27]. By comparing figures 1 and 2 specifically on this ASN, it clearly shows no signs of internet traffic in these service and sector categories being censored or altered in a way that complies with the executive order issued by local authorities.
 
-
 ![](images/image4.png)
-(Fig. 3 - DNS censorship/anomaly results by local ISPs)
-
+Figure 3: DNS censorship/anomaly results by local ISPs
 
 ![](images/image5.png)
-(Fig. 4 - HTTP censorship by local ISPs)
-
+Figure 4: HTTP censorship by local ISPs
 
 ![](images/image6.png)
-(Fig. 5 - TCP and TLS censorship/interference by local ISPs)
+Figure 5: TCP and TLS censorship/interference by local ISPs
 
 The broadly used censorship method in Hong Kong for the censored websites in scope is “DNS tampering”, followed by very little TCP and TLS connection interference. 
 
@@ -418,7 +404,6 @@ The examination of the findings of this study is limited to network measurements
 
 Although the network measurements were collected from multiple local vantage points in Hong Kong, the running of OONI software testing was not consistent across all networks.
 
-
 ## Conclusion
 
 The objective of this study is to gain a better understanding of internet censorship events in Hong Kong through the collection and analysis of network measurements. To this end, OONI software tests were run across different local vantage points in Hong Kong to collect and analyse network measurement data that could help examine whether sites, instant messaging apps, and censorship circumvention tools were blocked. Some of the tests also run were designed to examine whether systems (“middleboxes”) that could be responsible for censorship, surveillance, and traffic manipulation were present in the tested networks. Overall, the accessibility of 2228 domains was tested, and the network measurement data collected between January 1, 2022, to June 30 2022, was analysed.
@@ -429,17 +414,16 @@ As part of this study, four websites with multiple of their aliases domain names
 
 Given the limited transparency around information controls in Hong Kong and the potential implications they may have on human rights, we encourage ISPs to disclose their motivation and justification behind blocking sites and services. We also encourage public debate based on the findings of this study around the necessity and proportionality of information controls.
 
-
 ### **Contribute to the study**
 
 There are various ways one may contribute to the OONI measurements:
 
-* Testing: You may test on [various platforms](https://ooni.org/install/), both on Mobile (iOS and Android) and Desktop, including on the CLI on Linux platforms. The domains you test can be either randomly selected from the [Citizenlab Test Lists](https://github.com/citizenlab/test-lists) or custom test lists specific to your needs.*
+* Testing: You may test on [various platforms](https://ooni.org/install/), both on Mobile (iOS and Android) and Desktop, including on the CLI on Linux platforms. The domains you test can be either randomly selected from the [Citizen Lab Test Lists](https://github.com/citizenlab/test-lists) or custom test lists specific to your needs.*
 * Contribute to the test lists: You can contribute to the test lists on GitHub or on [OONI](https://test-lists.ooni.org/).
 * Translate the OONI Probe to your local language [here](https://www.transifex.com/otf/ooniprobe/).
 * Participate in community discussions on the [OONI’s Slack channel](https://slack.ooni.org/)
 
-*Note: Specific to Hong Kong users, it is recommended to avoid using China-based DNS resolvers and instead, to use an alternative resolver or an encrypted DNS solution like DoH.
+Note: Specific to Hong Kong users, it is recommended to avoid using China-based DNS resolvers and instead, to use an alternative resolver or an encrypted DNS solution like DoH.
 
 
 ## Acknowledgements
@@ -456,8 +440,7 @@ We would like to thank the OONI team for developing OONI Probe and publishing me
 | **ISP**          | An Internet Service Provider (ISP) is an organization that provides services for accessing and using the internet. ISPs can be state-owned, commercial, community-owned, non-profit, or otherwise privately owned. Vodafone, AT&T, Airtel, and MTN are examples of ISPs.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **Middle boxes** | A middlebox is a computer networking device that transforms, inspects, filters, or otherwise manipulates traffic for purposes other than packet forwarding. Many Internet Service Providers (ISPs) around the world use middleboxes to improve network performance, provide users with faster access to websites, and for a number of other networking purposes. Sometimes though, middleboxes are also used to implement internet censorship and/or surveillance. The OONI Probe app includes two tests designed to measure networks with the aim of identifying the presence of middleboxes.                                                                                                                                                                                                                                                           |
 | **TCP**          | The Transmission Control Protocol (TCP) is one of the main protocols on the internet. To connect to a website, your computer needs to establish a TCP connection to the address of that website. TCP works on top of the Internet Protocol (IP), which defines how to address computers on the internet. When speaking to a machine over the TCP protocol you use an IP and port pair, which looks something like this: 10.20.1.1:8080. The main difference between TCP and (another very popular protocol called) UDP is that TCP has the notion of a “connection”, making it a “reliable” transport protocol.                                                                                                                                                                                                                                          |
-| **TLS**          | Transport Layer Security (TLS) – also referred to as “SSL” – is a cryptographic protocol that allows you to maintain a secure, encrypted connection between your computer and an internet service. When you connect to a website through TLS, the address of the website will begin with HTTPS (such as https://www.facebook.com/), instead of HTTP.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-
+| **TLS**          | Transport Layer Security (TLS) – also referred to as “SSL” – is a cryptographic protocol that allows you to maintain a secure, encrypted connection between your computer and an internet service. When you connect to a website through TLS, the address of the website will begin with HTTPS (such as https://www.facebook.com/), instead of HTTP.                                                                                                                                                                                                                                                                                                                                          
 A comprehensive glossary related to OONI can be accessed here: [https://ooni.org/support/glossary/](https://ooni.org/support/glossary/). 
 
 
@@ -507,8 +490,7 @@ OONI by default collects the time and date of when tests were run to evaluate wh
 
 #### Categories
 
-The 32 website categories are based on the Citizenlab test lists: [https://github.com/citizenlab/test-lists](https://github.com/citizenlab/test-lists). As not all websites tested on OONI are on these test lists, these websites would have unclassified categories.
-
+The 31 website categories are based on the Citizenlab test lists: [https://github.com/citizenlab/test-lists](https://github.com/citizenlab/test-lists). As not all websites tested on OONI are on these test lists, these websites would have unclassified categories.
 
 | **No.** | **Category Description**              | **Code** | **Description**                                                                                                                                                                                                                                                                                 |
 |-----------|----------------------------|------------|--------------------------------------------------|
@@ -556,7 +538,6 @@ The types of network measurements that OONI collects depend on the types of test
 
 In order to derive meaning from the measurements collected, OONI processes the data types mentioned above to answer the following questions:
 
-
 * Which types of OONI tests were run?
 * In which countries were those tests run?
 * In which networks were those tests run?
@@ -568,8 +549,6 @@ In order to derive meaning from the measurements collected, OONI processes the d
 * How did network interference occur?
 
 To answer such questions, OONI’s pipeline is designed to answer such questions by processing network measurements data to enable the following:
-
-
 
 * Attributing measurements to a specific country.
 * Attributing measurements to a specific network within a country.
@@ -590,7 +569,6 @@ Upon collection of more network measurements, OONI continues to develop its data
 The full list of country-specific test lists containing confirmed blocked websites in Myanmar, Cambodia, Hong Kong, Indonesia, Malaysia, Philippines, Thailand, and Vietnam can be viewed here: [https://github.com/citizenlab/test-lists](https://github.com/citizenlab/test-lists). 
 
 
-
 #### Confirmed vs Heuristics
 
 Confirmed OONI measurements were based on blockpages with fingerprints recorded here [https://github.com/ooni/blocking-fingerprints](https://github.com/ooni/blocking-fingerprints). 
@@ -599,10 +577,7 @@ Hence, heuristics as below were run on raw measurements on all countries under i
 
 Firstly, IP addresses with more than 10 domains were identified. Then each of the IP address was checked for the following:
 
-
-
 ![](images/image7.png)
-
 
 When blocking is determined, any domain redirected to these IP addresses would be marked as ‘dns.confirmed’. 
 
