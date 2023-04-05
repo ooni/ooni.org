@@ -375,7 +375,7 @@ Figure 12: Measurements on Government Websites from Atom Myanmar Ltd.
 
 ### Internet outages events
 
-Internet access was apparently stable until Monday February 1, 2021 while the military regime took power, shutting down the entire internet connection approximately from 3:00 am Myanmar local time until 8:00 am. That was the first nationwide internet outage after a decade of digital transformation in which internet connectivity in Myanmar has fallen to 50% from ordinary levels reported by Netblocks (see Figure 6).[^62] Then internet disruption repeatedly occurs in the year of 2021 (see the OONI previous [report](https://ooni.org/post/2021-myanmar-internet-blocks-and-outages/)).[^63]
+Internet access was apparently stable until Monday February 1, 2021 while the military regime took power, shutting down the entire internet connection approximately from 3:00 am Myanmar local time until 8:00 am. That was the first nationwide internet outage after a decade of digital transformation in which internet connectivity in Myanmar has fallen to 50% from ordinary levels reported by Netblocks (see Figure 13).[^62] Then internet disruption repeatedly occurs in the year of 2021 (see the OONI previous [report](https://ooni.org/post/2021-myanmar-internet-blocks-and-outages/)).[^63]
 
 
 ![](images/image17.png)
