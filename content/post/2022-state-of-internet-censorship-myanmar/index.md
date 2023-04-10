@@ -378,7 +378,7 @@ Figure 12: Measurements on Government Websites from Atom Myanmar Ltd.
 Internet access was apparently stable until Monday February 1, 2021 while the military regime took power, shutting down the entire internet connection approximately from 3:00 am Myanmar local time until 8:00 am. That was the first nationwide internet outage after a decade of digital transformation in which internet connectivity in Myanmar has fallen to 50% from ordinary levels reported by Netblocks (see Figure 13).[^62] Then internet disruption repeatedly occurs in the year of 2021 (see the OONI previous [report](https://ooni.org/post/2021-myanmar-internet-blocks-and-outages/)).[^63]
 
 
-![](images/image17.png)
+![](images/image18.jpg)
 
 
 Figure 13: Network Connectivity: January 30, 2022 to February 1, 2022 UTC (Source: Netblocks)
@@ -386,7 +386,7 @@ Figure 13: Network Connectivity: January 30, 2022 to February 1, 2022 UTC (Sourc
 In this finding, we utilized  [Internet Outage Detection and Analysis (IODA)](https://ioda.inetintel.cc.gatech.edu/country/MM?from=1641056400&until=1648745999) and  [Google traffic](https://transparencyreport.google.com/traffic/overview?hl=en&fraction_traffic=start:1640995200000;end:1656547199999;product:19;region:MM&lu=fraction_traffic) data to observe internet connectivity outages in Myanmar. The Internet Outage Detection and Analysis (IODA) is a project to measure internet outages worldwide in near real-time. IODA uses four measurement[^64] including google traffic[^65] and inference methods to track and identify internet outages. IODA provides access to their measurements through their Dashboard, which allows users to explore internet outages with country, region, and AS level of granularity. In this observation, we show only two measurements ([Routing (BGP), Active Probing](https://ioda.inetintel.cc.gatech.edu/help)) from the IODA dashboard and Google transparency report dashboard. 
 
 
-![](images/image18.jpg)
+![](images/image17.png)
 
 
 Figure 14: Internet connectivity status in Myanmar: January 01, 2022 to March 30, 2022 ([IODA Dashboard, 2022](https://ioda.inetintel.cc.gatech.edu/country/MM?from=1641056400&until=1648659599))
