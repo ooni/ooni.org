@@ -163,14 +163,14 @@ The current hostile attitude towards the press, attacks against critics, and use
 ## Legal environment
 
 
-### **Freedom of expression**
+### Freedom of expression
 
 Section 4, Article III of the 1987 Constitution guarantees freedom of speech.[^23] Under the Duterte administration journalists and activists expressing views critical of the government were at heightened risk of being red-tagged or labelled as sympathisers of the communist insurgency. The National Task Force on Ending Local Communist Armed Conflict (NTF-ELCAC) is notorious for repeatedly red-tagging activists and government critics both through social media and official pronouncements.[^24] The practice has resulted in the killings of numerous activists[^25] while ordinary citizens have also been targeted,[^26] most notably in April 2021 when organisers of community pantries were linked to rebel groups.
 
 At the height of the COVID-19 pandemic, the government passed the Bayanihan to Heal as One Act which authorises the president to exercise emergency powers to ensure public order and safety.[^27] One provision of the law, Section 6(f), drew criticism from rights groups as it penalises individuals or groups creating or spreading “false information” about the health crisis on social media and other platforms.[^28] Within a month of its implementation, at least 47 people were apprehended for alleged violations.[^29] The National Bureau of Investigation also issued summons to more than a dozen people for allegedly spreading false information,[^30] including one who was targeted for his post on the alleged misuse of government funds.
 
 
-### **Press freedom**
+### Press freedom
 
 
 #### Revised Penal Code
@@ -188,7 +188,7 @@ The Cybercrime Prevention Act, passed in 2012, does not specify a prescription p
 Politicians in the Philippines have also used other regulatory mechanisms to punish media organisations that give them unfavourable coverage. ABS-CBN, a major television and radio network, was forced to shut down in May 2020 after Congress members aligned to then-president Rodrigo Duterte denied the renewal of its broadcasting franchise which the network had held for 25 years.[^35] In June 2022, just before the end of President Duterte's term, the National Telecommunications Commission (NTC) ordered internet service providers to block 26 websites,[^36] including news sites Bulatlat and Pinoy Weekly, over alleged ties to “communist-terrorist groups”. The same month, Rappler was ordered to shut down after the Securities and Exchange Commission (SEC) upheld the ruling to revoke the media company’s operating licence[^37]. Similar political interference in the regulation of Philippine broadcasting media has also been reported in the past, most notably the NTC gag order at the height of the 'Hello, Garci' scandal in 2005.[^38]
 
 
-### **Access to information**
+### Access to information
 
 Section 7, Article III of the 1987 Constitution recognises "the right of the people to information on matters of public concern". Section 28, Article II declares that "the state adopts and implements a policy of full public disclosure of all its transactions involving public interest". Even though the Philippine Congress has yet to pass comprehensive legislation on access to information, these constitutional principles have been the foundation for the right to access information in case law, most notably in the 1989 Supreme Court case of _Valmonte v Belmonte_.[^39]
 
@@ -198,7 +198,7 @@ Section 7, Article III of the 1987 Constitution recognises "the right of the peo
 There have been a number of positive developments towards greater access to information in recent years. In July 2016, President Duterte signed the Freedom of Information Executive Order No 2, s 2016 which provides for the implementation of a freedom of information program within the executive branch under the purview of the Department of Justice and the Office of the Solicitor General. The executive order has had a knock-on effect on local government units across the Philippines with several of them passing their own freedom of information ordinances. The executive order has also renewed the pressure on Congress to pass the freedom of information bill that has been stalled since its earliest version was first tabled in the legislative body in the mid-1990s.[^40]
 
 
-### **Privacy**
+### Privacy
 
 
 #### Data Privacy Act 2012
@@ -208,7 +208,7 @@ The Data Privacy Act 2012, which provides for the protection of personal data in
 The law covers the rights of individuals and the obligations of organisations with regard to the collection, storage, use, disclosure, retention, and disposal of personal data.[^41] It also sets out penalties for violation of data protection law including fines of 100,000 to 5 million pesos, imprisonment from 6 months to 7 years, and if applicable, disqualification from public office. The law has extraterritorial application when the data subject is a Philippine resident or the data processor is an entity with links to the Philippines. 
 
 
-### **State surveillance**
+### State surveillance
 
 Section 3, Article II of the 1987 Constitution states that the "privacy of communication and correspondence shall be inviolable except upon lawful order of the court". Article 23 of the Civil Code states that anyone who "directly or indirectly obstructs, defeats, violates or in any manner impedes or impairs [...] privacy of communication and correspondence" of another person shall be liable to damages while article 290 of the Revised Penal Code sets the criminal liability for the unlawful discovery of secrets through the "seizure of correspondence".
 
@@ -217,7 +217,7 @@ Even though the Anti-Wiretapping Act generally prohibits wiretapping, the law ha
 In February 2018, the media reported the British government having sold £150,000 worth of hi-tech surveillance equipment at the height of President Duterte's war on drugs.[^45]
 
 
-### **Pornography **
+### Pornography
 
 Unlike in its neighbouring countries, pornography is not outlawed in the Philippines. However, article 201 of the Revised Penal Code provides for offences relating to immoral doctrines, obscene publications, and obscene exhibitions.
 
@@ -239,15 +239,13 @@ In the months leading up to the May 2022 elections, there have been a spate of d
 As part of this study, network measurements were collected through OONI Probe software tests performed across a total of 23 different ISPs in the Philippines from 1 January 2022 to 30 June 2022.
 
 
-### **Blocked websites**
+### Blocked websites
 
 Several websites were found to be blocked in the Philippines as part of this study. Analysis of the network measurement data collected through OONI Probe Web Connectivity tests of 2,002 websites performed across 23 ISPs did not find any confirmed blocking of websites by Philippine ISPs. However, heuristic analysis of the measurement data found that 16 websites were blocked by Philippine ISPs through DNS hijacking.
 
 The blocked websites fall under the following categories: gambling, pornography, anonymization and circumvention tools, social networking, and culture.
 
 The table below illustrates the distribution of websites that were confirmed to be blocked in the Philippines by category as part of this study from 1 January 2022 to 30 June 2022. 
-
-
 
 | **Category**  |                                       | **Blocked Websites** | **OONI Probe Measurements** |
 |------------------|------------------|------------------|------------------|
@@ -300,8 +298,6 @@ Seven gambling websites were found to be blocked in the Philippines during the t
 | www.pokerroom.com    | 92           | 90 (97.83%)     | 2 (2.17%)     | –          |
 
 
-
-
 #### Pornography
 
 Six pornography websites were found to be blocked in the Philippines during the testing period of 1 January 2022 until 30 June 2022. All were confirmed blocked through heuristic analysis as the OONI Probe measurements did not return any evidence of a block. 
@@ -318,13 +314,9 @@ Six pornography websites were found to be blocked in the Philippines during the 
 | xnxx.com        | 132          | 105 (79.55%)    | 27 (20.45%)   | –          |
 
 
-
-
 #### Anonymization and circumvention tools
 
 Only one website that provides anonymization and circumvention tools was blocked in the Philippines during the testing period of 1 January 2022 until 30 June 2022. This website helps internet users anonymize the HTTP referer of the URLs that they visit online. The blocking was confirmed through heuristic analysis rather than OONI Probe measurement data. 
-
-
 
 | **Websites** | **Measured** | **Not Blocked** | **Anomalous** | **Failed** |
 |--------------|--------------|-----------------|---------------|------------|
@@ -357,7 +349,7 @@ Only one website that fall in the culture category was found to be blocked in th
 
 
 
-### **Instant messaging and circumvention tools**
+### Instant messaging and circumvention tools
 
 The OONI Probe measurements examining the reachability of instant messaging services and circumvention tools did not find any evidence of network tempering of Facebook Messenger, Telegram, Signal, WhatsApp, Psiphon, and Tor throughout the testing period. However, the Psiphon test found a significant level of anomalies (over 97 per cent) during the testing period which should be investigated further to rule out any network tempering in the Philippines.
 
@@ -374,10 +366,7 @@ The OONI Probe measurements examining the reachability of instant messaging serv
 | Tor Snowflake      | 120          | –           | 107 (89.17%)    | 13 (10.83%)    | –          | 14       |
 
 
-
-
-### **Acknowledgement of limitations**
-
+### Acknowledgement of limitations
 
 
 |           | **January** | **February** | **March** | **April** | **May** | **June** | **Aggregate** |
@@ -388,7 +377,7 @@ The OONI Probe measurements examining the reachability of instant messaging serv
 
 
 
-_Summary of OONI Probe Web Connectivity measurement data for the Philippines from 1 January until 30 Jun 2022_
+_Summary of OONI Probe Web Connectivity measurement data for the Philippines from 1 January until 30 June 2022_
 
 During the testing period from 1 January 2022 until 30 June 2022, more than 390,000 web connectivity measurements in the Philippines were collected using the OONI Probe. The web connectivity measurements could not confirm any blocking by ISPs. However, a number of blocked websites could be confirmed through heuristic analysis. 
 
@@ -400,8 +389,7 @@ The measurements collected are also limited by the number of different ISPs cove
 
 Despite these limitations, the measurement data from OONI Probe is useful in providing a broad indication of the general depth and breadth of internet censorship in the Philippines. Similar studies in the future may overcome some of these limitations by deploying OONI Probe on more devices, running a consistent number of tests periodically, and having wider coverage of ISPs across the Philippines.
 
-
-### **Conclusion**
+### Conclusion
 
 During the reporting period, the Philippine government utilized a wide range of laws as grounds to restrict freedom of expression and opinion online. Media organizations critical of the Philippine government are consistently at the receiving end of these tactics, which have become commonplace under the term of former President Duterte. The use of cybercrime prevention and anti-terrorism laws to harass, intimidate, and bully Philippine journalists exacerbates the already hostile environment for the press, mired with violent practices like red tagging, enforced disappearance, and extrajudicial killings of media practitioners.
 
@@ -410,9 +398,6 @@ Specific to internet censorship, all 16 of the blocked websites were confirmed t
 Further investigation is especially needed in anticipation of President Marcos Jr's expected continuation of his predecessor's censorship tactics and hardline stance against critics. Marcos’ camp, even before assuming the presidency, has already shunned and harassed journalists, favouring the influencers and vloggers who helped catapult him into power. 
 
 The internet remains relatively free and open in the Philippines as compared to other countries in Southeast Asia. But judging by current trends, laws and institutions will continue to be used to justify the censorship of critical voices both online and offline, all towards the President’s "call for unity" in the country and among Filipinos.[^53]
-
-
-
 
 ## Annex PH-1: Probed ISPs
 
@@ -462,7 +447,7 @@ It is important to note that the findings are only applicable to the websites th
 
 ### **How are the network measurements analysed?**
 
-OONI processes the following types of data through its [data pipeline](https://github.com/ooni/pipeline):
+OONI processes the following types of data through its data pipeline: https://github.com/ooni/pipeline.
 
 
 #### Country code

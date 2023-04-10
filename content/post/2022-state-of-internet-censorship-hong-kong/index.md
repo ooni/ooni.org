@@ -125,13 +125,13 @@ Selected scope of ISPs in this report:
 
 ## Background
 
-Hong Kong is a special administrative region of China[1], an ex-colony of the United Kingdom, and was previously known as one of the most popular free ports and major trade centres in Asia. This land has a population of roughly 7.2 million[2] with a total of 100% urban population[3], inclusively spanning across multi-ethnicity and different religions[3] as well.
+Hong Kong is a special administrative region of China[^1], an ex-colony of the United Kingdom, and was previously known as one of the most popular free ports and major trade centres in Asia. This land has a population of roughly 7.2 million[^2] with a total of 100% urban population[^3], inclusively spanning across multi-ethnicity and different religions[^3] as well.
 
-Historically, Great Britain signed the “Sino-British Joint Declaration” with the People’s Republic of China to resolve the “Agreement on the future of Hong Kong” for both countries. China regained sovereignty to the ex-colony in July 1997 and “preserves Hong Kong’s familiar legal system and the rights and freedoms enjoyed there.” [4] Different from China, Hong Kong looks up to the principle of “One Country, Two Systems” [5], the very foundation laid in the organic law “Hong Kong Basic Law” [6].
+Historically, Great Britain signed the “Sino-British Joint Declaration” with the People’s Republic of China to resolve the “Agreement on the future of Hong Kong” for both countries. China regained sovereignty to the ex-colony in July 1997 and “preserves Hong Kong’s familiar legal system and the rights and freedoms enjoyed there.” [^4] Different from China, Hong Kong looks up to the principle of “One Country, Two Systems” [^5], the very foundation laid in the organic law “Hong Kong Basic Law” [^6].
 
-Politically, Hong Kong has been governed by a hybrid regime[7] since July 1997. The Chief Executive is the head of government[8]. The Standing Committee of the National People’s Congress is in charge of appointing the elected Chief Executive[8]. Chief Executive candidates are vetted and only approved by the Committee for Safeguarding National Security without a straightforward appealing mechanism[9].
+Politically, Hong Kong has been governed by a hybrid regime[^7] since July 1997. The Chief Executive is the head of government[^8]. The Standing Committee of the National People’s Congress is in charge of appointing the elected Chief Executive[^8]. Chief Executive candidates are vetted and only approved by the Committee for Safeguarding National Security without a straightforward appealing mechanism[^9].
 
-In 2019 and early 2020, citizens of Hong Kong demonstrated widespread Anti-ELAB(Anti Extradition Law Amendment Bill) protests in responding to the amendment bill on extradition conditions for fugitive offenders proposed by the Hong Kong government. On June 30, 2020, the Standing Committee of the National People’s Congress unanimously decided[10][11] to enact and implement the Hong Kong National Security Law, a countermeasure to the mass protest on the street and establishing the legislative power for local authorities to censorships based on national security grounds.
+In 2019 and early 2020, citizens of Hong Kong demonstrated widespread Anti-ELAB(Anti Extradition Law Amendment Bill) protests in responding to the amendment bill on extradition conditions for fugitive offenders proposed by the Hong Kong government. On June 30, 2020, the Standing Committee of the National People’s Congress unanimously decided[^10][^11] to enact and implement the Hong Kong National Security Law, a countermeasure to the mass protest on the street and establishing the legislative power for local authorities to censorships based on national security grounds.
 
 
 ### **Legal environment**
@@ -139,7 +139,7 @@ In 2019 and early 2020, citizens of Hong Kong demonstrated widespread Anti-ELAB(
 
 #### Hong Kong Basic Law
 
-The Hong Kong Basic Law, which served as organic law, and is also seen as a constitutional document[6] by the Hong Kong government, has guaranteed that all residents of Hong Kong are equal before the law and possess inviolable rights to “freedom of speech, of the press and of publication; freedom of association, of assembly, of procession and of demonstration; and the right and freedom to form and join trade unions, and to strike.” [12]
+The Hong Kong Basic Law, which served as organic law, and is also seen as a constitutional document[^6] by the Hong Kong government, has guaranteed that all residents of Hong Kong are equal before the law and possess inviolable rights to “freedom of speech, of the press and of publication; freedom of association, of assembly, of procession and of demonstration; and the right and freedom to form and join trade unions, and to strike.” [^12]
 
 
 #### Legislative context
@@ -156,11 +156,11 @@ There are three major criminal laws currently ruling computer crimes in Hong Kon
 
 Over the past ten years, some computer crime cases have been dismissed differently because of frail to no evidence of the defendant purposefully stealing or without authorization to gain information from online information systems.
 
-For instance, on July 3, 2019, a flight passenger Chan was released from court with a bind-over condition[13], only that he found out the electronic boarding pass website leaked information to other users by changing a few characters in the web address field. In this court case, Chan stated he had immediately notified the airline company and the Privacy Commissioner for Personal Data right after discovering the vulnerability. However, there were no replies from both parties after three weeks. Instead, Chan was then arrested and prosecuted for “unauthorized access to computer by telecommunications” by the authorities, accusing Chan of having accessed the personal information of other passengers.
+For instance, on July 3, 2019, a flight passenger Chan was released from court with a bind-over condition[^13], only that he found out the electronic boarding pass website leaked information to other users by changing a few characters in the web address field. In this court case, Chan stated he had immediately notified the airline company and the Privacy Commissioner for Personal Data right after discovering the vulnerability. However, there were no replies from both parties after three weeks. Instead, Chan was then arrested and prosecuted for “unauthorized access to computer by telecommunications” by the authorities, accusing Chan of having accessed the personal information of other passengers.
 
 A side note to better illustrates the legislative landscape would be the recent judicial review filed by Hong Kong citizen Cheuk-Kin Kwok. The applicant hopes to stop the government from nullifying vaccination exemption letters through a declaration in the Gazette. However, soon after the court ruling in favour of Kwok, Chief Execute John Lee Ka-Chiu amended the law, empowering concrete legal rights to the health secretary in nullifying exemption letters upon “reasonable grounds”.
 
-Also, given that the current ruling party in Hong Kong took sides with Beijing, this curated great convenience for the government and pro-Beijing parties on policy-making and legislative changes. For example, on October 21, 2022, the Hong Kong government published in the Gazette an amendment bill proposal to the Cap. 138A “Pharmacy and Poisons Regulations” to further restrict antipyretic drug sales[14]. Without any opposition from the Legislative Council, drugs like aspirin and paracetamol will be added to the “Schedule 1” list of poisons in a year. General citizens then can only purchase simplex painkillers like Tylenol and Panadol (common brand names for paracetamol) from registered pharmacies, dispensaries, government-sanctioned “listed sellers of poisons”, or clinics. On the complementary side, Cap. 134 “Dangerous Drugs Ordinance” rules that nobody can possess poison listed in “Schedule 1” or be fined or imprisoned for up to 7 years.
+Also, given that the current ruling party in Hong Kong took sides with Beijing, this curated great convenience for the government and pro-Beijing parties on policy-making and legislative changes. For example, on October 21, 2022, the Hong Kong government published in the Gazette an amendment bill proposal to the Cap. 138A “Pharmacy and Poisons Regulations” to further restrict antipyretic drug sales[^14]. Without any opposition from the Legislative Council, drugs like aspirin and paracetamol will be added to the “Schedule 1” list of poisons in a year. General citizens then can only purchase simplex painkillers like Tylenol and Panadol (common brand names for paracetamol) from registered pharmacies, dispensaries, government-sanctioned “listed sellers of poisons”, or clinics. On the complementary side, Cap. 134 “Dangerous Drugs Ordinance” rules that nobody can possess poison listed in “Schedule 1” or be fined or imprisoned for up to 7 years.
 
 
 #### Hong Kong National Security Law & Legislative Reform
@@ -175,7 +175,7 @@ Currently, there are a total of 66 articles inside the Hong Kong National Securi
 
 As of writing, no court judgements or valuable legislative perspectives give valid explanations and justification for cyber crimes charges using the Hong Kong National Security Law.
 
-The Law Reform Commission of Hong Kong has gathered a cybercrime-specific legislative reforming committee[15]. On July 2022, the sub-committee published a consultation paper[16]. Inside, it proposes five cybercrime categories: “illegal access to program or data”, “illegal interception of computer data”, “illegal interference of computer data”, “illegal interference of computer system”, and “making available or possessing a device or data for committing a crime” in the documents from the committee.
+The Law Reform Commission of Hong Kong has gathered a cybercrime-specific legislative reforming committee[^15]. On July 2022, the sub-committee published a consultation paper[^16]. Inside, it proposes five cybercrime categories: “illegal access to program or data”, “illegal interception of computer data”, “illegal interference of computer data”, “illegal interference of computer system”, and “making available or possessing a device or data for committing a crime” in the documents from the committee.
 
 
 ### **Reported cases of internet censorship**
@@ -183,9 +183,9 @@ The Law Reform Commission of Hong Kong has gathered a cybercrime-specific legisl
 
 #### ISP officially confirms national censorship
 
-The first censorship happened in January 2021[17][18][19]. The website “HKChronicles” displays doxxed personal information of police officers, pro-Beijing members of the Legislative Council, and a revelation of graphics and videos depicting police brutalities since the 2019 Anti-ELAB(Anti Extradition Law Amendment Bill) social movement.
+The first censorship happened in January 2021[^17] [^18] [^19]. The website “HKChronicles” displays doxxed personal information of police officers, pro-Beijing members of the Legislative Council, and a revelation of graphics and videos depicting police brutalities since the 2019 Anti-ELAB(Anti Extradition Law Amendment Bill) social movement.
 
-Later that month, a local major Internet Service Provider(ISP), “Hong Kong Broadband Network”, responded to media inquiries[20][21], affirming their execution of censorship was responding to the request from the Hong Kong Police Force on the grounds of National Security. It is the first time a local ISP has come out and revealed that authorities have been exercising administrative power granted by the Hong Kong National Security Law to perform censorship nationwide. Other local ISPs have not responded to media inquiries directly, only stating that the company will follow local regulations[22].
+Later that month, a local major Internet Service Provider(ISP), “Hong Kong Broadband Network”, responded to media inquiries[^20] [^21], affirming their execution of censorship was responding to the request from the Hong Kong Police Force on the grounds of National Security. It is the first time a local ISP has come out and revealed that authorities have been exercising administrative power granted by the Hong Kong National Security Law to perform censorship nationwide. Other local ISPs have not responded to media inquiries directly, only stating that the company will follow local regulations[^22].
 
 
 ## Examining internet censorship in Hong Kong
@@ -194,12 +194,9 @@ A group of independent Hong Kong researchers, in collaboration with the Sinar Pr
 
 The sections below document the findings of this study.
 
-
 ### **Findings**
 
 This study collected network measurements through OONI Probe software tests performed across different local vantage points in Hong Kong between January 1, 2022, and June 30, 2022. The tests resulted in four types of results:
-
-
 
 * **OK**: Successful measurements (i.e. no sign of internet censorship)
 * **Anomaly**: Measurements that provided signs of potential blocking (however, false 
@@ -207,12 +204,9 @@ This study collected network measurements through OONI Probe software tests perf
 * **Confirmed**: Measurements from automatically confirmed blocked websites (e.g. a block page was served)
 * **Failure**: Failed experiments 
 
-
 #### Blocking of Websites
 
 While there had been no confirmed blocked websites on OONI during the six-month period,  censorship was found across four websites based on news reports and measurements on OONI Explorer:
-
-
 
 * **Blocking of a website about doxxed pro-Beijing individuals and police officers.** The Hong Kong authorities have blocked access to hkchronicles.com. A website created by Naomi Chan to display personal information about individuals with a pro-Beijing political stance, police officers, and their family members in Hong Kong.
 * **Blocking of a museum website about the Tiananmen Square massacre.** The Hong Kong authorities, without public denying, blocked access to 8964museum.com, created by academics and pro-democratic individuals, to observe the remembrance of the “June 4 Incident” back at 1989 China Tiananmen Square.
@@ -287,9 +281,9 @@ The following list is the foreign Hong Kong ISPs probed within the above said pe
 | AS206264 | AMARUTU-TECHNOLOGY          |                                      | SC                           | 38                    |
 | AS398704 | STACKS-INC-01               |                                      | US                           | 21                    |
 
-At the beginning of 2021, Hong Kong authorities had, first in history, executed the administrative power to censor political and dissident-related websites. The first website being censored was “HKChronicles”, happening at noon on January 6, 2021[23]. Netizens of Hong Kong started experiencing a widespread problem of being unable to browse this website. A local Internet Service Provider, “Hong Kong Broadband Network”, later officially confirmed the censorship, stating their action was responding to the executive decisions from the Hong Kong Police Force and also relevant legistlations[20][21].
+At the beginning of 2021, Hong Kong authorities had, first in history, executed the administrative power to censor political and dissident-related websites. The first website being censored was “HKChronicles”, happening at noon on January 6, 2021[^23]. Netizens of Hong Kong started experiencing a widespread problem of being unable to browse this website. A local Internet Service Provider, “Hong Kong Broadband Network”, later officially confirmed the censorship, stating their action was responding to the executive decisions from the Hong Kong Police Force and also relevant legistlations[^20] [^21].
 
-Since then, at least three more websites and multiple aliases of the censored website have been blocked[24][25][26] inside Hong Kong across the entire year of 2021 and have remained until now. By analysing OONI measurements collected over the first half of 2022, it is possible to detect and inspect how websites are being blocked in the country.
+Since then, at least three more websites and multiple aliases of the censored website have been blocked[^24] [^25] [^26] inside Hong Kong across the entire year of 2021 and have remained until now. By analysing OONI measurements collected over the first half of 2022, it is possible to detect and inspect how websites are being blocked in the country.
 
 The following charts depict precisely the four known censored websites with their seven domain names out of 2228 domains tested. The seven domains by category are as follows:
 
@@ -310,7 +304,6 @@ Note: [blockedbyhk.com](http://blockedbyhk.com), [goodhope.school](https://goodh
 ##### Censorship technologies
 
 The following charts depict precisely the four known censored websites with their seven domain names.
-
 
 ```
 Types of Blocking
@@ -337,25 +330,21 @@ These are all blocking types related to TLS:
 - tls.connection_reset - a reset packet was seen after the client sent the ClientHello packet
 - tls.connection_closed - the connection was closed after the ClientHello
 - tls.connection_timeout - the connection timed out after the ClientHello
+
 All of the above can also have the _after_hello suffix, indicating that the event happened after the client sent the ClientHello packet
 - tls.mitm - The DNS is consistent, but the TLS certificate validation failed. This suggest a TLS man-in-the-middle
 - tls.generic_failure - generic error from legacy OONI probes
 ```
 
-
-
 ![](images/image2.png)
 
-(Fig.1 - Censorship Methodologies by local ISPs with respect to the four websites)
-
+Figure 1: Censorship Methodologies by local ISPs with respect to the four websites
 
 ![](images/image3.png)
 
-(Fig.2 - Censorship Methodologies vs All nation-wide test results by local ISPs including OK and Invalid results)
+Figure 2: Censorship Methodologies vs All nation-wide test results by local ISPs including OK and Invalid results
 
 From January to June 2022, there are a total of 12 ASNs possessed by six network operators:
-
-
 
 * AS4515 & AS4760 & AS38819 - PCCW HKT
 * AS9231 & AS131872 - China Mobile Hong Kong
@@ -364,26 +353,18 @@ From January to June 2022, there are a total of 12 ASNs possessed by six network
 * AS9908 - HK Cable TV
 * AS17924 - SmarTone Mobile Communications
 
-Among OONI measurements collected over this period, more than 3000 tests were performed on all these ASNs for these four censored websites. Notably, AS4515, owned by PCCW HKT, is a network primarily serving the finance, business industry and public sectors, such as AASTOCKS.COM, Ruijiang Group, Cathay Pacific, The Bank of East Asia, and more[27]. By comparing figures 1 and 2 specifically on this ASN, it clearly shows no signs of internet traffic in these service and sector categories being censored or altered in a way that complies with the executive order issued by local authorities.
-
+Among OONI measurements collected over this period, more than 3000 tests were performed on all these ASNs for these four censored websites. Notably, AS4515, owned by PCCW HKT, is a network primarily serving the finance, business industry and public sectors, such as AASTOCKS.COM, Ruijiang Group, Cathay Pacific, The Bank of East Asia, and more[^27]. By comparing figures 1 and 2 specifically on this ASN, it clearly shows no signs of internet traffic in these service and sector categories being censored or altered in a way that complies with the executive order issued by local authorities.
 
 ![](images/image4.png)
-
-
-(Fig. 3 - DNS censorship/anomaly results by local ISPs)
-
+Figure 3: DNS censorship/anomaly results by local ISPs
 
 ![](images/image5.png)
-
-
-(Fig. 4 - HTTP censorship by local ISPs)
-
+Figure 4: HTTP censorship by local ISPs
 
 ![](images/image6.png)
+Figure 5: TCP and TLS censorship/interference by local ISPs
 
 The broadly used censorship method in Hong Kong for the censored websites in scope is “DNS tampering”, followed by very little TCP and TLS connection interference. 
-
-(Fig. 5 - TCP and TLS censorship/interference by local ISPs)
 
 Last, by comparing Figures 3, 4 and 5 it tells The result also suggests that residential use connectivity is censored while commercial and public sectors can be largely immune.
 
@@ -419,10 +400,9 @@ Note: Anomalies detected from testing Tor Snowflake on AS4760 have been removed 
 
 ## Acknowledgement of Limitations
 
-The examination of the findings of this study is limited to network measurements that were collected[28] from January 1 to June 30, 2022, to examine the most recent censorship trends and events and do not necessarily reflect a comprehensive view of internet censorship in Hong Kong. The test lists included a limited number of websites and it may be possible that websites outside of the lists are blocked.
+The examination of the findings of this study is limited to network measurements that were collected[^28] from January 1 to June 30, 2022, to examine the most recent censorship trends and events and do not necessarily reflect a comprehensive view of internet censorship in Hong Kong. The test lists included a limited number of websites and it may be possible that websites outside of the lists are blocked.
 
 Although the network measurements were collected from multiple local vantage points in Hong Kong, the running of OONI software testing was not consistent across all networks.
-
 
 ## Conclusion
 
@@ -434,17 +414,16 @@ As part of this study, four websites with multiple of their aliases domain names
 
 Given the limited transparency around information controls in Hong Kong and the potential implications they may have on human rights, we encourage ISPs to disclose their motivation and justification behind blocking sites and services. We also encourage public debate based on the findings of this study around the necessity and proportionality of information controls.
 
-
 ### **Contribute to the study**
 
 There are various ways one may contribute to the OONI measurements:
 
-* Testing: You may test on [various platforms](https://ooni.org/install/), both on Mobile (iOS and Android) and Desktop, including on the CLI on Linux platforms. The domains you test can be either randomly selected from the [Citizenlab Test Lists](https://github.com/citizenlab/test-lists) or custom test lists specific to your needs.*
+* Testing: You may test on [various platforms](https://ooni.org/install/), both on Mobile (iOS and Android) and Desktop, including on the CLI on Linux platforms. The domains you test can be either randomly selected from the [Citizen Lab Test Lists](https://github.com/citizenlab/test-lists) or custom test lists specific to your needs.*
 * Contribute to the test lists: You can contribute to the test lists on GitHub or on [OONI](https://test-lists.ooni.org/).
 * Translate the OONI Probe to your local language [here](https://www.transifex.com/otf/ooniprobe/).
 * Participate in community discussions on the [OONI’s Slack channel](https://slack.ooni.org/)
 
-*Note: Specific to Hong Kong users, it is recommended to avoid using China-based DNS resolvers and instead, to use an alternative resolver or an encrypted DNS solution like DoH.
+Note: Specific to Hong Kong users, it is recommended to avoid using China-based DNS resolvers and instead, to use an alternative resolver or an encrypted DNS solution like DoH.
 
 
 ## Acknowledgements
@@ -461,8 +440,7 @@ We would like to thank the OONI team for developing OONI Probe and publishing me
 | **ISP**          | An Internet Service Provider (ISP) is an organization that provides services for accessing and using the internet. ISPs can be state-owned, commercial, community-owned, non-profit, or otherwise privately owned. Vodafone, AT&T, Airtel, and MTN are examples of ISPs.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **Middle boxes** | A middlebox is a computer networking device that transforms, inspects, filters, or otherwise manipulates traffic for purposes other than packet forwarding. Many Internet Service Providers (ISPs) around the world use middleboxes to improve network performance, provide users with faster access to websites, and for a number of other networking purposes. Sometimes though, middleboxes are also used to implement internet censorship and/or surveillance. The OONI Probe app includes two tests designed to measure networks with the aim of identifying the presence of middleboxes.                                                                                                                                                                                                                                                           |
 | **TCP**          | The Transmission Control Protocol (TCP) is one of the main protocols on the internet. To connect to a website, your computer needs to establish a TCP connection to the address of that website. TCP works on top of the Internet Protocol (IP), which defines how to address computers on the internet. When speaking to a machine over the TCP protocol you use an IP and port pair, which looks something like this: 10.20.1.1:8080. The main difference between TCP and (another very popular protocol called) UDP is that TCP has the notion of a “connection”, making it a “reliable” transport protocol.                                                                                                                                                                                                                                          |
-| **TLS**          | Transport Layer Security (TLS) – also referred to as “SSL” – is a cryptographic protocol that allows you to maintain a secure, encrypted connection between your computer and an internet service. When you connect to a website through TLS, the address of the website will begin with HTTPS (such as https://www.facebook.com/), instead of HTTP.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-
+| **TLS**          | Transport Layer Security (TLS) – also referred to as “SSL” – is a cryptographic protocol that allows you to maintain a secure, encrypted connection between your computer and an internet service. When you connect to a website through TLS, the address of the website will begin with HTTPS (such as https://www.facebook.com/), instead of HTTP.                                                                                                                                                                                                                                                                                                                                          
 A comprehensive glossary related to OONI can be accessed here: [https://ooni.org/support/glossary/](https://ooni.org/support/glossary/). 
 
 
@@ -492,7 +470,7 @@ It is important to note that the findings are only applicable to the websites th
 
 ### **How are the network measurements analysed?**
 
-OONI processes the following types of data through its [data pipeline](https://github.com/ooni/pipeline):
+OONI processes the following types of data through its data pipeline: https://github.com/ooni/pipeline.
 
 
 #### Country code
@@ -512,8 +490,7 @@ OONI by default collects the time and date of when tests were run to evaluate wh
 
 #### Categories
 
-The 32 website categories are based on the Citizenlab test lists: [https://github.com/citizenlab/test-lists](https://github.com/citizenlab/test-lists). As not all websites tested on OONI are on these test lists, these websites would have unclassified categories.
-
+The 31 website categories are based on the Citizenlab test lists: [https://github.com/citizenlab/test-lists](https://github.com/citizenlab/test-lists). As not all websites tested on OONI are on these test lists, these websites would have unclassified categories.
 
 | **No.** | **Category Description**              | **Code** | **Description**                                                                                                                                                                                                                                                                                 |
 |-----------|----------------------------|------------|--------------------------------------------------|
@@ -561,7 +538,6 @@ The types of network measurements that OONI collects depend on the types of test
 
 In order to derive meaning from the measurements collected, OONI processes the data types mentioned above to answer the following questions:
 
-
 * Which types of OONI tests were run?
 * In which countries were those tests run?
 * In which networks were those tests run?
@@ -573,8 +549,6 @@ In order to derive meaning from the measurements collected, OONI processes the d
 * How did network interference occur?
 
 To answer such questions, OONI’s pipeline is designed to answer such questions by processing network measurements data to enable the following:
-
-
 
 * Attributing measurements to a specific country.
 * Attributing measurements to a specific network within a country.
@@ -595,7 +569,6 @@ Upon collection of more network measurements, OONI continues to develop its data
 The full list of country-specific test lists containing confirmed blocked websites in Myanmar, Cambodia, Hong Kong, Indonesia, Malaysia, Philippines, Thailand, and Vietnam can be viewed here: [https://github.com/citizenlab/test-lists](https://github.com/citizenlab/test-lists). 
 
 
-
 #### Confirmed vs Heuristics
 
 Confirmed OONI measurements were based on blockpages with fingerprints recorded here [https://github.com/ooni/blocking-fingerprints](https://github.com/ooni/blocking-fingerprints). 
@@ -604,10 +577,7 @@ Hence, heuristics as below were run on raw measurements on all countries under i
 
 Firstly, IP addresses with more than 10 domains were identified. Then each of the IP address was checked for the following:
 
-
-
 ![](images/image7.png)
-
 
 When blocking is determined, any domain redirected to these IP addresses would be marked as ‘dns.confirmed’. 
 
@@ -630,58 +600,58 @@ Sinar Project is a civic tech initiative using open technology, open data and po
 
 ## Footnotes and Citations
 
-[1]: 中华人民共和国行政区划. (2005). http://www.gov.cn/test/2005-06/15/content_18253.htm
+[^1]: 中华人民共和国行政区划. (2005). http://www.gov.cn/test/2005-06/15/content_18253.htm
 
-[2]: Snapshot of Hong Kong. (2022). https://www.censtatd.gov.hk/en/scode460.html
+[^2]: Snapshot of Hong Kong. (2022). https://www.censtatd.gov.hk/en/scode460.html
 
-[3]: Hong Kong - The World Factbook. (2022). https://www.cia.gov/the-world-factbook/countries/hong-kong/
+[^3]: Hong Kong - The World Factbook. (2022). https://www.cia.gov/the-world-factbook/countries/hong-kong/
 
-[4]: Speech signing the Joint Declaration | Margaret Thatcher Foundation. (1984, December 19). https://www.margaretthatcher.org/document/105817
+[^4]: Speech signing the Joint Declaration | Margaret Thatcher Foundation. (1984, December 19). https://www.margaretthatcher.org/document/105817
 
-[5]: Horace Yeung, & Flora Huang. (2015). “One Country Two Systems” as Bedrock of Hong Kong’s Continued Success: Fiction or Reality? Boston College International and Comparative Law Review, 38(2), 191. http://repository.essex.ac.uk/18431/
+[^5]: Horace Yeung, & Flora Huang. (2015). “One Country Two Systems” as Bedrock of Hong Kong’s Continued Success: Fiction or Reality? Boston College International and Comparative Law Review, 38(2), 191. http://repository.essex.ac.uk/18431/
 
-[6]: Basic Law - Home (EN). (n.d.). https://www.basiclaw.gov.hk/en/index/
+[^6]: Basic Law - Home (EN). (n.d.). https://www.basiclaw.gov.hk/en/index/
 
-[7]: Cheng, E. W. (2016). Street Politics in a Hybrid Regime: The Diffusion of Political Activism in Post-colonial Hong Kong. The China Quarterly, 226, 383–406. https://doi.org/10.1017/s0305741016000394
+[^7]: Cheng, E. W. (2016). Street Politics in a Hybrid Regime: The Diffusion of Political Activism in Post-colonial Hong Kong. The China Quarterly, 226, 383–406. https://doi.org/10.1017/s0305741016000394
 
-[8]: Basic Law - Basic Law - Chapter II (EN). (n.d.). https://www.basiclaw.gov.hk/en/basiclaw/chapter2.html
+[^8]: Basic Law - Basic Law - Chapter II (EN). (n.d.). https://www.basiclaw.gov.hk/en/basiclaw/chapter2.html
 
-[9]: Improve Electoral System - Candidate Eligibility Review Mechanism. (n.d.). https://www.cmab.gov.hk/improvement/en/qualification-review/index.html
+[^9]: Improve Electoral System - Candidate Eligibility Review Mechanism. (n.d.). https://www.cmab.gov.hk/improvement/en/qualification-review/index.html
 
-[10]: Presidium elected, agenda set for China’s annual legislative session. (n.d.). http://www.npc.gov.cn/englishnpc/c23934/202005/ce05b9dfce7546209e6630e7ba73a653.shtml
+[^10]: Presidium elected, agenda set for China’s annual legislative session. (n.d.). http://www.npc.gov.cn/englishnpc/c23934/202005/ce05b9dfce7546209e6630e7ba73a653.shtml
 
-[11]: Regan, H. (2020, June 30). China passes sweeping Hong Kong national security law. CNN. https://edition.cnn.com/2020/06/29/china/hong-kong-national-security-law-passed-intl-hnk/index.html
+[^11]: Regan, H. (2020, June 30). China passes sweeping Hong Kong national security law. CNN. https://edition.cnn.com/2020/06/29/china/hong-kong-national-security-law-passed-intl-hnk/index.html
 
-[12]: Basic Law - Basic Law - Chapter III (EN). (n.d.). https://www.basiclaw.gov.hk/en/basiclaw/chapter3.html
+[^12]: Basic Law - Basic Law - Chapter III (EN). (n.d.). https://www.basiclaw.gov.hk/en/basiclaw/chapter3.html
 
-[13]: 港航網上系統現漏洞　男乘客通告不果反被指取用資料　准守行為. (2019, July 3). 香港01. https://web.archive.org/web/20221021043142/https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/347780/%E6%B8%AF%E8%88%AA%E7%B6%B2%E4%B8%8A%E7%B3%BB%E7%B5%B1%E7%8F%BE%E6%BC%8F%E6%B4%9E-%E7%94%B7%E4%B9%98%E5%AE%A2%E9%80%9A%E5%91%8A%E4%B8%8D%E6%9E%9C%E5%8F%8D%E8%A2%AB%E6%8C%87%E5%8F%96%E7%94%A8%E8%B3%87%E6%96%99-%E5%87%86%E5%AE%88%E8%A1%8C%E7%82%BA
+[^13]: 港航網上系統現漏洞　男乘客通告不果反被指取用資料　准守行為. (2019, July 3). 香港01. https://web.archive.org/web/20221021043142/https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/347780/%E6%B8%AF%E8%88%AA%E7%B6%B2%E4%B8%8A%E7%B3%BB%E7%B5%B1%E7%8F%BE%E6%BC%8F%E6%B4%9E-%E7%94%B7%E4%B9%98%E5%AE%A2%E9%80%9A%E5%91%8A%E4%B8%8D%E6%9E%9C%E5%8F%8D%E8%A2%AB%E6%8C%87%E5%8F%96%E7%94%A8%E8%B3%87%E6%96%99-%E5%87%86%E5%AE%88%E8%A1%8C%E7%82%BA
 
-[14]: Pharmacy and Poisons (Amendment) (No. 5) Regulation 2022. (n.d.). https://www.legco.gov.hk/yr2022/english/subleg/negative/2022ln194-e.pdf
+[^14]: Pharmacy and Poisons (Amendment) (No. 5) Regulation 2022. (n.d.). https://www.legco.gov.hk/yr2022/english/subleg/negative/2022ln194-e.pdf
 
-[15]: Cybercrime Sub-committee of the Law Reform Commission. (n.d.). https://www.hkreform.gov.hk/en/projects/cybercrime.htm
+[^15]: Cybercrime Sub-committee of the Law Reform Commission. (n.d.). https://www.hkreform.gov.hk/en/projects/cybercrime.htm
 
-[16]: Cybercrime Sub-committee of the Law Reform Commission. (2022). Cyber-Dependent Crimes and Jurisdictional Issues: (HKLRC Consultation Paper). The Law Reform Commission of Hong Kong. https://www.hkreform.gov.hk/en/publications/cybercrime.htm
+[^16]: Cybercrime Sub-committee of the Law Reform Commission. (2022). Cyber-Dependent Crimes and Jurisdictional Issues: (HKLRC Consultation Paper). The Law Reform Commission of Hong Kong. https://www.hkreform.gov.hk/en/publications/cybercrime.htm
 
-[17]: Kwan, R. (2021b, September 29). In a first under security law, Hong Kong police order telecom firms to block anti-gov’t doxing website – report. Hong Kong Free Press HKFP. https://hongkongfp.com/2021/01/11/in-a-first-under-security-law-hong-kong-police-order-telecoms-firms-to-block-anti-govt-doxing-website/
+[^17]: Kwan, R. (2021b, September 29). In a first under security law, Hong Kong police order telecom firms to block anti-gov’t doxing website – report. Hong Kong Free Press HKFP. https://hongkongfp.com/2021/01/11/in-a-first-under-security-law-hong-kong-police-order-telecoms-firms-to-block-anti-govt-doxing-website/
 
-[18]: Kwan, R. (2021, May 26). Anti-gov’t website blocked on national security grounds acquires new domain amid fears of further internet censorship in Hong Kong. Hong Kong Free Press HKFP. https://hongkongfp.com/2021/01/15/anti-govt-website-blocked-on-national-security-grounds-acquires-new-domain-amid-fears-of-further-internet-censorship-in-hong-kong/
+[^18]: Kwan, R. (2021, May 26). Anti-gov’t website blocked on national security grounds acquires new domain amid fears of further internet censorship in Hong Kong. Hong Kong Free Press HKFP. https://hongkongfp.com/2021/01/15/anti-govt-website-blocked-on-national-security-grounds-acquires-new-domain-amid-fears-of-further-internet-censorship-in-hong-kong/
 
-[19]: Mozur, P., & Krolik, A. (2021, January 9). A Hong Kong Website Gets Blocked, Raising Censorship Fears. The New York Times. https://www.nytimes.com/2021/01/09/technology/hong-kong-website-blocked.html
+[^19]: Mozur, P., & Krolik, A. (2021, January 9). A Hong Kong Website Gets Blocked, Raising Censorship Fears. The New York Times. https://www.nytimes.com/2021/01/09/technology/hong-kong-website-blocked.html
 
-[20]: Reuters. (2021, January 14). Hong Kong telecoms provider blocks website for first time citing security law. Reuters. https://www.reuters.com/world/china/hong-kong-telecoms-provider-blocks-website-first-time-citing-security-law-2021-01-14/
+[^20]: Reuters. (2021, January 14). Hong Kong telecoms provider blocks website for first time citing security law. Reuters. https://www.reuters.com/world/china/hong-kong-telecoms-provider-blocks-website-first-time-citing-security-law-2021-01-14/
 
-[21]: Standard, T. (n.d.). HKBN blocks protest website Hong Kong Chronicles. The Standard. https://www.thestandard.com.hk/breaking-news/section/4/163412/HKBN-blocks-protest-website-Hong-Kong-Chronicles
+[^21]: Standard, T. (n.d.). HKBN blocks protest website Hong Kong Chronicles. The Standard. https://www.thestandard.com.hk/breaking-news/section/4/163412/HKBN-blocks-protest-website-Hong-Kong-Chronicles
 
-[22]: Pang, J. (2021, January 15). Hong Kong censorship debate grows as internet firm says can block “illegal acts.” Reuters. https://www.reuters.com/business/media-telecom/hong-kong-censorship-debate-grows-internet-firm-says-can-block-illegal-acts-2021-01-15/
+[^22]: Pang, J. (2021, January 15). Hong Kong censorship debate grows as internet firm says can block “illegal acts.” Reuters. https://www.reuters.com/business/media-telecom/hong-kong-censorship-debate-grows-internet-firm-says-can-block-illegal-acts-2021-01-15/
 
-[23]: Chan, N. (2021, January 8). Announcement for the connection problem faced by Hong Kong users. HKChronicles. https://hkchronicles.com/d/view/announcement-on-blockage
+[^23]: Chan, N. (2021, January 8). Announcement for the connection problem faced by Hong Kong users. HKChronicles. https://hkchronicles.com/d/view/announcement-on-blockage
 
-[24]: 孔繁栩, & 鄭秋玲. (2021, June 18). 國安法一年｜「香港約章」網站再被禁　消息︰港電訊商被勒令封網. 香港01. https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/639845/%E5%9C%8B%E5%AE%89%E6%B3%95%E4%B8%80%E5%B9%B4-%E9%A6%99%E6%B8%AF%E7%B4%84%E7%AB%A0-%E7%B6%B2%E7%AB%99%E5%86%8D%E8%A2%AB%E7%A6%81-%E6%B6%88%E6%81%AF-%E6%B8%AF%E9%9B%BB%E8%A8%8A%E5%95%86%E8%A2%AB%E5%8B%92%E4%BB%A4%E5%B0%81%E7%B6%B2
+[^24]: 孔繁栩, & 鄭秋玲. (2021, June 18). 國安法一年｜「香港約章」網站再被禁　消息︰港電訊商被勒令封網. 香港01. https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/639845/%E5%9C%8B%E5%AE%89%E6%B3%95%E4%B8%80%E5%B9%B4-%E9%A6%99%E6%B8%AF%E7%B4%84%E7%AB%A0-%E7%B6%B2%E7%AB%99%E5%86%8D%E8%A2%AB%E7%A6%81-%E6%B6%88%E6%81%AF-%E6%B8%AF%E9%9B%BB%E8%A8%8A%E5%95%86%E8%A2%AB%E5%8B%92%E4%BB%A4%E5%B0%81%E7%B6%B2
 
-[25]: 「六四記憶．人權博物館」網站疑被封　由支聯會眾籌設立　香港網民須「翻牆」瀏覽 | 立場報道 | 立場新聞. (n.d.). 立場新聞 Stand News. https://web.archive.org/web/20211021192323/https://www.thestandnews.com/politics/%E5%85%AD%E5%9B%9B%E8%A8%98%E6%86%B6%E4%BA%BA%E6%AC%8A%E5%8D%9A%E7%89%A9%E9%A4%A8%E7%B6%B2%E7%AB%99%E7%96%91%E8%A2%AB%E5%B0%81-%E7%94%B1%E6%94%AF%E8%81%AF%E6%9C%83%E7%9C%BE%E7%B1%8C%E8%A8%AD%E7%AB%8B-%E9%A6%99%E6%B8%AF%E7%B6%B2%E6%B0%91%E9%A0%88%E7%BF%BB%E7%89%86%E7%80%8F%E8%A6%BD
+[^25]: 「六四記憶．人權博物館」網站疑被封　由支聯會眾籌設立　香港網民須「翻牆」瀏覽 | 立場報道 | 立場新聞. (n.d.). 立場新聞 Stand News. https://web.archive.org/web/20211021192323/https://www.thestandnews.com/politics/%E5%85%AD%E5%9B%9B%E8%A8%98%E6%86%B6%E4%BA%BA%E6%AC%8A%E5%8D%9A%E7%89%A9%E9%A4%A8%E7%B6%B2%E7%AB%99%E7%96%91%E8%A2%AB%E5%B0%81-%E7%94%B1%E6%94%AF%E8%81%AF%E6%9C%83%E7%9C%BE%E7%B1%8C%E8%A8%AD%E7%AB%8B-%E9%A6%99%E6%B8%AF%E7%B6%B2%E6%B0%91%E9%A0%88%E7%BF%BB%E7%89%86%E7%80%8F%E8%A6%BD
 
-[26]: 明報. (n.d.). Hong Kong Watch網頁港無法入 稱料警要求 - 20220215 - 港聞. 明報新聞網 - 每日明報 Daily News. https://web.archive.org/web/20220215003834/https://news.mingpao.com/pns/%E6%B8%AF%E8%81%9E/article/20220215/s00002/1644861077099/hong-kong-watch%E7%B6%B2%E9%A0%81%E6%B8%AF%E7%84%A1%E6%B3%95%E5%85%A5-%E7%A8%B1%E6%96%99%E8%AD%A6%E8%A6%81%E6%B1%82
+[^26]: 明報. (n.d.). Hong Kong Watch網頁港無法入 稱料警要求 - 20220215 - 港聞. 明報新聞網 - 每日明報 Daily News. https://web.archive.org/web/20220215003834/https://news.mingpao.com/pns/%E6%B8%AF%E8%81%9E/article/20220215/s00002/1644861077099/hong-kong-watch%E7%B6%B2%E9%A0%81%E6%B8%AF%E7%84%A1%E6%B3%95%E5%85%A5-%E7%A8%B1%E6%96%99%E8%AD%A6%E8%A6%81%E6%B1%82
 
-[27]: APNIC - Query the APNIC Whois Database. (n.d.). https://wq.apnic.net/apnic-bin/whois.pl?searchtext=AS4515
+[^27]: APNIC - Query the APNIC Whois Database. (n.d.). https://wq.apnic.net/apnic-bin/whois.pl?searchtext=AS4515
 
-[28]: OONI Explorer - Hong Kong. (n.d.). https://explorer.ooni.org/country/HK
+[^28]: OONI Explorer - Hong Kong. (n.d.). https://explorer.ooni.org/country/HK

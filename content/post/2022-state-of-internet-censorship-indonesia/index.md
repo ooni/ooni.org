@@ -152,16 +152,16 @@ categories: ["report"]
 
 **Fixed-line broadband:** 11.7 million subscriptions[^6]
 
-**Major mobile ISPs: **Telkomsel (169.5 mil users), Indosat (60.3 mil), and XL Axiata (57.89 mil) – together controlling more than 80% of the mobile internet market[^7] 
+**Major mobile ISPs:** Telkomsel (169.5 mil users), Indosat (60.3 mil), and XL Axiata (57.89 mil) – together controlling more than 80% of the mobile internet market[^7] 
 
-**Major fixed-line ISPs: **Indihome (67.5%), First Media (3.88%), MNC (2.88%). There is also a high percentage of users using varieties of regional ISPs (12.8%)[^8]
+**Major fixed-line ISPs:** Indihome (67.5%), First Media (3.88%), MNC (2.88%). There is also a high percentage of users using varieties of regional ISPs (12.8%)[^8]
 
 The government-linked Telkom Indonesia operates fixed-line broadband services as Indihome, Astinet, and DigiConnect, amongst others, and has a majority ownership in the mobile operator Telkomsel. Singapore state-owned Singtel also has significant ownership of Telkomsel. The joint venture between Qatari government-linked Ooredoo and Hong Kong-based CK Hutchison has majority ownership of Indosat while XL is a subsidiary of Axiata, a Malaysian government-linked corporation. 
 
 In the eastern Indonesian provinces of Maluku, North Maluku, West Papua, and Papua, Telkomsel owns most base transceiver station (BTS) towers,[^9] making the company the dominant player in the region. Based on interviews conducted in 2019 with a Telkomsel representative and government officials in three localities in Maluku, the connectivity in the province relies on Telkomsel network for individual users and a government-subsidised network, which collaborate with either local ISPs or Telkom Indonesia.[^10] Telkom Indonesia remains a market leader in Indonesia’s network landscape since its founding.
 
 
-### **Political context**
+### Political context
 
 Hypernationalist discourses have been growing in Indonesia over the past decade since the election of President Jokowi (Joko Widodo) in 2014, especially so after the blasphemy conviction of ethnic Chinese-Christian Jakarta governor, Basuki “Ahok” Tjahaja Purnama during his re-election campaign in 2017.[^11] As a measure to downplay ideologies of political Islam,[^12] and as a response to terrorist attacks and violent extremism that have scarred the country since its democratic reform in 1998, Jokowi’s administration has been increasingly espousing the idea of Indonesia as diverse multicultural body politic being united together both by respect to a perceived uniqueness that borders cultural tokenism and the rule of a strong yet benevolent government. 
 
@@ -176,7 +176,7 @@ Like other countries in Southeast Asia, the information control situation in Ind
 Human rights advocacy remains a challenge in the country. In addition to multiple arrests, surveillance, and troll and doxxing attacks,[^27] cases of data breach in public and private sectors have occurred nine times in 2022 alone, even more in the preceding years.[^28] The lack of data protection fuels the work of political trolls, while the recent law on Personal Data Protection is notable for allowing even more restriction, as will be discussed below. To add insult to the injury, some human rights activists support disbandment of organisations deemed threatening to national security,[^29] and some others who now work for the government have defended government censorship in public.[^30] Some academics accused the activists for building a patronage network with political elites to secure their economic interest.[^31] 
 
 
-### **Legal environment**
+### Legal environment
 
 
 #### Freedom of expression
@@ -279,7 +279,7 @@ A PSE must take down prohibited content within 24 hours – or 4 hours ​​in 
 Advocates for internet freedom raised concerns over encroachment on online freedom of expression and opinion.[^50] The definition of prohibited content as anything that may cause anxiety in society (“_meresahkan masyarakat_”) and disturbs public order (“_mengganggu ketertiban umum_”) is too broad and may be used to curtail dissenting voices. Many activists are also concerned that state apparatus may abuse their supervision and law enforcement powers under the law to target human rights defenders, especially those championing the rights of women, LGBTQ+ persons, and ethnic and religious minorities. The law, many activists argued, is inconsistent with the Indonesian constitution and the country's international human rights obligations.[^51]
 
 
-### **Cases of internet censorship **
+### Cases of internet censorship
 
 
 #### TrustPositif by Kominfo
@@ -321,7 +321,7 @@ This effort is a part of the re-emergence of Pancasila doctrine as the governmen
 ## Examining internet censorship in Indonesia
 
 
-### **Findings**
+### Findings
 
 
 #### Blocked websites
@@ -401,8 +401,7 @@ The table below illustrates the distribution of websites that were confirmed to 
 | www.tubev.sex             | 119          | 67 (56.3%)   | 6 (5.04%)       | 22 (18.49%)   | 24 (20.17%) |
 
 
-
-_ A sample of pornography websites blocked in Indonesia_
+Table: A sample of pornography websites blocked in Indonesia
 
 
 ##### Gambling
@@ -434,10 +433,7 @@ _ A sample of pornography websites blocked in Indonesia_
 | www.onlinegambling.com    | 119          | 67 (56.3%)  | 4 (3.36%)       | 22 (18.49%)   | 26 (21.85%) |
 | www.partypoker.com        | 119          | 62 (52.1%)  | 4 (3.36%)       | 26 (21.85%)   | 27 (22.69%) |
 
-
-
-_ A sample of gambling websites blocked in Indonesia_
-
+Table: A sample of gambling websites blocked in Indonesia
 
 ##### Anonymization and circumvention tools
 
@@ -469,8 +465,7 @@ _ A sample of gambling websites blocked in Indonesia_
 | www.megaproxy.com      | 207          | 0 (0%)      | 0 (0%)          | 5 (2.42%)     | 202 (97.58%) |
 
 
-
- _A sample of anonymization and circumvention websites blocked in Indonesia_
+Table: A sample of anonymization and circumvention websites blocked in Indonesia
 
 
 ##### LGBTQ+
@@ -503,8 +498,7 @@ _ A sample of gambling websites blocked in Indonesia_
 | bi.org                  | 49           | 24 (48.98%)  | 1 (2.04%)       | 5 (10.2%)     | 19 (38.78%) |
 
 
-
- _A sample of LGBTQ+ websites blocked in Indonesia_
+Table: A sample of LGBTQ+ websites blocked in Indonesia
 
 
 ##### News Media
@@ -535,8 +529,7 @@ These do not include three websites that were miscategorised as news media www.r
 
 
 
-
-_News media websites blocked in Indonesia_
+Table: News media websites blocked in Indonesia
 
 
 ##### Religion
@@ -567,8 +560,7 @@ _News media websites blocked in Indonesia_
 | mualaf-alhamdulillah.blogspot.com | 133          | 94 (70.68%)  | 1 (0.75%)       | 10 (7.52%)    | 28 (21.05%)  |
 
 
-
-_Websites related to religion blocked in Indonesia_
+Table: Websites related to religion blocked in Indonesia
 
 
 ##### Provocative Attire
@@ -600,8 +592,7 @@ _Websites related to religion blocked in Indonesia_
 | duniamalam168.com                  | 120          | 4 (3.33%)    | 1 (0.83%)       | 62 (51.67%)   | 53 (44.17%) |
 
 
-
-_Websites related to provocative attire blocked in Indonesia_
+Table: Websites related to provocative attire blocked in Indonesia
 
 
 ##### Human Rights Issues
@@ -636,8 +627,7 @@ These measurements include six websites incorrectly categorised as Terrorism and
 | www.bennywenda.org          | 117          | 72 (61.54%)  | 8 (6.84%)       | 20 (17.09%)   | 17 (14.53%)  |
 
 
-
-_Websites related to human rights issues blocked in Indonesia_
+Table: Websites related to human rights issues blocked in Indonesia
 
 
 ##### File and media sharing
@@ -670,8 +660,7 @@ _Websites related to human rights issues blocked in Indonesia_
 | www.speedtorrent.net | 131          | 73 (55.73%)  | 4 (3.05%)       | 22 (16.79%)   | 32 (24.43%)  |
 
 
-
-_File and media sharing websites blocked in Indonesia_
+Table: File and media sharing websites blocked in Indonesia
 
 
 #### Instant messaging and circumvention tools
@@ -691,8 +680,7 @@ Most measurements examining the reachability of instant messaging services (Face
 | Tor Snowflake      | 137          | –           | 118 (86.13%)    | 19 (13.87%)   | –          | 29       |
 
 
-
-_Summary of OONI Probe Web Connectivity measurement data for Indonesia from 1 January until 30 Jun 2022_
+Table: Summary of OONI Probe Web Connectivity measurement data for Indonesia from 1 January until 30 Jun 2022
 
 During the testing period from 1 January 2022 until 30 June 2022, more than 387,000 web connectivity measurements in Indonesia were collected using the OONI Probe. The distribution of measurements, however, is not consistent when compared month-to-month throughout the testing period with more than 70% collected in the second half. As a result of having significantly fewer measurements in the first half, the months of January, February, and March show a higher rate of blocking. This means that no inference can reliably be made whether internet censorship has improved or worsened in Indonesia over the six-month period. 
 
@@ -707,7 +695,7 @@ The measurements collected are also limited by the number of different ISPs cove
 Despite these limitations, the measurement data from OONI Probe is useful in providing a broad indication of the general depth and breadth of internet censorship in Indonesia. Similar studies in the future may overcome some of these limitations by deploying OONI Probe on more devices, running a consistent number of tests periodically, and having wider coverage of ISPs across Indonesia.
 
 
-### **Conclusion**
+### Conclusion
 
 As shown in the analysis of OONI Probe measurement data, the study found ample evidence of extensive internet censorship in Indonesia, especially websites relating to pornography, online gambling, anonymization and circumvention tools, and LGBTQ+ communities. Indonesia has an increasingly regimented internet censorship approach judging by how national laws and policies have changed in recent years. With the implementation of the PSE regulatory framework, the compliance burden of internet censorship is shifting from ISPs to other intermediaries including publishers, hosts, platform owners, app developers, and so on. 
 
@@ -716,15 +704,9 @@ This approach towards regulating the internet may result in further alienation a
 The expansion of TrustPositif as a centralised web filtering system is worrying not least because it will only make internet censorship in Indonesia more effective and efficient. The Indonesian network regulator is already coordinating with other non-state internet governing bodies like APJII and PANDI – the Indonesian domain name registry – to extend the use of TrustPositif. In promoting INSAN ("healthy and safe internet"), the regulator, ISPs, and other stakeholders must exercise considerable restraint so that any restriction does not infringe on the right to freedom of expression and opinion. If advocates are not vigilant about the creeping encroachment on online freedom of expression and opinion, Indonesia will move a step closer to having its own Great Firewall like China.[^79] The standard for what is "healthy" and "safe" on the internet should always be challenged and tested against normative human rights principles of legality, necessity, and proportionality.[^80] 
 
 
-
-
 ## Annex ID-1: Probed ISPs
 
-**Probed ISPs: **Biznet Networks (AS17451), CV Natanetwork Solution (AS138131), Hutchison CP Telecommunications, PT (AS45727), IAIN Walisongo Semarang (AS132638), Indosat Internet Network Provider (AS4761), Kementerian Riset dan Teknologi Badan Riset dan Inovasi Nasional (AS139968), Lembaga Ilmu Pengetahuan Indonesia - LIPI (AS45292), Linknet-Fastnet ASN (AS23700), Lintas Data Prima, PT (AS45305), Neuviz Net (AS18103), PT Asia Teknologi Solusi (AS56233), PT Bali Towerindo Sentra, Tbk (AS136119), PT Biznet Gio Nusantara (AS133800), PT Centrin Utama (AS9326), PT Citra Jelajah Informatika (AS131717), PT Cloud Hosting Indonesia (AS136052), PT Global Data Akses Persada (AS142368), PT Green Net Indonesia (AS138873), PT iForte Global Internet (AS17995), PT Ikhlas Cipta Teknologi (AS140457), PT Indonesia Comnets Plus (AS9341), PT Inovasi Global Mumpuni (AS55664), PT Jala Lintas Media (AS55685), PT Jaringan VNT Indonesia (AS59278), PT Jaringanku Sarana Nusantara (AS64300), PT Jembatan Citra Nusantara (AS23951), PT Media Sarana Data (AS55666), PT Mega Data Akses (AS142369), PT Mitra Lintas Multimedia (AS136093), PT Mora Telematika Indonesia (AS131111), PT Parsaoran Global Datatrans (AS58495), PT Quantum Tera Network (AS46023), PT Remala Abadi (AS38511), PT Shangkuriang Telekomunikasi Indonesia (AS137310), PT Solnet Indonesia (AS9422), PT Telekomunikasi Indonesia (AS7713), PT Telekomunikasi Indonesia (AS17974), PT Wireless Indonesia Win (AS18004), PT XL Axiata (AS24203), PT XL Axiata Tbk (AS17885), PT XL Axiata Tbk (AS139994), PT Adeaksa Indo Jayatama (AS138123), PT Artha Lintas Data Mandiri (AS137329), PT Cemerlang Multimedia (AS55699), PT Cipta Informatika Cemerlang (AS45295), PT Cyberindo Aditama (AS135478), PT Eka Mas Republik (AS63859), PT Fiber Networks Indonesia (AS58369), PT Hipernet Indodata (AS38758), PT Jinom Network Indonesia (AS138064), PT Jupiter Jala Arta (AS131775), PT Mahameru Media Nusantara (AS138100), PT MNC Kabel Mediacom (AS17670), PT Smartfren Telecom, Tbk (AS133798), PT Telekomunikasi Selular (AS23693), PT Total Info Kharisma (AS9228), PT Transhybrid Communication (AS24534), PT Wanriau Indoxp (AS45294), PT Yasmin Amanah Media (AS139967), Varnion Technology Semesta, PT (AS45287), M247 (AS9009), and Zenlayer Inc (AS21859).
-
-
-## 
-
+**Probed ISPs:** Biznet Networks (AS17451), CV Natanetwork Solution (AS138131), Hutchison CP Telecommunications, PT (AS45727), IAIN Walisongo Semarang (AS132638), Indosat Internet Network Provider (AS4761), Kementerian Riset dan Teknologi Badan Riset dan Inovasi Nasional (AS139968), Lembaga Ilmu Pengetahuan Indonesia - LIPI (AS45292), Linknet-Fastnet ASN (AS23700), Lintas Data Prima, PT (AS45305), Neuviz Net (AS18103), PT Asia Teknologi Solusi (AS56233), PT Bali Towerindo Sentra, Tbk (AS136119), PT Biznet Gio Nusantara (AS133800), PT Centrin Utama (AS9326), PT Citra Jelajah Informatika (AS131717), PT Cloud Hosting Indonesia (AS136052), PT Global Data Akses Persada (AS142368), PT Green Net Indonesia (AS138873), PT iForte Global Internet (AS17995), PT Ikhlas Cipta Teknologi (AS140457), PT Indonesia Comnets Plus (AS9341), PT Inovasi Global Mumpuni (AS55664), PT Jala Lintas Media (AS55685), PT Jaringan VNT Indonesia (AS59278), PT Jaringanku Sarana Nusantara (AS64300), PT Jembatan Citra Nusantara (AS23951), PT Media Sarana Data (AS55666), PT Mega Data Akses (AS142369), PT Mitra Lintas Multimedia (AS136093), PT Mora Telematika Indonesia (AS131111), PT Parsaoran Global Datatrans (AS58495), PT Quantum Tera Network (AS46023), PT Remala Abadi (AS38511), PT Shangkuriang Telekomunikasi Indonesia (AS137310), PT Solnet Indonesia (AS9422), PT Telekomunikasi Indonesia (AS7713), PT Telekomunikasi Indonesia (AS17974), PT Wireless Indonesia Win (AS18004), PT XL Axiata (AS24203), PT XL Axiata Tbk (AS17885), PT XL Axiata Tbk (AS139994), PT Adeaksa Indo Jayatama (AS138123), PT Artha Lintas Data Mandiri (AS137329), PT Cemerlang Multimedia (AS55699), PT Cipta Informatika Cemerlang (AS45295), PT Cyberindo Aditama (AS135478), PT Eka Mas Republik (AS63859), PT Fiber Networks Indonesia (AS58369), PT Hipernet Indodata (AS38758), PT Jinom Network Indonesia (AS138064), PT Jupiter Jala Arta (AS131775), PT Mahameru Media Nusantara (AS138100), PT MNC Kabel Mediacom (AS17670), PT Smartfren Telecom, Tbk (AS133798), PT Telekomunikasi Selular (AS23693), PT Total Info Kharisma (AS9228), PT Transhybrid Communication (AS24534), PT Wanriau Indoxp (AS45294), PT Yasmin Amanah Media (AS139967), Varnion Technology Semesta, PT (AS45287), M247 (AS9009), and Zenlayer Inc (AS21859).
 
 ## Annex I: Glossary
 
@@ -746,19 +728,19 @@ A comprehensive glossary related to OONI can be accessed here: [https://ooni.org
 ## Annex II: Methodology
 
 
-### **Data**
+### Data
 
-Data computed based on the heuristics for this report can be downloaded here: [https://github.com/Sinar/imap-data](https://github.com/Sinar/imap-data) whereas aggregated data can be downloaded from [OONI Explorer](https://explorer.ooni.org/).
+Data computed based on the heuristics for this report can be downloaded here: [https://github.com/Sinar/imap-data](https://github.com/Sinar/imap-data), whereas aggregated data can be downloaded from [OONI Explorer](https://explorer.ooni.org/).
 
 
-### **Coverage**
+### Coverage
 
 The iMAP State of Internet Censorship Country Report covers the findings of network measurement collected through Open Observatory of Network Interference (OONI) [OONI Probe App](https://ooni.org/install/) that measures the blocking of websites, instant messaging apps, circumvention tools and network tampering. The findings highlight the websites, instant messaging apps and circumvention tools confirmed to be blocked, the ASNs with censorship detected and method of network interference applied. The report also provides background context on the network landscape combined with the latest legal, social and political issues and events which might have an effect on the implementation of internet censorship in the country.
 
 In terms of timeline, this first iMAP report covers measurements obtained in the six-month period from 1 January 2022 to 30 June 2022. The countries covered in this round are Cambodia, Hong Kong, Indonesia, Malaysia, Myanmar, Philippines, Thailand, and Viet Nam. India will only be included starting in the next period of reporting.  
 
 
-### **How are the network measurements gathered?**
+### How are the network measurements gathered?
 
 Network measurements are gathered through the use of [OONI Probe app](https://ooni.org/install/), a free software tool developed by [Open Observatory of Network Interference (OONI)](https://ooni.org/). To learn more about how the OONI Probe test works, please visit [https://ooni.org/nettest/](https://ooni.org/nettest/).
 
@@ -769,7 +751,7 @@ It is important to note that the findings are only applicable to the websites th
 
 ### **How are the network measurements analysed?**
 
-OONI processes the following types of data through its [data pipeline](https://github.com/ooni/pipeline):
+OONI processes the following types of data through its data pipeline: https://github.com/ooni/pipeline.
 
 
 #### Country code

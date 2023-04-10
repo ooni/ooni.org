@@ -135,7 +135,7 @@ In practice, most news and media services are controlled by the state or have to
 
 #### Access to information law 
 
-The Law on access to information was** **issued in 2016 and enacted in July 2018. This law is an important document detailing the people’s right to information access and State agencies’ information provision responsibility. While Vietnam has made significant steps to build the legal framework for the rights to information, there is still a long way toward effective implementation of the law at all levels and stakeholders. Most state agencies do not disclose how information can be requested, many local government employees have not been trained to process information requests, and not enough citizens have been made aware of their rights.[^13] 
+The Law on access to information was issued in 2016 and enacted in July 2018. This law is an important document detailing the people’s right to information access and State agencies’ information provision responsibility. While Vietnam has made significant steps to build the legal framework for the rights to information, there is still a long way toward effective implementation of the law at all levels and stakeholders. Most state agencies do not disclose how information can be requested, many local government employees have not been trained to process information requests, and not enough citizens have been made aware of their rights.[^13] 
 
 
 #### Privacy
@@ -218,7 +218,6 @@ Figure 1: The highest suspicion-blocked categories in Vietnam
 
 The percentage of users who can't be accessed with political criticism category is the highest with 34%, followed by foreign news sites with 27.9%. In third place, it is human rights issues category and fourth place is pornography sites.
 
-Table 1: Number of blocked pages and blocked times by categories
 | **Categories**      | **ISPs**                                     | **Number of inaccessible pages** | **Total of blocking times** |
 |---------------------|--------------------------|-------------|------------|
 | News Media          | VNPT,Viettel, Mobifone, FPT, Saigon Tourist  | 57                               | 4360                        |
@@ -226,6 +225,7 @@ Table 1: Number of blocked pages and blocked times by categories
 | Political Criticism | VNPT, FPT, Viettel, Vietnam Mobile, Mobifone | 54                               | 5324                        |
 | Human Rights Issues | VNPT, FPT, Viettel, Vietnam Mobile, Mobifone | 38                               | 2460                        |
 
+Table 1: Number of blocked pages and blocked times by categories
 
 **Political Criticism**
 
@@ -240,13 +240,13 @@ We choose three sites with a similar number of blocking time for further analysi
 
 
 
-* Doan Trang page([http://www.phamdoantrang.com/](http://www.phamdoantrang.com/))[^46], 
+* [Doan Trang page]([http://www.phamdoantrang.com/](http://www.phamdoantrang.com/))[^46], 
 
 
-* Ba Sam ([https://anhbasam.wordpress.com/](https://anhbasam.wordpress.com/))[^47] and
+* [Ba Sam]([https://anhbasam.wordpress.com/](https://anhbasam.wordpress.com/))[^47] and
 
 
-* Viet Nam Times ([https://vietnamthoibao.org/](https://vietnamthoibao.org/))[^48]
+* [Viet Nam Times]([https://vietnamthoibao.org/](https://vietnamthoibao.org/))[^48]
 The Doan Trang page is completely blocked by FPT Telecom and Viettel networks. However, VNPT opened for access from 16 June to 21 June 2022. At that time, there is an event on Human Rights Council to Hold its Fiftieth Regular Session from 13 June to 8 July 2022. The VNPT provider may have changed the moderation policy of this site and opened access to users. Until now they are still open access. 
 
 ![](images/image4.png)
@@ -336,9 +336,6 @@ Figure 15: ISPs blocking on pornography category
 
 Figure 16: Blocking time series of pornography category
 
-
-Table 2.  Blocking percentage of pages in pornography category
-
 | Pages                         | Percentage of blocking |
 |-------------------------------|------------------------|
 | https://www.youporn.com/      | 11.2 %                 |
@@ -353,6 +350,7 @@ Table 2.  Blocking percentage of pages in pornography category
 | https://shoptraivip.com       | 7.8 %                  |
 | https://www.coithienthai.com/ | 0.7 %                  |
 
+Table 2.  Blocking percentage of pages in pornography category
 
 
 **Human rights issues**
@@ -372,9 +370,6 @@ Figure 18: Blocking time series of human rights issues category
 
 
 In OONI's data, the UN's human rights page (https://www.ohchr.org/) and Freedom house (https://freedomhouse.org/) page were not blocked, but there were still some days of suspicion by two ISPs; VNPT and Viettel. 
-
-Table 3: Information of date, pages and ISPs on internet censorship in Vietnam
-
 
 | Date            | ISPs blocked | Pages                                            |
 | --------------- | ------------ | ------------------------------------------------ |
@@ -398,6 +393,7 @@ Table 3: Information of date, pages and ISPs on internet censorship in Vietnam
 |                 |              | https://freedomhouse.org                         |
 | June 29, 2022   | Viettel      | [https://www.ohchr.org/](https://www.ohchr.org/) |
 
+Table 3: Information of date, pages and ISPs on internet censorship in Vietnam
 
 We choose two sites; Luatkhoa (https://www.luatkhoa.org/) and the88project (https://the88project.org/) to examine in more detail. 
 
@@ -416,9 +412,6 @@ Figure 20: Blocking of providers in Vietnam on Luatkhoa page
 Figure 21: Allowing access in half of 2022 of FPT provider on Luatkhoa page.
 
 The88project (https://the88project.org/) is a site with a database of activists and information about arrest and harassment incidents. The88project was tested on Vietnam mobile, VNPT, FPT and Viettel networks with 165 tests, but only 19 corresponding to 11.52% of them can be accessed. Accessibility to the site was found through VNPT and FPT networks while it was completely blocked by Viettel and Vietnam mobile. Network operators VNPT and Viettel used IP address blocks while FPT used DNS level interference. VNPT and FPT took turns opening the internet port on the following days:
-
-Table 4: Information of date, ISPs on internet allowing access in Vietnam
-
 
 | Date              | ISPs’ allowing access |
 |-------------------|-----------------------|
@@ -439,7 +432,7 @@ Table 4: Information of date, ISPs on internet allowing access in Vietnam
 | June 5, 2022      | VNPT                  |
 | June 18, 2022     | VNPT                  |
 
-
+Table 4: Information of date, ISPs on internet allowing access in Vietnam
 
 
 ### Blocking of Instant Messaging Apps
@@ -455,8 +448,6 @@ Figure 22: WhatsApp measure on OONI Math tool
 Figure 23: Messenger measure on raw data from OONI
 
 
-
-
 ### Blocking of Circumvention Tools
 
 When looking at anonymization and circumvention tools, we find that in Vietnam the [Psiphon](https://ooni.org/nettest/psiphon) test is not censored while the [Tor](https://ooni.org/nettest/tor) test has signs of censorship starting from February to June of 2022.
@@ -466,15 +457,13 @@ When looking at anonymization and circumvention tools, we find that in Vietnam t
 Figure 24: Reachability of Censorship Circumvention Tools of Psiphon and Tor
 
 
-
 ## Acknowledgement of Limitations
 
 “The examination of the findings of this study is limited to network measurements that were collected from 1 January to 30 June 2022 to examine the most recent censorship trends and events. 
 
-The findings of this study are limited to a total of 1108 URLs tested for censorship and shall not be deemed as an exhaustive list of websites affected by censorship. Websites fall outside of the _Vietnam_ test list _[https://github.com/citizenlab/test-lists/blob/master/lists/vn.csv](https://github.com/citizenlab/test-lists/blob/master/lists/vn.csv) _and Citizen Lab Global test list &lt;[https://github.com/citizenlab/test-lists/blob/master/lists/global.csv](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv)> are not tested and their state of censorship are unable to be verified through OONI Web Connectivity test. Should you wish to contribute by reviewing the test list, you may refer to the guidelines prepared by OONI at &lt;[https://ooni.org/get-involved/contribute-test-lists](https://ooni.org/get-involved/contribute-test-lists)>.
+The findings of this study are limited to a total of 1108 URLs tested for censorship and shall not be deemed as an exhaustive list of websites affected by censorship. Websites fall outside of the [Vietnam_ test list](https://github.com/citizenlab/test-lists/blob/master/lists/vn.csv) and [Citizen Lab Global test list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) are not tested and their state of censorship are unable to be verified through OONI Web Connectivity test. Should you wish to contribute by reviewing the test list, you may refer to the guidelines prepared by OONI: https://ooni.org/get-involved/contribute-test-lists.
 
-Although the network measurements were collected from 18 local vantage points in Vietnam, the running of OONI software testing was not consistent across all networks. This study focuses on the main ASNs with higher counts of measurements collected.”
-
+Although the network measurements were collected from 18 local vantage points in Vietnam, the running of OONI software testing was not consistent across all networks. This study focuses on the main ASNs with higher counts of measurements collected.
 
 ## Conclusion
 
@@ -486,17 +475,10 @@ The key findings of this study show that Vietnamese ISPs appear to be implementi
 
 As part of this study, the highest blocked sites belong to following categories:
 
-
-        ·         Human rights
-
-
-        ·         Pornography
-
-
-        ·         Political criticism
-
-
-        ·         News Media (News sites are mainly foreign news sites)
+* Human rights
+* Pornography
+* Political criticism
+* News Media (News sites are mainly foreign news sites)
 
 The fact that these categories are not blocked on all networks leads us to believe that the Vietnamese ISPs might have been filtering content under broad government orders to block what is related to curtailing political opposition, unfavourable to the party, corruption, and human rights. On a positive note, WhatsApp, Facebook, Zalo, Line, Instagram, Tiktok and several social networks appeared to be accessible on all tested networks during the testing period.
 
@@ -554,7 +536,7 @@ It is important to note that the findings are only applicable to the websites th
 
 ### **How are the network measurements analysed?**
 
-OONI processes the following types of data through its [data pipeline](https://github.com/ooni/pipeline):
+OONI processes the following types of data through its data pipeline: https://github.com/ooni/pipeline.
 
 
 #### Country code
