@@ -7,14 +7,6 @@ tags: ["ooni", "ooni-partners", "training", "events"]
 categories: ["blog"]
 ---
 
-{{<img src="images/group-1.png" title="1st OONI Partner Training 2021" alt="1st OONI Partner Training 2021">}}
-
-**Image:** 1st OONI Partner Training, 28th-30th June 2021
-
-{{<img src="images/group-2.png" title="2nd OONI Partner Training 2021" alt="2nd OONI Partner Training 2021">}}
-
-**Image:** 2nd OONI Partner Training, 5th-7th July 2021
-
 Over the last week, we had the pleasure to host **two 3-day OONI Partner
 Training events** for our [partners](https://ooni.org/partners) in
 Africa, Latin America, the Middle East, and Asia. As part of these
