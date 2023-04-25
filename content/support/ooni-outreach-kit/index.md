@@ -28,7 +28,7 @@ We provide 2 OONI brochures that include information about using OONI tools and 
 * **[OONI Probe Flyer (Version 2)](<./files/OONI Probe OP 2 (Interactive).pdf>)**
 * **[OONI Probe Flyer (Version 3)](<./files/OONI Probe OP 3 (Interactive).pdf>)**
 * **[OONI Probe Flyer (Elections)](<./files/OONI Probe Fact Sheet for Elections (Interactive).pdf>)**
-* **[About OONI Probe Leaflet](<./files/OONI Probe Long Fact Sheet.pdf>)**
+* **[About OONI Probe Leaflet](<./files/About OONI Probe Leaflet.pdf>)**
 * **[OONI Probe Testing Instructions Leaflet](<./files/OONI Probe testing instructions (Interactive).pdf>)**
 
 ## OONI Explorer Flyers
