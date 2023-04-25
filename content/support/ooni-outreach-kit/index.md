@@ -13,6 +13,13 @@ The OONI Outreach Kit includes **materials that you are encouraged to use** as 
 
 {{<table-of-contents>}}
 
+## OONI Brochures
+
+We provide 2 OONI brochures that include information about using OONI tools and data for investigating internet censorship around the world.
+
+* **[OONI Brochure (short-version)](<./files/OONI Short Brochure.pdf>)**
+* **[OONI Brochure (long-version)](<./files/OONI Long Brochure (page6).pdf>)**
+
 ## OONI Probe Flyers and Leaflets
 
 [OONI Probe](https://ooni.org/install/) is free software for measuring internet censorship. To engage people with the use of OONI Probe, we provide 3 versions of OONI Probe flyers, as well as an OONI Probe flyer that can help encourage testing leading up to and during elections (when [censorship events tend to emerge](https://ooni.org/documents/2022-ooni-submission-ohchr-report-internet-shutdowns.pdf)). We also provide 2 leaflets, one about OONI Probe and one with OONI Probe testing instructions.
@@ -21,6 +28,7 @@ The OONI Outreach Kit includes **materials that you are encouraged to use** as 
 * **[OONI Probe Flyer (Version 2)](<./files/OONI Probe OP 2 (Interactive).pdf>)**
 * **[OONI Probe Flyer (Version 3)](<./files/OONI Probe OP 3 (Interactive).pdf>)**
 * **[OONI Probe Flyer (Elections)](<./files/OONI Probe Fact Sheet for Elections (Interactive).pdf>)**
+* **[About OONI Probe Leaflet](<./files/OONI Probe Long Fact Sheet.pdf>)**
 * **[OONI Probe Testing Instructions Leaflet](<./files/OONI Probe testing instructions (Interactive).pdf>)**
 
 ## OONI Explorer Flyers
