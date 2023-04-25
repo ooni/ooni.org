@@ -18,7 +18,7 @@ The OONI Outreach Kit includes **materials that you are encouraged to use** as 
 We provide 2 OONI brochures that include information about using OONI tools and data for investigating internet censorship around the world.
 
 * **[OONI Brochure (short-version)](<./files/OONI Short Brochure.pdf>)**
-* **[OONI Brochure (long-version)](<./files/OONI Long Brochure (page6).pdf>)**
+* **[OONI Brochure (long-version)](<./files/OONI Long Brochure.pdf>)**
 
 ## OONI Probe Flyers and Leaflets
 
