@@ -17,6 +17,9 @@ categories: ["report"]
 Swedish Ambassador to Vietnam Pereric Högberg affirmed that Vietnam is making good use of opportunities from the internet, being one of the leading countries in Southeast Asia in terms of internet connection and development[^1]. Vietnam is not limited to using the Internet and social networks[^2]. However, there are still websites with controlled access in Vietnam.
 
 ---
+
+[Dịch sang tiếng Việt](https://imap.sinarproject.org/reports/2022/imap-state-of-internet-censorship-country-report-2022-vietnam/2022-vietnam-translation)
+
 * Under the authoritarian political system, freedom of assembly, association, expression, press and religion, as well as civil society activism, is tightly restricted and controlled by the party despite legislation recognising civil and political rights in the Constitution.[^3] Certain contents and topics related to curtailing political opposition, unfavourable to the party, corruption, and human rights issues are censored in various ways.
 
 
