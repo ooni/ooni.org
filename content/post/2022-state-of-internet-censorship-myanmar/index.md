@@ -13,6 +13,9 @@ tags: ["myanmar", "censorship", "country-mm"]
 categories: ["report"]
 
 ---
+
+[မြန်မာဘာသာသို့ ပြန်ဆိုပါသည်။](https://imap.sinarproject.org/reports/2022/imap-state-of-internet-censorship-country-report-2022-myanmar/2022-myanmar-translation)
+
 * **Blocking of independent New Media**. 112 out of 2,130 websites were detected 1,473 confirmed blocking counts through 6 local vantages under DNS level interference and HTTP level interference. There were 11 out of 31 websites’ categories from OONI were found as confirmed blocking.  Among 11 categories, News Media was experiential as the highest confirmed blocking measurement, following to pornography to the second largest blocking counts. Interestingly, within 117 government websites, OONI detects 15 websites were blocked from 2 vantage points of 2 ISPs.
 * **Sign of internet outages:** IODA and Google Traffic data indicate that no major internet connectivity outages have been reported between January 1, 2022, and June 30, 2022. However, on May 16, 2022, and May 20, 2022, there were alerts regarding an Internet disruption and a possible internet outage.
 * **Potential blocking of Instant Messaging Apps**: Apart from this finding period, we found no confirmed blocking in Facebook Messengers, Signal, and Telegram. In spite of this, Facebook Messenger found a large volume of anomalies during the test, which could be a sign of possible blocking. WhatsApp also detected a sign of potential blockings.
