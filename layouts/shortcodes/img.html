@@ -5,13 +5,23 @@
 {{ else }}
 
 {{ $img600 := $img.Fit "1000x800" }}
-{{ $img1200 := $img.Fit "2000x1600" }}
+
+{{ $imgRetina := "" }}
+{{ if and (lt $img.Width 2000) (lt $img.Height 1600)}}
+{{ warnf "high density pixel image cannot be generated for <%s>" ($.Page.RelPermalink) }}
+{{ else }}
+{{ $imgRetina = $img.Fit "2000x1600" }}
+{{ end }}
 
 <div>
   <a href="{{ $img.RelPermalink }}">
   <img
     src="{{ $img600.RelPermalink }}"
-    srcset="{{ $img1200.RelPermalink }} 2x"
+
+    {{ if ne $imgRetina "" }}
+    srcset="{{ $imgRetina.RelPermalink }} 2x"
+    {{ end }}
+
     {{ with .Get "title" }}title="{{ . }}"{{ end }}
     {{ if or (.Get "alt") (.Get "title") }}
     alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "title" }}{{ end }}"
