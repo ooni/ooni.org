@@ -42,6 +42,12 @@ If you would like to see additional terms in this glossary, please [open a pull 
 
 * [DNS lookup](#dns-lookup)
 
+* [DNS over HTTPS](#dns-over-https)
+
+* [DNS over TLS](#dns-over-tls)
+
+* [DNS over UDP](#dns-over-udp)
+
 * [DNS query](#dns-query)
 
 * [DNS resolver](#dns-resolver)
@@ -55,6 +61,8 @@ If you would like to see additional terms in this glossary, please [open a pull 
 * [Domain name](#domain-name)
 
 * [DPI](#dpi)
+
+* [Endpoint](#endpoint)
 
 * [False positive](#false-positive)
 
@@ -141,6 +149,8 @@ If you would like to see additional terms in this glossary, please [open a pull 
 * [Tor](#tor)
 
 * [Traffic manipulation](#traffic-manipulation)
+
+* [UDP](#udp)
 
 * [URL](#url)
 
@@ -317,6 +327,10 @@ the DNS level.
 A more detailed description of how OONI's Web Connectivity test works is
 available [here](https://ooni.org/nettest/web-connectivity/).
 
+### DNS over HTTPS
+
+A way to perform DNS lookups using HTTPS.
+
 ### DNS query
 
 A DNS query (otherwise known as a "DNS request") is a request for information
@@ -419,6 +433,12 @@ and Internet Service Providers (ISPs).
 
 However, DPI technology can also be used for implementing internet censorship
 (blocking of specific websites or apps) and online surveillance.
+
+### Endpoint
+
+Combination of an IP address , a port  and a protocol name that uniquely identifies
+a client or server in the internet. For example, the `1.1.1.1` address on port
+`443` using the `tcp` protocol identifies an endpoint used by Cloudflare DNS servers.
 
 ### False positive
 
@@ -914,8 +934,8 @@ connection to the address of that website.
 TCP works on top of the Internet Protocol (IP), which defines how to address
 computers on the internet.
 
-When speaking to a machine over the TCP protocol you use an IP and port pair, which
-looks something like this: 10.20.1.1:8080. 
+When speaking to a machine over the TCP protocol you use an IP and port pair, also
+called [endpoint](#endpoint), which looks something like this: 10.20.1.1:8080.
 
 The main difference between TCP and (another very popular protocol called) UDP
 is that TCP has the notion of a “connection”, making it a “reliable” transport
@@ -986,6 +1006,14 @@ access to a network connection with capabilities to modify the data stream.
 A middlebox (a computer networking device), for example, can be used by an
 Internet Service Provider (ISP) to inspect, transform, filter, or otherwise
 manipulate internet traffic.
+
+### UDP
+
+The User Datagram Protocol (TCP) is one of the main protocols on the
+internet.
+
+Unlike [TCP](#tcp), which has the the notion of a “connection” and is reliable, UDP
+allows one to send one-off packets over the internet.
 
 ### URL
 
