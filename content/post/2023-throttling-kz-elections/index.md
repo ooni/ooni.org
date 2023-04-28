@@ -81,7 +81,7 @@ As we can see in the chart, the duration to establish a TLS handshake for `www.a
 
 **Chart:** Daily median TLS handshake duration and measurement count suggesting the intentional throttling of `www.azattyq.org` and `rus.azattyq.org`, and the temporary slowdown of `www.currenttime.tv` (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=KZ&since=2022-08-01&until=2023-04-11&time_grain=day&axis_x=measurement_start_day&axis_y=domain&test_name=web_connectivity)).
 
-The above chart represents the daily median TLS handshake time value with the number of datapoints used to calculate it overlayed. From the chart, it is evident that access to the domain`www.azattyq.org` has been throttled since 27th September 2022 and continues to be throttled until at least early April 2023. Similarly, we observe that the daily median TLS handshake time value for the Russian version of the site (`rus.azattyq.org`) significantly increased throughout this period as well.
+The above chart represents the daily median TLS handshake time value with the number of datapoints used to calculate it overlayed. From the chart, it is evident that access to the domain `www.azattyq.org` has been throttled since 27th September 2022 and continues to be throttled until at least early April 2023. Similarly, we observe that the daily median TLS handshake time value for the Russian version of the site (`rus.azattyq.org`) significantly increased throughout this period as well.
 
 If we plot several percentiles for the TLS handshake duration towards the target hostnames, we observe that they all increase compared to the baseline (as illustrated through the chart below). This further suggests the presence of throttling.  
 
