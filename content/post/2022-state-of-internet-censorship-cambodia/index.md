@@ -14,6 +14,8 @@ categories: ["report"]
 
 ---
 
+[បកប្រែជាភាសាខ្មែរ](https://imap.sinarproject.org/reports/2022/imap-state-of-internet-censorship-country-report-2022-cambodia/2022-cambodia-translation) 
+
 * News and other websites are periodically blocked in Cambodia, particularly those that disseminate information that could be perceived as a threat to the ruling government.[^1] In July 2018, the government ordered internet service providers (ISPs) to block at least 15 news websites during the country’s election.[^2] In the wake of the COVID-19 pandemic, the government has reportedly blocked access to news sites.[^3] In June 2020, the Ministry of Post telecommunications (MPTC) blocked six online gambling sites.[^4] In November 2021, TRC blocked 79 illegal online gambling websites.[^5] In December 2021, TRC blocked 9 websites and URLs that posted child pornographic images and videos.[^6] In February 2022, TRC blocked 15 illegal lottery websites.[^7]
 
 

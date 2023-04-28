@@ -18,6 +18,8 @@ It is a codified guarantee that the internet will not be censored except for ill
 
 ---
 
+[Diterjemah ke dalam bahasa Melayu](https://imap.sinarproject.org/reports/2022/imap-state-of-internet-censorship-country-report-2022-malaysia/2022-malaysia-translation)
+
 * The Ministry of Communications and Multimedia (MCMC) do not publish list of blocked sites, however statements were released from time to time to announce the number of sites blocked. It was revealed that 2,195 websites promoting online gambling were blocked as of March 2021.[^1] Between 2020 to July 2021, 960 phishing sites were blocked.[^2] From 2018 to September 2021, 4,068 pornography sites were blocked by MCMC.[^3]
 
 
