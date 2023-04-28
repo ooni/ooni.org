@@ -331,6 +331,16 @@ available [here](https://ooni.org/nettest/web-connectivity/).
 
 A way to perform DNS lookups using HTTPS.
 
+### DNS over TLS
+
+A way to perform DNS lookups using TLS.
+
+### DNS over UDP
+
+The standard way to perform DNS lookup over the internet. The client sends a one-off
+[UDP](#udp) packet to the server containing a query and awaits up until a given timeout
+to receive the response to the query.
+
 ### DNS query
 
 A DNS query (otherwise known as a "DNS request") is a request for information
@@ -438,7 +448,12 @@ However, DPI technology can also be used for implementing internet censorship
 
 Combination of an IP address , a port  and a protocol name that uniquely identifies
 a client or server in the internet. For example, the `1.1.1.1` address on port
-`443` using the `tcp` protocol identifies an endpoint used by Cloudflare DNS servers.
+`443` using the `tcp` protocol identifies an endpoint used by Cloudflare [DNS over
+HTTPS](#dns-over-https) services.
+
+It is common to represent endpoints using a compact notation like: `1.1.1.1:443/tcp`,
+where `:` separates the address and the port and `/` separates the port and the
+protocol.
 
 ### False positive
 
