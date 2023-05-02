@@ -131,14 +131,14 @@ We will be reviewing applications on a rolling basis.
 ## OONI
 
 The [Open Observatory of Network Interference (OONI)](https://ooni.org/) is a free software project --
-born out of the [[Tor Project](https://www.torproject.org/)
+born out of the [Tor Project](https://www.torproject.org/)
 in 2012 -- that aims to empower decentralized efforts in increasing
 transparency of internet censorship around the world.
 
 We build free software ([OONI Probe](https://ooni.org/install/)) that enables anyone to
 independently detect internet censorship on their network. To increase
 transparency of internet censorship, we publish censorship measurements
-as [open data]](https://ooni.org/data/) in near real-time.
+as [open data](https://ooni.org/data/) in near real-time.
 This data supports [research](https://ooni.org/reports/)
 and [advocacy efforts](https://www.accessnow.org/keepiton/) investigating
 and fighting internet censorship worldwide.
@@ -148,7 +148,7 @@ More information about OONI is available in our [Mission Statement](https://ooni
 
 ## Diversity, Equity, and Inclusion
 
-[We have a [global and diverse community](https://ooni.org/partners) and we strive to hire
+We have a [global and diverse community](https://ooni.org/partners) and we strive to hire
 people who can best serve our community.
 
 Our [Code of Conduct](https://ooni.org/get-involved/code-of-conduct/)
