@@ -446,8 +446,8 @@ However, DPI technology can also be used for implementing internet censorship
 
 ### Endpoint
 
-Combination of an IP address , a port  and a protocol name that uniquely identifies
-a client or server in the internet. For example, the `1.1.1.1` address on port
+Combination of an IP address, a port and a protocol name that uniquely identifies
+a client or server on the internet. For example, the `1.1.1.1` address on port
 `443` using the `tcp` protocol identifies an endpoint used by Cloudflare [DNS over
 HTTPS](#dns-over-https) services.
 
