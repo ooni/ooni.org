@@ -9,7 +9,7 @@ reports:
   link: "https://ooni.org/post/2022-iran-technical-multistakeholder-report/"
 ---
 
-The Miaan Group is a nonprofit organization founded in 2019 to promote human rights, good governance, and social justice in Iran and the broader Middle East and North Africa region.
+[Miaan Group](https://www.miaan.org/) is a nonprofit organization founded in 2019 to promote human rights, good governance, and social justice in Iran and the broader Middle East and North Africa region.
 
 To achieve our goals, we focus on three main areas:
 
