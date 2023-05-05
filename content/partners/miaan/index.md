@@ -10,8 +10,8 @@ website: https://www.miaan.org/
 
 To achieve their goals, Miaan Group focus on three main areas:
 
-* **Internet freedom and digital rights**: Miaan Group work to counter threats posed by online censorship, surveillance, network disruption, and government harassment by empowering citizens, activists, and technologists.
-* **Capacity building and mentoring**: Miaan Group provide local networks inside Iran and diaspora-based human rights defenders with legal and technical expertise, research, and advocacy support to strengthen civil society and human rights organizations.
+* **Internet freedom and digital rights**: Miaan Group works to counter threats posed by online censorship, surveillance, network disruption, and government harassment by empowering citizens, activists, and technologists.
+* **Capacity building and mentoring**: Miaan Group provides local networks inside Iran and diaspora-based human rights defenders with legal and technical expertise, research, and advocacy support to strengthen civil society and human rights organizations.
 * **Policy and legal advocacy**: Miaan Group's advocacy efforts center on working with advocates and researchers to deliver information and recommendations to international stakeholders to influence policy and behavior inside Iran.
 
 Miaan Group is dedicated to building a legal and policy structure that upholds and protects
