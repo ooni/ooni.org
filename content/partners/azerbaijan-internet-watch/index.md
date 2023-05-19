@@ -5,6 +5,8 @@ name: Azerbaijan Internet Watch
 title: Azerbaijan Internet Watch
 website: https://www.az-netwatch.org/
 reports:
+- text: "OONI measurements show ongoing internet censorship in Azerbaijan"
+  link: "https://ooni.org/post/2023-azerbaijan-internet-censorship/"
 - text: "OONI Community Video"
   link: "https://www.youtube.com/watch?v=zrclQ2QZjVo"
 - text: "Azerbaijan and Armenia block TikTok amid border clashes"
