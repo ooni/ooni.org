@@ -15,8 +15,6 @@ reports:
   link: "https://ooni.org/post/2022-state-of-internet-censorship-indonesia/"
 - text: "iMAP State of Internet Censorship Report 2022 - Malaysia"
   link: "https://ooni.org/post/2022-state-of-internet-censorship-malaysia/"
-- text: "iMAP State of Internet Censorship Report 2022 - Malaysia"
-  link: "https://ooni.org/post/2022-state-of-internet-censorship-malaysia/"
 - text: "iMAP State of Internet Censorship Report 2022 - Myanmar"
   link: "https://ooni.org/post/2022-state-of-internet-censorship-myanmar/"
 - text: "iMAP State of Internet Censorship Report 2022 - Philippines"
