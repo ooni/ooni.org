@@ -84,7 +84,7 @@ Die OONI Probe Mobile App ist verfügbar für [Android](https://play.google.com/
 
 Du kannst die OONI Probe Mobile App durch die folgenden Schritte installieren:
 
-**Schritt 1.** Besuche die OONI Probe Mobile Installationsseite (auf der OONI Website):<https://ooni.org/install/mobile>
+**Schritt 1.** Besuche die OONI Probe Mobile Installationsseite (auf der OONI Website): <https://ooni.org/install/mobile>
 
 {{<img src="images/image49.png" title="Measure Internet Censorship" alt="Measure Internet Censorship">}}
 
