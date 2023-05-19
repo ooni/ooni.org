@@ -9,6 +9,8 @@ reports:
   link: "https://ooni.org/post/2023-azerbaijan-internet-censorship/"
 - text: "OONI Community Video"
   link: "https://www.youtube.com/watch?v=zrclQ2QZjVo"
+- text: "OONI Measurements Report September 2022"
+  link: "https://www.az-netwatch.org/news/ooni-measurements-report-september-2022/"
 - text: "Azerbaijan and Armenia block TikTok amid border clashes"
   link: "https://ooni.org/post/2022-azerbaijan-and-armenia-blocks-tiktok/"
 - text: "OONI Measurements Report: September 2022"
