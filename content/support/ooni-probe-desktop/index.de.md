@@ -166,7 +166,7 @@ Du hast nun den Einführungsprozess abgeschlossen und bist bereit, OONI Probe zu
 
 {{<img src="images/empty-dashboard.png" title="Dashboard" alt="Dashboard">}}
 
-**Optionaler Schritt 9.** Wenn du deine Einstellungen so ändern möchtest, dass du dich **nicht** für die Weitergabe von Absturzberichten an uns entscheidest, klicke auf **Einstellungen**. Dadurch wirst du zum Bildschirm OONI Probe-Einstellungen weitergeleitet, wo du alle Standardeinstellungen überprüfen und ändern kannst. Die Übermittlung von Absturzberichten ist standardmäßig deaktiviert und wird nur aktiviert, wenn du auf die Schaltfläche ** Los geht's** (von Schritt 7 oben) klickst, oder wenn du die entsprechende Einstellung manuell aktivierst.
+**Optionaler Schritt 9.** Wenn du deine Einstellungen so ändern möchtest, dass du dich **nicht** für die Weitergabe von Absturzberichten an uns entscheidest, klicke auf **Einstellungen**. Dadurch wirst du zum Bildschirm OONI Probe-Einstellungen weitergeleitet, wo du alle Standardeinstellungen überprüfen und ändern kannst. Die Übermittlung von Absturzberichten ist standardmäßig deaktiviert und wird nur aktiviert, wenn du auf die Schaltfläche **Los geht's** (von Schritt 7 oben) klickst, oder wenn du die entsprechende Einstellung manuell aktivierst.
 
 {{<img src="images/new-default-settings-onboarding.png" title="Default settings" alt="Default settings">}}
 
