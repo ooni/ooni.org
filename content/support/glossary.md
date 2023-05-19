@@ -3,12 +3,12 @@ title: OONI Glossary
 description: "This glossary contains brief explanations for terms used in OONI apps, methodologies, and research reports."
 ---
 
-Last updated: 19th May 2023
+**Last updated**: 19th May 2023
 
 This glossary contains *brief explanations* for terms used in OONI apps,
 methodologies, and research reports.
 
-Translations:
+**Translations**:
 
 * **Español,** [OONI Glosario](/es/support/glossary)
 * **العربية,** [OONI Glossary](/ar/support/glossary)
@@ -313,7 +313,7 @@ response claiming that the domain name does not exist.
 When Internet Service Providers (ISPs) receive government orders to block
 specific websites, they sometimes adopt this technique. In these cases, it may
 be possible to circumvent the censorship merely by changing your DNS resolver,
-or by using encrypted [DNS](#dns), such as DNS over [HTTPS](#https).
+or by using encrypted [DNS](#dns), such as [DNS over HTTPS](#dns-over-https).
 
 ### DNS lookup
 
@@ -340,7 +340,7 @@ A way to perform [DNS lookups](#dns-lookup) using [TLS](#tls).
 ### DNS over UDP
 
 The standard way to perform [DNS lookups](#dns-lookup) over the internet. The client sends a one-off
-[UDP](#udp) packet to the [server](#server) containing a [query](#dns-query)and awaits up until a given timeout
+[UDP](#udp) packet to the [server](#server) containing a [query](#dns-query) and awaits up until a given timeout
 to receive the response to the query.
 
 ### DNS query
@@ -1012,7 +1012,7 @@ manipulate internet traffic.
 
 ### UDP
 
-The User Datagram Protocol (TCP) is one of the main protocols on the
+The User Datagram Protocol (UDP) is one of the main protocols on the
 internet.
 
 Unlike [TCP](#tcp), which has the the notion of a “connection” and is reliable, UDP
