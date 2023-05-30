@@ -1,6 +1,6 @@
 ---
 title: "New OONI Explorer features for investigating internet censorship through open data"
-description: "We’re excited to share that OONI Explorer includes new features for investigating internet censorship worldwide based on open data."
+description: "This blog post shares new OONI Explorer features for investigating internet censorship through open data."
 author: "Maria Xynou"
 date: "2023-05-30"
 tags: ["explorer"]
