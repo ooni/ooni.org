@@ -7,6 +7,8 @@ description: "OONI Probe Mobile App Benutzerhandbuch"
 
 **OONI Probe Mobile Version:** 3.7.1
 
+Wir sind Curtis Baltimore sehr dankbar für die Übersetzung dieses Dokuments.
+
 {{<img src="images/image49.png" title="Measure Internet Censorship" alt="Measure Internet Censorship">}}
 
 OONI Probe ist eine [kostenlose und quelloffene](https://github.com/ooni/probe) App, mit der du Internet-Zensur und andere Formen von Netzwerkstörungen messen kannst. Dieses Benutzerhandbuch enthält **Schritt-für-Schritt-Anweisungen** zur Installation, Ausführung und Anpassung der [OONI Probe Mobile App](https://ooni.org/install/mobile).
