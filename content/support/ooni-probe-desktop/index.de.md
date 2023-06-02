@@ -6,6 +6,8 @@ description: "Dieses Benutzerhandbuch enthält eine schrittweise Anleitung zur V
 
 **OONI Probe Desktop Version:** 3.7.0
 
+Wir sind Curtis Baltimore sehr dankbar für die Übersetzung dieses Dokuments.
+
 {{<img src="images/install-desktop.png" title="Install OONI Probe Desktop" alt="Install OONI Probe Desktop">}}
 
 OONI Probe ist eine [freie und quelloffene](https://github.com/ooni/probe) Anwendung, mit der du Internet-Zensur und andere Formen von Netzwerkstörungen messen kannst. Dieses Benutzerhandbuch enthält **Schritt-für-Schritt-Anweisungen** zur Installation, Ausführung und Anpassung der [OONI Probe Desktop App](https://ooni.org/install/desktop).
