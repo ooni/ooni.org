@@ -7,6 +7,9 @@ tags: ["ooni", "job-opening", "project-manager"]
 categories: ["blog"]
 ---
 
+
+**This job posting is now closed. Any applications received after 2023-06-28 will not be considered**
+
 Are you a project manager interested in defending human rights on the
 internet? We have a job opening for you!
 
