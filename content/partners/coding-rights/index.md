@@ -5,6 +5,8 @@ name: Coding Rights
 title: Coding Rights
 website: https://www.codingrights.org/
 reports:
+- text: "Sabe como foi feito o bloqueio do Telegram no Brasil?"
+  link: "https://codingrights.org/library-item/brasil-dados-da-ooni-sobre-o-bloqueio-do-telegram/"
 - text: "On the blocking of abortion rights websites: Women on Waves & Women on Web"
   link: "https://ooni.org/post/2019-blocking-abortion-rights-websites-women-on-waves-web/"
 - text: "Listatona OONI contra a censura na web"

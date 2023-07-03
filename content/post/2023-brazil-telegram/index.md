@@ -7,6 +7,8 @@ tags: ["country-br", "censorship", "brazil", "telegram"]
 categories: ["report"]
 ---
 
+Encontre a versão em português do relatório localizada pela [Coding Rights](https://codingrights.org/) aqui: https://codingrights.org/library-item/brasil-dados-da-ooni-sobre-o-bloqueio-do-telegram/
+
 Two days ago, on 26th April 2023, Brazil started [blocking](https://explorer.ooni.org/chart/mat?probe_cc=BR&since=2023-03-29&until=2023-04-29&time_grain=day&axis_x=measurement_start_day&test_name=telegram) access to Telegram.
 
 On the same day, a federal judge in Brazil [reportedly](https://www.dw.com/en/brazil-court-orders-temporary-suspension-of-telegram-over-neo-nazi-probe/a-65446224) ordered the temporary suspension of Telegram in response to the messaging service’s alleged failure to share all information on neo-Nazi chat groups requested by the police. This information was [reportedly](https://www.nytimes.com/2023/04/26/briefing/brazil-telegram-ban.html) requested as part of a school attacks inquiry, as Brazilian authorities investigate neo-Nazi groups that are believed to have used Telegram to incite school attacks. However, Telegram’s CEO [claims](https://www.washingtonpost.com/business/2023/04/27/telegram-brazil-block/2ec1c1de-e554-11ed-9696-8e874fd710b8_story.html) ([on his Telegram channel](https://web.telegram.org/z/#-1006503122)) that it’s impossible for them to comply with the order, as the judge requested data that is not feasible for them to obtain.
