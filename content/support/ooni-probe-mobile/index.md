@@ -7,7 +7,7 @@ description: "OONI Probe Mobile App user guide"
 
 **OONI Probe Mobile version:** 3.7.1
 
-**Access the user guide in other languages:** [فارسی](https://ooni.org/fa/support/ooni-probe-mobile), [Русский](https://ooni.org/ru/support/ooni-probe-mobile)
+**Access the user guide in other languages:** [فارسی](https://ooni.org/fa/support/ooni-probe-mobile), [Русский](https://ooni.org/ru/support/ooni-probe-mobile), [Deutsch](https://ooni.org/de/support/ooni-probe-mobile)
 
 {{<img src="images/image49.png" title="Measure Internet Censorship" alt="Measure Internet Censorship">}}
 
