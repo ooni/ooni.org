@@ -18,7 +18,9 @@ The OONI Outreach Kit includes **materials that you are encouraged to use** as 
 We provide 2 OONI brochures that include information about using OONI tools and data for investigating internet censorship around the world.
 
 * **[OONI Brochure (short-version)](<./files/OONI Short Brochure.pdf>)**
+* **[OONI Brochure (short-version for printing)](<./files/OONI Short Brochure for printing.pdf>)**, [printing file](<./files/Short Brochure A4 2F.indd>)
 * **[OONI Brochure (long-version)](<./files/OONI Long Brochure.pdf>)**
+* **[OONI Brochure (long-version for printing)](<./files/OONI Long Brochure for printing.pdf>)**,  [printing file](<./files/Long Brochure A5 booklet.indd>)
 
 ## OONI Probe Flyers and Leaflets
 
@@ -28,11 +30,10 @@ We provide 2 OONI brochures that include information about using OONI tools and 
 * **[OONI Probe Flyer (Version 2)](<./files/OONI Probe OP 2 (Interactive).pdf>)**
 * **[OONI Probe Flyer (Version 3)](<./files/OONI Probe OP 3 (Interactive).pdf>)**
 * **[OONI Probe Flyer (Elections)](<./files/OONI Probe Fact Sheet for Elections (Interactive).pdf>)**
-* **[About OONI Probe Leaflet](<./files/About OONI Probe Leaflet.pdf>)**
+* **[OONI Probe Fact Sheet for printing](<./files/OONI Probe Fact Sheet for printing.pdf>)**, [printing file](<./files/OONI Probe Fact Sheet A5 back and front.indd>)
 * **[OONI Probe Testing Instructions Leaflet](<./files/OONI Probe testing instructions (Interactive).pdf>)**
 
 ## OONI Explorer Flyers
-
 
 [OONI Explorer](https://explorer.ooni.org/) is the world’s largest open dataset on internet censorship. To encourage the use of OONI Explorer, we provide 2 OONI Explorer flyers. We also provide 3 additional OONI Explorer flyers for researchers, journalists, and human rights advocates.
 
@@ -41,6 +42,7 @@ We provide 2 OONI brochures that include information about using OONI tools and 
 * **[OONI Explorer Flyer for Researchers](<./files/OONI Explorer for Researchers (Interactive).pdf>)**
 * **[OONI Explorer Flyer for Journalists ](<./files/OONI Explorer for Journalists (Interactive).pdf>)**
 * **[OONI Explorer Flyer for Advocates](<./files/OONI Explorer for Human Rights Advocates (Interactive).pdf>)**
+* **[OONI Explorer Fact Sheet for printing](<./files/OONI Explorer Fact Sheet for printing.pdf>)**, [printing file](<./files/OONI Explorer Fact Sheet A5 back and front.indd>)
 
 ## Internet Censorship Flyers
 
@@ -49,6 +51,7 @@ Through flyers, we provide some basic information about internet censorship and 
 
 * **[How is Website Blocking Implemented Flyer](<./files/How is Website Blocking Implemented (Interactive).pdf>)**
 * **[Internet Censorship Flyer](<./files/Internet Censorship Fact Sheet (Interactive).pdf>)**
+* **[Internet Censorship Fact Sheet for printing](<./files/Internet Censorship Fact Sheet for printing.pdf>)**, [printing file](<./files/Internet Censorship Fact Sheet A4 2F.indd>)
 
 ## OONI Screencasts
 
