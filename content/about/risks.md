@@ -44,7 +44,7 @@ Users run OONI Probe at their own risk. By installing OONI Probe, users agree to
 comply with OONI's software
 [license](https://github.com/ooni/license)
 and [Data Policy](/about/data-policy). Neither the
-[OONI project](https://ooni.org/) nor its parent organization, [The Tor Project](https://www.torproject.org/), can be held liable, jointly or
+[OONI project](https://ooni.org/) nor [The Tor Project](https://www.torproject.org/), can be held liable, jointly or
 severally, at law or at equity, to OONI Probe users and other third parties, for
 any risks or damages resulting from the use of OONI Probe under any tort,
 contract, or other causes of action.
@@ -278,7 +278,7 @@ Again, users run OONI Probe at their own risk. By installing OONI Probe, users a
 comply with OONI's software
 [license](https://github.com/ooni/license)
 and [Data Policy](/about/data-policy). Neither the
-[OONI project](https://ooni.org/) nor its parent organization, [The Tor Project](https://www.torproject.org/), can be held liable, jointly or
+[OONI project](https://ooni.org/) nor [The Tor Project](https://www.torproject.org/), can be held liable, jointly or
 severally, at law or at equity, to OONI Probe users and other third parties, for
 any risks or damages resulting from the use of OONI Probe under any tort,
 contract, or other causes of action.

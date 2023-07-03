@@ -32,7 +32,7 @@ Hivyo basi hatari zinazoweza tokea wakati wa kutumia OONI Probe hutegemeana na:
 OONI (huitwa OONI Probe) vimeundwa kupima mitandao kwa ajili ya udhibititi wa mitandao na usafirishwaji wa data kwa namna isiyo ya kawaida. Katika baadhi ya nchi, kutumia OONI Probe kunaweza kukusababishia mashtaka ya jinai, kutozwa faini, hata kufungwa. Hivyo basi tunahimiza kushauriana na mwanasheria mwenye leseni katika nchi yako kabla ya kuipakua, kuweka na kutumia OONI Probe, na kusoma kwa
 uangalifu nyaraka zilizopo hapa chini.
 
-Watumiaji wa OONI Probe wanafanya vipimo kwa hatari zao wenyewe. Kwa kuweka OONI probe ili uitumie, watumiaji hukubaliana kufuata utaratibu wa [leseni](https://github.com/ooni/license) na [Sera ya Data](https://ooni.org/about/data-policy) ya programu ya OONI Probe. Siyo [mradi wa OONI](https://ooni.org/) wala taasisi yake mama, [Mradi wa
+Watumiaji wa OONI Probe wanafanya vipimo kwa hatari zao wenyewe. Kwa kuweka OONI probe ili uitumie, watumiaji hukubaliana kufuata utaratibu wa [leseni](https://github.com/ooni/license) na [Sera ya Data](https://ooni.org/about/data-policy) ya programu ya OONI Probe. Siyo [mradi wa OONI](https://ooni.org/) wala [Mradi wa
 Tor](https://www.torproject.org/), zinaweza kuwajibika, kwa
 pamoja au tofauti, kwa sheria au kwa haki, kwa watuamiaji wa OONI Probe na wengine wasiohusika moja kwa moja chini ya makubaliano, mkataba wowote au jambo lolote litakalo tokea.
 
@@ -198,4 +198,4 @@ kabla ya kuchukua ushauri wowote.
 
 Pia, watumiaji wa OONI Probe hufanya hivyo kwa hatari zao wenyewe. Kwa
 kuweka OONI probe ili uitumie, watumiaji hukubaliana kufuata utaratibu
-wa [leseni](https://github.com/ooni/license) na [Sera ya Data](https://ooni.org/about/data-policy) ya programu ya OONI Probe. Siyo [Mradi wa OONI](https://ooni.org/) wala taasisi yake mama, [Mradi wa Tor](https://www.torproject.org/), zinaweza kuwajibika, kwa pamoja au tofauti, kwa sheria au kwa haki, kwa watumiaji wa OONI Probe na wengine wasiohusika moja kwa moja chini ya makubaliano, mkataba wowote au jambo lolote litakalo tokea.
+wa [leseni](https://github.com/ooni/license) na [Sera ya Data](https://ooni.org/about/data-policy) ya programu ya OONI Probe. Siyo [Mradi wa OONI](https://ooni.org/) wala [Mradi wa Tor](https://www.torproject.org/), zinaweza kuwajibika, kwa pamoja au tofauti, kwa sheria au kwa haki, kwa watumiaji wa OONI Probe na wengine wasiohusika moja kwa moja chini ya makubaliano, mkataba wowote au jambo lolote litakalo tokea.
