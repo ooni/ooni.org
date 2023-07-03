@@ -3,7 +3,7 @@ title: OONI Glossary
 description: "This glossary contains brief explanations for terms used in OONI apps, methodologies, and research reports."
 ---
 
-**Last updated**: 1st June 2023
+**Last updated**: 3rd July 2023
 
 This glossary contains *brief explanations* for terms used in OONI apps,
 methodologies, and research reports.
