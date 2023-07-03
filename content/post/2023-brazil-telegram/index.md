@@ -7,7 +7,7 @@ tags: ["country-br", "censorship", "brazil", "telegram"]
 categories: ["report"]
 ---
 
-Encontre a versão em português do relatório localizada pela [Coding Rights](https://codingrights.org/) aqui: https://codingrights.org/library-item/brasil-dados-da-ooni-sobre-o-bloqueio-do-telegram/.
+Encontre a versão em português do relatório localizada pela [Coding Rights](https://codingrights.org/) aqui: https://codingrights.org/library-item/brasil-dados-da-ooni-sobre-o-bloqueio-do-telegram/
 
 Two days ago, on 26th April 2023, Brazil started [blocking](https://explorer.ooni.org/chart/mat?probe_cc=BR&since=2023-03-29&until=2023-04-29&time_grain=day&axis_x=measurement_start_day&test_name=telegram) access to Telegram.
 
