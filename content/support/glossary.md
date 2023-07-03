@@ -450,7 +450,7 @@ However, DPI technology can also be used for implementing internet censorship
 
 Combination of an IP address, a port and a protocol name that uniquely identifies
 a client or server on the internet. For example, the `1.1.1.1` address on port
-`443` using the [`TCP`](#tcp) protocol identifies an endpoint used by Cloudflare [DNS over
+`443` using the [TCP](#tcp) protocol identifies an endpoint used by Cloudflare [DNS over
 HTTPS](#dns-over-https) services.
 
 It is common to represent endpoints using a compact notation like: `1.1.1.1:443/tcp`,
