@@ -73,7 +73,7 @@ Los usuarios que ejecutan OONI Probe lo hacen bajo su propio riesgo. Al instalar
 OONI Probe, los usuarios están de acuerdo con cumplir con la
 [licencia](https://github.com/TheTorProject/ooni-probe/blob/master/LICENSE) y
 [Política de Datos](/about/data-policy) de OONI. Ni
-el [Proyecto OONI](/) ni su organización matriz, [El Proyecto Tor](https://www.torproject.org/), se hacen responsables, de forma
+el [Proyecto OONI](/) ni [El Proyecto Tor](https://www.torproject.org/), se hacen responsables, de forma
 conjunta o solidaria, ante la ley o en equidad, ante usuarios de OONI Probe y
 terceros por cualquier daño resultante del uso de OONI Probe bajo cualquier
 agravio, contrato u otras causas de acción.
@@ -211,8 +211,7 @@ vigilancia y manipulación de tráfico;
 * Examinar si herramientas para evadir la censura, como [Tor bridges](https://bridges.torproject.org/), [Psiphon](https://psiphon.ca/) y
 [Lantern](https://getlantern.org/), están bloqueadas.
 
-Por favor, revisa las [especificaciones](https://github.com/TheTorProject/ooni-spec/tree/master/test-specs) para cada prueba de OONI Probe cuidadosamente antes
-de ejecutarlas.
+Le instamos a que revise detenidamente las **[especificaciones](https://github.com/ooni/spec)** y **[descripciones](https://ooni.org/nettest/)** de cada test de OONI Probe antes de ejecutarla.
 
 #### Legalidad de los sitios web analizados
 
@@ -231,13 +230,7 @@ tanto te recomendamos que revises cuidadosamente si estás dispuesto a tomar el
 riesgo de acceder y descargar información de tales sitios web a través de las
 pruebas de OONI Probe.
 
-Si no estás seguro de las potenciales implicancias de conectarse y descargar
-contenido de los sitios web incluídos en las listas mencionadas, puedes escoger
-que sitios web a probar ejecutando:
-
-```
-oonprobe web_connectivity -u <url>
-```
+Si no está seguro de las posibles implicaciones de conectarse y descargar datos de los sitios web enumerados en las listas anteriores, puede elegir qué sitios web testear a través del botón "Elegir sitios web" de la aplicación móvil OONI Probe, o utilizando la plataforma [OONI Run](https://run.ooni.io/).
 
 #### Legalidad de las pruebas de OONI Probe
 
@@ -252,28 +245,6 @@ especificación a un servicio de repetición y puede ser visto como una forma de
 "hacking". Si los componentes de red afectados por esta prueba ven estos
 mensajes fuera de especificación como ataques, puedes enfrentar consecuencias
 tales como enjuiciamiento bajo leyes de mal uso de sistemas computacionales.
-
-#### Legalidad del software de anonimato
-
-Por defecto, las pruebas de medición de red de OONI Probe son enviadas al
-recolector de mediciones de OONI a través de [servicios ocultos de Tor](https://www.torproject.org/docs/hidden-services), los cuales han sido
-diseñados para proteger el anonimato en línea.
-
-Además, la prueba [Vanilla Tor](https://ooni.org/nettest/vanilla-tor/) de OONI está diseñada para examinar la conectividad a la red Tor, mientras
-que la prueba [bridge-reachability](https://ooni.org/nettest/tor-bridge-reachability/) está diseñada para comprobar si los [Nodos de Puente Tor](https://bridges.torproject.org/) están bloqueados o no. Ambas pruebas
-requieren la instalación de [Tor](https://www.torproject.org/).
-
-De manera similar, las siguientes pruebas de OONI requieren la instalación de
-software para la evasión de censura:
-
-* [Psiphon](https://ooni.org/nettest/psiphon/)
-
-* [Lantern](https://ooni.org/nettest/lantern/)
-
-Por tanto te recomendamos consultar con un abogado local la legalidad del
-software de anonimato (como Tor, VPNs o proxys) en tu país antes de ejecutar las
-pruebas mencionadas, y considerar subir tus mediciones usando recolectores que
-usen HTTPS o cloud-fronting (en vez de servicios ocultos de Tor).
 
 #### Servicios de terceros
 
@@ -346,7 +317,7 @@ Nuevamente, Los usuarios que ejecutan OONI Probe lo hacen bajo su propio riesgo.
 Al instalar OONI Probe, los usuarios están de acuerdo con cumplir con la
 [licencia](https://github.com/TheTorProject/ooni-probe/blob/master/LICENSE) y
 [Política de Datos](https://ooni.org/about/data-policy) de OONI. Ni
-el [Proyecto OONI](https://ooni.org/) ni su organización matriz, [El Proyecto Tor](https://www.torproject.org/), se hacen responsables, de forma
+el [Proyecto OONI](https://ooni.org/) ni [El Proyecto Tor](https://www.torproject.org/), se hacen responsables, de forma
 conjunta o solidaria, ante la ley o en equidad, ante usuarios de OONI Probe y
 terceros por cualquier daño resultante del uso de OONI Probe bajo cualquier
 agravio, contrato u otras causas de acción.
