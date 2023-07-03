@@ -432,7 +432,7 @@ services (such as Google Cloud) that many other services rely on.
 A domain is a name that is commonly attributed to websites (when they're
 created), so that they can be more easily accessed and remembered.
 
-For example, **wikipedia.org** is the domain of the Wikipedia website.
+For example, **www.wikipedia.org** is the domain of the Wikipedia website.
 
 ### DPI
 
