@@ -2,7 +2,7 @@
 continent: Africa
 country: Sudan
 name: Digital Rights Lab
-title: Access Now
+title: Digital Rights Lab
 website: https://twitter.com/DRLab_Sudan
 reports:
 ---
