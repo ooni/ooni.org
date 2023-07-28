@@ -1,6 +1,6 @@
 ---
 title: "China is blocking OONI"
-description: "This repo"
+description: "This report documents the blocking of OONI in China."
 author: "Simone Basso, Maria Xynou, Arturo Filastò"
 date: "2023-07-28"
 tags: ["country-cn"]
