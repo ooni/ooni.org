@@ -1,8 +1,8 @@
 ---
-title: "Senegal: Social media blocks and network outages amid June 2023 protests"
-description: "This report documents the blocking of social media and network outages amid June 2023 protests in Senegal"
-author: "Laura Schwartz-Henderson (Independent Consultant), David Belson (Cloudflare), Zach Rosson (Access Now), Felicia Anthonio (Access Now), Maria Xynou (OONI), Arturo Filasto (OONI)"
-date: "2023-07-31"
+title: "Senegal: Social media blocks and network outages amid political unrest"
+description: "This report documents the blocking of social media and network outages amid political unrest in Senegal."
+author: "Laura Schwartz-Henderson (Independent Consultant), David Belson (Cloudflare), Zach Rosson (Access Now), Felicia Anthonio (Access Now), Maria Xynou (OONI), Arturo Filastò (OONI)"
+date: "2023-08-01"
 tags: ["country-sn"]
 categories: ["report"]
 ---
