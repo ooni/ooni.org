@@ -7,9 +7,11 @@ tags: ["country-sn"]
 categories: ["report"]
 ---
 
-Violent protests [erupted](https://www.aljazeera.com/gallery/2023/6/4/death-toll-mounts-as-unrest-flares-in-senegal) in Senegal on 1st June 2023 over the sentencing of opposition leader Ousmane Sonko. On the same day, [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-10&until=2023-06-30&time_grain=day&axis_x=measurement_start_day&test_name=whatsapp) collected from Senegal showed that ISPs started blocking access to several instant messaging apps and social media platforms (which were also [reported](https://www.bbc.com/news/world-africa-65788534) by several news outlets). Those blocks appear to have been in place for a week (until 7th June 2023). Meanwhile, Cloudflare observed [three disruptions](https://radar.cloudflare.com/as37649?dateStart=2023-06-03&dateEnd=2023-06-10) to traffic from AS37649 (Free/Tigo), and two disruptions at Sudatel Senegal during this period. The government of Senegal was responsible for the shutdowns which it [claimed](https://technext24.com/2023/06/05/internet-shutdown-in-senegal/) were necessary to prevent the spread of “hateful and violent” messages online.
+Violent protests [erupted](https://www.aljazeera.com/gallery/2023/6/4/death-toll-mounts-as-unrest-flares-in-senegal) in Senegal on 1st June 2023 over the sentencing of opposition leader Ousmane Sonko. On the same day, [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-10&until=2023-06-30&time_grain=day&axis_x=measurement_start_day&test_name=whatsapp) collected from Senegal showed that ISPs started blocking access to several instant messaging apps and social media platforms (which were also [reported](https://www.bbc.com/news/world-africa-65788534) by several news outlets). Those blocks appear to have been in place for a week (until 7th June 2023). Meanwhile, Cloudflare observed [three disruptions](https://radar.cloudflare.com/as37649?dateStart=2023-06-03&dateEnd=2023-06-10) to traffic from AS37649 (Free/Tigo), and two disruptions at Sudatel Senegal during this period. Following the [arrest](https://www.aljazeera.com/news/2023/7/30/senegals-ousmane-sonko-charged-with-fomenting-insurrection) of Ousmane Sonko on 28th July 2023, the Senegalese Ministry of Communication, Telecommunications and the Digital Economy issued another shutdown order on 31st July 2023 to cut off mobile internet access.
 
-In this report, we share [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-10&until=2023-06-30&time_grain=day&axis_x=measurement_start_day&test_name=whatsapp) documenting the social media blocks in Senegal, as well as [Cloudflare Radar data](https://radar.cloudflare.com/as37649?dateStart=2023-06-03&dateEnd=2023-06-10) on the network outages that occurred in the country during the first week of June 2023. To examine how the shutdowns impacted people and communities in Senegal, we share survey findings from collaboration with Senegalese partners, as well as input from [Access Now](https://www.accessnow.org/).  
+The government of Senegal was responsible for the shutdowns which it [claimed](https://technext24.com/2023/06/05/internet-shutdown-in-senegal/) were necessary to prevent the spread of “hateful and violent” messages online.
+
+In this report, we share [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-10&until=2023-06-30&time_grain=day&axis_x=measurement_start_day&test_name=whatsapp) documenting the social media blocks in Senegal, as well as [Cloudflare Radar data](https://radar.cloudflare.com/as37649?dateStart=2023-06-03&dateEnd=2023-06-10) on the network outages that occurred in the country during the first week of June 2023. To examine how the shutdowns impacted people and communities in Senegal, we share survey findings from collaboration with Senegalese partners, as well as input from [Access Now](https://www.accessnow.org/). We also share [Cloudflare Radar data](https://radar.cloudflare.com/as37196?dateRange=1d) on the mobile internet disruptions that occurred in Senegal on 31st July 2023.
 
 {{<table-of-contents>}}
 
@@ -17,7 +19,7 @@ In this report, we share [OONI data](https://explorer.ooni.org/chart/mat?probe_c
 
 Amid violent [protests](https://www.aljazeera.com/gallery/2023/6/4/death-toll-mounts-as-unrest-flares-in-senegal) that erupted over the sentencing of opposition leader Ousmane Sonko, Senegal experienced [network outages](https://radar.cloudflare.com/as37649?dateStart=2023-06-03&dateEnd=2023-06-10) and the [blocking of social media platforms](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-01&until=2023-07-21&time_grain=day&axis_x=measurement_start_day&test_name=whatsapp) in early June 2023. The Senegalese authorities were responsible for the disruptions which they [claimed](https://technext24.com/2023/06/05/internet-shutdown-in-senegal/) were necessary to curb the spread of “hateful and violent” messages online. However, the network disruptions imposed by the government of Senegal may have been an attempt to crack down on dissent and quell protests.
 
-OONI data collected from Senegal shows the blocking of [WhatsApp](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-01&until=2023-07-21&time_grain=day&axis_x=measurement_start_day&test_name=whatsapp), [Telegram](https://explorer.ooni.org/chart/mat?test_name=telegram&axis_x=measurement_start_day&since=2023-05-01&until=2023-07-21&time_grain=day&probe_cc=SN), [Facebook](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-10&until=2023-06-30&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.facebook.com), [Instagram](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-10&until=2023-06-30&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.instagram.com), [Twitter](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-10&until=2023-06-30&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=twitter.com), and [YouTube](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-10&until=2023-06-30&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.youtube.com) between 1st to 7th June 2023. While these blocks were lifted by 8th June 2023, the [blocking of Telegram Web appears to be](https://explorer.ooni.org/search?since=2023-05-01&until=2023-08-01&probe_cc=SN&test_name=telegram&probe_asn=AS8346&failure=true) [ongoing](https://explorer.ooni.org/search?since=2023-05-01&until=2023-08-01&probe_cc=SN&test_name=telegram&probe_asn=AS8346&failure=true) [on Sonatel (AS8346)](https://explorer.ooni.org/search?since=2023-05-01&until=2023-08-01&probe_cc=SN&test_name=telegram&probe_asn=AS8346&failure=true) – spanning until at least 31st July 2023. OONI data also shows that access to [TikTok was temporarily blocked](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-10&until=2023-06-30&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.tiktok.com) in Senegal between 5th to 7th June 2023. In all cases, OONI data shows that the blocks were primarily implemented by means of TLS interference. Meanwhile, Cloudflare data shows [three disruptions](https://radar.cloudflare.com/as37649?dateStart=2023-06-03&dateEnd=2023-06-10) to traffic from Free/Tigo (AS37649), and [two disruptions at Sudatel Senegal (](https://radar.cloudflare.com/as37196)[AS37196)](https://radar.cloudflare.com/as37196) between 3rd to 6th June 2023.
+OONI data collected from Senegal shows the blocking of [WhatsApp](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-01&until=2023-07-21&time_grain=day&axis_x=measurement_start_day&test_name=whatsapp), [Telegram](https://explorer.ooni.org/chart/mat?test_name=telegram&axis_x=measurement_start_day&since=2023-05-01&until=2023-07-21&time_grain=day&probe_cc=SN), [Facebook](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-10&until=2023-06-30&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.facebook.com), [Instagram](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-10&until=2023-06-30&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.instagram.com), [Twitter](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-10&until=2023-06-30&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=twitter.com), and [YouTube](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-10&until=2023-06-30&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.youtube.com) between 1st to 7th June 2023. While these blocks were lifted by 8th June 2023, the [blocking of Telegram Web appears to be](https://explorer.ooni.org/search?since=2023-05-01&until=2023-08-02&probe_cc=SN&test_name=telegram&probe_asn=AS8346&failure=true) [ongoing](https://explorer.ooni.org/search?since=2023-05-01&until=2023-08-02&probe_cc=SN&test_name=telegram&probe_asn=AS8346&failure=true) [on Sonatel (AS8346)](https://explorer.ooni.org/search?since=2023-05-01&until=2023-08-02&probe_cc=SN&test_name=telegram&probe_asn=AS8346&failure=true) – spanning until at least 1st August 2023. OONI data also shows that access to [TikTok was temporarily blocked](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-10&until=2023-06-30&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.tiktok.com) in Senegal between 5th to 7th June 2023. In all cases, OONI data shows that the blocks were primarily implemented by means of TLS interference. Meanwhile, Cloudflare data shows [three disruptions](https://radar.cloudflare.com/as37649?dateStart=2023-06-03&dateEnd=2023-06-10) to traffic from Free/Tigo (AS37649), and [two disruptions at Sudatel Senegal (](https://radar.cloudflare.com/as37196)[AS37196)](https://radar.cloudflare.com/as37196) between 3rd to 6th June 2023. Cloudflare data also shows traffic drops at [Sudatel Senegal](https://radar.cloudflare.com/as37196?dateRange=1d) and [Tigo](https://radar.cloudflare.com/as37649?dateRange=1d) on 31st July 2023 (following the [arrest](https://www.aljazeera.com/news/2023/7/30/senegals-ousmane-sonko-charged-with-fomenting-insurrection) of Ousmane Sonko).
 
 The survey findings suggest that these internet disruptions had widespread impact. Senegalese survey respondents who experienced the outages and blocks on the ground described that they had an impact on Senegal’s economic activity and political stability, on their professional endeavors, their social and psychological health and well-being, and on the vulnerable or marginalized groups in Senegal.
 
@@ -96,13 +98,19 @@ We analyzed the survey results and shared the findings in the “Local experie
 
 On 4th June 2023, the Senegal Ministry of Communication directed ISPs to suspend mobile data “in certain localities … during certain time slots.” They justified the action due to the “dissemination of hateful and subversive messages in a context of disturbance of public order.” Two days later, the Ministry directed operators to restore mobile internet connection. We found no evidence of formal shutdown orders (aside from [quotes](https://www.pressafrik.com/Senegal-le-ministre-de-l-Interieur-annonce-9-morts_a258081.html) from government officials) related to the multiple social media platforms blocked between 1st to 8th June 2023.
 
-{{<img src="images/image1.jpg" title="Senegal blocks" alt="Senegal blocks">}}
+{{<img src="images/image1.jpg" title="Senegal censorship" alt="Senegal censorship">}}
 
 **Photo:** Order from the Ministry of Communication, June 4, 2023.
 
-{{<img src="images/image2.jpg" title="Senegal blocks" alt="Senegal blocks">}}
+{{<img src="images/image2.jpg" title="Senegal censorship" alt="Senegal censorship">}}
 
 **Photo:** Follow-up order from the Ministry of Communication, June 6, 2023.
+
+On 31st July 2023, the Senegal Ministry of Communication again directed ISPs to suspend mobile data following the [arrest](https://www.aljazeera.com/news/2023/7/30/senegals-ousmane-sonko-charged-with-fomenting-insurrection) of the Senegalese opposition leader. However, the order did not include specific times that the shutdowns were to take place, nor the expected duration of the shutdowns.
+
+{{<img src="images/image15.png" title="Senegal censorship" alt="Senegal censorship">}}
+
+**Photo:** Order from the Ministry of Communication, July 31, 2023.
 
 These directives are compared with traffic data from [Cloudflare Radar](https://radar.cloudflare.com/as37649?dateStart=2023-06-03&dateEnd=2023-06-10) for ISPs in the country to confirm if operators indeed followed the direction of the government, and if so when. This information is used in combination, along with firsthand reports and news sources, to verify the occurrence and scope of a shutdown.
 
@@ -112,7 +120,7 @@ These directives are compared with traffic data from [Cloudflare Radar](https://
 
 On 1st June 2023, OONI data collected from Senegal shows that the testing of Whatsapp started to present anomalies. Specifically, these [anomalies](https://explorer.ooni.org/search?since=2023-06-01&until=2023-06-02&probe_cc=SN&test_name=whatsapp&failure=true) were primarily observed on Sonatel (AS8346), starting from [20:19 local time](https://explorer.ooni.org/m/20230601201903.757075_SN_whatsapp_a288261558c64f45). The timing of the anomalies coincides with the [eruption of protests](https://www.arabnews.com/node/2314851/world) in Senegal, suggesting a correlation with the anomalies observed in WhatsApp testing. An aggregate view of OONI measurements collected from the testing of WhatsApp in Senegal shows that the vast majority of measurements presented anomalies up until 7th June 2023, as illustrated through the following chart.  
 
-{{<img src="images/image10.png" title="Senegal blocks" alt="Senegal blocks">}}
+{{<img src="images/image11.png" title="Senegal censorship" alt="Senegal censorship">}}
 
 **Chart:** OONI Probe testing of WhatsApp in Senegal between 1st May 2023 to 20th July 2023 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-01&until=2023-07-21&time_grain=day&axis_x=measurement_start_day&test_name=whatsapp)).
 
@@ -120,7 +128,7 @@ The fact that WhatsApp was previously accessible (as demonstrated by measurement
 
 A [per-ASN breakdown](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-01&until=2023-07-21&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=whatsapp) of OONI measurement coverage in Senegal during the same period (1st May 2023 to 20th July 2023) shows that the testing of WhatsApp presented anomalies on both Sonatel (AS8346) and Saga Africa (AS37649) between 1st to 7th June 2023, as illustrated below.
 
-{{<img src="images/image5.png" title="Senegal blocks" alt="Senegal blocks">}}
+{{<img src="images/image5.png" title="Senegal censorship" alt="Senegal censorship">}}
 
 **Chart:** Per-ASN OONI Probe testing of WhatsApp in Senegal between 1st May 2023 to 20th July 2023 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-01&until=2023-07-21&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=whatsapp)).
 
@@ -128,13 +136,13 @@ The presence of anomalies in the testing of WhatsApp on two ASNs in Senegal (dur
 
 To evaluate whether the anomalies are in fact indicative of blocking, we referred to the raw data in [anomalous](https://explorer.ooni.org/search?since=2023-06-01&until=2023-06-08&probe_cc=SN&test_name=whatsapp&failure=true&only=anomalies) WhatsApp measurements. OONI data shows that while TCP connections to WhatsApp’s endpoints were successful, the testing of WhatsApp Web and WhatsApp’s registration service resulted in failures. Specifically, OONI data [shows](https://explorer.ooni.org/m/20230607161335.606419_SN_whatsapp_d53b261ef91933c1) that the TLS handshakes for WhatsApp Web (`web.whatsapp.com`) and WhatsApp’s registration service (`v.whatsapp.net`) timed out.
 
-{{<img src="images/image12.png" title="Senegal blocks" alt="Senegal blocks">}}
+{{<img src="images/image13.png" title="Senegal censorship" alt="Senegal censorship">}}
 
 As we consistently observe [TLS handshakes timing out](https://explorer.ooni.org/search?since=2023-06-01&until=2023-06-08&probe_cc=SN&test_name=whatsapp&failure=true&only=anomalies) in WhatsApp measurements between 1st to 7th June 2023, OONI data suggests that access to **WhatsApp was blocked by means of TLS interference** in Senegal. This is further suggested by the fact that almost all subsequent WhatsApp measurements (collected from 8th June 2023 onwards from the same networks) were [successful](https://explorer.ooni.org/search?since=2023-06-01&until=2023-06-30&probe_cc=SN&test_name=whatsapp&failure=true), indicating that access to WhatsApp was unblocked by 8th June 2023. The timing of the lifting of the block correlates with [news reports](https://www.africanews.com/2023/06/06/normalcy-slowly-returns-in-senegal-following-deadly-protests//) on the de-escalation of violent clashes. 
 
 Similarly, the testing of Telegram in Senegal started presenting [anomalies](https://explorer.ooni.org/chart/mat?test_name=telegram&axis_x=measurement_start_day&since=2023-05-01&until=2023-07-21&time_grain=day&probe_cc=SN) on 1st June 2023, as illustrated below.
 
-{{<img src="images/image13.png" title="Senegal blocks" alt="Senegal blocks">}}
+{{<img src="images/image16.png" title="Senegal censorship" alt="Senegal censorship">}}
 
 **Chart:** OONI Probe testing of Telegram in Senegal between 1st May 2023 to 20th July 2023 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?test_name=telegram&axis_x=measurement_start_day&since=2023-05-01&until=2023-07-21&time_grain=day&probe_cc=SN)).
 
@@ -142,7 +150,7 @@ But unlike WhatsApp, the testing of Telegram did not present anomalies only unti
 
 Moreover, we observe that the longer-term Telegram anomalies (starting on 1st June 2023, and spanning beyond 7th June 2023) are [present on all 3 tested ASNs](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-01&until=2023-07-21&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=telegram) in Senegal, as illustrated below.
 
-{{<img src="images/image8.png" title="Senegal blocks" alt="Senegal blocks">}}
+{{<img src="images/image9.png" title="Senegal censorship" alt="Senegal censorship">}}
 
 **Chart:** Per-ASN OONI Probe testing of Telegram in Senegal between 1st May 2023 to 20th July 2023 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-01&until=2023-07-21&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=telegram)).
 
@@ -152,13 +160,13 @@ The persistent presence of a relatively large volume of anomalies in the testing
 
 When looking at the raw data of [anomalous measurements](https://explorer.ooni.org/search?since=2023-05-01&until=2023-07-21&probe_cc=SN&test_name=telegram&probe_asn=AS8346&failure=true) from Sonatel (AS8346), we can see that most TCP connections to Telegram endpoints were successful, but that the testing of Telegram Web (`web.telegram.org`) resulted in timeout errors. Specifically, OONI data [shows](https://explorer.ooni.org/m/20230720165854.587786_SN_telegram_6fe114bb5c7be068) that the TLS handshakes for Telegram Web (`web.telegram.org`) timed out.  
 
-{{<img src="images/image6.png" title="Senegal blocks" alt="Senegal blocks">}}
+{{<img src="images/image6.png" title="Senegal censorship" alt="Senegal censorship">}}
 
 Anomalous OONI measurements consistently show [TLS handshakes timing out](https://explorer.ooni.org/search?since=2023-05-01&until=2023-07-21&probe_cc=SN&test_name=telegram&failure=true&only=anomalies) in the testing of `web.telegram.org` throughout the analysis period on this network, suggesting – similarly to WhatsApp – that access to Telegram was blocked by means of TLS interference. As the types of failures observed are consistent for different tested services during the same period, we have a stronger signal of blocking for both WhatsApp and Telegram.
 
 The following chart provides a breakdown of the specific failures observed through [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-04-30&until=2023-07-24&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=telegram) in the reachability testing of Telegram endpoints on Saga Africa (AS37649), Sonatel (AS8346) and Sudatel Senegal (AS37196) between 30th April 2023 to 23rd July 2023. This chart was produced through the use of the [OONI data analysis tool](https://github.com/ooni/data), which performs more advanced analysis.
 
-{{<img src="images/image14.png" title="Senegal blocks" alt="Senegal blocks">}}
+{{<img src="images/image17.png" title="Senegal censorship" alt="Senegal censorship">}}
 
 **Chart:** Reachability testing of Telegram endpoints on Saga Africa (AS37649), Sonatel (AS8346) and Sudatel Senegal (AS37196) between 30th April 2023 to 23rd July 2023 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-04-30&until=2023-07-24&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=telegram)).
 
@@ -174,17 +182,17 @@ Similarly to the blocking of [WhatsApp](https://explorer.ooni.org/chart/mat?prob
 
 This is evident from the following [chart](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-10&until=2023-06-30&time_grain=day&axis_x=measurement_start_day&axis_y=domain&test_name=web_connectivity), which aggregates OONI measurement coverage from the testing of Facebook, Instagram, Twitter, YouTube, and TikTok domains in Senegal between 10th May 2023 to 30th June 2023.
 
-{{<img src="images/image11.png" title="Senegal blocks" alt="Senegal blocks">}}
+{{<img src="images/image12.png" title="Senegal censorship" alt="Senegal censorship">}}
 
 **Chart:** OONI Probe testing of Facebook, Instagram, Twitter, YouTube, and TikTok domains in Senegal between 10th May 2023 to 30th June 2023 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-10&until=2023-06-30&time_grain=day&axis_x=measurement_start_day&axis_y=domain&test_name=web_connectivity)).
 
 From the above chart, we can see that the Facebook, Instagram, Twitter, and YouTube domains only presented signs of interference between 1st to 7th June 2023, the timing of which matches  the dates during which we observed anomalies in the testing of WhatsApp and Telegram (discussed previously). While Twitter measurements are annotated as “failed”, the testing failure appears to be [symptomatic of censorship](https://ooni.org/post/improving-data-quality-analysis-of-failed-measurements/), as the raw data suggests that access to `twitter.com` was blocked. Specifically, OONI data from the testing of `twitter.com` shows the [timing out of the session after the ClientHello message during the TLS handshake](https://explorer.ooni.org/m/20230601234654.776404_SN_webconnectivity_df63fec6d74c5108).
 
-{{<img src="images/image7.png" title="Senegal blocks" alt="Senegal blocks">}}
+{{<img src="images/image8.png" title="Senegal censorship" alt="Senegal censorship">}}
 
 Similarly, we observe TLS based interference (with TLS handshakes timing out) in the testing of [Facebook](https://explorer.ooni.org/m/20230605235650.116008_SN_webconnectivity_6a3723b985f83275), [Instagram](https://explorer.ooni.org/m/20230605235629.011921_SN_webconnectivity_e509022569c6aca0) and [YouTube](https://explorer.ooni.org/m/20230605235901.390196_SN_webconnectivity_13cd7daa734328d1) as well. The blocking of YouTube is further corroborated by the [Google Transparency Report](https://transparencyreport.google.com/traffic/overview?hl=en&fraction_traffic=start:1685491200000;end:1689897599999;product:21;region:SN&lu=fraction_traffic), which shows a significant drop in YouTube traffic originating from Senegal during the same period.
 
-{{<img src="images/image9.png" title="Senegal blocks" alt="Senegal blocks">}}
+{{<img src="images/image10.png" title="Senegal censorship" alt="Senegal censorship">}}
 
 **Chart:** YouTube traffic originating from Senegal between 1st June 2023 to 20th July 2023 (source: [Google Transparency Report](https://transparencyreport.google.com/traffic/overview?hl=en&fraction_traffic=start:1685491200000;end:1689897599999;product:21;region:SN&lu=fraction_traffic)).
 
@@ -192,7 +200,7 @@ While the testing of [TikTok](https://explorer.ooni.org/chart/mat?probe_cc=SN&si
 
 These blocks are further suggested when looking at the testing of associated domains that are required for the functionality of these social media platforms. For example, the following [chart](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-05-10&until=2023-06-30&time_grain=day&probe_cc=SN&axis_y=domain) shows that the testing of such CDNs presented anomalies (and signs of TLS based interference) during the same period as well.
 
-{{<img src="images/image4.png" title="Senegal blocks" alt="Senegal blocks">}}
+{{<img src="images/image4.png" title="Senegal censorship" alt="Senegal censorship">}}
 
 **Chart:** OONI Probe testing of Facebook, Instagram, and Twitter CDNs in Senegal between 10th May 2023 to 30th June 2023 (source: [OONI MAT](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-05-10&until=2023-06-30&time_grain=day&probe_cc=SN&axis_y=domain)).
 
@@ -202,13 +210,23 @@ Amid [reports](https://www.reuters.com/world/africa/senegal-government-cuts-mobi
 
 The disruptions on [Free/Tigo](https://radar.cloudflare.com/as37649) took place on June 3 (15:30 - 19:00 UTC), June 4-5 (13:45 - 02:05 UTC), and June 5-6 (13:05 - 01:00 UTC) and though not complete outages, resulted in the loss of a significant volume of traffic from the network. The disruptions on [Sudatel Senegal](https://radar.cloudflare.com/as37196) took place on June 3-5 (15:00 - 01:00 UTC) and June 5-6 (13:00 - 01:00 UTC).
 
-{{<img src="images/image3.png" title="Senegal blocks" alt="Senegal blocks">}}
+{{<img src="images/image3.png" title="Senegal censorship" alt="Senegal censorship">}}
 
 **Chart:** Internet and HTTP traffic trends for AS37649 (Free/Tigo) as seen by Cloudflare between 3rd June 2023 to 10th June 2023 (source: [Cloudflare Radar](https://radar.cloudflare.com/as37649?dateStart=2023-06-03&dateEnd=2023-06-10)).
 
-{{<img src="images/image15.png" title="Senegal blocks" alt="Senegal blocks">}}
+{{<img src="images/image18.png" title="Senegal censorship" alt="Senegal censorship">}}
 
 **Chart:** Internet and HTTP traffic trends for AS37196 (Sudatel Senegal) as seen by Cloudflare between 3rd June 2023 to 10th June 2023 (source: [Cloudflare Radar](https://radar.cloudflare.com/as37196?dateStart=2023-06-03&dateEnd=2023-06-10)).
+
+Loss of traffic at Free/Tigo and Sudatel Senegal was also observed in conjunction with the July 31st shutdown order. Traffic began to drop at AS37196 (Sudatel Senegal) at 08:00 UTC, and at Free/Tigo at 10:10 UTC.
+
+{{<img src="images/image14.png" title="Senegal censorship" alt="Senegal censorship">}}
+
+**Chart:** Internet and HTTP traffic trends for AS37196 (Sudatel Senegal) as seen by Cloudflare on July 31 - August 1, 2023 (source: [Cloudflare Radar](https://radar.cloudflare.com/as37196?dateStart=2023-07-31&dateEnd=2023-08-01)).
+
+{{<img src="images/image7.png" title="Senegal censorship" alt="Senegal censorship">}}
+
+**Chart:** Internet and HTTP traffic trends for AS37649 (Free/Tigo) as seen by Cloudflare on July 31 - August 1, 2023 (source: [Cloudflare Radar](https://radar.cloudflare.com/as37649?dateStart=2023-07-31&dateEnd=2023-08-01)).
 
 ## Shutdown impacts
 
@@ -244,7 +262,7 @@ OONI data shows that the blocks were implemented by means of [TLS interference](
 
 The societal impact of Senegal’s June 2023 internet disruptions is suggested by the survey findings of this study. Senegalese survey respondents who experienced the outages and blocks on the ground described that they had an impact on Senegal’s economic activity and political stability, on their professional endeavors, their social and psychological health and well-being, and on the vulnerable or marginalized groups in Senegal.  
 
-The fight against internet shutdowns required coordinated efforts and response. As internet shutdowns [spread to more countries in record numbers](https://accessnow.org/keepiton-2022-report), the community must continue to collaborate and use every available approach to prevent or prepare for internet shutdowns. [Read more](https://www.accessnow.org/campaign/keepiton/keepiton-faq/#the-coalition-campaign) on how you can join the fight to #KeepItOn.
+The fight against internet shutdowns required coordinated efforts and response. As internet shutdowns [spread to more countries in record numbers](https://accessnow.org/keepiton-2022-report), the community must continue to collaborate and use every available approach to prevent, prepare or respond to internet shutdowns. [Read more](https://www.accessnow.org/campaign/keepiton/keepiton-faq/#the-coalition-campaign) on how you can join the fight to #KeepItOn.
 
 ## Acknowledgements
 
