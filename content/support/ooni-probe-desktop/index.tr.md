@@ -30,7 +30,7 @@ Aşağıdaki içindekiler tablosu, rehberde gezinmeyi kolaylaştırır.
 
 ## OONI Probe nedir
 
-OONI Probe, internet sansürünü ve diğer ağ müdahalesi biçimlerini ölçmek için tasarlanmış [ücretsiz ve açık kaynaklı bir yazılımdır](https://github.com/ooni/probe). Bu yazılım 2012 yılından beri, [Tor Projesi](https: //www.torproject.org/) altında doğmuş ve kar amacı gütmeyen [Open Observatory of Network Interference (OONI)](https://ooni.org/) tarafından geliştirilmektedir.
+OONI Probe, internet sansürünü ve diğer ağ müdahalesi biçimlerini ölçmek için tasarlanmış [ücretsiz ve açık kaynaklı bir yazılımdır](https://github.com/ooni/probe). Bu yazılım 2012 yılından beri, [Tor Projesi](https://www.torproject.org/) altında doğmuş ve kar amacı gütmeyen [Open Observatory of Network Interference (OONI)](https://ooni.org/) tarafından geliştirilmektedir.
 
 OONI Probe uygulaması ile ([Mobile](https://ooni.org/install/mobile) ve [Desktop](https://ooni.org/install/desktop) sürümleri vardır), mobil aygıtlar ve bilgisayarlarda şunları ölçen [ağ ölçümü sınamaları](https://ooni.org/nettest/) yapabilirsiniz:
 
@@ -259,7 +259,7 @@ Yalnızca anlık ileti uygulamalarının engellenmesini ölçmek istiyorsanız, 
 
 {{<img src="images/new-inside-im-card.png" title="Inside IM card" alt="Inside IM card">}}
 
-OONI [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https: //ooni.org/nettest/telegram/) ve [Signal](https://ooni.org/nettest/signal) sınamaları ile bu uygulamaların engellenip engellenmediğine bakıyorsunuz.
+OONI [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/) ve [Signal](https://ooni.org/nettest/signal) sınamaları ile bu uygulamaların engellenip engellenmediğine bakıyorsunuz.
 
 {{<img src="images/running-telegram.png" title="Testing Telegram" alt="Testing Telegram">}}
 
@@ -367,7 +367,7 @@ Otomatik sınamayı açmak için **Harika görünüyor** üzerine tıklayabilirs
 
 ## Site sınamanızı özelleştirmek
 
-Varsayılan olarak, OONI Probe ile siteleri sınarken, [Citizen Lab sınama listelerinde](https://github.com/citizenlab/test-lists/tree/master/lists) bulunan adreslere bakarsınız. Başka bir deyişle, “Çalıştır” üzerine (OONI Probe uygulamasının panosundan ya da siteler kartından) tıklarsanız, [Citizen Lab sınama listelerinden](https://github.com/citizenlab/test-lists/tree/master/lists) alınan rastgele seçilmiş siteleri sınamış olursunuz. Bu listeler, ülke içindeki araştırmacılar ve uzmanlarla işbirliği yapılarak oluşturulmuştur. [GitHub üzerinde herkese açık olarak bulunabileceklerinden](https://github.com/citizenlab/test-lists/tree/master/lists), isteyen herkes bunları inceleyebilir, adreslere [katkıda bulunabilir](https://ooni.org/get -involved/contribute-test-lists) ve belirli adreslerin kaldırılmasını önerebilir. Ayrıca, dünya çapında çoğu OONI Probe kullanıcısı tarafından düzenli olarak sınanan siteleri içerdiklerinden, bu listeleri [incelemeyi ve güncellemeyi](https://ooni.org/get-involved/contribute-test-lists) sürdürmemiz önemlidir.
+Varsayılan olarak, OONI Probe ile siteleri sınarken, [Citizen Lab sınama listelerinde](https://github.com/citizenlab/test-lists/tree/master/lists) bulunan adreslere bakarsınız. Başka bir deyişle, “Çalıştır” üzerine (OONI Probe uygulamasının panosundan ya da siteler kartından) tıklarsanız, [Citizen Lab sınama listelerinden](https://github.com/citizenlab/test-lists/tree/master/lists) alınan rastgele seçilmiş siteleri sınamış olursunuz. Bu listeler, ülke içindeki araştırmacılar ve uzmanlarla işbirliği yapılarak oluşturulmuştur. [GitHub üzerinde herkese açık olarak bulunabileceklerinden](https://github.com/citizenlab/test-lists/tree/master/lists), isteyen herkes bunları inceleyebilir, adreslere [katkıda bulunabilir](https://ooni.org/get-involved/contribute-test-lists) ve belirli adreslerin kaldırılmasını önerebilir. Ayrıca, dünya çapında çoğu OONI Probe kullanıcısı tarafından düzenli olarak sınanan siteleri içerdiklerinden, bu listeleri [incelemeyi ve güncellemeyi](https://ooni.org/get-involved/contribute-test-lists) sürdürmemiz önemlidir.
 
 Ancak sınamanızı seçtiğiniz sitelerle sınırlamayı yeğlerseniz, bunu OONI Probe Desktop uygulaması üzerinden yapabilirsiniz.
 
