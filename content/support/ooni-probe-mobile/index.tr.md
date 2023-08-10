@@ -7,6 +7,8 @@ description: "OONI Probe Mobile uygulaması kullanıcı rehberi"
 
 **OONI Probe Mobile sürümü:** 3.7.1
 
+Bu belgenin çevirisi için Kaya Zeren'e teşekkür ederiz.
+
 {{<img src="images/image49.png" title="Measure Internet Censorship" alt="Measure Internet Censorship">}}
 
 OONI Probe, internet sansürünü ve diğer ağ engellemelerini ölçmek için kullanabileceğiniz [ücretsiz ve açık kaynaklı](https://github.com/ooni/probe) bir uygulamadır. Bu kullanıcı rehberinde, [OONI Probe Mobile uygulamasını](https://ooni.org/install/mobile) kurma, çalıştırma ve özelleştirme konusunda **adım adım yönergeler** bulunur.
