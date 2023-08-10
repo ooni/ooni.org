@@ -948,7 +948,7 @@ Ağ başarımı sınamanızı özelleştirebilirsiniz.
 
 {{<img src="images/image82.jpg" title="Performance settings" alt="Performance settings">}}
 
-Burada OONI Probe panosunun Başarım kartında bulunan 4 sınamayı göreceksiniz ([NDT](https://ooni.org/nettest/ndt/), [DASH](https://ooni.org/nettest/dash/), [HTTP geçersiz istek satırı] (https://ooni.org/nettest/http-invalid-request-line/), [HTTP üst bilgi alanı değiştirme](https://ooni.org/nettest/http-header-field-manipulation/)) . Varsayılan olarak 4 sınamanın tümü etkindir.
+Burada OONI Probe panosunun Başarım kartında bulunan 4 sınamayı göreceksiniz ([NDT](https://ooni.org/nettest/ndt/), [DASH](https://ooni.org/nettest/dash/), [HTTP geçersiz istek satırı](https://ooni.org/nettest/http-invalid-request-line/), [HTTP üst bilgi alanı değiştirme](https://ooni.org/nettest/http-header-field-manipulation/)) . Varsayılan olarak 4 sınamanın tümü etkindir.
 
 {{<img src="images/image43.jpg" title="Performance settings" alt="Performance settings">}}
 
