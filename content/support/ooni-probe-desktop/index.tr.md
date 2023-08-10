@@ -6,6 +6,8 @@ description: "Bu kullanıcı rehberi, OONI Probe Desktop uygulamasının nasıl 
 
 **OONI Probe Desktop sürümü:** 3.7.0
 
+Bu belgenin çevirisi için Kaya Zeren'e teşekkür ederiz.
+
 {{<img src="images/install-desktop.png" title="Install OONI Probe Desktop" alt="Install OONI Probe Desktop">}}
 
 OONI Probe, internet sansürünü ve diğer ağ engellemelerini ölçmek için kullanabileceğiniz [ücretsiz ve açık kaynaklı](https://github.com/ooni/probe) bir uygulamadır. Bu kullanıcı rehberinde, [OONI Probe Desktop uygulamasını](https://ooni.org/install/desktop) kurma, çalıştırma ve özelleştirme konusunda **adım adım yönergeler** bulunur.
