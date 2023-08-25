@@ -3,7 +3,7 @@ continent: Asia
 country: Kazakhstan
 name: Internet Freedom Kazakhstan (IFKZ)
 title: Internet Freedom Kazakhstan (IFKZ)
-website: [http://cipit.strathmore.edu/](https://ifkz.org/en)
+website: https://ifkz.org/en
 reports:
 ---
 
