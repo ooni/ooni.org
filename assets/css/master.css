@@ -869,6 +869,8 @@ nav#TableOfContents li, nav#TableOfContents ul {
 
 .blog-post {
   font-family: "Source Serif Pro", serif;
+  /* hotfix to make the footer sticky in short blog posts */
+  min-height: calc(100vh - 225px - 52px);
 }
 
 .blog-post img {
