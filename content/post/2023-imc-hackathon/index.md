@@ -1,6 +1,6 @@
 ---
 title: "Join us at the IMC 2023 Hackathon on Network Interference using Open Data"
-description: "OONI is organizing a hackathon at IMC 2023 in collaboration with ISOC, M-Lab and Censored Planet. Join us!"
+description: "OONI is organizing a hackathon at IMC 2023 in collaboration with ISOC, M-Lab and Censored Planet. Join us on 23rd October 2023 in Montreal!"
 author: "Arturo Filastò"
 date: "2023-08-28"
 tags: ["ooni", "hackathon", "events"]
