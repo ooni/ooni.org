@@ -13,5 +13,5 @@ IFKZ focuses on:
 
 * Enhancing transparency of governmental authorities in the ICT industry
 * Introducing selectable access to unlawfully restricted resources
-* Defining grounds for restricting access to this or that website
+* Analyzing the legal grounds for restricting access to websites
 * Advocating for digital human rights and freedoms 
