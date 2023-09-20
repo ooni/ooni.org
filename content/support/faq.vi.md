@@ -266,7 +266,7 @@ Có nhiều cách để bạn đóng góp!
 
 * **Dùng dữ liệu của OONI cho phóng sự, tường thuật của bạn.** Nâng cao độ tin cậy của bài báo, tường thuật, bằng cách trích dẫn các dữ liệu đo lường mạng làm bằng chứng cho các vụ kiểm duyệt. [Khám phá ra những việc kiểm duyệt chưa ai biết](https://cpj.org/blog/2019/09/qa-ooni-explorer-team-unlock-the-webs-untold-censo.php) xuyên qua [dữ liệu của OONI](https://explorer.ooni.org) và chia sẻ với công chúng.
 
-* ** Dùng dữ liệu của OONI trong hoạt động của bạn.** Thông tin về nỗ lực hoạt động của bạn dựa vào các sự kiện và xu hướng kiểm duyệt vạch ra trên thế giới xuyên qua [dữ liệu của OONI](https://ooni.org/data/).
+* **Dùng dữ liệu của OONI trong hoạt động của bạn.** Thông tin về nỗ lực hoạt động của bạn dựa vào các sự kiện và xu hướng kiểm duyệt vạch ra trên thế giới xuyên qua [dữ liệu của OONI](https://ooni.org/data/).
 
 * **Xem xét tính pháp lý của các sự kiện kiểm duyệt được nhận ra qua dữ liệu của OONI.** Chia sẻ phân tích pháp lý của bạn với công chúng và cân nhắc việc dùng dữ liệu của OONI làm bằng chứng trước tòa.
 
@@ -550,7 +550,7 @@ Bạn xem hướng dẫn từng bước một (có hình minh họa) sau đây �
 
 * [OONI Probe Mobile (di động)](https://ooni.org/support/ooni-probe-mobile#testing-all-websites-from-the-citizen-lab-test-lists)
 
-* [OONI Probe Desktop (máy tính để bàn](https://ooni.org/support/ooni-probe-desktop#testing-all-websites-from-the-citizen-lab-test-lists)
+* [OONI Probe Desktop (máy tính để bàn)](https://ooni.org/support/ooni-probe-desktop#testing-all-websites-from-the-citizen-lab-test-lists)
 
 ### Làm sao để tìm danh sách kiểm tra của quốc gia tôi?
 
@@ -688,7 +688,7 @@ Vì có những công cụ khác (như [OONI Explorer](https://explorer.ooni.org
 ## OONI Explorer
 ### OONI Explorer là gì?
 
-OONI Explorer](https://explorer.ooni.org/) là một nguồn dữ liệu mở về kiểm duyệt internet khắp thế giới. Chứa hơn một tỉ dữ liệu đo lường thâu thập từ hơn 200 quốc gia từ năm 2012. Hàng ngày, có hàng trăm ngàn dữ liệu đo lường mới trên thế giới được công bố trên OONI Explorer.
+[OONI Explorer](https://explorer.ooni.org/) là một nguồn dữ liệu mở về kiểm duyệt internet khắp thế giới. Chứa hơn một tỉ dữ liệu đo lường thâu thập từ hơn 200 quốc gia từ năm 2012. Hàng ngày, có hàng trăm ngàn dữ liệu đo lường mới trên thế giới được công bố trên OONI Explorer.
 
 ### Làm thế nào để dùng OONI Explorer đi tìm các trang web bị chặn?
 
@@ -964,4 +964,3 @@ Nếu không có đo lường nào gần đây từ quốc gia của bạn, đi�
 * Người dùng OONI Probe tại quốc gia bạn chọn không chia sẻ đo lường để công bố ra.
 
 Bạn có thể đóng góp dữ liệu đo lường bằng cách [chạy OONI Probe](https://ooni.org/install/) tại quốc gia bạn. Cách dễ nhất là chạy kiểm tra từ **ứng dụng OONI Probe di động** trên các thiết bị [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe) và [iOS](https://itunes.apple.com/us/app/id1199566366).
-"
