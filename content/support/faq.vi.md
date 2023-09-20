@@ -8,7 +8,7 @@ Tài liệu này được dịch sang tiếng Việt bởi Nathan Tran.
 
 Nếu có những câu hỏi nào khác bạn muốn được trả lời xin [liên lạc với chúng tôi](https://ooni.org/about/#contact).
     
-    * [Về OONI](#ve-ooni)
+* [Về OONI](#ve-ooni)
 
     * [OONI là gì??](#ooni-là-gì)
 
