@@ -9,7 +9,7 @@ categories: ["report"]
 
 Jordan recently [blocked](https://explorer.ooni.org/m/20230808211935.881250_JO_webconnectivity_6b7549126aabe25d) access to [Grindr](https://www.grindr.com/) — the world’s largest social networking app for gay, bi, trans, and queer people — adding to the list of social media apps banned in the country, including [TikTok](https://explorer.ooni.org/chart/mat?probe_cc=JO&since=2023-08-13&until=2023-09-13&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.tiktok.com) and [Clubhouse](https://explorer.ooni.org/chart/mat?probe_cc=JO&since=2023-08-13&until=2023-09-13&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.clubhouse.com).
 
-[OONI network measurement data](https://explorer.ooni.org/chart/mat?probe_cc=JO&since=2023-08-01&until=2023-09-10&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.grindr.com) collected from Jordan suggests that ISPs started blocking access to Grindr on August 8th 2023, and that the block [remains ongoing](https://explorer.ooni.org/chart/mat?probe_cc=JO&since=2023-08-01&until=2023-09-13&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.grindr.com).
+[OONI network measurement data](https://explorer.ooni.org/chart/mat?probe_cc=JO&since=2023-08-01&until=2023-09-10&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.grindr.com) collected from Jordan suggests that ISPs started blocking access to Grindr on August 8th 2023, and that the block [remains ongoing](https://explorer.ooni.org/chart/mat?probe_cc=JO&since=2023-08-01&until=2023-09-21&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.grindr.com).
 
 This report shares [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=JO&since=2023-08-01&until=2023-09-10&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.grindr.com) on the blocking of Grindr in Jordan.
 
@@ -113,7 +113,7 @@ On all tested networks, we observe interference during the TLS handshake, indica
 
 ### Impact of the block
 
-To understand the impact of this block, we reached out to **Grindr****,** who shared the following statement:
+To understand the impact of this block, we reached out to **Grindr**, who shared the following statement:
 
 “We are highly concerned that the Grindr app has been blocked in Jordan. Grindr provides an invaluable platform for our community to connect. Here users find friendship, love, and commonalities with other people who share their experiences, cutting through the social isolation that can be suffocating.
 
