@@ -1,4 +1,4 @@
-# Risques : Ce que vous devez savoir avant d'exécuter OONI Probe
+# Risques: Ce que vous devez savoir avant d'exécuter OONI Probe
 
 Texte original: **English**, [Risks: Things you should know before running OONI Probe](https://ooni.org/about/risks)
 
