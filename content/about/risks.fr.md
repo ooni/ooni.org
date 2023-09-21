@@ -9,7 +9,7 @@ de conséquences suite à l'utilisation de notre logiciel. Les risques
 potentiels décrits ci-dessous sont donc théoriques et plutôt
 spéculatifs. Si vous exécutez OONI Probe dans un "environnement à haut
 risque", nous vous encourageons fortement à lire toute la documentation
-ci-dessous
+ci-dessous.
 
 ## **Résumé des risques potentiels**
 
