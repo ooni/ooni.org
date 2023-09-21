@@ -7,8 +7,8 @@ Ce texte a été traduit par [Computech](https://computechinstitute.com/).
 À notre connaissance, aucun utilisateur d'OONI Probe n'a une fois subi
 de conséquences suite à l'utilisation de notre logiciel. Les risques
 potentiels décrits ci-dessous sont donc théoriques et plutôt
-spéculatifs. Si vous exécutez OONI Probe dans un «environnement à haut
-risque », nous vous encourageons fortement à lire toute la documentation
+spéculatifs. Si vous exécutez OONI Probe dans un "environnement à haut
+risque", nous vous encourageons fortement à lire toute la documentation
 ci-dessous
 
 ## **Résumé des risques potentiels**
