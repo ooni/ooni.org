@@ -47,9 +47,9 @@ contrat ou autre cause d'action.
 
     * [Surveillance](https://ooni.org/about/risks/#surveillance)
 
-    * [Services](https://ooni.org/about/risks/#tested-services) Testés
+    * [Services Testés](https://ooni.org/about/risks/#tested-services) 
 
-    * [Accès physique à distance](https://ooni.org/about/risks/#physical-or-remote-access-to-a-users-device) à l'appareil de l'utilisateur
+    * [Accès physique à distance à l'appareil de l'utilisateur](https://ooni.org/about/risks/#physical-or-remote-access-to-a-users-device) 
 
     * [Publication des mesures](https://ooni.org/about/risks/#publication-of-measurements)
 
@@ -59,7 +59,7 @@ contrat ou autre cause d'action.
 
     * [Légalité des tests OONI Probe](https://ooni.org/about/risks/#legality-of-ooni-probe-tests)
 
-    * [Services](https://ooni.org/about/risks/#third-party-services) Tiers
+    * [Services Tiers](https://ooni.org/about/risks/#third-party-services) 
 
 * [Demander des conseils juridiques](https://ooni.org/about/risks/#seeking-legal-advice)
 
@@ -111,7 +111,7 @@ manière suivante:
 
 #### **La surveillance**
 
-#### Des tiers (tels que votre gouvernement, votre fournisseur d'accès Internet ou votre employeur) peuvent surveiller tout ou partie de votre activité Internet. Cela peut leur permettre de détecter le trafic web généré par votre utilisation d'OONI Probe et de vous imputer la charge de responsabilité.
+Des tiers (tels que votre gouvernement, votre fournisseur d'accès Internet ou votre employeur) peuvent surveiller tout ou partie de votre activité Internet. Cela peut leur permettre de détecter le trafic web généré par votre utilisation d'OONI Probe et de vous imputer la charge de responsabilité.
 
 De nombreux pays emploient des mesures de surveillance sophistiquées qui
 permettent aux gouvernements de suivre les activités en ligne des
@@ -131,7 +131,7 @@ pouvez voir les services testés par OONI Probe
 
 #### **L'accès physical ou à distance à l'appareil d'un utilisateur**
 
-#### Comme pour tout autre logiciel, l'utilisation d'OONI Probe peut laisser des traces. Ainsi, toute personne ayant un accès physique ou à distance à votre ordinateur peut voir que vous avez téléchargé, installé ou exécuté OONI Probe.
+Comme pour tout autre logiciel, l'utilisation d'OONI Probe peut laisser des traces. Ainsi, toute personne ayant un accès physique ou à distance à votre ordinateur peut voir que vous avez téléchargé, installé ou exécuté OONI Probe.
 
 #### **Publication of measurements**
 
@@ -183,13 +183,13 @@ Probe, avant de les exécuter.
 
 #### **Légalité des sites web testés**
 
-#### Lors de l'exécution du [test de Connectivité Web](https://ooni.org/nettest/web-connectivity/) d'OONI, vous vous connecterez et téléchargerez des données à partir de divers sites web inclus dans les deux listes suivantes: 
+Lors de l'exécution du [test de Connectivité Web](https://ooni.org/nettest/web-connectivity/) d'OONI, vous vous connecterez et téléchargerez des données à partir de divers sites web inclus dans les deux listes suivantes: 
 
 * [**Liste de test spécifique au pays**](https://github.com/citizenlab/test-lists/tree/master/lists) (recherche la liste de tests de votre pays en fonction de son code pays)
 
 * [**Liste de test global**](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) (comprenant une liste de sites web consultés mondialement)
 
-#### De nombreux sites Web figurant dans les listes ci-dessus sont controversés et peuvent inclure de la pornographie ou des discours de haine. L'accès à ce contenu peut être illégal dans votre pays. Dans certains pays, l'accès à des contenus illégaux entraîne de graves conséquences, telles que l'emprisonnement. Nous vous recommandons donc d'examiner attentivement si vous êtes prêt à prendre le risque d'accéder et de télécharger des données à partir de ces sites Web via les tests OONI Probe.
+De nombreux sites Web figurant dans les listes ci-dessus sont controversés et peuvent inclure de la pornographie ou des discours de haine. L'accès à ce contenu peut être illégal dans votre pays. Dans certains pays, l'accès à des contenus illégaux entraîne de graves conséquences, telles que l'emprisonnement. Nous vous recommandons donc d'examiner attentivement si vous êtes prêt à prendre le risque d'accéder et de télécharger des données à partir de ces sites Web via les tests OONI Probe.
 
 Si vous n'êtes pas sûr des implications potentielles de la connexion
 aux données et de leur téléchargement de à partir des sites web
