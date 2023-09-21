@@ -41,7 +41,7 @@ envers les utilisateurs d'OONI Probe et d'autres tiers, de tout risque
 ou dommage résultant de l'utilisation d'OONI Probe sous tout délit,
 contrat ou autre cause d'action.
 
-* [Penalites et Sanctions](https://ooni.org/about/risks/#potential-penalties-and-sanctions) Éventuelles
+* [Penalites et Sanctions Éventuelles](https://ooni.org/about/risks/#potential-penalties-and-sanctions) 
 
 * [Risques: Détection d'OONI Probe](https://ooni.org/about/risks/#risks-detection-of-ooni-probe)
 
@@ -238,9 +238,9 @@ Certaines questions que vous voudrez peut-être poser à vos avocats
 concernant l'utilisation d'OONI Probe comprennent
 
 * Mon pays m'interdit-il d'utiliser:
-    * **un logiciel de mesure de réseau?**
-    * **un logiciel de détection de censure?**
-    * **un logiciel de contournement de la censure?**
+   * **un logiciel de mesure de réseau?**
+   * **un logiciel de détection de censure?**
+   * **un logiciel de contournement de la censure?**
 
 * Est-il illégal pour moi d'accéder à certains sites web ?
 
@@ -275,7 +275,7 @@ avocats capables de répondre à vos questions et/ou préoccupations.
 
 Certaines ressources pertinentes comprennent :
 
-* [La Foire Aux Q](https://www.eff.org/torchallenge/faq.html)uestions juridiques de Tor
+* [La Foire Aux Questions juridiques de Tor](https://www.eff.org/torchallenge/faq.html)
 
 * [EFF Connaître ses droits](https://www.eff.org/issues/know-your-rights)
 
