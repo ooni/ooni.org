@@ -114,7 +114,7 @@ Nếu có những câu hỏi nào khác bạn muốn được trả lời xin [l
 
 * [OONI Explorer](#ooni-explorer)
 
-    * [OONI Explorer là gì?](#ooni-explorer-là gì)
+    * [OONI Explorer là gì?](#ooni-explorer-là-gì)
 
     * [Làm thế nào để dùng OONI Explorer đi tìm các trang web bị chặn?](#làm-thế-nào-để-dùng-ooni-explorer-đi-tìm-các-trang-web-bị-chặn)
 
@@ -508,7 +508,7 @@ OONI Probe sẽ tự động xác định danh sách quốc gia nào sẽ đư�
 
 ### Danh sách kiểm tra là gì?
 
-[danh sách kiểm tra](https://ooni.org/get-involved/contribute-test-lists/) là một danh sách các trang web sẽ được kiểm tra coi có bị kiểm duyệt không.
+[Danh sách kiểm tra](https://ooni.org/get-involved/contribute-test-lists/) là một danh sách các trang web sẽ được kiểm tra coi có bị kiểm duyệt không.
 
 ### Tại sao OONI Probe dùng danh sách kiểm tra?
 
