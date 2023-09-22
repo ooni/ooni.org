@@ -56,7 +56,7 @@ Nếu có những câu hỏi nào khác bạn muốn được trả lời xin [l
 
     * [Tôi có thể đo lường kiểm duyệt internet ở một quốc gia nào đó từ xa được không?](#tôi-có-thể-đo-lường-kiểm-duyệt-internet-ở-một-quốc-gia-nào-đó-từ-xa-được-không)
 
-    * [OONI Probe thâu thập những loại dữ liệu gì?](#ooni-probe-thâu-thập-những-loại-dữ-liệu-gì?)
+    * [OONI Probe thâu thập những loại dữ liệu gì?](#ooni-probe-thâu-thập-những-loại-dữ-liệu-gì)
 
     * [Làm sao để chọn không gửi dữ liệu đo lường cho OONI?](#làm-sao-để-chọn-không-gửi-dữ-liệu-đo-lường-cho-ooni)
 
@@ -577,14 +577,14 @@ Chúng tôi khuyến khích bạn [duyệt xét lại các trang web trong danh 
 
 Bạn có thể đề nghị thêm các trang web được kiểm tra qua các nền sau đây:
 
-* [Test Lists Editor (soạn thảo danh sách kiểm tra](https://test-lists.ooni.org/) ([hướng dẫn](https://ooni.org/support/test-lists-editor))
+* [Test Lists Editor](https://test-lists.ooni.org/) ([hướng dẫn](https://ooni.org/support/test-lists-editor))
 * [GitHub](https://github.com/citizenlab/test-lists) ([hướng dẫn](https://ooni.org/support/github-test-lists))
 
 ### Tôi không có tài khoản GitHub, nhưng muốn đề nghị URL để kiểm tra. Làm thế nào đây?
 
 Một số đóng góp lớn lao nhất cho danh sách kiểm tra đến từ những người không có dùng GitHub (chẳng hạn như các chuyên gia xã hội), nhất là khi cập nhật danh sách kiểm tra đòi hỏi sự hiểu biết về tình hình chính trị xã hội của quốc gia đó.
 
-Nếu bạn không có tài khoản GitHub và muốn đóng góp vào danh sách kiểm tra, bạn có thể dùng **[Test Lists Editor (soạn thảo danh sách kiểm tra](https://test-lists.ooni.org/)** 
+Nếu bạn không có tài khoản GitHub và muốn đóng góp vào danh sách kiểm tra, bạn có thể dùng **[Test Lists Editor](https://test-lists.ooni.org/)** 
 
 Xin đọc Test Lists Editor [hướng dẫn](https://ooni.org/support/test-lists-editor) và [screencast](https://www.youtube.com/watch?v=6i2OVHUQEpE).
 
