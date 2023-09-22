@@ -273,7 +273,7 @@ comparaître et obtenir toute information que vous nous fournissez.
 Cependant, nous pourrons peut-être vous mettre en contact avec des
 avocats capables de répondre à vos questions et/ou préoccupations.
 
-Certaines ressources pertinentes comprennent :
+Certaines ressources pertinentes comprennent:
 
 * [La Foire Aux Questions juridiques de Tor](https://www.eff.org/torchallenge/faq.html)
 
