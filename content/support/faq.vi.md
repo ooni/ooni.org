@@ -10,7 +10,7 @@ Nếu có những câu hỏi nào khác bạn muốn được trả lời xin [l
     
 * [Về OONI](#ve-ooni)
 
-    * [OONI là gì??](#ooni-là-gì)
+    * [OONI là gì?](#ooni-là-gì)
 
     * [Tại sao có OONI?](#tại-sao-có-ooni)
 
