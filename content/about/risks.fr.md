@@ -41,27 +41,27 @@ envers les utilisateurs d'OONI Probe et d'autres tiers, de tout risque
 ou dommage résultant de l'utilisation d'OONI Probe sous tout délit,
 contrat ou autre cause d'action.
 
-* [Penalites et Sanctions Éventuelles](https://ooni.org/about/risks/#potential-penalties-and-sanctions) 
+* [Penalites et Sanctions Éventuelles](https://ooni.org/fr/about/risks/#penalites-et-sanctions-éventuelles) 
 
-* [Risques: Détection d'OONI Probe](https://ooni.org/about/risks/#risks-detection-of-ooni-probe)
+* [Risques: Détection d'OONI Probe](https://ooni.org/fr/about/risks/#risques-détection-dooni-probe)
 
-    * [Surveillance](https://ooni.org/about/risks/#surveillance)
+    * [Surveillance](https://ooni.org/fr/about/risks/#surveillance)
 
-    * [Services Testés](https://ooni.org/about/risks/#tested-services) 
+    * [Services Testés](https://ooni.org/fr/about/risks/#services-testés) 
 
-    * [Accès physique à distance à l'appareil de l'utilisateur](https://ooni.org/about/risks/#physical-or-remote-access-to-a-users-device) 
+    * [Accès physique à distance à l'appareil de l'utilisateur](https://ooni.org/fr/about/risks/#accès-physique-à-distance-à-lappareil-de-lutilisateur) 
 
-    * [Publication des mesures](https://ooni.org/about/risks/#publication-of-measurements)
+    * [Publication des mesures](https://ooni.org/fr/about/risks/#publication-des-mesures)
 
-* [Risques: Tests OONI Probe](https://ooni.org/about/risks/#risks-ooni-probe-tests)
+* [Risques: Tests OONI Probe](https://ooni.org/fr/about/risks/#risques-tests-ooni-probe)
 
-    * [Légalité des sites web testés](https://ooni.org/about/risks/#legality-of-tested-websites)
+    * [Légalité des sites web testés](https://ooni.org/fr/about/risks/#légalité-des-sites-web-testés)
 
-    * [Légalité des tests OONI Probe](https://ooni.org/about/risks/#legality-of-ooni-probe-tests)
+    * [Légalité des tests OONI Probe](https://ooni.org/fr/about/risks/#légalité-des-tests-ooni-probe)
 
-    * [Services Tiers](https://ooni.org/about/risks/#third-party-services) 
+    * [Services Tiers](https://ooni.org/fr/about/risks/#services-tiers) 
 
-* [Demander des conseils juridiques](https://ooni.org/about/risks/#seeking-legal-advice)
+* [Demander des conseils juridiques](https://ooni.org/fr/about/risks/#demander-des-conseils-juridiques)
 
 **Remarque**: Les risques décrits ci-dessous sont plutôt spéculatifs. À
 notre connaissance, aucun utilisateur d'OONI Probe n'a déjà été
