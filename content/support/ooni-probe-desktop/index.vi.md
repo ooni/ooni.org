@@ -52,9 +52,9 @@ OONI [công bố công khai kết quả kiểm tra của OONI Probe](https://oon
 * Hỗ trợ **các nỗ lực nghiên cứu, chính sách, pháp lý, và vận động** trên thế giới;
 * Hỗ trợ **tranh luận công cộng** về kiểm soát thông tin.
 
-Để giúp công chúng truy cập được kết quả kiểm tra của OONI Probe (thường được gọi là “đo lường”), đội ngũ OONI giữ kết quả trên [OONI Explorer](https://explorer.ooni.org/): một trang web với các biểu đồ dựa trên tầm mức đo lường và công cụ tìm kiếm để xem xét các dữ liệu đo lường.
+Để giúp công chúng truy cập được kết quả kiểm tra của OONI Probe (thường được gọi là “đo lường”), đội ngũ OONI giữ kết quả trên [OONI Explorer](https://explorer.ooni.org/vi): một trang web với các biểu đồ dựa trên tầm mức đo lường và công cụ tìm kiếm để xem xét các dữ liệu đo lường.
 
-[OONI Explorer](https://explorer.ooni.org/) lưu trữ hơn 850 triệu dữ liệu đo lường mạng thâu thập từ 24,500 mạng trên 241 quốc gia và lãnh thổ từ năm 2012. Đây có lẻ là **nguồn dữ liệu mở lớn nhất toàn cầu về kiểm duyệt internet** từ trước đến nay.
+[OONI Explorer](https://explorer.ooni.org/vi) lưu trữ hơn 850 triệu dữ liệu đo lường mạng thâu thập từ 24,500 mạng trên 241 quốc gia và lãnh thổ từ năm 2012. Đây có lẻ là **nguồn dữ liệu mở lớn nhất toàn cầu về kiểm duyệt internet** từ trước đến nay.
 
 Khi chạy OONI Probe, bạn sẽ:
 
@@ -209,7 +209,7 @@ Bấm nút **OK** để ngưng kiểm tra.
 
 {{<img src="images/stop-testing-ok.png" title="Stop testing" alt="Stop testing">}}
 
-Kết quả kiểm tra của OONI Probe sẽ được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/) và trên [OONI API](https://api.ooni.io/).
+Kết quả kiểm tra của OONI Probe sẽ được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/vi) và trên [OONI API](https://api.ooni.io/).
 
 Bạn muốn giới hạn việc kiểm tra vào một số loại kiểm tra (thẻ) đặc trưng? Trong mục kế tiếp đây, chúng tôi sẽ chỉ cách làm.
 
@@ -229,7 +229,7 @@ Bây giờ bạn đang chạy [Kiểm tra Kết Nối Web](https://ooni.org/nett
 
 {{<img src="images/running-web-connectivity.png" title="Testing websites" alt="Testing websites">}}
 
-Kết quả kiểm tra của OONI Probe sẽ được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/) và trên [OONI API](https://api.ooni.io/).
+Kết quả kiểm tra của OONI Probe sẽ được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/vi) và trên [OONI API](https://api.ooni.io/).
 
 **Trang web nào được kiểm tra?**
 
@@ -264,7 +264,7 @@ Bây giờ bạn đang chạy kiểm tra của OONI để xem các ứng dụng 
 
 {{<img src="images/running-telegram.png" title="Testing Telegram" alt="Testing Telegram">}}
 
-Kết quả kiểm tra của OONI Probe sẽ được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/) và trên [OONI API](https://api.ooni.io/).
+Kết quả kiểm tra của OONI Probe sẽ được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/vi) và trên [OONI API](https://api.ooni.io/).
 
 ### Đo lường việc chặn các công cụ vượt thoát kiểm duyệt
 
@@ -282,7 +282,7 @@ Bây giờ bạn đang chạy kiểm tra của OONI để xem các công cụ v�
 
 {{<img src="images/running-psiphon.png" title="Testing Psiphon" alt="Testing Psiphon">}}
 
-Kết quả kiểm tra của OONI Probe sẽ được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/) và trên [OONI API](https://api.ooni.io/).
+Kết quả kiểm tra của OONI Probe sẽ được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/vi) và trên [OONI API](https://api.ooni.io/).
 
 ### Đo lường hiệu suất mạng
 
@@ -300,7 +300,7 @@ Bây giờ bạn đang chạy [kiểm tra tốc độ NDT](https://ooni.org/nett
 
 {{<img src="images/running-ndt.png" title="Running NDT" alt="Running NDT">}}
 
-Kết quả kiểm tra sẽ được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/) và trên [OONI API](https://api.ooni.io/).
+Kết quả kiểm tra sẽ được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/vi) và trên [OONI API](https://api.ooni.io/).
 
 **Tuyên bố giới hạn trách nhiệm:** Kiểm tra [NDT](https://ooni.org/nettest/ndt/) và [DASH](https://ooni.org/nettest/dash/) được tiến hành trên máy chủ bên thứ ba do [Measurement Lab (M-Lab)](https://www.measurementlab.net/) cung cấp. Nếu chạy các kiểm tra này, M-Lab sẽ thâu thập và công bố địa chỉ IP của bạn cho mục đích nghiên cứu, bất kể thiết đặt OONI Probe ra sao. Tìm hiểu thêm về cách quản lý dữ liệu của M-Lab nơi đây [tuyên bố về quyền riêng tư](https://www.measurementlab.net/privacy/).  
 
@@ -320,7 +320,7 @@ Bây giờ bạn đang chạy các kiểm tra của OONI’s về [middlebox](ht
 
 {{<img src="images/running-middlebox.png" title="Testing for middleboxes" alt="Testing for middleboxes">}}
 
-Kết quả kiểm tra của OONI Probe sẽ được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/) và trên [OONI API](https://api.ooni.io/).
+Kết quả kiểm tra của OONI Probe sẽ được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/vi) và trên [OONI API](https://api.ooni.io/).
 
 ### Chạy các kiểm tra thử nghiệm
 
@@ -342,7 +342,7 @@ Bây giờ bạn đang chạy [kiểm tra thử nghiệm](https://github.com/oon
 
 Thay vì phải nhớ bấm chạy từng kiểm tra một, bạn có thể **bật mở kiểm tra tự động** trong phần thiết đặt của OONI Probe Desktop và OONI Probe sẽ tự động chạy kiểm tra cho bạn!
 
-Khi bật mở kiểm tra tự động, OONI Probe sẽ **chạy tất cả kiểm tra trong nền sau nhiều lần trong ngày** (không tính kiểm tra hiệu suất choán nhiều băng thông), kiểm tra mỗi lần một nhóm trang web khác nhau (từ [danh sách kiểm tra của Citizen Lab](https://github.com/citizenlab/test-lists/tree/master/lists)). Để tránh bừa bộn phần Kết quả Kiểm Tra trong ứng dụng, các kết quả này được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/) theo gần thời gian thực (nhưng sẽ không thấy được trong phần Kết quả Kiểm tra).
+Khi bật mở kiểm tra tự động, OONI Probe sẽ **chạy tất cả kiểm tra trong nền sau nhiều lần trong ngày** (không tính kiểm tra hiệu suất choán nhiều băng thông), kiểm tra mỗi lần một nhóm trang web khác nhau (từ [danh sách kiểm tra của Citizen Lab](https://github.com/citizenlab/test-lists/tree/master/lists)). Để tránh bừa bộn phần Kết quả Kiểm Tra trong ứng dụng, các kết quả này được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/vi) theo gần thời gian thực (nhưng sẽ không thấy được trong phần Kết quả Kiểm tra).
 
 Với OONI Probe kiểm tra tự động , bạn giúp **đóng góp đo lường kiểm duyệt thường xuyên** (mà không phải làm gì cả), giúp cho cộng đồng chuộng tự do internet giám sát và phát hiện các sự kiện kiểm duyệt tại quốc gia bạn theo thời gian.
 
@@ -358,7 +358,7 @@ Trong phần **Kiểm tra tự động** của Thiết đặt, bạn thấy là 
 
 {{<img src="images/new-automated-testing-enabled.png" title="Automated testing enabled" alt="Automated testing enabled">}}
 
-Bây giờ bạn đã bật mở kiểm tra OONI Probe tự động! OONI Probe sẽ chạy kiểm tra tự động nhiều lần trong ngày (người dùng không cần làm gì cả), và kết quả kiểm tra sẽ được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/).
+Bây giờ bạn đã bật mở kiểm tra OONI Probe tự động! OONI Probe sẽ chạy kiểm tra tự động nhiều lần trong ngày (người dùng không cần làm gì cả), và kết quả kiểm tra sẽ được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/vi).
 
 Nói chung, nếu bạn chưa bật mở kiểm tra tự động, thỉnh thoảng bạn sẽ thấy khung sau đây hiện ra để hỏi bạn có muốn bật mở kiểm tra tự động không.
 
@@ -465,7 +465,7 @@ Bạn sẽ thấy OONI Probe kiểm tra các trang web bạn muốn!
 
 {{<img src="images/running-gutenberg.png" title="Testing gutenberg" alt="Testing gutenberg">}}
 
-Kết quả kiểm tra của OONI Probe sẽ được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/) và trên [OONI API](https://api.ooni.io/).
+Kết quả kiểm tra của OONI Probe sẽ được tự động công bố trên [OONI Explorer](https://explorer.ooni.org/vi) và trên [OONI API](https://api.ooni.io/).
 
 ### Kiểm tất cả trang web từ danh sách kiểm tra của Citizen Lab
 
@@ -559,7 +559,7 @@ Trong trường hợp này, chúng ta thấy là `https://www.gutenberg.org` có
 
 Vì tình trạng [dương tính giả](https://ooni.org/support/glossary/#false-positive) có thể xảy ra, chúng tôi chú thích những kết quả kiểm tra nào không đáp ứng hết các tiêu chuẩn của [kiểm tra Kết nối Web](https://ooni.org/nettest/web-connectivity/) là “[bất thường](https://ooni.org/vi/support/faq/#làm-sao-để-diễn-giải-dữ-liệu-của-ooni)” (hơn là ghi “xác nhận bị chặn”), cho thấy là trang web được kiểm tra *có thể* bị chặn.
 
-Khi đánh giá việc chặn một trang web, xem xét các đo lường liên hệ (từ việc kiểm tra trang web đó trong cùng mạng suốt một thời gian) một cách **tổng hợp** sẽ ích lợi hơn. Bạn dùng [OONI Explorer](https://explorer.ooni.org/) (nơi chúng tôi công bố toàn bộ kết quả kiểm tra). OONI Explorer còn [cho thấy đo lường của tất cả các trường hợp “được xác nhận chặn”](https://explorer.ooni.org/search?since=2021-02-24&only=confirmed), trong đó chúng tôi tự động xác nhận việc chặn trang web dựa vào [trang chặn](https://ooni.org/support/glossary/#block-page).
+Khi đánh giá việc chặn một trang web, xem xét các đo lường liên hệ (từ việc kiểm tra trang web đó trong cùng mạng suốt một thời gian) một cách **tổng hợp** sẽ ích lợi hơn. Bạn dùng [OONI Explorer](https://explorer.ooni.org/vi) (nơi chúng tôi công bố toàn bộ kết quả kiểm tra). OONI Explorer còn [cho thấy đo lường của tất cả các trường hợp “được xác nhận chặn”](https://explorer.ooni.org/vi/search?since=2021-02-24&only=confirmed), trong đó chúng tôi tự động xác nhận việc chặn trang web dựa vào [trang chặn](https://ooni.org/support/glossary/#block-page).
 
 ### Tin Nhắn Nhanh
 
@@ -607,7 +607,7 @@ Trong trường hợp này, chúng ta thấy là Signal truy cập được khi 
 
 Nếu thấy Signal (có thể) bị chặn, trang đo lường này sẽ hiển thị các thông tin liên hệ (dựa trên suy nghiệm của [kiểm tra Signal của OONI](https://ooni.org/nettest/signal)). 
 
-Trong mọi trường hợp, chúng tôi đề nghị tham khảo các dữ liệu đo lường được công bố trongn [OONI Explorer](https://explorer.ooni.org/), nơi đây bạn có thể xem xét kết quả một cách tổng hợp (có thể giúp loại trừ [dương tính giả](https://ooni.org/support/glossary/#false-positive) và xác nhận tình trạng chặn). 
+Trong mọi trường hợp, chúng tôi đề nghị tham khảo các dữ liệu đo lường được công bố trongn [OONI Explorer](https://explorer.ooni.org/vi), nơi đây bạn có thể xem xét kết quả một cách tổng hợp (có thể giúp loại trừ [dương tính giả](https://ooni.org/support/glossary/#false-positive) và xác nhận tình trạng chặn). 
 
 ### Vượt thoát kiểm duyệt
 
@@ -639,7 +639,7 @@ Trong trường hợp này, chúng ta thấy là Tor truy cập được khi ki�
 
 Nếu thấy Tor (có thể) bị chặn, trang đo lường này sẽ hiển thị các thông tin liên hệ (dựa trên suy nghiệm của [kiểm tra Tor của OONI](https://ooni.org/nettest/tor/)).  
 
-Trong mọi trường hợp, chúng tôi đề nghị tham khảo các dữ liệu đo lường được công bố trongn [OONI Explorer](https://explorer.ooni.org/), nơi đây bạn có thể xem xét kết quả một cách tổng hợp (có thể giúp loại trừ [dương tính giả](https://ooni.org/support/glossary/#false-positive) và xác nhận tình trạng chặn). 
+Trong mọi trường hợp, chúng tôi đề nghị tham khảo các dữ liệu đo lường được công bố trongn [OONI Explorer](https://explorer.ooni.org/vi), nơi đây bạn có thể xem xét kết quả một cách tổng hợp (có thể giúp loại trừ [dương tính giả](https://ooni.org/support/glossary/#false-positive) và xác nhận tình trạng chặn). 
 
 ### Hiệu suất
 
@@ -708,7 +708,7 @@ Tuy nhiên nếu có mặt của middlebox trong mạng được kiểm tra, h�
 Cho mỗi kết quả kiểm tra của OONI Probe, có các tính năng giúp bạn:
 
 * Truy cập, sao chép và chia sẻ **dữ liệu đo lường thô** (liên hệ đến kết quả kiểm tra);
-* **Xem đo lường** trong [OONI Explorer](https://explorer.ooni.org/) (nơi được tự động công bố) và có thể chia sẻ với người khác.
+* **Xem đo lường** trong [OONI Explorer](https://explorer.ooni.org/vi) (nơi được tự động công bố) và có thể chia sẻ với người khác.
 
 **Bước 1.** Truy cập bất cứ kết quả kiểm tra nào của OONI Probe (để biết cách truy tìm kết quả kiểm tra, xin đọc lại các tiết mục trước của cẩm nang này).
 
@@ -747,17 +747,17 @@ Bạn đã sao chép được dữ liệu thô và có thể chia sẻ với ng�
 
 ### Truy cập dữ liệu đo lường trong OONI Explorer
 
-Có lẽ bạn muốn xem kết quả kiểm tra của OONI Probe trong [OONI Explorer](https://explorer.ooni.org/) hoặc truy cập một đường dẫn đo lường để chia sẻ sau đó cho người khác hoặc liên kết đến (thí dụ, một bản báo cáo nghiên cứu hoặc tweet).
+Có lẽ bạn muốn xem kết quả kiểm tra của OONI Probe trong [OONI Explorer](https://explorer.ooni.org/vi) hoặc truy cập một đường dẫn đo lường để chia sẻ sau đó cho người khác hoặc liên kết đến (thí dụ, một bản báo cáo nghiên cứu hoặc tweet).
 
 **Bước 1.** Bấm vào nút **Hiển thị trong OONI Explorer** trong trang kết quả kiểm tra của OONI Probe.
 
 {{<img src="images/show-in-ooni-explorer-button.png" title="Show in OONI Explorer button" alt="Show in OONI Explorer button">}}
 
-Thao tác này sẽ mở kết quả kiểm tra của OONI Probe trong trình duyệt của bạn, trực tiếp trong [OONI Explorer](https://explorer.ooni.org/). Lấy thí dụ, cho đo lường Facebook đề cập đến bên trên, sẽ là [trang sau đây](https://explorer.ooni.org/measurement/20220803T095857Z_webconnectivity_GE_16010_n1_vTthHQGwVlhSDc19?input=https://www.facebook.com/).
+Thao tác này sẽ mở kết quả kiểm tra của OONI Probe trong trình duyệt của bạn, trực tiếp trong [OONI Explorer](https://explorer.ooni.org/vi). Lấy thí dụ, cho đo lường Facebook đề cập đến bên trên, sẽ là [trang sau đây](https://explorer.ooni.org/vi/measurement/20220803T095857Z_webconnectivity_GE_16010_n1_vTthHQGwVlhSDc19?input=https://www.facebook.com/).
 
 {{<img src="images/facebook-ooni-explorer.png" title="Measurement viewed on OONI Explorer" alt="Measurement viewed on OONI Explorer">}}
 
-Bạn đã truy cập vào được đo lường của OONI Probe trong [OONI Explorer](https://explorer.ooni.org/). Nếu cuộn xuống trang đo lường đó, bạn cũng sẽ thấy dữ kiện đo lường thô. Bạn có thể liên kết hoặc chia sẻ dữ liệu đo lường đó  bằng cách chia sẻ đường dẫn URL của trang đo lường đó.
+Bạn đã truy cập vào được đo lường của OONI Probe trong [OONI Explorer](https://explorer.ooni.org/vi). Nếu cuộn xuống trang đo lường đó, bạn cũng sẽ thấy dữ kiện đo lường thô. Bạn có thể liên kết hoặc chia sẻ dữ liệu đo lường đó  bằng cách chia sẻ đường dẫn URL của trang đo lường đó.
 
 ## Cấu hình thiết đặt của OONI Probe
 
