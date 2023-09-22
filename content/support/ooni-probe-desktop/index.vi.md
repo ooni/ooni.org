@@ -4,6 +4,8 @@ description: "Cẩm nang sử dụng này hướng dẫn từng bước một c�
 ---
 **Cập nhật lần chót:** 6 tháng Chín 2022
 
+Tài liệu này được dịch sang tiếng Việt bởi Nathan Tran.
+
 **OONI Probe Desktop phiên bản:** 3.7.0
 
 {{<img src="images/install-desktop.png" title="Install OONI Probe Desktop" alt="Install OONI Probe Desktop">}}
@@ -487,7 +489,7 @@ Bây giờ không còn bị giới hạn thời lượng kiểm tra nữa. Đi�
 
 **Chọn lựa khác**: Nếu bạn muốn kiểm tra thêm các trang web trong thời lượng dài hơn (nhưng không nhất thiết phải tắt tùy chọn giới hạn thời lượng và kiểm tra toàn bộ trang web), bạn theo các bước sau:
 
-**Bước 1.** Vào phần **Thời lượng kiểm tra ** dưới phần tùy chọn kiểm tra trong thiết đặt.
+**Bước 1.** Vào phần **Thời lượng kiểm tra** dưới phần tùy chọn kiểm tra trong thiết đặt.
 
 {{<img src="images/test-duration.png" title="Test duration" alt="Test duration">}}
 
@@ -611,7 +613,7 @@ Trong mọi trường hợp, chúng tôi đề nghị tham khảo các dữ li�
 
 Bạn có thể xem kết quả kiểm tra các công cụ vượt thoát kiểm duyệt qua các bước sau:
 
-**Bước 1.** Bấm vào **Vượt thoát kiểm duyệt ** trong trang Kết quả Kiểm tra của ứng dụng OONI Probe Desktop
+**Bước 1.** Bấm vào **Vượt thoát kiểm duyệt** trong trang Kết quả Kiểm tra của ứng dụng OONI Probe Desktop
 
 {{<img src="images/test-results-circumvention.png" title="Test Results" alt="Test Results">}}
 
