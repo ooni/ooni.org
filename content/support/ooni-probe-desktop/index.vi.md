@@ -73,7 +73,7 @@ Một số điều cần lưu ý:
 * **OONI Probe là một công cụ điều tra.** Một số kiểm tra của OONI Probe được thiết kế với chủ đích khám phá kiểm duyệt internet.
 * **[Mô thức đe dọa của bạn](https://www.eff.org/keeping-your-site-alive/evaluating-your-threat-model)**. Thí dụ như một nhà hoạt động nổi tiếng đang bị theo dõi gắt gao mà cho chạy OONI Probe thì lại càng bị chú ý hơn nữa.
 * **Luật lệ và quy định của quốc gia bạn cho chạy OONI Probe ở đó.** Tốt nhất là xin tư vấn từ luật sư bản xứ.
-* **Loại trang web gì được kiểm tra.** Bạn có thể kiểm tra các [trang web](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe) bị chính thức cấm đoán (tại một số quốc gia), hoặc mang tính khiêu khích hay bị chống đối.
+* **Loại trang web gì được kiểm tra.** Bạn có thể kiểm tra các [trang web](https://ooni.org/vi/support/faq/#các-trang-web-nào-sẽ-được-kiểm-tra-xem-có-bị-kiểm-duyệt) bị chính thức cấm đoán (tại một số quốc gia), hoặc mang tính khiêu khích hay bị chống đối.
 * **Loại kiểm tra của OONI Probe.** Không phải [kiểm tra nào của OONI Probe](https://ooni.org/nettest/) cũng có cùng trọng lượng rủi ro. Thí dụ như OONI Probe có loại [kiểm tra NDT](https://ooni.org/nettest/ndt/) (thiết kế để đo tốc độ và hiệu suất mạng) có thể được xem là không mang tính chính trị hay gây tranh cãi so với các kiểm tra khác nhằm đo lường việc ngăn chận trang web hoặc ứng dụng.
 * **Dầu bạn có hay không công bố các dữ liệu đo lường đi nữa.** OONI cũng [công bố công khai dữ liệu đo lường](https://ooni.org/data/) thâu thập được từ người dùng OONI Probe để gia tăng độ minh bạch của kiểm duyệt internet trên thế giới. Chúng tôi cố gắng không công bố địa chỉ IP hay các thông tin có thể nhận dạng cá nhân của bạn. Tìm hiểu thêm về [Chính sách Dữ liệu](https://ooni.org/about/data-policy).
 
@@ -179,7 +179,7 @@ Bây giờ đã hoàn tất thủ tục nhập cuộc, bạn có thể bắt đ�
 
 **Bảng tóm tắt** của ứng dụng OONI Probe Desktop có 5 thẻ, mỗi thẻ chạy một số kiểm tra của OONI Probe:
 
-* **Thẻ Trang web** Bao gồm [Kiểm tra Kết Nối Web](https://ooni.org/nettest/web-connectivity/) để đo lường việc [chặn các trang web](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe).
+* **Thẻ Trang web** Bao gồm [Kiểm tra Kết Nối Web](https://ooni.org/nettest/web-connectivity/) để đo lường việc [chặn các trang web](https://ooni.org/vi/support/faq/#các-trang-web-nào-sẽ-được-kiểm-tra-xem-có-bị-kiểm-duyệt).
 * **Thẻ Tin Nhắn Nhanh** Bao gồm các bài kiểm tra của OONI xem các ứng dụng  [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/), và [Signal](https://ooni.org/nettest/signal) có bị chặn không.
 * **Thẻ Vượt Thoát.** Bao gồm các kiểm tra của OONI xem công cụ vượt thoát kiểm duyệt  [Tor](https://ooni.org/nettest/tor/) và [Psiphon](https://ooni.org/nettest/psiphon/) có bị chặn không.
 * **Thẻ Hiệu suất.** Bao gồm [Kiểm tra tốc độ NDT](https://ooni.org/nettest/ndt/), [kiểm tra hiệu suất DASH video streaming](https://ooni.org/nettest/dash/), và [kiểm tra middlebox](https://ooni.org/support/glossary/#middlebox), ([HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) và [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) ).
@@ -376,7 +376,7 @@ Bạn có thể tùy chỉnh kiểm tra trang web bằng cách sau đây:
 
 * Giới hạn kiểm tra vào [một số trang web riêng biệt](https://ooni.org/support/ooni-probe-desktop#testing-specific-website-categories) (chẳng hạn như truyền thông tin tức và nội dung nhân quyền);
 * Chỉ kiểm tra [trang web bạn quan tâm](https://ooni.org/support/ooni-probe-desktop#testing-websites-of-your-choice);
-* Kiểm tra [*tất cả* URLs](https://ooni.org/support/ooni-probe-desktop#testing-all-websites-from-the-citizen-lab-test-lists) trong [danh sách kiểm tra của Citizen Lab](https://github.com/citizenlab/test-lists/tree/master/lists) ([xác đáng](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe)) (hơn là kiểm tra một số trang ngẫu nhiên trong vòng 90 giây).
+* Kiểm tra [*tất cả* URLs](https://ooni.org/support/ooni-probe-desktop#testing-all-websites-from-the-citizen-lab-test-lists) trong [danh sách kiểm tra của Citizen Lab](https://github.com/citizenlab/test-lists/tree/master/lists) ([xác đáng](https://ooni.org/vi/support/faq/#các-trang-web-nào-sẽ-được-kiểm-tra-xem-có-bị-kiểm-duyệt)) (hơn là kiểm tra một số trang ngẫu nhiên trong vòng 90 giây).
 
 Mục sau đây sẽ giải thích cách làm cho từng điều trên.
 
@@ -471,7 +471,7 @@ Kết quả kiểm tra của OONI Probe sẽ được tự động công bố tr
 
 OONI Probe Desktop chỉ có thể kiểm tra một số trang web nội trong vòng 90 giây (theo thiết đặt mặc định).
 
-Nếu bạn kết nối vào WiFi và muốn kiểm tra **toàn bộ trang web** từ [danh sách kiểm tra của Citizen Lab](https://github.com/citizenlab/test-lists/tree/master/lists) ([xác đáng](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe)) trong cùng một lúc, xin theo các bước sau:
+Nếu bạn kết nối vào WiFi và muốn kiểm tra **toàn bộ trang web** từ [danh sách kiểm tra của Citizen Lab](https://github.com/citizenlab/test-lists/tree/master/lists) ([xác đáng](https://ooni.org/vi/support/faq/#các-trang-web-nào-sẽ-được-kiểm-tra-xem-có-bị-kiểm-duyệt)) trong cùng một lúc, xin theo các bước sau:
 
 **Bước 1.** Bấm vào **Thiết đặt** trong thanh bên của OONI Probe Desktop.
 
@@ -483,7 +483,7 @@ Dưới **Tùy chọn kiểm tra** trong thiết đặt, bạn sẽ thấy tùy 
 
 {{<img src="images/limit-test-duration.png" title="Limit test duration" alt="Limit test duration">}}
 
-Bây giờ không còn bị giới hạn thời lượng kiểm tra nữa. Điều này có nghĩa là OONI Probe có thể kiểm tra hết tất cả các trang web trong [danh sách kiểm tra xác đáng của Citizen Lab](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe) mỗi khi bạn bấm nút “Chạy”. 
+Bây giờ không còn bị giới hạn thời lượng kiểm tra nữa. Điều này có nghĩa là OONI Probe có thể kiểm tra hết tất cả các trang web trong [danh sách kiểm tra xác đáng của Citizen Lab](https://ooni.org/vi/support/faq/#các-trang-web-nào-sẽ-được-kiểm-tra-xem-có-bị-kiểm-duyệt) mỗi khi bạn bấm nút “Chạy”. 
 
 {{<img src="images/limit-test-duration-disabled.png" title="Test duration disabled" alt="Test duration disabled">}}
 
@@ -493,7 +493,7 @@ Bây giờ không còn bị giới hạn thời lượng kiểm tra nữa. Đi�
 
 {{<img src="images/test-duration.png" title="Test duration" alt="Test duration">}}
 
-Theo mặc định, thời lượng kiểm tra là **90 giây**. Có nghĩa là OONI Probe chỉ kiểm tra được một số trang web (từ [danh sách kiểm tra xác đáng của Citizen Lab](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe)) nội trong vòng 90 giây.
+Theo mặc định, thời lượng kiểm tra là **90 giây**. Có nghĩa là OONI Probe chỉ kiểm tra được một số trang web (từ [danh sách kiểm tra xác đáng của Citizen Lab](https://ooni.org/vi/support/faq/#các-trang-web-nào-sẽ-được-kiểm-tra-xem-có-bị-kiểm-duyệt)) nội trong vòng 90 giây.
 
 **Bước 2.** Để đổi thời lượng kiểm tra, **điền vào số giây** bạn muốn OONI Probe chạy. Trong thí dụ sau đây, chúng tôi điền vào `360` có nghĩa là OONI Probe sẽ chạy kiểm tra trong vòng 6 phút.
 
@@ -557,7 +557,7 @@ Nếu trang web thấy (có thể) bị chặn, trang đo lường sẽ có mộ
 
 Trong trường hợp này, chúng ta thấy là `https://www.gutenberg.org` có chỉ dấu bị chặn (“[bất thường](https://ooni.org/support/glossary/#network-anomaly)”) khi được kiểm tra trong mạng Vodafone Italia (AS30722) vào ngày 30 tháng Ba 2021 lúc 15:13 giờ địa phương. Nhất là chúng ta có chỉ dấu của [sửa DNS trái phép](https://ooni.org/support/glossary/#dns-tampering) (dựa trên suy nghiệm của [kiểm tra Kết nối Web của OONI](https://ooni.org/nettest/web-connectivity/)). Điều này có nghĩa là  Vodafone Italia có thể chặn không cho truy cập `https://www.gutenberg.org` (vào ngày 30 tháng Ba 2021) bằng phương pháp DNS. 
 
-Vì tình trạng [dương tính giả](https://ooni.org/support/glossary/#false-positive) có thể xảy ra, chúng tôi chú thích những kết quả kiểm tra nào không đáp ứng hết các tiêu chuẩn của [kiểm tra Kết nối Web](https://ooni.org/nettest/web-connectivity/) là “[bất thường](https://ooni.org/support/faq/#how-can-i-interpret-ooni-data)” (hơn là ghi “xác nhận bị chặn”), cho thấy là trang web được kiểm tra *có thể* bị chặn.
+Vì tình trạng [dương tính giả](https://ooni.org/support/glossary/#false-positive) có thể xảy ra, chúng tôi chú thích những kết quả kiểm tra nào không đáp ứng hết các tiêu chuẩn của [kiểm tra Kết nối Web](https://ooni.org/nettest/web-connectivity/) là “[bất thường](https://ooni.org/vi/support/faq/#làm-sao-để-diễn-giải-dữ-liệu-của-ooni)” (hơn là ghi “xác nhận bị chặn”), cho thấy là trang web được kiểm tra *có thể* bị chặn.
 
 Khi đánh giá việc chặn một trang web, xem xét các đo lường liên hệ (từ việc kiểm tra trang web đó trong cùng mạng suốt một thời gian) một cách **tổng hợp** sẽ ích lợi hơn. Bạn dùng [OONI Explorer](https://explorer.ooni.org/) (nơi chúng tôi công bố toàn bộ kết quả kiểm tra). OONI Explorer còn [cho thấy đo lường của tất cả các trường hợp “được xác nhận chặn”](https://explorer.ooni.org/search?since=2021-02-24&only=confirmed), trong đó chúng tôi tự động xác nhận việc chặn trang web dựa vào [trang chặn](https://ooni.org/support/glossary/#block-page).
 
