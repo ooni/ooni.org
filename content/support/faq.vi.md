@@ -2,7 +2,7 @@
 
 Trang Những Câu Hỏi Thường Gặp (FAQ – Frequently Asked Questions) nhằm để trả lời các câu hỏi thường được nêu ra trong cộng đồng.
 
-Oringinal file in **English**, [Frequently Asked Questions (FAQ)](/en/support/faq)
+Oringinal file in **English**, [Frequently Asked Questions (FAQ)](/support/faq)
 
 Tài liệu này được dịch sang tiếng Việt bởi Nathan Tran.
 
