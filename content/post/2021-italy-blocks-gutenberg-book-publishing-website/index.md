@@ -1,7 +1,7 @@
 ---
 title: "Italy blocks Gutenberg book publishing website"
 description: "This report shares OONI measurements on the blocking of the Gutenberg book publishing website in Italy."
-author: "Davide Brunello (Independent researcher), Arturo Filastò (OONI), Maria Xynou (OONI), Simone Basso (OONI)"
+author: "D. Brunello (Independent researcher), Arturo Filastò (OONI), Maria Xynou (OONI), Simone Basso (OONI)"
 date: "2021-09-10"
 tags: ["italy", "censorship", "country-it"]
 categories: ["report"]
