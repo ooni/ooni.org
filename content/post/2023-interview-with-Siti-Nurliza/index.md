@@ -20,7 +20,7 @@ through the use of OONI tools and data.
 Now that Sinar Project has Siti -- *a talented data analyst with extensive expertise with OONI data* -- they independently lead censorship measurement and reporting efforts in Southeast Asia in
 collaboration with their regional [partners](https://imap.sinarproject.org/partners).
 
-Notably, they established the [**[Internet Monitoring Action Project (iMAP)**](https://imap.sinarproject.org/) project to
+Notably, they established the [**Internet Monitoring Action Project (iMAP)**](https://imap.sinarproject.org/) project to
 monitor and report on internet censorship (through the use of [OONI tools](https://ooni.org/install/) and [data](https://ooni.org/data/)) in **10 countries**: Cambodia, Hong Kong (China), India, Indonesia, Malaysia, Myanmar,
 Philippines, Thailand, Timor-Leste and Vietnam.
 
