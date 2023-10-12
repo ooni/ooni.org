@@ -32,10 +32,9 @@ Based on Siti's OONI data analysis, the [iMAP project](https://imap.sinarproject
 "State of Internet Censorship" reports which cover the state of internet censorship all over the region:
 
 * **iMAP State of Internet Censorship Reports 2022**: [https://imap.sinarproject.org/reports/2022](https://imap.sinarproject.org/reports/2022)
-* **iMAP State of Internet Censorship Reports 2023**: [https://imap.sinarproject.org/reports/2023](https://imap.sinarproject.org/reports/2023) (will be published on 13th October 2023 at UTC 05:00)
+* **iMAP State of Internet Censorship Reports 2023**: [https://imap.sinarproject.org/reports/2023](https://imap.sinarproject.org/reports/2023)
 
-[**Register**](https://streamyard.com/watch/bNnMfVyNgja4) to join the online **iMAP 2023 Internet Censorship Report Launch** event
-tomorrow, 13th October at 8am UTC.
+Learn more about the **iMAP 2023 Internet Censorship Reports** by watching their **online launch event**. 
 
 We'll be publishing more interviews with community members over the next
 months. [Subscribe to our YouTube channel](https://www.youtube.com/channel/UCQhDgj9wBf4_w5bWFvLlq-w?sub_confirmation=1)
