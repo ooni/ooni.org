@@ -9,7 +9,7 @@ categories: ["blog"]
 Today we are thrilled to publish an interview with Siti Nurliza: a talented data analyst and technologist with [Sinar Project](https://sinarproject.org/), one of our most dedicated and long-term [partners](https://ooni.org/partners/sinar-project/) who have led OONI censorship measurement efforts in Southeast Asia for more
 than 6 years!
 
-{{< youtube vid="txv-a1k5b_YM" >}}
+{{< youtube vid="nfdonx4Iw4g" >}}
 
 [Sinar Project](https://sinarproject.org/) is a civic tech initiative using open technology, open data and policy analysis to systematically make important information public and more accessible to
 the Malaysian people. Over the years, we [collaborated](https://ooni.org/partners/sinar-project) with Sinar Project on measuring and reporting on internet censorship in
