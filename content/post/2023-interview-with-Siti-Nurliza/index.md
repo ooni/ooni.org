@@ -1,7 +1,7 @@
 ---
 title: "OONI Community Interviews: Siti Nurliza"
 author: "Maria Xynou, Elizaveta Yachmeneva"
-date: "2023-10-12"
+date: "2023-10-13"
 tags: ["community", "interview"]
 categories: ["blog"]
 ---
@@ -34,7 +34,7 @@ Based on Siti's OONI data analysis, the [iMAP project](https://imap.sinarproject
 * **iMAP State of Internet Censorship Reports 2022**: [https://imap.sinarproject.org/reports/2022](https://imap.sinarproject.org/reports/2022)
 * **iMAP State of Internet Censorship Reports 2023**: [https://imap.sinarproject.org/reports/2023](https://imap.sinarproject.org/reports/2023)
 
-Learn more about the **iMAP 2023 Internet Censorship Reports** by watching their **online launch event**. 
+Learn more about the **iMAP 2023 Internet Censorship Reports** by watching their **[online launch event](https://www.youtube.com/watch?v=YkFQxzvJrMs )**. 
 
 We'll be publishing more interviews with community members over the next
 months. [Subscribe to our YouTube channel](https://www.youtube.com/channel/UCQhDgj9wBf4_w5bWFvLlq-w?sub_confirmation=1)
