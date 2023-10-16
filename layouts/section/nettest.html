@@ -21,7 +21,7 @@
       {{ range .Data.Pages.ByDate }}
         {{ if in .Params.groups "websites" }}
         {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-        <div class="col-4 mr-2 mb-2 p-3 question-container">
+        <div class="col-md-1 col-lg-4 mr-2 mb-2 p-3 question-container">
         <a href="{{ .RelPermalink }}">
           <h2 class="test-header">{{ $TITLE }}</h2>
           <p class="test-paragraph">
@@ -38,7 +38,7 @@
       {{ range .Data.Pages }}
         {{ if in .Params.groups "im" }}
         {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-        <div class="col-4 mr-2 mb-2 p-3 question-container">
+        <div class="col-md-1 col-lg-4 mr-2 mb-2 p-3 question-container">
         <a href="{{ .RelPermalink }}">
             <h2 class="test-header">{{ $TITLE }}</h2>
             <p class="test-paragraph">
@@ -55,7 +55,7 @@
       {{ range .Data.Pages }}
         {{ if in .Params.groups "tor" }}
           {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-          <div class="col-4 mr-2 mb-2 p-3 question-container">
+          <div class="col-md-1 col-lg-4 mr-2 mb-2 p-3 question-container">
           <a href="{{ .RelPermalink }}" >
             <h2 class="test-header">{{ $TITLE }}</h2>
             <p class="test-paragraph">
@@ -72,7 +72,7 @@
       {{ range .Data.Pages }}
         {{ if in .Params.groups "proxies" }}
           {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-          <div class="col-4 mr-2 mb-2 p-3 question-container">
+          <div class="col-md-1 col-lg-4 mr-2 mb-2 p-3 question-container">
           <a href="{{ .RelPermalink }}">
             <h2 class="test-header">{{ $TITLE }}</h2>
             <p class="test-paragraph">
@@ -88,7 +88,7 @@
     <div class="row">
       {{ range .Data.Pages }}
         {{ if in .Params.groups "performance" }}
-          <div class="col-4 mr-2 mb-2 p-3 question-container">
+          <div class="col-md-1 col-lg-4 mr-2 mb-2 p-3 question-container">
           <a href="{{ .RelPermalink }}">
             <h2 class="test-header">{{ .Title }}</h2>
             <p class="test-paragraph">
@@ -105,7 +105,7 @@
       {{ range .Data.Pages }}
         {{ if in .Params.groups "boxes" }}
         {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-        <div class="col-4 mr-2 mb-2 p-3 question-container">
+        <div class="col-md-1 col-lg-4 mr-2 mb-2 p-3 question-container">
         <a href="{{ .RelPermalink }}">
             <h2 class="test-header">{{ $TITLE }}</h2>
             <p class="test-paragraph">
@@ -122,7 +122,7 @@
       {{ range .Data.Pages }}
         {{ if in .Params.groups "legacy" }}
         {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-        <div class="col-4 mr-2 mb-2 p-3 question-container">
+        <div class="col-md-1 col-lg-4 mr-2 mb-2 p-3 question-container">
         <a href="{{ .RelPermalink }}">
           <h2 class="test-header">{{ $TITLE }}</h2>
           <p class="test-paragraph">
