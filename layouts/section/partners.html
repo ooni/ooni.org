@@ -19,7 +19,7 @@
       {{ $href := .Permalink }}
         {{ with .Resources.GetMatch "images/*.png" }}
           {{ $image := .Fit "140x150" }}
-          <div class="col-4 mb-3">
+          <div class="col-md-1 col-lg-4 mb-3">
             <div class="partner-box p-3">
             <a href="{{ $href }}">
               <h2>{{ $name }}</h2>
