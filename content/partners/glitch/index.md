@@ -1,7 +1,7 @@
 ---
 continent: Global
 country: Global
-name: GLITCH. Oxford Internet Institute, University of Oxford.
+name: GLITCH. Oxford Internet Institute, University of Oxford
 title: GLITCH
 website: https://glitch.oii.ox.ac.uk/
 reports:
