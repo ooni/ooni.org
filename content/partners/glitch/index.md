@@ -7,8 +7,8 @@ website: https://glitch.oii.ox.ac.uk/
 reports:
 ---
 
-The Global Information Technology Controls Hub (GLITCH) is based at the
-Oxford Internet Institute, University of Oxford. GLITCH brings together
+The [Global Information Technology Controls Hub (GLITCH)](https://glitch.oii.ox.ac.uk/) is based at the
+[Oxford Internet Institute, University of Oxford](https://www.oii.ox.ac.uk/). GLITCH brings together
 academics, organisations and other stakeholders researching digital
 rights, information controls, internet shutdowns, and censorship. 
 
