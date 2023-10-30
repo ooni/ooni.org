@@ -17,26 +17,26 @@ description: Образовательные материалы OONI включа
 
 У нас есть 2 брошюры, которые включают информацию об использовании инструментов OONI и открытых данных OONI, которые могут быть использованы для исследования цензуры по всему миру. 
 
-* **[Брошюра OONI (короткая версия)](<./files/RU/OONI Short Brochure for printing.pdf>)**, [файл для печати](<./files/RU/Short Brochure A4 2F.indd>)
-* **[Брошюра OONI (длинная версия)](<./files/RU/OONI Long Brochure for printing.pdf>)**,  [файл для печати](<./files/RU/Long Brochure A5 booklet.indd>)
+* **[Брошюра OONI (короткая версия)](<./files/RU/Short Brochure A4 2F.pdf>)**, [файл для печати](<./files/RU/Short Brochure A4 2F.indd>)
+* **[Брошюра OONI (длинная версия)](<./files/RU/Long Brochure A5 booklet.pdf>)**,  [файл для печати](<./files/RU/Long Brochure A5 booklet.indd>)
 
 ## Информационная брошюра OONI Probe 
 
 [OONI Probe](https://ooni.org/install/) это бесплатный инструмент для отслеживания интернет-цензуры. Чтобы рассказать людям о том, как работает OONI Probe, мы подготовили короткую брошюру с основной информацией о том, что такое OONI Probe, и как его можно использовать для тестирования досутпности различных ресурсов перед выборами или во врему протестов (когда [цензура имеет свойство становиться активнее](https://ooni.org/documents/2022-ooni-submission-ohchr-report-internet-shutdowns.pdf)). 
 
-* **[Информационная брошюра OONI Probe](<./files/RU/OONI Probe Fact Sheet for printing.pdf>)**, [файл для печати](<./files/RU/OONI Probe Fact Sheet A5 back and front.indd>)
+* **[Информационная брошюра OONI Probe](<./files/RU/OONI Probe Fact A5 back and front.pdf>)**, [файл для печати](<./files/RU/OONI Probe Fact Sheet A5 back and front.indd>)
 
 ## Информационная брошюра OONI Explorer 
 
 [OONI Explorer](https://explorer.ooni.org/ru) – это самая большая открытая база данных об интернет-цензуре в мире. Чтобы помочь пользователям разобраться в том, как можно использовать OONI Explorer, мы подготовили эту брошюру.
 
-* **[Информационная брошюра OONI Explorer](<./files/RU/OONI Explorer Fact Sheet for printing.pdf>)**, [файл для печати](<./files/RU/OONI Explorer Fact Sheet A5 back and front.indd>)
+* **[Информационная брошюра OONI Explorer](<./files/RU/OONI Explorer Fact Sheet A5 back and front.pdf>)**, [файл для печати](<./files/RU/OONI Explorer Fact Sheet A5 back and front.indd>)
 
 ## Информационная брошюра об интернет-цензуре
 
 В этой брошюре мы кратко рассказываем о том, что такое интернет-цензура и как она технически реализуется.
 
-* **[Информационная брошюра об интернет-цензуре](<./files/RU/Internet Censorship Fact Sheet for printing.pdf>)**, [файл для печати](<./files/RU/Internet Censorship Fact Sheet A4 2F.indd>)
+* **[Информационная брошюра об интернет-цензуре](<./files/RU/Internet Censorship Fact Sheet A4 2F.pdf>)**, [файл для печати](<./files/RU/Internet Censorship Fact Sheet A4 2F.indd>)
 
 ## Презентация для тренингов OONI 
 
