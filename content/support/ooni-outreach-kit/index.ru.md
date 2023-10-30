@@ -24,7 +24,7 @@ description: Образовательные материалы OONI включа
 
 [OONI Probe](https://ooni.org/install/) это бесплатный инструмент для отслеживания интернет-цензуры. Чтобы рассказать людям о том, как работает OONI Probe, мы подготовили короткую брошюру с основной информацией о том, что такое OONI Probe, и как его можно использовать для тестирования досутпности различных ресурсов перед выборами или во врему протестов (когда [цензура имеет свойство становиться активнее](https://ooni.org/documents/2022-ooni-submission-ohchr-report-internet-shutdowns.pdf)). 
 
-* **[Информационная брошюра OONI Probe](<./files/RU/OONI Probe Fact A5 back and front.pdf>)**, [файл для печати](<./files/RU/OONI Probe Fact Sheet A5 back and front.indd>)
+* **[Информационная брошюра OONI Probe](<./files/RU/OONI Probe Fact Sheet A5 back and front.pdf>)**, [файл для печати](<./files/RU/OONI Probe Fact Sheet A5 back and front.indd>)
 
 ## Информационная брошюра OONI Explorer 
 
