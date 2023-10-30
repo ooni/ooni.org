@@ -11,6 +11,8 @@ Interested in engaging your communities with OONI censorship measurement?
 
 The OONI Outreach Kit includes **materials that you are encouraged to use** as part of your OONI community engagement efforts.
 
+The OONI Outreach Kit is translated into [Russian](https://ooni.org/ru/support/ooni-outreach-kit/).
+
 {{<table-of-contents>}}
 
 ## OONI Brochures
