@@ -37,21 +37,22 @@ footer {
   font-family: "Fira Sans", sans-serif;
 }
 
-.footer-section-title {
-    font-weight: bold;
-}
-
 footer a {
   color: #fff;
   opacity: 0.5;
-  display: block;
-  padding: 2px 0;
-  margin: 2px 0;
-}
-footer a:hover {
-  color: #fff;
-  opacity: 1;
   text-decoration: none;
+  transition: .1s ease-in-out;
+}
+
+footer a:hover {
+  color: inherit;
+  opacity: 1;
+  text-decoration: inherit;
+}
+
+.footer-section-title {
+  font-weight: bold;
+  margin-bottom: 4px;
 }
 
 .footer-links-social {
@@ -59,35 +60,29 @@ footer a:hover {
     padding: 0;
 }
 
-.footer-links-social li {
-    display: inline-block;
-    padding: 0;
-    margin: 0 10px 0 0;
+.footer-link {
+  display: block;
+  padding: 4px 0 2px;
+  margin: 2px 0;
+ }
+
+.footer-social-links {
+  margin: 0;
+  padding: 0;
 }
 
-.footer-links-social a {
-    overflow: hidden;
-    text-indent: 120%;
-    display: block;
-    background-repeat: no-repeat;
-    height: 16px;
-    width: 16px;
+.footer-social-links li {
+  display: inline-block;
+  padding: 0;
+  margin: 6px 10px 0 0;
 }
 
-.footer-links-social a.twitter {
-    background-image: url('/images/logos/twitter.png');
+.footer-copyright {
+  font-size: 0.875em;
 }
-.footer-links-social a.youtube {
-    background-image: url('/images/logos/youtube.png');
-}
-.footer-links-social a.facebook {
-    background-image: url('/images/logos/facebook.png');
-}
-.footer-links-social a.instagram {
-    background-image: url('/images/logos/instagram.png');
-}
-.footer-links-social a.mastodon {
-    background-image: url('/images/logos/mastodon-brands.png');
+
+.footer-copyright a {
+  display: inline;
 }
 
 
