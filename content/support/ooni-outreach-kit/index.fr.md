@@ -19,26 +19,26 @@ We provide 2 OONI brochures that include information about using OONI tools and 
 
 Nous fournissons 2 brochures OONI qui comprennent des informations sur l'utilisation des outils et des données OONI pour enquêter sur la censure de l'internet dans le monde.
 
-* **[OONI Brochure (courte)](<./files/FR/Short Brochure A4 2F.pdf>)**, [fichier pour impression](<./files/FR/Short Brochure A4 2F.indd>)
-* **[OONI Brochure (longue)](<./files/FR/Long Brochure A5 booklet.pdf>)**,  [fichier pour impression](<./files/FR/Long Brochure A5 booklet.indd>)
+* **[OONI Brochure (courte)](<./files/FR/Short Brochure A4 2F FR.pdf>)**, [fichier pour impression](<./files/FR/Short Brochure A4 2F FR.indd>)
+* **[OONI Brochure (longue)](<./files/FR/Long Brochure A5 booklet FR.pdf>)**,  [fichier pour impression](<./files/FR/Long Brochure A5 booklet FR.indd>)
 
 ## Fiche d'information sur OONI Probe 
 
 [OONI Probe](https://ooni.org/install/) est un logiciel libre permettant de mesurer la censure sur Internet. Pour inciter les gens à utiliser OONI Probe, nous fournissons une fiche contenant des informations générales sur OONI Probe, et encourager les tests avant et pendant les élections (lorsque [les événements de censure ont tendance à émerger](https://ooni.org/documents/2022-ooni-submission-ohchr-report-internet-shutdowns.pdf)).
 
-* **[Fiche d'information sur OONI Probe](<./files/FR/OONI Probe Fact Sheet A5 back and front.pdf>)**, [fichier pour impression](<./files/FR/OONI Probe Fact Sheet A5 back and front.indd>)
+* **[Fiche d'information sur OONI Probe](<./files/FR/OONI Probe Fact Sheet A5 back and front FR.pdf>)**, [fichier pour impression](<./files/FR/OONI Probe Fact Sheet A5 back and front FR.indd>)
 
 ## Fiche d'information sur OONI Explorer 
 
 [OONI Explorer](https://explorer.ooni.org/fr) est le plus grand ensemble de données ouvertes au monde sur la censure de l'internet. Pour encourager l'utilisation d'OONI Explorer, nous fournissons une fiche d'information.
 
-* **[OONI Explorer Bulletin d’informations ](<./files/FR/OONI Explorer Fact Sheet A5 back and front.pdf>)**, [fichier pour impression](<./files/FR/OONI Explorer Fact Sheet A5 back and front.indd>)
+* **[OONI Explorer Bulletin d’informations ](<./files/FR/OONI Explorer Fact Sheet A5 back and front FR.pdf>)**, [fichier pour impression](<./files/FR/OONI Explorer Fact Sheet A5 back and front FR.indd>)
 
 ## Dépliant sur la censure d'Internet
 
 Ce dépliant fournit les informations sur la censure de l'internet et sur la manière dont les sites web sont bloqués.
 
-* **[Dépliant sur la censure d'Internet](<./files/FR/Internet Censorship Fact Sheet A4 2F.pdf>)**, [fichier d'impression](<./files/FR/Internet Censorship Fact Sheet A4 2F.indd>)
+* **[Dépliant sur la censure d'Internet](<./files/FR/Internet Censorship Fact Sheet A4 2F FR.pdf>)**, [fichier d'impression](<./files/FR/Internet Censorship Fact Sheet A4 2F FR.indd>)
 
 ## OONI présentation de la formation
 
