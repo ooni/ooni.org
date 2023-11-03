@@ -30,6 +30,16 @@ pre, code {
 /* ================================================================== */
 /* Document structure */
 
+.layout {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
 footer {
   background-color: rgb(0, 44, 75);
   color: #fff;
@@ -752,13 +762,6 @@ div.ooni-team-member {
 }
 
 /* ================================================================== */
-/* Content pages */
-
-.content {
-    padding-top: 60px;
-}
-
-/* ================================================================== */
 /* Article pages */
 
 .article nav {
@@ -864,8 +867,6 @@ nav#TableOfContents li, nav#TableOfContents ul {
 
 .blog-post {
   font-family: "Source Serif Pro", serif;
-  /* hotfix to make the footer sticky in short blog posts */
-  min-height: calc(100vh - 225px - 52px);
 }
 
 .blog-post img {
