@@ -44,7 +44,7 @@ Con este folleto, proporcionamos algunos conceptos básicos acerca de la censura
 
 Ofrecemos las diapositivas para un taller que puedes descargar y adaptar dependiendo de las necesidades de tu audiencia. Estas diapositivas son una plantilla, por favor no las considere como una presentación final. Los invitamos a adaptarlas según el contexto local del país donde realizará un evento, y las necesidades de la audiencia. 
 
-*   **[Diapositivas completas del taller]([https://docs.google.com/presentation/d/1_WB2YvIKZJCSwpTN1LKCd0mlFC9srFZLr2Ycdye6hrQ/edit?usp=sharing](https://docs.google.com/presentation/d/1rIbijrwop00lRatfs4XKhUDnYf4pyZ_ACA8nvmm7Sf4/edit?usp=sharing)**
+*   **[Diapositivas completas del taller]([https://docs.google.com/presentation/d/1_WB2YvIKZJCSwpTN1LKCd0mlFC9srFZLr2Ycdye6hrQ/edit?usp=sharing)]**
 
 Gracias a los esfuerzos de Advocacy Assembly podemos proporcionar las diapositivas y también notas útiles para el ponente de la presentación. Esperamos que estas notas le faciliten la preparación del taller, y que las diapositivas sean más accesibles para la audiencia. 
 
