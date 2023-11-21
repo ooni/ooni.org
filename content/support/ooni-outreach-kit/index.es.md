@@ -50,7 +50,7 @@ Gracias a los esfuerzos de Advocacy Assembly podemos proporcionar las diapositiv
 
 También puedes registrarte en **[el curso de formación sobre OONI](https://advocacyassembly.org/es/courses/63/#/chapter/1/lesson/1)** que es online y gratuito en la plataforma de Advocacy Assembly que está disponible en Español. 
 
-## RecursoS de OONI 
+## Recursos de OONI 
 
 También puede ser útil consultar [las secciones de preguntas frecuentes (FAQ)](https://ooni.org/es/support/faq) y [el glosario](https://ooni.org/es/support/glossary/) que están disponibles en nuestra página web.
 
