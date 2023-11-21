@@ -36,7 +36,7 @@ Proporcionamos dos folletos de OONI que incluyen información acerca del uso de 
 
 Con este folleto, proporcionamos algunos conceptos básicos acerca de la censura en internet y cómo implementan el bloqueo de sitios web. 
 
-* **[Folleto sobre la censura en internet](<./files/ES/Internet Censorship Fact Sheet A4 2F ES.pdf>)**, [archivo para imprimir](<./files/FR/Internet Censorship Fact Sheet A4 2F ES.indd>)
+* **[Folleto sobre la censura en internet](<./files/ES/Internet Censorship Fact Sheet A4 2F ES.pdf>)**, [archivo para imprimir](<./files/es/Internet Censorship Fact Sheet A4 2F ES.indd>)
 
 ## Diapositivas del taller de OONI
 
