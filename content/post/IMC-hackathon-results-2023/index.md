@@ -26,7 +26,7 @@ formed teams to work on some of the specific challenges that [we had
 proposed](https://docs.google.com/document/d/1bmCwU0ZJCu-xKlIBKqh3rdIJLHZ-vS7UCOfHI-0RxVE/edit#heading=h.nhvc5bssegtl)
 or came up with new ones.
 
-![](images/image3.png)
+![](images/image1.png)
 
 *Participants were grouped into 3 teams each looking into a different
 topic.*
@@ -48,9 +48,9 @@ there was an increase in OONI measurements from 2021 compared to 2023.
 They then went on to analyze how many AS networks seemed to support IPv6
 broken down by country, as can be seen in the following two charts:
 
-![](images/image4.png)
-
 ![](images/image5.png)
+
+![](images/image3.png)
 
 *Number of ASes failing IPv6 measurements in 2021 and 2023*
 
@@ -73,10 +73,9 @@ They started off by looking at the [Internet Society Pulse Shutdown Tracker](htt
 to extract a list of relevant events and they then extracted relevant
 data from the other datasets (IODA, OONI, M-LAB).
 
-In the figure below, we can see the internet shutdown in Ethiopia from
-February to July 2023.
+In the figure below, we can see a 3-hour internet shutdown in Iraq in September  2023.
 
-![](images/image1.png)
+![](images/image2.png)
 
 *Visualization of a shutdown in Iraq on 28 September 2023 which lasted 3
 hours.*
@@ -92,7 +91,7 @@ uncover correlations between significant events as captured by these
 diverse platforms. They employed the SARIMA (Seasonal Autoregressive
 Integrated Moving Average) model to identify anomalies in data trends.
 
-![](images/image2.png)
+![](images/image4.png)
 
 *Using SARIMA for anomaly detection (TIM outage in Italy Feb 05, 2023)*
 
