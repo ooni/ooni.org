@@ -80,7 +80,7 @@ They started off by looking at the [Internet Society Pulse Shutdown Tracker](htt
 to extract a list of relevant events and they then extracted relevant
 data from the other datasets (IODA, OONI, M-LAB).
 
-In the figure below, we can see a 3-hour internet shutdown in Iraq in September  2023.
+In the figure below, we can see a 3-hour internet shutdown in Iraq in September 2023.
 
 ![](images/image2.png)
 
