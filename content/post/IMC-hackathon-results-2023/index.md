@@ -33,6 +33,13 @@ topic.*
 
 In total, 4 projects came out of the hackathon:
 
+* Using OONI data to investigate IPv6 connectivity
+* Data triangulation to infer censorship or shutdown events
+* Correlating alarms across multiple datasets
+* Bonus: The Sound of Internet Shutdowns
+
+We share more details below.
+
 {{<table-of-contents>}}
 
 ## Using OONI data to investigate IPv6 connectivity
