@@ -1,3 +1,12 @@
+---
+title: "Measure all the Things! IMC Hackathon 2023"
+description: "OONI shares the results of a hackathon hosted at IMC 2023 in collaboration with ISOC, M-Lab and Censored Planet."
+author: "Arturo Filastò"
+date: "2023-11-24"
+tags: ["ooni", "hackathon", "events"]
+categories: ["blog"]
+---
+
 On 23rd October 2023, right before the [Internet Measurement Conference
 (IMC)](https://conferences.sigcomm.org/imc/2023/) 2023, we
 co-hosted an **internet measurement hackathon** in collaboration with
@@ -25,10 +34,7 @@ topic.*
 
 In total, 4 projects came out of the hackathon:
 
-* Using OONI data to investigate IPv6 connectivity
-* Data triangulation to infer censorship or shutdown events
-* Correlating alarms across multiple datasets
-* The Sound of Internet Shutdowns
+{{<table-of-contents>}}
 
 ## Using OONI data to investigate IPv6 connectivity
 
