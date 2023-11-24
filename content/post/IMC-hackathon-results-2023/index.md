@@ -12,7 +12,7 @@ On 23rd October 2023, right before the [Internet Measurement Conference
 co-hosted an **internet measurement hackathon** in collaboration with
 the [Internet Society
 (ISOC)](https://www.internetsociety.org/),
-[M-Lab](https://www.measurementlab.net/),[Censored Planet](https://censoredplanet.org/) and
+[M-Lab](https://www.measurementlab.net/), [Censored Planet](https://censoredplanet.org/) and
 [IODA](https://ioda.inetintel.cc.gatech.edu/).
 
 In this post we would like to share some of the projects that were
