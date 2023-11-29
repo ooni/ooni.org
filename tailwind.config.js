@@ -4,7 +4,8 @@ module.exports = {
     "./themes/**/layouts/**/*.html",
     "./content/**/layouts/**/*.html",
     "./layouts/**/*.html",
-    "./content/**/*.html"
+    "./content/**/*.html",
+    "./content/**/*.md"
   ],
   theme: {
     colors: {
@@ -152,6 +153,8 @@ module.exports = {
     extend: {},
   },
   plugins: [
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
   ],
 }

@@ -1,3 +1,7 @@
+{{- $url := .RelPermalink -}}
+{{- $urlParts := split .RelPermalink "/" }}
+{{- $currentPathPrefix := index $urlParts 1 | printf "/%s/" }}
+{{- $currentSubMenuName := index $urlParts 2 }}
 <nav class="bg-ooniblue shadow">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 justify-between">
@@ -10,11 +14,14 @@
                 </div>
                 <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
                     <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-                    {{ $url := .RelPermalink }}
                     {{ with .Site.Menus.main }}
                     {{ range $menu := . }}
+                    {{ $classExtra := "border-transparent" }}
+                    {{ if eq $currentPathPrefix .URL }}
+                    {{ $classExtra = "border-white" }}
+                    {{ end }}
                     <a href="{{.URL}}"
-                        class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white  hover:border-white {{ if eq $url .URL}} border-white {{end}} hover:text-gray2">
+                        class="inline-flex items-center border-b-2 {{ $classExtra }} px-1 pt-1 text-sm font-medium text-white  hover:border-white  hover:text-gray2">
                         {{ .Name }}
                     </a>
                     {{end}}
@@ -61,25 +68,24 @@
     </div>
 </nav>
 
+<pre></pre>
 <div class="bg-gray1">
     <div class="hidden sm:block">
         <div class="border-b border-gray-200">
             <nav class="-mb-px flex space-x-8  mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Tabs">
                 <!-- Current: "border-indigo-500 text-indigo-600", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-                <a href="/about"
-                    class="border-transparent text-black hover:border-black hover:text-gray7 whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium">About
-                    OONI</a>
-                <a href="/about/team"
-                    class="border-transparent text-black hover:border-black hover:text-gray7 whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium">Team</a>
-                <a href="/about/supporters"
-                    class="border-black text-black whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium"
-                    aria-current="page">Supporters & Funders</a>
-                <a href="/about/data-policy"
-                    class="border-black text-black whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium"
-                    aria-current="page">Data Policy</a>
-                <a href="/about/risks"
-                    class="border-black text-black whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium"
-                    aria-current="page">Risks</a>
+                {{ with .Site.Menus.about }}
+                {{ range $menu := . }}
+                {{ $classExtra := "border-transparent" }}
+                {{ if eq $url .URL }}
+                {{ $classExtra = "border-black" }}
+                {{ end }}
+                <a href="{{.URL}}"
+                    class="{{ $classExtra }} text-black hover:border-black hover:text-gray7 whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium">
+                    {{.Name}}
+                </a>
+                {{end}}
+                {{end}}
             </nav>
         </div>
     </div>
