@@ -17,6 +17,7 @@ Translations:
 * **Русский,** [Часто задаваемые вопросы](/ru/support/faq)
 * **Khmer,** [Frequently Asked Questions (FAQ)](https://digitalhub101.com/ooni/) by [DigitalHub101](https://digitalhub101.com/)
 * **Tiếng Việt,** [Trang Những Câu Hỏi Thường Gặp](/vi/support/faq)
+* **မြန်မာ,** [မကြာခဏ မေးမြန်းခံရလေ့ရှိသော မေးခွန်းများ](my/support/faq)
 
 Are there other questions you would like us to address? Please [let us know](https://ooni.org/about/#contact).
 
