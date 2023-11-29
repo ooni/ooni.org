@@ -10,10 +10,10 @@ You can donate to OONI by doing a wire transfer to the following bank informatio
 
 * **Beneficiary Name**: Open Observatory of Network Interference (OONI)
 * **Beneficiary Address**: Via Ostiense 131L, 00154, Rome, Italy
-* **Bank Name**: XXX
-* **Bank Street**:  XXX
-* **IBAN**: IT68O3609201600495575618350
-* **SWIFT Code**: XXX
+* **Bank Name**: Banca di Credito Cooperativo di roma (BCC Rome)
+* **Bank Street**: Piazza Nicosia, 31 Rome 00186 Italy
+* **IBAN**: IT85B0832703221000000005814
+* **SWIFT Code**: ICRAITRRROM
 
 If you require a donation receipt, please send us an email to
 `giving@ooni.org` with 'Donation receipt' in the subject line.
