@@ -39,7 +39,7 @@
             <div class="-mr-2 flex items-center sm:hidden">
                 <!-- Mobile menu button -->
                 <button type="button"
-                    class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                    class="relative inline-flex items-center justify-center rounded-md p-2 text-gray4 hover:bg-gray1 hover:text-gray5 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo5"
                     aria-controls="mobile-menu" aria-expanded="false">
                     <span class="absolute -inset-0.5"></span>
                     <span class="sr-only">Open main menu</span>
@@ -66,7 +66,32 @@
             </div>
         </div>
     </div>
+    <div class="sm:hidden" id="mobile-menu">
+        <div class="space-y-1 pb-3 pt-2">
+            {{ with .Site.Menus.main }}
+            {{ range $menu := . }}
+            {{ $classExtra := "border-transparent" }}
+            {{ if eq $currentPathPrefix .URL }}
+            {{ $classExtra = "border-white" }}
+            {{ end }}
+            <a href="{{.URL}}"
+                class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium {{ $classExtra }} text-white hover:border-white  hover:text-gray2">
+                {{ .Name }}
+            </a>
+            {{end}}
+            {{end}}
+        </div>
+    </div>
 </nav>
+
+<script type="text/javascript">
+    var navbar = document.getElementById("mobile-menu");
+    var menuBtn = document.querySelector(".mobile-menu");
+
+    menuBtn.addEventListener('click', function handleClick(event) {
+        navbar.classList.toggle('hidden');
+    }); 
+</script>
 
 {{ if eq $currentPathPrefix "/about/" }}
 <div class="bg-gray1">
@@ -87,6 +112,22 @@
                 {{end}}
                 {{end}}
             </nav>
+        </div>
+    </div>
+    <div class="sm:hidden" id="mobile-menu">
+        <div class="space-y-1 pb-3 pt-2">
+            {{ with .Site.Menus.about }}
+            {{ range $menu := . }}
+            {{ $classExtra := "border-transparent" }}
+            {{ if eq $url .URL }}
+            {{ $classExtra = "border-black" }}
+            {{ end }}
+            <a href="{{.URL}}"
+                class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium {{ $classExtra }} text-black hover:border-black hover:text-gray7">
+                {{.Name}}
+            </a>
+            {{end}}
+            {{end}}
         </div>
     </div>
 </div>

@@ -16,8 +16,8 @@ module.exports = {
       background: '#f8f9fa',
       highlight: '#0588cb20', // Added to fix @rebass/forms/Radio in focus mode
       ooniblue: '#0588cb',
-      black: '#212529',
-      white: '#f8f9fa',
+      black: '#000',
+      white: '#fff',
       twitterBlue: '#1da1f2',
       facebookBlue: '#3b5998',
       transparent: 'transparent',

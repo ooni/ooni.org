@@ -9,16 +9,16 @@
 {{ end }}
 
 {{ define "main" }}
-<main class="flex-1 grow mx-auto w-screen max-w-7xl sm:px-6 lg:px-8 pt-4">
-  <article
-    class="justify-self-center mx-auto mb-16 prose max-w-none dark:prose-invert prose-slate lg:prose-lg hover:prose-a:text-ooniblue pt-4">
+<div class="bg-white px-6 py-6 lg:px-8">
+  <div
+    class="mx-auto max-w-4xl text-base leading-7 text-gray7 prose prose-slate hover:prose-a:text-ooniblue lg:prose-lg">
     {{ if .Title }}
     <h1>{{ .Title }}</h1>
     {{ end }}
 
     {{ .Content }}
-    </article>
-    </main>
+  </div>
+  </div>
 {{ end }}
 
 {{ define "footer" }}
