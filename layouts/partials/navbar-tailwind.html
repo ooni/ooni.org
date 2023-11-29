@@ -68,7 +68,7 @@
     </div>
 </nav>
 
-<pre></pre>
+{{ if eq $currentPathPrefix "/about/" }}
 <div class="bg-gray1">
     <div class="hidden sm:block">
         <div class="border-b border-gray-200">
@@ -90,3 +90,4 @@
         </div>
     </div>
 </div>
+{{ end }}
