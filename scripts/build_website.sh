@@ -6,7 +6,6 @@ fi
 
 echo "Using BASE_URL=$BASE_URL"
 npm install
-npm install postcss-cli -g
 hugo --minify --buildDrafts --baseUrl="$BASE_URL"
 cp static/googlec8ce605468a38232.html public/
 cp static/robots.txt public/
