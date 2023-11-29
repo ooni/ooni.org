@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   important: "html",
   content: [
@@ -151,7 +153,13 @@ module.exports = {
       cyan8: '#0c8599',
       cyan9: '#0b7285',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['"Fira Sans"', ...defaultTheme.fontFamily.sans],
+        'serif': ['"Source Serif Pro"', ...defaultTheme.fontFamily.serif],
+        'mono': ['"Source Code Pro"', ...defaultTheme.fontFamily.mono],
+      },
+    },
   },
   plugins: [
     require('@tailwindcss/aspect-ratio'),
