@@ -1,0 +1,29 @@
+{{ define "css" }}
+
+{{ partial "css-tailwind.html" . }}
+
+{{ end }}
+
+{{ define "navbar" }}
+{{ partial "navbar-tailwind.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<main class="flex-1 grow mx-auto w-screen max-w-7xl sm:px-6 lg:px-8 pt-4">
+    <article
+        class="justify-self-center mx-auto px-6 mb-16 sm:px-4 md:px-0 prose dark:prose-invert prose-slate lg:prose-lg hover:prose-a:text-sky-500">
+        {{ if .Title }}
+        <h1>{{ .Title }}</h1>
+        {{ end }}
+
+        {{ if eq .Params.enabletoc true }}
+        {{ .TableOfContents }}
+        {{ end }}
+        {{ .Content }}
+    </article>
+</main>
+{{ end }}
+
+{{ define "footer" }}
+{{ partial "footer-tailwind.html" . }}
+{{ end }}
