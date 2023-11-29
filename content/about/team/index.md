@@ -1,5 +1,7 @@
-OONI Team
----------
+## OONI Team
+
+Below is the list of all core OONI team members:
+
 {{<team-listing>}}
 
 {{<team-member name="Arturo Filastò" role="Founder & Chief Architect" email="arturo@ooni.org" pgpkey="67EF3966509986E96ACEE84E5D67CD18702287F4" twitter="hellais" img="images/placeholder.png">}}
