@@ -125,3 +125,4 @@ Our work would not be possible without the support of our funders. Below we shar
 * [Media Democracy Fund](https://mediademocracyfund.org/)
 * [National Science Foundation (NSF)](https://www.nsf.gov/)
 * [Open Technology Fund (OTF)](https://www.opentech.fund/)
+* [Small Media](https://smallmedia.org.uk/)
