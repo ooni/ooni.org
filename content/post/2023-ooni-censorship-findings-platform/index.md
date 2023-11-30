@@ -8,6 +8,7 @@ categories: ["blog"]
 ---
 
 {{<img src="images/ooni-censorship-findings.png" title="Censorship Findings" alt="Censorship Findings">}}
+**Image:** OONI Censorship Findings platform.
 
 Today we are thrilled to announce the launch of the OONI [Censorship
 Findings](https://explorer.ooni.org/findings) platform!
