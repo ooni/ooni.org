@@ -29,6 +29,8 @@ See below for the [list of past OONI funders](#funders).
 
 {{< supporter img="images/DigitalOcean.svg" name="Digital Ocean Hub for Good" link="https://www.digitalocean.com/community/pages/hollies-hub-for-good" imgHeight="40px" >}}
 
+{{< supporter img="images/Greenhost.svg" name="Greenhost eclips.is platform" link="https://greenhost.net/" imgHeight="40px" >}}
+
 {{< supporter img="images/Netlify.svg" name="Netlify" link="https://www.netlify.com/" imgHeight="40px" >}}
 
 {{< supporter img="images/VPNCompare.svg" name="VPN Compare" link="https://www.vpncompare.co.uk/" imgHeight="40px" >}}
