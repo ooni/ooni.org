@@ -1,5 +1,6 @@
-About
-=====
+---
+title: About
+---
 
 Founded in 2012, the **Open Observatory of Network Interference (OONI)** is a non-profit free software project that aims to empower decentralized efforts in documenting internet censorship around the world.
 
@@ -15,8 +16,7 @@ Join our community by [running OONI Probe](https://ooni.org/install/) to contrib
 
 Questions? Learn more through our **[Frequently Asked Questions (FAQ)](https://ooni.org/support/faq/)** section.
 
-Mission
-=======
+## Mission
 
 Our mission is to ensure a free and open internet by increasing transparency of internet censorship around the world.
 
@@ -32,8 +32,7 @@ All of our methodologies, tools, and measurements are entirely open, transparent
 
 By increasing transparency of internet censorship, we aim to support public debate on information controls and promote social justice on the internet.
 
-Contact
--------
+### Contact
 
 You can contact the OONI team by sending an email to **contact@openobservatory.org**.
 

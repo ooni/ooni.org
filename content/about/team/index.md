@@ -1,4 +1,6 @@
-## OONI Team
+---
+title: OONI Team
+---
 
 Below is the list of all core OONI team members:
 
