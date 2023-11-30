@@ -61,7 +61,7 @@ around the world based on [OONI data](https://ooni.org/data/). Our goal is to su
 research and advocacy efforts aimed at monitoring and responding to
 internet censorship around the world.
 
-With the launch of the platform, we **published the following** *20
+With the launch of the platform, we **published the following 20
 reports on internet censorship events** that emerged in 2023:
 
 * [Guinea blocked WhatsApp, Telegram, Facebook, Twitter, Instagram, and YouTube](https://explorer.ooni.org/findings/296303006301)
