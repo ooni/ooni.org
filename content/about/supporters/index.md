@@ -38,9 +38,7 @@ Below we share a [list of current and past OONI funders](#funders).
 
 {{< supporter-section title="Starfish Supporters" classExtra="grid-cols-6" >}}
 
-{{< supporter-text name="Jane Doe" >}}
-
-{{< supporter-text name="John Smith" >}}
+{{< supporter-text name="This could be you!" >}}
 
 {{< /supporter-section >}}
 
