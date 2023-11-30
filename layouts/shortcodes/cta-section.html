@@ -1,0 +1,16 @@
+{{ $title := .Get "title" }}
+{{ $button := .Get "button" }}
+{{ $href := .Get "href" }}
+
+<div class="bg-gray0 px-6 py-6 mt-6 ring-1 ring-white/10 sm:rounded-3xl not-prose">
+    <div class="mx-auto max-w-7xl py-6 px-6 lg:flex lg:items-center lg:justify-between lg:px-8">
+        <div>
+            <h2 class="text-3xl font-bold tracking-tight text-gray9 sm:text-4xl">{{ $title }}</h2>
+            {{ partial "ooni-work.html" . }}
+            <div class="mt-8">
+                <a href="{{ $href }}"
+                    class="rounded-md bg-ooniblue px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ooniblue">{{ $button }}</a>
+            </div>
+        </div>
+    </div>
+</div>

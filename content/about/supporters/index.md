@@ -44,6 +44,8 @@ Below we share a [list of current and past OONI funders](#funders).
 
 {{< /supporter-section >}}
 
+{{< cta-section title="Donate now to support internet freedom" button="Donate" href="/donate/" >}}
+
 ## Supporter tiers
 
 ### Octopus
