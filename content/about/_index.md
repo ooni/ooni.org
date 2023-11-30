@@ -44,3 +44,9 @@ uid \[ultimate\] OONI - Open Observatory of Network Interference
 sub 4096R/8EBD2087374399AB 2016-03-23  
 
 For real-time communication, you can reach us on [Slack](https://slack.ooni.org/) or [IRC](ircs://irc.oftc.net:6697/#ooni).
+
+Our physical mailing address is the following:
+
+{{< address title="Open Observatory of Network Interference (OONI)" address1="Via Ostiense 131L" address2="00154, Rome, Italy" >}}
+```
+Tax ID: IT-96568220584
