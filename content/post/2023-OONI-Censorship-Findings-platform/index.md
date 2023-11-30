@@ -7,7 +7,7 @@ tags: ["ooni", "explorer", "launch", "censorship-findings"]
 categories: ["blog"]
 ---
 
-{{<img src="images/image1.png" title="Censorship Findings" alt="Censorship Findings">}}
+{{<img src="images/ooni-censorship-findings.png" title="Censorship Findings" alt="Censorship Findings">}}
 
 Today we are thrilled to announce the launch of the OONI [Censorship
 Findings](https://explorer.ooni.org/findings) platform!
