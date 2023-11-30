@@ -3,7 +3,7 @@ title: Supporters & Funders
 ---
 
 Supporters are organisations or individuals who believe in the mission of OONI
-and have made significant in-kind donations to OONI in the last 12 months. If
+and have made significant in-kind donations to OONI in the last year. If
 you would like to become an OONI supporter, please reach out to us at
 giving@ooni.org.
 
@@ -48,11 +48,14 @@ evading predators
 
 #### Requirement
 
-* Donate more than 50’000 EUR or USD per year
+* Donate more than 50’000 EUR/USD per year
 
 #### Benefit
 
-* Listed on our website as a logo with a link back to your site
+* Large logo with link back to site
+* Mentioned as a supporter in our monthly progress updates
+* Mention of support in promotion on social media
+* Opportunity to engage with OONI leadership to discuss organizational strategy
 
 ### Dolphin
 
@@ -66,6 +69,8 @@ supporting them to the surface so they can breathe.
 #### Benefit
 
 * Listed on our website as a medium size logo with a link back to your site
+* Mentioned as a supporter in our monthly progress updates
+* Mention of support in promotion on social media
 
 ### Seahorse
 
@@ -75,10 +80,12 @@ separating for the day.
 
 #### Requirement
 
-* Donate between 1’000 - 10’000 EUR per year
+* Donate between 1’000 - 10’000 EUR/USD per year
 
 #### Benefit
-Listed on our website as a small logo with a link back to your site
+
+* Small logo with link back to your website
+* Mentioned as a supporter in our monthly progress updates
 
 ### Starfish
 
@@ -89,7 +96,7 @@ Starfish, or sea stars, are known for their fascinating ability to regenerate lo
 * Donate 50+ EUR per month
 
 #### Benefit
-* Listed on our website as text
+* Listed as a supporter with text
 
 # Funders
 Our work would not be possible without the support of our funders. Here you will
