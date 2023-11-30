@@ -6,6 +6,7 @@ Supporters are organisations or individuals who believe in the mission of OONI
 and have made significant in-kind donations to OONI in the last year. If
 you would like to become an OONI supporter, please reach out to us at
 giving@ooni.org.
+See below for the [list of past OONI funders](#funders).
 
 {{< supporter-section title="Octopus supporters" classExtra="grid-cols-2" >}}
 
@@ -117,6 +118,7 @@ find a list of past and present funders.
 ### Past Funders
 
 * [Berkman Klein Center](https://cyber.harvard.edu/)
-* [Media Democracy Fund](https://mediademocracyfund.org/)
+* [German Federal Foreign Ministry](https://www.auswaertiges-amt.de/)
 * [Internews](https://internews.org/)
+* [Media Democracy Fund](https://mediademocracyfund.org/)
 * [Open Technology Fund (OTF)](https://www.opentech.fund/)
