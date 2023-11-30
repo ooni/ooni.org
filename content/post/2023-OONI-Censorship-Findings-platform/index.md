@@ -3,7 +3,7 @@ title: "Launch: New OONI Censorship Findings platform"
 description: "OONI announces the launch of a new section on OONI Explorer: the Censorship Findings platform."
 author: "Maria Xynou"
 date: "2023-11-30"
-tags: ["ooni", "explorer"]
+tags: ["ooni", "explorer", "launch", "censorship-findings"]
 categories: ["blog"]
 ---
 
@@ -61,12 +61,12 @@ around the world based on [OONI data](https://ooni.org/data/). Our goal is to su
 research and advocacy efforts aimed at monitoring and responding to
 internet censorship around the world.
 
-With the launch of the platform, we **published the following 20
-reports on internet censorship events** that emerged in 2023:
+With the launch of the platform, we **published the following 20 reports on internet censorship events** that emerged in 2023:
 
 * [Guinea blocked WhatsApp, Telegram, Facebook, Twitter, Instagram, and YouTube](https://explorer.ooni.org/findings/296303006301)
 * [Tanzania blocked Clubhouse](https://explorer.ooni.org/findings/185407756401)
 * [Jordan blocked Grindr](https://explorer.ooni.org/findings/179818906201)
+* [Cambodia blocked independent media websites ahead of 2023 general elections](https://explorer.ooni.org/findings/373150675601)
 * [China started blocking OONI](https://explorer.ooni.org/findings/57494519801)
 * [China started blocking F-Droid](https://explorer.ooni.org/findings/206551055901)
 * [Egypt started blocking Proton privacy services](https://explorer.ooni.org/findings/18597244501)
@@ -83,7 +83,6 @@ reports on internet censorship events** that emerged in 2023:
 * [Pakistan started blocking Deutsche Welle (DW)](https://explorer.ooni.org/findings/7767321701)
 * [Turkey blocked Twitter following deadly earthquake](https://explorer.ooni.org/fndings/279627325801)
 * [Pakistan blocked Wikipedia](https://explorer.ooni.org/findings/352315080001)
-
 
 Each of the above reports links to relevant OONI data (that can serve as
 evidence of internet censorship), providing charts that are generated
