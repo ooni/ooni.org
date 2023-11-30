@@ -2,14 +2,11 @@
 title: OONI Team
 ---
 
-Below is the list of all core OONI team members:
-
 {{<team-listing>}}
 
 {{<team-member name="Arturo Filastò" role="Founder & Chief Architect" email="arturo@ooni.org" pgpkey="67EF3966509986E96ACEE84E5D67CD18702287F4" twitter="hellais" img="images/placeholder.png">}}
 
-
-{{<team-member name="Maria Xynou" role="Research & Partnership Director" email="maria@ooni.org" pgpkey="2DC8AFB6CA11B5521081FBDE2131B3BE70CA417E" twitter="agrabeli_">}}
+{{<team-member name="Maria Xynou" role="Research & Partnerships Director" email="maria@ooni.org" pgpkey="2DC8AFB6CA11B5521081FBDE2131B3BE70CA417E" twitter="agrabeli_">}}
 
 {{<team-member name="Jessie Bonisteel" role="Project Manager" email="jessie@ooni.org">}}
 
@@ -22,8 +19,6 @@ Below is the list of all core OONI team members:
 {{<team-member name="Elizaveta Yachmeneva" role="Community Coordinator" email="elizaveta@ooni.org" pgpkey="0419a8e327f6a7ff3ce5099a5be5b99b31b45a4f" twitter="elyachmeneva">}}
 
 {{<team-member name="Roberta Giassetti" role="Finance and Administration Advisor" email="roberta@ooni.org">}}
-
-{{<team-member name="Kathrin Elmenhorst" role="Research Engineer" email="kathrin@ooni.org" pgpkey="83a565c885e88210a05fe2f690a07d9b3741622f">}}
 
 {{<team-member name="Federico Ceratto" role="Backend Engineer & Data Analyst" email="federico@ooni.org" pgpkey="7CA7DDFB333921408C6F2B966F31BC44F5177DAA">}}
 
