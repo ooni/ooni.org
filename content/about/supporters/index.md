@@ -2,12 +2,10 @@
 title: Supporters & Funders
 ---
 
-Supporters are organisations or individuals who believe in the mission of OONI
-and have made significant in-kind donations to OONI in the last year. If
-you would like to become an OONI supporter, please reach out to us at
+Supporters are organisations or individuals who believe in [OONI's mission](https://ooni.org/about/) and have made significant in-kind donations to OONI in the last year. If you would like to become an OONI supporter, please reach out to us at
 giving@ooni.org.
 
-See below for the [list of past OONI funders](#funders).
+Below we share a [list of current and past OONI funders](#funders).
 
 {{< supporter-section title="Octopus supporters" classExtra="grid-cols-2" >}}
 
@@ -46,24 +44,24 @@ See below for the [list of past OONI funders](#funders).
 
 {{< /supporter-section >}}
 
-## Supporters tiers
+## Supporter tiers
 
 ### Octopus
 
 Octopuses have three hearts: two pump blood to the gills, while the third pumps
 it to the rest of the body. This trio of hearts is particularly efficient, which
 is essential for an animal that often experiences sudden bursts of energy when
-evading predators
+evading predators.
 
 #### Requirement
 
 * Donate more than 50’000 EUR/USD per year
 
-#### Benefit
+#### Benefits
 
-* Large logo with link back to site
-* Mentioned as a supporter in our monthly progress updates
-* Mention of support in promotion on social media
+* Featured on our website with a large logo and a link back to your site
+* Mention of support in our monthly progress reports
+* Mention of support on our social media channels
 * Opportunity to engage with OONI leadership to discuss organizational strategy
 
 ### Dolphin
@@ -75,11 +73,11 @@ supporting them to the surface so they can breathe.
 
 * Donate between 10’000 - 50’000 EUR/USD per year
 
-#### Benefit
+#### Benefits
 
-* Listed on our website as a medium size logo with a link back to your site
-* Mentioned as a supporter in our monthly progress updates
-* Mention of support in promotion on social media
+* Featured on our website with a medium-size logo and a link back to your site
+* Mention of support in our monthly progress reports
+* Mention of support on our social media channels
 
 ### Seahorse
 
@@ -91,10 +89,10 @@ separating for the day.
 
 * Donate between 1’000 - 10’000 EUR/USD per year
 
-#### Benefit
+#### Benefits
 
-* Small logo with link back to your website
-* Mentioned as a supporter in our monthly progress updates
+* Featured on our website with a small logo and a link back to your site
+* Mention of support in our monthly progress reports
 
 ### Starfish
 
@@ -105,22 +103,22 @@ Starfish, or sea stars, are known for their fascinating ability to regenerate lo
 * Donate 50+ EUR per month
 
 #### Benefit
-* Listed as a supporter with text
+
+* Listed as a supporter on our website (optional)
 
 # Funders
 
-Our work would not be possible without the support of our funders. Here you will
-find a list of past and present funders.
+Our work would not be possible without the support of our funders. Below we share a list of our current and past funders.
 
 ### Current Funders
 
-* [DRL](https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-democracy-human-rights-and-labor/)
-* [Mozilla Foundation](https://foundation.mozilla.org/)
+* [Bureau of Democracy, Human Rights, and Labor (DRL)](https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-democracy-human-rights-and-labor/)
 * [Ford Foundation](https://www.fordfoundation.org/)
+* [Mozilla Foundation](https://foundation.mozilla.org/)
 
 ### Past Funders
 
-* [Berkman Klein Center](https://cyber.harvard.edu/)
+* [Berkman Klein Center for Internet & Society at Harvard University](https://cyber.harvard.edu/)
 * [German Federal Foreign Ministry](https://www.auswaertiges-amt.de/)
 * [Internews](https://internews.org/)
 * [Internet Society (ISOC)](https://www.internetsociety.org/)
