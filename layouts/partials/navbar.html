@@ -1,0 +1,48 @@
+<nav class="navbar mb-4" id="navbar">
+    <div class="container">
+        <div class="d-flex flex-column flex-lg-row">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="nav-menu-brand">
+                    <a href="/">
+                        <img src="/images/logos/ooni-horizontal.svg" alt="OONI Logo">
+                    </a>
+                </div>
+
+                <button class="nav-menu-btn d-lg-none" id="menu-btn" aria-label="Toggle the menu">
+                    <img src="/images/menu-open.svg" class="nav-menu-btn-icon nav-menu-btn-icon_open"
+                        alt="Open the menu">
+                    <img src="/images/menu-close.svg" class="nav-menu-btn-icon nav-menu-btn-icon_close"
+                        alt="Close the menu">
+                </button>
+            </div>
+
+            <div class="nav-menu">
+                <div class="d-flex flex-column flex-lg-row align-items-start">
+                    {{ $url := .RelPermalink }}
+                    {{ with .Site.Menus.main }}
+                    {{ range $menu := . }}
+                    <div class="nav-menu-item">
+                        <a href="{{.URL}}" {{ if eq $url .URL}} class="active" {{end}}>{{ .Name }}</a>
+                    </div>
+                    {{end}}
+                    {{end}}
+                </div>
+
+                <div class="nav-menu-install">
+                    {{ with .Site.Menus.install}}
+                    {{ range $menu := . }}
+                    <a href="{{.URL}}" class="btn explorer-button">{{.Name}}</a>
+                    {{end}}
+                    {{end}}
+                </div>
+            </div>
+        </div>
+</nav>
+<script type="text/javascript">
+    var navbar = document.getElementById("navbar");
+    var menuBtn = document.getElementById("menu-btn");
+
+    menuBtn.addEventListener('click', function handleClick(event) {
+        navbar.classList.toggle('navbar_opened');
+    }); 
+</script>

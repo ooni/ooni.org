@@ -302,6 +302,8 @@ infrastructure support from [Greenhost](https://greenhost.net/) and Amazon (for 
 and for [using their big data tooling](https://aws.amazon.com/research-credits/) for analyzing
 measurements).
 
+See our [full list of OONI Supporters & Funders](/about/supporters/#funders).
+
 If you would like to support our work, please consider **[donating to OONI](https://ooni.org/donate)**.
 
 ### What is OONI’s relationship with The Tor Project?
