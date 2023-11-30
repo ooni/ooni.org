@@ -9,23 +9,28 @@ giving@ooni.org.
 
 {{< supporter-section title="Octopus supporters" classExtra="grid-cols-2" >}}
 
-{{< supporter img="images/Pantheon.svg" name="Pantheon" link="https://pantheon.io/" imgHeight="160px" >}}
-
 {{< supporter img="images/Jigsaw.svg" name="Jigsaw" link="https://jigsaw.google.com" imgHeight="160px" >}}
+
+{{< supporter img="images/Pantheon.svg" name="Pantheon" link="https://pantheon.io/" imgHeight="160px" >}}
 
 {{< /supporter-section >}}
 
 {{< supporter-section title="Dolphin Supporters" classExtra="grid-cols-4" >}}
 
-{{< supporter img="images/Luminate.png" name="Luminate" link="https://www.vpncompare.co.uk/" imgHeight="80px" >}}
+{{< supporter img="images/AWS Open Data.png" name="Amazon AWS Open Data" link="https://aws.amazon.com/opendata/" imgHeight="80px" >}}
+
+{{< supporter img="images/Luminate.png" name="Luminate" link="https://www.luminategroup.com/" imgHeight="80px" >}}
 
 {{< /supporter-section >}}
 
 {{< supporter-section title="Seahorse Supporters" classExtra="grid-cols-6" >}}
 
-{{< supporter img="images/VPNCompare.svg" name="VPN Compare" link="https://www.vpncompare.co.uk/" imgHeight="40px" >}}
+{{< supporter img="images/DigitalOcean.svg" name="Digital Ocean Hub for Good" link="https://www.digitalocean.com/community/pages/hollies-hub-for-good" imgHeight="40px" >}}
 
 {{< supporter img="images/Netlify.svg" name="Netlify" link="https://www.netlify.com/" imgHeight="40px" >}}
+
+{{< supporter img="images/VPNCompare.svg" name="VPN Compare" link="https://www.vpncompare.co.uk/" imgHeight="40px" >}}
+
 
 {{< /supporter-section >}}
 
@@ -99,13 +104,19 @@ Starfish, or sea stars, are known for their fascinating ability to regenerate lo
 * Listed as a supporter with text
 
 # Funders
+
 Our work would not be possible without the support of our funders. Here you will
 find a list of past and present funders.
 
-Current Funders:
+### Current Funders
 
-*  XXX
+* [Mozilla Foundation](https://foundation.mozilla.org/)
+* [DRL](https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-democracy-human-rights-and-labor/)
+* [Ford Foundation](https://www.fordfoundation.org/)
 
-Past Funders:
+### Past Funders
 
-*  XXX
+* [Berkman Klein Center](https://cyber.harvard.edu/)
+* [Media Democracy Fund](https://mediademocracyfund.org/)
+* [Internews](https://internews.org/)
+* [Open Technology Fund (OTF)](https://www.opentech.fund/)
