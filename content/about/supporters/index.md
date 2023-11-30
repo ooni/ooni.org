@@ -120,8 +120,8 @@ Our work would not be possible without the support of our funders. Below we shar
 
 * [Berkman Klein Center for Internet & Society at Harvard University](https://cyber.harvard.edu/)
 * [German Federal Foreign Ministry](https://www.auswaertiges-amt.de/)
-* [Internews](https://internews.org/)
 * [Internet Society (ISOC)](https://www.internetsociety.org/)
+* [Internews](https://internews.org/)
 * [Media Democracy Fund (MDF)](https://mediademocracyfund.org/)
 * [National Science Foundation (NSF)](https://www.nsf.gov/)
 * [Open Technology Fund (OTF)](https://www.opentech.fund/)
