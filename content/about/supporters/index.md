@@ -116,7 +116,7 @@ Our work would not be possible without the support of our funders. Below we shar
 
 ### Past Funders
 
-* [Berkman Klein Center](https://cyber.harvard.edu/)
+* [Berkman Klein Center for Internet & Society at Harvard University](https://cyber.harvard.edu/)
 * [German Federal Foreign Ministry](https://www.auswaertiges-amt.de/)
 * [Internews](https://internews.org/)
 * [Internet Society (ISOC)](https://www.internetsociety.org/)
