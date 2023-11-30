@@ -112,8 +112,8 @@ find a list of past and present funders.
 
 ### Current Funders
 
-* [Mozilla Foundation](https://foundation.mozilla.org/)
 * [DRL](https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-democracy-human-rights-and-labor/)
+* [Mozilla Foundation](https://foundation.mozilla.org/)
 * [Ford Foundation](https://www.fordfoundation.org/)
 
 ### Past Funders
@@ -121,5 +121,7 @@ find a list of past and present funders.
 * [Berkman Klein Center](https://cyber.harvard.edu/)
 * [German Federal Foreign Ministry](https://www.auswaertiges-amt.de/)
 * [Internews](https://internews.org/)
+* [Internet Society (ISOC)](https://www.internetsociety.org/)
 * [Media Democracy Fund](https://mediademocracyfund.org/)
+* [National Science Foundation (NSF)](https://www.nsf.gov/)
 * [Open Technology Fund (OTF)](https://www.opentech.fund/)
