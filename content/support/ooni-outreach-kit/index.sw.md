@@ -21,9 +21,9 @@ Tumetoa Vipeperushi vya OONI viwili 2 ambavyo vina taarifa kuhusu
 utumiaji wa vifaa vya OONI na data kwa ajili ya kuchunguza udhibiti wa
 mtandao ulimwenguni.
 
-* **[Kipeperushi cha OONI (toleo-fupi)](<./files/Short Brochure A4 2F SW.pdf>)**, [faili ya uchapishaji](<./files/Short Brochure A4 2F SW.indd>)
+* **[Kipeperushi cha OONI (toleo-fupi)](<./files/SW/Short Brochure A4 2F SW.pdf>)**, [faili ya uchapishaji](<./files/SW/Short Brochure A4 2F SW.indd>)
 
-* **[Kipeperushi cha OONI (toleo-refu)](<./files/Long Brochure A5 booklet SW.pdf>)**, [faili ya uchapishaji](<./files/Long Brochure A5 booklet SW.indd>)
+* **[Kipeperushi cha OONI (toleo-refu)](<./files/SW/Long Brochure A5 booklet SW.pdf>)**, [faili ya uchapishaji](<./files/SW/Long Brochure A5 booklet SW.indd>)
 
 ## Kanzi data ya OONI Probe
 
@@ -32,7 +32,7 @@ Kushirikisha watu kwa kutumia OONI Probe, tumetoa Kanzi data ya OONI
 Probe ambayo inaweza kusaidia kutoa taarifa ya jumla kuhusu OONI Probe,
 na kuhimiza kupima kuelekea au wakati wa uchaguzi (wakati [matukio ya udhibiti yanayojitokeza](https://ooni.org/documents/2022-ooni-submission-ohchr-report-internet-shutdowns.pdf)).
 
-* **[Kanzi data ya OONI Probe](<./files/OONI Probe Fact Sheet A5 back and front SW.pdf>)**, [faili ya uchapishaji](<./files/OONI Probe Fact Sheet A5 back and front SW.indd>)
+* **[Kanzi data ya OONI Probe](<./files/SW/OONI Probe Fact Sheet A5 back and front SW.pdf>)**, [faili ya uchapishaji](<./files/SW/OONI Probe Fact Sheet A5 back and front SW.indd>)
 
 ## Kanzi data ya OONI Explorer
 
@@ -40,14 +40,14 @@ na kuhimiza kupima kuelekea au wakati wa uchaguzi (wakati [matukio ya udhibiti y
 zaidi duniani katika udhibiti wa mtandao. Kuhumiza utumiaji wa OONI
 Explorer, tumetoa kipeperushi cha OONI Explorer.
 
-* **[Kanzi data ya OONI Explorer](<./files/OONI Explorer Fact Sheet A5 back and front SW.pdf>)**, [faili ya uchapishaji](<./files/OONI Explorer Fact Sheet A5 back and front SW.indd>)
+* **[Kanzi data ya OONI Explorer](<./files/SW/OONI Explorer Fact Sheet A5 back and front SW.pdf>)**, [faili ya uchapishaji](<./files/SW/OONI Explorer Fact Sheet A5 back and front SW.indd>)
 
 ## Kipeperushi cha Udhibiti wa mtandao
 
 Kupitia kipeperushi hiki, tumetoa baadhi ya taarifa muhimu kuhusu
 udhibiti wa mtandao na kwa namna gani udhibiti wa tovuti hufanyika.
 
-* **[Kanzi data ya udhibiti wa mtandao](<./files/Internet Censorship Fact Sheet A4 2F SW.pdf>)**, [faili ya uchapishaji](<./files/Internet Censorship Fact Sheet A4 2F SW.indd>)
+* **[Kanzi data ya udhibiti wa mtandao](<./files/SW/Internet Censorship Fact Sheet A4 2F SW.pdf>)**, [faili ya uchapishaji](<./files/SW/Internet Censorship Fact Sheet A4 2F SW.indd>)
 
 ## Maudhui ya semina za OONI
 
