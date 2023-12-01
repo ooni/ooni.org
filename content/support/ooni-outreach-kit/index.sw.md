@@ -1,8 +1,6 @@
 ---
 title: Seti ya huduma ya OONI
-description: Seti ya huduma ya OONI inajumuisha nyenzo ambazo
-unahamasika kutumia kama sehemu ya juhudi za ushiriki wa jumuiya ya
-OONI.
+description: Seti ya huduma ya OONI inajumuisha nyenzo ambazo unahamasika kutumia kama sehemu ya juhudi za ushiriki wa jumuiya ya OONI.
 ---
 
 {{<img src="images/image1.png" title="OONI Outreach Kit" alt="OONI
