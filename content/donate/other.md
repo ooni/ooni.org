@@ -5,7 +5,7 @@ submenu:
     name: "Donate"
   - url: "https://shop.ooni.org/"
     name: "Shop"
-  - url: "/donate/other"
+  - url: "/donate/other/"
     name: "Other ways to give"
 ---
 
