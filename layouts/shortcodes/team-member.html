@@ -12,7 +12,7 @@
 {{ $img := $.Page.Resources.GetMatch $imgSrc }}
 
 <li>
-    <img class="aspect-[3/2] w-full rounded-2xl object-cover" src="{{ $img.RelPermalink }}"
+    <img class="aspect-square w-full rounded-2xl object-cover" src="{{ $img.RelPermalink }}"
         alt="{{ $name }} from OONI profile picture">
     <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray9">{{ $name }}</h3>
     <p class="text-base leading-7 text-gray6">{{ $role }}</p>
