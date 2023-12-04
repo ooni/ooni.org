@@ -1,13 +1,9 @@
 #!/bin/bash
 
-if [ -z "${BASE_URL}" ]; then
-    BASE_URL="https://ooni.org"
-fi
-
-echo "Using BASE_URL=$BASE_URL"
+echo "Building OONI.org"
 npm install
 mkdir -p public/
-hugo --minify --buildDrafts --baseUrl="$BASE_URL"
+hugo --minify --buildDrafts
 cp static/googlec8ce605468a38232.html public/
 cp static/robots.txt public/
 cp _redirects public/
