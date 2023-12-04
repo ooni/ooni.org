@@ -15,17 +15,17 @@ submenu:
 
 {{<team-member name="Maria Xynou" role="Research & Partnerships Director" email="maria@ooni.org" pgpkey="2DC8AFB6CA11B5521081FBDE2131B3BE70CA417E" twitter="agrabeli_" img="images/maria.jpg">}}
 
-{{<team-member name="Jessie Bonisteel" role="Project Manager" email="jessie@ooni.org" img="images/jessie.jpg">}}
+{{<team-member name="Jessie Bonisteel" role="Project Manager" email="jessie@ooni.org">}}
 
-{{<team-member name="Simone Basso" role="Senior Research Engineer" email="simone@ooni.org" pgpkey="738877AA6C829F26A431C5F480B691277733D95B" twitter="bassosimone" img="images/simone.jpg">}}
+{{<team-member name="Simone Basso" role="Senior Research Engineer" email="simone@ooni.org" pgpkey="738877AA6C829F26A431C5F480B691277733D95B" twitter="bassosimone">}}
 
-{{<team-member name="Norbel Ambanumben" role="Mobile Developer" email="norbel@ooni.org" pgpkey="faf82a0736b1982f0de199efd312778944f4bb11" img="images/norbel.jpg">}}
+{{<team-member name="Norbel Ambanumben" role="Mobile Developer" email="norbel@ooni.org" pgpkey="faf82a0736b1982f0de199efd312778944f4bb11">}}
 
 {{<team-member name="Maja Komel" role="Frontend Engineer" email="maja@ooni.org" pgpkey="A22363F51398A95B593F94C8231F093C7F5D7A45">}}
 
-{{<team-member name="Elizaveta Yachmeneva" role="Community Coordinator" email="elizaveta@ooni.org" pgpkey="0419a8e327f6a7ff3ce5099a5be5b99b31b45a4f" twitter="elyachmeneva" img="images/elizaveta.jpg">}}
+{{<team-member name="Elizaveta Yachmeneva" role="Community Coordinator" email="elizaveta@ooni.org" pgpkey="0419a8e327f6a7ff3ce5099a5be5b99b31b45a4f" twitter="elyachmeneva">}}
 
-{{<team-member name="Roberta Giassetti" role="Finance and Administration Advisor" email="roberta@ooni.org" img="images/roberta.jpg">}}
+{{<team-member name="Roberta Giassetti" role="Finance and Administration Advisor" email="roberta@ooni.org">}}
 
 {{<team-member name="Federico Ceratto" role="Backend Engineer & Data Analyst" email="federico@ooni.org" pgpkey="7CA7DDFB333921408C6F2B966F31BC44F5177DAA">}}
 
