@@ -1,0 +1,8 @@
+{{ $title := .Get "title"}}
+{{ $classExtra := .Get "classExtra"}}
+<div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <h2 class="text-center">{{ $title }}</h2>
+    <div class="mx-auto mt-10 grid {{ $classExtra }} items-center gap-x-8 gap-y-10">
+        {{.Inner}}
+    </div>
+</div>

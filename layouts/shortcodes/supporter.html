@@ -1,0 +1,10 @@
+{{ $img := $.Page.Resources.GetMatch (.Get "img")}}
+{{ $imgHeight := .Get "imgHeight"}}
+
+{{ $name := .Get "name"}}
+{{ $link := .Get "link"}}
+
+<a href="{{ $link }}">
+    <img class="col-span-1 w-full object-contain" src="{{ $img.RelPermalink}}" alt="{{ $name }}"
+        height="{{ $imgHeight }}">
+</a>

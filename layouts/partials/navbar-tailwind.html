@@ -1,0 +1,141 @@
+{{- $url := .RelPermalink -}}
+{{- $urlParts := split .RelPermalink "/" }}
+{{- $currentPathPrefix := index $urlParts 1 | printf "/%s/" }}
+{{- $currentSubMenuName := index $urlParts 2 }}
+<nav class="bg-ooniblue shadow">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 justify-between">
+            <div class="flex">
+                <div class="flex flex-shrink-0 items-center">
+                    <a href="/">
+                        <img src="/images/logos/ooni-horizontal.svg"
+                            alt="Open Observatory of Network Interference (OONI) Logo" class="h-8 w-auto">
+                    </a>
+                </div>
+                <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+                    <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
+                    {{ with .Site.Menus.main }}
+                    {{ range $menu := . }}
+                    {{ $classExtra := "border-transparent" }}
+                    {{ if eq $currentPathPrefix .URL }}
+                    {{ $classExtra = "border-white" }}
+                    {{ end }}
+                    <a href="{{.URL}}"
+                        class="inline-flex items-center border-b-2 {{ $classExtra }} px-1 pt-1 text-sm font-medium text-white  hover:border-white  hover:text-gray2">
+                        {{ .Name }}
+                    </a>
+                    {{end}}
+                    {{end}}
+                </div>
+            </div>
+            <div class="hidden sm:ml-6 sm:flex sm:items-center">
+                {{ with .Site.Menus.install}}
+                {{ range $menu := . }}
+                <a href="{{.URL}}"
+                    class="rounded-md bg-transparent px-3.5 py-2.5 text-sm font-semibold text-white hover:text-ooniblue shadow-sm ring-2 ring-inset ring-white hover:bg-white">{{.Name}}</a>
+                {{end}}
+                {{end}}
+            </div>
+            <div class="mr-2 flex items-center sm:hidden">
+                <!-- Mobile menu button -->
+                <button type="button"
+                    class="relative inline-flex items-center justify-center rounded-md p-2 text-gray4 hover:bg-gray1 hover:text-gray5 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo5"
+                    aria-controls="mobile-menu" id="mobile-menu-btn" aria-expanded="false">
+                    <span class="absolute -inset-0.5"></span>
+                    <span class="sr-only">Open main menu</span>
+                    <!--
+              Icon when menu is closed.
+  
+              Menu open: "hidden", Menu closed: "block"
+            -->
+                    <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                        aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                    <!--
+              Icon when menu is open.
+  
+              Menu open: "block", Menu closed: "hidden"
+            -->
+                    <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                        aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Mobile menu, show/hide based on menu state. -->
+    <div class="sm:hidden hidden" id="mobile-menu">
+        <div class="space-y-1 pb-3 pt-2">
+            {{ with .Site.Menus.main }}
+            {{ range $menu := . }}
+            {{ $classExtra := "border-transparent" }}
+            {{ if eq $currentPathPrefix .URL }}
+            {{ $classExtra = "border-white" }}
+            {{ end }}
+            <a href="{{.URL}}"
+                class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium {{ $classExtra }} text-white hover:border-white  hover:text-gray2">
+                {{ .Name }}
+            </a>
+            {{end}}
+            {{end}}
+        </div>
+        {{ with .Params.submenu }}
+        <div class="bg-gray1">
+            <div class="space-y-1 pb-3 pt-2">
+                {{ range $menu := . }}
+                {{ $classExtra := "border-transparent" }}
+                {{ if eq $url .url }}
+                {{ $classExtra = "border-black" }}
+                {{ end }}
+                <a href="{{.url}}"
+                    class="block border-l-4 py-2 pl-3 pr-4 text-base font-medium {{ $classExtra }} text-black hover:border-black hover:text-gray7">
+                    {{.name}}
+                </a>
+                {{end}}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</nav>
+
+<script type="text/javascript">
+
+    var navbar = document.querySelector("#mobile-menu");
+    var menuBtn = document.querySelector("#mobile-menu-btn");
+    var menuBtnIconList = document.querySelectorAll("#mobile-menu-btn svg");
+
+    menuBtn.addEventListener('click', function handleClick(event) {
+        console.log("Got click")
+        console.log(navbar)
+        navbar.classList.toggle('hidden');
+        menuBtnIconList.forEach(function (el) {
+            el.classList.toggle('hidden');
+        })
+    });
+
+</script>
+
+{{ with .Params.submenu }}
+<div class="bg-gray1">
+    <div class="hidden sm:block">
+        <div class="border-b border-gray-200">
+            <nav class="-mb-px flex space-x-8  mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Tabs">
+                <!-- Current: "border-indigo-500 text-indigo-600", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
+                {{ range $menu := . }}
+                {{ $classExtra := "border-transparent" }}
+                {{ if eq $url .url }}
+                {{ $classExtra = "border-black" }}
+                {{ end }}
+                <a href="{{.url}}"
+                    class="{{ $classExtra }} text-black hover:border-black hover:text-gray7 whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium">
+                    {{.name}}
+                </a>
+                {{end}}
+            </nav>
+        </div>
+    </div>
+</div>
+{{ end }}

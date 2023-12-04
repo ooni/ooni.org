@@ -1,27 +1,56 @@
+{{ define "css" }}
+
+{{ partial "css-tailwind.html" . }}
+
+{{ end }}
+
+{{ define "navbar" }}
+{{ partial "navbar-tailwind.html" . }}
+{{ end }}
+
 {{ define "main" }}
-
-<div class="donate-page">
-      <div class="banner col-12">
-        <div class="h1-container">
-            <h1>{{ .Params.Maintext }}</h1>
+<div class="bg-gray3 py-24 sm:py-32">
+  <div class="relative isolate">
+    <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div
+        class="mx-auto flex max-w-2xl flex-col gap-16 bg-gray0 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
+        <div class="w-[420px] h-[950px]">
+          <script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe height="900px" width="420px"
+            src="https://donorbox.org/embed/open-observatory-of-network-interference-ooni" name="donorbox"
+            allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0"
+            scrolling="no"></iframe>
         </div>
-      </div>
 
-   <div class="container">
-     <div class="row">
-     <div class="col-6" style="margin: 0 auto">
-     <script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe src="https://donorbox.org/embed/open-observatory-of-network-interference-ooni" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important"></iframe>
-     </div>
-     </div>
-
-      <div class="row">
-      <div class="col-12 details">
-        {{ .Content }}
+        <div class="w-full flex-auto">
+          <h2 class="text-3xl font-bold tracking-tight text-black sm:text-4xl">Donate now to support internet freedom</h2>
+          <p class="mt-6 text-lg leading-8 text-gray8">
+            As a non-profit, we rely on donations from people like you to defend a free and open internet for all.
+          </p>
+          {{ partial "ooni-work.html" . }}
+          <div class="mt-10 grid grid-cols-1 gap-x-8 gap-y-3 sm:grid-cols-2">
+            <div class="flex gap-x-3">
+              <a href="/about/supporters" class="text-sm font-semibold leading-6 text-ooniblue hover:text-blue4">Supporters &
+                Funders<span
+                aria-hidden="true">&rarr;</span></a>
+            </div>
+            <div class="flex gap-x-3">
+              <a href="/donate/other" class="text-sm font-semibold leading-6 text-ooniblue hover:text-blue4">More ways to give<span
+                aria-hidden="true">&rarr;</span></a>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+    <div class="absolute inset-x-0 -top-16 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl"
+      aria-hidden="true">
+      <div class="aspect-[1318/752] w-[82.375rem] flex-none bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-25"
+        style="clip-path: polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)">
       </div>
-      </div>
-  </div>
+    </div>
+    </div>
 </div>
+{{ end }}
 
-</div>
-
+{{ define "footer" }}
+{{ partial "footer-tailwind.html" . }}
 {{ end }}

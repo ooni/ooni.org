@@ -1,0 +1,19 @@
+{{ $bootstrapReboot := resources.Get "css/bootstrap/bootstrap-reboot.css" }}
+{{ $bootstrapGrid := resources.Get "css/bootstrap/bootstrap-grid.css" }}
+{{ $bootstrapCss := slice $bootstrapReboot $bootstrapGrid | resources.Concat "css/bootstrap.css" | resources.Minify |
+resources.Fingerprint }}
+
+<link rel="stylesheet" type="text/css" href="{{ $bootstrapCss.Permalink }}">
+
+{{ $fonts := resources.Get "css/fonts.css" }}
+{{ $master := resources.Get "css/master.css" }}
+{{ $indexCss := slice $fonts $master | resources.Concat "css/index.css" | resources.Minify | resources.Fingerprint }}
+
+<link rel="stylesheet" type="text/css" href="{{ $indexCss.Permalink }}" />
+
+{{ $rtl := resources.Get "css/rtl.css"}}
+{{ $rtlCss := $rtl | resources.Minify | resources.Fingerprint }}
+
+{{ if in "ar fa" .Lang }}
+<link rel="stylesheet" type="text/css" href="{{ $rtlCss.Permalink }}">
+{{ end }}

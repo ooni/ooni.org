@@ -1,6 +1,26 @@
+{{ define "css" }}
+
+{{ partial "css-tailwind.html" . }}
+
+{{ end }}
+
+{{ define "navbar" }}
+{{ partial "navbar-tailwind.html" . }}
+{{ end }}
+
 {{ define "main" }}
-<div class="container mb-4">
-  <h1>{{.Title }}</h1>
-  {{ .Content }}
-</div>
+<div class="bg-white px-6 py-6 lg:px-8">
+  <div
+    class="mx-auto max-w-4xl text-base leading-7 text-gray7 prose prose-slate hover:prose-a:text-ooniblue lg:prose-lg">
+    {{ if .Title }}
+    <h1>{{ .Title }}</h1>
+    {{ end }}
+
+    {{ .Content }}
+  </div>
+  </div>
+{{ end }}
+
+{{ define "footer" }}
+{{ partial "footer-tailwind.html" . }}
 {{ end }}

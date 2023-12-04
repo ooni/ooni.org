@@ -84,3 +84,18 @@ maxAge = "10s"
 [[menu.install]]
   name = "Install OONI Probe"
   url = "/install/"
+
+[[menu.about]]
+  url = "/about/"
+  name = "About"
+  weight = 1
+
+[[menu.about]]
+  url = "/about/team/"
+  name = "Team"
+  weight = 2
+
+[[menu.about]]
+  url = "/about/supporters/"
+  name = "Supporters & Funders"
+  weight = 3
