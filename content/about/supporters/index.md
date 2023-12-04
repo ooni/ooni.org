@@ -1,5 +1,12 @@
 ---
 title: Supporters & Funders
+submenu:
+  - url: "/about/"
+    name: "About"
+  - url: "/about/team/"
+    name: "Team"
+  - url: "/about/supporters/"
+    name: "Supporters & Funders"
 ---
 
 Supporters are organisations or individuals who believe in [OONI's mission](https://ooni.org/about/) and have made significant in-kind donations to OONI in the last year. If you would like to become an OONI supporter, please reach out to us at
@@ -33,7 +40,6 @@ Below we share a [list of current and past OONI funders](#funders).
 
 {{< supporter img="images/VPNCompare.svg" name="VPN Compare" link="https://www.vpncompare.co.uk/" imgHeight="40px" >}}
 
-
 {{< /supporter-section >}}
 
 {{< supporter-section title="Starfish Supporters" classExtra="grid-cols-6" >}}
@@ -55,14 +61,14 @@ evading predators.
 
 #### Requirement
 
-* Donate more than 50’000 EUR/USD per year
+- Donate more than 50’000 EUR/USD per year
 
 #### Benefits
 
-* Featured on our website with a large logo and a link back to your site
-* Mention of support in our monthly progress reports
-* Mention of support on our social media channels
-* Opportunity to engage with OONI leadership to discuss organizational strategy
+- Featured on our website with a large logo and a link back to your site
+- Mention of support in our monthly progress reports
+- Mention of support on our social media channels
+- Opportunity to engage with OONI leadership to discuss organizational strategy
 
 ### Dolphin
 
@@ -71,13 +77,13 @@ supporting them to the surface so they can breathe.
 
 #### Requirement
 
-* Donate between 10’000 - 50’000 EUR/USD per year
+- Donate between 10’000 - 50’000 EUR/USD per year
 
 #### Benefits
 
-* Featured on our website with a medium-size logo and a link back to your site
-* Mention of support in our monthly progress reports
-* Mention of support on our social media channels
+- Featured on our website with a medium-size logo and a link back to your site
+- Mention of support in our monthly progress reports
+- Mention of support on our social media channels
 
 ### Seahorse
 
@@ -87,24 +93,24 @@ separating for the day.
 
 #### Requirement
 
-* Donate between 1’000 - 10’000 EUR/USD per year
+- Donate between 1’000 - 10’000 EUR/USD per year
 
 #### Benefits
 
-* Featured on our website with a small logo and a link back to your site
-* Mention of support in our monthly progress reports
+- Featured on our website with a small logo and a link back to your site
+- Mention of support in our monthly progress reports
 
 ### Starfish
 
-Starfish, or sea stars, are known for their fascinating ability to regenerate lost arms. 
+Starfish, or sea stars, are known for their fascinating ability to regenerate lost arms.
 
 #### Requirement
 
-* Donate 50+ EUR per month
+- Donate 50+ EUR per month
 
 #### Benefit
 
-* Listed as a supporter on our website (optional)
+- Listed as a supporter on our website (optional)
 
 # Funders
 
@@ -112,17 +118,17 @@ Our work would not be possible without the support of our funders. Below we shar
 
 ### Current Funders
 
-* [Bureau of Democracy, Human Rights, and Labor (DRL)](https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-democracy-human-rights-and-labor/)
-* [Ford Foundation](https://www.fordfoundation.org/)
-* [Mozilla Foundation](https://foundation.mozilla.org/)
+- [Bureau of Democracy, Human Rights, and Labor (DRL)](https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-democracy-human-rights-and-labor/)
+- [Ford Foundation](https://www.fordfoundation.org/)
+- [Mozilla Foundation](https://foundation.mozilla.org/)
 
 ### Past Funders
 
-* [Berkman Klein Center for Internet & Society at Harvard University](https://cyber.harvard.edu/)
-* [German Federal Foreign Ministry](https://www.auswaertiges-amt.de/)
-* [Internet Society (ISOC)](https://www.internetsociety.org/)
-* [Internews](https://internews.org/)
-* [Media Democracy Fund (MDF)](https://mediademocracyfund.org/)
-* [National Science Foundation (NSF)](https://www.nsf.gov/)
-* [Open Technology Fund (OTF)](https://www.opentech.fund/)
-* [Small Media](https://smallmedia.org.uk/)
+- [Berkman Klein Center for Internet & Society at Harvard University](https://cyber.harvard.edu/)
+- [German Federal Foreign Ministry](https://www.auswaertiges-amt.de/)
+- [Internet Society (ISOC)](https://www.internetsociety.org/)
+- [Internews](https://internews.org/)
+- [Media Democracy Fund (MDF)](https://mediademocracyfund.org/)
+- [National Science Foundation (NSF)](https://www.nsf.gov/)
+- [Open Technology Fund (OTF)](https://www.opentech.fund/)
+- [Small Media](https://smallmedia.org.uk/)

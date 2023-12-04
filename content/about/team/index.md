@@ -1,5 +1,12 @@
 ---
 title: OONI Team
+submenu:
+  - url: "/about/"
+    name: "About"
+  - url: "/about/team/"
+    name: "Team"
+  - url: "/about/supporters/"
+    name: "Supporters & Funders"
 ---
 
 {{<team-listing>}}

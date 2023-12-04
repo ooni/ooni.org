@@ -82,20 +82,18 @@
             {{end}}
             {{end}}
         </div>
-        {{ if eq $currentPathPrefix "/about/" }}
+        {{ with .Params.submenu }}
         <div class="bg-gray1">
             <div class="space-y-1 pb-3 pt-2">
-                {{ with .Site.Menus.about }}
                 {{ range $menu := . }}
                 {{ $classExtra := "border-transparent" }}
-                {{ if eq $url .URL }}
+                {{ if eq $url .url }}
                 {{ $classExtra = "border-black" }}
                 {{ end }}
-                <a href="{{.URL}}"
+                <a href="{{.url}}"
                     class="block border-l-4 py-2 pl-3 pr-4 text-base font-medium {{ $classExtra }} text-black hover:border-black hover:text-gray7">
-                    {{.Name}}
+                    {{.name}}
                 </a>
-                {{end}}
                 {{end}}
             </div>
         </div>
@@ -120,23 +118,21 @@
 
 </script>
 
-{{ if eq $currentPathPrefix "/about/" }}
+{{ with .Params.submenu }}
 <div class="bg-gray1">
     <div class="hidden sm:block">
         <div class="border-b border-gray-200">
             <nav class="-mb-px flex space-x-8  mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Tabs">
                 <!-- Current: "border-indigo-500 text-indigo-600", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-                {{ with .Site.Menus.about }}
                 {{ range $menu := . }}
                 {{ $classExtra := "border-transparent" }}
-                {{ if eq $url .URL }}
+                {{ if eq $url .url }}
                 {{ $classExtra = "border-black" }}
                 {{ end }}
-                <a href="{{.URL}}"
+                <a href="{{.url}}"
                     class="{{ $classExtra }} text-black hover:border-black hover:text-gray7 whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium">
-                    {{.Name}}
+                    {{.name}}
                 </a>
-                {{end}}
                 {{end}}
             </nav>
         </div>
