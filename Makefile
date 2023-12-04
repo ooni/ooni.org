@@ -1,7 +1,7 @@
 build:
 	hugo
 server:
-	hugo server --buildDrafts --buildFuture
+	hugo server --baseUrl=http://127.0.0.1:1313 --buildDrafts --buildFuture
 
 dev:
-	hugo server --buildDrafts --buildFuture --disableFastRender
+	hugo server --baseUrl=http://127.0.0.1:1313 --buildDrafts --buildFuture --disableFastRender
