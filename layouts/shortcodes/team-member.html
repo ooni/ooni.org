@@ -6,7 +6,7 @@
 
 {{ $imgSrc := "images/placeholder.png" }}
 {{ with (.Get "img") }}
-{{ $imgSrc := . }}
+{{ $imgSrc = . }}
 {{ end }}
 
 {{ $img := $.Page.Resources.GetMatch $imgSrc }}
