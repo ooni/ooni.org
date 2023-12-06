@@ -119,7 +119,6 @@ Our work would not be possible without the support of our funders. Below we shar
 ### Current Funders
 
 - [Bureau of Democracy, Human Rights, and Labor (DRL)](https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-democracy-human-rights-and-labor/)
-- [Ford Foundation](https://www.fordfoundation.org/)
 - [Mozilla Foundation](https://foundation.mozilla.org/)
 
 ### Past Funders
