@@ -59,15 +59,12 @@ description: Tလူထု/အဖွဲ့အစည်းမှ ကျွန်�
     * [ကျွန်တော်/ကျွန်မသည် စမ်းသပ်ရမည့် ဝဘ်ဆိုက်အမျိုးအစားများကို ဘယ်လိုရွေးချယ်နိုင်ပါသလဲ။](#how-can-i-choose-which-types-of-websites-to-test)
     * [ကျွန်တော်/ကျွန်မသည် စမ်းသပ်ရမည့်ဝဘ်ဆိုက်များကို ဘယ်လို ရွေးချယ်နိုင်ပါသလဲ။](#how-can-i-choose-which-websites-to-test)
     * [ကျွန်တော်/ကျွန်မသည် စိတ်ကြိုက်ရွေးချယ်ထားသည့်  URL စာရင်းကို ဘယ်လို စမ်းသပ်နိုင်ပါသလဲ။](#how-can-i-test-a-custom-list-of-urls)
-
-  
 * [OONI အချက်အလက်များ](#what-is-ooni-data)
-
     * [OONI အချက်အလက်များ ဆိုတာ ဘာလဲ](#what-is-ooni-data)
     * [OONI သည် အချက်အလက်များကို ဘာကြောင့် ထုတ်ပြန်ရတာပါလဲ။](#why-does-ooni-publish-data)
     * [OONI အချက်အလက်များကို ဘယ်နေရာမှာ ထုတ်ပြန်ပါသလဲ။](#where-does-ooni-publish-data)
     * [ကျွန်တော်/ကျွန်မသည် OONI အချက်အလက်များကို ဘယ်လိုအဓိပ္ပာယ်ကောက်ယူနိုင်ပါသလဲ။](#how-can-i-interpret-ooni-data)
-    * [ကျွန်တော်/ကျွန်မသည် OONI အချက်အလက်များကို ဘယ်လိုရယူ၍ ဆန်းစစ်နိုင်ပါသလဲ။](#how-can-i-fetch-and-analyse-ooni-data
+    * [ကျွန်တော်/ကျွန်မသည် OONI အချက်အလက်များကို ဘယ်လိုရယူ၍ ဆန်းစစ်နိုင်ပါသလဲ။](#how-can-i-fetch-and-analyse-ooni-data)
     * [OONI Explorer](#ooni-explorer)
     * [OONI Explorer ဆိုတာဘာလဲ။](#what-is-ooni-explorer)
     * [ကျွန်တော်/ကျွန်မသည် ပိတ်ဆို့ခံထားရတဲ့ ဝဘ်ဆိုက်များကို OONI Explorer မှတစ်ဆင့် ဘယ်လိုရှာဖွေနိုင်ပါမည်လဲ။](#how-can-i-find-blocked-websites-via-ooni-explorer)
