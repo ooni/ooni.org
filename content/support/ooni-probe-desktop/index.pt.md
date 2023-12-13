@@ -38,7 +38,7 @@ Com o aplicativo OONI Probe (disponível para as plataformas [mobile](https://oo
 * Bloqueio de aplicativos de mensagens instantâneas ([WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/), [Signal](https://ooni.org/nettest/signal));
 * Bloqueio de ferramentas de evasão ([Tor](https://ooni.org/nettest/tor/), [Tor Snowflake](https://ooni.org/nettest/tor-snowflake/), [Psiphon](https://ooni.org/nettest/psiphon/));
 * Presença de sistemas ([middleboxes](https://ooni.org/nettest/http-header-field-manipulation/)) em sua rede que possam ser responsáveis por censura e/ou vigilância;
-* [Velocidade e desempenho] (https://ooni.org/nettest/ndt/) da sua rede e [desempenho do seu streaming de vídeo](https://ooni.org/nettest/dash/).
+* [Velocidade e desempenho](https://ooni.org/nettest/ndt/) da sua rede e [desempenho do seu streaming de vídeo](https://ooni.org/nettest/dash/).
 
 Assim que você executa o OONI Probe, os resultados do teste são enviados automaticamente para os servidores OONI, [processado](https://github.com/ooni/pipeline) e [publicado abertamente](https://ooni.org/data/) quase em tempo real (a menos que você opte por não publicar os resultados do teste).
 
@@ -181,7 +181,7 @@ O **Dashboard** do aplicativo de desktop OONI Probe inclui 5 cartões, cada um d
 * **Cartão de sites.** Inclui o [teste de conectividade da Web](https://ooni.org/nettest/web-connectivity/) da OONI, que mede o [bloqueio de sites](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe).
 * **Cartão de mensagens instantâneas.** Inclui os testes [WhatsApp](https://ooni.org/nettest/whatsapp/), [Facebook Messenger](https://ooni.org/nettest/facebook-messenger/), [Telegram](https://ooni.org/nettest/telegram/) e [Signal](https://ooni.org/nettest/signal) da OONI, que verificam se esses aplicativos estão bloqueados.
 * **Cartão de evasão.** Inclui o [Tor](https://ooni.org/nettest/tor/) e o [Psiphon](https://ooni.org/nettest/psiphon/) da OONI, que verificam se essas ferramentas de evasão de censura estão bloqueadas.
-* **Placa de desempenho.** Inclui o [teste de velocidade NDT](https://ooni.org/nettest/ndt/), o [teste de desempenho de streaming de vídeo DASH](https://ooni.org/nettest/dash/) e os testes [middlebox](https://ooni.org/support/glossary/#middlebox) da OONI (teste [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) e [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/).
+* **Placa de desempenho.** Inclui o [teste de velocidade NDT](https://ooni.org/nettest/ndt/), o [teste de desempenho de streaming de vídeo DASH](https://ooni.org/nettest/dash/) e os testes [middlebox](https://ooni.org/support/glossary/#middlebox) da OONI (teste [HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) e [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/)).
 * **Cartão experimental.** Inclui vários novos testes experimentais desenvolvidos pela equipe OONI. Esses testes podem mudar com o tempo. Você pode ver esses testes [aqui](https://github.com/ooni/spec/tree/master/nettests).
 
 **Passo 1.** Clique em **Executar** para executar seus primeiros testes de teste OONI.
