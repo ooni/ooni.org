@@ -6,6 +6,8 @@ description: "Este guia do usuário fornece instruções passo a passo sobre com
 
 **OONI Probe Versão Desktop:** 3.7.0
 
+Este documento foi traduzido por Cauan Henrique Zorzenon da Localization Lab Community.
+
 {{<img src="images/install-desktop.png" title="Install OONI Probe Desktop" alt="Install OONI Probe Desktop">}}
 
 OONI Probe é um aplicativo [gratuito e de código aberto](https://github.com/ooni/probe) que você pode usar para medir a censura na internet e outras formas de interferência na rede. Este guia do usuário fornece **instruções passo a passo** sobre como instalar, executar e personalizar o uso do [aplicativo de desktop OONI Probe](https://ooni.org/install/desktop). 
