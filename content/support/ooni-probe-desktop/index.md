@@ -6,7 +6,7 @@ description: "This user guide provides step-by-step instructions on how to use t
 
 **OONI Probe Desktop version:** 3.7.0
 
-**Access the OONI Probe Desktop user guide in other languages:** [فارسی](/fa/support/ooni-probe-desktop), [Русский](/ru/support/ooni-probe-desktop), [Deutsch](/de/support/ooni-probe-desktop), [Türkçe](/tr/support/ooni-probe-desktop), [Tiếng Việt](/vi/support/ooni-probe-desktop)
+**Access the OONI Probe Desktop user guide in other languages:** [فارسی](/fa/support/ooni-probe-desktop), [Русский](/ru/support/ooni-probe-desktop), [Deutsch](/de/support/ooni-probe-desktop), [Türkçe](/tr/support/ooni-probe-desktop), [Tiếng Việt](/vi/support/ooni-probe-desktop), [Português](/pt/support/ooni-probe-desktop)
 
 {{<img src="images/install-desktop.png" title="Install OONI Probe Desktop" alt="Install OONI Probe Desktop">}}
 
