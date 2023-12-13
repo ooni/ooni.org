@@ -433,7 +433,7 @@ Agora você verá uma tela onde você pode adicionar o(s) site(s) que deseja tes
 
 {{<img src="images/choose-websites-screen.png" title="Choose websites screen" alt="Choose websites screen">}}
 
-**Passo 3.** **Digite a URL** do site que você deseja testar. No exemplo a seguir, digitamos 'https://www.facebook.com/'. 
+**Passo 3.** **Digite a URL** do site que você deseja testar. No exemplo a seguir, digitamos `https://www.facebook.com/`. 
 
 {{<img src="images/test-facebook.com.png" title="Add facebook" alt="Add facebook">}}
 
@@ -448,13 +448,13 @@ Para garantir que um [URL](https://ooni.org/support/glossary/#url) seja digitado
 
 **Passo 4.** Clique em **Adicionar site** para criar uma nova linha para adicionar outro site para teste.
 
-**Passo 5.** **Digite outro URL** que você gostaria de testar. No exemplo a seguir, adicionamos 'https://twitter.com/'. 
+**Passo 5.** **Digite outro URL** que você gostaria de testar. No exemplo a seguir, adicionamos `https://twitter.com/`. 
 
 {{<img src="images/add-twitter.com.png" title="Add twitter" alt="Add twitter">}}
 
 Se você mudar de ideia e quiser remover qualquer um dos URLs que você adicionou, você pode fazê-lo clicando no ícone vermelho ao lado de cada URL.
 
-Você pode continuar a adicionar quantos URLs quiser. No exemplo a seguir, adicionamos 'https://www.gutenberg.org/'. 
+Você pode continuar a adicionar quantos URLs quiser. No exemplo a seguir, adicionamos `https://www.gutenberg.org/`. 
 
 {{<img src="images/add-gutenberg.png" title="Add gutenberg" alt="Add gutenberg">}}
 
@@ -548,13 +548,13 @@ No cabeçalho superior, compartilhamos uma visão geral dos resultados dos teste
 
 Agora você tem acesso aos dados referentes ao teste de um site específico. 
 
-A página de medição acima refere-se ao teste de 'https://www.facebook.com/'. Através desta página de medição, podemos ver que 'https://www.facebook.com/' foi encontrado acessível quando testado na Magticom Ltd. (AS16010) em 3 de agosto de 2022 às 13:58 no horário local. 
+A página de medição acima refere-se ao teste de `https://www.facebook.com/`. Através desta página de medição, podemos ver que `https://www.facebook.com/` foi encontrado acessível quando testado na Magticom Ltd. (AS16010) em 3 de agosto de 2022 às 13:58 no horário local. 
 
 Se um site fosse encontrado (potencialmente) bloqueado, sua página de medição incluiria um cabeçalho laranja com um ponto de exclamação, conforme ilustrado abaixo.
 
 {{<img src="images/gutenberg-measurement-page.png" title="Gutenberg measurement" alt="Gutenberg measurement">}}
 
-Neste caso, podemos ver que 'https://www.gutenberg.org' apresentou sinais de bloqueio ("[anomalia](https://ooni.org/support/glossary/#network-anomaly)") quando testado no Vodafone Italia (AS30722) em 30 de março de 2021 às 15:13 hora local. Em particular, podemos ver que ele apresentava sinais de [violação de DNS](https://ooni.org/support/glossary/#dns-tampering) (com base na heurística do [OONI Web Connectivity test](https://ooni.org/nettest/web-connectivity/)). Isto significa que a Vodafone Italia pode ter bloqueado o acesso ao 'https://www.gutenberg.org' (em 30 de março de 2021) através de DNS. 
+Neste caso, podemos ver que `https://www.gutenberg.org` apresentou sinais de bloqueio ("[anomalia](https://ooni.org/support/glossary/#network-anomaly)") quando testado no Vodafone Italia (AS30722) em 30 de março de 2021 às 15:13 hora local. Em particular, podemos ver que ele apresentava sinais de [violação de DNS](https://ooni.org/support/glossary/#dns-tampering) (com base na heurística do [OONI Web Connectivity test](https://ooni.org/nettest/web-connectivity/)). Isto significa que a Vodafone Italia pode ter bloqueado o acesso ao `https://www.gutenberg.org` (em 30 de março de 2021) através de DNS. 
 
 Como [falsos positivos](https://ooni.org/support/glossary/#false-positive) podem ocorrer, anotamos resultados de testes que não atenderam a todos os critérios do nosso [Teste de conectividade da Web](https://ooni.org/nettest/web-connectivity/) como "[anomalias](https://ooni.org/support/faq/#how-can-i-interpret-ooni-data)" (em vez de "confirmado bloqueado"), indicando que o site testado *pode* ser bloqueado. 
 
@@ -719,7 +719,7 @@ Nas seções a seguir, mergulhamos em cada recurso.
 
 Cada resultado do teste OONI Probe fornece uma visão geral dos resultados. Os dados reais (ou seja, os dados brutos de medição) nos quais cada resultado de teste se baseia estão disponíveis através do botão **Dados** em cada tela de resultado do teste. 
 
-Em outras palavras, se você testou 'https://www.facebook.com', a página de resultados do teste fornecerá uma visão geral da descoberta (por exemplo: Acessível), mas os dados de medição de rede fornecerão os detalhes do teste. Por exemplo, se o site não estivesse acessível, ele mostraria como e por que o site pode ser bloqueado. 
+Em outras palavras, se você testou `https://www.facebook.com`, a página de resultados do teste fornecerá uma visão geral da descoberta (por exemplo: Acessível), mas os dados de medição de rede fornecerão os detalhes do teste. Por exemplo, se o site não estivesse acessível, ele mostraria como e por que o site pode ser bloqueado. 
 
 É útil acessar os dados brutos de medição porque:
 
@@ -772,7 +772,7 @@ Nas seções a seguir, orientamos você em cada configuração.
 
 ### Idioma
 
-Graças ao apoio do [Laboratório de Localização] (https://www.localizationlab.org/) comunidade, os aplicativos OONI Probe estão disponíveis em vários idiomas. 
+Graças ao apoio do [Laboratório de Localização](https://www.localizationlab.org/) comunidade, os aplicativos OONI Probe estão disponíveis em vários idiomas. 
 
 Você pode alterar o idioma do seu aplicativo de desktop OONI Probe por meio das seguintes etapas:
 
