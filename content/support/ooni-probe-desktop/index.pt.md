@@ -6,7 +6,7 @@ description: "Este guia do usuário fornece instruções passo a passo sobre com
 
 **OONI Probe Versão Desktop:** 3.7.0
 
-Este documento foi traduzido por Cauan Henrique Zorzenon da Localization Lab Community.
+Este documento foi traduzido por [Cauan Henrique Zorzenon](https://x.com/cauan_zorzenon) da Localization Lab Community.
 
 {{<img src="images/install-desktop.png" title="Install OONI Probe Desktop" alt="Install OONI Probe Desktop">}}
 
