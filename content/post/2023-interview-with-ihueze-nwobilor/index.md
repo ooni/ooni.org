@@ -1,6 +1,6 @@
 ---
 title: "OONI Community Interviews: Ihueze Nwobilor"
-author: "Elizaveta Yachmeneva, Maria Xynou"
+author: "Elizaveta Yachmeneva"
 date: "2023-12-14"
 tags: ["community", "interview"]
 categories: ["blog"]
