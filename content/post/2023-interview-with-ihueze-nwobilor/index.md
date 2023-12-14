@@ -24,4 +24,4 @@ Notably, Paradigm Initiative hosts the **annual** **[Digital Rights and Inclusio
 
 If you want to learn more about Paradigm Initative’s work, please check out their podcast and documentaries published on their [YouTube](https://www.youtube.com/@ParadigmHQ/playlists) channel. 
 
-Meanwhile, we’ll be publishing more interviews with community members over the next months. [Subscribe to our YouTube channel](https://www.youtube.com/channel/UCQhDgj9wBf4_w5bWFvLlq-w?sub_confirmation=1) to stay tuned!
+Meanwhile, we’ll be publishing more interviews with community members over the next months. [Subscribe to our YouTube channel](https://www.youtube.com/channel/UCQhDgj9wBf4_w5bWFvLlq-w?sub_confirmation=1) to stay tuned! 
