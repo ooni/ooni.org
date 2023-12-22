@@ -7,4 +7,3 @@ RUN sh /hugo/scripts/build_website.sh
 FROM nginx:1.25-alpine
 COPY ./nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /hugo/public /usr/share/nginx/html
-EXPOSE 80/tcp
