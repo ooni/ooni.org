@@ -1,0 +1,7 @@
+providers = ['staticfile', 'node']
+
+[phases.setup]
+nixPkgs = ['...', 'hugo']
+
+[phases.build]
+cmds = ['./scripts/build_website.sh']
