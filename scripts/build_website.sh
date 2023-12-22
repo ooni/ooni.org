@@ -12,4 +12,14 @@ cp static/googlec8ce605468a38232.html public/
 cp static/robots.txt public/
 cp _redirects public/
 touch public/.nojekyll
-git show HEAD -q '--format=# HELP ooni_web_mtime UNIX Time of the commit used to build website.%n# TYPE ooni_web_mtime gauge%nooni_web_mtime %ct' > public/_web.mtime.txt
+
+MTIME="0000000000000000"
+if [ -n "$RAILWAY_GIT_COMMIT_SHA" ];then
+  ts=$(curl -s 'https://api.github.com/repos/ooni/ooni.org/commits/cf4b81cae5f1ca6eebef661e75d69aa3eb356d4d' | jq -r '.commit.author.date' )
+  MTIME=$(date -d $ts +%s)
+else
+  MTIME=$(git show HEAD -q '--format=%ct')
+fi
+echo "# HELP ooni_web_mtime UNIX Time of the commit used to build website." > public/_web.mtime.txt
+echo "# TYPE ooni_web_mtime gauge" >> public/_web.mtime.txt
+echo "ooni_web_mtime $MTIME" >> public/_web.mtime.txt
