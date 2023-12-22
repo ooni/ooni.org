@@ -1,9 +1,9 @@
 ---
 title: "Year in Review: OONI in 2023"
-description: ""
+description: "This post shares OONI highlights from 2023, as well as upcoming OONI projects for 2024."
 author: "Maria Xynou"
 date: "2023-12-22"
-tags: []
+tags: ["ooni", "2023", "year-in-review"]
 categories: ["blog"]
 ---
 
@@ -386,10 +386,8 @@ Throughout 2023, we presented OONI as part of the following conferences, events,
 *   **OONI training in Tbilisi for media managers from Turkey.** On 5th October 2023, we facilitated a workshop on OONI tools as part of a training organized by [Internews](https://internews.org/) for Turkish media managers.
 *   **OONI training in Thailand for participants from South Asia.** Between 2nd-4th October 2023, we co-facilitated a 3-day training programme in Thailand in collaboration with [IODA](https://ioda.inetintel.cc.gatech.edu/). This was an [OPTIMA](https://internews.org/areas-of-expertise/global-tech/what-we-do/digital-rights/defending-the-internet-with-data/) training programme for human rights defenders from South Asia, designed to share skills and knowledge around measuring internet shutdowns.
 *   **Forum on Internet Freedom in Africa (FIFAfrica) 2023 (Tanzania).** Between 26th September to 2nd October 2023, we traveled to Tanzania to participate in the [Forum on Internet Freedom in Africa (FIFAfrica) 2023](https://internetfreedom.africa/) conference (one of the largest annual digital rights conferences in Africa). On 26th September 2023, we facilitated a session (“Measuring Internet censorship with OONI tools and data”) as part of the [Internet Shutdowns Academy](https://twitter.com/uproar_fyi/status/1706972250157539551) FIFAfrica 2023, and we facilitated an OONI workshop as part of the [Tor Training Academy](https://twitter.com/zaituni_njovu/status/1706742476596236331). As part of our participation at the main [FIFAfrica 2023 conference](https://internetfreedom.africa/), we facilitated the following 2 sessions:
-
-*   [Using OONI Run to coordinate the testing of website censorship](https://whova.com/embedded/session/rWwmoMGALzfjDBkAPdWzA1K4LxMjt38D6BmWiph4wK4%3D/3354905/) (28th September 2023)
-*   [Measure All The Things! Using Open Data to Investigate Internet Shutdowns, A Primer on Network Interference Research](https://whova.com/embedded/session/rWwmoMGALzfjDBkAPdWzA1K4LxMjt38D6BmWiph4wK4%3D/3354916/) (29th September 2023)
-
+  *   [Using OONI Run to coordinate the testing of website censorship](https://whova.com/embedded/session/rWwmoMGALzfjDBkAPdWzA1K4LxMjt38D6BmWiph4wK4%3D/3354905/) (28th September 2023)
+  *   [Measure All The Things! Using Open Data to Investigate Internet Shutdowns, A Primer on Network Interference Research](https://whova.com/embedded/session/rWwmoMGALzfjDBkAPdWzA1K4LxMjt38D6BmWiph4wK4%3D/3354916/) (29th September 2023)
 *   **Advocacy Assembly Internet Shutdown Mentored Training Program.** On 21st September 2023, we facilitated an OONI session for the participants of the [Advocacy Assembly Internet Shutdown Mentored Training Program](https://advocacyassembly.org/en/news/236). 
 *   **Global Gathering 2023 (Portugal).** Between 15th-17th September 2023, we traveled to Portugal to attend Team CommUNITY’s [Global Gathering](https://wiki.digitalrights.community/index.php?title=Global_Gathering) event. We participated in the 3-day Summit (during which we collected community feedback on our upcoming Censorship Alert System) and we hosted an OONI booth for outreach purposes.
 *   **MAT live demo as part of OCF’s Internet Freedom Meetup webinar.** On 23rd August 2023, we provided a live demo on how to use OONI’s [Measurement Aggregation Toolkit (MAT)](https://explorer.ooni.org/chart/mat) as part of the Open Culture Foundation’s (OCF) monthly [Internet Freedom Meetup webinar](https://ocf.tw/en/p/issues/coffeeandcircumventionen) for civil society in Taiwan.
@@ -401,13 +399,11 @@ Throughout 2023, we presented OONI as part of the following conferences, events,
 *   **OONI webinar for civil society in Sierra Leone.** On 22nd June 2023, we presented OONI’s tools and methods to civil society groups in Sierra Leone as part of Paradigm Initiative’s “Defend, Connect, Report: Navigating Internet Censorship and Defending Digital Rights in Sierra Leone’s Election” [webinar](https://twitter.com/ParadigmHQ/status/1671091608840990722) in preparation for Sierra Leone’s 2023 elections.
 *   **OONI workshop for journalists and civil society in Sierra Leone.** On 21st June 2023, we facilitated an online OONI workshop for journalists and civil society organizations in Sierra Leone as part of the hybrid [Stakeholders Dialogue on Internet Shutdowns event](https://www.youtube.com/watch?v=ho1wTgvIE-M) organized by [Access Now](https://www.accessnow.org/) and our Sierra Leone partner, [CHRDI](https://ooni.org/partners/chrdi/), ahead of Sierra Leone’s 2023 elections.
 *   **RightsCon 2023 (Costa Rica).** As part of our participation at [RightsCon 2023](https://www.rightscon.org/) in Costa Rica, we co-facilitated/spoke at the following sessions:
-
-*   Session: “KeepItOn in 2022: successes, opportunities, struggles, and lessons learned in the fight against election-related shutdowns” (hosted by [Access Now](https://www.accessnow.org/) and [KICTANET](https://www.kictanet.or.ke/)), 6th June 2023
-*   Session: “Data and Action: Using data analysis for incident response and threat prevention” (hosted by the [Center for Digital Resilience](https://digiresilience.org/)), 7th June 2023
-*   Workshop: “Learn to investigate internet shutdowns through an Iran 2022 case study” (hosted by OONI and [IODA](https://ioda.inetintel.cc.gatech.edu/)), 7th June 2023
-*   Session: “Internet blocking and the consequences for human rights?” (hosted by [Cloudflare](https://radar.cloudflare.com/)), 8th June 2023
-*   Lightning talk: “Investigating Internet shutdowns through open data” (hosted by OONI, [IODA](https://ioda.inetintel.cc.gatech.edu/), [M-Lab](https://www.measurementlab.net/)), 8th June 2023
-
+  *   Session: “KeepItOn in 2022: successes, opportunities, struggles, and lessons learned in the fight against election-related shutdowns” (hosted by [Access Now](https://www.accessnow.org/) and [KICTANET](https://www.kictanet.or.ke/)), 6th June 2023
+  *   Session: “Data and Action: Using data analysis for incident response and threat prevention” (hosted by the [Center for Digital Resilience](https://digiresilience.org/)), 7th June 2023
+  *   Workshop: “Learn to investigate internet shutdowns through an Iran 2022 case study” (hosted by OONI and [IODA](https://ioda.inetintel.cc.gatech.edu/)), 7th June 2023
+  *   Session: “Internet blocking and the consequences for human rights?” (hosted by [Cloudflare](https://radar.cloudflare.com/)), 8th June 2023
+  *   Lightning talk: “Investigating Internet shutdowns through open data” (hosted by OONI, [IODA](https://ioda.inetintel.cc.gatech.edu/), [M-Lab](https://www.measurementlab.net/)), 8th June 2023
 *   **OONI workshop for journalists in Kazakhstan.** On 17th May 2023, we facilitated an online OONI workshop for journalists in Kazakhstan as part of the Greater Internet Freedom (GIF) Convening of Objective Partners in Almaty.
 *   **OONI workshop for content makers from Turkmenistan.** On 9th May 2023, we facilitated an in-person OONI workshop as part of a training in Tbilisi (organized by [Internews](https://internews.org/)) for content makers from Turkmenistan.
 *   **OONI workshop for civil society groups in Liberia.** On 4th May 2023, we facilitated an online OONI workshop for civil society groups in Liberia. This workshop was organized by [Access Now](https://www.accessnow.org/) and Liberian civil society groups in preparation for Liberia’s 2023 elections.
@@ -462,7 +458,7 @@ We thank our community for their amazing efforts!
 
 ## 2024
 
-{{<img src="images/image14.jpg" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image14-feature.jpg" title="OONI Explorer" alt="OONI Explorer">}}
 
 **Image:** The OONI team in Nairobi, Kenya for the 2023 OONI Team Meeting.
 
