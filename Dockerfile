@@ -5,5 +5,6 @@ COPY . /hugo
 RUN sh /hugo/scripts/build_website.sh
 
 FROM nginx:1.25-alpine
-COPY ./nginx.conf /etc/nginx/conf.d/default.conf
+RUN envsubst '\$PORT' < /hugo/nginx.conf > /etc/nginx/conf.d/nginx.conf
 COPY --from=build /hugo/public /usr/share/nginx/html
+EXPOSE $PORT
