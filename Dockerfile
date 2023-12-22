@@ -1,4 +1,4 @@
-FROM alpine:latest AS build
+FROM node:current-alpine AS build
 RUN apk add --update hugo git
 WORKDIR /hugo
 COPY . /hugo
