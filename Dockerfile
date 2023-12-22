@@ -5,6 +5,6 @@ COPY . /hugo
 RUN sh /hugo/scripts/build_website.sh
 
 FROM nginx:1.25-alpine
-WORKDIR /usr/share/nginx/html
-COPY --from=build /hugo/public .
+COPY ./nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=build /hugo/public /usr/share/nginx/html
 EXPOSE 80/tcp
