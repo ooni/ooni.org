@@ -2,6 +2,7 @@ providers = ['staticfile', 'node']
 
 [phases.setup]
 nixPkgs = ['...', 'hugo']
+cmds = ['./scripts/stamptime.sh']
 
 [phases.build]
 cmds = ['./scripts/build_website.sh']
