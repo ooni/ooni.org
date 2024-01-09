@@ -5,6 +5,8 @@ name: Internet Society
 title: Internet Society
 website: https://pulse.internetsociety.org/
 reports:
+- text: "Measure all the Things! IMC Hackathon 2023"
+  link: "https://ooni.org/post/2023-senegal-social-media-blocks/"
 - text: "Technical multi-stakeholder report on Internet shutdowns: The case of Iran amid autumn 2022 protests"
   link: "https://ooni.org/post/2022-iran-technical-multistakeholder-report/"
 - text: "Internet Society Pulse: Internet Shutdowns"
