@@ -5,7 +5,7 @@ name: "Internet Outage Detection & Analysis (IODA)"
 title: "Internet Outage Detection & Analysis (IODA)"
 website: https://ioda.inetintel.cc.gatech.edu/
 reports:
-- text: "Senegal: Social media blocks and network outages amid political unrest"
+- text: "Measure all the Things! IMC Hackathon 2023"
   link: "https://ooni.org/post/2023-senegal-social-media-blocks/"
 - text: "Technical multi-stakeholder report on Internet shutdowns: The case of Iran amid autumn 2022 protests"
   link: "https://ooni.org/post/2022-iran-technical-multistakeholder-report/"
