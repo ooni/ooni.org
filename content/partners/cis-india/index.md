@@ -5,6 +5,8 @@ name: The Centre for Internet & Society (CIS)
 title: The Centre for Internet & Society (CIS)
 website: https://cis-india.org/
 reports:
+- text: "Detecting Encrypted Client Hello (ECH) Blocking"
+  link: "https://cis-india.org/internet-governance/blog/detecting-encrypted-client-hello-ech-blocking"
 - text: "Investigating TLS blocking in India"
   link: "https://ooni.org/post/2020-tls-blocking-india/"
 - text: "Investigating Encrypted DNS Blocking in India"
