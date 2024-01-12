@@ -2,7 +2,7 @@
 title: "Job Opening: OONI Backend Developer"
 description: "The OONI team is looking for a backend developer to maintain and improve our backend infrastructure."
 author: "Arturo Filastò"
-date: "2023-05-02"
+date: "2024-01-12"
 tags: ["ooni", "job-opening", "backend developer"]
 categories: ["job"]
 ---
