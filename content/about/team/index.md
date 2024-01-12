@@ -27,6 +27,4 @@ submenu:
 
 {{<team-member name="Roberta Giassetti" role="Finance and Administration Advisor" email="roberta@ooni.org" img="images/roberta.jpg" >}}
 
-{{<team-member name="Federico Ceratto" role="Backend Engineer & Data Analyst" email="federico@ooni.org" pgpkey="7CA7DDFB333921408C6F2B966F31BC44F5177DAA">}}
-
 {{</team-listing>}}
