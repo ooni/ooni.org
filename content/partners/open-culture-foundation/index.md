@@ -5,6 +5,8 @@ name: Open Culture Foundation (OCF)
 title: Open Culture Foundation (OCF)
 website: https://ocf.tw/
 reports:
+- text: "OCF Observation Report between September to December 2023"
+  link: "https://ocf.tw/en/p/ooni/report/202312.html"
 - text: "網路自由小聚 [10月] - 動手操作網路審查分析工具 OONI"
   link: "https://ocftw.kktix.cc/events/iffcc201910"
 - text: "中国封锁了所有语言版本的维基百科"

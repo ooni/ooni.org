@@ -5,6 +5,8 @@ name: Access Now #KeepItOn campaign
 title: Access Now
 website: https://www.accessnow.org/keepiton/
 reports:
+- text: "Senegal: Social media blocks and network outages amid political unrest"
+  link: "https://ooni.org/post/2023-senegal-social-media-blocks/"
 - text: "OONI Community Video"
   link: "https://www.youtube.com/watch?v=zrclQ2QZjVo"
 - text: "10th Ooniversary: OONI Community (live-streamed presentation)"

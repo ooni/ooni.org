@@ -3,7 +3,7 @@ continent: Africa
 country: Sierra Leone
 name: Campaign for Human Rights & Development International (CHRDI)
 title: Campaign for Human Rights & Development International (CHRDI)
-website: http://www.chrdint.org/
+website: https://chrdi.org/
 reports:
 - text: "Sierra Leone: Network disruptions amid 2018 runoff elections"
   link: "https://ooni.org/post/sierra-leone-network-disruptions-2018-elections/"
