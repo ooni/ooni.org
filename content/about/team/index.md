@@ -11,7 +11,7 @@ submenu:
 
 {{<team-listing>}}
 
-{{<team-member name="Arturo Filastò" role="Executive Directory & CTO" email="arturo@ooni.org" pgpkey="67EF3966509986E96ACEE84E5D67CD18702287F4" twitter="hellais" img="images/arturo.jpg">}}
+{{<team-member name="Arturo Filastò" role="Executive Director & CTO" email="arturo@ooni.org" pgpkey="67EF3966509986E96ACEE84E5D67CD18702287F4" twitter="hellais" img="images/arturo.jpg">}}
 
 {{<team-member name="Maria Xynou" role="Director of Strategic Engagement" email="maria@ooni.org" pgpkey="2DC8AFB6CA11B5521081FBDE2131B3BE70CA417E" twitter="agrabeli_" img="images/maria.jpg">}}
 
