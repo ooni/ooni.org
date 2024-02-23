@@ -4,9 +4,9 @@ description: This Data Policy discloses and explains what data the OONI project 
 aliases: ["/data-policy"]
 ---
 
-**Last modified:** March 20, 2023
+**Last modified:** February 23, 2024
 
-**Version:** 1.4.7
+**Version:** 1.5.0
 
 This Data Policy discloses and explains what data the [Open Observatory of
 Network Interference (OONI) project](https://ooni.org/) ("we", "us", or "our")
@@ -154,18 +154,15 @@ Details about our specific setup can be found in [ooni/sysadmin](https://github.
 
 ### OONI website
 
-We use the open source [Matomo](https://matomo.org/) analytics platform (which we host ourselves) to
+We use the open source [Umami](https://umami.is/) analytics platform (using the [EU umami cloud service](https://umami.is/docs/cloud)) to
 collect data on how many visits [OONI Explorer](https://explorer.ooni.org/) and our [website](https://ooni.org/) receive. This is
 done **without the use of cookies**. Since we do not use cookies or track any
-personal data, these analytics are [enabled by default](https://matomo.org/cookie-consent-banners/). 
+personal data, these analytics are [enabled by default](https://umami.is/docs/faq).
 
 We do not record the full IP address of users (which is “anonymised” to the
 first 3 octets, ex. 123.45.67.0).
 
 On [OONI Explorer](https://explorer.ooni.org/), we also use [Sentry](https://sentry.io/) to log crash reports, which helps us improve the service.
-
-You can opt out of our use of analytics on [OONI Explorer](https://explorer.ooni.org/) and the [OONI website](https://ooni.org/)
-by **unchecking the opt-out box** at the end of this Data Policy.
 
 We will notify you of any future changes to our use of analytics through an
 update to this Data Policy.
@@ -364,11 +361,16 @@ purposes. Learn more about M-Lab's data governance through their [privacy statem
 
 **Sentry**
 
-We use [Sentry](https://sentry.io/privacy/) to log crash reports for the [OONI Probe](https://ooni.org/install) apps. This information is essential for identifying bugs and improving the performance of the apps. You can opt out through the settings of the OONI Probe apps. 
+We use [Sentry](https://sentry.io/privacy/) to log crash reports for the [OONI Probe](https://ooni.org/install) apps. This information is essential for identifying bugs and improving the performance of the apps. You can opt out through the settings of the OONI Probe apps.
 
-We also use [Sentry](https://sentry.io/privacy/) to log crash reports on [OONI Explorer](https://explorer.ooni.org/), which helps us improve the performance of the service. You can opt out of our use of analytics on OONI Explorer by unchecking the opt-out box at the end of this Data Policy.
+We also use [Sentry](https://sentry.io/privacy/) to log crash reports on [OONI Explorer](https://explorer.ooni.org/), which helps us improve the performance of the service.
 
 As part of crash reports, we collect sanitized technical data, but we do *not* collect the IP address or a unique identifier of the user. Given that Sentry is a third-party service, we recommend referring to their [privacy policy](https://sentry.io/privacy/).
+
+**Umami Cloud**
+
+We use [umami cloud](https://umami.is/docs/cloud) for collecting privacy
+preserving analytics about website visits, specifically on the EU instance.
 
 ## OONI web services
 
@@ -395,5 +397,3 @@ Key ID:
 Fingerprint:
 4C15 DDA9 96C6 C0CF 48BD 3309 6B29 43F0 0CB1 77B7
 ```
-
-{{< tracking-opt-out >}}
