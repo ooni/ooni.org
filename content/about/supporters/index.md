@@ -38,6 +38,8 @@ Below we share a [list of current and past OONI funders](#funders).
 
 {{< supporter img="images/Netlify.svg" name="Netlify" link="https://www.netlify.com/" imgHeight="40px" >}}
 
+{{< supporter img="images/Surfshark.svg" name="Surfshark" link="https://surfshark.com/" imgHeight="40px" >}}
+
 {{< supporter img="images/VPNCompare.svg" name="VPN Compare" link="https://www.vpncompare.co.uk/" imgHeight="40px" >}}
 
 {{< /supporter-section >}}
