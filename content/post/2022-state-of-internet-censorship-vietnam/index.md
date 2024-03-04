@@ -243,13 +243,13 @@ We choose three sites with a similar number of blocking time for further analysi
 
 
 
-* [Doan Trang page]([http://www.phamdoantrang.com/](http://www.phamdoantrang.com/))[^46], 
+* [Doan Trang page](http://www.phamdoantrang.com/)[^46], 
 
 
-* [Ba Sam]([https://anhbasam.wordpress.com/](https://anhbasam.wordpress.com/))[^47] and
+* [Ba Sam](https://anhbasam.wordpress.com/)[^47] and
 
 
-* [Viet Nam Times]([https://vietnamthoibao.org/](https://vietnamthoibao.org/))[^48]
+* [Viet Nam Times](https://vietnamthoibao.org/)[^48]
 The Doan Trang page is completely blocked by FPT Telecom and Viettel networks. However, VNPT opened for access from 16 June to 21 June 2022. At that time, there is an event on Human Rights Council to Hold its Fiftieth Regular Session from 13 June to 8 July 2022. The VNPT provider may have changed the moderation policy of this site and opened access to users. Until now they are still open access. 
 
 ![](images/image4.png)
