@@ -21,7 +21,6 @@
       {{- (. | transform.Unmarshal).html | safeHTML -}}
     {{- end -}}
   {{- else -}}
-    {{- warnidf "shortcode-twitter-simple-getremote" "The %q shortcode was unable to retrieve the remote data. See %s" .name .position -}}
   {{- end -}}
 {{- end -}}
 
