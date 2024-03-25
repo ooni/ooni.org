@@ -7,7 +7,7 @@ tags: ["ooni", "european-union", "russia", "ukraine", "sanctions", "censorship-f
 categories: ["blog"]
 ---
 
-*The original post appeard on the blog of [SIDN Labs](https://www.sidnlabs.nl/en/news-and-blogs/internet-sanctions-on-russian-media-diverging-actions-and-mixed-effects).*
+*The original post appeared on the blog of [SIDN Labs](https://www.sidnlabs.nl/en/news-and-blogs/internet-sanctions-on-russian-media-diverging-actions-and-mixed-effects).*
 
 As a response to the Russian aggression against Ukraine, the European Union (EU) imposed sanctions on organisations affiliated with the Russian Federation prohibiting them from broadcasting content in the EU, including online distribution. In a collaborative effort with researchers from the University of Illinois Chicago, Open Observatory of Network Interference (OONI), the University of Twente and the University of Amsterdam, we carried out a longitudinal traffic analysis to understand how internet service providers (ISPs) in different EU member states implement these sanctions. We found that the degree of blocking varies widely, both between and within individual EU member states. This raises questions about the effectiveness of the EU sanctions. This blog is a summary of the paper we published last month.
 
