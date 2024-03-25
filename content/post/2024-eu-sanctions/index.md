@@ -7,6 +7,8 @@ tags: ["ooni", "european-union", "russia", "ukraine", "sanctions", "censorship-f
 categories: ["blog"]
 ---
 
+*The original post appeard on the blog of [SIDN Labs](https://www.sidnlabs.nl/en/news-and-blogs/internet-sanctions-on-russian-media-diverging-actions-and-mixed-effects).*
+
 As a response to the Russian aggression against Ukraine, the European Union (EU) imposed sanctions on organisations affiliated with the Russian Federation prohibiting them from broadcasting content in the EU, including online distribution. In a collaborative effort with researchers from the University of Illinois Chicago, Open Observatory of Network Interference (OONI), the University of Twente and the University of Amsterdam, we carried out a longitudinal traffic analysis to understand how internet service providers (ISPs) in different EU member states implement these sanctions. We found that the degree of blocking varies widely, both between and within individual EU member states. This raises questions about the effectiveness of the EU sanctions. This blog is a summary of the paper we published last month.
 
 {{<table-of-contents>}}
@@ -49,6 +51,9 @@ Our measurements in Figure 1 show how quickly ISPs implemented blocking against 
 
 {{<img src="images/Figure_1_ooni_timeline_light.png" title="Figure 1: VPs showing first signs of blocking of www.rt.com over the course of 13 months, as measured by OONI." alt="OONI">}}
 
+*Figure 1: VPs showing first signs of blocking of www.rt.com over the course of 13 months, as measured by OONI.*
+
+
 
 # Blocking in Europe: inconsistent at all levels
 
@@ -57,6 +62,9 @@ As mentioned before, the sanctions by the EU are not centrally coordinated. Also
 This might also be the reason why blocking in Europe does not follow a consistent pattern. Figure 2 shows blocking at ISPs. Each cell represents the percentage of unblocked responses per country and domain name received for DNS queries sent to ISP resolvers from RIPE Atlas vantage points. A bright yellow colour indicates that all or almost all queries from vantage points in a certain country towards a particular domain name were unfiltered. A dark purple colour indicates that most of our queries for sanctioned domain names were blocked.
 
 {{<img src="images/Figure_2_ripe_blocking_all.png" title="Figure 2: Percentage of uncensored DNS responses received by RIPE Atlas probes relying on ISP resolvers as of 2023-09-19." alt="RIPE Atlas all">}}
+
+*Figure 2: Percentage of uncensored DNS responses received by RIPE Atlas probes relying on ISP resolvers as of 2023-09-19.*
+
 
 A dark purple colour indicates that most of our queries for sanctioned domain names were blocked.
 
@@ -79,6 +87,8 @@ Figure 3 shows that most German and Austrian ISPs blocked at least some of the m
 
 {{<img src="images/Figure_3_mirror_pages.png" title="Figure 3: Percentage of uncensored DNS responses for requests towards RT mirror pages received by RIPE Atlas probes relying on ISP resolvers." alt="RIPE Atlas mirroring pages">}}
 
+*Figure 3: Percentage of uncensored DNS responses for requests towards RT mirror pages received by RIPE Atlas probes relying on ISP resolvers.*
+
 
 # (Lack of) Transparency
 
@@ -88,7 +98,12 @@ ISPs in Germany largely opted for responding to queries for blocked domain names
 
 {{<img src="images/Figure_4_generic.png" title="Figure 4: Generic block page." alt="Generic block page">}}
 
+*Figure 4: Generic block page.*
+
+
 {{<img src="images/Figure_5_ransparent.png" title="Figure 5: Block page informing users that the block was due to the imposed sanctions." alt="Specific block page">}}
+
+*Figure 5: Block page informing users that the block was due to the imposed sanctions.*
 
 
 # Conclusion: Impact of the sanctions varies
