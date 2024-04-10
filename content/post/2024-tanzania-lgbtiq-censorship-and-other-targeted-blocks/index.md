@@ -2,7 +2,7 @@
 title: "Tanzania: Surge in online LGBTIQ censorship and other targeted blocks"
 description: "This report documents the blocking of LGBTIQ websites and other targeted blocks in Tanzania based on OONI data."
 author: "Maria Xynou (OONI), Mehul Gulati (OONI), Tori Fransis"
-date: "2024-04-10"
+date: "2024-04-11"
 tags: ["country-tz"]
 categories: ["report"]
 ---
