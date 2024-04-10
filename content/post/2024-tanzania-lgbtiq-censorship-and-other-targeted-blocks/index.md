@@ -7,6 +7,8 @@ tags: ["country-tz"]
 categories: ["report"]
 ---
 
+This report documents the blocking of LGBTIQ websites and other targeted blocks in Tanzania based on the analysis of [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-12-01&until=2024-01-31&time_grain=day&probe_cc=TZ). 
+
 {{<table-of-contents>}}
 
 ## Key Findings
