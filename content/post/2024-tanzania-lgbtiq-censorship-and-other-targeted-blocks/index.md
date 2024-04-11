@@ -2,7 +2,7 @@
 title: "Tanzania: Surge in online LGBTIQ censorship and other targeted blocks"
 description: "This report documents the blocking of LGBTIQ websites and other targeted blocks in Tanzania based on OONI data."
 author: "Maria Xynou (OONI), Mehul Gulati (OONI), Tori Fransis"
-date: "2024-04-10"
+date: "2024-04-11"
 tags: ["country-tz"]
 categories: ["report"]
 ---
@@ -18,7 +18,6 @@ Our analysis of [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=TZ&sinc
 Specifically, [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=TZ&since=2023-12-01&until=2024-01-31&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity) collected from Tanzania shows:
 
 *   **Blocking of many LGBTIQ websites**, including:
-
 	*   LGBTIQ social networks (such as [Grindr](https://explorer.ooni.org/chart/mat?probe_cc=TZ&since=2023-12-01&until=2024-01-31&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.grindr.com))
 	*   LGBTIQ rights (such as [ILGA](https://explorer.ooni.org/chart/mat?probe_cc=TZ&since=2023-12-01&until=2024-01-31&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=ilga.org) and [OutRight International](https://explorer.ooni.org/chart/mat?probe_cc=TZ&since=2023-12-01&until=2024-01-31&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=outrightinternational.org))
 	*   LGBTIQ news and culture (such as [Queerty](https://explorer.ooni.org/chart/mat?probe_cc=TZ&since=2023-12-01&until=2024-01-31&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.queerty.com))
