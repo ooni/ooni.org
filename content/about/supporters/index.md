@@ -121,7 +121,7 @@ Our work would not be possible without the support of our funders. Below we shar
 ### Current Funders
 
 - [Bureau of Democracy, Human Rights, and Labor (DRL)](https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-democracy-human-rights-and-labor/)
-- [Mozilla Foundation](https://foundation.mozilla.org/)
+- [Ford Foundation](https://www.fordfoundation.org/)
 
 ### Past Funders
 
@@ -130,6 +130,7 @@ Our work would not be possible without the support of our funders. Below we shar
 - [Internet Society (ISOC)](https://www.internetsociety.org/)
 - [Internews](https://internews.org/)
 - [Media Democracy Fund (MDF)](https://mediademocracyfund.org/)
+- [Mozilla Foundation](https://foundation.mozilla.org/)
 - [National Science Foundation (NSF)](https://www.nsf.gov/)
 - [Open Technology Fund (OTF)](https://www.opentech.fund/)
 - [Small Media](https://smallmedia.org.uk/)
