@@ -11,3 +11,5 @@ website: https://digitalrightsfoundation.pk/
 At DRF, we aim to strengthen the protections for human rights defenders (HRDs), with a focus on women’s rights in digital spaces through policy advocacy and digital security awareness-raising. In addition, one of our main aims is to protect women from cyber harassment that they have to deal with throughout their lives by making them aware of their rights and making resources accessible when they need help.
 
 With growing privacy concerns in digital spaces, DRF seeks to increase awareness about privacy issues and defend the right to privacy through research, monitoring and reporting the tactics around surveillance. To rally with other actors for strong legal protection for privacy in the country and to raise our voices against dictating censorship policies, we propose viable solutions to the government and other authoritative bodies. 
+
+For further information, please contact info@digitalrightsfoundation.pk. 
