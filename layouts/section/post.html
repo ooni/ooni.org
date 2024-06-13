@@ -1,20 +1,26 @@
 {{ define "main" }}
+
 <div class="container">
-  <h1>Research Reports & Blog Posts</h1>
+  <h1 class="blog-title">Research Reports & Blog Posts</h1>
   <main class="col">
     {{ range where .Data.Pages.ByDate.Reverse "Section" "post" }}
 
-      <div class="row blog-summary">
+      <div class="row blog-link">
         <div>
-          <a href="{{ .RelPermalink }}" style="margin-bottom: 0">
-            <p class="title">{{ .Title }}</p>
+          <a href="{{ .RelPermalink }}" class="blog-link-title">
+            {{ .Title }}
           </a>
-          <p class="byline" style="margin-bottom: 0">{{ .Date.Format "2 Jan 2006" }}</p>
           {{ if .IsTranslated }}
-            <p>Translations: {{ range .Translations }}<a style="display: inline-block;margin-bottom: 0;padding-right: 10px" href="{{ .RelPermalink }}">{{ if eq .Lang "en" }}English{{ else if eq .Lang "pt" }}Portuguese{{ else if eq .Lang "fr" }}French{{ else if eq .Lang "es"  }}Spanish{{ else if eq .Lang "ca"  }}Catalan{{ else }}{{ .Lang }}{{ end }}</a>{{ end }}
+            <p class="blog-link-translations">Translations: 
+            {{ range .Translations }}
+              <a href="{{ .RelPermalink }}">
+                {{ partial "language-titles.html" .Lang }}
+              </a>
+            {{ end }}
             </p>
           {{ else }}
           {{ end }}
+          <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
         </div>
       </div>
 

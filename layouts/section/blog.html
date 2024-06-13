@@ -1,25 +1,29 @@
 {{ define "main" }}
-<div class="container">
-  <h1>{{ .Title }}</h1>
-  <main class="col">
-    {{ with .Site.Taxonomies.categories.blog }}
-    {{ range . }}
 
-      <div class="row blog-summary">
+<div class="container">
+  <h1 class="blog-title">{{ .Title }}</h1>
+  <main class="col">
+    {{ range .Site.Taxonomies.categories.blog }}
+
+      <div class="row blog-link">
         <div>
-          <a href="{{ .RelPermalink }}" style="margin-bottom: 0">
-            <p class="title">{{ .Title }}</p>
+          <a href="{{ .RelPermalink }}" class="blog-link-title">
+            {{ .Title }}
           </a>
           {{ if .IsTranslated }}
-            <p class="title-translations">Translations: {{ range .Translations }}<a style="display: inline-block;margin-bottom: 0;padding-right: 10px" href="{{ .RelPermalink }}">{{ if eq .Lang "en" }}English{{ else if eq .Lang "pt" }}Portuguese{{ else if eq .Lang "fr" }}French{{ else if eq .Lang "es"  }}Spanish{{ else if eq .Lang "ca"  }}Catalan{{ else }}{{ .Lang }}{{ end }}</a>{{ end }}
+            <p class="blog-link-translations">Translations: 
+            {{ range .Translations }}
+              <a href="{{ .RelPermalink }}">
+                {{ partial "language-titles.html" .Lang }}
+              </a>
+            {{ end }}
             </p>
           {{ else }}
           {{ end }}
-          <p class="byline" style="margin-bottom: 0">{{ .Date.Format "2 Jan 2006" }}</p>
+          <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
         </div>
       </div>
 
-    {{ end }}
     {{ end }}
   </main>
 </div>
