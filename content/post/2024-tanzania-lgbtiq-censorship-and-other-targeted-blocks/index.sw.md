@@ -1,13 +1,14 @@
 ---
 title: "Tanzania: Ongezeko la udhibiti wa LGBTIQ mtandaoni na vizuizi vingine"
-description: "This report documents the blocking of LGBTIQ websites and other targeted blocks in Tanzania based on OONI data."
+description: "Ripoti hii imeonyesha udhibiti wa tovuti za LGBTIQ na aina nyingine za udhibiti zilizokusudiwa nchini Tanzania kutokana na uchambuzi wa OONI data."
 author: "Maria Xynou (OONI), Mehul Gulati (OONI), Tori Fransis"
 date: "2024-04-11"
 tags: ["country-tz"]
 categories: ["report"]
 ---
 
-This report documents the blocking of LGBTIQ websites and other targeted blocks in Tanzania based on the analysis of [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-12-01&until=2024-01-31&time_grain=day&probe_cc=TZ). 
+Ripoti hii imeonyesha udhibiti wa tovuti za LGBTIQ na aina nyingine za udhibiti zilizokusudiwa nchini Tanzania kutokana na uchambuzi wa [OONI data]
+(https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-12-01&until=2024-01-31&time_grain=day&probe_cc=TZ). 
 
 {{<table-of-contents>}}
 
