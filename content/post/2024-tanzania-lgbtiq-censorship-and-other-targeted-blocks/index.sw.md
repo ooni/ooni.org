@@ -99,7 +99,7 @@ Udhibiti wote umegundulika katika mitandao mingi nchini Tanzania wakati wa kipin
 
 Taarifa zaidi zinatolewa katika vipengele vifuatavyo kwenye ripoti hii. 
 
-### **Blocking of LGBTIQ websites - Uzuiaji wa tovuti za LGBTIQ** {#blocking-of-lgbtiq-websites-uzuiaji-wa-tovuti-za-lgbtiq}
+### **Uzuiaji wa tovuti za LGBTIQ** {#uzuiaji-wa-tovuti-za-lgbtiq}
 
 Haki za LGBTIQ rights zimezuiliwa vikali nchini Tanzania. Matendo ya ngono ya jinsia moja yaliyokubaliwa [yamewekwa hatiani chini ya vifungu vya kanuni za adhabu za wakati wa ukokoni wa Tanzania](https://database.ilga.org/api/downloader/download/1/TZ%20-%20LEG%20-%20Penal%20Code%20(1930,%20as%20published%20in%201981)%20-%20OR(en).pdf), na kifungo cha juu zaidi kinachohusisha kifungo cha maisha . Kwa majibu wa [jumuiya ya kimataifa ya wasagi, mashoga, wapenzi wa jinsia mbili na wenye jinsia tofuti (ILGA)](https://database.ilga.org/tanzania-lgbti), watu wa LGBTIQ nchini wanapitia vikwazo vya kisheria vya uhuru wa kujieleza na uhuru wa kujumuika, huku katiba ya Tanzania haiajweka wazi kulinda watu wa LGBTIQ dhidi ya ubaguzi. Kadhalika, [maelezo](https://database.ilga.org/tanzania-lgbti) ya ILGA sheria hiyo ya Tanzania haitio ulinzi kwa watu wa LGBTIQ dhidi ya ubaguzi katika utoaji wa bidhaa na huduma, afya, elimu, ajira au makazi. Pia [maelezo](https://database.ilga.org/tanzania-lgbti) ya ILGA sheria zinazotumika Tanzania haziongezei adhabu kwa uhalifu kwa missingi ya “mwenendo wa kijinsia”, “utambulisho wa kijinsia”, “uelezeaji wa kijinsia” au “sifa za gono” wala hazizingatii uhalifu huo kama “uahlifu wa chuki”. 
 
