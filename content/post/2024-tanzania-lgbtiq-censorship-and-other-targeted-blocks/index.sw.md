@@ -119,7 +119,7 @@ Data za OONI data zilizokusanywa kutoka Tanzania, zimeeleza kuwa ufikiaji angala
 
 [Chati](https://explorer.ooni.org/chart/mat?probe_cc=TZ&since=2023-01-01&until=2024-01-31&time_grain=day&axis_x=measurement_start_day&axis_y=domain&test_name=web_connectivity&domain=www.planetromeo.com%2Cwww.grindr.com%2Chornet.com) ifuatayo imejumlisha maeneo ya vipimo vya OONI kutoka kwenyevipimo vya [OONI Probe](https://ooni.org/install/) vya Grindr (`www.grindr.com`), Romeo (`www.planetromeo.com`), na Hornet (`hornet.com`) katika mitandao mingi Tanzania kati ya tarehe 1 Januari 2023 hadi 31 Januari 2024.
 
-![alt_text](images/imagesw1.png "image_tooltip")
+![alt_text](images/imagesw1.png)
 
 **Chati:** Vipimo vya OONI Probe vya Grindr (`www.grindr.com`), Romeo (`www.planetromeo.com`), na Hornet (`hornet.com`) nchini Tanzania kati ya tarehe 1 Januari 2023 hadi 31 Januari 2024 (chanzo: [OONI data](https://explorer.ooni.org/sw/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-01-01&until=2024-01-31&time_grain=day&probe_cc=TZ&axis_y=domain&domain=www.planetromeo.com%2Cwww.grindr.com%2Chornet.com)).
 
@@ -127,7 +127,7 @@ Kama inavyo onekana, vipimo vingi vilivyokusanywa kutoka katika vipimo vya vikoa
 
 Ili kuchunguza zaidi, tumechambua vipimo hivi kutambua sababu zilizopelekea hitilafu (ambazo zingesaidia kuainisha uzuiaji uliojitokeza) na kuondoa matokeo yasiyo halisi. Matokeo ya uchambuzi wetu yamewasilishwa katika chati ifuatayo. 
 
-![alt_text](images/imagesw2.png "image_tooltip")
+![alt_text](images/imagesw8.png)
 
 **Chati:** Uzuiaji wa tovuti za mitandao ya kijamii ya LGBTIQ Tanzania kati ya tarehe 1 Januari 2023 hadi 31 Januari 2024 (chanzo : [ooni/data](https://github.com/ooni/data)).
 
@@ -160,7 +160,7 @@ Hususani, Data za OONI zimeonyesha kuwa (angalau) **vikoa 12** vifuatavyo vinavy
 
 Kila viungo vya vikoa vya hapo juu kwa kulinganisha na data za OONI, zimeonyesha kuwa vipimo vyote vya vikoa katika [OONI Probe](https://ooni.org/install/) vimewasilisha viwango vingi vya hitilafu katika kipindi cha upimaji (kati ya tarehe 1 Januari 2023 hadi 31 Januari 2024), imetoa ishara ya uzuiwaji. Kuchanganua kama hitilafu hizi kulikua na dalili za udhibiti au matokeo chanya yasiyo sahihi, tumechambua data za OONI data kutambua sababu za kwa nini hitilafu hizi zimejitokeza. Matokeo ya uchambuzi wetu yamewasilishwa katika chati ifuatayo, ambayo imetoa maeneo ya vipimo vya OONI vya jumla kwa vikoa 12 vya hapo juu kati ya Januari 2023 hadi Januari 2024.
 
-![alt_text](images/imagesw3.png "image_tooltip")
+![alt_text](images/imagesw5.png)
 
 **Chati:** Uzuiaji wa vikoa vinavyotetea haki za LGBTIQ Tanzania kati ya tarehe 1 Januari 2023 hadi 31 Januari 2024 (chanzo: [ooni/data](https://github.com/ooni/data)).
 
@@ -200,7 +200,7 @@ Data za OONI data zinaeleza kuwa angalau vikoa 5 vya habari na utamaduni wa LGBT
 
 [Chati](https://explorer.ooni.org/chart/mat?probe_cc=TZ&since=2023-01-01&until=2024-01-31&time_grain=day&axis_x=measurement_start_day&axis_y=domain&test_name=web_connectivity&domain=afterellen.com%2Cwww.mambaonline.com%2Cwww.globalpride2020.org%2Cwww.out.com%2Cwww.queerty.com) ifuatayo imejumlisha maeneo ya vipimo vya OONI kwenye vipimo vya [OONI Probe](https://ooni.org/install/) vya vikoa hivi katika mitandao mingi Tanzania kati ya tarehe 1 Januari 2023 hadi 31 Januari 2024.
 
-![alt_text](images/imagesw4.png "image_tooltip")
+![alt_text](images/imagesw11.png)
 
 **Chati:** Vipimo vya OONI Probe vya `afterellen.com`, `www.mambaonline.com`, `www.globalpride2020.org`, `www.out.com`, `www.queerty.com` nchini Tanzania kati ya tarehe 1 Januari 2023 hadi 31 Januari 2024 (chanzo: [OONI data](https://explorer.ooni.org/sw/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-01-01&until=2024-01-31&time_grain=day&probe_cc=TZ&axis_y=domain&domain=afterellen.com%2Cwww.mambaonline.com%2Cwww.globalpride2020.org%2Cwww.out.com%2Cwww.queerty.com)).
 
@@ -208,7 +208,7 @@ Kama ilivyothibitika katika chati ya hapo juu, vikoa hivi 5 viliwasilishwa kiasi
 
 Tumechambua vipimo hivi vyenye hitilafu kutambua sababu za kuwepo kwa hitilafu, kuainisha uzuiaji maalum, na kuondoa majibu chanya yasiyo sahihi. Matokeo ya uchambuzi wetu yamewasilishwa kupitia chati ifuatayo.
 
-![alt_text](images/imagesw5.png "image_tooltip")
+![alt_text](images/imagesw4.png)
 
 **Chati:** Uzuiwaji wa vikoa vya habari na utamaduni wa LGBTIQ Tanzania kati ya 1 Januari 2023 hadi 31 Januari 2024 (chanzo: [ooni/data](https://github.com/ooni/data)).
 
@@ -222,7 +222,7 @@ Data za OONI zilizokusanywa kutoka Tanzania zinaeleza kuwa upatikanaji wa mradi 
 
 Uzuiaji wa `www.thetrevorproject.org` umeonekana ulianza tarehe 7 Februari 2023, ambavyo data za OONI zimetoa muendelezo wa viashiria vya uzuiwaji. [Chati](https://explorer.ooni.org/chart/mat?probe_cc=TZ&since=2023-01-01&until=2024-01-31&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.thetrevorproject.org) ifuatatayo imejumlisha maeneo ya vipimo vya OONI kutoka vipimo vya [OONI Probe](https://ooni.org/install/) vya `www.thetrevorproject.org` kwenye [mitandao 15](https://explorer.ooni.org/chart/mat?probe_cc=TZ&since=2023-01-01&until=2024-01-31&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.thetrevorproject.org) Tanzania kati ya tarehe 1 Januari 2023 hadi 31 Januari 2024.
 
-![alt_text](images/imagesw6.png "image_tooltip")
+![alt_text](images/imagesw10.png)
 
 **Chati:** Vipimo vya OONI Probe vya Trevor Project ([www.thetrevorproject.org](http://www.thetrevorproject.org)) Tanzania kati ya tarehe 1 Januari 2023 hadi 31 Januari 2024 (chanzo: [OONI data](https://explorer.ooni.org/sw/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-01-01&until=2024-01-31&time_grain=day&probe_cc=TZ&domain=www.thetrevorproject.org)).
 
@@ -232,7 +232,7 @@ Tumechambua vipimo vyenye hitilafu na tumegundua kwamba vipimo vingi vimeonyesha
 
 Chati ifuatayo imeonyesha matokeo ya uchambuzi wetu, kutoa uchanganuzi wa kila-ASN ya maeneo ya vipimo. Tuna chati chache za ASNs 7 za juu ambazo zimeonysha maeneo makubwa ya vipimo wakati wa uchambuzi (kuongeza utendaji wetu katika utafiti). 
 
-![alt_text](images/imagesw7.png "image_tooltip")
+![alt_text](images/imagesw9.png)
 
 **Chati:** Uzuiwaji wa Trevor Project (`www.thetrevorproject.org`) Tanzania kati ya tarehe 1Januari 2023 hadi 31 Januari 2024 (chanzo: [ooni/data](https://github.com/ooni/data)).
 
@@ -246,7 +246,7 @@ Tovuti nyingi zinazotetea haki za binadamu kupitia ruzuku na maandiko ya miradi 
 
 Hasa, data za OONI [zinaeleza kuwa](https://explorer.ooni.org/chart/mat?probe_cc=TZ&since=2023-01-01&until=2024-01-31&time_grain=day&axis_x=measurement_start_day&axis_y=domain&test_name=web_connectivity&domain=www.change.org%2Cwww.globalfundforwomen.org%2Cwww.globalgiving.org%2Cwww.opensocietyfoundations.org) upatikanaji wa `www.change.org`, `www.globalfundforwomen.org`, `www.globalgiving.org`, na `www.opensocietyfoundations.org` ulizuiwa Tanzania katika kipindi cha uchambuzi. [Chati](https://explorer.ooni.org/chart/mat?probe_cc=TZ&since=2023-01-01&until=2024-01-31&time_grain=day&axis_x=measurement_start_day&axis_y=domain&test_name=web_connectivity&domain=www.change.org%2Cwww.globalfundforwomen.org%2Cwww.globalgiving.org%2Cwww.opensocietyfoundations.org) ifuatatyo inajumlisha maeneo ya vipimo vya OONI kutoka upimaji wa vikoa hivi kwenye [OONI Probe](https://ooni.org/install/) katika mitandao mingi nchini Tanzania kati ya tarehe 1 Januari 2023 hadi 31 Januari 2024.
 
-![alt_text](images/imagesw8.png "image_tooltip")
+![alt_text](images/imagesw2.png)
 
 **Chati:** vipimo vya OONI Probe vya `www.change.org`, `www.globalfundforwomen.org`, `www.globalgiving.org`, na `www.opensocietyfoundations.org` nchini Tanzania kati ya tarehe 1 Januari 2023 hadi 31 Januari 2024 (chanzo: [OONI data](https://explorer.ooni.org/sw/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-01-01&until=2024-01-31&time_grain=day&probe_cc=TZ&axis_y=domain&domain=www.change.org%2Cwww.globalfundforwomen.org%2Cwww.globalgiving.org%2Cwww.opensocietyfoundations.org)).
 
@@ -254,7 +254,7 @@ Huku vikoa hivi vimepokea maeneo machache ya vipimo katika kipindi chote cha uch
 
 Uchambuzi wetu wavipimo vyenye hitilafu umeonyesha vipimo vingi vilionyesha `hitilafu ya ukomo wa muda wa tls`, kama ilivyoeleza kupitia chati hapo chini.
 
-![alt_text](images/imagesw9.png "image_tooltip")
+![alt_text](images/imagesw6.png)
 
 **Chati:** Uzuiaji wa tovuti za haki za binadamu Tanzania kati ya tarehe 1 Januari 2023 hadi 31 Januari 2024 (chanzo: [ooni/data](https://github.com/ooni/data)).
 
@@ -277,7 +277,7 @@ Hasa, data za OONI ziliwasilisha (sio chini ya) **tovuti 6 za uchumba za mtandao
 
 Kila kiungo cha vikoa hivi kwa kuhusika na OONI data, vinaonyesha kuwa vipimo vya [OONI Probe](https://ooni.org/install/) vya vikoa hivyo vimetoa viwango vikubwa vya hitilafu katika kipindi cha upimaji (kati ya tarehe 1 Januari 2023 hadi 31 Januari 2024), ikitoa ishara ya uzuiwaji. Kutathmini kama hitilafu hizi ni dalili za udhibiti au or matokeo chanya yasiyo halisi, tulichambua data za OONI. Matokeo ya uchambuzi wetu wamewasilsihwa kupitia chati ifuatayo, amabyo inatoa vipimo vya jumla vya wiki kwa vikoa6 vya hapo juu kati ya Januari 2023 hadi Januari 2024.
 
-![alt_text](images/imagesw10.png "image_tooltip")
+![alt_text](images/imagesw7.png)
 
 **Chati:** Uzuiaji wa tovuti za uchumba za mtandaoni Tanzania kati ya 1 Januari 2023 hadi 31 Januari 2024 (chanzo: [ooni/data](https://github.com/ooni/data)).
 
@@ -289,7 +289,7 @@ Tarehe 13 Agosti 2023, [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=
 
 Tumetengeneza chati ifuatayo kwa kuzingatia uchambuzi wetu wa vipimo vya OONI vilivyokusanywa kwenye upimaji wa `www.clubhouse.com`, `www.joinclubhouse.com`, na `www.4chan.org` Tanzania kati ya Januari 2023 hadi Januari 2024. Chati imetoa vipimo vya jumla vya wiki (vilivyokusanywa kwenye mitandao mingi Tanzania) kwa maelezo ya matokeo.
 
-![alt_text](images/imagesw11.png "image_tooltip")
+![alt_text](images/imagesw12.png)
 
 **Chati:** Upimaji wa OONI Probe wa Clubhouse na 4chan Tanzania kati ya tarehe 1 Januari 2023 hadi 31 Januari 2024 (chanzo: [ooni/data](https://github.com/ooni/data)).
 
@@ -309,7 +309,7 @@ Tuliangalia [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=TZ&since=20
 
 Data za OONI zimeonyesha tu upatikanaji wa [ProtonVPN ulizuiwa](https://explorer.ooni.org/chart/mat?probe_cc=TZ&since=2023-01-01&until=2024-01-31&time_grain=day&axis_x=measurement_start_day&axis_y=domain&test_name=web_connectivity&domain=protonvpn.com%2Capi.protonvpn.ch) Tanzania wakati wa kipindi cha uchambuzi. Zaidi, OONI data [zimeonyesha](https://explorer.ooni.org/chart/mat?probe_cc=TZ&since=2023-01-01&until=2024-01-31&time_grain=day&axis_x=measurement_start_day&axis_y=domain&test_name=web_connectivity&domain=protonvpn.com%2Capi.protonvpn.ch) vipimo vingi katika upimaji wa `protonvpn.com` na `api.protonvpn.ch` ulionyesha hitilafu, kama ilivyoelezwa hapo chini.
 
-![alt_text](images/imagesw12.png "image_tooltip")
+![alt_text](images/imagesw13.png)
 
 **Chati:** Vipimo vya OONI Probe vya ProtonVPN (`protonvpn.com` na `api.protonvpn.ch`) Tanzania kati ya tarehe 1 Januari 2023 hadi 31 Januari 2024 (chanzo: [OONI data](https://explorer.ooni.org/sw/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-01-01&until=2024-01-31&time_grain=day&probe_cc=TZ&axis_y=domain&domain=protonvpn.com%2Capi.protonvpn.ch)).
 
@@ -319,7 +319,7 @@ Uchambuzi wetu wa ProtonVPN (`protonvpn.com` na `api.protonvpn.ch`) umeonyesha [
 
 Tumetengeneza chati ifuatayo kwa kulingana na uchambuzi wetu, ikionyesha hitilafu ya ukomo wa muda wa utingishaji wa TLS iliyoonekana kwenye vipimo vingi vilivyokusanywa collected kwenye upimaji wa `protonvpn.com` kwenye mitandao mingi Tanzania.
 
-![alt_text](images/imagesw13.png "image_tooltip")
+![alt_text](images/imagesw3.png)
 
 **Chati:** Kwa uchanganuzi maeneo ya vipimo vya ASN katika upimaji wa ProtonVPN (`protonvpn.com`) Tanzania kati ya tarehe 1 Januari 2023 hadi 31 Januari 2024 (chanzo: [ooni/data](https://github.com/ooni/data))
 
