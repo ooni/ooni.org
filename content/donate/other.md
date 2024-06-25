@@ -29,4 +29,23 @@ If you require a donation receipt, please send us an email to
 
 - [Github Sponsors](https://github.com/sponsors/ooni/)
 
-- [Open Collective](https://opencollective.com/ooni) (tax deductible for US donors)
+## Il 5x1000 in Italia
+
+Il 5 per mille è una quota del proprio reddito che ogni cittadino italiano può destinare a un’organizzazioni non profit.
+Come funziona:
+
+- È una scelta volontaria e gratuita: non comporta alcun costo per il cittadino
+- Viene effettuata nella dichiarazione dei redditi indicando il codice fiscale dell'organizzazione prescelta
+- Se non viene scelta nessuna organizzazione, il 5 per mille andrà allo Stato
+
+### Perché è importante:
+
+- Permette di sostenere cause concrete e di fare la differenza nella vita di molte persone
+- È un modo per dare voce ai propri valori e per costruire un futuro migliore
+
+### Cosa fare:
+
+- Nella dichiarazione dei redditi, nella casella apposita del 5x1000, scrivi (o chiedi al tuo commercialista di farlo) il codice fiscale di OONI: 96568220584
+- Metti la firma: non costa nulla e può fare la differenza!
+
+In sintesi: il 5 per mille è un'occasione unica, senza alcun costo per te, per contribuire a creare e difendere una rete Internet in cui i diritti umani – in particolare la libertà di espressione e l’accesso alle informazioni – siano promossi e protetti in tutto il mondo.
