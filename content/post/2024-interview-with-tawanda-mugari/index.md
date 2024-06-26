@@ -10,11 +10,10 @@ Today we are excited to publish an interview with **Tawanda Mugari, Co-Founder &
 
 {{< youtube vid="upCtt49WFiQ" >}}
 
-[Digital Society of Africa (DSA)](https://digitalsociety.africa/) works to strengthen the resilience and ability of frontline activists, human rights defenders and other at-risk groups in six countries: Zimbabwe, Zambia, Malawi, Mozambique, Swaziland and South Africa. DSA leads the network of technologists and digital consultants, as well as [OONI Probe](https://ooni.org/install/) users in these countries and supports OONI with measuring and investigating internet censorship in southern Africa. 
+[Digital Society of Africa (DSA)](https://digitalsociety.africa/) works to strengthen the resilience and ability of frontline activists, human rights defenders and other at-risk groups in six countries: Zimbabwe, Zambia, Malawi, Mozambique, Eswatini and South Africa. DSA leads the network of technologists and digital consultants, as well as [OONI Probe](https://ooni.org/install/) users in these countries and supports OONI with measuring and investigating internet censorship in southern Africa. 
 
-Each year DSA hosts [ConnectCon](https://digitalsociety.africa/connectcon/), an event which brings together organizations and individuals from 6 Southern African countries to discuss regional challenges, share experiences and knowledge, and build capacity for further collaboration.
+Each year DSA hosts [ConnectCon](https://digitalsociety.africa/connectcon/), an event which brings together organizations and individuals from 6 southern African countries to discuss regional challenges, share experiences and knowledge, and build capacity for further collaboration.
 
-If you want to learn more about DSA’s work, please check out their website: https://digitalsociety.africa/ 
+We encourage you to refer to DSA's website to learn more about their work: https://digitalsociety.africa/ 
 
 Meanwhile, we’ll be publishing more interviews with community members over the next months. Subscribe to our [YouTube channel](https://www.youtube.com/channel/UCQhDgj9wBf4_w5bWFvLlq-w?sub_confirmation=1) to stay tuned!
-
