@@ -25,7 +25,7 @@ support of the research of our [partners](https://ooni.org/partners).
 
 This is a **full-time 6-month contract position**, starting ASAP. The contract
 may be extended depending on the contractor’s performance and the availability
-of funds. The yearly contractor fee will be determined depending on the
+of funds. The contractor fee will be determined depending on the
 contractor’s relevant experience and expertise.
 
 **This is a fully remote position.** Even before the COVID-19 pandemic, the
