@@ -4,7 +4,7 @@ description: "The OONI team is looking for a junior backend developer to maintai
 author: "Arturo Filastò"
 date: "2024-06-27"
 tags: ["ooni", "job-opening", "backend developer"]
-categories: ["job"]
+categories: ["blog"]
 ---
 
 Are you a backend developer interested in defending human rights on the
