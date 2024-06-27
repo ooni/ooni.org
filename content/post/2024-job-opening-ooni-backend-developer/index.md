@@ -1,10 +1,10 @@
 ---
-title: "Job Opening: OONI Backend Developer"
-description: "The OONI team is looking for a backend developer to maintain and improve our backend infrastructure."
+title: "Job Opening: OONI Junior Backend Developer"
+description: "The OONI team is looking for a junior backend developer to maintain and improve our backend infrastructure."
 author: "Arturo Filastò"
-date: "2024-01-12"
+date: "2024-06-27"
 tags: ["ooni", "job-opening", "backend developer"]
-categories: ["job"]
+categories: ["blog"]
 ---
 
 Are you a backend developer interested in defending human rights on the
@@ -13,7 +13,7 @@ internet? We have a job opening for you!
 The [OONI](https://ooni.org/) team (a non-profit measuring internet censorship
 globally) is looking for a dedicated **Backend Developer** to work on our
 backend components and infrastructure, and to provide OONI data analysis
-support for our [research](https://ooni.org/reports/) efforts. 
+support for our [research](https://ooni.org/reports/) efforts.
 
 ## Job description
 
@@ -23,9 +23,9 @@ growing global coverage of measurements. You will also provide OONI data
 analysis support for OONI [research reports](https://ooni.org/reports/) and in
 support of the research of our [partners](https://ooni.org/partners).
 
-This is a **full-time 12-month contract position**, starting ASAP. The contract
+This is a **full-time 6-month contract position**, starting ASAP. The contract
 may be extended depending on the contractor’s performance and the availability
-of funds. The yearly contractor fee will be determined depending on the
+of funds. The contractor fee will be determined depending on the
 contractor’s relevant experience and expertise.
 
 **This is a fully remote position.** Even before the COVID-19 pandemic, the
@@ -41,14 +41,22 @@ comfortable working with people based in the Central European time zone.
 
 ### What you’ll do
 
-* Contribute to the design, implementation and maintenance of our backend components and infrastructure.
-* Help ensure the stability and reliability of our infrastructure: Create and maintain monitoring systems, and respond to alerts as needed. Troubleshoot issues and outages. 
-* Perform routine server maintenance. Procure and configure new infrastructure when necessary.
-* Provide OONI data analysis support for OONI [research reports](https://ooni.org/reports/) and in support of the research of our [partners](https://ooni.org/partners). 
-* Collaborate with OONI’s development team to optimize solutions for performance, security and maintenance.
-* Create new and enhance existing APIs to support building and improving upon OONI’s features and products.
+* Contribute to the design, implementation and maintenance of our backend
+  components and infrastructure.
+* Help ensure the stability and reliability of our infrastructure: Create and
+  maintain monitoring systems, and respond to alerts as needed. Troubleshoot
+issues and outages. 
+* Perform routine server maintenance. Procure and configure new infrastructure
+  when necessary.
+* Provide OONI data analysis support for OONI [research reports](https://ooni.org/reports/) and in support of the research of our
+[partners](https://ooni.org/partners). 
+* Collaborate with OONI’s development team to optimize solutions for
+  performance, security and maintenance.
+* Create new and enhance existing APIs to support building and improving upon
+  OONI’s features and products.
 * Participate in technical design documentation, and code reviews.
-* Work collaboratively with team members to contribute to OONI’s roadmap and priorities.
+* Work collaboratively with team members to contribute to OONI’s roadmap and
+  priorities.
 
 
 ## Required skills and qualifications
