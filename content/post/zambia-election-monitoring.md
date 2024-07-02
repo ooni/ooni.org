@@ -190,9 +190,9 @@ direct investment have
 economy in recent years, while the [*rate of
 inflation*](https://www.cia.gov/library/publications/the-world-factbook/geos/za.html)
 has increased. Corruption also appears to remain
-[*pervasive*](http://www.transparency.org/cpi2015) in the country
+[*pervasive*](https://www.transparency.org/en/cpi/2015/index/zmb) in the country
 despite [*anti-corruption
-efforts*](http://www.transparency.org/whatwedo/answer/overview_of_corruption_and_anti_corruption_in_zambia),
+efforts*](https://knowledgehub.transparency.org/helpdesk/overview-of-corruption-and-anti-corruption-in-zambia),
 such as the strengthening of legal and institutional frameworks.
 
 Multiple [*ethnic
