@@ -23,8 +23,8 @@ growing global coverage of measurements. You will also provide OONI data
 analysis support for OONI [research reports](https://ooni.org/reports/) and in
 support of the research of our [partners](https://ooni.org/partners).
 
-This is a **full-time 6-month contract position**, starting ASAP. The contract
-may be extended depending on the contractor’s performance and the availability
+This is a **full-time 6-month contract position**, starting ASAP. We will be reviewing applications on a rolling basis.
+The contract may be extended depending on the contractor’s performance and the availability
 of funds. The contractor fee will be determined depending on the
 contractor’s relevant experience and expertise.
 
@@ -61,8 +61,8 @@ issues and outages.
 
 ## Required skills and qualifications
 
-* 2-4 years of experience working as a Backend Developer in a similar environment. 
-* Extensive experience with python. 
+* Experience working as a Backend Developer in a similar environment. 
+* Experience with python. 
 * Experience implementing and maintaining monitoring and alerting systems. 
 * Have experience and be comfortable with others reviewing your code and design; have experience and be comfortable reviewing others' code.
 * Eager to learn and work collaboratively with the OONI team.
