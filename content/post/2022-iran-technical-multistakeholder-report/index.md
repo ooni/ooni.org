@@ -10,6 +10,8 @@ categories: ["report"]
 * **Contributors:** [OONI](https://ooni.org/), [IODA](https://ioda.inetintel.cc.gatech.edu/), [Measurement Lab (M-Lab)](https://www.measurementlab.net/), [Cloudflare](https://www.cloudflare.com/), [Kentik](https://www.kentik.com/), [Censored Planet](https://censoredplanet.org/), [ISOC](https://www.internetsociety.org/), [Article19](https://www.article19.org/)
 * **Facilitators:** European Commission, United States
 
+{{< oonibtn href="/documents/OONI-Iran-multi-stakeholder-report.pdf" text="Download in PDF" >}}
+
 This report shares empirical technical findings on the recent Internet
 shutdown events that emerged in Iran following the death of Jhina
 (Mahsa) Amini in September 2022. The report is intended to be the first
