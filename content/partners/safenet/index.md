@@ -3,7 +3,7 @@ continent: Asia
 country: Indonesia
 name: Southeast Asia Freedom of Expression Network (SAFEnet)
 title: SAFEnet
-website: [https://www.localizationlab.org/](https://safenet.or.id/)
+website: https://safenet.or.id/
 ---
 
 Southeast Asia Freedom of Expression Network (SAFEnet) is an Indonesian-based civil society working to defend digital rights in the Southeast Asia. Since 2013, SAFEnet has been intensively monitoring digital rights violations, particularly in Indonesia, and supporting victims of the violation as well building capacity for CSO's about the issue and advocationg digital-related policy in the country.
