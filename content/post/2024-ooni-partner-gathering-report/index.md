@@ -158,7 +158,7 @@ OONI was committed to providing a **safe, inclusive, and welcoming environment**
 
 The OONI Partner Gathering 2024 was an international, multidisciplinary event. Given that participants came from **30 different countries and cultures**, and from a diverse set of backgrounds, it was imperative to us that the event was as inclusive as possible to encourage participation and to ensure a pleasant and fruitful experience for all.
 
-We generally have a [Code of Conduct](https://ooni.org/get-involved/code-of-conduct/) that applies to all online and in-person OONI community spaces and events. However, we **adapted our Code of Conduct** to better meet the specific needs of the OONI Partner Gathering 2024 in Malaysia.
+We generally have a [Code of Conduct](https://ooni.org/get-involved/code-of-conduct/) that applies to all online and in-person OONI community spaces and events. However, we [**adapted our Code of Conduct**](./files/Information-Package-CoC-Privacy-Policy.pdf) to better meet the specific needs of the OONI Partner Gathering 2024 in Malaysia.
 
 We shared the event’s Code of Conduct with all participants prior to the event, and we discussed it during the OONI Partner Gathering Opening Plenary. We set up an **Incident Response Committee**, composed of two partners and two OONI team members. No violations were reported.
 
@@ -175,7 +175,7 @@ To **encourage active participation** in OONI Partner Gathering sessions, we:
 
 As a result, the OONI Partner Gathering 2024 agenda included a diversity of topics that accounted for the diversity in participant backgrounds, skills, interests, and expertise – ranging from advocacy and litigation to research and data analysis. 
 
-While OONI Partner Gathering sessions were facilitated in English, for most participants, English was their second (or third, or fifth!) language. We therefore shared **communication guidelines** with all participants prior to the event (and we discussed them during the event as well) to help encourage active participation and to avoid missing out on valuable insights.
+While OONI Partner Gathering sessions were facilitated in English, for most participants, English was their second (or third, or fifth!) language. We therefore shared [**communication guidelines**](./files/Information-Package-Communication-Tips.pdf) with all participants prior to the event (and we discussed them during the event as well) to help encourage active participation and to avoid missing out on valuable insights.
 
 Throughout the event, we noticed that some participants were drawing beautiful OONI-inspired art. We encouraged their creativity and asked all event participants to vote for their preferred artwork. The winner of this impromptu art competition received a limited-edition “Measure All the Things!” t-shirt. We thank participants for their beautiful artwork! 
 
@@ -370,3 +370,6 @@ While many participants praised the dynamic nature of the agenda (which included
 The OONI team would like to share a **warm thank you** to all participants who took time out of their busy schedules to fly across the world to join us in Kuala Lumpur for the OONI Partner Gathering 2024. Thanks to your invaluable feedback and participation, you made the event an unforgettable experience for us all.
 
 We also thank the [Ford Foundation](https://www.fordfoundation.org/) and [Luminate](https://www.luminategroup.com/) for supporting the OONI Partner Gathering 2024, believing in our mission, and making this event possible! 
+
+{{<img src="images/image11.jpg" title="OONI Partner Gathering 2024 bag" alt="OONI Partner Gathering 2024 bag">}}
+
