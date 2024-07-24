@@ -2,7 +2,7 @@
 title: "OONI Partner Gathering 2024 in Malaysia"
 description: "In 2024, OONI organized a Partner Gathering in Kuala Lumpur, Malaysia. As part of this 2-day event, we brought our partners from Asia and the Middle East together to exchange skills and knowledge and strengthen our collaborations on internet censorship research and advocacy."
 author: "Maria Xynou, Elizaveta Yachmeneva"
-date: "2024-07-25"
+date: "2024-07-24"
 tags: ["ooni", "partner gathering", "events"]
 categories: ["blog"]
 ---
