@@ -81,7 +81,7 @@ The agenda included a mixture of **skill-share sessions, presentations, hands-on
 
 To encourage more active participation in group discussions and to enable participants to share their knowledge, experience, needs, and feedback, the OONI Partner Gathering 2024 agenda did not include many OONI tool-specific skill-shares. For example, we did not include a session on [how to use OONI Probe](https://ooni.org/support/ooni-probe-mobile) because through our survey, the vast majority of participants shared that they feel _very confident_ in using [OONI Probe](https://ooni.org/install/). Rather, through our survey, most participants expressed interest in learning how to use [OONI Explorer](https://explorer.ooni.org/) and interpret OONI data, which is why we included relevant sessions in the agenda.
 
-Overall, the two-day OONI Partner Gathering 2024 event included **25 sessions**, 20 of which were part of the official [agenda](./files/OONI-Partner-Gathering-Agenda.pdf), while 5 were proposed and facilitated by participants as part of the “unconference” session slots. The sessions were facilitated by both the OONI team and our partners. Notably, 9 sessions (from the official agenda) were facilitated by 11 of our partners, who provided amazing presentations sharing their work! 
+Overall, the two-day OONI Partner Gathering 2024 event included **25 sessions**, 20 of which were part of the official [agenda](/documents/OONI-Partner-Gathering-Agenda.pdf), while 5 were proposed and facilitated by participants as part of the “unconference” session slots. The sessions were facilitated by both the OONI team and our partners. Notably, 9 sessions (from the official agenda) were facilitated by 11 of our partners, who provided amazing presentations sharing their work! 
 
 We thank all those who facilitated sessions and participated in note-taking, helping to ensure a dynamic, inclusive, interesting, and well-documented event. 
 
@@ -126,7 +126,7 @@ On the second day (9th May 2024), the OONI Partner Gathering included the follow
 | Unconference style sessions                                                                           | Throughout the duration of the event, participants had the opportunity to propose sessions (such as group discussions, skill-shares, or hands-on sessions) based on their ideas and needs. During the unconference style session slots, participants facilitated the following 5 sessions: (1) Measuring VPN protocols, (2) The impact of censorship on different groups. How should we record individual experiences of censorship?, (3) Ideas for gamifying internet measurement, (4) Mental health of digital rights activists, (5) Discussion of test list guidelines.                                                                                                                                                                          |
 | Closing remarks                                                                                       | To wrap up the event, participants shared final reflections and discussed next steps. All participants received a certificate for their participation at the OONI Partner Gathering 2024.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
-While a session on “strategic planning” was originally included in the official [agenda](./files/OONI-Partner-Gathering-Agenda.pdf) of the OONI Partner Gathering 2024, we decided (based on a group vote with participants) to skip this session in order to provide more time for the unconference style sessions (which were proposed by participants). Immediately after the event, we followed up with all participants, requesting their feedback and contributions to a shared document on strategic planning. 
+While a session on “strategic planning” was originally included in the official [agenda](/documents/OONI-Partner-Gathering-Agenda.pdf) of the OONI Partner Gathering 2024, we decided (based on a group vote with participants) to skip this session in order to provide more time for the unconference style sessions (which were proposed by participants). Immediately after the event, we followed up with all participants, requesting their feedback and contributions to a shared document on strategic planning. 
 
 We concluded Day 2 of the OONI Partner Gathering 2024 with a group dinner, which provided another opportunity for further socialization and networking!
 
@@ -135,7 +135,7 @@ We concluded Day 2 of the OONI Partner Gathering 2024 with a group dinner, which
 {{<img src="images/image4.jpg" title="Unconference session ideas" alt="Unconference session ideas">}}
 **Image:** Unconference session ideas documented by OONI Partner Gathering 2024 participants.
 
-Beyond the 20 sessions included in the official [agenda](./files/OONI-Partner-Gathering-Agenda.pdf), the OONI Partner Gathering 2024 also included 5 additional unconference style sessions, proposed by participants during the event.
+Beyond the 20 sessions included in the official [agenda](/documents/OONI-Partner-Gathering-Agenda.pdf), the OONI Partner Gathering 2024 also included 5 additional unconference style sessions, proposed by participants during the event.
 
 To provide space for discussions on ideas and needs that emerged during the event, we encouraged participants to take note of unconference style sessions that they would like to facilitate or participate in towards the end of Day 2. 
 
@@ -158,7 +158,7 @@ OONI was committed to providing a **safe, inclusive, and welcoming environment**
 
 The OONI Partner Gathering 2024 was an international, multidisciplinary event. Given that participants came from **30 different countries and cultures**, and from a diverse set of backgrounds, it was imperative to us that the event was as inclusive as possible to encourage participation and to ensure a pleasant and fruitful experience for all.
 
-We generally have a [Code of Conduct](https://ooni.org/get-involved/code-of-conduct/) that applies to all online and in-person OONI community spaces and events. However, we [**adapted our Code of Conduct**](./files/Information-Package-CoC-Privacy-Policy.pdf) to better meet the specific needs of the OONI Partner Gathering 2024 in Malaysia.
+We generally have a [Code of Conduct](https://ooni.org/get-involved/code-of-conduct/) that applies to all online and in-person OONI community spaces and events. However, we [**adapted our Code of Conduct**](/documents/Information-Package-CoC-Privacy-Policy.pdf) to better meet the specific needs of the OONI Partner Gathering 2024 in Malaysia.
 
 We shared the event’s Code of Conduct with all participants prior to the event, and we discussed it during the OONI Partner Gathering Opening Plenary. We set up an **Incident Response Committee**, composed of two partners and two OONI team members. No violations were reported.
 
@@ -175,7 +175,7 @@ To **encourage active participation** in OONI Partner Gathering sessions, we:
 
 As a result, the OONI Partner Gathering 2024 agenda included a diversity of topics that accounted for the diversity in participant backgrounds, skills, interests, and expertise – ranging from advocacy and litigation to research and data analysis. 
 
-While OONI Partner Gathering sessions were facilitated in English, for most participants, English was their second (or third, or fifth!) language. We therefore shared [**communication guidelines**](./files/Information-Package-Communication-Tips.pdf) with all participants prior to the event (and we discussed them during the event as well) to help encourage active participation and to avoid missing out on valuable insights.
+While OONI Partner Gathering sessions were facilitated in English, for most participants, English was their second (or third, or fifth!) language. We therefore shared [**communication guidelines**](/documents/Information-Package-Communication-Tips.pdf) with all participants prior to the event (and we discussed them during the event as well) to help encourage active participation and to avoid missing out on valuable insights.
 
 Throughout the event, we noticed that some participants were drawing beautiful OONI-inspired art. We encouraged their creativity and asked all event participants to vote for their preferred artwork. The winner of this impromptu art competition received a limited-edition “Measure All the Things!” t-shirt. We thank participants for their beautiful artwork! 
 
