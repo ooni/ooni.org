@@ -555,31 +555,51 @@ header .wordmark {
 /* ================================================================== */
 /* Blog */
 
-.blog-summary {
+.blog-title {
   margin-bottom: 2rem;
 }
 
-.blog-summary a {
-  display: block;
-  color: inherit;
+.blog-link {
+  margin-bottom: 2rem;
 }
 
-.blog-summary p.title {
+.blog-link-sm {
+  margin-bottom: 1rem; 
+}
+
+.blog-link-title {
+  display: block; 
+  color: inherit;
   margin-bottom: 0.2rem;
 }
 
-.blog-summary p.title-translation {
-    margin: 0;
-    padding: 0;
-    font-size: 0.8rem;
+.blog-link-title:hover {
+  color: inherit;
 }
 
-.blog-summary p.title-translation a {
+.blog-link-translations {
+    margin-bottom: 2px;
+    font-size: 0.875rem;
+}
+
+.blog-link-translations a {
   text-decoration: none;
   color: #0588cb;
 }
-.blog-summary p.title-translation a:hover {
+
+.blog-link-translations a:hover {
   text-decoration: underline;
+}
+
+.blog-link-translations a:first-child {
+  margin-left: 4px;
+}
+
+.blog-link-translations a:not(:last-child)::after {
+  display: inline-block;
+  content: '•';
+  color: #000;
+  margin: 0 4px;
 }
 
 h1.article-title {
@@ -587,8 +607,9 @@ h1.article-title {
 }
 
 .byline {
-  color: #c1c1c1;
-  font-size: 0.8rem;
+  color: #757575;
+  font-size: 0.875rem;
+  margin-bottom: 0;
 }
 
 .byline .author::after {
