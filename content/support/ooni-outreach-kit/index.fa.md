@@ -6,12 +6,12 @@
 بروشورهای معرفی OONI
 ما دو بروشور برای معرفی اونی طراحی کرده‌ایم که حاوی اطلاعاتی درباره استفاده از ابزارها و داده‌های OONI برای تحقیق در مورد سانسور اینترنت در سراسر جهان است.
 
-* بروشور OONI [نسخه کوتاه](<./files/FA/OONI Short Brochure for printing FA.pdf>)**, [printing file](<./files/FA/Short Brochure A4 2F FA.indd>)
-* بروشور OONI [نسخه کامل](<./files/FA/OONI Long Brochure for printing FA.pdf>)**,[printing file](<./files/FA/Long Brochure A5 booklet FA.indd>)
+* بروشور OONI [نسخه کوتاه](<./files/FA/OONI Short Brochure for printing FA.pdf>), [printing file](<./files/FA/Short Brochure A4 2F FA.indd>)
+* بروشور OONI [نسخه کامل](<./files/FA/OONI Long Brochure for printing FA.pdf>), [printing file](<./files/FA/Long Brochure A5 booklet FA.indd>)
 
 
 بروشور معرفی OONI Probe
-برای تشویق افراد به استفاده از OONI Probe، که یک نرم‌افزار رایگان برای اندازه‌گیری سانسور اینترنت است (https://ooni.org/install/) ما یک بروشور طراحی‌ کرده‌ایم که در یک نگاه اطلاعات کلی درباره OONI Probe را ارائه می‌کند. این بروشور افراد را به انجام تست‌ها خصوصا در زمان‌هایی که احتمال سانسور بیشتر است مانند برگزاری انتخابات، دعوت می‌کند تا بتوانیم فعالیت‌های احتمالی برای سانسور اینترنت را شناسایی و مستند کنیم.(https://ooni.org/documents/2022-ooni-submission-ohchr-report-internet-shutdowns.pdf)
+برای تشویق افراد به استفاده از OONI Probe، که یک نرم‌افزار رایگان برای اندازه‌گیری سانسور اینترنت است ما یک بروشور طراحی‌ کرده‌ایم که در یک نگاه اطلاعات کلی درباره [OONI Probe](https://ooni.org/install/) را ارائه می‌کند. این بروشور افراد را به انجام تست‌ها خصوصا در زمان‌هایی که احتمال سانسور بیشتر است مانند برگزاری انتخابات، دعوت می‌کند تا بتوانیم فعالیت‌های احتمالی برای سانسور اینترنت را شناسایی و مستند کنیم.
 
 * [بروشور معرفی اونی پراب](<./files/FA/OONI Probe Fact Sheet for printing FA.pdf>)
 * [فایل چاپی](<./files/OONI Probe Fact Sheet A5 back and front FA.indd>)
