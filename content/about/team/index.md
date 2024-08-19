@@ -19,8 +19,6 @@ submenu:
 
 {{<team-member name="Jessie Bonisteel" role="Senior Project Manager" email="jessie@ooni.org" img="images/jessie.jpg">}}
 
-{{<team-member name="Simone Basso" role="Senior Research Engineer" email="simone@ooni.org" pgpkey="738877AA6C829F26A431C5F480B691277733D95B" twitter="bassosimone" img="images/simone.jpg">}}
-
 {{<team-member name="Norbel Ambanumben" role="Mobile Developer" email="norbel@ooni.org" pgpkey="faf82a0736b1982f0de199efd312778944f4bb11" img="images/norbel.jpg">}}
 
 {{<team-member name="Maja Komel" role="Frontend Engineer" email="maja@ooni.org" pgpkey="A22363F51398A95B593F94C8231F093C7F5D7A45">}}
