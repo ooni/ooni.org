@@ -9,4 +9,4 @@ Investigate internet censorship around the world based on [OONI data](https://oo
 * Analyze OONI data to investigate internet censorship ([tutorial](https://ooni.org/notebooks/tutorial-russia-data-analysis-case-study.html) and [documentation on interpreting OONI data](https://ooni.org/support/interpreting-ooni-data/)). Please use the [OONI API](https://api.ooni.io/) for light-weight queries, and our [Amazon S3 bucket](https://ooni.org/post/mining-ooni-data) for batch analysis.
 * Join the **#ooni-data-analysis** channel on [Slack](https://slack.ooni.org/) or IRC to discuss your findings with other researchers.
 
-[OON Explorer Demo →](https://www.youtube.com/watch?v=6Rce-xshLac)
+[OONI Explorer Demo →](https://www.youtube.com/watch?v=6Rce-xshLac)
