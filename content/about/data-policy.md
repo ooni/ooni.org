@@ -6,7 +6,7 @@ aliases: ["/data-policy"]
 
 **Last modified:** February 23, 2024
 
-**Version:** 1.5.0
+**Version:** 1.6.0
 
 This Data Policy discloses and explains what data the [Open Observatory of
 Network Interference (OONI) project](https://ooni.org/) ("we", "us", or "our")
@@ -170,6 +170,8 @@ update to this Data Policy.
 ## OONI Probe
 
 ### Data We Collect
+
+If you create an [OONI Run](https://run.ooni.io/) v2 link, we will collect the email address that you use for the creation of that link. This enables OONI Probe users who receive your OONI Run link to trust it based on your email address (which is displayed in the OONI Run link you create). This can help reduce the risk of running malicious links. We do *not* collect your email address when you log into the [OONI Run](https://run.ooni.io/) platform, but only when you create an OONI Run link.
 
 We collect different types of network measurements when you run different types
 of OONI Probe tests. You can learn how each OONI Probe test works (and what
@@ -336,6 +338,10 @@ Data required for sending out push notifications will be stored separately on a
 secure database server operated by OONI (which is different from the public
 metadb that hosts OONI Probe measurements).
 
+If you create an [OONI Run](https://run.ooni.io/) v2 link, we will store the email address that you use for the creation of that link. This enables OONI Probe users who receive your OONI Run link to trust it based on your email address (which is displayed in the OONI Run link you create). This can help reduce the risk of running malicious links.
+
+We do *not* store your email address when you log into the [OONI Run](https://run.ooni.io/) platform, but only when you create an OONI Run link.
+
 ### Data We Publish
 
 We [publish](https://ooni.org/data/) ALL of the OONI Probe network measurement data that we have collected
@@ -348,7 +354,9 @@ web interface, called [OONI Explorer](https://explorer.ooni.org/).
 For more information on the license under which the data is released, see
 [github.com/ooni/license/data](https://github.com/ooni/license/tree/master/data).
 
-We will *not* publish data related to analytics and push notification support, both of which are securely stored separately from the public measurement metadb.
+We will *not* publish data related to analytics and push notification support, both of which are securely stored separately from the public measurement metadb. 
+
+The email address that you use to create an [OONI Run](https://run.ooni.io/) v2 link will be published in the link that you create. This enables OONI Probe users who receive your OONI Run link to trust it.
 
 ### Third-party services
 
