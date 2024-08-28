@@ -422,17 +422,17 @@ Her [adresin](https://ooni.org/support/glossary/#url) doğru yazıldığından e
 
 **2. adım.** Adres listenizi **kopyalayın** (metin düzenleyiciden).
 
-**3. adım.** **OONI Run** sitesine gidin: <https://run.ooni.io/>
+**3. adım.** **OONI Run** sitesine gidin: https://run.ooni.org/
 
 {{<img src="images/image-ooni-run.png" title="OONI Run landing page" alt="OONI Run landing page">}}
 
-**4. adım.** **OONI Run sayfasının ilk adres alanından ** "http://" seçin (ilk adresinizin biçimlendirmesinde çift "http" olmasını önlemek için).
+**4. adım.** **OONI Run sayfasının ilk adres alanından** "http://" seçin (ilk adresinizin biçimlendirmesinde çift "http" olmasını önlemek için).
 
 {{<img src="images/image50.png" title="Select URL OONI Run" alt="Select URL OONI Run">}}
 
 **5. adım.** Adres listenizi OONI Run sayfasının ilk adres alanına **yapıştırın**.
 
-Her adresin [OONI Run](https://run.ooni.io/) sayfasındaki farklı bir adres satırına yazıldığını görmelisiniz.
+Her adresin [OONI Run](https://run.ooni.org/) sayfasındaki farklı bir adres satırına yazıldığını görmelisiniz.
 
 {{<img src="images/image77.png" title="OONI Run custom list" alt="OONI Run custom list">}}
 

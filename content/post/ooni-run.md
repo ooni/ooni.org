@@ -8,7 +8,7 @@ categories: ["blog"]
 
 ![OONI Run](/post/ooni-run/ooni-run.png)
 
-Today we released **[OONI Run](https://run.ooni.io/)**, a website linked to an exciting new OONI Probe mobile app feature that enables you to:
+Today we released **[OONI Run](https://run.ooni.org/)**, a website linked to an exciting new OONI Probe mobile app feature that enables you to:
 
 * Engage your friends (and the world) to run censorship measurement tests
 
@@ -24,11 +24,11 @@ OONI Run includes a variety of [OONI Probe software tests](https://github.com/Th
 
 * Measure [video streaming performance](https://ooni.org/nettest/dash/)
 
-By choosing the tests that interest you and the sites you want to test, generate a link via [OONI Run](https://run.ooni.io/) and share it. Alternatively, embed the widget code to monitor the accessibility of your site. The global OONI Probe community can then respond!
+By choosing the tests that interest you and the sites you want to test, generate a link via [OONI Run](https://run.ooni.org/) and share it. Alternatively, embed the widget code to monitor the accessibility of your site. The global OONI Probe community can then respond!
 
 # Engage your friends
 
-With [OONI Run](https://run.ooni.io/), you can **choose which websites you want to test** for censorship. Simply select “Web Connectivity” and add as many URLs as you like.
+With [OONI Run](https://run.ooni.org/), you can **choose which websites you want to test** for censorship. Simply select “Web Connectivity” and add as many URLs as you like.
 
 ![OONI Run: Web Connectivity](/post/ooni-run/web-connectivity.png)
 
@@ -42,7 +42,7 @@ If they already have OONI Probe installed, the link will open their mobile app a
 
 **OONI Run can help build a global network for rapid response to emergent censorship events.** By tweeting a generated link, you can encourage the world to run the tests (and to test the sites) you’ve chosen.
 
-If you suspect that a site might be censored during political events, add that site to [OONI Run](https://run.ooni.io/), generate a link, and share it with people in that country. If you heard rumors of censorship, engage people in that country to collect data that can serve as evidence.
+If you suspect that a site might be censored during political events, add that site to [OONI Run](https://run.ooni.org/), generate a link, and share it with people in that country. If you heard rumors of censorship, engage people in that country to collect data that can serve as evidence.
 
 # Monitor your site
 
@@ -50,7 +50,7 @@ Perhaps your site has been blocked by some governments and you're unsure how the
 
 You can monitor the accessibility of your site through the following simple steps:
 
-* Select “Web Connectivity” on [OONI Run](https://run.ooni.io/)
+* Select “Web Connectivity” on [OONI Run](https://run.ooni.org/)
 
 * Add your site
 

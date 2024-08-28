@@ -4,7 +4,6 @@ description: "راهنمای کاربری برنامه موبایل OONI Probe"
 ---
 
 **آخرین به‌روز‌رسانی: ** 19 اکتبر 2022
-
 **نسخه موبایل OONI Probe:** 3.7.1
 
 {{<img src="images/image49.png" title="Measure Internet Censorship" alt="Measure Internet Censorship">}}
@@ -420,7 +419,7 @@ OONI Probe به طور خودکار تعیین می‌کند که کدام [لی
 
 **مرحله 2.** لیست آدرس‌های خود را (از ویرایشگر متن) **کپی کنید**.
 
-**مرحله 3.** از وب‌سایت **OONI Run** دیدن کنید: <https://run.ooni.io/>
+**مرحله 3.** از وب‌سایت **OONI Run** دیدن کنید: https://run.ooni.org/
 
 {{<img src="images/image-ooni-run.png" title="OONI Run landing page" alt="OONI Run landing page">}}
 
@@ -430,7 +429,7 @@ OONI Probe به طور خودکار تعیین می‌کند که کدام [لی
 
 **مرحله 5.** لیست آدرس‌های خود را در اولین فیلد آدرس صفحه OONI Run **پیست کنید**.
 
-اکنون باید ببینید که همه آدرس‌های شما هر ردیف آدرس را در صفحه [OONI Run](https://run.ooni.io/) پر کرده‌اند.
+اکنون باید ببینید که همه آدرس‌های شما هر ردیف آدرس را در صفحه [OONI Run](https://run.ooni.org/) پر کرده‌اند.
 
 {{<img src="images/image77.png" title="OONI Run custom list" alt="OONI Run custom list">}}
 

@@ -422,7 +422,7 @@ Um sicherzustellen, dass jede [URL](https://ooni.org/support/glossary/#url) korr
 
 **Schritt 2.** **Kopiere** deine Liste der URLs (aus deinem Texteditor).
 
-**Schritt 3.** Besuche die **OONI Run** Website: <https://run.ooni.io/>
+**Schritt 3.** Besuche die **OONI Run** Website: https://run.ooni.org/
 
 {{<img src="images/image-ooni-run.png" title="OONI Run landing page" alt="OONI Run landing page">}}
 
@@ -432,7 +432,7 @@ Um sicherzustellen, dass jede [URL](https://ooni.org/support/glossary/#url) korr
 
 **Schritt 5.** **Einfügen** deiner Liste von URLs in den ersten URL Slot der OONI Run Seite.
 
-Du solltest nun sehen, dass alle deine URLs jede URL-Zeile auf der Seite [OONI Run](https://run.ooni.io/) ausgefüllt haben.
+Du solltest nun sehen, dass alle deine URLs jede URL-Zeile auf der Seite [OONI Run](https://run.ooni.org/) ausgefüllt haben.
 
 {{<img src="images/image77.png" title="OONI Run custom list" alt="OONI Run custom list">}}
 

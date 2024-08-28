@@ -4,7 +4,7 @@
 
 {{<img src="images/image5.png" title="OONI Run" alt="OONI Run">}}
 
-[OONI Run](https://run.ooni.io/) is a web platform that you can use to generate mobile deep links and widget code to coordinate [OONI Probe](https://ooni.org/install/mobile) website testing. Specifically, you can use OONI Run to create links or widget code for:
+[OONI Run](https://run.ooni.org/) is a web platform that you can use to generate mobile deep links and widget code to coordinate [OONI Probe](https://ooni.org/install/mobile) website testing. Specifically, you can use OONI Run to create links or widget code for:
 
 * Testing websites (of your choice) for censorship;
 * Coordinating website censorship testing with other [OONI Probe](https://ooni.org/install/mobile) users.
@@ -12,7 +12,7 @@
 **OONI Run links only work with the [OONI Probe mobile app](https://ooni.org/install/mobile).** To learn how to
 use OONI Probe, please refer to our [OONI Probe mobile app user guide](https://ooni.org/support/ooni-probe-mobile).
 
-This user guide provides **step-by-step instructions** on how to use the [OONI Run](https://run.ooni.io/) platform for custom OONI Probe website testing.
+This user guide provides **step-by-step instructions** on how to use the [OONI Run](https://run.ooni.org/) platform for custom OONI Probe website testing.
 
 **What you will get from this guide:**
 
@@ -38,7 +38,7 @@ The following table of contents should help with navigating the guide.
 
 ## Creating OONI Run links
 
-[OONI Run](https://run.ooni.io/) enables you to generate a link to test websites (of your choice) for censorship. You can also share this link with other [OONI Probe mobile [app](https://ooni.org/install/mobile) users so that they can test those websites. The first step is to determine *which* websites you want to test.
+[OONI Run](https://run.ooni.org/) enables you to generate a link to test websites (of your choice) for censorship. You can also share this link with other [OONI Probe mobile [app](https://ooni.org/install/mobile) users so that they can test those websites. The first step is to determine *which* websites you want to test.
 
 **Step 1.** Create a list of websites in a text editor, where each URL is in a separate line. You do not need to separate URLs by commas or in any other way. Please see an example below.
 
@@ -61,13 +61,13 @@ If you don't have specific websites in mind, you can refer to the [public lists]
 
 **Step 2.** **Copy** your list of URLs (from your text editor).
 
-**Step 3.** Visit the **OONI Run** website: [https://run.ooni.io/](https://run.ooni.io/)
+**Step 3.** Visit the **OONI Run** website: [https://run.ooni.org/](https://run.ooni.org/)
 
 {{<img src="images/image5.png" title="OONI Run" alt="OONI Run">}}
 
 **Step 4.** **Paste** your list of URLs into the first URL slot of the OONI Run page.
 
-You should now see that all of your URLs have populated each URL row in the [OONI Run](https://run.ooni.io/) page.
+You should now see that all of your URLs have populated each URL row in the [OONI Run](https://run.ooni.org/) page.
 
 {{<img src="images/image10.png" title="List of URLs" alt="List of URLs">}}
 
