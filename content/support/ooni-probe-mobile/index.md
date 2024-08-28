@@ -422,7 +422,7 @@ To ensure that each [URL](https://ooni.org/support/glossary/#url) is typed accur
 
 **Step 2.** **Copy** your list of URLs (from your text editor).
 
-**Step 3.** Visit the **OONI Run** website: <https://run.ooni.io/>
+**Step 3.** Visit the **OONI Run** website: https://run.ooni.org/
 
 {{<img src="images/image-ooni-run.png" title="OONI Run landing page" alt="OONI Run landing page">}}
 
@@ -432,7 +432,7 @@ To ensure that each [URL](https://ooni.org/support/glossary/#url) is typed accur
 
 **Step 5.** **Paste** your list of URLs into the first URL slot of the OONI Run page.
 
-You should now see that all of your URLs have populated each URL row in the [OONI Run](https://run.ooni.io/) page.
+You should now see that all of your URLs have populated each URL row in the [OONI Run](https://run.ooni.org/) page.
 
 {{<img src="images/image77.png" title="OONI Run custom list" alt="OONI Run custom list">}}
 
@@ -860,7 +860,7 @@ You will see that push notifications are disabled by default.
 
 {{<img src="images/image71.jpg" title="Enable notifications" alt="Enable notifications">}}
 
-By enabling push notifications, you may receive a message from us when and if we hear of a case of internet censorship in your country. In our message, we may provide an [OONI Run](https://run.ooni.io/) link for the testing of the specific services which are reportedly or seemingly blocked.
+By enabling push notifications, you may receive a message from us when and if we hear of a case of internet censorship in your country. In our message, we may provide an [OONI Run](https://run.ooni.org/) link for the testing of the specific services which are reportedly or seemingly blocked.
 
 ### Automated testing
 

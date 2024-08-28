@@ -422,7 +422,7 @@ Một vài điều cần lưu ý:
 
 **Bước 2.** **Sao chép** danh sách URL của bạn (từ trình biên tập).
 
-**Bước 3.** Vào trang **OONI Run**: <https://run.ooni.io/>
+**Bước 3.** Vào trang **OONI Run**: https://run.ooni.org/
 
 {{<img src="images/image-ooni-run.png" title="OONI Run landing page" alt="OONI Run landing page">}}
 
@@ -432,7 +432,7 @@ Một vài điều cần lưu ý:
 
 **Bước 5.** **Dán** danh sách URL của bạn vào hàng URL đầu tiên trong trang OONI Run.
 
-Bây giờ bạn sẽ thấy tất cả URL hiển thị từng hàng một trong trang [OONI Run](https://run.ooni.io/).
+Bây giờ bạn sẽ thấy tất cả URL hiển thị từng hàng một trong trang [OONI Run](https://run.ooni.org/.
 
 {{<img src="images/image77.png" title="OONI Run custom list" alt="OONI Run custom list">}}
 

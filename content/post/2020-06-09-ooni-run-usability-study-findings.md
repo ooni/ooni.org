@@ -13,7 +13,7 @@ enabletoc: true
 ---
 ![](/images/uploads/dscf7168.jpg)
 
-[OONI Run](https://ooni.org/post/ooni-run/) is a platform ([launched](https://ooni.org/post/ooni-run/) in September 2017) that you can use to generate mobile deep links and widget code to coordinate [OONI Probe](https://ooni.org/install/) testing. To enable community members to more effectively use[ OONI Run](https://run.ooni.io/), we researched its limitations and collected structured community feedback through an [OONI Run usability study](https://ooni.org/post/2020-ooni-run-survey-and-interviews/).
+[OONI Run](https://ooni.org/post/ooni-run/) is a platform ([launched](https://ooni.org/post/ooni-run/) in September 2017) that you can use to generate mobile deep links and widget code to coordinate [OONI Probe](https://ooni.org/install/) testing. To enable community members to more effectively use[ OONI Run](https://run.ooni.org/), we researched its limitations and collected structured community feedback through an [OONI Run usability study](https://ooni.org/post/2020-ooni-run-survey-and-interviews/).
 
 This report outlines the objectives, personas, assumptions, and methods of this study.
 
@@ -27,32 +27,32 @@ We also share the outcomes based on the analysis of information collected throug
 
 ## Objectives
 
-The overarching objective of the [OONI Run](https://run.ooni.io/) usability study (conducted in April and May 2020) is to better support decentralized community efforts around the world in coordinating [OONI Probe](https://ooni.org/install/) censorship measurement efforts.
+The overarching objective of the [OONI Run](https://run.ooni.org/) usability study (conducted in April and May 2020) is to better support decentralized community efforts around the world in coordinating [OONI Probe](https://ooni.org/install/) censorship measurement efforts.
 
 More specifically, through this usability study, we aim to improve our understanding of:
 
 * Community **needs** with regards to coordinating and participating in censorship measurement campaigns;
 * Challenges that community members have experienced when **generating and sharing OONI Run links** to coordinate censorship measurement campaigns (i.e. OONI Run testing coordinators);
 * Challenges that community members have experienced when **receiving and using OONI Run links** (i.e. OONI Run testing participants);
-* Challenges that community members experience when attempting to use the [OONI Run platform](https://run.ooni.io/) for the first time (inexperienced OONI Run users).
+* Challenges that community members experience when attempting to use the [OONI Run platform](https://run.ooni.org/) for the first time (inexperienced OONI Run users).
 
-Based on community feedback collected through this usability study, we aim to release an improved version of [OONI Run](https://run.ooni.io/) that is more usable and useful to the internet freedom community, supporting the coordination of censorship measurement campaigns and promoting rapid response to emergent censorship events around the world.
+Based on community feedback collected through this usability study, we aim to release an improved version of [OONI Run](https://run.ooni.org/) that is more usable and useful to the internet freedom community, supporting the coordination of censorship measurement campaigns and promoting rapid response to emergent censorship events around the world.
 
 ## Personas
 
 To meet the aforementioned objectives, this study involved the following 3 user personas:
 
-1. **Measurement campaign coordinator.** Experienced [OONI Probe](https://ooni.org/install/) users who generate and share OONI Run links. This includes researchers, human rights defenders, journalists, and technologists who are part of the broader internet freedom community and who are long-term OONI Probe users. This persona has experience coordinating OONI Probe censorship measurement campaigns by generating and sharing [OONI Run](https://run.ooni.io/) links with other OONI Probe users, often leading up to and during political events (such as elections and protests).
-2. **Measurement campaign volunteer.** [OONI Probe](https://ooni.org/install/) users who receive [OONI Run](https://run.ooni.io/) links (from measurement campaign coordinators) and participate in censorship measurement campaigns by running the tests and/or testing the URLs included in the shared OONI Run link(s). This persona may include individuals that participate in the broader internet freedom community, or who otherwise care about human rights.
-3. **Internet freedom community member.** Researchers, human rights defenders, journalists, lawyers, and technologists who are part of the broader internet freedom community and who use [OONI Probe](https://ooni.org/install/) to measure internet censorship. They don’t have experience using [OONI Run](https://run.ooni.io/), but could potentially be interested in using OONI Run to generate and share custom links, or to receive OONI Run links to perform customized testing.
+1. **Measurement campaign coordinator.** Experienced [OONI Probe](https://ooni.org/install/) users who generate and share OONI Run links. This includes researchers, human rights defenders, journalists, and technologists who are part of the broader internet freedom community and who are long-term OONI Probe users. This persona has experience coordinating OONI Probe censorship measurement campaigns by generating and sharing [OONI Run](https://run.ooni.org/) links with other OONI Probe users, often leading up to and during political events (such as elections and protests).
+2. **Measurement campaign volunteer.** [OONI Probe](https://ooni.org/install/) users who receive [OONI Run](https://run.ooni.org/) links (from measurement campaign coordinators) and participate in censorship measurement campaigns by running the tests and/or testing the URLs included in the shared OONI Run link(s). This persona may include individuals that participate in the broader internet freedom community, or who otherwise care about human rights.
+3. **Internet freedom community member.** Researchers, human rights defenders, journalists, lawyers, and technologists who are part of the broader internet freedom community and who use [OONI Probe](https://ooni.org/install/) to measure internet censorship. They don’t have experience using [OONI Run](https://run.ooni.org/), but could potentially be interested in using OONI Run to generate and share custom links, or to receive OONI Run links to perform customized testing.
 
 The main thing that the three user personas have in common is that they have all used [OONI Probe](https://ooni.org/install/) to measure internet censorship. The first two user personas participate in censorship measurement campaigns, whether by coordinating them or by participating in them as a volunteer. The third user persona includes individuals who have not participated in a censorship measurement campaign before, but may potentially be interested in doing so (which is why it’s important to collect their feedback too).
 
 ## Assumptions
 
-We started off by taking note of the assumptions we have around the challenges that users currently face when using the [OONI Run](https://run.ooni.io/) platform. By being aware of these assumptions we are able to validate if they are true and, more importantly, challenge them to learn if they are misguided.
+We started off by taking note of the assumptions we have around the challenges that users currently face when using the [OONI Run](https://run.ooni.org/) platform. By being aware of these assumptions we are able to validate if they are true and, more importantly, challenge them to learn if they are misguided.
 
-Based on past community feedback, the main challenges that we suspect [OONI Run](https://run.ooni.io/) users face are the following:
+Based on past community feedback, the main challenges that we suspect [OONI Run](https://run.ooni.org/) users face are the following:
 
 1. Issues related to sharing OONI Run links due to their length;
 2. Issues related to triggering the mobile app deep link and opening the OONI Probe mobile app;
@@ -73,7 +73,7 @@ As part of this study, our aim was to improve our understanding of the challenge
 
 ## Methods
 
-Between 23rd April 2020 to 15th May 2020, we conducted an OONI Run usability study with community members to explore the limitations to the current [OONI Run](https://run.ooni.io/) link format and collect community feedback for improvement.
+Between 23rd April 2020 to 15th May 2020, we conducted an OONI Run usability study with community members to explore the limitations to the current [OONI Run](https://run.ooni.org/) link format and collect community feedback for improvement.
 
 This study involved the following two methods:
 
@@ -92,10 +92,10 @@ The following factors though need to be taken into consideration:
 
 * **Audiences.** The OONI Probe mobile app is widely used by diverse audiences (possibly even by people who are just interested in its speed test, expanding beyond the internet freedom community), while OONI Run is a tool that is primarily meant to be used by people (e.g. activists) interested in coordinating censorship measurement campaigns. The target audience of OONI Run is therefore far more narrow than that of OONI Probe. This is also why we sent push notifications to share the OONI Probe mobile app survey, but refrained from doing so with the OONI Run survey.
 * **Functionality.** The OONI Probe mobile app includes a variety of censorship measurement and performance tests, and users can access the test results in the app. OONI Run, on the other hand, has limited functionality: it only creates mobile deep links and widget code (which are used with OONI Probe).
-* **Survey questions.** Our previous [OONI Probe mobile app survey](https://ooni.typeform.com/to/a1P0cn) consisted of questions that were broad enough that anyone with any level of OONI Probe experience could probably respond with relative ease. Our [OONI Run survey](https://ooni.typeform.com/to/r9c5ee), on the other hand, consisted of specialized and platform-specific questions that required prior experience with [OONI Run](https://run.ooni.io/) (either as a measurement campaign coordinator or volunteer). In other words, most OONI Probe users probably couldn’t complete this survey. This is evident by the fact that 86 people started the survey, but only 30 completed it, with the highest drop-off rate being at the first question that was platform-specific (and made it clear that previous experience with OONI Run was essential to complete the survey).
+* **Survey questions.** Our previous [OONI Probe mobile app survey](https://ooni.typeform.com/to/a1P0cn) consisted of questions that were broad enough that anyone with any level of OONI Probe experience could probably respond with relative ease. Our [OONI Run survey](https://ooni.typeform.com/to/r9c5ee), on the other hand, consisted of specialized and platform-specific questions that required prior experience with [OONI Run](https://run.ooni.org/) (either as a measurement campaign coordinator or volunteer). In other words, most OONI Probe users probably couldn’t complete this survey. This is evident by the fact that 86 people started the survey, but only 30 completed it, with the highest drop-off rate being at the first question that was platform-specific (and made it clear that previous experience with OONI Run was essential to complete the survey).
 * **Survey length.** As our [OONI Probe mobile app survey](https://ooni.typeform.com/to/a1P0cn) was geared towards a broad audience and we were optimizing for receiving as many responses as possible, we only included 7 questions in the survey. In our [OONI Run survey](https://ooni.typeform.com/to/r9c5ee), on the other hand, we tried to collect as much platform-specific quantitative information as possible, which is why we included 18 questions in the survey (many of which were multiple-choice). This, however, meant that completing the OONI Run survey required a longer time commitment (in comparison to our OONI Probe mobile app survey).
 
-Our [OONI Run survey](https://ooni.typeform.com/to/r9c5ee) was therefore primarily completed by community members with both experience and interest in using [OONI Run](https://run.ooni.io/). We summarize the survey findings below.
+Our [OONI Run survey](https://ooni.typeform.com/to/r9c5ee) was therefore primarily completed by community members with both experience and interest in using [OONI Run](https://run.ooni.org/). We summarize the survey findings below.
 
 ### OONI Run usage: Overview
 
@@ -203,7 +203,7 @@ The suggestions and feature requests provided by survey respondents are summariz
 
 As part of our OONI Run usability study, we interviewed 16 community members to collect more in-depth feedback.
 
-The interview participants included experienced OONI Run users (measurement campaign coordinators and volunteers), as well as internet freedom community members who use [OONI Probe](https://ooni.org/install/) to measure internet censorship, but who have not used [OONI Run](http://run.ooni.io/) before.
+The interview participants included experienced OONI Run users (measurement campaign coordinators and volunteers), as well as internet freedom community members who use [OONI Probe](https://ooni.org/install/) to measure internet censorship, but who have not used [OONI Run](https://run.ooni.org/) before.
 
 As these different user personas have different experiences (or lack thereof) with OONI Run, we prepared separate interview questions for each group. In all cases, the second part of the interviews (following a set of more high-level questions) involved hands-on use of the OONI Run platform, so that we could observe the challenges and needs associated with using the tool in practice.
 
@@ -269,7 +269,7 @@ Most participants mentioned that they ***primarily share OONI Run links via emai
 
 #### Challenges
 
-Interview participants (who are experienced [OONI Run](https://run.ooni.io/) users) shared that they have encountered the following challenges when using the OONI Run platform:
+Interview participants (who are experienced [OONI Run](https://run.ooni.org/) users) shared that they have encountered the following challenges when using the OONI Run platform:
 
 * **Long OONI Run links break when shared (and forwarded) on instant messaging platforms.** This challenge was expressed by almost all interview participants. They mentioned that messaging apps, such as Telegram, Signal, WhatsApp, and Facebook Messenger, break long OONI Run links (by cutting part of them). They also mentioned that OONI Run links break when shared on IRC. All participants, however, mentioned that OONI Run links have never broken when shared via email, and that email clients serve as their most reliable option for sharing long OONI Run links.
 * **Coordinating the testing of multiple (shorter) OONI Run links.** As a result of long OONI Run links breaking, many interview participants mentioned that they have had to generate and share multiple short OONI Run links instead. However, coordinating testing based on multiple links (as opposed to one), and ensuring that all links are tested equally and frequently, is a challenge. This then resulted in unequal or limited measurement coverage.
@@ -382,7 +382,7 @@ In the following sections, we share the main interview findings around OONI Run 
 
 Interview participants mentioned that they use [OONI Probe](https://ooni.org/install/) for research and advocacy purposes, primarily with the goal of measuring the blocking of websites and apps. Some interview participants mentioned that they also run OONI Probe for its middlebox and performance tests, as part of their broader research efforts to examine net neutrality violations. A few of the interview participants mentioned that they facilitate OONI workshops and engage their local communities with censorship measurement research and advocacy.
 
-When asked whether they ever had the need to coordinate censorship measurement (such as the testing of specific websites in a particular country, region, or network), several participants mentioned that they did, but that they weren’t familiar with [OONI Run](https://run.ooni.io/). These interview participants shared that they would find it useful to coordinate testing among their partner networks, particularly leading up to and during political events (such as elections). Quite similarly, other interview participants mentioned that they have had the need to coordinate OONI Probe testing on several occasions when specific websites were reported blocked in foreign countries (and they wanted to collect relevant measurements). Other interview participants mentioned that they would find the coordination of testing useful in order to perform tests on more networks and regions (that they don’t personally have easy access to).
+When asked whether they ever had the need to coordinate censorship measurement (such as the testing of specific websites in a particular country, region, or network), several participants mentioned that they did, but that they weren’t familiar with [OONI Run](https://run.ooni.org/). These interview participants shared that they would find it useful to coordinate testing among their partner networks, particularly leading up to and during political events (such as elections). Quite similarly, other interview participants mentioned that they have had the need to coordinate OONI Probe testing on several occasions when specific websites were reported blocked in foreign countries (and they wanted to collect relevant measurements). Other interview participants mentioned that they would find the coordination of testing useful in order to perform tests on more networks and regions (that they don’t personally have easy access to).
 
 Once we shared the OONI Run website (run.ooni.io) with participants, we asked them to access the site and share their screen with us. The goal of this exercise was to observe, in practice, how a new user interacts with the OONI Run platform for the first time (and acquire feedback from a fresh perspective).
 
@@ -398,13 +398,13 @@ Interestingly, several participants clicked on the “Done” button inside the 
 
 ![](/images/uploads/window.png)
 
-**Image:** OONI Run pop-up window upon generating a mobile deep link and widget code, <https://run.ooni.io/>
+**Image:** OONI Run pop-up window upon generating a mobile deep link and widget code, https://run.ooni.org/
 
 Upon **clicking the “Link” button** inside the pop-up window, many interview participants were **confused by the page** that they landed on (accessed from a desktop browser). That page told them to install OONI Probe, but they were puzzled because they ***already had the OONI Probe app installed***. Some participants even had *both* the OONI Probe [desktop](https://ooni.org/install/desktop) and [mobile](https://ooni.org/install/mobile) apps installed, finding this page particularly confusing. When clicking on the “Run” button on that page (from a desktop browser), nothing happened. It was therefore unclear to them how to proceed.
 
 ![](https://lh6.googleusercontent.com/UnMzKVG8YMY-iC9LNBjnMQljeZ4IqICY4RLHVmzCVxyFG7bqGstgdlDtxOxMWjGbcK71AITvPb3MCc335d1hwFJhVpPQC80HQ3jR_jIacL1yIUo7XWUCRd9cFPgkziq4Y0Etnpsc)
 
-**Image:** OONI Run page (when accessed from a desktop browser) based on generated OONI Run link, <https://run.ooni.io/>
+**Image:** OONI Run page (when accessed from a desktop browser) based on generated OONI Run link, https://run.ooni.org/
 
 Since the purpose and functionality of OONI Run was not immediately clear, the use of the generated widget code was not clear either. However, once participants understood the goal and functionality of OONI Run, several participants understood how they would use the generated widget code as well.
 
@@ -412,7 +412,7 @@ Overall, many interview participants mentioned that for first-time users, OONI R
 
 #### Challenges
 
-While interacting with the [OONI Run](https://run.ooni.io/) platform for the first time, interview participants experienced the following challenges:
+While interacting with the [OONI Run](https://run.ooni.org/) platform for the first time, interview participants experienced the following challenges:
 
 * **Unclear what OONI Run is about and what you are supposed to do.** Most interview participants expressed confusion, as it was not immediately clear what OONI Run was about and what they were expected to do.
 * **OONI Run looks like a “web browser version” of OONI Probe.** Through the OONI Run website, many interview participants expected that they could run OONI Probe tests from their browser. They therefore tried clicking on the “Web Connectivity” test option, expecting to be able to run tests. Similarly to the OONI Probe apps, they also expected that they would gain access to the test results through OONI Run.

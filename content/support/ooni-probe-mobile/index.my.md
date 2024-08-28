@@ -420,7 +420,7 @@ OONI Probe သည် သင့်စိတ်ကြိုက်ရွေးခ�
 
 **အဆင့်(၂)**။ (သင့် စာသားတည်းဖြတ်မှုမှ) သင့်URLs များစာရင်းကို **ကူးယူပါ**။ 
 
-**အဆင့်(၃)**။ **OONI Run** ဝဘ်ဆိုက်: https://run.ooni.io/ သို့ဝင်ရောက်ကြည့်ရှုပါ။ 
+**အဆင့်(၃)**။ **OONI Run** ဝဘ်ဆိုက်: https://run.ooni.org/ သို့ဝင်ရောက်ကြည့်ရှုပါ။ 
 
 {{<img src="images/image-ooni-run.png" title="OONI Run landing page" alt="OONI Run landing page">}}
 
@@ -430,7 +430,7 @@ OONI Probe သည် သင့်စိတ်ကြိုက်ရွေးခ�
 
 **အဆင့်(၅)**။ OONI Run page ၏ ပထမဆုံး URL slot ထဲသို့ သင့် URLsများစာရင်းကို **ကူးထည့်** ပါ။ 
 
-သင့် URLs များအားလုံးသည် [OONI Run](https://run.ooni.io/) စာမျက်နှာတွင် URL row တစ်ခုစီကို ဖြည့်သွင်းထားကြောင်း သင်ယခုမြင်တွေ့ရမည်ဖြစ်သည်။ 
+သင့် URLs များအားလုံးသည် [OONI Run](https://run.ooni.org/) စာမျက်နှာတွင် URL row တစ်ခုစီကို ဖြည့်သွင်းထားကြောင်း သင်ယခုမြင်တွေ့ရမည်ဖြစ်သည်။ 
 
 {{<img src="images/image77.png" title="OONI Run custom list" alt="OONI Run custom list">}}
 
