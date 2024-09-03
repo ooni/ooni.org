@@ -13,7 +13,7 @@ In this report, we share OONI censorship measurement findings and relevant legal
 
 {{<table-of-contents>}}
 
-## **Key Findings** {#key-findings}
+## **Key Findings** 
 
 Our analysis of [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-06-01&until=2024-06-01&time_grain=day&probe_cc=KZ) collected from Kazakhstan over the past year (between 1st June 2023 to 1st June 2024) reveals the following:
 * **TLS Man-In-The-Middle (MITM) attacks.** We [documented the use of the latest government-mandated root certificate authority (CA)](https://explorer.ooni.org/m/20210808015758.022737_KZ_webconnectivity_3b9213f9ee4f2d06) – and its use to emit 6 distinct intermediate certificates – that were used to carry out TLS man-in-the-middle (MITM) attacks, targeting at least 14 distinct domain names on at least 19 different networks in Kazakhstan. 
@@ -27,7 +27,7 @@ Our analysis of [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_co
 
 The results of our analysis show that most ISPs in Kazakhstan appear to implement blocks by means of **TLS interference**, specifically by [timing out the session after the Client Hello message during the TLS handshake](https://explorer.ooni.org/m/20240514233718.029308_KZ_webconnectivity_007c5a9f4031213d). As the timing of the blocks and the types of URLs blocked are (mostly) consistent across (tested) networks, ISPs in Kazakhstan likely implement blocks in a coordinated manner (possibly through the use of Deep Packet Inspection technology). Coordination among ISPs in Kazakhstan is further suggested by the fact that we found the same certificate used by 19 distinct ISPs to implement TLS MITM attacks.
 
-## **Introduction** {#introduction}
+## **Introduction** 
 
 Internet censorship in Kazakhstan has been reported quite extensively over the past few years. In 2019, for example, Reporters Without Borders (RSF) published an [article](https://rsf.org/en/heavy-internet-censorship-kazakhstan) condemning the blocking of news media websites and social media platforms in Kazakhstan amid opposition protests. Freedom House’s [Freedom on the Net 2023 report](https://freedomhouse.org/country/kazakhstan/freedom-net/2023) documented many more blocking cases in Kazakhstan, including the blocking of news media websites and censorship circumvention tools. Censored Planet published a [research paper](https://censoredplanet.org/assets/Kazakhstan.pdf) documenting large scale HTTPS interception in Kazakhstan, while OONI published a [report](https://ooni.org/post/2023-throttling-kz-elections/) on the throttling of news media websites during Kazakhstan’s 2022 presidential election. 
 
@@ -691,19 +691,19 @@ When determining the jurisdiction of cases on the recognition of products of for
 
 In addition, it should be noted that according to Article 466 of the Civil Law Code of the Republic of Kazakhstan, the courts of the Republic of Kazakhstan also consider cases with the participation of foreign citizens in cases where: 
 
-1) the management body, branch or representative office of the foreign person is located in the territory of the Republic of Kazakhstan; 
+1. the management body, branch or representative office of the foreign person is located in the territory of the Republic of Kazakhstan; 
 
-2) the defendant has property in the territory of the Republic of Kazakhstan;
-
-[...]
-
-6) the claim arises from a contract under which full or partial performance must take place or has taken place in the territory of the Republic of Kazakhstan; 
+2. the defendant has property in the territory of the Republic of Kazakhstan;
 
 [...]
 
-**9) in a case on protection of honour, dignity and business reputation, the plaintiff is a resident of the Republic of Kazakhstan;**
+6. the claim arises from a contract under which full or partial performance must take place or has taken place in the territory of the Republic of Kazakhstan; 
 
-10) in a case for the protection of the privacy rights, including compensation for losses and (or) compensation for moral damage, the plaintiff is a resident of the Republic of Kazakhstan.
+[...]
+
+**9. in a case on protection of honour, dignity and business reputation, the plaintiff is a resident of the Republic of Kazakhstan;**
+
+10. in a case for the protection of the privacy rights, including compensation for losses and (or) compensation for moral damage, the plaintiff is a resident of the Republic of Kazakhstan.
 
 Also, the termination of access to Internet resources may be carried out through the special proceedings, i.e. without the presence of the defendant.
 
