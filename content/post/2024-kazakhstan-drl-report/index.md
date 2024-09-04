@@ -697,11 +697,11 @@ In addition, it should be noted that according to Article 466 of the Civil Law C
 
 [...]
 
-6. the claim arises from a contract under which full or partial performance must take place or has taken place in the territory of the Republic of Kazakhstan; 
+6. the claim arises from a contract under which full or partial performance must take place or has taken place in the territory of the Republic of Kazakhstan;
 
 [...]
 
-**9. in a case on protection of honour, dignity and business reputation, the plaintiff is a resident of the Republic of Kazakhstan;**
+9. **in a case on protection of honour, dignity and business reputation, the plaintiff is a resident of the Republic of Kazakhstan;**
 
 10. in a case for the protection of the privacy rights, including compensation for losses and (or) compensation for moral damage, the plaintiff is a resident of the Republic of Kazakhstan.
 
@@ -1057,7 +1057,7 @@ It is practically impossible to completely restrict access to all circumvention 
 
 An analysis of the usage and restrictions of VPNs, proxies and anonymizers in Kazakhstan [shows](https://drfl.kz/ru/lokdaun-zhizn-bez-vpn/) that legislative measures aimed at blocking these technologies often contradict social and technological realities. Despite the official ban, such services remain in demand among users, especially in the context of political instability and increased Internet censorship.
 
-## **Conclusion** {#conclusion}
+## **Conclusion** 
 
 Our network measurement findings corroborate previous [reports](https://freedomhouse.org/country/kazakhstan/freedom-net/2023) on the blocking of news media websites, petition sites, and circumvention tool sites in Kazakhstan. Specifically, as part of our analysis, we found **17 news media websites** (including [Vice News](https://explorer.ooni.org/chart/mat?probe_cc=KZ&since=2023-06-01&until=2024-06-01&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.vice.com), a few [Kyrgyz news media sites](https://explorer.ooni.org/chart/mat?probe_cc=KZ&since=2023-06-01&until=2024-06-01&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=kloop.kg), and many [Russian news media sites](https://explorer.ooni.org/chart/mat?probe_cc=KZ&since=2023-06-01&until=2024-06-01&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=kz.tsargrad.tv)), the [Russian language edition of Amnesty International’s website](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-06-01&until=2024-06-01&time_grain=day&probe_cc=KZ&domain=amnesty.org.ru), several **petition sites** (`www.change.org`, `www.ipetitions.com`, and `egov.press`), and **73 circumvention tool websites **(including [NordVPN](https://explorer.ooni.org/chart/mat?probe_cc=KZ&since=2023-06-01&until=2024-06-01&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=nordvpn.com), [ExpressVPN](https://explorer.ooni.org/chart/mat?probe_cc=KZ&since=2023-06-01&until=2024-06-01&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.expressvpn.com), [ProtonVPN](https://explorer.ooni.org/chart/mat?probe_cc=KZ&since=2023-06-01&until=2024-06-01&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=protonvpn.com), [OpenVPN](https://explorer.ooni.org/chart/mat?probe_cc=KZ&since=2023-06-01&until=2024-06-01&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=openvpn.net), [TunnelBear](https://explorer.ooni.org/chart/mat?probe_cc=KZ&since=2023-06-01&until=2024-06-01&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=www.tunnelbear.com), and [Surfshark VPN](https://explorer.ooni.org/chart/mat?probe_cc=KZ&since=2023-06-01&until=2024-06-01&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=surfshark.com)) blocked in Kazakhstan between June 2023 to June 2024. 
 
