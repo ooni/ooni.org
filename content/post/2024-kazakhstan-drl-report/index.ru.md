@@ -1,7 +1,7 @@
 ---
 title: "Казахстан: TLS MITM атаки и блокировка сайтов новостных и правозащитных ресурсов, а также сайтов инструментов по обходу блокировок"
 description: "Этот отчет анализирует данные OONI о новых блокировках сайтов медиа, правозащитных проектов и средств по обходу блокировок, произошедших в Казахстане."
-author: "Yelzhan Kabyshev (Head of Legal Practice, Eurasian Digital Foundation; Manager of the Human Rights Project "Internet Freedom Kazakhstan"), Ruslan Daiyrbekov (Founder, Eurasian Digital Foundation), Vadim Melyakov (Analyst, Eurasian Digital Foundation, Specialist in International Relations), Igor Loskutov (Head of the Legal Department, InfoTech&Service LLP), Maria Xynou (OONI), Elizaveta Yachmeneva (OONI), Arturo Filastò (OONI), Mehul Gulati (OONI)"
+author: "Yelzhan Kabyshev (Head of Legal Practice, Eurasian Digital Foundation, Manager of the Human Rights Project, Internet Freedom Kazakhstan), Ruslan Daiyrbekov (Founder, Eurasian Digital Foundation), Vadim Melyakov (Analyst, Eurasian Digital Foundation, Specialist in International Relations), Igor Loskutov (Head of the Legal Department, InfoTech&Service LLP), Maria Xynou (OONI), Elizaveta Yachmeneva (OONI), Arturo Filastò (OONI), Mehul Gulati (OONI)"
 date: "2023-09-10"
 tags: ["country-kz", "censorship", "kazakhstan"]
 categories: ["report"]
