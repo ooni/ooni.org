@@ -1,7 +1,7 @@
 ---
 continent: Asia
 country: Nepal
-name: Digital Rights Nepal (DRN)
+name: Digital Rights Nepal
 title: Digital Rights Nepal
 website: https://digitalrightsnepal.org/
 ---
