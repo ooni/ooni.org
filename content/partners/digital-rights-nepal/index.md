@@ -3,7 +3,7 @@ continent: Asia
 country: Nepal
 name: Digital Rights Nepal (DRN)
 title: Digital Rights Nepal
-website: [https://www.accessnow.org/keepiton/](https://digitalrightsnepal.org/)
+website: https://digitalrightsnepal.org/
 ---
 
 Digital Rights Nepal (DRN) is a non-profit organization dedicated to safeguarding and advancing digital rights in Nepal. Since its establishment in 2020, DRN has been at the forefront of advocating for online freedom of expression, privacy, data protection, and equitable access to information. The organization achieves this through rigorous research, impactful policy advocacy, and comprehensive capacity-building programs.
