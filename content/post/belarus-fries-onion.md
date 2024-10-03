@@ -2,13 +2,13 @@
 title: "urandom.pcap: Belarus (finally) bans Tor"
 author: "Leonid Evdokimov"
 date: "2016-12-08"
-tags: ["belarus", "TCP injections", "country-by"]
+tags: ["belarus", "TCP injections", "country-by", "theme-circumvention"]
 categories: ["report"]
 ---
 
 **Country:** Belarus
 
-**Probed ISPs:** Beltelecom ([AS 6697](https://stat.ripe.net/AS6697))
+**Probed ISPs:** Beltelecom ([AS 6697](https://stat.ripe.net/AS6697))
 
 **Censorship method:** TCP injections
 

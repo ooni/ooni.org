@@ -3,7 +3,7 @@ title: "Those Unspoken Thoughts: A study of censorship and media freedom in Mani
 description: "Research report by OTF Information Controls Fellow, Chinmayi S K."
 author: "Chinmayi S K (OTF Information Controls Fellow)"
 date: "2020-06-18"
-tags: ["india", "censorship", "manipur", "fellow-report", "media-freedom"]
+tags: ["india", "censorship", "manipur", "fellow-report", "media-freedom", "theme-news_media"]
 categories: ["report"]
 ---
 

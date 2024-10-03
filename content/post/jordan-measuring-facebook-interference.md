@@ -2,7 +2,7 @@
 title: "Jordan: Measuring Facebook live-streaming interference during protests"
 author: "Issa Mahasneh (Jordan Open Source Association), Simone Basso (OONI)"
 date: "2019-06-12"
-tags: ["country-jo", "research-report"]
+tags: ["country-jo", "research-report", "theme-social_media"]
 categories: ["report"]
 ---
 Last December, [anti-austerity protests](https://www.washingtonpost.com/news/monkey-cage/wp/2018/12/20/youth-revolts-and-political-opposition-in-jordan/?utm_term=.80244368c558) erupted in Jordan against a controversial fiscal reform bill. The protests ensued once a week for several weeks thereafter. Amid the protests, locals reported that they were unable to view live-streaming from Facebook. But they also reported that viewing live-streaming was otherwise possible when protests were not taking place.

@@ -3,7 +3,7 @@ title: "Grindr blocked in Jordan: Shrinking LGBTQ spaces"
 description: "This report shares OONI data on the blocking of Grindr in Jordan."
 author: "Maria Xynou (OONI), Arturo Filastò (OONI), My Kali Magazine"
 date: "2023-09-20"
-tags: ["country-jo", "censorship", "jordan", "grindr"]
+tags: ["country-jo", "censorship", "jordan", "grindr", "theme-human_rights"]
 categories: ["report"]
 ---
 

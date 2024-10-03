@@ -8,7 +8,7 @@ author: "Independent Researchers (Anonymous),  Kelly Koh (Sinar Project) and Sit
 
 date: "2022-12-23"
 
-tags: ["vietnam", "censorship", "country-th"]
+tags: ["vietnam", "censorship", "country-th", "theme-news_media", "theme-human_rights"]
 
 categories: ["report"]
 

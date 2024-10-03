@@ -3,7 +3,7 @@ title: "No Access: LGBTIQ Website Censorship in Six Countries"
 description: "This research report shares OONI measurements on the blocking of LGBTIQ websites in Malaysia, Indonesia, Russia, Iran, Saudi Arabia, and the UAE, along with qualitative findings from interviews with LGBTIQ communities."
 author: "Open Observatory of Network Interference (OONI), OutRight Action International, The Citizen Lab"
 date: "2021-08-31"
-tags: ["lgbtiq", "censorship", "country-my", "country-id", "country-ru", "country-ir", "country-sa", "country-ae"]
+tags: ["lgbtiq", "censorship", "country-my", "country-id", "country-ru", "country-ir", "country-sa", "country-ae", "theme-human_rights"]
 categories: ["report"]
 ---
 

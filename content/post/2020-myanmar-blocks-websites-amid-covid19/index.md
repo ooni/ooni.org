@@ -3,7 +3,7 @@ title: "Myanmar blocks “fake news” websites amid COVID-19 pandemic"
 description: "This report shares OONI measurements on the blocking of websites in Myanmar amid the COVID-19 pandemic."
 author: "Phyu Phyu Kyaw, Maria Xynou, Arturo Filastò"
 date: "2020-05-06"
-tags: ["myanmar", "censorship", "coronavirus", "country-mm"]
+tags: ["myanmar", "censorship", "coronavirus", "country-mm", "theme-news_media"]
 categories: ["report"]
 ---
 

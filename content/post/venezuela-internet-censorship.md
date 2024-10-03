@@ -2,7 +2,7 @@
 title: "The State of Internet Censorship in Venezuela"
 author: "Mariengracia Chirinos (IPYS Venezuela), Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro), Leonid Evdokimov (OONI), Maria Xynou (OONI)"
 date: "2018-08-16"
-tags: ["country-ve", "research-report", "censorship"]
+tags: ["country-ve", "research-report", "censorship", "theme-news_media", "theme-circumvention"]
 categories: ["report"]
 ---
 

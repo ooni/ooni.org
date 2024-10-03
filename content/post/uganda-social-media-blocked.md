@@ -2,7 +2,7 @@
 title: "How Uganda blocked social media, again"
 author: "Maria Xynou, Arturo Filastò"
 date: "2016-05-17"
-tags: ["uganda", "socialmedia", "country-ug"]
+tags: ["uganda", "social-media", "country-ug", "theme-social_media"]
 categories: ["report"]
 ---
 

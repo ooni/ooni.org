@@ -2,7 +2,7 @@
 title: "South Sudan: Measuring Internet Censorship in the World's Youngest Nation"
 author: "Maria Xynou (OONI), Kenyi Yasin Abdallah Kenyi (TAHURID), Leonid Evdokimov (OONI), Stanley Nyombe Gore (TAHURID)"
 date: "2018-08-01"
-tags: ["south sudan", "censorship", "country-ss"]
+tags: ["south sudan", "censorship", "country-ss", "theme-news_media"]
 categories: ["report"]
 ---
 

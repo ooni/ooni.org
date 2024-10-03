@@ -8,7 +8,7 @@ author: " Independent Researchers (Anonymous), Siti Nurliza Samsudin (Sinar Proj
 
 date: "2022-12-23"
 
-tags: ["hong-kong", "censorship", "country-hk"]
+tags: ["hong-kong", "censorship", "country-hk", "theme-human_rights"]
 
 categories: ["report"]
 

@@ -2,7 +2,7 @@
 title: "Ethiopia: Verifying the unblocking of websites"
 author: "Berhan Taye (Access Now), Maria Xynou (OONI), Leonid Evdokimov (OONI), Moses Karanja (University of Toronto)"
 date: "2018-06-29T19:49:00"
-tags: ["ethiopia", "unblocking", "country-et"]
+tags: ["ethiopia", "unblocking", "country-et", "theme-news_media", "theme-social_media", "theme-circumvention", "theme-human_rights"]
 categories: ["report"]
 ---
 

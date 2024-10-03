@@ -2,7 +2,7 @@
 title: "Cuba blocks independent media amid 2019 constitutional referendum"
 author: "Eduardo Ernesto Pérez Pujol, Arturo Filastò (OONI), Maria Xynou (OONI)"
 date: "2019-02-26"
-tags: ["cuba", "censorship", "country-cu"]
+tags: ["cuba", "censorship", "country-cu", "theme-news_media"]
 categories: ["report"]
 ---
 
