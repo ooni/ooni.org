@@ -8,7 +8,7 @@ author: " Independent Researcher (Anonymous), Kelly Koh (Sinar Project), Siti Nu
 
 date: "2022-12-23"
 
-tags: ["myanmar", "censorship", "country-mm"]
+tags: ["myanmar", "censorship", "country-mm", "theme-news_media", "theme-circumvention", "theme-im"]
 
 categories: ["report"]
 

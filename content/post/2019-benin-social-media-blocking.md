@@ -2,7 +2,7 @@
 title: "Benin: Social media blocking and Internet blackout amid 2019 elections"
 author: "Roderick Fanou (CAIDA, UC San Diego), Ramakrishna Padmanabhan (CAIDA, UC San Diego), Arturo Filastò (OONI), Maria Xynou (OONI)"
 date: "2019-04-30"
-tags: ["benin", "censorship", "country-bj"]
+tags: ["benin", "censorship", "country-bj", "theme-im", "theme-social_media"]
 categories: ["report"]
 ---
 
@@ -38,41 +38,41 @@ In the following sections of this report, we share [OONI](https://api.ooni.io/fi
 
 ### OONI measurements
 
-OONI [measurements](https://api.ooni.io/files/by_country/BJ), testing the accessibility of websites and apps, have been collected from multiple networks in Benin since 2017. OONI’s [Web Connectivity test](https://ooni.io/nettest/web-connectivity/) is designed to measure the TCP/IP, HTTP, and DNS blocking of websites, while OONI’s [WhatsApp](https://ooni.io/nettest/whatsapp/), [Facebook Messenger](https://ooni.io/nettest/facebook-messenger/), and [Telegram](https://ooni.io/nettest/telegram/) tests are designed to measure the reachability of those apps from local vantage points.
+OONI [measurements](https://api.ooni.io/files/by_country/BJ), testing the accessibility of websites and apps, have been collected from multiple networks in Benin since 2017. OONI’s [Web Connectivity test](https://ooni.io/nettest/web-connectivity/) is designed to measure the TCP/IP, HTTP, and DNS blocking of websites, while OONI’s [WhatsApp](https://ooni.io/nettest/whatsapp/), [Facebook Messenger](https://ooni.io/nettest/facebook-messenger/), and [Telegram](https://ooni.io/nettest/telegram/) tests are designed to measure the reachability of those apps from local vantage points.
 
 The following chart, based on [OONI data collected from Benin](https://api.ooni.io/files/by_country/BJ), illustrates the blocking of social media sites on 28th April 2019, amid Benin’s 2019 parliamentary elections.
 
 ![](/post/2019-benin-social-media-blocking/OONI - Blocking of social media in Benin.png)
-**Figure 1:**Blocking of social media in Benin, Open Observatory of Network Interference (OONI) measurements, Benin: [https://explorer.ooni.io/country/BJ](https://explorer.ooni.io/country/BJ) 
+**Figure 1:**Blocking of social media in Benin, Open Observatory of Network Interference (OONI) measurements, Benin: [https://explorer.ooni.io/country/BJ](https://explorer.ooni.io/country/BJ)
 
-Most measurements were collected from the mobile operator [Spacetel (AS37424)](https://stat.ripe.net/AS37424#tabId=at-a-glance), locally known as MTN Benin, and consistently showed that the testing of the following social media sites presented HTTP failures: [facebook.com](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=https:%2F%2Ffacebook.com), [whatsapp.com](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=https:%2F%2Fwww.whatsapp.com), [telegram.org](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=https:%2F%2Ftelegram.org), [twitter.com](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=http:%2F%2Ftwitter.com), [instagram.com](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=https:%2F%2Fwww.instagram.com), [skype.com](https://explorer.ooni.io/measurement/20190428T053237Z_AS37424_n2LS7jvw22xZWsiJgaV5FRdkRU8QvaxHgjT6rxMtfplUYLua5D?input=https:%2F%2Fwww.skype.com), [snapchat.com](https://explorer.ooni.io/measurement/20190428T053237Z_AS37424_n2LS7jvw22xZWsiJgaV5FRdkRU8QvaxHgjT6rxMtfplUYLua5D?input=https:%2F%2Fwww.snapchat.com), [imo.im](https://explorer.ooni.io/measurement/20190428T043240Z_AS37424_Rwc66AjfwIux5AnanLtjBjlGMHduDG4KOix2OjmNrCljGMAmc7?input=http:%2F%2Fimo.im%2F), [hangouts.google.com](https://explorer.ooni.io/measurement/20190428T032552Z_AS37424_V2ifoL0WDx09o1dSdXK1qXbF3ZBlrNcF6DjERmAT3jSGRXzO63?input=https:%2F%2Fhangouts.google.com%2F), [web.wechat.com](https://explorer.ooni.io/measurement/20190428T011523Z_AS37424_3BMK29ryPLYMbZB1vnJByHdSSX9C8XGK3ckBULg7AMXMD7pPPz?input=https:%2F%2Fweb.wechat.com%2F). Youtube though remained [accessible](https://explorer.ooni.io/measurement/20190428T025254Z_AS37424_Po0R55r3LxonVWdun5wkwlpuAdDomE4qa4k2bKrgOIWurX0jmy?input=https:%2F%2Fwww.youtube.com%2F) throughout the elections.
+Most measurements were collected from the mobile operator [Spacetel (AS37424)](https://stat.ripe.net/AS37424#tabId=at-a-glance), locally known as MTN Benin, and consistently showed that the testing of the following social media sites presented HTTP failures: [facebook.com](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=https:%2F%2Ffacebook.com), [whatsapp.com](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=https:%2F%2Fwww.whatsapp.com), [telegram.org](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=https:%2F%2Ftelegram.org), [twitter.com](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=http:%2F%2Ftwitter.com), [instagram.com](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=https:%2F%2Fwww.instagram.com), [skype.com](https://explorer.ooni.io/measurement/20190428T053237Z_AS37424_n2LS7jvw22xZWsiJgaV5FRdkRU8QvaxHgjT6rxMtfplUYLua5D?input=https:%2F%2Fwww.skype.com), [snapchat.com](https://explorer.ooni.io/measurement/20190428T053237Z_AS37424_n2LS7jvw22xZWsiJgaV5FRdkRU8QvaxHgjT6rxMtfplUYLua5D?input=https:%2F%2Fwww.snapchat.com), [imo.im](https://explorer.ooni.io/measurement/20190428T043240Z_AS37424_Rwc66AjfwIux5AnanLtjBjlGMHduDG4KOix2OjmNrCljGMAmc7?input=http:%2F%2Fimo.im%2F), [hangouts.google.com](https://explorer.ooni.io/measurement/20190428T032552Z_AS37424_V2ifoL0WDx09o1dSdXK1qXbF3ZBlrNcF6DjERmAT3jSGRXzO63?input=https:%2F%2Fhangouts.google.com%2F), [web.wechat.com](https://explorer.ooni.io/measurement/20190428T011523Z_AS37424_3BMK29ryPLYMbZB1vnJByHdSSX9C8XGK3ckBULg7AMXMD7pPPz?input=https:%2F%2Fweb.wechat.com%2F). Youtube though remained [accessible](https://explorer.ooni.io/measurement/20190428T025254Z_AS37424_Po0R55r3LxonVWdun5wkwlpuAdDomE4qa4k2bKrgOIWurX0jmy?input=https:%2F%2Fwww.youtube.com%2F) throughout the elections.
 
 The blocking of WhatsApp was also detected through [OONI’s WhatsApp test](https://ooni.io/nettest/whatsapp/), which attempts to perform an HTTP GET request, TCP connection, and DNS lookup to WhatsApp’s endpoints, registration service, and web version over the vantage point of the user.
 
-The following chart illustrates the blocking of WhatsApp on MTN (AS37424) in Benin. 
+The following chart illustrates the blocking of WhatsApp on MTN (AS37424) in Benin.
 
 ![](/post/2019-benin-social-media-blocking/OONI - WhatsApp blocking in Benin.png)
-**Figure 2:**WhatsApp blocking in Benin, Open Observatory of Network Interference (OONI) measurements, Benin: [https://explorer.ooni.io/country/BJ](https://explorer.ooni.io/country/BJ) 
+**Figure 2:**WhatsApp blocking in Benin, Open Observatory of Network Interference (OONI) measurements, Benin: [https://explorer.ooni.io/country/BJ](https://explorer.ooni.io/country/BJ)
 
 Both WhatsApp’s web version (web.whatsapp.com) and the registration server used by WhatsApp’s mobile app appear to have been blocked on MTN Benin by midnight, 28th April 2019 (local time). Throughout the day, all [measurements](https://explorer.ooni.org/measurement/20190428T084731Z_AS37424_PEWoAruDdsUVHj3Do5fjh2q75YtW0zQUkciidHZDsbx7QwrQlC) collected from this network consistently showed that attempts to establish TCP connections to WhatsApp’s registration service failed, while HTTP requests to web.whatsapp.com rendered HTTP failures, with connections being reset. MTN Benin though did not block access to the addresses used by the WhatsApp application, but limited the block to merely the registration service.
 
-It’s worth noting though that WhatsApp was accessible on two other networks: [ISOCEL (AS37090)](https://explorer.ooni.org/measurement/20190428T084647Z_AS37090_ncsfkT1r5gaqm4qiaZ3utBkfeYxcibRjllOc1Jmp10jcGSLU2w) and [OPT Benin (AS28683)](https://explorer.ooni.org/measurement/20190428T100329Z_AS28683_66GIpNZ5Bn2JdWU9nHoXH7dt8w9YEmbHNRgzgdsqapPV7NXD5d), known as Benin Telecom. Some measurements collected from Benin Telecom (AS28683) suggest “endpoint blocking”, but those are false positives due to [DNS based load balancing](https://explorer.ooni.io/measurement/20190428T063548Z_AS28683_vqNse0EZfLblie2ObeJQjatNlKFOxwW4Ap8mhEQTLqKcHjfy65) (for example, `169.54.55.206` belongs to `WhatsApp Inc.`).
+It’s worth noting though that WhatsApp was accessible on two other networks: [ISOCEL (AS37090)](https://explorer.ooni.org/measurement/20190428T084647Z_AS37090_ncsfkT1r5gaqm4qiaZ3utBkfeYxcibRjllOc1Jmp10jcGSLU2w) and [OPT Benin (AS28683)](https://explorer.ooni.org/measurement/20190428T100329Z_AS28683_66GIpNZ5Bn2JdWU9nHoXH7dt8w9YEmbHNRgzgdsqapPV7NXD5d), known as Benin Telecom. Some measurements collected from Benin Telecom (AS28683) suggest “endpoint blocking”, but those are false positives due to [DNS based load balancing](https://explorer.ooni.io/measurement/20190428T063548Z_AS28683_vqNse0EZfLblie2ObeJQjatNlKFOxwW4Ap8mhEQTLqKcHjfy65) (for example, `169.54.55.206` belongs to `WhatsApp Inc.`).
 
 Unlike WhatsApp, Facebook Messenger appears to have been [accessible](https://explorer.ooni.io/measurement/20190428T084745Z_AS37424_M0wsdJFR5FZEN8GuIKzPS36cYbuKa5RUyAoM7Cs3W9yhfgkdSg) on MTN Benin (AS37424) on 28th April 2019, even though [access to facebook.com was blocked](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=https:%2F%2Ffacebook.com).
 
-The following chart shows that [Facebook Messenger was accessible in Benin](https://explorer.ooni.io/measurement/20190428T100358Z_AS28683_B7vWp01e1GAAb6ffsg2jqoObgaJeBVxyHLQ1wVmQb3KmlNtpk9) on three different networks during the elections.
+The following chart shows that [Facebook Messenger was accessible in Benin](https://explorer.ooni.io/measurement/20190428T100358Z_AS28683_B7vWp01e1GAAb6ffsg2jqoObgaJeBVxyHLQ1wVmQb3KmlNtpk9) on three different networks during the elections.
 
 ![](/post/2019-benin-social-media-blocking/OONI - Facebook Messenger in Benin.png)
 
-**Figure 3:**Facebook Messenger testing in Benin, Open Observatory of Network Interference (OONI) measurements, Benin: [https://explorer.ooni.io/country/BJ](https://explorer.ooni.io/country/BJ) 
+**Figure 3:**Facebook Messenger testing in Benin, Open Observatory of Network Interference (OONI) measurements, Benin: [https://explorer.ooni.io/country/BJ](https://explorer.ooni.io/country/BJ)
 
-All measurements show that TCP connections to Facebook’s endpoints succeeded (the few [DNS anomalies](https://explorer.ooni.io/measurement/20190428T233738Z_AS37424_KNTyT3H8DJXpCW4faM8PHZ6uw3dc9mogGkM6yKyt863JHbBzmo) were false positives), suggesting that Facebook Messenger worked while facebook.com was blocked.
+All measurements show that TCP connections to Facebook’s endpoints succeeded (the few [DNS anomalies](https://explorer.ooni.io/measurement/20190428T233738Z_AS37424_KNTyT3H8DJXpCW4faM8PHZ6uw3dc9mogGkM6yKyt863JHbBzmo) were false positives), suggesting that Facebook Messenger worked while facebook.com was blocked.
 
 Quite similarly, measurements collected through [OONI’s Telegram test](https://ooni.io/nettest/telegram/) show that MTN Benin [blocked telegram.org](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=https:%2F%2Ftelegram.org), but they [did not block access to the Telegram mobile app](https://explorer.ooni.io/measurement/20190428T084737Z_AS37424_PDJXi8Kfcx2iyYzzRX78Gv7VHMizGCLDhvkeBp30Qu2KsCtXtV). This is illustrated through the following chart, which also shows that Telegram’s web version seemed mostly accessible on other networks.
 
 ![](/post/2019-benin-social-media-blocking/telegram-blocking-benin.png)
 
-**Figure 4:**Telegram blocking in Benin, Open Observatory of Network Interference (OONI) measurements, Benin: [https://explorer.ooni.io/country/BJ](https://explorer.ooni.io/country/BJ) 
+**Figure 4:**Telegram blocking in Benin, Open Observatory of Network Interference (OONI) measurements, Benin: [https://explorer.ooni.io/country/BJ](https://explorer.ooni.io/country/BJ)
 
 Several circumvention tool sites, such as [purevpn.fr](https://explorer.ooni.io/measurement/20190428T053237Z_AS37424_n2LS7jvw22xZWsiJgaV5FRdkRU8QvaxHgjT6rxMtfplUYLua5D?input=https:%2F%2Fwww.purevpn.fr), [betternet.co](https://explorer.ooni.io/measurement/20190428T052542Z_AS37424_SzAPN1eapTf9KNvmS3KnmsPIYau4Nk5QDZTHr34fhNeTeqNDJH?input=https:%2F%2Fwww.betternet.co%2F), and [tigervpn.com](https://explorer.ooni.io/measurement/20190428T053237Z_AS37424_n2LS7jvw22xZWsiJgaV5FRdkRU8QvaxHgjT6rxMtfplUYLua5D?input=https:%2F%2Fwww.tigervpn.com), presented HTTP failures. However, these failures are likely false positives, particularly given the fact that more popular circumvention tool sites, such as psiphon.ca, were [accessible](https://explorer.ooni.io/measurement/20190428T061116Z_AS37424_aHLn8cXXrPVYF4oeHd2DXZpwZACWcrhik7an5k2LaiU9OIiAuY?input=https:%2F%2Fpsiphon.ca%2F). The testing of openvpn.com presented an [anomaly](https://explorer.ooni.io/measurement/20190428T053237Z_AS37424_n2LS7jvw22xZWsiJgaV5FRdkRU8QvaxHgjT6rxMtfplUYLua5D?input=https:%2F%2Fopenvpn.net), but this was triggered by a cloudflare captcha page (i.e., the site was accessible in Benin during the elections).
 
@@ -93,11 +93,11 @@ Interestingly, the patterns registered for Probe 11944 when it comes to tracerou
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-1.png)
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-2.png)
 
-**Figure 5:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to [www.whatsapp.com](http://www.whatsapp.com), [https://atlas.ripe.net/measurements/21083876/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019\. The red pattern is registered for Probe 32381 because the probe could not resolve the URL [www.whatsapp.com](http://www.whatsapp.com).
+**Figure 5:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to [www.whatsapp.com](http://www.whatsapp.com), [https://atlas.ripe.net/measurements/21083876/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019. The red pattern is registered for Probe 32381 because the probe could not resolve the URL [www.whatsapp.com](http://www.whatsapp.com).
 
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-3.png)
 
-**Figure 6:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online  in Benin to [www.instagram.com](http://www.instagram.com), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21084196](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
+**Figure 6:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to [www.instagram.com](http://www.instagram.com), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21084196](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
 
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-4.png)
 
@@ -117,15 +117,15 @@ Measurements from Probe 11944, which are gathered from AS37090, are consistent w
 
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-7.png)
 
-**Figure 10:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to Google DNS (8.8.8.8), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21083844](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/) (AS paths inferences before the shutdown), April 28, 2019
+**Figure 10:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to Google DNS (8.8.8.8), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21083844](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/) (AS paths inferences before the shutdown), April 28, 2019
 
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-8.png)
 
-**Figure 11:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to Google DNS (8.8.8.8), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21083844](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/) (AS paths inferences during the shutdown), April 28, 2019
+**Figure 11:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to Google DNS (8.8.8.8), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21083844](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/) (AS paths inferences during the shutdown), April 28, 2019
 
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-9.png)
 
-**Figure 12:** RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to 9.9.9.9 (Quad9) depicting that BENIN-IX was mostly UP on election day and that the shutdown did not occur there and proving that each network implemented/suffered from the blackout differently.  [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21084227](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
+**Figure 12:** RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to 9.9.9.9 (Quad9) depicting that BENIN-IX was mostly UP on election day and that the shutdown did not occur there and proving that each network implemented/suffered from the blackout differently. [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21084227](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
 
 We can deduce the following from comparing these figures:
 
@@ -143,9 +143,9 @@ IODA detected significant Internet blackouts affecting Benin on 28th and 29th Ap
 
 The [Center for Applied Internet Data Analysis (CAIDA)](https://www.caida.org/home/) runs a project called [IODA](https://ioda.caida.org/) (short for Internet Outage Detection and Analysis), which monitors the Internet, in near-realtime, to identify macroscopic Internet outages, affecting the edge of the network (i.e. significantly impacting an AS or a large fraction of a country). IODA does so using three complementary data sources:
 
-*   **Global Internet routing (BGP):** Using data from ~500 monitors participating in the RouteViews and RIPE RIS projects to establish which network blocks are reachable based on the Internet control plane.
-*   **Active probing:** Continuously probing a large fraction of the (routable) IPv4 address space using [a methodology developed by the University of Southern California](https://www.isi.edu/~johnh/PAPERS/Quan13c.html) to infer when a /24 block is affected by a network outage.
-*   **Internet Background Radiation:** Processing unsolicited traffic reaching the UCSD Network Telescope monitoring an unutilized /8 address block.
+*   **Global Internet routing (BGP):** Using data from ~500 monitors participating in the RouteViews and RIPE RIS projects to establish which network blocks are reachable based on the Internet control plane.
+*   **Active probing:** Continuously probing a large fraction of the (routable) IPv4 address space using [a methodology developed by the University of Southern California](https://www.isi.edu/~johnh/PAPERS/Quan13c.html) to infer when a /24 block is affected by a network outage.
+*   **Internet Background Radiation:** Processing unsolicited traffic reaching the UCSD Network Telescope monitoring an unutilized /8 address block.
 
 Data from IODA provides insight into Internet disruptions affecting entire countries, as well as the granularity required for identifying disruptions only affecting certain networks or regions within countries.
 
@@ -167,13 +167,13 @@ Figures 14, 15, 16 and 17 below show the occurrences of Internet blackout events
 
 ![](/post/2019-benin-social-media-blocking/ioda-2.png)
 
-**Figure 14:** Internet Outage Detection and Analysis (IODA), AS37090
+**Figure 14:** Internet Outage Detection and Analysis (IODA), AS37090
 
 [https://ioda.caida.org/ioda/dashboard#view=inspect&entity=asn/37090&lastView=overview&from=1556385008&until=1556557928](https://ioda.caida.org/ioda/dashboard#view=inspect&entity=asn/37090&lastView=overview&from=1556385008&until=1556557928)
 
 ![](/post/2019-benin-social-media-blocking/ioda-3.png)
 
-**Figure 15:**  Internet Outage Detection and Analysis (IODA), AS28683
+**Figure 15:** Internet Outage Detection and Analysis (IODA), AS28683
 
 [https://ioda.caida.org/ioda/dashboard#view=inspect&entity=asn/28683&lastView=overview&from=1556385008&until=1556557928](https://ioda.caida.org/ioda/dashboard#view=inspect&entity=asn/28683&lastView=overview&from=1556385008&until=1556557928)
 
@@ -193,10 +193,10 @@ The figures show that the blackout events began at roughly the same time (around
 
 Figures 11 and 12 show that the blackout ended in AS28683 and AS37424 before midnight UTC on 29th April 2019, whereas the blackout ended in AS37090 at around 6 AM UTC. We also observe differences in how the blackout events manifest in IODA’s data sources. AS37090 and AS37424 see a significant drop in BGP-visible /24 blocks at the beginning of the outage. However, AS37090’s visible /24 blocks curve briefly reattains prior values before dropping again. AS28683, on the other hand, experiences only a drop in its active-probing curve initially.
 
-In summary: 
+In summary:
 
 * Four different large ASes in Benin had blackouts.  These blackouts were not limited to a single AS; instead, many large ASes in Benin experienced blackouts.
 * The blackouts begin at roughly the same time, but end at different times; it is, therefore, possible that ASes implemented  them independently.
 * Each AS’s blackout has a different signature in IODA's data sources; for some, the blackout is visible in the BGP data source first whereas for others, the blackout is visible in the active probing data source first.
 
-MTN Benin (AS37424) [acknowledged the Internet disruptions](https://beninwebtv.com/2019/04/coupure-dinternet-au-benin-mtn-sort-de-sa-reserve-des-remboursements-annonces/) on 28th April 2019, but declined all responsibility, promising to reimburse its clients.
+MTN Benin (AS37424) [acknowledged the Internet disruptions](https://beninwebtv.com/2019/04/coupure-dinternet-au-benin-mtn-sort-de-sa-reserve-des-remboursements-annonces/) on 28th April 2019, but declined all responsibility, promising to reimburse its clients.

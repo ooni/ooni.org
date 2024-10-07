@@ -2,7 +2,7 @@
 title: "The State of Internet Censorship in Indonesia"
 author: "Kay Yen Wong (Sinar Project), Maria Xynou (OONI), Arturo Filastò (OONI), Khairil Yusof (Sinar Project),Tan Sze Ming (Sinar Project)"
 date: "2017-05-23"
-tags: ["indonesia", "censorship", "research-report", "country-id"]
+tags: ["indonesia", "censorship", "research-report", "country-id", "theme-news_media", "theme-human_rights", "theme-circumvention"]
 categories: ["report"]
 ---
 

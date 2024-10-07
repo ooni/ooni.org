@@ -2,7 +2,7 @@
 title: "Resurgence of Internet Censorship in Ethiopia: Blocking of WhatsApp, Facebook, and African Arguments"
 author: "Maria Xynou (OONI), Moses Karanja (University of Toronto), Berhan Taye (Access Now), Arturo Filastò (OONI)"
 date: "2019-08-14"
-tags: ["country-et"]
+tags: ["country-et", "theme-social_media", "theme-im", "theme-news_media"]
 categories: ["report"]
 ---
 

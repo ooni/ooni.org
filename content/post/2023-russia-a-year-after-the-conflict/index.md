@@ -3,7 +3,7 @@ title: "How Internet censorship changed in Russia during the 1st year of militar
 description: "This report shares OONI data on new blocks that emerged in Russia during the 1st year of military conflict in Ukraine."
 author: "Roskomsvoboda, OONI"
 date: "2023-02-24"
-tags: ["country-ru", "censorship", "russia"]
+tags: ["country-ru", "censorship", "russia", "theme-human_rights", "theme-news_media", "theme-social_media", "theme-circumvention"]
 categories: ["report"]
 ---
 
@@ -26,7 +26,7 @@ New blocks that emerged over the last year include:
 *   Blocking of **investigative journalism** ([Agentura.Ru](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-21&time_grain=day&probe_cc=RU&domain=www.agentura.ru)) and **independent news media** sites ([The Bell](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-01-20&until=2023-02-21&time_grain=day&probe_cc=RU&domain=thebell.io));
 *   Blocking of [Instagram](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2023-02-22&time_grain=day&probe_cc=RU&domain=www.instagram.com), [SoundCloud](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-09-01&until=2023-02-19&time_grain=day&probe_cc=RU&domain=soundcloud.com), and [Patreon](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-07-01&until=2023-02-19&time_grain=day&probe_cc=RU&domain=www.patreon.com).
 
-Access to the Tor Project’s website was [temporarily unblocked](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2022-12-31&time_grain=day&probe_cc=RU&domain=www.torproject.org) (between 15th to 28th July 2022), while several discontinued sites have been unblocked (possibly as part of a “blocklist cleanup”).
+Access to the Tor Project’s website was [temporarily unblocked](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2022-01-01&until=2022-12-31&time_grain=day&probe_cc=RU&domain=www.torproject.org) (between 15th to 28th July 2022), while several discontinued sites have been unblocked (possibly as part of a “blocklist cleanup”).
 
 ## Background
 

@@ -3,7 +3,7 @@ title: "Год военной цензуры в России"
 description: "Этот отчет анализирует данные OONI о новых блокировках, произошедших в России в течение первого года военного конфликта в Украине."
 author: "Roskomsvoboda, OONI"
 date: "2023-02-24"
-tags: ["country-ru", "censorship", "russia"]
+tags: ["country-ru", "censorship", "russia", "theme-human_rights", "theme-news_media", "theme-social_media", "theme-circumvention"]
 categories: ["report"]
 ---
 

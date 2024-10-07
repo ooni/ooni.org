@@ -2,7 +2,7 @@
 title: "مصر تحجب بي بي سي والحرة: التوسع في الرقابة على الإعلام وسط الاضطرابات السياسية"
 author: "Ramy Raoof, Mohamed El-Taher, Mohamed Tita, Arturo Filastò, Maria Xynou"
 date: "2019-09-26"
-tags: ["egypt", "censorship", "country-eg"]
+tags: ["egypt", "censorship", "country-eg", "theme-news_media"]
 categories: ["report"]
 ---
 

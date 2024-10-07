@@ -2,7 +2,7 @@
 title: "Internet Censorship in Pakistan: Findings from 2014-2017"
 author: "Haroon Baloch (Bytes for All Pakistan), Maria Xynou (OONI), Arturo Filastò (OONI)"
 date: "2017-10-18"
-tags: ["pakistan", "censorship", "research-report", "country-pk"]
+tags: ["pakistan", "censorship", "research-report", "country-pk", "theme-human_rights"]
 categories: ["report"]
 ---
 

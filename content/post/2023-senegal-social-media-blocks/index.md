@@ -3,7 +3,7 @@ title: "Senegal: Social media blocks and network outages amid political unrest"
 description: "This report documents the blocking of social media and network outages amid political unrest in Senegal."
 author: "Laura Schwartz-Henderson (Independent Consultant), David Belson (Cloudflare), Zach Rosson (Access Now), Felicia Anthonio (Access Now), Maria Xynou (OONI), Arturo Filastò (OONI)"
 date: "2023-08-01"
-tags: ["country-sn"]
+tags: ["country-sn", "theme-social_media", "theme-im"]
 categories: ["report"]
 ---
 
@@ -23,7 +23,7 @@ OONI data collected from Senegal shows the blocking of [WhatsApp](https://explor
 
 The survey findings suggest that these internet disruptions had widespread impact. Senegalese survey respondents who experienced the outages and blocks on the ground described that they had an impact on Senegal’s economic activity and political stability, on their professional endeavors, their social and psychological health and well-being, and on the vulnerable or marginalized groups in Senegal.
 
-## Background 
+## Background
 
 Senegal is continuing a worrying [trend of democratic backsliding](https://preparepreventresist.org/senegal-2/) through the escalating [use of internet shutdowns](https://www.accessnow.org/press-release/keep-people-connected-senegal/) during protests. On 4th March 2021, following protests against the high-profile arrest of opposition leader Ousmane Sonko, Senegalese authorities [reportedly blocked](https://www.bloomberg.com/news/articles/2021-03-05/senegal-shuts-down-tv-stations-internet-disrupted-amid-protests#xj4y7vzkg) Facebook, YouTube, WhatsApp, and Telegram. Additionally, President Macky Sall has repeatedly [spoken out](https://www.theafricareport.com/99491/senegals-president-joins-the-chorus-against-twitter-and-facebook/) against social media, expressing desire to more tightly control online spaces and suppress dissent. These are not idle threats, considering a measurably [declining press freedom landscape](https://www.occrp.org/en/daily/17009-senegalese-journalist-charged-with-endangering-national-security) and now at least two sets of internet shutdowns since 2021.
 

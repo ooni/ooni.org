@@ -3,7 +3,7 @@ title: "OONI’s submission for the OHCHR report on internet shutdowns and human
 description: "This post shares OONI's submission in support of the OHCHR report on internet shutdowns and human rights to the 50th session of the Human Rights Council June 2022."
 author: "Maria Xynou"
 date: "2022-06-15"
-tags: ["ooni", "ohchr", "submission", "ooni-data"]
+tags: ["ooni", "ohchr", "submission", "ooni-data", "theme-social_media"]
 categories: ["blog"]
 ---
 

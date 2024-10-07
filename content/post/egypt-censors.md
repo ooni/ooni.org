@@ -2,7 +2,7 @@
 title: "#EgyptCensors: Evidence of recent censorship events in Egypt"
 author: "Maria Xynou (OONI), Vasilis Ververis (OONI), Arturo Filastò (OONI), Wafa Ben Hassine (Access Now)"
 date: "2017-06-19T15:30:00Z"
-tags: ["egypt", "censorship", "country-eg"]
+tags: ["egypt", "censorship", "country-eg", "theme-news_media", "theme-circumvention"]
 categories: ["report"]
 ---
 

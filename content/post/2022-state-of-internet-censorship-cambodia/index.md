@@ -8,7 +8,7 @@ author: " Lam Socheat (API), Tan Thary (API), Chan Vibol (Consultant), Siti Nurl
 
 date: "2022-12-23"
 
-tags: ["cambodia", "censorship", "country-kh"]
+tags: ["cambodia", "censorship", "country-kh", "theme-news_media"]
 
 categories: ["report"]
 

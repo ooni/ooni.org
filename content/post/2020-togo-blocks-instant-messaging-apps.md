@@ -2,7 +2,7 @@
 title: "Togo: Instant messaging apps blocked amid 2020 presidential election"
 author: "Maria Xynou, Arturo Filastò"
 date: "2020-02-25"
-tags: ["togo", "censorship", "country-tg"]
+tags: ["togo", "censorship", "country-tg", "theme-im"]
 categories: ["report"]
 ---
 

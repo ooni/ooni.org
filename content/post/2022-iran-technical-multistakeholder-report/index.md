@@ -2,7 +2,7 @@
 title: "Technical multi-stakeholder report on Internet shutdowns: The case of Iran amid autumn 2022 protests"
 date: "2022-11-29"
 author: "OONI, IODA, M-Lab, Cloudflare, Kentik, Censored Planet, ISOC, Article19"
-tags: ["iran", "censorship", "country-ir", "mahsaamini", "protests", "shutdown"]
+tags: ["iran", "censorship", "country-ir", "mahsaamini", "protests", "shutdown", "theme-im", "theme-social_media", "theme-circumvention"]
 categories: ["report"]
 ---
 

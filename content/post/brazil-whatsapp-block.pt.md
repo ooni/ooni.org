@@ -2,7 +2,7 @@
 title: "WhatsApp bloqueado (outra vez) no Brasil"
 author: "Vasilis Ververis, Maria Xynou, Will Scott"
 date: "2016-05-06"
-tags: ["brazil", "whatsapp", "country-br"]
+tags: ["brazil", "whatsapp", "country-br", "theme-im"]
 categories: ["report"]
 aliases:
   - /whatsapp-blocked-in-brazil-again-pt

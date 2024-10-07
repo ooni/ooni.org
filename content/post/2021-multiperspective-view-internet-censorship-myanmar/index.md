@@ -3,7 +3,7 @@ title: "A multi-perspective view of Internet censorship in Myanmar"
 description: "This research paper examines internet censorship in Myanmar following the 2021 military coup."
 author: "Maria Xynou"
 date: "2021-11-11"
-tags: ["myanmar", "censorship", "blackout", "military-coup", "country-mm", "paper"]
+tags: ["myanmar", "censorship", "blackout", "military-coup", "country-mm", "paper", "theme-social_media", "theme-circumvention"]
 categories: ["report"]
 ---
 

@@ -2,7 +2,7 @@
 title: "The State of Internet Censorship in Thailand"
 author: "Kay Yen Wong (Sinar Project), Maria Xynou (OONI), Arturo Filastò (OONI), Khairil Yusof (Sinar Project),Tan Sze Ming (Sinar Project), Thai Netizen Network"
 date: "2017-03-20"
-tags: ["thailand", "censorship", "research-report", "country-th"]
+tags: ["thailand", "censorship", "research-report", "country-th", "theme-news_media", "theme-circumvention"]
 categories: ["report"]
 ---
 

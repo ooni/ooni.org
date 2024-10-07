@@ -3,7 +3,7 @@ title: "How countries attempt to block Signal Private Messenger App around the w
 description: "This report shares OONI measurements on the blocking of the Signal Private Messenger app in Iran, China, Cuba, and Uzbekistan."
 author: "Maria Xynou, Arturo Filastò"
 date: "2021-10-21"
-tags: ["iran", "china", "cuba", "uzbekistan", "censorship", "signal", "country-ir", "country-cn", "country-cu", "country-uz"]
+tags: ["iran", "china", "cuba", "uzbekistan", "censorship", "signal", "country-ir", "country-cn", "country-cu", "country-uz", "theme-im"]
 categories: ["report"]
 ---
 

@@ -2,7 +2,7 @@
 title: "How Pakistan blocked news outlets, social media sites, and IM apps amidst protests"
 author: "Maria Xynou (OONI), Arturo Filastò (OONI), Shahzad Ahmad (Bytes for All Pakistan), Abdul Salam (Bytes for All Pakistan)"
 date: "2017-11-29"
-tags: ["pakistan", "censorship", "country-pk"]
+tags: ["pakistan", "censorship", "country-pk", "theme-news_media", "theme-social_media", "theme-im"]
 categories: ["report"]
 ---
 

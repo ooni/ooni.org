@@ -8,7 +8,7 @@ author: "Kelly Koh (Sinar Project)  and Siti Nurliza Samsudin (Sinar Project)"
 
 date: "2022-12-23"
 
-tags: ["malaysia", "censorship", "country-my"]
+tags: ["malaysia", "censorship", "country-my", "theme-news_media", "theme-human_rights"]
 
 categories: ["report"]
 

@@ -3,7 +3,7 @@ title: "Kazakhstan: TLS MITM attacks and blocking of news media, human rights, a
 description: "This report documents TLS MITM attacks and the blocking of news media, human rights and circumvention tools websites in Kazakhstan based on OONI data."
 author: "Yelzhan Kabyshev (Head of Legal Practice, Eurasian Digital Foundation, Manager of the Human Rights Project, Internet Freedom Kazakhstan), Ruslan Daiyrbekov (Founder, Eurasian Digital Foundation), Vadim Melyakov (Analyst, Eurasian Digital Foundation, Specialist in International Relations), Igor Loskutov (Head of the Legal Department, InfoTech&Service LLP), Maria Xynou (OONI), Elizaveta Yachmeneva (OONI), Arturo Filastò (OONI), Mehul Gulati (OONI)"
 date: "2024-09-19"
-tags: ["country-kz", "censorship", "kazakhstan"]
+tags: ["country-kz", "censorship", "kazakhstan", "theme-news_media", "theme-human_rights", "theme-circumvention"]
 categories: ["report"]
 ---
 

@@ -2,7 +2,7 @@
 title: "ParkNet: Short Documentary on Internet Censorship in Cuba"
 author: "Arturo Filastò, Maria Xynou, Simone Basso"
 date: "2018-04-23"
-tags: ["cuba", "censorship", "documentary", "country-cu"]
+tags: ["cuba", "censorship", "documentary", "country-cu", "theme-news_media"]
 categories: ["blog"]
 ---
 

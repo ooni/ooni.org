@@ -2,7 +2,7 @@
 title: "Mali: Social media disruptions amid 2018 presidential election?"
 author: "Maria Xynou (OONI), Julie Owono (Internet Sans Frontieres)"
 date: "2018-07-31"
-tags: ["mali", "censorship", "whatsapp", "socialmedia", "country-ml"]
+tags: ["mali", "censorship", "whatsapp", "socialmedia", "country-ml", "theme-social_media", "theme-im", "theme-circumvention"]
 categories: ["report"]
 ---
 

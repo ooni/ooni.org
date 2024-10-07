@@ -8,7 +8,7 @@ author: "Katerina Francisco (EngageMedia), Khairil Zhafri (EngageMedia), Red Tan
 
 date: "2022-12-23"
 
-tags: ["philippines", "censorship", "country-ph"]
+tags: ["philippines", "censorship", "country-ph", "theme-circumvention", "theme-social_media"]
 
 categories: ["report"]
 

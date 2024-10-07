@@ -3,7 +3,7 @@ title: "Turkey: Throttling and DNS blocking of Twitter following deadly earthqua
 description: "This report shares OONI data on the throttling and DNS blocking of Twitter in Turkey."
 author: "Maria Xynou, Arturo Filastò"
 date: "2023-02-15"
-tags: ["turkey", "country-tr", "censorship"]
+tags: ["turkey", "country-tr", "censorship", "theme-social_media"]
 categories: ["report"]
 ---
 

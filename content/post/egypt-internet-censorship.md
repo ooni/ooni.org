@@ -2,7 +2,7 @@
 title: "The State of Internet Censorship in Egypt"
 author: "Leonid Evdokimov (OONI), Maria Xynou (OONI), Mohammad El-Taher (AFTE), Hassan Al-Azhary (AFTE), Sarah Mohsen (AFTE)"
 date: "2018-07-02"
-tags: ["egypt", "censorship", "research-report", "country-eg"]
+tags: ["egypt", "censorship", "research-report", "country-eg", "theme-news_media", "theme-circumvention"]
 categories: ["report"]
 ---
 

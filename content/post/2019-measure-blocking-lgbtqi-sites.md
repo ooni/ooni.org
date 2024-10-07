@@ -2,7 +2,7 @@
 title: "Call to Action: Let’s measure the blocking of LGBTQI websites around the world!"
 author: "Maria Xynou"
 date: "2019-12-04"
-tags: ["lgbtqi", "censorship"]
+tags: ["lgbtqi", "censorship", "theme-human_rights"]
 categories: ["blog"]
 ---
 

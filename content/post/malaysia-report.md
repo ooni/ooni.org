@@ -2,7 +2,7 @@
 title: "The State of Internet Censorship in Malaysia"
 author: "Maria Xynou (OONI), Arturo Filastò (OONI), Khairil Yusof (Sinar Project), Tan Sze Ming (Sinar Project)"
 date: "2016-12-20"
-tags: ["malaysia", "censorship", "research-report", "country-my"]
+tags: ["malaysia", "censorship", "research-report", "country-my", "theme-news_media"]
 categories: ["report"]
 ---
 

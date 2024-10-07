@@ -2,7 +2,7 @@
 title: "OONI Data Reveals How WhatsApp Was Blocked (Again) in Brazil"
 author: "Vasilis Ververis, Maria Xynou, Will Scott"
 date: "2016-05-06"
-tags: ["brazil", "whatsapp", "country-br"]
+tags: ["brazil", "whatsapp", "country-br", "theme-im"]
 categories: ["report"]
 aliases:
   - /whatsapp-blocked-in-brazil-again
