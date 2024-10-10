@@ -171,7 +171,7 @@ update to this Data Policy.
 
 ### Data We Collect
 
-If you create an [OONI Run](https://run.ooni.org/) v2 link, we will collect the email address that you use for the creation of that link. This enables OONI Probe users who receive your OONI Run link to trust it based on your email address (which is displayed in the OONI Run link you create). This can help reduce the risk of running malicious links. We do *not* collect your email address when you log into the [OONI Run](https://run.ooni.org/) platform, but only when you create an OONI Run link.
+Logging into the [OONI Run](https://run.ooni.org/) platform is facilitated by a one-time magic link. We do *not* store your email address upon login. Your email address is saved as part of the description in any OONI Run link you create and is displayed to end users of your links. We collect and display your email address in the OONI Run links you create to enable OONI Probe users who receive your OONI Run link to trust it and to have the opportunity to reach out to you (for example, if they would like to propose more URLs for testing). Our goal is to help facilitate more trust and coordination among testers.
 
 We collect different types of network measurements when you run different types
 of OONI Probe tests. You can learn how each OONI Probe test works (and what
@@ -338,7 +338,7 @@ Data required for sending out push notifications will be stored separately on a
 secure database server operated by OONI (which is different from the public
 metadb that hosts OONI Probe measurements).
 
-If you create an [OONI Run](https://run.ooni.org/) v2 link, we will store the email address that you use for the creation of that link. This enables OONI Probe users who receive your OONI Run link to trust it based on your email address (which is displayed in the OONI Run link you create). This can help reduce the risk of running malicious links.
+If you create an [OONI Run](https://run.ooni.org/) v2 link, we will store the email address that you use for the creation of that link. This enables OONI Probe users who receive your OONI Run link to trust it based on your email address (which is displayed in the OONI Run link you create). This can help facilitate more trust and coordination among testers.
 
 We do *not* store your email address when you log into the [OONI Run](https://run.ooni.org/) platform, but only when you create an OONI Run link.
 
