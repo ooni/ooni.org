@@ -1,8 +1,8 @@
 ---
-title: "Job Opening: OONI Junior Backend Developer"
-description: "The OONI team is looking for a junior backend developer to maintain and improve our backend infrastructure."
+title: "Job Opening: OONI Backend Developer"
+description: "The OONI team is looking for a backend developer to maintain and improve our backend infrastructure."
 author: "Arturo Filastò"
-date: "2024-06-27"
+date: "2024-10-10"
 tags: ["ooni", "job-opening", "backend developer"]
 categories: ["blog"]
 ---
@@ -33,11 +33,9 @@ OONI team always worked remotely online. We communicate and coordinate through[
 OONI Slack channels](https://slack.ooni.org/), we have regular video/voice
 meetings, and we track our work on[ GitHub](https://github.com/ooni).
 
-Our [team members](https://ooni.org/about/team/) are currently based in Europe,
-and Africa, and North America, but we encourage applications from anywhere in
-the world. To effectively coordinate with our team members, you should be
-comfortable working with people based in the Central European time zone.
-
+The [backend team](https://ooni.org/about/team/) is located across the Europe
+and Asia timezone. While we encourage from anywhere in the world a timezone
+close to the Central European one is preferred.
 
 ### What you’ll do
 
