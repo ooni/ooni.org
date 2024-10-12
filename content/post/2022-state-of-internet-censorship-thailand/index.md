@@ -8,7 +8,7 @@ author: "Siti Nurliza Samsudin (Sinar Project), Kelly Koh (Sinar Project) and Th
 
 date: "2022-12-23"
 
-tags: ["thailand", "censorship", "country-th"]
+tags: ["thailand", "censorship", "country-th", "theme-news_media", "theme-human_rights", "theme-circumvention"]
 
 categories: ["report"]
 
@@ -17,9 +17,6 @@ categories: ["report"]
 Thailand, a country situated on the mainland of Southeast Asia, was under military junta for five years from 2014 to 2019. Upon the general election in 2019, the country has been nominally a parliamentary constitutional monarchy, although with lèse-majesté laws continuing to be invoked especially with regard to internet censorship. Adding the COVID-19 pandemic into the picture, the Thai government introduced Regulation 29 to curb fake news, which led to reported incidences of internet censorship.
 
 This report is aimed to portray the state of internet censorship in Thailand based on these reported incidents, as well as OONI measurements collected during the first half of 2022.
-
-In this report, we share our technical findings. In both Armenia and Azerbaijan, we found TLS and DNS level interference of TikTok domains and endpoints during the border clashes.
-
 
 ## Table of Contents
 

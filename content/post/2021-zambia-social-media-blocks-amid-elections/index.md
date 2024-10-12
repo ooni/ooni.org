@@ -3,7 +3,7 @@ title: "Zambia: Social media blocked amid 2021 general elections"
 description: "This report shares OONI measurements on the blocking of social media in Zambia amid its 2021 general election."
 author: "Maria Xynou, Arturo Filastò"
 date: "2021-08-24"
-tags: ["zambia", "censorship", "elections", "country-zm"]
+tags: ["zambia", "censorship", "elections", "country-zm", "theme-im", "theme-social_media"]
 categories: ["report"]
 ---
 

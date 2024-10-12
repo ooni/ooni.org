@@ -2,7 +2,7 @@
 title: "On the blocking of abortion rights websites: Women on Waves & Women on Web"
 author: "Joana Varon (Coding Rights), Rebecca Gomperts (Women on Waves, Women on Web), Maria Xynou (OONI), Federico Ceratto (OONI), Arturo Filastò (OONI)"
 date: "2019-10-29"
-tags: ["country-br", "country-ir", "country-tr", "country-sa", "country-kr", "censorship"]
+tags: ["country-br", "country-ir", "country-tr", "country-sa", "country-kr", "censorship", "theme-human_rights"]
 categories: ["report"]
 ---
 

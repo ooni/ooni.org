@@ -2,7 +2,7 @@
 title: "Iran Protests: OONI data confirms censorship events (Part 1)"
 author: "Maria Xynou, Arturo Filastò"
 date: "2018-01-05"
-tags: ["iran", "censorship", "country-ir"]
+tags: ["iran", "censorship", "country-ir", "theme-im", "theme-social_media", "theme-circumvention"]
 categories: ["report"]
 ---
 

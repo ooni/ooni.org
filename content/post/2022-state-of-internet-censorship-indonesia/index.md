@@ -8,7 +8,7 @@ author: "Khairil Zhafri (EngageMedia), Pradipa P. Rasidi (EngageMedia), Debby Kr
 
 date: "2022-12-23"
 
-tags: ["indonesia", "censorship", "country-id"]
+tags: ["indonesia", "censorship", "country-id", "theme-circumvention", "theme-human_rights", "theme-news_media"]
 
 categories: ["report"]
 

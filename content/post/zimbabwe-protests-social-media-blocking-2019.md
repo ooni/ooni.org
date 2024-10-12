@@ -2,7 +2,7 @@
 title: "Zimbabwe protests: Social media blocking and internet blackouts"
 author: "Maria Xynou (OONI), Arturo Filastò (OONI), Tawanda Mugari (Digital Society of Zimbabwe), Natasha Msonza (Digital Society of Zimbabwe)"
 date: "2019-01-23"
-tags: ["zimbabwe", "censorship", "country-zw"]
+tags: ["zimbabwe", "censorship", "country-zw", "theme-social_media", "theme-im"]
 categories: ["report"]
 ---
 

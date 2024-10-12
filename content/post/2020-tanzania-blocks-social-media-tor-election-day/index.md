@@ -3,7 +3,7 @@ title: "Tanzania blocks social media (and Tor?) on election day"
 description: "This report shares OONI measurements on the blocking of social media and Tor in Tanzania amid its 2020 general election."
 author: "Maria Xynou"
 date: "2020-10-28"
-tags: ["tanzania", "censorship", "elections", "country-tz"]
+tags: ["tanzania", "censorship", "elections", "country-tz", "theme-im", "theme-social_media", "theme-circumvention"]
 categories: ["report"]
 ---
 

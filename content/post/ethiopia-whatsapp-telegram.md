@@ -2,11 +2,11 @@
 title: "Ethiopia: From internet blackouts to the blocking of WhatsApp and Telegram"
 author: "Maria Xynou (OONI), Arturo Filastò (OONI), Moses Karanja (University of Toronto)"
 date: "2019-06-21"
-tags: ["ethiopia", "DPI", "protests", "telegram", "whatsapp", "censorship", "country-et"]
+tags: ["ethiopia", "DPI", "protests", "telegram", "whatsapp", "censorship", "country-et", "theme-im", "theme-social_media"]
 categories: ["report"]
 ---
 
-Communication access in Ethiopia has significantly been disrupted over the last week. Internet access and Short Message Services (SMS) were [disconnected](https://web.archive.org/save/https://twitter.com/addisstandard/status/1139127606211727360) intermittently across the country.  
+Communication access in Ethiopia has significantly been disrupted over the last week. Internet access and Short Message Services (SMS) were [disconnected](https://web.archive.org/save/https://twitter.com/addisstandard/status/1139127606211727360) intermittently across the country. 
 
 During the first half of the week, internet connectivity was [shut down completely](https://ioda.caida.org/ioda/dashboard#view=inspect&entity=country/ET&lastView=overview&from=1560166834&until=now). After access was restored, both [WhatsApp](https://explorer.ooni.io/measurement/20190615T215418Z_AS24757_NKzIEujAd7rEN95SsIZnraLm1yjqdU79EqczVKFLUzsOJh4DLE) and [Telegram](https://explorer.ooni.io/measurement/20190615T222820Z_AS24757_4flsDD8gZDpmh2jr60nmgLuGGymkNsRA8HOejGDOFZZDEWr6EP) were blocked. A few days ago, Ethio Telecom (the only telecom in the country) [published a notice](https://web.archive.org/web/20190619122350/https:/twitter.com/ethiotelecom_/status/1141013304762146817), acknowledging the internet disruptions, but came short on details about the extent of communication disruptions or why they occurred in the first place.
 

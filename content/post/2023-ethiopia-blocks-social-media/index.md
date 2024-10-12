@@ -3,7 +3,7 @@ title: "Ethiopia: Ongoing blocking of social media"
 description: "This report shares OONI data on the blocking of social media platforms in Ethiopia."
 author: "Maria Xynou, Arturo Filastò"
 date: "2023-02-15"
-tags: ["ethiopia", "country-et", "censorship"]
+tags: ["ethiopia", "country-et", "censorship", "theme-social_media", "theme-im"]
 categories: ["report"]
 ---
 

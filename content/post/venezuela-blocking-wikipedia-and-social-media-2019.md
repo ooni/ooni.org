@@ -2,7 +2,7 @@
 title: "From the blocking of Wikipedia to Social Media: Venezuela's Political Crisis"
 author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro), Mariengracia Chirinos (IPYS Venezuela), Arturo Filastò (OONI), Maria Xynou (OONI), Simone Basso (OONI), Kanishk Karan (Digital Forensic Research Lab)"
 date: "2019-01-29"
-tags: ["venezuela", "censorship", "country-ve"]
+tags: ["venezuela", "censorship", "country-ve", "theme-social_media"]
 categories: ["report"]
 ---
 

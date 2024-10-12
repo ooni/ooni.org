@@ -2,7 +2,7 @@
 title: "Egypt blocks BBC and Alhurra: Expanding media censorship amid political unrest"
 author: "Ramy Raoof, Mohamed El-Taher, Mohamed Tita, Arturo Filastò, Maria Xynou"
 date: "2019-09-26"
-tags: ["egypt", "censorship", "country-eg"]
+tags: ["egypt", "censorship", "country-eg", "theme-news_media"]
 categories: ["report"]
 ---
 

@@ -3,7 +3,7 @@ title: "Burundi blocks social media amid 2020 general election"
 description: "This report shares OONI measurements on the blocking of social media in Burundi amid its 2020 general election."
 author: "Maria Xynou, Arturo Filastò"
 date: "2020-05-21"
-tags: ["burundi", "censorship", "elections", "country-bi"]
+tags: ["burundi", "censorship", "elections", "country-bi", "theme-im", "theme-social_media"]
 categories: ["report"]
 ---
 

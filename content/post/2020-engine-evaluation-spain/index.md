@@ -3,7 +3,7 @@ title: "Evaluating OONI’s New Measurement Engine in the Context of the Blockin
 description: "We evaluate OONI’s new measurement Engine in the context of the blocking Women on Web in Spain"
 author: "Simone Basso"
 date: "2020-05-27"
-tags: ["spain", "censorship", "sni-blocking", "country-es"]
+tags: ["spain", "censorship", "sni-blocking", "country-es", "theme-human_rights"]
 categories: ["report"]
 ---
 

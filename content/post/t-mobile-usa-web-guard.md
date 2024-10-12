@@ -44,6 +44,7 @@ error page how to do so. This means that T-Mobile USA customers may
 be drawn into the Filternet without knowing how to get out.
 
 ### How is the censorship performed?
+
 The technique being used by T-Mobile USA to restrict access to certain content
 involves deploying a transprent HTTP proxy. This proxy intercepts every HTTP
 packet going through the network and checks it's Host header field to see if

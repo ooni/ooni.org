@@ -3,7 +3,7 @@ title: "Russia started blocking Tor"
 description: "This report shares OONI measurements on the blocking of Tor and the Tor Project's website in Russia."
 author: "Maria Xynou, Arturo Filastò"
 date: "2021-12-17"
-tags: ["russia", "censorship", "tor", "country-ru"]
+tags: ["russia", "censorship", "tor", "country-ru", "theme-circumvention"]
 categories: ["report"]
 ---
 

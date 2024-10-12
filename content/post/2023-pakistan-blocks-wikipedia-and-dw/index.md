@@ -3,7 +3,7 @@ title: "Pakistan: Blocking of Wikipedia and Deutsche Welle (DW)"
 description: "This report shares OONI data on the blocking of Wikipedia and DW in Pakistan."
 author: "Maria Xynou, Arturo Filastò"
 date: "2023-02-15"
-tags: ["pakistan", "censorship", "country-pk", "wikipedia"]
+tags: ["pakistan", "censorship", "country-pk", "wikipedia", "theme-news_media"]
 categories: ["report"]
 ---
 

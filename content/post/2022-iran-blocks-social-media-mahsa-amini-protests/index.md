@@ -2,7 +2,7 @@
 title: "Iran blocks social media, app stores and encrypted DNS amid Mahsa Amini protests"
 author: "Simone Basso (OONI), Maria Xynou (OONI), Arturo Filastò (OONI), Amanda Meng (IODA - Georgia Tech)"
 date: "2022-09-25"
-tags: ["iran", "censorship", "country-ir", "mahsaamini", "protests", "mahsa", "amini"]
+tags: ["iran", "censorship", "country-ir", "mahsaamini", "protests", "mahsa", "amini", "theme-social_media", "theme-im"]
 categories: ["report"]
 ---
 

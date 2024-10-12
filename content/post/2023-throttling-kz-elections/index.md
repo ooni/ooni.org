@@ -3,7 +3,7 @@ title: "Throttling of news media amid Kazakhstan’s 2022 presidential election"
 description: "A technical report highlighting the throttling of Radio Free Europe/Radio Liberty websites in Kazakhstan from September 2022 to April 2023, alongside temporary throttling of www.currenttime.tv during the 2022 presidential elections"
 author: "Arturo Filastò, Simone Basso"
 date: "2023-04-28"
-tags: ["kazakhstan", "censorship", "country-kz", "rferl"]
+tags: ["kazakhstan", "censorship", "country-kz", "rferl", "theme-news_media"]
 categories: ["report"]
 ---
 

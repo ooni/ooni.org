@@ -3,7 +3,7 @@ title: "Tanzania: Ongezeko la udhibiti wa LGBTIQ mtandaoni na vizuizi vingine"
 description: "Ripoti hii imeonyesha udhibiti wa tovuti za LGBTIQ na aina nyingine za udhibiti zilizokusudiwa nchini Tanzania kutokana na uchambuzi wa OONI data."
 author: "Maria Xynou (OONI), Mehul Gulati (OONI), Tori Fransis"
 date: "2024-04-11"
-tags: ["country-tz"]
+tags: ["country-tz", "theme-human_rights", "theme-social_media", "theme-circumvention"]
 categories: ["report"]
 ---
 

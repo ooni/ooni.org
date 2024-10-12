@@ -3,7 +3,7 @@ title: "Myanmar: Data on internet blocks and internet outages following military
 description: "This report shares OONI measurements on internet blocks in Myanmar, and IODA data on the internet outages following the military coup."
 author: "Maria Xynou (OONI), Ramakrishna Padmanabhan (CAIDA, UC San Diego), Phyu Kyaw, Myanmar ICT for Development Organization (MIDO), Arturo Filastò (OONI)"
 date: "2021-03-09"
-tags: ["myanmar", "censorship", "blackout", "military-coup", "country-mm"]
+tags: ["myanmar", "censorship", "blackout", "military-coup", "country-mm", "theme-news_media", "theme-social_media", "theme-circumvention"]
 categories: ["report"]
 ---
 

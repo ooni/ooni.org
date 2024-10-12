@@ -2,7 +2,7 @@
 title: "Measuring Internet Censorship in Cuba's ParkNets"
 author: "Maria Xynou, Arturo Filastò, Simone Basso"
 date: "2017-08-28"
-tags: ["cuba", "censorship", "research-report", "country-cu"]
+tags: ["cuba", "censorship", "research-report", "country-cu", "theme-news_media", "theme-human_rights", "theme-circumvention", "theme-social_media"]
 categories: ["report"]
 ---
 
