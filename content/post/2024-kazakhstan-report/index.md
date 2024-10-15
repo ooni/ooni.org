@@ -1096,4 +1096,4 @@ We found the latest government root CA and many TLS MITM attacks on at least 19 
 
 We thank [OONI Probe](https://ooni.org/install/) users in Kazakhstan for contributing measurements, supporting this study.
 
-Edit from 14th of October 2024: the TLS MiTM section was updated on based on input from David Fifield
+We also thank David Fifield for sharing input that informed the update of the TLS MITM section of this report (updated on 15th October 2024).
