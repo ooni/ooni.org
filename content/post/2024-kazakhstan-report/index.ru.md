@@ -17,7 +17,7 @@ categories: ["report"]
 
 Наш анализ [данных OONI](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-06-01&until=2024-06-01&time_grain=day&probe_cc=KZ), собранных в Казахстане за последний год (с 1 июня 2023 года по 1 июня 2024 года), показывает следующее:
 
-* **Man-In-The-Middle (MITM) атаки в рамках TLS-рукопожатия.** Мы [задокументировали использование новейшего корневого сертификата (НУЦ РК)](https://explorer.ooni.org/m/20210808015758.022737_KZ_webconnectivity_3b9213f9ee4f2d06), созданного по требованию правительства, и его использование для выпуска 6 различных промежуточных сертификатов, которые использовались для проведения атак типа "man-in-the-middle" (MITM) во время TLS-рукопожатия, в случаях подключения к как минимум 14 различным доменным именам на 19 различных сетях в Казахстане. 
+* **Man-In-The-Middle (MITM) атаки в рамках TLS-рукопожатия.** В [данных OONI](https://explorer.ooni.org/m/20210808015758.022737_KZ_webconnectivity_3b9213f9ee4f2d06) собранных в Казахстане с 2021 по 2024 год, мы обнаружили семь различных промежуточных сертификатов, подписанных четырьмя разными корневыми сертификатами, используемыми для проведения TLS man-in-the-middle (MITM) атак направленных на, как минимум, 14 разных доменов на, как минимум, 19 различных сетях в Казахстане.
 * **Блокировку 17 сайтов новостных СМИ.** [Данные OONI](https://explorer.ooni.org/search?probe_cc=KZ&test_name=web_connectivity&since=2023-06-01&until=2024-06-01&failure=false&category_code=NEWS&only=anomalies) показывают блокировку:
     * Многих **российских** новостных СМИ (например, [Телеканал Царьград](https://explorer.ooni.org/chart/mat?probe_cc=KZ&since=2023-06-01&until=2024-06-01&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=kz.tsargrad.tv), [Спутник и Погром](https://explorer.ooni.org/chart/mat?probe_cc=KZ&since=2023-06-01&until=2024-06-01&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=sputnikipogrom.com), [Спутниковое телевидение 360](https://explorer.ooni.org/chart/mat?probe_cc=KZ&since=2023-06-01&until=2024-06-01&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=360tv.ru) и [Информационное агентство Фергана](https://explorer.ooni.org/chart/mat?probe_cc=KZ&since=2023-06-01&until=2024-06-01&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=fergana.media));
     * Некоторых **Кыргызских** новостных СМИ ([Kloop](https://explorer.ooni.org/chart/mat?probe_cc=KZ&since=2023-06-01&until=2024-06-01&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=kloop.kg) и [Centralasia.media](https://explorer.ooni.org/chart/mat?probe_cc=KZ&since=2023-06-01&until=2024-06-01&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=centralasia.media));
@@ -426,54 +426,169 @@ zoogvpn.com
 
 ### **TLS Man-In-The-Middle (MITM) атаки** 
 
+Обычно большая часть интернет-трафика защищена с помощью сертификата TLS, который обеспечивает шифрование вашего соединения с определенным сервером. Когда правительство применяет атаку TLS man-in-the-middle (MITM), она может не только ограничить доступ к сервису, но и взломать шифрование. Это позволяет провайдеру получить доступ к содержимому коммуникации пользователя с сайтом или сервисом, минуя слой шифрования. Такой взлом будет работать только в том случае, если на компьютере пользователя установлен обязательный правительственный корневой сертификат, с помощью которого браузеры проверяют и авторизовывают сертификаты представляемые сервером.
+
+По данным Internet Freedom Kazakhstan, сертификат безопасности с технологией MITM был предложен к внедрению в Казахстане в 2016 годув рамках закона «О связи». В декабре 2020 года в ходе киберучений «Информационная безопасность Нур-Султан-2020» пользователям в Казахстане были разосланы SMS-сообщения с информацией об установке сертификата безопасности для сохранения доступа к зарубежным интернет-ресурсам. 
+
+Представитель АО «Государственная техническая служба» Рамиль Бектемиров на брифинге, посвященном учениям 2020 года в Астане, ответил на вопрос об использовании технологии MITM в сертификате безопасности так:
+
+*«Технология [MITM] действительно используется в решении. Эта технология используется не только нами, но и ведущими производителями оборудования для защиты сетей. Они включают в это решение функционал для проверки трафика. Мы понимаем, что сейчас 70 % нашего трафика зашифровано. И проверить его, увидеть запрещенный контент, который нужно будет блокировать, без этой технологии невозможно».*
+
+Известно, что Казахстан использует по меньшей мере 4 различных корневых центра сертификации, которые мы приводим в следующей таблице:
+
+| Имя сертификата                                     | Недействителен до         | Недействителен после          | Ссылки                                                                                                                                                                                                                                                                                                                                                                                     |
+| ----------------------------------------------- | ------------------------ | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| НЕГІЗГІ КУӘЛАНДЫРУШЫ ОРТАЛЫҚ                    | Jul 27 04:47:00 2015 GMT | Jul 27 04:47:00 2020 GMT | [mozilla.dev.security.policy thread](https://groups.google.com/g/mozilla.dev.security.policy/c/wnuKAhACo3E) • [mozilla bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1229827)                                                                                                                                                                                                         |
+| Qaznet Trust Network                            | Feb 2 05:41:00 2016 GMT  | Feb 2 05:41:00 2046 GMT  | [net4people bbs thread](https://github.com/net4people/bbs/issues/6) • [censoredplanet report](https://censoredplanet.org/kazakhstan) • [archive.org cert](https://archive.org/details/qazca-ca-certificate) • [mozilla bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1567114) • [mozilla blog post](https://blog.mozilla.org/security/2019/08/21/protecting-our-users-in-kazakhstan/) |
+| Information Security Certification Authority CA | Feb 28 04:08:03 2020 GMT | Feb 28 04:08:03 2040 GMT | [net4people bbs thread](https://github.com/net4people/bbs/issues/56) • [censoredplanet post](https://censoredplanet.org/kazakhstan/live) • [archive.org cert](https://archive.org/details/isca-ca-certificate) • [mozilla bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1680927) • [mozilla blog post](https://blog.mozilla.org/netpolicy/2020/12/18/kazakhstan-root-2020/)           |
+| Information Security Certification Authority    | Feb 28 06:16:40 2020 GMT | Feb 28 06:16:40 2050 GMT | [net4people bbs thread](https://github.com/net4people/bbs/issues/339) • [ntc.party thread](https://ntc.party/t/https-mitm-in-kazakhstan-starting-2024-02-07/7405) • [crt.sh cert #1](https://crt.sh/?d=11106964945)•[crt.sh cert #2](https://crt.sh/?d=4739909320)•[crt.sh cert #3](https://crt.sh/?d=14682080594)•[crt.sh cert #4](https://crt.sh/?d=12281942153) • [mozilla bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1864724)                                                                                                    |
+
 В рамках нашего анализа мы [обнаружили в данных OONI доказательство](https://explorer.ooni.org/m/20210914080702.850310_KZ_webconnectivity_88ece394d9a0fcdc) того, что уполномоченный правительством Казахстана центр сертификации использовался для осуществления TLS-атак типа “man-in-the-middle” (MITM), направленных на определенный список доменов. 
 
-В частности, данные OONI собранные в Казахстане показывают, что следующие домены подвергались TLS MITM атакам:
+В частности, данные OONI собранные в Казахстане показывают, что следующие 14 доменов подвергались TLS MITM атакам:
 
 ```
-
 360tv.ru
-
 astrakhan.sm.news
-
 compromat.ru
-
 cont.ws
-
 knews.kg
-
 kz.tsargrad.tv
-
 regnum.ru
-
 rutracker.org
-
 sproot.it
-
 stanradar.com
-
 ukraina.ru
-
 www.for.kg
-
 www.pinterest.com
-
 xakep.ru
-
 ```
-
 Мы можем сделать вывод, что это действительно TLS MITM атаки, а не просто DNS-фальсификация, приводящая к странице, содержащей недействительный сертификат, поскольку мы смогли установить, что IP, возвращаемый в рамках DNS-разрешения, соответствует DNS (такой же IP мы видим в результате контрольных измерений).
 
 В предыдущие годы были [свидетельства](https://www.zdnet.com/article/kazakhstan-government-is-intercepting-https-traffic-in-its-capital/) TLS MITM атак в Казахстане, и тогда Mozilla предприняла действия, чтобы явно [заблокировать работу этого корневого сертификата](https://blog.mozilla.org/netpolicy/2020/12/18/kazakhstan-root-2020/) в своем браузере. В 2019 году [Censored Planet сообщала о новом корневом сертификате](https://censoredplanet.org/assets/Kazakhstan.pdf), он был добавлен в список [недобропорядочных сертификатов OneCRL](https://bugzilla.mozilla.org/show_bug.cgi?id=1680927).
 
-Однако, мы обнаружили **другой корневой сертификат**. Конкретный промежуточный сертификат, который мы обнаружили подписанным [последним корневым сертификатом](https://isca.gov.kz/), имеет общее имя «Центр сертификации информационной безопасности» (Information Security Certification Authority) и дату выпуска 28 февраля 2020 года, дату истечения срока действия 28 февраля 2050 года.
+Существует еще, как минимум, [7 корневых сертификатов с тем же именем Information Security Certification Authority](https://crt.sh/?q=Information+Security+Certification+Authority):
 
-Корневой сертификат немного отличается от того, о котором сообщали новостные издания и на который была дана ссылка в трекере Mozilla, но с тех пор он также был добавлен в [Firefox OneCRL](https://bugzilla.mozilla.org/show_bug.cgi?id=1680927), чтобы сделать его неэффективным во всех браузерах Firefox.
+* [https://crt.sh/?id=4833570779](https://crt.sh/?id=4833570779)
+* [https://crt.sh/?id=4739909320](https://crt.sh/?id=4739909320)
+* [https://crt.sh/?id=4633597326](https://crt.sh/?id=4633597326)
+* [https://crt.sh/?id=3967758934](https://crt.sh/?id=3967758934)
+* [https://crt.sh/?id=12281942153](https://crt.sh/?id=12281942153)
+* [https://crt.sh/?id=11106964945](https://crt.sh/?id=11106964945)
+* [https://crt.sh/?id=14682080594](https://crt.sh/?id=14682080594) 
 
-Основываясь на данных OONI, мы смогли подтвердить, что этот корневой сертификат использовался для подписания промежуточных сертификатов, которые затем использовались для **проведения MITM-атак на пользователей в Казахстане по меньшей мере в 19 различных сетях и по меньшей мере в 14 различных доменных именах**.
+Чтобы определить, какой из них был использован для подписи промежуточных пакетов, наблюдаемых в измерениях OONI, мы использовали [этот скрипт](https://gist.github.com/hellais/f2f95cf4b397fe6cb9fec7f966668a8e).
+
+Обнаруженные нами корневые сертификаты, используемые для подписи промежуточных пакетов в измерениях OONI, хотя и отличаются от тех, о которых [сообщала Censored Planet в 2019 году](https://censoredplanet.org/assets/Kazakhstan.pdf) и которые в то время были [добавлены в список OneCRL для отзыва недоверенных корневых сертификатов](https://bugzilla.mozilla.org/show_bug.cgi?id=1567114), также присутствуют в списке OneCRL для Mozilla. Тот факт, что они входят в [OneCRL Mozilla](https://crt.sh/mozilla-onecrl), означает, что их использование неэффективно при доступе из браузера Firefox.
+
+В следующем списке перечислены посредники, встречающиеся в измерениях OONI, и соответствующие корневые сертификаты, используемые для их подписи:
+
+[OONI measurement](https://explorer.ooni.org/m/20210808015758.022737_KZ_webconnectivity_3b9213f9ee4f2d06)
+```
+Fingerprint: c0e15a945595372030f0d45938ebb6081bb39fb5
+Serial: 542829070264121061358597976201233251364726286334
+Not valid before: 2021-06-18 12:54:34
+Not valid after: 2021-09-01 12:54:34
+Issuer: C=KZ,O=ISCA,CN=Information Security Certification Authority
+Root CA Cert: [https://crt.sh/?d=4739909320](https://crt.sh/?d=4739909320)
+Root CA Fingerprint: fabda72fa1f620c160420a496194b61f82a01b4a
+Root CA Serial: 212762436239719553268722926518842178639864163027
+Root CA Not valid before: 2020-02-28 06:46:02
+Root CA Not valid after: 2040-02-28 06:46:02
+```
+
+[OONI measurement](https://explorer.ooni.org/m/20210914080702.850310_KZ_webconnectivity_88ece394d9a0fcdc)
+```
+Fingerprint: 90f9aa29195ecbfbf2c943ab1d5102f3ec84a68c
+Serial: 600636309019776433832878055409971857043873967144
+Not valid before: 2021-08-19 12:39:14
+Not valid after: 2021-11-02 12:39:14
+Issuer: C=KZ,O=ISCA,CN=Information Security Certification Authority
+Root CA Unknown
+```
+
+[OONI measurement](https://explorer.ooni.org/m/20231016130600.035487_KZ_webconnectivity_4a5c38a0f8bea740)
+```
+Fingerprint: 8634ecaefb5d02463d2a9ce42178001154752561
+Serial: 293697198316360729812453916520636458008892047728
+Not valid before: 2023-08-09 06:33:35
+Not valid after: 2023-10-23 06:33:35
+Issuer: C=KZ,O=ISCA,CN=Information Security Certification Authority
+Root CA Cert: [https://crt.sh/?d=11106964945](https://crt.sh/?d=11106964945)
+Root CA Fingerprint: ea5d093c312e1a516937e153c06c2d82127b47d6
+Root CA Serial: 394571478723635638549382697435194886177070445336
+Root CA Not valid before: 2020-02-28 05:39:51
+Root CA Not valid after: 2050-02-28 05:39:51
+```
+
+[OONI measurement](https://explorer.ooni.org/m/20231118140134.149173_KZ_webconnectivity_a93dfc958ab79ec2)
+```
+Fingerprint: cb074692a22395fa615a89a86d877c9abc034867
+Serial: 203432698505598047390349427507107109607746033885
+Not valid before: 2023-11-02 09:03:07
+Not valid after: 2024-01-16 09:03:07
+Issuer: C=KZ,O=ISCA,CN=Information Security Certification Authority
+Root CA Cert: [https://crt.sh/?d=11106964945](https://crt.sh/?d=11106964945)
+Root CA Fingerprint: ea5d093c312e1a516937e153c06c2d82127b47d6
+Root CA Serial: 394571478723635638549382697435194886177070445336
+Root CA Not valid before: 2020-02-28 05:39:51
+Root CA Not valid after: 2050-02-28 05:39:51
+```
+
+[OONI measurement](https://explorer.ooni.org/m/20240317052821.044604_KZ_webconnectivity_3752cbf5dac624e9)
+```
+Fingerprint: dfcd9dcb64edd86e333ad6247e2deda7dcf10ebd
+Serial: 621829445753241691614495298860851878603068917060
+Not valid before: 2023-11-28 11:24:53
+Not valid after: 2024-02-11 11:24:53
+Issuer: C=KZ,O=ISCA,CN=Information Security Certification Authority
+Root CA Cert: https://crt.sh/?d=12281942153
+Root CA Fingerprint: 1375ebdcf56359aae0423e861ac8fc6231511ce6
+Root CA Serial: 285540385527369649610289916863209926796774245522
+Root CA Not valid before: 2020-02-28 06:16:40
+Root CA Not valid after: 2050-02-28 06:16:40
+```
+
+[OONI measurement](https://explorer.ooni.org/m/20240418133819.497733_KZ_webconnectivity_bd3a0d69cd5e8aca)
+```
+Fingerprint: 5d54c6afa4fd4685359875595565ae9f8caab914
+Serial: 499633659418679795571951434192241531137344178316
+Not valid before: 2024-03-20 05:50:15
+Not valid after: 2024-06-03 05:50:15
+Issuer: C=KZ,O=ISCA,CN=Information Security Certification Authority
+Root CA Unknown
+```
+
+[OONI measurement](https://explorer.ooni.org/m/20240901151413.637888_KZ_webconnectivity_c351db70f739197a)
+```
+Fingerprint: 76e9f2a52c149586be8f389d8a71ac41d3f423d1
+Serial: 414124517712191942334357388114692622770498879745
+Not valid before: 2024-08-23 10:46:59
+Not valid after: 2024-11-06 10:46:59
+Issuer: C=KZ,O=ISCA,CN=Information Security Certification Authority
+Root CA Cert: https://crt.sh/?d=14682080594
+Root CA Fingerprint: bfd7f531eca8e3d65b4738167b160b7a95a8d894
+Root CA Serial: 618155106210402083740770170610017403616935751280
+Root CA Not valid before: 2020-02-28 07:04:41
+Root CA Not valid after: 2050-02-28 07:04:41
+```
+Хотя технически это разные корневые сертификаты, мы рассматриваем их как часть одного инцидента в таблице в начале этого раздела, обозначенной как «Центр сертификации информационной безопасности», поскольку все они имеют одно общее имя.
+
+Похоже, что все корневые сертификаты имеют очень похожее время выпуска, что наводит на мысль о том, что все они, возможно, были сгенерированы в какой-то момент времени, чтобы затем ротировать их по мере включения в списки CRL.
+
+Что касается сроков действия промежуточных сертификатов, то совершенно очевидно, что между обновлениями сертификатов существует разрыв. Основываясь на данных OONI, мы смогли подтвердить, что даже если бы интернет-пользователи в Казахстане установили корневой сертификат в соответствии с указаниями правительства, они все равно получали бы ошибки проверки сертификата в период со 2 ноября 2011 года по 9 августа 2023 года. Более короткие периоды недействительности сертификата наблюдаются с 23 октября 2023 года по 28 ноября 2023 года, а затем с 11 февраля 2024 года по 20 марта 2024 года.
+
+Из приведенного ниже графика видно, что эти промежуточные сертификаты были замечены и в других контекстах, и использовались для MITM-атак даже в периоды недействительности сертификатов.
+
+{{<img src="images/image13.png" title="Intermediate Certificates" alt="Intermediate Certificates">}}
+
+Это говорит о том, что если бы пользователи пытались посетить сайты, пострадавшие от MITM-атак, и установили корневой сертификат, они бы все равно получили ошибку.
+
+Нам неясно, почему они пошли на то, чтобы сказать пользователям об установке корневого центра сертификации, но затем не смогли поддерживать промежуточные сертификаты в актуальном состоянии, чтобы эффективно провести MITM-атаки, даже если пользователи полностью выполняли распоряжения правительства. Мы можем только предположить, что это связано либо с неправильной настройкой периодического обновления (хотя для первого сертификата мы видим, что срок недействительности составляет почти 2 года), либо с тем, что они 3 раза забыли обновить свои сертификаты вовремя.
+
+Основываясь на данных OONI, мы смогли подтвердить, что этот корневой сертификат использовался для подписания промежуточных сертификатов, которые затем использовались для проведения MITM-атак на пользователей в Казахстане по меньшей мере в 19 различных сетях и по меньшей мере в 14 различных доменных именах.
 
 В частности, мы обнаружили признаки TLS MITM в следующих сетях:
-
 * Uplink LLC (AS8200)
 * TimeWeb Ltd. (AS9123)
 * JSC Kazakhtelecom (AS9198)
@@ -495,92 +610,6 @@ xakep.ru
 * Kar-Tel LLC (AS206026)
 
 Тот факт, что так много разных интернет-провайдеров реализуют MITM-атаки с использованием одного и того же сертификата, говорит о высоком уровне координации между разными провайдерами и довольно высоком уровне соответствия провайдерами требований по блокировкам.
-
-В данных OONI, собранных в Казахстане в период с 2023 по 2024 год, мы обнаружили **6 различных промежуточных сертификатов**, используемых для осуществления TLS MITM атак. Каждый из этих сертификатов имеет относительно короткий срок действия – 75 дней. Это означает, что для того, чтобы цепочка сертификатов продолжала функционировать должным образом, нужно выпускать новый промежуточный сертификат от своего корневого центра сертификации не реже, чем раз в 74 дня.
-
-В наших данных мы обнаружили следующие промежуточные сертификаты:
-
-[https://explorer.ooni.org/m/20210808015758.022737_KZ_webconnectivity_3b9213f9ee4f2d06](https://explorer.ooni.org/m/20210808015758.022737_KZ_webconnectivity_3b9213f9ee4f2d06) 
-
-```
-Fingerprint: c0e15a945595372030f0d45938ebb6081bb39fb5
-
-Serial: 542829070264121061358597976201233251364726286334
-
-Not valid before: 2021-06-18 12:54:34
-
-Not valid after: 2021-09-01 12:54:34
-```
-
-[https://explorer.ooni.org/m/20210914080702.850310_KZ_webconnectivity_88ece394d9a0fcdc](https://explorer.ooni.org/m/20210914080702.850310_KZ_webconnectivity_88ece394d9a0fcdc) 
-
-```
-Fingerprint: 90f9aa29195ecbfbf2c943ab1d5102f3ec84a68c
-
-Serial: 600636309019776433832878055409971857043873967144
-
-Not valid before: 2021-08-19 12:39:14
-
-Not valid after: 2021-11-02 12:39:14
-```
-
-[https://explorer.ooni.org/m/20231016130600.035487_KZ_webconnectivity_4a5c38a0f8bea740](https://explorer.ooni.org/m/20231016130600.035487_KZ_webconnectivity_4a5c38a0f8bea740)
-
-```
-Fingerprint: 8634ecaefb5d02463d2a9ce42178001154752561
-
-Serial: 293697198316360729812453916520636458008892047728
-
-Not valid before: 2023-08-09 06:33:35
-
-Not valid after: 2023-10-23 06:33:35
-```
-
-[https://explorer.ooni.org/m/20240317052821.044604_KZ_webconnectivity_3752cbf5dac624e9](https://explorer.ooni.org/m/20240317052821.044604_KZ_webconnectivity_3752cbf5dac624e9) 
-
-```
-Fingerprint: dfcd9dcb64edd86e333ad6247e2deda7dcf10ebd
-
-Serial: 621829445753241691614495298860851878603068917060
-
-Not valid before: 2023-11-28 11:24:53
-
-Not valid after: 2024-02-11 11:24:53
-```
-
-[https://explorer.ooni.org/m/20231118140134.149173_KZ_webconnectivity_a93dfc958ab79ec2](https://explorer.ooni.org/m/20231118140134.149173_KZ_webconnectivity_a93dfc958ab79ec2) 
-
-```
-Fingerprint: cb074692a22395fa615a89a86d877c9abc034867
-
-Serial: 203432698505598047390349427507107109607746033885
-
-Not valid before: 2023-11-02 09:03:07
-
-Not valid after: 2024-01-16 09:03:07
-```
-
-[https://explorer.ooni.org/m/20240418133819.497733_KZ_webconnectivity_bd3a0d69cd5e8aca](https://explorer.ooni.org/m/20240418133819.497733_KZ_webconnectivity_bd3a0d69cd5e8aca) 
-
-```
-Fingerprint: 5d54c6afa4fd4685359875595565ae9f8caab914
-
-Serial: 499633659418679795571951434192241531137344178316
-
-Not valid before: 2024-03-20 05:50:15
-
-Not valid after: 2024-06-03 05:50:15
-```
-
-Из приведенных выше временных диапазонов удивительно то, что между обновлением сертификатов существует разрыв. Основываясь на данных OONI, мы смогли подтвердить, что даже если бы интернет-пользователи в Казахстане установили корневой сертификат в соответствии с указаниями правительства, они все равно получали бы ошибки проверки сертификата в период со 2 ноября 2011 года по 9 августа 2023 года. Более короткие периоды недействительности сертификата наблюдаются с 23 октября 2023 года по 28 ноября 2023 года, а затем с 11 февраля 2024 года по 20 марта 2024 года.
-
-Из приведенного ниже графика видно, что эти промежуточные сертификаты были замечены и в других контекстах, и **использовались для MITM-атак даже в периоды недействительности сертификатов**.
-
-{{<img src="images/image13.png" title="Intermediate Certificates" alt="Intermediate Certificates">}}
-
-Это говорит о том, что если бы пользователи пытались посетить сайты, пострадавшие от MITM-атак, и установили корневой сертификат, они бы все равно получили ошибку.
-
-Нам неясно, почему они пошли на то, чтобы сказать пользователям об установке корневого центра сертификации, но затем не смогли поддерживать промежуточные сертификаты в актуальном состоянии, чтобы эффективно провести MITM-атаки, даже если пользователи полностью выполняли распоряжения правительства. Мы можем только предположить, что это связано либо с неправильной настройкой периодического обновления (хотя для первого сертификата мы видим, что срок недействительности составляет почти 2 года), либо с тем, что они 3 раза забыли обновить свои сертификаты вовремя.
 
 ## **Правовая среда** 
 
