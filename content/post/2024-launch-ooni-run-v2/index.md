@@ -280,9 +280,9 @@ In the event that you have **disabled automated OONI Run link testing** and woul
 
 {{<img src="images/image24.jpg">}}
 
-#### Finding your OONI Run v2 measurements on OONI Explorer
+### Finding your OONI Run v2 measurements on OONI Explorer
 
-By default, all OONI Probe measurements run through OONI Run v2 links are automatically published on [OONI Explorer](https://explorer.ooni.org/) as open data in real-time. But given that OONI Explorer hosts a wealth of data – more than 2 billion measurements collected from 242 countries and territories since 2012 – finding the specific measurements from your OONI Run link was previously quite challenging.
+By default, all OONI Probe measurements from OONI Run v2 links are automatically published on [OONI Explorer](https://explorer.ooni.org/) as open data in real-time. But given that OONI Explorer hosts a wealth of data – more than 2 billion measurements collected from 242 countries and territories since 2012 – finding the specific measurements from your OONI Run link was previously quite challenging.
 
 We are excited to share that you can now easily find and aggregate measurements from your specific OONI Run v2 link through OONI Explorer! Specifically, you can **filter measurements** in both the OONI Explorer [Search Tool](https://explorer.ooni.org/search) and [Measurement Aggregation Toolkit (MAT)](https://explorer.ooni.org/chart/mat) based on the ID of your OONI Run v2 link (“**OONI Run Link ID**”).
 
