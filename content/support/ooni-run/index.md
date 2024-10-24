@@ -4,7 +4,7 @@
 
 {{<img src="images/image5.png" title="OONI Run" alt="OONI Run">}}
 
-[OONI Run](https://run.ooni.org/) is a web platform that you can use to generate mobile deep links and widget code to coordinate [OONI Probe](https://ooni.org/install/mobile) website testing. Specifically, you can use OONI Run to create links or widget code for:
+[OONI Run](https://run.ooni.org/) is a web platform that you can use to generate mobile deep links to coordinate [OONI Probe](https://ooni.org/install/mobile) website testing. Specifically, you can use OONI Run to create links for:
 * Testing websites (of your choice) for censorship;
 * Coordinating website censorship testing with other [OONI Probe](https://ooni.org/install/mobile) users.
 
@@ -237,7 +237,7 @@ Similarly, you can use the ID of your OONI Run link to aggregate measurements fr
 
 ## Optional, but encouraged: Adding your websites to test lists
 
-If some of the websites that you used for OONI Run links or widget code are relevant for country-wide or worldwide testing, please **propose them for the lists of websites ("[test lists](https://ooni.org/get-involved/contribute-test-lists)") tested by all OONI Probe users.** You can do so through our [Test Lists Editor](https://test-lists.ooni.org/).
+If some of the websites that you used for OONI Run links are relevant for country-wide or worldwide testing, please **propose them for the lists of websites ("[test lists](https://ooni.org/get-involved/contribute-test-lists)") tested by all OONI Probe users.** You can do so through our [Test Lists Editor](https://test-lists.ooni.org/).
 
 {{<img src="images/image8.png" title="Test Lists Editor" alt="Test Lists Editor">}}
 
