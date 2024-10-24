@@ -239,6 +239,6 @@ Similarly, you can use the ID of your OONI Run link to aggregate measurements fr
 
 If some of the websites that you used for OONI Run links or widget code are relevant for country-wide or worldwide testing, please **propose them for the lists of websites ("[test lists](https://ooni.org/get-involved/contribute-test-lists)") tested by all OONI Probe users.** You can do so through our [Test Lists Editor](https://test-lists.ooni.org/).
 
-{{<img src="images/image7.png" title="Test Lists Editor" alt="Test Lists Editor">}}
+{{<img src="images/image8.png" title="Test Lists Editor" alt="Test Lists Editor">}}
 
 Please refer to [our guide](https://ooni.org/support/test-lists-editor) to learn **how to update test lists using the Test Lists Editor**.
