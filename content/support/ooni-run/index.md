@@ -28,13 +28,13 @@ The following table of contents should help with navigating the guide.
 
 ## Joining the platform
 
-[OONI Run](https://run.ooni.org/) enables you to generate a link to test websites (of your choice) for censorship. You can also share this link with other [OONI Probe mobile [app](https://ooni.org/install/mobile) users so that they can test those websites. The first step is to **create an account** on OONI Run platform:
-
-{{<img src="images/image31.png">}}
+[OONI Run](https://run.ooni.org/) enables you to generate a link to test websites (of your choice) for censorship. You can also share this link with other [OONI Probe mobile app](https://ooni.org/install/mobile) users so that they can test those websites. The first step is to **create an account** on OONI Run platform:
 
 **Step 1.** Click the “**Log In To Create OONI Run Link**” button.
 
 **Step 2.** Add your **email address** in the Email slot.
+
+{{<img src="images/image31.png">}}
 
 **Note:** We do not store email addresses when you log in, but only when you create an OONI Run link. We store your email address so that when OONI Probe users receive an OONI Run link from you, they can trust it based on your email address (which is displayed in the OONI Run link you create). This can help reduce the risk of running malicious links.
 
