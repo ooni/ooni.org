@@ -4,7 +4,7 @@
 
 {{<img src="images/image5.png" title="OONI Run" alt="OONI Run">}}
 
-[OONI Run](https://run.ooni.org/) is a web platform that you can use to generate mobile deep links to coordinate [OONI Probe](https://ooni.org/install/mobile) website testing. Specifically, you can use OONI Run to create links for:
+[OONI Run](https://run.ooni.org/) is a web platform that you can use to generate links to coordinate [OONI Probe](https://ooni.org/install/mobile) website testing. Specifically, you can use OONI Run to create links for:
 * Testing websites (of your choice) for censorship;
 * Coordinating website censorship testing with other [OONI Probe](https://ooni.org/install/mobile) users.
 
@@ -110,7 +110,7 @@ Alternatively, click the **Update Now** button next to the link expiration date.
 
 Once the OONI Run link is updated, it will be automatically updated for all users who have it installed in their OONI Probe application if they have “Install updates automatically” option enabled. Alternatively, they will be able to update the OONI Run link manually. 
 
-If you have **old OONI Run links v1 links** (created through the use of the previous OONI Run platform) that you have embedded as widgets into your website or which you are sharing for testing, **please update them** to use OONI Run v2.
+If you have **old OONI Run v1 links** (created through the use of the previous OONI Run platform) that you have embedded as widgets into your website or which you are sharing for testing, **please update them** to use OONI Run v2.
 
 You can update old OONI Run v1 links through the following steps.
 
