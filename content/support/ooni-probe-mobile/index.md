@@ -55,7 +55,7 @@ OONI [openly publishes OONI Probe test results](https://ooni.org/data/) gathered
 
 To enable public access to OONI Probe test results (more commonly referred to as “measurements”), the OONI team makes them available on [OONI Explorer](https://explorer.ooni.org/): a web platform that provides charts based on measurement coverage and a search tool for exploring the measurements.
 
-As [OONI Explorer](https://explorer.ooni.org/) hosts more than 850 million network measurements collected from 24,500 networks in 241 countries and territories since 2012, it is likely the **largest global open data resource on internet censorship** to date.
+As [OONI Explorer](https://explorer.ooni.org/) hosts more than 2 billion network measurements collected from 28,000 networks in 242 countries and territories since 2012, it is likely the **largest global open data resource on internet censorship** to date.
 
 By running OONI Probe, you will:
 
@@ -167,6 +167,7 @@ The **Dashboard** of the OONI Probe mobile app includes 5 cards, each of which e
 * **Circumvention card.** Includes OONI’s [Tor](https://ooni.org/nettest/tor/) and [Psiphon](https://ooni.org/nettest/psiphon/) which check if these censorship circumvention tools are blocked.
 * **Performance card.** Includes the [NDT speed test](https://ooni.org/nettest/ndt/), the [DASH video streaming performance test](https://ooni.org/nettest/dash/), and OONI’s [middlebox](https://ooni.org/support/glossary/#middlebox) tests ([HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) test and [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) test).
 * **Experimental card.** Includes multiple new experimental tests developed by the OONI team. These tests might change over time. You can view these tests [here](https://github.com/ooni/spec/tree/master/nettests).
+* **Installed OONI Run links.** Beneath all the cards you will see a section with the OONI Run links you have installed on your app. You can read more about OONI Run links [here](https://ooni.org/support/ooni-run/).
 
 **Step 1.** Tap **Run** to run your first OONI Probe tests.
 
@@ -406,7 +407,29 @@ Manually adding URLs one by one (through the “Choose websites” button of the
 
 You can test your own list of websites through the following steps:
 
-**Step 1.** Compile your list of websites in a text editor, where each URL is in a separate line. Below we share an example.
+**Step 1. Create an account on OONI Run platform.** 
+
+Click “**Log In To Create OONI Run Link**” button and add your **email address** in the Email slot.
+
+{{<img src="images/image31.png">}}
+
+**Note:** We do not store email addresses when you log in, but only when you create an OONI Run link. We store your email address so that when OONI Probe users receive an OONI Run link from you, they can trust it based on your email address (which is displayed in the OONI Run link you create). This can help reduce the risk of running malicious links.
+
+Once you have added your email address, click the “**Send me the Link**” button. Click the link (“Please login here”) sent to your email to log into the OONI Run v2 platform.
+
+**Step 2. Create your OONI Run link.** 
+
+You have now logged into the OONI Run platform and can start creating OONI Run links. Here you can customise the title, description, timeframe and a list of URLs for testing. To do this, please use the following instructions: 
+
+First of all, add a **title** for your OONI Run link. Optionally, you can add translations for your title.
+
+**Note:** This title will appear in the OONI Run link card that testers will install in their [OONI Probe mobile app](https://ooni.org/install/mobile). We recommend using a short title which clearly communicates the type of testing performed. In the above example, we have added “Test social media” as a title because we aim to include social media websites for testing in our OONI Run link.
+
+Next add a **short description** and a **longer description** for your OONI Run link. Optionally, you can add translations. This is an opportunity to communicate details about the testing, and why it’s important.
+
+Finally, set an **expiration date** for your OONI Run link and click “Add URL” to **start adding URLs** to your OONI Run link.
+
+**Step 3.** To add a **list of URLs**, compile your list of websites in a text editor, where each URL is in a separate line. Below we share an example.
 
 {{<img src="images/image69.png" title="Text editor custom URLs" alt="Text editor custom URLs">}}
 
@@ -420,17 +443,7 @@ A few things to keep in mind:
 
 To ensure that each [URL](https://ooni.org/support/glossary/#url) is typed accurately, **please copy-paste it from a browser.**
 
-**Step 2.** **Copy** your list of URLs (from your text editor).
-
-**Step 3.** Visit the **OONI Run** website: https://run.ooni.org/
-
-{{<img src="images/image-ooni-run.png" title="OONI Run landing page" alt="OONI Run landing page">}}
-
-**Step 4.** **Select** `http://` in the first URL slot of the OONI Run page (to avoid having a double `http` in the formatting of your first URL).
-
-{{<img src="images/image50.png" title="Select URL OONI Run" alt="Select URL OONI Run">}}
-
-**Step 5.** **Paste** your list of URLs into the first URL slot of the OONI Run page.
+Once your list is ready, **copy** your list of URLs (from your text editor) and **paste** your list of URLs into the first URL slot of the OONI Run page.
 
 You should now see that all of your URLs have populated each URL row in the [OONI Run](https://run.ooni.org/) page.
 
@@ -440,42 +453,43 @@ If you notice any empty rows (or otherwise misformatted URLs), please delete the
 
 {{<img src="images/image67.png" title="Empty rows" alt="Empty rows">}}
 
-**Step 6.** Click the **Generate** button at the end of your list.
+**Step 4.** Click the **Create Link** button to create your OONI Run link.
 
-{{<img src="images/image13.png" title="Click generate" alt="Click generate">}}
+You will now see your OONI Run link page which includes the title and description that you added, the expiration date of the link, as well as the list of URLs that you added for testing.
 
-You will now see the following pop-up window.
+**Step 5.** To **share** your OONI Run link, click the **copy icon** next to your OONI Run link in the “Share this link” section. Then share the copied link with [OONI Probe Mobile](https://ooni.org/install/mobile) users who you would like to perform testing.
 
-{{<img src="images/image55.png" title="OONI Run popup window" alt="OONI Run popup window">}}
-
-You have generated an **OONI Run mobile deep link** for the testing of your list of websites.
-
-**Step 7.** **Copy** the generated link either by:
-
-* Clicking the link under “**Share this URL with your friends**”, pressing Control+A to select the whole link, and subsequently pressing Control + C to copy it; or
-* Right-clicking the **Link button** and selecting “Copy link address”.
-
-{{<img src="images/image30.png" title="Copy OONI Run link" alt="Copy OONI Run link">}}
-
-**Step 8.** As you’re probably doing all these steps from your desktop, **share the copied link** **with your mobile phone** (so that you can subsequently open the link with your OONI Probe mobile app). You can also share this link with other OONI Probe users, if you would like them to test your list of websites as well.
-
-**Step 9.** **Tap** on the OONI Run link from your mobile device.
-
-{{<img src="images/image100.jpg" title="OONI Run link" alt="OONI Run link">}}
-
-**Step 10.** **Open** the link with your **OONI Probe mobile app** (not with a web browser).
+**Step 6.** **Open** the link with your **OONI Probe mobile app** (not with a web browser).
 
 {{<img src="images/image113.jpg" title="Open with OONI Probe" alt="Open with OONI Probe">}}
 
-You should now see your list of websites in your OONI Probe mobile app.
+You should now be able to install the shared link in your OONI Probe mobile app if you are using Android device, or see the list of websites for testing if you are using iOS.
 
 {{<img src="images/image56.jpg" title="OONI Run page mobile" alt="OONI Run page mobile">}}
 
-**Step 11.** Tap **Run** to test your list of websites.
+**Step 7.** **Install the link**, or tap **Run** to test your list of websites.
 
 {{<img src="images/image31.jpg" title="Running OONI Run" alt="Running OONI Run">}}
 
-Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
+**Step 8.** **Find measurements** collected by those who ran your OONI Run link. 
+
+Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/). You can find and aggregate measurements from your specific OONI Run v2 link through OONI Explorer based on the ID of your OONI Run v2 link (“**OONI Run Link ID**”).
+
+The ID of your OONI Run link are the **last digits** displayed in the link. In the following example, the OONI Run link ID is `10015`.
+
+{{<img src="images/image34.png">}}
+
+Paste these digits to the filed **'OONI Run Link ID'** of OONI Explorer [MAT](https://explorer.ooni.org/chart/mat) or [Search](https://explorer.ooni.org/search/) interfaces to **find measurements** collected by all those who ran your OONI Run link through the following steps.
+
+**Step 9.** **Edit the link**
+
+If you would like to edit your OONI Run link, click the **Edit** button in the top right corner.
+
+Alternatively, click the **Update Now** button next to the link expiration date. Both actions will enable you to edit the data in your OONI Run link.
+
+Once the OONI Run link is updated, it will be automatically updated for all users who have it installed in their OONI Probe application if they have “Install updates automatically” option enabled. Alternatively, they will be able to update the OONI Run link manually. 
+
+**Note:** If you want to learn more about OONI Run tool, please check out out [user guide for OONI Run](https://ooni.org/support/ooni-run/). 
 
 ### Testing all websites from the Citizen Lab test lists
 
