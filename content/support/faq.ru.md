@@ -8,7 +8,7 @@ aliases:
 Этот раздел «Часто задаваемые вопросы» (FAQ) предназначен для ответа на вопросы, которые нам часто задают участники нашего сообщества.
 
 Оригинал: 
-* **English,** [Frequently Asked Questions (FAQ)]([/about/risks](https://ooni.org/support/faq/))
+* **English,** [Frequently Asked Questions (FAQ)](https://ooni.org/support/faq/)
 
 На русский язык документ переведен Татьяной Болдыревой.
 
