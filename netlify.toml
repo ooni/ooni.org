@@ -2,8 +2,10 @@
 publish = "public"
 command = "scripts/deploy_netlify.sh"
 
-[context.production.environment]
+[build.environment]
 HUGO_VERSION = "0.138.0"
+
+[context.production.environment]
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
