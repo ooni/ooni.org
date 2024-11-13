@@ -1,5 +1,5 @@
 {{- $styles := resources.Get "css/tailwind.css" | postCSS -}}
-{{- if hugo.IsServer }}
+{{- if .Site.IsServer }}
 {{ $styles = $styles | resources.ExecuteAsTemplate (printf "css/styles.dev.%v.css" now.UnixNano) .}}
 {{ else }}
 {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
