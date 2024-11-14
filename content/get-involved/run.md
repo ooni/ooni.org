@@ -10,6 +10,8 @@ To support **rapid response** to emergent censorship events, we share the follow
 
 2. **Tap the buttons below** & open them with your **OONI Probe mobile app** (not with a browser)
 
+4. Install the OONI Run link to your OONI Probe application if you are using Android device
+
 3. Tap **Run**
 
 Note: These tests require turning off VPNs.
@@ -30,6 +32,6 @@ Note: These tests require turning off VPNs.
 
 {{<oonibtn text="Reproduction Rights" href="https://run.ooni.org/v2/10058">}}
 
-{{<oonibtn text="Reproduction Rights" href="https://run.ooni.org/v2/10059">}}
+{{<oonibtn text="DNS over HTTPS" href="https://run.ooni.org/v2/10059">}}
 
 To test different websites or to create different testing buttons (like the ones shared above), use the **[OONI Run](https://run.ooni.org)** platform.
