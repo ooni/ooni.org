@@ -10,7 +10,7 @@ To support **rapid response** to emergent censorship events, we share the follow
 
 2. **Tap the buttons below** & open them with your **OONI Probe mobile app** (not with a browser)
 
-4. Install the OONI Run link to your OONI Probe application if you are using Android device
+4. **Install the OONI Run link** to your OONI Probe application if you are using Android device
 
 3. Tap **Run**
 
