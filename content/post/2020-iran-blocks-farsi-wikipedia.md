@@ -264,36 +264,7 @@ measurement research can be [risky](https://ooni.org/about/risks)).
 Through the use of the [OONI Probe mobile app](https://ooni.org/install/), you can test 28 Wikipedia sites by
 tapping on the following button.
 
-{{<oonirunurls text="Wikipedia (28 URLs)">}}
-https://www.wikipedia.org/
-https://en.wikipedia.org/
-https://en.m.wikipedia.org/
-https://ar.wikipedia.org/
-https://ar.m.wikipedia.org/
-https://es.wikipedia.org/
-https://es.m.wikipedia.org/
-https://de.wikipedia.org/
-https://de.m.wikipedia.org/
-https://ru.wikipedia.org/
-https://ru.m.wikipedia.org/
-https://fr.wikipedia.org/
-https://fr.m.wikipedia.org/
-https://ca.wikipedia.org/
-https://ca.m.wikipedia.org/
-https://zh.wikipedia.org/
-https://zh.m.wikipedia.org/
-https://ja.wikipedia.org/
-https://ja.m.wikipedia.org/
-https://it.wikipedia.org/
-https://it.m.wikipedia.org/
-https://commons.wikimedia.org/
-https://wikidata.org/
-https://upload.wikimedia.org/
-https://fa.wikipedia.org/
-https://fa.m.wikipedia.org/
-https://fa.wikinews.org/
-https://en.wikinews.org/
-{{</oonirunurls>}}
+{{<oonibtn text="Wikipedia" href="https://run.ooni.org/v2/10054">}}
 
 Unless you opt-out in the OONI Probe app settings, all measurements will
 be [openly published](https://ooni.org/data/).
