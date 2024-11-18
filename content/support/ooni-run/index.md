@@ -110,7 +110,7 @@ If you would like to edit your OONI Run link, click the **Edit** button in the t
 
 Alternatively, click the **Update Now** button next to the link expiration date. Both actions will enable you to edit the data in your OONI Run link.
 
-Once the OONI Run link is updated, it will be automatically updated for all users who have it installed in their OONI Probe application if they have “Install updates automatically” option enabled. Alternatively, they will be able to update the OONI Run link manually. 
+Once the OONI Run link is updated, it will be automatically updated for all users who have it installed in their OONI Probe application if they have “**Install updates automatically**” option enabled. Alternatively, they will be able to update the OONI Run link manually. 
 
 ## Updating old OONI Run links
 
