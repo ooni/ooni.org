@@ -405,7 +405,7 @@ Your OONI Probe test results will automatically get published on [OONI Explorer]
 
 Manually adding URLs one by one (through the “Choose websites” button of the OONI Probe mobile app) can potentially be tedious -- particularly if it involves more than a dozen URLs. Researchers are often interested in testing their own list of websites, which can include hundreds of URLs.
 
-You can test your own list of websites through the following steps:
+You can create a customized list of websites for testing with [**OONI Run**](https://run.ooni.org/). With OONI Run, you test your own list of websites through the following steps:
 
 **Step 1. Create an account on OONI Run platform.** 
 
@@ -465,21 +465,19 @@ You will now see your OONI Run link page which includes the title and descriptio
 
 You should now be able to install the shared link in your OONI Probe mobile app if you are using Android device, or see the list of websites for testing if you are using iOS.
 
-{{<img src="images/image56.jpg" title="OONI Run page mobile" alt="OONI Run page mobile">}}
-
 **Step 7.** **Install the link**, or tap **Run** to test your list of websites.
 
-{{<img src="images/image31.jpg" title="Running OONI Run" alt="Running OONI Run">}}
+{{<img src="images/image56.jpg" title="OONI Run page mobile" alt="OONI Run page mobile">}}
 
 **Step 8.** **Find measurements** collected by those who ran your OONI Run link. 
 
-Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/). You can find and aggregate measurements from your specific OONI Run v2 link through OONI Explorer based on the ID of your OONI Run v2 link (“**OONI Run Link ID**”).
+Once you run some tests, your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/). You can find and aggregate measurements from your specific OONI Run v2 link through OONI Explorer based on the ID of your OONI Run v2 link (“**OONI Run Link ID**”).
 
 The ID of your OONI Run link are the **last digits** displayed in the link. In the following example, the OONI Run link ID is `10015`.
 
 {{<img src="images/image34.png">}}
 
-Paste these digits to the filed **'OONI Run Link ID'** of OONI Explorer [MAT](https://explorer.ooni.org/chart/mat) or [Search](https://explorer.ooni.org/search/) interfaces to **find measurements** collected by all those who ran your OONI Run link through the following steps.
+Paste these digits to the **'OONI Run Link ID'** field of OONI Explorer [MAT](https://explorer.ooni.org/chart/mat) or [Search](https://explorer.ooni.org/search/) interfaces to **find measurements** collected by all those who ran your OONI Run link through the following steps.
 
 **Step 9.** **Edit the link**
 
@@ -489,7 +487,7 @@ Alternatively, click the **Update Now** button next to the link expiration date.
 
 Once the OONI Run link is updated, it will be automatically updated for all users who have it installed in their OONI Probe application if they have “Install updates automatically” option enabled. Alternatively, they will be able to update the OONI Run link manually. 
 
-**Note:** If you want to learn more about OONI Run tool, please check out out [user guide for OONI Run](https://ooni.org/support/ooni-run/). 
+**Note:** If you want to learn more about OONI Run, please check out our [user guide for OONI Run](https://ooni.org/support/ooni-run/). 
 
 ### Testing all websites from the Citizen Lab test lists
 
