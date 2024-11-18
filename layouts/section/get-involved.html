@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $blocks := .Site.GetPage "/get-involved-blocks" }}
+{{ $blocks := .Page.GetPage "./get-involved-blocks" }}
 <div class="container get-involved">
   <main class="col pt-4 pb-5">
     <div class="row justify-content-around pb-4">
