@@ -3,9 +3,9 @@ title: "User Guide: OONI Probe Mobile App"
 description: "OONI Probe Mobile App user guide"
 ---
 
-**Last updated:** 19th October 2022
+**Last updated:** 18th November 2024
 
-**OONI Probe Mobile version:** 3.7.1
+**OONI Probe Mobile version:** 3.7.1, 4.0.0 (for OONI Run section only)
 
 **Access the user guide in other languages:** [فارسی](/fa/support/ooni-probe-mobile), [Русский](/ru/support/ooni-probe-mobile), [Deutsch](https://ooni.org/de/support/ooni-probe-mobile), [Türkçe](/tr/support/ooni-probe-mobile), [Tiếng Việt](/vi/support/ooni-probe-mobile), [မြန်မာ](/my/support/ooni-probe-mobile)
 
@@ -405,7 +405,7 @@ Your OONI Probe test results will automatically get published on [OONI Explorer]
 
 Manually adding URLs one by one (through the “Choose websites” button of the OONI Probe mobile app) can potentially be tedious -- particularly if it involves more than a dozen URLs. Researchers are often interested in testing their own list of websites, which can include hundreds of URLs.
 
-You can create a customized list of websites for testing with [**OONI Run**](https://run.ooni.org/). With OONI Run, you test your own list of websites through the following steps:
+You can create a customized list of websites for testing with [**OONI Run**](https://run.ooni.org/). With OONI Run, you can test your own list of websites through the following steps:
 
 **Step 1. Create an account on OONI Run platform.** 
 
@@ -415,7 +415,7 @@ Click “**Log In To Create OONI Run Link**” button and add your **email addre
 
 **Note:** We do not store email addresses when you log in, but only when you create an OONI Run link. We store your email address so that when OONI Probe users receive an OONI Run link from you, they can trust it based on your email address (which is displayed in the OONI Run link you create). This can help reduce the risk of running malicious links.
 
-Once you have added your email address, click the “**Send me the Link**” button. Click the link (“Please login here”) sent to your email to log into the OONI Run v2 platform.
+Once you have added your email address, click the “**Send me the Link**” button. Click the link (“Please login here”) sent to your email to log into the OONI Run platform.
 
 **Step 2. Create your OONI Run link.** 
 
