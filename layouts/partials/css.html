@@ -3,17 +3,17 @@
 {{ $bootstrapCss := slice $bootstrapReboot $bootstrapGrid | resources.Concat "css/bootstrap.css" | resources.Minify |
 resources.Fingerprint }}
 
-<link rel="stylesheet" type="text/css" href="{{ $bootstrapCss.Permalink }}">
+<link rel="stylesheet" type="text/css" href="{{ $bootstrapCss.RelPermalink }}">
 
 {{ $fonts := resources.Get "css/fonts.css" }}
 {{ $master := resources.Get "css/master.css" }}
 {{ $indexCss := slice $fonts $master | resources.Concat "css/index.css" | resources.Minify | resources.Fingerprint }}
 
-<link rel="stylesheet" type="text/css" href="{{ $indexCss.Permalink }}" />
+<link rel="stylesheet" type="text/css" href="{{ $indexCss.RelPermalink }}" />
 
 {{ $rtl := resources.Get "css/rtl.css"}}
 {{ $rtlCss := $rtl | resources.Minify | resources.Fingerprint }}
 
 {{ if in "ar fa" .Lang }}
-<link rel="stylesheet" type="text/css" href="{{ $rtlCss.Permalink }}">
+<link rel="stylesheet" type="text/css" href="{{ $rtlCss.RelPermalink }}">
 {{ end }}
