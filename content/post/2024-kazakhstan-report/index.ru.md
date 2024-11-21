@@ -11,6 +11,8 @@ categories: ["report"]
 
 В этом отчете мы делимся результатами измерений OONI и соответствующим правовым контекстом. Мы обнаружили заблокироваными в Казахстане с помощью TLS-вмешательства множество сайтов [новостных СМИ](https://explorer.ooni.org/search?probe_cc=KZ&test_name=web_connectivity&since=2023-06-01&until=2024-06-01&failure=false&category_code=NEWS&only=anomalies), [правозащитных организаций](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-06-01&until=2024-06-01&time_grain=day&probe_cc=KZ&axis_y=domain&domain=www.ipetitions.com%2Cwww.change.org%2Cegov.press%2Camnesty.org.ru) и [инструментов обхода блокировки](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-06-01&until=2024-06-01&time_grain=day&probe_cc=KZ&axis_y=domain&category_code=ANON). Мы также задокументировали 7 различных промежуточных сертификатов подписанных четырьмя уникальными корневыми сертификатами (НУЦ РК), которые использовались для проведения атак типа ["man-in-the-middle" (MITM) в рамках TLS-рукопожатия](https://explorer.ooni.org/m/20210808015758.022737_KZ_webconnectivity_3b9213f9ee4f2d06) в случае подключения к не менее 14 различным доменным именам в не менее чем 19 различных сетях в Казахстане. Более подробная информация представлена ниже.
 
+{{< oonibtn href="/documents/OONI-Report-Kazakhstan-2024-Russian.pdf" text="Скачать в PDF" >}}
+
 {{<table-of-contents>}}
 
 ## **Основные выводы** 
