@@ -1,0 +1,69 @@
+<section class="my-16">
+  <div id="carousel" class="carousel">
+    <div class="flex justify-between items-center mb-4">
+      <h2 class="text-white font-bold text-3xl">Shop</h2>
+      <div class="flex gap-3">
+        <button class="prev bg-white rounded-full p-4"><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.833 6.167H3.525L7.592 2.1a.84.84 0 0 0 0-1.183.83.83 0 0 0-1.175 0L.925 6.408a.83.83 0 0 0 0 1.175l5.483 5.5a.83.83 0 1 0 1.175-1.175L3.525 7.833h9.308A.836.836 0 0 0 13.667 7a.836.836 0 0 0-.834-.833Z" fill="#0588CB"/></svg></button>
+        <button class="next bg-white rounded-full p-4"><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.167 7.833h9.308L6.408 11.9a.84.84 0 0 0 0 1.183.83.83 0 0 0 1.175 0l5.492-5.491a.83.83 0 0 0 0-1.175L7.592.917a.83.83 0 1 0-1.175 1.175l4.058 4.075H1.167A.836.836 0 0 0 .333 7c0 .458.375.833.834.833Z" fill="#0588CB"/></svg></button>
+      </div>
+    </div>
+    
+    <div class="gallery">
+      <ul class="flex gap-4 transition-[margin-left] duration-200">
+        {{ with .Params.shopitems }}
+          <li>
+            <div class="bg-blue9 w-[296px] h-[254px] p-6 rounded-2xl text-white flex flex-col justify-between">
+              <div>
+                <div class="font-bold text-3xl mb-4">OONIque Boutique</div>
+                <p class="text-base">Get some OONIque items to support OONI</p>
+              </div>
+              <div>
+                <a class="text-sm flex flex-row items-center" href="https://shop.ooni.org/">
+                  <span class="mr-2 underline">Visit our shop</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.0833 10.0833H1.91667V1.91667H6V0.75H1.91667C1.26917 0.75 0.75 1.275 0.75 1.91667V10.0833C0.75 10.725 1.26917 11.25 1.91667 11.25H10.0833C10.725 11.25 11.25 10.725 11.25 10.0833V6H10.0833V10.0833ZM7.16667 0.75V1.91667H9.26083L3.52667 7.65083L4.34917 8.47333L10.0833 2.73917V4.83333H11.25V0.75H7.16667Z" fill="currentColor"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </li>
+          {{ range . }}
+            <li class="w-[216px]">
+              <div class="flex flex-col">
+                <div class=" bg-cover h-[172px] rounded-t-2xl" style="background-image:url('{{ .image }}');"></div>
+                <div class="bg-white text-gray7 p-4 h-[82px] rounded-b-2xl">{{ .name }}</div>
+              </div>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<script>
+    let width = 232; // image width
+    // let shopGalleryWidth = carousel.querySelector('.gallery').offsetWidth
+    let list = carousel.querySelector('ul');
+    let listElems = carousel.querySelectorAll('li');
+
+    let position = 0;
+
+    carousel.querySelector('.prev').onclick = function() {
+      position += width;
+      position = Math.min(position, 0)
+      list.style.marginLeft = position + 'px';
+    };
+
+    carousel.querySelector('.next').onclick = function() {
+      position -= width;
+      position = Math.max(position, -(width * 4));
+      list.style.marginLeft = position + 'px';
+    };
+</script>
+
+<style>
+.gallery ul {
+  width: 9999px;
+}
+</style>
