@@ -1,5 +1,5 @@
 <section class="my-16">
-  <div id="carousel2" class="carousel2">
+  <div id="mediaCarousel">
     <div class="flex justify-between items-center mb-4">
       <h3 class="text-white font-bold text-3xl">What they say about us</h2>
         <div class="flex gap-3">
@@ -33,35 +33,51 @@
 </section>
 
 <script>
-  let galleryWidth = carousel2.querySelector('.gallery').offsetWidth
-  let list2 = carousel2.querySelector('ul');
-  let listElems2 = carousel2.querySelectorAll('li');
-  let position2 = 0;
+  let galleryWidth = mediaCarousel.querySelector('.gallery').offsetWidth
+  let mediaList = mediaCarousel.querySelector('ul');
+  let mediaListElements = mediaCarousel.querySelectorAll('li');
+  let mediaPosition = 0;
+  let mediaLiWidth;
+  let mediaTotalWidth;
 
-  let liWidth = galleryWidth / 2 - 8
-  let totalWidth = (2 * (liWidth + 16))
-  listElems2.forEach((li) => {
-    li.style.width = `${liWidth}px`
+  if (galleryWidth < 670) {
+    mediaLiWidth = galleryWidth
+    mediaTotalWidth = (3 * (mediaLiWidth + 16))
+  } else {
+    mediaLiWidth = galleryWidth / 2 - 8
+    mediaTotalWidth = (2 * (mediaLiWidth + 16))
+  }
+
+  mediaListElements.forEach((li) => {
+    li.style.width = `${mediaLiWidth}px`
   });
 
   window.addEventListener("resize", (event) => {
-    galleryWidth = carousel2.querySelector('.gallery').offsetWidth
-    liWidth = galleryWidth / 2 - 8
-    totalWidth = (2 * (liWidth + 16))
-    listElems2.forEach((li) => {
-      li.style.width = `${liWidth}px`
+    galleryWidth = mediaCarousel.querySelector('.gallery').offsetWidth
+    mediaList.style.marginLeft = '0px';
+    if (galleryWidth < 670) {
+      mediaLiWidth = galleryWidth
+      mediaTotalWidth = (3 * (mediaLiWidth + 16))
+    } else {
+      mediaLiWidth = galleryWidth / 2 - 8
+      mediaTotalWidth = (2 * (mediaLiWidth + 16))
+    }
+    
+    
+    mediaListElements.forEach((li) => {
+      li.style.width = `${mediaLiWidth}px`
     });
   });
 
-  carousel2.querySelector('.prev').onclick = function() {
-    position2 += liWidth + 16;
-    position2 = Math.min(position2, 0)
-    list2.style.marginLeft = position2 + 'px';
+  mediaCarousel.querySelector('.prev').onclick = function() {
+    mediaPosition += mediaLiWidth + 16;
+    mediaPosition = Math.min(mediaPosition, 0)
+    mediaList.style.marginLeft = mediaPosition + 'px';
   };
 
-  carousel2.querySelector('.next').onclick = function() {
-    position2 -= liWidth + 16;
-    position2 = Math.max(position2, -totalWidth);
-    list2.style.marginLeft = position2 + 'px';
+  mediaCarousel.querySelector('.next').onclick = function() {
+    mediaPosition -= mediaLiWidth + 16;
+    mediaPosition = Math.max(mediaPosition, -mediaTotalWidth);
+    mediaList.style.marginLeft = mediaPosition + 'px';
   };
 </script>
