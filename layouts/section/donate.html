@@ -25,7 +25,7 @@
       <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
         <div>
           <section class="p-6 rounded-2xl bg-white mb-6 relative">
-            <img src="/images/octopus.svg" class="hidden md:visible absolute top-[-150px] left-[-250px] w-[380px] -z-10" />
+            <img src="/images/octopus.svg" class="hidden md:block absolute top-[-150px] left-[-250px] w-[380px] -z-10" />
             <h1 class="text-4xl font-bold mb-4">Donate now to support internet freedom</h1>
             <p class="text-gray7"><strong>As a non-profit,</strong> we rely on donations <br/>from people like you to defend a free <br/>and open internet for all.</p>
           </section>
@@ -36,7 +36,7 @@
 
           <div class="rounded-2xl bg-white mb-6">
             <img class="w-full rounded-t-2xl" src="/images/octopus-flashlight.svg" />
-            <div class="flex p-6">
+            <div class="flex p-6 justify-between">
               <div>
                 <h5 class="uppercase font-medium mb-4">More ways to give</h5>
                 <p class="mb-4 text-gray7">Thank you for your interest in supporting the OONI-verse!</p>
@@ -78,10 +78,11 @@
           </div>
         </div>
         <div class="order-first md:order-last">
-          <script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe height="900px" width="100%"
+          <script src="https://donorbox.org/widget.js" paypalExpress="true"></script>
+          <iframe height="900px" width="100%" class="w-full h-full mx-auto max-w-[426px]"
           src="https://donorbox.org/embed/open-observatory-of-network-interference-ooni" name="donorbox"
           allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0"
-          scrolling="no" style="height: 100%;"></iframe>
+          scrolling="no"></iframe>
         </div>
       </div>
 

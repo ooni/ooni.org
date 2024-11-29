@@ -1,5 +1,5 @@
 <section class="my-16">
-  <div id="carousel" class="carousel">
+  <div id="shopCarousel">
     <div class="flex justify-between items-center mb-4">
       <h2 class="text-white font-bold text-3xl">Shop</h2>
       <div class="flex gap-3">
@@ -9,7 +9,7 @@
     </div>
     
     <div class="gallery">
-      <ul class="flex gap-4 transition-[margin-left] duration-200">
+      <ul class="flex gap-4 transition-[margin-left] duration-200 w-[99999px]">
         {{ with .Params.shopitems }}
           <li>
             <div class="bg-blue9 w-[296px] h-[254px] p-6 rounded-2xl text-white flex flex-col justify-between">
@@ -45,27 +45,19 @@
 
 <script>
     let width = 232; // image width
-    // let shopGalleryWidth = carousel.querySelector('.gallery').offsetWidth
-    let list = carousel.querySelector('ul');
-    let listElems = carousel.querySelectorAll('li');
-
+    let shopGalleryWidth = shopCarousel.querySelector('.gallery').offsetWidth
+    let list = shopCarousel.querySelector('ul');
     let position = 0;
 
-    carousel.querySelector('.prev').onclick = function() {
+    shopCarousel.querySelector('.prev').onclick = function() {
       position += width;
       position = Math.min(position, 0)
       list.style.marginLeft = position + 'px';
     };
 
-    carousel.querySelector('.next').onclick = function() {
+    shopCarousel.querySelector('.next').onclick = function() {
       position -= width;
-      position = Math.max(position, -(width * 4));
+      position = Math.max(position, -(1692 - shopCarousel.querySelector('.gallery').offsetWidth));
       list.style.marginLeft = position + 'px';
     };
 </script>
-
-<style>
-.gallery ul {
-  width: 9999px;
-}
-</style>
