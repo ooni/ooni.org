@@ -1,0 +1,21 @@
+{{ $languages := dict
+  "ar" "Arabic"
+  "ca" "Catalan"
+  "de" "German"
+  "en" "English"
+  "es" "Spanish"
+  "fa" "Persian"
+  "fr" "French"
+  "pt" "Portuguese"
+  "ru" "Russian"
+  "sw" "Swahili"
+  "tr" "Turkish"
+  "zh" "Chinese"
+  "vi" "Vietnamese"
+}}
+
+{{ with index $languages . }}
+  {{ . }}
+{{ else }}
+  {{ . }}
+{{ end }}
