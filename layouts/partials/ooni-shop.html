@@ -18,7 +18,7 @@
                 <p class="text-base">Get some OONIque items to support OONI</p>
               </div>
               <div>
-                <a class="text-sm flex flex-row items-center" href="https://shop.ooni.org/">
+                <a class="text-sm flex flex-row items-center" href="https://shop.ooni.org/" target="_blank">
                   <span class="mr-2 underline">Visit our shop</span>
                   <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.0833 10.0833H1.91667V1.91667H6V0.75H1.91667C1.26917 0.75 0.75 1.275 0.75 1.91667V10.0833C0.75 10.725 1.26917 11.25 1.91667 11.25H10.0833C10.725 11.25 11.25 10.725 11.25 10.0833V6H10.0833V10.0833ZM7.16667 0.75V1.91667H9.26083L3.52667 7.65083L4.34917 8.47333L10.0833 2.73917V4.83333H11.25V0.75H7.16667Z" fill="currentColor"/>
@@ -29,10 +29,12 @@
           </li>
           {{ range . }}
             <li class="w-[216px]">
-              <div class="flex flex-col">
-                <div class=" bg-cover h-[172px] rounded-t-2xl" style="background-image:url('{{ .image }}');"></div>
-                <div class="bg-white text-gray7 p-4 h-[82px] rounded-b-2xl">{{ .name }}</div>
-              </div>
+              <a href="{{ .link }}" target="_blank">
+                <div class="flex flex-col">
+                  <div class=" bg-cover h-[172px] rounded-t-2xl" style="background-image:url('{{ .image }}');"></div>
+                  <div class="bg-white text-gray7 p-4 h-[82px] rounded-b-2xl">{{ .name }}</div>
+                </div>
+              </a>
             </li>
           {{ end }}
         {{ end }}
