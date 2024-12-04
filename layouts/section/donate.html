@@ -5,14 +5,176 @@
 {{ end }}
 
 {{ define "navbar" }}
-{{ partial "navbar-tailwind.html" . }}
+<!-- -->
 {{ end }}
 
 {{ define "main" }}
-<div class="bg-gray3 py-24 sm:py-32">
+<div class="bg-[url('/images/donate-background.svg')] bg-cover bg-bottom overflow-hidden">
+  <nav class="bg-ooniblue py-3">
+    <div class="flex justify-between gap-4 mx-auto px-4 sm:px-6 lg:px-10 max-w-5xl items-center">
+      <div>
+        <a href="/">
+          <img src="/images/logos/ooni-horizontal.svg" alt="Open Observatory of Network Interference (OONI) Logo" class="h-[26px] w-auto">
+        </a>
+      </div>
+      <p class="text-xs sm:text-sm font-bold text-white">Global community measuring Internet censorship since 2012</p>
+    </div>
+  </nav>
   <div class="relative isolate">
-    <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-      <div
+    <div class="mx-auto pt-8 md:pt-48 px-4 sm:px-6 lg:px-10 max-w-5xl">
+      <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
+        <div>
+          <section class="p-6 rounded-2xl bg-white mb-6 relative">
+            <img src="/images/octopus.svg" class="hidden md:block absolute top-[-150px] left-[-250px] w-[380px] -z-10" />
+            <h1 class="text-4xl font-bold mb-4">Donate now to support internet freedom</h1>
+            <p class="text-gray7"><strong>As a non-profit,</strong> we rely on donations <br/>from people like you to defend a free <br/>and open internet for all.</p>
+          </section>
+
+          <section class="p-6 rounded-2xl bg-white mb-6">
+            {{ partial "ooni-work.html" . }}
+          </section>
+
+          <div class="rounded-2xl bg-white mb-6">
+            <img class="w-full rounded-t-2xl" src="/images/octopus-flashlight.svg" />
+            <div class="flex p-6 justify-between">
+              <div>
+                <h5 class="uppercase font-medium mb-4">More ways to give</h5>
+                <p class="mb-4 text-gray7">Thank you for your interest in supporting the OONI-verse!</p>
+                <ul class="text-gray7">
+                  <li class="font-semibold mb-2">Bank Transfer / SEPA</li>
+                  <li class="font-semibold mb-2">GitHub Sponsors/Open Collective</li>
+                  <li class="font-semibold mb-5">Il 5x1000 in Italia</li>
+                </ul>
+                <a href="/donate/other" class="mt-5 underline text-blue6 text-sm">Read more</a>
+              </div>
+              <div class="self-end">
+                <img src="/images/ooni-eye-amazed.svg">
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-white">
+            <!-- <h3 class="text-4xl mb-4 font-bold">Title</h3> -->
+            <p class="leading-6 text-gray7">Founded in 2012, the Open Observatory of Network Interference (OONI) is a non-profit free software project that aims to empower decentralized efforts in documenting internet censorship around the world. </p>
+            <div class="grid grid-cols-2 mt-9">
+              <div>
+                <div>
+                  <div class="text-5xl font-bold leading-normal">80+</div>
+                  <div class="leading-6 text-gray7">Censorship reports</div>
+                </div>
+                <div class="mb-5">
+                  <div class="text-5xl font-bold leading-normal">242</div>
+                  <div class="leading-6 text-gray7">Countries and territories</div>
+                </div>
+                <div class="mb-5">
+                  <div class="text-5xl font-bold leading-normal">2+ billion</div>
+                  <div class="leading-6 text-gray7">OONI measurements</div>
+                </div>
+              </div>
+              <div class="mr-[-40px]">
+                <img class="w-[160%]" src="/images/octopus-monokular.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="order-first md:order-last">
+          <script src="https://donorbox.org/widget.js" paypalExpress="true"></script>
+          <iframe height="900px" width="100%" class="w-full h-full mx-auto max-w-[426px]"
+          src="https://donorbox.org/embed/open-observatory-of-network-interference-ooni" name="donorbox"
+          allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0"
+          scrolling="no"></iframe>
+        </div>
+      </div>
+
+      {{ partial "ooni-shop.html" . }}
+
+      {{ partial "media-features.html" . }}
+
+      {{ with .GetPage "partners" }}
+        <section class="my-16">
+          <h3 class="text-white font-bold text-3xl mb-4">Discover our {{ len .Pages }} Partners</h3>
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+            {{ range first 7 .Pages }}
+              {{ $name := .Params.Name }}
+              {{ with .Resources.GetMatch "images/*.png" }}
+                {{ $image := .Fit "140x60" }}
+                <div class="bg-white flex justify-center items-center rounded-2xl h-[120px]">
+                  <img src="{{ $image.Permalink }}" alt="{{ $name }}" />
+                </div>
+              {{ end }}
+            {{ end }}
+            <div class="bg-white flex justify-center items-center rounded-2xl">
+              <a href="/partners" target="_blank" class="flex flex-row items-center text-blue6">
+                <span class="mr-2">View all</span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.0833 10.0833H1.91667V1.91667H6V0.75H1.91667C1.26917 0.75 0.75 1.275 0.75 1.91667V10.0833C0.75 10.725 1.26917 11.25 1.91667 11.25H10.0833C10.725 11.25 11.25 10.725 11.25 10.0833V6H10.0833V10.0833ZM7.16667 0.75V1.91667H9.26083L3.52667 7.65083L4.34917 8.47333L10.0833 2.73917V4.83333H11.25V0.75H7.16667Z" fill="currentColor"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </section>
+      {{ end }}
+
+      <footer class="text-white mb-24">
+        <img src="/images/logos/ooni-horizontal.svg" alt="Open Observatory of Network Interference (OONI) Logo" class="h-[32px] w-auto mt-11 mb-6">
+        <p class="mb-12 text-lg ">Global community measuring internet</br> censorship around the world.</p>
+        <div>
+          <div class="flex gap-3">
+            <a href="https://twitter.com/OpenObservatory" target="_blank" class="hover:text-gray4">
+              <span class="sr-only">Twitter</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+              </svg>
+            </a>
+            <a href="https://github.com/ooni" target="_blank" class="hover:text-gray4">
+              <span class="sr-only">GitHub</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a href="https://www.youtube.com/c/OONIorg" target="_blank" class="hover:text-gray4">
+              <span class="sr-only">YouTube</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a href="https://facebook.com/ooni.org" target="_blank" class="hover:text-gray4">
+              <span class="sr-only">Facebook</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/openobservatory/" target="_blank" class="hover:text-gray4">
+              <span class="sr-only">Instagram</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a rel="me" class="hover:text-gray4" target="_blank" href="https://mastodon.social/@ooni">
+              <span class="sr-only">Mastodon</span>
+              <svg class="h-6 w-6" viewBox="0 0 232 248" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M165.107 188.625C196.115 184.923 223.113 165.817 226.507 148.36C231.853 120.86 231.412 81.2507 231.412 81.2507C231.412 27.5653 196.239 11.8293 196.239 11.8293C178.504 3.684 148.051 0.258667 116.412 0H115.635C83.9962 0.258667 53.5628 3.684 35.8268 11.8293C35.8268 11.8293 0.652147 27.5653 0.652147 81.2507C0.652147 84.5053 0.635326 87.9285 0.617814 91.4921C0.56918 101.389 0.515222 112.37 0.801481 123.831C2.07881 176.332 10.4268 228.075 58.9682 240.923C81.3495 246.847 100.565 248.087 116.041 247.236C144.107 245.68 159.861 237.22 159.861 237.22L158.936 216.857C158.936 216.857 138.88 223.181 116.356 222.411C94.0402 221.645 70.4815 220.004 66.8722 192.605C66.5388 190.199 66.3722 187.625 66.3722 184.923C66.3722 184.923 88.2788 190.277 116.041 191.549C133.018 192.328 148.937 190.555 165.107 188.625ZM189.923 150.42V85.4155C189.923 72.1302 186.54 61.5728 179.747 53.7622C172.739 45.9515 163.563 41.9475 152.174 41.9475C138.994 41.9475 129.014 47.0128 122.416 57.1448L116 67.8982L109.586 57.1448C102.987 47.0128 93.0069 41.9475 79.8282 41.9475C68.4375 41.9475 59.2615 45.9515 52.2549 53.7622C45.4602 61.5728 42.0775 72.1302 42.0775 85.4155V150.42H67.8309V87.3262C67.8309 74.0262 73.4268 67.2755 84.6202 67.2755C96.9962 67.2755 103.2 75.2835 103.2 91.1182V125.653H128.802V91.1182C128.802 75.2835 135.004 67.2755 147.38 67.2755C158.574 67.2755 164.17 74.0262 164.17 87.3262V150.42H189.923Z"
+                  />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <hr class="mt-11 mb-3 border-white" />
+
+        <p class="text-xs">© {{ now.Year }} Open Observatory of Network Interference (OONI). <a href="https://github.com/ooni/license" target="_blank" class="underline">Content available under a Creative Commons license.</a></p>
+      </footer>
+
+      <!-- <div
         class="mx-auto flex max-w-2xl flex-col gap-16 bg-gray0 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
         <div class="w-[420px] h-[950px]">
           <script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe height="900px" width="420px"
@@ -45,12 +207,12 @@
       aria-hidden="true">
       <div class="aspect-[1318/752] w-[82.375rem] flex-none bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-25"
         style="clip-path: polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)">
-      </div>
+      </div> -->
     </div>
-    </div>
+  </div>
 </div>
 {{ end }}
 
 {{ define "footer" }}
-{{ partial "footer-tailwind.html" . }}
+<!-- -->
 {{ end }}
