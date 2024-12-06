@@ -13,8 +13,6 @@ categories: ["report"]
 
 Этот отчет – совместное исследование [RKS Global](https://rks.global/) и [Open Observatory of Network Interference (OONI)](https://ooni.org/). Мы приводим [данные OONI](https://explorer.ooni.org/search?since=2023-09-01&until=2024-09-01&failure=false&category_code=NEWS&probe_cc=RU&only=anomalies) о блокировке сайтов новостных СМИ в России за последний год, а также информацию о том, как эти блокировки повлияли на независимые российские новостные медиаорганизации.
 
-English version of the report is available [here](https://ooni.org/post/2024-russia-report/).
-
 {{<table-of-contents>}}
 
 ## **Основные выводы** 
