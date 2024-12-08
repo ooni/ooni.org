@@ -1,7 +1,7 @@
 ---
 title: "Censorship Chronicles: The systematic suppression of independent media in Russia"
 description: "This report documents media censorship in Russia between September 2023 to September 2024."
-author: "Maria Xynou (OONI), Elizaveta Yachmeneva (OONI), Arturo Filastò (OONI), Mehul Gulati (OONI), RKS Global"
+author: "RKS Global, Elizaveta Yachmeneva (OONI), Maria Xynou (OONI), Mehul Gulati (OONI), Arturo Filastò (OONI)"
 date: "2024-12-05"
 tags: ["country-ru", "censorship", "russia", "theme-news_media", "theme-human_rights", "theme-circumvention"]
 categories: ["report"]
@@ -353,7 +353,6 @@ As Russia and the EU engage in a media censorship war, OONI data shows that Russ
 
 Moreover, Russia has more [experience in implementing pervasive levels of network-level censorship](https://ooni.org/post/2023-russia-a-year-after-the-conflict/), which means that they are able to quickly and effectively implement blocks (as illustrated through the above chart). In the EU, on the other hand, it is up to each individual member state to interpret the EU Council’s decisions (which only list organizations, but not their affiliate domains) and decide which domains should be blocked. As a result, the blocks are [not implemented consistently](https://www.sidnlabs.nl/downloads/2AI9596Mj7gS5MzicOfOi7/df52d043b674b435868af238e69e58ef/foci_24_author_version_sidn.pdf) across EU member states. 
 
-
 ## **Interview findings** 
 
 ### General findings 
@@ -404,7 +403,7 @@ Most attacked media outlets, that we know of, were able to restore access to the
 
 After the beginning of the full-scale invasion of Ukraine in February 2022, most Russian media outlets began to diversify their content publishing platforms. However, since March 2022, major [social media services (Facebook, Instagram, Twitter) have been blocked](https://ooni.org/post/2022-russia-blocks-amid-ru-ua-conflict/) on Russian networks. Despite that, many media projects continue to use Instagram as an effective channel for reaching Russian audiences. Some media even reported that their **Instagram accounts were growing faster than all other social media platforms** they’ve used in the past three years. On the other hand, most Russian news media stopped using Facebook once it was blocked in Russia, where the audience was already relatively small and unpopular for most of them. Despite Instagram being blocked in Russia and experiencing a decline in user numbers as a result, many independent media outlets continue to use it as one of their primary channels for disseminating information, as their target audience remains active there..
 
-Following the blocking of several social media platforms, many projects that did not initially focus on video content **started using YouTube** to reach a bigger audience in Russia. This approach worked well until the beginning of 2024 when YouTube started to [implement geo-blocking of content](https://roskomsvoboda.org/en/post/open-letter-to-youtube-and-google/) at the request of Roskomnadzor. Some media and other organizations also [faced demands](https://www.rbc.ru/technology_and_media/29/11/2024/674969a09a7947dc7ef1f085https://roskomsvoboda.org/ru/post/youtube-censored-russian-channels-due-the-vpn/) from Youtube to completely remove videos from the platform.
+Following the blocking of several social media platforms, many projects that did not initially focus on video content **started using YouTube** to reach a bigger audience in Russia. This approach worked well until the beginning of 2024 when YouTube started to [implement geo-blocking of content](https://roskomsvoboda.org/en/post/open-letter-to-youtube-and-google/) at the request of Roskomnadzor. Some media and other organizations also [faced demands](https://www.rbc.ru/technology_and_media/29/11/2024/674969a09a7947dc7ef1f085https://roskomsvoboda.org/ru/post/youtube-censored-russian-channels-due-the-vpn/) from YouTube to completely remove videos from the platform.
 
 Since July 2024, there have been[ reports about YouTube throttling and blocking](https://roskomsvoboda.org/ru/post/what-happened-to-youtube/) in Russia. The latest OONI data shows that YouTube is [mostly accessible](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2024-10-23&until=2024-11-23&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.youtube.com) on Russian networks. Users in Russia [report](https://support.google.com/youtube/thread/290593819/%D0%9D%D0%B0-wi-fi-youtube-%D0%BD%D0%B5-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82-%D0%B0-%D0%BD%D0%B0-%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D1%85-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D0%B2%D1%81%D1%91-%D0%B2-%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BA%D0%B5?hl=ru) that the platform can sometimes be accessible on a mobile network, but blocked on a broadband connection on the networks of the same provider. The same censorship strategy was [suggested](https://runet.news/articles/57824) by the governmental officials. 
 
@@ -590,7 +589,7 @@ Meanwhile, the **media censorship war between Russia and the EU** – which star
 
 In response to the [EU Council’s decision](https://www.consilium.europa.eu/en/press/press-releases/2024/05/17/russia-s-war-of-aggression-against-ukraine-council-bans-broadcasting-activities-in-the-european-union-of-four-more-russia-associated-media-outlets/), Russia’s Ministry of Foreign Affairs [announced](https://www.mid.ru/ru/foreign_policy/news/1959391/) on 25th June 2024 (the day that the EU Council decision came into force) that they would **restrict access to 81 media outlets** of EU member states (including several sites of pan-European media) in Russia. OONI data [shows](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2024-06-01&until=2024-09-01&time_grain=day&probe_cc=RU&axis_y=domain&category_code=NEWS) that access to these EU news media websites was blocked in Russia on 2nd August 2024 – and the blocks remain ongoing. 
 
-When comparing the media blocks between Russia and the EU, we observe a difference the following:
+When comparing the media blocks between Russia and the EU, we observe a difference in the following:
 
 * **Number of blocked media websites.** Russia blocked many more EU media outlets in comparison to the number of Russian media websites blocked in the EU.
 * **Effectiveness of blocks.** Russia implemented the EU media blocks quickly and effectively on numerous networks (likely through the use of [TSPU](https://censoredplanet.org/tspu)), while the blocking of Russian media websites is [not implemented consistently](https://www.sidnlabs.nl/downloads/2AI9596Mj7gS5MzicOfOi7/df52d043b674b435868af238e69e58ef/foci_24_author_version_sidn.pdf) across EU member states.
