@@ -2,7 +2,7 @@
 title: "Censorship Chronicles: The systematic suppression of independent media in Russia"
 description: "This report documents media censorship in Russia between September 2023 to September 2024."
 author: "RKS Global, Elizaveta Yachmeneva (OONI), Maria Xynou (OONI), Mehul Gulati (OONI), Arturo Filastò (OONI)"
-date: "2024-12-05"
+date: "2024-12-09"
 tags: ["country-ru", "censorship", "russia", "theme-news_media", "theme-human_rights", "theme-circumvention"]
 categories: ["report"]
 ---
