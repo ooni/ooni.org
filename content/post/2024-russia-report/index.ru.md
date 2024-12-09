@@ -2,7 +2,7 @@
 title: "Хроники цензуры: Систематическое давление на независимые медиа в России"
 description: "Этот отчет описывает блокировку медиа в России с сентября 2023 по сентябрь 2024 года."
 author: "RKS Global, Elizaveta Yachmeneva (OONI), Maria Xynou (OONI), Mehul Gulati (OONI), Arturo Filastò (OONI)"
-date: "2024-12-05"
+date: "2024-12-09"
 tags: ["country-ru", "censorship", "russia", "theme-news_media", "theme-human_rights", "theme-circumvention"]
 categories: ["report"]
 ---
