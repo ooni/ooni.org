@@ -1,10 +1,16 @@
 {{ define "main" }}
+{{ $tags := .Params.tags }}
+
+{{ $reports := .Site.Taxonomies.categories.report }}
+{{ $pages := $reports }}
+{{ with $tags }}
+  {{ $pages = where $reports ".Params.tags" "intersect" $tags }}
+{{ end }}
 
 <div class="container">
   <h1>{{ .Title }}</h1>
   <main class="col">
-    {{ range .Site.Taxonomies.categories.report }}
-
+    {{ range $pages }}
       <div class="row blog-summary">
         <div>
           <a href="{{ .RelPermalink }}" style="margin-bottom: 0">
@@ -18,10 +24,8 @@
           <p class="byline" style="margin-bottom: 0">{{ .Date.Format "2 Jan 2006" }}</p>
         </div>
       </div>
-
     {{ end }}
   </main>
-
 </div>
 
 {{ end }}
