@@ -1,5 +1,5 @@
 ---
-title: "iMAP 2024: NewState of Internet Censorship in 9 countries"
+title: "iMAP 2024: State of Internet Censorship in 9 countries"
 author: "Elizaveta Yachmeneva"
 date: "2024-10-23"
 tags: ["imap", "censorship", "southeast-asia", "country-kh", "country-hk", "country-id", "country-th", "country-my", "country-mm", "country-ph", "country-vn", "country-in"]
@@ -12,9 +12,7 @@ internet censorship in Southeast Asia and Hong Kong (China) in collaboration wit
 
 [Internet Monitoring Action Project (iMAP)](https://imap.sinarproject.org/about) aims to establish regional
 and in-country networks that monitor network interference and
-restrictions to the freedom of expression online in 9 countries:
-Myanmar, Cambodia, Hong Kong (China), India, Indonesia, Malaysia, Philippines,
-Thailand, and Vietnam. [Sinar Project](https://sinarproject.org/) leads these efforts in
+restrictions to the freedom of expression online in Southeast Asia and Hong Kong (China) in
 collaboration with national digital rights
 [partners](https://imap.sinarproject.org/partners) in these countries. 
 
