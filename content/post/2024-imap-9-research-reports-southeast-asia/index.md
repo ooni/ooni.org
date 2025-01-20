@@ -36,4 +36,6 @@ As a result of this work, they published [iMAP State of Internet Censorship rese
 
 * [Vietnam](https://imap.sinarproject.org/reports/2024/imap-vietnam-2024-internet-censorship-report)
 
+To learn more about iMAP network and findings of the State of Internet Censorship report, watch the [iMAP 2024 Censorship Report Launch stream on YouTube](https://www.youtube.com/watch?v=03R9pElZeYo).
+
 Congratulations to iMAP partners for this excellent work, and for documenting internet censorship in the region!
