@@ -176,7 +176,7 @@ The [Open Observatory of Network Interference (OONI)](https://ooni.org/) is a fr
 empower decentralized efforts in increasing transparency of internet
 censorship around the world.
 
-Since 2012, OONI has released several [censorship measurement apps (OONI Probe)](https://ooni.org/install/) and [openly published more than two billions network measurements](https://ooni.org/data/) on internet censorship worldwide.
+Since 2012, OONI has released several [censorship measurement apps (OONI Probe)](https://ooni.org/install/) and [openly published more than two billion network measurements](https://ooni.org/data/) on internet censorship worldwide.
 
 ### Why OONI?
 
@@ -295,7 +295,7 @@ We have received support from Mozilla ([Mozilla Open Source Support](https://www
 initial creation of OONI Explorer (originally [launched in March 2016](https://blog.torproject.org/ooni-explorer-censorship-and-other-network-anomalies-around-world))
 was supported by the [German Foreign Ministry](https://www.auswaertiges-amt.de). Over the years, we have
 received support from several other foundations as well, such as the
-[Media Democracy Fund (MDF)](https://mediademocracyfund.org/), [Internet Society (ISOC)](https://www.internetsociety.org/), [Luminate](https://luminategroup.com/about) and the [National Science Foundation (NSF)](https://www.nsf.gov/).
+[Media Democracy Fund (MDF)](https://mediademocracyfund.org/), [Internet Society (ISOC)](https://www.internetsociety.org/), [Luminate](https://luminategroup.com/) and the [National Science Foundation (NSF)](https://www.nsf.gov/).
 
 We have also received other forms of support, such as donations from
 companies like [Google Jigsaw](https://jigsaw.google.com/), [Pantheon](https://pantheon.io/blog/pantheon-rises-support-open-web), [Netlify](https://www.netlify.com/), [AirVPN](https://airvpn.org/) and [VPNCompare](https://www.vpncompare.co.uk/). We have received
@@ -322,14 +322,20 @@ We continue to be part of the Tor community and to [collaborate](https://ooni.or
 OONI is a global project, with a global community and an international team.
 
 Over the years, OONI team members have hailed from multiple countries, including
-Italy, Greece, South Africa, Cameroon, India, Russia, Germany, Spain and Slovenia.
+Italy, Greece, South Africa, Cameroon, India, Russia, Venezuela, Spain and Slovenia.
 
 We are not based in any particular country, as we've never had a
 physical office, and we've always worked remotely online. 
 
 ### What is OONI's legal status?
 
-Between 2011 to 2019, OONI was a project of [The Tor Project](https://www.torproject.org/) (a 501(c)(3) nonprofit registered in the U.S). As of 2025, Open Observatory of Network Interference (OONI) Foundation ETS is an independent non-profit digital rights organization registered in Italy.
+As of May 2023, OONI is a nonprofit organization registered in Rome, Italy.
+
+Between 2011 to 2019, OONI was a project of [The Tor Project](https://www.torproject.org/) (a 501(c)(3) nonprofit registered in the U.S). Between January 2020 to May 2023, OONI was fiscally sponsored by the [Hermes Center for Transparency and Digital Human Rights](https://www.hermescenter.org/), while operating independently in terms of fundraising and governance. 
+
+OONI’s nonprofit legal entity was established in May 2023 with the creation of the OONI Association in Italy. In February 2024, OONI transitioned from an Association to a Foundation to enhance the organization's stability and governance structure.
+
+Today, the Open Observatory of Network Interference (OONI) Foundation ETS is an independent nonprofit digital rights organization registered in Italy.
 
 ### How can I get involved?
 
