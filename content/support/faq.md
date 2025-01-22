@@ -176,7 +176,7 @@ The [Open Observatory of Network Interference (OONI)](https://ooni.org/) is a fr
 empower decentralized efforts in increasing transparency of internet
 censorship around the world.
 
-Since 2012, OONI has released several [censorship measurement apps (OONI Probe)](https://ooni.org/install/) and [openly published more than a billion network measurements](https://ooni.org/data/) on internet censorship worldwide.
+Since 2012, OONI has released several [censorship measurement apps (OONI Probe)](https://ooni.org/install/) and [openly published more than two billions network measurements](https://ooni.org/data/) on internet censorship worldwide.
 
 ### Why OONI?
 
@@ -295,7 +295,7 @@ We have received support from Mozilla ([Mozilla Open Source Support](https://www
 initial creation of OONI Explorer (originally [launched in March 2016](https://blog.torproject.org/ooni-explorer-censorship-and-other-network-anomalies-around-world))
 was supported by the [German Foreign Ministry](https://www.auswaertiges-amt.de). Over the years, we have
 received support from several other foundations as well, such as the
-[Media Democracy Fund (MDF)](https://mediademocracyfund.org/), [Internet Society (ISOC)](https://www.internetsociety.org/), and the [National Science Foundation (NSF)](https://www.nsf.gov/).
+[Media Democracy Fund (MDF)](https://mediademocracyfund.org/), [Internet Society (ISOC)](https://www.internetsociety.org/), [Luminate](https://luminategroup.com/about) and the [National Science Foundation (NSF)](https://www.nsf.gov/).
 
 We have also received other forms of support, such as donations from
 companies like [Google Jigsaw](https://jigsaw.google.com/), [Pantheon](https://pantheon.io/blog/pantheon-rises-support-open-web), [Netlify](https://www.netlify.com/), [AirVPN](https://airvpn.org/) and [VPNCompare](https://www.vpncompare.co.uk/). We have received
@@ -322,17 +322,14 @@ We continue to be part of the Tor community and to [collaborate](https://ooni.or
 OONI is a global project, with a global community and an international team.
 
 Over the years, OONI team members have hailed from multiple countries, including
-Italy, Greece, South Africa, Cameroon, India, Russia, Germany, and Slovenia.
+Italy, Greece, South Africa, Cameroon, India, Russia, Germany, Spain and Slovenia.
 
 We are not based in any particular country, as we've never had a
 physical office, and we've always worked remotely online. 
 
 ### What is OONI's legal status?
 
-OONI is a non-profit project, but doesn't have a legally registered entity. 
-
-Between 2011 to 2019, OONI was a project of [The Tor Project](https://www.torproject.org/) (a 501(c)(3) nonprofit registered in the U.S). As of 2020, we are fiscally sponsored by the [Hermes Center for Transparency and Digital Human Rights](https://www.hermescenter.org/), which is a non-profit digital rights
-organization registered in Italy. 
+Between 2011 to 2019, OONI was a project of [The Tor Project](https://www.torproject.org/) (a 501(c)(3) nonprofit registered in the U.S). As of 2025, Open Observatory of Network Interference (OONI) Foundation ETS is an independent non-profit digital rights organization registered in Italy.
 
 ### How can I get involved?
 
@@ -365,7 +362,7 @@ to receive updates and share news.
 the use of [OONI Probe](https://ooni.org/install/) and [OONI data](https://ooni.org/data/). Spread the word!
 
 * **Coordinate censorship testing with OONI Probe users around
-the world.** Use the [OONI Run platform](https://run.ooni.io/)
+the world.** Use the [OONI Run platform](https://run.ooni.org/)
 to generate links based on the websites you want to test, and
 share those links with OONI Probe users around the world!
 
@@ -379,7 +376,7 @@ through [OONI data](https://explorer.ooni.org) and share them with the public.
 
 * **Use OONI data in your advocacy.** Inform your advocacy efforts
 based on censorship events and trends identified around the world
-through [OONI data](https://ooni.org/data/).
+through [OONI data](https://explorer.ooni.org) or [OONI's reports](https://explorer.ooni.org/findings).
 
 * **Examine the legality of censorship events identified through
 OONI data.** Share your legal analysis with the public and
@@ -392,7 +389,7 @@ thousands of new measurements are published. Dig through [OONI data](https://oon
 censorship!
 
 * **Visualize data**. Communicate OONI censorship findings through the
-creation of data visualizations.
+creation of [data visualizations](https://explorer.ooni.org/chart/mat/).
 
 * **[Join the OONI Partnership Program](https://ooni.org/get-involved/partnership-program/)**.
 Collaborate with us on the study of internet censorship. Engage
@@ -542,7 +539,7 @@ No need to. OONI Probe is designed to automatically send us your results
 as soon as you run a test (unless if you have opted-out in the
 settings). Your results will automatically get
 [processed](https://github.com/ooni/pipeline) and
-[published](https://ooni.org/data/) in real-time.
+[published](https://explorer.ooni.org/) in real-time.
 
 ### How often should I run OONI Probe?
 
@@ -690,7 +687,7 @@ You can:
 
 * **Limit your testing to the websites of your choice.** The “[Choose websites](https://ooni.org/support/ooni-probe-mobile#testing-websites-of-your-choice)” button inside the OONI Probe mobile app enables you to
 test specific websites of your choice. You can also test a custom
-list of sites using the [OONI Run platform](https://run.ooni.io/), and you can influence which URLs
+list of sites using the [OONI Run platform](https://run.ooni.org/), and you can influence which URLs
 are measured by OONI Probe users by [contributing to test lists](https://ooni.org/get-involved/contribute-test-lists/).
 
 * **Limit your testing to the tests you feel more comfortable with.**
