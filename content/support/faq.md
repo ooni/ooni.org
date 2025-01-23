@@ -333,7 +333,7 @@ As of June 2023, OONI is a nonprofit organization registered in Rome, Italy.
 
 Between 2011 to 2019, OONI was a project of [The Tor Project](https://www.torproject.org/) (a 501(c)(3) nonprofit registered in the U.S). Between January 2020 to May 2023, OONI was fiscally sponsored by the [Hermes Center for Transparency and Digital Human Rights](https://www.hermescenter.org/), while operating independently in terms of fundraising and governance. 
 
-OONI’s nonprofit legal entity was established in May 2023 with the creation of the OONI Association in Italy. In May 2024, OONI transitioned from an Association to a Foundation to enhance the organization's stability and governance structure.
+OONI’s nonprofit legal entity was established in June 2023 with the creation of the OONI Association in Italy. In May 2024, OONI transitioned from an Association to a Foundation to enhance the organization's stability and governance structure.
 
 Today, the Open Observatory of Network Interference (OONI) Foundation ETS is an independent nonprofit digital rights organization registered in Italy.
 
