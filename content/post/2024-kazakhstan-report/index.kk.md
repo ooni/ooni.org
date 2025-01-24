@@ -1,11 +1,11 @@
 ---
-title: "Қазақстан: TLS MITM шабуылдары және жаңалықтарлар медиасы, құқық қорғау ұйымдары мен бұғаттауларды айналып өту құралдарының сайттарын бұғаттау."
+title: "Қазақстан: TLS MITM шабуылдары және жаңалықтарлар медиасы, құқық қорғау ұйымдары мен бұғаттауларды айналып өту құралдарының сайттарын бұғаттау"
 author: "Yelzhan Kabyshev (Head of Legal Practice, Eurasian Digital Foundation, Manager of the Human Rights Project, Internet Freedom Kazakhstan), Ruslan Daiyrbekov (Founder, Eurasian Digital Foundation), Vadim Melyakov (Analyst, Eurasian Digital Foundation, Specialist in International Relations), Igor Loskutov (Head of the Legal Department, InfoTech&Service LLP), Maria Xynou (OONI), Elizaveta Yachmeneva (OONI), Arturo Filastò (OONI), Mehul Gulati (OONI)"
 date: "2024-01-24"
 tags: ["country-kz", "censorship", "kazakhstan", "theme-news_media", "theme-human_rights", "theme-circumvention"]
 categories: ["report"]
 ---
-The translation of this report into Kazakh was done with the support of [Localisation Lab](https://www.localizationlab.org/).
+The translation of this report into Kazakh was done with the support of the [Localization Lab](https://www.localizationlab.org/).
 
 Соңғы жылдары Қазақстанда интернет-цензура туралы кеңінен [баяндалды](https://freedomhouse.org/country/kazakhstan/freedom-net/2023). Осы зерттеудің аясында [OONI](https://ooni.org/),[«Internet Freedom Kazakhstan» (IFKZ)](https://ifkz.org/en) және [Eurasian Digital Foundation](https://www.digitalrights.asia) өткен жылы (2023 жылдың маусымы мен 2024 жылдың маусымы аралығында) Қазақстандағы интернет-цензураны зерттеу үшін желілік өлшеу деректерін эмпирикалық талдау негізінде бірлесіп жұмыс істеді.
 
