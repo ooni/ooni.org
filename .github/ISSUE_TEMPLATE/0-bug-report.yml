@@ -54,7 +54,8 @@ body:
     id: contact
     attributes:
       label: Contact Details
-      description: How can we get in touch with you if we need more info: email, github, etc. (NB this information will be public)?
+      description: |
+          How can we get in touch with you if we need more info: email, github, etc. (NB this information will be public)?
     validations:
       required: false
   - type: checkboxes
