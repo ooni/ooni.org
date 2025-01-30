@@ -39,13 +39,15 @@
         <div class="col-lg-3 col-md-12">
           <h2 class="overlined">Research</h2>
         </div>
-       <div class="col-lg-9 col-md-12 blog-summary">
+       <div class="col-lg-9 col-md-12">
          {{ with .Site.Taxonomies.categories.report }}
            {{ range first 5 . }}
-            <a href="{{ .RelPermalink }}">
-                <p class="title">{{ .Title }}</p>
-                <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
-            </a>
+            <div class="blog-link-sm">
+              <a class="blog-link-title" href="{{ .RelPermalink }}">
+                {{ .Title }}
+              </a>
+              <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
+            </div>
             {{ end }}
           {{ end }}
           <a class="read-more" href="/reports/">View all</a>
@@ -84,13 +86,15 @@
         <div class="col-lg-3 col-md-12">
           <h2 class="overlined">Blog</h2>
         </div>
-        <div class="col-lg-9 col-md-12 blog-summary">
+        <div class="col-lg-9 col-md-12">
          {{ with .Site.Taxonomies.categories.blog }}
          {{ range first 5 . }}
-          <a href="{{ .RelPermalink }}">
-              <p class="title">{{ .Title }}</p>
+            <div class="blog-link-sm">
+              <a class="blog-link-title" href="{{ .RelPermalink }}">
+                {{ .Title }}
+              </a>
               <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
-          </a>
+            </div>
           {{ end }}
           {{ end }}
           <a class="read-more" href="/blog/">View all</a>
