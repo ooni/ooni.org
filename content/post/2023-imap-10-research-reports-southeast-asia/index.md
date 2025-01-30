@@ -7,7 +7,7 @@ categories: ["report"]
 ---
 
 On 13th October 2023, our long-term partner, [Sinar Project](https://ooni.org/partners/sinar-project/), published **[10 new research reports](https://imap.sinarproject.org/reports/2023)** on
-internet censorship in Southeast Asia and Hong Kong (China) in collaboration with their [Internet Monitoring and Action Project (iMAP)](https://imap.sinarproject.org/) partners. These reports are based on [OONI data](https://ooni.org/data) collected between June 2022 to June 2023 from 10 countries: Cambodia, Hong Kong, India, Indonesia, Malaysia, Myanmar, Philippines, Thailand, Timor-Leste and Vietnam. 
+internet censorship in Southeast Asia and Hong Kong (China) in collaboration with their [Internet Monitoring and Action Project (iMAP)](https://imap.sinarproject.org/) partners. These reports are based on [OONI data](https://ooni.org/data) collected between July 2022 to June 2023 from 10 countries: Cambodia, Hong Kong, India, Indonesia, Malaysia, Myanmar, Philippines, Thailand, Timor-Leste and Vietnam. 
 
 [Internet Monitoring Action Project (iMAP)](https://imap.sinarproject.org/about) aims to establish regional
 and in-country networks that monitor network interference and
