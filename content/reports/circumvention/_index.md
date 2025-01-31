@@ -1,5 +1,5 @@
 ---
-title: Research reports
+title: Research reports - Circumvention
 submenu:
   - url: "/reports/"
     name: "All Reports"
@@ -12,4 +12,5 @@ submenu:
   - url: "/reports/human-rights/"
     name: "Human Rights"
 description: Read our research reports investigating internet censorship worldwide
+tags: ["theme-circumvention"]
 ---
