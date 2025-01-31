@@ -6,7 +6,6 @@ date: "2025-01-31"
 tags: ["ooni", "survey", "community", "feedback", "outreach"]
 categories: ["blog"]
 ---
-{{<img src="images/image1.png" title="OONI illustration" alt="OONI illustration">}}
 
 OONI’s community now includes [over 50 organisations](https://ooni.org/partners) and hundreds of thousands of [OONI Probe](https://ooni.org/install/) users all over the world. 
 
@@ -19,3 +18,5 @@ Please take a few minutes to **complete our survey and share your feedback**: [h
 We encourage you to share this survey with others for whom you think it might be relevant. The form will be open **until Friday, 28th February 2025**.
 
 Thanks for your time, your feedback and thoughts are very valuable to us. Thanks for helping us to build a stronger OONI-verse!
+
+{{<img src="images/image1.png" title="OONI illustration" alt="OONI illustration">}}
