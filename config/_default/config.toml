@@ -6,9 +6,6 @@ pluralizeListTitles = false
 timeout = 120000
 publishDir = "public/"
 
-[params]
-description = "The Open Observatory of Network Interference (OONI) is a global community measuring internet censorship around the world. Run OONI Probe to detect internet censorship. Use OONI Explorer to track internet censorship worldwide in near real-time."
-
 [Languages]
 [Languages.ar]
 [Languages.ca]
@@ -26,6 +23,9 @@ description = "The Open Observatory of Network Interference (OONI) is a global c
 [Languages.my]
 [Languages.kk]
 
+[[module.imports]]
+  path = "github.com/privatemaker/headless-cms"
+
 [outputFormats]
 [outputFormats.PageIndex]
 mediaType = "application/json"
@@ -34,7 +34,7 @@ isPlainText = true
 notAlternative = true
 
 [outputs]
-  home = ["HTML", "PageIndex", "RSS"]
+  home = ["HTML", "PageIndex", "RSS", "HeadlessCMSConfig" ]
 
 [caches]
 [caches.getjson]
