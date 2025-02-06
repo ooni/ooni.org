@@ -7,6 +7,8 @@ tags: ["country-ru", "censorship", "russia", "theme-human_rights", "theme-news_m
 categories: ["report"]
 ---
 
+{{< oonibtn href="/documents/russia-military-conflict-en.pdf" text="Download in PDF" >}}
+
 As of today, last year, Russia started its [military operation in Ukraine](https://www.bbc.com/news/world-60525350). This was followed by increased levels of internet censorship, as Internet Service Providers (ISPs) in Russia started [blocking access to several news media websites](https://ooni.org/post/2022-russia-blocks-amid-ru-ua-conflict/#blocking-of-news-media-websites). In early March 2022, OONI published a [report](https://ooni.org/post/2022-russia-blocks-amid-ru-ua-conflict/) documenting these blocks, as well as the [blocking of a site](https://ooni.org/post/2022-russia-blocks-amid-ru-ua-conflict/#blocked-website-about-captured-and-killed-russian-soldiers) (200rf.com) that shares information about captured and killed Russian soldiers in Ukraine. OONI also reported that Russian ISPs started [throttling access to Twitter](https://ooni.org/post/2022-russia-blocks-amid-ru-ua-conflict/#twitter-throttled) on 26th February 2022, and switched to [blocking](https://ooni.org/post/2022-russia-blocks-amid-ru-ua-conflict/#twitter-and-facebook-blocked) it by 4th March 2022 – at which point, they also started [blocking access to Facebook](https://explorer.ooni.org/search?since=2022-02-04&until=2022-03-07&failure=false&domain=www.facebook.com&probe_cc=RU&only=anomalies).
 
 Information controls are known to occur during conflicts, and the increased censorship events in Russia suggest an attempt to control the narrative surrounding the conflict in Ukraine. But has internet censorship changed in Russia over the last year?

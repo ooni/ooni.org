@@ -7,6 +7,8 @@ tags: ["country-ru", "censorship", "russia", "theme-human_rights", "theme-news_m
 categories: ["report"]
 ---
 
+{{< oonibtn href="/documents/russia-military-conflict-ru.pdf" text="Скачать в PDF" >}}
+
 Ровно год назад в этот день Россия начала [военную операцию в Украине](https://www.bbc.com/news/world-60525350). За этим последовало усиление интернет-цензуры: интернет-провайдеры в России начали [блокировать доступ к различным местным и международным медиа](https://ooni.org/post/2022-russia-blocks-amid-ru-ua-conflict/#blocking-of-news-media-websites). В начале марта 2022 года OONI опубликовали [отчет](https://ooni.org/post/2022-russia-blocks-amid-ru-ua-conflict/), в котором задокументированы эти блокировки, а также блокировка [сайта](https://ooni.org/post/2022-russia-blocks-amid-ru-ua-conflict/#blocked-website-about-captured-and-killed-russian-soldiers) (200rf.com), на котором размещена информация о российских солдатах захваченных и убитых в Украине. OONI также заметил, что российские интернет-провайдеры начали [ограничивать доступ](https://ooni.org/post/2022-russia-blocks-amid-ru-ua-conflict/#twitter-throttled) к Twitter 26-го февраля 2022 года и перешли на его [блокировку](https://ooni.org/post/2022-russia-blocks-amid-ru-ua-conflict/#twitter-and-facebook-blocked) к 4-му марта 2022 года,вскоре после этого они также начали [блокировать](https://explorer.ooni.org/search?since=2022-02-04&until=2022-03-07&failure=false&domain=www.facebook.com&probe_cc=RU&only=anomalies) Facebook.
 
 Известно, что во время военных конфликтов часто происходят попытки информационного контроля, и усиление цензуры в России предполагает попытку контролировать нарратив вокруг конфликта в Украине. Но изменилась ли интернет-цензура в России за последний год?
