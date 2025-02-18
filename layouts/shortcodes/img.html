@@ -8,7 +8,7 @@
 
 {{ $imgRetina := "" }}
 {{ if and (lt $img.Width 2000) (lt $img.Height 1600)}}
-{{ warnf "high density pixel image cannot be generated for <%s>" ($.Page.RelPermalink) }}
+{{ warnf "high density pixel image cannot be generated for <%s%s>" ($.Page.RelPermalink) (.Get "src") }}
 {{ else }}
 {{ $imgRetina = $img.Fit "2000x1600" }}
 {{ end }}
