@@ -1,8 +1,8 @@
 ---
-title: "Probe Security without identification"
-description: "An overview of the current literature on anonymous credentials and how we will be designing and implementing an anonymous credential system for use in OONI Probe"
+title: "Probe Security Without Identification"
+description: "An overview of the current literature on anonymous credentials and how we will be designing and implementing an anonymous credential system for use in OONI Probe."
 author: "Michele Orrù"
-date: "2025-02-18"
+date: "2025-02-20"
 tags: ["ooni", "anonymous credentials", "cryptography"]
 categories: ["blog"]
 ---
