@@ -99,7 +99,7 @@ Outside of the scientific literature, looking at **today's ecosystem of deployed
 2. ***Credentials obtained choosing zk-friendly signature schemes and message authentication codes.***
    This approach consists of picking a signature scheme that has nice “algebraic” properties. If these “algebraic” properties are compatible with the algebra that is done in a zero-knowledge proof system, the result is an anonymous credential where one can prove anything that the underlying zero-knowledge proof system can support. These signatures, for instance, do not need to rely on a hash function, and are often based on groups where the discrete logarithm problem is hard. One nice fact about these constructions is that they can be done with 1 round of interaction: at issuance, the user can ask for a credential and the server responds with it.
 
-3. ***Credentials obtained leveraging zero-knowledge proofs***
+3. ***Credentials obtained leveraging zero-knowledge proofs.***
    This broad class of credentials generally relies on SNARKs and recursive SNARKs, and generally boils down to proving signature verification for a standardized, common signature scheme, or all the way removing signatures, and creating Merkle trees of secret keys in possession of users and then proving statements of membership and non-membership in order to authenticate. This class generally lacks a public provable-security formalization.
    This class is quite common in cases, such as blockchain scenarios, where it's hard to identify a single entity (or a small group) of signers that can approve users. It is hard to see any formalization of this approach in the theory. Here are two examples:
 
