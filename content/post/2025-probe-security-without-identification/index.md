@@ -29,7 +29,7 @@ OONI's infrastructure is quite specific: privacy for user submissions is priorit
 
 {{<figure src="images/backend.png" class="text-center"  width="50%">}}
 
-Ideally, we would like to step in and establish some trust in the data being submitted. Specifically, we aim to establish trust during the `CheckIn(ProbeMeta)` and the `upload(Measurements)` flows, and stop faulty (or evil) probes without changing the round complexity or putting a burden on the user or the server.
+Ideally, we would like to step in and establish some trust in the data being submitted. Specifically, we aim to establish trust during the `checkIn(ProbeMeta)` and the `upload(Measurements)` flows, and stop faulty (or evil) probes without changing the round complexity or putting a burden on the user or the server.
 
 In summary, we are looking for an anonymous authentication system that:
 
