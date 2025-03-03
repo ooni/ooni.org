@@ -21,8 +21,7 @@ We will process the following data:
 
 **Data on donations made and requested gifts** - When you make donations or request gifts, we will record your identification data, contact data and payment data.
 
-**Cookies** - When you use our services, we can send to your device one or more cookies (small text files containing a
-string of alphanumeric characters):
+**Cookies** - When you use our services, we can send to your device one or more cookies (small text files containing a string of alphanumeric characters):
 
 _technical cookies_, that is navigation or session cookies, strictly necessary for the operation of the site or to allow you to enjoy that content and the services that you requested,
 
@@ -39,20 +38,15 @@ Your personal data will be processed with the following purposes:
 - to evaluate and improve our services and develop new ones, pursuing the legitimate interest in freedom of
 association,
 - to protect the technical functioning of our system, pursuing the legitimate interest in security,
-- to fulfill legal obligations and/or comply with orders from public authorities, including the judicial
-authorities,
-- to process and diffuse statistics and graphic representations on the use of services (most visited pages,
-number of visitors per time slot or day, geographical areas of origin, etc.) but only in aggregate and
-anonymous form, pursuing the legitimate interest in freedom of association.
+- to fulfill legal obligations and/or comply with orders from public authorities, including the judicial authorities,
+- to process and diffuse statistics and graphic representations on the use of services (most visited pages, number of visitors per time slot or day, geographical areas of origin, etc.) but only in aggregate and anonymous form, pursuing the legitimate interest in freedom of association.
 
 We will also process your personal data to inform you about our services and news on our site, pursuing the legitimate interest in freedom of association.
 
 ### DATA RECIPIENTS
 We may communicate your data:
-- to persons or entities who work with us and deal with phases of the processes necessary for the proper
-performance of our activities,
-- to third parties to comply with legal obligations, to comply with orders from public authorities, including
-the judicial authorities, and / or to protect ours rights or third parties under law,
+- to persons or entities who work with us and deal with phases of the processes necessary for the proper performance of our activities,
+- to third parties to comply with legal obligations, to comply with orders from public authorities, including the judicial authorities, and / or to protect ours rights or third parties under law,
 - to payment processors with whom you interact in the performance of your donation.
 
 ### TRANSFER PERSONAL DATA OUTSIDE THE EU
