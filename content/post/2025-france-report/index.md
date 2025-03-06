@@ -2,7 +2,7 @@
 title: "A Legal and Technical Analysis of Internet Censorship in France"
 description: "This report provides a legal and technical analysis of Internet censorship in France."
 author: "Etienne Maynier, Taziden"
-date: "2025-02-26"
+date: "2025-03-06"
 tags: ["country-fr", "censorship", "france", "theme-news_media", "theme-human_rights", "theme-circumvention"]
 categories: ["report"]
 ---
