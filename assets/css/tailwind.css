@@ -1,4 +1,256 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@tailwind variants;
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/aspect-ratio";
+@source "hugo_stats.json";
+
+/* Fira Sans */
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 300;  
+  font-display: swap;
+  src: url("../fonts/fira/fira-sans-v16-latin-ext_latin-300.woff2") format("woff2"), 
+       url("../fonts/fira/fira-sans-v16-latin-ext_latin-300.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/fira/fira-sans-v16-latin-ext_latin-regular.woff2") format("woff2"), 
+       url("../fonts/fira/fira-sans-v16-latin-ext_latin-regular.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/fira/fira-sans-v16-latin-ext_latin-500.woff2") format("woff2"), 
+       url("../fonts/fira/fira-sans-v16-latin-ext_latin-500.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/fira/fira-sans-v16-latin-ext_latin-600.woff2") format("woff2"), 
+       url("../fonts/fira/fira-sans-v16-latin-ext_latin-600.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/fira/fira-sans-v16-latin-ext_latin-700.woff2") format("woff2"), 
+       url("../fonts/fira/fira-sans-v16-latin-ext_latin-700.woff") format("woff"); 
+}
+
+/* Source Code Pro */
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/source-code-pro/source-code-pro-v22-latin-ext_latin-regular.woff2") format("woff2"), 
+       url("../fonts/source-code-pro/source-code-pro-v22-latin-ext_latin-regular.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/source-code-pro/source-code-pro-v22-latin-ext_latin-700.woff2") format("woff2"), 
+       url("../fonts/source-code-pro/source-code-pro-v22-latin-ext_latin-700.woff") format("woff"); 
+}
+
+/* Source Serif Pro */
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/source-serif-pro/source-serif-pro-v15-latin-ext_latin-regular.woff2") format("woff2"), 
+       url("../fonts/source-serif-pro/source-serif-pro-v15-latin-ext_latin-regular.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/source-serif-pro/source-serif-pro-v15-latin-ext_latin-italic.woff2") format("woff2"), 
+       url("../fonts/source-serif-pro/source-serif-pro-v15-latin-ext_latin-italic.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/source-serif-pro/source-serif-pro-v15-latin-ext_latin-700.woff2") format("woff2"), 
+       url("../fonts/source-serif-pro/source-serif-pro-v15-latin-ext_latin-700.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/source-serif-pro/source-serif-pro-v15-latin-ext_latin-700italic.woff2") format("woff2"), 
+       url("../fonts/source-serif-pro/source-serif-pro-v15-latin-ext_latin-700italic.woff") format("woff"); 
+}
+
+@theme {
+  --color-primary: #0588cb;
+  --color-background: #f8f9fa;
+  --color-highlight: #0588cb20;
+  --color-ooniblue: #0588cb;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-twitterBlue: #1da1f2;
+  --color-facebookBlue: #3b5998;
+  --color-transparent: transparent;
+
+  --color-gray0: #f8f9fa;
+  --color-gray1: #f1f3f5;
+  --color-gray2: #e9ecef;
+  --color-gray3: #dee2e6;
+  --color-gray4: #ced4da;
+  --color-gray5: #adb5bd;
+  --color-gray6: #868e96;
+  --color-gray7: #495057;
+  --color-gray8: #343a40;
+  --color-gray9: #212529;
+  --color-blue0: #e7f5ff;
+  --color-blue1: #c9e8ff;
+  --color-blue2: #8dd5f8;
+  --color-blue3: #5db8fe;
+  --color-blue4: #37a6ed;
+  --color-blue5: #0588cb;
+  --color-blue6: #0f77b8;
+  --color-blue7: #056aa6;
+  --color-blue8: #005f9c;
+  --color-blue9: #005a99;
+  --color-indigo0: #edf2ff;
+  --color-indigo1: #dbe4ff;
+  --color-indigo2: #bac8ff;
+  --color-indigo3: #91a7ff;
+  --color-indigo4: #748ffc;
+  --color-indigo5: #5c7cfa;
+  --color-indigo6: #4c6ef5;
+  --color-indigo7: #4263eb;
+  --color-indigo8: #3b5bdb;
+  --color-indigo9: #364fc7;
+  --color-violet0: #f3f0ff;
+  --color-violet1: #e5dbff;
+  --color-violet2: #d0bfff;
+  --color-violet3: #b197fc;
+  --color-violet4: #9775fa;
+  --color-violet5: #845ef7;
+  --color-violet6: #7950f2;
+  --color-violet7: #7048e8;
+  --color-violet8: #6741d9;
+  --color-violet9: #5f3dc4;
+  --color-fuchsia0: #f8f0fc;
+  --color-fuchsia1: #f3d9fa;
+  --color-fuchsia2: #eebefa;
+  --color-fuchsia3: #e599f7;
+  --color-fuchsia4: #da77f2;
+  --color-fuchsia5: #cc5de8;
+  --color-fuchsia6: #be4bdb;
+  --color-fuchsia7: #ae3ec9;
+  --color-fuchsia8: #9c36b5;
+  --color-fuchsia9: #862e9c;
+  --color-pink0: #fff0f6;
+  --color-pink1: #ffdeeb;
+  --color-pink2: #fcc2d7;
+  --color-pink3: #faa2c1;
+  --color-pink4: #f783ac;
+  --color-pink5: #f06595;
+  --color-pink6: #e64980;
+  --color-pink7: #d6336c;
+  --color-pink8: #c2255c;
+  --color-pink9: #a61e4d;
+  --color-red0: #fff5f5;
+  --color-red1: #ffe3e3;
+  --color-red2: #ffc9c9;
+  --color-red3: #ffa8a8;
+  --color-red4: #ff8787;
+  --color-red5: #ff6b6b;
+  --color-red6: #fa5252;
+  --color-red7: #f03e3e;
+  --color-red8: #e03131;
+  --color-red9: #c92a2a;
+  --color-orange0: #fff4e6;
+  --color-orange1: #ffe8cc;
+  --color-orange2: #ffd8a8;
+  --color-orange3: #ffc078;
+  --color-orange4: #ffa94d;
+  --color-orange5: #ff922b;
+  --color-orange6: #fd7e14;
+  --color-orange7: #f76707;
+  --color-orange8: #e8590c;
+  --color-orange9: #d9480f;
+  --color-yellow0: #fff9db;
+  --color-yellow1: #fff3bf;
+  --color-yellow2: #ffec99;
+  --color-yellow3: #ffe066;
+  --color-yellow4: #ffd43b;
+  --color-yellow5: #fcc419;
+  --color-yellow6: #fab005;
+  --color-yellow7: #f59f00;
+  --color-yellow8: #f08c00;
+  --color-yellow9: #e67700;
+  --color-lime0: #f4fce3;
+  --color-lime1: #e9fac8;
+  --color-lime2: #d8f5a2;
+  --color-lime3: #c0eb75;
+  --color-lime4: #a9e34b;
+  --color-lime5: #94d82d;
+  --color-lime6: #82c91e;
+  --color-lime7: #74b816;
+  --color-lime8: #66a80f;
+  --color-lime9: #5c940d;
+  --color-green0: #ebfbee;
+  --color-green1: #d3f9d8;
+  --color-green2: #b2f2bb;
+  --color-green3: #8ce99a;
+  --color-green4: #69db7c;
+  --color-green5: #51cf66;
+  --color-green6: #40c057;
+  --color-green7: #37b24d;
+  --color-green8: #2f9e44;
+  --color-green9: #2b8a3e;
+  --color-teal0: #e6fcf5;
+  --color-teal1: #c3fae8;
+  --color-teal2: #96f2d7;
+  --color-teal3: #63e6be;
+  --color-teal4: #38d9a9;
+  --color-teal5: #20c997;
+  --color-teal6: #12b886;
+  --color-teal7: #0ca678;
+  --color-teal8: #099268;
+  --color-teal9: #087f5b;
+  --color-cyan0: #e3fafc;
+  --color-cyan1: #c5f6fa;
+  --color-cyan2: #99e9f2;
+  --color-cyan3: #66d9e8;
+  --color-cyan4: #3bc9db;
+  --color-cyan5: #22b8cf;
+  --color-cyan6: #15aabf;
+  --color-cyan7: #1098ad;
+  --color-cyan8: #0c8599;
+  --color-cyan9: #0b7285;
+
+  --font-sans: "Fira Sans", sans-serif;
+  --font-serif: "Source Serif Pro", serif;
+  --font-mono: "Source Code Pro", monospace;
+}
+
+
