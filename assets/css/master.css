@@ -28,70 +28,6 @@ pre, code {
 
 
 /* ================================================================== */
-/* Document structure */
-
-footer {
-  background-color: rgb(0, 44, 75);
-  color: #fff;
-  font-size: 14px;
-  font-family: "Fira Sans", sans-serif;
-}
-
-.footer-section-title {
-    font-weight: bold;
-}
-
-footer a {
-  color: #fff;
-  opacity: 0.5;
-  display: block;
-  padding: 2px 0;
-  margin: 2px 0;
-}
-footer a:hover {
-  color: #fff;
-  opacity: 1;
-  text-decoration: none;
-}
-
-.footer-links-social {
-    margin: 0;
-    padding: 0;
-}
-
-.footer-links-social li {
-    display: inline-block;
-    padding: 0;
-    margin: 0 10px 0 0;
-}
-
-.footer-links-social a {
-    overflow: hidden;
-    text-indent: 120%;
-    display: block;
-    background-repeat: no-repeat;
-    height: 16px;
-    width: 16px;
-}
-
-.footer-links-social a.twitter {
-    background-image: url('/images/logos/twitter.png');
-}
-.footer-links-social a.youtube {
-    background-image: url('/images/logos/youtube.png');
-}
-.footer-links-social a.facebook {
-    background-image: url('/images/logos/facebook.png');
-}
-.footer-links-social a.instagram {
-    background-image: url('/images/logos/instagram.png');
-}
-.footer-links-social a.mastodon {
-    background-image: url('/images/logos/mastodon-brands.png');
-}
-
-
-/* ================================================================== */
 /* Rows */
 
 .pad-below {
@@ -114,10 +50,10 @@ h2.overlined {
   margin: 0 0 1rem;
 }
 
-a {
+/* a {
   text-decoration: none;
   color: #0588cb;
-}
+} */
 
 p, ol, ul {
   margin-bottom: 1.2em;
@@ -314,14 +250,14 @@ blockquote dl dt {
 /* Tables */
 
 table {
-    margin-bottom: 20px;
-    background: white;
-    border-radius: 3px;
-    border-collapse: collapse;
-    padding: 5px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    animation: float 5s infinite;
-    font-family: Fira Sans;
+  margin-bottom: 20px;
+  background: white;
+  border-radius: 3px;
+  border-collapse: collapse;
+  padding: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+  font-family: Fira Sans;
 }
 
 th {
@@ -388,127 +324,6 @@ td {
 
 td:last-child {
   border-right: 0px;
-}
-
-/* ================================================================== */
-/* Navigation */
-
-.navbar {
-  background-color: #0588cb;
-  color: #fff;
-  padding: 8px 0;
-  z-index: 6;
-  position: relative;
-}
-
-.nav-menu-brand a {
-  display: block;
-  width: 92px;
-  height: 26px;
-  transition: 0.1s ease-in-out;
-}
-
-.nav-menu-brand a:hover {
-  opacity: 0.8;
-}
-
-.nav-menu-btn {
-  background: transparent;
-  border: none;
-}
-
-.nav-menu-btn-icon {
-  display: block;
-  width: 32px;
-  height: 32px;
-}
-
-.navbar_opened .nav-menu-btn-icon_open {
-  display: none;
-}
-
-.nav-menu-btn-icon_close {
-  display: none;
-}
-
-.navbar_opened .nav-menu-btn-icon_close {
-  display: block;
-}
-
-.nav-menu {
-  display: none;
-  margin-top: 16px;  
-  flex: 1;
-  justify-content: space-between;
-}
-
-.navbar_opened .nav-menu{
-  display: flex !important;
-  flex-direction: column;
-  align-content: flex-start;
-}
-
-@media (min-width: 992px) {
-  .nav-menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 0;
-    margin-left: 24px;
-  }
-
-  .navbar_opened .nav-menu{
-    flex-direction: row;
-  }
-}
-
-
-.nav-menu-item a {
-  font-size: 16px;
-  font-weight: normal;
-  text-align: right;
-  color: #fff;
-  display: block;
-  margin: 4px 0;
-  padding: 0 8px;
-  border-left: 3px solid transparent;
-  text-decoration: none;
-  transition: .1s ease-in-out;
-}
-
-
-.nav-menu-item a.active, 
-.nav-menu-item a:hover {
-  border-left: 3px solid #fff;
-}
-
-
-@media (min-width: 992px) {
-  .nav-menu-item a {
-    font-size: 14px;
-    text-align: center;
-    padding: 6px 8px 0;
-    margin: 0 4px;
-    border-bottom: 3px solid transparent;
-    border-left: 0;
-  }
-
-  .nav-menu-item a.active, 
-  .nav-menu-item a:hover {
-    border-bottom: 3px solid #fff;
-    border-left: 0;
-  }
-}
-
-.nav-menu-install {
-  font-size: 16px;  
-  text-align: center;
-}
-
-@media (min-width: 992px) {
-  .nav-menu-install {
-    font-size: 14px;  
-  }
 }
 
 /* ================================================================== */

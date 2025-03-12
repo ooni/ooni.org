@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name='viewport' content='initial-scale=1.0, width=device-width' />
   {{ with .OutputFormats.Get "rss" -}}
-  {{ printf `
-  <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ printf `
+    <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
   <title>{{ .Title }} | OONI</title>
   
@@ -16,9 +16,7 @@
   {{ partial "twitter_cards.html" . }}
 
   {{ block "css" . }}
-
-  {{ partial "css.html" . }}
-
+    {{ partial "css.html" . }}
   {{ end }}
 
   <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
@@ -26,7 +24,6 @@
   <link rel="shortcut icon" href="/images/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/ooni-run/dist/widgets.js" defer></script>
-
   <!-- Umami Cloud EU-->
   <script defer src="https://eu.umami.is/script.js" data-website-id="6c8fa418-795c-41cc-9840-40c43a88648a" domains="ooni.org,ooni.github.io,ooni.netlify.com,openobservatory.github.io"></script>
   <!-- End Umami Code -->
@@ -34,9 +31,7 @@
 <body>
 
   {{ block "navbar" . }}
-
-  {{ partial "navbar.html" .}}
-
+    {{ partial "navbar.html" .}}
   {{ end }}
 
   {{ block "main" . }}
@@ -44,9 +39,7 @@
   {{ end }}
 
   {{ block "footer" . }}
-
-  {{ partial "footer.html" . }}
-
+    {{ partial "footer.html" . }}
   {{ end }}
 
   {{ block "script" . }}
