@@ -7,6 +7,7 @@ tags: ["ooni", "anonymous credentials", "cryptography"]
 categories: ["blog"]
 ---
 
+Thanks to Toomore Chiang and [OCF community](https://ooni-research.ocf.tw/), this post is available in [Mandarin (zh-tw)](https://ooni-research.ocf.tw/docs/zh-tw/blog/2025/03/2025-probe-security-without-identification/).
 
 {{<figure src="images/chaum.png"
    class="text-center"
