@@ -1,15 +1,13 @@
-<div class='d-flex col-lg-6 offset-md-1 align-items-end'>
-  <div class="text-center mb-5">
-    {{ .Content }}
-  </div>
+<div class="mb-12 text-center">
+  {{ .Content }}
 </div>
-<div class="col-lg-5 d-none d-lg-flex justify-content-end">
+<div class="relative hidden md:block">
   <img alt="OONI Probe Desktop App Download"
     src="{{ .Params.screenshot }}"
     srcset="{{ .Params.screenshot }} 1x, {{ .Params.screenshot2x }} 2x"
-    class="install-screenshot-phone" id="ooni-phone" />
+    class="mb-0 mr-[-100px] lg:mr-[-140px] z-3 max-w-none" id="ooni-phone" />
   <img alt="Background Flourish"
-        src="/install/BG-Flourish.png"
-        srcset="/install/BG-Flourish.png 1x, /install/BG-Flourish@2x.png 2x"
-        class="d-none d-md-block install-flourish" />
+    src="/install/BG-Flourish.png"
+    srcset="/install/BG-Flourish.png 1x, /install/BG-Flourish@2x.png 2x"
+    class="hidden md:block absolute z-[-2] right-[-1210px] top-[-1000px] max-w-none" />
 </div>

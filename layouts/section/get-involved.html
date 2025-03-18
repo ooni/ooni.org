@@ -1,15 +1,13 @@
 {{ define "main" }}
 {{ $blocks := .Page.GetPage "./get-involved-blocks" }}
 <div class="container get-involved">
-  <main class="col pt-4 pb-5">
-    <div class="row justify-content-around pb-4">
-        {{ range sort $blocks.Resources "File.Path" }}
-            <div class="col-12 col-sm-5 pb-4">
-            <h2>{{ .Title }}</h2>
-            {{ .Content }}
-            </div>
-        {{ end }}
-    </div>
+  <main class="grid grid-cols-1 md:grid-cols-2 gap-8 my-8 [&_ul]:list-disc [&_ul]:ms-4">
+    {{ range sort $blocks.Resources "File.Path" }}
+      <div>
+        <h2>{{ .Title }}</h2>
+        {{ .Content }}
+      </div>
+    {{ end }}
   </main>
 </div>
 {{ end }}

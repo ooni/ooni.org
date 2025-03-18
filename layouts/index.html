@@ -1,141 +1,132 @@
 {{ define "main" }}
-<div class="homepage">
-
-  <div class="container mt-5 pb-4">
-   <div class="text-center">
-        <img src="/images/logos/OONI-VerticalColor.png"
-            srcset="/images/logos/OONI-VerticalColor.png 1x,
-                   /images/logos/OONI-VerticalColor@2x.png 2x">
-        <h1 class="article-title">{{ .Params.leadTitle }}</h1>
-        <p class="lead">{{ .Params.leadDescription }}</p>
-    </div>
+<div>
+  <div class="container mt-5 pb-4 text-center">
+    <img class="mx-auto" src="/images/logos/OONI-VerticalColor.png" srcset="/images/logos/OONI-VerticalColor.png 1x,
+              /images/logos/OONI-VerticalColor@2x.png 2x">
+    <h1 class="article-title">{{ .Params.leadTitle }}</h1>
+    <p class="lead">{{ .Params.leadDescription }}</p>
   </div>
 
   <main>
     <div class="bg-ooniblue mb-3 text-white">
       <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-8 col-lg-8">
-            <img
-              class="py-4"
-				      src="/images/logos/Probe-HorizontalMonochromeInverted.png"
-				      srcset="/images/logos/Probe-HorizontalMonochromeInverted.png 1x, /images/logos/Probe-HorizontalMonochromeInverted@2x.png 2x" />
+        <div class="flex flex-col gap-4 md:flex-row">
+          <div class="md:w-2/3 pb-8">
+            <img class="py-4" src="/images/logos/Probe-HorizontalMonochromeInverted.png"
+              srcset="/images/logos/Probe-HorizontalMonochromeInverted.png 1x, /images/logos/Probe-HorizontalMonochromeInverted@2x.png 2x" />
             <p class="subtext">{{ .Params.ooniProbeDescription }}</p>
-            <p class="subtext"><a class="explorer-button btn" href="https://ooni.org/install/">Install OONI Probe</a></p>
+            <p class="subtext"><a class="explorer-button btn" href="https://ooni.org/install/">Install OONI Probe</a>
+            </p>
             <p class="cta"><a style="color: white;" href="/nettest/">Testing methodologies</a></p>
           </div>
-          <div class="col-12 col-md-4 col-lg-4">
-            <img alt="OONI Probe Phone App"
-              src="/install/PhoneMockupIcon.png"
-              srcset="/install/PhoneMockupIcon.png 1x, /install/PhoneMockupIcon@2x.png 2x"
-              class="xs-center" />
+          <div class="md:w-1/3 content-end">
+            <img alt="OONI Probe Phone App" src="/install/PhoneMockupIcon.png"
+              srcset="/install/PhoneMockupIcon.png 1x, /install/PhoneMockupIcon@2x.png 2x" class="max-w-none" />
           </div>
         </div>
       </div>
     </div>
 
     <div class="container">
-      <div class="row py-5">
-        <div class="col-lg-3 col-md-12">
+      <div class="flex flex-col gap-8 md:flex-row py-10">
+        <div class="md:w-3/12">
           <h2 class="overlined">Research</h2>
         </div>
-       <div class="col-lg-9 col-md-12 blog-summary">
-         {{ with .Site.Taxonomies.categories.report }}
-           {{ range first 5 . }}
-            <a href="{{ .RelPermalink }}">
-                <p class="title">{{ .Title }}</p>
-                <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
-            </a>
-            {{ end }}
+        <div class="md:w-9/12 blog-summary">
+          {{ with .Site.Taxonomies.categories.report }}
+          {{ range first 5 . }}
+          <a href="{{ .RelPermalink }}">
+            <p class="title">{{ .Title }}</p>
+            <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
+          </a>
           {{ end }}
-          <a class="read-more" href="/reports/">View all</a>
+          {{ end }}
+          <a class="text-ooniblue" href="/reports/">View all</a>
         </div>
       </div>
     </div>
 
     <div class="bg-ooniblue mb-3">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-12 col-md-8 col-lg-8 d-none d-sm-block">
-            <img src="/images/ooni-explorer-screenshot.png" srcset="/images/ooni-explorer-screenshot.png 1x, /images/ooni-explorer-screenshot@2x.png 2x"/>
+      <div class="container text-white">
+        <div class="flex flex-col gap-8 md:flex-row">
+          <div class="md:w-2/3 content-end">
+            <img class="max-w-full lg:max-w-none" src="/images/ooni-explorer-screenshot.png"
+              srcset="/images/ooni-explorer-screenshot.png 1x, /images/ooni-explorer-screenshot@2x.png 2x" />
           </div>
-
-          <div class="col-12 col-md-4 col-lg-4 pb-3">
-            <img
-              class="py-4"
-              alt="OONI Explorer logo"
-				      src="/images/logos/Explorer-HorizontalMonochromeInverted.png"
-				      srcset="/images/logos/Explorer-HorizontalMonochromeInverted.png 1x, /images/logos/Explorer-HorizontalMonochromeInverted@2x.png 2x" />
-
+          <div class="md:w-1/3 pb-3">
+            <img class="py-4" alt="OONI Explorer logo" src="/images/logos/Explorer-HorizontalMonochromeInverted.png"
+              srcset="/images/logos/Explorer-HorizontalMonochromeInverted.png 1x, /images/logos/Explorer-HorizontalMonochromeInverted@2x.png 2x" />
             <p class="subtext">{{ .Params.ooniExplorerDescription }}</p>
-            <p class="subtext"><a class="explorer-button btn" href="https://explorer.ooni.org/">Explore OONI Data</a></p>
+            <p class="subtext"><a class="explorer-button btn" href="https://explorer.ooni.org/">Explore OONI Data</a>
+            </p>
             <p class="cta"><a href="/support/faq/">Frequently Asked Questions</a></p>
             <p class="cta"><a href="/support/glossary/">OONI Glossary</a></p>
           </div>
-
+        </div>
       </div>
+    </div>
+</div>
+
+<div class="container">
+
+  <div class="flex flex-col md:flex-row md:gap-8 py-5">
+    <div class="md:w-3/12">
+      <h2 class="overlined">Blog</h2>
+    </div>
+    <div class="md:w-9/12 blog-summary">
+      {{ with .Site.Taxonomies.categories.blog }}
+      {{ range first 5 . }}
+      <a href="{{ .RelPermalink }}">
+        <p class="title">{{ .Title }}</p>
+        <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
+      </a>
+      {{ end }}
+      {{ end }}
+      <a class="text-ooniblue" href="/blog/">View all</a>
     </div>
   </div>
 
-  <div class="container">
+  <div class="flex flex-col md:flex-row md:gap-8 pb-5">
+    <div class="md:w-3/12">
+      <h2 class="overlined">Get Involved</h2>
+    </div>
+    <div class="md:w-9/12">
+      <p>Join us on <a href="https://slack.ooni.org/">Slack</a> or <a href="ircs://irc.oftc.net:6697/#ooni">IRC</a>
+        to participate in community discussions. Sign-up for the <a
+          href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk">ooni-talk</a>
+        mailing list to receive updates and discuss all things related to the OONI-verse.
+      </p>
+      <p>All OONI <a href="https://github.com/ooni/">source code</a>
+        is available on GitHub, where we also document
+        <a href="https://github.com/ooni/ooni.org/issues">issues</a> and future plans.
+      </p>
 
-      <div class="row py-5">
-        <div class="col-lg-3 col-md-12">
-          <h2 class="overlined">Blog</h2>
-        </div>
-        <div class="col-lg-9 col-md-12 blog-summary">
-         {{ with .Site.Taxonomies.categories.blog }}
-         {{ range first 5 . }}
-          <a href="{{ .RelPermalink }}">
-              <p class="title">{{ .Title }}</p>
-              <p class="byline">{{ .Date.Format "2 Jan 2006" }}</p>
-          </a>
-          {{ end }}
-          {{ end }}
-          <a class="read-more" href="/blog/">View all</a>
-        </div>
-      </div>
-
-      <div class="row pb-5">
-        <div class="col-lg-3 col-md-12">
-          <h2 class="overlined">Get Involved</h2>
-        </div>
-        <div class="col-lg-9 col-md-12">
-            <p>Join us on <a href="https://slack.ooni.org/">Slack</a> or <a href="ircs://irc.oftc.net:6697/#ooni">IRC</a>
-            to participate in community discussions. Sign-up for the <a
-            href="https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk">ooni-talk</a>
-            mailing list to receive updates and discuss all things related to the OONI-verse. 
-          </p>
-          <p>All OONI <a href="https://github.com/ooni/">source code</a>
-            is available on GitHub, where we also document
-            <a href="https://github.com/ooni/ooni.org/issues">issues</a> and future plans.</p>
-
-          <p>We also have a growing list of OONI ambassadors through our <a href="/get-involved/partnership-program/">partnership program</a>.</p>
-        <p class="cta">
+      <p>We also have a growing list of OONI ambassadors through our <a
+          href="/get-involved/partnership-program/">partnership program</a>.</p>
+      <p class="cta">
         <a href="/partners">Current OONI Partners</a>
-        </p>
+      </p>
 
-        </div>
-      </div>
-
-      <div class="row pb-5">
-        <div class="col-lg-3 col-md-12">
-          <h2 class="overlined">Contact</h2>
-        </div>
-        <div class="col-lg-9 col-md-12">
-            <p>Contact the OONI team by sending an email to <strong>contact@openobservatory.org</strong>.
-            Encrypted emails can be sent using the following PGP key:</p>
-            <p class="fingerprint">
-            Key ID: 6B2943F00CB177B7<br>
-            Fingerprint: 4C15 DDA9 96C6 C0CF 48BD 3309 6B29 43F0 0CB1 77B7
-            </p>
-        </div>
-      </div>
     </div>
-
-  </main>
-
   </div>
+
+  <div class="flex flex-col md:flex-row md:gap-8 pb-5">
+    <div class="md:w-3/12">
+      <h2 class="overlined">Contact</h2>
+    </div>
+    <div class="md:w-9/12">
+      <p>Contact the OONI team by sending an email to <strong>contact@openobservatory.org</strong>.
+        Encrypted emails can be sent using the following PGP key:</p>
+      <p class="fingerprint">
+        Key ID: 6B2943F00CB177B7<br>
+        Fingerprint: 4C15 DDA9 96C6 C0CF 48BD 3309 6B29 43F0 0CB1 77B7
+      </p>
+    </div>
+  </div>
+</div>
+
+</main>
+
+</div>
 </div>
 {{ end }}

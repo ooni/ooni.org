@@ -1,56 +1,48 @@
 {{ define "main" }}
-<div class="container install">
-  <main class="col pt-3">
-    <div class="row">
-      <div class="col text-center">
-        <img src="/install/index.svg" style="max-width:300px;"/>
-        <h1 class="mt-2 article-title">Measure internet censorship</h1>
-      </div>
+<main class="container mt-12">
+  <div class="flex flex-col items-center text-center">
+    <img src="/install/index.svg" class="max-w-[300px]" />
+    <h1 class="mt-2 article-title">Measure internet censorship</h1>
+  </div>
+  <div class="flex flex-col md:flex-row gap-4 justify-around">
+    <div class="w-2/5 flex flex-col">
+      <a href="/install/mobile" class="self-center">
+        <img alt="OONI Probe Phone App Download" src="/install/PhoneMockupIcon.png"
+          srcset="/install/PhoneMockupIcon.png 1x, /install/PhoneMockupIcon@2x.png 2x" id="ooni-phone" />
+      </a>
+      <h2>Mobile</h2>
+      <p>
+        Get the OONI Probe mobile app to measure many different networks.
+      </p>
+      <a href="/install/mobile">Install OONI Probe Mobile >></a>
     </div>
-    <div class="row justify-content-around pt-5">
-      <div class="col-12 col-sm-5 d-flex flex-column">
-        <a href="/install/mobile" class="icon-links mb-3">
-          <img alt="OONI Probe Phone App Download"
-            src="/install/PhoneMockupIcon.png"
-            srcset="/install/PhoneMockupIcon.png 1x, /install/PhoneMockupIcon@2x.png 2x"
-            class="xs-center" id="ooni-phone" />
-        </a>
-        <h2>Mobile</h2>
-        <p>
-          Get the OONI Probe mobile app to measure many different networks.
-        </p>
-        <a href="/install/mobile">Install OONI Probe Mobile >></a>
-      </div>
-      <div class="col-12 col-sm-5 d-flex flex-column">
-        <a href="/install/desktop" class="icon-links mb-3 mt-3">
-          <img alt="OONI Probe Desktop App Download"
-            src="/install/ProbeDesktopScreenshot.png"
-            srcset="/install/ProbeDesktopScreenshot.png 1x, /install/ProbeDesktopScreenshot@2x.png 2x"
-            class="xs-center" id="ooni-phone" />
-        </a>
-        <h2>Desktop</h2>
-        <p>
-          Get the OONI Probe desktop app to perform more extensive testing from your computer.
-        </p>
-        <a href="/install/desktop">Install OONI Probe Desktop >></a>
-      </div>
+    <div class="w-2/5 flex flex-col">
+      <a href="/install/desktop" class="self-center">
+        <img alt="OONI Probe Desktop App Download" src="/install/ProbeDesktopScreenshot.png"
+          srcset="/install/ProbeDesktopScreenshot.png 1x, /install/ProbeDesktopScreenshot@2x.png 2x" class="max-w-full"
+          id="ooni-phone" />
+      </a>
+      <h2>Desktop</h2>
+      <p>
+        Get the OONI Probe desktop app to perform more extensive testing from your computer.
+      </p>
+      <a href="/install/desktop">Install OONI Probe Desktop >></a>
     </div>
-  </main>
-</div>
-<div class="install-cli install">
+  </div>
+</main>
+<div class="bg-[#002934] text-white py-20 mt-4">
   <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <img class="px-4 d-none d-sm-block" alt="Probe CLI Screenshot"
-                  src="/install/ProbeCLIScreenshot.png"
-                  srcset="/install/ProbeCLIScreenshot.png 1x, /install/ProbeCLIScreenshot@2x.png 2x" />
+    <div class="flex flex-col md:flex-row gap-4">
+      <div class="md:w-1/2">
+        <img class="px-4" alt="Probe CLI Screenshot" src="/install/ProbeCLIScreenshot.png"
+          srcset="/install/ProbeCLIScreenshot.png 1x, /install/ProbeCLIScreenshot@2x.png 2x" />
       </div>
-      <div class="col-md-6">
+      <div class="md:w-1/2">
         <h2 class="mb-4">Command Line Interface</h2>
         <p>
           Are you a power user? Check out the OONI Probe Command Line Interface (CLI) tool!
         </p>
-        <a  href="/install/cli">Install OONI Probe CLI >>
+        <a href="/install/cli">Install OONI Probe CLI >>
         </a>
       </div>
     </div>

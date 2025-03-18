@@ -2,35 +2,31 @@
 
 <div class="container">
   <h1>{{ .Title }}</h1>
-  <div class="row">
-    <div class="col-8">
-      <p>
-        {{ .Content }}
-      </p>
-    </div>
-  </div>
-  <div class="row col-8 pb-3">
+  <p>
+    {{ .Content }}
+  </p>
+  <p>
     {{ len .Pages }} active partnerships
-  </div>
-  <div class="row justify-content-around">
+  </p>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
     {{ range .Pages }}
-      {{ $name := .Params.Name }}
-      {{ $country := .Params.Country }}
-      {{ $href := .Permalink }}
-        {{ with .Resources.GetMatch "images/*.png" }}
-          {{ $image := .Fit "140x150" }}
-          <div class="col-md-1 col-lg-4 mb-3">
-            <div class="partner-box p-3">
-            <a href="{{ $href }}">
-              <h2>{{ $name }}</h2>
-            </a>
-            <span class="partner-country">{{ $country }}</span>
-            <div class="partner-logo">
-              <img src="{{ $image.Permalink }}" alt="{{ $name }}" />
-            </div>
-            </div>
-          </div>
-        {{ end }}
+    {{ $name := .Params.Name }}
+    {{ $country := .Params.Country }}
+    {{ $href := .Permalink }}
+    {{ with .Resources.GetMatch "images/*.png" }}
+    {{ $image := .Fit "140x150" }}
+    <div class="flex flex-col justify-between border border-gray4 p-4">
+      <div>
+        <a href="{{ $href }}">
+          <h2>{{ $name }}</h2>
+        </a>
+        <div>{{ $country }}</div>
+      </div>
+      <div class="self-end flex items-center justify-center h-[150px] w-[150px]">
+        <img src="{{ $image.Permalink }}" alt="{{ $name }}" />
+      </div>
+    </div>
+    {{ end }}
     {{ end }}
   </div>
 
