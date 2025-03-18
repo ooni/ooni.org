@@ -13,6 +13,8 @@ The government of Senegal was responsible for the shutdowns which it [claimed](h
 
 In this report, we share [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=SN&since=2023-05-10&until=2023-06-30&time_grain=day&axis_x=measurement_start_day&test_name=whatsapp) documenting the social media blocks in Senegal, as well as [Cloudflare Radar data](https://radar.cloudflare.com/as37649?dateStart=2023-06-03&dateEnd=2023-06-10) on the network outages that occurred in the country during the first week of June 2023. To examine how the shutdowns impacted people and communities in Senegal, we share survey findings from collaboration with Senegalese partners, as well as input from [Access Now](https://www.accessnow.org/). We also share [Cloudflare Radar data](https://radar.cloudflare.com/as37196?dateRange=1d) on the mobile internet disruptions that occurred in Senegal on 31st July 2023.
 
+{{< oonibtn href="/documents/2023-sn-report-en.pdf" text="Download in PDF" >}}
+
 {{<table-of-contents>}}
 
 ## Key Findings
