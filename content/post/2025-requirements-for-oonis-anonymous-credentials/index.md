@@ -7,6 +7,8 @@ tags: ["ooni", "anonymous credentials"]
 categories: ["blog"]
 ---
 
+{{<img src="images/requirements-for-probe-id.png" title="Requirements for OONI Probe ID" alt="Requirements for OONI Probe ID">}}
+
 The goal of integrating an anonymous credential system in [OONI Probe](https://ooni.org/install/) is to increase trust in [OONI measurements](https://ooni.org/data/) by enriching the data with properties about the probes that collected them, while preserving the privacy of our users.
 
 In our [first blog post on the topic](https://ooni.org/post/2025-probe-security-without-identification/), we explain at a high level what this system is meant to achieve and provide a comprehensive academic literature review of the current state of the art in cryptographic anonymous credential systems.
