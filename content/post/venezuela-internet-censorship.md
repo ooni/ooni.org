@@ -1,6 +1,6 @@
 ---
 title: "The State of Internet Censorship in Venezuela"
-author: "Mariengracia Chirinos (IPYS Venezuela), Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro), Leonid Evdokimov (OONI), Maria Xynou (OONI)"
+author: "Mariengracia Chirinos (IPYS Venezuela), Andrés Azpúrua (Conexión Segura y Libre / VEsinFiltro), Leonid Evdokimov (OONI), Maria Xynou (OONI)"
 date: "2018-08-16"
 tags: ["country-ve", "research-report", "censorship", "theme-news_media", "theme-circumvention"]
 categories: ["report"]
@@ -94,16 +94,16 @@ bridges two months ago.
 
 Media censorship was
 [reported](https://ipysvenezuela.org/navegarconlibertad/tag/ipys-venezuela/)
-by Venezuelan civil society groups, [IPYS Venezuela](https://ipysvenezuela.org/) and [Venezuela Inteligente](http://veinteligente.org/), back in early 2016. At the
+by Venezuelan civil society groups, [IPYS Venezuela](https://ipysvenezuela.org/) and [Conexión Segura y Libre](https://conexionsegura.org/), back in early 2016. At the
 time, they measured the blocking of websites across four states in
-Venezuela through the use of [OONI Probe](/install/), which is [free and open source software](https://github.com/TheTorProject/ooni-probe) designed
+Venezuela through the use of [OONI Probe](/install/), which is [free and open source software](https://github.com/ooni) designed
 to measure internet censorship. They collected network measurement data
 showing the [DNS blocking](https://ipysvenezuela.org/navegarconlibertad/tag/ipys-venezuela/)
 of numerous local media sites and other types of websites during
 Venezuela’s 2015 parliamentary elections. Now, OONI has joined forces
 with IPYS Venezuela and Venezuela Inteligente.
 
-The [Open Observatory of Network Interference (OONI)](/), [IPYS Venezuela](https://ipysvenezuela.org/) and [Venezuela Inteligente](http://veinteligente.org/) collaborated on a joint
+The [Open Observatory of Network Interference (OONI)](/), [IPYS Venezuela](https://ipysvenezuela.org/) and [Conexión Segura y Libre](https://conexionsegura.org/) collaborated on a joint
 research study to examine internet censorship in Venezuela. Our study
 involves the analysis of [hundreds of thousands of network measurements](https://api.ooni.io/files/by_country/VE) collected from
 multiple local vantage points over the last four years.
@@ -216,7 +216,7 @@ the legitimacy of authorities or which fosters citizen anxiety.
 Pervasive levels of internet censorship have been carried out in
 Venezuela since 2014, largely monitored and documented by local civil
 society groups [IPYS Venezuela](https://ipysvenezuela.org/) and
-[Venezuela Inteligente](http://veinteligente.org).
+[Conexión Segura y Libre](https://conexionsegura.org/).
 
 Their
 [study](https://ipysvenezuela.org/navegarconlibertad/tag/ipys-venezuela/)
@@ -235,7 +235,7 @@ CANTV - include: parallel dollar market, chavismo criticism blogs,
 hosting services, collaboration tools or shorteners, and digital media.
 
 Data [presented in August 2017](https://twitter.com/vesinfiltro/status/893197963337625602) by
-Venezuela Inteligente, as follow-up to their previous study with IPYS
+Conexión Segura y Libre, as follow-up to their previous study with IPYS
 Venezuela,
 [shows](https://twitter.com/andresAzp/status/897250588563472384) that
 of the blocked sites, 36% of them were related to currency exchange
@@ -288,7 +288,7 @@ regarding recent internet censorship events.
 
 To measure internet censorship in Venezuela, we ran OONI’s network
 measurement software ([OONI Probe](/install/)) on a daily basis across
-multiple local vantage points. OONI Probe is [free and open source software](https://github.com/TheTorProject/ooni-probe) designed to
+multiple local vantage points. OONI Probe is [free and open source software](https://github.com/ooni) designed to
 measure various forms of network interference.
 
 The main OONI Probe tests that we ran as part of this study include:
@@ -414,11 +414,11 @@ Since block pages weren’t detected in Venezuela (at least for none of
 the tested URLs), we present censorship findings with caution,
 acknowledging that false positives may be present. This is the primary
 reason why we mainly present findings that (a) presented consistent
-anomalies over time (suggesting blocking) and (b) [IPYS Venezuela](https://ipysvenezuela.org/) and [Venezuela Inteligente](http://veinteligente.org/) were able to verify locally in
+anomalies over time (suggesting blocking) and (b) [IPYS Venezuela](https://ipysvenezuela.org/) and [Conexión Segura y Libre](https://conexionsegura.org/) were able to verify locally in
 terms of (in)accessibility.
 
 Finally, while network measurements were collected from multiple ASNs in
-Venezuela, [OONI’s software tests](https://github.com/TheTorProject/ooni-probe) were not run
+Venezuela, [OONI’s software tests](https://github.com/ooni) were not run
 consistently across all networks. To share more recent and relevant
 findings, we mainly focus on ASNs from which measurements were collected
 the most over the last months: Digitel (AS264731), CANTV (AS8048),
@@ -570,7 +570,7 @@ intermittent at times. This may suggest that internet censorship is not
 implemented in a centralized way (i.e. by the same people) or in a way
 that doesn’t affect all traffic.
 
-A few days ago, [Venezuela Inteligente](https://twitter.com/vesinfiltro/status/1028975238216916993)
+A few days ago, [Conexión Segura y Libre]](https://twitter.com/vesinfiltro/status/1028975238216916993)
 and [IPYS Venezuela](https://twitter.com/ipysvenezuela/status/1029165159535849472)
 reported that investigative journalism site armando.info was
 inaccessible as well. This site is known for its critical and extensive
@@ -583,7 +583,7 @@ suddenly
 [inaccessible](https://explorer.ooni.io/measurement/20180813T221705Z_AS8048_YaFF69k3LE9Uzf4xEYV4naxo4hoSMGrnpqoH9nUiPdmCm2QSy1?input=http:%2F%2Fwww.armando.info)
 on CANTV, presenting HTTP failures.
 
-To investigate further, IPYS Venezuela and Venezuela Inteligente
+To investigate further, IPYS Venezuela and Conexión Segura y Libre
 coordinated a measurement campaign, engaging locals across Venezuela to
 [test armando.info with OONI Probe](https://run.ooni.io/nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%3A%2F%2Farmando.info%2F%22%5D%7D&mv=1.2.0)
 in various networks and regions of the country. In the evening of 13th
@@ -634,7 +634,7 @@ particularly interesting, as it may suggest that CANTV doesn’t roll out
 the same censorship across its network, or that network or configuration
 issues impacted the accessibility of armando.info.
 
-[Venezuela Inteligente](http://veinteligente.org/) and [IPYS Venezuela](https://ipysvenezuela.org/) (who are based in Caracas)
+[Conexión Segura y Libre](https://conexionsegura.org/) and [IPYS Venezuela](https://ipysvenezuela.org/) (who are based in Caracas)
 report that their experience in attempting to access armando.info (on
 CANTV, Movistar and Digitel) is also inconsistent. As of 13th August
 2018, there are moments when they can access the site and there are
@@ -653,7 +653,7 @@ is required.
 
 ### Political criticism
 
-Back in 2016, IPYS Venezuela and Venezuela Inteligente
+Back in 2016, IPYS Venezuela and Conexión Segura y Libre
 [reported](https://advox.globalvoices.org/2016/05/23/venezuela-research-confirms-censorship-of-news-platforms-currency-websites/)
 that a number of blogs critical of the government were blocked. Our
 recent testing shows that the following two sites are currently blocked
@@ -790,7 +790,7 @@ showing that the Tor network was
 [accessible](https://explorer.ooni.io/measurement/20180606T191742Z_AS8048_KEG9dh8bT91bQ5WQt522pWTc9fFKMM34BeogNEelPWrL8c2XkU)
 in Venezuela. On 20th June 2018, however, Tor testing started to
 [fail](https://explorer.ooni.io/measurement/20180620T185351Z_AS8048_Au99GuLkM5KdIJESmiwduZdUb6eqnJBY4Iv3v1IngPAVEa3EVj)
-and civil society group [Venezuela Inteligente](http://veinteligente.org/) reported the blocking of the
+and civil society group [Conexión Segura y Libre](https://conexionsegura.org/) reported the blocking of the
 [Tor network](https://www.torproject.org/) and [Tor bridges](https://bridges.torproject.org/) by CANTV.
 
 ![VI tweet](/post/venezuela/ve-inteligente-tweet.png)
@@ -806,7 +806,7 @@ appears to be blocked.
 The lack of measurements between 6th to 20th June 2018 prevents us from
 determining the exact date when Tor first got blocked. It’s worth noting
 though that the blocking probably started on 20th June 2018, since
-that’s when local civil society group, [Venezuela Inteligente](http://veinteligente.org/) (who’s been monitoring internet
+that’s when local civil society group, [Conexión Segura y Libre](https://conexionsegura.org/) (who’s been monitoring internet
 censorship in Venezuela over the last years), first
 [reported](https://twitter.com/vesinfiltro/status/1009595373462151173)
 on it.
@@ -852,7 +852,7 @@ the network anomaly occurs between two GlobeNet routers.
 
 ![Tor blocking](/post/venezuela/tor-blocking.png)
 
-In addition to Tor blocking, Venezuela Inteligente also
+In addition to Tor blocking, Conexión Segura y Libre also
 [reported](https://twitter.com/vesinfiltro/status/1009595373462151173)
 that access to a large amount of obfs3 and obfs4 bridges (i.e. [Tor bridges](https://bridges.torproject.org/) enabling Tor censorship
 circumvention) was blocked as well, making it practically impossible to
@@ -872,7 +872,7 @@ The data from our scans is available via the following files: [1](/post/venezuel
 [2](/post/venezuela/torping-bridge.1534407911.tsv), [3](/post/venezuela/torping-bridge.1534407977.tsv),
 [control](/post/venezuela/torping-bridges-control.1534407588.tsv).
 
-Venezuela Inteligente tested a random sample of unlisted, publicly
+Conexión Segura y Libre tested a random sample of unlisted, publicly
 available bridges from [BridgeDB](https://bridges.torproject.org/),
 revealing that the failure rate is around 26% and that all testing to
 private Tor bridges resulted in successful connections, regardless of

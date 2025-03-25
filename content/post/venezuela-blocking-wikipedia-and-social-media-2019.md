@@ -1,6 +1,6 @@
 ---
 title: "From the blocking of Wikipedia to Social Media: Venezuela's Political Crisis"
-author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro), Mariengracia Chirinos (IPYS Venezuela), Arturo Filastò (OONI), Maria Xynou (OONI), Simone Basso (OONI), Kanishk Karan (Digital Forensic Research Lab)"
+author: "Andrés Azpúrua (Conexión Segura y Libre / VEsinFiltro), Mariengracia Chirinos (IPYS Venezuela), Arturo Filastò (OONI), Maria Xynou (OONI), Simone Basso (OONI), Kanishk Karan (Digital Forensic Research Lab)"
 date: "2019-01-29"
 tags: ["venezuela", "censorship", "country-ve", "theme-social_media"]
 categories: ["report"]
@@ -36,7 +36,7 @@ recent censorship events amid the political crisis in Venezuela.
 
 # Blocking of Wikipedia
 
-Local group Venezuela Inteligente
+Local group Conexión Segura y Libre
 [reported](https://vesinfiltro.com/noticias/wikipedia_2019-01/) on the
 blocking of all language editions of Wikipedia. According to their
 report, the Wikipedia blockage took place after some articles on
@@ -92,7 +92,7 @@ IP-based blocking is ruled out by the fact that OONI Probe tests
 successfully connected to the IPs of wikipedia.org, but HTTP(S) requests
 resulted in connection timeouts.
 
-To investigate further, we [collaborated with Venezuela Inteligente on some manual testing](https://vesinfiltro.com/noticias/wikipedia_2019-01/), using
+To investigate further, we [collaborated with Conexión Segura y Libre on some manual testing](https://vesinfiltro.com/noticias/wikipedia_2019-01/), using
 curl. We were able to validate the blocking by fingerprinting the [TLS SNI field](https://en.wikipedia.org/wiki/Server_Name_Indication).
 
 In the curl request below, we can see that the connection aborted after
@@ -214,17 +214,17 @@ blocking of wikipedia.org has been lifted.
 
 # Blocking of Instagram, Twitter and YouTube
 
-Last Monday, 21st January 2019, Venezuela Inteligente
+Last Monday, 21st January 2019, Conexión Segura y Libre
 [reported](https://vesinfiltro.com/noticias/twitter_youtube_instagram_2019-01/)
 the blocking of YouTube, Instagram and Twitter by CANTV.
 
 The block was presumably motivated by the circulation of videos showing
 members of the Bolivarian National Guard of Venezuela chanting
 anti-government slogans and showing solidarity with the opposition.
-Venezuela Inteligente reported that the blocks only lasted for a few
+Conexión Segura y Libre reported that the blocks only lasted for a few
 hours and ended on the same day, by 9:50 am (GMT-4) local-time.
 
-To measure the blocks, [Venezuela Inteligente](https://vesinfiltro.com/) and [IPYS Venezuela](https://ipysvenezuela.org/) coordinated an [OONI Probe](https://ooni.io/install/) measurement campaign, sharing [OONI Run](https://run.ooni.io/) links with Venezuelans to test YouTube,
+To measure the blocks, [Conexión Segura y Libre](https://conexionsegura.org/) and [IPYS Venezuela](https://ipysvenezuela.org/) coordinated an [OONI Probe](https://ooni.io/install/) measurement campaign, sharing [OONI Run](https://run.ooni.io/) links with Venezuelans to test YouTube,
 Instagram and Twitter across the country. According to Venezuela
 Inteligente, this garnered large public response, with about 2,100
 clicks on OONI Run links since 21st January 2019.
@@ -240,8 +240,7 @@ Venezuela, [https://api.ooni.io/files/by\_country/VE](https://api.ooni.io/files/
 **Note:** In the above chart, the X axis is not continuous, but only
 displays measurements per 15-minute intervals when they exist.
 
-The above graph (based on openly available [OONI data](https://api.ooni.io/files/by_country/VE)) corroborates Venezuela
-Inteligente’s
+The above graph (based on openly available [OONI data](https://api.ooni.io/files/by_country/VE)) corroborates Conexión Segura y Libre’s
 [reporting](https://vesinfiltro.com/noticias/twitter_youtube_instagram_2019-01/),
 showing that access to youtube.com, twitter.com and instagram.com was
 temporarily blocked on 21st January 2019 for about two hours (mainly
@@ -256,7 +255,7 @@ also appears to be non-deterministic, since it does not cover 100% of
 the traffic and we observe some successful measurements as well.
 
 While access to these social media sites has since been restored,
-Venezuela Inteligente
+Conexión Segura y Libre
 [reported](https://twitter.com/vesinfiltro/status/1088833974603001856)
 that Instagram was temporarily blocked *again* on Friday, 25th January
 2019. OONI data, illustrated below,
@@ -282,12 +281,12 @@ We also manually confirmed these results, using the same curl based
 approach used for testing wikipedia.org, showing that they are using the
 same SNI-based technique to implement the block.
 
-Venezuela Inteligente
+Conexión Segura y Libre
 [argue](https://twitter.com/vesinfiltro/status/1088833974603001856)
 that Instagram live streams (among other services that include
 streaming) have become a popular source of live news in Venezuela during
 the crisis, used by independent news organizations and by public figures
-for their announcements. Venezuela Inteligente also
+for their announcements. Conexión Segura y Libre also
 [reported](https://twitter.com/vesinfiltro/status/1089883867618652160)
 that Instagram, Youtube, Facebook and Periscope were temporarily blocked
 on 27th January 2019, coinciding with an online statement made by Juan
@@ -355,8 +354,7 @@ It remains unclear though if this decrease in throughput is due to
 networks being overloaded or due to throttling.
 
 Locals reported that internet access was disrupted in several states
-between 23rd to 27th January 2019. IPYS Venezuela and Venezuela
-Inteligente received reports of connectivity issues in Portuguesa,
+between 23rd to 27th January 2019. IPYS Venezuela and Conexión Segura y Libre received reports of connectivity issues in Portuguesa,
 Anzoátegui and Táchira on 23rd January 2019, and in parts of Trujillo
 and Bolivar on 26th January 2019.
 
@@ -397,10 +395,6 @@ events. The situation remains tense and as political events unfold, the
 public can monitor censorship events through the use of [OONI Probe](https://ooni.io/install/) and [OONI data](https://api.ooni.io/).
 
 We thank all OONI Probe users in Venezuela who made this study possible.
-
-
-
-
 
 As previously also reported by netblocks:
 
