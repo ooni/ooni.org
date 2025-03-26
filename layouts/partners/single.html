@@ -1,15 +1,14 @@
 {{ define "main" }}
 <div class="container mb-4">
-    <div class="row pb-5">
-      <div class="col-3 partner-page-logo">
+    <div class="flex gap-4 my-8">
+      <div class="flex justify-center items-center w-[285px] h-[180px] rounded border border-gray5">
         {{ with .Resources.GetMatch "images/*.png" }}
         {{ $image := .Resize "150x" }}
         <img src="{{ $image.Permalink }}" />
         {{ end }}
       </div>
 
-      <div class="partner-page-details-container col-9">
-        <div class="partner-page-details">
+      <div class="flex flex-col self-center">
         <h1>{{ .Params.name }}</h1>
         <span class="partner-country">{{ .Params.country }}</span>
         {{ with .Params.website }}
@@ -17,7 +16,6 @@
         <a class="ooni-btn" href="{{ . }}">website</a>
         </div>
         {{ end }}
-        </div>
       </div>
     </div>
 
@@ -32,7 +30,7 @@
     {{ end }}
     </ul>
 
-  <a class="back-link" href="/partners/">← back to partners</a>
+  <a class="font-bold text-black" href="/partners/">← back to partners</a>
 
 </div>
 {{ end }}

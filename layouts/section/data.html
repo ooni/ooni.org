@@ -1,30 +1,29 @@
 {{ define "main" }}
 <div class="container">
-  <main class="col pt-5 pb-5">
-    <div class="row justify-content-around pt-5">
-      <div class="col-12 col-sm-4">
-        <a href="https://explorer.ooni.org">
-        <img src="/data/ooni-explorer.png" class="xs-center" id="ooni-explorer" />
-        </a>
-        <p style="padding-top: 30px">
+  <main class="flex flex-col md:mx-16 md:flex-row gap-16 my-16">
+    <div>
+      <a href="https://explorer.ooni.org">
+        <img src="/data/ooni-explorer.png" class="mx-auto" id="ooni-explorer" />
+      </a>
+      <p class="pt-10">
         <a href="https://explorer.ooni.org/">OONI Explorer</a>
         is the world's largest open dataset on internet censorship.
         Learn how to use OONI Explorer through our <a href="/support/ooni-explorer/">user guide</a>.
-        </p>
-      </div>
-      <div class="col-12 col-sm-4">
-        <a href="https://api.ooni.io"><img class="xs-center" src="/data/ooni-api.png" id="ooni-api"/></a>
-        <p style="padding-top: 30px">
-        The <a href="https://api.ooni.io/">OONI API</a> enables you to perform your own analysis of OONI data.
-        For batch consumption of OONI data, please refer to our <a href="https://docs.ooni.org/data/">OONI Data documentation.</a>.</p>
-
-        <p>
-        For a tutorial on how to analyse OONI website data check out <a href="/notebooks/tutorial-russia-data-analysis-case-study.html">this jupyter notebook</a> (<a href="/notebooks/tutorial-russia-data-analysis-case-study.ipynb" download="tutorial-russia-data-analysis-case-study.ipynb">download</a>).
-        </p>
-      </div>
+      </p>
     </div>
-
+    <div>
+      <a href="https://api.ooni.io"><img class="mx-auto" src="/data/ooni-api.png" id="ooni-api" /></a>
+      <p class="pt-10">
+        The <a href="https://api.ooni.io/">OONI API</a> enables you to perform your own analysis of OONI data.
+        For batch consumption of OONI data, please refer to our <a href="https://docs.ooni.org/data/">OONI Data
+          documentation</a>.</p>
+      <p>
+        For a tutorial on how to analyse OONI website data check out <a
+          href="/notebooks/tutorial-russia-data-analysis-case-study.html">this jupyter notebook</a> (<a
+          href="/notebooks/tutorial-russia-data-analysis-case-study.ipynb"
+          download="tutorial-russia-data-analysis-case-study.ipynb">download</a>).
+      </p>
+    </div>
   </main>
-
 </div>
 {{ end }}
