@@ -11,5 +11,5 @@ submenu:
     name: "Human Rights"
   - url: "/reports/circumvention/"
     name: "Circumvention"
-description: Read our research reports investigating internet censorship worldwide
+description: Read our research reports investigating internet censorship worldwide based on OONI data.
 ---
