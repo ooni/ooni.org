@@ -1,16 +1,16 @@
 ---
-title: Research reports - Circumvention
+title: Research reports: Blocking of Circumvention Tools
 submenu:
   - url: "/reports/"
     name: "All Reports"
-  - url: "/reports/circumvention/"
-    name: "Circumvention"
   - url: "/reports/social-media-im/"
-    name: "Social Media & IMs"
+    name: "Social Media"
   - url: "/reports/news-media/"
     name: "News Media"
   - url: "/reports/human-rights/"
     name: "Human Rights"
-description: Read our research reports investigating internet censorship worldwide
+  - url: "/reports/circumvention/"
+    name: "Circumvention"
+description: Among other blocks, the following research reports document the blocking of censorship circumvention tools based on OONI data.
 tags: ["theme-circumvention"]
 ---
