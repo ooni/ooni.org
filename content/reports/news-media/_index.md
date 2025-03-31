@@ -1,5 +1,5 @@
 ---
-title: Research reports: Blocking of News Media
+title: "Research reports: Blocking of News Media"
 submenu:
   - url: "/reports/"
     name: "All Reports"
@@ -11,6 +11,6 @@ submenu:
     name: "Human Rights"
   - url: "/reports/circumvention/"
     name: "Circumvention"
-description: Among other blocks, the following research reports document the blocking of news media websites based on OONI data.
+description: "Among other blocks, the following research reports document the blocking of news media websites based on OONI data."
 tags: ["theme-news_media"]
 ---
