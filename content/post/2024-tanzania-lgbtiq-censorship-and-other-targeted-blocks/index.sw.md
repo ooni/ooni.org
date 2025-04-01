@@ -9,6 +9,8 @@ categories: ["report"]
 
 Ripoti hii imeonyesha udhibiti wa tovuti za LGBTIQ na aina nyingine za udhibiti zilizokusudiwa nchini Tanzania kutokana na uchambuzi wa [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2023-12-01&until=2024-01-31&time_grain=day&probe_cc=TZ). 
 
+{{< oonibtn href="/documents/2024-tz-report-sw.pdf" text="Pakua katika PDF" >}}
+
 {{<table-of-contents>}}
 
 ## **Matokeo muhimu** {#matokeo-muhimu}
