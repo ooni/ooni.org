@@ -17,7 +17,7 @@ submenu:
 
 {{<team-member name="Roberta Giassetti" role="Director of Finance & Administration" email="roberta@ooni.org" img="images/roberta.jpg" >}}
 
-{{<team-member name="Sérgio Santos" role="Mobile Developer" email=" sergio@ooni.org" img="images/sergio.jpg">}}
+{{<team-member name="Sérgio Santos" role="Mobile Developer" email=" sergio@ooni.org" mastodon="sdsantos" img="images/sergio.jpg">}}
 
 {{<team-member name="Norbel Ambanumben" role="Mobile Developer" email="norbel@ooni.org" pgpkey="faf82a0736b1982f0de199efd312778944f4bb11" img="images/norbel.jpg">}}
 
@@ -25,7 +25,7 @@ submenu:
 
 {{<team-member name="Maja Komel" role="Frontend Engineer" email="maja@ooni.org" pgpkey="A22363F51398A95B593F94C8231F093C7F5D7A45">}}
 
-{{<team-member name="Elizaveta Yachmeneva" role="Community Coordinator" email="elizaveta@ooni.org" pgpkey="0419a8e327f6a7ff3ce5099a5be5b99b31b45a4f" twitter="elyachmeneva" img="images/elizaveta.jpg">}}
+{{<team-member name="Elizaveta Yachmeneva" role="Community and Research Coordinator" email="elizaveta@ooni.org" pgpkey="0419a8e327f6a7ff3ce5099a5be5b99b31b45a4f" img="images/elizaveta.jpg">}}
 
 
 {{</team-listing>}}
