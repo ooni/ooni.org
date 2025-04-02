@@ -1,5 +1,5 @@
 ---
-title: "New OONI Explorer thematic censorship pages"
+title: "Launch: New OONI Explorer thematic censorship pages"
 description: "OONI launched new thematic censorship pages on OONI Explorer, featuring OONI data and findings on the blocking of social media, news media, and circumvention tools worldwide."
 author: "Maria Xynou"
 date: "2025-04-02"
@@ -91,7 +91,7 @@ Through the [OONI Explorer Circumvention Tools page](https://explorer.ooni.org/c
 
 We chose those specific circumvention tool domains based on factors that include global relevance/use, global OONI measurement coverage, and whether they have been blocked (or are likely to get blocked). We refrained from including charts for all tested circumvention tool domains in the new [Circumvention Tools page](https://explorer.ooni.org/circumvention) to enable usability. If you are interested in viewing OONI data for other circumvention tool websites that are not listed on the Circumvention Tools page, you can do so through the OONI Explorer [Search Tool](https://explorer.ooni.org/search) or [Measurement Aggregation Toolkit (MAT)](https://explorer.ooni.org/chart/mat).
 
-When viewing charts, please note that the presence of [anomalous measurements](https://ooni.org/support/interpreting-ooni-data/#anomalous-measurements) is not always indicative of blocking, as [false positives](https://ooni.org/support/interpreting-ooni-data/#false-positives) can occur. Moreover, circumvention tools often have built-in circumvention techniques for evading censorship. We therefore recommend referring to [Tor Metrics](https://metrics.torproject.org/) and to the [Psiphon Data Engine](https://psix.ca/) to view usage stats and gain a more comprehensive understanding of whether these tools work in each country.
+When viewing charts, please note that the presence of [anomalous measurements](https://ooni.org/support/interpreting-ooni-data/#anomalous-measurements) is *not* always indicative of blocking, as [false positives](https://ooni.org/support/interpreting-ooni-data/#false-positives) can occur. Moreover, circumvention tools often have built-in circumvention techniques for evading censorship. We therefore recommend referring to [Tor Metrics](https://metrics.torproject.org/) and to the [Psiphon Data Engine](https://psix.ca/) to view usage stats and gain a more comprehensive understanding of whether these tools work in each country.
 
 ## Acknowledgements
 
