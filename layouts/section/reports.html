@@ -1,27 +1,48 @@
+{{ define "css" }}
+{{ partial "css-tailwind.html" . }}
+{{ end }}
+
+{{ define "navbar" }}
+{{ partial "navbar-tailwind.html" . }}
+{{ end }}
+
 {{ define "main" }}
+{{ $tags := .Params.tags }}
 
-<div class="container">
-  <h1>{{ .Title }}</h1>
+{{ $reports := .Site.Taxonomies.categories.report }}
+{{ $pages := $reports }}
+{{ with $tags }}
+  {{ $pages = where $reports ".Params.tags" "intersect" $tags }}
+{{ end }}
+
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+  <h1 class="text-3xl my-8 font-bold">{{ .Title }}</h1>
+  <p class="text-lg">{{ .Description }}</p>
   <main class="col">
-    {{ range .Site.Taxonomies.categories.report }}
-
-      <div class="row blog-summary">
-        <div>
-          <a href="{{ .RelPermalink }}" style="margin-bottom: 0">
-            <p class="title">{{ .Title }}</p>
+    <div class="grid auto-rows-fr my-8 gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
+      {{ range $pages }}
+        <div class="flex justify-between flex-col py-6 px-6 border border-gray4 border-b-[10px] border-b-ooniblue">
+          <a class="flex text-black" href="{{ .RelPermalink }}">
+            <h4 class="text-lg font-bold mb-2 leading-tight hover:text-ooniblue">{{ .Title }}</h4>
           </a>
-          {{ if .IsTranslated }}
-            <p class="title-translation">Translations: {{ range .Translations }}<a style="display: inline-block;margin-bottom: 0;padding-right: 10px" href="{{ .RelPermalink }}">{{ if eq .Lang "en" }}English{{ else if eq .Lang "pt" }}Portuguese{{ else if eq .Lang "fr" }}French{{ else if eq .Lang "es"  }}Spanish{{ else if eq .Lang "ca"  }}Catalan{{ else }}{{ .Lang }}{{ end }}</a>{{ end }}
-            </p>
-          {{ else }}
-          {{ end }}
-          <p class="byline" style="margin-bottom: 0">{{ .Date.Format "2 Jan 2006" }}</p>
+          <div>
+            {{ if .IsTranslated }}
+              <p class="text-sm">
+                Translations: {{ range $i, $e := .Translations }}{{ if $i }}, {{ end }}
+                  <a class="text-ooniblue hover:underline" href="{{ $e.RelPermalink }}">{{ if eq $e.Lang "en" }}English{{ else if eq $e.Lang "pt" }}Portuguese{{ else if eq $e.Lang "fr" }}French{{ else if eq $e.Lang "es" }}Spanish{{ else if eq $e.Lang "ca" }}Catalan{{ else if eq $e.Lang "ca" }}Russian{{ else }}{{ $e.Lang }}{{ end }}</a>
+                  {{ end }}
+              </p>
+            {{ else }}
+            {{ end }}
+            <div class="text-gray6">{{ .Date.Format "2 Jan 2006" }}</div>
+          </div>
         </div>
-      </div>
-
-    {{ end }}
+      {{ end }}
+    </div>
   </main>
-
 </div>
+{{ end }}
 
+{{ define "footer" }}
+{{ partial "footer-tailwind.html" . }}
 {{ end }}

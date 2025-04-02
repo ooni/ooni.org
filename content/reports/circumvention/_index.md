@@ -1,5 +1,5 @@
 ---
-title: Research reports
+title: "Research reports: Blocking of Circumvention Tools"
 submenu:
   - url: "/reports/"
     name: "All Reports"
@@ -11,5 +11,6 @@ submenu:
     name: "Human Rights"
   - url: "/reports/circumvention/"
     name: "Circumvention"
-description: Read our research reports investigating internet censorship worldwide based on OONI data.
+description: "Among other blocks, the following research reports document the blocking of censorship circumvention tools based on OONI data."
+tags: ["theme-circumvention"]
 ---
