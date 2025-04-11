@@ -5,13 +5,13 @@
     {{ range where .Data.Pages.ByDate.Reverse "Section" "post" }}
     <div class="blog-summary">
       <div>
-        <a href="{{ .RelPermalink }}" class="mb-0">
-          <p class="title">{{ .Title }}</p>
+        <a href="{{ .RelPermalink }}">
+          {{ .Title }}
         </a>
         <p class="byline mb-0">{{ .Date.Format "2 Jan 2006" }}</p>
         {{ if .IsTranslated }}
-        <p>Translations: {{ range .Translations }}<a class="inline-block mb-0 pr-3" href="{{ .RelPermalink }}">{{ if eq
-            .Lang "en" }}English{{ else if eq .Lang "pt" }}Portuguese{{ else if eq
+        <p class="title-translation">Translations: {{ range .Translations }}<a
+            href="{{ .RelPermalink }}">{{ if eq .Lang "en" }}English{{ else if eq .Lang "pt" }}Portuguese{{ else if eq
             .Lang "fr" }}French{{ else if eq .Lang "es" }}Spanish{{ else if eq .Lang "ca" }}Catalan{{ else }}{{ .Lang
             }}{{ end }}</a>{{ end }}
         </p>
