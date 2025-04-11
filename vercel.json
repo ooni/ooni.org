@@ -3,5 +3,23 @@
     "env": {
       "HUGO_VERSION": "0.138.0"
     }
-  }
+  },
+  "redirects": [
+    { "source": "/docs", "destination": "/", "permanent": false },
+    { "source": "/docs/:path*", "destination": "/", "permanent": false },
+    { "source": "/youtube", "destination": "https://youtube.com/c/OONIorg"},
+    { "source": "/imv2020-survey", "destination": "https://ooni.typeform.com/to/cPVT4ILB"}
+  ],
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "labs.ooni.io"
+        }
+      ],
+      "destination": "/retired/labs"
+    }
+  ]
 }
