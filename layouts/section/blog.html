@@ -6,18 +6,18 @@
     {{ range . }}
     <div class="blog-summary">
       <div>
-        <a href="{{ .RelPermalink }}" style="margin-bottom: 0">
-          <p class="title">{{ .Title }}</p>
+        <a href="{{ .RelPermalink }}">
+          {{ .Title }}
         </a>
         {{ if .IsTranslated }}
-        <p class="title-translations">Translations: {{ range .Translations }}<a
-            style="display: inline-block;margin-bottom: 0;padding-right: 10px" href="{{ .RelPermalink }}">{{ if eq .Lang
+        <p class="title-translation">Translations: {{ range .Translations }}<a
+            href="{{ .RelPermalink }}">{{ if eq .Lang
             "en" }}English{{ else if eq .Lang "pt" }}Portuguese{{ else if eq .Lang "fr" }}French{{ else if eq .Lang "es"
             }}Spanish{{ else if eq .Lang "ca" }}Catalan{{ else }}{{ .Lang }}{{ end }}</a>{{ end }}
         </p>
         {{ else }}
         {{ end }}
-        <p class="byline" style="margin-bottom: 0">{{ .Date.Format "2 Jan 2006" }}</p>
+        <p class="byline mb-0">{{ .Date.Format "2 Jan 2006" }}</p>
       </div>
     </div>
     {{ end }}

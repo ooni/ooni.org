@@ -30,6 +30,7 @@
     @variant md {
       font-size: var(--text-4xl);
     }
+    margin-bottom: 0.5rem;
   }
 
   h2 {
@@ -195,7 +196,8 @@
 
 @layer components {
   .article-title {
-    @apply mb-2 mt-8 text-4xl;
+    @apply mb-2 mt-8;
+    font-size: 2.5rem;
   }
   .question-container {
     @apply p-4 border border-ooniblue rounded-lg bg-ooniblue text-white;
@@ -360,30 +362,29 @@
   }
 
   .blog-summary {
-    margin-bottom: 2rem;
+    @apply mb-8;
   }
   
   .blog-summary a {
-    display: block;
-    color: inherit;
+    @apply block text-inherit;
+    @variant hover {
+      @apply underline;
+    }
   }
   
-  .blog-summary p.title {
-    margin-bottom: 0.2rem;
+  .blog-summary .title {
+    @apply mb-1;
   }
   
-  .blog-summary p.title-translation {
-    margin: 0;
-    padding: 0;
-    font-size: 0.8rem;
+  .blog-summary .title-translation {
+    @apply m-0 p-0 text-xs;
   }
   
-  .blog-summary p.title-translation a {
-    text-decoration: none;
-    color: #0588cb;
-  }
-  .blog-summary p.title-translation a:hover {
-    text-decoration: underline;
+  .blog-summary .title-translation a {
+    @apply inline-block mb-0 pr-3 text-ooniblue;
+    @variant hover {
+      @apply underline;
+    }
   }
 
   .byline {
