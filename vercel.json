@@ -4,6 +4,7 @@
       "HUGO_VERSION": "0.138.0"
     }
   },
+  "buildCommand": "sh ./scripts/build_website.sh",
   "redirects": [
     { "source": "/docs", "destination": "/", "permanent": false },
     { "source": "/docs/:path*", "destination": "/", "permanent": false },
@@ -19,7 +20,7 @@
           "value": "labs.ooni.io"
         }
       ],
-      "destination": "/retired/labs"
+      "destination": "https://ooni.org/retired/labs"
     }
   ]
 }
