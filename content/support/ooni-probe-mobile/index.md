@@ -416,13 +416,11 @@ To ensure that a [URL](https://ooni.org/support/glossary/#url) is typed accurate
 
 **Step 5.** **Type another URL** that you would like to test. In the following example, we have added `https://twitter.com/`.
 
-{{<img src="images/image54.jpg" title="Add website" alt="Add website">}}
-
-If you change your mind and would like to remove any of the URLs you have added, you can do so by tapping on the red icon next to each URL.
-
-You can continue to add as many URLs as you like. In the following example, we have added `https://www.gutenberg.org`.
-
 {{<img src="images/image9.jpg" title="add url twitter.com" alt="add url twitter.com">}}
+
+If you change your mind and would like to remove any of the URLs you have added, you can do so by tapping on the cross icon next to each URL.
+
+You can continue to add as many URLs as you like. 
 
 **Step 6.** Tap **Test URLs** to test all of the websites you have added. 
 
@@ -532,10 +530,6 @@ If you would like to test all websites from the ([relevant](https://ooni.org/sup
 
 {{<img src="images/image135.jpg" title="Settings page" alt="Settings page">}}
 
-**Step 3.** Tap **Websites** (in the “Test options” setting).
-
-{{<img src="images/image61.jpg" title="Websites option" alt="Websites option">}}
-
 **Step 3.** Disable **Limit Websites test duration** (in the “Test options” setting).
 
 {{<img src="images/image81.jpg" title="Disable limit test duration" alt="Disable limit test duration">}}
@@ -611,7 +605,7 @@ In the top menu (of the Test Results screen), we share an overview of:
 
 **Step 1.** If you would like to delete your OONI Probe test results (for example, to save up on storage), **tap on the Settings button** at the bottom of the screen.
 
-Don’t worry about your test results getting lost; as soon as you run an OONI Probe test, your results are automatically published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/) in near real-time. If you would like to opt out of the publication of your test results, please refer to the “Configuring your OONI Probe settings: Test options section of this guide.
+Don’t worry about your test results getting lost; as soon as you run an OONI Probe test, your results are automatically published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/) in near real-time. If you would like to opt out of the publication of your test results, please refer to the “Configuring your OONI Probe settings: Test options" section of this guide.
 
 **Step 2.** Tap **Advanced** button. 
 
