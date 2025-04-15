@@ -148,7 +148,11 @@ You will see that **True** is the correct answer. If you tap False, you will rec
 
 {{<img src="images/image119.jpg" title="Crash reports" alt="Crash reports">}}
 
-**Step 8.** The following screen shares information about the types of data that OONI collects and publishes by default (every time you run OONI Probe). You can learn more by tapping on **[OONI’s Data Policy](https://ooni.org/about/data-policy)** on the screen.
+**Step 8.** If you would want to receive notifications about the emerging censorship events in your country, please tap **Yes**.
+
+{{<img src="images/image181.jpg" title="Notifications" alt="Notifications">}}
+
+**Step 9.** The following screen shares information about the types of data that OONI collects and publishes by default (every time you run OONI Probe). You can learn more by tapping on **[OONI’s Data Policy](https://ooni.org/about/data-policy)** on the screen.
 
 {{<img src="images/image24.jpg" title="Onboarding default settings" alt="Onboarding default settings">}}
 
