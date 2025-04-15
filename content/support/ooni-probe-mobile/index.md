@@ -3,7 +3,7 @@ title: "User Guide: OONI Probe Mobile App"
 description: "OONI Probe Mobile App user guide"
 ---
 
-**Last updated:** 18th November 2024
+**Last updated:** 15th April 2025
 
 **OONI Probe Mobile version:** 5.0.5
 
@@ -223,7 +223,7 @@ You are now running OONI’s [Web Connectivity test](https://ooni.org/nettest/we
 
 {{<img src="images/image37.jpg" title="Running websites" alt="Running websites">}}
 
-Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
+Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/). You can opt out from publishing the results in the "Test options" settings of your app. 
 
 **Which websites are tested?**
 
@@ -238,9 +238,9 @@ OONI Probe will automatically determine which [country-specific list](https://gi
 
 If you would like to contribute to the [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists) (which include the default websites tested by OONI Probe users worldwide), please refer to our relevant [documentation](https://ooni.org/get-involved/contribute-test-lists) or use our [Test Lists Editor](https://test-lists.ooni.org/).
 
-**Note:** To avoid consuming all your mobile data, **OONI Probe will only test as many websites as it’s able to test within 90 seconds** when you tap “Run” (either from the Dashboard or from the Websites card). These websites (which are tested within 90 seconds) are randomly selected from the [global](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) and (relevant) [country-specific](https://github.com/citizenlab/test-lists/tree/master/lists) test lists. Every time you tap “Run”, you will test a different, random selection of websites (from the global and country-specific test lists) within 90 seconds. Therefore, the more times you tap “Run”, the more websites you will test.
+**Note:** To avoid consuming all your mobile data, **OONI Probe will only test as many websites as it’s able to test within 90 seconds** when you tap “Run” to manually run Web Connectivity test (either from the Dashboard or from the Websites card). These websites (which are tested within 90 seconds) are randomly selected from the [global](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) and (relevant) [country-specific](https://github.com/citizenlab/test-lists/tree/master/lists) test lists. Every time you tap “Run”, you will manually test a different, random selection of websites (from the global and country-specific test lists) within 90 seconds. Therefore, the more times you tap “Run”, the more websites you will test.
 
-If you would like to test a larger selection of websites, or test entirely different websites, please refer to the **Customizing website testing** section of this guide.
+If you would like to test a larger selection of websites, or test entirely different websites, please refer to the **Customizing your website testing** section of this guide.
 
 ### Measuring the blocking of instant messaging apps
 
@@ -266,7 +266,7 @@ You are now running OONI’s [WhatsApp](https://ooni.org/nettest/whatsapp/), [Fa
 
 {{<img src="images/image58.jpg" title="Running IM" alt="Running IM">}}
 
-Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
+Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/). You can opt out from publishing the results in the "Test options" settings of your app. 
 
 If you would like to limit your testing to only WhatsApp, Facebook Messenger, Telegram, or Signal, please refer to the **Configuring your OONI Probe settings** section of this guide.
 
@@ -290,7 +290,7 @@ If you only want to measure the blocking of censorship circumvention tools, you 
 
 {{<img src="images/image151.jpg" title="Run 1 test" alt="Run 1 test">}}
 
-Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
+Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/). You can opt out from publishing the results in the "Test options" settings of your app. 
 
 {{<img src="images/image32.jpg" title="Running circumvention" alt="Running circumvention">}}
 
@@ -318,7 +318,7 @@ You are now running the [NDT speed test](https://ooni.org/nettest/ndt/), the [DA
 
 {{<img src="images/image12.jpg" title="Running performance" alt="Running performance">}}
 
-Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).
+Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/).You can opt out from publishing the results in the "Test options" settings of your app. 
 
 **Disclaimer:** The [NDT](https://ooni.org/nettest/ndt/) and [DASH](https://ooni.org/nettest/dash/) tests are conducted against third-party servers provided by [Measurement Lab (M-Lab)](https://www.measurementlab.net/). If you run these tests, M-Lab will collect and publish your IP address for research purposes, irrespective of your OONI Probe settings. Learn more about M-Lab’s data governance through its [privacy statement](https://www.measurementlab.net/privacy/).
 
@@ -524,11 +524,9 @@ If you would like to test all websites from the ([relevant](https://ooni.org/sup
 
 **Step 1.** Tap **Settings** in the bottom navigation bar of your OONI Probe mobile app.
 
-{{<img src="images/image135.jpg" title="Settings page" alt="Settings page">}}
-
 **Step 2.** Tap **Test options** in the settings.
 
-{{<img src="images/image131.jpg" title="Test options" alt="Test options">}}
+{{<img src="images/image135.jpg" title="Settings page" alt="Settings page">}}
 
 **Step 3.** Tap **Websites** (in the “Test options” setting).
 
@@ -569,13 +567,19 @@ In the Test Results screen of your OONI Probe mobile app, the results are presen
 * By **specific type of test** (Websites, Instant Messaging, Circumvention, Performance, Experimental, installed OONI Run links)
 * By the **source** of the test (Manual run or Automated run)
 
+{{<img src="images/image177.jpg" title="Filter test results page" alt="Filter test results page">}}
+
 Depending on the set filters, you will see different results summary. The summary includes the **total number of performed tests**, **number of tested networks** and **amount of data** used to run the tests. 
 
 {{<img src="images/image155.jpg" title="Test results page" alt="Test results page">}}
 
-**Step 3.** Check result cards for the tests run by your OONI Probe application. 
+**Step 3.** Check test result cards for the tests run by your OONI Probe application. 
 
-In each test result card, you will have an overview of:
+To access specific test results pertaining to one of the tested websites or services, tap on one of the tests shown on the Results screen. 
+
+{{<img src="images/image178.jpg" title="Test results page" alt="Test results page">}}
+
+In each test results card, you will have an overview of:
 
 * **Summary of relevant findings** (e.g. one website was found to be inaccessible, while 99 were available).
 * The **date and time** of testing (e.g. 2nd April 2025 at 02:35 local time);
@@ -603,7 +607,7 @@ In the top menu (of the Test Results screen), we share an overview of:
 
 **Step 1.** If you would like to delete your OONI Probe test results (for example, to save up on storage), **tap on the Settings button** at the bottom of the screen.
 
-Don’t worry about your test results getting lost; as soon as you run an OONI Probe test, your results are automatically published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/) in near real-time. If you would like to opt out of the publication of your test results, please refer to the “Configuring your OONI Probe settings: Privacy” section of this guide.
+Don’t worry about your test results getting lost; as soon as you run an OONI Probe test, your results are automatically published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/) in near real-time. If you would like to opt out of the publication of your test results, please refer to the “Configuring your OONI Probe settings: Test options section of this guide.
 
 **Step 2.** Tap **Advanced** button. 
 
@@ -619,14 +623,17 @@ Upon tapping **Clear**, you will see the following pop-up:
 
 **Step 4.** Tap **Delete** if you would like to delete all of your OONI Probe test results. Otherwise, tap **Cancel**.
 
+Once you delete all of your OONI Probe test results from your device, your **Test Results** screen should look like this: 
+
+{{<img src="images/image22.jpg" title="Delete all tests results" alt="Delete all tests results">}}
+
 ### Websites
 
 You can access your OONI Probe results from the testing of websites through the following steps:
 
 **Step 1.** Tap **All Types** in the Test Results screen of your OONI Probe mobile app.
 
-{{<img src="images/image162.jpg
-" title="Filter by the type of test" alt="Filter by the type of test">}}
+{{<img src="images/image162.jpg" title="Filter by the type of test" alt="Filter by the type of test">}}
 
 **Step 2.** Choose **Websites** filter (to access the measurements collected with Web Connectivity test).
 
@@ -676,8 +683,7 @@ You can access your OONI Probe results from the testing of instant messaging app
 
 **Step 1.** Tap **All Types** in the Test Results screen of your OONI Probe mobile app.
 
-{{<img src="images/image162.jpg
-" title="Filter by the type of test" alt="Filter by the type of test">}}
+{{<img src="images/image162.jpg" title="Filter by the type of test" alt="Filter by the type of test">}}
 
 **Step 2.** Choose **Instant Messaging** filter (to access the measurements collected with Instant Messaging tests).
 
@@ -717,8 +723,7 @@ You can access your OONI Probe results from the testing of circumvention tools t
 
 **Step 1.** Tap **All Types** in the Test Results screen of your OONI Probe mobile app.
 
-{{<img src="images/image162.jpg
-" title="Filter by the type of test" alt="Filter by the type of test">}}
+{{<img src="images/image162.jpg" title="Filter by the type of test" alt="Filter by the type of test">}}
 
 **Step 2.** Choose **Circumvention** filter (to access the measurements collected with Circumvention tests).
 
@@ -766,8 +771,7 @@ You can access your OONI Probe results from the testing of your network’s perf
 
 **Step 1.** Tap **All Types** in the Test Results screen of your OONI Probe mobile app.
 
-{{<img src="images/image162.jpg
-" title="Filter by the type of test" alt="Filter by the type of test">}}
+{{<img src="images/image162.jpg" title="Filter by the type of test" alt="Filter by the type of test">}}
 
 **Step 2.** Choose **Performance** filter (to access the measurements collected with Performance tests).
 
@@ -818,7 +822,7 @@ It is useful to access the raw measurement data because:
 
 ### Sharing your measurement 
 
-You can share your OONI Probe measurements with OONI Explorer link through the **Share button** in an OONI Probe test result or by manually copying and sharing this link. 
+You can share your OONI Probe measurements using OONI Explorer link through the **Share button** in an OONI Probe test result or by manually copying and sharing this link. 
 
 ## Configuring your OONI Probe settings
 
@@ -856,6 +860,10 @@ By enabling push notifications, you may receive a message from us when and if we
 
 ### Test options: Automatically Publish Results 
 
+Tap **Test options** in the settings.
+
+{{<img src="images/image135.jpg" title="Tap test options" alt="Tap test options">}}
+
 By default, the automatic publication of your OONI Probe test results is enabled (unless you opted-in during the onboarding).
 
 {{<img src="images/image80.jpg" title="Publishing settings" alt="Publishing settings">}}
@@ -881,7 +889,7 @@ With automated OONI Probe testing, you can **regularly contribute censorship mea
 
 You can enable automated OONI Probe testing through the following steps:
 
-**Step 1.** Tap **Settings** in the bottom navigation bar of your OONI Probe app and tap the **Automated testing** button.
+**Step 1.** Tap **Settings** in the bottom navigation bar of your OONI Probe app and tap the **Test options** button.
 
 {{<img src="images/image135.jpg" title="Test options settings" alt="Test options settings">}}
 
@@ -911,7 +919,9 @@ The Privacy tab of the OONI Probe settings pertains to the submission of crash r
 
 If you opt in to sharing crash reports with us, you will share information that is essential for identifying bugs and improving the performance of the OONI Probe app. These crash reports include information about why and how a specific OONI Probe function failed to work as expected.
 
-You can opt out of publishing your OONI Probe test results and/or sharing crash reports with us by disabling the relevant settings.
+{{<img src="images/image179.jpg" title="Crash reports" alt="Crash reports">}}
+
+You can opt out of sharing crash reports with us by disabling the relevant setting.
 
 ### OONI backend proxy
 
@@ -948,11 +958,11 @@ The advanced settings of the OONI Probe app include settings for:
 
 You can access the advanced settings through the following steps:
 
-#### Sharing logs for debugging purposes
-
 Tap **Advanced** through the settings of your OONI Probe app.
 
 {{<img src="images/image74.jpg" title="Advanced settings" alt="Advanced settings">}}
+
+#### Sharing logs for debugging purposes
 
 You now have access to the advanced settings of your OONI Probe app, where **Debug logs** are disabled by default and the **VPN warning** is enabled by default for all OONI Probe users.
 
@@ -970,15 +980,17 @@ It's important to have your **VPN turned off** when running OONI Probe to help e
 
 Tap the **CLEAR** button if you would like to delete your OONI Probe tests to save up on storage space.
 
+{{<img src="images/image180.jpg" title="Tap Clear button" alt="Tap Clear button">}}
+
 This will prompt the following pop-up window, asking if you would like to delete all of your OONI Probe test results. All of your OONI Probe test results have already been published on [OONI Explorer](https://explorer.ooni.org/) (unless you opted-out of the publication of results in the Test options of the settings).
 
 {{<img src="images/image38.jpg" title="Delete all results" alt="Delete all results">}}
 
 **Step 5.** Tap **DELETE** to delete all of your OONI Probe test results (and save up on storage).
 
-{{<img src="images/image22.jpg" title="Empty test results" alt="Empty test results">}}
-
 All of your OONI Probe test results have been deleted from your app.
+
+{{<img src="images/image22.jpg" title="Empty test results" alt="Empty test results">}}
 
 ### Send email to support
 
