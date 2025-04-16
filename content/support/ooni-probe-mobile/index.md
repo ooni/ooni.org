@@ -203,7 +203,7 @@ Once the tests have ended, your OONI Probe test results will automatically get p
 
 Would you rather limit your testing to a specific test type (card)? In the following sections, we share instructions on how to do that.
 
-### Measuring the blocking of websites
+### Manually measuring the blocking of websites
 
 If you only want to measure the blocking of websites, you can do so through the following steps:
 
@@ -246,7 +246,7 @@ If you would like to contribute to the [Citizen Lab test lists](https://github.c
 
 If you would like to test a larger selection of websites, or test entirely different websites, please refer to the **Customizing your website testing** section of this guide.
 
-### Measuring the blocking of instant messaging apps
+### Manually measuring the blocking of instant messaging apps
 
 If you only want to measure the blocking of instant messaging apps, you can do so through the following steps:
 
@@ -274,7 +274,7 @@ Your OONI Probe test results will automatically get published on [OONI Explorer]
 
 If you would like to limit your testing to only WhatsApp, Facebook Messenger, Telegram, or Signal, please refer to the **Configuring your OONI Probe settings** section of this guide.
 
-### Measuring the blocking of circumvention tools
+### Manually measuring the blocking of circumvention tools
 
 If you only want to measure the blocking of censorship circumvention tools, you can do so through the following steps:
 
@@ -298,7 +298,7 @@ Your OONI Probe test results will automatically get published on [OONI Explorer]
 
 {{<img src="images/image32.jpg" title="Running circumvention" alt="Running circumvention">}}
 
-### Measuring network performance
+### Manually measuring network performance
 
 If you only want to measure network performance, you can do so through the following steps:
 
@@ -329,6 +329,34 @@ Your OONI Probe test results will automatically get published on [OONI Explorer]
 If you would like to limit your testing to only one (or a few) of the Performance tests, please **select only the tests that you want to run** instead of selecting all Performance tests.
 
 {{<img src="images/image176.jpg" title="HTTP tests" alt="HTTP tests">}}
+
+### Setting up automated testing
+
+Instead of running each of the tests manually, you can perform them automatically in the background mode of the app. 
+
+You can set up automated testing through the following steps:
+
+**Step 1.** Enable the "Run tests automatically" option in the "Test options" settings of the app. 
+
+{{<img src="images/image138.jpg" title="Automated testing" alt="Automated testing">}}
+
+If you do not have any restrictions on traffic or battery usage, you can run automated measurements without WiFi connection or charger. To do that, please disable the Only on WiFi and Only while charging settings.
+
+{{<img src="images/image137.jpg" title="Automated testing" alt="Automated testing">}}
+
+**Step 2.** In the Dashboard menu open the cards of the test you want to run automatically. In each card ("Websites", "Instant Messaging", "Circumvention", "Performance", "Experimental") you will see the **Test Settings** for each of the tests. 
+
+Enable **Run tests automatically** option if you want to run the test in the background mode. 
+
+{{<img src="images/image182.jpg" title="Automated websites testing" alt="Automated websites testing">}}
+
+For the tests that include different types of measurements, you can choose which types of measurements you want to run in the background mode. 
+
+For example, if you want test your network only for middleboxes but are not interested in running [NDT](https://ooni.org/nettest/ndt/) and [DASH](https://ooni.org/nettest/dash/) tests to test the speed and quality of your connection, you can **enable only HTTP tests** and disable NDT and DASH tests as in the following screenshot: 
+
+{{<img src="images/image183.jpg" title="Automated performance testing" alt="Automated performance testing">}}
+
+Once you enable **Automated testing**, OONI Probe will run tests of your choice **every hour if your device is connected to WiFi and charging** (unless you disabled relevant settings in the "Test options" section of the app). 
 
 ## Customizing your website testing
 
