@@ -27,23 +27,26 @@
   h1 {
     font-size: var(--text-3xl);
     font-weight: var(--font-weight-bold);
+    margin-bottom: calc(var(--spacing)* 2);
     @variant md {
       font-size: var(--text-4xl);
     }
-    margin-bottom: 0.5rem;
   }
 
   h2 {
     font-size: var(--text-2xl);
     font-weight: var(--font-weight-bold);
+    margin-bottom: calc(var(--spacing)* 2);
     @variant md {
       font-size: var(--text-3xl);
     }
+    
   }
 
   h3 { 
     font-size: var(--text-xl);
     font-weight: var(--font-weight-bold);
+    margin-bottom: calc(var(--spacing)* 2);
     @variant md {
       font-size: var(--text-2xl);
     }
@@ -52,6 +55,7 @@
   h4 { 
     font-size: var(--text-lg);
     font-weight: var(--font-weight-bold);
+    margin-bottom: calc(var(--spacing)* 2);
     @variant md {
       font-size: var(--text-xl);
     }
@@ -60,9 +64,10 @@
   h5 { 
     font-size: var(--text-base);
     font-weight: var(--font-weight-bold);
+    margin-bottom: calc(var(--spacing)* 2);
   }
 
-  h5 { 
+  h6 { 
     font-size: var(--text-xs);
     font-weight: var(--font-weight-bold);
   }
