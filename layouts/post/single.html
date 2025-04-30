@@ -1,6 +1,6 @@
 {{ define "main" }}
-<div class="container">
-  <main class="blog-post col">
+<div class="container mt-6 post-container">
+  <main class="font-serif">
     <h1 class="article-title">{{ .Title }}</h1>
     <div class="byline">
       <span class="author">{{ .Params.author }}</span>
@@ -16,7 +16,9 @@
       {{ range .Translations }}
       <li>
         {{/* FIXME: convert that to language params, I've not managed to do that quicly */}}
-        <a href="{{ .RelPermalink }}">{{ if eq .Lang "en" }}English{{ else if eq .Lang "pt" }}Portuguese{{ else if eq .Lang "fr" }}French{{ else if eq .Lang "es"  }}Spanish{{ else if eq .Lang "ca"  }}Catalan{{ else }}{{ .Lang }}{{ end }}: {{ .Title }}</a>
+        <a href="{{ .RelPermalink }}">{{ if eq .Lang "en" }}English{{ else if eq .Lang "pt" }}Portuguese{{ else if eq
+          .Lang "fr" }}French{{ else if eq .Lang "es" }}Spanish{{ else if eq .Lang "ca" }}Catalan{{ else }}{{ .Lang }}{{
+          end }}: {{ .Title }}</a>
       </li>
       {{ end }}
     </ul>

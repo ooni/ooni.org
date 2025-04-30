@@ -1,30 +1,46 @@
 {{ define "main" }}
-<div class="container pb-5">
-
-  <main class="col">
-    <p class="test-intro">
-        The <a href="https://ooni.org/install/">OONI Probe app</a> consists of many different tests. Click on the cards below to learn how each OONI Probe test works.
+<div class="container py-8">
+  <main>
+    <p>
+      The <a href="https://ooni.org/install/">OONI Probe app</a> consists of many different tests. Click on the cards below to learn how each OONI Probe test works.
     </p>
 
-    <ul class="test-overivew">
-      <a href="#websites"><li>Which websites are blocked?</li></a>
-      <a href="#im"><li>Which instant messaging apps are blocked?</li></a>
-      <a href="#tor"><li>Is Tor blocked?</li></a>
-      <a href="#proxies"><li>Are VPNs blocked?</li></a>
-      <a href="#performance"><li>What is the speed and performance of my network?</li></a>
-      <a href="#boxes"><li>Are middleboxes present on my network?</li></a>
-      <a href="#legacy"><li>Retired OONI Probe tests</li></a>
+    <ul class="list-disc ms-8 my-4">
+      <li><a href="#websites">Which websites are blocked?</a></li>
+      <li><a href="#im">Which instant messaging apps are blocked?</a></li>
+      <li><a href="#tor">Is Tor blocked?</a></li>
+      <li><a href="#proxies">Are VPNs blocked?</a></li>
+      <li><a href="#performance">What is the speed and performance of my network?</a></li>
+      <li><a href="#boxes">Are middleboxes present on my network?</a></li>
+      <li><a href="#legacy">Retired OONI Probe tests</a></li>
     </ul>
 
-    <h1 id="websites" class="test-header">Which websites are blocked?</h1>
-    <div class="row">
+    <h1 id="websites" class="mt-10 mb-4">Which websites are blocked?</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
       {{ range .Data.Pages.ByDate }}
         {{ if in .Params.groups "websites" }}
         {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-        <div class="col-md-1 col-lg-4 mr-2 mb-2 p-3 question-container">
+        <div class="question-container">
+          <a href="{{ .RelPermalink }}">
+            <h2 class="uppercase">{{ $TITLE }}</h2>
+            <p>
+              {{ .Params.short_description }}
+            </p>
+          </a>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <h1 id="im" class="mt-10 mb-4">Which instant messaging apps are blocked?</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {{ range .Data.Pages }}
+        {{ if in .Params.groups "im" }}
+        {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
+        <div class="question-container">
         <a href="{{ .RelPermalink }}">
-          <h2 class="test-header">{{ $TITLE }}</h2>
-          <p class="test-paragraph">
+          <h2 class="uppercase">{{ $TITLE }}</h2>
+          <p>
             {{ .Params.short_description }}
           </p>
         </a>
@@ -33,65 +49,48 @@
       {{ end }}
     </div>
 
-    <h1 id="im" class="test-header">Which instant messaging apps are blocked?</h1>
-    <div class="row">
-      {{ range .Data.Pages }}
-        {{ if in .Params.groups "im" }}
-        {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-        <div class="col-md-1 col-lg-4 mr-2 mb-2 p-3 question-container">
-        <a href="{{ .RelPermalink }}">
-            <h2 class="test-header">{{ $TITLE }}</h2>
-            <p class="test-paragraph">
-              {{ .Params.short_description }}
-            </p>
-        </a>
-        </div>
-        {{ end }}
-      {{ end }}
-    </div>
-
-    <h1 id="tor" class="test-header">Is Tor blocked?</h1>
-    <div class="row">
+    <h1 id="tor" class="mt-10 mb-4">Is Tor blocked?</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
       {{ range .Data.Pages }}
         {{ if in .Params.groups "tor" }}
           {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-          <div class="col-md-1 col-lg-4 mr-2 mb-2 p-3 question-container">
-          <a href="{{ .RelPermalink }}" >
-            <h2 class="test-header">{{ $TITLE }}</h2>
-            <p class="test-paragraph">
-              {{ .Params.short_description }}
-            </p>
-          </a>
+          <div class="question-container">
+            <a href="{{ .RelPermalink }}" >
+              <h2 class="uppercase">{{ $TITLE }}</h2>
+              <p>
+                {{ .Params.short_description }}
+              </p>
+            </a>
           </div>
         {{ end }}
       {{ end }}
     </div>
 
-    <h1 id="proxies" class="test-header">Are VPNs blocked?</h1>
-    <div class="row">
+    <h1 id="proxies" class="mt-10 mb-4">Are VPNs blocked?</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
       {{ range .Data.Pages }}
         {{ if in .Params.groups "proxies" }}
           {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-          <div class="col-md-1 col-lg-4 mr-2 mb-2 p-3 question-container">
-          <a href="{{ .RelPermalink }}">
-            <h2 class="test-header">{{ $TITLE }}</h2>
-            <p class="test-paragraph">
-              {{ .Params.short_description }}
-            </p>
-          </a>
+          <div class="question-container">
+            <a href="{{ .RelPermalink }}">
+              <h2 class="uppercase">{{ $TITLE }}</h2>
+              <p>
+                {{ .Params.short_description }}
+              </p>
+            </a>
           </div>
         {{ end }}
       {{ end }}
     </div>
 
-    <h1 id="performance" class="test-header">What is the speed and performance of my network?</h1>
-    <div class="row">
+    <h1 id="performance" class="mt-10 mb-4">What is the speed and performance of my network?</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
       {{ range .Data.Pages }}
         {{ if in .Params.groups "performance" }}
-          <div class="col-md-1 col-lg-4 mr-2 mb-2 p-3 question-container">
+          <div class="question-container">
           <a href="{{ .RelPermalink }}">
-            <h2 class="test-header">{{ .Title }}</h2>
-            <p class="test-paragraph">
+            <h2 class="uppercase">{{ .Title }}</h2>
+            <p>
               {{ .Params.short_description }}
             </p>
           </a>
@@ -100,15 +99,15 @@
       {{ end }}
     </div>
 
-    <h1 id="boxes" class="test-header">Are middleboxes present on my network?</h1>
-    <div class="row">
+    <h1 id="boxes" class="mt-10 mb-4">Are middleboxes present on my network?</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
       {{ range .Data.Pages }}
         {{ if in .Params.groups "boxes" }}
         {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-        <div class="col-md-1 col-lg-4 mr-2 mb-2 p-3 question-container">
+        <div class="question-container">
         <a href="{{ .RelPermalink }}">
-            <h2 class="test-header">{{ $TITLE }}</h2>
-            <p class="test-paragraph">
+            <h2 class="uppercase">{{ $TITLE }}</h2>
+            <p>
               {{ .Params.short_description }}
             </p>
         </a>
@@ -117,15 +116,15 @@
       {{ end }}
     </div>
 
-     <h1 id="legacy" class="test-header">Retired OONI Probe tests</h1>
-    <div class="row">
+     <h1 id="legacy" class="mt-10 mb-4">Retired OONI Probe tests</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
       {{ range .Data.Pages }}
         {{ if in .Params.groups "legacy" }}
         {{ $TITLE := title (replace (index (split .RelPermalink "/") 2) "-" " ") }}
-        <div class="col-md-1 col-lg-4 mr-2 mb-2 p-3 question-container">
+        <div class="question-container">
         <a href="{{ .RelPermalink }}">
-          <h2 class="test-header">{{ $TITLE }}</h2>
-          <p class="test-paragraph">
+          <h2 class="uppercase">{{ $TITLE }}</h2>
+          <p>
             {{ .Params.short_description }}
           </p>
         </a>
@@ -135,9 +134,7 @@
     </div>
 
  </main>
-
 </div>
-
 {{ end }}
 
 

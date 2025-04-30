@@ -2,7 +2,7 @@
 {{ if (not (findRE `[0-9]+\.[0-9]+\.[0-9]+` $probeDesktopVersion)) }}
 {{ errorf "Invalid version string for probe-desktop: %s" $probeDesktopVersion }}
 {{ end }}
-<a class="ooni-desktop-btn square-btn"
-    id="{{ .Get "id" }}"
-    href="https://github.com/ooni/probe-desktop/releases/download/v{{ $probeDesktopVersion }}/{{.Get "filePrefix"}}-{{ $probeDesktopVersion }}.{{ .Get "ext" }}"
-    >{{ .Get "text" }}</a>
+<a class="ooni-desktop-btn square-btn mx-4"
+  id="{{ .Get "id" }}"
+  href="https://github.com/ooni/probe-desktop/releases/download/v{{ $probeDesktopVersion }}/{{.Get "filePrefix"}}-{{ $probeDesktopVersion }}.{{ .Get "ext" }}"
+  >{{ .Get "text" }}</a>

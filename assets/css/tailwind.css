@@ -1,4 +1,576 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@tailwind variants;
+@import "tailwindcss";
+@import "./fonts.css";
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/aspect-ratio";
+@source "hugo_stats.json";
+
+@layer base {
+  html {
+    color: #1c1c1c;
+    background-color: #fff;
+  }
+  
+  body {
+    overflow-x: hidden;
+    font-family: "Fira Sans", sans-serif;
+  }
+
+  p {
+    @apply mb-4;
+  }
+
+  h1,h2, h3, h4, h5, h6 {
+    @apply font-sans;
+  }
+
+  h1 {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: calc(var(--spacing)* 2);
+    @variant md {
+      font-size: var(--text-4xl);
+    }
+  }
+
+  h2 {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: calc(var(--spacing)* 2);
+    @variant md {
+      font-size: var(--text-3xl);
+    }
+    
+  }
+
+  h3 { 
+    font-size: var(--text-xl);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: calc(var(--spacing)* 2);
+    @variant md {
+      font-size: var(--text-2xl);
+    }
+  }
+
+  h4 { 
+    font-size: var(--text-lg);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: calc(var(--spacing)* 2);
+    @variant md {
+      font-size: var(--text-xl);
+    }
+  }
+
+  h5 { 
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: calc(var(--spacing)* 2);
+  }
+
+  h6 { 
+    font-size: var(--text-xs);
+    font-weight: var(--font-weight-bold);
+  }
+
+  a {
+    text-decoration: none;
+    @apply text-ooniblue;
+  }
+
+  p, ol, ul {
+    @apply mb-5;
+  }
+
+  th, td {
+    font-weight:inherit
+  }
+
+  pre {
+    background-color: #f2f2f2;
+    padding: 0.5rem 1rem;
+    margin: 1.6rem 0;
+    position: relative;
+  }
+  
+  pre, code {
+    font-family: "Source Code Pro", monospace;
+  }
+  
+  pre code {
+    margin: 0;
+  }
+  
+  code {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  table {
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 3px;
+    border-collapse: collapse;
+    padding: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
+    font-family: Fira Sans;
+  }
+  
+  th {
+    color: #fff;
+    background: #0588CB;
+    border-right: 1px dashed #fff;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 1em;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align: middle;
+  }
+  
+  th:first-child {
+    border-top-left-radius:3px;
+  }
+  
+  th:last-child {
+    border-top-right-radius:3px;
+    border-right:none;
+  }
+  
+  tr {
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    color: #000;
+    font-size: 1em;
+    font-weight: normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+  }
+  
+  tr:first-child {
+    border-top:none;
+  }
+  
+  tr:last-child {
+    border-bottom:none;
+  }
+  
+  tr:nth-child(odd) td {
+    background: #E9ECEF;
+  }
+  
+  tr:last-child td:first-child {
+    border-bottom-left-radius:3px;
+  }
+  
+  tr:last-child td:last-child {
+    border-bottom-right-radius:3px;
+  }
+  
+  td {
+    background: #FFFFFF;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 18px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    border-right: 1px dashed #FFF;
+  }
+  
+  td:last-child {
+    border-right: 0px;
+  }
+
+  blockquote {
+    margin: 0 0 1.2rem 3em;
+  }
+  
+  blockquote p {
+    text-indent: -0.38em;
+  }
+  
+  blockquote dl {
+    font-size: 0.8rem;
+    margin-left: 3rem;
+  }
+  
+  blockquote dl dt {
+    text-indent: -1.7em;
+  }
+}
+
+@layer components {
+  .article-title {
+    @apply mb-2 mt-8;
+    font-size: 2.5rem;
+  }
+  .question-container {
+    @apply p-4 border border-ooniblue rounded-lg bg-ooniblue text-white;
+  }
+  .question-container > a {
+    @apply text-white;
+  }
+  .question-container:hover {
+    @apply bg-white;
+  }
+  .question-container:hover > a {
+    @apply text-ooniblue;
+  }
+
+  .youtube-subscribe {
+    background-color: #e62117;
+    color: white;
+    font: "YouTube Noto", Roboto, arial, sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    border: solid 1px transparent;
+    padding: 10px 10px 10px 40px;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    line-height: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    background-image: url('/images/logos/youtube-play.png');
+    background-position: left 5px top 12px;
+    background-repeat: no-repeat;
+    @variant hover {
+      color: white;
+    }
+  }
+
+  .fingerprint{
+    background-color: #f2f2f2;
+    padding: 0.5rem 1rem;
+    position: relative;
+    font-family: "Source Code Pro", monospace;
+  }
+
+  .ooni-btn {
+    font-size: 16px;
+    border-radius: 24px;
+    display: inline-block;
+    height: 32px;
+    line-height: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-transform: uppercase;
+    outline: 0;
+    font-family: inherit;
+    font-weight: 600;
+    text-decoration: none;
+    color: #0588cb;
+    background-color: white;
+    border: 1px solid #0588cb;
+    text-align: center;
+    letter-spacing: .5px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    @variant hover {
+      color: white;
+      border: 1px solid #0588cb;
+      background-color: #0588cb;
+    }
+  }
+
+  .square-btn {
+    display: inline-block;
+    line-height: 30px;
+    outline: 0;
+    text-decoration: none;
+    background-color: #0588cb;
+    color: white;
+    text-align: center;
+    letter-spacing: .5px;
+    cursor: pointer;
+    margin-bottom: 16px;padding: 16px 24px;
+    border-radius: 2px;
+    width: 24em;
+    max-width: 100%;
+    @variant hover {
+      background-color: #056aa6;
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #e06b5a;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    padding: 6px 20px;
+    transition: .1s ease-in-out;
+  }
+
+  .post-container {
+    ul {
+      @apply list-disc;
+    }
+  
+    ol {
+      @apply list-decimal;
+    }
+
+    ol, ul {
+      @apply ps-10;
+    }
+
+    li {
+      @apply ml-5 pl-1;
+    }
+  }
+
+  .overlined {
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #0588cb;
+    border-top: 0.2rem solid #0588cb;
+    padding-top: 0.2rem;
+    margin: 0 0 1rem;
+  }
+  
+  .explorer-button {
+    border: 2px solid #ffffff;
+    background-color: #0588cb;
+    z-index: 999999999;
+    @variant hover {
+      text-decoration: none;
+      color: #0588cb;
+      background-color: #ffffff;
+    }
+  }
+  
+  #TableOfContents {
+    @apply mb-5;
+  }
+
+  #TableOfContents li, #TableOfContents ul {
+    @apply m-0 ps-2 list-none font-sans font-bold;
+  }
+
+  .blog-summary {
+    @apply mb-8;
+  }
+  
+  .blog-summary a {
+    @apply block text-inherit;
+    @variant hover {
+      @apply underline;
+    }
+  }
+  
+  .blog-summary .title {
+    @apply mb-1;
+  }
+  
+  .blog-summary .title-translation {
+    @apply m-0 p-0 text-xs;
+  }
+  
+  .blog-summary .title-translation a {
+    @apply inline-block mb-0 pr-3 text-ooniblue;
+    @variant hover {
+      @apply underline;
+    }
+  }
+
+  .byline {
+    color: #c1c1c1;
+    font-size: 0.8rem;
+  }
+  
+  .byline .author::after {
+    content: ", ";
+  }
+
+  .lead {
+    font-size: 1.75em;
+  }
+
+  .cta {
+    margin-bottom: 1em;
+  }
+  
+  .cta a:hover, p a:hover, li a:hover {
+    text-decoration: underline;
+  }
+  
+  .cta a::after {
+    content: " →";
+  }
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+  @variant xl {
+    @apply max-w-7xl;
+  }
+}
+
+@theme {
+  --color-primary: #0588cb;
+  --color-background: #f8f9fa;
+  --color-highlight: #0588cb20;
+  --color-ooniblue: #0588cb;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-twitterBlue: #1da1f2;
+  --color-facebookBlue: #3b5998;
+  --color-transparent: transparent;
+
+  --color-gray0: #f8f9fa;
+  --color-gray1: #f1f3f5;
+  --color-gray2: #e9ecef;
+  --color-gray3: #dee2e6;
+  --color-gray4: #ced4da;
+  --color-gray5: #adb5bd;
+  --color-gray6: #868e96;
+  --color-gray7: #495057;
+  --color-gray8: #343a40;
+  --color-gray9: #212529;
+  --color-blue0: #e7f5ff;
+  --color-blue1: #c9e8ff;
+  --color-blue2: #8dd5f8;
+  --color-blue3: #5db8fe;
+  --color-blue4: #37a6ed;
+  --color-blue5: #0588cb;
+  --color-blue6: #0f77b8;
+  --color-blue7: #056aa6;
+  --color-blue8: #005f9c;
+  --color-blue9: #005a99;
+  --color-indigo0: #edf2ff;
+  --color-indigo1: #dbe4ff;
+  --color-indigo2: #bac8ff;
+  --color-indigo3: #91a7ff;
+  --color-indigo4: #748ffc;
+  --color-indigo5: #5c7cfa;
+  --color-indigo6: #4c6ef5;
+  --color-indigo7: #4263eb;
+  --color-indigo8: #3b5bdb;
+  --color-indigo9: #364fc7;
+  --color-violet0: #f3f0ff;
+  --color-violet1: #e5dbff;
+  --color-violet2: #d0bfff;
+  --color-violet3: #b197fc;
+  --color-violet4: #9775fa;
+  --color-violet5: #845ef7;
+  --color-violet6: #7950f2;
+  --color-violet7: #7048e8;
+  --color-violet8: #6741d9;
+  --color-violet9: #5f3dc4;
+  --color-fuchsia0: #f8f0fc;
+  --color-fuchsia1: #f3d9fa;
+  --color-fuchsia2: #eebefa;
+  --color-fuchsia3: #e599f7;
+  --color-fuchsia4: #da77f2;
+  --color-fuchsia5: #cc5de8;
+  --color-fuchsia6: #be4bdb;
+  --color-fuchsia7: #ae3ec9;
+  --color-fuchsia8: #9c36b5;
+  --color-fuchsia9: #862e9c;
+  --color-pink0: #fff0f6;
+  --color-pink1: #ffdeeb;
+  --color-pink2: #fcc2d7;
+  --color-pink3: #faa2c1;
+  --color-pink4: #f783ac;
+  --color-pink5: #f06595;
+  --color-pink6: #e64980;
+  --color-pink7: #d6336c;
+  --color-pink8: #c2255c;
+  --color-pink9: #a61e4d;
+  --color-red0: #fff5f5;
+  --color-red1: #ffe3e3;
+  --color-red2: #ffc9c9;
+  --color-red3: #ffa8a8;
+  --color-red4: #ff8787;
+  --color-red5: #ff6b6b;
+  --color-red6: #fa5252;
+  --color-red7: #f03e3e;
+  --color-red8: #e03131;
+  --color-red9: #c92a2a;
+  --color-orange0: #fff4e6;
+  --color-orange1: #ffe8cc;
+  --color-orange2: #ffd8a8;
+  --color-orange3: #ffc078;
+  --color-orange4: #ffa94d;
+  --color-orange5: #ff922b;
+  --color-orange6: #fd7e14;
+  --color-orange7: #f76707;
+  --color-orange8: #e8590c;
+  --color-orange9: #d9480f;
+  --color-yellow0: #fff9db;
+  --color-yellow1: #fff3bf;
+  --color-yellow2: #ffec99;
+  --color-yellow3: #ffe066;
+  --color-yellow4: #ffd43b;
+  --color-yellow5: #fcc419;
+  --color-yellow6: #fab005;
+  --color-yellow7: #f59f00;
+  --color-yellow8: #f08c00;
+  --color-yellow9: #e67700;
+  --color-lime0: #f4fce3;
+  --color-lime1: #e9fac8;
+  --color-lime2: #d8f5a2;
+  --color-lime3: #c0eb75;
+  --color-lime4: #a9e34b;
+  --color-lime5: #94d82d;
+  --color-lime6: #82c91e;
+  --color-lime7: #74b816;
+  --color-lime8: #66a80f;
+  --color-lime9: #5c940d;
+  --color-green0: #ebfbee;
+  --color-green1: #d3f9d8;
+  --color-green2: #b2f2bb;
+  --color-green3: #8ce99a;
+  --color-green4: #69db7c;
+  --color-green5: #51cf66;
+  --color-green6: #40c057;
+  --color-green7: #37b24d;
+  --color-green8: #2f9e44;
+  --color-green9: #2b8a3e;
+  --color-teal0: #e6fcf5;
+  --color-teal1: #c3fae8;
+  --color-teal2: #96f2d7;
+  --color-teal3: #63e6be;
+  --color-teal4: #38d9a9;
+  --color-teal5: #20c997;
+  --color-teal6: #12b886;
+  --color-teal7: #0ca678;
+  --color-teal8: #099268;
+  --color-teal9: #087f5b;
+  --color-cyan0: #e3fafc;
+  --color-cyan1: #c5f6fa;
+  --color-cyan2: #99e9f2;
+  --color-cyan3: #66d9e8;
+  --color-cyan4: #3bc9db;
+  --color-cyan5: #22b8cf;
+  --color-cyan6: #15aabf;
+  --color-cyan7: #1098ad;
+  --color-cyan8: #0c8599;
+  --color-cyan9: #0b7285;
+
+  --font-sans: "Fira Sans", sans-serif;
+  --font-serif: "Source Serif Pro", serif;
+  --font-mono: "Source Code Pro", monospace;
+}
+
+

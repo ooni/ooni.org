@@ -1,19 +1,17 @@
 {{ define "main" }}
-<div class="article">
+<article>
   <div class="container">
-    <div class="row">
-      <div class="col-4 toc">
-          <a href="/nettest/">
+    <div class="flex py-8">
+      <div class="md:w-1/4 font-bold">
+          <a href="/nettest/" class="text-black">
             &#x2190; back to tests
           </a>
       </div>
-
-      <div class="col-8">
+      <div class="md:w-3/4">
         <h1>{{ .Title }}</h1>
         {{ .Content }}
       </div>
     </div>
   </div>
-
-</div>
+</article>
 {{ end }}

@@ -1,14 +1,14 @@
 {{ define "main" }}
-<div class="container">
-  <main class="col content">
-  {{ if .Title }}
-      <h1 class="article-title">{{ .Title }}</h1>
-  {{ end }}
+<div class="container post-container">
+  <main class="mt-12">
+    {{ if .Title }}
+    <h1 class="article-title">{{ .Title }}</h1>
+    {{ end }}
 
-  {{ if eq .Params.enabletoc true }}
+    {{ if eq .Params.enabletoc true }}
     {{ .TableOfContents }}
-  {{ end }}
-  {{ .Content }}
+    {{ end }}
+    {{ .Content }}
   </main>
 </div>
 {{ end }}

@@ -1,79 +1,72 @@
 {{ define "main" }}
-<div class="container install">
-  <main class="col mt-5 pr-5">
-    <div class="row">
-      <div class="col text-center">
-        <img src="/install/index.svg" style="max-width: 332px;"/>
-        <h1 class="article-title">{{ .Params.leadTitle }}</h1>
-        <p class="lead">{{ .Params.leadDescription }}</p>
-      </div>
+<div class="container">
+  <main class="mt-12">
+    <div class="flex flex-col items-center text-center">
+      <img src="/install/index.svg" class="max-w-[332px]" />
+      <h1 class="article-title">{{ .Params.leadTitle }}</h1>
+      <p class="lead">{{ .Params.leadDescription }}</p>
     </div>
-    <div class="row">
+    <div class="flex justify-center md:justify-between max-w-[920px] mx-auto items-center">
       {{ if eq .Params.platform "desktop" }}
-        {{ partial "install/desktop.html" . }}
+      {{ partial "install/desktop.html" . }}
       {{ else if eq .Params.platform "mobile" }}
-        {{ partial "install/mobile.html" . }}
+      {{ partial "install/mobile.html" . }}
       {{ else if eq .Params.platform "cli" }}
-        {{ partial "install/cli.html" . }}
+      {{ partial "install/cli.html" . }}
       {{ else }}
-        {{ partial "install/all.html" . }}
+      {{ partial "install/all.html" . }}
       {{ end }}
     </div>
   </main>
 </div>
-<div class="feature-container p-5 d-md-flex justify-content-center">
-  <div class="mx-3 d-flex flex-column align-items-center">
-    <img alt="globe icon" 
-      src="/install/web.png"
-      srcset="/install/web.png 1x, /install/web@2x.png 2x" />
-    <h2>Discover which websites are blocked</h2>
-    <p>Run OONI Probe to check which websites are blocked in your country.</p>
-  </div>
-  <div class="mx-3 d-flex flex-column align-items-center">
-    <img alt="fast icon"
-      src="/install/performance.png"
-      srcset="/install/performance.png 1x, /install/performance@2x.png 2x" />
-    <h2>Learn how fast your network is</h2>
-    <p>Measure the speed and performance of your network with the NDT test, developed
-      in collaboration with
-      <a href="https://www.measurementlab.net/"
-        target="_blank"
-        rel="noreferrer noopener">M-Lab</a>.
-    </p>
-  </div>
-  <div class="mx-3 d-flex flex-column align-items-center">
-    <img alt="app icon"
-      style="margin-bottom: 0.5em;"
-      src="/install/messaging.png"
-      srcset="/install/messaging.png 1x, /install/messaging@2x.png 2x" />
-    <h2>Check which apps are blocked</h2>
-    <p>Test WhatsApp, Facebook Messenger, and Telegram to check if they are blocked. Run
-      OONI Probe to check if circumvention tools work on your network.
-    </p>
+<div class=" bg-gray1 z-[5] py-12">
+  <div class="container">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-4 md:gap-6 lg:gap-10">
+      <div>
+        <img alt="globe icon" class="mx-auto mb-4" src="/install/web.png"
+          srcset="/install/web.png 1x, /install/web@2x.png 2x" />
+        <h2 class="text-xl mb-3 mt-14">Discover which websites are blocked</h2>
+        <p>Run OONI Probe to check which websites are blocked in your country.</p>
+      </div>
+      <div>
+        <img alt="fast icon" class="mx-auto mb-4" src="/install/performance.png"
+          srcset="/install/performance.png 1x, /install/performance@2x.png 2x" />
+        <h2 class="text-xl mb-3 mt-14">Learn how fast your network is</h2>
+        <p>Measure the speed and performance of your network with the NDT test, developed
+          in collaboration with
+          <a href="https://www.measurementlab.net/" target="_blank" rel="noreferrer noopener">M-Lab</a>.
+        </p>
+      </div>
+      <div>
+        <img alt="app icon" class="mx-auto mb-4" style="margin-bottom: 0.5em;" src="/install/messaging.png"
+          srcset="/install/messaging.png 1x, /install/messaging@2x.png 2x" />
+        <h2 class="text-xl mb-3 mt-14">Check which apps are blocked</h2>
+        <p>Test WhatsApp, Facebook Messenger, and Telegram to check if they are blocked. Run
+          OONI Probe to check if circumvention tools work on your network.
+        </p>
+      </div>
+    </div>
   </div>
 </div>
-<div class="container mt-5">
-  <div class="d-lg-flex justify-content-center">
-    <div class="col">
+<div class="container pt-8">
+  <div class="flex justify-center max-w-[1100px] mx-auto">
+    <div class="">
       <h1 class="article-title">
         Share evidence of internet censorship with the world
       </h1>
       <p class="mt-4">
         As soon as you run OONI Probe, your test results will automatically get
-        <a href="https://ooni.org/data/">published</a> in near real-time. By running 
+        <a href="https://ooni.org/data/">published</a> in near real-time. By running
         OONI Probe, you help increase transparency of internet censorship.
       </p>
       <a href="https://explorer.ooni.org/">Explore OONI measurements from around the world >></a>
     </div>
-    <img alt="OONI Explorer"
-          src="/install/explorer-browser.png"
-          srcset="/install/explorer-browser.png 1x, /install/explorer-browser@2x.png 2x"
-          class="xs-center explorer-screenshot" id="ooni-phone" />
-
+    <img alt="OONI Explorer" src="/install/explorer-browser.png"
+      srcset="/install/explorer-browser.png 1x, /install/explorer-browser@2x.png 2x"
+      id="ooni-phone" />
   </div>
 </div>
 {{ end }}
-
 
 {{ define "script" }}
 <script>
@@ -105,7 +98,7 @@
       }
     }
   }
-  (function() {
+  (function () {
     if (window.location.pathname.indexOf('/install/desktop') !== -1) {
       if (getOS() === 'Windows') {
         hideAllExceptID('ooni-desktop-btn', 'windows-download');
