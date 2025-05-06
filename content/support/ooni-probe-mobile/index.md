@@ -82,7 +82,7 @@ To learn more about potential risks associated with the use of OONI Probe, pleas
 
 ## Installing OONI Probe Mobile
 
-The OONI Probe mobile app is available for [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe), [F-Droid](https://f-droid.org/repository/browse/?fdid=org.openobservatory.ooniprobe), and [iOS](https://apps.apple.com/us/app/ooni-probe/id1199566366).
+The OONI Probe mobile app is available to download from [Google Play](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe), [F-Droid](https://f-droid.org/repository/browse/?fdid=org.openobservatory.ooniprobe), and [AppStore](https://apps.apple.com/us/app/ooni-probe/id1199566366).
 
 You can install the OONI Probe mobile app through the following steps:
 
@@ -90,7 +90,7 @@ You can install the OONI Probe mobile app through the following steps:
 
 {{<img src="images/image49.png" title="Measure Internet Censorship" alt="Measure Internet Censorship">}}
 
-**Step 2.** Depending on your operating system (Android, iOS, F-Droid), tap the relevant app store button.
+**Step 2.** Depending on your operating system (Android, iOS), tap the relevant app store button.
 
 {{<img src="images/image49.png" title="Install mobile app links" alt="Install mobile app links">}}
 
@@ -140,7 +140,7 @@ You will see that **True** is the correct answer. If you tap False, you will rec
 
 {{<img src="images/image83.jpg" title="Quiz correct" alt="Quiz correct">}}
 
-**Step 6.** If you would like the app to collect the measurements automatically, tap the **Sounds great** button. 
+**Step 6.** If you would like the app to collect the measurements automatically, tap the **Yes** button. 
 
 {{<img src="images/image118.jpg" title="Automatic measurements" alt="Automatic measurements">}}
 
@@ -156,7 +156,7 @@ You will see that **True** is the correct answer. If you tap False, you will rec
 
 {{<img src="images/image24.jpg" title="Onboarding default settings" alt="Onboarding default settings">}}
 
-**Step 9.** Tap **OK**.
+**Step 9.** Tap **Let's go**.
 
 You have now completed the onboarding process and are ready to start using OONI Probe!
 
@@ -171,7 +171,7 @@ The **Dashboard** of the OONI Probe mobile app includes 6 cards, each of which e
 * **Circumvention card.** Includes OONI’s [Tor](https://ooni.org/nettest/tor/) and [Psiphon](https://ooni.org/nettest/psiphon/) which check if these censorship circumvention tools are blocked.
 * **Performance card.** Includes the [NDT speed test](https://ooni.org/nettest/ndt/), the [DASH video streaming performance test](https://ooni.org/nettest/dash/), and OONI’s [middlebox](https://ooni.org/support/glossary/#middlebox) tests ([HTTP Header Field Manipulation](https://ooni.org/nettest/http-header-field-manipulation/) test and [HTTP Invalid Request Line](https://ooni.org/nettest/http-invalid-request-line/) test).
 * **Experimental card.** Includes multiple new experimental tests developed by the OONI team. These tests might change over time. You can view these tests [here](https://github.com/ooni/spec/tree/master/nettests).
-* **Installed OONI Run links.** Beneath all the cards you will see a section with the OONI Run links you have installed on your app. You can read more about OONI Run links [here](https://ooni.org/support/ooni-run/).
+* **Installed OONI Run links.** Beneath all the cards, you will see a section with the OONI Run links you have installed on your app. You will only see this card if you have installed some OONI Run links. When you first download the app, you won't see this card. You can read more about OONI Run links [here](https://ooni.org/support/ooni-run/).
 
 **Step 1.** Tap **Run** to run your first OONI Probe tests.
 
@@ -290,13 +290,17 @@ If you only want to measure the blocking of censorship circumvention tools, you 
 
 {{<img src="images/image150.jpg" title="Choose circumvention" alt="Choose circumvention">}}
 
-**Step 4.** Tap **Run 1 test** at the bottom of the screen.
+**Step 4.** Tap **Run 2 tests** at the bottom of the screen.
 
 {{<img src="images/image151.jpg" title="Run 1 test" alt="Run 1 test">}}
 
-Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/). You can opt out from publishing the results in the "Test options" settings of your app. 
+You are now running OONI’s [Tor](https://ooni.org/nettest/tor/) and [Psiphon VPN](https://ooni.org/nettest/psiphon/) tests to measure the blocking of these circumvention tools.
 
 {{<img src="images/image32.jpg" title="Running circumvention" alt="Running circumvention">}}
+
+Your OONI Probe test results will automatically get published on [OONI Explorer](https://explorer.ooni.org/) and on the [OONI API](https://api.ooni.io/). You can opt out from publishing the results in the "Test options" settings of your app. 
+
+If you would like to limit your testing to only Tor or Psiphon VPN, please refer to the **Configuring your OONI Probe settings** section of this guide.
 
 ### Manually measuring network performance
 
@@ -407,7 +411,7 @@ You will now see the [30 categories](https://github.com/citizenlab/test-lists/bl
 
 {{<img src="images/image75.jpg" title="Enable categories" alt="Enable categories">}}
 
-In the above example, we have enabled 5 categories ("LGBTQI", "Political Criticism", "News Media", "Human Rights", "Communication tools").
+In the above example, we have enabled 4 categories ("LGBTQI", "Political Criticism", "News Media", "Human Rights").
 
 You can revisit this setting anytime to enable or disable the website categories of your choice.
 
@@ -861,28 +865,6 @@ You can customize your use of OONI Probe through the settings.
 You can now see all of the OONI Probe app settings.
 
 In the following sections, we walk you through each setting.
-
-### Notifications
-
-You can enable **push notifications** to receive messages from the [OONI team](https://ooni.org/about/#contact).
-
-We primarily send out notifications when we hear of censorship in a particular country, encouraging OONI Probe users in that country to test the services that are reportedly blocked (or which appear blocked based on [OONI measurements](https://explorer.ooni.org/)). We generally don’t send push notifications too often.
-
-You can configure your push notification settings through the following steps:
-
-**Step 1.** Tap **Notifications** through the settings of your OONI Probe app.
-
-{{<img src="images/image114.jpg" title="Tap notification settings" alt="Tap notification settings">}}
-
-You will see that push notifications are disabled by default.
-
-{{<img src="images/image94.jpg" title="Notification settings screen" alt="Notification settings screen">}}
-
-**Step 2.** Enable the **Enabled** option to receive push notifications.
-
-{{<img src="images/image71.jpg" title="Enable notifications" alt="Enable notifications">}}
-
-By enabling push notifications, you may receive a message from us when and if we hear of a case of internet censorship in your country. In our message, we may provide an [OONI Run](https://run.ooni.org/) link for the testing of the specific services which are reportedly or seemingly blocked.
 
 ### Test options: Automatically Publish Results 
 
