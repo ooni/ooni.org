@@ -3,7 +3,7 @@ title: OONI Code of Conduct
 description: This Code of Conduct summarizes the guidelines followed by OONI Community members including employees, sponsors and contractors.
 aliases: ["/code-of-conduct"]
 ---
-**Last modified:** October 18, 2022
+**Last modified:** May 13, 2025
 
 **Version:** 1.2
 
@@ -93,10 +93,10 @@ The report will be received by all **Incident Response Committee members**:
 1. Elizaveta Yachmeneva (OONI), elizaveta@openobservatory.org 
 2. Amanda Meng (IODA), a.meng@gatech.edu 
 3. Felicia Anthonio (Access Now), felicia@accessnow.org   
-4. Kelly Koh (Sinar Project), kelly@sinarproject.org 
+4. Sam Ng (Sinar Project), sam@sinarproject.org 
 5. Maria Xynou (OONI), maria@openobservatory.org 
-6. Gurshabad Grover (OTF Information Controls Fellow), gurshabad@pm.me 
-7. Federico Ceratto (OONI), federico@openobservatory.org  
+6. Andres Azrupua (Conexión Segura y Libre), andres@veinteligente.org 
+7. Za'atar (Tor Project), zaatar@torproject.org  
 
 If you don’t feel comfortable sharing your report with the whole committee, please feel free to contact committee members individually.
 
