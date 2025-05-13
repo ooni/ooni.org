@@ -46,214 +46,36 @@ Per a recollir dades demostrant que llocs web relacionats amb el referèndum de 
 
 La taula següent recull les mesures de la xarxa obtingudes de tres ISP locals i mostra com i quins llocs web foren **bloquejats l’1 d’Octubre de 2017**, quan es celebrà el referèndum d’independència de Catalunya.
 
-<table class="table">
-<thead>
-<tr>
-<th>Domini</th>
-<th>AS12479</th>
-<th>AS3352</th>
-<th>AS12338</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>cat.referendum.barcelona</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fcat.referendum.barcelona"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fcat.referendum.barcelona"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fcat.referendum.barcelona"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendum.enricpineda.cat</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Freferendum.enricpineda.cat"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Freferendum.enricpineda.cat"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Freferendum.enricpineda.cat"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendum.legal</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.legal"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.legal"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.legal"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendum.party</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.party"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.party"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.party"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendum.ninja</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.ninja"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.ninja"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.ninja"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendum.love</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.love"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.love"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.love"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendum.fyi</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.fyi"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.fyi"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.fyi"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendum.rip</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.rip"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http%3A%2F%2Fwww.referendum.rip"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.rip"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendum.soy</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.soy"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http%3A%2F%2Fwww.referendum.soy"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.soy"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendum.lol</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.lol"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.lol"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.lol"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendum.voto</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.voto"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.voto"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.voto"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendum.works</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.works"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.works"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.works"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendum.observer</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.observer"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.observer"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.observer"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendum.fun</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.fun"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.fun"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.fun"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>alerta.cat</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Falerta.cat"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Falerta.cat"><em>No bloquejat</em></a>/Confiscat</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Falerta.cat"><em>No bloquejat</em></a>/Confiscat</td>
-</tr>
-
-<tr>
-<td>referendum.pirata.cat</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Freferendum.pirata.cat"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Freferendum.pirata.cat"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Freferendum.pirata.cat"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendum.pau.fm</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Freferendum.pau.fm"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Freferendum.pau.fm"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Freferendum.pau.fm"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendumcat.eu</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendumcat.eu"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendumcat.eu"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendumcat.eu"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>ref1oct.eu</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.ref1oct.eu"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.ref1oct.eu"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.ref1oct.eu"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>ref1oct.cat</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.ref1oct.cat"><em>No bloquejat</em></a>/Confiscat</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fref1oct.cat"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fref1oct.cat"><em>No bloquejat</em></a>/Confiscat</td>
-</tr>
-
-<tr>
-<td>ref1oct.net</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fref1oct.net"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fref1oct.net"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fref1oct.net"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>ref1oct.org</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fref1oct.org"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fref1oct.org"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fref1oct.org"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendum.zalo.nyc</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Freferendum.zalo.nyc"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Freferendum.zalo.nyc"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Freferendum.zalo.nyc"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendum.cat</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Freferendum.cat"><em>No bloquejat</em></a>/Confiscat</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Freferendum.cat"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Freferendum.cat"><em>No bloquejat</em></a>/Confiscat</td>
-</tr>
-
-<tr>
-<td>marianorajoy.cat</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.marianorajoy.cat"><em>No bloquejat</em></a>/Confiscat</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.marianorajoy.cat"><em>No bloquejat</em></a>/Confiscat</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.marianorajoy.cat"><em>No bloquejat</em></a>/Confiscat</td>
-</tr>
-
-<tr>
-<td>garantiespelreferendum.com</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fgarantiespelreferendum.com"><em>Manipulació de DNS</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fgarantiespelreferendum.com"><em>Bloqueig HTTP</em></a></td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fgarantiespelreferendum.com"><em>Manipulació de DNS</em></a></td>
-</tr>
-
-<tr>
-<td>referendum.clash.cat</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=https:%2F%2Freferendum.clash.cat"><em>No bloquejat</em></a>/Confiscat</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=https:%2F%2Freferendum.clash.cat"><em>No bloquejat</em></a>/Confiscat</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=https:%2F%2Freferendum.clash.cat"><em>No bloquejat</em></a>/Confiscat</td>
-</tr>
-
-<tr>
-<td>marianorajoy.clash.cat</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=https:%2F%2Fmarianorajoy.clash.cat"><em>No bloquejat</em></a>/Confiscat</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=https:%2F%2Fmarianorajoy.clash.cat"><em>No bloquejat</em></a>/Confiscat</td>
-<td><a href="https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=https:%2F%2Fmarianorajoy.clash.cat"><em>No bloquejat</em></a>/Confiscat</td>
-</tr>
-</tbody>
-
-</table>
+| Domini | AS12479 | AS3352 | AS12338 |
+|--------|---------|---------|---------|
+| cat.referendum.barcelona | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fcat.referendum.barcelona) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fcat.referendum.barcelona) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fcat.referendum.barcelona) |
+| referendum.enricpineda.cat | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Freferendum.enricpineda.cat) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Freferendum.enricpineda.cat) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Freferendum.enricpineda.cat) |
+| referendum.legal | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.legal) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.legal) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.legal) |
+| referendum.party | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.party) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.party) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.party) |
+| referendum.ninja | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.ninja) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.ninja) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.ninja) |
+| referendum.love | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.love) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.love) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.love) |
+| referendum.fyi | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.fyi) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.fyi) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.fyi) |
+| referendum.rip | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.rip) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http%3A%2F%2Fwww.referendum.rip) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.rip) |
+| referendum.soy | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.soy) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http%3A%2F%2Fwww.referendum.soy) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.soy) |
+| referendum.lol | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.lol) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.lol) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.lol) |
+| referendum.voto | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.voto) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.voto) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.voto) |
+| referendum.works | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.works) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.works) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.works) |
+| referendum.observer | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.observer) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.observer) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.observer) |
+| referendum.fun | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendum.fun) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendum.fun) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendum.fun) |
+| alerta.cat | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Falerta.cat) | [No bloquejat/Confiscat](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Falerta.cat) | [No bloquejat/Confiscat](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Falerta.cat) |
+| referendum.pirata.cat | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Freferendum.pirata.cat) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Freferendum.pirata.cat) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Freferendum.pirata.cat) |
+| referendum.pau.fm | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Freferendum.pau.fm) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Freferendum.pau.fm) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Freferendum.pau.fm) |
+| referendumcat.eu | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.referendumcat.eu) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.referendumcat.eu) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.referendumcat.eu) |
+| ref1oct.eu | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.ref1oct.eu) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.ref1oct.eu) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.ref1oct.eu) |
+| ref1oct.cat | [No bloquejat/Confiscat](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.ref1oct.cat) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fref1oct.cat) | [No bloquejat/Confiscat](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fref1oct.cat) |
+| ref1oct.net | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fref1oct.net) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fref1oct.net) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fref1oct.net) |
+| ref1oct.org | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fref1oct.org) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fref1oct.org) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fref1oct.org) |
+| referendum.zalo.nyc | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Freferendum.zalo.nyc) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Freferendum.zalo.nyc) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Freferendum.zalo.nyc) |
+| referendum.cat | [No bloquejat/Confiscat](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Freferendum.cat) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Freferendum.cat) | [No bloquejat/Confiscat](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Freferendum.cat) |
+| marianorajoy.cat | [No bloquejat/Confiscat](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fwww.marianorajoy.cat) | [No bloquejat/Confiscat](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fwww.marianorajoy.cat) | [No bloquejat/Confiscat](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fwww.marianorajoy.cat) |
+| garantiespelreferendum.com | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=http:%2F%2Fgarantiespelreferendum.com) | [Bloqueig HTTP](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=http:%2F%2Fgarantiespelreferendum.com) | [Manipulació de DNS](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=http:%2F%2Fgarantiespelreferendum.com) |
+| referendum.clash.cat | [No bloquejat/Confiscat](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=https:%2F%2Freferendum.clash.cat) | [No bloquejat/Confiscat](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=https:%2F%2Freferendum.clash.cat) | [No bloquejat/Confiscat](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=https:%2F%2Freferendum.clash.cat) |
+| marianorajoy.clash.cat | [No bloquejat/Confiscat](https://explorer.ooni.org/measurement/20171001T195749Z_AS12479_sPkqfpoY7fcTeZ8a3suP8ujlQTXMExcoUwGnXnArRi5l1xxMsr?input=https:%2F%2Fmarianorajoy.clash.cat) | [No bloquejat/Confiscat](https://explorer.ooni.org/measurement/20171001T155442Z_AS3352_WPrjXiNTPtG16TjdsHSLOY7mIpZgEDNhbloWOsg6wn69AwO8rC?input=https:%2F%2Fmarianorajoy.clash.cat) | [No bloquejat/Confiscat](https://explorer.ooni.org/measurement/20171001T072938Z_AS12338_JesS9rCt7C1xWtNgevggzjSNVDR6xG1j5T4RDFV7lYCURBmS7y?input=https:%2F%2Fmarianorajoy.clash.cat) |
 
 Moltes dels dominis bloquejats (com referendum.lol i referendum.ninja) a la taula superior son mirrors (còpies) del lloc web referendum.cat, [confiscat](https://www.theregister.co.uk/2017/09/23/spanish_government_criticized_over_catalan_internet_registry_raid/) fa més d’una setmana. Els [mirrors dels lloc web bloquejats](https://github.com/GrenderG/referendum_cat_mirror) han estat mantinguts per voluntaris utilitzant altres dominis (com .ninja, .lol i .party).
 
