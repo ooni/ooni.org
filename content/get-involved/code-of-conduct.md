@@ -90,13 +90,13 @@ If you believe you're subject to behavior that is not acceptable within our comm
 
 The report will be received by all **Incident Response Committee members**:
 
-1. Elizaveta Yachmeneva (OONI), elizaveta@openobservatory.org 
-2. Amanda Meng (IODA), a.meng@gatech.edu 
-3. Felicia Anthonio (Access Now), felicia@accessnow.org   
-4. Sam Ng (Sinar Project), sam@sinarproject.org 
-5. Maria Xynou (OONI), maria@openobservatory.org 
-6. Andres Azrupua (Conexión Segura y Libre), andres@veinteligente.org 
-7. Za'atar (Tor Project), zaatar@torproject.org  
+1. Elizaveta Yachmeneva ([OONI](https://ooni.org/)), elizaveta@openobservatory.org
+2. Maria Xynou ([OONI](https://ooni.org/)), maria@openobservatory.org 
+3. Amanda Meng ([IODA](https://ioda.inetintel.cc.gatech.edu/)), a.meng@gatech.edu 
+4. Felicia Anthonio ([Access Now](https://www.accessnow.org/)), felicia@accessnow.org   
+5. Sam Ng ([Sinar Project](https://sinarproject.org/)), sam@sinarproject.org 
+6. Andrés Azpúrua ([Conexión Segura y Libre](https://conexionsegura.org/)), andres@veinteligente.org 
+7. Za'atar ([Tor Project](https://www.torproject.org/)), zaatar@torproject.org  
 
 If you don’t feel comfortable sharing your report with the whole committee, please feel free to contact committee members individually.
 
