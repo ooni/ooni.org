@@ -21,7 +21,7 @@
     {{ if ne $imgRetina "" }}
     srcset="{{ $imgRetina.RelPermalink }} 2x"
     {{ end }}
-
+    {{ with .Get "width" }}width="{{ . }}" height="auto"{{ end }}
     {{ with .Get "title" }}title="{{ . }}"{{ end }}
     {{ if or (.Get "alt") (.Get "title") }}
     alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "title" }}{{ end }}"
