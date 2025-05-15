@@ -7,7 +7,9 @@ tags: ["country-ke", "censorship", "telegram", "theme-im", "theme-social_media"]
 categories: ["report"]
 ---
 
-This report supported a **[petition](https://blog.bake.co.ke/wp-content/uploads/2025/05/HCCHRPET.276.2025-ICJ-v-CA-Internet-Shutdown-Case.pdf)** filed at the High Court of Kenya in May 2025, challenging the unlawful disruption of internet access in Kenya. OONI data is used as evidence in support of this landmark public interest case. Learn more [here](https://blog.bake.co.ke/2025/05/14/bake-6-other-organizations-challenge-internet-shutdowns-in-kenya-in-landmark-public-interest-case/).
+This report supported a **[petition](https://blog.bake.co.ke/wp-content/uploads/2025/05/HCCHRPET.276.2025-ICJ-v-CA-Internet-Shutdown-Case.pdf)** filed at the High Court of Kenya in May 2025, challenging the unlawful disruption of internet access in Kenya. **OONI data is used as evidence in support of this landmark public interest case**. Learn more [here](https://blog.bake.co.ke/2025/05/14/bake-6-other-organizations-challenge-internet-shutdowns-in-kenya-in-landmark-public-interest-case/).
+
+{{< oonibtn href="/documents/ooni-report-kenya-telegram-blocking-kcse-exams.pdf" text="Download in PDF" >}}
 
 {{<table-of-contents>}}
 
