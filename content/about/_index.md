@@ -54,6 +54,6 @@ For real-time communication, you can reach us on [Slack](https://slack.ooni.org/
 
 Our physical mailing address is the following:
 
-{{< address title="Open Observatory of Network Interference (OONI)" address1="Via Ostiense 131L" address2="00154, Rome, Italy" >}}
+{{< address title="Open Observatory of Network Interference (OONI) ETS" address1="Via Baccio Baldini 12" address2="00146, Rome, Italy" >}}
 
 Tax ID: IT-96568220584
