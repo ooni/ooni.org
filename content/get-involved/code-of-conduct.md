@@ -114,7 +114,7 @@ As part of the enforcement of OONI’s Code of Conduct (CoC) and to ensure trans
 | 2023 | 0   | 0   |
 | 2024 | 0   | 0   |
 
-If you have any questions, concerns, feedback or suggestions regarding our functioning, please share those via the email address coc@openobservatory.org.
+If you have any questions, concerns, feedback or suggestions regarding our functioning, please share those to the following email address: coc@openobservatory.org.
 
 ## License and attribution
 
