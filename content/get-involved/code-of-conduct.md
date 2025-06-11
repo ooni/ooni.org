@@ -3,7 +3,7 @@ title: OONI Code of Conduct
 description: This Code of Conduct summarizes the guidelines followed by OONI Community members including employees, sponsors and contractors.
 aliases: ["/code-of-conduct"]
 ---
-**Last modified:** May 13, 2025
+**Last modified:** June 11, 2025
 
 **Version:** 1.2
 
