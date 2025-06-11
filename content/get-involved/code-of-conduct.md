@@ -104,6 +104,47 @@ The actions taken by the Incident Response Committee will vary on a case-by-case
 
 Please also contact the Committee or individual members if you have questions or concerns about the Code of Conduct, or if you would like to contribute any changes to it. 
 
+## Transparency report
+
+As part of the enforcement of OONI’s Code of Conduct (CoC) and to ensure transparency around our actions, we (as the Incident Response Committee) share a brief report of our activities in the past years.
+
+<table>
+  <tr>
+   <td>Year
+   </td>
+   <td>Number of received reports
+   </td>
+   <td>Number of addressed reports 
+   </td>
+  </tr>
+  <tr>
+   <td>2022
+   </td>
+   <td>0
+   </td>
+   <td>0
+   </td>
+  </tr>
+  <tr>
+   <td>2023
+   </td>
+   <td>0
+   </td>
+   <td>0
+   </td>
+  </tr>
+  <tr>
+   <td>2024
+   </td>
+   <td>0
+   </td>
+   <td>0
+   </td>
+  </tr>
+</table>                       
+
+If you have any questions, concerns, feedback or suggestions regarding our functioning, please share those via the email address coc@openobservatory.org.
+
 ## License and attribution
 
 This Code of Conduct is shared under a Creative Commons CC-BY-SA 4.0 International license.
