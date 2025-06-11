@@ -3,9 +3,9 @@ title: OONI Code of Conduct
 description: This Code of Conduct summarizes the guidelines followed by OONI Community members including employees, sponsors and contractors.
 aliases: ["/code-of-conduct"]
 ---
-**Last modified:** October 18, 2022
+**Last modified:** June 11, 2025
 
-**Version:** 1.2
+**Version:** 1.3
 
 # OONI Code of Conduct
 
@@ -90,19 +90,31 @@ If you believe you're subject to behavior that is not acceptable within our comm
 
 The report will be received by all **Incident Response Committee members**:
 
-1. Elizaveta Yachmeneva (OONI), elizaveta@openobservatory.org 
-2. Amanda Meng (IODA), a.meng@gatech.edu 
-3. Felicia Anthonio (Access Now), felicia@accessnow.org   
-4. Kelly Koh (Sinar Project), kelly@sinarproject.org 
-5. Maria Xynou (OONI), maria@openobservatory.org 
-6. Gurshabad Grover (OTF Information Controls Fellow), gurshabad@pm.me 
-7. Federico Ceratto (OONI), federico@openobservatory.org  
+1. Elizaveta Yachmeneva ([OONI](https://ooni.org/)), elizaveta@openobservatory.org
+2. Maria Xynou ([OONI](https://ooni.org/)), maria@openobservatory.org 
+3. Amanda Meng ([IODA](https://ioda.inetintel.cc.gatech.edu/)), a.meng@gatech.edu 
+4. Felicia Anthonio ([Access Now](https://www.accessnow.org/)), felicia@accessnow.org   
+5. Sam Ng ([Sinar Project](https://sinarproject.org/)), sam@sinarproject.org 
+6. Andrés Azpúrua ([Conexión Segura y Libre](https://conexionsegura.org/)), andres@conexionsegura.org
+7. Raya Sharbain ([Tor Project](https://www.torproject.org/)), raya@torproject.org
 
 If you don’t feel comfortable sharing your report with the whole committee, please feel free to contact committee members individually.
 
 The actions taken by the Incident Response Committee will vary on a case-by-case basis. We will make every effort to respond to the incident immediately. We will prioritize the safety of the person who has been harmed, or is at risk of harm. People who have been harmed or are at risk of harm can withdraw the incident report at any time. We will never act never do anything without the consent of the person who has been harmed or is at risk of harm, except in the situations where there is an imminent threat to the community.
 
 Please also contact the Committee or individual members if you have questions or concerns about the Code of Conduct, or if you would like to contribute any changes to it. 
+
+## Transparency report
+
+As part of the enforcement of OONI’s Code of Conduct (CoC) and to ensure transparency around our actions, we (as the Incident Response Committee) share a brief report of our activities in the past years.
+
+| Year | Number of received reports | Number of addressed reports |
+| --- | --- | --- |
+| 2022 | 0   | 0   |
+| 2023 | 0   | 0   |
+| 2024 | 0   | 0   |
+
+If you have any questions, concerns, feedback or suggestions regarding our functioning, please share those with the following email address: coc@openobservatory.org.
 
 ## License and attribution
 
