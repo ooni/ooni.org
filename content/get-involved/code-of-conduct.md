@@ -95,8 +95,8 @@ The report will be received by all **Incident Response Committee members**:
 3. Amanda Meng ([IODA](https://ioda.inetintel.cc.gatech.edu/)), a.meng@gatech.edu 
 4. Felicia Anthonio ([Access Now](https://www.accessnow.org/)), felicia@accessnow.org   
 5. Sam Ng ([Sinar Project](https://sinarproject.org/)), sam@sinarproject.org 
-6. Andrés Azpúrua ([Conexión Segura y Libre](https://conexionsegura.org/)), andres@veinteligente.org 
-7. Za'atar ([Tor Project](https://www.torproject.org/)), zaatar@torproject.org  
+6. Andrés Azpúrua ([Conexión Segura y Libre](https://conexionsegura.org/)), andres@conexionsegura.org
+7. Raya Sharbain ([Tor Project](https://www.torproject.org/)), raya@torproject.org
 
 If you don’t feel comfortable sharing your report with the whole committee, please feel free to contact committee members individually.
 
