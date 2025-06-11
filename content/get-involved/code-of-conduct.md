@@ -5,7 +5,7 @@ aliases: ["/code-of-conduct"]
 ---
 **Last modified:** June 11, 2025
 
-**Version:** 1.2
+**Version:** 1.3
 
 # OONI Code of Conduct
 
