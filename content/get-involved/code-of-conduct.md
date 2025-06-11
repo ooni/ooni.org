@@ -109,6 +109,7 @@ Please also contact the Committee or individual members if you have questions or
 As part of the enforcement of OONI’s Code of Conduct (CoC) and to ensure transparency around our actions, we (as the Incident Response Committee) share a brief report of our activities in the past years.
 
 | Year | Number of received reports | Number of addressed reports |
+| --- | --- | --- |
 | 2022 | 0   | 0   |
 | 2023 | 0   | 0   |
 | 2024 | 0   | 0   |
