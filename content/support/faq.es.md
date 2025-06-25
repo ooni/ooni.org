@@ -273,9 +273,9 @@ Hay muchas formas de involucrarse.
 
 * **[Sugiera URL para test](https://ooni.org/get-involved/contribute-test-lists/)**. Los resultados de la censura son tan interesantes como los sitios web que se comprueban. Por favor, ayúdenos a mejorar la calidad de las mediciones añadiendo sitios web que crea que deberían ser analizados.
 
-* **[Traduzca las aplicaciones de OONI Probe](https://www.transifex.com/otf/ooniprobe/)**. [Traduciendo las aplicaciones de OONI Probe](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md), estará permitiendo a más comunidades medir la censura en Internet.
+* **[Traduzca las aplicaciones de OONI Probe](https://explore.transifex.com/otf/ooniprobe/)**. [Traduciendo las aplicaciones de OONI Probe](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md), estará permitiendo a más comunidades medir la censura en Internet.
 
-* **[Traduzca el Explorador de OONI](https://www.transifex.com/otf/ooni-explorer/)**. [Traduciendo el Explorador de OONI](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Explorer.md), permite a más comunidades acceder a datos de medición de la censura.
+* **[Traduzca el Explorador de OONI](https://explore.transifex.com/otf/ooni-explorer/)**. [Traduciendo el Explorador de OONI](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Explorer.md), permite a más comunidades acceder a datos de medición de la censura.
 
 * **Participe en los debates de la comunidad**. Únase a nosotros en nuestro canal de [Slack](https://slack.ooni.org/) o IRC (ircs://irc.oftc.net:6697/#ooni) para discusiones en tiempo real, e inscríbase en nuestra [lista de correo](https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk) para recibir actualizaciones y compartir noticias.
 
