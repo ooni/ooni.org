@@ -501,7 +501,7 @@ Press freedom and internet freedom in Cambodia are increasingly under threat. In
 
 OONI data showed 43 highly likely blocked websites that are censored by DNS, mainly by VIETTEL (CAMBODIA) PTE., LTD. (AS38623), S.I Group (AS38623) and CAMGSM Company Ltd (AS17976). These websites include news and media websites, and thus raises concern about press freedom, internet freedom and censorship in Cambodia.  However, as data from Cambodia currently do not show any block pages, more measurements may be needed in the next round of reporting to make more substantial conclusions.
 
-Based on the analysis and findings of the report, we reiterate the commendations made by the OHCHR. So, it is recommended that the State review and revise its current and pending legislation, including the Sub-Decree on National Internet Gateway and the amendments to the Press Law and the draft laws on cybercrimes and on access to information to avoid the use of vague terminology and overly broad restrictions. The UN Human Rights Committee further recommended the State to ensure that in the formulation and enforcement of its legislation, including Ministerial Sub-Decrees, any restrictions on the exercise of freedom of expression and association comply with the strict requirements of articles 19 (3) and 22 of the Covenant.
+Based on the analysis and findings of the report, we reiterate the recommendations made by the OHCHR. So, it is recommended that the State review and revise its current and pending legislation, including the Sub-Decree on National Internet Gateway and the amendments to the Press Law and the draft laws on cybercrimes and on access to information to avoid the use of vague terminology and overly broad restrictions. The UN Human Rights Committee further recommended the State to ensure that in the formulation and enforcement of its legislation, including Ministerial Sub-Decrees, any restrictions on the exercise of freedom of expression and association comply with the strict requirements of articles 19 (3) and 22 of the Covenant.
 
 
 ### Contribute to the study
@@ -512,7 +512,7 @@ There are various ways one may contribute to the OONI measurements:
 
 * Testing: You may test on [various platforms](https://ooni.org/install/), both on Mobile (iOS and Android) and Desktop, including on the CLI on Linux platforms. The domains you test can be either randomly selected from the [Citizenlab Test Lists](https://github.com/citizenlab/test-lists) or custom test lists specific to your needs.
 * Contribute to the test lists: You can contribute to the test lists on GitHub or on [OONI](https://test-lists.ooni.org/).
-* Translate the OONI Probe to your local language [here](https://www.transifex.com/otf/ooniprobe/).
+* Translate the OONI Probe to your local language [here](https://explore.transifex.com/otf/ooniprobe/).
 * Participate in community discussions on the [OONI’s Slack channel](https://slack.ooni.org/)
 
 
