@@ -82,7 +82,7 @@ Try out the new OONI Probe mobile app! It’s available for
 and [iOS](https://apps.apple.com/us/app/id1199566366).
 
 Thanks to support from the [Localization Lab](https://www.localizationlab.org/) community, the app has been
-[translated](https://www.transifex.com/otf/ooniprobe/dashboard/) to
+[translated](https://explore.transifex.com/otf/ooniprobe/dashboard/) to
 the following 15 languages: Arabic, Farsi, Chinese, Russian, Hindi,
 Spanish, French, Portuguese, Catalan, Turkish, Italian, Albanian, Greek,
 Slovak, German.
