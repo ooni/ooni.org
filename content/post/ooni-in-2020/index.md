@@ -78,7 +78,7 @@ censorship -- in your app.
 
 Thanks to the [Localization Lab](https://www.localizationlab.org/)
 community, the OONI Probe desktop app has been
-[translated](https://www.transifex.com/otf/ooniprobe/) to the
+[translated](https://explore.transifex.com/otf/ooniprobe/) to the
 following **17 languages**: *Chinese, Russian, Spanish, Catalan, French,
 Hindi, Indonesian, Thai, Turkish, Italian, Portuguese, German, Romanian,
 Slovak, Albanian, Icelandic, and Greek*. The app has also been
