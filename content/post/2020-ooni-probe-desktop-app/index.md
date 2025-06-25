@@ -40,7 +40,7 @@ opt-out in the app settings), to increase transparency of internet
 censorship and other forms of network interference.
 
 Thanks to support from the [Localization Lab](https://www.localizationlab.org/) community, the new OONI Probe
-desktop app has already been **[translated to 12 languages](https://www.transifex.com/otf/ooniprobe/)**: Chinese,
+desktop app has already been **[translated to 12 languages](https://explore.transifex.com/otf/ooniprobe/)**: Chinese,
 Russian, Spanish, French, Turkish, Thai, Italian, Greek,
 Catalan, Slovak, Portuguese, and German.
 
