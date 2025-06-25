@@ -280,7 +280,7 @@ aliases:
 
 * **[آدرس های اینترنتی را برای آزمایش پیشنهاد دهید](https://ooni.org/get-involved/contribute-test-lists/)**. یافته های سانسور فقط به اندازه وب سایت هایی که مورد آزمایش قرار می گیرند جالب هستند. لطفا با افزودن وب سایت هایی که فکر می کنید باید بررسی شوند، ما را در بهبود کیفیت اندازه گیری ها یاری کنید!
 
-* **[برنامه های کاوشگر اوونی را ترجمه کنید](https://www.transifex.com/otf/ooniprobe/)**. با ترجمه برنامه های [کاوشگر اوونی،](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md) جوامع بیشتری را قادر خواهید ساخت تا سانسور اینترنت را بررسی کنند.
+* **[برنامه های کاوشگر اوونی را ترجمه کنید](https://explore.transifex.com/otf/ooniprobe/)**. با ترجمه برنامه های [کاوشگر اوونی،](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md) جوامع بیشتری را قادر خواهید ساخت تا سانسور اینترنت را بررسی کنند.
 
 * **[ترجمه جستجوگر اوونی](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md)**. با ترجمه جستجوگر اوونی، جوامع بیشتری را قادر می سازید تا به داده های بررسی سانسور دسترسی داشته باشند.
 
