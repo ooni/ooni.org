@@ -353,11 +353,11 @@ The censorship findings are only as interesting as the websites
 that are tested. Please help us improve the quality of
 measurements by adding websites that you think should be tested!
 
-* **[Translate the OONI Probe apps](https://www.transifex.com/otf/ooniprobe/)**.
+* **[Translate the OONI Probe apps](https://explore.transifex.com/otf/ooniprobe/)**.
 By [translating the OONI Probe apps](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md), you are enabling
 more communities to measure internet censorship.
 
-* **[Translate OONI Explorer](https://www.transifex.com/otf/ooni-explorer/)**. By [translating OONI Explorer](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Explorer.md), you are enabling more communities to access censorship measurement data.
+* **[Translate OONI Explorer](https://explore.transifex.com/otf/ooni-explorer/)**. By [translating OONI Explorer](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Explorer.md), you are enabling more communities to access censorship measurement data.
 
 * **Participate in community discussions.** Join us on our
 [Slack](https://slack.ooni.org/) or IRC (ircs://irc.oftc.net:6697/#ooni) channel for real-time discussions,
