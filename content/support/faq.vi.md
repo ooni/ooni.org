@@ -252,9 +252,9 @@ Có nhiều cách để bạn đóng góp!
 
 * **[Đề nghị URLs để kiểm tra](https://ooni.org/get-involved/contribute-test-lists/)**. Kết quả tìm kiếm hữu ích hay không tùy vào các trang web được kiểm tra. Xin giúp chúng tôi gia tăng chất lượng đo lường bằng cách thêm các trang web mà bạn nghĩ nên kiểm tra.
 
-* **[Dịch ứng dụng OONI Probe](https://www.transifex.com/otf/ooniprobe/)**. Khi [dịch ứng dụng OONI Probe](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md), sang ngôn ngữ khác, bạn giúp có thêm các cộng đồng đo lường kiểm duyệt internet.
+* **[Dịch ứng dụng OONI Probe](https://explore.transifex.com/otf/ooniprobe/)**. Khi [dịch ứng dụng OONI Probe](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md), sang ngôn ngữ khác, bạn giúp có thêm các cộng đồng đo lường kiểm duyệt internet.
 
-* **[Dịch OONI Explorer](https://www.transifex.com/otf/ooni-explorer/)**. Khi [dịch OONI Explorer](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Explorer.md), bạn giúp các cộng đồng tiếp cận được với dữ liệu đo lường kiểm duyệt.
+* **[Dịch OONI Explorer](https://explore.transifex.com/otf/ooni-explorer/)**. Khi [dịch OONI Explorer](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Explorer.md), bạn giúp các cộng đồng tiếp cận được với dữ liệu đo lường kiểm duyệt.
 
 * **Tham dự các cuộc thảo luận cộng đồng.** Kết nối với chúng tôi qua các kênh [Slack](https://slack.ooni.org/) hoặc IRC (ircs://irc.oftc.net:6697/#ooni) để trao đổi trực tiếp, và ghi danh vào  [mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk) để nhận cập nhật thông tin và chia sẻ tin tức.
 
