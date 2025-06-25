@@ -786,7 +786,7 @@ Você pode alterar o idioma do seu aplicativo de desktop OONI Probe por meio das
 
 Seu aplicativo de desktop OONI Probe agora mudou para o idioma selecionado.
 
-Se você gostaria de revisar e/ou contribuir com uma tradução da Sonda OONI, considere [juntar-se a nós na Transifex](https://www.transifex.com/otf/ooniprobe/).
+Se você gostaria de revisar e/ou contribuir com uma tradução da Sonda OONI, considere [juntar-se a nós na Transifex](https://explore.transifex.com/otf/ooniprobe/).
 
 ### Opções de teste
 
