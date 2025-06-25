@@ -420,7 +420,7 @@ There are various ways one may contribute to the OONI measurements:
 
 * Testing: You may test on [various platforms](https://ooni.org/install/), both on Mobile (iOS and Android) and Desktop, including on the CLI on Linux platforms. The domains you test can be either randomly selected from the [Citizen Lab Test Lists](https://github.com/citizenlab/test-lists) or custom test lists specific to your needs.*
 * Contribute to the test lists: You can contribute to the test lists on GitHub or on [OONI](https://test-lists.ooni.org/).
-* Translate the OONI Probe to your local language [here](https://www.transifex.com/otf/ooniprobe/).
+* Translate the OONI Probe to your local language [here](https://explore.transifex.com/otf/ooniprobe/).
 * Participate in community discussions on the [OONI’s Slack channel](https://slack.ooni.org/)
 
 Note: Specific to Hong Kong users, it is recommended to avoid using China-based DNS resolvers and instead, to use an alternative resolver or an encrypted DNS solution like DoH.
