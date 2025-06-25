@@ -6,7 +6,7 @@ title: Localization Lab
 website: https://www.localizationlab.org/
 reports:
 - text: "OONI Probe app translations"
-  link: "https://www.transifex.com/otf/ooniprobe/"
+  link: "https://explore.transifex.com/otf/ooniprobe/"
 - text: "OONI Probe - Localization Lab Wiki"
   link: "https://wiki.localizationlab.org/index.php/OONI_Probe"
 - text: "Guidelines: Translating the OONI Probe apps"
