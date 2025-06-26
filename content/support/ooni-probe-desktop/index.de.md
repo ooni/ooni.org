@@ -786,7 +786,7 @@ Mit den folgenden Schritten kannst du die Sprache deiner OONI Probe Desktop-App 
 
 Deine OONI Probe Desktop-Applikation ist nun auf die von dir gewählte Sprache umgeschaltet.
 
-Wenn du eine OONI-Probe-Übersetzung überprüfen und/oder beisteuern möchtest, ziehe es bitte in Erwägung, [uns auf Transifex](https://www.transifex.com/otf/ooniprobe/) beizutreten.
+Wenn du eine OONI-Probe-Übersetzung überprüfen und/oder beisteuern möchtest, ziehe es bitte in Erwägung, [uns auf Transifex](https://explore.transifex.com/otf/ooniprobe/) beizutreten.
 
 ### Testoptionen
 

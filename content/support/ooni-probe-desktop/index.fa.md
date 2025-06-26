@@ -784,7 +784,7 @@ Middlebox یک دستگاه شبکه کامپیوتری است که ترافیک
 
 برنامه دسکتاپ OONI Probe شما اکنون به زبانی که انتخاب کرده‌اید تغییر کرده است.
 
-اگر می‌خواهید ترجمه OONI Probe را مرور کنید و یا در آن مشارکت کنید، [به ما در Transifex بپیوندید](https://www.transifex.com/otf/ooniprobe/).
+اگر می‌خواهید ترجمه OONI Probe را مرور کنید و یا در آن مشارکت کنید، [به ما در Transifex بپیوندید](https://explore.transifex.com/otf/ooniprobe/).
 
 ### گزینه‌های آزمون
 

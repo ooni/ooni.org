@@ -918,7 +918,7 @@ and [Ethiopia](https://freedomhouse.org/country/ethiopia/freedom-net/2021).
 facilitated an Internet Shutdown Training for human rights
 defenders in Tanzania, which included several OONI training
 sessions. Zaina Foundation shared community feedback with us and
-coordinated with local communities on [translating OONI Probe to Swahili](https://www.transifex.com/otf/ooniprobe/).
+coordinated with local communities on [translating OONI Probe to Swahili](https://explore.transifex.com/otf/ooniprobe/).
 
 * **OONI documentation in Farsi.** Iranian community members created
 [detailed and comprehensive documentation](https://wikicensorship.github.io/fa/docs/measure-internet-censorship/OONI/)

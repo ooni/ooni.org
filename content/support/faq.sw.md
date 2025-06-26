@@ -264,9 +264,9 @@ Kuna namna nyingi ambazo unaweza kujihusisha na OONI!
 
 * **[Pendekeza URLs za kupima](https://ooni.org/get-involved/contribute-test-lists/)**. Matokeo ya udhibiti wa mtandao yanavutia pale zinapopimwa tovuti tu. Tafadhali tusaidie kuboresha ubora wa vipimo kwa kupendekeza tovuti ambazo unafikiri zinatakiwa kupimwa!
 
-* **[Tafsiri programu ya OONI Probe](https://www.transifex.com/otf/ooniprobe/)**. [Kwa kutafsiri programu ya OONI Probe](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md) unasaidia jamii nyingi kupima udhibiti wa mtandao.
+* **[Tafsiri programu ya OONI Probe](https://explore.transifex.com/otf/ooniprobe/)**. [Kwa kutafsiri programu ya OONI Probe](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md) unasaidia jamii nyingi kupima udhibiti wa mtandao.
 
-* **[Tafsiri OONI Explorer](https://www.transifex.com/otf/ooni-explorer/)**. [Tafsiri OONI Explorer](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Explorer.md), unawezesha jamii kubwa kupata data za vipimo vya udhibiti.
+* **[Tafsiri OONI Explorer](https://explore.transifex.com/otf/ooni-explorer/)**. [Tafsiri OONI Explorer](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Explorer.md), unawezesha jamii kubwa kupata data za vipimo vya udhibiti.
 
 * **Kushiriki kwenye mijadala ya jamii**. Jiunge nasi kwenye chaneli zetu za [Slack](https://slack.ooni.org/) au IRC (ircs://irc.oftc.net:6697/#ooni)kwa majadiliano ya mubashara, na juinge kwenye [orodha za barua pepe](https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk) kupokea taarifa mpya.
 

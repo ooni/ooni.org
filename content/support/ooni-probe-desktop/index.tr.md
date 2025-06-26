@@ -786,7 +786,7 @@ OONI Probe Desktop uygulamasının dilini şu adımları izleyerek değiştirebi
 
 Böylece OONI Probe Desktop uygulamanızı seçtiğiniz dilde kullanabilirsiniz.
 
-Bir OONI Probe çevirisini değerlendirmek ve/veya katkıda bulunmak istiyorsanız, lütfen [Transifex üzerinde bize katılın](https://www.transifex.com/otf/ooniprobe/).
+Bir OONI Probe çevirisini değerlendirmek ve/veya katkıda bulunmak istiyorsanız, lütfen [Transifex üzerinde bize katılın](https://explore.transifex.com/otf/ooniprobe/).
 
 ### Sınama seçenekleri
 

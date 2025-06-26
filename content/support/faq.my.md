@@ -184,10 +184,10 @@ OONI သည် အမြတ်အစွန်းအတွက်မဟုတ်�
  * **[စမ်းသပ်ခြင်းအတွက် URLs များကို အကြံပြုခြင်း။](https://ooni.org/get-involved/contribute-test-lists/)**
 စမ်းသပ်သည့်ဝဘ်ဆိုက်များနည်းတူ အင်တာနက်ဆင်ဆာဖြတ်တောက်မှု တွေ့ရှိချက်များသည်လည်း စိတ်ဝင်စားဖွယ်ဖြစ်ပါသည်။ စမ်းသပ်သင့်သည်ဟု သင် ယူဆသော ဝဘ်ဆိုက်များအား ဖြည့်စွက်ပေးပို့ခြင်းဖြင့် တိုင်းတာမှုအရည်အသွေးကို ပိုမိုတိုးတက်ကောင်းမွန်စေရန် ကျွန်ုပ်တို့ကို ကူညီနိုင်ပါသည်။
   
- * **[OONI Probe apps ကို ဘာသာပြန်ဆိုခြင်း။](https://www.transifex.com/otf/ooniprobe/)**
+ * **[OONI Probe apps ကို ဘာသာပြန်ဆိုခြင်း။](https://explore.transifex.com/otf/ooniprobe/)**
  [OONI Probe အပလီကေးရှင်းများကို ဘာသာပြန်ဆိုခြင်း](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md) ဖြင့် အင်တာနက်ဆင်ဆာဖြတ်တောက်မှုကို တိုင်းတာမည့် လူမှုအဖွဲ့အစည်းများ ပိုမိုများပြားလာစေရန် သင်က ကူညီနိုင်သည်။ 
   
- * **[OONI Explorer ကို ဘာသာပြန်ဆိုခြင်း](https://www.transifex.com/otf/ooni-explorer/)**
+ * **[OONI Explorer ကို ဘာသာပြန်ဆိုခြင်း](https://explore.transifex.com/otf/ooni-explorer/)**
  [OONI Explorer ကို ဘာသာပြန်ဆိုခြင်း](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Explorer.md) ဖြင့် ဆင်ဆာဖြတ်တောက်မှုဆိုင်ရာ တိုင်းတာမှုအချက်အလက်များကို ဝင်ရောက်ရယူမည့် လူမှုအဖွဲ့အစည်းများ ပိုမိုများပြားလာစေရန်  သင်က ကူညီနိုင်သည်။ 
   
  * **လူမှုအဖွဲ့အစည်း ညှိနှိုင်းဆွေးနွေးမှုများတွင် ပါဝင်ဆောင်ရွက်ခြင်း။** အချိန်နှင့်တပြေးညီ ဆွေးနွေးမှုများအတွက် [Slack](https://slack.ooni.org/) သို့မဟုတ် IRC (ircs://irc.oftc.net:6697/#ooni) လမ်းကြောင်းတွင် ပါဝင်နိုင်ပြီး၊ နောက်ဆုံးရသတင်းများ ရယူရန်နှင့် အချက်အလက်များ မျှဝေရန်အတွက် ကျွန်ုပ်တို့၏ [စာပြန်ရမည့်ပုဂ္ဂိုလ်များစာရင်း (Mailing List)](https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk) တွင် အမည်စာရင်းပေးသွင်းပါ။

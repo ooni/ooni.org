@@ -785,7 +785,7 @@ Bạn có thể thay đổi ngôn ngữ cho giao diện của OONI Probe Desktop
 
 Giao diện của OONI Probe Desktop sẽ đổi qua ngôn ngữ bạn chọn.
 
-Nếu bạn muốn duyệt xét và/hoặc đóng góp vào phần dịch thuật cho OONI Probe, hãy [tham gia với chúng tôi trong Transifex](https://www.transifex.com/otf/ooniprobe/).
+Nếu bạn muốn duyệt xét và/hoặc đóng góp vào phần dịch thuật cho OONI Probe, hãy [tham gia với chúng tôi trong Transifex](https://explore.transifex.com/otf/ooniprobe/).
 
 ### Các tùy chọn kiểm tra
 
