@@ -9,8 +9,6 @@ categories: ["report"]
 
 {{<img src="images/image28.png" title="Title illustration" alt="Title illustration">}}
 
-
-
 ## Acknowledgements
 
 This study was conducted by Digitally Right in collaboration with the Open Observatory of Network Interference (OONI). Key contributors include Tohidul Islam Raso from Digitally Right, with Maria Xynou and Elizaveta Yachmeneva from OONI. Suhadha Afrin, a Tech Policy Fellow at Digitally Right and journalist at Prothom Alo, also contributed to the research and documentation for this report. The research has been reviewed by Miraj Ahmed Chowdhury from Digitally Right. 
@@ -316,8 +314,7 @@ While government officials publicly acknowledged the mobile shutdown, conflictin
 
 Grameenphone, the country’s largest mobile operator, [told the Daily Star](https://archive.ph/TjybE) that mobile internet had been shut down by government order, citing the State Minister, who had attributed the disruption to a fire allegedly caused by an arson attack. He claimed the incident damaged a nearby data center and disrupted connectivity. The following day, BTRC issued a mobile alert repeating the claim. However, this explanation was challenged by the [Internet Service Providers Association of Bangladesh](https://archive.ph/TjybE) (ISPAB), which clarified that the fire had occurred in an adjacent building and affected only a small number of overhead cables, impacting no more than 20 percent of the national network. ISPAB stated that no data center was directly affected.
 
-
-{{<img src="images/image9.pjpg" title="BTRC message" alt="BTRC message">}}
+{{<img src="images/image9.jpg" title="BTRC message" alt="BTRC message">}}
 
 **Image 4:** BTRC sent a mobile message stating that internet services had been disrupted due to a fire at the Mohakhali Data Center. Source: The Daily Star
 
