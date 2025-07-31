@@ -7,19 +7,17 @@ tags: ["country-bd", "censorship", "bangladesh", "theme-social_media", "theme-hu
 categories: ["report"]
 ---
 
-{{<img src="images/image28.png" title="Title illustration" alt="Title illustration">}}
-
-{{<table-of-contents>}}
-
-{{< oonibtn href="/documents/2025-bd-report-en.pdf" text="Download in PDF" >}}
-
-## Acknowledgements
-
 This study was conducted by Digitally Right in collaboration with the Open Observatory of Network Interference (OONI). Key contributors include Tohidul Islam Raso from Digitally Right, with Maria Xynou and Elizaveta Yachmeneva from OONI. Suhadha Afrin, a Tech Policy Fellow at Digitally Right and journalist at Prothom Alo, also contributed to the research and documentation for this report. The research has been reviewed by Miraj Ahmed Chowdhury from Digitally Right. 
 
 Digitally Right is equally grateful to our Network Measurement Fellows across Bangladesh, whose work in tracking disruptions and documenting censorship during the protests helped verify and strengthen our findings. We also thank the journalists whose extensive coverage of the shutdowns provided a vital foundation for this report and the individuals affiliated with operators and service provider organizations who provided interviews and shared relevant information that informed this analysis.
 
 We hope this report contributes to a clearer understanding of the July–August 2024 internet shutdowns in Bangladesh and serves as a foundation for future research into network disruptions and digital rights in Bangladesh.
+
+{{< oonibtn href="/documents/2025-bd-report-en.pdf" text="Download in PDF" >}}
+
+{{<table-of-contents>}}
+
+{{<img src="images/image28.png" title="Title illustration" alt="Title illustration">}}
 
 ## Executive Summary 
 
