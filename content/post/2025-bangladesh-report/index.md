@@ -9,6 +9,8 @@ categories: ["report"]
 
 {{<img src="images/image28.png" title="Title illustration" alt="Title illustration">}}
 
+{{<table-of-contents>}}
+
 {{< oonibtn href="/documents/2025-bd-report-en.pdf" text="Download in PDF" >}}
 
 ## Acknowledgements
@@ -36,8 +38,6 @@ Key findings include:
 * **Multi-layered methods of control**: The state employed diverse tactics, from complete shutdowns of mobile and broadband services to throttling, cache server shutdowns, and selective blocking of social media, messaging apps, and circumvention tools.
 * **Opacity and fragmented authority**: Most measures were ordered informally, often via WhatsApp, with overlapping roles played by the ministry of ICT, BTRC, NTMC, and Department of Telecommunications. Conflicting public statements and a lack of formal orders left citizens and journalists unable to verify or challenge restrictions in real time.
 * **Crackdown on circumvention:** Authorities extended controls to VPNs, including ProtonVPN, NordVPN, and TunnelBear, hindering efforts to bypass censorship and share evidence of abuses, particularly during the July 31–August 5 phase.
-
-{{<table-of-contents>}}
 
 ## List of acronyms 
 
