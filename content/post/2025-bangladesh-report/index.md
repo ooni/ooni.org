@@ -9,6 +9,8 @@ categories: ["report"]
 
 {{<img src="images/image28.png" title="Title illustration" alt="Title illustration">}}
 
+{{< oonibtn href="/documents/2025-bd-report-en.pdf" text="Download in PDF" >}}
+
 ## Acknowledgements
 
 This study was conducted by Digitally Right in collaboration with the Open Observatory of Network Interference (OONI). Key contributors include Tohidul Islam Raso from Digitally Right, with Maria Xynou and Elizaveta Yachmeneva from OONI. Suhadha Afrin, a Tech Policy Fellow at Digitally Right and journalist at Prothom Alo, also contributed to the research and documentation for this report. The research has been reviewed by Miraj Ahmed Chowdhury from Digitally Right. 
