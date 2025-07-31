@@ -540,220 +540,133 @@ At a moment of mass mobilization and regime change, control over digital connect
 
 ## References
 
-Abdullah, M. (2024, August 13). Probe reveals deliberate internet blackout to suppress quota reform movement. *Dhaka Tribune*. https://www.dhakatribune.com/bangladesh/354596/btrc-ntmc-behind-internet-shutdown-palak-issued
-
-Abdullah, S. (2024, November 5). *Shutdown watch: Building a community against internet shutdowns in bangladesh*. Internet Society Pulse.[ https://pulse.internetsociety.org/blog/shutdown-watch-building-a-community-against-internet-shutdowns-in-bangladesh](https://pulse.internetsociety.org/blog/shutdown-watch-building-a-community-against-internet-shutdowns-in-bangladesh)
-
-Afrin, S. (2024, August 13). *BTRC and NTMC shut down internet, Palak phoned too*. Prothomalo. https://en.prothomalo.com/bangladesh/7rh73pjode
-
-Ahmed, R. (2024, July 28). *Government itself shut down internet*. Prothomalo. https://en.prothomalo.com/bangladesh/iv2dsrbrfk
-
-Ali, A. C., Marium. (n.d.). *How bangladesh’s ‘gen z’ protests brought down pm sheikh hasina*. Al Jazeera. Retrieved July 28, 2025, from https://www.aljazeera.com/news/longform/2024/8/7/how-bangladeshs-gen-z-protests-brought-down-pm-sheikh-hasina
-
-*All public, private universities closed indefinitely; students asked to vacate halls*. (2024, July 16). The Business Standard.[ https://www.tbsnews.net/bangladesh/education/all-public-private-universities-closed-indefinitely-901056](https://www.tbsnews.net/bangladesh/education/all-public-private-universities-closed-indefinitely-901056)
-
-bdnews24.com. (2015, November 18). Internet access restored in Bangladesh after brief shutdown. *Internet Access Restored in Bangladesh After Brief Shutdown*. https://bdnews24.com/bangladesh/internet-access-restored-in-bangladesh-after-brief-shutdown
-
-Bergin, J., Lim, L., Nyein, N., & Nachemson, A. (2022, August 29). Flicking the kill switch: Governments embrace internet shutdowns as a form of control. *The Guardian*.[ https://www.theguardian.com/technology/2022/aug/29/flicking-the-kill-switch-governments-embrace-internet-shutdowns-as-a-form-of-control](https://www.theguardian.com/technology/2022/aug/29/flicking-the-kill-switch-governments-embrace-internet-shutdowns-as-a-form-of-control)
-
-Broadband, 4G internet services restored. (2024, August 5). *Dhaka Tribune*.[ https://www.dhakatribune.com/bangladesh/353724/broadband-internet-service-restored-after-3-hours](https://www.dhakatribune.com/bangladesh/353724/broadband-internet-service-restored-after-3-hours)
-
-Broadband internet restored in limited areas after blackout. (2024, July 24). *Dhaka Tribune*. https://www.dhakatribune.com/bangladesh/352554/broadband-internet-restored-in-limited-areas-after
-
-*Broadband, mobile internet restored*. (2024, August 5). The Business Standard. https://www.tbsnews.net/bangladesh/broadband-internet-disrupted-places-dhaka-910011
-
-BSS. (2024, July 29). *Quota movement coordinators not forced to issue statement: DB chief*. Prothomalo. https://en.prothomalo.com/bangladesh/xtaxw5o5vt
-
-*BTRC instructs IIGs to increase internet speed across country*. (n.d.). The Financial Express. Retrieved July 28, 2025, from https://thefinancialexpress.com.bd/national/btrc-instructs-iigs-to-boost-internet-speed-across-country
-
-CBC. (2024, July 19). Nationwide curfew in Bangladesh as deadly protests over government jobs escalate. *CBC News*.[ https://www.cbc.ca/news/world/bangladesh-jobs-protests-telecoms-cut-1.7268940](https://www.cbc.ca/news/world/bangladesh-jobs-protests-telecoms-cut-1.7268940)
-
-Chowdhury, M., & Henderson, L. (n.d.). *Internet Shutdown Advocacy in Bangladesh: How to Prepare, Prevent Resist.* https://preparepreventresist.openinternetproject.org/wp-content/uploads/2023/02/Optima-Bangladesh-Report.pdf
-
-Correspondent. (2024a, July 29). *Students demonstrate in front of RU*. Prothomalo. https://en.prothomalo.com/bangladesh/local-news/zxqt3ngkow
-
-Correspondent. (2024b, August 2). *Didn’t announce withdrawal of movement voluntarily: Six coordinators in joint statement*. Prothomalo. https://en.prothomalo.com/bangladesh/cigx71vi3p
-
-Correspondent, D. U. (2024c, July 15). *PM’s Quota Remark: Late-night protests rock DU, other universities*. The Daily Star. https://www.thedailystar.net/news/bangladesh/news/pms-quota-remark-late-night-protests-rock-du-other-universities-3657201
-
-Correspondent, S. (2024a, July 19). *Internet service blocked across the country*. The Daily Star. https://www.thedailystar.net/news/bangladesh/news/internet-service-blocked-across-the-country-3660596
-
-Correspondent, S. (2024c, July 25). *Broadband restored on trial*. The Daily Star. https://www.thedailystar.net/news/bangladesh/news/broadband-restored-trial-3661356
-
-Correspondent, S. (2024d, July 29). *15 injured in attack on protesters at Barishal Uni, demonstrations at BM College*. Prothomalo. https://en.prothomalo.com/bangladesh/local-news/dkmf611ost
-
-Correspondent, S. (2024e, July 29). *Cops charge baton at protestors at ECB Chattar, 20 detained from Mirpur, Dhanmandi*. Prothomalo. https://en.prothomalo.com/bangladesh/city/rr1h6i77fq
-
-Correspondent, S. (2024f, July 29). *DB custody: 6 coordinators announce withdrawal of programme*. Prothomalo. https://en.prothomalo.com/bangladesh/1a5pu53bbq
-
-Correspondent, S. (2024g, July 30). *Jamaat to be banned through executive order by Wednesday: Law minister*. Prothomalo. https://en.prothomalo.com/bangladesh/politics/nzlm53rf3g
-
-Correspondent, S. (2024h, July 31). *March for Justice: Students face police resistance, arrests across country*. Prothomalo. https://en.prothomalo.com/bangladesh/7rtmv6141n
-
-Correspondent, S. (2024i, July 31). *Protesting students announce fresh programme “remembering our heroes” Thursday*. Prothomalo. https://en.prothomalo.com/bangladesh/dmkanm6oj3
-
-Correspondent, S. (2024j, August 2). *Facebook, Messenger resume on mobile internet after 5-hr disruption*. Prothomalo. https://en.prothomalo.com/science-technology/ivjcn3yi1o
-
-Correspondent, S. (2024k, August 2). *Protests, demonstrations all over city, demands for justice*. Prothomalo. https://en.prothomalo.com/bangladesh/5dx6tsauyh
-
-Correspondent, S. (2024l, August 2). *Students against discrimination to hold ‘prayers and mass procession’ today*. Prothomalo. https://en.prothomalo.com/bangladesh/i7vwh1x14x
-
-Correspondent, S. (2024m, August 3). *Students against discrimination announces new programmes for saturday, sunday*. Prothomalo. https://en.prothomalo.com/bangladesh/nsjuagpio9
-
-Correspondent, S. (2024n, August 3). *Students Against Discrimination declares one-point demand for govt’s resignation*. Prothomalo. https://en.prothomalo.com/bangladesh/rd12isd6ni
-
-Correspondent, S. (2024o, August 4). *Facebook, Messenger, WhatsApp, Instagram, mobile internet ordered to be shut down*. Prothomalo. https://en.prothomalo.com/bangladesh/r6w5a3mpcy
-
-Correspondent, S. (2024p, August 4). *Students against discrimination’s ‘march to dhaka’ on monday*. Prothomalo. https://en.prothomalo.com/bangladesh/xlv47rs3c3
-
-Correspondent, S. (2024q, August 4). *Three days of public holiday from Monday*. Prothomalo. https://en.prothomalo.com/bangladesh/k26kmf1n06
-
-Correspondent, S. (2024r, August 5). *Broadband internet restored*. Prothomalo. https://en.prothomalo.com/bangladesh/gm0o97gu3x
-
-Correspondent, S. (2024s, August 5). *Cooperate with us, all the killings will be brought to trial: Army chief*. Prothomalo. https://en.prothomalo.com/bangladesh/gg699hf4gf
-
-Correspondent, S. (2024t, August 5). *Crowd breaks into Ganabhaban*. Prothomalo. https://en.prothomalo.com/bangladesh/city/fl10zveq9o
-
-Desk, P. A. (2024, August 12). *109 killed in clashes in a single day*. Prothomalo. https://en.prothomalo.com/bangladesh/qhf6h8cwxy
-
-Desk, P. A. E. (2024, August 3). *2 killed in mass processions, clashes across country*. Prothomalo.[ https://en.prothomalo.com/bangladesh/nd2t409kax](https://en.prothomalo.com/bangladesh/nd2t409kax)
-
-Facebook, other social media platforms back online. (2024, August 5). *Dhaka Tribune*. https://www.dhakatribune.com/bangladesh/353739/facebook-other-social-media-platforms-back-online
-
-*OONI Probe, Facebook Messenger test*. (n.d.). Retrieved July 28, 2025, from https://ooni.org/nettest/facebook-messenger/
-
-*OONI, Frequently Asked Questions (FAQ)*. (n.d.-a). Retrieved July 28, 2025, from https://ooni.org/support/faq/
-
-*Google transparency report*. (n.d.). Retrieved July 28, 2025, from https://transparencyreport.google.com/traffic/overview?hl=en&fraction_traffic=start:1719792000000;end:1725148799999;product:19;region:BD&lu=fraction_traffic
-
-Hasan, M. (2024a, August 1). *IT firms suffer low productivity amid slow internet*. The Daily Star. https://www.thedailystar.net/business/news/it-firms-suffer-low-productivity-amid-slow-internet-3666826
-
-Hasan, M. (2024b, August 13). *What you need to know about internet crackdown in Bangladesh*. The Daily Star. https://www.thedailystar.net/business/news/what-you-need-know-about-internet-crackdown-bangladesh-3676346
-
-*Internet censorship in Bangladesh, OONI Explorer*. (n.d.). Retrieved July 28, 2025, from https://explorer.ooni.org/country/BD
-
-*Interpreting OONI data*. (n.d.). Retrieved July 28, 2025, from https://ooni.org/support/interpreting-ooni-data/
-
-*IODA*. (n.d.-a). Retrieved July 28, 2025, from https://ioda.inetintel.cc.gatech.edu/country/BD?from=1719866792&until=1725137192
-
-*IODA, Glossary*. (n.d.-c). Retrieved July 28, 2025, from https://ioda.inetintel.cc.gatech.edu/resources?tab=glossary
-
-*IODA*. (n.d.-e). Retrieved July 28, 2025, from https://ioda.inetintel.cc.gatech.edu/asn/45245?from=1721757679&until=1722189679
-
-*IODA*. (n.d.-g). Retrieved July 28, 2025, from https://ioda.inetintel.cc.gatech.edu/country/BD?from=1722804392&until=1722977192
-
-Islam, R. (2024a, July 29). *4G internet service becomes slower from Monday afternoon*. Prothomalo. https://en.prothomalo.com/bangladesh/0wn7j3e5hs
-
-*#KeepItOn: Fighting internet shutdowns around the world*. (n.d.). Access Now. Retrieved July 28, 2025, from[ https://www.accessnow.org/campaign/keepiton/](https://www.accessnow.org/campaign/keepiton/)
-
-Mobile access to Facebook restored after nearly 6hrs. (2024, August 2). *Dhaka Tribune*. https://www.dhakatribune.com/bangladesh/353476/mobile-access-to-facebook-restored-after-nearly
-
-*Mobile internet shut down across Bangladesh again*. (2025, July 28). https://www.newagebd.net/post/country/241641/mobile-internet-shut-down-across-bangladesh-again
-
-Moral, S. (2024, September 7). *Student-people uprising: More than 18,000 injured*. Prothomalo.[ https://en.prothomalo.com/bangladesh/1qyly6muhk](https://en.prothomalo.com/bangladesh/1qyly6muhk)
-
-NetBlocks. (2024, July 17). *Confirmed: Live metrics show that social media platform Facebook has been restricted on multiple internet providers in #Bangladesh*. X.com. https://x.com/netblocks/status/1813293423157555534
-
-*Nettest*. (n.d.). Retrieved July 28, 2025, from[ https://ooni.org/nettest/](https://ooni.org/nettest/)
-
-OHCHR. (n.d.). *Human Rights Violations and Abuses related to the Protests of July and August 2024 in Bangladesh*. https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf
-
-*OONI Explorer: Bangladesh blocked news media websites amid 2024 general elections*. (n.d.). Retrieved July 28, 2025, from https://explorer.ooni.org/findings/11686385001
-
-*OONI Explorer: open data on internet censorship worldwide*. (n.d.-a). Retrieved July 28, 2025, from https://explorer.ooni.org/search
-
-*OONI Explorer: open data on internet censorship worldwide*. (n.d.-i). Retrieved July 28, 2025, from https://explorer.ooni.org/m/20240716200350.966415_BD_webconnectivity_921a95b91bc1bdd3
-
-*OONI Explorer: open data on internet censorship worldwide*. (n.d.-j). Retrieved July 28, 2025, from https://explorer.ooni.org/m/20240716172647.769708_BD_webconnectivity_9e7c087cc444d1ee
-
-*OONI Explorer: open data on internet censorship worldwide*. (n.d.-k). Retrieved July 28, 2025, from https://explorer.ooni.org/m/20240717082919.245093_BD_webconnectivity_740ef4a92c6e58a5
-
-*OONI Explorer: open data on internet censorship worldwide*. (n.d.-l). Retrieved July 28, 2025, from https://explorer.ooni.org/m/20240716174236.351512_BD_webconnectivity_319be948792b4860
-
-*OONI Explorer: open data on internet censorship worldwide*. (n.d.-p). Retrieved July 28, 2025, from https://explorer.ooni.org/m/20240717074637.449725_BD_whatsapp_e9b5a10845b26966
-
-*OONI Explorer: open data on internet censorship worldwide*. (n.d.-s). Retrieved July 28, 2025, from https://explorer.ooni.org/m/20240728154829.417947_BD_webconnectivity_1d7f5d5f8c3ea3e1
-
-*OONI Explorer: open data on internet censorship worldwide*. (n.d.-t). Retrieved July 28, 2025, from https://explorer.ooni.org/m/20240730231624.142954_BD_webconnectivity_3f2f6ec0a71e29a8
-
-*OONI Explorer: open data on internet censorship worldwide*. (n.d.-u). Retrieved July 28, 2025, from https://explorer.ooni.org/m/20240727022246.281399_BD_webconnectivity_1637d085d44708de
-
-OONI, IODA, M-Lab, Cloudflare, Kentik, Planet, C., ISOC, & Article19 2022-11-29. (2022, November 29). *Technical multi-stakeholder report on Internet shutdowns: The case of Iran amid autumn 2022 protests*. https://ooni.org/post/2022-iran-technical-multistakeholder-report/
-
-Palak: Broadband internet services could be fully restored by Wednesday night. (2024, July 24). *Dhaka Tribune*. https://www.dhakatribune.com/bangladesh/352620/palak-broadband-internet-services-could-be-fully
-
-Paul, R. (2024, July 16). Five killed in violent anti-quota protests in Bangladesh. *Reuters*. https://www.reuters.com/world/asia-pacific/bangladesh-deploys-police-job-protests-flare-up-2024-07-16/
-
-S. B., (2024, August 2). *Mobile access to Facebook restored after nearly six hours*. The Daily Star. https://www.thedailystar.net/business/news/mobile-access-facebook-restored-after-nearly-six-hours-3668056
-
-*Shutdown—Bangladesh*. (2024, August 4). Internet Society Pulse. https://pulse.internetsociety.org/en/shutdowns/bangladesh-government-shuts-down-mobile-internet-again-amidst-protests/
-
-Sun, D. (2024a, July 12). *Mobile internet ‘controlled’ in protesting areas*. Daily-Sun. https://www.daily-sun.com/printversion/details/758138
-
-Sun, D. (2024b, August 5). *Mobile internet suspended, social media blocked on broadband*. Daily-Sun. https://www.daily-sun.com/post/760516
-
-Timeline of events leading to the resignation of bangladesh prime minister sheikh hasina*. (2024a, August 5). Voice of America. https://www.voanews.com/a/timeline-of-events-leading-to-the-resignation-of-bangladesh-prime-minister-sheikh-hasina/7731456.html
-
-*Traffic from AS24432*. (n.d.). Cloudflare.[ https://radar.cloudflare.com/traffic/as24432?dateStart=2024-07-01&dateEnd=2024-08-31](https://radar.cloudflare.com/traffic/as24432?dateStart=2024-07-01&dateEnd=2024-08-31)
-
-*Traffic from AS45245*. (n.d.). Cloudflare.[ https://radar.cloudflare.com/traffic/as45245?dateStart=2024-07-01&dateEnd=2024-08-31](https://radar.cloudflare.com/traffic/as45245?dateStart=2024-07-01&dateEnd=2024-08-31)
-
-*Traffic in Bangladesh*. (n.d.). Cloudflare.[ https://radar.cloudflare.com/traffic/bd?dateStart=2024-07-01&dateEnd=2024-07-31](https://radar.cloudflare.com/traffic/bd?dateStart=2024-07-01&dateEnd=2024-07-31)
-
-UN report: 1,400 people killed in July uprising. (2025, February 12). *Dhaka Tribune*. https://www.dhakatribune.com/bangladesh/373524/un-report-1-400-people-killed-in-july-uprising
-
-*Violent clashes erupt between police and protesters in Dhaka even after 6 die during campus protests*. (2024, July 17). AP News.[ https://apnews.com/article/bangladesh-universities-close-hasina-quota-student-protest-77f82215bf8fce35f288ea39d812bcdb](https://apnews.com/article/bangladesh-universities-close-hasina-quota-student-protest-77f82215bf8fce35f288ea39d812bcdb)
-
-*Why is broadband internet so slow now?: Experts tell TBS*. (2024, July 25). The Business Standard. https://www.tbsnews.net/bangladesh/why-broadband-internet-so-slow-now-experts-tell-tbs-903381
-
-Xynou, M., Basso, S., Padmanabhan, R., Filastò, A., DefendDefenders, & Initiative 2021-01-22, D. P. (2021, January 22). *Uganda: Data on internet blocks and nationwide internet outage amid 2021 general election*. https://ooni.org/post/2021-uganda-general-election-blocks-and-outage/
-
-Xynou, M., Padmanabhan, R., Kyaw, P., Organization, M. I. for D., & Filastò2021-03-09, A. (2021, March 9). *Myanmar: Data on internet blocks and internet outages following military coup*.[ https://ooni.org/post/2021-myanmar-internet-blocks-and-outages/](https://ooni.org/post/2021-myanmar-internet-blocks-and-outages/)
-
-Yu, A. (2024, August 5). *Situation in Bangladesh*. Telenor Asia.[ https://www.telenorasia.com/announcements/situation-in-bangladesh/](https://www.telenorasia.com/announcements/situation-in-bangladesh/)
-
-*কোটা আন্দোলন: দশদিন পর মোবাইল ইন্টারনেট চালু, চলবে না ফেসবুক, হোয়াটসঅ্যাপ, টিকটক*. (2024, July 28). BBC News বাংলা.[ https://www.bbc.com/bengali/articles/c87rny08e72o](https://www.bbc.com/bengali/articles/c87rny08e72o)
-
-ডিবি কার্যালয় থেকে সব কর্মসূচি প্রত্যাহারের ঘোষণা ৬ সমন্বয়কের. (2024, July 28). *Samakal*.[ https://samakal.com/bangladesh/article/248082/ডিবি-কার্যালয়-থেকে-সব-কর্মসূচি-প্রত্যাহারের-ঘোষণা-৬-সমন্বয়কের](https://samakal.com/bangladesh/article/248082/ডিবি-কার্যালয়-থেকে-সব-কর্মসূচি-প্রত্যাহারের-ঘোষণা-৬-সমন্বয়কের)
-
-*ঢাকা বিশ্ববিদ্যালয় ক্যাম্পাসে ইন্টারনেট সেবা বন্ধ*. (2024, July 15). দেশ রূপান্তর.[ https://www.deshrupantor.com/523034/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F-%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%A8%E0%A7%87%E0%A6%9F-%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7](https://www.deshrupantor.com/523034/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F-%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%A8%E0%A7%87%E0%A6%9F-%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7)
-
-ঢাকায় ইন্টারনেট সেবা ‘বিঘ্নিত’, বিটিআরসি বলছে, কোনো নির্দেশনা নেই. (2024, July 17). *bdnews24.com*. https://bangla.bdnews24.com/bangladesh/0561d9978da2
-
-প্রতিবেদক. (2024, July 30). *শিক্ষার্থীদের সঙ্গে সংহতি জানিয়ে অনেকের ফেসবুক প্রোফাইলে লাল ফ্রেম*. Prothomalo. https://www.prothomalo.com/bangladesh/i75t39xlhp
-
-প্রতিবেদককালবেলা. (n.d.). *সন্ধ্যা থেকেই মোবাইল ইন্টারনেট সেবা বিঘ্ন | কালবেলা*. কালবেলা | বাংলা নিউজ পেপার. Retrieved July 28, 2025, from https://www.kalbela.com/national/105004
-
-প্রতিবেদকনিজস্ব. (2024a, July 16). *কোটা আন্দোলন: রংপুরে সংঘর্ষে রোকেয়া বিশ্ববিদ্যালয়ের শিক্ষার্থী নিহত*. Prothomalo. https://www.prothomalo.com/bangladesh/district/2yt74df0iq
-
-প্রতিবেদকনিজস্ব. (2024b, July 17). *মোবাইল ইন্টারনেটে ফেসবুক ব্যবহারে সমস্যা*. Prothomalo. https://www.prothomalo.com/bangladesh/h4uzv1zi9f
-
-প্রতিবেদকনিজস্ব. (2024d, July 27). *কোটা সংস্কার আন্দোলনকে ঘিরে সংঘাত: নিহত বেড়ে ২১০*. Prothomalo. https://www.prothomalo.com/bangladesh/un7b63tabl
-
-প্রতিবেদকনিজস্ব. (2024e, July 29). *কোটা সংস্কার আন্দোলন: সরকারি হিসাবে মৃতের সংখ্যা বেড়ে ১৫০*. dhakapost.com. https://www.dhakapost.com/national/295169
-
-প্রতিবেদকনিজস্ব. (2024f, August 1). *ছয় সমন্বয়ককে ছেড়ে দিল ডিবি*. Prothomalo. https://www.prothomalo.com/bangladesh/vt91qmdtcb
-
-প্রতিবেদকনিজস্ব. (2024g, August 4). *কর্তৃপক্ষের নির্দেশে মোবাইল ইন্টারনেট বন্ধ: অপারেটরদের বিবৃতি*. Prothomalo. https://www.prothomalo.com/bangladesh/hav5wty5j0
-
-প্রতিবেদকনিজস্ব. (2024h, August 4). *মোবাইল ইন্টারনেট বন্ধের নির্দেশ*. Prothomalo. https://www.prothomalo.com/bangladesh/5h6t8ay1rl
-
-প্রতিবেদকনিজস্ব. (2024i, August 5). *আবার স্বাভাবিক ছন্দে ইন্টারনেট, ব্যবহার করা যাচ্ছে ফেসবুক, হোয়াটসঅ্যাপ, মেসেঞ্জার ও ইনস্টাগ্রাম*. Prothomalo. https://www.prothomalo.com/technology/5lifre3n2o
-
-প্রতিবেদকনিজস্ব. (2024j, August 15). *বিগত সরকারের রাজনৈতিক উদ্দেশ্য পূরণে পলকের নির্দেশে ইন্টারনেট বন্ধ রাখা হতো: বিটিআরসি*. Prothomalo. https://www.prothomalo.com/bangladesh/yhqc15kwke
-
-প্রতিবেদকবিশেষ. (2024, July 24). *কারফিউ আরও শিথিল, অফিস খুলছে আজ*. Prothomalo. https://www.prothomalo.com/bangladesh/t37nlcbsc2
-
-*রাজধানীসহ সারা দেশে বিক্ষোভ-অবরোধ: যোগ দিল বেসরকারি বিশ্ববিদ্যালয়ও*. (n.d.). Jugantor. Retrieved July 28, 2025, from https://www.jugantor.com/tp-firstpage/828507
-
-রিপোর্টস্টার অনলাইন. (2024a, July 17). *বৃহস্পতিবার সারা দেশে ‘কমপ্লিট শাটডাউন’ বৈষম্যবিরোধী ছাত্র আন্দোলনের*. The Daily Star Bangla. https://bangla.thedailystar.net/news/bangladesh/quota-protest/news-599271
-
-রিপোর্টস্টার অনলাইন. (2024b, July 23). *কোটা সংস্কার আন্দোলন: ৮ দিনে নিহত অন্তত ১৫০, আহত কয়েক হাজার*. The Daily Star Bangla. https://bangla.thedailystar.net/news/bangladesh/news-599696
-
-রিপোর্টস্টার অনলাইন. (2024c, July 23). *কোটা সংস্কার আন্দোলন: ৮ দিনে নিহত অন্তত ১৫০, আহত কয়েক হাজার*. The Daily Star Bangla. https://bangla.thedailystar.net/news/bangladesh/news-599696
-
-*সারা দিন বন্ধের পর সন্ধ্যায় সচল ফেসবুক*. (n.d.). Jugantor. Retrieved July 28, 2025, from https://www.jugantor.com/tp-lastpage/833288
-
-(N.d.). Retrieved July 28, 2025, from[ https://www.kalerkantho.com/print-edition/first-page/2024/07/20/1408230](https://www.kalerkantho.com/print-edition/first-page/2024/07/20/1408230)
-
-বিক্ষোভে পুলিশের বাধা, ধস্তাধস্তি. (2024, August 2). *Samakal*. https://samakal.com/bangladesh/article/248778/বিক্ষোভে-পুলিশের-বাধা-ধস্তাধস্তি
+* Abdullah, M. (2024, August 13). Probe reveals deliberate internet blackout to suppress quota reform movement. *Dhaka Tribune*. https://www.dhakatribune.com/bangladesh/354596/btrc-ntmc-behind-internet-shutdown-palak-issued
+* Abdullah, S. (2024, November 5). *Shutdown watch: Building a community against internet shutdowns in bangladesh*. Internet Society Pulse.[ https://pulse.internetsociety.org/blog/shutdown-watch-building-a-community-against-internet-shutdowns-in-bangladesh](https://pulse.internetsociety.org/blog/shutdown-watch-building-a-community-against-internet-shutdowns-in-bangladesh)
+* Afrin, S. (2024, August 13). *BTRC and NTMC shut down internet, Palak phoned too*. Prothomalo. https://en.prothomalo.com/bangladesh/7rh73pjode
+* Ahmed, R. (2024, July 28). *Government itself shut down internet*. Prothomalo. https://en.prothomalo.com/bangladesh/iv2dsrbrfk
+* Ali, A. C., Marium. (n.d.). *How bangladesh’s ‘gen z’ protests brought down pm sheikh hasina*. Al Jazeera.  https://www.aljazeera.com/news/longform/2024/8/7/how-bangladeshs-gen-z-protests-brought-down-pm-sheikh-hasina
+* *All public, private universities closed indefinitely; students asked to vacate halls*. (2024, July 16). The Business Standard.[ https://www.tbsnews.net/bangladesh/education/all-public-private-universities-closed-indefinitely-901056](https://www.tbsnews.net/bangladesh/education/all-public-private-universities-closed-indefinitely-901056)
+* bdnews24.com. (2015, November 18). Internet access restored in Bangladesh after brief shutdown. *Internet Access Restored in Bangladesh After Brief Shutdown*. https://bdnews24.com/bangladesh/internet-access-restored-in-bangladesh-after-brief-shutdown
+* Bergin, J., Lim, L., Nyein, N., & Nachemson, A. (2022, August 29). Flicking the kill switch: Governments embrace internet shutdowns as a form of control. *The Guardian*.[ https://www.theguardian.com/technology/2022/aug/29/flicking-the-kill-switch-governments-embrace-internet-shutdowns-as-a-form-of-control](https://www.theguardian.com/technology/2022/aug/29/flicking-the-kill-switch-governments-embrace-internet-shutdowns-as-a-form-of-control)
+* Broadband, 4G internet services restored. (2024, August 5). *Dhaka Tribune*.[ https://www.dhakatribune.com/bangladesh/353724/broadband-internet-service-restored-after-3-hours](https://www.dhakatribune.com/bangladesh/353724/broadband-internet-service-restored-after-3-hours)
+* Broadband internet restored in limited areas after blackout. (2024, July 24). *Dhaka Tribune*. https://www.dhakatribune.com/bangladesh/352554/broadband-internet-restored-in-limited-areas-after
+* *Broadband, mobile internet restored*. (2024, August 5). The Business Standard. https://www.tbsnews.net/bangladesh/broadband-internet-disrupted-places-dhaka-910011
+* BSS. (2024, July 29). *Quota movement coordinators not forced to issue statement: DB chief*. Prothomalo. https://en.prothomalo.com/bangladesh/xtaxw5o5vt
+* *BTRC instructs IIGs to increase internet speed across country*. (n.d.). The Financial Express.  https://thefinancialexpress.com.bd/national/btrc-instructs-iigs-to-boost-internet-speed-across-country
+* CBC. (2024, July 19). Nationwide curfew in Bangladesh as deadly protests over government jobs escalate. *CBC News*.[ https://www.cbc.ca/news/world/bangladesh-jobs-protests-telecoms-cut-1.7268940](https://www.cbc.ca/news/world/bangladesh-jobs-protests-telecoms-cut-1.7268940)
+* Chowdhury, M., & Henderson, L. (n.d.). *Internet Shutdown Advocacy in Bangladesh: How to Prepare, Prevent Resist.* https://preparepreventresist.openinternetproject.org/wp-content/uploads/2023/02/Optima-Bangladesh-Report.pdf
+* Correspondent. (2024a, July 29). *Students demonstrate in front of RU*. Prothomalo. https://en.prothomalo.com/bangladesh/local-news/zxqt3ngkow
+* Correspondent. (2024b, August 2). *Didn’t announce withdrawal of movement voluntarily: Six coordinators in joint statement*. Prothomalo. https://en.prothomalo.com/bangladesh/cigx71vi3p
+* Correspondent, D. U. (2024c, July 15). *PM’s Quota Remark: Late-night protests rock DU, other universities*. The Daily Star. https://www.thedailystar.net/news/bangladesh/news/pms-quota-remark-late-night-protests-rock-du-other-universities-3657201
+* Correspondent, S. (2024a, July 19). *Internet service blocked across the country*. The Daily Star. https://www.thedailystar.net/news/bangladesh/news/internet-service-blocked-across-the-country-3660596
+* Correspondent, S. (2024c, July 25). *Broadband restored on trial*. The Daily Star. https://www.thedailystar.net/news/bangladesh/news/broadband-restored-trial-3661356
+* Correspondent, S. (2024d, July 29). *15 injured in attack on protesters at Barishal Uni, demonstrations at BM College*. Prothomalo. https://en.prothomalo.com/bangladesh/local-news/dkmf611ost
+* Correspondent, S. (2024e, July 29). *Cops charge baton at protestors at ECB Chattar, 20 detained from Mirpur, Dhanmandi*. Prothomalo. https://en.prothomalo.com/bangladesh/city/rr1h6i77fq
+* Correspondent, S. (2024f, July 29). *DB custody: 6 coordinators announce withdrawal of programme*. Prothomalo. https://en.prothomalo.com/bangladesh/1a5pu53bbq
+* Correspondent, S. (2024g, July 30). *Jamaat to be banned through executive order by Wednesday: Law minister*. Prothomalo. https://en.prothomalo.com/bangladesh/politics/nzlm53rf3g
+* Correspondent, S. (2024h, July 31). *March for Justice: Students face police resistance, arrests across country*. Prothomalo. https://en.prothomalo.com/bangladesh/7rtmv6141n
+* Correspondent, S. (2024i, July 31). *Protesting students announce fresh programme “remembering our heroes” Thursday*. Prothomalo. https://en.prothomalo.com/bangladesh/dmkanm6oj3
+* Correspondent, S. (2024j, August 2). *Facebook, Messenger resume on mobile internet after 5-hr disruption*. Prothomalo. https://en.prothomalo.com/science-technology/ivjcn3yi1o
+* Correspondent, S. (2024k, August 2). *Protests, demonstrations all over city, demands for justice*. Prothomalo. https://en.prothomalo.com/bangladesh/5dx6tsauyh
+* Correspondent, S. (2024l, August 2). *Students against discrimination to hold ‘prayers and mass procession’ today*. Prothomalo. https://en.prothomalo.com/bangladesh/i7vwh1x14x
+* Correspondent, S. (2024m, August 3). *Students against discrimination announces new programmes for saturday, sunday*. Prothomalo. https://en.prothomalo.com/bangladesh/nsjuagpio9
+* Correspondent, S. (2024n, August 3). *Students Against Discrimination declares one-point demand for govt’s resignation*. Prothomalo. https://en.prothomalo.com/bangladesh/rd12isd6ni
+* Correspondent, S. (2024o, August 4). *Facebook, Messenger, WhatsApp, Instagram, mobile internet ordered to be shut down*. Prothomalo. https://en.prothomalo.com/bangladesh/r6w5a3mpcy
+* Correspondent, S. (2024p, August 4). *Students against discrimination’s ‘march to dhaka’ on monday*. Prothomalo. https://en.prothomalo.com/bangladesh/xlv47rs3c3
+* Correspondent, S. (2024q, August 4). *Three days of public holiday from Monday*. Prothomalo. https://en.prothomalo.com/bangladesh/k26kmf1n06
+* Correspondent, S. (2024r, August 5). *Broadband internet restored*. Prothomalo. https://en.prothomalo.com/bangladesh/gm0o97gu3x
+* Correspondent, S. (2024s, August 5). *Cooperate with us, all the killings will be brought to trial: Army chief*. Prothomalo. https://en.prothomalo.com/bangladesh/gg699hf4gf
+* Correspondent, S. (2024t, August 5). *Crowd breaks into Ganabhaban*. Prothomalo. https://en.prothomalo.com/bangladesh/city/fl10zveq9o
+* Desk, P. A. (2024, August 12). *109 killed in clashes in a single day*. Prothomalo. https://en.prothomalo.com/bangladesh/qhf6h8cwxy
+* Desk, P. A. E. (2024, August 3). *2 killed in mass processions, clashes across country*. Prothomalo.[ https://en.prothomalo.com/bangladesh/nd2t409kax](https://en.prothomalo.com/bangladesh/nd2t409kax)
+* Facebook, other social media platforms back online. (2024, August 5). *Dhaka Tribune*. https://www.dhakatribune.com/bangladesh/353739/facebook-other-social-media-platforms-back-online
+* *OONI Facebook Messenger test*. (n.d.).  https://ooni.org/nettest/facebook-messenger/
+* *OONI Frequently Asked Questions (FAQ)*. (n.d.-a).  https://ooni.org/support/faq/
+* *OONI Frequently Asked Questions (FAQ)*. (n.d.-b).  https://ooni.org/support/faq/
+* *OONI Frequently Asked Questions (FAQ)*. (n.d.-c).  https://ooni.org/support/faq/
+* *OONI Frequently Asked Questions (FAQ)*. (n.d.-d).  https://ooni.org/support/faq/
+* *Google transparency report*. (n.d.).  https://transparencyreport.google.com/traffic/overview?hl=en&fraction_traffic=start:1719792000000;end:1725148799999;product:19;region:BD&lu=fraction_traffic
+* Hasan, M. (2024a, August 1). *IT firms suffer low productivity amid slow internet*. The Daily Star. https://www.thedailystar.net/business/news/it-firms-suffer-low-productivity-amid-slow-internet-3666826
+* Hasan, M. (2024b, August 13). *What you need to know about internet crackdown in Bangladesh*. The Daily Star. https://www.thedailystar.net/business/news/what-you-need-know-about-internet-crackdown-bangladesh-3676346
+* *Internet censorship in bangladesh—OONI explorer*. (n.d.).  https://explorer.ooni.org/country/BD
+* *Documentation on Interpreting OONI data*. (n.d.).  https://ooni.org/support/interpreting-ooni-data/
+* *IODA*. (n.d.-a).  https://ioda.inetintel.cc.gatech.edu/country/BD?from=1719866792&until=1725137192
+* *IODA*. (n.d.-c).  https://ioda.inetintel.cc.gatech.edu/resources?tab=glossary
+* *IODA*. (n.d.-e).  https://ioda.inetintel.cc.gatech.edu/asn/45245?from=1721757679&until=1722189679
+* *IODA*. (n.d.-f).  https://ioda.inetintel.cc.gatech.edu/asn/24432?from=1721757679&until=1722189679
+* *IODA*. (n.d.-g).  https://ioda.inetintel.cc.gatech.edu/country/BD?from=1722804392&until=1722977192
+* Islam, R. (2024a, July 29). *4G internet service becomes slower from Monday afternoon*. Prothomalo. https://en.prothomalo.com/bangladesh/0wn7j3e5hs
+* *#KeepItOn: Fighting internet shutdowns around the world*. (n.d.). Access Now. [ https://www.accessnow.org/campaign/keepiton/](https://www.accessnow.org/campaign/keepiton/)
+* Mobile access to Facebook restored after nearly 6hrs. (2024, August 2). *Dhaka Tribune*. https://www.dhakatribune.com/bangladesh/353476/mobile-access-to-facebook-restored-after-nearly
+* *Mobile internet shut down across Bangladesh again*. (2025, July 28). https://www.newagebd.net/post/country/241641/mobile-internet-shut-down-across-bangladesh-again
+* Moral, S. (2024, September 7). *Student-people uprising: More than 18,000 injured*. Prothomalo.[ https://en.prothomalo.com/bangladesh/1qyly6muhk](https://en.prothomalo.com/bangladesh/1qyly6muhk)
+* NetBlocks. (2024, July 17). *Confirmed: Live metrics show that social media platform Facebook has been restricted on multiple internet providers in #Bangladesh*. X.com. https://x.com/netblocks/status/1813293423157555534
+* *OONI Test Descriptions*. (n.d.). [ https://ooni.org/nettest/](https://ooni.org/nettest/)
+* OHCHR. (n.d.). *Human Rights Violations and Abuses related to the Protests of July and August 2024 in Bangladesh*. https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf
+* *OONI Explorer—Bangladesh blocked news media websites amid 2024 general elections*. (n.d.).  https://explorer.ooni.org/findings/11686385001
+* *OONI Explorer—Open data on internet censorship worldwide*. (n.d.-a).  https://explorer.ooni.org/search
+* *OONI Explorer—Open data on internet censorship worldwide*. (n.d.-i).  https://explorer.ooni.org/m/20240716200350.966415_BD_webconnectivity_921a95b91bc1bdd3
+* *OONI Explorer—Open data on internet censorship worldwide*. (n.d.-j).  https://explorer.ooni.org/m/20240716172647.769708_BD_webconnectivity_9e7c087cc444d1ee
+* *OONI Explorer—Open data on internet censorship worldwide*. (n.d.-k).  https://explorer.ooni.org/m/20240717082919.245093_BD_webconnectivity_740ef4a92c6e58a5
+* *OONI Explorer—Open data on internet censorship worldwide*. (n.d.-l).  https://explorer.ooni.org/m/20240716174236.351512_BD_webconnectivity_319be948792b4860
+* *OONI Explorer—Open data on internet censorship worldwide*. (n.d.-m).  https://explorer.ooni.org/chart/mat
+* *OONI Explorer—Open data on internet censorship worldwide*. (n.d.-n).  https://explorer.ooni.org/chart/mat
+* *OONI Explorer—Open data on internet censorship worldwide*. (n.d.-o).  https://explorer.ooni.org/chart/mat
+* *OONI Explorer—Open data on internet censorship worldwide*. (n.d.-p).  https://explorer.ooni.org/m/20240717074637.449725_BD_whatsapp_e9b5a10845b26966
+* *OONI Explorer—Open data on internet censorship worldwide*. (n.d.-q).  https://explorer.ooni.org/countries
+* *OONI Explorer—Open data on internet censorship worldwide*. (n.d.-r).  https://explorer.ooni.org/chart/mat
+* *OONI Explorer—Open data on internet censorship worldwide*. (n.d.-s).  https://explorer.ooni.org/m/20240728154829.417947_BD_webconnectivity_1d7f5d5f8c3ea3e1
+* *OONI Explorer—Open data on internet censorship worldwide*. (n.d.-t).  https://explorer.ooni.org/m/20240730231624.142954_BD_webconnectivity_3f2f6ec0a71e29a8
+* *OONI Explorer—Open data on internet censorship worldwide*. (n.d.-u).  https://explorer.ooni.org/m/20240727022246.281399_BD_webconnectivity_1637d085d44708de
+* *OONI Explorer—Open data on internet censorship worldwide*. (n.d.-v).  https://explorer.ooni.org/chart/mat
+* *OONI Glossary*. (n.d.).  https://ooni.org/support/glossary/
+* OONI, IODA, M-Lab, Cloudflare, Kentik, Planet, C., ISOC, & Article19 2022-11-29. (2022, November 29). *Technical multi-stakeholder report on Internet shutdowns: The case of Iran amid autumn 2022 protests*. https://ooni.org/post/2022-iran-technical-multistakeholder-report/
+* *OONI/blocking-fingerprints*. (2025). [Python]. Open Observatory of Network Interference (OONI). https://github.com/ooni/blocking-fingerprints (Original work published 2022)
+* Palak: Broadband internet services could be fully restored by Wednesday night. (2024, July 24). *Dhaka Tribune*. https://www.dhakatribune.com/bangladesh/352620/palak-broadband-internet-services-could-be-fully
+* Paul, R. (2024, July 16). Five killed in violent anti-quota protests in Bangladesh. *Reuters*. https://www.reuters.com/world/asia-pacific/bangladesh-deploys-police-job-protests-flare-up-2024-07-16/
+* Report, S. B. (2024, August 2). *Mobile access to Facebook restored after nearly six hours*. The Daily Star. https://www.thedailystar.net/business/news/mobile-access-facebook-restored-after-nearly-six-hours-3668056
+* *OONI Research reports: Blocking of circumvention tools*. (n.d.).  https://ooni.org/reports/circumvention/
+* Roskomsvoboda, O. 2023-02-24. (2023, February 24). *How Internet censorship changed in Russia during the 1st year of military conflict in Ukraine*. https://ooni.org/post/2023-russia-a-year-after-the-conflict/
+* *Shutdown—Bangladesh*. (2024, August 4). Internet Society Pulse. https://pulse.internetsociety.org/en/shutdowns/bangladesh-government-shuts-down-mobile-internet-again-amidst-protests/
+* *OONI Signal test*. (n.d.).  https://ooni.org/nettest/signal/
+* *Spec/nettests/ts-017-web-connectivity. Md at master · ooni/spec*. (n.d.). GitHub.  https://github.com/ooni/spec/blob/master/nettests/ts-017-web-connectivity.md
+* Sun, D. (2024a, July 12). *Mobile internet ‘controlled’ in protesting areas*. Daily-Sun. https://www.daily-sun.com/printversion/details/758138
+* Sun, D. (2024b, August 5). *Mobile internet suspended, social media blocked on broadband*. Daily-Sun. https://www.daily-sun.com/post/760516
+* *OONI Telegram test*. (n.d.).  https://ooni.org/nettest/telegram/
+* *Test-lists/lists at master · citizenlab/test-lists*. (n.d.). GitHub.  https://github.com/citizenlab/test-lists/tree/master/lists
+* *Timeline of events leading to the resignation of bangladesh prime minister sheikh hasina*. (2024a, August 5). Voice of America. https://www.voanews.com/a/timeline-of-events-leading-to-the-resignation-of-bangladesh-prime-minister-sheikh-hasina/7731456.html
+* *Traffic from AS24432*. (n.d.). Cloudflare.[ https://radar.cloudflare.com/traffic/as24432?dateStart=2024-07-01&dateEnd=2024-08-31](https://radar.cloudflare.com/traffic/as24432?dateStart=2024-07-01&dateEnd=2024-08-31)
+* *Traffic from AS45245*. (n.d.). Cloudflare.[ https://radar.cloudflare.com/traffic/as45245?dateStart=2024-07-01&dateEnd=2024-08-31](https://radar.cloudflare.com/traffic/as45245?dateStart=2024-07-01&dateEnd=2024-08-31)
+* *Traffic in Bangladesh*. (n.d.). Cloudflare.[ https://radar.cloudflare.com/traffic/bd?dateStart=2024-07-01&dateEnd=2024-07-31](https://radar.cloudflare.com/traffic/bd?dateStart=2024-07-01&dateEnd=2024-07-31)
+* UN report: 1,400 people killed in July uprising. (2025, February 12). *Dhaka Tribune*. https://www.dhakatribune.com/bangladesh/373524/un-report-1-400-people-killed-in-july-uprising
+* *Violent clashes erupt between police and protesters in Dhaka even after 6 die during campus protests*. (2024, July 17). AP News.[ https://apnews.com/article/bangladesh-universities-close-hasina-quota-student-protest-77f82215bf8fce35f288ea39d812bcdb](https://apnews.com/article/bangladesh-universities-close-hasina-quota-student-protest-77f82215bf8fce35f288ea39d812bcdb)
+* *WhatsApp test*. (n.d.). OONI. https://ooni.org/nettest/whatsapp/
+* *Web connectivity*. (a, January 1). https://ooni.org/nettest/web-connectivity/
+* *WhatsApp test*. (n.d.).  https://ooni.org/nettest/whatsapp/
+* *Why is broadband internet so slow now?: Experts tell TBS*. (2024, July 25). The Business Standard. https://www.tbsnews.net/bangladesh/why-broadband-internet-so-slow-now-experts-tell-tbs-903381
+* Xynou, M., Basso, S., Padmanabhan, R., Filastò, A., DefendDefenders, & Initiative 2021-01-22, D. P. (2021, January 22). *Uganda: Data on internet blocks and nationwide internet outage amid 2021 general election*. https://ooni.org/post/2021-uganda-general-election-blocks-and-outage/
+* Xynou, M., Padmanabhan, R., Kyaw, P., Organization, M. I. for D., & Filastò2021-03-09, A. (2021, March 9). *Myanmar: Data on internet blocks and internet outages following military coup*.[ https://ooni.org/post/2021-myanmar-internet-blocks-and-outages/](https://ooni.org/post/2021-myanmar-internet-blocks-and-outages/)
+* Yu, A. (2024, August 5). *Situation in Bangladesh*. Telenor Asia.[ https://www.telenorasia.com/announcements/situation-in-bangladesh/](https://www.telenorasia.com/announcements/situation-in-bangladesh/)
+* *কোটা আন্দোলন: দশদিন পর মোবাইল ইন্টারনেট চালু, চলবে না ফেসবুক, হোয়াটসঅ্যাপ, টিকটক*. (2024, July 28). BBC News বাংলা.[ https://www.bbc.com/bengali/articles/c87rny08e72o](https://www.bbc.com/bengali/articles/c87rny08e72o)
+* ডিবি কার্যালয় থেকে সব কর্মসূচি প্রত্যাহারের ঘোষণা ৬ সমন্বয়কের. (2024, July 28). *Samakal*.[ https://samakal.com/bangladesh/article/248082/ডিবি-কার্যালয়-থেকে-সব-কর্মসূচি-প্রত্যাহারের-ঘোষণা-৬-সমন্বয়কের](https://samakal.com/bangladesh/article/248082/ডিবি-কার্যালয়-থেকে-সব-কর্মসূচি-প্রত্যাহারের-ঘোষণা-৬-সমন্বয়কের)
+* *ঢাকা বিশ্ববিদ্যালয় ক্যাম্পাসে ইন্টারনেট সেবা বন্ধ*. (2024, July 15). দেশ রূপান্তর.[ https://www.deshrupantor.com/523034/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F-%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%A8%E0%A7%87%E0%A6%9F-%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7](https://www.deshrupantor.com/523034/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F-%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%A8%E0%A7%87%E0%A6%9F-%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7)
+* ঢাকায় ইন্টারনেট সেবা ‘বিঘ্নিত’, বিটিআরসি বলছে, কোনো নির্দেশনা নেই. (2024, July 17). *bdnews24.com*. https://bangla.bdnews24.com/bangladesh/0561d9978da2
+* প্রতিবেদক. (2024, July 30). *শিক্ষার্থীদের সঙ্গে সংহতি জানিয়ে অনেকের ফেসবুক প্রোফাইলে লাল ফ্রেম*. Prothomalo. https://www.prothomalo.com/bangladesh/i75t39xlhp
+* প্রতিবেদককালবেলা. (n.d.). *সন্ধ্যা থেকেই মোবাইল ইন্টারনেট সেবা বিঘ্ন | কালবেলা*. কালবেলা | বাংলা নিউজ পেপার.  https://www.kalbela.com/national/105004
+* প্রতিবেদকনিজস্ব. (2024a, July 16). *কোটা আন্দোলন: রংপুরে সংঘর্ষে রোকেয়া বিশ্ববিদ্যালয়ের শিক্ষার্থী নিহত*. Prothomalo. https://www.prothomalo.com/bangladesh/district/2yt74df0iq
+* প্রতিবেদকনিজস্ব. (2024b, July 17). *মোবাইল ইন্টারনেটে ফেসবুক ব্যবহারে সমস্যা*. Prothomalo. https://www.prothomalo.com/bangladesh/h4uzv1zi9f
+* প্রতিবেদকনিজস্ব. (2024d, July 27). *কোটা সংস্কার আন্দোলনকে ঘিরে সংঘাত: নিহত বেড়ে ২১০*. Prothomalo. https://www.prothomalo.com/bangladesh/un7b63tabl
+* প্রতিবেদকনিজস্ব. (2024e, July 29). *কোটা সংস্কার আন্দোলন: সরকারি হিসাবে মৃতের সংখ্যা বেড়ে ১৫০*. dhakapost.com. https://www.dhakapost.com/national/295169
+* প্রতিবেদকনিজস্ব. (2024f, August 1). *ছয় সমন্বয়ককে ছেড়ে দিল ডিবি*. Prothomalo. https://www.prothomalo.com/bangladesh/vt91qmdtcb
+* প্রতিবেদকনিজস্ব. (2024g, August 4). *কর্তৃপক্ষের নির্দেশে মোবাইল ইন্টারনেট বন্ধ: অপারেটরদের বিবৃতি*. Prothomalo. https://www.prothomalo.com/bangladesh/hav5wty5j0
+* প্রতিবেদকনিজস্ব. (2024h, August 4). *মোবাইল ইন্টারনেট বন্ধের নির্দেশ*. Prothomalo. https://www.prothomalo.com/bangladesh/5h6t8ay1rl
+* প্রতিবেদকনিজস্ব. (2024i, August 5). *আবার স্বাভাবিক ছন্দে ইন্টারনেট, ব্যবহার করা যাচ্ছে ফেসবুক, হোয়াটসঅ্যাপ, মেসেঞ্জার ও ইনস্টাগ্রাম*. Prothomalo. https://www.prothomalo.com/technology/5lifre3n2o
+* প্রতিবেদকনিজস্ব. (2024j, August 15). *বিগত সরকারের রাজনৈতিক উদ্দেশ্য পূরণে পলকের নির্দেশে ইন্টারনেট বন্ধ রাখা হতো: বিটিআরসি*. Prothomalo. https://www.prothomalo.com/bangladesh/yhqc15kwke
+* প্রতিবেদকবিশেষ. (2024, July 24). *কারফিউ আরও শিথিল, অফিস খুলছে আজ*. Prothomalo. https://www.prothomalo.com/bangladesh/t37nlcbsc2
+* *রাজধানীসহ সারা দেশে বিক্ষোভ-অবরোধ: যোগ দিল বেসরকারি বিশ্ববিদ্যালয়ও*. (n.d.). Jugantor.  https://www.jugantor.com/tp-firstpage/828507
+* রিপোর্টস্টার অনলাইন. (2024a, July 17). *বৃহস্পতিবার সারা দেশে ‘কমপ্লিট শাটডাউন’ বৈষম্যবিরোধী ছাত্র আন্দোলনের*. The Daily Star Bangla. https://bangla.thedailystar.net/news/bangladesh/quota-protest/news-599271
+* রিপোর্টস্টার অনলাইন. (2024b, July 23). *কোটা সংস্কার আন্দোলন: ৮ দিনে নিহত অন্তত ১৫০, আহত কয়েক হাজার*. The Daily Star Bangla. https://bangla.thedailystar.net/news/bangladesh/news-599696
+* রিপোর্টস্টার অনলাইন. (2024c, July 23). *কোটা সংস্কার আন্দোলন: ৮ দিনে নিহত অন্তত ১৫০, আহত কয়েক হাজার*. The Daily Star Bangla. https://bangla.thedailystar.net/news/bangladesh/news-599696
+* *সারা দিন বন্ধের পর সন্ধ্যায় সচল ফেসবুক*. (n.d.). Jugantor.  https://www.jugantor.com/tp-lastpage/833288
+* সারা দেশে কারফিউ, সেনা মোতায়েন. (2024, July 20). *Kaler Kantho*. [https://www.kalerkantho.com/print-edition/first-page/2024/07/20/1408230](https://www.kalerkantho.com/print-edition/first-page/2024/07/20/1408230)
+* বিক্ষোভে পুলিশের বাধা, ধস্তাধস্তি. (2024, August 2). *Samakal*. https://samakal.com/bangladesh/article/248778/বিক্ষোভে-পুলিশের-বাধা-ধস্তাধস্তি
