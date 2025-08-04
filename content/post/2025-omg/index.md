@@ -1,6 +1,6 @@
 ---
 title: "OMG! Summary of the 3rd Open Measurement Gathering (OMG) Ask Me Anything (AMA) event"
-description: "Today, OONI is thrilled to announce the public launch of the new OONI Probe desktop app for Windows and macOS!"
+description: "This blog post provides a summary of the 3rd Open Measurement Gathering (OMG) event, including links to presentations by OONI and other internet measurement groups."
 author: "Open Measurement Gathering (OMG)"
 date: "2025-08-04"
 tags: ["event", "network measurement", "omg"]
