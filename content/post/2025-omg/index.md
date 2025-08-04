@@ -167,6 +167,8 @@ Links to donate:
 * [Contribute the Measurement Lab platform](https://www.measurementlab.net/contribute/#donate-to-m-lab)
 * [Donate to OONI](https://ooni.org/donate/) or become an [OONI supporter](https://ooni.org/about/supporters/)
 
+---
+
 **Q:** Is it feasible to predict internet outages/censorship events?
  
 **CP:** Not really — forecasting outages or censorship in advance remains out of reach. However, Censored Planet is developing an early censorship warning system that leverages spikes in Google Trends VPN search terms to flag emerging censorship within a day of onset, even though it cannot predict events ahead of time.
