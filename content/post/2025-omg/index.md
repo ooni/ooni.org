@@ -27,7 +27,7 @@ The OMG AMA event was especially intended  for advocacy organizations, digital r
 
 Censored Planet is a research team at the University of Michigan building scalable systems and novel techniques to protect users from online censorship, surveillance, and the digital divide. Our work lies at the intersection of Networking, Security & Privacy, and Internet Measurements. We take a data-driven approach to detect and defend against powerful network intermediaries and government threat actors. Our observatory runs daily remote measurements to monitor which domains are blocked across over 200 countries, collecting longitudinal, ethically gathered data.
 
-#### 🆕 Recent and Upcoming Features:
+#### 🆕 Recent and Upcoming Features
 
 * **Censored Planet Analysis Pipeline v2:** We released **a new analysis pipeline**, marking a major shift from batch-based cloud processing on Google Cloud to a self-hosted, real-time infrastructure. Previously, all global measurements were processed once per day, introducing a delay between data collection and availability. The new pipeline processes results **immediately after each measurement** finishes, allowing us to provide **real-time visibility** into ongoing censorship events. This architecture not only **boosts performance** but also** improves sustainability and data control **by eliminating dependencies on commercial cloud services. As a result, we can now better support real-time research and rapid response efforts.
 * **Censored Planet API:** Alongside the infrastructure upgrade, we launched our first public API, available at [data.censoredplanet.org](http://data.censoredplanet.org). The API is built using GraphQL and provides:
@@ -54,7 +54,7 @@ The dashboard also offers a network-level view that breaks down probe outcomes b
     * In our FOCI 2025 paper ["Is Custom Congestion Control a Bad Idea for Circumvention Tools?"](https://censoredplanet.org/papers/congestion.pdf), we examine how aggressive congestion control algorithms (CCAs), such as those used in Hysteria and TCP-Brutal, trade performance for detectability. While designed to perform better under lossy cross-border connections, these custom CCAs deviate significantly from standard TCP/QUIC behaviors, exposing them to easy classification and detection by censors. Using controlled experiments and a two-stage threshold-based classifier, we show that these protocols can be reliably fingerprinted, even under varying network conditions. Our findings underscore the importance of aligning circumvention tool behavior with standardized protocols to maintain traffic indistinguishability and avoid detection.
     * In our paper "[The Discriminative Power of Cross-layer RTTs in Fingerprinting Proxy Traffic](https://censoredplanet.org/papers/rtt-fingerprinting.pdf)", we introduce a technique to remotely fingerprint censorship middleboxes based on the round-trip time (RTT) overhead they introduce. By measuring subtle RTT changes across thousands of vantage points, we demonstrate how this method can identify specific censorship equipment and their behaviors—even in opaque or hostile network environments. This approach allows us to infer the presence, type, and scope of middlebox interference without needing privileged access or in-country infrastructure, offering a new lens for remote censorship analysis at scale.
 
-### **🌐 What Measurement Lab (M-Lab) Does:**
+### **🌐 What Measurement Lab (M-Lab) Does**
 
 **[Slides](https://docs.google.com/presentation/d/1U_BnDTpAnXsNS4DMObi3aiGDKVWZH__xc7KSMqlli6A/edit?usp=sharing)** and **[Recording ](https://youtu.be/tBBpW497kME?feature=shared)**
 
@@ -64,20 +64,20 @@ M-Lab *measures the Internet*, *saves the data*, and *makes it universally acces
 * M-Lab supports a suite of [open-source tools and experiments](https://www.measurementlab.net/tests/) that measure Internet speed and performance (NDT), routing paths, and application layer performance
 * M-Lab provides the measurement results as [open data](https://www.measurementlab.net/data/docs/bq/quickstart/) in BigQuery
 
-#### 🆕 Recent and Upcoming Features:
+#### 🆕 Recent and Upcoming Features
 
 * **The Giga / UNICEF use case:** Giga is using the M-Lab platform to monitor school connectivity worldwide. [Giga Meter](https://meter.giga.global/) runs periodic tests monitoring Internet performance, and since 2024 has conducted more than 1.5M measurements from more than 10K schools in 27 countries. All data are provided in [Giga maps](https://maps.giga.global/map )
 * **The IP Route Survey (IPRS)**: A new dataset, by the [Dioptra](https://dioptra.io/) research group at Sorbonne University, is published by M-Lab. The dataset contains regular traceroute-style measurements from 10 vantage points to all routable IPv4 prefixes. Find out more at our [blog post](https://www.measurementlab.net/tests/iprs/).
 * **Host Managed Deployments**: M-Lab is evolving its platform, by enabling a new type of servers, aiming to measure more of the Internet from new network locations, diversify platform servers and costs, and have a larger geographical footprint.
 * **Internet Quality Barometer (IQB)**: M-Lab has designed the IQB framework to redefine Internet quality beyond “speed”. IQB considers multiple use cases in the Internet and multiple datasets to characterize the Internet Quality. Find out more at our [blog post](https://www.measurementlab.net/blog/iqb/).
 
-### **🐙 What OONI Does:**
+### **🐙 What OONI Does**
 
 **[Slides](https://drive.google.com/file/d/1Xnyga1QNQQis_INsAK2Ky2puMuZBrreL/view?usp=drive_link)** and **[Recording](https://youtu.be/WuPu3T2Vrqk?feature=shared)**
 
 The [Open Observatory of Network Interference (OONI)](https://ooni.org/) is a nonprofit organization that builds [free and open source network measurement tools](https://ooni.org/install/) that anyone can use to measure and [detect various forms of internet censorship](https://ooni.org/nettest/). OONI publishes network measurements collected from around the world as [open data](https://ooni.org/data/) in real-time. 
 
-#### 🆕 Recent and Upcoming Features:
+#### 🆕 Recent and Upcoming Features
 
 * **New Software Releases:**
     * **Launched OONI Run v2.** In October 2024, OONI [launched OONI Run v2](https://ooni.org/post/2024-launch-ooni-run-v2/): the next generation version of OONI Run for community-driven censorship testing. [OONI Run v2](https://run.ooni.org/) is a major revamp that addresses key [community feedback and needs](https://ooni.org/post/2020-06-09-ooni-run-usability-study-findings/).
@@ -102,7 +102,7 @@ The [Open Observatory of Network Interference (OONI)](https://ooni.org/) is a no
     * **Localization of OONI tools and resources.** Thanks to the [Localization Lab](https://www.localizationlab.org/) community, OONI tools and resources are available in multiple languages. Localization highlights from the past year include the release of the [Test Lists Editor](https://test-lists.ooni.org/) in 9 languages, and the publication of the [OONI Outreach Kit](https://ooni.org/support/ooni-outreach-kit/) in [Arabic](https://ooni.org/ar/support/ooni-outreach-kit/) and [Farsi](https://ooni.org/fa/support/ooni-outreach-kit/). 
     * **OONI workshops.** In 2024, the OONI team facilitated multiple (online and in-person) OONI workshops for **484 participants** from around the world. Many additional OONI workshops were also facilitated by their partners and broader community (for example, in Pakistan, Sudan, Senegal, and Tanzania). 
 
-#### 🔄 In Development / Future Plans:
+#### 🔄 In Development / Future Plans
 
 * **Software Development:**
     * Release [OONI Probe Desktop Multiplatform App](https://github.com/ooni/probe-multiplatform)
@@ -118,13 +118,13 @@ The [Open Observatory of Network Interference (OONI)](https://ooni.org/) is a no
     * Facilitate OONI workshops to enable the community to independently make use of OONI data 
     * Coordinate ongoing [localization](https://wiki.localizationlab.org/index.php/OONI) and censorship rapid response efforts
 
-### **🔍 What IODA Does:**
+### **🔍 What IODA Does**
 
 **[Slides](https://docs.google.com/presentation/d/1Q5ia6f4a3mzcprfpiCyd8Gmgthu0qrtd/edit?usp=sharing&ouid=110513362222638557784&rtpof=true&sd=true)** and **[Recording](https://youtu.be/BSV9gktaDjs?feature=shared)** 
 
 IODA provides a **[public dashboard](https://ioda.live)** showing internet **connectivity measurements** to monitor Internet infrastructure connectivity and detect Internet **outages**. IODA is hosted by the **Internet Intelligence Lab** at Georgia Tech. Users across the globe rely on IODA to track and monitor Internet connectivity. IODA also provides a valuable open-data source for the technical research community that inspires collaboration and spurs researchers to publish scientific literature in the Internet measurement space.
 
-#### 🆕 Recent and Upcoming Features:
+#### 🆕 Recent and Upcoming Features
 
 * **Greater Granularity in Signal Data** – IODA released an update that provides greater granularity of data. Specifically, ASN/ISP signals are now localized to the country or region they operate in, providing a more localized view of connectivity. In this presentation we walk through examples in **Sumy, Ukraine** and **Bocas del Toro, Panama**. This update is particularly powerful for identifying outages within ASNs/ISPs that operate across regions. [Read more in our blog post.](https://ioda.inetintel.cc.gatech.edu/reports/ioda-further-localizes-connectivity-signals/) 
 * **Active Probing: Latency & Loss Signals** – New signals detect our Active Probing **Probe/Response loss** and **latency spikes** to infer **generalized throttling** or degraded performance. An example  from **Gaza **shows probe/response loss corresponding with recent fiber cuts. This new data will be released July 2025. 
@@ -133,7 +133,7 @@ IODA provides a **[public dashboard](https://ioda.live)** showing internet **con
 The redesign provides easier access to visualizations and signals previously hidden behind buttons.
 * **Upstream Delay/ Traceroute Analysis** - Uses **traceroute data** to track **routing path changes** and measure delay or the penultimate or last hop ASN/ISP. Helpful for identifying networks that are upstream, as shown with examples from **Rwanda (MTN)** and **Venezuela (post-election unrest)**. This is only available at the ASN/ISP level in IODA and will be released July 2025. 
 
-#### 🔄 In Development / Future Plans:
+#### 🔄 In Development / Future Plans
 
 * Integration of Mozilla telemetry data.
 * Global power outage dataset being compiled.
