@@ -1,14 +1,17 @@
 ---
 title: "[Event Report] India, Let's build the list 2025"
-author: "The Bachchao Project, OONI"
-date: "2025-08-05"
-tags: ["events", "test list", "india"]
+description: "This guest blog post by The Bachchao Project describes their efforts in engaging civil society groups in the process of improving the monitoring of website censorship in India."
+author: "The Bachchao Project"
+date: "2025-08-06"
+tags: ["event", "test list", "india"]
 categories: ["blog"]
 ---
 
-In June 2025, **[The Bachchao Project](https://thebachchaoproject.org/) and OONI** reviewed the[ list of websites](https://github.com/citizenlab/test-lists/blob/master/lists/in.csv) used for monitoring website censorship in India. This is part of our efforts as a collective to build robust civil society engagement in monitoring internet access in India. As part of this event, we invited a small group of experts and practitioners to join us for a series of workshops focused on updating specific categories of websites tested for censorship in India. 
+*This is a **guest post** by [The Bachchao Project](https://thebachchaoproject.org/), originally published [here](https://thebachchaoproject.org/event-report-india-lets-build-the-list-2025/).*
 
-To read this report on The Baochchao Project's website, click [here](https://thebachchaoproject.org/event-report-india-lets-build-the-list-2025/).
+--------------------------------------------------------------------------------
+
+In June 2025, **[The Bachchao Project](https://thebachchaoproject.org/) and OONI** reviewed the[ list of websites](https://github.com/citizenlab/test-lists/blob/master/lists/in.csv) used for monitoring website censorship in India. This is part of our efforts as a collective to build robust civil society engagement in monitoring internet access in India. As part of this event, we invited a small group of experts and practitioners to join us for a series of workshops focused on updating specific categories of websites tested for censorship in India. 
 
 Test lists are publicly curated[ lists of websites](https://github.com/citizenlab/test-lists/tree/master/lists) that are tested for censorship by[ OONI Probe ](https://ooni.org/install/)and tools developed by other projects, such as [Censored Planet](https://censoredplanet.org/#/). These lists include a wide range of different types of websites based on[ 30 standardized categories ](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv)(such as news media, political criticism, and human rights content). 
 
