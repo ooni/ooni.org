@@ -9,7 +9,6 @@ categories: ["blog"]
 
 *This is a **guest post** by [The Bachchao Project](https://thebachchaoproject.org/), originally published [here](https://thebachchaoproject.org/event-report-india-lets-build-the-list-2025/).*
 
---------------------------------------------------------------------------------
 
 In June 2025, **[The Bachchao Project](https://thebachchaoproject.org/) and OONI** reviewed the[ list of websites](https://github.com/citizenlab/test-lists/blob/master/lists/in.csv) used for monitoring website censorship in India. This is part of our efforts as a collective to build robust civil society engagement in monitoring internet access in India. As part of this event, we invited a small group of experts and practitioners to join us for a series of workshops focused on updating specific categories of websites tested for censorship in India. 
 
