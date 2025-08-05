@@ -5,6 +5,8 @@ name: Digitally Right
 title: Digitally Right
 website: https://digitallyright.org/
 reports:
+- text: "The Longest Silence: Internet Shutdowns During Bangladesh’s 2024 Uprising"
+  link: "https://ooni.org/post/2025-bangladesh-report/"
 ---
 
 [Digitally Right](https://digitallyright.org/) is a Bangladesh based company dedicated to promoting a free and open digital space through the use of research, analysis, and capacity building. They support civil society, media, and businesses with critical knowledge and solutions to help them navigate the ever-changing information ecosystem. 
