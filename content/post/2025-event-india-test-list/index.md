@@ -1,7 +1,7 @@
 ---
 title: "[Event Report] India, Let's build the list 2025"
 author: "The Bachchao Project, OONI"
-date: "2025-07-05"
+date: "2025-08-05"
 tags: ["events", "test list", "india"]
 categories: ["blog"]
 ---
