@@ -6,7 +6,9 @@ tags: ["events", "test list", "india"]
 categories: ["blog"]
 ---
 
-In June 2025, **The [Bachchao Project](https://thebachchaoproject.org/) and OONI** reviewed the[ list of websites](https://github.com/citizenlab/test-lists/blob/master/lists/in.csv) used for monitoring website censorship in India. This is part of our efforts as a collective to build robust civil society engagement in monitoring internet access in India. As part of this event, we invited a small group of experts and practitioners to join us for a series of workshops focused on updating specific categories of websites tested for censorship in India.
+In June 2025, **[The Bachchao Project](https://thebachchaoproject.org/) and OONI** reviewed the[ list of websites](https://github.com/citizenlab/test-lists/blob/master/lists/in.csv) used for monitoring website censorship in India. This is part of our efforts as a collective to build robust civil society engagement in monitoring internet access in India. As part of this event, we invited a small group of experts and practitioners to join us for a series of workshops focused on updating specific categories of websites tested for censorship in India. 
+
+To read this report on The Baochchao Project's website, click [here](https://thebachchaoproject.org/event-report-india-lets-build-the-list-2025/).
 
 Test lists are publicly curated[ lists of websites](https://github.com/citizenlab/test-lists/tree/master/lists) that are tested for censorship by[ OONI Probe ](https://ooni.org/install/)and tools developed by other projects, such as [Censored Planet](https://censoredplanet.org/#/). These lists include a wide range of different types of websites based on[ 30 standardized categories ](https://github.com/citizenlab/test-lists/blob/master/lists/00-LEGEND-new_category_codes.csv)(such as news media, political criticism, and human rights content). 
 
@@ -100,7 +102,7 @@ During recent cross-border tensions with Pakistan, multiple YouTube channels [we
 
 We also observed several political parties increasing their online presence. Most political parties have upgraded to better top-level domains. But a lot of them still lacked a secure certificate (likely due to the usage of [National Indian Root CA](https://cca.gov.in/)).
 
-The table below shares an overview of the [changes and updates](https://github.com/citizenlab/test-lists/pull/1983) to the list contributed by the community members during the two-day workshop hosted by the Baochchao Project.
+The table below shares an overview of the [changes and updates](https://github.com/citizenlab/test-lists/pull/1983) to the list contributed by the community members during the two-day workshop.
 
 | Code | Category Description                  | New URLs | Updated to HTTPS | Moved to Global list | Recommended for deletion | Domain Updated | Category updated |
 |------|---------------------------------------|----------|------------------|----------------------|--------------------------|----------------|------------------|
