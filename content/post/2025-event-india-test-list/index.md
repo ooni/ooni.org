@@ -38,7 +38,7 @@ The ultimate goal of this series of workshops was to edit the existing test list
 
 On 21st and 22nd June 2025, we hosted **5 thematic working groups** that reviewed and updated 22 categories of tested websites (out of 30). We organised 22 categories in 5 thematic groups. Below are some of our observations for the thematic groups. In these observations, we also talk about the categories and factors we considered for these groups.
 
-**Working Group 1: Gender and Sexual Information**
+## **Working Group 1: Gender and Sexual Information**
 
 The categories included in this thematic section were LGBTQ (LGBT), Sex Education (SEX), Online Dating (DATE), and Pornographic Content (PORN). ​
 
@@ -50,7 +50,7 @@ The border tensions between India and China have prompted India to be critical a
 
 In the whitelist issued by the government during the internet shutdown in Kashmir, websites related to Sexual Health and Education, Dating and Matrimonial sites were not included. This indicates that they were not considered a priority in terms of access to technology platforms.
 
-**Working Group 2: Environment-related Information**
+## **Working Group 2: Environment-related Information**
 
 This section included only the Environment (ENV) category.
 
@@ -60,7 +60,7 @@ The Caravan, a leading long-form news platform’s website, which was covering t
 
 The regulation around civil society was experiencing changes in 2010 with the [amendment of the FCRA rule](https://qz.com/india/1611326/india-has-been-hostile-to-ngos-for-decades-modi-made-it-worse), which made fundraising harder. The change of government in 2014 also prompted more changes in this direction, increasing the challenges for civil society. [Leaked intelligence reports](https://www.icj.org/wp-content/uploads/2020/12/India-FCRA-Briefing-Paper-2020-ENG.pdf) blamed groups like Greenpeace and others for causing a loss of revenue for the country (because their evidentiary and awareness-building work caused public scrutiny and legal roadblocks for industry and state projects).
 
-**Working Group 3: Health Information**
+## **Working Group 3: Health Information**
 
 The categories included in this thematic section were Public Health (PUBH), Sex Education (SEX), and Alcohol and Drugs (ALDR).
 
@@ -70,7 +70,7 @@ The X/Twitter account of ‘The Liver Doc ’, a doctor sharing health-related i
 
 On 10th August 2023, the central government released[ Guidelines for Health and Wellness Celebrities and Influencers](https://www.consumeraffairs.nic.in/sites/default/files/file-uploads/latestnews/Additional%20Influencer%20Guidelines%20for%20Health%20and%20Wellness%20Celebrities,%20Influencers%20and%20Virtual%20Influencers.pdf) as a step towards ensuring accountability over health claims and misinformation that could be harmful to the public interest. This can be seen in light of widespread misinformation about vaccinations and health protocols in the wake of the COVID-19 pandemic. Following these guidelines Delhi High Court ordered the [take-down](https://indiankanoon.org/doc/190433832/) of the Instagram video and LinkedIn post by Mr Prashant Desai on 26th September 2024 because of the criticism of certain “health drinks”.
 
-**Working Group 4: Technology Infrastructure**
+## **Working Group 4: Technology Infrastructure**
 
 The categories included in this thematic section were Search Engines (SRCH), Communication Tools (COMT), File Sharing (FILE), Media Sharing (MMED), E-commerce (COMM), Gaming (GAME), Hacking tools (HACK), and Anonymization and Circumvention Tools (ANON).
 
@@ -90,7 +90,7 @@ India released the Digital Personal Data Protection Rules in 2025. In the past d
 
 Indian Meteorological Data, which was freely accessible before, is now restricted and paywalled. This has also affected platforms that used this data to inform users.
 
-**Working Group 5: Information and Human Rights**
+## **Working Group 5: Information and Human Rights**
 
 The categories included in this thematic section were Human Rights (HUMR), News Media (NEWS), Hosting and Blogging Platforms (HOST), Political Criticism (POLR), and Religion (REL).
 
