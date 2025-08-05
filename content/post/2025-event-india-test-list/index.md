@@ -12,7 +12,7 @@ Test lists are publicly curated[ lists of websites](https://github.com/citizenla
 
 The India-specific test list is hosted here: [https://github.com/citizenlab/test-lists/blob/master/lists/in.csv](https://github.com/citizenlab/test-lists/blob/master/lists/in.csv)
 
-While test lists usually include *some *websites that are known to be blocked, many sites are not censored locally when they are added to test lists. By updating the test lists, we aim to **discover website censorship **(by identifying the blocking of sites that were previously accessible), not only to confirm it.
+While test lists usually include *some* websites that are known to be blocked, many sites are not censored locally when they are added to test lists. By updating the test lists, we aim to **discover website censorship** (by identifying the blocking of sites that were previously accessible), not only to confirm it.
 
 Though the lists are public and can (and should) be updated by anyone who has an interest in doing so, the review of the list requires an understanding of socio-political and economic issues and the current digital landscape to understand which websites host important information. We used [OONI’s](https://ooni.org/get-involved/contribute-test-lists) and [Netalitica’s](https://netalitica.com/wp-content/uploads/2024/03/Test-List-Manual-4E.pdf) documentation to guide us through the event.
 
@@ -102,7 +102,30 @@ We also observed several political parties increasing their online presence. Mos
 
 The table below shares an overview of the [changes and updates](https://github.com/citizenlab/test-lists/pull/1983) to the list contributed by the community members during the two-day workshop hosted by the Baochchao Project.
 
-
----
+| Code | Category Description                  | New URLs | Updated to HTTPS | Moved to Global list | Recommended for deletion | Domain Updated | Category updated |
+|------|---------------------------------------|----------|------------------|----------------------|--------------------------|----------------|------------------|
+| REL  | Religion                              | 7        | 0                | 0                    | 2                        | 0              | 3                |
+| HOST | Hosting and Blogging Platforms        | 0        | 0                | 0                    | 1                        | 2              | 0                |
+| NEWS | News Media                            | 10       | 6                | 1                    | 23                       | 20             | 0                |
+| POLR | Political Criticism                   | 2        | 10               | 0                    | 11                       | 16             | 0                |
+| HUMR | Human Rights Issues                   | 37       | 9                | 1                    | 6                        | 7              | 0                |
+| COMM | E-commerce                            | 2        | 1                | 0                    | 10                       | 1              | 0                |
+| FILE | File-sharing                          | 2        | 4                | 0                    | 20                       | 4              | 1                |
+| MMED | Media sharing                         | 4        | 0                | 1                    | 15                       | 2              | 0                |
+| SRCH | Search Engines                        | 2        | 0                | 0                    | 0                        | 0              | 0                |
+| COMT | Communication Tools                   | 1        | 0                | 0                    | 3                        | 1              | 0                |
+| HACK | Hacking Tools                         | 0        | 0                | 0                    | 1                        | 0              | 0                |
+| GAME | Gaming                                | 1        | 1                | 0                    | 3                        | 0              | 0                |
+| ANON | Anonymization and circumvention tools | 4        | 0                | 0                    | 0                        | 1              | 0                |
+| GMB  | Gambling                              | 15       | 0                | 0                    | 0                        | 0              | 0                |
+| PUBH | Public Health                         | 24       | 0                | 0                    | 5                        | 4              | 1                |
+| ALDR | Alcohol & Drugs                       | 0        | 0                | 0                    | 1                        | 1              | 0                |
+| ENV  | Environment                           | 21       | 2                | 0                    | 3                        | 2              | 1                |
+| GOVT | Government                            | 1        | 0                | 0                    | 0                        | 0              | 0                |
+| XED  | Sex Education                         | 17       | 1                | 0                    | 1                        | 1              | 0                |
+| PORN | Pornography                           | 4        | 1                | 0                    | 3                        | 1              | 0                |
+| DATE | Online Dating                         | 3        | 0                | 1                    | 1                        | 1              | 0                |
+| LGBT | LGBT                                  | 25       | 4                | 0                    | 7                        | 1              | 1                |
+|      | Total                                 | 182      | 39               | 4                    | 116                      | 65             | 7                |
 
 We hope that this effort encourages more people to engage in list-building and testing activities. We also hope that the new information helps with a better and updated understanding of website access in India. 
