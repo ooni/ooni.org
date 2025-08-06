@@ -2,7 +2,7 @@
 title: "[Event Report] India, Let's build the list 2025"
 description: "This guest blog post by The Bachchao Project describes their efforts in engaging civil society groups in the process of improving the monitoring of website censorship in India."
 author: "The Bachchao Project"
-date: "2025-08-05"
+date: "2025-08-06"
 tags: ["event", "test list", "india"]
 categories: ["blog"]
 ---
