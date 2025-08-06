@@ -9,6 +9,8 @@ categories: ["report"]
 
 This report supports a petition filed at the High Court of Tanzania in August 2025 by [Tech & Media Convergency (TMC)](https://tmc.co.tz/), challenging the blocking of the X social media platform in Tanzania. **OONI data is used as evidence in support of this landmark public interest case**.
 
+{{< oonibtn href="/documents/2025-ooni-report-tanzania-blocked-x.pdf" text="Download in PDF" >}}
+
 {{<table-of-contents>}}
 
 ## Introduction
