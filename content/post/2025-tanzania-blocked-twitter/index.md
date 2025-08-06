@@ -2,7 +2,7 @@
 title: "OONI Analysis on the Blocking of the X Social Media Platform in Tanzania"
 description: "This report documents the blocking of X (formerly Twitter) in Tanzania based on OONI data, supporting a petition filed at the High Court of Tanzania."
 author: "Maria Xynou, Arturo Filastò, Mehul Gulati"
-date: "2025-08-07"
+date: "2025-08-06"
 tags: ["country-tz", "censorship", "twitter", "x", "theme-social_media"]
 categories: ["report"]
 ---
