@@ -1,13 +1,15 @@
 ---
-title: "OONI Analysis of Blocking of the X Social Media Platform in Tanzania"
-description: "This report documents the blocking of X (formerly Twitter) in Tanzania. This report supports a petition filed at the High Court of Tanzania, and OONI data is used as as evidence in support of this landmark public interest case."
+title: "OONI Analysis on the Blocking of the X Social Media Platform in Tanzania"
+description: "This report documents the blocking of X (formerly Twitter) in Tanzania based on OONI data, supporting a petition filed at the High Court of Tanzania."
 author: "Maria Xynou, Arturo Filastò, Mehul Gulati"
 date: "2025-08-06"
 tags: ["country-tz", "censorship", "twitter", "x", "theme-social_media"]
 categories: ["report"]
 ---
 
-This report supports a petition filed at the High Court of Tanzania, challenging the unlawful disruption of internet access in Tanzania. **OONI data is used as evidence in support of this landmark public interest case**.
+This report supports a petition filed at the High Court of Tanzania in August 2025 by [Tech & Media Convergency (TMC)](https://tmc.co.tz/), challenging the blocking of the X social media platform in Tanzania. **OONI data is used as evidence in support of this landmark public interest case**.
+
+{{<table-of-contents>}}
 
 ## Introduction
 
@@ -17,8 +19,6 @@ Access to the [X](https://x.com/) social media platform (formerly known as Twitt
 
 The following sections of this document share further information about OONI, their measurement methodologies, and OONI measurement coverage in Tanzania. More importantly, the following sections share relevant OONI data and technical analysis that serves as evidence of the ongoing blocking of the X social media platform in Tanzania.
 
-{{<table-of-contents>}}
-
 ## Summary of Findings
 
 OONI data suggests that access to the social media platform X has been [blocked](https://explorer.ooni.org/chart/mat?probe_cc=TZ&test_name=web_connectivity&domain=twitter.com%2Cx.com&since=2025-05-01&until=2025-07-07&axis_x=measurement_start_day&axis_y=domain&time_grain=day) in Tanzania since 20th May 2025. 
@@ -26,7 +26,6 @@ OONI data suggests that access to the social media platform X has been [blocked]
 Unlike [previous blocks](https://ooni.org/post/2024-tanzania-lgbtiq-censorship-and-other-targeted-blocks/) in Tanzania (which were implemented more consistently across ISPs), OONI data [shows](https://explorer.ooni.org/chart/mat?probe_cc=TZ&test_name=web_connectivity&domain=twitter.com%2Cx.com&since=2025-05-01&until=2025-07-07&axis_x=measurement_start_day&axis_y=probe_asn&time_grain=day) **variance** in terms of the *networks* on which the blocking of X is observed (the block is not observed on all tested networks), the *dates* when the block started on different networks (while most ISPs appear to have started the block around 20th May 2025, others only started blocking X in June 2025), and the *censorship techniques* adopted by ISPs to implement the block. 
 
 Overall, access to X appears to be **blocked through a variety of different techniques depending on the ISP**. [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2025-05-01&until=2025-07-07&time_grain=day&probe_cc=TZ&domain=twitter.com%2Cx.com&axis_y=domain) indicates that certain ISPs in Tanzania employ several censorship techniques at different layers at the same time — such as DNS hijacking, TLS interference, and IP level blocks — suggesting a **“[defense in depth](https://www.fortinet.com/resources/cyberglossary/defense-in-depth)” approach to censorship**. This represents a shift in the implementation of internet censorship in Tanzania, with blocking methods becoming increasingly sophisticated and difficult to bypass.
-
 
 ## About OONI
 
