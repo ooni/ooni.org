@@ -165,7 +165,7 @@ Also starting from 20th May 2025, OONI data [shows](https://explorer.ooni.org/ch
 
 {{<img src="images/image5.png">}}
 
-**Chart:** OONI Probe testing of twitter.com and x.com onVodacom Tanzania Ltd (AS36908) between 1st May 2025 to 7th July 2025 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=TZ&probe_asn=AS36908&test_name=web_connectivity&domain=twitter.com%2Cx.com&since=2025-05-01&until=2025-07-07&axis_x=measurement_start_day&axis_y=domain&time_grain=day)). 
+**Chart:** OONI Probe testing of twitter.com and x.com on Vodacom Tanzania Ltd (AS36908) between 1st May 2025 to 7th July 2025 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=TZ&probe_asn=AS36908&test_name=web_connectivity&domain=twitter.com%2Cx.com&since=2025-05-01&until=2025-07-07&axis_x=measurement_start_day&axis_y=domain&time_grain=day)). 
 
 As part of investigating the variance in failure types observed on this network (AS36908), OONI further disaggregated the measurements by IP address and network type. OONI did not notice any significant difference in distribution of blocking methods depending on the IP or network type. This suggests that Vodacom may be using a variety of different methods to implement the block or that the block is implemented in a way that is not entirely consistent. 
 
