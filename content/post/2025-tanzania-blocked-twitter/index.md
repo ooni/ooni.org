@@ -1,13 +1,14 @@
 ---
 title: "OONI Analysis on the Blocking of the X Social Media Platform in Tanzania"
-description: "This report documents the blocking of X (formerly Twitter) in Tanzania based on OONI data, supporting a petition filed at the High Court of Tanzania."
+description: "This report documents the blocking of X (formerly Twitter) in Tanzania based on OONI data."
 author: "Maria Xynou, Arturo Filastò, Mehul Gulati"
-date: "2025-08-06"
+date: "2025-08-07"
 tags: ["country-tz", "censorship", "twitter", "x", "theme-social_media"]
 categories: ["report"]
 ---
 
-This report supports a petition filed at the High Court of Tanzania in August 2025 by [Tech & Media Convergency (TMC)](https://tmc.co.tz/), challenging the blocking of the X social media platform in Tanzania. **OONI data is used as evidence in support of this landmark public interest case**.
+This report documents the [ongoing blocking](https://explorer.ooni.org/chart/mat?probe_cc=TZ&test_name=web_connectivity&domain=twitter.com%2Cx.com&since=2025-05-01&until=2025-08-08&axis_x=measurement_start_day&axis_y=domain&time_grain=day) of the X social media platform in Tanzania based on OONI data.
+
 
 {{< oonibtn href="/documents/2025-ooni-report-tanzania-blocked-x.pdf" text="Download in PDF" >}}
 
