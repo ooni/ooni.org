@@ -7,6 +7,11 @@ tags: ["event", "network measurement", "omg"]
 categories: ["blog"]
 ---
 
+Thanks to our partner, [Open Culture Foundation (OCF)](https://ocf.tw/), this post is localised into Traditional and Simplified Chinese:
+
+* Blog post in Traditional Chinese (zh-TW): https://anoni.net/docs/blog/2025/08/ooni-omg-2025/ 
+* Blog post in Simplified Chinese (zh-CN): https://anoni.net/docs/zh-cn/blog/2025/08/ooni-omg-2025/
+
 On June 25, 2025, the Open Measurement Gathering (OMG) held a public event, “Open Measurement Gathering AMA”, featuring [Censored Planet](https://censoredplanet.org/), [IODA](https://ioda.live), [OONI](https://ooni.org/), and [Measurement Lab](https://www.measurementlab.net/). This was a chance for the OMG group to share project updates, future plans, and gather questions and feedback from the Internet freedom community. Each measurement group presented for 30 minutes followed by Q&A. 
 
 This public virtual event was inspired by the past two OMG convenings (public [reports 1](https://www.measurementlab.net/blog/open-measurement-gathering-1-public-report/) and [2](https://www.measurementlab.net/blog/open-measurement-gathering-2/)) at which OMG groups have shared exciting updates to their platforms, tools, and/or datasets before sharing with the broader Internet freedom community. For the third OMG convening, the groups decided to share previewing updates publicly to encourage community feedback. 
