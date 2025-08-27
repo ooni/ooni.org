@@ -15,6 +15,10 @@ During the event, OMG groups gathered feedback and answered questions from the I
 
 The OMG AMA event was especially intended  for advocacy organizations, digital rights researchers, anti-censorship tool developers, journalists, lawyers, activists, policy makers, and funders. At its peak, we had about 60 folks joining us from around the world. The OMG groups truly appreciate those who could attend, and we hope to host more joint events in the future! 
 
+Thanks to our partner, [Open Culture Foundation (OCF)](https://ocf.tw/), this post is localised into Traditional and Simplified Chinese:
+* Blog post in Traditional Chinese (zh-TW): https://anoni.net/docs/blog/2025/08/ooni-omg-2025/ 
+* Blog post in Simplified Chinese (zh-CN): https://anoni.net/docs/zh-cn/blog/2025/08/ooni-omg-2025/
+
 **[Full OMG AMA Playlist](https://www.youtube.com/playlist?list=PLEszjns3sXFGsa42CYPxrQrFPAfA7v71v)**
 
 {{<table-of-contents>}}
