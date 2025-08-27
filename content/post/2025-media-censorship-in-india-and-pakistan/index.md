@@ -1,7 +1,7 @@
 ---
 title: "Information Controls in India and Pakistan During the May 2025 Conflict"
 description: "This report documents the censorship of news media projects in India and Pakistan during the 4-day armed conflict in May 2025. This report was created in collaboration with DRF (Digital Rights Foundation)."
-author: "Maria Xynou, Elizaveta Yachmeneva"
+author: "Digital Rights Foundation (DRF), Elizaveta Yachmeneva, Maria Xynou"
 date: "2025-08-27"
 tags: ["country-in", "country-pk", "censorship", "theme-news_media"]
 categories: ["report"]
@@ -9,7 +9,7 @@ categories: ["report"]
 
 In May 2025, after the [terrorist attack](https://www.bbc.com/news/articles/cy9vyzzyjzlo) in Kashmir on 22nd April 2025, political tension between India and Pakistan escalated into a [4-day conflict](https://www.iiss.org/online-analysis/online-analysis/2025/05/indiapakistan-drone-and-missile-conflict-differing-and-disputed-narratives/). Amid the conflict, both governments started blocking multiple news media outlets to fight ‘disinformation campaigns’ and ‘hate speech’ on the internet. 
 
-This report shares OONI data on blocks that emerged in both India and Pakistan amid the armed conflict in May 2025.
+This report is published in collaboration with [DRF (Digital Rights Foundation)](https://digitalrightsfoundation.pk) and shares OONI data on blocks that emerged in both India and Pakistan amid the armed conflict in May 2025.
 
 {{<table-of-contents>}}
 
@@ -45,13 +45,13 @@ Specifically, OONI data collected from India and Pakistan showed that during the
 
 OONI data suggests that these [blocks](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2025-04-01&until=2025-05-30&time_grain=day&probe_cc=PK&domain=maktoobmedia.com%2Cthewire.in%2Cjamuna.tv%2Cekattor.tv%2Cwww.bvnews24.com%2Cmohona.tv%2Ctrt.global%2Cwww.globaltimes.cn%2Cenglish.news.cn%2Cthekashmirwalla.com%2Cwww.republicworld.com%2Cwww.hindustantimes.com%2Ctimesofindia.indiatimes.com%2Cwww.ndtv.com%2Cindianexpress.com%2Cwww.indiatoday.in%2Cwww.thehindu.com%2Cwww.indiatvnews.com&axis_y=domain) in Pakistan were implemented by means of TLS interference, while the blocking of news media websites in India is [automatically confirmed](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2025-04-01&until=2025-05-30&time_grain=day&probe_cc=IN&domain=www.dawn.com%2Cdailytimes.com.pk%2Cwww.geo.tv%2Carynews.tv%2Clive.samaa.tv%2Ctribune.com.pk%2Cnayadaur.tv%2Cwww.bolnews.com%2Csunonews.tv%2Craftar.com%2Cgnnhd.tv%2Cdunyanews.tv%2Cmaktoobmedia.com%2Cthewire.in%2Cjamuna.tv%2Cekattor.tv%2Cwww.bvnews24.com%2Cmohona.tv%2Ctrt.global%2Cwww.globaltimes.cn%2Cenglish.news.cn%2Cthekashmirwalla.com&axis_y=domain) based on [fingerprints](https://github.com/ooni/blocking-fingerprints).
 
-The take-down requests during the escalation of the conflict mostly originated from India and targeted the following platforms: 
+The **take-down** requests during the escalation of the conflict mostly originated from **India** and targeted the following platforms: 
 
-* Twitter/X [received requests](https://x.com/GlobalAffairs/status/1920522981744238814?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1920522981744238814%7Ctwgr%5Ec43ddb24c059b45f339b1c4f463b632b05058c9f%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.thehindubusinessline.com%2Finfo-tech%2Fxs-global-affairs-account-reinstated-after-being-withheld-in-india-briefly%2Farticle69556265.ece) to take down more than 8,000 accounts and posts; 
-* YouTube [limited access](https://www.hindustantimes.com/india-news/full-list-of-16-pakistani-youtube-channels-blocked-by-centre-for-spreading-hate-after-pahalgam-terror-attack-101745816755063.html) to at least 16 channels of Pakistani origin for Indian users;  
-* Instagram [limited access](https://www.dawn.com/news/1907655) to the accounts of some artists from Pakistan for Indian users.
+* **Twitter/X** [received requests](https://x.com/GlobalAffairs/status/1920522981744238814?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1920522981744238814%7Ctwgr%5Ec43ddb24c059b45f339b1c4f463b632b05058c9f%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.thehindubusinessline.com%2Finfo-tech%2Fxs-global-affairs-account-reinstated-after-being-withheld-in-india-briefly%2Farticle69556265.ece) to take down more than 8,000 accounts and posts; 
+* **YouTube** [limited access](https://www.hindustantimes.com/india-news/full-list-of-16-pakistani-youtube-channels-blocked-by-centre-for-spreading-hate-after-pahalgam-terror-attack-101745816755063.html) to at least 16 channels of Pakistani origin for Indian users;  
+* **Instagram** [limited access](https://www.dawn.com/news/1907655) to the accounts of some artists from Pakistan for Indian users.
 
-This time, India targeted not only international social media platforms, but also streaming services [registered as OTTs](https://en.wikipedia.org/wiki/Over-the-top_media_services_in_India) in India, [requesting them to remove](https://indusbusinessjournal.com/2025/05/india-bans-pakistan-origin-content-on-streaming-platforms-amid-escalating-tensions/) all content of Pakistani origin from their platforms.
+This time, India targeted not only international social media platforms, but also streaming services [registered as OTTs](https://en.wikipedia.org/wiki/Over-the-top_media_services_in_India) in India, [requesting them to remove](https://indusbusinessjournal.com/2025/05/india-bans-pakistan-origin-content-on-streaming-platforms-amid-escalating-tensions/) content of Pakistani origin from their platforms.
 
 Most of the censorship cases covered in this report continue until the date of the publication of this report. 
 
@@ -64,6 +64,7 @@ Both [India](https://freedomhouse.org/country/india/freedom-net/2024#B) and [Pak
 In the past years, India has been an international leader in the number of internet outages documented in different regions of the country. According to the [KeepItOn STOP dataset](https://www.accessnow.org/keepiton-data-dashboard/), India experienced more than 450 localised internet outages between 2020 to 2025. The regions of Manipur and Jammu and Kashmir experienced the longest outages, lasting more than 200 days in 2023 and 2020, respectively.
 
 {{<img src="images/image1.png" title="STOP database, number of network outages in India" alt="STOP database, number of network outages in India">}}
+
 **Image:** Number of full-network outages per year in India between 2020 to 2024 (source: [STOP dataset](https://www.accessnow.org/keepiton-data-dashboard/)).
 
 Along with the shutdowns, India is known for blocking access to various types of content online. In 2020, an OTF Information Controls Fellow [documented](https://ooni.org/documents/those-unspoken-thoughts-otf-fellow.pdf) the blocking of news media, individual blogs, file-sharing platforms, websites containing information on human rights violations, religious websites and others based on OONI data. The same year, CIS India [published a report](https://web.archive.org/web/20250304144839/https://cis-india.org/internet-governance/how-india-censors-the-web-websci) on the escalation of internet censorship in the country, with more than 3,500 websites detected to be blocked on individual networks. 
@@ -75,16 +76,19 @@ In December 2023, India passed the [new Telecommunications Act](https://egazette
 Indian censors have a vast history of platform-based blocking. As can be seen from the chart below, Google [receives](https://transparencyreport.google.com/government-removals/government-requests/IN?lu=country_request_amount&country_request_amount=group_by:reasons&hl=en) thousands of requests from the Indian government to remove information from its services. Most of such requests are targeting YouTube accounts and videos, with a peak in requests to remove applications from the Google Play platform in 2022 and 2023 when India imposed [a ban on hundreds of Chinese applications](https://www.timesnownews.com/technology-science/indian-govt-issues-fresh-ban-on-119-apps-on-google-play-store-heres-the-list-so-far-article-118410866). 
 
 {{<img src="images/image2.png" title="Number of removal requests per platform Google received from India" alt="Number of removal requests per platform Google received from India">}}
+
 **Image**: Number of removal requests per platform Google received from India between 2012 to 2024 (source: [Google Transparency Report](https://transparencyreport.google.com/government-removals/government-requests/IN?lu=country_request_amount&country_request_amount=group_by:products&hl=en)). 
 
 Similarly, Meta's Transparency Report shows that Meta [removed](https://transparency.meta.com/reports/content-restrictions/country/IN/) dozens of thousands of pieces of content (mostly posts and profiles) from its platforms in 2024 alone, in compliance with Indian legislation. 
 
 {{<img src="images/image3.png" title="Number of removal requests per platform Meta received from India" alt="Number of removal requests per platform Meta received from India">}}
+
 **Image**: Number of pieces of content removed from Meta’s platforms in compliance with Indian legislation between 2013 to 2024 (source: [Meta Transparency Report](https://transparency.meta.com/reports/content-restrictions/country/IN/)). 
 
 While access to the information about the number of governmental requests to remove content from Twitter/X platform is available only for the period between 2013 to 2021, we can see that in the previous years, the peak number of removal requests was up to 10,000 requests *per year*. During the military escalation with Pakistan in May 2025, the Indian government [requested](https://x.com/GlobalAffairs/status/1920522981744238814) the removal of **more than 8,000 accounts** from the X/Twitter platform. 
 
 {{<img src="images/image4.png" title="Number of removal requests per platform Twitter/X received from India" alt="Number of removal requests per platform Twitter/X received from India">}}
+
 **Image**: Number of removal requests per platform Twitter/X received from Indian state entities between 2013 to 2021 (source: Screenshot taken from the [Twitter Transparency Report](https://transparency.x.com/en/reports/countries/in)). 
 
 While internet censorship in India has been [extensive](https://freedomhouse.org/country/india/freedom-net/2024#B) for years before the escalation of the conflict with Pakistan, the scale and speed of censorship implementation during the conflict are unprecedented. 
@@ -104,6 +108,7 @@ In May 2024, the Prime Minister [approved](https://www.phoneworld.com.pk/pm-appr
 While (unlike India, discussed previously) there is no clear trend in the number of internet outages happening in Pakistan, 2024 still became a record year for the country. According to the [KeepItOn STOP dataset](https://www.accessnow.org/keepiton-data-dashboard/), 10 out of 16 outages in 2024 occurred during elections, protests, and conflicts in Pakistan.
 
 {{<img src="images/image5.png" title="STOP database, number of full-network outages per year in Pakistan" alt="STOP database, number of full-network outages per year in Pakistan">}}
+
 **Image:** Number of full-network outages per year in Pakistan between 2016 to 2024 (source: [STOP dataset](https://www.accessnow.org/keepiton-data-dashboard/)).
 
 In the past few years, Pakistan has seen some growth in the number of removal requests toward Meta’s platforms. Most of these requests require limiting access to specific posts on Facebook and Instagram, with rare spikes in the requests to remove profiles and accounts. 
@@ -111,6 +116,7 @@ In the past few years, Pakistan has seen some growth in the number of removal re
 The [chart](https://transparency.meta.com/reports/content-restrictions/country/PK/) below shows the total amount of content removed by Meta from its platforms in compliance with Pakistani authorities’ requests between 2014 to 2024. 
 
 {{<img src="images/image6.png" title="Number of pieces of content removed from Meta’s platforms in compliance with Pakistani legislation" alt="Number of pieces of content removed from Meta’s platforms in compliance with Pakistani legislation">}}
+
 **Image**: Number of pieces of content removed from Meta’s platforms in compliance with Pakistani legislation between 2013 to 2024 (source: [Meta Transparency Report](https://transparency.meta.com/reports/content-restrictions/country/PK/)).
 
 ### Military conflict
@@ -171,7 +177,7 @@ The data collection was initiated in response to growing reports of geo-blocking
 
 The findings of this study present several limitations, including:
 
-* **Date range of analysis.**mThe findings are limited to OONI Web Connectivity measurements collected from [India](https://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&since=2025-04-01&until=2025-06-20&axis_x=measurement_start_day&time_grain=day) and [Pakistan](https://explorer.ooni.org/chart/mat?probe_cc=PK&test_name=web_connectivity&since=2025-04-01&until=2025-06-20&axis_x=measurement_start_day&time_grain=day) between April 2025 to June 2025. As a result, findings from measurements collected in different date ranges are excluded from this study.
+* **Date range of analysis.** The findings are limited to OONI Web Connectivity measurements collected from [India](https://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&since=2025-04-01&until=2025-06-20&axis_x=measurement_start_day&time_grain=day) and [Pakistan](https://explorer.ooni.org/chart/mat?probe_cc=PK&test_name=web_connectivity&since=2025-04-01&until=2025-06-20&axis_x=measurement_start_day&time_grain=day) between April 2025 to June 2025. As a result, findings from measurements collected in different date ranges are excluded from this study.
 * **Type of measurements.** The findings are limited to OONI [Web Connectivity](https://ooni.org/nettest/web-connectivity/) measurements, pertaining to the testing of websites for censorship. As a result, findings from [other OONI Probe experiments](https://ooni.org/nettest) are excluded from this study. 
 * **Tested websites.** While OONI Probe users regularly contribute a large volume of measurements, the testing is limited to URLs included in 3 [Citizen Lab test lists](https://github.com/citizenlab/test-lists/tree/master/lists): the [global list](https://github.com/citizenlab/test-lists/blob/master/lists/global.csv) (including internationally-relevant URLs) and the country-specific lists for [India](https://github.com/citizenlab/test-lists/blob/master/lists/in.csv) and [Pakistan](https://github.com/citizenlab/test-lists/blob/master/lists/pk.csv). As these lists are tested by [OONI Probe](https://ooni.org/install) users and there are bandwidth constraints, they are generally limited to around 1,000 URLs. As a result, the lists exclude many other websites that are blocked in India and Pakistan, and the findings are limited to the testing of the URLs included in these lists. Given that the lists are community-curated, we acknowledge the bias in terms of which URLs are added to the lists. 
 * **Testing coverage of websites.** Not all URLs included in [test lists](https://github.com/citizenlab/test-lists/tree/master/lists) are measured equally across countries over time. Whether OONI data is available for a particular website depends on whether, on which networks, and when [OONI Probe](https://ooni.org/install) users in India and Pakistan tested it. As a result, tested websites received different testing coverage throughout the analysis period, which impacts the findings.  
@@ -221,6 +227,7 @@ The table below covers the full list of websites reported to be inaccessible by 
 | India today     | https://www.indiatoday.in/           | India             | X                                  |                                 | X                                                         |                                    |
 | The Hindu       | https://www.thehindu.com/            | India             | X                                  |                                 | X                                                         |                                    |
 | India Tv News   | https://www.indiatvnews.com/         | India             | X                                  |                                 | X                                                         |                                    |
+
 **Table 1**: List of 30 news media websites reported by the community to be blocked in India and/or Pakistan. 
 
 While OONI data **doesn’t confirm** all of the reported blocks in India and Pakistan, this does not necessarily mean that these websites were not targeted by censors. As described in the sections above, OONI’s methodology has its limitations and data collected by OONI Probe users does not cover all networks used in India and Pakistan. 
@@ -246,9 +253,10 @@ According to OONI data, the news media websites, access to which was blocked in 
 * `thewire.in`,
 * `thekashmirwalla.com`
 
-The following [chart](http://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&domain=dunyanews.tv%2Cthekashmirwalla.com&since=2025-04-01&until=2025-05-30&axis_x=measurement_start_day&axis_y=domain&time_grain=day) aggregates OONI measurement coverage from the[ testing](https://ooni.org/nettest/web-connectivity/) of `dunyanews.tv` and `thekashmirwalla.com` in India between 1st April 2025 to 29th May 2025.
+The following [chart](http://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&domain=dunyanews.tv%2Cthekashmirwalla.com&since=2025-04-01&until=2025-05-30&axis_x=measurement_start_day&axis_y=domain&time_grain=day) aggregates OONI measurement coverage from the [testing](https://ooni.org/nettest/web-connectivity/) of `dunyanews.tv` and `thekashmirwalla.com` in India between 1st April 2025 to 29th May 2025.
 
 {{<img src="images/image7.png" title="OONI Probe testing of `dunyanews.tv` and `thekashmirwalla.com` in India" alt="OONI Probe testing of `dunyanews.tv` and `thekashmirwalla.com` in India">}}
+
 **Chart:** OONI Probe testing of `dunyanews.tv` and `thekashmirwalla.com` in India between 1st April 2025 to 29th May 2025 (source:[ OONI data](https://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&domain=thewire.in&since=2025-04-13&until=2025-05-13&axis_x=measurement_start_day&time_grain=day)).
 
 As is evident from the chart, both `dunyanews.tv` and `thekashmirwalla.com` have been inaccessible in India prior to the escalation of the conflict. While OONI data confirms the reports from the community that these media have been inaccessible on some networks in India during the period of the conflict, both websites [seem to be blocked](https://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&domain=dunyanews.tv%2Cthekashmirwalla.com&since=2023-01-01&until=2023-12-30&axis_x=measurement_start_day&axis_y=domain&time_grain=day) on some networks since at least August 2023. 
@@ -256,6 +264,7 @@ As is evident from the chart, both `dunyanews.tv` and `thekashmirwalla.com` have
 The following [chart](https://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&domain=tribune.com.pk&since=2025-04-01&until=2025-05-30&axis_x=measurement_start_day&axis_y=domain&time_grain=day) aggregates OONI measurement coverage from the testing of `tribune.com.pk` in India between 1st April 2025 to 29th May 2025.
 
 {{<img src="images/image8.png" title="OONI Probe testing of `tribune.com.pk` in India " alt="OONI Probe testing of `tribune.com.pk` in India">}}
+
 **Chart:** OONI Probe testing of `tribune.com.pk` in India between 1st April 2025 to 29th May 2025 (source:[ OONI data](https://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&domain=thewire.in&since=2025-04-13&until=2025-05-13&axis_x=measurement_start_day&time_grain=day)).
 
 As can be seen from the chart, the measurements pertaining to `tribune.com.pk` present a spike in [anomalies](https://ooni.org/support/interpreting-ooni-data/#anomalies) since 3rd May 2025. Moreover, the blocking of `tribune.com.pk` is [automatically confirmed](https://explorer.ooni.org/m/20250503150132.800503_IN_webconnectivity_9208d7517e520aca) in some cases based on[ blocking fingerprints](https://github.com/ooni/blocking-fingerprints).
@@ -265,6 +274,7 @@ While OONI data suggests strong indication of intentional censorship of `tribune
 The following[ chart](https://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&domain=thewire.in&since=2025-04-13&until=2025-05-13&axis_x=measurement_start_day&time_grain=day) aggregates OONI measurement coverage from the[ testing](https://ooni.org/nettest/web-connectivity/) of `thewire.in` in India between 1st April 2025 to 29th May 2025.
 
 {{<img src="images/image9.png" title="OONI Probe testing of `thewire.in` in India" alt="OONI Probe testing of `thewire.in` in India">}}
+
 **Chart:** OONI Probe testing of `thewire.in` in India between 1st April 2025 to 29th May 2025 (source:[ OONI data](https://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&domain=thewire.in&since=2025-04-13&until=2025-05-13&axis_x=measurement_start_day&time_grain=day)).
 
 As is evident, OONI measurements pertaining to `thewire.in` presented a spike in[ anomalies](https://ooni.org/support/interpreting-ooni-data/#anomalies) (signs of censorship) on 9th May 2025, the day The Wire [reported](https://x.com/thewire_in/status/1920736427937079739/photo/1) the block, while previously `thewire.in` was found accessible on tested networks. This comparison (with past measurements) provides a signal of censorship. Moreover, the blocking of `thewire.in` is[ automatically confirmed](https://explorer.ooni.org/m/20250509155936.941181_IN_webconnectivity_271826b5fa22cafa) in some cases based on[ blocking fingerprints](https://github.com/ooni/blocking-fingerprints).
@@ -276,6 +286,7 @@ According to The Wire’s editor’s [statement](https://thewire.in/security/cnn
 The following [chart](https://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&domain=arynews.tv%2Cgnnhd.tv%2Cwww.bolnews.com%2Cwww.dawn.com%2Cwww.geo.tv%2Csunonews.tv&since=2025-04-01&until=2025-05-30&axis_x=measurement_start_day&axis_y=domain&time_grain=day) aggregates OONI measurement coverage from the testing of `arynews.tv`, `gnnhd.tv`, `www.bolnews.com`, `www.dawn.com`, `www.geo.tv`, `sunonews.tv` in India between 1st April 2025 to 29th May 2025.
 
 {{<img src="images/image10.png" title="OONI Probe testing of `arynews.tv`, `gnnhd.tv`, `www.bolnews.com`, `www.dawn.com`, `www.geo.tv`, `sunonews.tv` in India" alt="OONI Probe testing of `arynews.tv`, `gnnhd.tv`, `www.bolnews.com`, `www.dawn.com`, `www.geo.tv`, `sunonews.tv` in India">}}
+
 **Chart:** OONI Probe testing of `arynews.tv`, `gnnhd.tv`, `www.bolnews.com`, `www.dawn.com`, `www.geo.tv`, `sunonews.tv` in India between 1st April 2025 to 29th May 2025 (source:[ OONI data](https://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&domain=thewire.in&since=2025-04-13&until=2025-05-13&axis_x=measurement_start_day&time_grain=day)).
 
 As is evident from the chart, there is no available data pertaining to the accessibility of `arynews.tv`, `gnnhd.tv`, `www.bolnews.com`, `www.dawn.com`, `www.geo.tv` and `sunonews.tv` in India before 12th May 2025. These six domains were [added](https://github.com/citizenlab/test-lists/pull/1955) to the list of websites tested for censorship in India only on 12th May 2025 and haven’t been tested before this date. 
@@ -289,6 +300,7 @@ Similarly to `tribune.com.pk`, all six domains remained accessible on [some of t
 The following [chart](https://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&domain=dailytimes.com.pk%2Clive.samaa.tv&since=2025-04-01&until=2025-05-30&axis_x=measurement_start_day&axis_y=domain&time_grain=day) aggregates OONI measurement coverage from the testing of `dailytimes.com.pk` and `live.samaa.tv` in India between 1st April 2025 to 29th May 2025.
 
 {{<img src="images/image11.png" title="OONI Probe testing of `dailytimes.com.pk` and `live.samaa.tv` in India" alt="OONI Probe testing of `dailytimes.com.pk` and `live.samaa.tv` in India">}}
+
 **Chart:** OONI Probe testing of `dailytimes.com.pk` and `live.samaa.tv` in India between 1st April 2025 to 29th May 2025 (source:[ OONI data](https://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&domain=thewire.in&since=2025-04-13&until=2025-05-13&axis_x=measurement_start_day&time_grain=day)).
 
 As can be seen from the chart, there is no available data pertaining to the OONI Probe testing of `dailytimes.com.pk` and `live.samaa.tv` in India before 26th May 2025. These two domains were [added](https://github.com/citizenlab/test-lists/pull/1967/files) to the list of websites tested for censorship in India only on 26th May 2025 and haven’t been tested prior to this date. 
@@ -322,6 +334,7 @@ According to [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=PK&test_na
 The following [chart](https://explorer.ooni.org/chart/mat?probe_cc=PK&test_name=web_connectivity&domain=timesofindia.indiatimes.com%2Cwww.hindustantimes.com&since=2025-04-01&until=2025-05-30&axis_x=measurement_start_day&axis_y=domain&time_grain=day) aggregates OONI measurement coverage from the[ testing](https://ooni.org/nettest/web-connectivity/) of `timesofindia.indiatimes.com` and `www.hindustantimes.com` in Pakistan between 1st April 2025 to 29th May 2025.
 
 {{<img src="images/image12.png" title="OONI Probe testing of `timesofindia.indiatimes.com` and `www.hindustantimes.com` in Pakistan" alt="OONI Probe testing of `timesofindia.indiatimes.com` and `www.hindustantimes.com` in Pakistan">}}
+
 **Chart:** OONI Probe testing of `timesofindia.indiatimes.com` and `www.hindustantimes.com` in Pakistan between 1st April 2025 to 29th May 2025 (source:[ OONI data](https://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&domain=thewire.in&since=2025-04-13&until=2025-05-13&axis_x=measurement_start_day&time_grain=day)).
 
 OONI data suggests that both news media outlets were blocked before the beginning of the conflict on at least one network in Pakistan ([Pakistan Telecom Company, AS17557](https://explorer.ooni.org/m/20250420170414.768255_PK_webconnectivity_2a261915a6dc87b3)). However, as is evident from the chart above, the OONI Probe testing of both domains starts resulting in anomalies on **all tested networks** starting 8th May 2025. This provides a strong signal that access to `timesofindia.indiatimes.com` and `www.hindustantimes.com` was blocked in Pakistan after 8th May 2025.
@@ -329,14 +342,16 @@ OONI data suggests that both news media outlets were blocked before the beginnin
 Similarly, OONI data [indicates](https://explorer.ooni.org/chart/mat?probe_cc=PK&test_name=web_connectivity&domain=www.indiatoday.in%2Cwww.republicworld.com%2Cwww.thehindu.com%2Cwww.ndtv.com&since=2025-04-01&until=2025-06-30&axis_x=measurement_start_day&axis_y=domain&time_grain=day) that `www.indiatoday.in`, `www.republicworld.com`, `www.thehindu.com`, and `www.ndtv.com` were inaccessible on all tested networks after 8th May 2025. As can be seen from the [chart](https://explorer.ooni.org/chart/mat?probe_cc=PK&test_name=web_connectivity&domain=www.indiatoday.in%2Cwww.republicworld.com%2Cwww.thehindu.com%2Cwww.ndtv.com&since=2025-04-01&until=2025-06-30&axis_x=measurement_start_day&axis_y=domain&time_grain=day) below, all four websites were previously accessible on all tested networks in Pakistan and started resulting in anomalies at the end of April 2025 and at the beginning of May 2025. 
 
 {{<img src="images/image13.png" title="OONI Probe testing of `www.indiatoday.in`, `www.republicworld.com`, `www.thehindu.com`, and `www.ndtv.com` in Pakistan" alt="OONI Probe testing of `www.indiatoday.in`, `www.republicworld.com`, `www.thehindu.com`, and `www.ndtv.com` in Pakistan">}}
+
 **Chart:** OONI Probe testing of `www.indiatoday.in`, `www.republicworld.com`, `www.thehindu.com`, and `www.ndtv.com` in Pakistan between 1st April 2025 to 29th May 2025 (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&domain=thewire.in&since=2025-04-13&until=2025-05-13&axis_x=measurement_start_day&time_grain=day)). 
 
 The following [chart](https://explorer.ooni.org/chart/mat?probe_cc=PK&test_name=web_connectivity&domain=indianexpress.com%2Cwww.indiatvnews.com&since=2025-04-01&until=2025-06-30&axis_x=measurement_start_day&axis_y=domain&time_grain=day) aggregates OONI measurement coverage from the[ testing](https://ooni.org/nettest/web-connectivity/) of `indianexpress.com` and `www.indiatvnews.com` in Pakistan between 1st April 2025 to 29th May 2025.
 
 {{<img src="images/image14.png" title="OONI Probe testing of `indianexpress.com` and `www.indiatvnews.com` in Pakistan" alt="OONI Probe testing of `indianexpress.com` and `www.indiatvnews.com` in Pakistan">}}
+
 **Chart:** OONI Probe testing of `indianexpress.com` and `www.indiatvnews.com` in Pakistan between 1st April 2025 to 29th May 2025 (source:[ OONI data](https://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&domain=thewire.in&since=2025-04-13&until=2025-05-13&axis_x=measurement_start_day&time_grain=day)).
 
-As is evident from the chart, there is no data pertaining to `https://indianexpress.com/` and `https://www.indiatvnews.com/` before 25th May 2025. Both domains were [added](https://github.com/citizenlab/test-lists/pull/1967/files) to the list of websites tested for censorship in Pakistan only on 26th May 2025 and haven’t been tested prior to this date. 
+As is evident from the chart, there is no data pertaining to `indianexpress.com` and `www.indiatvnews.com` before 25th May 2025. Both domains were [added](https://github.com/citizenlab/test-lists/pull/1967/files) to the list of websites tested for censorship in Pakistan only on 26th May 2025 and haven’t been tested prior to this date. 
 
 Given the lack of data from the earlier dates, it is not possible to analyse whether `indianexpress.com` and `www.indiatvnews.com` were accessible in Pakistan before the escalation of the conflict or not. However, OONI data [shows](https://explorer.ooni.org/chart/mat?probe_cc=PK&test_name=web_connectivity&domain=indianexpress.com%2Cwww.indiatvnews.com&since=2025-04-01&until=2025-06-30&axis_x=measurement_start_day&axis_y=domain&time_grain=day) a strong signal of intentional censorship of both news media outlets on all tested networks in Pakistan during the dates following the days of the military conflict. 
 
@@ -355,6 +370,7 @@ Platform-based censorship in India started on YouTube and X on 28th April 2025, 
 Many of the channels and accounts, access to which was restricted for Indian users, belong to news media organisations, political analysts, and journalists.
 
 {{<img src="images/image15.png" title="Screenshot of a post on X/Twitter sharing that multiple YouTube accounts were blocked in India" alt="Screenshot of a post on X/Twitter sharing that multiple YouTube accounts were blocked in India">}}
+
 **Image**: Screenshot of a post on X/Twitter sharing that multiple YouTube accounts were blocked in India (source: [X/Twitter](https://x.com/asmashirazi/status/1916747452373229968)).
 
 The list of censored Pakistani YouTube accounts [includes](https://www.hindustantimes.com/india-news/full-list-of-16-pakistani-youtube-channels-blocked-by-centre-for-spreading-hate-after-pahalgam-terror-attack-101745816755063.html) (but is not limited to):
@@ -390,11 +406,13 @@ Some of the [withheld](https://www.ibtimes.co.in/pahalgam-attack-aftermath-full-
 8. **Raza Haroon** ([https://x.com/mrazaharoon](https://x.com/mrazaharoon)), former member of the Provincial Assembly of Sindh
 
 {{<img src="images/image16.png" title="Screenshot of a post on X/Twitter sharing that multiple YouTube accounts were blocked in India" alt="Screenshot of a post on X/Twitter sharing that multiple YouTube accounts were blocked in India">}}
+
 **Image**: Screenshot of a post on X/Twitter sharing that multiple YouTube accounts were blocked in India (source: [X/Twitter](https://x.com/nayadaurpk_urdu/status/1917230941400895843)).
 
 The next wave of bans and blocks hit Pakistani entertainment channels and artists. Beginning April 30, [Pakistani entertainment YouTube channels](https://tribune.com.pk/story/2543370/india-blocks-access-to-pakistani-entertainment-channels-on-youtube) and the [social media accounts of artists](https://www.dawn.com/news/1907655), especially Instagram accounts, started to be banned in India. Indian users who attempted to access the censored content were met with messages such as the one below:
 
 {{<img src="images/image17.png" title="Screenshot of a video published on YouTube stating that this video is unavailable for users in India" alt="Screenshot of a video published on YouTube stating that this video is unavailable for users in India">}}
+
 **Image**: Screenshot of a video published on YouTube stating that this video is unavailable for users in India. 
 
 A non-exhaustive list of banned Pakistani entertainment YouTube channels and artist Instagram accounts includes:
@@ -435,7 +453,7 @@ On 8th July 2025, two months after the ceasefire was brokered, Global Affairs [p
 
 In May 2025, during and after the 4-day military conflict between India and Pakistan that emerged following the [Pahalgam terrorist attack](https://www.aljazeera.com/news/2025/4/23/act-of-war-what-happened-in-kashmir-attack-that-killed-26-tourists), 30 news media websites were reported to be inaccessible by users in Pakistan and India. OONI data suggests that among the reported websites, **at least 12 websites of Pakistani and Indian news media outlets were [blocked](https://explorer.ooni.org/chart/mat?probe_cc=IN&test_name=web_connectivity&domain=www.dawn.com%2Cdailytimes.com.pk%2Cwww.geo.tv%2Carynews.tv%2Clive.samaa.tv%2Ctribune.com.pk%2Cnayadaur.tv%2Cwww.bolnews.com%2Csunonews.tv%2Craftar.com%2Cgnnhd.tv%2Cdunyanews.tv%2Cmaktoobmedia.com%2Cthewire.in%2Cjamuna.tv%2Cekattor.tv%2Cwww.bvnews24.com%2Cmohona.tv%2Ctrt.global%2Cwww.globaltimes.cn%2Cenglish.news.cn%2Cthekashmirwalla.com&since=2025-04-01&until=2025-05-30&axis_x=measurement_start_day&axis_y=domain&time_grain=day) in India**, and **at least 8 Indian news media websites were [blocked](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2025-04-01&until=2025-05-30&time_grain=day&probe_cc=PK&domain=maktoobmedia.com%2Cthewire.in%2Cjamuna.tv%2Cekattor.tv%2Cwww.bvnews24.com%2Cmohona.tv%2Ctrt.global%2Cwww.globaltimes.cn%2Cenglish.news.cn%2Cthekashmirwalla.com%2Cwww.republicworld.com%2Cwww.hindustantimes.com%2Ctimesofindia.indiatimes.com%2Cwww.ndtv.com%2Cindianexpress.com%2Cwww.indiatoday.in%2Cwww.thehindu.com%2Cwww.indiatvnews.com&axis_y=domain) on some networks in Pakistan**. Most of these blocks remain ongoing after the end of the conflict and remain inaccessible on the date of publication of this report. 
 
-In both India and Pakistan, **the blocking methods are similar to what we have seen in the past**. OONI data suggests that news media websites were [blocked](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2025-04-01&until=2025-05-30&time_grain=day&probe_cc=PK&domain=maktoobmedia.com%2Cthewire.in%2Cjamuna.tv%2Cekattor.tv%2Cwww.bvnews24.com%2Cmohona.tv%2Ctrt.global%2Cwww.globaltimes.cn%2Cenglish.news.cn%2Cthekashmirwalla.com%2Cwww.republicworld.com%2Cwww.hindustantimes.com%2Ctimesofindia.indiatimes.com%2Cwww.ndtv.com%2Cindianexpress.com%2Cwww.indiatoday.in%2Cwww.thehindu.com%2Cwww.indiatvnews.com&axis_y=domain) in Pakistan by means of TLS interference, while the blocking of news media websites in India is [automatically confirmed](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2025-04-01&until=2025-05-30&time_grain=day&probe_cc=IN&domain=www.dawn.com%2Cdailytimes.com.pk%2Cwww.geo.tv%2Carynews.tv%2Clive.samaa.tv%2Ctribune.com.pk%2Cnayadaur.tv%2Cwww.bolnews.com%2Csunonews.tv%2Craftar.com%2Cgnnhd.tv%2Cdunyanews.tv%2Cmaktoobmedia.com%2Cthewire.in%2Cjamuna.tv%2Cekattor.tv%2Cwww.bvnews24.com%2Cmohona.tv%2Ctrt.global%2Cwww.globaltimes.cn%2Cenglish.news.cn%2Cthekashmirwalla.com&axis_y=domain) based on [fingerprints](https://github.com/ooni/blocking-fingerprints). The blocking of news media outlets suggests government attempts to control the narrative, which is a pattern that has been observed during other conflicts around the world (such as in [Russia](https://ooni.org/post/2022-russia-blocks-amid-ru-ua-conflict/) following the invasion of Ukraine) over the years based on OONI data. 
+In both India and Pakistan, **the blocking methods are similar to what we have seen in the past**. OONI data suggests that news media websites were [blocked](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2025-04-01&until=2025-05-30&time_grain=day&probe_cc=PK&domain=maktoobmedia.com%2Cthewire.in%2Cjamuna.tv%2Cekattor.tv%2Cwww.bvnews24.com%2Cmohona.tv%2Ctrt.global%2Cwww.globaltimes.cn%2Cenglish.news.cn%2Cthekashmirwalla.com%2Cwww.republicworld.com%2Cwww.hindustantimes.com%2Ctimesofindia.indiatimes.com%2Cwww.ndtv.com%2Cindianexpress.com%2Cwww.indiatoday.in%2Cwww.thehindu.com%2Cwww.indiatvnews.com&axis_y=domain) in Pakistan by means of TLS interference, while the blocking of news media websites in India is [automatically confirmed](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2025-04-01&until=2025-05-30&time_grain=day&probe_cc=IN&domain=www.dawn.com%2Cdailytimes.com.pk%2Cwww.geo.tv%2Carynews.tv%date.samaa.tv%2Ctribune.com.pk%2Cnayadaur.tv%2Cwww.bolnews.com%2Csunonews.tv%2Craftar.com%2Cgnnhd.tv%2Cdunyanews.tv%2Cmaktoobmedia.com%2Cthewire.in%2Cjamuna.tv%2Cekattor.tv%2Cwww.bvnews24.com%2Cmohona.tv%2Ctrt.global%2Cwww.globaltimes.cn%2Cenglish.news.cn%2Cthekashmirwalla.com&axis_y=domain) based on [fingerprints](https://github.com/ooni/blocking-fingerprints). The blocking of news media outlets suggests government attempts to control the narrative, which is a pattern that has been observed during other conflicts around the world (such as in [Russia](https://ooni.org/post/2022-russia-blocks-amid-ru-ua-conflict/) following the invasion of Ukraine) over the years based on OONI data. 
 
 The number of the takedown requests from India targeting content on different social media platforms has **sky-rocketed** after the escalation of the conflict. While in previous years X/Twitter received a maximum of 10,000 takedown requests per year, in May 2025 they received more than 8,000 requests during the first two days of the conflict. 
 
