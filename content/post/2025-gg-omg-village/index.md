@@ -1,14 +1,15 @@
 ---
 title: "Join us at the OMG Village at the Global Gathering 2025!"
-description: "This blog post provides a summary of Open Measurement Village that will be hosted as part of Global Gathering 2025."
+description: "This blog post shares the Agenda of the Open Measurement Gathering (OMG) Village that will be hosted at the Global Gathering 2025 event."
 author: "Open Measurement Gathering (OMG)"
 date: "2025-09-01"
 tags: ["event", "network measurement", "omg", "global gathering"]
 categories: ["blog"]
 ---
-Are you attending the upcoming [Global Gathering](https://wiki.digitalrights.community/index.php?title=Global_Gathering_2025) event in Estoril, Portugal? Are you interested in investigating internet shutdowns and censorship, and curious to learn more about the tools and open datasets that support this work?
 
 {{<img src="images/omg-banner.png" title="OMG Village announcement" alt="OMG Village announcement">}}
+
+Are you attending the upcoming [Global Gathering](https://wiki.digitalrights.community/index.php?title=Global_Gathering_2025) event in Estoril, Portugal? Are you interested in investigating internet shutdowns and censorship, and curious to learn more about the tools and open datasets that support this work?
 
 Join us at the Global Gathering **Open Measurement Gathering (OMG) Village**: a community space organized and hosted by 4 internet measurement projects: [Open Observatory of Network Interference (OONI)](https://ooni.org/), [Measurement Lab (M-Lab)](https://www.measurementlab.net/), [Internet Outage Detection & Analysis (IODA)](https://ioda.inetintel.cc.gatech.edu/), and [Censored Planet](https://censoredplanet.org/). We also have the pleasure of being joined by our friends [Netalitica](https://netalitica.com/) and [Project Ainita](https://ainita.net/), who will each host a booth on Day 3.
 
@@ -64,14 +65,14 @@ From 1:00 PM to 5:30 PM, the OMG Village will be buzzing with both booths and ci
 
 From 1:00 PM to 5:30 PM, the OMG Village will be buzzing with both booths and circle discussions. You can find the full Global Gathering Day 3 agenda [here](https://wiki.digitalrights.community/index.php?title=September_10_2025_Agenda).
 
-### **Booths: Netalitica and Project Ainita** 
+#### **Booths: Netalitica and Project Ainita** 
 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Booth | Booth Description |
 |---------------------|----------------|---------------------------------------|
 | 1:00 PM - 3:00 PM   | Netalitica     | Netalitica Booth will introduce you to the "Test Lists Project". We hire local researchers to update the URL test lists (aka Citizen Lab lists) of multiple countries, which are then used by network probes (e.g. OONI Probe) to uncover Internet censorship. Come to our booth to learn how to update the test list of your country, see the results of our project and check out the vacant research positions!                                                                                                                                                      |
 | 3:30 PM - 5:30 PM   | Project Ainita | Project Ainita's Cyber Threat Intelligence (CTI) portal aims to be a one stop shop for latest intel, live Internet measurements and contextual analysis for circumvention tool makers, researchers, journalists, funders, decision makers and stakeholders needing current and deep understanding of a country's Internet status. We will be providing a live demo of the CTI portal as well as Internet maps of a few countries. We intend on being fully available for Q&A and hope to foster rich brainstorming discussions of scaling CTI in other needed contexts. |
 
-### **Circle sessions: Community-led discussions** 
+#### **Circle sessions: Community-led discussions** 
 
 On Day 3, the OMG Village will feature community-proposed circle sessions.
 
