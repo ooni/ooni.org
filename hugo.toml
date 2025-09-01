@@ -46,6 +46,8 @@ publishDir = "public/"
     endLevel = 5
     ordered = false
     startLevel = 1
+  [markup.goldmark.renderer]
+    unsafe = true
 
 [menu]
   [[menu.main]]
