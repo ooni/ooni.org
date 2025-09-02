@@ -2,7 +2,7 @@
 title: "Information Controls in India and Pakistan During the May 2025 Conflict"
 description: "This report documents the censorship of news media projects in India and Pakistan during the 4-day armed conflict in May 2025. This report was created in collaboration with DRF (Digital Rights Foundation)."
 author: "Digital Rights Foundation (DRF), Elizaveta Yachmeneva, Maria Xynou"
-date: "2025-08-27"
+date: "2025-09-02"
 tags: ["country-in", "country-pk", "censorship", "theme-news_media"]
 categories: ["report"]
 ---
