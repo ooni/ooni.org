@@ -1,0 +1,26 @@
+git:
+  settings:
+    pr_branch_name:
+      translations/<br_unique_id>
+  filters:
+    - filter_type: file
+      file_format: GITHUBMARKDOWN
+      source_language: en
+      source_file: content/support/ooni-probe-desktop/index.md
+      translation_files_expression: 'content/support/ooni-probe-desktop/index.<lang>.md'
+    - filter_type: file
+      file_format: GITHUBMARKDOWN
+      source_language: en
+      source_file: content/support/ooni-probe-mobile/index.md
+      translation_files_expression: 'content/support/ooni-probe-mobile/index.<lang>.md'
+    - filter_type: file
+      file_format: GITHUBMARKDOWN
+      source_language: en
+      source_file: content/support/ooni-outreach-kit/index.md
+      translation_files_expression: 'content/support/ooni-outreach-kit/index.<lang>.md'
+
+
+      
+
+
+      
