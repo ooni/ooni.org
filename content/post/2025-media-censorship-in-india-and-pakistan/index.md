@@ -2,14 +2,16 @@
 title: "Information Controls in India and Pakistan During the May 2025 Conflict"
 description: "This report documents the censorship of news media projects in India and Pakistan during the 4-day armed conflict in May 2025. This report was created in collaboration with DRF (Digital Rights Foundation)."
 author: "Digital Rights Foundation (DRF), Elizaveta Yachmeneva, Maria Xynou"
-date: "2025-09-02"
+date: "2025-09-04"
 tags: ["country-in", "country-pk", "censorship", "theme-news_media"]
 categories: ["report"]
 ---
 
 In May 2025, after the [terrorist attack](https://www.bbc.com/news/articles/cy9vyzzyjzlo) in Kashmir on 22nd April 2025, political tension between India and Pakistan escalated into a [4-day conflict](https://www.iiss.org/online-analysis/online-analysis/2025/05/indiapakistan-drone-and-missile-conflict-differing-and-disputed-narratives/). Amid the conflict, both governments started blocking multiple news media outlets to fight ‘disinformation campaigns’ and ‘hate speech’ on the internet. 
 
-This report is published in collaboration with [DRF (Digital Rights Foundation)](https://digitalrightsfoundation.pk) and shares OONI data on blocks that emerged in both India and Pakistan amid the armed conflict in May 2025.
+This report is published in collaboration with [DRF (Digital Rights Foundation)](https://digitalrightsfoundation.pk) and shares OONI data on blocks that emerged in both India and Pakistan amid the armed conflict in May 2025. 
+
+Download PDF version of the report [here](https://digitalrightsfoundation.pk/wp-content/uploads/2025/09/Information-Controls-in-India-and-Pakistan-during-the-May-2025-Conflict-DRF-OONI.pdf).
 
 {{<table-of-contents>}}
 
