@@ -4,6 +4,9 @@ country: Pakistan
 name: Digital Rights Foundation
 title: Digital Rights Foundation
 website: https://digitalrightsfoundation.pk/
+reports:
+- text: "Information Controls in India and Pakistan During the May 2025 Conflict"
+  link: "https://ooni.org/post/2025-media-censorship-in-india-and-pakistan/"
 ---
 
 [Digital Rights Foundation (DRF)](https://digitalrightsfoundation.pk/) is a feminist, not-for-profit organisation based in Pakistan working on digital rights freedoms since 2013. DRF envisions a place where all people, especially women and gender minorities, can exercise the right of expression without being threatened. DRF believes that a free internet with access to information and impeccable privacy policies can create safe online spaces for not only women but the world at large.
