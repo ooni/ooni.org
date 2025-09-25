@@ -7,6 +7,7 @@ fi
 echo "Using BASE_URL=$BASE_URL"
 npm install
 mkdir -p public/
+hugo mod get -u
 hugo --minify --buildDrafts --baseURL="$BASE_URL"
 cp static/googlec8ce605468a38232.html public/
 cp static/robots.txt public/
