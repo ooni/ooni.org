@@ -13,7 +13,7 @@ establish a TCP connection to Telegram’s access points (DCs), as well as an
 HTTPS GET request to Telegram's web version (`web.telegram.org`) over the
 vantage point of the user. The test is triggered as blocking when connections
 to *all* access points defined in the [test](
-https://github.com/TheTorProject/ooni-probe/blob/master/ooni/nettests/blocking/telegram.py#L16-L22)
+https://github.com/ooni/probe-cli/blob/112452a3c6c76843e21ac347f449068840df78f9/internal/experiment/telegram/telegram.go#L89-L97)
 fail.
 
 Based on this methodology Telegram’s *app* is likely blocked if any of the
