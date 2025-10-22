@@ -2,7 +2,7 @@
 {{- $urlParts := split .RelPermalink "/" }}
 {{- $currentPathPrefix := index $urlParts 1 | printf "/%s/" }}
 {{- $currentSubMenuName := index $urlParts 2 }}
-<nav class="bg-ooniblue shadow">
+<nav id="main-navbar" class="bg-ooniblue shadow">
   <div class="container">
     <div class="flex h-16 justify-between">
       <div class="flex">
