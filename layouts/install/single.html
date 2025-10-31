@@ -6,7 +6,7 @@
       <h1 class="article-title">{{ .Params.leadTitle }}</h1>
       <p class="lead">{{ .Params.leadDescription }}</p>
     </div>
-    <div class="flex justify-center md:justify-between max-w-[920px] mx-auto items-center">
+    <div class="prose prose-pre:bg-gray2 prose-pre:text-black max-w-[920px] mx-auto">
       {{ if eq .Params.platform "desktop" }}
       {{ partial "install/desktop.html" . }}
       {{ else if eq .Params.platform "mobile" }}
