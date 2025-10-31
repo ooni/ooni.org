@@ -1,0 +1,17 @@
+{{- $imageURL := "" -}}
+{{- with .Params.thumbnail -}}
+  {{- $imageURL = (. | absURL) -}}
+{{- else -}}
+  {{- $images := .Resources.ByType "image" -}}
+  {{- with $images -}}
+    {{- $featured := $images.GetMatch "**feature*" -}}
+    {{- if not $featured }}{{ $featured = $images.GetMatch "{**cover*,**thumbnail*}" }}{{ end -}}
+    {{- if not $featured }}{{ $featured = index $images 0 }}{{ end -}}
+    {{- $imageURL = $featured.Permalink -}}
+  {{- else -}}
+    {{- with $.Site.Params.images -}}
+      {{- $imageURL = (index . 0 | absURL) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $imageURL -}}

@@ -2,19 +2,14 @@
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-{{ with $.Params.images }}{{ range first 6 . -}}
-<meta property="og:image" content="{{ . | absURL }}" />
-{{ end }}{{ else -}}
-{{- $images := $.Resources.ByType "image" -}}
-{{- with $images -}}
-{{- $featured := $images.GetMatch "**feature*" -}}
-{{- if not $featured }}{{ $featured = $images.GetMatch "{**cover*,**thumbnail*}" }}{{ end -}}
-{{- if not $featured }}{{ $featured = index $images 0 }}{{ end -}}
-<meta property="og:image" content="{{ $featured.Permalink }}"/>
+{{ with $.Params.images }}
+  {{ range first 6 . -}}
+    <meta property="og:image" content="{{ . | absURL }}" />
+  {{ end }}
 {{ else -}}
-{{- with $.Site.Params.images -}}
-<meta property="og:image" content="{{ index . 0 | absURL }}"/>
-{{ end }}{{ end }}{{ end }}
+  {{- $imageURL := partialCached "get-image-url.html" . .Permalink -}}
+  {{- with $imageURL }}<meta property="og:image" content="{{ . }}" />{{ end }}
+{{ end }}
 
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
 {{- if .IsPage }}
