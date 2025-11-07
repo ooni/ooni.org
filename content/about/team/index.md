@@ -27,7 +27,5 @@ submenu:
 
 {{<team-member name="Maja Komel" role="Frontend Engineer" email="maja@ooni.org" pgpkey="A22363F51398A95B593F94C8231F093C7F5D7A45">}}
 
-{{<team-member name="Elizaveta Yachmeneva" role="Community and Research Coordinator" email="elizaveta@ooni.org" pgpkey="0419a8e327f6a7ff3ce5099a5be5b99b31b45a4f" img="images/elizaveta.jpg">}}
-
 
 {{</team-listing>}}
