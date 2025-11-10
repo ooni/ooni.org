@@ -7,7 +7,8 @@
     {{- $featured := $images.GetMatch "**feature*" -}}
     {{- if not $featured }}{{ $featured = $images.GetMatch "{**cover*,**thumbnail*}" }}{{ end -}}
     {{- if not $featured }}{{ $featured = index $images 0 }}{{ end -}}
-    {{- $imageURL = $featured.Permalink -}}
+    {{- $preview := $featured.Resize "640x Lanczos" -}}
+    {{- $imageURL = $preview.Permalink -}}
   {{- else -}}
     {{- with $.Site.Params.images -}}
       {{- $imageURL = (index . 0 | absURL) -}}
