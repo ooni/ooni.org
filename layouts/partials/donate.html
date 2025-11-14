@@ -1,10 +1,11 @@
-<div class="bg-[#1B1E21] text-[#C3FAE8] md:h-[406px] relative flex items-end" style="background-image: url('/images/donate_banner/donate_banner_bg.svg'); background-position: 33% center; background-size: cover; background-repeat: no-repeat;">
+<div id="donate-banner" class="bg-[#1B1E21] text-[#C3FAE8] md:h-[406px] relative flex items-end" style="background-image: url('/images/donate_banner/donate_banner_bg.svg'); background-position: 33% center; background-size: cover; background-repeat: no-repeat;">
+  <button id="donate-banner-close" class="absolute top-4 right-6 text-[#C3FAE8] hover:text-white transition-colors cursor-pointer bg-transparent border-none text-4xl" aria-label="Close donation banner" type="button">×</button>
   <div class="max-w-[990px] px-8 mx-auto">
     <div class="flex md:flex-row flex-col-reverse">
       <div class="md:w-[52%] w-full flex items-end">
           <img src="/images/donate_banner/tentacle.svg" alt="Tentacle">
       </div>
-      <div class="md:w-[48%] ml-[-20px] w-full py-8 flex flex-col">
+      <div class="md:w-[48%] md:ml-[-20px] w-full py-8 flex flex-col">
         <div>
           <img src="/images/donate_banner/slogan.svg" alt="Protect Our Internet; Document Censorship" class="md:ml-[-40px] md:w-[90%] mb-8 md:mb-4">
         </div>
@@ -20,3 +21,13 @@
     </div>   
   </div>
 </div>
+<script>
+const closeButton = document.getElementById('donate-banner-close');
+const banner = document.getElementById('donate-banner');
+
+if (closeButton && banner) {
+  closeButton.addEventListener('click', function() {
+    banner.classList.add('hidden');
+  });
+}
+</script>
