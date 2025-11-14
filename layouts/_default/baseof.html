@@ -34,6 +34,10 @@
     {{ partial "navbar.html" .}}
   {{ end }}
 
+  {{ block "donate" . }}
+    {{ partial "donate.html" .}}
+  {{ end }}
+
   {{ block "main" . }}
   <!-- The part of the page that begins to differ between templates -->
   {{ end }}
