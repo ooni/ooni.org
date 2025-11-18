@@ -22,18 +22,19 @@
     <div class="mx-auto pt-8 md:pt-48 px-4 sm:px-6 lg:px-10 max-w-5xl">
       <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
         <div>
-          <section class="p-6 rounded-2xl bg-white mb-6 relative">
+          <section class="px-6 pt-6 rounded-2xl bg-[#1B1E21] text-[#C3FAE8] mb-6 relative">
             <img src="/images/octopus.svg" class="hidden md:block absolute top-[-150px] left-[-250px] w-[380px] -z-10" />
-            <h1 class="text-4xl font-bold mb-4">Donate now to support internet freedom</h1>
-            <p class="text-gray7"><strong>As a non-profit,</strong> we rely on donations <br/>from people like you to defend a free <br/>and open internet for all.</p>
-          </section>
-
-          <section class="p-6 rounded-2xl bg-white mb-6">
-            {{ partial "ooni-work.html" . }}
+            <img src="/images/donate_banner/slogan.svg" alt="Protect Our Internet; Document Censorship" class="mb-8 md:mb-4">
+            <!-- <h1 class="text-4xl font-bold mb-4">Donate now to support internet freedom</h1> -->
+            <!-- <p><strong>As a non-profit,</strong> we rely on donations <br/>from people like you to defend a free <br/>and open internet for all.</p> -->
+            <p class="mb-2">Around the world, access to information is increasingly blocked and manipulated.</p>
+            <p class="mb-2">Transparency of Network Interference is more important than ever.</p>
+            <p class="mb-4">Support the world's largest open dataset on Internet censorship. Donate to OONI and help keep the Internet open and transparent.</p>
+            <img src="/images/donate_banner/tentacle.svg" alt="Tentacle">
           </section>
 
           <div class="rounded-2xl bg-white mb-6">
-            <img class="w-full rounded-t-2xl" src="/images/octopus-flashlight.svg" />
+            <!-- <img class="w-full rounded-t-2xl" src="/images/octopus-flashlight.svg" /> -->
             <div class="flex p-6 justify-between">
               <div>
                 <h5 class="uppercase font-medium mb-4">More ways to give</h5>
@@ -51,13 +52,17 @@
             </div>
           </div>
 
+          <section class="p-6 rounded-2xl bg-white mb-6">
+            {{ partial "ooni-work.html" . }}
+          </section>
+
           <div class="p-6 rounded-2xl bg-white">
             <!-- <h3 class="text-4xl mb-4 font-bold">Title</h3> -->
             <p class="leading-6 text-gray7">Founded in 2012, the Open Observatory of Network Interference (OONI) is a non-profit free software project that aims to empower decentralized efforts in documenting internet censorship around the world. </p>
             <div class="grid grid-cols-2 mt-9">
               <div>
                 <div>
-                  <div class="text-5xl font-bold leading-normal">80+</div>
+                  <div class="text-5xl font-bold leading-normal">107+</div>
                   <div class="leading-6 text-gray7">Censorship reports</div>
                 </div>
                 <div class="mb-5">
@@ -65,7 +70,7 @@
                   <div class="leading-6 text-gray7">Countries and territories</div>
                 </div>
                 <div class="mb-5">
-                  <div class="text-5xl font-bold leading-normal">2+ billion</div>
+                  <div class="text-5xl font-bold leading-normal">3+ billion</div>
                   <div class="leading-6 text-gray7">OONI measurements</div>
                 </div>
               </div>
