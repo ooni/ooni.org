@@ -68,7 +68,7 @@ evading predators.
 #### Benefits
 
 - Featured on our website with a large logo and a link back to your site
-- Mention of support in our monthly progress reports
+- Mention of support in our progress reports
 - Mention of support on our social media channels
 - Opportunity to engage with OONI leadership to discuss organizational strategy
 
@@ -84,7 +84,7 @@ supporting them to the surface so they can breathe.
 #### Benefits
 
 - Featured on our website with a medium-size logo and a link back to your site
-- Mention of support in our monthly progress reports
+- Mention of support in our progress reports
 - Mention of support on our social media channels
 
 ### Seahorse
@@ -100,7 +100,7 @@ separating for the day.
 #### Benefits
 
 - Featured on our website with a small logo and a link back to your site
-- Mention of support in our monthly progress reports
+- Mention of support in our progress reports
 
 ### Starfish
 
@@ -122,6 +122,7 @@ Our work would not be possible without the support of our funders. Below we shar
 
 - [Bureau of Democracy, Human Rights, and Labor (DRL)](https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-democracy-human-rights-and-labor/)
 - [Ford Foundation](https://www.fordfoundation.org/)
+- [Open Technology Fund (OTF)](https://www.opentech.fund/)
 
 ### Past Funders
 
@@ -132,5 +133,4 @@ Our work would not be possible without the support of our funders. Below we shar
 - [Media Democracy Fund (MDF)](https://mediademocracyfund.org/)
 - [Mozilla Foundation](https://foundation.mozilla.org/)
 - [National Science Foundation (NSF)](https://www.nsf.gov/)
-- [Open Technology Fund (OTF)](https://www.opentech.fund/)
 - [Small Media](https://smallmedia.org.uk/)
