@@ -81,11 +81,27 @@
           </div>
         </div>
         <div class="order-first md:order-last">
-          <script src="https://donorbox.org/widget.js" paypalExpress="true"></script>
-          <iframe height="900px" width="100%" class="w-full h-full mx-auto max-w-[426px]"
-          src="https://donorbox.org/embed/open-observatory-of-network-interference-ooni" name="donorbox"
-          allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0"
-          scrolling="no"></iframe>
+          <div id="iframe-wrapper">
+            <div id="iframe-loading" class="pt-20 rounded-2xl h-[500px] bg-white flex justify-center">
+              <div class="w-12 h-12 border-6 border-gray-200 border-t-blue-500 rounded-full animate-spin"></div>
+            </div>
+            <script src="https://donorbox.org/widget.js" paypalExpress="true"></script>
+            <iframe id="donorbox-iframe" height="900px" width="100%" class="hidden w-full h-full mx-auto max-w-[426px]"
+            src="https://donorbox.org/embed/open-observatory-of-network-interference-ooni" name="donorbox"
+            allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0"
+            scrolling="no"></iframe>
+
+            <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                const iframe = document.getElementById('donorbox-iframe');
+                const loading = document.getElementById('iframe-loading');
+                iframe.onload = function() {
+                  loading.classList.add('hidden');
+                  iframe.classList.remove('hidden');
+                };
+              });
+            </script>
+          </div>
         </div>
       </div>
 
