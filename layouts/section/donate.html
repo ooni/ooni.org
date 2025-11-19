@@ -7,6 +7,23 @@
 {{ end }}
 
 {{ define "main" }}
+
+<style>
+@keyframes tentacle-wiggle {
+  0%   { transform: translateX(82px) translateY(200px) rotate(88deg); }
+  25%  { transform: translateX(90px) translateY(200px) rotate(82deg); }
+  50%  { transform: translateX(89px) translateY(200px) rotate(99deg); }
+  66%  { transform: translateX(82px) translateY(200px) rotate(69deg); }
+  75%  { transform: translateX(82px) translateY(200px) rotate(88deg); }
+  100% { transform: translateX(88px) translateY(200px) rotate(90deg); }
+}
+
+.animate-tentacle-loader {
+  animation: tentacle-wiggle 1s ease-in-out forwards;
+  transform-origin: top center;
+}
+
+</style>
 <div class="bg-[url('/images/donate-background.svg')] bg-cover bg-bottom overflow-hidden">
   <nav class="bg-ooniblue py-3">
     <div class="flex justify-between gap-4 mx-auto px-4 sm:px-6 lg:px-10 max-w-5xl items-center">
@@ -30,27 +47,83 @@
             <p class="mb-2">Around the world, access to information is increasingly blocked and manipulated.</p>
             <p class="mb-2">Transparency of Network Interference is more important than ever.</p>
             <p class="mb-4">Support the world's largest open dataset on Internet censorship. Donate to OONI and help keep the Internet open and transparent.</p>
-            <img src="/images/donate_banner/tentacle.png" alt="Tentacle">
+
+            <img id="tentacle-loader" src="/images/donate_banner/tentacle.png" alt="Tentacle" class="animate-tentacle-loader">
           </section>
 
-          <div class="rounded-2xl bg-white mb-6">
-            <!-- <img class="w-full rounded-t-2xl" src="/images/octopus-flashlight.svg" /> -->
-            <div class="flex p-6 justify-between">
-              <div>
-                <h5 class="uppercase font-medium mb-4">More ways to give</h5>
-                <p class="text-gray7">Thank you for your interest in supporting the OONI-verse!</p>
-                <ul class="text-gray7">
-                  <li class="font-semibold mb-2">Bank Transfer / SEPA</li>
-                  <li class="font-semibold mb-2">GitHub Sponsors/Open Collective</li>
-                  <li class="font-semibold mb-5">Il 5x1000 in Italia</li>
-                </ul>
-                <a href="/donate/other" class="mt-5 underline text-blue6 text-sm">Read more</a>
-              </div>
-              <div class="self-end">
-                <img src="/images/ooni-eye-amazed.svg">
-              </div>
-            </div>
-          </div>
+         <div class="rounded-2xl bg-white mb-6 shadow-md p-6">
+           <div class="flex justify-between gap-6">
+
+             <div class="flex-1">
+               <h3 class="uppercase tracking-wide text-teal6 font-bold mb-4 mt-6">
+                 More ways to give
+               </h5>
+
+
+               <ul class="space-y-6 text-gray7">
+
+                 <!-- Bank Transfer -->
+                 <li>
+                   <div class="font-semibold text-black mb-1">Bank Transfer / SEPA</div>
+                   <p class="text-sm mb-3">
+                     You can donate to OONI by doing a wire transfer to the following bank information:
+                   </p>
+
+                   <div class="bg-gray1 rounded-xl p-4 border border-gray3 text-sm leading-relaxed">
+                     <div><strong>Beneficiary:</strong> Open Observatory of Network Interference (OONI)</div>
+                     <div><strong>Address:</strong> Via Ostiense 131L, 00154 Rome, Italy</div>
+                     <div><strong>Bank:</strong> Banca di Credito Cooperativo di Roma (BCC Rome)</div>
+                     <div><strong>Bank Address:</strong> Piazza Nicosia 31, Rome 00186, Italy</div>
+                     <div><strong>IBAN:</strong> <code class="bg-gray2 px-1 py-0.5 rounded">IT85B0832703221000000005814</code></div>
+                     <div><strong>SWIFT:</strong> <code class="bg-gray2 px-1 py-0.5 rounded">ICRAITRRROM</code></div>
+                   </div>
+
+                   <p class="mt-3 text-sm">
+                     If you require a donation receipt, please email:
+                     <a href="mailto:giving@ooni.org" class="text-blue6 underline">giving@ooni.org</a>
+                   </p>
+                 </li>
+
+                 <!-- GitHub Sponsors -->
+                 <li>
+                   <div class="font-semibold text-black mb-1">GitHub Sponsors</div>
+                   <a href="https://github.com/sponsors/ooni/"
+                      class="text-blue6 underline hover:text-blue4 text-sm font-medium">
+                     Become a sponsor →
+                   </a>
+                 </li>
+
+                 <!-- 5x1000 -->
+                 <li class="font-semibold text-black">
+                   5x1000 in Italia:
+                   <span class="block text-sm mt-1">
+                     Scrivi il codice fiscale di OONI:
+                     <code class="bg-gray2 px-2 py-1 rounded">96568220584</code>
+                   </span>
+                 </li>
+
+                <!-- Cryptocurrencies -->
+                <li>
+                  <div class="font-semibold text-black mb-1">Cryptocurrencies</div>
+                  <p class="text-sm text-gray7">
+                    Work in Progress — should be here in 3–24 hours.
+                  </p>
+                </li>
+
+               </ul>
+               <p class="text-gray7 mb-4">
+                 Thank you for your for supporting the OONI-verse! 💚  ♥️ 💛 💙 ❤️ 
+               </p>
+
+             </div>
+
+             <div class="self-end hidden sm:block">
+               <img src="/images/ooni-eye-amazed.svg" alt="OONI Eye" class="w-20">
+             </div>
+
+           </div>
+
+         </div>
 
           <section class="p-6 rounded-2xl bg-white mb-6">
             {{ partial "ooni-work.html" . }}
@@ -90,16 +163,22 @@
             src="https://donorbox.org/embed/open-observatory-of-network-interference-ooni" name="donorbox"
             allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0"
             scrolling="no"></iframe>
-
             <script>
               document.addEventListener('DOMContentLoaded', function() {
                 const iframe = document.getElementById('donorbox-iframe');
                 const loading = document.getElementById('iframe-loading');
+                const tentacle = document.getElementById('tentacle-loader');
+
                 iframe.onload = function() {
                   loading.classList.add('hidden');
                   iframe.classList.remove('hidden');
+                  if (tentacle) {
+                    tentacle.classList.remove('animate-tentacle-loader');
+                    tentacle.classList.add('animate-tentacle-loader');
+                  }
                 };
               });
+
             </script>
           </div>
         </div>
