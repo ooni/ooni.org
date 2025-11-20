@@ -9,7 +9,7 @@ aliases: ["/privacy-policy"]
 
 The controller for the processing of your data is OONI ETS (hereinafter referred to as “**we**”).
 
-If you have any question you can write us at our address Via Ostiense 131L, 00154 Roma (RM), Italy, or to the email contact@openobservatory.org.
+If you have any question you can write us at our address via Baccio Baldini 12, 00146, Roma (RM), Italy, or to the email contact@ooni.org.
 
 We hereby inform you that we will process your data lawfully and fairly in full respect of your rights and, in particular, your privacy, according to Regulation (EU) 2016/679 (hereinafter “**Regulation**”) and other applicable laws and regulations.
 
