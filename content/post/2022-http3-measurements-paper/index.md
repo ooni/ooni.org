@@ -19,15 +19,15 @@ We collaborated with Kathrin Elmenhorst, who has described and analysed the meas
 
 In this post, we summarize the key findings of our measurements and provide a brief introduction to QUIC and HTTP/3.  
 
-* [A quic(k) introduction to QUIC and HTTP/3](#a-quic-k-introduction-to-quic-and-http-3)  
+* [A quic(k) introduction to QUIC and HTTP/3](#a-quick-introduction-to-quic-and-http3)  
     
 * [Overview](#overview)  
     
-    * [Kazakhstan and India: HTTP/3 traffic passes the censorship filter](#kazakhstan-and-india-http-3-traffic-passes-the-censorship-filter)  
+    * [Kazakhstan and India: HTTP/3 traffic passes the censorship filter](#kazakhstan-and-india-http3-traffic-passes-the-censorship-filter)  
     
-    * [China and India: Collateral blocking of HTTP/3 hosts](#china-and-india-collateral-blocking-of-http-3-hosts)  
+    * [China and India: Collateral blocking of HTTP/3 hosts](#china-and-india-collateral-blocking-of-http3-hosts)  
     
-    * [Iran: HTTP/3-targeting blocking of UDP endpoints](#iran-http-3-targeting-blocking-of-udp-endpoints)  
+    * [Iran: HTTP/3-targeting blocking of UDP endpoints](#iran-http3-targeting-blocking-of-udp-endpoints)  
     
 * [Conclusion](#conclusion)  
     
