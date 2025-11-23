@@ -10,16 +10,58 @@
 
 <style>
 @keyframes tentacle-wiggle {
-  0%   { transform: translateX(82px) translateY(200px) rotate(88deg); }
-  25%  { transform: translateX(90px) translateY(200px) rotate(82deg); }
-  50%  { transform: translateX(89px) translateY(200px) rotate(99deg); }
-  66%  { transform: translateX(82px) translateY(200px) rotate(69deg); }
-  75%  { transform: translateX(82px) translateY(200px) rotate(88deg); }
-  100% { transform: translateX(88px) translateY(200px) rotate(90deg); }
+  0% {
+    transform: translateX(82px) translateY(200px) rotate(88deg);
+  }
+  20% {
+    transform: translateX(90px) translateY(200px) rotate(70deg); /* leans right */
+  }
+  40% {
+    transform: translateX(105px) translateY(200px) rotate(55deg); /* strong point */
+  }
+  60% {
+    transform: translateX(95px) translateY(200px) rotate(75deg); /* returns & wiggles */
+  }
+  80% {
+    transform: translateX(102px) translateY(200px) rotate(62deg); /* second beckon */
+  }
+  100% {
+    transform: translateX(82px) translateY(200px) rotate(88deg); /* back to default */
+  }
 }
 
+
+.star-particle {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 220px;
+  background: radial-gradient(circle, #fff 0%, #ffd86b 40%, transparent 70%);
+  border-radius: 50%;
+  box-shadow: 0 0 12px #ffdd66, 0 0 22px #ffcc44;
+  animation: star-pop 2.8s ease-out forwards;
+}
+
+/* Animation: shoot out + fade away */
+@keyframes star-pop {
+  0% {
+    opacity: 1;
+    transform: translate(0,0) scale(var(--s));
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--tx), var(--ty)) scale(calc(var(--s) * 0.3));
+  }
+}
+
+
 .animate-tentacle-loader {
-  animation: tentacle-wiggle 1s ease-in-out forwards;
+  animation: tentacle-wiggle 2.7s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+.animate-tentacle-stop {
+  animation: tentacle-wiggle 0.6s ease-in-out forwards;
   transform-origin: top center;
 }
 
@@ -49,6 +91,12 @@
             <p class="mb-4">Support the world's largest open dataset on Internet censorship. Donate to OONI and help keep the Internet open and transparent.</p>
 
             <img id="tentacle-loader" src="/images/donate_banner/tentacle.png" alt="Tentacle" class="animate-tentacle-loader">
+
+            <div class="tentacle-stars" class="pointer-events-none absolute"></div>
+            <div class="tentacle-stars" class="pointer-events-none absolute"></div>
+            <div class="tentacle-stars" class="pointer-events-none absolute"></div>
+            <div class="tentacle-stars" class="pointer-events-none absolute"></div>
+            <div class="tentacle-stars" class="pointer-events-none absolute"></div>
           </section>
 
          <div class="rounded-2xl bg-white mb-6 shadow-md p-6">
@@ -164,21 +212,65 @@
             allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0"
             scrolling="no"></iframe>
             <script>
-              document.addEventListener('DOMContentLoaded', function() {
-                const iframe = document.getElementById('donorbox-iframe');
-                const loading = document.getElementById('iframe-loading');
-                const tentacle = document.getElementById('tentacle-loader');
+                document.addEventListener('DOMContentLoaded', function() {
+                  const iframe = document.getElementById('donorbox-iframe');
+                  const loading = document.getElementById('iframe-loading');
+                  const tentacle = document.getElementById('tentacle-loader');
+                  const starContainers = document.getElementsByClassName('tentacle-stars');
+                  iframe.onload = function() {
+                    loading.classList.add('hidden');
+                    iframe.classList.remove('hidden');
 
-                iframe.onload = function() {
-                  loading.classList.add('hidden');
-                  iframe.classList.remove('hidden');
-                  if (tentacle) {
-                    tentacle.classList.remove('animate-tentacle-loader');
-                    tentacle.classList.add('animate-tentacle-loader');
+                    // retrigger tentacle animation
+                    requestAnimationFrame(() => {
+                      tentacle.classList.remove('animate-tentacle-loader');
+                      void tentacle.offsetWidth;
+                      tentacle.classList.add('animate-tentacle-stop');
+                    });
+
+                    // spray stars
+                    sprayStars();
+                  };
+
+                  function sprayStars() {
+                    // A.B.F. 23rd Nov 2025, with some help from ForestGPT :)
+                    // the key of using AI effectively is to know how to ask the
+                      // questionnes
+                    Array.from(starContainers).forEach(container => {
+                        const numStars = 30;  // number of particles
+                        for (let i = 0; i < numStars; i++) {
+                            const star = document.createElement('div');
+                            star.classList.add('star-particle');
+
+                            // tweakable angle expressed in
+                            const min = -88 * (Math.PI / 180);
+                            const max = 33 * (Math.PI / 180);
+                            const angle = min + Math.random() * (max - min);
+
+                            // distance radius (randomized)
+                            const distance = 12666 + Math.random() * 120; // tweakable spread
+
+                            // convert polar → Cartesian
+                            const x = Math.cos(angle) * distance;
+                            const y = Math.sin(angle) * distance;
+
+                            // random scale + slight delay
+                            const scale = 0.3 + Math.random() * 0.5;
+                            const delay = Math.random() * 0.2;
+
+                            star.style.setProperty('--tx', `${x}px`);
+                            star.style.setProperty('--ty', `${y}px`);
+                            star.style.setProperty('--s', scale);
+                            star.style.animationDelay = `${delay}s`;
+
+                            container.appendChild(star);
+
+                            // cleanup after animation
+                            setTimeout(() => star.remove(), 1200);
+                        }
+                      })
                   }
-                };
-              });
-
+                });
             </script>
           </div>
         </div>
