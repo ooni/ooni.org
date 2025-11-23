@@ -2,7 +2,70 @@
 <!-- -->
 {{ end }}
 
+{{ define "donate" }}
+<!-- -->
+{{ end }}
+
 {{ define "main" }}
+
+<style>
+@keyframes tentacle-wiggle {
+  0% {
+    transform: translateX(82px) translateY(200px) rotate(88deg);
+  }
+  20% {
+    transform: translateX(90px) translateY(200px) rotate(70deg); /* leans right */
+  }
+  40% {
+    transform: translateX(105px) translateY(200px) rotate(55deg); /* strong point */
+  }
+  60% {
+    transform: translateX(95px) translateY(200px) rotate(75deg); /* returns & wiggles */
+  }
+  80% {
+    transform: translateX(102px) translateY(200px) rotate(62deg); /* second beckon */
+  }
+  100% {
+    transform: translateX(82px) translateY(200px) rotate(88deg); /* back to default */
+  }
+}
+
+
+.star-particle {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 220px;
+  background: radial-gradient(circle, #fff 0%, #ffd86b 40%, transparent 70%);
+  border-radius: 50%;
+  box-shadow: 0 0 12px #ffdd66, 0 0 22px #ffcc44;
+  animation: star-pop 2.8s ease-out forwards;
+}
+
+/* Animation: shoot out + fade away */
+@keyframes star-pop {
+  0% {
+    opacity: 1;
+    transform: translate(0,0) scale(var(--s));
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--tx), var(--ty)) scale(calc(var(--s) * 0.8));
+  }
+}
+
+
+.animate-tentacle-loader {
+  animation: tentacle-wiggle 2.7s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+.animate-tentacle-stop {
+  animation: tentacle-wiggle 0.6s ease-in-out forwards;
+  transform-origin: top center;
+}
+
+</style>
 <div class="bg-[url('/images/donate-background.svg')] bg-cover bg-bottom overflow-hidden">
   <nav class="bg-ooniblue py-3">
     <div class="flex justify-between gap-4 mx-auto px-4 sm:px-6 lg:px-10 max-w-5xl items-center">
@@ -15,37 +78,104 @@
     </div>
   </nav>
   <div class="relative isolate">
-    <div class="mx-auto pt-8 md:pt-48 px-4 sm:px-6 lg:px-10 max-w-5xl">
+    <div class="mx-auto pt-8 md:pt-12 px-4 sm:px-6 lg:px-10 max-w-5xl">
       <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
         <div>
-          <section class="p-6 rounded-2xl bg-white mb-6 relative">
-            <img src="/images/octopus.svg" class="hidden md:block absolute top-[-150px] left-[-250px] w-[380px] -z-10" />
-            <h1 class="text-4xl font-bold mb-4">Donate now to support internet freedom</h1>
-            <p class="text-gray7"><strong>As a non-profit,</strong> we rely on donations <br/>from people like you to defend a free <br/>and open internet for all.</p>
+          <section class="px-6 pt-6 rounded-2xl bg-[#1B1E21] text-[#C3FAE8] mb-6 relative">
+            <!-- <img src="/images/octopus.svg" class="hidden md:block absolute top-[-150px] left-[-250px] w-[380px] -z-10" /> -->
+            <img src="/images/donate_banner/slogan.png" alt="Protect Our Internet; Document Censorship" class="mb-8 md:mb-4">
+            <!-- <h1 class="text-4xl font-bold mb-4">Donate now to support internet freedom</h1> -->
+            <!-- <p><strong>As a non-profit,</strong> we rely on donations <br/>from people like you to defend a free <br/>and open internet for all.</p> -->
+            <p class="mb-2">Around the world, access to information is increasingly blocked and manipulated.</p>
+            <p class="mb-2">Transparency of Network Interference is more important than ever.</p>
+            <p class="mb-4">Support the world's largest open dataset on Internet censorship. Donate to OONI and help keep the Internet open and transparent.</p>
+
+            <img id="tentacle-loader" src="/images/donate_banner/tentacle.png" alt="Tentacle" class="animate-tentacle-loader">
+
+            <div class="tentacle-stars" class="pointer-events-none absolute"></div>
+            <div class="tentacle-stars" class="pointer-events-none absolute"></div>
+            <div class="tentacle-stars" class="pointer-events-none absolute"></div>
+            <div class="tentacle-stars" class="pointer-events-none absolute"></div>
+            <div class="tentacle-stars" class="pointer-events-none absolute"></div>
           </section>
+
+         <div class="rounded-2xl bg-white mb-6 shadow-md p-6">
+           <div class="flex justify-between gap-6">
+
+             <div class="flex-1">
+               <h3 class="uppercase tracking-wide text-teal6 font-bold mb-4 mt-6">
+                 More ways to give
+               </h5>
+
+
+               <ul class="space-y-6 text-gray7">
+
+                 <!-- Bank Transfer -->
+                 <li>
+                   <div class="font-semibold text-black mb-1">Bank Transfer / SEPA</div>
+                   <p class="text-sm mb-3">
+                     You can donate to OONI by doing a wire transfer to the following bank information:
+                   </p>
+
+                   <div class="bg-gray1 rounded-xl p-4 border border-gray3 text-sm leading-relaxed">
+                     <div><strong>Beneficiary:</strong> Open Observatory of Network Interference (OONI)</div>
+                     <div><strong>Address:</strong> via Baccio Baldini 12, 00146, Rome, Italy</div>
+                     <div><strong>Bank:</strong> Banca di Credito Cooperativo di Roma (BCC Rome)</div>
+                     <div><strong>Bank Address:</strong> Piazza Nicosia 31, Rome 00186, Italy</div>
+                     <div><strong>IBAN:</strong> <code class="bg-gray2 px-1 py-0.5 rounded">IT85B0832703221000000005814</code></div>
+                     <div><strong>SWIFT:</strong> <code class="bg-gray2 px-1 py-0.5 rounded">ICRAITRRROM</code></div>
+                   </div>
+
+                   <p class="mt-3 text-sm">
+                     If you require a donation receipt, please email:
+                     <a href="mailto:giving@ooni.org" class="text-blue6 underline">giving@ooni.org</a>
+                   </p>
+                 </li>
+
+                 <!-- GitHub Sponsors -->
+                 <li>
+                   <div class="font-semibold text-black mb-1">GitHub Sponsors</div>
+                   <a href="https://github.com/sponsors/ooni/"
+                      class="text-blue6 underline hover:text-blue4 text-sm font-medium">
+                     Become a sponsor →
+                   </a>
+                 </li>
+
+                 <!-- 5x1000 -->
+                 <li class="font-semibold text-black">
+                   5x1000 in Italia:
+                   <span class="block text-sm mt-1">
+                     Scrivi il codice fiscale di OONI:
+                     <code class="bg-gray2 px-2 py-1 rounded">96568220584</code>
+                   </span>
+                 </li>
+
+                <!-- Cryptocurrencies -->
+                <li>
+                  <div class="font-semibold text-black mb-1">Cryptocurrencies</div>
+                  <p class="text-sm text-gray7">
+                    Work in Progress — should be here in 3–24 hours.
+                  </p>
+                </li>
+
+               </ul>
+               <p class="text-gray7 mb-4">
+                 Thank you for your for supporting the OONI-verse! 💚  ♥️ 💛 💙 ❤️ 
+               </p>
+
+             </div>
+
+             <div class="self-end hidden sm:block">
+               <img src="/images/ooni-eye-amazed.svg" alt="OONI Eye" class="w-20">
+             </div>
+
+           </div>
+
+         </div>
 
           <section class="p-6 rounded-2xl bg-white mb-6">
             {{ partial "ooni-work.html" . }}
           </section>
-
-          <div class="rounded-2xl bg-white mb-6">
-            <img class="w-full rounded-t-2xl" src="/images/octopus-flashlight.svg" />
-            <div class="flex p-6 justify-between">
-              <div>
-                <h5 class="uppercase font-medium mb-4">More ways to give</h5>
-                <p class="text-gray7">Thank you for your interest in supporting the OONI-verse!</p>
-                <ul class="text-gray7">
-                  <li class="font-semibold mb-2">Bank Transfer / SEPA</li>
-                  <li class="font-semibold mb-2">GitHub Sponsors/Open Collective</li>
-                  <li class="font-semibold mb-5">Il 5x1000 in Italia</li>
-                </ul>
-                <a href="/donate/other" class="mt-5 underline text-blue6 text-sm">Read more</a>
-              </div>
-              <div class="self-end">
-                <img src="/images/ooni-eye-amazed.svg">
-              </div>
-            </div>
-          </div>
 
           <div class="p-6 rounded-2xl bg-white">
             <!-- <h3 class="text-4xl mb-4 font-bold">Title</h3> -->
@@ -53,7 +183,7 @@
             <div class="grid grid-cols-2 mt-9">
               <div>
                 <div>
-                  <div class="text-5xl font-bold leading-normal">80+</div>
+                  <div class="text-5xl font-bold leading-normal">107+</div>
                   <div class="leading-6 text-gray7">Censorship reports</div>
                 </div>
                 <div class="mb-5">
@@ -61,7 +191,7 @@
                   <div class="leading-6 text-gray7">Countries and territories</div>
                 </div>
                 <div class="mb-5">
-                  <div class="text-5xl font-bold leading-normal">2+ billion</div>
+                  <div class="text-5xl font-bold leading-normal">3+ billion</div>
                   <div class="leading-6 text-gray7">OONI measurements</div>
                 </div>
               </div>
@@ -72,11 +202,101 @@
           </div>
         </div>
         <div class="order-first md:order-last">
-          <script src="https://donorbox.org/widget.js" paypalExpress="true"></script>
-          <iframe height="900px" width="100%" class="w-full h-full mx-auto max-w-[426px]"
-          src="https://donorbox.org/embed/open-observatory-of-network-interference-ooni" name="donorbox"
-          allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0"
-          scrolling="no"></iframe>
+          <div id="iframe-wrapper">
+            <div id="iframe-loading" class="pt-20 rounded-2xl h-[500px] bg-white flex justify-center">
+              <div class="w-12 h-12 border-6 border-gray-200 border-t-blue-500 rounded-full animate-spin"></div>
+            </div>
+            <script src="https://donorbox.org/widget.js" paypalExpress="true"></script>
+            <iframe id="donorbox-iframe" height="900px" width="100%" class="hidden w-full h-full mx-auto max-w-[426px]"
+            src="https://donorbox.org/embed/open-observatory-of-network-interference-ooni" name="donorbox"
+            allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0"
+            scrolling="no"></iframe>
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                  const iframe = document.getElementById('donorbox-iframe');
+                  const loading = document.getElementById('iframe-loading');
+                  const tentacle = document.getElementById('tentacle-loader');
+                  const starContainers = document.getElementsByClassName('tentacle-stars');
+                  iframe.onload = function() {
+                    loading.classList.add('hidden');
+                    iframe.classList.remove('hidden');
+
+                    // retrigger tentacle animation
+                    requestAnimationFrame(() => {
+                      tentacle.classList.remove('animate-tentacle-loader');
+                      void tentacle.offsetWidth;
+                      tentacle.classList.add('animate-tentacle-stop');
+                    });
+
+                    // spray stars
+                    sprayStars();
+                  };
+
+                  function sprayStars() {
+                    /**
+                    🌟💦💫✨⭐
+                    Rome, 23rd Nov 2025
+
+                    Spray 'em stars into the void of the computer screen.
+
+                    In order to assess accurate energy efficiency, we estimated it to be
+                    > Each star spray costs roughly 0.1–0.5 millijoules (mJ) on a typical device.
+                    > 100 sprays per second would still be under 0.05 watts.
+                    Concretely
+                    On a Laptop battery (50 Wh ≈ 180,000 J)
+                    One spray = ~0.0000003 Wh
+                    In practice, you could run this animation billions of times
+                    before it matters.
+
+                    Therefore, let's go crazy and spray a truck load of stars :D :D
+
+                    Update 08:44 AM: After doing some testing it seems like the
+                    limit is not so much the energy, but rather the browser
+                    rendering engine. Well let's just limit this to 48 and call
+                    it good enough.
+
+                    N.B. The key of using AI effectively is to know how to ask
+                    questions ;)
+
+                    ~ Art. (with some help from ForestGPT :)
+                    **/
+                    Array.from(starContainers).forEach(container => {
+                        const numStars = 48;  // number of particles
+                        for (let i = 0; i < numStars; i++) {
+                            const star = document.createElement('div');
+                            star.classList.add('star-particle');
+
+                            // tweakable angle expressed in
+                            const min = -88 * (Math.PI / 180);
+                            const max = 33 * (Math.PI / 180);
+                            const angle = min + Math.random() * (max - min);
+
+                            // distance radius (randomized)
+                            const distance = 9666 + Math.random() * 120; // tweakable spread
+
+                            // convert polar → Cartesian
+                            const x = Math.cos(angle) * distance;
+                            const y = Math.sin(angle) * distance;
+
+                            // random scale + slight delay
+                            const scale = 0.3 + Math.random() * 0.5;
+                            const delay = Math.random() * 0.2;
+
+                            star.style.setProperty('--tx', `${x}px`);
+                            star.style.setProperty('--ty', `${y}px`);
+                            star.style.setProperty('--s', scale);
+                            star.style.animationDelay = `${delay}s`;
+
+                            container.appendChild(star);
+
+                            // cleanup after animation
+                            setTimeout(() => star.remove(), 1200);
+                        }
+                      })
+                  }
+                });
+            </script>
+          </div>
         </div>
       </div>
 
