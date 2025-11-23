@@ -9,14 +9,14 @@ submenu:
     name: "Other ways to give"
 ---
 
-Thank you for your interest in supporting the OONI-verse!
+Thank you for your interest in supporting [OONI's mission](https://ooni.org/about/). We deeply appreciate your support.
 
 ## Bank Transfer / SEPA
 
 You can donate to OONI by doing a wire transfer to the following bank information:
 
-- **Beneficiary Name**: Open Observatory of Network Interference (OONI)
-- **Beneficiary Address**: via Baccio Baldini 12, 00146, Rome, Italy
+- **Beneficiary Name**: Open Observatory of Network Interference (OONI) ETS
+- **Beneficiary Address**: Via Baccio Baldini 12, 00146, Rome, Italy
 - **Bank Name**: Banca di Credito Cooperativo di roma (BCC Rome)
 - **Bank Street**: Piazza Nicosia, 31 Rome 00186 Italy
 - **IBAN**: IT85B0832703221000000005814
