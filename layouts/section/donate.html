@@ -50,7 +50,7 @@
   }
   100% {
     opacity: 0;
-    transform: translate(var(--tx), var(--ty)) scale(calc(var(--s) * 0.3));
+    transform: translate(var(--tx), var(--ty)) scale(calc(var(--s) * 0.8));
   }
 }
 
@@ -233,11 +233,35 @@
                   };
 
                   function sprayStars() {
-                    // A.B.F. 23rd Nov 2025, with some help from ForestGPT :)
-                    // the key of using AI effectively is to know how to ask the
-                      // questionnes
+                    /**
+                    🌟💦💫✨⭐
+                    Rome, 23rd Nov 2025
+
+                    Spray 'em stars into the void of the computer screen.
+
+                    In order to assess accurate energy efficiency, we estimated it to be
+                    > Each star spray costs roughly 0.1–0.5 millijoules (mJ) on a typical device.
+                    > 100 sprays per second would still be under 0.05 watts.
+                    Concretely
+                    On a Laptop battery (50 Wh ≈ 180,000 J)
+                    One spray = ~0.0000003 Wh
+                    In practice, you could run this animation billions of times
+                    before it matters.
+
+                    Therefore, let's go crazy and spray a truck load of stars :D :D
+
+                    Update 08:44 AM: After doing some testing it seems like the
+                    limit is not so much the energy, but rather the browser
+                    rendering engine. Well let's just limit this to 48 and call
+                    it good enough.
+
+                    N.B. The key of using AI effectively is to know how to ask
+                    questions ;)
+
+                    ~ Art. (with some help from ForestGPT :)
+                    **/
                     Array.from(starContainers).forEach(container => {
-                        const numStars = 30;  // number of particles
+                        const numStars = 48;  // number of particles
                         for (let i = 0; i < numStars; i++) {
                             const star = document.createElement('div');
                             star.classList.add('star-particle');
@@ -248,7 +272,7 @@
                             const angle = min + Math.random() * (max - min);
 
                             // distance radius (randomized)
-                            const distance = 12666 + Math.random() * 120; // tweakable spread
+                            const distance = 9666 + Math.random() * 120; // tweakable spread
 
                             // convert polar → Cartesian
                             const x = Math.cos(angle) * distance;
