@@ -1,0 +1,20 @@
+<!-- {{ .name }} -->
+<div class="border border-gray3 rounded-xl p-4 bg-gray1">
+  <div class="flex gap-4">
+    <div class="flex-1">
+        <div class="text-sm font-semibold text-gray7 mb-2">{{ .name }} ({{ .ticker }})</div>
+      <code class="block bg-white border border-gray2 rounded px-3 py-2 text-sm font-mono text-xs break-all mb-2 select-all">
+          {{ .address }}
+      </code>
+      <button onclick="copyToClipboard(this)" class="text-xs text-blue6 hover:text-blue4 font-medium">
+        Copy address
+      </button>
+    </div>
+    <!-- TODO: this doesn't work and we should figure out how to format it properly -->
+    <!-- div class="flex-shrink-0">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=100&data={{ .prefix }}:{{ .address }}"
+             alt="{{ .name }} address QR code"
+           class="w-[100px] h-[100px] border border-gray3 rounded" />
+    </div-->
+  </div>
+</div>

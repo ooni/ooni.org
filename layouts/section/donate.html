@@ -150,12 +150,35 @@
                    </span>
                  </li>
 
-                <!-- Cryptocurrencies -->
-                <li>
-                  <div class="font-semibold text-black mb-1">Cryptocurrencies</div>
-                  <p class="text-sm text-gray7">
-                    Work in Progress — should be here in 3–24 hours.
-                  </p>
+				<!-- Cryptocurrencies -->
+				<li>
+				  <div class="font-semibold text-black mb-4">Cryptocurrencies</div>
+				  <div class="space-y-6">
+                    {{ partial "cryptocurrency-address.html" (dict "name" "Bitcoin" "ticker" "BTC" "address" "bc1qft94vxsh7vzqmc37xquxj3n82lsmhjzxqx3u2a" "prefix" "bitcoin") }}
+                    {{ partial "cryptocurrency-address.html" (dict "name" "Ethereum" "ticker" "ETH" "address" "0x0317136A811b2841410229c8421d61dCfA793970" "prefix" "ethereum") }}
+                    {{ partial "cryptocurrency-address.html" (dict "name" "Solana" "ticker" "SOL" "address" "ael8ke2vnv7wrhmwkck6qntfd5gchbpu76h1ws1mqes3" "prefix" "solana") }}
+                    {{ partial "cryptocurrency-address.html" (dict "name" "Polkadot" "ticker" "DOT" "address" "143ciNC9HqPG18SKEhbQnoWdAp61aB8Cf9MVkVvY8JJaNojT" "prefix" "polkadot") }}
+				  </div>
+
+				  <p class="text-sm text-gray7 mt-4">
+					All donations go directly to supporting OONI's mission.
+				  </p>
+				</li>
+
+				<script>
+				function copyToClipboard(button) {
+				  const codeBlock = button.previousElementSibling;
+				  const text = codeBlock.textContent;
+
+				  navigator.clipboard.writeText(text).then(() => {
+					const originalText = button.textContent;
+					button.textContent = 'Copied!';
+					setTimeout(() => {
+					  button.textContent = originalText;
+					}, 2000);
+				  });
+				}
+				</script>
                 </li>
 
                </ul>
