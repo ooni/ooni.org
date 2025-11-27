@@ -1,12 +1,10 @@
 <img src="https://raw.githubusercontent.com/ooni/design-system/refs/heads/master/svgs/logos/OONI-HorizontalColor.svg" width="422px" />
 
-# OONI, the Organisation, not the Pizza Oven
+# OONI, the Organisation
 
 We are the Open Observatory, of Network Interference.
 
 We are trying to make the Internet for Humans, not AI bots, by observing what's going on.
-
-BTW, [OONI Pizza ovens SUCK](https://ooni.com). We hope one day to get our domain back...
 
 ---
 
