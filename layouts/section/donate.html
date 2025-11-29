@@ -8,6 +8,7 @@
 
 {{ define "main" }}
 
+<script src="/js/qrcode.min.js"></script>
 <style>
 @keyframes tentacle-wiggle {
   0% {
@@ -90,7 +91,9 @@
             <p class="mb-2">Transparency of Network Interference is more important than ever.</p>
             <p class="mb-4">Support the world's largest open dataset on Internet censorship. Donate to OONI and help keep the Internet open and transparent.</p>
 
-            <img id="tentacle-loader" src="/images/donate_banner/tentacle.png" alt="Tentacle" class="animate-tentacle-loader">
+            <img id="tentacle-loader" src="/images/donate_banner/tentacle.png" alt="Tentacle" 
+                class="hidden md:block animate-tentacle-loader"
+                >
 
             <div class="tentacle-stars" class="pointer-events-none absolute"></div>
             <div class="tentacle-stars" class="pointer-events-none absolute"></div>
@@ -100,7 +103,7 @@
           </section>
 
          <div class="rounded-2xl bg-white mb-6 shadow-md p-6">
-           <div class="flex justify-between gap-6">
+           <div class="flex flex-col">
 
              <div class="flex-1">
                <h3 class="uppercase tracking-wide text-teal6 font-bold mb-4 mt-6">
@@ -150,12 +153,35 @@
                    </span>
                  </li>
 
-                <!-- Cryptocurrencies -->
-                <li>
-                  <div class="font-semibold text-black mb-1">Cryptocurrencies</div>
-                  <p class="text-sm text-gray7">
-                    Work in Progress — should be here in 3–24 hours.
-                  </p>
+				<!-- Cryptocurrencies -->
+				<li>
+				  <div class="font-semibold text-black mb-4">Cryptocurrencies</div>
+				  <div class="space-y-6">
+                    {{ partial "cryptocurrency-address.html" (dict "name" "Bitcoin" "ticker" "BTC" "address" "bc1qft94vxsh7vzqmc37xquxj3n82lsmhjzxqx3u2a" "prefix" "bitcoin") }}
+                    {{ partial "cryptocurrency-address.html" (dict "name" "Ethereum" "ticker" "ETH" "address" "0x0317136A811b2841410229c8421d61dCfA793970" "prefix" "ethereum") }}
+                    {{ partial "cryptocurrency-address.html" (dict "name" "Solana" "ticker" "SOL" "address" "AEL8Ke2VNV7wrHMwkck6QNTfd5gchbPu76h1wS1MqEs3" "prefix" "solana") }}
+                    {{ partial "cryptocurrency-address.html" (dict "name" "Polkadot" "ticker" "DOT" "address" "143ciNC9HqPG18SKEhbQnoWdAp61aB8Cf9MVkVvY8JJaNojT" "prefix" "polkadot") }}
+				  </div>
+
+				  <p class="text-sm text-gray7 mt-4">
+					All donations go directly to supporting OONI's mission.
+				  </p>
+				</li>
+
+				<script>
+				function copyToClipboard(button) {
+				  const codeBlock = button.previousElementSibling;
+				  const text = codeBlock.textContent;
+
+				  navigator.clipboard.writeText(text).then(() => {
+					const originalText = button.textContent;
+					button.textContent = 'Copied!';
+					setTimeout(() => {
+					  button.textContent = originalText;
+					}, 2000);
+				  });
+				}
+				</script>
                 </li>
 
                </ul>
