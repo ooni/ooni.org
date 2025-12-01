@@ -58,6 +58,7 @@
       "ul"
     ],
     "classes": [
+      "!h-[1005px]",
       "-inset-0.5",
       "-mb-px",
       "-ms-[24px]",
