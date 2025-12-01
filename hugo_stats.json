@@ -58,6 +58,7 @@
       "ul"
     ],
     "classes": [
+      "!h-[1005px]",
       "-inset-0.5",
       "-mb-px",
       "-ms-[24px]",
@@ -192,7 +193,6 @@
       "h-[32px]",
       "h-[500px]",
       "h-[82px]",
-      "h-full",
       "hidden",
       "highlight",
       "hover:-translate-y-1",
