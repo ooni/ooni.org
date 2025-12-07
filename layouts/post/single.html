@@ -31,13 +31,15 @@
 </div>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const isEmbedded = new URLSearchParams(window.location.search).get('enable-embedded-view')
+  document.addEventListener("DOMContentLoaded", function () {
+    const isEmbedded = new URLSearchParams(window.location.search).get(
+      "enable-embedded-view"
+    );
     if (isEmbedded) {
-      const navbar = document.getElementById('main-navbar');
-      navbar.classList.add('hidden');
-      const  = document.getElementById('main-');
-      .classList.add('hidden');
+      const navbar = document.getElementById("main-navbar");
+      navbar.classList.add("hidden");
+      const footer = document.getElementById("main-footer");
+      footer.classList.add("hidden");
     }
   });
 </script>
