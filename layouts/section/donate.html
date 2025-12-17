@@ -114,7 +114,7 @@
                <ul class="space-y-6 text-gray7">
 
                  <!-- Bank Transfer -->
-                 <li>
+                 <li id="bank">
                    <div class="font-semibold text-black mb-1">Bank Transfer / SEPA</div>
                    <p class="text-sm mb-3">
                      You can donate to OONI by doing a wire transfer to the following bank information:
@@ -136,7 +136,7 @@
                  </li>
 
                  <!-- GitHub Sponsors -->
-                 <li>
+                 <li id="github">
                    <div class="font-semibold text-black mb-1">GitHub Sponsors</div>
                    <a href="https://github.com/sponsors/ooni/"
                       class="text-blue6 underline hover:text-blue4 text-sm font-medium">
@@ -145,7 +145,7 @@
                  </li>
 
                  <!-- 5x1000 -->
-                 <li class="font-semibold text-black">
+                 <li class="font-semibold text-black" id="5permille">
                    5x1000 in Italia:
                    <span class="block text-sm mt-1">
                      Scrivi il codice fiscale di OONI:
@@ -154,7 +154,7 @@
                  </li>
 
 				<!-- Cryptocurrencies -->
-				<li>
+				<li id="cryptocurrencies">
 				  <div class="font-semibold text-black mb-4">Cryptocurrencies</div>
 				  <div class="space-y-6">
                     {{ partial "cryptocurrency-address.html" (dict "name" "Bitcoin" "ticker" "BTC" "address" "bc1qft94vxsh7vzqmc37xquxj3n82lsmhjzxqx3u2a" "prefix" "bitcoin") }}
