@@ -1,7 +1,7 @@
 ---
 title: "How Internet Censorship Impacts the Women’s Rights Movement in Iran: Insights from OONI Data and Activist Interviews"
 description: "This study documents how internet censorship impacts the women’s rights movement in Iran based on insights from OONI data and activist interviews."
-author: "Miaan Group, Maria Xynou (OONI), Mehul Gulati (OONI), Arturo Filastò (OONI), Elizaveta Yachmeneva (OONI)"
+author: "Narges Keshavarznia (Miaan Group), Denna Millet (Miaan Group), Amir Rashidi (Miaan Group), Maria Xynou (OONI), Mehul Gulati (OONI), Arturo Filastò (OONI), Elizaveta Yachmeneva (OONI)"
 date: "2025-12-18"
 tags: ["country-ir", "censorship", "theme-human_rights"]
 categories: ["report"]
