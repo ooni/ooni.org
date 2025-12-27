@@ -244,4 +244,4 @@ The sites whose access is being restricted access to are:
 [http://amad.ps](http://amad.ps)
 
 For more details on the political implications check see the [article by George
-Hale on Ma'An News](http://www.maannews.net/eng/ViewDetails.aspx?ID=478726)
+Hale on Ma'An News](http://www.maannews.net/eng/ViewDetails.aspx?ID=478726) ([archive.org copy](https://web.archive.org/web/20120509171142/http://www.maannews.net/eng/ViewDetails.aspx?ID=478726), [archive.md copy](https://archive.md/HZtGN))
