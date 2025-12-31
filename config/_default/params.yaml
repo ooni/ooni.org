@@ -1,0 +1,75 @@
+description: "The Open Observatory of Network Interference (OONI) is a global community measuring internet censorship around the world. Run OONI Probe to detect internet censorship. Use OONI Explorer to track internet censorship worldwide in near real-time."
+
+headless_cms:
+  engine: "sveltia"
+  site_url: "https://ooni.org"
+  backend:
+    name: "github"
+    repo: "ooni/ooni.org"
+  commit_messages:
+    create: "Create {{slug}} ({{collection}})"
+    update: "Update {{slug}} ({{collection}})" 
+    delete: "Delete {{slug}} ({{collection}})" 
+    uploadMedia: "Upload - {{path}}"
+    deleteMedia: "Delete - {{path}}"
+    openAuthoring: '{{message}}'
+  publish_mode: "simple"
+  media_folder: "static/images/uploads"
+  public_folder: "/images/uploads"
+  locale: "en"
+  slug:
+    encoding: "ascii"
+    clean_accents: true
+    sanitize_replacement: "-"
+  collections:
+    - name: "blog"
+      label: "Blog Posts"
+      label_singular: "Blog Post"
+      folder: "content/post"
+      path: "{{slug}}/index"
+      media_folder: "images"
+      public_folder: ""
+      create: true
+      delete: false
+      widget: "list"
+      preview_path: "post/{{slug}}"
+      editor:
+        preview: true
+      fields:
+        - label: "Title"
+          name: "title"
+          widget: "string"
+        - lable: "Draft"
+          name: "draft"
+          widget: "boolean"
+        - label: "Description"
+          name: "description"
+          widget: "string"
+        - label: "Author"
+          name: "author"
+          widget: "string"
+        - label: "Publish Date"
+          name: "date"
+          widget: "datetime"
+          format: "ll"
+        - label: "Image"
+          name: "thumbnail"
+          widget: "image"
+          choose_url: true
+          media_library:
+            config:
+              multiple: true
+        - label: "Body"
+          name: "body"
+          widget: "markdown"
+        - label: "Tags"
+          name: "tags"
+          widget: "list"
+          allow_add: true
+        - label: "Categories"
+          name: "categories"
+          widget: "select"
+          default: "report"
+          options:
+            - { value: "report", label: "Report" }
+            - { value: "blog", label: "Blog" }

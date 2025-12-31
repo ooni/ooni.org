@@ -1,0 +1,103 @@
+baseURL = "https://ooni.org"
+languageCode = "en-us"
+title = "OONI: Open Observatory of Network Interference"
+DefaultContentLanguage = "en"
+pluralizeListTitles = false
+timeout = 120000
+publishDir = "public/"
+
+[Languages]
+[Languages.ar]
+[Languages.ca]
+[Languages.de]
+[Languages.en]
+[Languages.es]
+[Languages.fa]
+[Languages.fr]
+[Languages.pt]
+[Languages.ru]
+[Languages.sw]
+[Languages.tr]
+[Languages.zh]
+[Languages.vi]
+[Languages.my]
+[Languages.kk]
+
+[[module.imports]]
+  path = "github.com/privatemaker/headless-cms"
+
+[outputFormats]
+[outputFormats.PageIndex]
+mediaType = "application/json"
+baseName = "pageindex"
+isPlainText = true
+notAlternative = true
+
+[outputs]
+  home = ["HTML", "PageIndex", "RSS", "HeadlessCMSConfig" ]
+
+[caches]
+[caches.getjson]
+dir = ":cacheDir/:project"
+maxAge = "10s"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 5
+    ordered = false
+    startLevel = 1
+[menu]
+
+[[menu.main]]
+  url = "/about/"
+  name = "About"
+  weight = 1
+
+[[menu.main]]
+  url = "/nettest/"
+  name = "Tests"
+  weight = 2
+
+[[menu.main]]
+  url = "/data/"
+  name = "Data"
+  weight = 3
+
+[[menu.main]]
+  url = "/get-involved/"
+  name = "Get Involved"
+  weight = 4
+
+[[menu.main]]
+  url = "/reports/"
+  name = "Reports"
+  weight = 5
+
+[[menu.main]]
+  url = "/blog/"
+  name = "Blog"
+  weight = 6
+
+[[menu.main]]
+  name = "Donate"
+  url = "/donate/"
+  weight = 7
+
+[[menu.install]]
+  name = "Install OONI Probe"
+  url = "/install/"
+
+[[menu.about]]
+  url = "/about/"
+  name = "About"
+  weight = 1
+
+[[menu.about]]
+  url = "/about/team/"
+  name = "Team"
+  weight = 2
+
+[[menu.about]]
+  url = "/about/supporters/"
+  name = "Supporters & Funders"
+  weight = 3
