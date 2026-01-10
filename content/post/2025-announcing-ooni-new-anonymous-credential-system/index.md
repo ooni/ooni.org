@@ -27,7 +27,7 @@ Existing credential ecosystems (blind-signature-based, zk-friendly signatures, S
 ## Building a modular, expressive credential framework
 
 In collaboration with Ian Goldberg (University of Waterloo), Lindsey Tulloch (Tor Project), and Victor Graf (Risc Zero), we built a layered system for building zero-knowledge credentials and protocols. Three Rust crates (*cmz*, *sigma-compiler*, and *sigma-proofs*) implementing well-studied sigma-protocols and compile high-level statements into efficient linear-algebraic proof statements.
-In parallel, CFRG drafts for these protocols are being built (draft-irtf-cfrg-sigma-protocols, draft-irtf-cfrg-fiat-shamir).
+In parallel, CFRG drafts for these protocols are being built ([draft-irtf-cfrg-sigma-protocols](https://datatracker.ietf.org/doc/draft-irtf-cfrg-sigma-protocols/), [draft-irtf-cfrg-fiat-shamir](https://datatracker.ietf.org/doc/draft-irtf-cfrg-fiat-shamir/)).
 
 Some of the features provided that are particularly useful for OONI are:
 
