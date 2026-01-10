@@ -1,6 +1,12 @@
-# Announcing OONI’s New Anonymous Credential System
+---
+title: "Announcing OONI's New Anonymous Credential System"
+description: "A high-level look at how OONI is designing and building an anonymous credential system for OONI Probe."
+author: "Michele Orrù"
+date: "2026-01-12"
+tags: ["ooni", "anonymous credentials", "cryptography"]
+categories: ["blog"]
+---
 
-*2025-XX-XX — by OONI Engineering Team*
 
 In our previous posts, we outlined [why OONI requires an anonymous credential system](/post/2025-probe-security-without-identification/) and detailed the [security and privacy requirements](/post/2025-requirements-for-oonis-anonymous-credentials/) such a system must satisfy. We highlighted the core challenge: OONI needs to establish trust in submitted measurements without creating identifiers that could reveal user identity or allow cross-network tracking.
 
