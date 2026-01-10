@@ -2,7 +2,7 @@
 
 *2025-XX-XX — by OONI Engineering Team*
 
-In our previous posts, we outlined [why OONI requires an anonymous credential system](https://ooni.org/post/2025-probe-security-without-identification/) and detailed the [security and privacy requirements](https://ooni.org/post/2025-requirements-for-oonis-anonymous-credentials/) such a system must satisfy. We highlighted the core challenge: OONI needs to establish trust in submitted measurements without creating identifiers that could reveal user identity or allow cross-network tracking.
+In our previous posts, we outlined [why OONI requires an anonymous credential system](/post/2025-probe-security-without-identification/) and detailed the [security and privacy requirements](/post/2025-requirements-for-oonis-anonymous-credentials/) such a system must satisfy. We highlighted the core challenge: OONI needs to establish trust in submitted measurements without creating identifiers that could reveal user identity or allow cross-network tracking.
 
 Anonymous credentials offer a cryptographic mechanism to authenticate certain properties of a probe — such as long-term participation or measurement volume — without exposing who the user is, where they are, or linking their activity across networks.
 
