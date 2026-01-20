@@ -88,7 +88,39 @@ This ensures:
 The *server sees only the proof*, not the underlying attributes.
 The attribute `measurement_count` is used to assess a user's participation in the network, not to rate-limit users.
 
-### XXX integration with Golang??
+## Go integration (via `rust2go`)
+
+The OONI Probe engine is mostly written in Go, while our anonymous credential system is implemented in Rust. To integrate the two cleanly, we expose a small C-compatible API from Rust and generate Go bindings using [rust2go](https://github.com/ihciah/rust2go).
+
+The design principle is simple:
+
+- **Rust owns cryptography** (credential issuance, ZK proofs, verification, updates)
+- **The client owns orchestration** (persistence, state machines)
+
+In practice this means the Rust library behaves like a “crypto engine”: it takes opaque inputs (current credential + protocol parameters), produces protocol messages to send to the server, and consumes the server response to produce an updated credential.
+
+### State management lives in the client
+
+To keep the Rust API minimal and portable, we intentionally **delegate state management to the calling application**:
+
+- In mobile apps, this is the OONI multiplatform client [https://github.com/ooni/probe-multiplatform]
+- In the CLI, this is the OONI Go CLI client (miniooni, ooniprobe) [https://github.com/ooni/probe-cli]
+
+The client is responsible for persisting and reloading:
+- the latest credential blob
+- any local state needed across requests (e.g. pending protocol state between request/response)
+
+This keeps the boundary clean: the Go side treats credentials and protocol messages as opaque bytes, while Rust enforces all correctness and privacy properties internally.
+
+### Data exchange model
+
+Across the Rust↔Go boundary we only pass:
+- **opaque serialized protocol messages** (bytes, often Base64-encoded for JSON transport)
+- **public parameters** (e.g. issuer public keys / protocol parameters)
+- **network context** (domain separators, cc/asn, etc.)
+
+This approach lets Go integrate the system without re-implementing cryptography, while still keeping networking and application logic consistent with the rest of OONI Probe.
+
 
 ## What's next
 
