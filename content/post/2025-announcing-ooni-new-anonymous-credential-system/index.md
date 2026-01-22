@@ -2,7 +2,7 @@
 title: "Announcing OONI's New Anonymous Credential System"
 description: "A high-level look at how OONI is designing and building an anonymous credential system for OONI Probe."
 author: "Michele Orrù"
-date: "2026-01-12"
+date: "2026-01-22"
 tags: ["ooni", "anonymous credentials", "cryptography"]
 categories: ["blog"]
 ---
@@ -10,23 +10,19 @@ categories: ["blog"]
 
 In our previous posts, we outlined [why OONI requires an anonymous credential system](/post/2025-probe-security-without-identification/) and detailed the [security and privacy requirements](/post/2025-requirements-for-oonis-anonymous-credentials/) such a system must satisfy. We highlighted the core challenge: OONI needs to establish trust in submitted measurements without creating identifiers that could reveal user identity or allow cross-network tracking.
 
-Anonymous credentials offer a cryptographic mechanism to authenticate certain properties of a probe — such as long-term participation or measurement volume — without exposing who the user is, where they are, or linking their activity across networks.
+Anonymous credentials offer a cryptographic mechanism to authenticate certain properties of a probe without exposing who the user is, or linking their activity across networks. 
 
 ## OONI's requirements
 
-To meet OONI’s threat model, a credential system must satisfy several constraints:
-
-- **Prevent cross-network linkability**, supporting network-local identifiers only.
-- **Authenticate metadata** (probe_age, measurement_count, blocklist/trust status) without revealing raw values or compromising anonymity.
-- **Resist forgery and Sybil attacks**, ensuring malicious actors cannot easily create or manipulate identities.
-- **Support frequent multi-show presentations**, since probes upload measurements continuously.
-- **Avoid narrowing anonymity sets**, even when additional metadata is included in measurements.
+To meet OONI’s threat model, a credential system must satisfy several constraints. 
+We want network-local identifiers only, ensuring malicious actors cannot easily create or manipulate identities. 
+We want to be able to authenticate the metadata (like age, measurement count, and trust status) without revealing the raw values or compromising anonymity. 
 
 Existing credential ecosystems (blind-signature-based, zk-friendly signatures, SNARK-based constructions) each satisfy some of these requirements but not all. In particular, OONI needs **issuer-local verification**, **efficient range proofs**, **network-dependent pseudonyms**, and **credential update protocols**. No off-the-shelf system met these constraints without significant compromises.
 
 ## Building a modular, expressive credential framework
 
-In collaboration with Ian Goldberg (University of Waterloo), Lindsey Tulloch (Tor Project), and Victor Graf (Risc Zero), we built a layered system for building zero-knowledge credentials and protocols. Three Rust crates (*cmz*, *sigma-compiler*, and *sigma-proofs*) implementing well-studied sigma-protocols and compile high-level statements into efficient linear-algebraic proof statements.
+In collaboration with Ian Goldberg (University of Waterloo), Lindsey Tulloch (Tor Project), and Victor Graf (Risc Zero), we built a layered system for building zero-knowledge credentials and protocols. Three Rust crates ([*cmz*](https://github.com/sigma-rs/cmz), [*sigma-compiler*](https://github.com/sigma-rs/sigma-compiler), and [*sigma-proofs*](https://github.com/sigma-rs/sigma-proofs)) implementing well-studied sigma-protocols and compile high-level statements into efficient linear-algebraic proof statements.
 In parallel, CFRG drafts for these protocols are being built ([draft-irtf-cfrg-sigma-protocols](https://datatracker.ietf.org/doc/draft-irtf-cfrg-sigma-protocols/), [draft-irtf-cfrg-fiat-shamir](https://datatracker.ietf.org/doc/draft-irtf-cfrg-fiat-shamir/)).
 
 Some of the features provided that are particularly useful for OONI are:
@@ -77,18 +73,9 @@ muCMZProtocol!(submit<min_age_today, max_age, min_measurement_count, max_measure
     (min_measurement_count..=max_measurement_count).contains(Old.measurement_count) );
 ```
 
-This ensures:
+This ensures that the probe has the same network-local pseudonym and satisfies the freshness policy for that network; updates the measurement count. OONI cannot see raw attributes, it *sees only the proof*, and has the guarantee that the authentication policy is enforced.
 
-- the probe keeps the same network-local pseudonym
-- the measurement count increments monotonically
-- the age bucket stays correct
-- OONI cannot see raw values — only proven statements
-- a malicious client cannot forge trust metadata
-
-The *server sees only the proof*, not the underlying attributes.
 The attribute `measurement_count` is used to assess a user's participation in the network, not to rate-limit users.
-
-### XXX integration with Golang??
 
 ## What's next
 
@@ -96,10 +83,11 @@ OONI users will soon be able to filter or annotate measurements by:
 
 - long-running vs. fresh probes
 - high-volume contributors
-- blocklisted or faulty probes
 - trusted institutional probes
 
-While full Sybil-resistance remains an application-layer problem (e.g. registration rate-limiting), authenticated measurement_count and probe_age buckets provide meaningful friction to would-be attackers.
+Additionally, OONI will be able to mitigate attacks and enforce transparent access policies that filter by `measurement_count` and  `probe_age` buckets, mitigating the risk of attacks. Malicious probes can be blocklisted on a per-nym basis. 
+
+We inverstigated the ability of blocklisting for full-credentials, however this seems to require more expensive cryptography (paring-friendly elliptic curves or proofs of hash preimages). We haven't found a solution that would meet our performance and maintenability requirements, but we think this is an exciting a very interesting area for further research.
 
 If you’re a cryptographer, implementer, or just curious, **we welcome feedback** — this work is meant to serve the global OONI community safely and transparently.
 
