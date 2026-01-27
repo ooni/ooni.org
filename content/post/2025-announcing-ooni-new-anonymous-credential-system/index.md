@@ -90,18 +90,9 @@ The attribute `measurement_count` is used to assess a user's participation in th
 
 ## Go integration (via `rust2go`)
 
-The OONI Probe engine is mostly written in Go, while our anonymous credential system is implemented in Rust. To integrate the two cleanly, we expose a small C-compatible API from Rust and generate Go bindings using [rust2go](https://github.com/ihciah/rust2go).
+The OONI Probe engine is primarily written in Go, while the anonymous credential system is implemented in Rust. To integrate the two cleanly, we expose a small C-compatible API from Rust and generate Go bindings using rust2go. The design separates responsibilities: Rust owns all cryptography (credential issuance, zero-knowledge proofs, verification, and updates), while the client handles orchestration, persistence, and state machines. 
 
-The design principle is simple:
-
-- **Rust owns cryptography** (credential issuance, ZK proofs, verification, updates)
-- **The client owns orchestration** (persistence, state machines)
-
-In practice this means the Rust library behaves like a “crypto engine”: it takes opaque inputs (current credential + protocol parameters), produces protocol messages to send to the server, and consumes the server response to produce an updated credential.
-
-### State management lives in the client
-
-To keep the Rust API minimal and portable, we intentionally **delegate state management to the calling application**:
+The Rust library acts as a self-contained “crypto engine” that consumes opaque inputs (the current credential and protocol parameters), produces protocol messages for the server, and processes responses to return an updated credential, with all state management intentionally delegated to the calling application to keep the API minimal and portable.
 
 - In mobile apps, this is the OONI multiplatform client [https://github.com/ooni/probe-multiplatform]
 - In the CLI, this is the OONI Go CLI client (miniooni, ooniprobe) [https://github.com/ooni/probe-cli]
