@@ -13,4 +13,4 @@ Community Participation in Sustainable Development (COMPSUDEV) is a non-profit a
 
 COMPSUDEV Cameroon is one of the pioneer members of the Cameroon Digital Rights Coalition working on digital security and censorship. 
 
-COMPSUDEV  Cameroon is concerned with  issues such as; right to privacy, information freedom, digital security, open internet, internet circumvention, digital rights and responsibilities and open data.
+COMPSUDEV Cameroon is concerned with issues such as; right to privacy, information freedom, digital security, open internet, internet circumvention, digital rights and responsibilities and open data.
