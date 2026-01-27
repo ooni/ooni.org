@@ -5,12 +5,20 @@ name: Localization Lab
 title: Localization Lab
 website: https://www.localizationlab.org/
 reports:
+- text: "OONI Community Interviews: Chido Musodza"
+  link: "https://ooni.org/post/2024-interview-with-chido-musodza/"
 - text: "OONI Probe app translations"
   link: "https://explore.transifex.com/otf/ooniprobe/"
+- text: "OONI Run translations"
+  link: "https://explore.transifex.com/otf/ooni-run/"
+- text: "OONI Explorer translations"
+  link: "https://explore.transifex.com/otf/ooni-explorer/"
 - text: "OONI Probe - Localization Lab Wiki"
   link: "https://wiki.localizationlab.org/index.php/OONI_Probe"
 - text: "Guidelines: Translating the OONI Probe apps"
   link: "https://github.com/ooni/translations/blob/master/Guidelines.md"
+- text: "Guidelines: Translating OONI Explorer"
+  link: "https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Explorer.md"
 ---
 
 Localization Lab believes that language shouldn't be a barrier when it comes to security and access to the Internet. Since 2012, they have helped expand the reach of Internet freedom tools by unlocking access to communities all over the world. 
@@ -28,4 +36,5 @@ Localization Lab is a **global community of 7000+ contributors who support the t
 Since 2012, they have **made open source technology available to underrepresented communities in 220 languages**, bringing equal access to information, better representation online, and growing the user base of our supported projects.
 
 Over the years, the Localization Lab has supported OONI with the [translation and localization of OONI Probe apps](https://www.transifex.com/otf/ooniprobe/).
+
 

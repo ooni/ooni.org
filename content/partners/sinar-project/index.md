@@ -17,6 +17,8 @@ reports:
   link: "https://imap.sinarproject.org/news/internet-censorship-update-internet-censorship-monitoring-and-testing-during-2023-malaysia-state-elections-findings"
 - text: "Blocking of WeeChooKeong.com website in Malaysia"
   link: "https://imap.sinarproject.org/news/internet-censorship-update-blocking-of-weechookeong-com-website"
+- text: "OONI Community Interviews: Siti Nurliza"
+  link: "https://ooni.org/post/2023-interview-with-siti-nurliza/"
 - text: "iMAP 2023: State of Internet Censorship in 10 countries"
   link: "https://ooni.org/post/2023-imap-10-research-reports-southeast-asia/"
 - text: "Is the Website Blocked? Verifying Internet Censorship with OONI Explorer"
