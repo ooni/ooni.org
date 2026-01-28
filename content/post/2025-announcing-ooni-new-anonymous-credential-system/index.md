@@ -88,7 +88,7 @@ This ensures:
 The *server sees only the proof*, not the underlying attributes.
 The attribute `measurement_count` is used to assess a user's participation in the network, not to rate-limit users.
 
-## Go integration (via `rust2go`)
+## Integration in the OONI codebase
 
 The OONI Probe engine is primarily written in Go, while the anonymous credential system is implemented in Rust. To integrate the two cleanly, we expose a small C-compatible API from Rust and generate Go bindings using rust2go. The design separates responsibilities: Rust owns all cryptography (credential issuance, zero-knowledge proofs, verification, and updates), while the client handles orchestration, persistence, and state machines. 
 
