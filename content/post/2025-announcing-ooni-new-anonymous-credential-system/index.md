@@ -111,7 +111,7 @@ Across the Rust↔Go boundary we only pass:
 - **network context** (domain separators, cc/asn, etc.)
 
 This approach lets Go integrate the system without re-implementing cryptography, while still keeping networking and application logic consistent with the rest of OONI Probe.
-
+On Android we plan to rely on the [Android Keystore](https://developer.android.com/privacy-and-security/keystore) to store longterm secrets, while on iOS we plan on using the [Keychain services](https://developer.apple.com/documentation/security/keychain-services).
 
 ## What's next
 
