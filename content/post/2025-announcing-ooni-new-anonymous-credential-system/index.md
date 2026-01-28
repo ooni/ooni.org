@@ -1,7 +1,7 @@
 ---
 title: "Announcing OONI's New Anonymous Credential System"
 description: "A high-level look at how OONI is designing and building an anonymous credential system for OONI Probe."
-author: "Michele Orrù"
+author: "OONI Team"
 date: "2026-01-12"
 tags: ["ooni", "anonymous credentials", "cryptography"]
 categories: ["blog"]
