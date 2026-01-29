@@ -5,7 +5,7 @@ name: Paradigm Initiative
 title: Paradigm Initiative
 website: https://paradigmhq.org/
 reports:
-- text: "OONI Community Interview with Ihueze Nwobilor, Senior Programs Officer at Paradigm Initiative"
+- text: "OONI Community Interviews: Ihueze Nwobilor"
   link: "https://ooni.org/post/2023-interview-with-ihueze-nwobilor/"
 - text: "Nigeria’s 2019 elections through the lens of network measurements"
   link: "https://ooni.org/post/2019-nigeria-internet-censorship/"

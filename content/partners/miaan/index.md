@@ -4,6 +4,11 @@ country: Iran
 name: Miaan Group
 title: Miaan Group
 website: https://www.miaan.org/
+reports:
+- text: "How Internet Censorship Impacts the Women’s Rights Movement in Iran: Insights from OONI Data and Activist Interviews"
+  link: "https://ooni.org/post/2025-iran-censorship-womens-rights/"
+- text: "Iran’s ‘Stealth Blackout’: A Multi-stakeholder Analysis of the June 2025 Internet Shutdown"
+  link: "https://filter.watch/english/2025/10/02/irans-stealth-blackout-a-multi-stakeholder-analysis-of-the-june-2025-internet-shutdown/"
 ---
 
 [Miaan Group](https://www.miaan.org/) is a nonprofit organization founded in 2019 to promote human rights, good governance, and social justice in Iran and the broader Middle East and North Africa region.

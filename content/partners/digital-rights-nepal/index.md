@@ -4,6 +4,9 @@ country: Nepal
 name: Digital Rights Nepal
 title: Digital Rights Nepal
 website: https://digitalrightsnepal.org/
+reports:
+- text: "Community Contribution in Censorship Detection: Updating Nepal’s OONI Test List"
+  link: "https://digitalrightsnepal.org/community-contribution-in-censorship-detection-updating-nepals-ooni-test-list/"
 ---
 
 Digital Rights Nepal (DRN) is a non-profit organization dedicated to safeguarding and advancing digital rights in Nepal. Since its establishment in 2020, DRN has been at the forefront of advocating for online freedom of expression, privacy, data protection, and equitable access to information. The organization achieves this through rigorous research, impactful policy advocacy, and comprehensive capacity-building programs.

@@ -7,6 +7,12 @@ tags: ["country-ru"]
 categories: ["report"]
 ---
 
+**Update:** A year later, on 2nd September 2025, OONI received an email from [Roskomnadzor](https://rkn.gov.ru/en/about/state-of-roskomnadzor/), informing us that they had decided to **unblock** access to OONI Explorer (`https://explorer.ooni.org/ru/chart/circumvention`). However, as of January 2026, [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2025-12-28&until=2026-01-28&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=explorer.ooni.org) suggests that access to OONI Explorer remains blocked on some networks in Russia.
+
+
+==================================================
+
+
 As of 11th September 2024, Russia has [blocked](https://explorer.ooni.org/chart/mat?probe_cc=RU&since=2024-08-01&until=2024-09-25&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&domain=explorer.ooni.org) one of our platforms: [OONI Explorer](https://explorer.ooni.org/).
 
 [OONI Explorer](https://explorer.ooni.org/) is one of the largest open datasets on internet censorship around the world. We [first launched](https://blog.torproject.org/ooni-explorer-censorship-and-other-network-anomalies-around-world/) this web platform back in 2016 with the goal of enabling researchers, journalists, and human rights defenders to investigate internet censorship based on empirical network measurement data that is contributed by [OONI Probe](https://ooni.org/install/) users worldwide. Every day, we publish [new measurements](https://explorer.ooni.org/) from around the world in real-time.

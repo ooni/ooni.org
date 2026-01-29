@@ -1,6 +1,32 @@
-# OONI Web
+<img src="https://raw.githubusercontent.com/ooni/design-system/refs/heads/master/svgs/logos/OONI-HorizontalColor.svg" width="422px" />
 
-This is the canonical website for OONI, that you can access via:
+# OONI, the Organisation
+
+We are the Open Observatory, of Network Interference.
+
+We are trying to make the Internet for Humans, not AI bots, by observing what's going on.
+
+---
+
+## 💡 **Do you think that's a good idea?**
+
+Then throw in some spare change and help us bring about some change :)
+
+[Donate NOW](https://ooni.org/donate)
+
+---
+
+## 🤝 **No coins? No problem.**
+
+Don't have much coin? No problemo. You can also volunteer your time and it can make a huge difference.
+
+**Join our Slack channel:** [https://slack.ooni.org/](https://slack.ooni.org/)
+
+---
+
+## Nerd stuff for the website
+
+This is also the canonical website for OONI, that you can access via:
 
 * https://ooni.org
 * https://openobservatory.github.io
@@ -8,16 +34,16 @@ This is the canonical website for OONI, that you can access via:
 
 If you are having trouble accessing our website, please contact us at contact [at] openobservatory.org.
 
-## Contributing articles
+### Contributing articles
 
 * Fork this repository if you're not a collaborator
 * Add your post to `content/post/` directory
 * Submit a pull request
 * Wait for pull request to be reviewed and merged to `master` or merge it yourself :)
 
-## Local build
+### Local build
 
-### Setup
+#### Setup
 
 Dependencies to build the website **manually** are
 [hugo](https://github.com/spf13/hugo/),
@@ -26,7 +52,7 @@ Dependencies to build the website **manually** are
 versions are codified in "canonical" build procedure in
 [travis.yml](./travis.yml).
 
-### Running locally
+#### Running locally
 
 If you want to preview the website while editing styles and posts you can do it running following command:
 
@@ -40,7 +66,7 @@ If you want to publish to [Github mirror](https://openobservatory.github.io/), y
 make publish
 ```
 
-### End to end local testing
+#### End to end local testing
 
 To run the end to end integration tests do:
 

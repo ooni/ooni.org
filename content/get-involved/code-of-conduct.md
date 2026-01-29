@@ -90,7 +90,7 @@ If you believe you're subject to behavior that is not acceptable within our comm
 
 The report will be received by all **Incident Response Committee members**:
 
-1. Elizaveta Yachmeneva ([OONI](https://ooni.org/)), elizaveta@openobservatory.org
+1. Elizaveta Yachmeneva (Independent), elizaveta.yachmeneva@proton.me
 2. Maria Xynou ([OONI](https://ooni.org/)), maria@openobservatory.org 
 3. Amanda Meng ([IODA](https://ioda.inetintel.cc.gatech.edu/)), a.meng@gatech.edu 
 4. Felicia Anthonio ([Access Now](https://www.accessnow.org/)), felicia@accessnow.org   
