@@ -125,6 +125,7 @@ OONI users will soon be able to filter or annotate measurements by:
 
 While full Sybil-resistance remains an application-layer problem (e.g. registration rate-limiting), authenticated measurement_count and probe_age buckets provide meaningful friction to would-be attackers.
 
-If you’re a cryptographer, implementer, or just curious, **we welcome feedback** — this work is meant to serve the global OONI community safely and transparently.
+If you’re a cryptographer, implementer, or just curious, **we welcome feedback** — this work is meant to serve the global OONI community safely and transparently. We recommend sharing feedback on the [ooni-dev mailing list](https://lists.torproject.org/mailman3/postorius/lists/ooni-dev.lists.torproject.org/), the [ooni slack channel](https://slack.ooni.org/) or privately via our [contact information](https://ooni.org/about/#contact).
+
 
 Stay tuned for deeper dives into the protocol design, performance benchmarks, and how sigma-rs will ship inside the next major OONI Probe release.
