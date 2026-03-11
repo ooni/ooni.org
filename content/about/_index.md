@@ -1,5 +1,6 @@
 ---
 title: About
+description: "OONI is a non-profit free software project that documents internet censorship worldwide through open data, free tools, and research."
 submenu:
   - url: "/about/"
     name: "About"
@@ -7,6 +8,12 @@ submenu:
     name: "Team"
   - url: "/about/supporters/"
     name: "Supporters & Funders"
+  - url: "/about/citations/"
+    name: "Citations"
+  - url: "/about/press/"
+    name: "Press"
+  - url: "/about/contact/"
+    name: "Contact"
 ---
 
 Founded in 2012, the **Open Observatory of Network Interference (OONI)** is a non-profit free software project that aims to empower decentralized efforts in documenting internet censorship around the world.
@@ -39,21 +46,4 @@ All of our methodologies, tools, and measurements are entirely open, transparent
 
 By increasing transparency of internet censorship, we aim to support public debate on information controls and promote social justice on the internet.
 
-### Contact
-
-You can contact the OONI team by sending an email to **contact@openobservatory.org**.
-
-Encrypted emails can be sent using the [following PGP key](https://keyserver.ubuntu.com/pks/lookup?fingerprint=on&op=index&search=0x4C15DDA996C6C0CF48BD33096B2943F00CB177B7):
-
-pub 4096R/6B2943F00CB177B7 2016-03-23  
-Key fingerprint = 4C15 DDA9 96C6 C0CF 48BD 3309 6B29 43F0 0CB1 77B7  
-uid \[ultimate\] OONI - Open Observatory of Network Interference  
-sub 4096R/8EBD2087374399AB 2016-03-23
-
-For real-time communication, you can reach us on [Slack](https://slack.ooni.org/) or [IRC](ircs://irc.oftc.net:6697/#ooni).
-
-Our physical mailing address is the following:
-
-{{< address title="Open Observatory of Network Interference (OONI) ETS" address1="Via Baccio Baldini 12" address2="00146, Rome, Italy" >}}
-
-Tax ID: IT-96568220584
+Have questions? See our **[FAQ](/support/faq/)** or [contact us](/about/contact/).

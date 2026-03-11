@@ -1,10 +1,14 @@
 {{ $img := $.Page.Resources.GetMatch (.Get "img")}}
 {{ $imgHeight := .Get "imgHeight"}}
-
 {{ $name := .Get "name"}}
 {{ $link := .Get "link"}}
 
-<a href="{{ $link }}">
-    <img class="col-span-1 w-full object-contain" src="{{ $img.RelPermalink}}" alt="{{ $name }}"
-        style="height: {{ $imgHeight }}">
+<a href="{{ $link }}" target="_blank" rel="noopener noreferrer"
+  class="group flex flex-col items-center justify-center gap-3 rounded-xl border border-gray2 bg-white px-6 py-8 shadow-sm transition-all duration-150 hover:border-ooniblue hover:shadow-md">
+  <img class="w-full object-contain transition-opacity duration-150 group-hover:opacity-90"
+    src="{{ $img.RelPermalink }}" alt="{{ $name }}"
+    style="height: {{ $imgHeight }}; max-height: {{ $imgHeight }};">
+  <span class="text-xs font-medium text-gray5 transition-colors duration-150 group-hover:text-ooniblue text-center leading-snug">
+    {{ $name }}
+  </span>
 </a>

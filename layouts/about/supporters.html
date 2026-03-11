@@ -1,0 +1,136 @@
+{{ define "main" }}
+<div class="container my-12">
+  {{ if .Title }}
+  <h1 class="article-title">{{ .Title }}</h1>
+  {{ end }}
+
+  {{/* Intro text + logo sections + CTA (rendered from markdown content) */}}
+  <div class="prose prose-a:hover:text-ooniblue max-w-none">
+    {{ .Content }}
+  </div>
+
+  {{/* ── Supporter Tiers ─────────────────────────────────────────────── */}}
+  {{ if .Params.tiers }}
+  <section id="supporter-tiers" class="not-prose mt-16">
+    <div class="mb-8 border-t-2 border-ooniblue pt-4">
+      <h2 class="text-2xl font-bold text-gray9">Supporter tiers</h2>
+      <p class="mt-2 text-base text-gray6">
+        Each tier reflects both the level of contribution and the community of support it represents.
+      </p>
+    </div>
+
+    {{ $accentBorders := slice "border-blue9" "border-blue7" "border-ooniblue" "border-blue3" }}
+    {{ $accentTexts  := slice "text-blue9"   "text-blue7"   "text-ooniblue"   "text-blue4"   }}
+    {{ $accentBgs    := slice "bg-blue9"     "bg-blue7"     "bg-ooniblue"     "bg-blue3"     }}
+
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
+      {{ range $i, $tier := .Params.tiers }}
+      {{ $border := index $accentBorders $i }}
+      {{ $text   := index $accentTexts   $i }}
+      <div class="group relative flex flex-col overflow-hidden rounded-2xl border border-gray2 bg-white shadow-sm transition-shadow duration-200 hover:shadow-md">
+        {{/* Coloured top accent bar */}}
+        <div class="h-1.5 w-full {{ index $accentBgs $i }}"></div>
+
+        <div class="flex flex-1 flex-col p-6">
+          {{/* Name */}}
+          <div class="mb-3 flex items-center gap-3">
+            <h3 class="text-lg font-bold {{ $text }}">{{ $tier.name }}</h3>
+          </div>
+
+          {{/* Requirement */}}
+          <div class="mb-4">
+            <span class="inline-block rounded-full text-xs font-semibold">
+              {{ $tier.requirement }}
+            </span>
+          </div>
+
+          {{/* Description */}}
+          <p class="mb-5 flex-1 text-sm italic leading-relaxed text-gray5">
+            {{ $tier.description }}
+          </p>
+
+          {{/* Benefits list */}}
+          {{ if $tier.benefits }}
+          <ul class="space-y-2 border-t border-gray1 pt-4">
+            {{ range $tier.benefits }}
+            <li class="flex items-start gap-2 text-sm text-gray7">
+              <svg class="mt-0.5 h-4 w-4 flex-none text-ooniblue" fill="none" viewBox="0 0 24 24"
+                stroke-width="2.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+              {{ . }}
+            </li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ── Funders ──────────────────────────────────────────────────────── */}}
+  {{ if or .Params.funders_current .Params.funders_past }}
+  <section id="funders" class="not-prose mt-16 border-t-2 border-gray2 pt-10">
+    <div class="mb-8">
+      <h2 class="text-2xl font-bold text-gray9">Funders</h2>
+      <p class="mt-2 text-base text-gray6">
+        Our work would not be possible without the support of our funders.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 gap-10 sm:grid-cols-2">
+      {{/* Current funders */}}
+      {{ if .Params.funders_current }}
+      <div>
+        <h3 class="mb-4 border-t-2 border-ooniblue pt-1 text-sm font-bold uppercase tracking-widest text-ooniblue">
+          Current Funders
+        </h3>
+        <ul class="space-y-3">
+          {{ range .Params.funders_current }}
+          <li>
+            <a href="{{ .url }}" target="_blank" rel="noopener noreferrer"
+              class="group flex items-start gap-2.5 text-sm font-medium text-gray8 transition-colors hover:text-ooniblue">
+              <svg class="mt-0.5 h-4 w-4 flex-none text-gray4 transition-colors group-hover:text-ooniblue"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+              {{ .name }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+      {{/* Past funders */}}
+      {{ if .Params.funders_past }}
+      <div>
+        <h3 class="mb-4 border-t-2 border-ooniblue pt-1 text-sm font-bold uppercase tracking-widest text-ooniblue">
+          Past Funders
+        </h3>
+        <ul class="space-y-3">
+          {{ range .Params.funders_past }}
+          <li>
+            <a href="{{ .url }}" target="_blank" rel="noopener noreferrer"
+              class="group flex items-start gap-2.5 text-sm font-medium text-gray8 transition-colors hover:text-ooniblue">
+              <svg class="mt-0.5 h-4 w-4 flex-none text-gray4 transition-colors group-hover:text-ooniblue"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+              {{ .name }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+</div>
+{{ end }}
