@@ -1,0 +1,184 @@
+{{ define "main" }}
+<style>
+  /* When JS runs it hides the plain source and shows the accordion */
+  #faq-source.js-hidden { display: none; }
+  #faq-accordion-body { display: none; }
+  #faq-accordion-body.ready { display: block; }
+
+  /* Section headings */
+  .faq-section { margin-bottom: 2.5rem; }
+  .faq-section-heading {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #0588cb;
+    border-top: 2px solid #0588cb;
+    padding-top: 0.25rem;
+    margin-bottom: 0.75rem;
+  }
+
+  /* Accordion item */
+  details.faq-item {
+    border: 1px solid #dee2e6;
+    border-radius: 0.625rem;
+    margin-bottom: 0.375rem;
+    background: #fff;
+    overflow: hidden;
+  }
+  details.faq-item + details.faq-item { }
+  details.faq-item[open] {
+    border-color: #0588cb;
+    box-shadow: 0 2px 8px rgba(5, 136, 203, 0.08);
+  }
+
+  /* Question / summary */
+  details.faq-item summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.875rem 1.25rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #343a40;
+    cursor: pointer;
+    transition: background 0.12s, color 0.12s;
+  }
+  details.faq-item summary::-webkit-details-marker { display: none; }
+  details.faq-item summary::marker { display: none; }
+  details.faq-item summary:hover { background: #f8f9fa; color: #0588cb; }
+  details.faq-item[open] summary { background: #f0f8ff; color: #0588cb; }
+
+  /* +/− icon */
+  details.faq-item summary::after {
+    content: "+";
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #868e96;
+    flex-shrink: 0;
+    line-height: 1;
+    transition: color 0.12s;
+  }
+  details.faq-item summary:hover::after,
+  details.faq-item[open] summary::after { content: "−"; color: #0588cb; }
+
+  /* Answer body */
+  .faq-answer {
+    padding: 0 1.25rem 1.125rem;
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: #495057;
+  }
+  .faq-answer p   { margin-bottom: 0.75rem; }
+  .faq-answer p:last-child { margin-bottom: 0; }
+  .faq-answer ul, .faq-answer ol { padding-left: 1.5rem; margin-bottom: 0.75rem; }
+  .faq-answer li  { margin-bottom: 0.25rem; }
+  .faq-answer a   { color: #0588cb; text-decoration: underline; }
+  .faq-answer a:hover { color: #056aa6; }
+  .faq-answer code {
+    font-size: 0.8em;
+    background: #f1f3f5;
+    border-radius: 0.25rem;
+    padding: 0.1em 0.35em;
+  }
+</style>
+
+<div class="container my-12">
+  <h1 class="article-title">{{ .Title }}</h1>
+
+  {{/* Plain prose fallback — visible by default, hidden by JS once accordion is ready */}}
+  <div id="faq-source" class="prose prose-a:hover:text-ooniblue max-w-none">
+    {{ .Content }}
+  </div>
+
+  {{/* Intro (translations, links) — populated and shown by JS */}}
+  <div id="faq-intro" class="prose prose-a:hover:text-ooniblue max-w-2xl mb-10"></div>
+
+  {{/* Accordion — populated and shown by JS */}}
+  <div id="faq-accordion-body"></div>
+</div>
+{{ end }}
+
+{{ define "script" }}
+<script>
+(function () {
+  var source  = document.getElementById('faq-source');
+  var intro   = document.getElementById('faq-intro');
+  var body    = document.getElementById('faq-accordion-body');
+  if (!source || !intro || !body) return;
+
+  var children = Array.from(source.children);
+
+  /* Find the index of the first H2 — everything before it is the intro */
+  var firstH2 = children.findIndex(function (el) { return el.tagName === 'H2'; });
+  if (firstH2 === -1) {
+    /* No accordion structure — leave plain content visible as-is */
+    return;
+  }
+
+  /* Intro: everything before the first H2 */
+  children.slice(0, firstH2).forEach(function (el) {
+    intro.appendChild(el.cloneNode(true));
+  });
+
+  /* Build sections from H2 / H3 structure */
+  var sections = [];
+  var curSection = null;
+  var curItem    = null;
+
+  children.slice(firstH2).forEach(function (el) {
+    if (el.tagName === 'H2') {
+      curItem    = null;
+      curSection = { headingText: el.textContent.trim(), headingId: el.id, items: [] };
+      sections.push(curSection);
+    } else if (el.tagName === 'H3') {
+      curItem = { questionText: el.textContent.trim(), questionId: el.id, answerNodes: [] };
+      if (curSection) curSection.items.push(curItem);
+    } else if (curItem) {
+      curItem.answerNodes.push(el);
+    }
+  });
+
+  /* Render accordion */
+  sections.forEach(function (section, si) {
+    var sectionDiv = document.createElement('div');
+    sectionDiv.className = 'faq-section';
+
+    var heading = document.createElement('p');
+    heading.className = 'faq-section-heading';
+    heading.textContent = section.headingText;
+    if (section.headingId) heading.id = section.headingId;
+    sectionDiv.appendChild(heading);
+
+    section.items.forEach(function (item, qi) {
+      var details = document.createElement('details');
+      details.className = 'faq-item';
+      /* Open the very first question */
+      if (si === 0 && qi === 0) details.open = true;
+
+      var summary = document.createElement('summary');
+      summary.textContent = item.questionText;
+      if (item.questionId) summary.id = item.questionId;
+      details.appendChild(summary);
+
+      var answerDiv = document.createElement('div');
+      answerDiv.className = 'faq-answer';
+      item.answerNodes.forEach(function (node) {
+        answerDiv.appendChild(node.cloneNode(true));
+      });
+      details.appendChild(answerDiv);
+
+      sectionDiv.appendChild(details);
+    });
+
+    body.appendChild(sectionDiv);
+  });
+
+  /* Swap: hide plain prose, reveal accordion */
+  source.classList.add('js-hidden');
+  body.classList.add('ready');
+})();
+</script>
+{{ end }}

@@ -1,5 +1,6 @@
 ---
 title: OONI Team
+description: "Meet the team behind OONI — the Open Observatory of Network Interference."
 submenu:
   - url: "/about/"
     name: "About"
@@ -7,6 +8,12 @@ submenu:
     name: "Team"
   - url: "/about/supporters/"
     name: "Supporters & Funders"
+  - url: "/about/citations/"
+    name: "Citations"
+  - url: "/about/press/"
+    name: "Press"
+  - url: "/about/contact/"
+    name: "Contact"
 ---
 
 {{<team-listing>}}

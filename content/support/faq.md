@@ -1,12 +1,23 @@
 ---
 title: Frequently Asked Questions (FAQ)
 description: This Frequently Asked Questions (FAQ) section aims to address the questions that we are frequently asked by the community.
+layout: faq
 aliases:
     - /about/faq/
+submenu:
+  - url: "/get-involved/"
+    name: "Get Involved"
+  - url: "/partners/"
+    name: "Partners"
+  - url: "/support/resources/"
+    name: "Resources"
+  - url: "/support/faq/"
+    name: "FAQ"
+  - url: "/support/glossary/"
+    name: "Glossary"
 ---
 
-This Frequently Asked Questions (FAQ) section aims to address the
-questions that we are frequently asked by the community.
+This Frequently Asked Questions (FAQ) section aims to address the questions that we are frequently asked by the community.
 
 Translations:
 
@@ -20,153 +31,6 @@ Translations:
 * **မြန်မာ,** [မကြာခဏ မေးမြန်းခံရလေ့ရှိသော မေးခွန်းများ](/my/support/faq)
 
 Are there other questions you would like us to address? Please [let us know](https://ooni.org/about/#contact).
-
-* [About OONI](#about-ooni)
-
-    * [What is OONI?](#what-is-ooni)
-
-    * [Why OONI?](#why-ooni)
-
-    * [What does OONI do?](#what-does-ooni-do)
-
-    * [Why measure internet censorship?](#why-measure-internet-censorship)
-
-    * [How is OONI funded?](#how-is-ooni-funded)
-
-    * [What is OONI's relationship with The Tor Project?](#what-is-oonis-relationship-with-the-tor-project)
-
-    * [Where is OONI based?](#where-is-ooni-based)
-
-    * [Whats is OONI's legal status?](#what-is-oonis-legal-status)
-
-    * [How can I get involved?](#how-can-i-get-involved)
-
-* [OONI Probe](#ooni-probe)
-
-    * [What is OONI Probe?](#what-is-ooni-probe)
-
-    * [My country doesn't have censorship. Why run OONI Probe?](#my-country-doesnt-have-censorship-why-run-ooni-probe)
-
-    * [What do OONI Probe tests do?](#what-do-ooni-probe-tests-do)
-
-    * [How do OONI Probe tests measure internet censorship?](#how-do-ooni-probe-tests-measure-internet-censorship)
-
-    * [I am not a techie. Can I run OONI Probe?](#i-am-not-a-techie-can-i-run-ooni-probe)
-
-    * [How can I run OONI Probe?](#how-can-i-run-ooni-probe)
-
-    * [I ran OONI Probe. Should I send you the results?](#i-ran-ooni-probe-should-i-send-you-the-results)
-
-    * [How often should I run OONI Probe?](#how-often-should-i-run-ooni-probe)
-
-    * [How can I run OONI Probe automatically?](#how-can-i-run-ooni-probe-automatically)
-
-    * [For how long should I run OONI Probe?](#for-how-long-should-i-run-ooni-probe)
-
-    * [I found blocked websites. How can I circumvent their blocking?](#i-found-blocked-websites-how-can-i-circumvent-their-blocking)
-
-    * [OONI Probe found a middlebox on my network. Does that mean I am under surveillance?](#ooni-probe-found-a-middlebox-on-my-network-does-that-mean-i-am-under-surveillance)
-
-    * [Can I measure internet censorship remotely in another country?](#can-i-measure-internet-censorship-remotely-in-another-country)
-
-    * [What types of data does OONI Probe collect?](#what-types-of-data-does-ooni-probe-collect)
-
-    * [How can I opt-out from sending OONI measurements?](#how-can-i-opt-out-from-sending-ooni-measurements)
-
-    * [What are the risks of running OONI Probe?](#what-are-the-risks-of-running-ooni-probe)
-
-    * [How can I reduce the risks associated with running OONI Probe?](#how-can-i-reduce-the-risks-associated-with-running-ooni-probe)
-
-    * [Can I run OONI Probe over a VPN?](#can-i-run-ooni-probe-over-a-vpn)
-
-    * [Can OONI provide legal advice?](#can-ooni-provide-legal-advice)
-
-* [Testing websites](#testing-websites)
-
-    * [Which websites will I test for censorship with OONI Probe?](#which-websites-will-i-test-for-censorship-with-ooni-probe)
-
-    * [What are test lists?](#what-are-test-lists)
-
-    * [Why does OONI Probe use test lists?](#why-does-ooni-probe-use-test-lists)
-
-    * [Why doesn’t the OONI Probe mobile app test all of the websites in test lists?](#why-doesnt-the-ooni-probe-mobile-app-test-all-of-the-websites-in-test-lists)
-
-    * [How can I change the testing duration in the OONI Probe mobile app to test more websites?](#how-can-i-change-the-testing-duration-in-the-ooni-probe-mobile-app-to-test-more-websites)
-
-    * [How can I find my country’s test list?](#how-can-i-find-my-countrys-test-list)
-
-    * [Why doesn’t my country have a test list?](#why-doesnt-my-country-have-a-test-list)
-
-    * [Who decides which websites are included in test lists?](#who-decides-which-websites-are-included-in-test-lists)
-
-    * [How can I contribute to test lists?](#how-can-i-contribute-to-test-lists)
-
-    * [I’m not a GitHub user, but I’d still like to submit URLs for testing. How can I do so?](#im-not-a-github-user-but-id-still-like-to-submit-urls-for-testing-how-can-i-do-so)
-
-    * [What is the difference between a test list and a blocklist?](#what-is-the-difference-between-a-test-list-and-a-blocklist)
-
-    * [What types of websites will OONI Probe test?](#what-types-of-websites-will-ooni-probe-test)
-
-    * [How can I choose which types of websites to test?](#how-can-i-choose-which-types-of-websites-to-test)
-
-    * [How can I choose which websites to test?](#how-can-i-choose-which-websites-to-test)
-
-    * [How can I test a custom list of URLs?](#how-can-i-test-a-custom-list-of-urls)
-
-* [OONI data](#ooni-data)
-
-    * [What is OONI data?](#what-is-ooni-data)
-
-    * [Why does OONI publish data?](#why-does-ooni-publish-data)
-
-    * [Where does OONI publish data?](#where-does-ooni-publish-data)
-
-    * [How can I interpret OONI data?](#how-can-i-interpret-ooni-data)
-
-    * [How can I fetch and analyze OONI data?](#how-can-i-fetch-and-analyze-ooni-data)
-
-* [OONI Explorer](#ooni-explorer)
-
-    * [What is OONI Explorer?](#what-is-ooni-explorer)
-
-    * [How can I find blocked websites via OONI Explorer?](#how-can-i-find-blocked-websites-via-ooni-explorer)
-
-    * [How can I access measurements?](#how-can-i-access-measurements)
-
-    * [How can I find OONI data via OONI Explorer?](#how-can-i-find-ooni-data-via-ooni-explorer)
-
-    * [How can I find “evidence of internet censorship” in a measurement?](#how-can-i-find-evidence-of-internet-censorship-in-a-measurement)
-
-    * [How can I find blocked websites in my country?](#how-can-i-find-blocked-websites-in-my-country)
-
-    * [How can I check if a specific website is blocked?](#how-can-i-check-if-a-specific-website-is-blocked)
-
-    * [Why can’t I find results for a specific website?](#why-cant-i-find-results-for-a-specific-website)
-
-    * [How can I check the blocking of websites during a specific time period?](#how-can-i-check-the-blocking-of-websites-during-a-specific-time-period)
-
-    * [What do you mean by “Confirmed”?](#what-do-you-mean-by-confirmed)
-
-    * [I know of many other websites that are blocked. Why doesn’t OONI Explorer show them when I select “confirmed”?](#i-know-of-many-other-websites-that-are-blocked-why-doesnt-ooni-explorer-show-them-when-i-select-confirmed)
-
-    * [Why does OONI confirm censorship when a block page is served?](#why-does-ooni-confirm-censorship-when-a-block-page-is-served)
-
-    * [Why doesn’t OONI confirm other cases of internet censorship (beyond block pages)?](#why-doesnt-ooni-confirm-other-cases-of-internet-censorship-beyond-block-pages)
-
-    * [What do you mean by “Anomalies”?](#what-do-you-mean-by-anomalies)
-
-    * [Why does OONI Explorer suggest that a site or app that I can access is blocked in my country?](#why-does-ooni-explorer-suggest-that-a-site-or-app-that-i-can-access-is-blocked-in-my-country)
-
-    * [What are false positives?](#what-are-false-positives)
-
-    * [Why do false positives occur?](#why-do-false-positives-occur)
-
-    * [How can I distinguish false positives?](#how-can-i-distinguish-false-positives)
-
-    * [How can I check results from other OONI Probe tests?](#how-can-i-check-results-from-other-ooni-probe-tests)
-
-    * [Why doesn’t my country have any recent measurements on OONI Explorer?](#why-doesnt-my-country-have-any-recent-measurements-on-ooni-explorer)
-
 
 ## About OONI
 

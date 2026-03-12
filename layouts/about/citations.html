@@ -1,0 +1,101 @@
+{{ define "main" }}
+{{ partial "csv-table-styles.html" . }}
+
+<div class="container my-8">
+  <h1 class="article-title">{{ .Title }}</h1>
+  <div class="prose prose-a:hover:text-ooniblue max-w-none mb-6">
+    {{ .Content }}
+  </div>
+
+  <div class="ooni-table-controls" id="citations-controls">
+    <input type="search" id="citations-search" placeholder="Search by publisher, country, or focus…">
+    <select id="citations-category">
+      <option value="">All Categories</option>
+      <option value="Research">Research</option>
+      <option value="Research (Academia)">Academic</option>
+      <option value="Advocacy">Advocacy</option>
+    </select>
+    <select id="citations-focus">
+      <option value="">All Focus</option>
+      <option value="OONI report">OONI Report</option>
+      <option value="Raw OONI data">Raw OONI Data</option>
+      <option value="General OONI citation">General Citation</option>
+      <option value="Promoting OONI tools">Promoting Tools</option>
+    </select>
+    <select id="citations-year">
+      <option value="">All Years</option>
+    </select>
+    <span class="ooni-table-result-count" id="citations-count"></span>
+  </div>
+
+  <div class="ooni-table-wrap">
+    <table class="ooni-table" id="citations-table">
+      <thead>
+        <tr>
+          <th data-sort="date" class="sorted-desc">Date <span class="sort-icon"></span></th>
+          <th data-sort="publisher">Publisher <span class="sort-icon"></span></th>
+          <th data-sort="category">Category <span class="sort-icon"></span></th>
+          <th data-sort="country">Country <span class="sort-icon"></span></th>
+          <th data-sort="focus">Focus <span class="sort-icon"></span></th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody id="citations-tbody">
+        <tr><td colspan="6" style="text-align:center;padding:2rem;color:#868e96;">Loading citations…</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="ooni-pagination" id="citations-pagination"></div>
+</div>
+{{ end }}
+
+{{ define "script" }}
+<script src="/js/ooni-csv-table.js"></script>
+<script>
+  function categoryTag(cat) {
+    if (cat === 'Research (Academia)') return '<span class="tag tag-academia">Academic</span>';
+    if (cat === 'Advocacy')            return '<span class="tag tag-advocacy">Advocacy</span>';
+    return '<span class="tag tag-research">Research</span>';
+  }
+
+  window.ooniTables.citations = createOoniTable({
+    ns: 'citations',
+    csvFilter: r => r.category !== 'Press',
+    getRowFilter() {
+      const search   = (document.getElementById('citations-search').value || '').toLowerCase();
+      const catVal   = document.getElementById('citations-category').value;
+      const focusVal = document.getElementById('citations-focus').value;
+      const yearVal  = document.getElementById('citations-year').value;
+      return r => {
+        if (search   && ![r.publisher, r.country, r.focus, r.dateStr].join(' ').toLowerCase().includes(search)) return false;
+        if (catVal   && r.category !== catVal) return false;
+        if (focusVal && !r.focus.includes(focusVal)) return false;
+        if (yearVal  && r.year !== yearVal) return false;
+        return true;
+      };
+    },
+    sortFields: {
+      date:      r => r.sortDate,
+      publisher: r => r.publisher.toLowerCase(),
+      category:  r => r.category,
+      country:   r => r.country,
+      focus:     r => r.focus,
+    },
+    rowHtml(r) {
+      return '<tr>'
+        + '<td style="white-space:nowrap">' + r.dateStr + '</td>'
+        + '<td>' + r.publisher + '</td>'
+        + '<td>' + categoryTag(r.category) + '</td>'
+        + '<td>' + r.country + '</td>'
+        + '<td>' + focusTag(r.focus) + '</td>'
+        + '<td>' + linkCell(r.link, r.archiveLink) + '</td>'
+        + '</tr>';
+    },
+    countLabel: n => n + ' citations',
+    onData(data) {
+      const years = [...new Set(data.map(r => r.year).filter(Boolean))].sort().reverse();
+      addOptions('citations-year', years);
+    },
+  });
+</script>
+{{ end }}

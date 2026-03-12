@@ -1,0 +1,92 @@
+{{ define "main" }}
+{{ partial "csv-table-styles.html" . }}
+
+<div class="container my-8">
+  <h1 class="article-title">{{ .Title }}</h1>
+  <div class="prose prose-a:hover:text-ooniblue max-w-none mb-6">
+    {{ .Content }}
+  </div>
+
+  <div class="ooni-table-controls" id="media-controls">
+    <input type="search" id="media-search" placeholder="Search by outlet, country, or topic…">
+    <select id="media-focus">
+      <option value="">All Focus</option>
+      <option value="OONI report">OONI Report</option>
+      <option value="Raw OONI data">Raw OONI Data</option>
+      <option value="Promoting OONI tools">Promoting Tools</option>
+      <option value="General OONI citation">General Citation</option>
+    </select>
+    <select id="media-country">
+      <option value="">All Countries</option>
+    </select>
+    <select id="media-year">
+      <option value="">All Years</option>
+    </select>
+    <span class="ooni-table-result-count" id="media-count"></span>
+  </div>
+
+  <div class="ooni-table-wrap">
+    <table class="ooni-table" id="media-table">
+      <thead>
+        <tr>
+          <th data-sort="date" class="sorted-desc">Date <span class="sort-icon"></span></th>
+          <th data-sort="publisher">Outlet <span class="sort-icon"></span></th>
+          <th data-sort="country">Country <span class="sort-icon"></span></th>
+          <th data-sort="focus">Focus <span class="sort-icon"></span></th>
+          <th data-sort="lang">Language <span class="sort-icon"></span></th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody id="media-tbody"></tbody>
+    </table>
+  </div>
+  <div class="ooni-pagination" id="media-pagination"></div>
+</div>
+{{ end }}
+
+{{ define "script" }}
+<script src="/js/ooni-csv-table.js"></script>
+<script>
+  window.ooniTables.media = createOoniTable({
+    ns: 'media',
+    csvFilter: r => r.category === 'Press',
+    getRowFilter() {
+      const search     = (document.getElementById('media-search').value || '').toLowerCase();
+      const focusVal   = document.getElementById('media-focus').value;
+      const countryVal = document.getElementById('media-country').value;
+      const yearVal    = document.getElementById('media-year').value;
+      return r => {
+        if (search     && ![r.publisher, r.country, r.focus, r.dateStr].join(' ').toLowerCase().includes(search)) return false;
+        if (focusVal   && !r.focus.includes(focusVal)) return false;
+        if (countryVal && r.country !== countryVal) return false;
+        if (yearVal    && r.year !== yearVal) return false;
+        return true;
+      };
+    },
+    sortFields: {
+      date:      r => r.sortDate,
+      publisher: r => r.publisher.toLowerCase(),
+      country:   r => r.country,
+      focus:     r => r.focus,
+      lang:      r => r.language,
+    },
+    rowHtml(r) {
+      return '<tr>'
+        + '<td style="white-space:nowrap">' + r.dateStr + '</td>'
+        + '<td>' + r.publisher + '</td>'
+        + '<td>' + r.country + '</td>'
+        + '<td>' + focusTag(r.focus) + '</td>'
+        + '<td>' + r.language + '</td>'
+        + '<td>' + linkCell(r.link, r.archiveLink) + '</td>'
+        + '</tr>';
+    },
+    countLabel: n => n + ' press mentions',
+    onData(data) {
+      const years = [...new Set(data.map(r => r.year).filter(Boolean))].sort().reverse();
+      addOptions('media-year', years);
+      const countries = [...new Set(data.map(r => r.country).filter(Boolean))].sort();
+      addOptions('media-country', countries);
+    },
+  });
+</script>
+{{ end }}

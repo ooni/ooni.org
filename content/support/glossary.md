@@ -1,6 +1,17 @@
 ---
 title: OONI Glossary
 description: "This glossary contains brief explanations for terms used in OONI apps, methodologies, and research reports."
+submenu:
+  - url: "/get-involved/"
+    name: "Get Involved"
+  - url: "/partners/"
+    name: "Partners"
+  - url: "/support/resources/"
+    name: "Resources"
+  - url: "/support/faq/"
+    name: "FAQ"
+  - url: "/support/glossary/"
+    name: "Glossary"
 ---
 
 **Last updated**: 3rd July 2023

@@ -1,35 +1,39 @@
 {{ define "main" }}
+<div class="container my-12">
+  <h1 class="article-title">{{ .Title }}</h1>
 
-<div class="container">
-  <h1>{{ .Title }}</h1>
-  <p>
-    {{ .Content }}
-  </p>
-  <p>
-    {{ len .Pages }} active partnerships
-  </p>
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-    {{ range .Pages }}
-    {{ $name := .Params.Name }}
-    {{ $country := .Params.Country }}
-    {{ $href := .Permalink }}
-    {{ with .Resources.GetMatch "images/*.png" }}
-    {{ $image := .Fit "140x150" }}
-    <div class="flex flex-col justify-between border border-gray4 p-4">
-      <div>
-        <a href="{{ $href }}">
-          <h2>{{ $name }}</h2>
-        </a>
-        <div>{{ $country }}</div>
-      </div>
-      <div class="self-end flex items-center justify-center h-[150px] w-[150px]">
-        <img src="{{ $image.Permalink }}" alt="{{ $name }}" />
-      </div>
+  {{/* Intro text + stats */}}
+  <div class="not-prose mb-10 flex flex-wrap items-start gap-8">
+    <div class="prose prose-a:hover:text-ooniblue max-w-2xl">
+      {{ .Content }}
     </div>
-    {{ end }}
-    {{ end }}
   </div>
 
+  {{/* Partner grid */}}
+  <div class="not-prose grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5" style="grid-auto-rows: 1fr">
+    {{ range .Pages }}
+    {{ $name    := .Params.name }}
+    {{ $country := .Params.country }}
+    {{ $href    := .RelPermalink }}
+    <a href="{{ $href }}"
+      class="group flex flex-col justify-between rounded-xl border border-gray2 bg-white p-5 shadow-sm transition-all duration-150 hover:border-ooniblue hover:shadow-md">
+      <div>
+        <p class="text-sm font-semibold leading-snug text-gray9 transition-colors group-hover:text-ooniblue">
+          {{ $name }}
+        </p>
+        {{ if $country }}
+        <p class="text-xs text-gray8">{{ $country }}</p>
+        {{ end }}
+      </div>
+      {{ with .Resources.GetMatch "images/*.png" }}
+      <div class="flex h-14 w-full items-center justify-center">
+        <img src="{{ .RelPermalink }}" alt="{{ $name }}"
+          class="max-h-full max-w-full object-contain transition-opacity group-hover:opacity-90">
+      </div>
+      {{ end }}
+      
+    </a>
+    {{ end }}
+  </div>
 </div>
-
 {{ end }}

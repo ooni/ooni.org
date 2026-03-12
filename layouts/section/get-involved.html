@@ -1,13 +1,276 @@
 {{ define "main" }}
-{{ $blocks := .Page.GetPage "./get-involved-blocks" }}
-<div class="container get-involved">
-  <main class="grid grid-cols-1 md:grid-cols-2 gap-8 my-8 [&_ul]:list-disc [&_ul]:ms-4">
-    {{ range sort $blocks.Resources "File.Path" }}
-      <div>
-        <h2>{{ .Title }}</h2>
-        {{ .Content }}
+<style>
+  /* Get Involved — section-block layout (from template) */
+  .get-involved-section {
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid var(--color-gray2);
+  }
+  .get-involved-section:last-child { border-bottom: none; }
+  .get-involved-section-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .get-involved-section-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .get-involved-section-icon.blue { background: var(--color-blue0); }
+  .get-involved-section-icon.green { background: #dcfce7; }
+  .get-involved-section-icon.amber { background: #fef3c7; }
+  .get-involved-section-icon.purple { background: #ede9fe; }
+  .get-involved-section-intro {
+    color: var(--color-gray7);
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+    line-height: 1.65;
+  }
+  .get-involved-channel-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  @media (min-width: 768px) {
+    .get-involved-channel-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .get-involved-channel-card {
+    border: 1px solid var(--color-gray3);
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    text-align: center;
+    transition: box-shadow 0.15s;
+  }
+  .get-involved-channel-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,.08); }
+  .get-involved-channel-card h4 { font-size: 0.95rem; margin-bottom: 0.25rem; }
+  .get-involved-channel-card p { font-size: 0.82rem; color: var(--color-gray6); margin-bottom: 0.75rem; }
+  .get-involved-resource-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  @media (min-width: 768px) {
+    .get-involved-resource-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .get-involved-resource-card {
+    border: 1px solid var(--color-gray3);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    transition: box-shadow 0.15s;
+    display: flex;
+    flex-direction: column;
+  }
+  .get-involved-resource-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,.08); }
+  .get-involved-resource-card h4 { font-size: 1rem; margin-bottom: 0.375rem; }
+  .get-involved-resource-card p { font-size: 0.875rem; color: var(--color-gray7); margin-bottom: 0.75rem; flex: 1; }
+  .get-involved-resource-card .badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    padding: 0.125rem 0.5rem;
+    border-radius: 1rem;
+    margin-bottom: 0.75rem;
+    width: fit-content;
+  }
+  .badge-kit { background: #dbeafe; color: #1e40af; }
+  .badge-course { background: #dcfce7; color: #166534; }
+  .get-involved-dev-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  @media (min-width: 768px) {
+    .get-involved-dev-links {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .get-involved-dev-link {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--color-gray3);
+    border-radius: 0.5rem;
+    transition: box-shadow 0.15s;
+    text-decoration: none;
+    color: var(--color-gray9);
+  }
+  .get-involved-dev-link:hover { box-shadow: 0 4px 12px rgba(0,0,0,.08); text-decoration: none; color: inherit; }
+  .get-involved-dev-link .dev-icon {
+    width: 2.25rem; height: 2.25rem; border-radius: 0.375rem;
+    background: var(--color-gray1); display: flex; align-items: center;
+    justify-content: center; font-size: 1rem; flex-shrink: 0;
+  }
+  .get-involved-dev-link .dev-info h4 { font-size: 0.9rem; margin-bottom: 0.125rem; color: var(--color-ooniblue); }
+  .get-involved-dev-link .dev-info p { font-size: 0.78rem; color: var(--color-gray6); margin-bottom: 0; }
+  .get-involved-translation-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    border: 1px solid var(--color-gray3);
+    /* Override global table styles */
+    animation: none !important;
+    padding: 0;
+  }
+  .get-involved-translation-table th {
+    background: var(--color-gray1) !important;
+    font-weight: 600 !important;
+    padding: 0.75rem 1.25rem !important;
+    text-align: left !important;
+    border: none !important;
+    border-bottom: 2px solid var(--color-gray3) !important;
+    color: var(--color-gray9) !important;
+    font-size: 0.813rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    text-shadow: none !important;
+  }
+  .get-involved-translation-table td {
+    padding: 0.875rem 1.25rem !important;
+    border: none !important;
+    border-bottom: 1px solid var(--color-gray2) !important;
+    vertical-align: middle !important;
+    text-align: left !important;
+    background: #fff !important;
+    font-size: 0.875rem !important;
+    font-weight: 400 !important;
+    text-shadow: none !important;
+  }
+  .get-involved-translation-table tbody tr:last-child td {
+    border-bottom: none !important;
+  }
+  .get-involved-translation-table tbody tr:hover td {
+    background: var(--color-blue0) !important;
+  }
+  .get-involved-translation-table a {
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  .get-involved-footer {
+    font-size: 0.9rem;
+    color: var(--color-gray6);
+    line-height: 1.6;
+  }
+  .get-involved-footer a { color: var(--color-ooniblue); text-decoration: underline; }
+  .get-involved-footer a:hover { color: var(--color-blue7); }
+  @media (max-width: 768px) {
+    .get-involved-channel-grid { grid-template-columns: 1fr; }
+    .get-involved-resource-grid { grid-template-columns: 1fr; }
+    .get-involved-dev-links { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="container my-12">
+  <h1 class="article-title">{{ .Title }}</h1>
+  {{ with .Params.intro }}
+  <p class="not-prose mb-10 text-base text-gray7">{{ . }}</p>
+  {{ end }}
+
+  {{ range $idx, $s := .Params.sections }}
+  <div class="get-involved-section">
+    {{/* Section header: icon + title */}}
+    <div class="get-involved-section-header">
+      <div class="get-involved-section-icon {{ index (slice "blue" "green" "amber" "purple") (mod $idx 4) }}">
+        <div class="h-6 w-6 text-ooniblue">{{ partial "icon.html" $s.icon }}</div>
       </div>
+      <h2 class="text-2xl font-bold text-gray9 md:text-3xl">{{ $s.title }}</h2>
+    </div>
+
+    {{/* Section intro */}}
+    <p class="get-involved-section-intro prose prose-a:underline prose-a:text-ooniblue max-w-none">{{ $s.intro | safeHTML }}</p>
+
+    {{/* Layout-specific content */}}
+    {{ if eq $s.layout "channels" }}
+    <div class="get-involved-channel-grid">
+      {{ range $s.items }}
+      <div class="get-involved-channel-card flex flex-col justify-between">
+        <div>
+          <h4>{{ .title }}</h4>
+          <p>{{ .description | safeHTML }}</p>
+        </div>
+        <div>
+          <a href="{{ .url }}" {{ if not (hasPrefix .url "/") }}target="_blank" rel="noopener noreferrer"{{ end }} class="ooni-btn">{{ .btnText }}</a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ else if eq $s.layout "resources" }}
+    <div class="get-involved-resource-grid">
+      {{ range $s.items }}
+      <div class="get-involved-resource-card">
+        {{ if .badge }}<span class="badge {{ default "badge-kit" .badgeClass }}">{{ .badge }}</span>{{ end }}
+        <h4>{{ .title }}</h4>
+        <p>{{ .description }}</p>
+        {{ with .bullets }}
+        <ul class="mb-3 list-disc space-y-0.5 pl-5 text-sm text-gray7">
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+        {{ end }}
+        <div class="cta mt-auto">
+          <a href="{{ .ctaUrl }}" {{ if not (hasPrefix .ctaUrl "/") }}target="_blank" rel="noopener noreferrer"{{ end }}>{{ .ctaText }}</a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ else if eq $s.layout "devlinks" }}
+    <div class="get-involved-dev-links">
+      {{ range $s.items }}
+      <a class="get-involved-dev-link" href="{{ .url }}" {{ if not (hasPrefix .url "/") }}target="_blank" rel="noopener noreferrer"{{ end }}>
+        <div class="dev-icon">🔗</div>
+        <div class="dev-info">
+          <h4>{{ .title }}</h4>
+          <p>{{ .description }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    {{ else if eq $s.layout "table" }}
+    <div class="overflow-x-auto">
+      <table class="get-involved-translation-table">
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Translate on Weblate</th>
+            <th>Guidelines</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range $s.table }}
+          <tr>
+            <td><strong>{{ .project }}</strong></td>
+            <td><a href="{{ .translateUrl }}" target="_blank" rel="noopener noreferrer">Translate</a></td>
+            <td>{{ with .guidelinesUrl }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">Guidelines</a>{{ else }}—{{ end }}</td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
     {{ end }}
-  </main>
+
+    {{/* Section footer (optional) */}}
+    {{ with $s.footer }}
+    <p class="get-involved-footer prose prose-a:underline prose-a:text-ooniblue max-w-none mt-2">{{ . | safeHTML }}</p>
+    {{ end }}
+  </div>
+  {{ end }}
 </div>
 {{ end }}
