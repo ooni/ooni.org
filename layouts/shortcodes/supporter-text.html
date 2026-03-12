@@ -1,5 +1,6 @@
 {{ $name := .Get "name"}}
 
-<p>
-    {{ $name }}
-</p>
+<div class="flex flex-col items-center justify-center gap-2 rounded-xl border-2 border-dashed border-gray3 bg-gray0 px-6 py-8 text-center">
+  <span class="text-sm font-semibold text-ooniblue">{{ $name }}</span>
+  <a href="/donate/" class="text-xs text-gray5 transition-colors hover:text-ooniblue">Donate to get listed →</a>
+</div>
