@@ -1,36 +1,86 @@
 {{ define "main" }}
-<div class="container mb-4 post-container">
-    <div class="flex gap-4 my-8">
-      <div class="flex justify-center items-center w-[285px] h-[180px] rounded border border-gray5">
-        {{ with .Resources.GetMatch "images/*.png" }}
-        {{ $image := .Resize "150x" }}
-        <img src="{{ $image.Permalink }}" />
-        {{ end }}
-      </div>
+<div class="container my-12">
 
-      <div class="flex flex-col self-center">
-        <h1>{{ .Params.name }}</h1>
-        <span class="partner-country">{{ .Params.country }}</span>
-        {{ with .Params.website }}
-        <div class="pt-3">
-        <a class="ooni-btn" href="{{ . }}">website</a>
-        </div>
-        {{ end }}
-      </div>
+  {{/* Partner header card */}}
+  <div class="not-prose mb-10 flex flex-col gap-6 rounded-2xl border border-gray2 bg-white p-8 shadow-sm sm:flex-row sm:items-center">
+    {{ with .Resources.GetMatch "images/*.png" }}
+    <div class="flex h-32 w-48 flex-none items-center justify-center rounded-xl border border-gray1 bg-gray0 p-4">
+      <img src="{{ .RelPermalink }}" alt="{{ $.Params.name }}" class="max-h-full max-w-full object-contain">
     </div>
-
-  {{ .Content }}
-
-  {{ with .Params.reports }}
-    <h2>Collaboration</h2>
-  {{ end }}
-    <ul>
-    {{ range .Params.reports }}
-      <li><a href="{{ .link }}">{{ .text }}</a></li>
     {{ end }}
-    </ul>
 
-  <a class="font-bold text-black" href="/partners/">← back to partners</a>
+    <div class="flex-1">
+      <h1 class="text-2xl font-bold text-gray9">{{ .Params.name }}</h1>
+      {{ if .Params.country }}
+      <p class="mt-1 flex items-center gap-1.5 text-sm text-gray5">
+        <svg class="h-3.5 w-3.5 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          stroke-width="2" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+        </svg>
+        {{ .Params.country }}
+        {{ with .Params.continent }}
+          <span class="text-gray3">·</span>
+          <span>{{ . }}</span>
+        {{ end }}
+      </p>
+      {{ end }}
+      {{ with .Params.website }}
+      <div class="mt-4">
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer"
+          class="inline-flex items-center gap-1.5 rounded-md bg-ooniblue px-3.5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue4">
+          <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="2" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+          </svg>
+          Visit website
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+
+  {{/* Partner description */}}
+  <div class="prose prose-a:hover:text-ooniblue max-w-none mb-10">
+    {{ .Content }}
+  </div>
+
+  {{/* Collaboration reports */}}
+  {{ with .Params.reports }}
+  <div class="not-prose border-t-2 border-ooniblue pt-6">
+    <h2 class="mb-4 text-sm font-bold uppercase tracking-widest text-ooniblue">Collaboration</h2>
+    <ul class="space-y-3">
+      {{ range . }}
+      <li>
+        <a href="{{ .link }}" target="_blank" rel="noopener noreferrer"
+          class="group flex items-start gap-2.5 text-sm text-gray7 transition-colors hover:text-ooniblue">
+          <svg class="mt-0.5 h-4 w-4 flex-none text-gray4 transition-colors group-hover:text-ooniblue"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.75"
+            stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+          </svg>
+          {{ .text }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+
+  {{/* Back link */}}
+  <div class="not-prose mt-10 border-t border-gray1 pt-6">
+    <a href="/partners/"
+      class="group inline-flex items-center gap-1.5 text-sm font-medium text-gray6 transition-colors hover:text-ooniblue">
+      <svg class="h-4 w-4 transition-transform group-hover:-translate-x-0.5" xmlns="http://www.w3.org/2000/svg"
+        fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+      </svg>
+      All partners
+    </a>
+  </div>
 
 </div>
 {{ end }}

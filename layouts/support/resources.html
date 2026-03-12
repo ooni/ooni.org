@@ -1,0 +1,36 @@
+{{ define "main" }}
+<div class="container my-12">
+  <h1 class="article-title">{{ .Title }}</h1>
+  {{ with .Params.intro }}
+  <p class="not-prose mb-10 text-base text-gray7">{{ . | safeHTML }}</p>
+  {{ end }}
+
+  <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-3">
+    {{ range .Params.sections }}
+    <div class="flex flex-col rounded-xl border border-gray3 bg-white p-5 shadow-sm transition-shadow hover:shadow-md">
+      <h2 class="mb-3 text-sm font-bold uppercase tracking-wider text-ooniblue">
+        {{ .title }}
+      </h2>
+      <ul class="space-y-2">
+        {{ range .links }}
+        <li>
+          <a href="{{ .url }}" {{ if or (hasPrefix .url "http") (hasPrefix .url "mailto:") }}target="_blank" rel="noopener noreferrer"{{ end }}
+            class="group flex items-start gap-2 text-sm text-gray7 transition-colors hover:text-ooniblue">
+            <svg class="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-gray4 transition-colors group-hover:text-ooniblue"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+            </svg>
+            {{ .text }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+  </div>
+
+  <p class="not-prose mt-10 border-t border-gray2 pt-6 text-sm text-gray6">
+    Also available as <a href="/support/ooni-outreach-kit/files/OONI%20Resources.pdf" class="text-ooniblue underline hover:text-blue7">OONI Resources PDF</a> for download and printing.
+  </p>
+</div>
+{{ end }}
