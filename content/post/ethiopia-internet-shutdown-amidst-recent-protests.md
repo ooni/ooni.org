@@ -153,7 +153,7 @@ tweet 762388008666591232
 is no longer available
 -->
 
-{{< twitter user="horn__observer" id="762569928205533184" >}}
+{{< x user="horn__observer" id="762569928205533184" >}}
 
 
 But Ethiopia is not the only country restricting access to the internet during
