@@ -4,8 +4,9 @@
   font-style: normal;
   font-weight: 300;  
   font-display: swap;
-  src: url("../fonts/fira/fira-sans-v16-latin-ext_latin-300.woff2") format("woff2"), 
+  src: url("../fonts/fira/fira-sans-v18-cyrillic-ext_latin-ext-300.woff2") format("woff2"), 
        url("../fonts/fira/fira-sans-v16-latin-ext_latin-300.woff") format("woff"); 
+
 }
 
 @font-face {
@@ -13,7 +14,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/fira/fira-sans-v16-latin-ext_latin-regular.woff2") format("woff2"), 
+  src: url("../fonts/fira/fira-sans-v18-cyrillic-ext_latin-ext-regular.woff2") format("woff2"), 
        url("../fonts/fira/fira-sans-v16-latin-ext_latin-regular.woff") format("woff"); 
 }
 
@@ -22,7 +23,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../fonts/fira/fira-sans-v16-latin-ext_latin-500.woff2") format("woff2"), 
+  src: url("../fonts/fira/fira-sans-v18-cyrillic-ext_latin-ext-500.woff2") format("woff2"), 
        url("../fonts/fira/fira-sans-v16-latin-ext_latin-500.woff") format("woff"); 
 }
 
@@ -31,7 +32,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url("../fonts/fira/fira-sans-v16-latin-ext_latin-600.woff2") format("woff2"), 
+  src: url("../fonts/fira/fira-sans-v18-cyrillic-ext_latin-ext-600.woff2") format("woff2"), 
        url("../fonts/fira/fira-sans-v16-latin-ext_latin-600.woff") format("woff"); 
 }
 
@@ -40,7 +41,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/fira/fira-sans-v16-latin-ext_latin-700.woff2") format("woff2"), 
+  src: url("../fonts/fira/fira-sans-v18-cyrillic-ext_latin-ext-700.woff2") format("woff2"), 
        url("../fonts/fira/fira-sans-v16-latin-ext_latin-700.woff") format("woff"); 
 }
 
