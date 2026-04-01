@@ -5,6 +5,9 @@
 
 const CSV_URL = '/OONI-citations.csv';
 
+const MONTH_NUM  = {January:1,February:2,March:3,April:4,May:5,June:6,July:7,August:8,September:9,October:10,November:11,December:12};
+const MONTH_ABBR = {January:'Jan',February:'Feb',March:'Mar',April:'Apr',May:'May',June:'Jun',July:'Jul',August:'Aug',September:'Sep',October:'Oct',November:'Nov',December:'Dec'};
+
 function parseCSV(text) {
   const lines = text.split('\n').filter(l => l.trim());
   const rows = [];
@@ -19,23 +22,24 @@ function parseCSV(text) {
     }
     parts.push(current.trim());
     if (parts.length < 9) continue;
-    const dateStr = parts[2] || '';
-    const monthMap = {January:1,February:2,March:3,April:4,May:5,June:6,July:7,August:8,September:9,October:10,November:11,December:12};
+    const dateStr = parts[3] || '';
     const dm = dateStr.match(/(\w+)\s+(\d{4})/);
-    let sortDate = 0, year = '';
+    let sortDate = 0, year = '', dateFormatted = dateStr;
     if (dm) {
-      year = dm[2];
-      sortDate = parseInt(dm[2]) * 100 + (monthMap[dm[1]] || 0);
+      year          = dm[2];
+      sortDate      = parseInt(dm[2]) * 100 + (MONTH_NUM[dm[1]] || 0);
+      dateFormatted = (MONTH_ABBR[dm[1]] || dm[1]) + ' ' + dm[2];
     }
     rows.push({
       publisher:   parts[1],
-      dateStr, sortDate, year,
-      category:    parts[3],
-      country:     parts[5],
-      focus:       parts[6],
-      language:    parts[7],
-      link:        parts[8],
-      archiveLink: parts[9] || ''
+      title:       parts[2],
+      dateStr, dateFormatted, sortDate, year,
+      category:    parts[4],
+      country:     parts[6],
+      focus:       parts[7],
+      language:    parts[8],
+      link:        parts[9],
+      archiveLink: parts[10] || ''
     });
   }
   return rows;
@@ -147,7 +151,7 @@ function createOoniTable(config) {
   };
 
   fetch(CSV_URL).then(r => r.text()).then(text => {
-    data = parseCSV(text).filter(config.csvFilter);
+    data = parseCSV(text).filter(config.csvFilter || (() => true));
     if (config.onData) config.onData(data);
     render();
 
@@ -168,7 +172,7 @@ function createOoniTable(config) {
       }));
   }).catch(() => {
     document.getElementById(ns + '-tbody').innerHTML =
-      '<tr><td colspan="6" style="text-align:center;padding:2rem;color:#868e96;">Could not load data.</td></tr>';
+      '<tr><td colspan="99" style="text-align:center;padding:2rem;color:#868e96;">Could not load data.</td></tr>';
   });
 
   return api;

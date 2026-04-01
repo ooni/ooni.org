@@ -9,9 +9,7 @@ submenu:
   - url: "/about/supporters/"
     name: "Supporters & Funders"
   - url: "/about/citations/"
-    name: "Citations"
-  - url: "/about/press/"
-    name: "Press"
+    name: "Citations & Press"
   - url: "/about/contact/"
     name: "Contact"
 ---
