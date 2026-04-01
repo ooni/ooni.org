@@ -103,7 +103,7 @@ function createOoniTable(config) {
   function sortData(rows) {
     const m        = state.dir === 'asc' ? 1 : -1;
     const accessor = config.sortFields[state.sort] || config.sortFields.date;
-    return [...rows].sort((a, b) => {
+    return [...rows].reverse().sort((a, b) => {
       const va = accessor(a), vb = accessor(b);
       if (va < vb) return -m;
       if (va > vb) return m;
