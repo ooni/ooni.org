@@ -3,9 +3,9 @@ title: OONI Code of Conduct
 description: This Code of Conduct summarizes the guidelines followed by OONI Community members including employees, sponsors and contractors.
 aliases: ["/code-of-conduct"]
 ---
-**Last modified:** June 11, 2025
+**Last modified:** April 16, 2026
 
-**Version:** 1.3
+**Version:** 1.4
 
 # OONI Code of Conduct
 
@@ -113,6 +113,7 @@ As part of the enforcement of OONI’s Code of Conduct (CoC) and to ensure trans
 | 2022 | 0   | 0   |
 | 2023 | 0   | 0   |
 | 2024 | 0   | 0   |
+| 2025 | 0   | 0   |
 
 If you have any questions, concerns, feedback or suggestions regarding our functioning, please share those with the following email address: coc@openobservatory.org.
 
