@@ -5,10 +5,12 @@ name: Fundación Karisma
 title: Fundación Karisma
 website: https://web.karisma.org.co/
 reports:
-- text: "Bloqueo de reddit.com por Coljuegos en Colombia"
-  link: "https://obi.karisma.org.co/2024-06-03-colombia-bloqueo-de-reddit-por-coljuegos/"
+- text: "Bloqueo del sitio web tvlatino.com (y otros)"
+  link: "https://obi.karisma.org.co/2025-06-12-boqueo-del-sitio-web-tvlatino.com-%28y-otros%29/"
 - text: "Bloqueo de bitcoin.com e independent.co.uk por Coljuegos en Colombia"
   link: "https://obi.karisma.org.co/2024-10-28-colombia-bloqueo-bitcoin-e-independent-coljuegos/"
+- text: "Bloqueo de reddit.com por Coljuegos en Colombia"
+  link: "https://obi.karisma.org.co/2024-06-03-colombia-bloqueo-de-reddit-por-coljuegos/"
 - text: "Bloqueo de archive.org y ghostbin.co en Colombia durante Paro Nacional"
   link: "https://obi.karisma.org.co/2021-05-14-colombia-bloqueo-de-archive.org-ghostbin.co-paro-nacional/"
 - text: "Bloqueo de contenido en Instagram durante Paro Nacional"
