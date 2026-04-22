@@ -5,9 +5,6 @@
 
 const CSV_URL = '/OONI-citations.csv';
 
-const MONTH_NUM  = {January:1,February:2,March:3,April:4,May:5,June:6,July:7,August:8,September:9,October:10,November:11,December:12};
-const MONTH_ABBR = {January:'Jan',February:'Feb',March:'Mar',April:'Apr',May:'May',June:'Jun',July:'Jul',August:'Aug',September:'Sep',October:'Oct',November:'Nov',December:'Dec'};
-
 function parseCSV(text) {
   const lines = text.split('\n').filter(l => l.trim());
   const rows = [];
@@ -23,12 +20,11 @@ function parseCSV(text) {
     parts.push(current.trim());
     if (parts.length < 9) continue;
     const dateStr = parts[3] || '';
-    const dm = dateStr.match(/(\w+)\s+(\d{4})/);
     let sortDate = 0, year = '', dateFormatted = dateStr;
-    if (dm) {
-      year          = dm[2];
-      sortDate      = parseInt(dm[2]) * 100 + (MONTH_NUM[dm[1]] || 0);
-      dateFormatted = (MONTH_ABBR[dm[1]] || dm[1]) + ' ' + dm[2];
+    if (dateStr) {
+      year          = new Date(dateStr).getFullYear();
+      sortDate      = new Date(dateStr).getTime();
+      dateFormatted = new Date(dateStr).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
     }
     rows.push({
       publisher:   parts[1],
@@ -50,11 +46,6 @@ function focusTag(focus) {
   if (focus.includes('Raw'))       return '<span class="tag-focus data">Raw Data</span>';
   if (focus.includes('Promoting')) return '<span class="tag-focus tools">Promoting Tools</span>';
   return '<span class="tag-focus citation">General Citation</span>';
-}
-
-function truncateUrl(url) {
-  if (!url) return '';
-  try { return new URL(url).hostname; } catch { return url.slice(0, 40); }
 }
 
 const EXT_ICON = ' <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>';
