@@ -21,19 +21,21 @@
   {{/* Contact channels */}}
   {{ if .Params.channels }}
   <section class="not-prose mb-12">
-    <h2 class="mb-6 border-t-2 border-ooniblue pt-4 text-xl font-bold text-gray9">Get in touch</h2>
-    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <h2 class="text-xl font-semibold tracking-[-0.01em] text-gray9 mb-6">Get in touch</h2>
+
+    <div class="flex flex-col border border-gray2 rounded-xl overflow-hidden bg-white">
       {{ range .Params.channels }}
       {{ $icon := index $icons .icon }}
       <a href="{{ .href }}"
-        class="group flex items-start gap-4 rounded-xl border border-gray2 bg-white p-5 shadow-sm transition-all duration-150 hover:border-ooniblue hover:shadow-md">
-        <div class="mt-0.5 flex h-10 w-10 flex-none items-center justify-center rounded-lg bg-blue0 text-ooniblue transition-colors group-hover:bg-ooniblue group-hover:text-white">
-          <div class="h-5 w-5">{{ $icon | safeHTML }}</div>
-        </div>
-        <div class="min-w-0">
-          <p class="text-sm font-semibold text-gray8 group-hover:text-ooniblue mb-1">{{ .label }}</p>
-          <p class="truncate text-sm text-gray8">{{ .detail }}</p>
-        </div>
+        class="group flex items-center gap-4 px-5 py-4 sm:px-6 no-underline text-inherit border-b border-gray2 last:border-b-0 transition-colors duration-[120ms]">
+        <span class="shrink-0 w-9 h-9 bg-blue0 rounded-[6px] flex items-center justify-center text-ooniblue group-hover:bg-ooniblue group-hover:text-white transition-colors duration-[120ms]">
+          <span class="w-[17px] h-[17px]">{{ $icon | safeHTML }}</span>
+        </span>
+        <span class="flex flex-col gap-[1px]">
+          <span class="text-[0.78rem] font-semibold uppercase tracking-[0.06em] text-gray6">{{ .label }}</span>
+          <span class="text-[0.95rem] font-medium text-ooniblue group-hover:text-ooni-dark-blue transition-colors duration-[120ms]">{{ .detail }}</span>
+        </span>
+        <svg class="ml-auto shrink-0 text-gray3 group-hover:text-ooniblue group-hover:translate-x-0.5 transition-[color,transform] duration-[120ms]" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
       </a>
       {{ end }}
     </div>
@@ -42,22 +44,15 @@
 
   {{/* Mailing address */}}
   <section class="not-prose">
-    <h2 class="mb-6 border-t-2 border-gray2 pt-4 text-xl font-bold text-gray9">Mailing Address</h2>
-    <div class="rounded-xl border border-gray2 bg-white p-6 shadow-sm">
-      <div class="flex items-start gap-4">
-        <div class="flex h-10 w-10 flex-none items-center justify-center rounded-lg bg-blue0 text-ooniblue">
-          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z" />
-          </svg>
-        </div>
-        <div>
-          <p class="font-semibold text-gray9 mb-1">Open Observatory of Network Interference (OONI) ETS</p>
-          <address class="not-italic text-sm text-gray8 leading-relaxed">
-            Via Baccio Baldini 12<br>
-            00146, Rome, Italy
-          </address>
-          <p class="mt-2 text-xs text-gray8">Tax ID: IT-96568220584</p>
-        </div>
+    <h2 class="text-xl font-semibold tracking-[-0.01em] text-gray9 mb-6">Mailing Address</h2>
+    <div class="flex gap-5 items-start">
+      <div>
+        <p class="text-[0.95rem] font-semibold text-gray9 mb-[0.35rem]">Open Observatory of Network Interference (OONI) ETS</p>
+        <address class="not-italic text-[0.9rem] text-gray7 leading-[1.7]">
+          Via Baccio Baldini 12<br>
+          00146, Rome, Italy
+        </address>
+        <p class="mt-2 text-[0.82rem] text-gray6 [font-variant-numeric:tabular-nums]">Tax ID: IT-96568220584</p>
       </div>
     </div>
   </section>
