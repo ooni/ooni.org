@@ -13,30 +13,13 @@ submenu:
     name: "Citations & Press"
   - url: "/about/contact/"
     name: "Contact"
-channels:
-  - label: "General"
-    detail: "contact@openobservatory.org"
-    href: "mailto:contact@openobservatory.org"
-    icon: "email"
-  - label: "Donations & supporters"
-    detail: "giving@ooni.org"
-    href: "mailto:giving@ooni.org"
-    icon: "donate"
-  - label: "Slack"
-    detail: "slack.ooni.org"
-    href: "https://slack.ooni.org/"
-    icon: "slack"
-  - label: "IRC"
-    detail: "#ooni@irc.oftc.net"
-    href: "https://webchat.oftc.net/?channels=%23ooni"
-    icon: "chat"
-  - label: "Mailing list"
-    detail: "ooni-talk"
-    href: "https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk"
-    icon: "list"
 ---
 
-You can contact the OONI team by sending an email to **[contact@openobservatory.org](mailto:contact@openobservatory.org)**.
+You can contact the OONI team by sending an email to **[contact@openobservatory.org](mailto:contact@openobservatory.org)**. For donor-related questions, contact **[giving@ooni.org](mailto:giving@ooni.org)**.
+
+Participate in community discussions on **[Slack](https://slack.ooni.org/)** or IRC (**[#ooni@irc.oftc.net](https://webchat.oftc.net/?channels=%23ooni)**).
+
+Sign-up for the **[ooni-talk](https://lists.torproject.org/cgi-bin/mailman/listinfo/ooni-talk)** mailing list to receive updates.
 
 Encrypted emails can be sent using the [following PGP key](https://keyserver.ubuntu.com/pks/lookup?fingerprint=on&op=index&search=0x4C15DDA996C6C0CF48BD33096B2943F00CB177B7):
 
