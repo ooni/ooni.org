@@ -15,7 +15,7 @@ submenu:
     name: "Contact"
 ---
 
-You can contact the OONI team by sending an email to **[contact@ooni.org.org](mailto:contact@ooni.org)**. 
+You can contact the OONI team by sending an email to **[contact@ooni.org](mailto:contact@ooni.org)**. 
 
 Encrypted emails can be sent using the [following PGP key](https://keyserver.ubuntu.com/pks/lookup?fingerprint=on&op=index&search=0x4C15DDA996C6C0CF48BD33096B2943F00CB177B7):
 
