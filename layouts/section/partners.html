@@ -3,11 +3,13 @@
   <h1 class="article-title">{{ .Title }}</h1>
 
   {{/* Intro text + stats */}}
-  <div class="not-prose mb-10 flex flex-wrap items-start gap-8">
-    <div class="prose prose-a:hover:text-ooniblue max-w-2xl">
-      {{ .Content }}
-    </div>
+  <div class="prose prose-a:hover:text-ooniblue max-w-none mb-6">
+    {{ .Content }}
+    <p>
+      {{ len .Pages }} active partnerships
+    </p>
   </div>
+  
 
   {{/* Partner grid */}}
   <div class="not-prose grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5" style="grid-auto-rows: 1fr">
