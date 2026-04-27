@@ -12,7 +12,7 @@
     <div class="flex-1">
       <h1 class="text-2xl font-bold text-gray9">{{ .Params.name }}</h1>
       {{ if .Params.country }}
-      <p class="mt-1 flex items-center gap-1.5 text-sm text-gray5">
+      <p class="mt-1 flex items-center gap-1.5 text-sm text-gray6">
         <svg class="h-3.5 w-3.5 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
           stroke-width="2" stroke="currentColor" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -21,7 +21,7 @@
         </svg>
         {{ .Params.country }}
         {{ with .Params.continent }}
-          <span class="text-gray3">·</span>
+          <span class="text-gray5">●</span>
           <span>{{ . }}</span>
         {{ end }}
       </p>
@@ -30,12 +30,12 @@
       <div class="mt-4">
         <a href="{{ . }}" target="_blank" rel="noopener noreferrer"
           class="inline-flex items-center gap-1.5 rounded-md bg-ooniblue px-3.5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue4">
-          <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          Website
+          <svg class="h-4 w-4 self-baseline" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
             stroke-width="2" stroke="currentColor" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round"
               d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
           </svg>
-          Visit website
         </a>
       </div>
       {{ end }}
@@ -54,7 +54,8 @@
     <ul class="space-y-3">
       {{ range . }}
       <li>
-        <a href="{{ .link }}" target="_blank" rel="noopener noreferrer"
+        {{ partial "ext-link-item.html" (dict "url" .link "name" .text) }}
+        <!-- <a href="{{ .link }}" target="_blank" rel="noopener noreferrer"
           class="group flex items-start gap-2.5 text-sm text-gray7 transition-colors hover:text-ooniblue">
           <svg class="mt-0.5 h-4 w-4 flex-none text-gray4 transition-colors group-hover:text-ooniblue"
             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.75"
@@ -63,7 +64,7 @@
               d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
           </svg>
           {{ .text }}
-        </a>
+        </a> -->
       </li>
       {{ end }}
     </ul>
@@ -71,7 +72,7 @@
   {{ end }}
 
   {{/* Back link */}}
-  <div class="not-prose mt-10 border-t border-gray1 pt-6">
+  <div class="not-prose mt-10 pt-6">
     <a href="/partners/"
       class="group inline-flex items-center gap-1.5 text-sm font-medium text-gray6 transition-colors hover:text-ooniblue">
       <svg class="h-4 w-4 transition-transform group-hover:-translate-x-0.5" xmlns="http://www.w3.org/2000/svg"

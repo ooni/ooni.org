@@ -13,4 +13,4 @@ submenu:
   - url: "/support/glossary/"
     name: "Glossary"
 ---
-Since 2016, we have formed [partnerships](https://ooni.org/get-involved/partnership-program/) with the following organizations.
+Since 2016, we have formed [partnerships](/get-involved/partnership-program/) with the following organizations.
