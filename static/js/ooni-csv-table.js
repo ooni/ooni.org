@@ -48,16 +48,18 @@ function focusTag(focus) {
   return '<span class="tag-focus citation">General Citation</span>';
 }
 
-const EXT_ICON = ' <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>';
+const EXT_ICON = ' <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:baseline;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>';
 
 function linkCell(link, archiveLink) {
   let html = link
-    ? '<a href="' + link + '" target="_blank" rel="noopener">view</a>'
+    ? '<a href="' + link + '" target="_blank" rel="noopener">view' + EXT_ICON + '</a>'
     : '';
   if (archiveLink) {
-    html += ' <a href="' + archiveLink + '" target="_blank" rel="noopener" style="font-size:0.7rem;color:#adb5bd;">[archive]</a>';
+    html += ' <a href="' + archiveLink + '" target="_blank" rel="noopener" style="font-size:0.7rem;color:#adb5bd;">[archive' + EXT_ICON + ']</a>';
+  } else {
+    html += ' <a href="https://web.archive.org/web/*/' + link + '" target="_blank" rel="noopener" style="font-size:0.7rem;color:#adb5bd;">[archive' + EXT_ICON + ']</a>';
   }
-  return '<div style="text-wrap:nowrap;">' + html + EXT_ICON + '</div>';
+  return '<div style="text-wrap:nowrap;">' + html + '</div>';
 }
 
 function addOptions(selectId, values) {
