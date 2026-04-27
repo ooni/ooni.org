@@ -9,6 +9,8 @@ categories: ["blog"]
 
 {{<img src="images/image3.png">}}
 
+**Image:** Year in Review: OONI in 2025.
+
 In this report, we share OONI highlights from 2025, as well as some of the great ways through which the internet freedom community made use of OONI tools and data.
 
 {{<table-of-contents>}}
