@@ -5,10 +5,8 @@
   details.faq-item > summary::-webkit-details-marker { display: none; }
   details.faq-item > summary::marker { display: none; }
 
-  /* Size the injected SVG icons inside copy button */
-  .faq-copy-btn svg { width: 14px; height: 14px; display: block; }
-
-  [x-cloak] { display: none !important; }
+  /* Link icon size */
+  .faq-anchor-link svg { width: 14px; height: 14px; display: block; }
 </style>
 
 <div class="container my-12">
@@ -18,8 +16,7 @@
     {{ .Content }}
   </div>
 
-  {{ $copyIcon  := `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"/></svg>` }}
-  {{ $checkIcon := `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>` }}
+  {{ $linkIcon := `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"/></svg>` }}
 
   {{ range $sIdx, $section := .Params.sections }}
   <div class="mb-10">
@@ -30,38 +27,14 @@
     {{ $id := $item.q | anchorize }}
     <details class="faq-item group/item border border-[#dee2e6] rounded-[0.625rem] mb-1.5 bg-white overflow-hidden open:border-ooniblue open:shadow-[0_2px_8px_rgba(5,136,203,0.08)]"
              id="{{ $id }}"
-             x-data="{
-               copied: false,
-               copy() {
-                 var u = location.origin + location.pathname + '#{{ $id }}';
-                 (navigator.clipboard ? navigator.clipboard.writeText(u) : Promise.reject())
-                   .then(() => {
-                     this.copied = true;
-                     setTimeout(() => this.copied = false, 1500);
-                   })
-                   .catch(() => {
-                     var t = document.createElement('textarea');
-                     t.value = u;
-                     document.body.appendChild(t);
-                     t.select();
-                     try { document.execCommand('copy'); this.copied = true; setTimeout(() => this.copied = false, 1500); } catch(e) {}
-                     document.body.removeChild(t);
-                   });
-               }
-             }"
-             {{ if and (eq $sIdx 0) (eq $iIdx 0) }}x-init="if (!location.hash) $el.open = true"{{ end }}>
+             {{ if and (eq $sIdx 0) (eq $iIdx 0) }}open{{ end }}>
       <summary class="group/summary flex items-center gap-2 py-[0.875rem] px-5 text-[0.9rem] font-semibold text-[#343a40] cursor-pointer transition-colors hover:text-ooniblue group-open/item:bg-[#f0f8ff] group-open/item:text-ooniblue">
         <span class="flex-1 min-w-0 flex items-center gap-1.5">
           <span class="min-w-0">{{ $item.q }}</span>
-          <button type="button"
-                  class="faq-copy-btn bg-transparent border-0 p-[0.3rem] m-0 cursor-pointer text-[#adb5bd] rounded flex-shrink-0 leading-none transition-all hover:text-ooniblue hover:bg-[rgba(5,136,203,0.1)]"
-                  :class="{ 'text-green-600': copied }"
-                  title="Copy link to this question"
-                  aria-label="Copy link to this question"
-                  @click.prevent.stop="copy()">
-            <span x-show="!copied">{{ $copyIcon | safeHTML }}</span>
-            <span x-show="copied" x-cloak>{{ $checkIcon | safeHTML }}</span>
-          </button>
+          <a href="#{{ $id }}"
+             class="faq-anchor-link p-[0.3rem] text-[#adb5bd] rounded flex-shrink-0 leading-none transition-colors hover:text-ooniblue hover:bg-[rgba(5,136,203,0.1)]"
+             title="Link to this question"
+             aria-label="Link to this question">{{ $linkIcon | safeHTML }}</a>
         </span>
         <span class="flex-shrink-0 text-xl font-light leading-none transition-colors text-[#868e96] group-hover/summary:text-ooniblue group-open/item:text-ooniblue" aria-hidden="true">
           <span class="group-open/item:hidden">+</span>
