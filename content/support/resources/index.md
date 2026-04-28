@@ -36,7 +36,7 @@ sections:
       - text: "OONI Probe Desktop Screencast"
         url: "https://www.youtube.com/watch?v=tLDVpyHFsW0"
       - text: "Translating OONI Probe"
-        url: "https://www.transifex.com/otf/ooniprobe/"
+        url: "https://localizationlab.weblate.cloud/projects/ooni/probe/"
       - text: "OONI Probe test descriptions"
         url: "/nettest/"
       - text: "Potential risks"
@@ -46,7 +46,7 @@ sections:
   - title: "Using OONI Run"
     links:
       - text: "OONI Run"
-        url: "https://run.ooni.io/"
+        url: "https://run.ooni.org/"
       - text: "User Guide for OONI Run"
         url: "/support/ooni-run"
       - text: "OONI Run Screencast"

@@ -1,4 +1,9 @@
-# Trang Những Câu Hỏi Thường Gặp 
+---
+layout: faq
+title: Trang Những Câu Hỏi Thường Gặp
+description: Trang Những Câu Hỏi Thường Gặp (FAQ – Frequently Asked Questions) nhằm để trả lời các câu hỏi thường được nêu ra trong cộng đồng.
+    - /vi/about/faq/
+---
 
 Trang Những Câu Hỏi Thường Gặp (FAQ – Frequently Asked Questions) nhằm để trả lời các câu hỏi thường được nêu ra trong cộng đồng.
 
@@ -7,152 +12,6 @@ Oringinal file in **English**, [Frequently Asked Questions (FAQ)](/support/faq)
 Tài liệu này được dịch sang tiếng Việt bởi Nathan Tran.
 
 Nếu có những câu hỏi nào khác bạn muốn được trả lời xin [liên lạc với chúng tôi](https://ooni.org/about/#contact).
-    
-* [Về OONI](#ve-ooni)
-
-    * [OONI là gì?](#ooni-là-gì)
-
-    * [Tại sao có OONI?](#tại-sao-có-ooni)
-
-    * [OONI làm việc gì?](#ooni-làm-việc-gì)
-
-    * [Tại sao đo lường việc kiểm duyệt internet?](#tại-sao-đo-lường-việc-kiểm-duyệt-internet)
-
-    * [OONI được tài trợ thế nào?](#ooni-được-tài-trợ-thế-nào)
-
-    * [OONI liên hệ thế nào với đề án Tor?](#ooni-liên-hệ-thế-nào-với-đề-án-tor)
-
-    * [OONI có trụ sở ở đâu?](#ooni-có-trụ-sở-ở-đâu)
-
-    * [Tình trạng pháp lý của OONI là gì?](#tình-trạng-pháp-lý-của-ooni-là-gì)
-
-    * [Tôi có thể đóng góp cách nào?](#tôi-có-thể-đóng-góp-cách-nào)
-
-* [OONI Probe](#ooni-probe)
-
-    * [OONI Probe là gì?](#ooni-probe-là-gì)
-
-    * [Quốc gia của tôi không có chuyện kiểm duyệt. Tại sao phải chạy OONI Probe?](#quốc-gia-của-tôi-không-có-chuyện-kiểm-duyệt-tại-sao-phải-chạy-ooni-probe)
-
-    * [Kiểm tra của OONI Probe làm những việc gì?](#kiểm-tra-của-ooni-probe-làm-những-việc-gì)
-
-    * [Kiểm tra của OONI Probe đo lường kiểm duyệt internet như thế nào?](#kiểm-tra-của-ooni-probe-đo-lường-kiểm-duyệt-internet-như-thế-nào)
-
-    * [Tôi không chuyên về kỹ thuật. Vậy tôi có chạy OONI Probe được không?](#tôi-không-chuyên-về-kỹ-thuật-vậy-tôi-có-chạy-ooni-probe-được-không)
-
-    * [Làm sao để chạy OONI Probe?](#làm-sao-để-chạy-ooni-probe)
-
-    * [Tôi cho chạy OONI Probe xong. Tôi có nên gửi kết quả đến các bạn?](#tôi-cho-chạy-ooni-probe-xong-tôi-có-nên-gửi-kết-quả-đến-các-bạn)
-
-    * [Có nên chạy OONI Probe thường xuyên?](#có-nên-chạy-ooni-probe-thường-xuyên)
-
-    * [Làm sao để chạy OONI Probe tự động?](#làm-sao-để-chạy-ooni-probe-tự-động)
-
-    * [Kéo dài việc chạy OONI Probe đến khi nào?](#kéo-dài-việc-chạy-ooni-probe-đến-khi-nào)
-
-    * [Tôi tìm thấy các trang web bị chặn. Làm sao để vượt thoát việc chặn đó?](#tôi-tìm-thấy-các-trang-web-bị-chặn-làm-sao-để-vượt-thoát-việc-chặn-đó)
-
-    * [OONI Probe tìm thấy một middlebox trong mạng của tôi. Điều đó có nghĩa là tôi đang bị theo dõi?](#ooni-probe-tìm-thấy-một-middlebox-trong-mạng-của-tôi-điều-đó-có-nghĩa-là-tôi-đang-bị-theo-dõi)
-
-    * [Tôi có thể đo lường kiểm duyệt internet ở một quốc gia nào đó từ xa được không?](#tôi-có-thể-đo-lường-kiểm-duyệt-internet-ở-một-quốc-gia-nào-đó-từ-xa-được-không)
-
-    * [OONI Probe thâu thập những loại dữ liệu gì?](#ooni-probe-thâu-thập-những-loại-dữ-liệu-gì)
-
-    * [Làm sao để chọn không gửi dữ liệu đo lường cho OONI?](#làm-sao-để-chọn-không-gửi-dữ-liệu-đo-lường-cho-ooni)
-
-    * [Chạy OONI Probe có những rủi ro gì?](#chạy-ooni-probe-có-những-rủi-ro-gì)
-
-    * [Làm sao để giảm thiểu rủi ro khi cho chạy OONI Probe?](#làm-sao-để-giảm-thiểu-rủi-ro-khi-cho-chạy-ooni-probe)
-
-    * [Chạy OONI Probe xuyên qua VPN được không?](#chạy-ooni-probe-xuyên-qua-vpn-được-không)
-
-    * [OONI có cung cấp tư vấn pháp lý?](#ooni-có-cung-cấp-tư-vấn-pháp-lý)
-
-* [Kiểm tra trang web](#kiểm-tra-trang-web)
-
-    * [Các trang web nào sẽ được kiểm tra xem có bị kiểm duyệt?](#các-trang-web-nào-sẽ-được-kiểm-tra-xem-có-bị-kiểm-duyệt)
-
-    * [Danh sách kiểm tra là gì?](#danh-sách-kiểm-tra-là-gì)
-
-    * [Tại sao OONI Probe dùng danh sách kiểm tra?](#tại-sao-ooni-probe-dùng-danh-sách-kiểm-tra)
-
-    * [Tại sao ứng dụng di động OONI Probe không kiểm tra hết tất cả các trang trong danh sách?](#tại-sao-ứng-dụng-di-động-ooni-probe-không-kiểm-tra-hết-tất-cả-các-trang-trong-danh-sách)
-
-    * [Làm sao để đổi thời lượng kiểm tra trong ứng dụng di động OONI Probe để có thể kiểm tra nhiều trang web hơn?](#làm-sao-để-đổi-thời-lượng-kiểm-tra-trong-ứng-dụng-di-động-ooni-probe-để-có-thể-kiểm-tra-nhiều-trang-web-hơn)
-
-    * [Làm sao để tìm danh sách kiểm tra của quốc gia tôi?](#làm-sao-để-tìm-danh-sách-kiểm-tra-của-quốc-gia-tôi)
-
-    * [Tại sao quốc gia của tôi không có danh sách kiểm tra?](#tại-sao-quốc-gia-của-tôi-không-có-danh-sách-kiểm-tra)
-
-    * [Ai quyết định trang web nào nằm trong danh sách kiểm tra?](#ai-quyết-định-trang-web-nào-nằm-trong-danh-sách-kiểm-tra)
-
-    * [Làm thế nào để đề nghị thêm trang vào danh sách kiểm tra?](#làm-thế-nào-để-đề-nghị-thêm-trang-vào-danh-sách-kiểm-tra)
-
-    * [Tôi không có tài khoản GitHub, nhưng muốn đề nghị URL để kiểm tra. Làm thế nào đây?](#tôi-không-có-tài-khoản-github-nhưng-muốn-đề-nghị-url-để-kiểm-tra-làm-thế-nào-đây)
-
-    * [Khác biệt gì giữa danh sách kiểm tra và danh sách bị chặn?](#khác-biệt-gì-giữa-danh-sách-kiểm-tra-và-danh-sách-bị-chặn)
-
-    * [Loại trang web nào được OONI Probe kiểm tra?](#loại-trang-web-nào-được-ooni-probe-kiểm-tra)
-
-    * [Làm thế nào để chọn thể loại trang web để kiểm tra?](#làm-thế-nào-để-chọn-thể-loại-trang-web-để-kiểm-tra)
-
-    * [Làm thế nào để chọn trang web để kiểm tra?](#làm-thế-nào-để-chọn-trang-web-để-kiểm-tra)
-
-    * [Làm thế nào để kiểm tra một danh sách URL tôi tự chọn?](#làm-thế-nào-để-kiểm-tra-một-danh-sách-url-tôi-tự-chọn)
-
-* [Dữ liệu của OONI](#dữ-liệu-của-ooni)
-
-    * [Dữ liệu của OONI là gì?](#dữ-liệu-của-ooni-là-gì)
-
-    * [Tại sao OONI công bố dữ liệu?](#tại-sao-ooni-công-bố-dữ-liệu)
-
-    * [OONI công bố dữ liệu nơi đâu?](#ooni-công-bố-dữ-liệu-nơi-đâu)
-
-    * [Làm sao để diễn giải dữ liệu của OONI?](#làm-sao-để-diễn-giải-dữ-liệu-của-ooni)
-
-    * [Làm sao để lấy và phân tích dữ liệu của OONI?](#làm-sao-để-lấy-và-phân-tích-dữ-liệu-của-ooni)
-
-* [OONI Explorer](#ooni-explorer)
-
-    * [OONI Explorer là gì?](#ooni-explorer-là-gì)
-
-    * [Làm thế nào để dùng OONI Explorer đi tìm các trang web bị chặn?](#làm-thế-nào-để-dùng-ooni-explorer-đi-tìm-các-trang-web-bị-chặn)
-
-    * [Làm thế nào để truy cập các dữ liệu đo lường?](#làm-thế-nào-để-truy-cập-các-dữ-liệu-đo-lường)
-
-    * [Làm thế nào để dùng OONI Explorer đi tìm dữ liệu của OONI?](#làm-thế-nào-để-dùng-ooni-explorer-đi-tìm-dữ-liệu-của-ooni)
-
-    * [Làm thế nào để tìm “chứng cớ kiểm duyệt internet” trong một đo lường?](#làm-thế-nào-để-tìm-chứng-cớ-kiểm-duyệt-internet-trong-một-đo-lường)
-
-    * [Làm thế nào để tìm các trang web bị chặn tại quốc gia của tôi?](#làm-thế-nào-để-tìm-các-trang-web-bị-chặn-tại-quốc-gia-của-tôi)
-
-    * [Làm thế nào để xem một trang web nào đó có bị chặn hay không?](#làm-thế-nào-để-xem-một-trang-web-nào-đó-có-bị-chặn-hay-không)
-
-    * [Tại sao tôi không tìm thấy kết quả cho một trang web nào đó?](#tại-sao-tôi-không-tìm-thấy-kết-quả-cho-một-trang-web-nào-đó)
-
-    * [Làm sao để xem một trang web có bị chặn trong một thời điểm nào đó?](#làm-sao-để-xem-một-trang-web-có-bị-chặn-trong-một-thời-điểm-nào-đó)
-
-    * [Cụm từ “Được Xác Nhận” nghĩa là sao?](#cụm-từ-được-xác-nhận-nghĩa-là-sao)
-
-    * [Tôi biết có nhiều trang web khác bị chặn. Tại sao OONI Explorer lại không liệt kê các trang đó khi tôi chọn “Được xác nhận”?](#tôi-biết-có-nhiều-trang-web-khác-bị-chặn-tại-sao-ooni-explorer-lại-không-liệt-kê-các-trang-đó-khi-tôi-chọn-được-xác-nhận)
-
-    * [Tại sao OONI xác nhận là có kiểm duyệt khi thấy một trang thông báo bị chặn?](#tại-sao-ooni-xác-nhận-là-có-kiểm-duyệt-khi-thấy-một-trang-thông-báo-bị-chặn)
-
-    * [Tại sao OONI không xác nhận các trường hợp kiểm duyệt internet khác (ngoài những trang web bị chặn)?](#tại-sao-ooni-không-xác-nhận-các-trường-hợp-kiểm-duyệt-internet-khác-ngoài-những-trang-web-bị-chặn)
-
-    * [Cụm từ “Bất thường” nghĩa là sao?](#cụm-từ-bất-thường-nghĩa-là-sao)
-
-    * [Tại sao OONI Explorer cho rằng một trang web hay một ứng dụng nào đó tôi truy cập được lại bị chặn tại quốc gia của tôi?](#tại-sao-ooni-explorer-cho-rằng-một-trang-web-hay-một-ứng-dụng-nào-đó-tôi-truy-cập-được-lại-bị-chặn-tại-quốc-gia-của-tôi)
-
-    * [Dương tính giả nghĩa là gì?](#dương-tính-giả-nghĩa-là-gì)
-
-    * [Tại sao dương tính giả xảy ra?](#tại-sao-dương-tính-giả-xảy-ra)
-
-    * [Làm sao để nhận ra tình trạng dương tính giả?](#làm-sao-để-nhận-ra-tình-trạng-dương-tính-giả)
-
-    * [Làm thế nào để xem kết quả từ các kiểm tra khác của OONI Probe?](#làm-thế-nào-để-xem-kết-quả-từ-các-kiểm-tra-khác-của-ooni-probe)
-
-    * [Tại sao quốc gia tôi không có các dữ liệu đo lường gần đây nhất trong OONI Explorer?](#tại-sao-quốc-gia-tôi-không-có-các-dữ-liệu-đo-lường-gần-đây-nhất-trong-ooni-explorer)
 
 ## Về OONI
 
