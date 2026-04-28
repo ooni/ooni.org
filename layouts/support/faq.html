@@ -20,8 +20,10 @@
 
   {{ range $sIdx, $section := .Params.sections }}
   <div class="mb-10">
+    {{ if $section.heading }}
     <p class="text-xs font-bold uppercase tracking-[0.08em] text-ooniblue border-t-2 border-ooniblue pt-1 mb-3"
        id="{{ $section.heading | anchorize }}">{{ $section.heading }}</p>
+    {{ end }}
 
     {{ range $iIdx, $item := $section.items }}
     {{ $id := $item.q | anchorize }}
