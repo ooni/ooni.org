@@ -1,16 +1,11 @@
-{{ $u := urls.Parse .url }}
-{{ $isExternal := and $u.Host (not (eq $u.Host "ooni.org")) }}
 <li>
-  <a href="{{ .url }}"
-    {{ if $isExternal }}target="_blank" rel="noopener noreferrer"{{ end }}
-    class="group flex items-center gap-2.5 text-sm font-medium text-gray8 transition-colors hover:text-ooniblue">
+  <a href="{{ .url }}" target="_blank" rel="noopener noreferrer"
+    class="group flex items-center gap-2 text-sm font-medium text-gray8 transition-colors hover:text-ooniblue">
     {{ .name }}
-    {{ if $isExternal }}
-      <svg class="h-4 w-4 flex-none self-baseline text-gray4 transition-colors group-hover:text-ooniblue"
-        fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true">
-        <path stroke-linecap="round" stroke-linejoin="round"
-          d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-      </svg>
-    {{ end }}
+    <svg class="h-4 w-4 flex-none self-baseline text-gray4 transition-colors group-hover:text-ooniblue"
+      fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round"
+        d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+    </svg>
   </a>
 </li>

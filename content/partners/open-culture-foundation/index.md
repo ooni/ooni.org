@@ -5,6 +5,12 @@ name: Open Culture Foundation (OCF)
 title: Open Culture Foundation (OCF)
 website: https://ocf.tw/
 reports:
+- text: "OMG！第三届 Open Measurement Gathering（OMG）的有问必答（AMA）活动总结¶ (zh-CN)"
+  link: "https://anoni.net/docs/zh-cn/blog/2025/08/ooni-omg-2025/"
+- text: "OMG！第三屆 Open Measurement Gathering（OMG）的有問必答（AMA）活動總結 (zh-TW)"
+  link: "https://anoni.net/docs/blog/2025/08/ooni-omg-2025/"
+- text: "2025 OONI Research Project"
+  link: "https://anoni.net/docs/en/what-is-ooni/"
 - text: "OCF Observation Report between September to December 2023"
   link: "https://ocf.tw/en/p/ooni/report/202312.html"
 - text: "網路自由小聚 [10月] - 動手操作網路審查分析工具 OONI"
@@ -13,10 +19,6 @@ reports:
   link: "https://ooni.org/zh/post/2019-china-wikipedia-blocking/"
 - text: "China is now blocking all language editions of Wikipedia"
   link: "https://ooni.org/post/2019-china-wikipedia-blocking/"
-- text: "OMG！第三屆 Open Measurement Gathering（OMG）的有問必答（AMA）活動總結 (zh-TW)"
-  link: "https://anoni.net/docs/blog/2025/08/ooni-omg-2025/"
-- text: "OMG！第三届 Open Measurement Gathering（OMG）的有问必答（AMA）活动总结¶ (zh-CN)"
-  link: "https://anoni.net/docs/zh-cn/blog/2025/08/ooni-omg-2025/"
 ---
 
 The Open Culture Foundation (OCF) is a nonpartisan, nonprofit organization, founded in 2014 by several members of Taiwan’s open source community. Their main goal is to support local communities advocate the use of open technologies in broader sectors, including open source software, open hardware, and open data. They help government, enterprises, and NGOs better understand the benefits of adopting open source,and promote the importance of open data to the public sphere. They believe that a culture of open collaboration is the foundation for an innovative society, and the engine of a participatory democracy.
