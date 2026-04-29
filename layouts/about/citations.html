@@ -1,0 +1,90 @@
+{{ define "main" }}
+{{ partial "csv-table-styles.html" . }}
+
+<div class="container my-8">
+  <h1 class="article-title">{{ .Title }}</h1>
+  <div class="prose prose-a:hover:text-ooniblue max-w-none mb-6">
+    {{ .Content }}
+  </div>
+
+  <div class="ooni-table-controls" id="citations-controls">
+    <input type="search" id="citations-search" placeholder="Search by title, publisher, or date…">
+    <select id="citations-category">
+      <option value="">All Categories</option>
+      <option value="Research">Research</option>
+      <option value="Research (Academia)">Academic</option>
+      <option value="Advocacy">Advocacy</option>
+      <option value="Press">Press</option>
+    </select>
+    <select id="citations-year">
+      <option value="">All Years</option>
+    </select>
+    <span class="ooni-table-result-count" id="citations-count"></span>
+  </div>
+
+  <div class="ooni-table-wrap">
+    <table class="ooni-table" id="citations-table">
+      <thead>
+        <tr>
+          <th data-sort="title">Title <span class="sort-icon"></span></th>
+          <th data-sort="date" class="sorted-desc">Date <span class="sort-icon"></span></th>
+          <th data-sort="publisher">Publisher <span class="sort-icon"></span></th>
+          <th data-sort="category">Category <span class="sort-icon"></span></th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody id="citations-tbody">
+        <tr><td colspan="5" style="text-align:center;padding:2rem;color:#868e96;">Loading citations…</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="ooni-pagination" id="citations-pagination"></div>
+</div>
+{{ end }}
+
+{{ define "script" }}
+<script src="/js/ooni-csv-table.js"></script>
+<script>
+  function categoryTag(cat) {
+    if (cat === 'Research (Academia)') return '<span class="tag tag-academia">Academic</span>';
+    if (cat === 'Advocacy')            return '<span class="tag tag-advocacy">Advocacy</span>';
+    if (cat === 'Press')               return '<span class="tag tag-press">Press</span>';
+    return '<span class="tag tag-research">Research</span>';
+  }
+
+  window.ooniTables.citations = createOoniTable({
+    ns: 'citations',
+    getRowFilter() {
+      const search  = (document.getElementById('citations-search').value || '').toLowerCase();
+      const catVal  = document.getElementById('citations-category').value;
+      const yearVal = document.getElementById('citations-year').value;
+      return r => {
+        if (search  && ![r.title, r.publisher, r.dateFormatted].join(' ').toLowerCase().includes(search)) return false;
+        if (catVal  && r.category !== catVal) return false;
+        if (yearVal && r.year !== yearVal) return false;
+        return true;
+      };
+    },
+    sortFields: {
+      title:     r => r.title.toLowerCase(),
+      date:      r => r.sortDate,
+      publisher: r => r.publisher.toLowerCase(),
+      category:  r => r.category,
+    },
+    rowHtml(r) {
+      return '<tr>'
+        + '<td>' + r.title + '</td>'
+        + '<td style="white-space:nowrap">' + r.dateFormatted + '</td>'
+        + '<td>' + r.publisher + '</td>'
+        + '<td>' + categoryTag(r.category) + '</td>'
+        + '<td>' + linkCell(r.link, r.archiveLink) + '</td>'
+        + '</tr>';
+    },
+    countLabel: n => n + ' entries',
+    onData(data) {
+      const years = [...new Set(data.map(r => r.year).filter(Boolean))].sort().reverse();
+      addOptions('citations-year', years);
+    },
+  });
+</script>
+{{ end }}

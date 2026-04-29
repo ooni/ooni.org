@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<div class="container my-8">
+  <h1 class="article-title">{{ .Title }}</h1>
+
+  {{/* Intro + PGP block */}}
+  <div class="prose prose-a:hover:text-ooniblue max-w-none mb-12">
+    {{ .Content }}
+  </div>
+
+
+  {{/* Mailing address */}}
+  <section class="not-prose">
+    <h2 class="text-xl font-semibold text-gray9 mb-6">Mailing Address</h2>
+    <div class="flex gap-5 items-start">
+      <div>
+        <p class="font-semibold text-gray9 mb-1">Open Observatory of Network Interference (OONI) ETS</p>
+        <address class="not-italic  text-gray7 leading-relaxed">
+          Via Baccio Baldini 12<br>
+          00146, Rome, Italy
+        </address>
+        <p class="mt-2 text-gray6 [font-variant-numeric:tabular-nums]">Tax ID: IT-96568220584</p>
+      </div>
+    </div>
+  </section>
+</div>
+{{ end }}
