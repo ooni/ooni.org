@@ -99,6 +99,8 @@ Below we share a [list of current and past OONI funders](#funders).
 
 {{< supporter img="images/VPNCompare.svg" name="VPN Compare" link="https://www.vpncompare.co.uk/" imgHeight="40px" >}}
 
+{{< supporter img="images/web3privacy.png" name="Web3Privacy Now" link="https://web3privacy.info/" imgHeight="40px" >}}
+
 {{< /supporter-section >}}
 
 {{< supporter-section title="Starfish Supporters" classExtra="grid-cols-1 sm:grid-cols-2 lg:grid-cols-3" >}}
