@@ -6,7 +6,7 @@ description: "Contribute to the world's largest open dataset on internet censors
 
 {{< ooni-desktop-download-btn
     id="windows-download"
-    filePrefix="OONI-Probe-Setup"
+    filePrefix="OONI-Probe"
     ext="exe"
     text="Windows 64-bit"
 >}}
