@@ -552,7 +552,7 @@ OONI nettest helpers پروتکلهای سمت سرور را پیادهسازی 
 
 کاوشگر اوونی [یک نرم افزار رایگان و متن باز است](https://github.com/ooni) که برای بررسی سانسور اینترنت و سایر اشکال اختلال شبکه طراحی شده است.
 
-کاوشگر اونی از سال ۱۳۹۱ توسط [Open Observatory of Network Interference](https://ooni.org/) توسعه داده شده است و در [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe)، [iOS](https://itunes.apple.com/us/app/id1199566366)، [Linux](https://github.com/ooni/probe-cli/releases)، [Windows](https://github.com/ooni/probe-desktop/releases) و [macOS](https://github.com/ooni/probe-desktop/releases) در دسترس است.
+کاوشگر اونی از سال ۱۳۹۱ توسط [Open Observatory of Network Interference](https://ooni.org/) توسعه داده شده است و در [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe)، [iOS](https://itunes.apple.com/us/app/id1199566366)، [Linux](https://github.com/ooni/probe-cli/releases)، [Windows](https://ooni.org/install/desktop) و [macOS](https://ooni.org/install/desktop) در دسترس است.
 
 ### OONI Run
 

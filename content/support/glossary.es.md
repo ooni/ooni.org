@@ -636,7 +636,7 @@ servidor que son de ayuda para los clientes de OONI Probe que ejecutan tests. Po
 
 OONI Probe es un [software libre y de código abierto](https://github.com/ooni) diseñado para medir la censura en Internet y otras formas de interferencia en la red.
 
-OONI Probe ha sido desarrollado por el [Open Observatory of Network Interference](https://ooni.org/) desde 2012 y está disponible en [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe), [iOS](https://itunes.apple.com/us/app/id1199566366), [Linux](https://github.com/ooni/probe-cli/releases), [Windows y macOS](https://github.com/ooni/probe-desktop/releases).
+OONI Probe ha sido desarrollado por el [Open Observatory of Network Interference](https://ooni.org/) desde 2012 y está disponible en [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe), [iOS](https://itunes.apple.com/us/app/id1199566366), [Linux](https://github.com/ooni/probe-cli/releases), [Windows y macOS](https://ooni.org/install/desktop).
 
 ### OONI Run
 

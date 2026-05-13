@@ -553,7 +553,7 @@ description: "يضم هذا المعجم شروحًا موجزة لمعاني ا
 
 **[برمجية حُرَّة مفتوحة المصدر](https://github.com/ooni)** مُصمَّمة لتحسُّس الرقابة على الإنترنت و ضروب أخرى من التدخلات في الشبكة.
 
-يعمل فريق [Open Observatory of Network Interference](https://ooni.org/) على تطوير OONI Probe منذ سنة 2012 و هي متاحة لنظم التشغيل [أنْدْرُويد](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe) و [iOS](https://itunes.apple.com/us/app/id1199566366) و [لينُكس](https://github.com/ooni/probe-cli/releases) و [وِندوز و macOS](https://github.com/ooni/probe-desktop/releases).
+يعمل فريق [Open Observatory of Network Interference](https://ooni.org/) على تطوير OONI Probe منذ سنة 2012 و هي متاحة لنظم التشغيل [أنْدْرُويد](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe) و [iOS](https://itunes.apple.com/us/app/id1199566366) و [لينُكس](https://github.com/ooni/probe-cli/releases) و [وِندوز و macOS](https://ooni.org/install/desktop).
 
 ## OONI Run
 
