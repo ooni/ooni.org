@@ -24,13 +24,13 @@ if [ "$ROW_COUNT" -lt 10 ]; then
 fi
 
 # Show a diff so you can review what changed before accepting
-if [ -f "$OUT" ]; then
+if [ -f "$OUT" ] && command -v diff > /dev/null 2>&1; then
   echo ""
   echo "--- Changes vs current file (${ROW_COUNT} rows downloaded) ---"
   diff --unified=2 "$OUT" "$OUT.tmp" || true
   echo "---"
 else
-  echo "(No existing file — first download)"
+  echo "(${ROW_COUNT} rows downloaded)"
 fi
 
 mv "$OUT.tmp" "$OUT"
