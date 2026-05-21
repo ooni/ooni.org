@@ -4,4 +4,7 @@ description: "Measure internet censorship. Contribute to the world's largest ope
 aliases:
   - /install/ooniprobe
   - /install/lepidopter
+  - /install/all
+  - /install/mobile
+  - /install/desktop
 ---

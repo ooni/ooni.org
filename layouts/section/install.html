@@ -1,51 +1,318 @@
 {{ define "main" }}
-<main class="container mt-12">
-  <div class="flex flex-col items-center text-center">
-    <img src="/install/index.svg" class="max-w-[300px]" />
-    <h1 class="mt-2 article-title">Measure internet censorship</h1>
-  </div>
-  <div class="flex flex-col md:flex-row gap-4 justify-around">
-    <div class="w-2/5 flex flex-col">
-      <a href="/install/mobile" class="self-center">
-        <img alt="OONI Probe Phone App Download" src="/install/PhoneMockupIcon.png"
-          srcset="/install/PhoneMockupIcon.png 1x, /install/PhoneMockupIcon@2x.png 2x" id="ooni-phone" />
-      </a>
-      <h2>Mobile</h2>
-      <p>
-        Get the OONI Probe mobile app to measure many different networks.
-      </p>
-      <a href="/install/mobile">Install OONI Probe Mobile >></a>
+<div class="">
+
+  {{/* ───── Hero ─────────────────────────────────────────────────── */}}
+  <section class="overflow-hidden mb-16">
+    <div class="container my-12 mt-24 mb-0">
+      <div class="grid grid-cols-1 items-center gap-8 md:grid-cols-5 md:gap-10">
+        <div class="md:col-span-3">
+          <img alt="Measure internet censorship" src="/install/index.svg" class="max-w-[332px]" />
+          <h1 class="article-title">Measure internet censorship</h1>
+          <p class="mt-2 max-w-xl text-lg leading-relaxed text-gray7">
+            Contribute to the world's largest open dataset on internet censorship
+          </p>
+          
+        <!-- <h1 class="article-title">{{ .Params.leadTitle }}</h1>
+        <p class="lead">{{ .Params.leadDescription }}</p> -->
+          <!-- <p class="mt-6 text-sm text-gray6">
+            Available on Android, iOS, Windows, macOS and Linux.
+          </p> -->
+        </div>
+        <div class="flex justify-center md:col-span-2 md:justify-end">
+          <img alt="OONI Probe mobile app screenshot"
+              src="/install/PhoneMockupIcon.png"
+              srcset="/install/PhoneMockupIcon.png 1x, /install/PhoneMockupIcon@2x.png 2x"
+              class="max-h-[420px] w-auto">
+        </div>
+      </div>
+      <div class='relative hidden md:block'>
+        <img alt="Background Flourish"
+          src="/install/BG-Flourish.png"
+          srcset="/install/BG-Flourish.png 1x, /install/BG-Flourish@2x.png 2x"
+          class="hidden md:block absolute z-[-3] right-[-800px] top-[-1115px] max-w-none" />
+      </div>
     </div>
-    <div class="w-2/5 flex flex-col">
-      <a href="/install/desktop" class="self-center">
-        <img alt="OONI Probe Desktop App Download" src="/install/ProbeDesktopScreenshot.png"
-          srcset="/install/ProbeDesktopScreenshot.png 1x, /install/ProbeDesktopScreenshot@2x.png 2x" class="max-w-full"
-          id="ooni-phone" />
-      </a>
-      <h2>Desktop</h2>
-      <p>
-        Get the OONI Probe desktop app to perform more extensive testing from your computer.
-      </p>
-      <a href="/install/desktop">Install OONI Probe Desktop >></a>
-    </div>
-  </div>
-</main>
-<div class="bg-[#002934] text-white py-20 mt-4">
+  </section>
+
+  {{/* ───── Platform install cards ──────────────────────────────── */}}
   <div class="container">
-    <div class="flex flex-col md:flex-row gap-4">
-      <div class="md:w-1/2">
-        <img class="px-4" alt="Probe CLI Screenshot" src="/install/ProbeCLIScreenshot.png"
-          srcset="/install/ProbeCLIScreenshot.png 1x, /install/ProbeCLIScreenshot@2x.png 2x" />
+      <div class="not-prose mb-20 grid grid-cols-1 gap-6 md:grid-cols-3">
+
+        {{/* ── Mobile ──────────────────────────────────────────────── */}}
+        <div class="flex flex-col rounded-xl border border-gray2 bg-white p-6 shadow-sm">
+          <div class="mb-5">
+            <svg class="mb-3 h-9 w-9 text-ooniblue" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+            </svg>
+            <h2 class="text-lg font-bold text-gray9">Mobile</h2>
+            <p class="text-sm text-gray6">Android &amp; iOS</p>
+          </div>
+          <div class="mt-auto flex flex-col gap-2.5">
+            <a href="https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe"
+              class="block hover:opacity-80">
+              <img alt="Get OONI Probe on Google Play" src="/install/play-store-badge.png"
+                  srcset="/install/play-store-badge.png 1x, /install/play-store-badge@2x.png 2x" class="h-11">
+            </a>
+            <a href="https://itunes.apple.com/us/app/id1199566366"
+              class="block hover:opacity-80">
+              <img alt="Get OONI Probe on the App Store" src="/install/app-store-badge.png"
+                  srcset="/install/app-store-badge.png 1x, /install/app-store-badge@2x.png 2x" class="h-11">
+            </a>
+            <a href="https://f-droid.org/repository/browse/?fdid=org.openobservatory.ooniprobe"
+              class="block hover:opacity-80">
+              <img alt="Get OONI Probe on F-Droid" src="/install/fdroid-badge.png"
+                  srcset="/install/fdroid-badge.png 1x, /install/fdroid-badge@2x.png 2x" class="h-11">
+            </a>
+          </div>
+          <a href="/support/ooni-probe-mobile"
+            class="mt-5 text-sm font-medium text-ooniblue hover:text-blue7">
+            Mobile user guide →
+          </a>
+        </div>
+
+        {{/* ── Desktop ─────────────────────────────────────────────── */}}
+        <div class="flex flex-col rounded-xl border border-gray2 bg-white p-6 shadow-sm">
+          <div class="mb-5">
+            <svg class="mb-3 h-9 w-9 text-ooniblue" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
+            </svg>
+            <h2 class="text-lg font-bold text-gray9">Desktop</h2>
+            <p class="text-sm text-gray6">Windows &amp; macOS</p>
+          </div>
+          <div class="mt-auto flex flex-col gap-2.5">
+            {{ partial "install-desktop-btn.html" (dict "id" "windows-download" "filePrefix" "OONI-Probe" "ext" "exe" "text" "Download for Windows") }}
+            {{ partial "install-desktop-btn.html" (dict "id" "macos-download" "filePrefix" "OONI-Probe" "ext" "dmg" "text" "Download for macOS") }}
+          </div>
+          <a href="/support/ooni-probe-desktop"
+            class="mt-5 text-sm font-medium text-ooniblue hover:text-blue7">
+            Desktop user guide →
+          </a>
+        </div>
+
+        {{/* ── Command line ────────────────────────────────────────── */}}
+        <div class="flex flex-col rounded-xl border border-gray2 bg-white p-6 shadow-sm">
+          <div class="mb-5">
+            <svg class="mb-3 h-9 w-9 text-ooniblue" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
+            </svg>
+            <h2 class="text-lg font-bold text-gray9">Command line</h2>
+            <p class="text-sm text-gray6">Linux &amp; macOS</p>
+          </div>
+          <div class="mt-auto flex flex-col gap-2 text-sm">
+            <a href="#cli-linux"
+              class="rounded-md bg-gray1 px-3 py-2 font-mono text-ooniblue hover:bg-blue0">
+              Debian / Ubuntu
+            </a>
+            <a href="#cli-macos"
+              class="rounded-md bg-gray1 px-3 py-2 font-mono text-ooniblue hover:bg-blue0">
+              macOS (Homebrew)
+            </a>
+          </div>
+          <a href="/support/ooni-probe-cli"
+            class="mt-5 text-sm font-medium text-ooniblue hover:text-blue7">
+            CLI user guide →
+          </a>
+        </div>
       </div>
-      <div class="md:w-1/2">
-        <h2 class="mb-4">Command Line Interface</h2>
-        <p>
-          Are you a power user? Check out the OONI Probe Command Line Interface (CLI) tool!
+    </div>
+
+  {{/* ───── What OONI Probe measures ────────────────────────────── */}}
+  <!-- <section class="not-prose mb-20">
+    <h2 class="mb-8 border-t-2 border-ooniblue pt-1 text-sm font-bold uppercase tracking-widest text-ooniblue">
+      What OONI Probe measures
+    </h2>
+    <div class="grid grid-cols-1 gap-10 md:grid-cols-3">
+      <div>
+        <img alt="" src="/install/web.png"
+             srcset="/install/web.png 1x, /install/web@2x.png 2x" class="mb-4 h-16 w-auto">
+        <h3 class="mb-2 text-lg font-bold text-gray9">Blocked websites</h3>
+        <p class="text-sm leading-relaxed text-gray7">
+          Discover which websites are blocked in your country.
         </p>
-        <a href="/install/cli">Install OONI Probe CLI >>
-        </a>
+      </div>
+      <div>
+        <img alt="" src="/install/performance.png"
+             srcset="/install/performance.png 1x, /install/performance@2x.png 2x" class="mb-4 h-16 w-auto">
+        <h3 class="mb-2 text-lg font-bold text-gray9">Network speed</h3>
+        <p class="text-sm leading-relaxed text-gray7">
+          Measure the speed and performance of your network with the NDT test, developed with
+          <a href="https://www.measurementlab.net/" target="_blank" rel="noopener noreferrer"
+             class="text-ooniblue underline hover:text-blue7">M-Lab</a>.
+        </p>
+      </div>
+      <div>
+        <img alt="" src="/install/messaging.png"
+             srcset="/install/messaging.png 1x, /install/messaging@2x.png 2x" class="mb-4 h-16 w-auto">
+        <h3 class="mb-2 text-lg font-bold text-gray9">Blocked apps</h3>
+        <p class="text-sm leading-relaxed text-gray7">
+          Test whether WhatsApp, Facebook Messenger, Telegram and circumvention tools work on your network.
+        </p>
+      </div>
+    </div>
+  </section> -->
+  <div class="bg-gray1 z-[5] py-12 px-4">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-4 md:gap-6 lg:gap-10">
+        <div>
+          <img alt="globe icon" class="mx-auto mb-4" src="/install/web.png"
+            srcset="/install/web.png 1x, /install/web@2x.png 2x" />
+          <h2 class="text-xl mb-3 mt-14">Discover which websites are blocked</h2>
+          <p>Run OONI Probe to check which websites are blocked in your country.</p>
+        </div>
+        <div>
+          <img alt="fast icon" class="mx-auto mb-4" src="/install/performance.png"
+            srcset="/install/performance.png 1x, /install/performance@2x.png 2x" />
+          <h2 class="text-xl mb-3 mt-14">Learn how fast your network is</h2>
+          <p>Measure the speed and performance of your network with the NDT test, developed
+            in collaboration with
+            <a href="https://www.measurementlab.net/" target="_blank" rel="noreferrer noopener">M-Lab</a>.
+          </p>
+        </div>
+        <div>
+          <img alt="app icon" class="mx-auto mb-4" style="margin-bottom: 0.5em;" src="/install/messaging.png"
+            srcset="/install/messaging.png 1x, /install/messaging@2x.png 2x" />
+          <h2 class="text-xl mb-3 mt-14">Check which apps are blocked</h2>
+          <p>Test WhatsApp, Facebook Messenger, and Telegram to check if they are blocked. Run
+            OONI Probe to check if circumvention tools work on your network.
+          </p>
+        </div>
       </div>
     </div>
   </div>
+
+  {{/* ───── Share evidence CTA ──────────────────────────────────── */}}
+  <!-- <section class="not-prose mb-12 rounded-xl bg-ooniblue p-8 text-white md:p-12">
+    <h2 class="mb-3 text-2xl font-bold md:text-3xl">
+      Share evidence of internet censorship with the world
+    </h2>
+    <p class="mb-6 max-w-3xl text-base leading-relaxed">
+      As soon as you run OONI Probe, your test results are
+      <a href="/data/" class="underline hover:opacity-90">published</a>
+      in near real-time. By running OONI Probe, you help increase transparency of internet censorship.
+    </p>
+    <a href="https://explorer.ooni.org/"
+       class="inline-block rounded-md bg-white px-5 py-2.5 text-sm font-semibold text-ooniblue transition-colors hover:bg-gray1">
+      Explore OONI measurements →
+    </a>
+  </section> -->
+  <div class="container pt-8">
+    <div class="flex justify-center max-w-[1100px] mx-auto">
+      <div class="">
+        <h1 class="article-title">
+          Share evidence of internet censorship with the world
+        </h1>
+        <p class="mt-4">
+          As soon as you run OONI Probe, your test results will automatically get
+          <a href="https://ooni.org/data/">published</a> in near real-time. By running
+          OONI Probe, you help increase transparency of internet censorship.
+        </p>
+        <a href="https://explorer.ooni.org/">Explore OONI measurements from around the world >></a>
+      </div>
+      <img alt="OONI Explorer" src="/install/explorer-browser.png"
+        srcset="/install/explorer-browser.png 1x, /install/explorer-browser@2x.png 2x"
+        id="ooni-phone" />
+    </div>
+  </div>
+
+  {{/* ───── Command line installation ──────────────────────────── */}}
+  <section id="cli" class="not-prose mb-20 border-t-1 border-gray2 pt-12">
+    <div class="container">
+      <!-- <h2 class="mb-4 border-t-2 border-ooniblue pt-1 text-sm font-bold uppercase tracking-widest text-ooniblue">
+        Command line installation
+      </h2> -->
+      <h2 class="mb-4">
+        Command line installation
+      </h2>
+      <p class="mb-8 max-w-none text-base leading-relaxed text-gray7">
+        Once installed, OONI Probe runs tests automatically every day.
+        For details, read the
+        <a href="/support/ooni-probe-cli" class="text-ooniblue underline hover:text-blue7">OONI Probe CLI user guide</a>.
+      </p>
+      <div class="grid grid-cols-1 gap-10 md:grid-cols-2">
+
+        {{/* Debian / Ubuntu */}}
+        <div id="cli-linux" class="scroll-mt-8">
+          <h3 class="mb-3 text-lg font-bold text-gray9">Debian / Ubuntu</h3>
+          <ol class="space-y-4 text-sm leading-relaxed text-gray7 [&_code]:font-mono [&_code]:text-xs">
+
+            <li>
+              <span class="font-medium text-gray9">1. Add the GPG signing key.</span>
+              <pre class="mt-2 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed text-gray9"><code>sudo gpg --no-default-keyring --keyserver hkp://keyserver.ubuntu.com \
+    --keyring /etc/apt/keyrings/ooni-apt-keyring.gpg \
+    --recv-keys 'B5A08F01796E7F521861B449372D1FF271F2DD50'</code></pre>
+            </li>
+
+            <li>
+              <span class="font-medium text-gray9">2. Add the OONI apt repository.</span>
+              <p class="mt-1 text-gray6">Choose HTTP (recommended) or Tor.</p>
+              <pre class="mt-2 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed text-gray9"><code>echo "deb [signed-by=/etc/apt/keyrings/ooni-apt-keyring.gpg] https://deb.ooni.org/ unstable main" \
+    | sudo tee /etc/apt/sources.list.d/ooniprobe.list</code></pre>
+              <details class="mt-2 text-xs">
+                <summary class="cursor-pointer text-ooniblue hover:underline">Use Tor instead</summary>
+                <pre class="mt-2 overflow-x-auto rounded-md bg-gray1 p-3 leading-relaxed text-gray9"><code>sudo apt-get install tor apt-transport-tor
+  echo "deb [signed-by=/etc/apt/keyrings/ooni-apt-keyring.gpg] tor+http://deb.ooni.org/ unstable main" \
+    | sudo tee /etc/apt/sources.list.d/ooniprobe.list</code></pre>
+              </details>
+            </li>
+
+            <li>
+              <span class="font-medium text-gray9">3. Install OONI Probe.</span>
+              <pre class="mt-2 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed text-gray9"><code>sudo apt-get update
+  sudo apt-get install ooniprobe-cli</code></pre>
+            </li>
+          </ol>
+        </div>
+
+        {{/* macOS */}}
+        <div id="cli-macos" class="scroll-mt-8">
+          <h3 class="mb-3 text-lg font-bold text-gray9">macOS (Homebrew)</h3>
+          <ol class="space-y-4 text-sm leading-relaxed text-gray7">
+            <li>
+              <span class="font-medium text-gray9">1. Install Homebrew.</span>
+              <p class="mt-1 text-gray6">
+                Follow the instructions at
+                <a href="https://brew.sh/" target="_blank" rel="noopener noreferrer"
+                  class="text-ooniblue underline hover:text-blue7">brew.sh</a>.
+              </p>
+            </li>
+            <li>
+              <span class="font-medium text-gray9">2. Install OONI Probe.</span>
+              <pre class="mt-2 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed text-gray9"><code>brew install ooniprobe</code></pre>
+            </li>
+            <li>
+              <span class="font-medium text-gray9">3. Enable daily automatic runs.</span>
+              <pre class="mt-2 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed text-gray9"><code>ooniprobe autorun start</code></pre>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </div>
+{{ end }}
+
+{{ define "script" }}
+<script>
+  /* Show only the relevant desktop download button when we can detect the OS */
+  (function () {
+    function getOS() {
+      var ua = window.navigator.userAgent;
+      var p = window.navigator.platform;
+      if (['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'].indexOf(p) !== -1) return 'macOS';
+      if (['Win32', 'Win64', 'Windows', 'WinCE'].indexOf(p) !== -1) return 'Windows';
+      if (/Android/.test(ua)) return 'Android';
+      if (['iPhone', 'iPad', 'iPod'].indexOf(p) !== -1) return 'iOS';
+      if (/Linux/.test(p)) return 'Linux';
+      return null;
+    }
+    var os = getOS();
+    /* On Windows or macOS, deemphasize the other OS's download button */
+    if (os === 'Windows' || os === 'macOS') {
+      var hide = os === 'Windows' ? 'macos-download' : 'windows-download';
+      var el = document.getElementById(hide);
+      if (el) el.classList.add('opacity-60');
+    }
+  })();
+</script>
 {{ end }}
