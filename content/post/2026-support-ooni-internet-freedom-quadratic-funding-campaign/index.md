@@ -21,7 +21,7 @@ Join the [quadratic funding campaign](https://internetfreedom.torproject.org/pro
 
 Every contribution helps. Small donations can have an outsized impact.
 
-### Existential crisis for internet freedom
+## Existential crisis for internet freedom
 
 Over the past decade, the internet freedom field has relied heavily on U.S. government funding. In 2025, changes in administration, policy shifts, and the restructuring or closure of key U.S. government agencies caused many of these funding sources to [disappear](https://www.techpolicy.press/the-us-just-logged-off-from-internet-freedom/), creating an [existential crisis](https://www.techpolicy.press/100-days-of-trump-global-digital-rights-and-internet-freedom-advocacy-efforts-face-generational-crisis/) for the global digital rights and internet freedom movement.
 
@@ -41,13 +41,13 @@ What if internet freedom funding wasn't driven by a few large donors, but by how
 
 What if there was a [new way to fund internet freedom](https://blog.torproject.org/fund-internet-freedom/)?
 
-### New way to fund internet freedom
+## New way to fund internet freedom
 
 Earlier this week, the [Tor Project](https://www.torproject.org/) and [Funding the Commons](https://www.fundingthecommons.io/) launched a [crypto crowdfunding campaign](https://internetfreedom.torproject.org/) in support of [10 internet freedom projects](https://internetfreedom.torproject.org/projects/), including [OONI](https://internetfreedom.torproject.org/projects/ooni/).
 
 The other 9 projects include [Onion Browser](https://internetfreedom.torproject.org/projects/onion-browser/), [Miaan Digital Security Help Desk](https://internetfreedom.torproject.org/projects/miaan/), [Unredacted](https://internetfreedom.torproject.org/projects/unredacted/), [Osservatorio Nessuno OdV](https://internetfreedom.torproject.org/projects/osservatorio-nessuno/), [SecureDrop](https://internetfreedom.torproject.org/projects/securedrop/), [Ricochet Refresh](https://internetfreedom.torproject.org/projects/ricochet-refresh/), [Save by OpenArchive](https://internetfreedom.torproject.org/projects/openarchive-save/), [OnionShare](https://internetfreedom.torproject.org/projects/onionshare/), and [Paskoocheh](https://internetfreedom.torproject.org/projects/paskoocheh/). 
 
-You can [donate to a project directly](https://internetfreedom.torproject.org/projects/) or [fund the matching pool](https://internetfreedom.torproject.org/matching-pool/). At the launch of the campaign, matching funds were generously contributed by [Cake Wallet](https://cakewallet.com/), [Zcash Community Grants](https://cakewallet.com/), [Logos](https://logos.co/), and [Octant](https://octant.app/). The more individual donations a project receives, the more match pool funding they receive.
+You can **[donate to a project directly](https://internetfreedom.torproject.org/projects/)** or **[fund the matching pool](https://internetfreedom.torproject.org/matching-pool/)**. At the launch of the campaign, matching funds were generously contributed by [Cake Wallet](https://cakewallet.com/), [Zcash Community Grants](https://zcashcommunitygrants.org/), [Logos](https://logos.co/), and [Octant](https://octant.app/). The more individual donations a project receives, the more match pool funding they receive.
 
 This [campaign](https://internetfreedom.torproject.org/about/) was launched as an experiment in finding an alternative: a community-driven, cryptocurrency-native fundraising event designed to fund internet freedom more sustainably, transparently, and collectively when traditional methods fail.
 
