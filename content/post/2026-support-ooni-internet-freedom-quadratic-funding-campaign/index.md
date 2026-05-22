@@ -47,13 +47,15 @@ Earlier this week, the [Tor Project](https://www.torproject.org/) and [Funding t
 
 The other 9 projects include [Onion Browser](https://internetfreedom.torproject.org/projects/onion-browser/), [Miaan Digital Security Help Desk](https://internetfreedom.torproject.org/projects/miaan/), [Unredacted](https://internetfreedom.torproject.org/projects/unredacted/), [Osservatorio Nessuno OdV](https://internetfreedom.torproject.org/projects/osservatorio-nessuno/), [SecureDrop](https://internetfreedom.torproject.org/projects/securedrop/), [Ricochet Refresh](https://internetfreedom.torproject.org/projects/ricochet-refresh/), [Save by OpenArchive](https://internetfreedom.torproject.org/projects/openarchive-save/), [OnionShare](https://internetfreedom.torproject.org/projects/onionshare/), and [Paskoocheh](https://internetfreedom.torproject.org/projects/paskoocheh/). 
 
-You can **[donate to a project directly](https://internetfreedom.torproject.org/projects/)** or **[fund the matching pool](https://internetfreedom.torproject.org/matching-pool/)**. At the launch of the campaign, matching funds were generously contributed by [Cake Wallet](https://cakewallet.com/), [Zcash Community Grants](https://zcashcommunitygrants.org/), [Logos](https://logos.co/), and [Octant](https://octant.app/). The more individual donations a project receives, the more match pool funding they receive.
+You can **[donate to a project directly](https://internetfreedom.torproject.org/projects/)** or **[fund the matching pool](https://internetfreedom.torproject.org/matching-pool/)**. 
+
+At the launch of the campaign, matching funds were generously contributed by [Cake Wallet](https://cakewallet.com/), [Zcash Community Grants](https://zcashcommunitygrants.org/), [Logos](https://logos.co/), and [Octant](https://octant.app/). The more individual donations a project receives, the more match pool funding they receive.
 
 This [campaign](https://internetfreedom.torproject.org/about/) was launched as an experiment in finding an alternative: a community-driven, cryptocurrency-native fundraising event designed to fund internet freedom more sustainably, transparently, and collectively when traditional methods fail.
 
 [Quadratic funding](https://www.wtfisqf.com/) is a way to distribute funds that prioritizes how many people support a project, not just how much money it receives. In practice, this means a project supported by hundreds of people donating small amounts can receive more matching funds than one backed by a few large donors. As a result, small donations can have outsized impact in the new quadratic funding campaign for internet freedom.
 
-We thank the [Tor Project](https://www.torproject.org/) and [Funding the Commons](https://www.fundingthecommons.io/) for launching and organizing the campaign, and we thank [Cake Wallet](https://cakewallet.com/), [Zcash Community Grants](https://cakewallet.com/), [Logos](https://logos.co/), and [Octant](https://octant.app/) for their generous matching funds.
+We thank the [Tor Project](https://www.torproject.org/) and [Funding the Commons](https://www.fundingthecommons.io/) for launching and organizing the campaign, and we thank [Cake Wallet](https://cakewallet.com/), [Zcash Community Grants](https://zcashcommunitygrants.org/), [Logos](https://logos.co/), and [Octant](https://octant.app/) for their generous matching funds.
 
 Join the campaign, and help sustain the future of internet freedom.
 
