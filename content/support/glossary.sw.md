@@ -485,8 +485,8 @@ sections:
           [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe),
           [iOS](https://itunes.apple.com/us/app/id1199566366),
           [Linux](https://github.com/ooni/probe-cli/releases),
-          [Windows](https://github.com/ooni/probe-desktop/releases) na
-          [macOS](https://github.com/ooni/probe-desktop/releases).
+          [Windows](https://ooni.org/install/) na
+          [macOS](https://ooni.org/install/).
       - q: OONI Run
         a: |
 

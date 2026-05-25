@@ -10,7 +10,7 @@ platform: "desktop"
 
 {{< ooni-desktop-download-btn
     id="windows-download"
-    filePrefix="OONI-Probe-Setup"
+    filePrefix="OONI-Probe"
     ext="exe"
     text="Download OONI Probe for Windows"
 >}}
