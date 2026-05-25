@@ -1,6 +1,6 @@
 ---
 title: Resources
-description: "A curated collection of OONI tools, guides, data sources, training materials, and related resources for measuring and understanding internet censorship."
+description: "Key links to OONI resources."
 submenu:
   - url: "/get-involved/"
     name: "Get Involved"
@@ -89,7 +89,7 @@ sections:
           - text: "OONI API"
             url: "https://api.ooni.io/"
           - text: "Fetching OONI data from Amazon S3"
-            url: "/post/mining-ooni-data"
+            url: "https://docs.ooni.org/data/"
           - text: "Interpreting OONI data"
             url: "/support/interpreting-ooni-data/"
           - text: "Russia data analysis case study tutorial"
@@ -98,14 +98,14 @@ sections:
         links:
           - text: "OONI research reports"
             url: "/reports/"
+          - text: "OONI censorship findings"
+            url: "https://explorer.ooni.org/findings"
           - text: "Selected research papers on internet censorship (CensorBib)"
             url: "https://censorbib.nymity.ch/"
       - title: "Online OONI Training Courses"
         links:
           - text: "OONI Training Course (Advocacy Assembly)"
-            url: "https://advocacyassembly.org/en/courses/63/#/chapter/1/lesson/1"
-          - text: "Micro-course on Internet Censorship"
-            url: "https://riesgosdigitales.academiainnovacionpolitica.org/cursos/censura-e-interrupcion-de-redes/"
+            url: "https://www.youtube.com/watch?v=2mWSqEPsbto&list=PL1sH9kYR-16lsaqiLckQsggTeXJEAQCqT"
       - title: "OONI Videos"
         links:
           - text: "OONI Highlights (10 Years of OONI)"
@@ -130,10 +130,12 @@ sections:
             url: "https://www.instagram.com/openobservatory/"
           - text: "Facebook"
             url: "https://www.facebook.com/ooni.org"
+          - text: "Bluesky"
+            url: "https://bsky.app/profile/ooni.org"
       - title: "OONI Contact"
         links:
-          - text: "Email: contact@openobservatory.org"
-            url: "mailto:contact@openobservatory.org"
+          - text: "Email: contact@ooni.org"
+            url: "mailto:contact@ooni.org"
           - text: "Slack"
             url: "https://slack.ooni.org/"
 
@@ -149,12 +151,10 @@ sections:
         links:
           - text: "IODA Dashboard"
             url: "https://ioda.inetintel.cc.gatech.edu/"
-          - text: "About IODA (demo)"
-            url: "https://www.youtube.com/watch?v=2tBzCgihTP0"
-          - text: "Google traffic data"
-            url: "https://transparencyreport.google.com/traffic/overview"
           - text: "CloudFlare Radar data"
             url: "https://radar.cloudflare.com/"
+          - text: "Google traffic data"
+            url: "https://transparencyreport.google.com/traffic/overview"
           - text: "Internet Society Pulse"
             url: "https://pulse.internetsociety.org/shutdowns"
           - text: "Access Now's #KeepItOn campaign"
@@ -163,6 +163,8 @@ sections:
         links:
           - text: "Tor Browser"
             url: "https://www.torproject.org/download/"
+          - text: "Proton VPN"
+            url: "https://protonvpn.com/"
           - text: "Psiphon"
             url: "https://psiphon.ca/"
           - text: "TunnelBear"
