@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="container my-12">
+  <div class="mx-auto max-w-none">
+    <h1 class="article-title">{{ .Title }}</h1>
+    <div class="not-prose">
+      {{ partial "install-cli-instructions.html" . }}
+    </div>
+    <p class="mt-12 text-sm text-gray6">
+      ← <a href="/install/" class="text-ooniblue underline hover:text-blue7">Back to all install options</a>
+    </p>
+  </div>
+</div>
+{{ end }}

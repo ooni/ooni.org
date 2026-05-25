@@ -1,0 +1,57 @@
+<p class="mb-8 max-w-none text-base leading-relaxed">
+  Once installed, OONI Probe runs tests automatically every day.
+  For details, read the <a href="/support/ooni-probe-cli" class="text-ooniblue underline hover:text-blue7">OONI Probe CLI user guide</a>.
+</p>
+
+<div class="grid grid-cols-1 gap-10 md:grid-cols-2">
+
+  <!-- Debian / Ubuntu -->
+  <div id="cli-linux" class="scroll-mt-8">
+    <h3 class="mb-3 text-lg font-bold">Debian / Ubuntu</h3>
+    <ol class="list-decimal space-y-5 pl-5 text-sm leading-relaxed marker:font-semibold">
+ 
+      <li>
+        <p class="font-medium">Install the GPG key:</p>
+        <pre class="mt-2 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed "><code>sudo gpg --no-default-keyring --keyserver hkp://keyserver.ubuntu.com --keyring /etc/apt/keyrings/ooni-apt-keyring.gpg --recv-keys 'B5A08F01796E7F521861B449372D1FF271F2DD50'</code></pre>
+      </li>
+
+      <li>
+        <p class="font-medium ">You can choose how to fetch OONI Probe:</p>
+        <p class="mt-2"><strong>A)</strong> Using HTTP. This is the recommended option.</p>
+        <pre class="mt-1 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed"><code>echo "deb [signed-by=/etc/apt/keyrings/ooni-apt-keyring.gpg] https://deb.ooni.org/ unstable main" | sudo tee /etc/apt/sources.list.d/ooniprobe.list</code></pre>
+        <p class="mt-3"><strong>B)</strong> Using Tor. This is an alternative option in case the HTTP repository is not reachable. This requires running the tor daemon on your system.</p>
+        <pre class="mt-1 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed"><code>sudo apt-get install tor apt-transport-tor
+echo "deb [signed-by=/etc/apt/keyrings/ooni-apt-keyring.gpg] tor+http://deb.ooni.org/ unstable main" | sudo tee /etc/apt/sources.list.d/ooniprobe.list</code></pre>
+      </li>
+
+      <li>
+        <p class="font-medium">Finally, update the package list and install OONI Probe</p>
+        <pre class="mt-2 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed"><code>sudo apt-get update
+sudo apt-get install ooniprobe-cli</code></pre>
+      </li>
+    </ol>
+  </div>
+
+  <!-- macOS -->
+  <div id="cli-macos" class="scroll-mt-8">
+    <h3 class="mb-3 text-lg font-bold">macOS (Homebrew)</h3>
+    <ol class="list-decimal space-y-5 pl-5 text-sm leading-relaxed marker:font-semibold">
+      <li>
+        <p class="font-medium">Install Homebrew.</p>
+        <p class="mt-1">
+          Follow the instructions at
+          <a href="https://brew.sh/" target="_blank" rel="noopener noreferrer"
+            class="text-ooniblue underline hover:text-blue7">brew.sh</a>.
+        </p>
+      </li>
+      <li>
+        <p class="font-medium">Install ooniprobe.</p>
+        <pre class="mt-2 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed"><code>brew install ooniprobe</code></pre>
+      </li>
+      <li>
+        <p class="font-medium">Start automatic daily run.</p>
+        <pre class="mt-2 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed"><code>ooniprobe autorun start</code></pre>
+      </li>
+    </ol>
+  </div>
+</div>
