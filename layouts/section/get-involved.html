@@ -1,13 +1,70 @@
 {{ define "main" }}
-{{ $blocks := .Page.GetPage "./get-involved-blocks" }}
-<div class="container get-involved">
-  <main class="grid grid-cols-1 md:grid-cols-2 gap-8 my-8 [&_ul]:list-disc [&_ul]:ms-4">
-    {{ range sort $blocks.Resources "File.Path" }}
-      <div>
-        <h2>{{ .Title }}</h2>
-        {{ .Content }}
-      </div>
+<div class="container my-12">
+  <h1 class="article-title">{{ .Title }}</h1>
+  {{ with .Params.intro }}
+  <p class="not-prose mb-10 max-w-none text-base leading-relaxed text-gray7">{{ . }}</p>
+  {{ end }}
+
+  <nav aria-label="Ways to contribute"
+       class="not-prose mb-16 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+    {{ range .Params.sections }}
+    <a href="#{{ .id }}"
+       class="group flex flex-col rounded-xl border border-gray2 bg-white p-4 shadow-sm transition-all duration-150 hover:border-ooniblue hover:shadow-md">
+      <span class="text-sm font-semibold text-gray9 transition-colors group-hover:text-ooniblue">{{ .title }}</span>
+      <span class="mt-1 text-xs leading-snug text-gray6">{{ .tagline }}</span>
+    </a>
     {{ end }}
-  </main>
+  </nav>
+
+  {{ range .Params.sections }}
+  <section id="{{ .id }}" class="not-prose mb-16 scroll-mt-8">
+    <h2 class="mb-3 border-t-2 border-ooniblue pt-1 text-sm font-bold uppercase tracking-widest text-ooniblue">
+      {{ .title }}
+    </h2>
+    {{ with .intro }}
+    <p class="mb-6 max-w-none text-base leading-relaxed text-gray7
+              [&_a]:text-ooniblue [&_a]:underline hover:[&_a]:text-blue7">
+      {{ . | safeHTML }}
+    </p>
+    {{ end }}
+
+    {{ with .links }}
+    <ul class="grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
+      {{ range . }}
+      {{ $u := urls.Parse .url }}
+      {{ $isExternal := and $u.Host (not (eq $u.Host "ooni.org")) }}
+      <li>
+        <a href="{{ .url }}"
+           {{ if $isExternal }}target="_blank" rel="noopener noreferrer"{{ end }}
+           class="group flex items-baseline gap-2 text-sm font-semibold text-gray9 transition-colors hover:text-ooniblue">
+          <span>{{ .name }}</span>
+          {{ if $isExternal }}
+          <svg class="h-4 w-4 flex-none self-baseline text-gray4 transition-colors group-hover:text-ooniblue"
+               fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+          </svg>
+          {{ end }}
+        </a>
+        {{ with .description }}
+        <p class="mt-1 text-sm leading-snug text-gray6
+                  [&_a]:text-ooniblue [&_a]:underline hover:[&_a]:text-blue7">
+          {{ . | safeHTML }}
+        </p>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+
+    {{ with .footer }}
+    <p class="mt-6 max-w-none text-sm leading-relaxed text-gray6
+              [&_a]:text-ooniblue [&_a]:underline hover:[&_a]:text-blue7
+              [&_code]:rounded [&_code]:bg-gray1 [&_code]:px-1.5 [&_code]:py-0.5 [&_code]:text-xs">
+      {{ . | safeHTML }}
+    </p>
+    {{ end }}
+  </section>
+  {{ end }}
 </div>
 {{ end }}

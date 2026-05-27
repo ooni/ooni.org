@@ -64,7 +64,7 @@ publishDir = "public/"
     weight = 3
   [[menu.main]]
     url = "/get-involved/"
-    name = "Get Involved"
+    name = "Community"
     weight = 4
   [[menu.main]]
     url = "/reports/"

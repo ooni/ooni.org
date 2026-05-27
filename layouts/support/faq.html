@@ -1,0 +1,75 @@
+{{ define "main" }}
+<style>
+  /* Suppress built-in disclosure triangle */
+  details.faq-item > summary { list-style: none; }
+  details.faq-item > summary::-webkit-details-marker { display: none; }
+  details.faq-item > summary::marker { display: none; }
+
+  /* Link icon size */
+  .faq-anchor-link svg { width: 14px; height: 14px; display: block; }
+</style>
+
+<div class="container my-12">
+  <h1 class="article-title">{{ .Title }}</h1>
+
+  <div class="prose prose-a:hover:text-ooniblue max-w-none mb-10">
+    {{ .Content }}
+  </div>
+
+  {{ $linkIcon := `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"/></svg>` }}
+
+  {{ range $sIdx, $section := .Params.sections }}
+  <div class="mb-10">
+    {{ if $section.heading }}
+    <p class="text-xs font-bold uppercase tracking-[0.08em] text-ooniblue border-t-2 border-ooniblue pt-1 mb-3"
+       id="{{ $section.heading | anchorize }}">{{ $section.heading }}</p>
+    {{ end }}
+
+    {{ range $iIdx, $item := $section.items }}
+    {{ $id := $item.q | anchorize }}
+    <details class="faq-item group/item border border-[#dee2e6] rounded-[0.625rem] mb-1.5 bg-white overflow-hidden open:border-ooniblue open:shadow-[0_2px_8px_rgba(5,136,203,0.08)]"
+             id="{{ $id }}"
+             {{ if and (eq $sIdx 0) (eq $iIdx 0) }}open{{ end }}>
+      <summary class="group/summary flex items-center gap-2 py-[0.875rem] px-5 text-[0.9rem] font-semibold text-[#343a40] cursor-pointer transition-colors hover:text-ooniblue group-open/item:bg-[#f0f8ff] group-open/item:text-ooniblue">
+        <span class="flex-1 min-w-0 flex items-center gap-1.5">
+          <span class="min-w-0">{{ $item.q }}</span>
+          <a href="#{{ $id }}"
+             class="faq-anchor-link p-[0.3rem] text-[#adb5bd] rounded flex-shrink-0 leading-none transition-colors hover:text-ooniblue hover:bg-[rgba(5,136,203,0.1)]"
+             title="Link to this question"
+             aria-label="Link to this question">{{ $linkIcon | safeHTML }}</a>
+        </span>
+        <span class="flex-shrink-0 text-xl font-light leading-none transition-colors text-[#868e96] group-hover/summary:text-ooniblue group-open/item:text-ooniblue" aria-hidden="true">
+          <span class="group-open/item:hidden">+</span>
+          <span class="hidden group-open/item:inline">−</span>
+        </span>
+      </summary>
+      <div class="prose prose-sm max-w-none p-[1.125rem] text-[#495057] prose-a:text-ooniblue prose-a:underline">
+        {{ $item.a | markdownify }}
+      </div>
+    </details>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}
+
+{{ define "script" }}
+<script>
+  (function () {
+    function handleHash() {
+      var id = location.hash.slice(1);
+      if (!id) return;
+      var el = document.getElementById(id);
+      if (!el) return;
+      if (el.tagName === 'DETAILS') {
+        el.open = true;
+        setTimeout(function () {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 50);
+      }
+    }
+    handleHash();
+    window.addEventListener('hashchange', handleHash);
+  })();
+</script>
+{{ end }}

@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="container my-12">
+  <h1 class="article-title">{{ .Title }}</h1>
+  {{ with .Params.description }}
+  <p class="not-prose mb-10 text-base text-gray7">{{ . }}</p>
+  {{ end }}
+
+  {{ range .Params.sections }}
+  <section class="not-prose mb-16">
+    <h2 class="mb-6 border-t-2 border-ooniblue pt-1 text-sm font-bold uppercase tracking-widest text-ooniblue">
+      {{ .title }}
+    </h2>
+
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">
+      {{ range .groups }}
+      <div class="rounded-xl border border-gray2 bg-white p-5 shadow-sm">
+        <h3 class="mb-3 text-sm font-bold uppercase tracking-wider text-ooniblue">{{ .title }}</h3>
+        <ul class="space-y-2">
+          {{ range .links }}
+          {{ partial "ext-link-item.html" (dict "url" .url "name" .text) }}
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  <p class="not-prose mt-4 text-sm text-gray6">
+    Also available as <a href="/support/ooni-outreach-kit/files/OONI%20Resources.pdf" class="text-ooniblue underline hover:text-blue7">PDF</a> for download and printing.
+  </p>
+</div>
+{{ end }}

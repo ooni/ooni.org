@@ -35,6 +35,6 @@ Localization Lab is a **global community of 7000+ contributors who support the t
 
 Since 2012, they have **made open source technology available to underrepresented communities in 220 languages**, bringing equal access to information, better representation online, and growing the user base of our supported projects.
 
-Over the years, the Localization Lab has supported OONI with the [translation and localization of OONI Probe apps](https://www.transifex.com/otf/ooniprobe/).
+Over the years, the Localization Lab has supported OONI with the [translation and localization of OONI Probe apps](https://localizationlab.weblate.cloud/projects/ooni/probe/).
 
 
