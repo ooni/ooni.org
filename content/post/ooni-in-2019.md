@@ -468,7 +468,7 @@ and virtual private servers (VPS).
 
 We are excited to see how community members make use of OONI data in
 2020! If you’re interested in working with OONI data and need support,
-please don’t hesitate to [reach out](https://ooni.org/about/#contact).
+please don’t hesitate to [reach out](https://ooni.org/about/contact).
 
 # 2020
 

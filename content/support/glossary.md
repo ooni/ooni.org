@@ -919,4 +919,4 @@ methodologies, and research reports.
 * **Kiswahili,** [OONI Faharasa](/sw/support/glossary)
 * **Русский,** [OONI Глоссарий](/ru/support/glossary)
 
-If you would like to see additional terms in this glossary, please [open a pull request](https://github.com/ooni/ooni.org) or [send us an email](https://ooni.org/about/#contact).
+If you would like to see additional terms in this glossary, please [open a pull request](https://github.com/ooni/ooni.org) or [send us an email](https://ooni.org/about/contact).

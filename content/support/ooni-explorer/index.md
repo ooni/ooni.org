@@ -757,4 +757,4 @@ We hope you will find the MAT useful to your research and/or advocacy!
 
 We thank all [OONI Probe](https://ooni.org/install/) users worldwide who have contributed – and continue to contribute – measurements, shedding light on internet censorship.
 
-If you have any questions or need data analysis support for your research or investigation, please feel encouraged to [contact the OONI team](https://ooni.org/about/#contact). Thank you for reading this guide!
+If you have any questions or need data analysis support for your research or investigation, please feel encouraged to [contact the OONI team](https://ooni.org/about/contact). Thank you for reading this guide!

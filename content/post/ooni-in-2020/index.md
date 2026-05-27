@@ -604,7 +604,7 @@ new PostgreSQL metaDB (powered by PostgreSQL 11).
 
 We are excited to see how community members make use of OONI data in
 2021! If you’re interested in working with OONI data and need support,
-please don’t hesitate to [reach out](https://ooni.org/about/#contact).
+please don’t hesitate to [reach out](https://ooni.org/about/contact).
 
 # 2021
 
@@ -675,7 +675,7 @@ training.
 Our above priorities for 2021 have been informed by community feedback
 collected over the years (as well as in response to the dynamic
 censorship environment worldwide). If there are additional areas that
-you think we should prioritize, please don’t hesitate to [let us know](https://ooni.org/about/#contact).
+you think we should prioritize, please don’t hesitate to [let us know](https://ooni.org/about/contact).
 
 Warm thanks to the global OONI community for supporting our work
 throughout 2020!

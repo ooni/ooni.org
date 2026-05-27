@@ -613,4 +613,4 @@ sections:
 
 * English, [OONI Glossary](https://ooni.org/support/glossary/)
 
-Если вы хотите, чтобы в глоссарий были включены дополнительные термины, пожалуйста, [создайте запрос на добавление](https://github.com/ooni/ooni.org) или [отправьте нам письмо](https://ooni.org/about/#contact).
+Если вы хотите, чтобы в глоссарий были включены дополнительные термины, пожалуйста, [создайте запрос на добавление](https://github.com/ooni/ooni.org) или [отправьте нам письмо](https://ooni.org/about/contact).

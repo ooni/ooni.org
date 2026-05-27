@@ -243,7 +243,7 @@ We hope the internet freedom community finds the
 and responding to internet censorship events around the world.
 
 If you have any questions, feedback, or feature requests, we’d love to
-hear from you! You can [open a ticket](https://github.com/ooni/explorer/issues/) or [write us an email](https://ooni.org/about/#contact).
+hear from you! You can [open a ticket](https://github.com/ooni/explorer/issues/) or [write us an email](https://ooni.org/about/contact).
 
 # Acknowledgements
 

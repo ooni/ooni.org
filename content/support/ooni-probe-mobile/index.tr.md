@@ -826,7 +826,7 @@ Bir sınama sonucunun ham OONI verilerine erişmek için:
 
 Günlük, belirli bir yazılımın nasıl çalıştığını kaydeden bir dosyadır. OONI Probe bağlamında, her sınama sonucu, söz konusu sınamanın belirli bir ağda nasıl çalıştığını kaydeden bir günlüğü vardır. Bu veriler yalnızca **Hata ayıklama günlükleri** seçeneğiniz açıksa görüntülenir. Bu seçeneğin açık mı kapalı mı olduğunu **Ayarlar** altındaki **Gelişmiş** bölümünde görebilirsiniz.
 
-Bir sorun çıktıysa veya başka bir şekilde beklendiği gibi çalışamadıysa, bir OONI Probe sınama sonucunun günlüğüne bakmanın olası yararları olabilir. Bu gibi durumlarda, **hatayı ayıklamamıza** ve sorunu çözmemize yardımcı olması için ilgili günlüğü [OONI ekibi](https://ooni.org/about/#contact) ile paylaşabilirsiniz.
+Bir sorun çıktıysa veya başka bir şekilde beklendiği gibi çalışamadıysa, bir OONI Probe sınama sonucunun günlüğüne bakmanın olası yararları olabilir. Bu gibi durumlarda, **hatayı ayıklamamıza** ve sorunu çözmemize yardımcı olması için ilgili günlüğü [OONI ekibi](https://ooni.org/about/contact) ile paylaşabilirsiniz.
 
 ## OONI Probe ayarlarınızı yapılandırmak
 
@@ -842,7 +842,7 @@ Aşağıdaki bölümlerde her ayarın üzerinden geçeceğiz.
 
 ### Bildirimler
 
-**Android** üzerinde OONI Probe kullanıyorsanız, [OONI ekibinden](https://ooni.org/about/#contact) ileti almak için **anında bildirimleri** etkinleştirebilirsiniz.
+**Android** üzerinde OONI Probe kullanıyorsanız, [OONI ekibinden](https://ooni.org/about/contact) ileti almak için **anında bildirimleri** etkinleştirebilirsiniz.
 
 Belirli bir ülkede sansür olduğunu duyduğumuzda öncelikle o ülkedeki OONI Probe kullanıcılarına bildirimler göndererek, engellendiği bildirilen (veya [OONI ölçümlerine](https://explorer.ooni. kuruluş/) göre engellendiği görülen) hizmetleri sınamalarını öneririz. Anında bildirimleri genellikle çok sık göndermeyiz.
 
@@ -924,7 +924,7 @@ Burada 4 sınama göreceksiniz ([WhatsApp](https://ooni.org/nettest/whatsapp/), 
 
 Sınamanızı bu sınamalardan birkaçıyla (ya da hiçbiriyle) sınırlamak isterseniz, bu ayarlardan ilgili sınamaları kapatabilirsiniz.
 
-**Not:** Bize sık sık kullanıcıların sınamak istedikleri anlık ileti uygulamasını ekleyip ekleyemeyecekleri sorulur (OONI Probe ile özelleştirilmiş bir uygulama sınaması). Ne yazık ki bu, özelleştirilmiş site sınaması (sınama için herhangi bir adres ekleyebileceğiniz yer) kadar basit değil. Uygulama sınaması için, ilgili uygulamanın tüm uç noktalarının tanımlanması ve söz konusu uygulamanın erişilebilirliğini ölçmenin en iyi yolunun belirlenmesi gerekir. Bunlar, uygulamadan uygulamaya çok değişebilir ve her bir OONI Probe anlık ileti uygulaması sınamasının oluşturulması için oldukça fazla geliştirme çalışması yapılır. Bu nedenle şu anda yalnızca birkaç anlık ileti uygulaması sınamamız var ve her sınamanın [yöntemi](https://ooni.org/nettest/) farklı. (a) Dünya çapında sıklıkla engellenen ve (b) topluluktan çok sayıda istek alan anlık ileti uygulamaları için sınamalar geliştirmeye öncelik verdik. Sınamalara öncelik vermemiz gerektiğini düşündüğünüz başka anlık ileti uygulamaları varsa lütfen [bize bildirin](https://ooni.org/about/#contact).
+**Not:** Bize sık sık kullanıcıların sınamak istedikleri anlık ileti uygulamasını ekleyip ekleyemeyecekleri sorulur (OONI Probe ile özelleştirilmiş bir uygulama sınaması). Ne yazık ki bu, özelleştirilmiş site sınaması (sınama için herhangi bir adres ekleyebileceğiniz yer) kadar basit değil. Uygulama sınaması için, ilgili uygulamanın tüm uç noktalarının tanımlanması ve söz konusu uygulamanın erişilebilirliğini ölçmenin en iyi yolunun belirlenmesi gerekir. Bunlar, uygulamadan uygulamaya çok değişebilir ve her bir OONI Probe anlık ileti uygulaması sınamasının oluşturulması için oldukça fazla geliştirme çalışması yapılır. Bu nedenle şu anda yalnızca birkaç anlık ileti uygulaması sınamamız var ve her sınamanın [yöntemi](https://ooni.org/nettest/) farklı. (a) Dünya çapında sıklıkla engellenen ve (b) topluluktan çok sayıda istek alan anlık ileti uygulamaları için sınamalar geliştirmeye öncelik verdik. Sınamalara öncelik vermemiz gerektiğini düşündüğünüz başka anlık ileti uygulamaları varsa lütfen [bize bildirin](https://ooni.org/about/contact).
 
 #### Sansürü aşma
 
@@ -940,7 +940,7 @@ Burada OONI Probe panosunda sansürü aşma kartında bulunan 2 sınamayı göre
 
 Sınamanızı bu sınamalardan biri (ya da hiçbiriyle) sınırlamak isterseniz, bu ayarlardan ilgili sınamaları kapatabilirsiniz.
 
-**Not:** Bize bazen kullanıcıların sınamak istedikleri sansürü aşma aracını ekleyip ekleyemeyecekleri sorulur (OONI Probe ile özelleştirilmiş VPN sınaması). Ne yazık ki bu, özelleştirilmiş site sınaması (sınama için herhangi bir adres ekleyebileceğiniz yer) kadar basit değil. Sansürü aşma aracı sınaması için, ilgili aracın tüm uç noktalarının tanımlanması ve söz konusu aracın erişilebilirliğini ölçmenin en iyi yolunun belirlenmesi gerekir. Bunlar, araçtan araca çok değişebilir ve her bir OONI Probe sansürü aşma aracı sınamasının oluşturulması için oldukça fazla geliştirme çalışması yapılır. Bu nedenle şu anda yalnızca birkaç sansürü aşma aracı sınamamız var ve her sınamanın [yöntemi](https://ooni.org/nettest/) farklı. Geliştiricileriyle işbirliği yapabildiğimiz sansürü aşma araçları için sınama geliştirmeye öncelik verdik. Sınamalarına öncelik vermemiz gerektiğini düşündüğünüz başka sansürü aşma araçları varsa lütfen [bize bildirin](https://ooni.org/about/#contact).
+**Not:** Bize bazen kullanıcıların sınamak istedikleri sansürü aşma aracını ekleyip ekleyemeyecekleri sorulur (OONI Probe ile özelleştirilmiş VPN sınaması). Ne yazık ki bu, özelleştirilmiş site sınaması (sınama için herhangi bir adres ekleyebileceğiniz yer) kadar basit değil. Sansürü aşma aracı sınaması için, ilgili aracın tüm uç noktalarının tanımlanması ve söz konusu aracın erişilebilirliğini ölçmenin en iyi yolunun belirlenmesi gerekir. Bunlar, araçtan araca çok değişebilir ve her bir OONI Probe sansürü aşma aracı sınamasının oluşturulması için oldukça fazla geliştirme çalışması yapılır. Bu nedenle şu anda yalnızca birkaç sansürü aşma aracı sınamamız var ve her sınamanın [yöntemi](https://ooni.org/nettest/) farklı. Geliştiricileriyle işbirliği yapabildiğimiz sansürü aşma araçları için sınama geliştirmeye öncelik verdik. Sınamalarına öncelik vermemiz gerektiğini düşündüğünüz başka sansürü aşma araçları varsa lütfen [bize bildirin](https://ooni.org/about/contact).
 
 #### Başarım
 

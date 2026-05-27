@@ -86,6 +86,6 @@ To make it easier to find all links to OONI resources, we provide them in an “
 
 It may also be worth referring to the [Frequently Asked Questions (FAQ)](https://ooni.org/support/faq/) section of our website.
 
-We hope you find the resources of the OONI Outreach Kit useful! If you have any questions or suggestions on how we can improve the Outreach Kit, please [contact us](https://ooni.org/about/#contact).
+We hope you find the resources of the OONI Outreach Kit useful! If you have any questions or suggestions on how we can improve the Outreach Kit, please [contact us](https://ooni.org/about/contact).
 
 We thank you for your OONI community engagement efforts, and we thank [Ura Design](https://ura.design/) for the beautiful design of the OONI Outreach Kit.

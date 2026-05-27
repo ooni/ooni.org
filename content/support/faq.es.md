@@ -145,7 +145,7 @@ sections:
 
           * **[Ayude a mejorar el software de OONI](https://github.com/ooni)**. Desarrollamos y mantenemos muchos proyectos de software que potencian el ecosistema OONI. Todo nuestro código es abierto y le animamos a que lo revise y/o contribuya.
 
-          * **[Escriba un test de medición de red para OONI Probe](https://github.com/ooni/probe-cli/tree/master/internal/tutorial)**. OONI Probe fue creado basándose en metodologías y marcos abiertos para permitir a los miembros de la comunidad contribuir con sus propias pruebas de medición de red. Si esto le interesa, por favor, [póngase en contacto](https://ooni.org/about/#contact) con nosotros para que podamos coordinarnos.
+          * **[Escriba un test de medición de red para OONI Probe](https://github.com/ooni/probe-cli/tree/master/internal/tutorial)**. OONI Probe fue creado basándose en metodologías y marcos abiertos para permitir a los miembros de la comunidad contribuir con sus propias pruebas de medición de red. Si esto le interesa, por favor, [póngase en contacto](https://ooni.org/about/contact) con nosotros para que podamos coordinarnos.
   - heading: OONI Probe
     items:
       - q: ¿Qué es OONI Probe?
@@ -830,7 +830,7 @@ sections:
           Como parte del [Programa de Asociación OONI](https://ooni.org/get-involved/partnership-program/), ofrecemos apoyo de análisis de datos a las organizaciones de derechos humanos con las que colaboramos. Todos [los datos y metodologías de OONI](https://ooni.org/data/) están disponibles
           abiertamente con la esperanza de que otros análisis de datos apoyen también a las comunidades.
 
-          Te animamos a que te [pongas en contacto (por correo electrónico o Slack)](https://ooni.org/about/#contact) si no estás seguro de una medición y planeas utilizarla (por ejemplo) como parte de un
+          Te animamos a que te [pongas en contacto (por correo electrónico o Slack)](https://ooni.org/about/contact) si no estás seguro de una medición y planeas utilizarla (por ejemplo) como parte de un
           informe.
 
           En general, **recomendamos observar los resultados a lo largo de una línea de tiempo, en lugar de individualmente** (a menos que estén etiquetados
@@ -878,4 +878,4 @@ Documento original:
 
 Esta sección de preguntas frecuentes pretende responder a las preguntas que con más frecuencia nos plantea la comunidad.
 
-¿Hay alguna otra pregunta que le gustaría que tratáramos? [Háganoslo saber](https://ooni.org/about/#contact).
+¿Hay alguna otra pregunta que le gustaría que tratáramos? [Háganoslo saber](https://ooni.org/about/contact).

@@ -915,7 +915,7 @@ continue to engage communities through OONI workshops and training.
 Our above priorities for 2023 have been informed by community feedback
 collected over the years (as well as in response to the dynamic
 censorship environment worldwide). If there are additional areas that
-you think we should prioritize, please don’t hesitate to [let us know](https://ooni.org/about/#contact).
+you think we should prioritize, please don’t hesitate to [let us know](https://ooni.org/about/contact).
 
 If you would like to support our work, please consider **[donating to OONI](https://ooni.org/donate/)**.
 

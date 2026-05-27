@@ -129,7 +129,7 @@ sections:
 
           * **[Giúp cải thiện phần mềm OONI](https://github.com/ooni)**. Chúng tôi phát triển và duy trì nhiều đề án phần mềm làm năng lực cho hệ sinh thái OONI. Tất cả mã nguồn đều là nguồn mở và chúng tôi khuyến khích bạn duyệt xét và/hoặc đóng góp thêm!
 
-          * **[Soạn bài kiểm tra đo lường mạng cho OONI Probe](https://github.com/ooni/probe-cli/tree/master/internal/tutorial)**. OONI Probe được soạn ra dựa vào phương pháp và khung sườn mở để giúp thành viên cộng đồng có thể đóng góp các bài kiểm tra đo lường mạng. Nếu bạn thích thú, [xin liên lạc](https://ooni.org/about/#contact) để chúng tôi phối trí.
+          * **[Soạn bài kiểm tra đo lường mạng cho OONI Probe](https://github.com/ooni/probe-cli/tree/master/internal/tutorial)**. OONI Probe được soạn ra dựa vào phương pháp và khung sườn mở để giúp thành viên cộng đồng có thể đóng góp các bài kiểm tra đo lường mạng. Nếu bạn thích thú, [xin liên lạc](https://ooni.org/about/contact) để chúng tôi phối trí.
   - heading: OONI Probe
     items:
       - q: OONI Probe là gì?
@@ -787,7 +787,7 @@ sections:
 
           Là một phần của [Chương trình Đối tác OONI](https://ooni.org/get-involved/partnership-program/), chúng tôi giúp phân tích dữ liệu cho các tổ chức nhân quyền có hợp tác với chúng tôi. Tất cả [dữ liệu và phương thức của OONI](https://ooni.org/data/) đều là nguồn mở với hy vọng các chuyên viên phân tích dữ liệu khác cũng sẽ hỗ trợ cộng đồng.
 
-          Chúng tôi khuyến khích bạn [liên lạc (qua email hay Slack)](https://ooni.org/about/#contact) nếu bạn không rõ về một đo lường nào đó và dự tính dùng nó (giả dụ vậy) để làm báo cáo.
+          Chúng tôi khuyến khích bạn [liên lạc (qua email hay Slack)](https://ooni.org/about/contact) nếu bạn không rõ về một đo lường nào đó và dự tính dùng nó (giả dụ vậy) để làm báo cáo.
 
           Nói chung, **chúng tôi đề nghị nhìn vào kết quả qua một thời gian, hơn là chỉ nhìn một lần** (trừ phi được đánh dấu là “được xác nhận”). Lấy thí dụ, nếu bạn quan sát thấy một trang web được kiểm tra lúc nào cũng có sự bất thường (ví dụ như thay đổi DNS trái phép) trong một mạng ở một quốc gia, có lẻ nhiều phần là có sự can thiệp. Trong khi đó, nếu một đo lường (giả dụ) cho thấy có sự bất thường TCP, nhưng tất cả các đo lường khác kiểm tra trang web đó lại thành công, có lẻ nhiều phần sự bất thường TCP đó là một dương tính giả.
       - q: Làm thế nào để xem kết quả từ các kiểm tra khác của OONI Probe?
@@ -826,4 +826,4 @@ Oringinal file in **English**, [Frequently Asked Questions (FAQ)](/support/faq)
 
 Tài liệu này được dịch sang tiếng Việt bởi Nathan Tran.
 
-Nếu có những câu hỏi nào khác bạn muốn được trả lời xin [liên lạc với chúng tôi](https://ooni.org/about/#contact).
+Nếu có những câu hỏi nào khác bạn muốn được trả lời xin [liên lạc với chúng tôi](https://ooni.org/about/contact).

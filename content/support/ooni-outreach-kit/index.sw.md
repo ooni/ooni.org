@@ -71,7 +71,7 @@ katika tovuti ya Advocacy Assembly ambayo inapatikana kwa Kiswahili.
 
 Itakua bora kwa kurejea katika [maswali yanayoulizwa mara kwa mara (MYM)](https://ooni.org/sw/support/faq/) na [vipengele vya faharasa](https://ooni.org/sw/support/glossary/) kwenye tovuti yetu.
 
-Tuna tumai umepata rasilimali muhimu za huduma za OONI! Kama una maswali yoyote au mapendekezo ya namna ya kuboresha seti ya huduma, tafadhali [tutafute](https://ooni.org/about/#contact).
+Tuna tumai umepata rasilimali muhimu za huduma za OONI! Kama una maswali yoyote au mapendekezo ya namna ya kuboresha seti ya huduma, tafadhali [tutafute](https://ooni.org/about/contact).
 
 Tunakushukuru kwa juhudi za ushiriki wa jumuiya ya OONI, na tunawashukuru [Ura Design](https://ura.design/)
 kwa muonekano mzuri wa seti ya huduma ya OONI na [Zaina Foundation](https://zainafoundationtz.org/) kwa kutafsiri seti ya huduma ya OONI kwa Kiswahili.

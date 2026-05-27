@@ -151,7 +151,7 @@ interesting/relevant websites for censorship testing often requires an
 understanding of a country's social and political environment). 
 
 If you are an organization interested in *regularly* contributing to the test
-lists of your country or region, please [reach out to us](https://ooni.org/about/#contact). We are always happy to collaborate on the
+lists of your country or region, please [reach out to us](https://ooni.org/about/contact). We are always happy to collaborate on the
 review and update of test lists. 
 
 We also recommend keeping an eye out for [paid research opportunities by Netalitica](https://netalitica.com/more-jobs/) to update test lists.

@@ -149,5 +149,5 @@ cases of DNS-based censorship. We have identified some
 [heuristics](https://github.com/TheTorProject/ooni-probe/issues/647) for
 detecting cases of DNS hijacking, and we hope to implement them as OONI Probe
 tests within the next year. In the meanwhile, we encourage you to
-[reach out to us](/about/#contact)  to share knowledge and ideas you may have
+[reach out to us](/about/contact)  to share knowledge and ideas you may have
 for better detecting cases of DNS-based censorship!

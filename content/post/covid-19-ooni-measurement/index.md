@@ -78,7 +78,7 @@ If you would like to test *different* COVID-19 sites, you can do so by
 testing the sites of your choice directly through the [OONI Probe mobile app](https://ooni.org/install/) (tap on the “Choose websites”
 button inside the Websites card). To enable others to test those sites
 as well, please consider [contributing those sites to the Citizen Lab test lists](https://ooni.org/get-involved/contribute-test-lists) (or
-share those URLs with us [via email](https://ooni.org/about/#contact)).
+share those URLs with us [via email](https://ooni.org/about/contact)).
 
 Thank you for contributing measurements during these difficult times. We
 hope you [stay safe and healthy](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public).

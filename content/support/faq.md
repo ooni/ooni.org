@@ -259,7 +259,7 @@ sections:
           * **[Write a network measurement test for OONI Probe](https://github.com/ooni/probe-cli/tree/master/internal/tutorial)**. OONI
           Probe was created based on open methodologies and frameworks to
           enable community members to contribute their own network
-          measurement tests. If this interests you, [please reach out](https://ooni.org/about/#contact) so that we can coordinate.
+          measurement tests. If this interests you, [please reach out](https://ooni.org/about/contact) so that we can coordinate.
   - heading: OONI Probe
     items:
       - q: What is OONI Probe?
@@ -1257,7 +1257,7 @@ sections:
           collaborate with. All [OONI data and methodologies](https://ooni.org/data/) are openly available with the
           hope that other data analysis will support communities as well.
 
-          We encourage you to [reach out (via email or Slack)](https://ooni.org/about/#contact) if you’re unsure of a
+          We encourage you to [reach out (via email or Slack)](https://ooni.org/about/contact) if you’re unsure of a
           measurement and planning on using it (for example) as part of reporting.
 
           In general, **we recommend looking at results over a timeline, rather
@@ -1322,4 +1322,4 @@ Translations:
 * **Tiếng Việt,** [Trang Những Câu Hỏi Thường Gặp](/vi/support/faq)
 * **မြန်မာ,** [မကြာခဏ မေးမြန်းခံရလေ့ရှိသော မေးခွန်းများ](/my/support/faq)
 
-Are there other questions you would like us to address? Please [let us know](https://ooni.org/about/#contact).
+Are there other questions you would like us to address? Please [let us know](https://ooni.org/about/contact).

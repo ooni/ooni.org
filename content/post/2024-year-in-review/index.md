@@ -423,7 +423,7 @@ Some highlights include:
 *   **Research reports on internet censorship around the world.** We aim to publish many more [research reports](https://ooni.org/reports/) in collaboration with our [partners](https://ooni.org/partners). We also aim to publish timely reports on emergent censorship events on the OONI [Censorship Findings](https://explorer.ooni.org/findings) page.
 *   **Strengthening partnerships and support towards the global OONI community.** To expand and diversify global OONI censorship measurement coverage, we aim to expand and strengthen our [partnerships](https://ooni.org/partners). We also aim to improve our community resources and facilitate OONI workshops to help expand the use of [OONI data](https://ooni.org/data/) by the internet freedom community.
 
-Our above priorities for 2025 have been informed by community feedback collected over the years (as well as in response to the dynamic censorship environment worldwide). If there are additional areas that you think we should prioritize, please don’t hesitate to [let us know](https://ooni.org/about/#contact).
+Our above priorities for 2025 have been informed by community feedback collected over the years (as well as in response to the dynamic censorship environment worldwide). If there are additional areas that you think we should prioritize, please don’t hesitate to [let us know](https://ooni.org/about/contact).
 
 If you would like to support our work, please consider **[donating to OONI](https://ooni.org/donate/)**.
 

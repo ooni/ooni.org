@@ -612,4 +612,4 @@ Hati asili: [OONI Glossary](https://ooni.org/support/glossary)
 Faharasa hii *imekusanya* maelezo mafupi ya maneno yaliyotumika kwenye programu ya OONI, njia na tafiti za taarifa.
 
 Kama ungependa kufahamu maneno ya ziada katika faharasa hii tafadhali [fungua hapa](https://github.com/ooni/ooni.org) au
-[tutumie barua pepe](https://ooni.org/about/#contact).
+[tutumie barua pepe](https://ooni.org/about/contact).

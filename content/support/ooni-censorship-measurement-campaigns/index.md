@@ -162,6 +162,6 @@ All OONI Probe test results will automatically get published on [OONI Explorer](
 
 Learn how to use OONI Explorer to find measurements relevant to your campaign through our [user guide](https://ooni.org/support/ooni-explorer/).
 
-If you have any questions or need OONI data analysis support, please feel encouraged to [contact the OONI team](https://ooni.org/about/#contact).
+If you have any questions or need OONI data analysis support, please feel encouraged to [contact the OONI team](https://ooni.org/about/contact).
 
 If you publish research based on your campaign, we’d love to learn about it!

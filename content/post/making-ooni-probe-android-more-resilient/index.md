@@ -172,7 +172,7 @@ the OONI Probe desktop app
 ([ooni/probe#1489](https://github.com/ooni/probe/issues/1489)). We
 chose to prioritize Android because Android users have been impacted by
 this issue the most, as far as we know. If you see the “all available
-probe services failed” error on other platforms (beyond Android), please [get in touch](https://ooni.org/about/#contact)! (So far, we have received a
+probe services failed” error on other platforms (beyond Android), please [get in touch](https://ooni.org/about/contact)! (So far, we have received a
 single report of a similar problem occurring on iOS. If you also see
 this issue, please let us know by commenting on the
 [ooni/probe#1491](https://github.com/ooni/probe/issues/1491) issue.)

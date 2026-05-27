@@ -311,6 +311,6 @@ reviewers have shared feedback.
 You can respond to reviewer feedback directly in the comments section of your GitHub pull request, or by sending
 us an email to `contact@openobservatory.org` referencing your GitHub contribution.
 
-If you have any questions, please don't hesitate to [reach out](https://ooni.org/about/#contact). 
+If you have any questions, please don't hesitate to [reach out](https://ooni.org/about/contact). 
 
 Thanks for contributing!

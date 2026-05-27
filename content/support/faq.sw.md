@@ -127,7 +127,7 @@ sections:
 
           * **[Saidia kuboresha programu ya OONI](https://github.com/ooni)**. Tunatengeneza na kudumisha miradi mingi ambayo inaimarisha mfumo wa OONI. Utendaji kazi wetu ni wa wazi na tuna kuhamasisha kupitia na kuchangia katika hili!
 
-          * **[Andika vipimo vya udhibiti wa mtandao kwenye OONI Probe](https://github.com/ooni/probe-cli/tree/master/internal/tutorial)**. OONI Probe ilitengenezwa kutokana na mbinu za wazi na mipango mikakati kusaidia wanajamii kuchangia katika upimaji wao wa udhibiti wa mtandao. Kama imekuvutia [tafadhali wasiliana nasi](https://ooni.org/about/#contact) ili tuweze kuratibu.
+          * **[Andika vipimo vya udhibiti wa mtandao kwenye OONI Probe](https://github.com/ooni/probe-cli/tree/master/internal/tutorial)**. OONI Probe ilitengenezwa kutokana na mbinu za wazi na mipango mikakati kusaidia wanajamii kuchangia katika upimaji wao wa udhibiti wa mtandao. Kama imekuvutia [tafadhali wasiliana nasi](https://ooni.org/about/contact) ili tuweze kuratibu.
   - heading: OONI Probe
     items:
       - q: OONI Probe ni nini?
@@ -738,7 +738,7 @@ sections:
 
           Kama sehemu ya [Program ya ushirika na OONI](https://ooni.org/get-involved/partnership-program/), tunatoa msaada wa kuchambua data katika taasisi zinazotetea haki za kibinadamu ambazo tunashirikiana nazo. [Data na OONI na njia za utendaji kazi](https://ooni.org/data/) zote zipo wazi na zinapatikana tukitarajia uchambuzi mwingine za data utasaidia jamii pia.
 
-          Tunakuhamasisha [kuwasiliana nasi kupitia (barua pepe au slac)](https://ooni.org/about/#contact) kama huna uhakika
+          Tunakuhamasisha [kuwasiliana nasi kupitia (barua pepe au slac)](https://ooni.org/about/contact) kama huna uhakika
           na kipimo na kupanga kutumia (kwa mfano) kama sehemu ya kutoa taarifa.
 
           Kwa ujumla, **tunapendekeza kupitia matokeo kwa kila muda, kuliko ya wakati mmoja tu** (isipokuwa kama) yametambulika kama "yamethibitishwa"). Kwa mfano kama umegundua kwamba tovuti iliyopimwa inawasilisha hali isiyo ya kawaida ileile (kwa mfano kuchezewa kwa DNS) kila ikipimwa katika mtandao husika katika nchi, kuna uwezekano kuwa upatikanaji wake umedhibitiwa, hata hivyo kipimo kimoja, (kwa mfano) huwakilisha hali isiyo ya kawaida kwa TCP, lakini vipimo vingine vyote katika tovuti hiyo vilifanikiwa, kuna uwezekano kuwa majibu ya kipimo ya TCP isiyo ya kawaida yana makosa.
@@ -777,4 +777,4 @@ Hati asili: [Frequently Asked Questions (FAQ)](https://ooni.org/support/faq)
 Kipengele hiki kimelenga kuonyesha Maswali Yanayoulizwa Mara kwa Mara (MYM) na jamii.
 
 Kuna maswali mengine ambayo ungependa tuyajibu? Tafadhali
-[tujulishe](https://ooni.org/about/#contact).
+[tujulishe](https://ooni.org/about/contact).

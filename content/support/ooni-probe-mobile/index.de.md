@@ -826,7 +826,7 @@ Um auf die OONI-Rohdaten eines Testergebnisses zuzugreifen:
 
 Ein Log ist eine Datei, die aufzeichnet, wie eine bestimmte Software gelaufen ist. Im Zusammenhang mit OONI Probe wird für jedes Testergebnis ein Log erstellt, in dem aufgezeichnet wird, wie der jeweilige Test in einem bestimmten Netzwerk ausgeführt wurde. Diese Daten sind nur sichtbar, wenn du die Option **Debug-Logs** aktiviert hast. Um zu überprüfen, ob diese Option aktiviert ist, gehe bitte zum Menü **Erweitert** in **Einstellungen**.
 
-Es kann unter Umständen nützlich sein, auf das Log eines OONI-Probe-Testergebnisses zuzugreifen, wenn es einen Fehler aufweist oder anderweitig nicht wie erwartet ausgeführt werden konnte. In diesen Fällen kannst du das entsprechende Log mit dem [OONI-Team](https://ooni.org/about/#contact) teilen, um uns bei der **Fehlersuche** zu helfen.
+Es kann unter Umständen nützlich sein, auf das Log eines OONI-Probe-Testergebnisses zuzugreifen, wenn es einen Fehler aufweist oder anderweitig nicht wie erwartet ausgeführt werden konnte. In diesen Fällen kannst du das entsprechende Log mit dem [OONI-Team](https://ooni.org/about/contact) teilen, um uns bei der **Fehlersuche** zu helfen.
 
 ## Konfigurieren der OONI-Probe-Einstellungen
 
@@ -842,7 +842,7 @@ In den folgenden Abschnitten werden die einzelnen Einstellungen erläutert.
 
 ### Benachrichtigungen
 
-Wenn du OONI Probe auf **Android** verwendest, kannst du **Push-Benachrichtigungen** aktivieren, um Nachrichten vom [OONI-Team](https://ooni.org/about/#contact) zu erhalten.
+Wenn du OONI Probe auf **Android** verwendest, kannst du **Push-Benachrichtigungen** aktivieren, um Nachrichten vom [OONI-Team](https://ooni.org/about/contact) zu erhalten.
 
 Wir versenden hauptsächlich Benachrichtigungen, wenn wir von Zensur in einem bestimmten Land erfahren, um OONI Probe-Nutzer in diesem Land zu ermutigen, die Dienste zu testen, die angeblich blockiert sind (oder die nach [OONI-Messungen](https://explorer.ooni.org/) blockiert erscheinen). Wir senden im Allgemeinen nicht allzu oft Push-Benachrichtigungen.
 
@@ -924,7 +924,7 @@ Du wirst nun die 4 Tests (für [WhatsApp](https://ooni.org/nettest/whatsapp/), [
 
 Wenn du deine Tests auf einige (oder keinen) dieser Tests beschränken möchtest, kannst du dies tun, indem du die entsprechenden Tests in diesen Einstellungen deaktivierst.
 
-**Hinweis:** Wir werden häufig gefragt, ob Benutzer die Instant Messaging-App, die sie testen möchten, hinzufügen können (für benutzerdefinierte App-Tests mit OONI Probe). Leider ist dies nicht so einfach wie bei benutzerdefinierten Website-Tests (wo man eine beliebige URL zum Testen hinzufügen kann). App-Tests erfordern die Identifizierung aller Endpunkte der betreffenden Anwendung und die Bestimmung der besten Methode zur Messung der Erreichbarkeit dieser spezifischen Anwendung. Dies ist von Anwendung zu Anwendung unterschiedlich, und in die Erstellung jedes OONI Probe Instant Messaging-App-Tests fließt eine ganze Menge Entwicklungsarbeit ein. Aus diesem Grund haben wir derzeit nur einige wenige Tests für Instant Messaging-Anwendungen, und die [Methodik](https://ooni.org/nettest/) der einzelnen Tests variiert. Wir haben der Entwicklung von Tests für Instant Messaging-Apps Priorität eingeräumt, die (a) weltweit häufig blockiert werden und (b) viele Anfragen aus der Community erhalten haben. Wenn es andere Instant-Messaging-Anwendungen gibt, für die wir deiner Meinung nach vorrangig Tests durchführen sollten, lass es uns bitte [wissen](https://ooni.org/about/#contact).
+**Hinweis:** Wir werden häufig gefragt, ob Benutzer die Instant Messaging-App, die sie testen möchten, hinzufügen können (für benutzerdefinierte App-Tests mit OONI Probe). Leider ist dies nicht so einfach wie bei benutzerdefinierten Website-Tests (wo man eine beliebige URL zum Testen hinzufügen kann). App-Tests erfordern die Identifizierung aller Endpunkte der betreffenden Anwendung und die Bestimmung der besten Methode zur Messung der Erreichbarkeit dieser spezifischen Anwendung. Dies ist von Anwendung zu Anwendung unterschiedlich, und in die Erstellung jedes OONI Probe Instant Messaging-App-Tests fließt eine ganze Menge Entwicklungsarbeit ein. Aus diesem Grund haben wir derzeit nur einige wenige Tests für Instant Messaging-Anwendungen, und die [Methodik](https://ooni.org/nettest/) der einzelnen Tests variiert. Wir haben der Entwicklung von Tests für Instant Messaging-Apps Priorität eingeräumt, die (a) weltweit häufig blockiert werden und (b) viele Anfragen aus der Community erhalten haben. Wenn es andere Instant-Messaging-Anwendungen gibt, für die wir deiner Meinung nach vorrangig Tests durchführen sollten, lass es uns bitte [wissen](https://ooni.org/about/contact).
 
 #### Umgehung
 
@@ -940,7 +940,7 @@ Du wirst nun die 2 Tests (für [Psiphon](https://ooni.org/nettest/psiphon/) und 
 
 Wenn du deine Tests auf einen (oder keinen) dieser Tests beschränken möchtest, kannst du das tun, indem du die entsprechenden Tests in diesen Einstellungen deaktivierst.
 
-**Hinweis:** Wir werden manchmal gefragt, ob Benutzer das Umgehungstool, das sie testen möchten, hinzufügen können (für kundenspezifische VPN-Tests mit OONI Probe). Leider ist dies nicht so einfach wie bei benutzerdefinierten Website-Tests (wo du jede URL zum Testen hinzufügen kannst). App-Tests erfordern die Identifizierung aller Endpunkte der betreffenden Anwendung und die Bestimmung der besten Methode zur Messung der Erreichbarkeit dieser spezifischen Anwendung. Dies ist von Anwendung zu Anwendung unterschiedlich, und in die Erstellung jedes OONI Probe-Umgehungstests fließt eine Menge Entwicklungsarbeit ein. Aus diesem Grund gibt es derzeit nur wenige Umgehungstests, und die [Methodik](https://ooni.org/nettest/) der einzelnen Tests ist unterschiedlich. Wir haben der Entwicklung von Tests Priorität eingeräumt, wenn es möglich ist, mit Entwicklern von Umgehungstools zusammenzuarbeiten. Wenn es andere Umgehungstools gibt, für die wir deiner Meinung nach vorrangig Tests entwickeln sollten, lass es uns bitte [wissen](https://ooni.org/about/#contact).
+**Hinweis:** Wir werden manchmal gefragt, ob Benutzer das Umgehungstool, das sie testen möchten, hinzufügen können (für kundenspezifische VPN-Tests mit OONI Probe). Leider ist dies nicht so einfach wie bei benutzerdefinierten Website-Tests (wo du jede URL zum Testen hinzufügen kannst). App-Tests erfordern die Identifizierung aller Endpunkte der betreffenden Anwendung und die Bestimmung der besten Methode zur Messung der Erreichbarkeit dieser spezifischen Anwendung. Dies ist von Anwendung zu Anwendung unterschiedlich, und in die Erstellung jedes OONI Probe-Umgehungstests fließt eine Menge Entwicklungsarbeit ein. Aus diesem Grund gibt es derzeit nur wenige Umgehungstests, und die [Methodik](https://ooni.org/nettest/) der einzelnen Tests ist unterschiedlich. Wir haben der Entwicklung von Tests Priorität eingeräumt, wenn es möglich ist, mit Entwicklern von Umgehungstools zusammenzuarbeiten. Wenn es andere Umgehungstools gibt, für die wir deiner Meinung nach vorrangig Tests entwickeln sollten, lass es uns bitte [wissen](https://ooni.org/about/contact).
 
 #### Leistung
 

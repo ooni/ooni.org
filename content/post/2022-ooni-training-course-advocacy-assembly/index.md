@@ -207,7 +207,7 @@ you feel empowered to actively participate in OONI censorship
 measurement research and to share your OONI skills and knowledge with
 others!
 
-If you have any questions, please feel encouraged to [reach out](https://ooni.org/about/#contact) to us. You can also reach us on
+If you have any questions, please feel encouraged to [reach out](https://ooni.org/about/contact) to us. You can also reach us on
 the [OONI Slack channel](https://slack.ooni.org/) for real-time
 communication.
 

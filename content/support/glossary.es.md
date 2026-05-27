@@ -629,4 +629,4 @@ Documento original:
 
 Este glosario contiene *breves explicaciones* de los términos utilizados en las aplicaciones, metodologías e informes de investigación de OONI.
 
-Si desea incluir más términos en este glosario, envíenos [una solicitud](https://github.com/ooni/ooni.org) o un [correo electrónico.](https://ooni.org/about/#contact)
+Si desea incluir más términos en este glosario, envíenos [una solicitud](https://github.com/ooni/ooni.org) o un [correo electrónico.](https://ooni.org/about/contact)

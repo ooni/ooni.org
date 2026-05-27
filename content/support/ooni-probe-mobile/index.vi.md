@@ -826,7 +826,7 @@ Xem dữ liệu đo lường thô có thể hữu ích vì:
 
 Nhật ký là một tập tin ghi lại cách một phần mềm chạy như thế nào. Trong khuôn khổ của OONI Probe, mỗi kết quả kiểm tra có một nhật ký, ghi lại kiểm tra đó chạy như thế nào trong một mạng đặc trưng. Dữ liệu này chỉ có nếu bạn bật mở tùy chọn **Nhật ký gỡ lỗi**. Để kiểm xem tùy chọn này có bật mở lên không, xin vào menu **Nâng cao** trong phần **Thiết đặt**.
 
-Có thể hữu ích để truy cập nhật ký của một kết quả kiểm tra của OONI Probe nếu có lỗi hoặc kiểm tra không chạy được như dự định. Trong trường hợp này, bạn có thể chia sẻ nhật ký thích hợp với [đội ngũ OONI](https://ooni.org/about/#contact) để giúp chúng tôi **gỡ lỗi** của vấn đề.
+Có thể hữu ích để truy cập nhật ký của một kết quả kiểm tra của OONI Probe nếu có lỗi hoặc kiểm tra không chạy được như dự định. Trong trường hợp này, bạn có thể chia sẻ nhật ký thích hợp với [đội ngũ OONI](https://ooni.org/about/contact) để giúp chúng tôi **gỡ lỗi** của vấn đề.
 
 ## Cấu hình thiết đặt của OONI Probe
 
@@ -842,7 +842,7 @@ Trong các mục sau đây, chúng tôi sẽ hướng dẫn bạn qua từng thi
 
 ### Thông báo
 
-Nếu bạn dùng OONI Probe trong điện thoại **Android**, bạn có thể bật mở **thông báo đẩy** để nhận tin nhắn từ [đội ngũ OONI](https://ooni.org/about/#contact).
+Nếu bạn dùng OONI Probe trong điện thoại **Android**, bạn có thể bật mở **thông báo đẩy** để nhận tin nhắn từ [đội ngũ OONI](https://ooni.org/about/contact).
 
 Chúng tôi chủ yếu gửi thông báo ra khi được biết có kiểm duyệt ở một quốc gia riêng biệt, để khuyến khích người dùng OONI Probe ở quốc gia đó kiểm tra các dịch vụ được tin là bị chặn (hay dường như bị chặn dựa vào [đo lường của OONI](https://explorer.ooni.org/vi)). Nói chung, chúng tôi không gửi thông báo đẩy ra quá nhiều.
 
@@ -924,7 +924,7 @@ Bạn sẽ thấy 4 kiểm tra (cho [WhatsApp](https://ooni.org/nettest/whatsapp
 
 Nếu muốn giới hạn việc kiểm tra vào một vài (hoặc không) kiểm tra, bạn có thể tắt kiểm tra nào bạn muốn trong các phần thiết đặt này.
 
-**Ghi chú:** Chúng tôi thường được hỏi là người dùng có thể thêm ứng dụng tin nhắn nhanh họ muốn kiểm tra (cho việc tùy chỉnh kiểm tra ứng dụng với OONI Probe). Rất tiếc là điều này không đơn giản như việc tùy chỉnh kiểm tra các trang web (nơi bạn có thể thêm bất cứ URL nào để kiểm tra). Kiểm tra ứng dụng đòi hỏi phải nhận diện tất cả các điểm cuối của ứng dụng đó, và xác định cách nào tốt nhất để đo lường tầm với tới của ứng dụng đó. Việc này thay đổi từ ứng dụng này qua ứng dụng nọ, và tốn khá nhiều công sức để tạo ra các kiểm tra ứng dụng tin nhắn nhanh. Vì thế mà tại sao chúng tôi hiện chỉ có kiểm tra vài ứng dụng tin nhắn nhanh phổ biến nhất, và [phương pháp](https://ooni.org/nettest/) của mỗi kiểm tra cũng khác biệt. Chúng tôi ưu tiên để soạn thảo kiểm tra cho các ứng dụng tin nhắn nhanh nào mà (a) thường bị chặn trên thế giới, và (b) nhận được nhiều yêu cầu nhất từ cộng đồng. Nếu có những ứng dụng tin nhắn nhanh nào khác mà bạn nghĩ là chúng tôi nên ưu tiên kiểm tra, xin [cho chúng tôi biết](https://ooni.org/about/#contact).
+**Ghi chú:** Chúng tôi thường được hỏi là người dùng có thể thêm ứng dụng tin nhắn nhanh họ muốn kiểm tra (cho việc tùy chỉnh kiểm tra ứng dụng với OONI Probe). Rất tiếc là điều này không đơn giản như việc tùy chỉnh kiểm tra các trang web (nơi bạn có thể thêm bất cứ URL nào để kiểm tra). Kiểm tra ứng dụng đòi hỏi phải nhận diện tất cả các điểm cuối của ứng dụng đó, và xác định cách nào tốt nhất để đo lường tầm với tới của ứng dụng đó. Việc này thay đổi từ ứng dụng này qua ứng dụng nọ, và tốn khá nhiều công sức để tạo ra các kiểm tra ứng dụng tin nhắn nhanh. Vì thế mà tại sao chúng tôi hiện chỉ có kiểm tra vài ứng dụng tin nhắn nhanh phổ biến nhất, và [phương pháp](https://ooni.org/nettest/) của mỗi kiểm tra cũng khác biệt. Chúng tôi ưu tiên để soạn thảo kiểm tra cho các ứng dụng tin nhắn nhanh nào mà (a) thường bị chặn trên thế giới, và (b) nhận được nhiều yêu cầu nhất từ cộng đồng. Nếu có những ứng dụng tin nhắn nhanh nào khác mà bạn nghĩ là chúng tôi nên ưu tiên kiểm tra, xin [cho chúng tôi biết](https://ooni.org/about/contact).
 
 #### Vượt thoát kiểm duyệt
 
@@ -940,7 +940,7 @@ Bạn sẽ thấy 2 kiểm tra (cho [Psiphon](https://ooni.org/nettest/psiphon/)
 
 Nếu muốn giới hạn việc kiểm tra vào một vài (hoặc không) kiểm tra, bạn có thể tắt kiểm tra nào bạn muốn trong các phần thiết đặt này.
 
-**Ghi chú:** Chúng tôi thường được hỏi là người dùng có thể thêm công cụ vượt thoát kiểm duyệt họ muốn kiểm tra (cho việc tùy chỉnh kiểm tra VPN với OONI Probe). Rất tiếc là điều này không đơn giản như việc tùy chỉnh kiểm tra các trang web (nơi bạn có thể thêm bất cứ URL nào để kiểm tra). Kiểm tra ứng dụng đòi hỏi phải nhận diện tất cả các điểm cuối của ứng dụng đó, và xác định cách nào tốt nhất để đo lường tầm với tới của ứng dụng đó. Việc này thay đổi từ ứng dụng này qua ứng dụng nọ, và tốn khá nhiều công sức để tạo ra các kiểm tra công cụ vượt thoát. Vì thế mà tại sao chúng tôi hiện chỉ có kiểm tra vài công cụ vượt thoát phổ biến nhất, và [phương pháp](https://ooni.org/nettest/) của mỗi kiểm tra cũng khác biệt. Chúng tôi ưu tiên để soạn thảo kiểm tra khi có thể cùng cộng tác với nhóm phát triển công cụ vượt thoát. Nếu có những công cụ vượt thoát nào khác mà bạn nghĩ là chúng tôi nên ưu tiên kiểm tra, xin [cho chúng tôi biết](https://ooni.org/about/#contact).
+**Ghi chú:** Chúng tôi thường được hỏi là người dùng có thể thêm công cụ vượt thoát kiểm duyệt họ muốn kiểm tra (cho việc tùy chỉnh kiểm tra VPN với OONI Probe). Rất tiếc là điều này không đơn giản như việc tùy chỉnh kiểm tra các trang web (nơi bạn có thể thêm bất cứ URL nào để kiểm tra). Kiểm tra ứng dụng đòi hỏi phải nhận diện tất cả các điểm cuối của ứng dụng đó, và xác định cách nào tốt nhất để đo lường tầm với tới của ứng dụng đó. Việc này thay đổi từ ứng dụng này qua ứng dụng nọ, và tốn khá nhiều công sức để tạo ra các kiểm tra công cụ vượt thoát. Vì thế mà tại sao chúng tôi hiện chỉ có kiểm tra vài công cụ vượt thoát phổ biến nhất, và [phương pháp](https://ooni.org/nettest/) của mỗi kiểm tra cũng khác biệt. Chúng tôi ưu tiên để soạn thảo kiểm tra khi có thể cùng cộng tác với nhóm phát triển công cụ vượt thoát. Nếu có những công cụ vượt thoát nào khác mà bạn nghĩ là chúng tôi nên ưu tiên kiểm tra, xin [cho chúng tôi biết](https://ooni.org/about/contact).
 
 #### Hiệu suất
 

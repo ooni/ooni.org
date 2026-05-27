@@ -142,7 +142,7 @@ freedom community.
 
 We encourage other projects to consider integrating OONI Probe as well!
 If you are interested in **integrating OONI Probe into your platform**,
-please start off by [reaching out to the OONI team](https://ooni.org/about/#contact). You can send an email to
+please start off by [reaching out to the OONI team](https://ooni.org/about/contact). You can send an email to
 `contact@openobservatory.org`, and/or message us on the [OONI Slack channel](https://slack.ooni.org/). We would love to be in touch with
 you to discuss which integration approaches would work best based on the
 architecture of your platform, and so that we can coordinate on an
