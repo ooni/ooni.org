@@ -1,14 +1,9 @@
 ---
 title: Install OONI Probe CLI
+description: How to install the OONI Probe command-line client on Debian/Ubuntu Linux or macOS.
+layout: cli
 platform: cli
+aliases:
+  - /install/cli/ubuntu-debian
+  - /install/cli/macos
 ---
-
-To install OONI Probe on the command line, follow the installation instructions for the platforms below:
-
-* **[Debian/Ubuntu](/install/cli/ubuntu-debian)**
-
-* **[macOS](/install/cli/macos)**
-
-Upon installation, OONI Probe will run tests automatically every day!
-
-For in depth usage instructions, check out the [OONI Probe CLI user guide](/support/ooni-probe-cli).

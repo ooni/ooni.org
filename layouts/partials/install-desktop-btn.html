@@ -1,0 +1,15 @@
+{{/*
+  Renders a download button for the OONI Probe desktop release.
+  Params: id, filePrefix, ext, text
+
+  Pulls the latest tag from the probe-multiplatform GitHub releases.
+*/}}
+{{ $version := slicestr (index (unmarshal (resources.GetRemote "https://api.github.com/repos/ooni/probe-multiplatform/releases/latest")) "tag_name") 1 }}
+{{ if not (findRE `[0-9]+\.[0-9]+\.[0-9]+` $version) }}
+  {{ errorf "Invalid version string for probe-multiplatform: %s" $version }}
+{{ end }}
+<a id="{{ .id }}"
+   href="https://github.com/ooni/probe-multiplatform/releases/download/v{{ $version }}/{{ .filePrefix }}-{{ $version }}.{{ .ext }}"
+   class="ooni-desktop-btn block rounded-md bg-ooniblue px-4 py-2.5 text-center text-sm font-semibold text-white transition-colors hover:bg-blue7">
+  {{ .text }}
+</a>
