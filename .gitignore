@@ -5,3 +5,4 @@
 # TODO maybe add this to the repo as suggested by the hugo docs
 /resources
 .hugo_build.lock
+biome.json
