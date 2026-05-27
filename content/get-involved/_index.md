@@ -118,7 +118,7 @@ sections:
         url: "https://api.ooni.io/"
       - name: "Bulk data (S3)"
         description: "Fetch OONI measurements for batch analysis."
-        url: "/post/mining-ooni-data"
+        url: "https://docs.ooni.org/data/"
       - name: "Data analysis tutorial"
         description: "Guide to analyzing OONI data (case study: Russia)"
         url: "https://ooni.org/notebooks/tutorial-russia-data-analysis-case-study.html"
@@ -130,9 +130,9 @@ sections:
   - id: code
     title: "Code"
     tagline: "Review and contribute OONI code"
-    intro: "All OONI source code is open and available on GitHub. Whether you want to contribute a bug fix or write a new OONI Probe test — we welcome contributions."
+    intro: "All OONI source code is open and available on GitHub. Whether you want to contribute a bug fix, help develop a feature, or write a new OONI Probe test — we welcome contributions."
     links:
-      - name: "GitHub organization"
+      - name: "GitHub"
         description: "All OONI repositories, issues, and pull requests."
         url: "https://github.com/ooni"
       - name: "OONI Probe CLI"
