@@ -15,18 +15,18 @@ In this blog post, we discuss our **existing and upcoming new methods** for dete
 ### Table of contents
 
 - [Existing metrics and heuristics](#existing-metrics-and-heuristics)
-  - [Approach & Methodology](#approach-&-methodology)
-  - [Assessment & Findings](#assessment-&-findings)
+  - [Approach & Methodology](#approach-and-methodology)
+  - [Assessment & Findings](#assessment-and-findings)
     - [IP geolocation mismatches](#ip-geolocation-mismatches)
     - [Measurement volume anomalies](#measurement-volume-anomalies)
     - [Timestamp inconsistencies](#timestamp-inconsistencies)
-    - [Probe OS, version metadata inconsistencies](#probe-os,-version-metadata-inconsistencies)
+    - [Probe OS, version metadata inconsistencies](#probe-os-version-metadata-inconsistencies)
 - [New heuristics](#new-heuristics)
 - [Strategies for mitigating faulty measurements](#strategies-for-mitigating-faulty-measurements)
   - [Overview](#overview)
   - [Anonymous credentials component](#anonymous-credentials-component)
   - [Mitigation steps](#mitigation-steps)
-  - [Trade-offs for usability and efficiency (not in MVP release)](#trade-offs-for-usability-and-efficiency-(not-in-mvp-release))
+  - [Trade-offs for usability and efficiency (not in MVP release)](#trade-offs-for-usability-and-efficiency-not-in-mvp-release)
 - [Assessing the effectiveness of the solution](#assessing-the-effectiveness-of-the-solution)
   - [Problem statement](#problem-statement)
   - [Naive solution](#naive-solution)
@@ -40,7 +40,7 @@ We start by seeing if we can identify faulty measurements using simple heuristic
 
 Through this baseline we will then be able to assess how to improve upon it by introducing the OONI Probe anonymous credentials system.
 
-## Approach & Methodology {#approach-&-methodology}
+## Approach & Methodology {#approach-and-methodology}
 
 To determine whether faulty measurements can be identified, we will analyze existing OONI data using a set of simple heuristics. These heuristics are designed to detect inconsistencies in measurement metadata and results.
 
@@ -57,7 +57,7 @@ The key approaches include:
 
 These heuristics can be used in combination with each other to support or disprove one or another hypothesis. As we make progress on this work, we should take note of specific examples and use them to inform the future iterations of the project. The above features will be used to look at existing data that’s already collected, but in some cases may require adding support for extracting missing features in a privacy preserving way. These features can then be used to either limit submissions from misconfigured or potentially malicious probes or flag the measurements as such when exposing them to end users inside of platforms such as [OONI Explorer](https://explorer.ooni.org/).
 
-## Assessment & Findings {#assessment-&-findings}
+## Assessment & Findings {#assessment-and-findings}
 
 ### IP geolocation mismatches {#ip-geolocation-mismatches}
 
@@ -288,7 +288,7 @@ After excluding venezuelan anomalies from the previous charts, we get the follow
 ![][image16]![][image17]![][image18]  
  As we can see, Linux anomalies go down significantly while everything else stays nearly the same. So these anomalies were only affecting Linux metrics.
 
-### Probe OS, version metadata inconsistencies {#probe-os,-version-metadata-inconsistencies}
+### Probe OS, version metadata inconsistencies {#probe-os-version-metadata-inconsistencies}
 
 We first focused on looking for the most blatant inconsistencies between software name and platform, things like software\_name \= ooniprobe-android, platform \= ios. The following table shows a summary of what we found:
 
@@ -397,7 +397,7 @@ The other kind of restriction might be that of explicitly blocking a particular 
 
 Regarding the presentation layer, we may similarly use these features to present measurements from blocked probes or less trustworthy probes different in sites like OONI Explorer. This might additionally feed into our measurement analysis engine so that measurements from these probes are ignored.
 
-## Trade-offs for usability and efficiency (not in MVP release) {#trade-offs-for-usability-and-efficiency-(not-in-mvp-release)}
+## Trade-offs for usability and efficiency (not in MVP release) {#trade-offs-for-usability-and-efficiency-not-in-mvp-release}
 
 - Old public parameters and old OONI versions can still be supported after key rotation happens, maybe trading off some security levels of older probes, but still support collecting the data.  
   Important for security: changing the PRF will change the NYM of the users.  
