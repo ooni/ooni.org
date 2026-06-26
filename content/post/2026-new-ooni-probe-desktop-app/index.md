@@ -13,13 +13,14 @@ If you're a user of the OONI Probe desktop application, you might have felt it w
 
 If you already have the old app installed, and it hasn’t auto-updated yet, you can open it to ensure you get the latest version. The new version starts at version *6.0.1*.
 
-What is the OONI Probe?
+What is OONI Probe?
 
 OONI Probe is a free and open source tool that we have built since 2012, designed to [measure various forms of internet censorship](https://ooni.org/nettest/). To enable communities worldwide to run OONI Probe and contribute measurements (which are published as [open data](https://ooni.org/data/) in real-time), we have made OONI Probe available for both mobile and desktop platforms. Specifically, OONI Probe is available for [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe), [F-Droid](https://f-droid.org/repository/browse/?fdid=org.openobservatory.ooniprobe), [iOS](https://itunes.apple.com/us/app/id1199566366), [Windows](https://ooni.org/install/desktop) and [macOS](https://ooni.org/install/desktop).
 
-What are the new features of the new desktop app?
+What are the **new features** of the new desktop app?
 
-* **New dashboard screen** with stats about your measurement results and a new “**OONI News**” section with the latest censorship reports and announcements
+* **New dashboard screen** with stats about your measurement results 
+* New “**OONI News**” section with the latest censorship reports and announcements
 * Support for [OONI Run](https://run.ooni.org/) links
 * More control of what tests to run and when
 * Ability to filter results for better understanding
