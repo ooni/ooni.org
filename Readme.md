@@ -70,5 +70,3 @@ To run the end-to-end integration tests:
 yarn install
 yarn run cypress open
 ```
-
-test
