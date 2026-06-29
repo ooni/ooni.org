@@ -28,6 +28,7 @@ This is the canonical source for the OONI website, reachable at:
  
 * https://ooni.org
 * https://openobservatory.github.io
+  
 If you have trouble accessing the website, contact us at contact [at] openobservatory.org.
  
 ### Contributing articles
