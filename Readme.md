@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/ooni/design-system/refs/heads/master/svgs/logos/OONI-HorizontalColor.svg" width="422px" />
 
-# OONI - the Open Observatory of Network Interference
+# OONI - Open Observatory of Network Interference
  
 OONI increases the transparency of internet censorship around the world.
  
@@ -37,6 +37,7 @@ If you have trouble accessing the website, contact us at contact [at] openobserv
 2. Add your post to the `content/post/` directory.
 3. Submit a pull request.
 4. Wait for review and merge to `master` — or, if you have access, merge it yourself.
+
 ### Building locally
  
 #### Dependencies
@@ -44,9 +45,8 @@ If you have trouble accessing the website, contact us at contact [at] openobserv
 Building the website manually requires:
  
 * [Hugo](https://github.com/spf13/hugo/)
-* [ooni-probe](https://github.com/TheTorProject/ooni-probe)
-* [Sphinx](http://www.sphinx-doc.org/en/stable/), used to build the ooni-probe docs
-Exact versions are codified in the canonical build procedure in [travis.yml](./travis.yml).
+
+Exact versions are codified in the canonical build procedure in the [github actions workflows](./github/workflows/main.yml).
  
 #### Running locally
  
