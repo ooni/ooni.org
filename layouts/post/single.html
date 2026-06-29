@@ -1,4 +1,37 @@
 {{ define "main" }}
+{{/* Structured data for Google Search */}}
+{{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+{{- $authors := slice -}}
+{{- range (split (.Params.author | default "") ", ") -}}
+  {{- with (trim . " ") }}{{ $authors = $authors | append (dict "@type" "Person" "name" .) }}{{ end -}}
+{{- end -}}
+{{- $description := .Description -}}
+{{- if eq $description "" }}{{ $description = .Summary | plainify | chomp }}{{ end -}}
+{{- $imageURL := partial "get-image-url.html" . -}}
+{{- $schemaType := cond (in .Params.categories "report") "Article" "BlogPosting" -}}
+{{- $schema := dict
+  "@context" "https://schema.org"
+  "@type" $schemaType
+  "headline" .Title
+  "description" $description
+  "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+  "url" .Permalink
+  "datePublished" (.Date.Format $iso8601)
+  "inLanguage" .Lang
+  "publisher" (dict
+    "@type" "Organization"
+    "name" "Open Observatory of Network Interference (OONI)"
+    "url" .Site.BaseURL
+    "logo" (dict "@type" "ImageObject" "url" (absURL "images/ooni-logo.svg")))
+-}}
+{{- if $authors }}{{ $schema = merge $schema (dict "author" $authors) }}{{ end -}}
+{{- if not .Lastmod.IsZero }}{{ $schema = merge $schema (dict "dateModified" (.Lastmod.Format $iso8601)) }}{{ end -}}
+{{- with $imageURL }}{{ $schema = merge $schema (dict "image" .) }}{{ end -}}
+<script type="application/ld+json">
+{{ jsonify (dict "indent" "  ") $schema | safeJS }}
+</script>
+
+
 <main class="container mt-6 post-container">
   <article class="font-serif">
     <header>
