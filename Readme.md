@@ -1,5 +1,6 @@
 <img src="https://raw.githubusercontent.com/ooni/design-system/refs/heads/master/svgs/logos/OONI-HorizontalColor.svg" width="422px" />
-# OONI — the Open Observatory of Network Interference
+
+# OONI - the Open Observatory of Network Interference
  
 OONI increases the transparency of internet censorship around the world.
  
