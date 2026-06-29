@@ -2,7 +2,7 @@
 title: "Collateral Damage of IP-Based Blocking During LALIGA Football Streaming in Spain: Evidence from OONI Measurements"
 description: "This report documents the widespread collateral damage caused by IP-based blocking during LALIGA football match broadcasts in Spain, based on OONI data and DNS scans."
 author: "Arturo Filastò (OONI), Maria Xynou (OONI), Mehul Gulati (OONI)"
-date: "2026-06-29"
+date: "2026-06-30"
 tags: ["country-es", "censorship", "theme-circumvention", "theme-human_rights", "theme-news_media", "theme-im"]
 categories: ["report"]
 ---
