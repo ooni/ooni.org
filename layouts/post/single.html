@@ -2,7 +2,8 @@
 {{/* Structured data for Google Search */}}
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
 {{- $authors := slice -}}
-{{- range (split (.Params.author | default "") ", ") -}}
+{{- /* Split on commas, but keep parenthetical roles (which may contain commas) attached to the author */ -}}
+{{- range (findRE `[^,(]+(?:\([^)]*\))?` (.Params.author | default "")) -}}
   {{- with (trim . " ") }}{{ $authors = $authors | append (dict "@type" "Person" "name" .) }}{{ end -}}
 {{- end -}}
 {{- $description := .Description -}}
@@ -37,7 +38,7 @@
     <header>
       <h1 class="article-title">{{ .Title }}</h1>
       <p class="byline">
-        {{ with .Params.author }}<span class="author" rel="author">{{ . }}</span>{{ end }}
+        {{ with .Params.author }}<span class="author" rel="author">{{ . }},</span>{{ end }}
         {{ if and (eq .Date.Hour 0) (eq .Date.Minute 0) }}
         <time class="date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
         {{ else }}

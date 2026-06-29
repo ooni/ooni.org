@@ -413,10 +413,6 @@
 		font-size: 0.8rem;
 	}
 
-	.byline .author::after {
-		content: ", ";
-	}
-
 	.lead {
 		font-size: 1.75em;
 	}
