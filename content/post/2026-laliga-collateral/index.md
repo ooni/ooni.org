@@ -92,7 +92,7 @@ Specifically, we examine the following main research questions:
 
 To examine the above research questions, we analyzed [OONI data](https://ooni.org/data) collected from Spain and we performed [DNS scans](https://github.com/zmap/zdns). As part of OONI data analysis, we **extracted and analyzed TCP reachability and TLS measurements** from [Web Connectivity](https://github.com/ooni/spec/blob/master/nettests/ts-017-web-connectivity.md) measurements performed in Spain. To identify blocked IPs, we analyzed [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity) collected from Spain between **1st January 2026 to 1st June 2026**. To identify affected domains, we performed DNS scans (using [ZDNS](https://github.com/zmap/zdns)) against a target list of **9.2 million domains**.
 
-The data analysis we formed for this study is available **[here](https://gist.github.com/hellais/a43e2816178e4c310f5e19dec02d1954#file-20260626-ooni-laliga-final-ipynb)**.
+The data analysis we performed for this study is available **[here](https://gist.github.com/hellais/a43e2816178e4c310f5e19dec02d1954#file-20260626-ooni-laliga-final-ipynb)**.
 
 ### Identifying blocked IPs
 
@@ -196,7 +196,7 @@ As illustrated through the above table, there is quite some difference in how do
 
 This inversion between a provider's share of affected domains and its share of blocked IPs is shown directly in the chart below, where each network's domain share (left) is set against its IP share (right). Cloudflare dominates the left wing while barely registering on the right; Amazon does the reverse.
 
-{{<img src="images/image5.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image5.png">}}
 
 **Chart:** Share of affected domains (left) versus share of blocked IPs (right) for each provider.
 
@@ -225,7 +225,7 @@ SANs          : N/A
 
 Below we illustrate the timing of detection of a TLS MiTM event, alongside the number of affected ASes and the total number of affected IP addresses observed during each event.
 
-{{<img src="images/image2.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image2.png">}}
 
 **Chart:** Timing of blocking events alongside the number of affected ASes and affected IP addresses observed during each event (source: [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity)).
 
@@ -237,7 +237,7 @@ The two detection methods we use carry different evidentiary weight per observat
 
 For domains blocked at the TCP/IP level, below is a selection of domains affected by the block on 9th May 2026 during the LALIGA matches Elche vs. Alavés, Sevilla vs. Espanyol, Atlético Madrid vs. Celta Vigo, and Real Sociedad vs. Real Betis.
 
-{{<img src="images/image1.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image1.png">}}
 
 **Chart:** Unrelated websites being blocked in Spain on 9th May 2026 during the LALIGA football match broadcasts (source: [OONI data](https://explorer.ooni.org/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2026-05-09&until=2026-05-10&time_grain=hour&probe_cc=ES&axis_y=domain&domain=cronicaluz.es%2Creferendum.cat%2Camnesty.ie%2Camnestynews.de%2Camnesty.org.au%2Copusdei.es%2Cislamic-relief.com%2Chuman-rights-for-all.org%2Cmercycorps.org.uk%2Ccaritas.lt%2Ccaritas.org.ar%2Cgreenpeace.org.ar%2Cislamophobia-watch.com%2Cdiocese-braga.pt%2Ctribunale.bergamo.it%2Cfreerussia.eu%2C4freerussia.org%2Cuacrisis.org%2Csenate.gov.au%2Clapatilla.com)).
 
@@ -257,9 +257,9 @@ The TLS MitM signature observed on Digi Mobil (AS57269) is conclusive on its own
 * **Intended piracy-streaming targets.** The actual objects of enforcement, e.g. `rojadirectatv.global`, `futbollibreonline.com`, `librefutbol.su`, `pirlotvenhd.me`, `tarjetarojatv.blog`, `elitegoltv.blog`, `pelotalibretv2.pl`, and `v3.sportssonline.click`.
 * **Incidentally affected consumer services.** Linux Mint (`linuxmint.com`), Goodreads (`www.goodreads.com`), the IM+ (`plus.im`) and WeChat (`www.wechat.com`) messaging services, BYD (`www.byd.com`), Sina (`www.sina.com.cn`), Grindr's CDN (`cdns.grindr.com`), and the Polymarket prediction-market upload endpoint (`polymarket-upload.s3.us-east-2.amazonaws.com`).
 
-A full list of all domains found blocked as part of our analysis is available **[here](data/20260629-laliga-blocked-domain-list.txt)**.
+A full list of all **domains found blocked** as part of our analysis is available **[here](data/20260629-laliga-blocked-domain-list.txt)**.
 
-A full list of all affected IPs as part of our analysis is available **[here](data/20260629-all-affected-ips.csv)**
+A full list of all **affected IPs** as part of our analysis is available **[here](data/20260629-all-affected-ips.csv)**.
 
 ### Temporal coupling of blocking
 
@@ -279,37 +279,37 @@ The middle panel shows the count of unique IP addresses found to be blocked with
 
 This panel is essential for interpreting absences in the top two panels: a period with no observed blocking but with low `ip_cnt` and low `msmt_cnt` should not be read as confirmation that no blocking occurred, as it may simply mean that the relevant IPs were not being tested at that time. Conversely, a period with consistently high `ip_cnt` and no blocking detected provides stronger grounds for concluding enforcement was genuinely absent.
 
-{{<img src="images/image11.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image11.png">}}
 
 **Chart:** Comparison of blocked IPs with partially and fully blocked domains on Orange Espagne (AS12479) in Spain during the LALIGA football match broadcasts between January 2026 to June 2026 (source: [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity&probe_asn=AS12479)).
 
 Orange Espagne (illustrated above) records 103 measurement windows with over 400,000 domains blocked, spanning from 3rd January 2026 to 9th June 2026. We observe that **both full blocks and partial blocks co-occur throughout this period**, with one of the highest per-event IP counts in the dataset. The top panel, read against the match-time overlays, shows that blocking events align almost precisely with every LALIGA match window throughout the season, with **blocked domain counts reaching 477,965 in an hourly window**. Full blocks dominate (92 windows), but partial blocks also appear recurrently (11 windows), sometimes on the same match day, reflecting a blocked IP set that spans highly consolidated infrastructure, where one IP covers all of a domain's resolution set, alongside more distributed hosting where only a subset of IPs are confirmed to be blocked.
 
-{{<img src="images/image9.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image9.png">}}
 
 **Chart:** Comparison of blocked IPs with partially and fully blocked domains on Telefonica De Espana (AS3352) in Spain during the LALIGA football match broadcasts between January 2026 to June 2026 (source: [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity&probe_asn=AS3352)).
 
 Telefonica De Espana shows enforcement on almost every LALIGA match weekend from early January 2026 through to the finals in June 2026, with 144 measurement windows exceeding 400,000 blocked domains. The **total blocked domain counts** (counting both partial to complete) **reached up to 478,052 in a single hour**.
 
-{{<img src="images/image16.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image16.png">}}
 
 **Chart:** Comparison of blocked IPs with partially and fully blocked domains on Mas Orange (AS12334) in Spain during the LALIGA football match broadcasts between January 2026 to June 2026 (source: [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity&probe_asn=AS12334)).
 
 In contrast, Mas Orange (depicted above) shows minimal activity through the first quarter of the year before a marked shift from late March 2026 onwards, when both full and partial block events begin reaching above 400,000 domains per window. The concentration of high-impact events in April 2026 and May 2026 mirrors patterns seen on other operators during the closing weeks of the LALIGA season, consistent with match frequency increasing toward the end of the campaign. Per-event IP counts peak at around 7. Overall, blocking enforcement on Mas Orange **escalates sharply in the second half of the season**, with full and partial blocks reaching maximum scale simultaneously.
 
-{{<img src="images/image13.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image13.png">}}
 
 **Chart:** Comparison of blocked IPs with partially and fully blocked domains on Vodafone Espana (AS12430) in Spain during the LALIGA football match broadcasts between January 2026 to June 2026 (source: [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity&probe_asn=AS12430)).
 
 Vodafone Espana applies IP-level blocks at irregular intervals across the LALIGA season, each time producing full-block events affecting over 400,000 domain names. No partial blocks are recorded, consistent with enforcement targeting consolidated infrastructure, such as Cloudflare IPs, where a single blocked address covers the complete resolution set of many domains. Per-event IP counts remain very low, typically 2–6 addresses. Overall, we observe **irregular but high-impact blocking enforcement** on Vodafone Espana, as every blocking event fully disrupts over 400,000 domains.
 
-{{<img src="images/image4.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image4.png">}}
 
 **Chart:** Comparison of blocked IPs with partially and fully blocked domains on Vodafone ONO (AS6739) in Spain during the LALIGA football match broadcasts between January 2026 to June 2026 (source: [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity&probe_asn=AS6739)).
 
 Vodafone ONO follows the broad pattern of Spain's major fixed-line operators: repeated full-block events affecting over 400,000 domains, tightly coupled to LALIGA matches, with no partial blocks observed throughout the period. Blocking activity is concentrated in late January, February, and mid-May 2026. Per-event IP counts peak at around 4, illustrating how a very small number of IP-level restrictions can produce collateral impact at an enormous scale.
 
-{{<img src="images/image3.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image3.png">}}
 
 **Chart:** Comparison of blocked IPs with partially and fully blocked domains on Mas Movil (AS15704) in Spain during the LALIGA football match broadcasts between January 2026 to June 2026 (source: [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity&probe_asn=AS15704)).
 
@@ -317,15 +317,15 @@ Blocking events on Mas Movil (illustrated above) are tightly coupled to LALIGA m
 
 In contrast, we observe reduced blocking consistency, frequency, and intensity on the networks shared through the charts below.
 
-{{<img src="images/image8.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image8.png">}}
 
 **Chart:** Comparison of blocked IPs with partially and fully blocked domains on Euskaltel (AS12338) in Spain during the LALIGA football match broadcasts between January 2026 to June 2026 (source: [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity&probe_asn=AS12338)).
 
-{{<img src="images/image12.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image12.png">}}
 
 **Chart:** Comparison of blocked IPs with partially and fully blocked domains on DigiMobil (AS57269) in Spain during the LALIGA football match broadcasts between January 2026 to June 2026 (source: [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity&probe_asn=AS57269)).
 
-{{<img src="images/image17.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image17.png">}}
 
 **Chart:** Comparison of blocked IPs with partially and fully blocked domains on RedIRIS (AS766) in Spain during the LALIGA football match broadcasts between January 2026 to June 2026 (source: [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity&probe_asn=AS766)).
 
@@ -339,31 +339,31 @@ A high `blocking_rate` indicates that the number of failed measurements substant
 
 In the charts below, we can see how most ISPs block the IP `188.114.97.5` just before the match start time and remove the block soon thereafter. This is observed on several networks – Telefonica De Espana (AS3352), Mas Movil (AS15704), Orange Espagne (AS12479), Vodafone Espana (AS12430), Mas Orange (AS12334), Vodafone ONI (AS6739), and Euskaltel (AS12338) – shared below.
 
-{{<img src="images/image19.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image19.png">}}
 
 **Chart:** OONI measurements on the blocking of IP `188.114.97.5` on Telefonica De Espana (AS3352) during LALIGA football matches between January 2026 to June 2026 (source: [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity&probe_asn=AS3352)).
 
-{{<img src="images/image18.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image18.png">}}
 
 **Chart:** OONI measurements on the blocking of IP `188.114.97.5` on Mas Movil (AS15704) during LALIGA football matches between January 2026 to June 2026 (source: [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity&probe_asn=AS15704)).
 
-{{<img src="images/image15.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image15.png">}}
 
 **Chart:** OONI measurements on the blocking of IP `188.114.97.5` on Orange Espagne (AS12479) during LALIGA football matches between January 2026 to June 2026 (source: [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity&probe_asn=AS12479)).
 
-{{<img src="images/image10.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image10.png">}}
 
 **Chart:** OONI measurements on the blocking of IP `188.114.97.5` on Vodafone Espana (AS12430) during LALIGA football matches between January 2026 to June 2026 (source: [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity&probe_asn=AS12430)).
 
-{{<img src="images/image14.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image14.png">}}
 
 **Chart:** OONI measurements on the blocking of IP `188.114.97.5` on Mas Orange (AS12334) during LALIGA football matches between January 2026 to June 2026 (source: [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity&probe_asn=AS12334)).
 
-{{<img src="images/image7.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image7.png">}}
 
 **Chart:** OONI measurements on the blocking of IP `188.114.97.5` on Vodafone ONO (AS6739) during LALIGA football matches between January 2026 to June 2026 (source: [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity&probe_asn=AS6739)).
 
-{{<img src="images/image6.png" title="OONI Explorer" alt="OONI Explorer">}}
+{{<img src="images/image6.png">}}
 
 **Chart:** OONI measurements on the blocking of IP `188.114.97.5` on Euskaltel (AS12338) during LALIGA football matches between January 2026 to June 2026 (source: [OONI data](https://explorer.ooni.org/search?since=2026-01-01&until=2026-06-01&failure=false&probe_cc=ES&test_name=web_connectivity&probe_asn=AS12338)).
 
