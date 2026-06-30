@@ -26,7 +26,6 @@ In this blog post, we discuss our **existing and upcoming new methods** for dete
   - [Overview](#overview)
   - [Anonymous credentials component](#anonymous-credentials-component)
   - [Mitigation steps](#mitigation-steps)
-  - [Trade-offs for usability and efficiency (not in MVP release)](#trade-offs-for-usability-and-efficiency-not-in-mvp-release)
 - [Assessing the effectiveness of the solution](#assessing-the-effectiveness-of-the-solution)
   - [Problem statement](#problem-statement)
   - [Naive solution](#naive-solution)
@@ -394,18 +393,6 @@ We might apply submission restrictions based on certain properties of probes (eg
 The other kind of restriction might be that of explicitly blocking a particular probe\_id, when we suspect the source of the bad data to be restricted to a single probe. These restrictions should probably also be time bound (so we don’t have to keep the list of bad probes forever), but since it’s much more specific it will not have such an impact on collecting measurements from unrelated probes.
 
 Regarding the presentation layer, we may similarly use these features to present measurements from blocked probes or less trustworthy probes different in sites like OONI Explorer. This might additionally feed into our measurement analysis engine so that measurements from these probes are ignored.
-
-## Trade-offs for usability and efficiency (not in MVP release) {#trade-offs-for-usability-and-efficiency-not-in-mvp-release}
-
-- Old public parameters and old OONI versions can still be supported after key rotation happens, maybe trading off some security levels of older probes, but still support collecting the data.  
-  Important for security: changing the PRF will change the NYM of the users.  
-  Changing the public parameters will NOT change the NYM of users.
-  
-- If the OONI servers are under pressure:
-  
-  - Credential verification can be batched. Some examples of batch techniques can be found e.g in [zkp](https://github.com/dalek-cryptography/zkp/blob/master/src/toolbox/verifier.rs#L123-L174). This change affects only the backend.
-  - Measurement count can be increased in a batched way, by adding another URL where the user can prove possession of the NYM attached to previous submissions.  
-    This change will affect the backed and the user code
 
 # **Assessing the effectiveness of the solution** {#assessing-the-effectiveness-of-the-solution}
 
