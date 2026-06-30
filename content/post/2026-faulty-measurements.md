@@ -152,8 +152,8 @@ That probably corresponds to users using a VPN operated by cloudflare, such as W
 As an initial exploration, we looked at the connection type for these faulty measurements, and we found the following:
 
 <div style="display: flex; gap: 10px; align-items: flex-start;">
-  <img src="/post/2026-faulty-measurements/image9.png" style="width: 45%; height: auto;" alt="Figure 1. connection type chart 1">
-  <img src="/post/2026-faulty-measurements/image2.png" style="width: 45%; height: auto;" alt="Figure 2. connection type chart 2">
+  <img src="/post/2026-faulty-measurements/image9.png" style="width: 45%; height: auto;" alt="Connection type chart 1">
+  <img src="/post/2026-faulty-measurements/image2.png" style="width: 45%; height: auto;" alt="Connection type chart 2">
 </div>
 
 Most of these measurements with unmatching CCs come from hosting connections, so it’s very likely that these measurements come from connections running through a VPN. In fact, if we look at the list of most common ISPs for `connection_type` \= hosting, we will see that most of them come from known VPN providers:
@@ -200,20 +200,20 @@ Specifically, we looked at the rate of measurements that were run per “probe\_
 
 Based on this, we found a whole class of software name strings which are not known to be used by official OONI Probe distributions that are submitted in a large volume of measurements per second.
 
-![Figure 3\. Anomaly related to software\_name \= ooniprobe-react-os.*](/post/2026-faulty-measurements/image13.png)  
-*Figure 3\. Anomaly related to software\_name \= ooniprobe-react-os.*
+![Anomaly related to software\_name \= ooniprobe-react-os.*](/post/2026-faulty-measurements/image13.png)  
+*Anomaly related to software\_name \= ooniprobe-react-os.*
 
 In the above chart we can see that, on a daily basis, a probe with software name ooniprobe-react-os (which is submitting measurements only for `probe_cc` \= CN) is sending us web\_connectivity measurements that appear to have been run at a rate of 200 measurements per minute (3 measurements per second) – which is quite unrealistic for the web\_connectivity test.
 
-![Figure 4. ECDF of test runtime with probe_cc = CN](/post/2026-faulty-measurements/image16.png)
+![ECDF of test runtime with probe_cc = CN](/post/2026-faulty-measurements/image16.png)
 This ECDF plot shows the distribution of the test runtime, comparing the runtime of measurements from ooniprobe-react-os against other measurements with `probe_cc` \= CN, and it seems like tests tend to run faster with ooniprobe-react-os.
 
 It’s surprising that the react measurements are faster than every other measurement given their volume. Having so many measurements in small windows of time should generate a network bottleneck, but that doesn’t seem to be the case.
 
 Another case which stands out is related to measurements coming from Myanmar. In this case the bursts are not so regular, but only happen at specific times. In the following chart we can see bursts of measurements at a rate of 200 per minute on 6th January 2025\.
 
-![Figure 5\. Burst of web\_connectivity measurements in Myanmar on January 6th, 2025\.*](/post/2026-faulty-measurements/image7.png)  
-*Figure 5\. Burst of web\_connectivity measurements in Myanmar on January 6th, 2025\.*
+![Burst of web\_connectivity measurements in Myanmar on January 6th, 2025\.*](/post/2026-faulty-measurements/image7.png)  
+*Burst of web\_connectivity measurements in Myanmar on January 6th, 2025\.*
 
 ### Timestamp inconsistencies {#timestamp-inconsistencies}
 
@@ -235,12 +235,12 @@ We also notice that most of the anomalies come from Linux and are mostly measure
 | macos | 906 | 0   | 906 | 3103961 | 0.03% |
 | linux | 185322 | 7908 | 193230 | 8947716 | 2.16% |
 
-![Figure 6. ECDF of delta time from the future by platform](/post/2026-faulty-measurements/image14.png)
+![ECDF of delta time from the future by platform](/post/2026-faulty-measurements/image14.png)
 
 
 The following chart shows the distribution of anomalies per software:  
 
-![Figure 7. Measurements per minute for MY_930](/post/2026-faulty-measurements/image5.png)
+![Measurements per minute for MY_930](/post/2026-faulty-measurements/image5.png)
 This is consistent with the platform chart, where we see that most of the anomalies come from Windows, Linux, and Android. Ooniprobe-cli and miniooni are used mostly in linux, while ooniprobe-desktop includes Windows and Linux.
 
 Usually timestamp inconsistencies come from:
@@ -251,38 +251,38 @@ Usually timestamp inconsistencies come from:
 And it’s worth noting that **measurements *from the past* include both of these categories, but measurements *from the future* include only the second one**. This is consistent with the volume of measurements that we see, where most timestamp anomalies are from the past.
 
 The following chart shows the ECDF of the amount of hours of difference for measurements from the past. As we can see, most anomalies are concentrated in the range between 1 and 35 hours:  
-![Figure 8. ECDF of the amount of hours of difference for measurements from the past](/post/2026-faulty-measurements/image1.png)
+![ECDF of the amount of hours of difference for measurements from the past](/post/2026-faulty-measurements/image1.png)
  And this one shows the ECDF of the amount of hours of difference for measurements from the future. In this case mostly concentrated in the range between 1 and 10 hours. Measurements from “the future” seem to be from the near future:
 
-![Figure 9. ECDF of the amount of hours of difference for measurements from the future](/post/2026-faulty-measurements/image19.png)
+![ECDF of the amount of hours of difference for measurements from the future](/post/2026-faulty-measurements/image19.png)
 
 Note that **only 0.82% of the sampled measurements showed timestamp anomalies**, as shown in the table above. So the vast majority of our measurements were submitted within 1h after the test started, timestamp anomalies are not a common issue. 
 
 The following chart shows the ECDF of time delta from the past by platform:
 
-![Figure 10. ECDF of time delta from the past by platform](/post/2026-faulty-measurements/image4.png)
+![ECDF of time delta from the past by platform](/post/2026-faulty-measurements/image4.png)
 
 And the following one shows the ECDF for measurements from the future:  
-![Figure 11. ECDF for measurements from the future](/post/2026-faulty-measurements/image6.png)
+![ECDF for measurements from the future](/post/2026-faulty-measurements/image6.png)
 IOS and Macos don’t even show up in this chart because there are no measurements from the future in any of those platforms.
 
-![Figure 12. Anomalies per country](/post/2026-faulty-measurements/image11.png)  
+![Anomalies per country](/post/2026-faulty-measurements/image11.png)  
 It’s worth noting that the majority of the measurements in the range 24h to 7d for the linux platform are coming from Venezuela. In the section below we show what the chart looks like without measurements from `probe_cc`=VE.  
-![Figure 13. Anomalies per country without Venezuela](/post/2026-faulty-measurements/image15.png)
+![Anomalies per country without Venezuela](/post/2026-faulty-measurements/image15.png)
 
 The following chart shows the distribution of anomalies per country:  
 <div style="display: flex; gap: 10px; align-items: flex-start;">
-  <img src="/post/2026-faulty-measurements/image3.png" style="width: 45%; height: auto;" alt="Figure 14. measurement volume anomaly chart 1">
-  <img src="/post/2026-faulty-measurements/image12.png" style="width: 45%; height: auto;" alt="Figure 15. measurement volume anomaly chart 2">
+  <img src="/post/2026-faulty-measurements/image3.png" style="width: 45%; height: auto;" alt="measurement volume anomaly chart 1">
+  <img src="/post/2026-faulty-measurements/image12.png" style="width: 45%; height: auto;" alt="measurement volume anomaly chart 2">
 </div>
 
 After investigating those anomalous measurements coming from Venezuela, we noticed that the vast majority of them came from the same ASN. We were able to contact our partners in the region generating these measurements and we found out that the devices connected to this ASN were inadvertently misconfigured with incorrect time zones. This is an example of how bad configuration can generate misleading measurements.
 
 Excluding venezuelan anomalies from the previous charts, we get the following distribution of anomalies per platform:
 
-![Figure 16. Linux anomalies per platform chart 1](/post/2026-faulty-measurements/image18.png)
-![Figure 17. Linux anomalies per platform chart 2](/post/2026-faulty-measurements/image17.png)
-![Figure 18. Linux anomalies per platform chart 3](/post/2026-faulty-measurements/image8.png)
+![Linux anomalies per platform chart 1](/post/2026-faulty-measurements/image18.png)
+![Linux anomalies per platform chart 2](/post/2026-faulty-measurements/image17.png)
+![Linux anomalies per platform chart 3](/post/2026-faulty-measurements/image8.png)
 
  As we can see, Linux anomalies go down significantly while everything else stays nearly the same. So these anomalies were only affecting Linux metrics.
 
@@ -458,7 +458,7 @@ Let’s go back to our previous problem statement and see how the anonymous cred
 
 - We notice an unexpected increase in the number of faulty measurements from the past:
 
-![Figure 19. Screenshot of our grafana dashboard to monitor the number of measurements with time anomalies](/post/2026-faulty-measurements/image10.png)
+![Screenshot of our grafana dashboard to monitor the number of measurements with time anomalies](/post/2026-faulty-measurements/image10.png)
 
 - After noticing this issue, someone can look at the top offending (`probe_cc`, asn) tuples and figure out if they have a specific pattern. For example, (XX, 1234\) is over represented
 - Then, we would set the following access rules in the manifest:
