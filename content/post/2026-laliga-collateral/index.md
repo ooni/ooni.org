@@ -7,14 +7,9 @@ tags: ["country-es", "censorship", "theme-circumvention", "theme-human_rights", 
 categories: ["report"]
 ---
 
-Since [February 2025](https://www.laliga.com/en-US/news/official-statement-in-relation-to-the-blocking-of-ips-during-the-recent-ea-sports-laliga-matchdays-linked-to-illegal-cloudflare-practices), Internet Servic
-e Providers (ISPs) in Spain have reportedly begun blocking specific IP addresses associated with alleged p
-iracy streaming services during LALIGA football match broadcasts. These blocking actions are implemented d
-uring live matches and are tied to court-authorized enforcement measures requested in relation to copyrigh
-t infringement.
+Since [February 2025](https://www.laliga.com/en-US/news/official-statement-in-relation-to-the-blocking-of-ips-during-the-recent-ea-sports-laliga-matchdays-linked-to-illegal-cloudflare-practices), Internet Service Providers (ISPs) in Spain have reportedly begun blocking specific IP addresses associated with alleged piracy streaming services during LALIGA football match broadcasts. These blocking actions are implemented during live matches and are tied to court-authorized enforcement measures requested in relation to copyright infringement.
 
-Because much of today’s internet relies on shared hosting and content delivery infrastructure, blocking s
-pecific IP addresses can result in [unintended collateral impact on unrelated services](https://vercel.com/blog/update-on-spain-and-laliga-blocks-of-the-internet) hosted on the same infrastructure.
+Because much of today’s internet relies on shared hosting and content delivery infrastructure, blocking specific IP addresses can result in [unintended collateral impact on unrelated services](https://vercel.com/blog/update-on-spain-and-laliga-blocks-of-the-internet) hosted on the same infrastructure.
 
 This report shares [OONI data](https://ooni.org/data) collected from Spain documenting these blocking events and their observed impact on the accessibility of legitimate websites.
 
