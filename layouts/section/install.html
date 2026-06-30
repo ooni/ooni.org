@@ -25,7 +25,7 @@
   "description" (or .Description .Site.Params.description)
   "image" (absURL "install/PhoneMockupIcon.png")
   "offers" (dict "@type" "Offer" "price" "0" "priceCurrency" "USD")
-  "publisher" (dict "@type" "Organization" "name" "Open Observatory of Network Interference (OONI)" "url" "https://ooni.org/")
+  "publisher" (dict "@id" "https://ooni.org/#organization")
   "downloadUrl" $downloads
 }}
 <script type="application/ld+json">
@@ -197,7 +197,7 @@
 {{ define "script" }}
 <script>
   /* Show only the relevant desktop download button when we can detect the OS */
-  (function () {
+  (() => {
     function getOS() {
       var ua = window.navigator.userAgent;
       var p = window.navigator.platform;
