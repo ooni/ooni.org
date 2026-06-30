@@ -19,11 +19,7 @@
   "url" .Permalink
   "datePublished" (.Date.Format $iso8601)
   "inLanguage" .Lang
-  "publisher" (dict
-    "@type" "Organization"
-    "name" "Open Observatory of Network Interference (OONI)"
-    "url" .Site.BaseURL
-    "logo" (dict "@type" "ImageObject" "url" (absURL "images/ooni-logo.svg")))
+  "publisher" (dict "@id" "https://ooni.org/#organization")
 -}}
 {{- if $authors }}{{ $schema = merge $schema (dict "author" $authors) }}{{ end -}}
 {{- if not .Lastmod.IsZero }}{{ $schema = merge $schema (dict "dateModified" (.Lastmod.Format $iso8601)) }}{{ end -}}

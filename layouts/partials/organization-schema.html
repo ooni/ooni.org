@@ -1,0 +1,35 @@
+{{- /* Site-wide organization structured data (schema.org NGO) for Google Search */ -}}
+{{- $org := dict
+  "@context" "https://schema.org"
+  "@type" "NGO"
+  "@id" "https://ooni.org/#organization"
+  "name" "Open Observatory of Network Interference (OONI)"
+  "alternateName" "OONI"
+  "url" "https://ooni.org/"
+  "logo" (absURL "images/logos/ooni-horizontal.svg")
+  "foundingDate" "2012"
+  "description" .Site.Params.description
+  "address" (dict
+    "@type" "PostalAddress"
+    "streetAddress" "via Baccio Baldini 12"
+    "postalCode" "00146"
+    "addressLocality" "Rome"
+    "addressCountry" "IT")
+  "sameAs" (slice
+    "https://twitter.com/OpenObservatory"
+    "https://github.com/ooni"
+    "https://www.youtube.com/c/OONIorg"
+    "https://facebook.com/ooni.org"
+    "https://www.instagram.com/openobservatory/"
+    "https://mastodon.social/@ooni")
+  "potentialAction" (dict
+    "@type" "DonateAction"
+    "name" "Donate to OONI"
+    "target" (dict
+      "@type" "EntryPoint"
+      "urlTemplate" "https://ooni.org/donate/")
+    "recipient" (dict "@id" "https://ooni.org/#organization"))
+-}}
+<script type="application/ld+json">
+{{ jsonify (dict "indent" "  ") $org | safeJS }}
+</script>
