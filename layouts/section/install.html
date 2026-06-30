@@ -1,4 +1,36 @@
 {{ define "main" }}
+{{/* Structured data for Google Search: OONI Probe as a free, multi-platform app */}}
+{{- $downloads := slice
+  "https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe"
+  "https://itunes.apple.com/us/app/id1199566366"
+  "https://f-droid.org/repository/browse/?fdid=org.openobservatory.ooniprobe" -}}
+{{- /* Desktop builds: derive the same version the download buttons use (GetRemote is cached) */ -}}
+{{- with try (resources.GetRemote "https://api.github.com/repos/ooni/probe-multiplatform/releases/latest") -}}
+  {{- with .Value -}}
+    {{- with index (unmarshal .) "tag_name" -}}
+      {{- $version := slicestr . 1 -}}
+      {{- $downloads = $downloads | append
+          (printf "https://github.com/ooni/probe-multiplatform/releases/download/v%s/OONI-Probe-%s.exe" $version $version)
+          (printf "https://github.com/ooni/probe-multiplatform/releases/download/v%s/OONI-Probe-%s.dmg" $version $version) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{ $app := dict
+  "@context" "https://schema.org"
+  "@type" "SoftwareApplication"
+  "name" "OONI Probe"
+  "operatingSystem" "Android, iOS, Windows, macOS, Linux"
+  "applicationCategory" "SecurityApplication"
+  "url" .Permalink
+  "description" (or .Description .Site.Params.description)
+  "image" (absURL "install/PhoneMockupIcon.png")
+  "offers" (dict "@type" "Offer" "price" "0" "priceCurrency" "USD")
+  "publisher" (dict "@id" "https://ooni.org/#organization")
+  "downloadUrl" $downloads
+}}
+<script type="application/ld+json">
+{{ jsonify (dict "indent" "  ") $app | safeJS }}
+</script>
 <div class="">
 
   <!-- Hero -->
@@ -6,7 +38,7 @@
     <div class="container my-12 mt-24 mb-0">
       <div class="grid grid-cols-1 items-center gap-8 md:grid-cols-5 md:gap-10">
         <div class="md:col-span-3">
-          <img alt="Measure internet censorship" src="/install/index.svg" class="max-w-[332px]" />
+          <img alt="" src="/install/index.svg" class="max-w-[332px]" />
           <h1 class="article-title">Measure internet censorship</h1>
           <p class="mt-2 max-w-xl text-lg leading-relaxed text-gray7">
             Contribute to the world's largest open dataset on internet censorship
@@ -20,7 +52,7 @@
         </div>
       </div>
       <div class='relative hidden md:block'>
-        <img alt="Background Flourish"
+        <img alt=""
           src="/install/BG-Flourish.png"
           srcset="/install/BG-Flourish.png 1x, /install/BG-Flourish@2x.png 2x"
           class="hidden md:block absolute z-[-3] right-[-800px] top-[-1115px] max-w-none" />
@@ -29,7 +61,8 @@
   </section>
 
   <!-- Platform install cards -->
-  <div class="container">
+  <section class="container" aria-labelledby="download-heading">
+      <h2 id="download-heading" class="sr-only">Download OONI Probe</h2>
       <div class="not-prose mb-20 grid grid-cols-1 gap-6 md:grid-cols-3">
 
         <!-- Mobile -->
@@ -38,7 +71,7 @@
             <svg class="mb-3 h-9 w-9 text-ooniblue" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
             </svg>
-            <h2 class="text-lg font-bold text-gray9">Mobile</h2>
+            <h3 class="text-lg font-bold text-gray9">Mobile</h3>
             <p class="text-sm text-gray6">Android &amp; iOS</p>
           </div>
           <div class="mt-auto flex flex-col gap-2.5">
@@ -70,7 +103,7 @@
             <svg class="mb-3 h-9 w-9 text-ooniblue" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
             </svg>
-            <h2 class="text-lg font-bold text-gray9">Desktop</h2>
+            <h3 class="text-lg font-bold text-gray9">Desktop</h3>
             <p class="text-sm text-gray6">Windows &amp; macOS</p>
           </div>
           <div class="mt-auto flex flex-col gap-2.5">
@@ -89,7 +122,7 @@
             <svg class="mb-3 h-9 w-9 text-ooniblue" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
             </svg>
-            <h2 class="text-lg font-bold text-gray9">Command line</h2>
+            <h3 class="text-lg font-bold text-gray9">Command line</h3>
             <p class="text-sm text-gray6">Linux &amp; macOS</p>
           </div>
           <div class="mt-auto flex flex-col gap-2 text-sm">
@@ -104,46 +137,47 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
   <!-- What OONI Probe measures -->
-  <div class="bg-gray1 z-[5] py-12 px-4">
+  <section class="bg-gray1 z-[5] py-12 px-4" aria-labelledby="measures-heading">
+    <h2 id="measures-heading" class="sr-only">What OONI Probe measures</h2>
     <div class="container">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-4 md:gap-6 lg:gap-10">
         <div>
-          <img alt="globe icon" class="mx-auto mb-4" src="/install/web.png"
+          <img alt="" class="mx-auto mb-4" src="/install/web.png"
             srcset="/install/web.png 1x, /install/web@2x.png 2x" />
-          <h2 class="text-xl mb-3 mt-14">Discover which websites are blocked</h2>
+          <h3 class="text-xl mb-3 mt-14">Discover which websites are blocked</h3>
           <p>Run OONI Probe to check which websites are blocked in your country.</p>
         </div>
         <div>
-          <img alt="fast icon" class="mx-auto mb-4" src="/install/performance.png"
+          <img alt="" class="mx-auto mb-4" src="/install/performance.png"
             srcset="/install/performance.png 1x, /install/performance@2x.png 2x" />
-          <h2 class="text-xl mb-3 mt-14">Learn how fast your network is</h2>
+          <h3 class="text-xl mb-3 mt-14">Learn how fast your network is</h3>
           <p>Measure the speed and performance of your network with the NDT test, developed
             in collaboration with
             <a href="https://www.measurementlab.net/" target="_blank" rel="noreferrer noopener">M-Lab</a>.
           </p>
         </div>
         <div>
-          <img alt="app icon" class="mx-auto mb-4" style="margin-bottom: 0.5em;" src="/install/messaging.png"
+          <img alt="" class="mx-auto mb-4" style="margin-bottom: 0.5em;" src="/install/messaging.png"
             srcset="/install/messaging.png 1x, /install/messaging@2x.png 2x" />
-          <h2 class="text-xl mb-3 mt-14">Check which apps are blocked</h2>
+          <h3 class="text-xl mb-3 mt-14">Check which apps are blocked</h3>
           <p>Test WhatsApp, Facebook Messenger, and Telegram to check if they are blocked. Run
             OONI Probe to check if circumvention tools work on your network.
           </p>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- Share evidence CTA -->
   <div class="container pt-8">
     <div class="flex justify-center max-w-[1100px] mx-auto">
       <div class="">
-        <h1 class="article-title">
+        <h2 class="article-title">
           Share evidence of internet censorship with the world
-        </h1>
+        </h2>
         <p class="mt-4">
           As soon as you run OONI Probe, your test results will automatically get
           <a href="https://ooni.org/data/">published</a> in near real-time. By running
@@ -163,7 +197,7 @@
 {{ define "script" }}
 <script>
   /* Show only the relevant desktop download button when we can detect the OS */
-  (function () {
+  (() => {
     function getOS() {
       var ua = window.navigator.userAgent;
       var p = window.navigator.platform;

@@ -17,8 +17,9 @@
   </nav>
 
   {{ range .Params.sections }}
-  <section id="{{ .id }}" class="not-prose mb-16 scroll-mt-8">
-    <h2 class="mb-3 border-t-2 border-ooniblue pt-1 text-sm font-bold uppercase tracking-widest text-ooniblue">
+  <section id="{{ .id }}" aria-labelledby="{{ .id }}-heading" class="not-prose mb-16 scroll-mt-8">
+    <h2 id="{{ .id }}-heading"
+        class="mb-3 border-t-2 border-ooniblue pt-1 text-sm font-bold uppercase tracking-widest text-ooniblue">
       {{ .title }}
     </h2>
     {{ with .intro }}

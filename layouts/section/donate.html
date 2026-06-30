@@ -80,7 +80,9 @@
         <div>
           <section class="px-6 pt-6 rounded-2xl bg-[#1B1E21] text-[#C3FAE8] mb-6 relative">
             <!-- <img src="/images/octopus.svg" class="hidden md:block absolute top-[-150px] left-[-250px] w-[380px] -z-10" /> -->
-            <img src="/images/donate_banner/slogan.png" alt="Protect Our Internet; Document Censorship" class="mb-8 md:mb-4">
+            <h1 class="m-0">
+              <img src="/images/donate_banner/slogan.png" alt="Donate to OONI — Protect Our Internet, Document Censorship" class="mb-8 md:mb-4">
+            </h1>
             <!-- <h1 class="text-4xl font-bold mb-4">Donate now to support internet freedom</h1> -->
             <!-- <p><strong>As a non-profit,</strong> we rely on donations <br/>from people like you to defend a free <br/>and open internet for all.</p> -->
             <p class="mb-2">Around the world, access to information is increasingly blocked and manipulated.</p>
@@ -91,27 +93,27 @@
                 class="hidden md:block animate-tentacle-loader"
                 >
 
-            <div class="tentacle-stars" class="pointer-events-none absolute"></div>
-            <div class="tentacle-stars" class="pointer-events-none absolute"></div>
-            <div class="tentacle-stars" class="pointer-events-none absolute"></div>
-            <div class="tentacle-stars" class="pointer-events-none absolute"></div>
-            <div class="tentacle-stars" class="pointer-events-none absolute"></div>
+            <div class="tentacle-stars pointer-events-none absolute" aria-hidden="true"></div>
+            <div class="tentacle-stars pointer-events-none absolute" aria-hidden="true"></div>
+            <div class="tentacle-stars pointer-events-none absolute" aria-hidden="true"></div>
+            <div class="tentacle-stars pointer-events-none absolute" aria-hidden="true"></div>
+            <div class="tentacle-stars pointer-events-none absolute" aria-hidden="true"></div>
           </section>
 
          <div class="rounded-2xl bg-white mb-6 shadow-md p-6">
            <div class="flex flex-col">
 
              <div class="flex-1">
-               <h3 class="uppercase tracking-wide text-teal6 font-bold mb-4 mt-6">
+               <h2 class="text-2xl uppercase tracking-wide text-teal6 font-bold mb-4 mt-6">
                  More ways to give
-               </h5>
+               </h2>
 
 
                <ul class="space-y-6 text-gray7">
 
                  <!-- Bank Transfer -->
                  <li id="bank">
-                   <div class="font-semibold text-black mb-1">Bank Transfer / SEPA</div>
+                   <h3 class="text-base font-semibold text-black mb-1">Bank Transfer / SEPA</h3>
                    <p class="text-sm mb-3">
                      You can donate to OONI by doing a wire transfer to the following bank information:
                    </p>
@@ -133,7 +135,7 @@
 
                  <!-- GitHub Sponsors -->
                  <li id="github">
-                   <div class="font-semibold text-black mb-1">GitHub Sponsors</div>
+                   <h3 class="text-base font-semibold text-black mb-1">GitHub Sponsors</h3>
                    <a href="https://github.com/sponsors/ooni/"
                       class="text-blue6 underline hover:text-blue4 text-sm font-medium">
                      Become a sponsor →
@@ -142,7 +144,7 @@
 
 				<!-- Cryptocurrencies -->
 				<li id="cryptocurrencies">
-				  <div class="font-semibold text-black mb-4">Cryptocurrencies</div>
+				  <h3 class="text-base font-semibold text-black mb-4">Cryptocurrencies</h3>
 				  <div class="space-y-6">
                     {{ partial "cryptocurrency-address.html" (dict "name" "Bitcoin" "ticker" "BTC" "address" "bc1qft94vxsh7vzqmc37xquxj3n82lsmhjzxqx3u2a" "prefix" "bitcoin") }}
                     {{ partial "cryptocurrency-address.html" (dict "name" "Ethereum" "ticker" "ETH" "address" "0x0317136A811b2841410229c8421d61dCfA793970" "prefix" "ethereum") }}
@@ -157,12 +159,12 @@
 				</li>
 
                  <!-- 5x1000 -->
-                 <li class="font-semibold text-black" id="5permille">
-                   5x1000 in Italia:
-                   <span class="block text-sm mt-1">
+                 <li id="5permille">
+                   <h3 class="text-base font-semibold text-black mb-1">5x1000 in Italia</h3>
+                   <p class="text-sm text-gray7">
                      Scrivi il codice fiscale di OONI:
                      <code class="bg-gray2 px-2 py-1 rounded">96568220584</code>
-                   </span>
+                   </p>
                  </li>
 
 				<script>
@@ -179,7 +181,6 @@
 				  });
 				}
 				</script>
-                </li>
 
                </ul>
                <p class="text-gray7 mb-4">
@@ -219,7 +220,7 @@
                 </div>
               </div>
               <div class="mr-[-40px]">
-                <img class="w-[160%]" src="/images/octopus-monokular.svg" />
+                <img class="w-[160%]" src="/images/octopus-monokular.svg" alt="" />
               </div>
             </div>
           </div>
@@ -231,6 +232,7 @@
             </div>
             <script src="https://donorbox.org/widget.js" paypalExpress="true"></script>
             <iframe 
+              title="Donate to OONI"
               id="donorbox-iframe"
               width="100%"
               class="hidden !h-[1005px] mx-auto max-w-[426px]"
@@ -242,12 +244,12 @@
               scrolling="no"
             ></iframe>
             <script>
-                document.addEventListener('DOMContentLoaded', function() {
+                document.addEventListener('DOMContentLoaded', () => {
                   const iframe = document.getElementById('donorbox-iframe');
                   const loading = document.getElementById('iframe-loading');
                   const tentacle = document.getElementById('tentacle-loader');
                   const starContainers = document.getElementsByClassName('tentacle-stars');
-                  iframe.onload = function() {
+                  iframe.onload = () => {
                     loading.classList.add('hidden');
                     iframe.classList.remove('hidden');
 
@@ -336,7 +338,7 @@
 
       {{ with .GetPage "partners" }}
         <section class="my-16">
-          <h3 class="text-white font-bold text-3xl mb-4">Discover our {{ len .Pages }} Partners</h3>
+          <h2 class="text-white font-bold text-3xl mb-4">Discover our {{ len .Pages }} Partners</h2>
           <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
             {{ range first 7 .Pages }}
               {{ $name := .Params.Name }}

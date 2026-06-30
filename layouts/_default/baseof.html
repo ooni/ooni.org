@@ -14,6 +14,7 @@
     content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
   {{ partial "opengraph.html" . }}
   {{ partial "twitter_cards.html" . }}
+  {{ partial "organization-schema.html" . }}
 
   {{ block "css" . }}
     {{ partial "css.html" . }}

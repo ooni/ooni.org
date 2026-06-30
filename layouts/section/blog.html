@@ -10,10 +10,7 @@
           {{ .Title }}
         </a>
         {{ if .IsTranslated }}
-        <p class="title-translation">Translations: {{ range .Translations }}<a
-            href="{{ .RelPermalink }}">{{ if eq .Lang
-            "en" }}English{{ else if eq .Lang "pt" }}Portuguese{{ else if eq .Lang "fr" }}French{{ else if eq .Lang "es"
-            }}Spanish{{ else if eq .Lang "ca" }}Catalan{{ else }}{{ .Lang }}{{ end }}</a>{{ end }}
+        <p class="title-translation">Translations: {{ range .Translations }}<a href="{{ .RelPermalink }}" lang="{{ .Lang }}" hreflang="{{ .Lang }}">{{ with .Language.LanguageName }}{{ . }}{{ else }}{{ .Lang }}{{ end }}</a>{{ end }}
         </p>
         {{ else }}
         {{ end }}

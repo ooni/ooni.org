@@ -11,20 +11,35 @@ publishDir = "public/"
 
 [Languages]
   [Languages.ar]
+    languageName = "Arabic"
   [Languages.ca]
+    languageName = "Catalan"
   [Languages.de]
+    languageName = "German"
   [Languages.en]
+    languageName = "English"
   [Languages.es]
+    languageName = "Spanish"
   [Languages.fa]
+    languageName = "Persian"
   [Languages.fr]
+    languageName = "French"
   [Languages.pt]
+    languageName = "Portuguese"
   [Languages.ru]
+    languageName = "Russian"
   [Languages.sw]
+    languageName = "Swahili"
   [Languages.tr]
+    languageName = "Turkish"
   [Languages.zh]
+    languageName = "Chinese"
   [Languages.vi]
+    languageName = "Vietnamese"
   [Languages.my]
+    languageName = "Burmese"
   [Languages.kk]
+    languageName = "Kazakh"
 
 [outputFormats]
   [outputFormats.PageIndex]

@@ -20,9 +20,9 @@
           <div>
             {{ if .IsTranslated }}
               <p class="text-sm">
-                Translations: {{ range $i, $e := .Translations }}{{ if $i }}, {{ end }}
-                  <a class="text-ooniblue hover:underline" href="{{ $e.RelPermalink }}">{{ if eq $e.Lang "en" }}English{{ else if eq $e.Lang "pt" }}Portuguese{{ else if eq $e.Lang "fr" }}French{{ else if eq $e.Lang "es" }}Spanish{{ else if eq $e.Lang "ca" }}Catalan{{ else if eq $e.Lang "ca" }}Russian{{ else }}{{ $e.Lang }}{{ end }}</a>
-                  {{ end }}
+                Translations: {{ range $i, $e := .Translations }}{{ if $i }}, {{ end -}}
+                  <a class="text-ooniblue hover:underline" href="{{ $e.RelPermalink }}" lang="{{ $e.Lang }}" hreflang="{{ $e.Lang }}">{{ with $e.Language.LanguageName }}{{ . }}{{ else }}{{ $e.Lang }}{{ end }}</a>
+                {{- end }}
               </p>
             {{ else }}
             {{ end }}
