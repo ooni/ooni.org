@@ -46,13 +46,13 @@ To determine whether faulty measurements can be identified, we will analyze exis
 
 The key approaches include:
 
-- **IP geolocation mismatches** – Checking for discrepancies between the `probe_cc` (country code reported by the probe), `probe_asn` (the Autonomous System Number reported by the probe) and the geolocation of egress IP seen by the measurement collector. This can help detect incorrect or misreported locations.
-  - **Caveats:** The GeoIP database shipped inside of probes might be out of date, hence the `probe_cc` and `probe_asn` inside of the measurement might be inconsistent due to the data used for performing the lookup in the probe being stale. We need to account for this when analyzing the data and make sure we filter by those which are grossly inaccurate.
+- **IP geolocation mismatches** – Checking for discrepancies between the `probe_cc` (country code reported by the probe), `probe_asn` (the Autonomous System Number reported by the probe), and the geolocation of the egress IP seen by the measurement collector. This can help detect incorrect or misreported locations.
+  - **Caveats:** The GeoIP database shipped inside of probes might be out of date; hence, the `probe_cc` and `probe_asn` inside of the measurement might be inconsistent due to the data used for performing the lookup in the probe being stale. We need to account for this when analyzing the data and make sure we filter those which are grossly inaccurate.
 - **Measurement volume anomalies** – Identifying probes that submit an abnormally high number of measurements within short timeframes, which could indicate misconfiguration or a malicious attack.
-  - **Caveats:** We don’t currently have an accurate method to identify measurements as coming from the same probe over time. We currently use the tuple (`probe_cc`, `probe_asn`, platform, architecture, engine\_version) as a proxy for this, but there is a high chance (especially in networks with many users) for multiple users sharing the same tuple. This needs to be taken into account when looking at the data and increase the threshold for anomaly detection in busy networks.
-- **Timestamp inconsistencies** – Detecting measurements with a measurement\_start\_time that deviates significantly from the timestamp that is part of the measurement\_uid. This might be caused by a misconfigured system clock or might be an indication of an intentional attempt at polluting our data.
-  - **Caveats:** It’s possible for probes to upload measurements at a later moment in time, in which case the inconsistency will be expected. We should factor this into the analysis and in the long term consider better approaches to handling time inconsistencies (see: [https://github.com/ooni/probe/issues/1781](https://github.com/ooni/probe/issues/1781)).
-- **Probe OS, version metadata** – OONI Probe contains a finite set of version numbers and software\_name strings. We can use inconsistencies in these fields as an indication that the submitted measurement is unusual either due to misconfiguration or perhaps a malicious attack.
+  - **Caveats:** We don’t currently have an accurate method to identify measurements as coming from the same probe over time. We currently use the tuple (`probe_cc`, `probe_asn`, platform, architecture, engine_version) as a proxy for this, but there is a high chance (especially in networks with many users) of multiple users sharing the same tuple. This needs to be taken into account when looking at the data and increasing the threshold for anomaly detection in busy networks.
+- **Timestamp inconsistencies** – Detecting measurements with a `measurement_start_time` that deviates significantly from the timestamp that is part of the `measurement_uid`. This might be caused by a misconfigured system clock or might be an indication of an intentional attempt at polluting our data.
+  - **Caveats:** It’s possible for probes to upload measurements at a later moment in time, in which case the inconsistency will be expected. We should factor this into the analysis and, in the long term, consider better approaches to handling time inconsistencies (see: [https://github.com/ooni/probe/issues/1781](https://github.com/ooni/probe/issues/1781)).
+- **Probe OS, version metadata** – OONI Probe contains a finite set of version numbers and `software_name` strings. We can use inconsistencies in these fields as an indication that the submitted measurement is unusual either due to misconfiguration or perhaps a malicious attack.
   - **Caveats:** Because OONI is an open platform, there may be legitimate reasons for there to be some software strings we do not recognize.
 
 These heuristics can be used in combination with each other to support or disprove one or another hypothesis. As we make progress on this work, we should take note of specific examples and use them to inform the future iterations of the project. The above features will be used to look at existing data that’s already collected, but in some cases may require adding support for extracting missing features in a privacy preserving way. These features can then be used to either limit submissions from misconfigured or potentially malicious probes or flag the measurements as such when exposing them to end users inside of platforms such as [OONI Explorer](https://explorer.ooni.org/).
@@ -61,9 +61,9 @@ These heuristics can be used in combination with each other to support or dispro
 
 ### IP geolocation mismatches {#ip-geolocation-mismatches}
 
-To assess the impact of IP geolocation mismatches we added [some logging to OONI Probe requests](https://github.com/ooni/backend/issues/947#issuecomment-2737076230) targeting the `/api/v1/check-in` endpoint.
+To assess the impact of IP geolocation mismatches, we added [some logging to OONI Probe requests](https://github.com/ooni/backend/issues/947#issuecomment-2737076230) targeting the `/api/v1/check-in` endpoint.
 
-This endpoint is called every time a probe starts a web\_connectivity measurement and includes the `probe_cc` and `probe_asn`, determined by the probe using its own GeoIP lookup method. We then compare the `probe_cc` and `probe_asn` seen inside of the check-in request body against a lookup of the same values using the public IP address of the probe retrieved from the X-Real-IP header.
+This endpoint is called every time a probe starts a `web_connectivity` measurement and includes the `probe_cc` and `probe_asn`, determined by the probe using its own GeoIP lookup method. We then compare the `probe_cc` and `probe_asn` seen inside of the check-in request body against a lookup of the same values using the public IP address of the probe retrieved from the `X-Real-IP` header.
 
 Logs were collected from 19th March 2025 until 21st March 2025\.
 
@@ -107,9 +107,9 @@ Below is a summary table showing the breakdown of inconsistencies by software\_n
 | windows | 3.23.0 | 28  | 1794 | 1.560758 |
 | windows | 3.24.0 | 49  | 1770 | 2.768362 |
 
-The total number of inconsistencies was 722\. As we can see from the table above, we see a lot of inconsistencies even in very recent versions of OONI Probe, which are unlikely to be attributable to a stale geoIP database.
+The total number of inconsistencies was 722\. As we can see from the table above, we see a lot of inconsistencies even in very recent versions of OONI Probe, which are unlikely to be attributable to a stale GeoIP database.
 
-We also checked inconsistencies between the reported ASN and country against the observed ASN and country coming from the X-real-ip header and found out the following:
+We also checked inconsistencies between the reported ASN and country against the observed ASN and country coming from the `X-Real-IP` header and found the following:
 
 | Total samples | CC Mismatches | ASN Mismatches | Total Mismatches | Mismatch percent |
 | --- | --- | --- | --- | --- |
@@ -142,7 +142,7 @@ For example, in the case of US and CA, we have found that the majority of these 
 
 While we found **29 ASNs** from Canada in the sample data.
 
-Another interesting example is the second most common source of CC mismatches, probes reporting Canada (CA) with an X-Real-IP from Russia (RU). None of these measurements have ASN mismatches and they all come from Cloudflare:
+Another interesting example is the second most common source of CC mismatches: probes reporting Canada (CA) with an `X-Real-IP` from Russia (RU). None of these measurements have ASN mismatches and they all come from Cloudflare:
 
 | ASN | ASN name | total |
 | --- | --- | --- |
@@ -150,14 +150,14 @@ Another interesting example is the second most common source of CC mismatches, p
 
 That probably corresponds to users using a VPN operated by cloudflare, such as WARP. Further investigation is needed to assess connections running through a proxy.
 
-As an initial exploration we looked at the connection type for these faulty measurements, and we found the following:
+As an initial exploration, we looked at the connection type for these faulty measurements, and we found the following:
 
 <div style="display: flex; gap: 10px; align-items: flex-start;">
   <img src="/post/2026-faulty-measurements/image9.png" style="width: 45%; height: auto;" alt="Figure 1. connection type chart 1">
   <img src="/post/2026-faulty-measurements/image2.png" style="width: 45%; height: auto;" alt="Figure 2. connection type chart 2">
 </div>
 
-Most of these measurements with unmatching CCs come from hosting connections, so it’s very likely that these measurements come from connections running through a VPN. In fact, if we look at the list of most common ISPs for connection\_type \= hosting, we will see that most of them come from known VPN providers:
+Most of these measurements with unmatching CCs come from hosting connections, so it’s very likely that these measurements come from connections running through a VPN. In fact, if we look at the list of most common ISPs for `connection_type` \= hosting, we will see that most of them come from known VPN providers:
 
 | Provider | Occurrences in sample data |
 | --- | --- |
@@ -189,7 +189,7 @@ On the other hand, these are the 10 most common sources of mismatches between pr
 | Beanfield Technologies Inc. | AS21949 | CA  | AS21928 | US  | 13  |
 | Beanfield Technologies Inc. | AS21949 | CA  | AS16591 | US  | 13  |
 
-In summary, we found that most of the inconsistencies between reported `probe_cc`, `probe_asn` and the real IP address seen accessing the check-in endpoint seems to be associated with the use of a VPN. We did not find any significant volume of inconsistencies that might be attributable to malicious tampering of measurements or even unintentional probe misconfiguration.
+In summary, we found that most of the inconsistencies between reported `probe_cc`, `probe_asn`, and the real IP address seen accessing the check-in endpoint seem to be associated with the use of a VPN. We did not find any significant volume of inconsistencies that might be attributable to malicious tampering of measurements or even unintentional probe misconfiguration.
 
 The fact that VPN leads to these kinds of inconsistencies is something which we will have to take into account when rolling out the faulty measurement detection logic.
 
