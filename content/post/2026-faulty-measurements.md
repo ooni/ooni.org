@@ -1,6 +1,6 @@
 ---
-title: Methods for detecting & mitigating faulty measurements
-author: Arturo Filastò, Luis Díaz
+title: From Heuristics to Anonymous Credentials: Assessing OONI's Approach to Bad Measurements
+author: Luis Díaz, Arturo Filastò
 date: 2026-06-26
 tags: ["anonymous-credentials", "research"]
 categories: ["blog"]
@@ -10,7 +10,7 @@ Ensuring the integrity of [OONI’s measurement dataset](https://ooni.org/data/)
 
 As the [OONI Probe](https://ooni.org/install/) network expands, so does the risk of faulty or misleading measurements, whether caused by misconfigurations or deliberate attacks.
 
-In this blog post, we discuss our **existing and upcoming new methods** for detecting and mitigating faulty measurements in conjunction with our new anonymous credentials system for use in OONI Probe.
+In this blog post, we discuss our **existing and upcoming new methods** for detecting and mitigating faulty measurements in conjunction with our new anonymous credentials system for use in OONI Probe. As part of it we assess the effectiveness of the anonymous credentials system which is being rolled out into production.
 
 ### Table of contents
 
