@@ -2,7 +2,7 @@
 title: "From Heuristics to Anonymous Credentials: Assessing OONI's Approach to Bad Measurements"
 description: "This blog post shares OONI's new heuristics and strategies for mitigating faulty measurements through an Anonymous Credential System, as well as an evaluation of the solution."
 author: Luis Díaz, Arturo Filastò
-date: 2026-06-26
+date: 2026-07-06
 tags: ["anonymous-credentials", "research"]
 categories: ["blog"]
 ---
