@@ -13,26 +13,7 @@ As the [OONI Probe](https://ooni.org/install/) network expands, so does the risk
 
 In this blog post, we discuss our **existing and upcoming new methods** for detecting and mitigating faulty measurements in conjunction with our new anonymous credentials system for use in OONI Probe. As part of it we assess the effectiveness of the anonymous credentials system which is being rolled out into production.
 
-### Table of contents
-
-- [Existing metrics and heuristics](#existing-metrics-and-heuristics)
-  - [Approach and Methodology](#approach-and-methodology)
-  - [Assessment and Findings](#assessment-and-findings)
-    - [IP geolocation mismatches](#ip-geolocation-mismatches)
-    - [Measurement volume anomalies](#measurement-volume-anomalies)
-    - [Timestamp inconsistencies](#timestamp-inconsistencies)
-    - [Probe OS, version metadata inconsistencies](#probe-os-version-metadata-inconsistencies)
-- [New heuristics](#new-heuristics)
-- [Strategies for mitigating faulty measurements](#strategies-for-mitigating-faulty-measurements)
-  - [Overview](#overview)
-  - [Anonymous credentials component](#anonymous-credentials-component)
-  - [Mitigation steps](#mitigation-steps)
-- [Assessing the effectiveness of the solution](#assessing-the-effectiveness-of-the-solution)
-  - [Problem statement](#problem-statement)
-  - [Naive solution](#naive-solution)
-  - [Anonymous credentials solution](#anonymous-credentials-solution)
-  - [Future validation](#future-validation)
-
+{{<table-of-contents>}}
 
 # Existing metrics and heuristics
 
