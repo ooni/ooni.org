@@ -39,7 +39,7 @@ We start by seeing if we can identify faulty measurements using simple heuristic
 
 Through this baseline we will then be able to assess how to improve upon it by introducing the OONI Probe anonymous credentials system.
 
-## Approach & Methodology {#approach-and-methodology}
+## Approach & Methodology
 
 To determine whether faulty measurements can be identified, we will analyze existing OONI data using a set of simple heuristics. These heuristics are designed to detect inconsistencies in measurement metadata and results.
 
@@ -56,19 +56,19 @@ The key approaches include:
 
 These heuristics can be used in combination with each other to support or disprove one or another hypothesis. As we make progress on this work, we should take note of specific examples and use them to inform the future iterations of the project. The above features will be used to look at existing data that’s already collected, but in some cases may require adding support for extracting missing features in a privacy preserving way. These features can then be used to either limit submissions from misconfigured or potentially malicious probes or flag the measurements as such when exposing them to end users inside of platforms such as [OONI Explorer](https://explorer.ooni.org/).
 
-## Assessment & Findings {#assessment-and-findings}
+## Assessment & Findings
 
-### IP geolocation mismatches {#ip-geolocation-mismatches}
+### IP geolocation mismatches
 
 To assess the impact of IP geolocation mismatches, we added [some logging to OONI Probe requests](https://github.com/ooni/backend/issues/947#issuecomment-2737076230) targeting the `/api/v1/check-in` endpoint.
 
 This endpoint is called every time a probe starts a `web_connectivity` measurement and includes the `probe_cc` and `probe_asn`, determined by the probe using its own GeoIP lookup method. We then compare the `probe_cc` and `probe_asn` seen inside of the check-in request body against a lookup of the same values using the public IP address of the probe retrieved from the `X-Real-IP` header.
 
-Logs were collected from 19th March 2025 until 21st March 2025\.
+Logs were collected from 19th March 2025 until 21st March 2025.
 
-Below is a summary table showing the breakdown of inconsistencies by software\_name and software\_version:
+Below is a summary table showing the breakdown of inconsistencies by `software_name` and `software_version`:
 
-| platform | software\_version | nok\_cnt | ok\_cnt | nok\_rate |
+| platform | software_version | nok_cnt | ok_cnt | nok_rate |
 | --- | --- | --- | --- | --- |
 | android | 1   | 1   | 4   | 25  |
 | android | 3.7.0 | 14  | 469 | 2.985075 |
@@ -106,7 +106,7 @@ Below is a summary table showing the breakdown of inconsistencies by software\_n
 | windows | 3.23.0 | 28  | 1794 | 1.560758 |
 | windows | 3.24.0 | 49  | 1770 | 2.768362 |
 
-The total number of inconsistencies was 722\. As we can see from the table above, we see a lot of inconsistencies even in very recent versions of OONI Probe, which are unlikely to be attributable to a stale GeoIP database.
+The total number of inconsistencies was 722. As we can see from the table above, we see a lot of inconsistencies even in very recent versions of OONI Probe, which are unlikely to be attributable to a stale GeoIP database.
 
 We also checked inconsistencies between the reported ASN and country against the observed ASN and country coming from the `X-Real-IP` header and found the following:
 
@@ -162,7 +162,7 @@ As an initial exploration, we looked at the connection type for these faulty mea
   </figure>
 </div>
 
-Most of these measurements with unmatching CCs come from hosting connections, so it’s very likely that these measurements come from connections running through a VPN. In fact, if we look at the list of most common ISPs for `connection_type` \= hosting, we will see that most of them come from known VPN providers:
+Most of these measurements with unmatching CCs come from hosting connections, so it’s very likely that these measurements come from connections running through a VPN. In fact, if we look at the list of most common ISPs for `connection_type` = hosting, we will see that most of them come from known VPN providers:
 
 | Provider | Occurrences in sample data |
 | --- | --- |
@@ -198,45 +198,44 @@ In summary, we found that most of the inconsistencies between reported `probe_cc
 
 The fact that VPN leads to these kinds of inconsistencies is something which we will have to take into account when rolling out the faulty measurement detection logic.
 
-### Measurement volume anomalies {#measurement-volume-anomalies}
+### Measurement volume anomalies
 
 We looked into OONI measurements to spot anomalies in measurement volume.
 
-Specifically, we looked at the rate of measurements that were run per “probe\_id” in a 1 minute window of time. We established that the mean, q75, q90 and q99 were 8, 16, 25 and 54 respectively. In order to spot extreme cases we filtered this list based on those that had spikes of more than 200 measurements per minute in a 1 minute time window.
+Specifically, we looked at the rate of measurements that were run per “probe_id” in a 1 minute window of time. We established that the mean, q75, q90 and q99 were 8, 16, 25 and 54 respectively. In order to spot extreme cases we filtered this list based on those that had spikes of more than 200 measurements per minute in a 1 minute time window.
 
 Based on this, we found a whole class of software name strings which are not known to be used by official OONI Probe distributions that are submitted in a large volume of measurements per second.
 
-![Anomaly related to software\_name \= ooniprobe-react-os.*](/post/2026-faulty-measurements/image13.png)  
-*Anomaly related to software\_name \= ooniprobe-react-os.*
+![Anomaly related to software_name = ooniprobe-react-os.*](/post/2026-faulty-measurements/image13.png)  
+*Anomaly related to software_name = ooniprobe-react-os.*
 
-In the above chart we can see that, on a daily basis, a probe with software name ooniprobe-react-os (which is submitting measurements only for `probe_cc` \= CN) is sending us web\_connectivity measurements that appear to have been run at a rate of 200 measurements per minute (3 measurements per second) – which is quite unrealistic for the web\_connectivity test.
+In the above chart we can see that, on a daily basis, a probe with software name ooniprobe-react-os (which is submitting measurements only for `probe_cc` = CN) is sending us web_connectivity measurements that appear to have been run at a rate of 200 measurements per minute (3 measurements per second) – which is quite unrealistic for the web_connectivity test.
 
 ![ECDF of test runtime with probe_cc = CN](/post/2026-faulty-measurements/image16.png)
 *Distrubtion of test runtime where probe_cc = CN* 
 
-
-This ECDF plot shows the distribution of the test runtime, comparing the runtime of measurements from ooniprobe-react-os against other measurements with `probe_cc` \= CN, and it seems like tests tend to run faster with ooniprobe-react-os.
+This ECDF plot shows the distribution of the test runtime, comparing the runtime of measurements from ooniprobe-react-os against other measurements with `probe_cc` = CN, and it seems like tests tend to run faster with ooniprobe-react-os.
 
 It’s surprising that the react measurements are faster than every other measurement given their volume. Having so many measurements in small windows of time should generate a network bottleneck, but that doesn’t seem to be the case.
 
-Another case which stands out is related to measurements coming from Myanmar. In this case the bursts are not so regular, but only happen at specific times. In the following chart we can see bursts of measurements at a rate of 200 per minute on 6th January 2025\.
+Another case which stands out is related to measurements coming from Myanmar. In this case the bursts are not so regular, but only happen at specific times. In the following chart we can see bursts of measurements at a rate of 200 per minute on 6th January 2025.
 
-![Burst of web\_connectivity measurements in Myanmar on January 6th, 2025\.*](/post/2026-faulty-measurements/image7.png)  
-*Burst of web\_connectivity measurements in Myanmar on January 6th, 2025\.*
+![Burst of web_connectivity measurements in Myanmar on January 6th, 2025.*](/post/2026-faulty-measurements/image7.png)  
+*Burst of web_connectivity measurements in Myanmar on January 6th, 2025.*
 
-### Timestamp inconsistencies {#timestamp-inconsistencies}
+### Timestamp inconsistencies
 
-We calculated the difference between the timestamp inside of the measurement\_start\_time field of the measurement and the timestamp included as part of the measurement\_uid. This gives us a sense of measurements that have been submitted at a much later date compared to the original time a measurement was run or measurements that have been submitted with a timestamp from the future.
+We calculated the difference between the timestamp inside of the `measurement_start_time` field of the measurement and the timestamp included as part of the `measurement_uid`. This gives us a sense of measurements that have been submitted at a much later date compared to the original time a measurement was run or measurements that have been submitted with a timestamp from the future.
 
 The following table shows the total amount of measurements with timestamp anomalies from 2025-03-02 to 2025-04-01:
 
-| Past (\>1h) | Past (\>24h) | Past (\>7d) | Future (\>1h) | Future (\>24h) | Future (\>7d) | Total (anomalies) | Total | Anomaly % |
+| Past (>1h) | Past (>24h) | Past (>7d) | Future (>1h) | Future (>24h) | Future (>7d) | Total (anomalies) | Total | Anomaly % |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 244134 | 76764 | 685 | 38352 | 513 | 0   | 282302 | 34407959 | 0.82% |
 
 We also notice that most of the anomalies come from Linux and are mostly measurements from the past:
 
-| platform | Past (\>1h) | Future(\>1h) | Total (anomalies) | Total | Anomaly percent |
+| platform | Past (>1h) | Future(>1h) | Total (anomalies) | Total | Anomaly percent |
 | --- | --- | --- | --- | --- | --- |
 | ios | 2375 | 0   | 2375 | 240843 | 0.99% |
 | windows | 34192 | 24938 | 59130 | 10503040 | 0.56% |
@@ -314,11 +313,11 @@ Excluding venezuelan anomalies from the previous charts, we get the following di
 ![Linux anomalies per platform chart 3](/post/2026-faulty-measurements/image8.png)
 *Measurements with time anomalies by platform (Without Venezuela)*
 
- As we can see, Linux anomalies go down significantly while everything else stays nearly the same. So these anomalies were only affecting Linux metrics.
+As we can see, Linux anomalies go down significantly while everything else stays nearly the same. So these anomalies were only affecting Linux metrics.
 
 ### Probe OS, version metadata inconsistencies {#probe-os-version-metadata-inconsistencies}
 
-We first focused on looking for the most blatant inconsistencies between software name and platform, things like software\_name \= ooniprobe-android, platform \= ios. The following table shows a summary of what we found:
+We first focused on looking for the most blatant inconsistencies between software name and platform, things like `software_name` = ooniprobe-android, `platform` = ios. The following table shows a summary of what we found:
 
 | Software name | Platform | Occurrences |
 | --- | --- | --- |
@@ -335,7 +334,7 @@ Interestingly, some of the Android inconsistencies seem to be related to the oon
 | ooniprobe-android | macos | 161 |
 | ooniprobe-android-unattended | macos | 550 |
 
-These measurements also come from `probe_cc` \= CN: 
+These measurements also come from `probe_cc` = CN: 
 
 
 | Software name | Platform | Probe CC | Probe ASN | Architecture | Measurement Start Time |
@@ -357,7 +356,7 @@ We also found some software strings that we weren’t aware of. Here’s the lis
 4. **Ooniprobe-react-os:** We mentioned this above and seems to be an ooniprobe fork with a high volume of measurements. We couldn’t find anything related to this software name with a quick google search so more research will be needed.
 5. **Dismantle:** Some old (2023) measurements that come from Italy have this software name. We couldn’t find much about this either.
 
-# New heuristics {#new-heuristics}
+# New heuristics
 
 In addition to the existing heuristics and metrics which are already collected by OONI Probe and outlined in the previous sections, we would like to develop a set of **more advanced heuristics** that can be used to detect inconsistencies that can be a sign of faulty or malicious data.
 
@@ -383,13 +382,13 @@ Additionally, we would like to apply the following **additional heuristics** to 
 - **Protocol-Level anomalies** – Recognizing unusual test behaviors such as inconsistencies in TLS handshake results, which could indicate the presence of interfering software (e.g., antivirus tools modifying traffic). The presence of these kinds of devices may be identified using specific TLS MiTM fingerprints.
   - **Caveats:** Because the goal of OONI Probe is specifically that of detecting network level anomalies, the presence of these is not necessarily a bad sign. We are however interested in being able to differentiate between ISP or government mandated censorship from network interference happening on the end users device.
 
-Once we implement the privacy preserving probe identity, age and measurement\_count credentials, we would then have additional fields which could be used to either limit submissions from probes that are too new or that haven’t sent us enough data. Moreover, we may use the probe\_id field to filter out all measurements from a probe that has triggered one of our anomaly detections to identify other measurements that might also have data quality issues.
+Once we implement the privacy preserving probe identity, age and `measurement_count` credentials, we would then have additional fields which could be used to either limit submissions from probes that are too new or that haven’t sent us enough data. Moreover, we may use the `probe_id` field to filter out all measurements from a probe that has triggered one of our anomaly detections to identify other measurements that might also have data quality issues.
 
 More details about how this would work can be found in our [blog post on the requirements](https://ooni.org/post/2025-requirements-for-oonis-anonymous-credentials/) of an OONI anonymous credentials system.
 
-# Strategies for mitigating faulty measurements {#strategies-for-mitigating-faulty-measurements}
+# Strategies for mitigating faulty measurements
 
-## Overview {#overview}
+## Overview
 
 As outlined in the previous sections we have a series of heuristics which can be used to identify a potentially faulty measurement and use these to implement some anomaly detection on these features.
 
@@ -399,11 +398,11 @@ The fact a human should be in the loop of identifying faulty data, means that we
 
 An additional constraint that we have is that we will avoid at all costs modifying data once it has already been submitted, unless the impact of not modifying it has an effect on user privacy.
 
-# Anonymous credentials component {#anonymous-credentials-component}
+# Anonymous credentials component
 
 For more details on how it works, see our blog post [announcing OONI's new anonymous credentials system](/post/2025-announcing-ooni-new-anonymous-credential-system)!
 
-## Mitigation steps {#mitigation-steps}
+## Mitigation steps
 
 Once we have identified that a certain measurement is faulty, we will look at past measurements coming from that particular probe and use that to inform what steps we should take in terms of mitigation.
 
@@ -418,71 +417,71 @@ Mitigation is a question of being able to reduce the impact of this faulty data,
 
 In the case of setting more stringent requirements on what probes can submit data to us, for example saying that only probes older than 6 months can upload, has the potential of impacting also the submission of measurements from “good” probes.
 
-We might apply submission restrictions based on certain properties of probes (eg. [probe\_age or measurement\_count](https://ooni.org/post/2025-requirements-for-oonis-anonymous-credentials/)), this may be done because we suspect to be under a sybil attack and we would like to block for example all recently created probes that are sending us bad data. For these kinds of restrictions we will probably want to keep them time bound and eventually remove them once we don’t believe to be under attack anymore.
+We might apply submission restrictions based on certain properties of probes (eg. [probe_age or measurement_count](https://ooni.org/post/2025-requirements-for-oonis-anonymous-credentials/)), this may be done because we suspect to be under a sybil attack and we would like to block for example all recently created probes that are sending us bad data. For these kinds of restrictions we will probably want to keep them time bound and eventually remove them once we don’t believe to be under attack anymore.
 
-The other kind of restriction might be that of explicitly blocking a particular probe\_id, when we suspect the source of the bad data to be restricted to a single probe. These restrictions should probably also be time bound (so we don’t have to keep the list of bad probes forever), but since it’s much more specific it will not have such an impact on collecting measurements from unrelated probes.
+The other kind of restriction might be that of explicitly blocking a particular `probe_id`, when we suspect the source of the bad data to be restricted to a single probe. These restrictions should probably also be time bound (so we don’t have to keep the list of bad probes forever), but since it’s much more specific it will not have such an impact on collecting measurements from unrelated probes.
 
 Regarding the presentation layer, we may similarly use these features to present measurements from blocked probes or less trustworthy probes different in sites like OONI Explorer. This might additionally feed into our measurement analysis engine so that measurements from these probes are ignored.
 
-# **Assessing the effectiveness of the solution** {#assessing-the-effectiveness-of-the-solution}
+# Assessing the effectiveness of the solution
 
 Mitigating the effect of faulty measurements entering the system is a two steps problem:
 
-- Having good observability of incoming measurements
-- Having the right tools to filter out data when an issue is detected
+* Having good observability of incoming measurements
+* Having the right tools to filter out data when an issue is detected
 
 At any given time, there are hundreds of measurements coming into Ooni systems. It’s really hard to have an idea of what’s constantly happening all the time. We have to understand what possible issues we could face, how to detect them in real time and what actions can be taken to mitigate them.
 
-This understanding is addressed by the faulty measurements research that led to some interesting insights of what faulty data looks like. With this research Ooni was able to put together a dashboard and several metrics in the system in order to better capture possible faulty measurement events.
+This understanding is addressed by the faulty measurements research that led to some interesting insights of what faulty data looks like. With this research OONI was able to put together a dashboard and several metrics in the system in order to better capture possible faulty measurement events.
 
 With this data we now have the ability to have a better understanding of the current state of the system and the data entering the database, and even set up automatic alerting. The next step is to be able to act on this data.
 
 The second problem is a bit harder to tackle. Let’s try to understand what an ideal solution would look like, what problems we would face and how these problems are solved by the anonymous credentials system.
 
-## **Problem statement** {#problem-statement}
+## Problem statement
 
 Let’s say that we detect that there’s a sudden increase in the number of incoming measurements with time anomalies from the past for a given country (CC) and network (ASN). This data is inconsistent with other legit measurements on the same CC, ASN and time interval.
 
 Let’s suppose that this data comes from a very small subset of concrete probes. How do we filter it out?
 
-## **Naive solution** {#naive-solution}
+## Naive solution
 
 If this is a very small set of probes, we could add an ID to the client, add the ID to the submission metadata  and do whitelisting of ids in the server. But this solution has the following problems:  
 
-- Even unique randomized IDs are enough to **personally identify a probe**, which is in itself a huge problem
-- The probe could just ask for a new ID, so we would have to define a more complex authentication system, probably asking for more **personally identifiable information** that we don’t want to store
-  - We could store analytics for each probe to estimate a confidence score, but this would make the personally identifiable information problem worse and make the system more complex
-  - If we don’t store this data, we can ask the probe to store it and send it when reporting new measurements, but a bad probe could easily forge it
-- This would start a game of wack-a-mole of hunting down these new probe ids
+* Even unique randomized IDs are enough to **personally identify a probe**, which is in itself a huge problem
+* The probe could just ask for a new ID, so we would have to define a more complex authentication system, probably asking for more **personally identifiable information** that we don’t want to store
+* We could store analytics for each probe to estimate a confidence score, but this would make the personally identifiable information problem worse and make the system more complex
+* If we don’t store this data, we can ask the probe to store it and send it when reporting new measurements, but a bad probe could easily forge it
+* This would start a game of wack-a-mole of hunting down these new probe ids
 
 So the problem becomes:
 
-> How can we perform access control and define a confidence scoring without relying on **personally identifiable information** stored **long term** in our database? 
+How can we perform access control and define a confidence scoring without relying on **personally identifiable information** stored **long term** in our database? 
 
-## **Anonymous credentials solution** {#anonymous-credentials-solution}
+## Anonymous credentials solution
 
 The main idea behind anonymous credentials is the following:
 
-- We establish a trust scoring based on measurement submissions count (msm\_count) and age
-  - We can filter out data based on msm\_count and age
+- We establish a trust scoring based on measurement submissions count (`msm_count`) and age
+  - We can filter out data based on `msm_count` and age
   - We can scope this to specific CCs and ASNs combinations
 - A credential is handed and signed by the server.
   - Not stored in the server
   - Privately stored within the probe and never shared again
   - This credential cryptographically encodes the measurement count and age of the probe
 - Using this credential, a probe signs a submission request
-- The server validates this signature and submission. The msm\_count and age are encoded in the signature, so the server can check if the measurement is allowed to come through depending on the access rules we have. Example:
-  - We only allow probes from CC \= XX and ASN \= 1234 to send measurements if they have sent at the least 100 measurements in the past
+- The server validates this signature and submission. The `msm_count` and age are encoded in the signature, so the server can check if the measurement is allowed to come through depending on the access rules we have. Example:
+  - We only allow probes from `CC` = XX and `ASN` = 1234 to send measurements if they have sent at the least 100 measurements in the past
 - When the signature is accepted, the server sends a new signature. Here’s the key part: The probe is only able to update its internal credential (that encodes measurement count and age) using this signature
 
 This solutions affords us the following features:
 
-- We can keep a trust score using the age and msm\_count of a probe
-- This data is NOT stored on a server, it’s stored by probes and we can’t access it on demand. It’s not even reported explicitly on submission, it’s presented as ranges: my msm\_count lies between 100 and 500
-- It doesn’t rely on information we didn’t have before: probe CC and ASN
+- We can keep a trust score using the age and `msm_count` of a probe
+- This data is NOT stored on a server, it’s stored by probes and we can’t access it on demand. It’s not even reported explicitly on submission, it’s presented as ranges: my `msm_count` lies between 100 and 500
+- It doesn’t rely on information we didn’t have before: probe `CC` and `ASN`
 - There’s no unique ID for each probe that won’t change over time
 
-Note that with this approach it is impossible to perform a very specific and targeted blocking. This is a limitation we accept and embrace to preserve user anonymity. We tackle this problem by carefully changing the access rules per (`probe_cc`, asn) tuple.
+Note that with this approach it is impossible to perform a very specific and targeted blocking. This is a limitation we accept and embrace to preserve user anonymity. We tackle this problem by carefully changing the access rules per (`probe_cc`, `asn`) tuple.
 
 Let’s go back to our previous problem statement and see how the anonymous credentials solution that OONI has implemented would solve that situation:
 
@@ -491,7 +490,7 @@ Let’s go back to our previous problem statement and see how the anonymous cred
 ![Screenshot of our grafana dashboard to monitor the number of measurements with time anomalies](/post/2026-faulty-measurements/image10.png)
 *Screenshot of our grafana dashboard to monitor the number of measurements with time anomalies*
 
-- After noticing this issue, someone can look at the top offending (`probe_cc`, asn) tuples and figure out if they have a specific pattern. For example, (XX, 1234\) is over represented
+- After noticing this issue, someone can look at the top offending (`probe_cc`, `asn`) tuples and figure out if they have a specific pattern. For example, (XX, 1234) is over represented
 - Then, we would set the following access rules in the manifest:
 
 ```
@@ -530,25 +529,24 @@ Let’s go back to our previous problem statement and see how the anonymous cred
 
 - In the new rules we note:
   
-  - A new access rule is added and scoped to (XX, 1234\)
+  - A new access rule is added and scoped to (XX, 1234)
   - The age is limited to only include older probes, probes in the time range between: 19 Apr. 2024 and 19 Apr. 2025 (in julian days)
   - The minimum measurement count must be 1000
 - With these new rules a client has the following options:
   
   - Stop sending measurements if it doesn’t match the rules
     
-  - Send the measurements anyways with the rules, even if the rules don’t match its internal msm\_count and age. This will lead to an error trying to construct the submission request, preventing the client from sending the request.
+  - Send the measurements anyways with the rules, even if the rules don’t match its internal `msm_count` and age. This will lead to an error trying to construct the submission request, preventing the client from sending the request.
     
   - Send measurements using a wrong rule, the “catch all” rule for example. The server will choose the correct rule for running the verification, leading to a credential error and marking the measurement as **failed**.
     
   - Send measurements without any verification. This will mark measurements as **unverified**, so they can be further studied and filtered in measurements APIs
     
-
 With this approach we don’t need to know the specific identity of this probe nor we have to store any long term analytics of them. Consumers of the API can check whether the measurements they see comply with some degree of confidence: verified, unverified and failed. OONI also has visibility over subsets of measurements that present anomalous behaviour so they can be studied in detail.
 
 The process is straightforward and mostly automated, so it requires very little work to detect, filter and mark faulty measurements without compromising most legitimate probes.
 
-## **Future validation** {#future-validation}
+## Future validation
 
 There are still some metrics that we can only collect over a long period of time in order to better understand the effectiveness of the system. This is a task that OONI will be continuously performing and refining over time. This includes:
 
@@ -558,10 +556,8 @@ There are still some metrics that we can only collect over a long period of time
   - Older probes that are not updating
   - Performance issues: Are we seeing less measurement volume due to a slow down in measurement processing time?
 - **Volume of currently deployed protocol versions:** Measuring the amount of probes, disaggregated by protocol versions.
-  
   - This can help us to detect which client versions are having the most issues or unverified/untrusted measurements
   - Understanding if a specific protocol version with a security vulnerability introduced in the future has a particularly high rate of verified/unverified/untrusted measurements
-- **Timing and profiling:** checking the time it takes to run a verification in the server will help us to understand if a performance regression was introduced in an update
-  
+- **Timing and profiling:** Checking the time it takes to run a verification in the server will help us to understand if a performance regression was introduced in an update
 
 All of these are metrics that will be collected during the lifespan of the anonymous credentials protocol to assess the current state of implementation and future issues we might encounter.
