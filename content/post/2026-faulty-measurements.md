@@ -7,7 +7,7 @@ tags: ["anonymous-credentials", "research"]
 categories: ["blog"]
 ---
 
-{{<img src="images/ooni-anon-cred.png">}}
+![Evaluating the OONI Anonymous Credential System](/post/2026-faulty-measurements/ooni-anon-cred.png)
 
 **Image:** Evaluating OONI's Anonymous Credential System.
 
