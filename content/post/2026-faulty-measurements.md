@@ -33,7 +33,7 @@ In this blog post, we discuss our **existing and upcoming new methods** for dete
   - [Future validation](#future-validation)
 
 
-# Existing metrics and heuristics {#existing-metrics-and-heuristics}
+# Existing metrics and heuristics
 
 We start by seeing if we can identify faulty measurements using simple heuristics based on the data OONI already collects. Our goal is to establish a baseline for detection without compromising user privacy.
 
