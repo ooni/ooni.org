@@ -1,5 +1,5 @@
 ---
-title: From Heuristics to Anonymous Credentials: Assessing OONI's Approach to Bad Measurements
+title: "From Heuristics to Anonymous Credentials: Assessing OONI's Approach to Bad Measurements"
 author: Luis Díaz, Arturo Filastò
 date: 2026-06-26
 tags: ["anonymous-credentials", "research"]
