@@ -15,8 +15,8 @@ In this blog post, we discuss our **existing and upcoming new methods** for dete
 ### Table of contents
 
 - [Existing metrics and heuristics](#existing-metrics-and-heuristics)
-  - [Approach & Methodology](#approach-and-methodology)
-  - [Assessment & Findings](#assessment-and-findings)
+  - [Approach and Methodology](#approach-and-methodology)
+  - [Assessment and Findings](#assessment-and-findings)
     - [IP geolocation mismatches](#ip-geolocation-mismatches)
     - [Measurement volume anomalies](#measurement-volume-anomalies)
     - [Timestamp inconsistencies](#timestamp-inconsistencies)
