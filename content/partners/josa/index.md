@@ -3,7 +3,7 @@ continent: Middle East
 country: Jordan
 name: Jordan Open Source Association (JOSA)
 title: Jordan Open Source Association (JOSA)
-website: https://jordanopensource.org/
+website: https://josa.ngo/
 reports:
 - text: "Jordan: Measuring Facebook live-streaming interference during protests"
   link: "https://ooni.org/post/jordan-measuring-facebook-interference/"
