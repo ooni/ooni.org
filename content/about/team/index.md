@@ -32,5 +32,7 @@ submenu:
 
 {{<team-member name="Maja Komel" role="Frontend Engineer" email="maja@ooni.org" pgpkey="A22363F51398A95B593F94C8231F093C7F5D7A45">}}
 
+{{<team-member name="Aaron Gibson" role="Backend Developer" email="aaron@ooni.org">}}
+
 
 {{</team-listing>}}
