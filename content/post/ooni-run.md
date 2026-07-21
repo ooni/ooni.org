@@ -73,10 +73,6 @@ Run OONI!
 </a>
 ```
 
-The button will look like this on your website:
-
-{{<ooni-run-button link="https://run.ooni.io/nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%3A%2F%2Fwww.wikipedia.org%22%5D%7D&mv=1.2.0" text="Run OONI!" >}}
-
 Otherwise, if you would like a bigger widget, you can add (and tailor) the following element to your website:
 
 ```
@@ -85,10 +81,6 @@ Otherwise, if you would like a bigger widget, you can add (and tailor) the follo
 Test Wikipedia
 </div>
 ```
-
-It can look like this:
-
-{{<ooni-run-banner link="https://run.ooni.io/nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%3A%2F%2Fwikipedia.org%22%5D%7D&mv=1.2.0" text="Test Wikipedia" >}}
 
 Going forward, more [OONI Probe tests](https://ooni.org/nettest/) will be added to [OONI Run](https://run.ooni.io/). Together, we can coordinate on fighting internet censorship around the world.
 

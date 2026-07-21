@@ -182,9 +182,4 @@ L'avenir de la Catalogne reste tout à fait peu clair. Ce qui est clair, c'est q
 
 Des preuves sont nécessaires pour un débat public éclairé.
  
-
-*  **Mise à jour (2017-01-04 16:00 UTC):** Qurium / Virtual Road a publié des données montrant les mécanismes utilisés pour bloquer les sites associés au référendum du 1-O de Catalogne. Regardez leurs résultats [ici](https://www.qurium.org/alerts/spain/blocking-techniques-catalunya/).
-
-* **Mise à jour (2017-10-03 20:38 UTC):** Grâce à nos amis de [Security without Borders](https://securitywithoutborders.org/blog/2017/09/27/catalonia.html), vous pouvez [exécuter OONI Probe](https://ooni.org/install) pour tester les sites Web catalans pour la censure en cliquant sur le bouton "Exécuter OONI" ci-dessous:
-
-{{<ooni-run-banner link="https://run.ooni.io/nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22gateway.ipfs.io%22%2C%22cat.referendum.barcelona%22%2C%22referendum.enricpineda.cat%22%2C%22www.referendum.legal%22%2C%22www.referendum.party%22%2C%22www.referendum.ninja%22%2C%22www.referendum.love%22%2C%22www.referendum.fyi%22%2C%22www.referendum.rip%22%2C%22www.referendum.soy%22%2C%22www.referendum.lol%22%2C%22www.referendum.voto%22%2C%22www.referendum.works%22%2C%22www.referendum.observer%22%2C%22www.referendum.fun%22%2C%22alerta.cat%22%2C%22referendum.pirata.cat%22%2C%22referendum.pau.fm%22%2C%22www.referendumcat.eu%22%2C%22nigeon.github.io%22%2C%22www.ref1oct.eu%22%2C%22www.ref1oct.cat%22%2C%22ref1oct.net%22%2C%22ref1oct.org%22%2C%22referendum.zalo.nyc%22%2C%22aniol.github.io%22%2C%22referendum.cat%22%2C%22ref1oct.cat%22%2C%22www.marianorajoy.cat%22%2C%22garantiespelreferendum.com%22%2C%22referendum.clash.cat%22%2C%22marianorajoy.clash.cat%22%5D%7D&mv=1.2.0" text="Test Catalan referendum sites" >}}
+**Mise à jour (2017-01-04 16:00 UTC):** Qurium / Virtual Road a publié des données montrant les mécanismes utilisés pour bloquer les sites associés au référendum du 1-O de Catalogne. Regardez leurs résultats [ici](https://www.qurium.org/alerts/spain/blocking-techniques-catalunya/).
