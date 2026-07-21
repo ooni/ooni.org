@@ -26,19 +26,26 @@
       "permanent": true
     },
     {
-      "source": "/:path*",
+      "source": "/",
       "has": [{ "type": "host", "value": "msg.ooni.io" }],
       "destination": "https://ooni.org/",
       "permanent": true
     },
     {
       "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "labs.ooni.io"
-        }
-      ],
+      "has": [{ "type": "host", "value": "msg.ooni.io" }],
+      "destination": "https://ooni.org/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "labs.ooni.io" }],
+      "destination": "https://ooni.org/retired/labs",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "labs.ooni.io" }],
       "destination": "https://ooni.org/retired/labs",
       "permanent": true
     }
