@@ -182,7 +182,4 @@ L'avenir de la Catalogne reste tout à fait peu clair. Ce qui est clair, c'est q
 
 Des preuves sont nécessaires pour un débat public éclairé.
  
-
-*  **Mise à jour (2017-01-04 16:00 UTC):** Qurium / Virtual Road a publié des données montrant les mécanismes utilisés pour bloquer les sites associés au référendum du 1-O de Catalogne. Regardez leurs résultats [ici](https://www.qurium.org/alerts/spain/blocking-techniques-catalunya/).
-
-* **Mise à jour (2017-10-03 20:38 UTC):** Grâce à nos amis de [Security without Borders](https://securitywithoutborders.org/blog/2017/09/27/catalonia.html), vous pouvez [exécuter OONI Probe](https://ooni.org/install) pour tester les sites Web catalans pour la censure en cliquant sur le bouton "Exécuter OONI" ci-dessous:
+**Mise à jour (2017-01-04 16:00 UTC):** Qurium / Virtual Road a publié des données montrant les mécanismes utilisés pour bloquer les sites associés au référendum du 1-O de Catalogne. Regardez leurs résultats [ici](https://www.qurium.org/alerts/spain/blocking-techniques-catalunya/).
