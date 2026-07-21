@@ -178,5 +178,3 @@ El futuro de Cataluña sigue siendo poco claro. Lo que está claro es que es imp
 La evidencia es necesaria para un debate público informado.
 
 **Actualización (2017-10-04 16:00 UTC):** Qurium/Virtual Road han publicado datos mostrando los mecanismos usados para bloquear sitios web associados al referéndum del 1 de octubre en Catalunya. Los podéis leer [aquí](https://www.qurium.org/alerts/spain/blocking-techniques-catalunya/).
-
-**Actualización (2017-10-03 20:38 UTC):** Por cortesía de nuestros amigos de [Security Without Borders](https://securitywithoutborders.org/blog/2017/09/27/catalonia.html), ahora puedes [ejecutar OONI Probe](https://ooni.org/install) para probar la censura a sitios web catalanes haciendo clic en el botón "Run OONI" aquí.
