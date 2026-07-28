@@ -1,5 +1,5 @@
 ---
-title: "Italy Blocks Reproductive Rights Websites Women on Web (WoW) and Women Help Women (WHW)"
+title: "Italy Blocks Reproductive Health Websites Women on Web (WoW) and Women Help Women (WHW)"
 description: "This report documents the blocking of Women on Web (WoW) and Women Help Women (WHW) domains in Italy based on OONI data."
 author: "Maria Xynou (OONI), Arturo Filastò (OONI), Mehul Gulati (OONI), Venny Ala-Siurua (Women on Web), Hannes-Jeremia Jaacks (Women on Web)"
 date: "2026-07-28"
