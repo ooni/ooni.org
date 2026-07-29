@@ -4,9 +4,9 @@ description: This Data Policy discloses and explains what data the OONI project 
 aliases: ["/data-policy"]
 ---
 
-**Last modified:** October 15, 2024
+**Last modified:** July 29, 2026
 
-**Version:** 1.6.0
+**Version:** 1.7.0
 
 This Data Policy discloses and explains what data the [Open Observatory of
 Network Interference (OONI) project](https://ooni.org/) ("we", "us", or "our")
@@ -155,7 +155,7 @@ Details about our specific setup can be found in [ooni/sysadmin](https://github.
 ### OONI website
 
 We use the open source [Umami](https://umami.is/) analytics platform (using the [EU Umami cloud service](https://umami.is/docs/cloud)) to
-collect data on how many visits [OONI Explorer](https://explorer.ooni.org/) and our [website](https://ooni.org/) receive. This is
+collect data on how many visits our [website](https://ooni.org/) -- including [OONI Explorer](https://explorer.ooni.org/), [OONI Run](https://run.ooni.org/), and [OONI Probe Web](https://probe-web.ooni.org/) -- receive. This is
 done **without the use of cookies**. Since we do not use cookies or track any
 personal data, these analytics are [enabled by default](https://umami.is/docs/faq).
 
