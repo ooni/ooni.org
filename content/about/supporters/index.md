@@ -105,7 +105,7 @@ Below we share a [list of current and past OONI funders](#funders).
 
 {{< supporter-section title="Starfish Supporters" classExtra="grid-cols-1 sm:grid-cols-2 lg:grid-cols-3" >}}
 
-{{< supporter-text name="This could be you!" >}}
+{{< supporter-text name="Markus Unterwaditzer" >}}
 
 {{< /supporter-section >}}
 
