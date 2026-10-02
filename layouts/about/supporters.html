@@ -4,9 +4,75 @@
   <h1 class="article-title">{{ .Title }}</h1>
   {{ end }}
 
-  {{/* Intro text + logo sections + CTA (rendered from markdown content) */}}
-  <div class="prose prose-a:hover:text-ooniblue max-w-none">
+  <div class="prose prose-a:hover:text-ooniblue max-w-none mb-8">
     {{ .Content }}
+  </div>
+
+  {{/* ── Supporters ──────────────────────────────────────────────────── */}}
+  {{/* Styles are indexed by tier position, matching the order of .Params.tiers */}}
+  {{ $gridClasses := slice
+    "grid-cols-1 sm:grid-cols-2"
+    "grid-cols-2 sm:grid-cols-4"
+    "grid-cols-2 sm:grid-cols-3 lg:grid-cols-5"
+    "grid-cols-2 sm:grid-cols-4 lg:grid-cols-6" }}
+  {{ $imgHeights := slice "160px" "80px" "40px" "40px" }}
+  {{ $lastTier := sub (len .Params.tiers) 1 }}
+
+  {{ range $i, $tier := .Params.tiers }}
+  {{ $supporters := index ($.Params.supporters | default dict) (lower $tier.name) }}
+  {{ $isLastTier := eq $i $lastTier }}
+  {{ if or $supporters $isLastTier }}
+  <div class="not-prose mb-10">
+    <h3 class="mb-5 border-t-2 border-ooniblue pt-1 text-sm font-bold uppercase tracking-widest text-ooniblue">
+      {{ $tier.name }} Supporters
+    </h3>
+    <div class="grid {{ index $gridClasses $i }} gap-4">
+      {{ range $supporters }}
+      {{ $boxClasses := "flex items-center justify-center rounded-xl border border-gray2 bg-white text-center shadow-sm" }}
+      {{ $linkClasses := "transition-all duration-150 hover:border-ooniblue hover:shadow-md" }}
+
+      {{ if .img }}
+      {{ $img := $.Resources.GetMatch .img }}
+      {{ if not $img }}{{ errorf "Supporter image %q not found in %s" .img $.File.Dir }}{{ end }}
+      {{ $height := .imgHeight | default (index $imgHeights $i) }}
+      <a href="{{ .link }}" target="_blank" rel="noopener noreferrer"
+        class="group {{ $boxClasses }} {{ $linkClasses }} px-6 py-8">
+        <img class="w-full object-contain transition-opacity duration-150 group-hover:opacity-90"
+          src="{{ $img.RelPermalink }}" alt="{{ .name }}"
+          style="height: {{ $height }}; max-height: {{ $height }};" />
+      </a>
+      {{ else if .link }}
+      <a href="{{ .link }}" target="_blank" rel="noopener noreferrer"
+        class="{{ $boxClasses }} {{ $linkClasses }} px-4 py-6 text-sm font-semibold text-gray8 hover:text-ooniblue">
+        {{ .name }}
+      </a>
+      {{ else }}
+      <div class="{{ $boxClasses }} px-4 py-6 text-sm font-semibold text-gray8">{{ .name }}</div>
+      {{ end }}
+      {{ end }}
+
+      {{ if $isLastTier }}
+      <div class="flex flex-col items-center justify-center gap-2 rounded-xl border-2 border-dashed border-gray3 bg-gray0 px-4 py-6 text-center">
+        <span class="text-sm font-semibold text-ooniblue">This could be you!</span>
+        <a href="/donate/" class="text-xs text-gray5 transition-colors hover:text-ooniblue">Donate to get listed →</a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
+
+  <div class="not-prose mt-6 bg-gray0 px-6 py-6 ring-1 ring-white/10 sm:rounded-3xl">
+    <div class="mx-auto max-w-7xl px-6 py-6 lg:flex lg:items-center lg:justify-between lg:px-8">
+      <div>
+        <h2 class="text-3xl font-bold tracking-tight text-gray9 sm:text-4xl">Donate now to support internet freedom</h2>
+        {{ partial "ooni-work.html" . }}
+        <div class="mt-8">
+          <a href="/donate/"
+            class="rounded-md bg-ooniblue px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ooniblue">Donate</a>
+        </div>
+      </div>
+    </div>
   </div>
 
   {{/* ── Supporter Tiers ─────────────────────────────────────────────── */}}

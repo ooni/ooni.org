@@ -40,6 +40,43 @@ tiers:
     description: "Starfish, or sea stars, are known for their fascinating ability to regenerate lost arms."
     benefits:
       - "Listed as a supporter on our website (optional)"
+supporters:
+  octopus:
+    - name: "Jigsaw"
+      link: "https://jigsaw.google.com"
+      img: "images/Jigsaw.svg"
+    - name: "Pantheon"
+      link: "https://pantheon.io/"
+      img: "images/Pantheon.svg"
+  dolphin:
+    - name: "Amazon AWS Open Data"
+      link: "https://aws.amazon.com/opendata/"
+      img: "images/AWS Open Data.png"
+    - name: "Luminate"
+      link: "https://www.luminategroup.com/"
+      img: "images/Luminate.png"
+  seahorse:
+    - name: "Digital Ocean Hub for Good"
+      link: "https://www.digitalocean.com/community/pages/hollies-hub-for-good"
+      img: "images/DigitalOcean.svg"
+      imgHeight: "60px"
+    - name: "Greenhost eclips.is platform"
+      link: "https://greenhost.net/"
+      img: "images/Greenhost.svg"
+    - name: "Netlify"
+      link: "https://www.netlify.com/"
+      img: "images/Netlify.svg"
+    - name: "Surfshark"
+      link: "https://surfshark.com/"
+      img: "images/Surfshark.svg"
+    - name: "VPN Compare"
+      link: "https://www.vpncompare.co.uk/"
+      img: "images/VPNCompare.svg"
+    - name: "Web3Privacy Now"
+      link: "https://web3privacy.info/"
+      img: "images/web3privacy.png"
+  starfish:
+    - name: "Markus Unterwaditzer"
 funders_current:
   - name: "Ford Foundation"
     url: "https://www.fordfoundation.org/"
@@ -70,43 +107,3 @@ Supporters are organisations or individuals who believe in [OONI's mission](http
 giving@ooni.org.
 
 Below we share a [list of current and past OONI funders](#funders).
-
-{{< supporter-section title="Octopus supporters" classExtra="grid-cols-1 sm:grid-cols-2" >}}
-
-{{< supporter img="images/Jigsaw.svg" name="Jigsaw" link="https://jigsaw.google.com" imgHeight="160px" >}}
-
-{{< supporter img="images/Pantheon.svg" name="Pantheon" link="https://pantheon.io/" imgHeight="160px" >}}
-
-{{< /supporter-section >}}
-
-{{< supporter-section title="Dolphin Supporters" classExtra="grid-cols-2 sm:grid-cols-4" >}}
-
-{{< supporter img="images/AWS Open Data.png" name="Amazon AWS Open Data" link="https://aws.amazon.com/opendata/" imgHeight="80px" >}}
-
-{{< supporter img="images/Luminate.png" name="Luminate" link="https://www.luminategroup.com/" imgHeight="80px" >}}
-
-{{< /supporter-section >}}
-
-{{< supporter-section title="Seahorse Supporters" classExtra="grid-cols-2 sm:grid-cols-3 lg:grid-cols-5" >}}
-
-{{< supporter img="images/DigitalOcean.svg" name="Digital Ocean Hub for Good" link="https://www.digitalocean.com/community/pages/hollies-hub-for-good" imgHeight="60px" >}}
-
-{{< supporter img="images/Greenhost.svg" name="Greenhost eclips.is platform" link="https://greenhost.net/" imgHeight="40px" >}}
-
-{{< supporter img="images/Netlify.svg" name="Netlify" link="https://www.netlify.com/" imgHeight="40px" >}}
-
-{{< supporter img="images/Surfshark.svg" name="Surfshark" link="https://surfshark.com/" imgHeight="40px" >}}
-
-{{< supporter img="images/VPNCompare.svg" name="VPN Compare" link="https://www.vpncompare.co.uk/" imgHeight="40px" >}}
-
-{{< supporter img="images/web3privacy.png" name="Web3Privacy Now" link="https://web3privacy.info/" imgHeight="40px" >}}
-
-{{< /supporter-section >}}
-
-{{< supporter-section title="Starfish Supporters" classExtra="grid-cols-1 sm:grid-cols-2 lg:grid-cols-3" >}}
-
-{{< supporter-text name="Markus Unterwaditzer" >}}
-
-{{< /supporter-section >}}
-
-{{< cta-section title="Donate now to support internet freedom" button="Donate" href="/donate/" >}}
