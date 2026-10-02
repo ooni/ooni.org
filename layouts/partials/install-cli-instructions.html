@@ -12,16 +12,19 @@
  
       <li>
         <p class="font-medium">Install the GPG key:</p>
-        <pre class="mt-2 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed "><code>sudo gpg --no-default-keyring --keyserver hkp://keyserver.ubuntu.com --keyring /etc/apt/keyrings/ooni-apt-keyring.gpg --recv-keys 'B5A08F01796E7F521861B449372D1FF271F2DD50'</code></pre>
+        <pre class="mt-2 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed "><code>sudo apt-get install -y ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL "https://keyserver.ubuntu.com/pks/lookup?op=get&amp;options=mr&amp;search=0xB5A08F01796E7F521861B449372D1FF271F2DD50" -o /etc/apt/keyrings/ooni-apt-keyring.asc
+sudo chmod 644 /etc/apt/keyrings/ooni-apt-keyring.asc</code></pre>
       </li>
 
       <li>
         <p class="font-medium ">You can choose how to fetch OONI Probe:</p>
         <p class="mt-2"><strong>A)</strong> Using HTTP. This is the recommended option.</p>
-        <pre class="mt-1 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed"><code>echo "deb [signed-by=/etc/apt/keyrings/ooni-apt-keyring.gpg] https://deb.ooni.org/ unstable main" | sudo tee /etc/apt/sources.list.d/ooniprobe.list</code></pre>
+        <pre class="mt-1 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed"><code>echo "deb [signed-by=/etc/apt/keyrings/ooni-apt-keyring.asc] https://deb.ooni.org/ unstable main" | sudo tee /etc/apt/sources.list.d/ooniprobe.list</code></pre>
         <p class="mt-3"><strong>B)</strong> Using Tor. This is an alternative option in case the HTTP repository is not reachable. This requires running the tor daemon on your system.</p>
         <pre class="mt-1 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed"><code>sudo apt-get install tor apt-transport-tor
-echo "deb [signed-by=/etc/apt/keyrings/ooni-apt-keyring.gpg] tor+http://deb.ooni.org/ unstable main" | sudo tee /etc/apt/sources.list.d/ooniprobe.list</code></pre>
+echo "deb [signed-by=/etc/apt/keyrings/ooni-apt-keyring.asc] tor+http://deb.ooni.org/ unstable main" | sudo tee /etc/apt/sources.list.d/ooniprobe.list</code></pre>
       </li>
 
       <li>
