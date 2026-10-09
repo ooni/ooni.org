@@ -42,8 +42,9 @@ OONI [measurements](https://api.ooni.io/files/by_country/BJ), testing the access
 
 The following chart, based on [OONI data collected from Benin](https://api.ooni.io/files/by_country/BJ), illustrates the blocking of social media sites on 28th April 2019, amid Benin’s 2019 parliamentary elections.
 
-![](/post/2019-benin-social-media-blocking/OONI - Blocking of social media in Benin.png)
-**Figure 1:**Blocking of social media in Benin, Open Observatory of Network Interference (OONI) measurements, Benin: [https://explorer.ooni.io/country/BJ](https://explorer.ooni.io/country/BJ)
+![](/post/2019-benin-social-media-blocking/OONI%20-%20Blocking%20of%20social%20media%20in%20Benin.png)
+
+**Figure 1:** Blocking of social media in Benin, Open Observatory of Network Interference (OONI) measurements, Benin: [https://explorer.ooni.io/country/BJ](https://explorer.ooni.io/country/BJ)
 
 Most measurements were collected from the mobile operator [Spacetel (AS37424)](https://stat.ripe.net/AS37424#tabId=at-a-glance), locally known as MTN Benin, and consistently showed that the testing of the following social media sites presented HTTP failures: [facebook.com](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=https:%2F%2Ffacebook.com), [whatsapp.com](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=https:%2F%2Fwww.whatsapp.com), [telegram.org](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=https:%2F%2Ftelegram.org), [twitter.com](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=http:%2F%2Ftwitter.com), [instagram.com](https://explorer.ooni.io/measurement/20190428T044628Z_AS37424_wmcxWVQmJR0ootqOYGor7PUXJXWEKdPr8QIgsHOd8KpxCLGzMw?input=https:%2F%2Fwww.instagram.com), [skype.com](https://explorer.ooni.io/measurement/20190428T053237Z_AS37424_n2LS7jvw22xZWsiJgaV5FRdkRU8QvaxHgjT6rxMtfplUYLua5D?input=https:%2F%2Fwww.skype.com), [snapchat.com](https://explorer.ooni.io/measurement/20190428T053237Z_AS37424_n2LS7jvw22xZWsiJgaV5FRdkRU8QvaxHgjT6rxMtfplUYLua5D?input=https:%2F%2Fwww.snapchat.com), [imo.im](https://explorer.ooni.io/measurement/20190428T043240Z_AS37424_Rwc66AjfwIux5AnanLtjBjlGMHduDG4KOix2OjmNrCljGMAmc7?input=http:%2F%2Fimo.im%2F), [hangouts.google.com](https://explorer.ooni.io/measurement/20190428T032552Z_AS37424_V2ifoL0WDx09o1dSdXK1qXbF3ZBlrNcF6DjERmAT3jSGRXzO63?input=https:%2F%2Fhangouts.google.com%2F), [web.wechat.com](https://explorer.ooni.io/measurement/20190428T011523Z_AS37424_3BMK29ryPLYMbZB1vnJByHdSSX9C8XGK3ckBULg7AMXMD7pPPz?input=https:%2F%2Fweb.wechat.com%2F). Youtube though remained [accessible](https://explorer.ooni.io/measurement/20190428T025254Z_AS37424_Po0R55r3LxonVWdun5wkwlpuAdDomE4qa4k2bKrgOIWurX0jmy?input=https:%2F%2Fwww.youtube.com%2F) throughout the elections.
 
@@ -51,8 +52,9 @@ The blocking of WhatsApp was also detected through [OONI’s WhatsApp test](http
 
 The following chart illustrates the blocking of WhatsApp on MTN (AS37424) in Benin.
 
-![](/post/2019-benin-social-media-blocking/OONI - WhatsApp blocking in Benin.png)
-**Figure 2:**WhatsApp blocking in Benin, Open Observatory of Network Interference (OONI) measurements, Benin: [https://explorer.ooni.io/country/BJ](https://explorer.ooni.io/country/BJ)
+![](/post/2019-benin-social-media-blocking/OONI%20-%20WhatsApp%20blocking%20in%20Benin.png)
+
+**Figure 2:** WhatsApp blocking in Benin, Open Observatory of Network Interference (OONI) measurements, Benin: [https://explorer.ooni.io/country/BJ](https://explorer.ooni.io/country/BJ)
 
 Both WhatsApp’s web version (web.whatsapp.com) and the registration server used by WhatsApp’s mobile app appear to have been blocked on MTN Benin by midnight, 28th April 2019 (local time). Throughout the day, all [measurements](https://explorer.ooni.org/measurement/20190428T084731Z_AS37424_PEWoAruDdsUVHj3Do5fjh2q75YtW0zQUkciidHZDsbx7QwrQlC) collected from this network consistently showed that attempts to establish TCP connections to WhatsApp’s registration service failed, while HTTP requests to web.whatsapp.com rendered HTTP failures, with connections being reset. MTN Benin though did not block access to the addresses used by the WhatsApp application, but limited the block to merely the registration service.
 
@@ -62,9 +64,9 @@ Unlike WhatsApp, Facebook Messenger appears to have been [accessible](https://ex
 
 The following chart shows that [Facebook Messenger was accessible in Benin](https://explorer.ooni.io/measurement/20190428T100358Z_AS28683_B7vWp01e1GAAb6ffsg2jqoObgaJeBVxyHLQ1wVmQb3KmlNtpk9) on three different networks during the elections.
 
-![](/post/2019-benin-social-media-blocking/OONI - Facebook Messenger in Benin.png)
+![](/post/2019-benin-social-media-blocking/OONI%20-%20Facebook%20Messenger%20in%20Benin.png)
 
-**Figure 3:**Facebook Messenger testing in Benin, Open Observatory of Network Interference (OONI) measurements, Benin: [https://explorer.ooni.io/country/BJ](https://explorer.ooni.io/country/BJ)
+**Figure 3:** Facebook Messenger testing in Benin, Open Observatory of Network Interference (OONI) measurements, Benin: [https://explorer.ooni.io/country/BJ](https://explorer.ooni.io/country/BJ)
 
 All measurements show that TCP connections to Facebook’s endpoints succeeded (the few [DNS anomalies](https://explorer.ooni.io/measurement/20190428T233738Z_AS37424_KNTyT3H8DJXpCW4faM8PHZ6uw3dc9mogGkM6yKyt863JHbBzmo) were false positives), suggesting that Facebook Messenger worked while facebook.com was blocked.
 
@@ -72,13 +74,13 @@ Quite similarly, measurements collected through [OONI’s Telegram test](https:/
 
 ![](/post/2019-benin-social-media-blocking/telegram-blocking-benin.png)
 
-**Figure 4:**Telegram blocking in Benin, Open Observatory of Network Interference (OONI) measurements, Benin: [https://explorer.ooni.io/country/BJ](https://explorer.ooni.io/country/BJ)
+**Figure 4:** Telegram blocking in Benin, Open Observatory of Network Interference (OONI) measurements, Benin: [https://explorer.ooni.io/country/BJ](https://explorer.ooni.io/country/BJ)
 
 Several circumvention tool sites, such as [purevpn.fr](https://explorer.ooni.io/measurement/20190428T053237Z_AS37424_n2LS7jvw22xZWsiJgaV5FRdkRU8QvaxHgjT6rxMtfplUYLua5D?input=https:%2F%2Fwww.purevpn.fr), [betternet.co](https://explorer.ooni.io/measurement/20190428T052542Z_AS37424_SzAPN1eapTf9KNvmS3KnmsPIYau4Nk5QDZTHr34fhNeTeqNDJH?input=https:%2F%2Fwww.betternet.co%2F), and [tigervpn.com](https://explorer.ooni.io/measurement/20190428T053237Z_AS37424_n2LS7jvw22xZWsiJgaV5FRdkRU8QvaxHgjT6rxMtfplUYLua5D?input=https:%2F%2Fwww.tigervpn.com), presented HTTP failures. However, these failures are likely false positives, particularly given the fact that more popular circumvention tool sites, such as psiphon.ca, were [accessible](https://explorer.ooni.io/measurement/20190428T061116Z_AS37424_aHLn8cXXrPVYF4oeHd2DXZpwZACWcrhik7an5k2LaiU9OIiAuY?input=https:%2F%2Fpsiphon.ca%2F). The testing of openvpn.com presented an [anomaly](https://explorer.ooni.io/measurement/20190428T053237Z_AS37424_n2LS7jvw22xZWsiJgaV5FRdkRU8QvaxHgjT6rxMtfplUYLua5D?input=https:%2F%2Fopenvpn.net), but this was triggered by a cloudflare captcha page (i.e., the site was accessible in Benin during the elections).
 
 ### RIPE Atlas measurements
 
-As of 29th April 2019, the [RIPE Atlas measurements platform](https://atlas.ripe.net/about/) contains [10,458 probes](https://atlas.ripe.net/results/maps/network-coverage/) deployed worldwide for the purpose of measuring the Internet. The [RIPE Atlas probes](https://atlas.ripe.net/landing/probes-and-anchors/) can run pings, traceroutes, DNS, HTTP, SSL measurements, etc. Five of them were previously deployed within local networks in Benin. Among them, two were online on 28th April 2019, hosted in [JENY-SAS-AS (AS328098)](http://as-rank.caida.org/asns/?name=328098&type=search)(whose provider is Spacetel, [AS37424](http://as-rank.caida.org/asns/?name=37424&type=search)) and [ISOCEL Telecom (AS37090)](https://stat.ripe.net/AS37090#tabId=at-a-glance).
+As of 29th April 2019, the [RIPE Atlas measurements platform](https://atlas.ripe.net/about/) contains [10,458 probes](https://atlas.ripe.net/results/maps/network-coverage/) deployed worldwide for the purpose of measuring the Internet. The [RIPE Atlas probes](https://atlas.ripe.net/landing/probes-and-anchors/) can run pings, traceroutes, DNS, HTTP, SSL measurements, etc. Five of them were previously deployed within local networks in Benin. Among them, two were online on 28th April 2019, hosted in [JENY-SAS-AS (AS328098)](http://as-rank.caida.org/asns/?name=328098&type=search) (whose provider is Spacetel, [AS37424](http://as-rank.caida.org/asns/?name=37424&type=search)) and [ISOCEL Telecom (AS37090)](https://stat.ripe.net/AS37090#tabId=at-a-glance).
 
 Since HTTP queries are only enabled on RIPE Atlas anchors (none of which are hosted in Benin), we launched traceroutes from all online RIPE Atlas probes in the country towards the landing webpages of social media, such as [whatsapp.com](https://www.whatsapp.com/), [instagram.com](https://www.instagram.com/), [wechat.com](https://www.wechat.com/), [messenger.com](https://www.messenger.com/), [facebook.com](https://facebook.com/). The measurements cover the period April 28, 2019 at 07:04 UTC to April 30, 2019 at 05:19 UTC. The results of these measurements reflect the connectivity on the IP/network layer (and not on the application layer) from the host Autonomous System (AS).
 
@@ -93,23 +95,23 @@ Interestingly, the patterns registered for Probe 11944 when it comes to tracerou
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-1.png)
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-2.png)
 
-**Figure 5:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to [www.whatsapp.com](http://www.whatsapp.com), [https://atlas.ripe.net/measurements/21083876/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019. The red pattern is registered for Probe 32381 because the probe could not resolve the URL [www.whatsapp.com](http://www.whatsapp.com).
+**Figure 5:** RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to [www.whatsapp.com](http://www.whatsapp.com), [https://atlas.ripe.net/measurements/21083876/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019. The red pattern is registered for Probe 32381 because the probe could not resolve the URL [www.whatsapp.com](http://www.whatsapp.com).
 
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-3.png)
 
-**Figure 6:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to [www.instagram.com](http://www.instagram.com), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21084196](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
+**Figure 6:** RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to [www.instagram.com](http://www.instagram.com), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21084196](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
 
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-4.png)
 
-**Figure 7:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to [www.wechat.com](http://www.wechat.com), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21084197](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
+**Figure 7:** RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to [www.wechat.com](http://www.wechat.com), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21084197](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
 
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-5.png)
 
-**Figure 8:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to [www.messenger.com](http://www.wechat.com), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21084200](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
+**Figure 8:** RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to [www.messenger.com](http://www.wechat.com), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21084200](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
 
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-6.png)
 
-**Figure 9:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to [www.google.com](http://www.wechat.com), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21083844](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
+**Figure 9:** RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to [www.google.com](http://www.wechat.com), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21083844](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/), April 28, 2019
 
 Compared to those of Probe 32381, they are mostly consistent, except for the interval of time between ~12:00 UTC - 00:00 UTC, which is the time during which there was an Internet outage. These results are confirmed by in-depth inspection carried out on AS paths inferred from the traceroute outputs. They suggest that ASes ISOCEL on one side, JENY-AS and Spacetel experience the shutdown differently.
 
@@ -117,11 +119,11 @@ Measurements from Probe 11944, which are gathered from AS37090, are consistent w
 
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-7.png)
 
-**Figure 10:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to Google DNS (8.8.8.8), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21083844](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/) (AS paths inferences before the shutdown), April 28, 2019
+**Figure 10:** RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to Google DNS (8.8.8.8), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21083844](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/) (AS paths inferences before the shutdown), April 28, 2019
 
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-8.png)
 
-**Figure 11:**RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to Google DNS (8.8.8.8), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21083844](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/) (AS paths inferences during the shutdown), April 28, 2019
+**Figure 11:** RIPE Atlas measurement, Recurring IPv4 traceroute measurement from all probes online in Benin to Google DNS (8.8.8.8), [https://atlas.ripe.net/measurements/](https://atlas.ripe.net/measurements/21083876/)[21083844](https://atlas.ripe.net/measurements/21083876/)[/](https://atlas.ripe.net/measurements/21083876/) (AS paths inferences during the shutdown), April 28, 2019
 
 ![](/post/2019-benin-social-media-blocking/ripe-atlas-9.png)
 
