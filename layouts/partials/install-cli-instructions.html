@@ -12,10 +12,11 @@
  
       <li>
         <p class="font-medium">Install the GPG key:</p>
-        <pre class="mt-2 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed "><code>sudo apt-get install -y ca-certificates curl
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL "https://keyserver.ubuntu.com/pks/lookup?op=get&amp;options=mr&amp;search=0xB5A08F01796E7F521861B449372D1FF271F2DD50" -o /etc/apt/keyrings/ooni-apt-keyring.asc
-sudo chmod 644 /etc/apt/keyrings/ooni-apt-keyring.asc</code></pre>
+        <pre class="mt-2 overflow-x-auto rounded-md bg-gray1 p-3 text-xs leading-relaxed "><code>sudo apt-get install gnupg ca-certificates
+gpg --keyserver hkps://keyserver.ubuntu.com --recv-keys B5A08F01796E7F521861B449372D1FF271F2DD50
+gpg --export --armor B5A08F01796E7F521861B449372D1FF271F2DD50 &gt; ooni-apt-keyring.asc
+sudo install -D -m 0644 ooni-apt-keyring.asc /etc/apt/keyrings/ooni-apt-keyring.asc</code></pre>
+        <p class="mt-2">If you installed OONI Probe with older instructions, also remove the old key with <code>sudo rm -f /etc/apt/keyrings/ooni-apt-keyring.gpg</code> and redo step 2.</p>
       </li>
 
       <li>
