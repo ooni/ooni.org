@@ -65,6 +65,6 @@ By donating to OONI, you support:
 
 - [GitHub Sponsors](https://github.com/sponsors/ooni/)
 
-- [Open Collective](https://opencollective.com/ooni) (tax deductible for US donors)
+- [Open Collective](https://opencollective.com/ooni)
 
 Thank you for supporting the OONI-verse!
