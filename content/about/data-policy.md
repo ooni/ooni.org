@@ -4,7 +4,7 @@ description: This Data Policy discloses and explains what data the OONI project 
 aliases: ["/data-policy"]
 ---
 
-**Last modified:** October 19, 2026
+**Last modified:** October 21, 2026
 
 **Version:** 1.8.0
 
