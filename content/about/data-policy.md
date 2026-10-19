@@ -232,8 +232,7 @@ You cannot opt out of submitting your network ASN or information about the type
 of network (e.g. WiFi) you are running OONI Probe on, as this information is
 necessary in order for measurements to be useful.
 
-As part of the [OONI Probe TLS Middlebox test]
-(https://github.com/ooni/spec/pull/308/changes), we collect the IP addresses,
+As part of the [OONI Probe TLS Middlebox test](https://github.com/ooni/spec/pull/308/changes), we collect the IP addresses,
 AS, round-trip time (RTT), and country code information of routers on the
 network path from the user to the destination server. This information is
 collected on an **opt-in basis only**.
