@@ -55,7 +55,7 @@ By donating to OONI, you support:
 
 - [Real-time analysis](https://github.com/ooni/pipeline/) of internet censorship around the world
 
-- [Open data](https://ooni.org/data/) on internet censorship -- supporting global research and advocacy efforts
+- [Open data](https://ooni.org/data/) on internet censorship, supporting global research and advocacy efforts
 
 - [Research](https://ooni.org/reports/) on censorship events worldwide
 
@@ -65,6 +65,6 @@ By donating to OONI, you support:
 
 - [GitHub Sponsors](https://github.com/sponsors/ooni/)
 
-- [Open Collective](https://opencollective.com/ooni) (tax deductible for US donors)
+- [Open Collective](https://opencollective.com/ooni)
 
 Thank you for supporting the OONI-verse!
