@@ -26,7 +26,7 @@ Therefore the potential risks associated to running OONI Probe depend on:
 
 2. **The laws and regulations in the country that you are running OONI Probe from.** Best to consult with local lawyers, and to learn whether that country has a record in prosecuting individuals engaging in similar types of activities.
 
-3. **The types of OONI Probe tests run.** Not all OONI Probe tests carry the same weight in terms of potential risk. OONI's [WhatsApp test](https://ooni.org/nettest/whatsapp/), for example, merely attempts to connect to servers that are already connected by more than a billion people around the world. You can choose which tests to run through the OONI Probe apps.
+3. **The types of OONI Probe tests run.** Not all OONI Probe tests carry the same weight in terms of potential risk. OONI's [WhatsApp test](https://ooni.org/nettest/whatsapp/), for example, merely attempts to connect to servers that are already connected to by more than a billion people around the world, while the advanced mode of OONI’s [TLS Middlebox test](https://github.com/ooni/spec/blob/master/nettests/ts-037-tlsmiddlebox.md) can potentially reveal the city level location and the IP address of the user. You can choose which tests to run through the OONI Probe apps.
 
 4. **The types of sites that you test.** You can test the websites of your choice through the "Choose websites" button in the OONI Probe mobile app, or by using the [OONI Run](https://run.ooni.io/) platform. You can also [contribute to test lists](https://ooni.org/get-involved/contribute-test-lists/) and suggest URLs to be added or removed. 
 
@@ -159,6 +159,10 @@ by OONI Probe may include such information if, for example, a website includes
 tracking codes or custom content based on your network location. Identifying
 information could potentially aid third parties in detecting you as an OONI Probe
 user.
+
+If you opt-in to the Advanced Mode of the [OONI Probe TLS Middlebox test](https://github.com/ooni/spec/blob/master/nettests/ts-037-tlsmiddlebox.md), we
+will collect and publish the IP address of each router along the network path
+from the user to the destination server.
 
 ### Risks: OONI Probe tests
 

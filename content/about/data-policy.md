@@ -4,9 +4,9 @@ description: This Data Policy discloses and explains what data the OONI project 
 aliases: ["/data-policy"]
 ---
 
-**Last modified:** July 29, 2026
+**Last modified:** October 22, 2026
 
-**Version:** 1.7.0
+**Version:** 1.8.0
 
 This Data Policy discloses and explains what data the [Open Observatory of
 Network Interference (OONI) project](https://ooni.org/) ("we", "us", or "our")
@@ -232,6 +232,11 @@ You cannot opt out of submitting your network ASN or information about the type
 of network (e.g. WiFi) you are running OONI Probe on, as this information is
 necessary in order for measurements to be useful.
 
+As part of the [OONI Probe TLS Middlebox test](https://github.com/ooni/spec/blob/master/nettests/ts-037-tlsmiddlebox.md), we collect the IP addresses,
+AS, round-trip time (RTT), and country code information of routers on the
+network path from the user to the destination server. This information is
+collected on an **opt-in basis only**.
+
 #### Operating system and browser name
 
 Through the [OONI Probe mobile and desktops apps](https://ooni.org/install), we
@@ -277,6 +282,10 @@ However, we **might unintentionally** collect your IP addresses and other
 personally-identifiable information if this data is included in the HTTP headers
 or other metadata of OONI measurements. This data, for example, might be collected if
 the [websites](https://ooni.org/support/faq/#which-websites-will-i-test-for-censorship-with-ooni-probe) OONI Probe is testing employ tracking technologies or contain custom content.
+
+If you **opt-in to the Advanced Mode** of the [OONI Probe TLS Middlebox test](https://github.com/ooni/spec/blob/master/nettests/ts-037-tlsmiddlebox.md), we will
+collect and publish the IP address of each router along the network path from
+the user to the destination server.
 
 If you run the performance tests included in the OONI Probe apps, the [Measurement Lab (M-Lab)](https://www.measurementlab.net/) will collect and publish your IP address, irrespective of your OONI Probe settings. Learn more about M-Lab's data governance through its [privacy statement](https://www.measurementlab.net/privacy/).
 
