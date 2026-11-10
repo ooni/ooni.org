@@ -58,6 +58,6 @@ Compared to default mode, the additional IP address and timing information of th
 
 ## Current Deployment and Feedback Request
 
-We have released the new TLS Middlebox experiment in the OONI Probe engine/CLI (`v3.31.0`) and in the OONI Probe mobile and desktop apps (`v6.3.0`). Currently, the [OONI Probe app](https://ooni.org/install) only supports the **default mode** for the experiment, while the [OONI Probe CLI](https://ooni.org/install/cli) supports both the default and advanced modes.
+We have released the new TLS Middlebox experiment in the OONI Probe engine/CLI (`v3.31.0`) and in the OONI Probe mobile and desktop apps (`v6.3.0`). Currently, the [OONI Probe app](https://ooni.org/install) only supports the **default mode** for the experiment, while the [OONI Probe CLI](https://ooni.org/install/cli) supports *both* the default and advanced modes.
 
-Since the advanced mode of the OONI Probe TLS Middlebox experiment can potentially expose a user’s city and/or /24 prefix, we would like to collect additional community feedback before rolling out the advanced mode on the OONI Probe app (which is used by most of our users worldwide). As such, we have published a **[survey](https://ooni.org/post/2026-tls-middlebox-survey)**, which we encourage you to fill out to share your feedback.
+Since the advanced mode of the OONI Probe TLS Middlebox experiment can potentially expose a user’s city and/or /24 prefix, we would like to collect additional community feedback before rolling out the advanced mode on the OONI Probe app (which is used by most of our users worldwide). As such, we have published a **[survey](https://ooni.org/post/2026-tls-middlebox-survey)**, which we encourage you to fill out to share your feedback: https://forms.gle/z5kjVTTUGLryRFcK8
