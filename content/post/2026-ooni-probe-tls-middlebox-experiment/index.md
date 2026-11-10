@@ -3,7 +3,7 @@ title: "New OONI Probe TLS Middlebox Experiment"
 description: "OONI released a new OONI Probe TLS middlebox experiment."
 author: "Sadia Nourin"
 date: "2026-11-10"
-tags: ["ooni", "ooniprobe", "tlsmiddlebox", "launch"]
+tags: ["ooni", "ooniprobe", "experiment", "tlsmiddlebox", "launch"]
 categories: ["blog"]
 ---
 
