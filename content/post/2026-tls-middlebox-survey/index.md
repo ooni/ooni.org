@@ -1,9 +1,9 @@
 ---
 title: "Survey: Collecting Additional Geographic and Network-Level Data with OONI Probe"
-description: "Share your feedback on additional geographic and network-level data collection through OONI's new survey."
+description: "Fill out OONI's new survey to share your feedback on additional geographic and network-level data collection through OONI Probe."
 author: "Sadia Nourin"
 date: "2026-11-10"
-tags: ["ooni", "ooniprobe", "tlsmiddlebox", "survey", "community feedback"]
+tags: ["ooni", "ooniprobe", "tlsmiddlebox", "survey"]
 categories: ["blog"]
 ---
 
